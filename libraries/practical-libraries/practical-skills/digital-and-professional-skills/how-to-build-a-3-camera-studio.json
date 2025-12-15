@@ -1,0 +1,143 @@
+{
+  "name": "How to Build a 3-Camera Studio",
+  "created_by": "Pete and Gemini",
+  "chapters": [
+    {
+      "name": "Site Selection and Preparation",
+      "topics": [
+        "How does the facility accommodate heavy equipment load-in and talent flow?",
+        "What are the minimum dimensions required for a professional depth-of-field look?",
+        "How do we evaluate specific rooms based on uncontrollable variables?",
+        "How can we achieve an acceptable noise floor without structural decoupling?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "digital-life",
+        "photography"
+      ]
+    },
+    {
+      "name": "Architectural (The Retrofit)",
+      "topics": [
+        "Why design floor plans for the 90% of needs rather than the uncommon 10%?",
+        "How do we ensure ADA compliance and safety with cable runs?",
+        "How do we calculate cooling load and modify HVAC for noise?",
+        "How do we separate 'technical power' from 'dirty' building power?",
+        "How do we adapt a standard drop-ceiling to support a lighting grid?",
+        "What is the solution to permanently block external daylight?",
+        "How do we treat existing office walls to minimize light bounce?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "architecture",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Acoustic Treatment & Physics",
+      "topics": [
+        "How do we treat flutter echo in square rooms?",
+        "What materials effectively mitigate wall bleed?",
+        "How do we balance absorption vs. diffusion?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "application",
+        "interdisciplinary"
+      ]
+    },
+    {
+      "name": "The Lighting Plot & Grid Design",
+      "topics": [
+        "How do we set a Key Light for 3 cameras simultaneously?",
+        "How do we rig Rim lights in a low-ceiling environment?",
+        "How do we create multiple zones on one grid?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "digital-life",
+        "photography"
+      ]
+    },
+    {
+      "name": "Studio Equipment Requirements",
+      "topics": [
+        "PTZ vs. Cinema Line: Which to choose for this constraint?",
+        "How do we select lighting fixtures for audio sensitivity?",
+        "How do we evaluate Vendor Ecosystem vs. Interoperability?",
+        "What is the strategy for Lavalier vs. Boom Microphones?",
+        "How do we integrate through-the-lens teleprompting?",
+        "Should we use Rolling Pedestals or Static Mounts?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "digital-life",
+        "photography"
+      ]
+    },
+    {
+      "name": "Control Room Equipment",
+      "topics": [
+        "How do we configure Multiview vs. Program monitors?",
+        "How do we choose between Hardware vs. Software Switching?",
+        "How do we manage 'Last Mile' transmission through firewalls?",
+        "What is the cost-effective comms solution?",
+        "When should we use ISO vs. Program Recording?",
+        "How do we isolate director noise in shared spaces?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "digital-life",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Remote & Hybrid Workflows",
+      "topics": [
+        "How do we route Mix-Minus audio?",
+        "Where do we place the confidence monitor?",
+        "Should we use Hardware Encoders or Software Bridges?"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "infrastructure",
+        "media"
+      ]
+    },
+    {
+      "name": "Talent Management",
+      "topics": [
+        "What are the specific Wardrobe Restrictions?",
+        "How do we coach the 'Deer in Headlights' effect?",
+        "What is the 'Anti-Shine' Makeup Strategy?"
+      ],
+      "tags": [
+        "media",
+        "workplace-dynamics",
+        "human-rights",
+        "photography"
+      ]
+    },
+    {
+      "name": "Post-Production & Asset Management",
+      "topics": [
+        "How do we implement Timecode vs. Audio Sync?",
+        "How do we manage Proxy Workflows for 4K?",
+        "What is the Archival Strategy for ISOs vs. Masters?"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "innovation",
+        "photography"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Alaska",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Daniel S. Sullivan (R)",
+        "Dustin Darden (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ann Diener (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Richard Grayson (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

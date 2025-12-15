@@ -1,0 +1,126 @@
+{
+  "name": "Artificial Intelligence and Learning",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Artificial Intelligence?",
+      "topics": [
+        "How do researchers define artificial intelligence?",
+        "What is the difference between narrow AI and general AI?",
+        "What are the major approaches to AI: symbolic, statistical, neural?",
+        "How has our understanding of AI changed since the field began in 1956?",
+        "What can AI do today and what remains beyond its reach?",
+        "Is current AI actually intelligent or just sophisticated pattern matching?"
+      ],
+      "tags": ["technology", "ai-ml", "computer-science", "education"]
+    },
+    {
+      "name": "Machine Learning Fundamentals",
+      "topics": [
+        "What is machine learning and how does it differ from traditional programming?",
+        "What are supervised, unsupervised, and reinforcement learning?",
+        "How do training sets, validation sets, and test sets work?",
+        "What is overfitting and why is it a problem?",
+        "How do algorithms learn patterns from data?",
+        "What makes some machine learning problems easier than others?"
+      ],
+      "tags": ["technology", "ai-ml", "computer-science", "methodology"]
+    },
+    {
+      "name": "Neural Networks and Deep Learning",
+      "topics": [
+        "What is a neural network and how is it inspired by the brain?",
+        "What are the layers in a neural network and what do they do?",
+        "How does backpropagation train neural networks?",
+        "What made deep learning suddenly successful around 2012?",
+        "What are convolutional neural networks and why do they excel at images?",
+        "What are recurrent neural networks and how do they handle sequences?"
+      ],
+      "tags": ["technology", "ai-ml", "neuroscience", "innovation"]
+    },
+    {
+      "name": "Large Language Models",
+      "topics": [
+        "What are large language models like GPT and how do they work?",
+        "What is the transformer architecture and why was it revolutionary?",
+        "How do language models predict the next word?",
+        "What is fine-tuning and how does it specialize general models?",
+        "What are the capabilities and limitations of current language models?",
+        "How do language models sometimes hallucinate or make things up?"
+      ],
+      "tags": ["technology", "ai-ml", "linguistics", "innovation"]
+    },
+    {
+      "name": "Computer Vision",
+      "topics": [
+        "How do computers learn to see and recognize objects?",
+        "What is image classification and how accurate are current systems?",
+        "How do object detection algorithms find multiple items in images?",
+        "What is facial recognition and what are its capabilities and risks?",
+        "How do self-driving cars perceive their environment?",
+        "What challenges remain in computer vision?"
+      ],
+      "tags": ["technology", "ai-ml", "computer-science", "applications"]
+    },
+    {
+      "name": "Natural Language Processing",
+      "topics": [
+        "How do computers process and understand human language?",
+        "What is sentiment analysis and how do companies use it?",
+        "How do machine translation systems work?",
+        "What is named entity recognition and information extraction?",
+        "How do chatbots and virtual assistants generate responses?",
+        "Why is human language so difficult for computers to understand?"
+      ],
+      "tags": ["technology", "ai-ml", "linguistics", "applications"]
+    },
+    {
+      "name": "Reinforcement Learning",
+      "topics": [
+        "What is reinforcement learning and how does it learn from rewards?",
+        "How did AlphaGo defeat the world champion at Go?",
+        "What is the explore-exploit tradeoff?",
+        "How do robots learn to walk and manipulate objects?",
+        "What are the applications of reinforcement learning in the real world?",
+        "What makes reinforcement learning different from other approaches?"
+      ],
+      "tags": ["technology", "ai-ml", "robotics", "games"]
+    },
+    {
+      "name": "AI Ethics and Bias",
+      "topics": [
+        "What is algorithmic bias and how does it arise in AI systems?",
+        "How can AI systems perpetuate or amplify existing discrimination?",
+        "What is fairness in machine learning and how do we measure it?",
+        "Who is responsible when AI systems cause harm?",
+        "How should AI development be governed and regulated?",
+        "What ethical principles should guide AI research?"
+      ],
+      "tags": ["technology", "ai-ml", "ethics", "human-rights"]
+    },
+    {
+      "name": "AI Safety and Alignment",
+      "topics": [
+        "What is the AI alignment problem?",
+        "How do we ensure AI systems do what we actually want?",
+        "What are existential risks from advanced AI?",
+        "How do researchers try to make AI systems safe and controllable?",
+        "What is interpretable AI and why does it matter?",
+        "What debates exist about the timeline for advanced AI?"
+      ],
+      "tags": ["technology", "ai-ml", "ethics", "safety"]
+    },
+    {
+      "name": "The Future of AI",
+      "topics": [
+        "What might artificial general intelligence look like?",
+        "How will AI change work and employment?",
+        "What creative tasks can AI perform and what does that mean for artists?",
+        "How might AI transform healthcare, science, and education?",
+        "What AI capabilities might emerge in the next decade?",
+        "How should society prepare for increasingly capable AI?"
+      ],
+      "tags": ["technology", "ai-ml", "innovation", "future"]
+    }
+  ]
+}

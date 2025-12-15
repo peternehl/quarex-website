@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "operational-purpose-and-mission",
+    "name": "Operational Purpose & Mission",
+    "description": null,
+    "chapterCount": 6,
+    "created_by": "ChatGPT",
+    "tags": []
+  },
+  {
+    "slug": "physical-systems",
+    "name": "Physical Systems",
+    "description": null,
+    "chapterCount": 5,
+    "created_by": "ChatGPT",
+    "tags": []
+  },
+  {
+    "slug": "power-energy-and-cooling-systems",
+    "name": "Power, Energy & Cooling Systems",
+    "description": null,
+    "chapterCount": 6,
+    "created_by": "ChatGPT",
+    "tags": []
+  },
+  {
+    "slug": "geographic-role-and-network-topology",
+    "name": "Geographic Role & Network Topology",
+    "description": null,
+    "chapterCount": 5,
+    "created_by": "ChatGPT",
+    "tags": []
+  },
+  {
+    "slug": "workloads-compute-identity-and-risk",
+    "name": "Workloads, Compute, Identity & Risk",
+    "description": null,
+    "chapterCount": 6,
+    "created_by": "ChatGPT",
+    "tags": []
+  },
+  {
+    "slug": "availability-and-failure-engineering",
+    "name": "Availability & Failure Engineering",
+    "description": null,
+    "chapterCount": 5,
+    "created_by": "ChatGPT",
+    "tags": []
+  },
+  {
+    "slug": "ownership-control-and-sovereignty",
+    "name": "Ownership, Control & Sovereignty",
+    "description": null,
+    "chapterCount": 5,
+    "created_by": "ChatGPT",
+    "tags": []
+  }
+]

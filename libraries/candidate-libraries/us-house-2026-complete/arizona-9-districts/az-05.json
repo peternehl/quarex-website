@@ -1,0 +1,51 @@
+{
+  "name": "AZ-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Thomas Feely (R)",
+        "Travis Grantham (R)",
+        "Daniel Keenan (R)",
+        "Mark Lamb (R)",
+        "Alex Stovall (R)",
+        "Andy Biggs (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Blake Bracht (D)",
+        "Brian Hualde (D)",
+        "Chris James (D)",
+        "Elizabeth Lee (D)",
+        "Evan Olson (D)",
+        "Justin Poff (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Richard Grayson (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

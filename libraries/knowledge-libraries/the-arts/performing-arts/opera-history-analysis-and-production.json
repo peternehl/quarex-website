@@ -1,0 +1,125 @@
+{
+  "name": "Opera: History, Analysis, and Production",
+  "chapters": [
+    {
+      "name": "Baroque Opera and Early Forms",
+      "topics": [
+        "How did opera emerge in late Renaissance Italy as an attempt to recreate Greek drama?",
+        "What innovations did Monteverdi bring to early opera?",
+        "How did Baroque opera seria and opera buffa differ in style and subject?",
+        "What was the role of the castrato in Baroque opera?",
+        "How did Handel's operas work dramatically and musically?",
+        "What conventions of recitative and aria structured early opera?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "music"]
+    },
+    {
+      "name": "Mozart and Classical Opera",
+      "topics": [
+        "How did Mozart transform opera in works like Don Giovanni and The Marriage of Figaro?",
+        "What made Mozart's collaboration with librettist Da Ponte so successful?",
+        "How does The Magic Flute blend Singspiel, Masonic symbolism, and fairy tale?",
+        "What vocal and dramatic demands do Mozart's operas place on singers?",
+        "How did Mozart's ensembles advance dramatic action in new ways?",
+        "Why are Mozart's operas considered the foundation of the standard repertoire?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "music"]
+    },
+    {
+      "name": "Italian Bel Canto Tradition",
+      "topics": [
+        "What does bel canto mean and what vocal technique does it require?",
+        "How did Rossini, Donizetti, and Bellini define the bel canto style?",
+        "What dramatic situations and character types appear in bel canto opera?",
+        "How do coloratura passages serve dramatic purposes in these works?",
+        "Why did bel canto fall out of favor and how has it been revived?",
+        "What do singers need to master technically to perform bel canto roles?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "music"]
+    },
+    {
+      "name": "Wagner and German Romantic Opera",
+      "topics": [
+        "How did Wagner's concept of Gesamtkunstwerk revolutionize opera?",
+        "What is leitmotif and how does Wagner use it to structure his music dramas?",
+        "What makes the Ring Cycle such an ambitious and influential work?",
+        "How did Wagner design Bayreuth specifically for his operas?",
+        "What philosophical and mythological ideas inform Wagner's libretti?",
+        "Why does Wagner remain both influential and controversial today?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "music"]
+    },
+    {
+      "name": "Verdi and Italian Opera",
+      "topics": [
+        "How did Verdi's operas capture Italian nationalism and political feeling?",
+        "What dramatic and musical innovations mark Verdi's early, middle, and late periods?",
+        "How do Rigoletto, La Traviata, and Aida show Verdi's development?",
+        "What makes Otello and Falstaff masterpieces of Verdi's final period?",
+        "How do Verdi's vocal writing and orchestration serve drama?",
+        "Why does Verdi remain the most performed opera composer worldwide?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "music"]
+    },
+    {
+      "name": "French Opera Traditions",
+      "topics": [
+        "What distinguished French grand opera from Italian traditions?",
+        "How did composers like Meyerbeer, Gounod, and Massenet shape French opera?",
+        "What is opéra comique and how does it differ from operetta?",
+        "How did Bizet's Carmen transform opera with its realism and subject matter?",
+        "What role did ballet play in French operatic traditions?",
+        "How did Debussy's Pelléas et Mélisande break from Romantic conventions?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "music"]
+    },
+    {
+      "name": "20th Century Opera",
+      "topics": [
+        "How did verismo opera bring gritty realism to the operatic stage?",
+        "What innovations did Puccini bring to operatic melody and drama?",
+        "How did composers like Strauss, Berg, and Britten expand opera's expressive range?",
+        "What experiments with atonality and new structures changed opera?",
+        "How did American opera develop through Gershwin, Menotti, and others?",
+        "What political and social themes entered 20th-century opera?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "music"]
+    },
+    {
+      "name": "Contemporary Opera and New Works",
+      "topics": [
+        "Who are the major composers writing new operas today?",
+        "How have contemporary operas addressed current social and political issues?",
+        "What new approaches to libretto and storytelling have emerged?",
+        "How are opera companies commissioning and developing new works?",
+        "What role do chamber operas and smaller-scale works play in the field?",
+        "How is technology changing what contemporary opera can do on stage?"
+      ],
+      "tags": ["arts", "performing-arts", "music", "innovation"]
+    },
+    {
+      "name": "Opera Production and Staging",
+      "topics": [
+        "What does a stage director do when creating an opera production?",
+        "How do traditional and modern staging approaches to opera differ?",
+        "What considerations shape set, costume, and lighting design for opera?",
+        "How do directors work with singers who must prioritize vocal production?",
+        "What controversies arise around updating operas to new settings?",
+        "How do opera houses balance preserving tradition with fresh interpretation?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "music"]
+    },
+    {
+      "name": "Vocal Technique for Opera",
+      "topics": [
+        "What training do opera singers need to project unamplified over an orchestra?",
+        "How do the voice types—soprano, mezzo, tenor, baritone, bass—differ technically?",
+        "What is the passaggio and how do singers navigate vocal registers?",
+        "How do singers prepare roles in languages they may not speak fluently?",
+        "What are the physical and lifestyle demands of an operatic career?",
+        "How has vocal technique and teaching evolved over the centuries?"
+      ],
+      "tags": ["arts", "performing-arts", "music", "education"]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "PA-16",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Mike Kelly (I)",
+        "Nick Singelis (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "us-politics",
+        "representation"
+      ]
+    }
+  ]
+}

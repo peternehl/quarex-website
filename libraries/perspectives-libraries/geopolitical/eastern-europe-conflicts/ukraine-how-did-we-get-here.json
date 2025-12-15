@@ -1,0 +1,349 @@
+{
+  "name": "Ukraine: How Did We Get Here?",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "Ukraine war",
+    "Russia-Ukraine",
+    "Putin",
+    "NATO expansion",
+    "Crimea",
+    "Eastern Europe",
+    "geopolitics"
+  ],
+  "chapters": [
+    {
+      "name": "The Roots of Ukrainian Identity (Pre-1917)",
+      "topics": [
+        "Is Ukraine a 'real' nation or a Soviet invention?",
+        "What was Kyivan Rus, and why do both Russia and Ukraine claim it?",
+        "How did centuries of Polish, Lithuanian, and Russian rule shape Ukraine?",
+        "Who were the Cossacks, and why do they matter to Ukrainian identity?",
+        "Why was Ukrainian language and culture suppressed under the Tsars?"
+      ],
+      "tags": [
+        "society",
+        "identity",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Revolution, Independence, and Loss (1917-1922)",
+      "topics": [
+        "How did Ukraine briefly become independent after World War I?",
+        "Why did multiple Ukrainian governments rise and fall in just four years?",
+        "How did the Bolsheviks ultimately absorb Ukraine into the Soviet Union?",
+        "What borders were drawn, and why do they matter today?",
+        "What happened to Crimea during this chaotic period?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "immigration",
+        "europe"
+      ]
+    },
+    {
+      "name": "The Soviet Era (1922-1991)",
+      "topics": [
+        "What was the Holodomor, and why does Ukraine call it genocide?",
+        "How did Stalin's terror reshape Ukraine's population and leadership?",
+        "Why was Crimea transferred from Russia to Ukraine in 1954?",
+        "How did World War II devastate Ukraine—and divide its memory?",
+        "What was the Chernobyl disaster's impact on Soviet credibility?",
+        "How did Ukrainians begin asserting independence in the late 1980s?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Independence and the Nuclear Question (1991-1994)",
+      "topics": [
+        "How did Ukraine suddenly become the world's third-largest nuclear power?",
+        "What promises did the Budapest Memorandum contain?",
+        "Why did Ukraine give up its nuclear weapons—and does it regret it?",
+        "How did Russia and Ukraine divide the Soviet military and Black Sea Fleet?",
+        "What economic chaos followed independence?"
+      ],
+      "tags": [
+        "economics",
+        "sustainability",
+        "nuclear-energy",
+        "europe"
+      ]
+    },
+    {
+      "name": "The Oligarch Era (1994-2004)",
+      "topics": [
+        "How did a small group of oligarchs capture Ukraine's economy?",
+        "Who was Leonid Kuchma, and why was his presidency controversial?",
+        "What was the Gongadze murder, and what did it reveal about Ukrainian politics?",
+        "How did Ukraine try to balance between Russia and the West?",
+        "Why did corruption become so entrenched?"
+      ],
+      "tags": [
+        "politics",
+        "sustainability",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The Orange Revolution (2004-2005)",
+      "topics": [
+        "What triggered the Orange Revolution?",
+        "Who were Viktor Yushchenko and Yulia Tymoshenko?",
+        "How did Yushchenko survive poisoning, and who was responsible?",
+        "Why did the revolution's promise ultimately fade?",
+        "How did Russia view this 'color revolution' on its border?"
+      ],
+      "tags": [
+        "philosophy",
+        "accountability",
+        "immigration",
+        "europe"
+      ]
+    },
+    {
+      "name": "The Yanukovych Years (2010-2014)",
+      "topics": [
+        "How did Viktor Yanukovych return to power after the Orange Revolution?",
+        "Why did he imprison Yulia Tymoshenko?",
+        "What was the EU Association Agreement, and why did it matter?",
+        "Why did Yanukovych suddenly reject the EU deal in November 2013?",
+        "What pressure did Putin apply to keep Ukraine in Russia's orbit?"
+      ],
+      "tags": [
+        "media",
+        "energy",
+        "europe",
+        "journalism"
+      ]
+    },
+    {
+      "name": "Maidan—Revolution of Dignity (2013-2014)",
+      "topics": [
+        "What sparked the Euromaidan protests?",
+        "Who were the protesters, and what did they want?",
+        "How did peaceful protest turn into deadly confrontation?",
+        "Who were the 'Heavenly Hundred' killed by snipers?",
+        "How did Yanukovych fall, and where did he flee?",
+        "Was Maidan a democratic revolution or a Western-backed coup?"
+      ],
+      "tags": [
+        "philosophy",
+        "democracy",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Crimea—The First Seizure (2014)",
+      "topics": [
+        "How did 'little green men' appear overnight in Crimea?",
+        "What was the Crimean referendum, and why don't most countries recognize it?",
+        "Did Crimeans actually want to join Russia?",
+        "How did Russia justify annexation legally and historically?",
+        "Why didn't Ukraine or the West respond militarily?",
+        "What happened to Crimean Tatars after annexation?"
+      ],
+      "tags": [
+        "history",
+        "sustainability",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "War in Donbas (2014-2022)",
+      "topics": [
+        "How did separatist movements emerge in Donetsk and Luhansk?",
+        "Were these genuine local uprisings or Russian-orchestrated operations?",
+        "What happened when Malaysia Airlines Flight 17 was shot down?",
+        "What did the Minsk Agreements promise, and why did they fail?",
+        "How many people died in the eight years before full-scale invasion?",
+        "Why did the conflict become 'frozen'—and was it ever really frozen?"
+      ],
+      "tags": [
+        "conflict",
+        "activism",
+        "music",
+        "europe"
+      ]
+    },
+    {
+      "name": "NATO and Russia's 'Red Lines' (1991-2022)",
+      "topics": [
+        "Was Russia promised NATO wouldn't expand eastward?",
+        "Why did former Soviet states want to join NATO?",
+        "What did Putin's 2007 Munich speech signal?",
+        "How did the 2008 Bucharest Summit inflame tensions over Ukraine?",
+        "Is NATO expansion a legitimate Russian security concern or a pretext?",
+        "Could different Western policies have prevented war?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Putin's Worldview",
+      "topics": [
+        "What does Putin believe about Ukrainian nationhood?",
+        "What was Putin's July 2021 essay, and why does it matter?",
+        "How does Putin view the collapse of the Soviet Union?",
+        "What role does Russian nationalism and Orthodox Christianity play?",
+        "Is Putin rational, ideological, or paranoid—or all three?",
+        "What does 'denazification' mean in Russian propaganda?"
+      ],
+      "tags": [
+        "philosophy",
+        "critical-thinking",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The Full-Scale Invasion Begins (February 2022)",
+      "topics": [
+        "What happened in the hours and days after February 24, 2022?",
+        "Why did Russia expect Kyiv to fall in days?",
+        "How did Zelensky's response transform his presidency?",
+        "What went wrong with Russia's initial military plan?",
+        "How did ordinary Ukrainians respond to invasion?",
+        "Why did the Battle of Kyiv become a turning point?"
+      ],
+      "tags": [
+        "conflict",
+        "sustainability",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The War's Evolution (2022-2024)",
+      "topics": [
+        "How did the war shift from blitzkrieg to grinding attrition?",
+        "What happened at Bucha, Mariupol, and Bakhmut?",
+        "How has Russia targeted civilian infrastructure?",
+        "What did Ukraine's 2022 counteroffensives achieve?",
+        "Why did the 2023 counteroffensive fall short of expectations?",
+        "How has the front line changed over two years?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Weapons, Aid, and Western Support",
+      "topics": [
+        "What weapons has the West provided, and what has it withheld?",
+        "Why have decisions on tanks, jets, and long-range missiles been so contentious?",
+        "How much money has the US and Europe committed to Ukraine?",
+        "What is 'escalation management,' and is the West too cautious?",
+        "How has military aid affected the battlefield?",
+        "Why has Western support wavered in 2024?"
+      ],
+      "tags": [
+        "conflict",
+        "finance",
+        "europe",
+        "physics"
+      ]
+    },
+    {
+      "name": "Sanctions and Economic Warfare",
+      "topics": [
+        "What sanctions were imposed on Russia, and how severe are they?",
+        "Has the Russian economy collapsed, adapted, or thrived?",
+        "How has Europe weaned itself off Russian energy—or has it?",
+        "What happened to Russia's frozen assets, and could they fund Ukraine?",
+        "How has Russia evaded sanctions through third countries?",
+        "Are sanctions a useful tool or a failed strategy?"
+      ],
+      "tags": [
+        "economics",
+        "identity",
+        "europe",
+        "physics"
+      ]
+    },
+    {
+      "name": "The Human Cost",
+      "topics": [
+        "How many soldiers and civilians have died on each side?",
+        "What has happened to the millions of Ukrainian refugees?",
+        "How has Russia's mobilization affected Russian society?",
+        "What war crimes have been documented?",
+        "What is happening to Ukrainian children deported to Russia?",
+        "How has the war traumatized a generation?"
+      ],
+      "tags": [
+        "society",
+        "critical-thinking",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The World Responds",
+      "topics": [
+        "Why did the invasion unite NATO more than any event in decades?",
+        "How have China, India, and the Global South positioned themselves?",
+        "What has the UN been able—or unable—to do?",
+        "Why did Finland and Sweden join NATO?",
+        "How has the war reshaped European security architecture?",
+        "What does the war mean for the global order?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "europe",
+        "asia"
+      ]
+    },
+    {
+      "name": "Competing Narratives",
+      "topics": [
+        "How does Russian state media portray the war?",
+        "What does 'Nazi' mean in Russian propaganda about Ukraine?",
+        "How do Ukrainians understand their own resistance?",
+        "Why do some Western voices blame NATO for the war?",
+        "What facts do both sides agree on—if any?",
+        "How do you evaluate sources in an information war?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "europe",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "How Does This End?",
+      "topics": [
+        "What would 'victory' look like for Ukraine? For Russia?",
+        "Is a negotiated settlement possible, and what would it require?",
+        "What are the risks of a frozen conflict lasting decades?",
+        "Could regime change in Russia change everything?",
+        "What would Ukraine need to rebuild?",
+        "What lessons will future aggressors—and defenders—take from this war?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "europe",
+        "media-literacy"
+      ]
+    }
+  ]
+}

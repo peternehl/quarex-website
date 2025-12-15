@@ -1,0 +1,32 @@
+{
+  "name": "OH-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Michael Rulli (R)",
+        "Julia Kelley (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sam Barrick (D)",
+        "Michael Kripchak (D)",
+        "Malcolm Ritchie (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

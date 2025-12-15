@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "desalinization-strategies-for-the-21st-century",
+    "name": "Desalinization Strategies for the 21st Century",
+    "description": "Technologies, economics, and policies for converting seawater to freshwater",
+    "chapterCount": 13,
+    "tags": [
+      "desalination",
+      "water",
+      "infrastructure",
+      "technology"
+    ],
+    "created_by": "Peter and Claude"
+  },
+  {
+    "slug": "municipal-water-systems",
+    "name": "Municipal Water Systems",
+    "description": "How cities source, treat, distribute, and manage drinking water and wastewater",
+    "chapterCount": 20,
+    "tags": [
+      "water",
+      "infrastructure",
+      "public-health",
+      "engineering"
+    ],
+    "created_by": "Peter and Claude"
+  }
+]

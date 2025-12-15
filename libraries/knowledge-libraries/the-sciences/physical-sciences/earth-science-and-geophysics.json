@@ -1,0 +1,126 @@
+{
+  "name": "Earth Science and Geophysics",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Earth's Structure",
+      "topics": [
+        "What are the layers of Earth: crust, mantle, outer core, inner core?",
+        "How do scientists know what's inside Earth without going there?",
+        "What is the difference between oceanic and continental crust?",
+        "How hot is Earth's core and why hasn't it cooled down?",
+        "What is the lithosphere and how does it differ from the asthenosphere?",
+        "How does Earth's internal heat drive geological processes?"
+      ],
+      "tags": ["science", "earth-science", "geology", "physics"]
+    },
+    {
+      "name": "Plate Tectonics",
+      "topics": [
+        "What is plate tectonics and how do plates move?",
+        "What evidence convinced scientists that continents drift?",
+        "What happens at divergent, convergent, and transform plate boundaries?",
+        "How does seafloor spreading create new oceanic crust?",
+        "Why do continents have such different ages of rock than ocean floors?",
+        "How has plate tectonics shaped the positions of continents over time?"
+      ],
+      "tags": ["science", "earth-science", "geology", "history"]
+    },
+    {
+      "name": "Earthquakes",
+      "topics": [
+        "What causes earthquakes and where do they occur?",
+        "What are seismic waves and how do P-waves differ from S-waves?",
+        "How do seismographs detect and measure earthquakes?",
+        "What do magnitude and intensity scales measure?",
+        "Why do some earthquakes cause more damage than others?",
+        "Can earthquakes be predicted and how do we prepare for them?"
+      ],
+      "tags": ["science", "earth-science", "geology", "safety"]
+    },
+    {
+      "name": "Volcanoes",
+      "topics": [
+        "How do volcanoes form and what makes them erupt?",
+        "What types of volcanoes exist and how do they differ?",
+        "What is the Ring of Fire and why are volcanoes concentrated there?",
+        "What are volcanic hazards: lava, ash, pyroclastic flows, lahars?",
+        "How do volcanic eruptions affect global climate?",
+        "What benefits do volcanoes provide: fertile soil, geothermal energy?"
+      ],
+      "tags": ["science", "earth-science", "geology", "hazards"]
+    },
+    {
+      "name": "Rocks and Minerals",
+      "topics": [
+        "What is the difference between a rock and a mineral?",
+        "How do igneous, sedimentary, and metamorphic rocks form?",
+        "What is the rock cycle and how do rocks transform over time?",
+        "What common minerals make up most rocks?",
+        "How do geologists identify and classify minerals?",
+        "What economic resources come from rocks and minerals?"
+      ],
+      "tags": ["science", "earth-science", "geology", "education"]
+    },
+    {
+      "name": "Weathering and Erosion",
+      "topics": [
+        "How does mechanical weathering break rocks into smaller pieces?",
+        "What chemical processes dissolve and alter rock minerals?",
+        "How do water, wind, and ice erode and transport sediment?",
+        "What landforms result from erosion: canyons, valleys, caves?",
+        "How does soil form from weathered rock and organic matter?",
+        "What human activities accelerate erosion?"
+      ],
+      "tags": ["science", "earth-science", "geology", "environment"]
+    },
+    {
+      "name": "Earth's History and Geologic Time",
+      "topics": [
+        "How old is Earth and how do we know?",
+        "What methods date rocks and determine their relative ages?",
+        "What are the major eons, eras, and periods of Earth history?",
+        "What evidence tells us about ancient climates and environments?",
+        "How do mass extinctions mark boundaries in geologic time?",
+        "What was Earth like when life first appeared?"
+      ],
+      "tags": ["science", "earth-science", "geology", "history"]
+    },
+    {
+      "name": "Earth's Water Systems",
+      "topics": [
+        "How does the water cycle move water through Earth's systems?",
+        "What is groundwater and how does it flow through aquifers?",
+        "How do rivers shape landscapes and create drainage patterns?",
+        "What processes form glaciers and how do they sculpt terrain?",
+        "How much of Earth's water is freshwater and where is it?",
+        "What threats face freshwater resources worldwide?"
+      ],
+      "tags": ["science", "earth-science", "hydrology", "environment"]
+    },
+    {
+      "name": "Earth's Magnetic Field",
+      "topics": [
+        "What generates Earth's magnetic field in the outer core?",
+        "How does the magnetic field protect Earth from solar radiation?",
+        "What are magnetic pole reversals and how often do they occur?",
+        "How do animals use Earth's magnetic field for navigation?",
+        "What is paleomagnetism and how does it record plate movements?",
+        "What would happen if Earth's magnetic field weakened significantly?"
+      ],
+      "tags": ["science", "earth-science", "physics", "geology"]
+    },
+    {
+      "name": "Natural Resources and Sustainability",
+      "topics": [
+        "How do fossil fuels form and why are they non-renewable?",
+        "What mineral resources do we depend on for technology?",
+        "How does mining affect the environment?",
+        "What are rare earth elements and why are they important?",
+        "How can we use natural resources more sustainably?",
+        "What geoscience careers help society manage resources?"
+      ],
+      "tags": ["science", "earth-science", "sustainability", "resources"]
+    }
+  ]
+}

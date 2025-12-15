@@ -1,0 +1,125 @@
+{
+  "name": "Digital Art and Design: Tools and Concepts",
+  "chapters": [
+    {
+      "name": "Digital Art History and Evolution",
+      "topics": [
+        "How did digital art emerge from early computer graphics experiments?",
+        "Who were the pioneers of computer-generated art in the 1960s and 70s?",
+        "How did the personal computer revolution democratize digital art creation?",
+        "What role did software development play in expanding digital art possibilities?",
+        "How has the internet changed how digital art is created and shared?",
+        "What milestones mark the evolution from early pixel art to today's digital works?"
+      ],
+      "tags": ["arts", "digital-life", "art-history", "digital-art"]
+    },
+    {
+      "name": "Hardware: Tablets, Displays, Input Devices",
+      "topics": [
+        "What features should artists look for when choosing a drawing tablet?",
+        "How do pen displays differ from traditional graphics tablets?",
+        "What role does display color accuracy play in digital art creation?",
+        "How have tablets like the iPad changed digital art workflows?",
+        "What input devices beyond tablets do digital artists use?",
+        "How do hardware choices affect the digital drawing experience?"
+      ],
+      "tags": ["technology", "innovation", "digital-art", "education"]
+    },
+    {
+      "name": "Software Overview: Photoshop, Illustrator, Procreate",
+      "topics": [
+        "What are the key differences between raster and vector graphics software?",
+        "What makes Photoshop the industry standard for digital image editing?",
+        "How does Adobe Illustrator's vector approach suit certain types of artwork?",
+        "Why has Procreate become so popular among digital artists?",
+        "What free and open-source alternatives exist to commercial software?",
+        "How do artists choose the right software for their workflow?"
+      ],
+      "tags": ["arts", "digital-life", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "Digital Drawing and Painting",
+      "topics": [
+        "How do digital brushes simulate traditional media like oils and watercolors?",
+        "What techniques help digital artists achieve natural-looking brushwork?",
+        "How does working in layers change the painting process?",
+        "What color management considerations matter for digital painters?",
+        "How do digital artists develop their own brush libraries and presets?",
+        "What are the advantages and limitations of digital painting versus traditional?"
+      ],
+      "tags": ["arts", "digital-life", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "Vector Graphics and Illustration",
+      "topics": [
+        "What is a vector graphic and why does it scale without losing quality?",
+        "How do Bezier curves and anchor points work in vector drawing?",
+        "What types of illustration work best in vector format?",
+        "How do artists combine vector and raster elements in their work?",
+        "What techniques create depth and dimension in flat vector artwork?",
+        "How has vector illustration evolved with software improvements?"
+      ],
+      "tags": ["arts", "digital-life", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "3D Modeling and Rendering",
+      "topics": [
+        "What are the basic concepts of 3D modeling: vertices, edges, faces?",
+        "How do different 3D software packages like Blender, Maya, and ZBrush compare?",
+        "What is the difference between modeling, texturing, and rendering?",
+        "How do artists create realistic materials and lighting in 3D?",
+        "What role does 3D art play in games, film, and product visualization?",
+        "How are 3D printing and digital fabrication changing sculptural practice?"
+      ],
+      "tags": ["arts", "digital-life", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "Digital Collage and Photo Manipulation",
+      "topics": [
+        "What techniques do artists use to combine and composite images?",
+        "How do selection tools and masking enable seamless composites?",
+        "What ethical considerations apply to manipulated photographs?",
+        "How do digital collage artists source and organize their imagery?",
+        "What distinguishes artistic photo manipulation from deceptive editing?",
+        "How has digital collage evolved from Dada photomontage traditions?"
+      ],
+      "tags": ["arts", "digital-life", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "Animation Fundamentals",
+      "topics": [
+        "What are the 12 principles of animation developed at Disney?",
+        "How does frame-by-frame animation differ from tweening?",
+        "What software do animators use for 2D and 3D animation?",
+        "How do timing and spacing create the illusion of weight and motion?",
+        "What career paths exist in animation for games, film, and web?",
+        "How has digital technology transformed the animation industry?"
+      ],
+      "tags": ["arts", "innovation", "digital-art", "animation"]
+    },
+    {
+      "name": "Generative and Algorithmic Art",
+      "topics": [
+        "What is generative art and how do algorithms create visual output?",
+        "What programming languages and tools do generative artists use?",
+        "How do randomness and rules interact in algorithmic artwork?",
+        "What role does the artist play when code generates the image?",
+        "How has AI and machine learning changed generative art possibilities?",
+        "What questions does generative art raise about creativity and authorship?"
+      ],
+      "tags": ["arts", "innovation", "digital-art", "technology"]
+    },
+    {
+      "name": "NFTs and Digital Art Markets",
+      "topics": [
+        "What are NFTs and how do they work as proof of digital ownership?",
+        "How did NFTs transform the market for digital art?",
+        "What environmental concerns have been raised about blockchain art?",
+        "How do artists mint, price, and sell NFT artwork?",
+        "What happened during the NFT boom and subsequent market correction?",
+        "What future might NFTs and blockchain have in the art world?"
+      ],
+      "tags": ["arts", "digital-life", "economics", "digital-art"]
+    }
+  ]
+}

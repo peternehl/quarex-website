@@ -1,0 +1,45 @@
+{
+  "name": "Probability, Statistics, and Uncertainty",
+  "chapters": [
+    {
+      "name": "Why AI Is Built on Probabilities",
+      "topics": [],
+      "tags": [
+        "science",
+        "critical-thinking",
+        "ai-ml",
+        "education"
+      ]
+    },
+    {
+      "name": "Noise, Bias, and Variance",
+      "topics": [],
+      "tags": [
+        "technology",
+        "critical-thinking",
+        "ai-ml",
+        "education"
+      ]
+    },
+    {
+      "name": "Uncertainty and Confidence in AI Outputs",
+      "topics": [],
+      "tags": [
+        "technology",
+        "critical-thinking",
+        "ai-ml",
+        "uncertainty"
+      ]
+    },
+    {
+      "name": "Why AI Can Be Wrong but Confident",
+      "topics": [],
+      "tags": [
+        "technology",
+        "critical-thinking",
+        "ai-ml",
+        "epistemology"
+      ]
+    }
+  ]
+}

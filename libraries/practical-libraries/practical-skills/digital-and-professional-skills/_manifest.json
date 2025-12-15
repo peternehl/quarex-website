@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "autocad-2d",
+    "name": "AutoCAD 2D",
+    "description": null,
+    "chapterCount": 11,
+    "tags": []
+  },
+  {
+    "slug": "digital-life-and-computer-basics",
+    "name": "Digital Life & Computer Basics",
+    "description": null,
+    "chapterCount": 4,
+    "tags": []
+  },
+  {
+    "slug": "how-to-build-a-3-camera-studio",
+    "name": "How to Build a 3-Camera Studio",
+    "description": null,
+    "chapterCount": 9,
+    "tags": [],
+    "created_by": "Pete and Gemini"
+  },
+  {
+    "slug": "learn-git-basics",
+    "name": "Learn Git Basics",
+    "description": null,
+    "chapterCount": 6,
+    "tags": []
+  },
+  {
+    "slug": "photoshop-for-beginners",
+    "name": "Photoshop For Beginners",
+    "description": null,
+    "chapterCount": 16,
+    "tags": []
+  },
+  {
+    "slug": "solo-builder-funding-how-to",
+    "name": "Solo Builder Funding How-To",
+    "description": null,
+    "chapterCount": 7,
+    "created_by": "Peter Nehl, ChatGPT 5.1, and Claude Opus 4.5",
+    "tags": []
+  }
+]

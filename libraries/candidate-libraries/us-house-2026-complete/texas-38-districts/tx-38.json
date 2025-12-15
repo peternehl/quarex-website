@@ -1,0 +1,52 @@
+{
+  "name": "TX-38",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Avery Ayers (R)",
+        "Jon Bonck (R)",
+        "Craig Goralski (R)",
+        "Barrett McNabb (R)",
+        "Damien Mockus (R)",
+        "Carmen Montiel (R)",
+        "Michael Pratt (R)",
+        "Jeff Yuna (R)",
+        "Wesley Hunt (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Curtis Cook II (D)",
+        "Theresa Courts (D)",
+        "Marvalette Hunter (D)",
+        "Melissa McDonough (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "William Taggart (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

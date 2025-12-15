@@ -1,0 +1,54 @@
+{
+  "name": "CA-40",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Young Kim (I)",
+        "Claude Keissieh (I)",
+        "Joe Kerr (I)",
+        "Perry Meade (I)",
+        "Lisa Ramirez (I)",
+        "Paula Swift (I)",
+        "Tiffanie Tate (I)",
+        "Esther Kim Varet (I)",
+        "Ken Calvert (I)",
+        "Maricar Payad (I)",
+        "Christian Ahmed (I)",
+        "Nina Linh (I)",
+        "Christina Gagnier (I)",
+        "Christian Mendez (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "CO-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Khaleb Dammen (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jason Crow (D)",
+        "Dylan Shelby (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

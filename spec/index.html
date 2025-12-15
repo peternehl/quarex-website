@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Specification v1.0</title>
+    <meta name="description" content="The official specification for Quarex, a dynamically generated, recursively structured knowledge artifact.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Quarex Specification v1.0">
+    <meta property="og:description" content="The official specification for Quarex — structure, protocol, and implementation guidelines.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://quarex.org/spec">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Quarex Specification v1.0">
+    <meta name="twitter:description" content="The official specification for Quarex — structure, protocol, and implementation guidelines.">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://quarex.org/spec">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TechArticle",
+        "headline": "Quarex Specification v1.0",
+        "description": "The official specification for Quarex, a dynamically generated, recursively structured knowledge artifact.",
+        "author": {
+            "@type": "Person",
+            "name": "Peter Nehl"
+        },
+        "datePublished": "2025-11-27",
+        "version": "1.0",
+        "url": "https://quarex.org/spec",
+        "license": "https://creativecommons.org/licenses/by/4.0/"
+    }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --card: #111111;
+            --text: #F7F7F7;
+            --muted: #A0A0A0;
+            --accent: #60a5fa;
+            --accent-glow: rgba(96, 165, 250, 0.3);
+            --border: #262626;
+            --gold: #fbbf24;
+            --green: #34d399;
+            --code-bg: #0d1117;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+        }
+
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .version-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg);
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        /* Main */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .meta {
+            color: var(--muted);
+            font-size: 0.85rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            color: var(--text);
+        }
+
+        p {
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
+        strong {
+            color: var(--text);
+        }
+
+        /* Code blocks */
+        pre {
+            background: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            line-height: 1.6;
+        }
+
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+        }
+
+        p code {
+            background: var(--card);
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+            color: var(--accent);
+        }
+
+        .code-label {
+            font-size: 0.75rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        /* JSON syntax highlighting */
+        .json-key { color: #79c0ff; }
+        .json-string { color: #a5d6ff; }
+        .json-bracket { color: var(--muted); }
+        .json-comment { color: #6e7681; font-style: italic; }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            color: var(--text);
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            color: var(--muted);
+        }
+
+        td code {
+            color: var(--accent);
+        }
+
+        /* Hierarchy diagram */
+        .hierarchy {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+            margin: 2rem 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.9rem;
+        }
+
+        .hierarchy-level {
+            display: flex;
+            align-items: center;
+            padding: 0.5rem 0;
+        }
+
+        .hierarchy-connector {
+            color: var(--border);
+            margin-right: 0.5rem;
+        }
+
+        .hierarchy-node {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            color: var(--text);
+        }
+
+        .hierarchy-node.root { border-color: var(--gold); color: var(--gold); }
+        .hierarchy-node.level1 { border-color: var(--accent); color: var(--accent); margin-left: 2rem; }
+        .hierarchy-node.level2 { border-color: var(--green); color: var(--green); margin-left: 4rem; }
+        .hierarchy-node.level3 { margin-left: 6rem; }
+        .hierarchy-node.level4 { margin-left: 8rem; color: var(--muted); }
+        .hierarchy-node.recursive { border-style: dashed; margin-left: 10rem; }
+
+        .hierarchy-arrow {
+            color: var(--muted);
+            margin: 0.25rem 0 0.25rem 1rem;
+            font-size: 0.8rem;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 1rem 0 1rem 1.5rem;
+            color: var(--muted);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Info boxes */
+        .info-box {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .info-box.warning {
+            border-left-color: var(--gold);
+        }
+
+        .info-box p {
+            margin-bottom: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            margin-top: 4rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* TOC */
+        .toc {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--muted);
+        }
+
+        .toc ol {
+            margin: 1rem 0 0 1rem;
+            color: var(--text);
+        }
+
+        .toc a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .toc a:hover {
+            color: var(--accent);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            pre {
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+
+            .hierarchy-node.level1 { margin-left: 1rem; }
+            .hierarchy-node.level2 { margin-left: 2rem; }
+            .hierarchy-node.level3 { margin-left: 3rem; }
+            .hierarchy-node.level4 { margin-left: 4rem; }
+            .hierarchy-node.recursive { margin-left: 5rem; }
+
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">Quarex <span class="version-badge">Spec v1.0</span></a>
+            <nav>
+                <a href="../">Home</a>
+                <a href="./">Specification</a>
+                <a href="../libraries/">Libraries</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Quarex Specification</h1>
+        <p class="subtitle">Version 1.0 — The canonical technical specification for Quarex knowledge systems.</p>
+        <p class="meta">
+            Author: Peter Nehl · Published: November 27, 2025 · License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>
+        </p>
+
+        <div class="toc">
+            <h3>Contents</h3>
+            <ol>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#structure">Hierarchical Structure</a></li>
+                <li><a href="#schema">JSON Schema</a></li>
+                <li><a href="#modes">Reading Modes</a></li>
+                <li><a href="#protocol">Generative Protocol</a></li>
+                <li><a href="#behavioral">Behavioral Requirements</a></li>
+                <li><a href="#conformance">Conformance</a></li>
+            </ol>
+        </div>
+
+        <h2 id="overview">1. Overview</h2>
+        <p>A <strong>Quarex</strong> is a dynamically generated, recursively structured knowledge artifact that evolves through iterative inquiry. Unlike static documents, a Quarex merges authored intention with machine-generated expansion, forming an ever-growing lattice of questions, contexts, and explanations.</p>
+        
+        <p>This specification defines:</p>
+        <ul>
+            <li>The hierarchical structure of a Quarex</li>
+            <li>The JSON schema for interchange</li>
+            <li>The generative protocol for recursive expansion</li>
+            <li>Behavioral requirements for compliant implementations</li>
+        </ul>
+
+        <h2 id="structure">2. Hierarchical Structure</h2>
+        <p>A Quarex organizes knowledge in a five-level hierarchy, with recursive expansion at the leaf level:</p>
+
+        <div class="hierarchy">
+            <div class="hierarchy-level"><span class="hierarchy-node root">Library</span></div>
+            <div class="hierarchy-arrow">└──</div>
+            <div class="hierarchy-level"><span class="hierarchy-node level1">Shelf</span></div>
+            <div class="hierarchy-arrow" style="margin-left: 2rem;">└──</div>
+            <div class="hierarchy-level"><span class="hierarchy-node level2">Book</span></div>
+            <div class="hierarchy-arrow" style="margin-left: 4rem;">└──</div>
+            <div class="hierarchy-level"><span class="hierarchy-node level3">Chapter</span></div>
+            <div class="hierarchy-arrow" style="margin-left: 6rem;">└──</div>
+            <div class="hierarchy-level"><span class="hierarchy-node level4">Topic</span></div>
+            <div class="hierarchy-arrow" style="margin-left: 8rem;">└──</div>
+            <div class="hierarchy-level"><span class="hierarchy-node recursive">Follow-up Questions ∞</span></div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Level</th>
+                    <th>Description</th>
+                    <th>Authored By</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>Library</code></td>
+                    <td>The root container. A broad domain of knowledge.</td>
+                    <td>Architect</td>
+                </tr>
+                <tr>
+                    <td><code>Shelf</code></td>
+                    <td>A thematic subdivision within a library.</td>
+                    <td>Architect</td>
+                </tr>
+                <tr>
+                    <td><code>Book</code></td>
+                    <td>A focused subject or concept.</td>
+                    <td>Architect</td>
+                </tr>
+                <tr>
+                    <td><code>Chapter</code></td>
+                    <td>A facet or dimension of the book's subject.</td>
+                    <td>Architect</td>
+                </tr>
+                <tr>
+                    <td><code>Topic</code></td>
+                    <td>A specific question or seed inquiry.</td>
+                    <td>Architect / AI</td>
+                </tr>
+                <tr>
+                    <td><code>Follow-ups</code></td>
+                    <td>Recursively generated questions from topic responses.</td>
+                    <td>AI (guided)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="schema">3. JSON Schema</h2>
+        <p>A Quarex is represented as a JSON document. The following is the minimal conformant schema:</p>
+
+        <div class="code-label">quarex.json</div>
+        <pre><span class="json-bracket">{</span>
+  <span class="json-key">"$schema"</span>: <span class="json-string">"https://quarex.org/schema/v1"</span>,
+  <span class="json-key">"library"</span>: <span class="json-string">"LIBRARY_NAME"</span>,
+  <span class="json-key">"shelves"</span>: <span class="json-bracket">[</span>
+    <span class="json-bracket">{</span>
+      <span class="json-key">"name"</span>: <span class="json-string">"SHELF_NAME"</span>,
+      <span class="json-key">"books"</span>: <span class="json-bracket">[</span>
+        <span class="json-bracket">{</span>
+          <span class="json-key">"name"</span>: <span class="json-string">"BOOK_NAME"</span>,
+          <span class="json-key">"chapters"</span>: <span class="json-bracket">[</span>
+            <span class="json-bracket">{</span>
+              <span class="json-key">"name"</span>: <span class="json-string">"CHAPTER_NAME"</span>,
+              <span class="json-key">"topics"</span>: <span class="json-bracket">[</span>
+                <span class="json-string">"Topic as question 1"</span>,
+                <span class="json-string">"Topic as question 2"</span>,
+                <span class="json-string">"Topic as question 3"</span>
+              <span class="json-bracket">]</span>
+            <span class="json-bracket">}</span>
+          <span class="json-bracket">]</span>
+        <span class="json-bracket">}</span>
+      <span class="json-bracket">]</span>
+    <span class="json-bracket">}</span>
+  <span class="json-bracket">]</span>
+<span class="json-bracket">}</span></pre>
+
+        <h3>Optional Metadata Fields</h3>
+        <p>Implementations MAY include additional metadata at any level:</p>
+
+        <pre><span class="json-bracket">{</span>
+  <span class="json-key">"library"</span>: <span class="json-string">"Philosophy"</span>,
+  <span class="json-key">"metadata"</span>: <span class="json-bracket">{</span>
+    <span class="json-key">"architect"</span>: <span class="json-string">"Peter Nehl"</span>,
+    <span class="json-key">"created"</span>: <span class="json-string">"2025-11-27"</span>,
+    <span class="json-key">"version"</span>: <span class="json-string">"1.0"</span>,
+    <span class="json-key">"language"</span>: <span class="json-string">"en"</span>,
+    <span class="json-key">"license"</span>: <span class="json-string">"CC-BY-4.0"</span>
+  <span class="json-bracket">}</span>,
+  <span class="json-key">"shelves"</span>: <span class="json-bracket">[</span> ... <span class="json-bracket">]</span>
+<span class="json-bracket">}</span></pre>
+
+        <h2 id="modes">4. Reading Modes</h2>
+        <p>A Quarex can be consumed in different ways depending on its intended purpose. The <code>mode</code> field at the <strong>Book</strong> level specifies how the content should be presented to the reader.</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Mode</th>
+                    <th>Behavior</th>
+                    <th>Use Cases</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>followup</code></td>
+                    <td>Default. After each response, the AI generates 3 follow-up questions. The reader chooses which path to explore, creating a branching inquiry.</td>
+                    <td>Reference works, encyclopedias, exploratory research, open-ended learning</td>
+                </tr>
+                <tr>
+                    <td><code>sequential</code></td>
+                    <td>Topics are presented in order (Chapter 1 → Topic 1 → Topic 2 → ... → Chapter 2 → ...). After each response, the next topic auto-loads. The reader controls pace.</td>
+                    <td>Stories, tutorials, courses, historical narratives, philosophical arguments, step-by-step guides</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>4.1 Sequential Mode Behavior</h3>
+        <p>When <code>"mode": "sequential"</code> is set:</p>
+        <ul>
+            <li>The system traverses all chapters and topics in order</li>
+            <li>After each AI response, the next topic is loaded into the prompt</li>
+            <li>The reader must explicitly trigger each inquiry (no auto-play)</li>
+            <li>A progress indicator shows current position (e.g., "Chapter 2 of 5 · Topic 3 of 4")</li>
+            <li>Upon completion, a "Book Complete" state is displayed</li>
+        </ul>
+
+        <div class="info-box">
+            <p><strong>Design Principle:</strong> Sequential mode gives the Architect control over the reading experience. Unlike follow-up mode where the reader chooses their path, sequential mode ensures the content is consumed as the Architect intended — essential for narratives, arguments that build on prior premises, or step-by-step instruction.</p>
+        </div>
+
+        <h3>4.2 Mode Declaration</h3>
+        <p>The mode is declared at the Book level:</p>
+
+        <pre><span class="json-bracket">{</span>
+  <span class="json-key">"name"</span>: <span class="json-string">"The Sleepy Star"</span>,
+  <span class="json-key">"mode"</span>: <span class="json-string">"sequential"</span>,
+  <span class="json-key">"chapters"</span>: <span class="json-bracket">[</span> ... <span class="json-bracket">]</span>
+<span class="json-bracket">}</span></pre>
+
+        <p>If <code>mode</code> is omitted, implementations MUST default to <code>"followup"</code>.</p>
+
+        <h2 id="protocol">5. Generative Protocol</h2>
+        <p>The defining characteristic of a Quarex is recursive expansion through inquiry. When a user selects a <strong>Topic</strong>, the system:</p>
+
+        <ol>
+            <li><strong>Generates a response</strong> — An AI produces an explanation, analysis, or answer to the topic-as-question.</li>
+            <li><strong>Produces follow-up questions</strong> — The AI generates 3-5 follow-up questions that allow deeper exploration.</li>
+            <li><strong>Recurses</strong> — Each follow-up question becomes a new topic, repeating the process.</li>
+        </ol>
+
+        <p>This creates the "iceberg method" — users can drill infinitely deeper into any branch of inquiry.</p>
+
+        <div class="info-box">
+            <p><strong>Question Matrices:</strong> Implementations MAY define library-level or global question matrices that guide the AI's question generation. These matrices ensure consistent inquiry patterns across topics.</p>
+        </div>
+
+        <h3>Expansion Constraints</h3>
+        <p>Compliant implementations MUST:</p>
+        <ul>
+            <li>Generate follow-up questions that are meaningfully related to the topic</li>
+            <li>Avoid circular references (questions should not loop back to ancestors)</li>
+            <li>Maintain coherence when entering at any node in the hierarchy</li>
+        </ul>
+
+        <h2 id="behavioral">6. Behavioral Requirements</h2>
+        <p>A Quarex-compliant AI system MUST adhere to the following behavioral principles:</p>
+
+        <h3>6.1 Ethical Inquiry</h3>
+        <ul>
+            <li>Present multiple perspectives on contested topics</li>
+            <li>Acknowledge uncertainty and limitations</li>
+            <li>Cite sources when making factual claims</li>
+            <li>Avoid manipulation or persuasion toward predetermined conclusions</li>
+        </ul>
+
+        <h3>6.2 Openness</h3>
+        <ul>
+            <li>Responses should be transparent about their generative nature</li>
+            <li>Users should understand they are exploring AI-generated content</li>
+            <li>The system should not present AI-generated content as human-authored</li>
+        </ul>
+
+        <h3>6.3 Accessibility</h3>
+        <ul>
+            <li>Quarex systems SHOULD support multiple languages</li>
+            <li>Entry at any node should provide sufficient context for understanding</li>
+            <li>The system should not require prior knowledge to begin exploration</li>
+        </ul>
+
+        <div class="info-box warning">
+            <p><strong>Note:</strong> These behavioral requirements distinguish a Quarex from generic chatbots or Q&A systems. A system that generates recursive questions but does not adhere to these principles is not Quarex-compliant.</p>
+        </div>
+
+        <h2 id="conformance">7. Conformance</h2>
+        <p>An implementation is <strong>Quarex-compliant</strong> if it:</p>
+
+        <ol>
+            <li>Implements the five-level hierarchy (Library → Shelf → Book → Chapter → Topic)</li>
+            <li>Supports recursive follow-up question generation</li>
+            <li>Uses the JSON schema for import/export</li>
+            <li>Adheres to the behavioral requirements in Section 5</li>
+        </ol>
+
+        <p>The reference implementation is <a href="https://quarex.org">Quarex.org</a>.</p>
+
+        <h3>Version History</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Version</th>
+                    <th>Date</th>
+                    <th>Changes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>1.0</code></td>
+                    <td>2025-11-27</td>
+                    <td>Initial specification</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+    <footer>
+        <p><a href="/">← Back to quarex.org</a></p>
+        <p style="margin-top: 1rem; font-size: 0.85rem;">
+            Quarex Specification v1.0 · <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> · Peter Nehl, 2025
+        </p>
+    </footer>
+
+</body>
+</html>

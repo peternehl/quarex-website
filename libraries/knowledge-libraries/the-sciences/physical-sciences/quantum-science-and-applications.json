@@ -1,0 +1,126 @@
+{
+  "name": "Quantum Science and Applications",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The Quantum Revolution",
+      "topics": [
+        "What problems in classical physics led to quantum mechanics?",
+        "How did Planck's solution to blackbody radiation introduce quantum ideas?",
+        "What is the photoelectric effect and how did Einstein explain it?",
+        "How did the Bohr model of the atom incorporate quantum concepts?",
+        "Why did classical physics fail to explain atomic stability?",
+        "What were the key discoveries that established quantum mechanics?"
+      ],
+      "tags": ["science", "physics", "quantum", "history"]
+    },
+    {
+      "name": "Wave-Particle Duality",
+      "topics": [
+        "What is wave-particle duality and what evidence supports it?",
+        "How does the double-slit experiment demonstrate quantum behavior?",
+        "What is de Broglie's hypothesis about matter waves?",
+        "Why do electrons behave like waves in some experiments and particles in others?",
+        "What determines whether wave or particle behavior is observed?",
+        "How does wave-particle duality challenge our everyday intuitions?"
+      ],
+      "tags": ["science", "physics", "quantum", "epistemology"]
+    },
+    {
+      "name": "The Uncertainty Principle",
+      "topics": [
+        "What is Heisenberg's uncertainty principle?",
+        "Why can't we know both position and momentum precisely at the same time?",
+        "Is uncertainty due to measurement limitations or fundamental nature?",
+        "How does uncertainty affect the behavior of electrons in atoms?",
+        "What other pairs of properties are subject to uncertainty relations?",
+        "How does uncertainty enable quantum tunneling?"
+      ],
+      "tags": ["science", "physics", "quantum", "philosophy"]
+    },
+    {
+      "name": "Quantum States and Superposition",
+      "topics": [
+        "What is a quantum state and how is it described mathematically?",
+        "What does it mean for a particle to be in a superposition of states?",
+        "How does Schrödinger's cat illustrate quantum superposition?",
+        "What is quantum measurement and why does it collapse superposition?",
+        "What interpretations of quantum mechanics try to explain these phenomena?",
+        "How do scientists maintain quantum superpositions in experiments?"
+      ],
+      "tags": ["science", "physics", "quantum", "philosophy"]
+    },
+    {
+      "name": "Quantum Entanglement",
+      "topics": [
+        "What is quantum entanglement and why did Einstein call it 'spooky'?",
+        "How can two particles remain correlated across large distances?",
+        "What is Bell's theorem and what do Bell test experiments show?",
+        "Can entanglement be used to send information faster than light?",
+        "How is entanglement created in the laboratory?",
+        "What applications might use entanglement in the future?"
+      ],
+      "tags": ["science", "physics", "quantum", "innovation"]
+    },
+    {
+      "name": "Quantum Computing",
+      "topics": [
+        "How do quantum computers differ from classical computers?",
+        "What are qubits and how do they use superposition for computation?",
+        "What is quantum parallelism and why does it offer speedup?",
+        "What algorithms could quantum computers run faster than classical ones?",
+        "What makes building practical quantum computers so difficult?",
+        "What companies and research groups are leading quantum computing development?"
+      ],
+      "tags": ["science", "quantum", "computer-science", "technology"]
+    },
+    {
+      "name": "Quantum Cryptography",
+      "topics": [
+        "How does quantum key distribution provide secure communication?",
+        "What is the BB84 protocol and how does it work?",
+        "Why does quantum mechanics make eavesdropping detectable?",
+        "What are the limitations of current quantum cryptography systems?",
+        "How might quantum computers threaten classical encryption?",
+        "What is post-quantum cryptography?"
+      ],
+      "tags": ["science", "quantum", "cybersecurity", "technology"]
+    },
+    {
+      "name": "Quantum Sensing and Metrology",
+      "topics": [
+        "How can quantum effects improve measurement precision?",
+        "What are quantum sensors and what can they measure?",
+        "How do atomic clocks achieve extraordinary precision?",
+        "What is quantum imaging and what advantages does it offer?",
+        "How might quantum sensors improve GPS and navigation?",
+        "What medical applications might benefit from quantum sensing?"
+      ],
+      "tags": ["science", "quantum", "technology", "innovation"]
+    },
+    {
+      "name": "Quantum Materials",
+      "topics": [
+        "What are superconductors and how do they conduct without resistance?",
+        "What are superfluids and how do they flow without friction?",
+        "What are topological materials and why are they exciting?",
+        "How do quantum effects determine the properties of semiconductors?",
+        "What is a Bose-Einstein condensate and how is it created?",
+        "What new quantum materials are being discovered and engineered?"
+      ],
+      "tags": ["science", "quantum", "materials-science", "physics"]
+    },
+    {
+      "name": "The Future of Quantum Technology",
+      "topics": [
+        "What is the quantum internet and how might it work?",
+        "How might quantum simulation help discover new materials and drugs?",
+        "What industries might be transformed by quantum technology?",
+        "What are the biggest challenges facing quantum technology development?",
+        "How are governments and companies investing in quantum research?",
+        "What ethical considerations arise from powerful quantum technologies?"
+      ],
+      "tags": ["science", "quantum", "innovation", "ethics"]
+    }
+  ]
+}

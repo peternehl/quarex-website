@@ -1,0 +1,31 @@
+{
+  "name": "Nevada",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Joe Lombardo (R)",
+        "Matthew Winterhawk (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "governance",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Aaron Ford (D)",
+        "Alexis Hill (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "OH-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jim Jordan (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Tamie Wilson (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "User Experience and Human–Robot Interaction",
+  "chapters": [
+    {
+      "name": "Onboarding, Training, and Orientation for Blind Users",
+      "topics": [
+        "What should a structured training curriculum for new robotic guide dog users include, from first contact to independent travel?",
+        "How can trainers adapt instruction for users with different levels of mobility skill, tech comfort, and residual vision?",
+        "What role can simulations, practice environments, and gradual exposure play in building user confidence?",
+        "How might peer mentoring and support communities enhance the adoption experience for new users?"
+      ],
+      "tags": [
+        "health",
+        "human-rights",
+        "accessibility",
+        "robotics"
+      ]
+    },
+    {
+      "name": "Communication, Feedback, and Control Interfaces",
+      "topics": [
+        "What modalities (haptic, audio, tactile, voice) are most effective for conveying information from the robot to a blind user?",
+        "How can the robot offer guidance and alerts without overwhelming or distracting the user with too much information?",
+        "What command interfaces should users have to override, redirect, or stop the robot quickly and intuitively?",
+        "How can designers ensure that communication patterns respect user preferences, cultural differences, and sensory sensitivities?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "accessibility",
+        "robotics"
+      ]
+    },
+    {
+      "name": "Trust, Comfort, and Emotional Experience",
+      "topics": [
+        "What factors help users develop appropriate trust in a robotic guide dog's capabilities and limitations?",
+        "How do motion style, sound design, and interaction patterns influence whether the robot feels reassuring or intimidating?",
+        "How might long-term use affect users' emotional relationships to robotic guide dogs compared with biological guide dogs?",
+        "What forms of feedback should designers gather to understand users' subjective experiences over months and years?"
+      ],
+      "tags": [
+        "technology",
+        "human-rights",
+        "accessibility",
+        "robotics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "NH-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Melissa Bailey (R)",
+        "Brian Cole (R)",
+        "Anthony DiLorenzo (R)",
+        "Elizabeth Girard (R)",
+        "Hollie Noveletsky (R)",
+        "Christian Bright (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Carleigh Beriont (D)",
+        "Sarah E. Chadzynski (D)",
+        "Heath Howard (D)",
+        "Stefany Shaheen (D)",
+        "Maura Sullivan (D)",
+        "Christian Urrutia (D)",
+        "Chris Pappas (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

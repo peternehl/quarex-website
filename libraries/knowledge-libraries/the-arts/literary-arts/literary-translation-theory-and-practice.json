@@ -1,0 +1,125 @@
+{
+  "name": "Literary Translation: Theory and Practice",
+  "chapters": [
+    {
+      "name": "History of Translation Theory",
+      "topics": [
+        "How have ideas about translation changed from ancient Rome to the present?",
+        "What did St. Jerome's Bible translation contribute to translation theory?",
+        "How did Romantic translators like Schleiermacher distinguish domestication from foreignization?",
+        "What impact did Walter Benjamin's 'The Task of the Translator' have on the field?",
+        "How did postcolonial theory change thinking about translation and power?",
+        "What major translation theorists should every student of the field know?"
+      ],
+      "tags": ["history", "cultural-heritage", "literary-arts", "translation"]
+    },
+    {
+      "name": "Fidelity vs Freedom",
+      "topics": [
+        "What does it mean to translate literally versus freely?",
+        "How do translators decide when to prioritize accuracy versus readability?",
+        "What is lost and gained in word-for-word versus sense-for-sense translation?",
+        "How have different eras and cultures valued fidelity differently?",
+        "What examples show the tradeoffs between faithful and creative translation?",
+        "Can a translation ever be completely faithful to an original?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "translation"]
+    },
+    {
+      "name": "Equivalence and Meaning Transfer",
+      "topics": [
+        "What types of equivalence—formal, dynamic, functional—do translators seek?",
+        "How did Eugene Nida's theory of dynamic equivalence influence Bible translation?",
+        "What challenges arise when concepts have no equivalent in the target language?",
+        "How do translators handle untranslatable words and cultural concepts?",
+        "What is the difference between translation, adaptation, and localization?",
+        "How do translators convey tone, register, and style across languages?"
+      ],
+      "tags": ["arts", "communication", "critical-thinking", "literary-arts"]
+    },
+    {
+      "name": "Cultural Translation and Context",
+      "topics": [
+        "How do translators handle culturally specific references and allusions?",
+        "When should translators domesticate foreign elements versus keep them foreign?",
+        "How do food, customs, and social structures pose translation challenges?",
+        "What strategies help readers understand unfamiliar cultural contexts?",
+        "How does translation participate in cultural exchange and sometimes appropriation?",
+        "What role do footnotes, glossaries, and introductions play in cultural translation?"
+      ],
+      "tags": ["arts", "cultural-heritage", "identity", "literary-arts"]
+    },
+    {
+      "name": "Translating Poetry",
+      "topics": [
+        "Why is poetry considered the most difficult literary form to translate?",
+        "How do translators handle rhyme, meter, and sound patterns across languages?",
+        "What approaches exist: prose translation, imitation, re-creation?",
+        "How have famous poem translations succeeded or failed?",
+        "Should translators who don't know the source language collaborate with native speakers?",
+        "What can comparing multiple translations of the same poem teach us?"
+      ],
+      "tags": ["arts", "literary-arts", "poetry", "translation"]
+    },
+    {
+      "name": "Prose Translation Techniques",
+      "topics": [
+        "What specific challenges does translating fiction present?",
+        "How do translators handle dialect, slang, and nonstandard language?",
+        "What strategies work for translating humor, puns, and wordplay?",
+        "How do translators preserve an author's distinctive narrative voice?",
+        "What role does sentence structure play in translation choices?",
+        "How do translators handle errors or problems in the original text?"
+      ],
+      "tags": ["arts", "literary-arts", "fiction", "translation"]
+    },
+    {
+      "name": "Drama and Dialogue Translation",
+      "topics": [
+        "How does translating for performance differ from translating for the page?",
+        "What makes dialogue sound natural in translation while preserving meaning?",
+        "How do translators handle culturally specific humor in plays?",
+        "What challenges arise when translating Shakespeare and classical drama?",
+        "How do opera and musical theater translation differ from spoken drama?",
+        "Should stage translations prioritize speakability or literary quality?"
+      ],
+      "tags": ["arts", "communication", "literary-arts", "theater"]
+    },
+    {
+      "name": "Self-Translation and Bilingual Writers",
+      "topics": [
+        "What unique insights come from authors who translate their own work?",
+        "How do Beckett, Nabokov, and other self-translators approach their dual texts?",
+        "Are self-translations the same work or new creations?",
+        "What challenges face writers working in their second language?",
+        "How do immigrant and diaspora writers negotiate between languages?",
+        "What can self-translation teach us about the nature of translation itself?"
+      ],
+      "tags": ["arts", "identity", "cultural-heritage", "literary-arts"]
+    },
+    {
+      "name": "Ethics of Translation",
+      "topics": [
+        "What ethical responsibilities do translators have to authors and readers?",
+        "How should translators handle offensive, racist, or dated language in originals?",
+        "What debates surround who has the right to translate certain texts?",
+        "How do power imbalances affect translation from marginalized languages?",
+        "What are the ethics of machine translation and AI in literary translation?",
+        "Should translators be more visible or invisible in their work?"
+      ],
+      "tags": ["ethics", "critical-thinking", "human-rights", "literary-arts"]
+    },
+    {
+      "name": "Contemporary Translation Practice",
+      "topics": [
+        "How do professional literary translators actually work day to day?",
+        "What is the publishing landscape for translated literature?",
+        "Why do English readers read so few books in translation compared to other markets?",
+        "How has the internet changed access to and distribution of translations?",
+        "What role do translation prizes and grants play in the field?",
+        "How might machine translation and AI change literary translation's future?"
+      ],
+      "tags": ["arts", "workplace-dynamics", "literary-arts", "translation"]
+    }
+  ]
+}

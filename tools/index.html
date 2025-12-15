@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Tools - Create Living Books</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --blue: #3B82F6;
+            --purple: #a78bfa;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 40px);
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            margin-bottom: 32px;
+            font-size: 1.1rem;
+        }
+
+        .tool-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .tool-card {
+            display: block;
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 24px;
+            text-decoration: none;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+
+        .tool-card:hover {
+            border-color: var(--blue);
+            transform: translateY(-2px);
+        }
+
+        .tool-card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+
+        .tool-card p {
+            color: var(--muted);
+            font-size: 15px;
+            margin: 0;
+        }
+
+        .tool-card .badge {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-bottom: 12px;
+        }
+
+        .badge-online {
+            background: rgba(59, 130, 246, 0.2);
+            color: var(--blue);
+        }
+
+        .badge-download {
+            background: rgba(167, 139, 250, 0.2);
+            color: var(--purple);
+        }
+
+        .badge-docs {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 32px;
+            color: var(--blue);
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quarex Tools</h1>
+        <p class="subtitle">Create and contribute Living Books to the Quarex community</p>
+
+        <div class="section-title">Create Living Books</div>
+        <div class="tool-list">
+            <a href="seed-creator-download.html" class="tool-card">
+                <span class="badge badge-download">Download</span>
+                <h2>Seed Creator</h2>
+                <p>Download a standalone HTML file (~25KB) that works offline. Create Living Book seeds anywhere, no internet required.</p>
+            </a>
+        </div>
+
+        <div class="section-title">Documentation</div>
+        <div class="tool-list">
+            <a href="seed-instructions.html" class="tool-card">
+                <span class="badge badge-docs">Guide</span>
+                <h2>Seed Instructions</h2>
+                <p>Step-by-step guide to creating and expanding Living Book seeds with AI assistants like ChatGPT or Claude.</p>
+            </a>
+        </div>
+
+        <a href="/" class="back-link">&larr; Back to Quarex</a>
+
+        <footer>
+            <p>&copy; 2025 Quarex / Peter Nehl. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

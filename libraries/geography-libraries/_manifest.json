@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "africa",
+    "name": "Africa",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "antarctica",
+    "name": "Antarctica",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "asia",
+    "name": "Asia",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "europe",
+    "name": "Europe",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "north-america",
+    "name": "North America",
+    "description": null,
+    "shelfCount": 2
+  },
+  {
+    "slug": "oceania",
+    "name": "Oceania",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "south-america",
+    "name": "South America",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "us-geography",
+    "name": "Us Geography",
+    "description": null,
+    "shelfCount": 1
+  }
+]

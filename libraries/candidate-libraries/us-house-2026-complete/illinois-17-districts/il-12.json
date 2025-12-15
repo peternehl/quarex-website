@@ -1,0 +1,30 @@
+{
+  "name": "IL-12",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Bost (R)",
+        "Michael Tabacchi (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Julie Fortier (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

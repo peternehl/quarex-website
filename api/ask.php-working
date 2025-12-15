@@ -1,0 +1,282 @@
+<?php
+/**
+ * ask.php — Gemini 2.5 Flash-Lite (search-first, fallback to model knowledge)
+ * Returns JSON:
+ * {
+ *   "mode": "web-grounded" | "web-first-no-metadata" | "model-fallback",
+ *   "text": "<plain text>",
+ *   "html": "<text with <br> breaks>",
+ *   "sources": ["https://...", ...]  // only when grounded
+ * }
+ */
+
+// ------------------------ CORS / preflight ------------------------
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+  header('Access-Control-Allow-Origin: *');
+  header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
+  header('Access-Control-Allow-Headers: Content-Type, X-Requested-With');
+  http_response_code(204);
+  exit;
+}
+header('Access-Control-Allow-Origin: *');
+header('Content-Type: application/json; charset=UTF-8');
+
+// ------------------------ Config ------------------------
+$API_KEY = getenv('GEMINI_API_KEY');
+if (!$API_KEY) {
+  fail(500, 'GEMINI_API_KEY environment variable not set');
+}
+$MODEL   = getenv('GEMINI_MODEL') ?: 'gemini-2.5-flash-lite';
+$TIMEOUT = 60; // seconds
+
+// ------------------------ Utilities ------------------------
+function fail($code, $msg, $extra = []) {
+  http_response_code($code);
+  echo json_encode(array_merge([
+    'error' => $msg,
+  ], $extra), JSON_UNESCAPED_SLASHES);
+  exit;
+}
+
+function read_json_body() {
+  $ct = $_SERVER['CONTENT_TYPE'] ?? '';
+  if (stripos($ct, 'application/json') !== false) {
+    $raw = file_get_contents('php://input');
+    if ($raw !== false && strlen($raw)) {
+      $j = json_decode($raw, true);
+      if (is_array($j)) return $j;
+    }
+  }
+  return null;
+}
+
+function clamp($val, $min, $max, $default) {
+  if ($val === null || $val === '') return $default;
+  $n = floatval($val);
+  if ($n < $min) $n = $min;
+  if ($n > $max) $n = $max;
+  return $n;
+}
+
+// Single non-streaming Gemini call
+function gemini_call(string $model, string $apiKey, array $body, int $timeout = 60): array {
+  $url = "https://generativelanguage.googleapis.com/v1beta/models/$model:generateContent";
+
+  $ch = curl_init($url);
+  curl_setopt_array($ch, [
+    CURLOPT_HTTPHEADER => [
+      "Content-Type: application/json",
+      "x-goog-api-key: $apiKey",
+    ],
+    CURLOPT_POST => true,
+    CURLOPT_POSTFIELDS => json_encode($body, JSON_UNESCAPED_SLASHES),
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_TIMEOUT => $timeout,
+  ]);
+  $resp = curl_exec($ch);
+  if ($resp === false) {
+    $err = curl_error($ch);
+    curl_close($ch);
+    throw new Exception("cURL error: $err");
+  }
+  $code = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+  curl_close($ch);
+
+  if ($code < 200 || $code >= 300) {
+    throw new Exception("Gemini HTTP $code: $resp");
+  }
+  $json = json_decode($resp, true);
+  if (!is_array($json)) {
+    throw new Exception("Gemini returned non-JSON response");
+  }
+  return $json;
+}
+
+// Extract plain text from Gemini response
+function gemini_extract_text(array $resp): string {
+  $cand = $resp['candidates'][0] ?? null;
+  if (!$cand) return '';
+  $parts = $cand['content']['parts'] ?? [];
+  $buf = '';
+  foreach ($parts as $p) {
+    if (isset($p['text']) && is_string($p['text'])) $buf .= $p['text'];
+  }
+  return $buf;
+}
+
+// Extract source URLs from groundingMetadata (best-effort)
+function gemini_extract_sources(array $resp): array {
+  $cand = $resp['candidates'][0] ?? null;
+  if (!$cand) return [];
+  $gm = $cand['groundingMetadata'] ?? null;
+  if (!$gm) return [];
+
+  $urls = [];
+  // Search entry point URL (often present)
+  if (!empty($gm['searchEntryPoint']['url'])) {
+    $urls[] = $gm['searchEntryPoint']['url'];
+  }
+  // Common buckets where URLs appear
+  $buckets = [
+    $gm['groundingChunks'] ?? [],
+    $gm['supportingEvidence'] ?? [],
+    $gm['sources'] ?? [],
+  ];
+  foreach ($buckets as $group) {
+    if (!is_array($group)) continue;
+    foreach ($group as $item) {
+      if (isset($item['web']['uri']) && is_string($item['web']['uri']))      $urls[] = $item['web']['uri'];
+      if (isset($item['sourceUrl']) && is_string($item['sourceUrl']))        $urls[] = $item['sourceUrl'];
+      if (isset($item['metadata']['url']) && is_string($item['metadata']['url'])) $urls[] = $item['metadata']['url'];
+      if (isset($item['url']) && is_string($item['url']))                    $urls[] = $item['url'];
+    }
+  }
+  // Deduplicate + keep only http(s)
+  $urls = array_values(array_unique(array_filter($urls, fn($u) => is_string($u) && preg_match('#^https?://#i', $u))));
+  return $urls;
+}
+
+// Helper function to get markdown links from citation.php
+function get_markdown_links(array $sources): array {
+  if (empty($sources)) return [];
+  
+  $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+  $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+  $scriptDir = dirname($_SERVER['SCRIPT_NAME'] ?? '');
+  $endpoint = rtrim("$protocol://$host$scriptDir", '/') . '/citation.php';
+  
+  $ch = curl_init($endpoint);
+  curl_setopt_array($ch, [
+    CURLOPT_POST           => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_HTTPHEADER     => ['Content-Type: application/json'],
+    CURLOPT_POSTFIELDS     => json_encode(['links' => $sources], JSON_UNESCAPED_SLASHES),
+    CURLOPT_TIMEOUT        => 30,
+    CURLOPT_CONNECTTIMEOUT => 10,
+  ]);
+  $respCit = curl_exec($ch);
+  $info    = curl_getinfo($ch);
+  
+  $markdownLinks = [];
+  if ($respCit === false) {
+    error_log("citation POST failed: " . curl_error($ch));
+  } else {
+    error_log("citation POST {$info['http_code']} to $endpoint");
+    
+    // Parse the citation.php response
+    $citationData = json_decode($respCit, true);
+    if ($citationData && isset($citationData['ok']) && $citationData['ok']) {
+      // Extract markdown links from items
+      foreach ($citationData['items'] as $item) {
+        if (isset($item['markdown'])) {
+          $markdownLinks[] = $item['markdown'];
+        }
+      }
+      error_log("Extracted " . count($markdownLinks) . " markdown links");
+    }
+  }
+  curl_close($ch);
+  
+  return $markdownLinks;
+}
+
+// ------------------------ Read input ------------------------
+$bodyJson = read_json_body();
+$q = null;
+
+// Accept prompt from JSON { "q": "..." } or form/query param ?q=...
+if ($bodyJson && isset($bodyJson['q'])) {
+  $q = trim(strval($bodyJson['q']));
+} else {
+  $q = trim(strval($_REQUEST['q'] ?? ''));
+}
+
+if ($q === '') {
+  fail(400, "Missing 'q' parameter. Provide your question as JSON {\"q\":\"...\"} or ?q=...");
+}
+
+// Optional controls from client (safe defaults/clamps)
+$temperature = clamp($_REQUEST['temperature'] ?? ($bodyJson['temperature'] ?? null), 0.0, 2.0, 0.4);
+$topP        = clamp($_REQUEST['top_p'] ?? ($bodyJson['top_p'] ?? null),           0.0, 1.0, 0.9);
+$topK        = intval(clamp($_REQUEST['top_k'] ?? ($bodyJson['top_k'] ?? null),    1,  100,  40));
+$maxTokens   = intval(clamp($_REQUEST['max_tokens'] ?? ($bodyJson['max_tokens'] ?? null), 64, 20000, 8000));
+$forceJson   = !!($_REQUEST['force_json'] ?? ($bodyJson['force_json'] ?? false)); // true/false
+
+// ------------------------ Build base Gemini payload ------------------------
+$baseBody = [
+  "contents" => [[
+    "role"  => "user",
+    "parts" => [["text" => $q]]
+  ]],
+  "systemInstruction" => [
+    "role"  => "system",
+    "parts" => [["text" =>
+      "You are an expert academic assistant. Write at a clear 12th-grade level."
+    ]]
+  ],
+  "generationConfig" => array_filter([
+    "temperature"     => $temperature,
+    "topP"            => $topP,
+    "topK"            => $topK,
+    "maxOutputTokens" => (int)$maxTokens,
+  ], fn($v) => $v !== null),
+];
+
+// Optional: force model to return structured JSON (schema example)
+if ($forceJson) {
+  $baseBody["generationConfig"]["responseMimeType"] = "application/json";
+  $baseBody["generationConfig"]["responseJsonSchema"] = [
+    "type" => "object",
+    "properties" => [
+      "answer"  => ["type" => "string"],
+      "sources" => ["type" => "array", "items" => ["type" => "string"]],
+    ],
+    "required" => ["answer"]
+  ];
+}
+
+// ------------------------ 1) Search-first attempt ------------------------
+$searchFirst = $baseBody;
+$searchFirst["tools"] = [["google_search" => new stdClass()]];
+
+try {
+  $resp1 = gemini_call($MODEL, $API_KEY, $searchFirst, $TIMEOUT);
+  $text1 = gemini_extract_text($resp1);
+  $sources1 = gemini_extract_sources($resp1);
+
+  // Get markdown links from citation.php
+  $markdownLinks = get_markdown_links($sources1);
+
+  if ($text1 !== '') {
+    // Sometimes the model used the tool but metadata is sparse; still return what we have.
+    echo json_encode([
+      'mode'    => 'web-first-no-metadata',
+      'text'    => $text1,
+      'html'    => nl2br(htmlentities($text1, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8')),
+      'markdown_links' => $markdownLinks, // Only markdown links, no raw sources
+    ], JSON_UNESCAPED_SLASHES);
+    exit;
+  }
+
+} catch (Exception $e) {
+  // Fall through to fallback; log the search failure
+  error_log("Search-first failed: " . $e->getMessage());
+}
+
+// ------------------------ 2) Fallback: model-only ------------------------
+try {
+  $resp2 = gemini_call($MODEL, $API_KEY, $baseBody, $TIMEOUT);
+  $text2 = gemini_extract_text($resp2);
+  if ($text2 === '') throw new Exception("Empty response from model fallback");
+
+  echo json_encode([
+    'mode'    => 'model-fallback',
+    'text'    => $text2,
+    'html'    => nl2br(htmlentities($text2, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8')),
+    'markdown_links' => [], // No sources in fallback mode
+  ], JSON_UNESCAPED_SLASHES);
+  exit;
+
+} catch (Exception $e) {
+  fail(502, 'Gemini fallback failed', ['detail' => $e->getMessage()]);
+}

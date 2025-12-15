@@ -1,0 +1,126 @@
+{
+  "name": "Astronomy and Cosmology",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Our Place in the Universe",
+      "topics": [
+        "How big is the observable universe and how do we measure cosmic distances?",
+        "Where is Earth located within the Milky Way galaxy?",
+        "How many galaxies exist and how are they distributed in space?",
+        "What is the cosmic distance ladder and how does each rung work?",
+        "How long does light take to reach us from different cosmic objects?",
+        "Why does looking at distant objects mean looking back in time?"
+      ],
+      "tags": ["science", "astronomy", "cosmology", "education"]
+    },
+    {
+      "name": "The Solar System",
+      "topics": [
+        "How did the solar system form from a cloud of gas and dust?",
+        "What distinguishes the rocky inner planets from the gas giants?",
+        "Why was Pluto reclassified as a dwarf planet?",
+        "What are asteroids, comets, and the Kuiper Belt?",
+        "How do we explore the solar system with spacecraft and rovers?",
+        "What conditions might allow life to exist elsewhere in our solar system?"
+      ],
+      "tags": ["science", "astronomy", "planetary-science", "exploration"]
+    },
+    {
+      "name": "Stars: Birth, Life, and Death",
+      "topics": [
+        "How do stars form in nebulae from collapsing gas clouds?",
+        "What determines a star's color, temperature, and brightness?",
+        "How does nuclear fusion power stars and create heavier elements?",
+        "What is the life cycle of a star like our Sun?",
+        "How do massive stars die in supernova explosions?",
+        "What are neutron stars and how do pulsars emit beams of radiation?"
+      ],
+      "tags": ["science", "astronomy", "astrophysics", "physics"]
+    },
+    {
+      "name": "Black Holes",
+      "topics": [
+        "What is a black hole and how does one form?",
+        "What is the event horizon and why can nothing escape it?",
+        "How did scientists capture the first image of a black hole?",
+        "What is Hawking radiation and do black holes eventually evaporate?",
+        "What happens to matter as it falls into a black hole?",
+        "How do supermassive black holes at galaxy centers affect their surroundings?"
+      ],
+      "tags": ["science", "astronomy", "astrophysics", "physics"]
+    },
+    {
+      "name": "Galaxies and Large-Scale Structure",
+      "topics": [
+        "What types of galaxies exist: spiral, elliptical, irregular?",
+        "How did Edwin Hubble prove that galaxies exist beyond the Milky Way?",
+        "What holds galaxies together and what role does dark matter play?",
+        "How do galaxies form, evolve, and merge over cosmic time?",
+        "What is the cosmic web and how are galaxies distributed in filaments?",
+        "What will happen when the Milky Way collides with Andromeda?"
+      ],
+      "tags": ["science", "astronomy", "cosmology", "physics"]
+    },
+    {
+      "name": "The Big Bang and Early Universe",
+      "topics": [
+        "What evidence supports the Big Bang theory?",
+        "What is the cosmic microwave background radiation?",
+        "What happened in the first seconds after the Big Bang?",
+        "How did the first atoms, stars, and galaxies form?",
+        "What is cosmic inflation and why was it proposed?",
+        "What existed before the Big Bang, if anything?"
+      ],
+      "tags": ["science", "cosmology", "physics", "history"]
+    },
+    {
+      "name": "Dark Matter and Dark Energy",
+      "topics": [
+        "What evidence suggests that dark matter exists?",
+        "Why can't we see dark matter and what might it be made of?",
+        "How do scientists try to detect dark matter?",
+        "What is dark energy and how do we know the universe's expansion is accelerating?",
+        "What is the cosmological constant and how does it relate to dark energy?",
+        "How much of the universe is made of ordinary matter versus dark matter and energy?"
+      ],
+      "tags": ["science", "cosmology", "physics", "mystery"]
+    },
+    {
+      "name": "Exoplanets and the Search for Life",
+      "topics": [
+        "How do astronomers detect planets around other stars?",
+        "How many exoplanets have been discovered and what are they like?",
+        "What is the habitable zone and why is it important for life?",
+        "What makes a planet potentially Earth-like?",
+        "How might we detect signs of life on distant exoplanets?",
+        "What is the Drake Equation and what does it estimate?"
+      ],
+      "tags": ["science", "astronomy", "astrobiology", "exploration"]
+    },
+    {
+      "name": "Telescopes and Observational Tools",
+      "topics": [
+        "How do optical telescopes collect and focus light?",
+        "What can radio telescopes detect that optical telescopes cannot?",
+        "How do space telescopes like Hubble and James Webb differ from ground-based ones?",
+        "What other types of astronomy exist: X-ray, gamma-ray, gravitational wave?",
+        "How has adaptive optics improved ground-based astronomy?",
+        "What major discoveries have different types of telescopes enabled?"
+      ],
+      "tags": ["science", "astronomy", "technology", "innovation"]
+    },
+    {
+      "name": "The Fate of the Universe",
+      "topics": [
+        "Will the universe expand forever or eventually collapse?",
+        "What is the Big Freeze, Big Rip, or Big Crunch?",
+        "How will stars and galaxies change over trillions of years?",
+        "What will happen to black holes in the far future?",
+        "What is the heat death of the universe?",
+        "Could the universe be part of a multiverse?"
+      ],
+      "tags": ["science", "cosmology", "physics", "philosophy"]
+    }
+  ]
+}

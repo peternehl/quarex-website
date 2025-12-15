@@ -1,0 +1,32 @@
+{
+  "name": "Rhode Island",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Elaine Pelino (R)",
+        "Robert Raimondo (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Daniel McKee (D)",
+        "Helena Foulkes (D)",
+        "Gregory Stevens (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

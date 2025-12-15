@@ -1,0 +1,29 @@
+{
+  "name": "Pennsylvania",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Stacy Garrity (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "governance",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

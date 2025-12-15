@@ -1,0 +1,31 @@
+{
+  "name": "OH-11",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Shontel Brown (D)",
+        "David Light (D)",
+        "Cortney Peterson (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

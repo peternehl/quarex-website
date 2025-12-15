@@ -1,0 +1,34 @@
+{
+  "name": "Virginia",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Kim Farington (R)",
+        "Bryce Reeves (R)",
+        "David Williams (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mark Warner (D)",
+        "Lorita Daniels (D)",
+        "Gregory Eichelberger (D)",
+        "Jason Reynolds (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

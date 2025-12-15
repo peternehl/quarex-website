@@ -1,0 +1,227 @@
+{
+  "name": "Desalinization Strategies for the 21st Century",
+  "created_by": "Peter and Claude",
+  "chapters": [
+    {
+      "name": "The Global Water Crisis",
+      "topics": [
+        "Why are 2 billion people facing water scarcity despite Earth being 70% water?",
+        "Which regions will face the most severe freshwater shortages by 2050?",
+        "How does climate change accelerate the freshwater crisis?",
+        "What role does agriculture play in depleting freshwater reserves?",
+        "Why can't we simply redistribute water from water-rich to water-poor regions?"
+      ],
+      "tags": [
+        "environment",
+        "climate-change",
+        "earth-science",
+        "technology"
+      ]
+    },
+    {
+      "name": "How Desalination Works",
+      "topics": [
+        "What are the fundamental methods for removing salt from seawater?",
+        "How does reverse osmosis actually separate salt from water molecules?",
+        "Why is thermal distillation still used when it requires so much energy?",
+        "What determines the quality and safety of desalinated drinking water?",
+        "How much seawater is needed to produce one gallon of freshwater?",
+        "What happens to the concentrated brine left over from desalination?"
+      ],
+      "tags": [
+        "science",
+        "infrastructure",
+        "energy",
+        "technology"
+      ]
+    },
+    {
+      "name": "Reverse Osmosis Technology",
+      "topics": [
+        "How have membrane technologies improved desalination efficiency since the 1960s?",
+        "What breakthroughs in nanomaterials could revolutionize RO membranes?",
+        "Why do membranes foul and how can we prevent it?",
+        "How does pressure recovery technology reduce energy consumption?",
+        "What are the trade-offs between single-pass and multi-pass RO systems?",
+        "Could graphene membranes make desalination dramatically cheaper?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "engineering",
+        "systems-thinking"
+      ]
+    },
+    {
+      "name": "Thermal and Hybrid Methods",
+      "topics": [
+        "Why does the Middle East favor thermal desalination over reverse osmosis?",
+        "How do multi-stage flash and multi-effect distillation systems compare?",
+        "What are the advantages of combining thermal and membrane technologies?",
+        "Can waste heat from power plants make thermal desalination economical?",
+        "How does mechanical vapor compression achieve energy efficiency?",
+        "What role does forward osmosis play in next-generation hybrid systems?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Energy Requirements and Solutions",
+      "topics": [
+        "Why does desalination consume so much energy and what are the theoretical limits?",
+        "How can solar power make desalination sustainable in sunny coastal regions?",
+        "What potential does offshore wind hold for powering desalination plants?",
+        "Could small modular nuclear reactors provide carbon-free desalination energy?",
+        "How close are we to achieving the thermodynamic minimum energy for desalination?",
+        "What emerging technologies could cut desalination energy use by 50% or more?"
+      ],
+      "tags": [
+        "environment",
+        "energy",
+        "infrastructure",
+        "technology"
+      ]
+    },
+    {
+      "name": "Environmental Impacts and Mitigation",
+      "topics": [
+        "How does brine discharge affect marine ecosystems near desalination plants?",
+        "What technologies exist to reduce or eliminate harmful brine disposal?",
+        "Can we extract valuable minerals from brine instead of dumping it?",
+        "How do intake systems harm marine life and what alternatives exist?",
+        "What is the carbon footprint of desalinated water compared to other sources?",
+        "How can desalination plants be designed to minimize ecological damage?"
+      ],
+      "tags": [
+        "environment",
+        "infrastructure",
+        "ecology",
+        "earth-science"
+      ]
+    },
+    {
+      "name": "Economics of Desalination",
+      "topics": [
+        "What does desalinated water actually cost compared to traditional water sources?",
+        "Why has the cost of desalination dropped 80% since the 1990s?",
+        "How do capital costs versus operating costs affect desalination economics?",
+        "What financing models make large-scale desalination projects viable?",
+        "When does desalination become more economical than long-distance water transport?",
+        "How do water subsidies distort the true economics of desalination?"
+      ],
+      "tags": [
+        "economics",
+        "infrastructure",
+        "technology",
+        "interdisciplinary"
+      ]
+    },
+    {
+      "name": "Major Desalination Projects Worldwide",
+      "topics": [
+        "How did Israel become a world leader in desalination technology?",
+        "What lessons can we learn from Saudi Arabia's massive desalination infrastructure?",
+        "Why is Singapore betting its water future on desalination?",
+        "How is California approaching desalination amid drought and environmental concerns?",
+        "What role does desalination play in Australia's water security strategy?",
+        "Which megaprojects are currently under construction and what will they deliver?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "engineering",
+        "interdisciplinary"
+      ]
+    },
+    {
+      "name": "Emerging Technologies",
+      "topics": [
+        "Could solar-powered evaporation provide low-cost desalination for small communities?",
+        "How do capacitive deionization and electrochemical methods differ from traditional approaches?",
+        "What potential does biomimicry hold for creating more efficient desalination membranes?",
+        "Can shock electrodialysis make brackish water treatment dramatically cheaper?",
+        "How might atmospheric water harvesting complement traditional desalination?",
+        "What are the most promising desalination startups and research breakthroughs today?",
+        "How do floating solar-powered offshore desalination platforms work and where are they being deployed?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Desalination for Agriculture",
+      "topics": [
+        "Can desalinated water ever be cheap enough for large-scale crop irrigation?",
+        "What specialized approaches exist for treating brackish groundwater for farms?",
+        "How does Israel use desalination to achieve water-independent agriculture?",
+        "What crops can tolerate the slightly higher salinity of desalinated water?",
+        "Could greenhouses with integrated desalination transform desert farming?",
+        "What role does desalination play in preventing aquifer depletion from over-irrigation?"
+      ],
+      "tags": [
+        "technology",
+        "climate-change",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Small-Scale and Portable Solutions",
+      "topics": [
+        "What portable desalination options exist for disaster relief and remote communities?",
+        "How do solar stills work and when are they practical?",
+        "Can household-scale desalination devices provide reliable drinking water?",
+        "What solutions exist for desalination on ships and offshore platforms?",
+        "How are military forces addressing desalination for field operations?",
+        "What low-cost technologies could bring desalination to developing nations?"
+      ],
+      "tags": [
+        "science",
+        "infrastructure",
+        "engineering",
+        "technology"
+      ]
+    },
+    {
+      "name": "Policy, Regulation, and Governance",
+      "topics": [
+        "How should governments regulate desalination to balance water needs and environmental protection?",
+        "What water rights issues arise when desalination changes regional water availability?",
+        "How do international agreements address transboundary desalination projects?",
+        "What public health standards govern desalinated drinking water quality?",
+        "Should desalination be publicly owned, privately operated, or some combination?",
+        "How can policy encourage innovation while ensuring equitable water access?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "infrastructure",
+        "technology"
+      ]
+    },
+    {
+      "name": "The Future of Desalination",
+      "topics": [
+        "What percentage of global freshwater could desalination realistically supply by 2050?",
+        "How might climate change reshape the geography of desalination needs?",
+        "Could desalination become so cheap and clean that water scarcity becomes obsolete?",
+        "What technological breakthroughs would most transform desalination economics?",
+        "How will AI and automation change desalination plant operations?",
+        "What are the most important research priorities for 21st-century desalination?"
+      ],
+      "tags": [
+        "science",
+        "climate-change",
+        "infrastructure",
+        "earth-science"
+      ]
+    }
+  ]
+}

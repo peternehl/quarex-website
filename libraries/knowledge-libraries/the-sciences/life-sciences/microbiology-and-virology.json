@@ -1,0 +1,126 @@
+{
+  "name": "Microbiology and Virology",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The Microbial World",
+      "topics": [
+        "What are microorganisms and what major groups do they include?",
+        "How did the invention of the microscope reveal the microbial world?",
+        "How do bacteria, archaea, fungi, and protists differ from each other?",
+        "Where do microbes live: soil, water, air, inside other organisms?",
+        "How many microbial cells live in and on the human body?",
+        "Why are most microorganisms harmless or beneficial to humans?"
+      ],
+      "tags": ["science", "microbiology", "biology", "education"]
+    },
+    {
+      "name": "Bacterial Structure and Function",
+      "topics": [
+        "What structures make up a typical bacterial cell?",
+        "How do bacteria differ from eukaryotic cells?",
+        "What is the difference between gram-positive and gram-negative bacteria?",
+        "How do bacteria obtain energy and nutrients?",
+        "What shapes do bacteria come in: cocci, bacilli, spirilla?",
+        "How do bacteria reproduce through binary fission?"
+      ],
+      "tags": ["science", "microbiology", "biology", "medicine"]
+    },
+    {
+      "name": "Bacterial Genetics and Evolution",
+      "topics": [
+        "How do bacteria exchange genetic material: conjugation, transformation, transduction?",
+        "What are plasmids and why are they important for antibiotic resistance?",
+        "How quickly can bacteria evolve in response to new conditions?",
+        "What is horizontal gene transfer and why does it matter medically?",
+        "How do mutations create bacterial diversity?",
+        "What can bacterial genetics teach us about the origin of life?"
+      ],
+      "tags": ["science", "microbiology", "genetics", "evolution"]
+    },
+    {
+      "name": "Viruses: Structure and Replication",
+      "topics": [
+        "What are viruses made of and why aren't they considered alive?",
+        "How do viruses attach to and enter host cells?",
+        "What is the difference between DNA and RNA viruses?",
+        "How do viruses hijack cellular machinery to reproduce?",
+        "What is the lytic versus lysogenic cycle of viral infection?",
+        "Why do some viruses like HIV integrate into the host genome?"
+      ],
+      "tags": ["science", "virology", "biology", "medicine"]
+    },
+    {
+      "name": "Major Viral Diseases",
+      "topics": [
+        "What viruses cause respiratory diseases: influenza, COVID-19, RSV?",
+        "How do hepatitis viruses damage the liver?",
+        "What makes HIV different from most other viral infections?",
+        "How do herpes viruses persist in the body for life?",
+        "What emerging viral diseases threaten public health?",
+        "How have vaccines controlled viral diseases like polio and measles?"
+      ],
+      "tags": ["health", "virology", "medicine", "public-health"]
+    },
+    {
+      "name": "Fungi and Fungal Infections",
+      "topics": [
+        "What distinguishes fungi from bacteria and other microbes?",
+        "What roles do fungi play in ecosystems as decomposers?",
+        "What common fungal infections affect humans: athlete's foot, yeast infections, ringworm?",
+        "Why are serious fungal infections becoming more common and dangerous?",
+        "How do antifungal medications work?",
+        "What beneficial fungi do we use for food, medicine, and industry?"
+      ],
+      "tags": ["science", "microbiology", "medicine", "ecology"]
+    },
+    {
+      "name": "The Human Microbiome",
+      "topics": [
+        "What is the microbiome and where do different microbes live in the body?",
+        "How does the gut microbiome affect digestion and health?",
+        "What happens when the microbiome is disrupted by antibiotics?",
+        "How does the microbiome influence the immune system?",
+        "What is the connection between gut bacteria and brain health?",
+        "How might microbiome-based treatments work in the future?"
+      ],
+      "tags": ["health", "microbiology", "biology", "medicine"]
+    },
+    {
+      "name": "Microbiology Laboratory Techniques",
+      "topics": [
+        "How do microbiologists grow and culture bacteria in the lab?",
+        "What staining techniques help identify different microorganisms?",
+        "How do PCR and genetic sequencing detect and identify pathogens?",
+        "What biosafety levels protect researchers from dangerous microbes?",
+        "How do scientists determine which antibiotic kills a bacterial strain?",
+        "What role does microbiology play in food safety testing?"
+      ],
+      "tags": ["science", "microbiology", "methodology", "education"]
+    },
+    {
+      "name": "Microbes in Industry and Environment",
+      "topics": [
+        "How do microbes produce foods like bread, cheese, yogurt, and beer?",
+        "What biotechnology applications use bacteria and yeast?",
+        "How do microbes help treat sewage and clean up pollution?",
+        "What role do soil microbes play in nutrient cycling?",
+        "How are bacteria engineered to produce medicines and chemicals?",
+        "What is bioremediation and how do microbes clean contaminated sites?"
+      ],
+      "tags": ["science", "microbiology", "biotechnology", "environment"]
+    },
+    {
+      "name": "Emerging Infections and Pandemic Preparedness",
+      "topics": [
+        "Why are new infectious diseases emerging more frequently?",
+        "What is zoonotic spillover and how do animal diseases jump to humans?",
+        "How do public health systems detect and respond to outbreaks?",
+        "What lessons did COVID-19 teach about pandemic preparedness?",
+        "How might climate change affect infectious disease patterns?",
+        "What research is needed to prepare for the next pandemic?"
+      ],
+      "tags": ["health", "microbiology", "public-health", "global-issues"]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Florida",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "William Todd Andros (R)",
+        "Shea Cruel (R)",
+        "Byron Donalds (R)",
+        "James Fishback (R)",
+        "Jim Holcomb (R)",
+        "Daniel Imperato (R)",
+        "John Joseph Mercadante (R)",
+        "William Reicherter (R)",
+        "Paul Renner (R)",
+        "Caneste Succe (R)",
+        "Bobby Williams Jr. (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Faith E. Antonio (D)",
+        "Richard Dembinsky (D)",
+        "Jerry Demings (D)",
+        "Dayna Foster (D)",
+        "Indony Jean Baptiste (D)",
+        "David Jolly (D)",
+        "Donald Peterson (D)",
+        "Christopher Powell (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Brandon L. McIntyre (I)",
+        "Reginald Strachan (I)",
+        "Scott Jewett (I)",
+        "Surindar Bedi (I)",
+        "James Brown (I)",
+        "Moliere Dimanche (I)",
+        "Insley Evans (I)",
+        "Kyle Gibson (I)",
+        "Neil Gillespie (I)",
+        "Rodney Glover (I)",
+        "Mourice Hylton (I)",
+        "Holly Klask (I)",
+        "Andrea Lynn Klink (I)",
+        "Jason Pizzo (I)",
+        "David Wexler (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

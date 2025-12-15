@@ -1,0 +1,45 @@
+{
+  "name": "NJ-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Frank Pallone Jr. (I)",
+        "Katie Bansil (I)",
+        "John Hsu (I)",
+        "Hillary Herzig (I)",
+        "Fahad Akhtar (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

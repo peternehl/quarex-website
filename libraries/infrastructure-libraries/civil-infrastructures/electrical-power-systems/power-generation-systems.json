@@ -1,0 +1,111 @@
+{
+  "name": "Power Generation Systems",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Fundamentals of Electricity and Energy Conversion",
+      "topics": [
+        "How mechanical, thermal, and chemical energy become electrical energy",
+        "The physics of electromagnetism in generators",
+        "Thermodynamic limits and energy efficiency",
+        "Why different fuels create different grid characteristics"
+      ],
+      "tags": [
+        "science",
+        "energy",
+        "infrastructure",
+        "physics"
+      ]
+    },
+    {
+      "name": "Fossil Fuel Power Plants",
+      "topics": [
+        "How turbines, boilers, and combustion cycles work",
+        "Environmental impact and carbon intensity differences between fuels",
+        "Reliability and dispatchability from fossil sources",
+        "Decommissioning, stranded assets, and energy transition challenges"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "fossil-fuels"
+      ]
+    },
+    {
+      "name": "Nuclear Power Generation",
+      "topics": [
+        "Fission mechanics and neutron chain reactions inside a reactor",
+        "Reactor types and engineered safety containment strategies",
+        "Long-term radioactive waste management and storage challenges",
+        "Why nuclear offers baseload stability but high capital and political cost"
+      ],
+      "tags": [
+        "science",
+        "energy",
+        "infrastructure",
+        "technology"
+      ]
+    },
+    {
+      "name": "Renewable Power Systems",
+      "topics": [
+        "Variable generation and intermittency challenges in solar and wind",
+        "Differences between solar PV and solar thermal power",
+        "Hydropower reservoirs, ecology, and downstream communities",
+        "How renewable resources reshape grid planning and operations"
+      ],
+      "tags": [
+        "environment",
+        "energy",
+        "climate-change",
+        "renewable-energy"
+      ]
+    },
+    {
+      "name": "Emerging Generation Technologies",
+      "topics": [
+        "Fusion reactor designs and key engineering obstacles",
+        "Geothermal energy and its geographic constraints",
+        "Hydrogen as an energy carrier in power systems",
+        "Bioenergy and waste-to-power tradeoffs in carbon accounting"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "physics"
+      ]
+    },
+    {
+      "name": "Grid Integration of Diverse Generation Sources",
+      "topics": [
+        "Balancing intermittent and dispatchable resources on the grid",
+        "How curtailment and overgeneration affect operations and markets",
+        "Interfaces between power generation and energy storage systems",
+        "Economic dispatch, merit order, and emission impacts of generation mix"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Future of Global Power Generation",
+      "topics": [
+        "Zero-carbon pathways and energy transition timelines",
+        "Capacity planning under climate and policy uncertainty",
+        "Trade-offs between centralized and distributed generation models",
+        "Global inequalities in energy access and security"
+      ],
+      "tags": [
+        "technology",
+        "climate-change",
+        "energy",
+        "infrastructure"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "KY-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Brett Guthrie (R)",
+        "Joshua Ferguson (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "William Compton (D)",
+        "Hank Linderman (D)",
+        "Megan Wingfield (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

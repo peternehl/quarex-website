@@ -1,0 +1,125 @@
+{
+  "name": "Stagecraft and Technical Theatre Production",
+  "chapters": [
+    {
+      "name": "Stage Management Fundamentals",
+      "topics": [
+        "What does a stage manager do during pre-production, rehearsals, and performances?",
+        "How do stage managers create and maintain the prompt book?",
+        "What communication systems do stage managers use to call a show?",
+        "How do stage managers coordinate between artistic and technical teams?",
+        "What organizational skills make an effective stage manager?",
+        "How does stage management differ between theatre, dance, and opera?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "workplace-dynamics"]
+    },
+    {
+      "name": "Set Design and Construction",
+      "topics": [
+        "How do set designers translate a director's vision into visual designs?",
+        "What is the design process from initial concepts to technical drawings?",
+        "How do scenic artists and carpenters build and paint theatrical sets?",
+        "What materials and construction techniques are used in scenic building?",
+        "How do designers work within budget constraints and space limitations?",
+        "What is the difference between realistic, abstract, and conceptual set design?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "design"]
+    },
+    {
+      "name": "Lighting Design and Technology",
+      "topics": [
+        "What are the functions of stage lighting: visibility, mood, focus, composition?",
+        "How do lighting designers create a light plot and cue sheet?",
+        "What types of lighting instruments are used in theatre?",
+        "How do color, angle, and intensity create different effects?",
+        "What is a lighting console and how do technicians program cues?",
+        "How has LED and intelligent lighting changed theatrical lighting?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "innovation"]
+    },
+    {
+      "name": "Sound Design for Theatre",
+      "topics": [
+        "What does a sound designer contribute to a theatrical production?",
+        "How do designers create soundscapes that support the world of the play?",
+        "What equipment is needed for theatrical sound reinforcement?",
+        "How do sound engineers mix live theatre and musicals?",
+        "What software and tools do sound designers use to create effects?",
+        "How has sound technology evolved in contemporary theatre?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "innovation"]
+    },
+    {
+      "name": "Costume Design and Construction",
+      "topics": [
+        "How do costume designers research and develop designs for characters?",
+        "What does the costume construction process involve from sketch to stage?",
+        "How do designers work with directors to create cohesive visual concepts?",
+        "What special skills do costume shops need: draping, patterning, crafts?",
+        "How do designers handle quick changes and costume maintenance?",
+        "What considerations affect costuming for dance, opera, and period productions?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "design"]
+    },
+    {
+      "name": "Props and Scenic Painting",
+      "topics": [
+        "What is the props master's role in sourcing and creating stage properties?",
+        "How do props departments decide what to buy, borrow, or build?",
+        "What techniques do scenic artists use to paint backdrops and scenery?",
+        "How does trompe l'oeil and faux finishing create theatrical illusion?",
+        "What safety considerations apply to food, weapons, and special props?",
+        "How do props and scenic elements support the design concept?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "design"]
+    },
+    {
+      "name": "Rigging and Stage Safety",
+      "topics": [
+        "What rigging systems allow scenery and equipment to fly in and out?",
+        "How do counterweight and motorized fly systems work?",
+        "What safety protocols govern working at heights and with heavy equipment?",
+        "How do technical directors ensure safe load limits and rigging practices?",
+        "What training and certification do riggers need?",
+        "What accidents have shaped current theatrical safety standards?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "infrastructure"]
+    },
+    {
+      "name": "Technical Direction and Production Management",
+      "topics": [
+        "What does a technical director do to realize designs within budget and time?",
+        "How do production managers coordinate all departments for a production?",
+        "What scheduling tools help manage complex production timelines?",
+        "How do tech rehearsals and dress rehearsals work?",
+        "What problem-solving skills do technical theatre professionals need?",
+        "How do technical directors balance artistic aspirations with practical limits?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "workplace-dynamics"]
+    },
+    {
+      "name": "Theatre Architecture and Spaces",
+      "topics": [
+        "What are the main theatre configurations: proscenium, thrust, arena, black box?",
+        "How does theatre architecture affect staging and audience experience?",
+        "What backstage and support spaces do theatres need?",
+        "How have theatre buildings evolved from ancient amphitheatres to today?",
+        "What considerations go into designing a new performance venue?",
+        "How do site-specific and found-space performances work outside traditional theatres?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "architecture"]
+    },
+    {
+      "name": "Production Scheduling and Budgeting",
+      "topics": [
+        "How do production managers create realistic budgets for theatrical productions?",
+        "What phases make up a typical production calendar?",
+        "How do theatres allocate resources across a season of shows?",
+        "What unexpected costs and delays commonly affect productions?",
+        "How do production managers track spending and make adjustments?",
+        "What financial models do different types of theatre organizations use?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "workplace-dynamics"]
+    }
+  ]
+}

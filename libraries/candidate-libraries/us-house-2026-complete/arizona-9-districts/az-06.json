@@ -1,0 +1,46 @@
+{
+  "name": "AZ-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Juan Ciscomani (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Johnathan Buma (D)",
+        "Chris Donat (D)",
+        "Samantha Severson (D)",
+        "Aiden Swallow (D)",
+        "Mo Goldman (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Gary Swing (I)",
+        "Trevor Dickerson (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

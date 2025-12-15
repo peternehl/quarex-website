@@ -1,0 +1,65 @@
+{
+  "name": "Digital Life & Computer Basics",
+  "chapters": [
+    {
+      "name": "Using Your Computer Confidently",
+      "topics": [
+        "Understanding files, folders, and storage locations",
+        "Installing and uninstalling software safely",
+        "Keeping your operating system updated",
+        "Simple steps to improve computer performance"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Online Safety and Privacy",
+      "topics": [
+        "Recognizing phishing emails and scam websites",
+        "Creating and storing strong passwords",
+        "Two-factor authentication and why it matters",
+        "Protecting your privacy on public Wi-Fi"
+      ],
+      "tags": [
+        "technology",
+        "privacy",
+        "digital-life",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Cloud Storage and Backups",
+      "topics": [
+        "Difference between local, external, and cloud storage",
+        "Setting up automatic backups for important files",
+        "Using services like Google Drive, OneDrive, or Dropbox",
+        "Restoring files after accidental deletion or loss"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "privacy",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Basic Troubleshooting Skills",
+      "topics": [
+        "What to try first when something stops working",
+        "Checking connections, settings, and updates",
+        "When to reboot, reinstall, or reset settings",
+        "Knowing when it's time to ask for expert help"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "critical-thinking",
+        "cybersecurity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "civil-infrastructures",
+    "name": "Civil Infrastructures",
+    "description": null,
+    "shelfCount": 2
+  },
+  {
+    "slug": "digital-infrastructures",
+    "name": "Digital Infrastructures",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "economic-infrastructures",
+    "name": "Economic Infrastructures (Future)",
+    "description": null,
+    "shelfCount": 0
+  },
+  {
+    "slug": "environmental-infrastructures",
+    "name": "Environmental Infrastructures",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "security-infrastructures",
+    "name": "Security Infrastructures (Future)",
+    "description": null,
+    "shelfCount": 0
+  },
+  {
+    "slug": "social-infrastructures",
+    "name": "Social Infrastructures (Future)",
+    "description": null,
+    "shelfCount": 0
+  }
+]

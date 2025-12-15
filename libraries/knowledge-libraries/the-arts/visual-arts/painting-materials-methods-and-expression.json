@@ -1,0 +1,125 @@
+{
+  "name": "Painting: Materials, Methods, and Expression",
+  "chapters": [
+    {
+      "name": "Painting Media: Oil, Acrylic, Watercolor",
+      "topics": [
+        "What are the key properties that distinguish oil, acrylic, and watercolor paints?",
+        "How does drying time affect working methods in each medium?",
+        "What surfaces and grounds work best for each type of paint?",
+        "How do the handling characteristics of each medium affect brushwork?",
+        "What health and safety considerations apply to different paint media?",
+        "How do you choose the right medium for your artistic goals?"
+      ],
+      "tags": ["arts", "visual-arts", "painting", "education"]
+    },
+    {
+      "name": "Color Theory and Mixing",
+      "topics": [
+        "What is the color wheel and how do primary, secondary, and tertiary colors relate?",
+        "How do you mix colors accurately and avoid muddy results?",
+        "What is the difference between color value, hue, and saturation?",
+        "How do warm and cool colors create spatial effects in painting?",
+        "What limited palettes do painters use and why?",
+        "How did painters like Monet and Bonnard use color expressively?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "painting"]
+    },
+    {
+      "name": "Brushwork and Application Techniques",
+      "topics": [
+        "What types of brushes exist and what marks does each make?",
+        "How do you hold and control a brush for different effects?",
+        "What is the difference between wet-into-wet and wet-on-dry techniques?",
+        "How do brush stroke direction and visibility affect a painting's feel?",
+        "What alternative application tools beyond brushes do painters use?",
+        "How did painters like Sargent and Hals achieve virtuoso brushwork?"
+      ],
+      "tags": ["arts", "visual-arts", "painting", "education"]
+    },
+    {
+      "name": "Canvas Preparation and Grounds",
+      "topics": [
+        "What is gesso and how do you apply it to prepare a canvas?",
+        "How do different grounds affect paint adhesion and appearance?",
+        "What are the differences between cotton and linen canvas?",
+        "How do you stretch and prime your own canvases?",
+        "What alternative supports like wood panels and paper can be used?",
+        "How does the ground color affect the finished painting?"
+      ],
+      "tags": ["arts", "visual-arts", "painting", "education"]
+    },
+    {
+      "name": "Underpainting and Layering",
+      "topics": [
+        "What is an underpainting and what purposes does it serve?",
+        "How do monochromatic underpaintings establish value structure?",
+        "What is the fat over lean rule and why does it matter?",
+        "How did old masters build up paintings in systematic layers?",
+        "What techniques help you plan and execute layered paintings?",
+        "When should you paint alla prima versus in layers?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "painting"]
+    },
+    {
+      "name": "Glazing and Scumbling",
+      "topics": [
+        "What is a glaze and how do you apply transparent color over dried layers?",
+        "What effects can glazing achieve that direct painting cannot?",
+        "What mediums work best for glazing in oil and acrylic?",
+        "What is scumbling and how does it differ from glazing?",
+        "How did Vermeer and other masters use glazing techniques?",
+        "What common mistakes should beginners avoid when glazing?"
+      ],
+      "tags": ["arts", "visual-arts", "painting", "education"]
+    },
+    {
+      "name": "Palette Knife and Impasto",
+      "topics": [
+        "What is impasto and what effects does thick paint application create?",
+        "How do you use palette knives to apply and manipulate paint?",
+        "What mediums help build up heavy impasto textures?",
+        "How do painters like Van Gogh and de Kooning use impasto expressively?",
+        "What challenges does heavy impasto create for drying and preservation?",
+        "How do you combine impasto areas with thinner passages?"
+      ],
+      "tags": ["arts", "visual-arts", "painting", "education"]
+    },
+    {
+      "name": "Watercolor Techniques",
+      "topics": [
+        "What makes watercolor uniquely challenging compared to opaque media?",
+        "How do wet-on-wet and wet-on-dry techniques create different effects?",
+        "What is the role of the white paper in watercolor painting?",
+        "How do you preserve whites and create luminosity in watercolor?",
+        "What lifting, masking, and special effects techniques do watercolorists use?",
+        "How do you control the unpredictable nature of watercolor?"
+      ],
+      "tags": ["arts", "visual-arts", "painting", "education"]
+    },
+    {
+      "name": "Mixed Media Approaches",
+      "topics": [
+        "What is mixed media painting and what materials can be combined?",
+        "How do you ensure different materials are compatible and permanent?",
+        "What role does collage play in mixed media painting?",
+        "How do contemporary painters combine traditional and non-traditional materials?",
+        "What textural and conceptual possibilities does mixed media open?",
+        "Who are notable mixed media artists and what techniques do they use?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "painting"]
+    },
+    {
+      "name": "Varnishing and Preservation",
+      "topics": [
+        "Why do paintings need varnishing and what protection does it provide?",
+        "What types of varnishes exist and how do they differ?",
+        "How long should oil paintings dry before varnishing?",
+        "How do you apply varnish evenly and avoid common problems?",
+        "What environmental conditions help preserve paintings long-term?",
+        "How do conservators clean and restore damaged paintings?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "painting"]
+    }
+  ]
+}

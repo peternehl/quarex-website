@@ -1,0 +1,29 @@
+{
+  "name": "Vermont",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Phil Scott (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Esther Charlestin (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "governance",
+        "us-politics"
+      ]
+    }
+  ]
+}

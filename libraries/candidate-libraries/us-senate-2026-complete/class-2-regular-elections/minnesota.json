@@ -1,0 +1,49 @@
+{
+  "name": "Minnesota",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Christopher Brooks (R)",
+        "Alycia Gruenhagen (R)",
+        "Raymond Petersen (R)",
+        "Mike Ruoho (R)",
+        "Adam Schwarze (R)",
+        "Tom Weiler (R)",
+        "Royce White (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Angie Craig (D)",
+        "Peggy Flanagan (D)",
+        "Billy Nord (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Marisa Simonetti (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

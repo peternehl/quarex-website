@@ -1,0 +1,40 @@
+{
+  "name": "TX-31",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John Carter (R)",
+        "William Abel (R)",
+        "David Berry (Texas) (R)",
+        "Steven Dowell (R)",
+        "Abhiram Garapati (R)",
+        "Valentina Gomez Noriega (R)",
+        "Raymond Hamden (R)",
+        "Jack McConnell (R)",
+        "Mike Williams (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Justin Early (D)",
+        "Caitlin Rourk (D)",
+        "Brian Trautner (D)",
+        "Stuart Whitlow (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

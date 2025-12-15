@@ -1,0 +1,45 @@
+{
+  "name": "Mississippi",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Cindy Hyde-Smith (R)",
+        "Sarah Adlakha (R)",
+        "Andrew S. Smith (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Scott Colom (D)",
+        "Albert Littell (D)",
+        "Priscilla Williams-Till (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ty Pinkins (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

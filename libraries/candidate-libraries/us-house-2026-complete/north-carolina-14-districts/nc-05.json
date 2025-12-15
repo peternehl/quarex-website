@@ -1,0 +1,44 @@
+{
+  "name": "NC-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Virginia Foxx (I)",
+        "Kyah Creekmore (I)",
+        "Chuck Hubbard (I)",
+        "David Clayton (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

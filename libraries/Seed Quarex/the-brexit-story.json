@@ -1,0 +1,137 @@
+{
+  "_instructions": "Use this seed with an LLM to generate a complete Quarex book. See https://truthangel.org/template-files/quarex-seed-instructions.html for detailed instructions.",
+  "_placement": {
+    "library_type": "perspectives-libraries",
+    "library": "economic-theories-and-trade-offs",
+    "shelf": "trade-globalization-and-monetary-systems"
+  },
+  "seed": {
+    "name": "The Brexit Story",
+    "created_by": "Peter and Claude",
+    "chapters": [
+      {
+        "name": "Britain Joins Europe",
+        "topics": [
+          "Why was Britain excluded from the original European Community in 1957?",
+          "What made de Gaulle veto British membership twice, and what changed?",
+          "What economic and political pressures drove the UK to seek EEC membership?",
+          "How did Edward Heath negotiate entry, and what did Britain give up?",
+          "Why did the 1975 referendum produce a 67% vote to stay in?",
+          "What did critics like Tony Benn and Enoch Powell warn about at the time?",
+          "How did Thatcher's rebate battle shape British attitudes toward Europe?"
+        ],
+        "tags": ["history", "EEC", "1975 referendum"]
+      },
+      {
+        "name": "The Road to Brexit",
+        "topics": [
+          "Why did the UK always have a complicated relationship with European integration?",
+          "What role did Eurosceptic media play in shaping British attitudes over decades?",
+          "How did the 2008 financial crisis and austerity fuel anti-establishment sentiment?",
+          "Why did David Cameron promise a referendum, and did he expect to lose?",
+          "What were the key arguments made by the Leave and Remain campaigns?"
+        ],
+        "tags": ["history", "politics", "media"]
+      },
+      {
+        "name": "Immigration and Identity",
+        "topics": [
+          "How did EU freedom of movement become a flashpoint in British politics?",
+          "What was the actual scale and economic impact of EU immigration to the UK?",
+          "How did concerns about national identity differ from economic concerns about immigration?",
+          "Why did immigration resonate differently in areas with few actual immigrants?",
+          "What role did the 2015 refugee crisis play in the Brexit vote?"
+        ],
+        "tags": ["immigration", "demographics", "identity"]
+      },
+      {
+        "name": "Sovereignty and Democratic Control",
+        "topics": [
+          "What powers did the UK actually cede to EU institutions?",
+          "How much UK law was genuinely determined by Brussels?",
+          "What did 'Take Back Control' mean to different Leave voters?",
+          "How did courts, regulations, and fishing rights become symbolic battlegrounds?",
+          "Was the EU genuinely undemocratic, or was this perception vs. reality?"
+        ],
+        "tags": ["sovereignty", "law", "democracy"]
+      },
+      {
+        "name": "Economic Promises and Predictions",
+        "topics": [
+          "What economic benefits did Leave campaigners promise?",
+          "What did economists predict would happen—and why were they dismissed?",
+          "How accurate was the claim that the UK sent £350 million weekly to the EU?",
+          "What trade opportunities did Brexit supporters envision outside the EU?",
+          "Why did many economically struggling regions vote Leave despite EU funding?"
+        ],
+        "tags": ["economics", "trade", "predictions"]
+      },
+      {
+        "name": "Immediate Aftermath (2016-2020)",
+        "topics": [
+          "What happened to the pound, markets, and investment immediately after the vote?",
+          "Why did Brexit negotiations prove so much harder than Leave campaigners suggested?",
+          "What was the Irish border problem, and why couldn't it be easily solved?",
+          "How did three Prime Ministers fail to deliver Brexit before Boris Johnson?",
+          "What did the UK actually agree to in the final Withdrawal Agreement?"
+        ],
+        "tags": ["negotiations", "politics", "transition"]
+      },
+      {
+        "name": "Economic Effects Since 2021",
+        "topics": [
+          "How has Brexit affected UK trade with the EU compared to pre-referendum levels?",
+          "What new trade barriers and costs do British businesses now face?",
+          "Has Brexit delivered the promised trade deals with non-EU countries?",
+          "How has Brexit impacted different sectors: finance, fishing, farming, manufacturing?",
+          "What role did COVID play in masking or amplifying Brexit's economic effects?"
+        ],
+        "tags": ["trade", "economics", "business"]
+      },
+      {
+        "name": "Immigration After Brexit",
+        "topics": [
+          "Did Brexit reduce overall immigration to the UK?",
+          "How has the points-based immigration system changed who comes to Britain?",
+          "What labor shortages emerged in sectors that relied on EU workers?",
+          "How have EU citizens already living in the UK been affected?",
+          "Has public concern about immigration decreased since Brexit?"
+        ],
+        "tags": ["immigration", "labor", "demographics"]
+      },
+      {
+        "name": "The Union Under Strain",
+        "topics": [
+          "Why has Brexit strengthened the Scottish independence movement?",
+          "How does the Northern Ireland Protocol create a border in the Irish Sea?",
+          "Could Brexit eventually lead to Irish reunification?",
+          "What is the Windsor Framework, and does it resolve the Northern Ireland problem?",
+          "Is the United Kingdom more or less united after Brexit?"
+        ],
+        "tags": ["Scotland", "Northern Ireland", "union"]
+      },
+      {
+        "name": "Global Britain and Geopolitics",
+        "topics": [
+          "Has the UK gained more influence or less on the world stage since Brexit?",
+          "How has Brexit affected the UK's relationship with the United States?",
+          "What is the UK's new relationship with the EU on foreign policy and defense?",
+          "Has Brexit made the EU stronger or weaker as a bloc?",
+          "Did Brexit inspire similar movements elsewhere, or serve as a warning?"
+        ],
+        "tags": ["geopolitics", "diplomacy", "EU"]
+      },
+      {
+        "name": "Lessons and Legacy",
+        "topics": [
+          "Do British voters now think Brexit was the right or wrong decision?",
+          "What does Brexit reveal about the power of misinformation in democracies?",
+          "Could the UK ever rejoin the EU, and under what conditions?",
+          "What lessons have other countries drawn from the Brexit experience?",
+          "How will historians likely judge Brexit in 50 years?"
+        ],
+        "tags": ["opinion", "legacy", "democracy"]
+      }
+    ]
+  }
+}

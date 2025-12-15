@@ -1,0 +1,55 @@
+{
+  "name": "NY-12",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Alex Bores (I)",
+        "Erik Bottcher (I)",
+        "Laura Dunn (I)",
+        "Liam Elkind (I)",
+        "Jami Floyd (I)",
+        "Cameron Kasky (I)",
+        "Micah Lasher (I)",
+        "Alan Pardee (I)",
+        "Jack Schlossberg (I)",
+        "Squire Servance (I)",
+        "Mathew Shurka (I)",
+        "Kaley Aldrich (I)",
+        "Gavin Solomon (I)",
+        "Amy Jordan (I)",
+        "Karen Ortiz (I)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

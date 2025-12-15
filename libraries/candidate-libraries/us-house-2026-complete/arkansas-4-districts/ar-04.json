@@ -1,0 +1,30 @@
+{
+  "name": "AR-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Bruce Westerman (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Steven O'Donnell (D)",
+        "James Russell (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

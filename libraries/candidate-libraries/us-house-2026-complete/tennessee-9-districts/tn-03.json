@@ -1,0 +1,29 @@
+{
+  "name": "TN-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Charles J. Fleischmann (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Derek Hawn (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

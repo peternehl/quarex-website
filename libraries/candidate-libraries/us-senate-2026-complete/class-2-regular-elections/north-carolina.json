@@ -1,0 +1,45 @@
+{
+  "name": "North Carolina",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Don Brown (R)",
+        "Michael Whatley (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Roy Cooper (D)",
+        "Justin Dues (D)",
+        "Orrick Quick (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Brian McGinnis (I)",
+        "Shaunesi Deberry (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

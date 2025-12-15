@@ -1,0 +1,305 @@
+{
+  "name": "Economic Systems Compared",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "What Is an Economic System?",
+      "topics": [
+        "What fundamental questions must every economic system answer?",
+        "How do societies decide who owns the means of production?",
+        "Why does the allocation of scarce resources require some organizing principle?",
+        "What role do incentives play in shaping economic behavior?",
+        "How do economic systems distribute the goods and services they produce?",
+        "Why is no real-world economy a pure example of any theoretical system?"
+      ],
+      "tags": ["economics", "foundations", "theory", "systems-thinking"]
+    },
+    {
+      "name": "Pre-Capitalist Economic Systems",
+      "topics": [
+        "How did feudalism organize production and distribution for centuries?",
+        "What role did guilds play in regulating medieval economic life?",
+        "Why did mercantilism view trade as a zero-sum competition between nations?",
+        "How did subsistence economies function without markets or money?",
+        "What conditions enabled the transition from feudalism to capitalism?",
+        "Why do some elements of pre-capitalist systems persist in modern economies?"
+      ],
+      "tags": ["economics", "history", "medieval", "trade"]
+    },
+    {
+      "name": "Classical Capitalism",
+      "topics": [
+        "What did Adam Smith mean by the 'invisible hand' of the market?",
+        "How do prices coordinate economic activity without central planning?",
+        "Why did early capitalists argue for minimal government intervention?",
+        "What role does competition play in driving efficiency and innovation?",
+        "How does private property create incentives for investment and growth?",
+        "What 'creative destruction' did Schumpeter see as capitalism's engine?",
+        "Why did classical economists believe free markets would benefit everyone?"
+      ],
+      "tags": ["economics", "economics-theory", "innovation", "regulation"]
+    },
+    {
+      "name": "Critiques of Capitalism",
+      "topics": [
+        "Why did Marx argue capitalism contains the seeds of its own destruction?",
+        "How does the concept of 'exploitation' frame worker-owner relations?",
+        "What market failures do economists recognize as inherent to capitalism?",
+        "Why do critics argue capitalism generates inequality by design?",
+        "How do boom-and-bust cycles destabilize capitalist economies?",
+        "What 'externalities' do markets fail to price correctly?",
+        "Why do some argue capitalism is incompatible with environmental sustainability?"
+      ],
+      "tags": ["economics", "inequality", "labor", "controversy"]
+    },
+    {
+      "name": "Socialism: Core Principles",
+      "topics": [
+        "What does 'social ownership of the means of production' actually mean?",
+        "How do socialists propose to allocate resources without market prices?",
+        "Why do socialists prioritize equality over efficiency?",
+        "What role does the state play in different socialist visions?",
+        "How does socialism distinguish between personal and private property?",
+        "Why did socialism emerge as a response to industrial capitalism's conditions?",
+        "What does 'from each according to ability, to each according to need' envision?"
+      ],
+      "tags": ["economics", "economics-theory", "inequality", "governance"]
+    },
+    {
+      "name": "Communism: Theory and Vision",
+      "topics": [
+        "How does Marxist communism differ from socialism as an end goal?",
+        "Why did Marx believe the state would 'wither away' under communism?",
+        "What role does class struggle play in Marxist historical theory?",
+        "How did Lenin adapt Marxism to conditions in pre-industrial Russia?",
+        "Why did Mao develop a peasant-based revolutionary theory?",
+        "What would a 'classless society' actually look like?",
+        "Why do critics argue communism ignores human nature?"
+      ],
+      "tags": ["economics", "philosophy", "authoritarianism", "revolution"]
+    },
+    {
+      "name": "Central Planning in Practice",
+      "topics": [
+        "How did Soviet central planning attempt to coordinate an entire economy?",
+        "What was the 'socialist calculation debate' about?",
+        "Why did centrally planned economies struggle with consumer goods?",
+        "How did five-year plans set production targets across industries?",
+        "What information problems plagued central planners?",
+        "Why did black markets emerge in every planned economy?",
+        "How did China's economy function under Mao compared to the Soviet model?"
+      ],
+      "tags": ["economics", "governance", "cold-war", "asia"]
+    },
+    {
+      "name": "Mixed Economies and the Welfare State",
+      "topics": [
+        "What defines a 'mixed economy' combining market and state elements?",
+        "How did Keynesian economics justify government intervention in markets?",
+        "Why did Western democracies build welfare states after World War II?",
+        "What services do most mixed economies provide outside the market?",
+        "How do mixed economies regulate markets while preserving private ownership?",
+        "Why do debates persist about where to draw the line between market and state?",
+        "What distinguishes social democracy from democratic socialism?"
+      ],
+      "tags": ["economics", "governance", "democracy", "regulation"]
+    },
+    {
+      "name": "Varieties of Capitalism",
+      "topics": [
+        "How does Anglo-American capitalism differ from continental European models?",
+        "What makes the Nordic model distinctive despite high taxes and regulation?",
+        "Why did East Asian 'developmental states' guide industrialization so actively?",
+        "How does Germany's 'coordinated market economy' balance stakeholder interests?",
+        "What role do labor unions play in different capitalist varieties?",
+        "Why do some capitalist countries have far less inequality than others?",
+        "How did Singapore develop a unique state-capitalist hybrid?",
+        "Is the US economy rigged in favor of the wealthy, and if so, how did that happen?"
+      ],
+      "tags": ["economics", "europe", "asia", "inequality"]
+    },
+    {
+      "name": "Market Socialism and Third Ways",
+      "topics": [
+        "Can markets exist without private ownership of enterprises?",
+        "How do worker cooperatives like Mondragon organize production?",
+        "What was Yugoslavia's experiment with worker self-management?",
+        "How did China create 'socialism with Chinese characteristics'?",
+        "What do advocates of 'participatory economics' propose?",
+        "Why did 'Third Way' politics emerge in the 1990s?",
+        "Can employee ownership transform capitalism from within?"
+      ],
+      "tags": ["economics", "labor", "asia", "innovation"]
+    },
+    {
+      "name": "Libertarianism and Anarcho-Capitalism",
+      "topics": [
+        "What minimal functions do libertarians believe government should perform?",
+        "How do anarcho-capitalists propose to provide law and defense privately?",
+        "Why do libertarians view taxation as coercion?",
+        "What role does the 'non-aggression principle' play in libertarian thought?",
+        "How did Friedrich Hayek argue that planning leads to tyranny?",
+        "Why do libertarians trust markets to solve problems others assign to government?",
+        "What criticisms do other economists level at libertarian assumptions?"
+      ],
+      "tags": ["economics", "philosophy", "governance", "regulation"]
+    },
+    {
+      "name": "Anarchism and Anti-State Socialism",
+      "topics": [
+        "How do anarchists propose to organize production without states or bosses?",
+        "What distinguished Bakunin's anarchism from Marx's state socialism?",
+        "How did anarchist Catalonia organize during the Spanish Civil War?",
+        "Why do anarcho-syndicalists see unions as the basis for a new society?",
+        "What role do mutual aid and voluntary association play in anarchist economics?",
+        "How do modern anarchists envision decentralized, federated economies?",
+        "Why did anarchism and Marxism split in the First International?"
+      ],
+      "tags": ["economics", "philosophy", "activism", "labor"]
+    },
+    {
+      "name": "Property Rights and Ownership",
+      "topics": [
+        "What justifications exist for private property rights?",
+        "How do different systems define who can own what?",
+        "Why did Proudhon declare 'property is theft'?",
+        "What commons arrangements manage resources without private or state ownership?",
+        "How do intellectual property rights differ from physical property?",
+        "Why do debates over land ownership persist across economic systems?",
+        "What role does inheritance play in perpetuating or challenging inequality?"
+      ],
+      "tags": ["economics", "law", "inequality", "justice"]
+    },
+    {
+      "name": "Labor, Wages, and Work",
+      "topics": [
+        "How do different systems determine what workers are paid?",
+        "Why did Marx argue workers are paid less than the value they create?",
+        "What role do unions play in different economic systems?",
+        "How does unemployment function differently under capitalism and socialism?",
+        "Why do some economists advocate for universal basic income?",
+        "What would a 'post-work' economy look like?",
+        "How do gig economies and precarious work challenge traditional employment?"
+      ],
+      "tags": ["economics", "labor", "inequality", "automation"]
+    },
+    {
+      "name": "Money, Banking, and Finance",
+      "topics": [
+        "Why do market economies need money while planned economies tried to abolish it?",
+        "How do central banks manage capitalist economies?",
+        "What role did state banks play in socialist economies?",
+        "Why do financial crises recur in market economies?",
+        "How do Islamic finance principles differ from conventional banking?",
+        "What alternatives to debt-based money have economists proposed?",
+        "Why did cryptocurrencies emerge as an alternative to state-controlled money?"
+      ],
+      "tags": ["economics", "finance", "monetary-policy", "innovation"]
+    },
+    {
+      "name": "Trade and Globalization",
+      "topics": [
+        "Why do most economists favor free trade despite its distributional effects?",
+        "How did socialist countries organize trade among themselves?",
+        "What 'dependency theory' explained underdevelopment in the Global South?",
+        "Why do some advocate protectionism to shield domestic industries?",
+        "How has globalization changed the power of national economic policy?",
+        "What role do institutions like the IMF and World Bank play in the global economy?",
+        "Why do debates persist about whether trade benefits workers or primarily capital?"
+      ],
+      "tags": ["economics", "globalization", "trade", "development"]
+    },
+    {
+      "name": "Inequality and Distribution",
+      "topics": [
+        "How do different economic systems produce different levels of inequality?",
+        "What mechanisms redistribute wealth in mixed economies?",
+        "Why did inequality decline mid-century and rise again since the 1980s?",
+        "How do economists measure inequality and poverty?",
+        "What role does inheritance play in perpetuating wealth across generations?",
+        "Why do some defend inequality as the price of growth and innovation?",
+        "How does wealth inequality translate into political power?"
+      ],
+      "tags": ["economics", "inequality", "poverty", "justice"]
+    },
+    {
+      "name": "Economic Growth and Development",
+      "topics": [
+        "Why have some countries grown rich while others remain poor?",
+        "How did the 'Asian Tigers' achieve rapid industrialization?",
+        "What role does the state play in successful development strategies?",
+        "Why did 'structural adjustment' policies fail in much of Africa?",
+        "How do economists debate the relationship between democracy and growth?",
+        "What 'middle income trap' stalls development in many countries?",
+        "Can poor countries develop without following the Western capitalist path?"
+      ],
+      "tags": ["economics", "development", "globalization", "africa"]
+    },
+    {
+      "name": "Environment and Sustainability",
+      "topics": [
+        "Why do markets fail to protect environmental commons?",
+        "How did socialist states perform environmentally compared to capitalist ones?",
+        "What is 'degrowth' and why do some economists advocate it?",
+        "Can capitalism be made sustainable through carbon pricing and regulation?",
+        "Why do some argue only system change can address climate change?",
+        "How do 'circular economy' models try to eliminate waste?",
+        "What role should future generations play in economic decisions today?"
+      ],
+      "tags": ["economics", "environment", "climate-change", "sustainability"]
+    },
+    {
+      "name": "Technology, Automation, and the Future",
+      "topics": [
+        "Will automation eliminate most jobs—and does it matter which system we have?",
+        "How might artificial intelligence transform economic planning?",
+        "Why do some see technology enabling post-scarcity economics?",
+        "What would 'fully automated luxury communism' look like?",
+        "How do platform companies like Uber challenge traditional employment?",
+        "Could technology enable decentralized economic coordination without markets or states?",
+        "Why do debates about technology's impact divide optimists and pessimists?"
+      ],
+      "tags": ["economics", "automation", "ai-ml", "prediction"]
+    },
+    {
+      "name": "Measuring Economic Success",
+      "topics": [
+        "Why is GDP a problematic measure of economic wellbeing?",
+        "What alternative indicators like the Human Development Index try to capture?",
+        "How do different systems define economic 'success' differently?",
+        "Why did Bhutan adopt 'Gross National Happiness' as a metric?",
+        "What does an economy actually owe its citizens?",
+        "How do subjective measures of life satisfaction correlate with economic systems?",
+        "Can economies optimize for flourishing rather than growth?"
+      ],
+      "tags": ["economics", "measurement", "methodology", "ethics"]
+    },
+    {
+      "name": "Real-World Transitions and Experiments",
+      "topics": [
+        "How did Russia's 'shock therapy' transition to capitalism produce oligarchy?",
+        "Why did China's gradual reforms produce different outcomes than Russia's?",
+        "What happened when Chile served as a laboratory for neoliberal economics?",
+        "How did Scandinavian countries build their distinctive welfare states?",
+        "What lessons emerged from Cuba's survival after Soviet collapse?",
+        "Why did Venezuela's '21st century socialism' produce economic crisis?",
+        "How are countries experimenting with universal basic income?"
+      ],
+      "tags": ["economics", "europe", "asia", "americas"]
+    },
+    {
+      "name": "The Ongoing Debate",
+      "topics": [
+        "Why do fundamental disagreements about economic systems persist?",
+        "How do values shape which economic evidence people find persuasive?",
+        "What role does ideology versus evidence play in economic policy debates?",
+        "Can economic systems be evaluated objectively or only relative to values?",
+        "Why do crises periodically reopen debates that seemed settled?",
+        "What new economic thinking has emerged since the 2008 financial crisis?",
+        "Is convergence toward a global economic model occurring—or divergence?"
+      ],
+      "tags": ["economics", "epistemology", "controversy", "prediction"]
+    }
+  ]
+}

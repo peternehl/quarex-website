@@ -1,0 +1,32 @@
+{
+  "name": "MD-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Glenn Ivey (D)",
+        "Anthony Field (D)",
+        "Jakeya Johnson (D)",
+        "Jonathan White (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

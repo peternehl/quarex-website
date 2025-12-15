@@ -1,0 +1,32 @@
+{
+  "name": "OH-09",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Wayne Kinsel (R)",
+        "Derek Merrin (R)",
+        "Alea Nadeem (R)",
+        "Josh Williams (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Marcy Kaptur (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

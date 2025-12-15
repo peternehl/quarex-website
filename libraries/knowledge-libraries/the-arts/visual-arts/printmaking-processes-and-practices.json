@@ -1,0 +1,125 @@
+{
+  "name": "Printmaking: Processes and Practices",
+  "chapters": [
+    {
+      "name": "Relief Printing: Woodcut and Linocut",
+      "topics": [
+        "How does relief printing work and what makes it distinct from other methods?",
+        "What tools do artists use to carve wood and linoleum blocks?",
+        "What is the difference between woodcut and wood engraving?",
+        "How do artists plan designs considering that prints reverse the image?",
+        "What inking and printing techniques produce clean relief prints?",
+        "How have artists from Dürer to contemporary printmakers used relief?"
+      ],
+      "tags": ["arts", "visual-arts", "printmaking", "art-history"]
+    },
+    {
+      "name": "Intaglio: Etching and Engraving",
+      "topics": [
+        "What is intaglio printing and how does ink transfer from incised lines?",
+        "How does etching use acid to bite lines into metal plates?",
+        "What is engraving and how does it differ technically from etching?",
+        "What materials and equipment do intaglio printers need?",
+        "How do you prepare, ink, and print from an intaglio plate?",
+        "What masters like Rembrandt and Goya achieved through intaglio?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "printmaking"]
+    },
+    {
+      "name": "Aquatint and Drypoint",
+      "topics": [
+        "What is aquatint and how does it create tonal areas in intaglio prints?",
+        "How do artists apply and etch aquatint grounds?",
+        "What is drypoint and how does the burr create its characteristic line?",
+        "How do artists combine etching, aquatint, and drypoint in single prints?",
+        "What effects can aquatint achieve that line etching cannot?",
+        "How did Goya use aquatint to create dramatic tonal compositions?"
+      ],
+      "tags": ["arts", "visual-arts", "printmaking", "education"]
+    },
+    {
+      "name": "Lithography Techniques",
+      "topics": [
+        "How does lithography work using the principle that oil and water don't mix?",
+        "What is the difference between stone and plate lithography?",
+        "How do artists draw on lithographic stones or plates?",
+        "What is the chemical processing required for lithographic printing?",
+        "How do color lithographs use multiple stones or plates?",
+        "Who were the master lithographers like Toulouse-Lautrec and what did they achieve?"
+      ],
+      "tags": ["arts", "visual-arts", "printmaking", "art-history"]
+    },
+    {
+      "name": "Screen Printing (Serigraphy)",
+      "topics": [
+        "How does screen printing force ink through a mesh stencil?",
+        "What methods create stencils: cut film, photo emulsion, drawing fluid?",
+        "What makes screen printing suitable for large editions and flat colors?",
+        "How do artists register multiple colors in screen prints?",
+        "How did Warhol and Pop artists embrace screen printing?",
+        "What commercial and fine art applications use screen printing?"
+      ],
+      "tags": ["arts", "visual-arts", "printmaking", "education"]
+    },
+    {
+      "name": "Monotype and Monoprint",
+      "topics": [
+        "What is a monotype and why does it produce only one print?",
+        "How does monoprinting combine unique and repeatable elements?",
+        "What techniques do artists use to paint or draw on printing plates?",
+        "How does the printed image differ from the painted plate?",
+        "What role does ghost printing play in monotype series?",
+        "How do artists like Degas use the unique properties of monotype?"
+      ],
+      "tags": ["arts", "visual-arts", "printmaking", "education"]
+    },
+    {
+      "name": "Collagraph and Experimental Methods",
+      "topics": [
+        "What is a collagraph and how do artists build textured printing plates?",
+        "What materials can be used to create collagraph plates?",
+        "How do experimental printmakers combine multiple techniques?",
+        "What alternative materials and processes expand printmaking possibilities?",
+        "How do digital tools integrate with traditional printmaking?",
+        "What contemporary artists are pushing printmaking's boundaries?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "printmaking"]
+    },
+    {
+      "name": "Digital Printmaking",
+      "topics": [
+        "How have inkjet and giclée printing changed fine art reproduction?",
+        "What distinguishes a digital print from a traditional hand-pulled print?",
+        "How do artists create digitally designed works for print output?",
+        "What archival considerations apply to digital prints?",
+        "How do print studios combine digital and traditional processes?",
+        "What debates exist about digital printmaking's status as fine art?"
+      ],
+      "tags": ["arts", "innovation", "digital-art", "printmaking"]
+    },
+    {
+      "name": "Editioning and Print Documentation",
+      "topics": [
+        "What is an edition and how are prints numbered?",
+        "What do terms like artist's proof, printer's proof, and BAT mean?",
+        "How do artists decide on edition sizes?",
+        "What information should be documented for each print edition?",
+        "How do print publishers and studios work with artists?",
+        "What ethical standards govern limited edition printmaking?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "printmaking"]
+    },
+    {
+      "name": "Print Studio Safety and Setup",
+      "topics": [
+        "What ventilation and safety equipment does a print studio need?",
+        "How do you handle chemicals safely in etching and lithography?",
+        "What presses exist and how do you maintain them?",
+        "How do you set up a basic printmaking workspace at home?",
+        "What personal protective equipment should printmakers use?",
+        "How are print studios reducing their environmental impact?"
+      ],
+      "tags": ["arts", "workplace-dynamics", "printmaking", "education"]
+    }
+  ]
+}

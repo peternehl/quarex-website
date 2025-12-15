@@ -1,0 +1,311 @@
+{
+  "name": "Cross-Strait Crisis: China, Taiwan, and the World",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "Taiwan",
+    "China",
+    "cross-strait relations",
+    "US-China",
+    "TSMC",
+    "semiconductors",
+    "Asia-Pacific security"
+  ],
+  "chapters": [
+    {
+      "name": "The Island Before the Split (Pre-1945)",
+      "topics": [
+        "Who were Taiwan's indigenous peoples, and what happened to them?",
+        "How did Dutch and Spanish colonizers first arrive?",
+        "Why did the Qing Dynasty consider Taiwan a backwater?",
+        "How did Japan transform Taiwan during 50 years of colonial rule?",
+        "What was Taiwan's role in World War II?"
+      ],
+      "tags": [
+        "society",
+        "regulation",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The Chinese Civil War and the Great Retreat (1945-1949)",
+      "topics": [
+        "Who were the Nationalists (KMT) and the Communists (CCP)?",
+        "Why did the Chinese Civil War resume after Japan's defeat?",
+        "How did Chiang Kai-shek lose the mainland so quickly?",
+        "What was the 'Great Retreat' of 2 million people to Taiwan?",
+        "Why didn't Mao finish the job and invade Taiwan?"
+      ],
+      "tags": [
+        "society",
+        "critical-thinking",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The 228 Incident and White Terror (1947-1987)",
+      "topics": [
+        "What was the February 28 Incident, and why was it hidden for decades?",
+        "How did mainlanders and native Taiwanese come into conflict?",
+        "What was the 'White Terror' and how many died?",
+        "How did martial law shape Taiwan for 38 years?",
+        "Why is 228 still politically charged today?"
+      ],
+      "tags": [
+        "arts",
+        "critical-thinking",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Two Chinas—The Cold War Standoff (1949-1971)",
+      "topics": [
+        "How did the Korean War save Taiwan from invasion?",
+        "What was the US-Taiwan Mutual Defense Treaty?",
+        "Why did both Beijing and Taipei claim to be the 'real China'?",
+        "What happened in the Taiwan Strait Crises of 1954-55 and 1958?",
+        "How did Taiwan keep China's UN seat for over two decades?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The Nixon Shock and Diplomatic Isolation (1971-1979)",
+      "topics": [
+        "Why did Nixon's China visit change everything for Taiwan?",
+        "How did Taiwan lose its UN seat to Beijing?",
+        "What did the US give up when it recognized the PRC?",
+        "What is the Taiwan Relations Act, and why does it matter?",
+        "How did Taiwan survive diplomatic abandonment?"
+      ],
+      "tags": [
+        "philosophy",
+        "sustainability",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Taiwan's Economic Miracle (1960s-1990s)",
+      "topics": [
+        "How did Taiwan become one of the 'Four Asian Tigers'?",
+        "What role did export manufacturing and US support play?",
+        "How did Taiwan come to dominate the semiconductor industry?",
+        "Why is TSMC called the world's most important company?",
+        "How did economic success create pressure for political reform?"
+      ],
+      "tags": [
+        "politics",
+        "sustainability",
+        "asia",
+        "journalism"
+      ]
+    },
+    {
+      "name": "Democratization—From Dictatorship to Democracy (1987-2000)",
+      "topics": [
+        "How did Chiang Ching-kuo begin liberalizing Taiwan?",
+        "Why did the KMT end martial law after 38 years?",
+        "How did the Democratic Progressive Party (DPP) emerge?",
+        "What made Taiwan's peaceful democratic transition remarkable?",
+        "How did the 2000 election mark a true transfer of power?"
+      ],
+      "tags": [
+        "arts",
+        "democracy",
+        "elections",
+        "asia"
+      ]
+    },
+    {
+      "name": "Taiwanese Identity—Who Are the Taiwanese? (1990s-Present)",
+      "topics": [
+        "Are Taiwanese people Chinese, Taiwanese, or both?",
+        "How has Taiwanese identity shifted dramatically over 30 years?",
+        "What role do language, culture, and memory play in identity?",
+        "Why do younger Taiwanese overwhelmingly identify as 'Taiwanese only'?",
+        "How does identity shape attitudes toward unification and independence?"
+      ],
+      "tags": [
+        "society",
+        "identity",
+        "theater",
+        "asia"
+      ]
+    },
+    {
+      "name": "What Does Beijing Want? (1949-Present)",
+      "topics": [
+        "What is the 'One China Principle' according to Beijing?",
+        "Why does the CCP consider Taiwan's status a 'core interest'?",
+        "What did Deng Xiaoping's 'One Country, Two Systems' promise?",
+        "How has Xi Jinping hardened China's position on Taiwan?",
+        "Is 'peaceful reunification' still Beijing's preferred path?",
+        "What timeline, if any, has China set for unification?"
+      ],
+      "tags": [
+        "geography",
+        "critical-thinking",
+        "europe",
+        "asia"
+      ]
+    },
+    {
+      "name": "What Does Taipei Want? (1990s-Present)",
+      "topics": [
+        "What is the difference between the KMT and DPP positions on China?",
+        "What does 'maintaining the status quo' actually mean?",
+        "Why haven't Taiwanese declared formal independence?",
+        "What was the '1992 Consensus,' and does it still matter?",
+        "What do polls say ordinary Taiwanese want for their future?"
+      ],
+      "tags": [
+        "philosophy",
+        "critical-thinking",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "What Does Washington Want? (1979-Present)",
+      "topics": [
+        "What is 'strategic ambiguity,' and why has the US maintained it?",
+        "What are America's actual legal commitments to Taiwan?",
+        "How have US arms sales to Taiwan evolved?",
+        "Why has Biden repeatedly said the US would defend Taiwan?",
+        "Is strategic ambiguity eroding into strategic clarity?",
+        "What would war over Taiwan cost the United States?"
+      ],
+      "tags": [
+        "law",
+        "critical-thinking",
+        "americas",
+        "asia"
+      ]
+    },
+    {
+      "name": "Hong Kong's Warning (2019-2020)",
+      "topics": [
+        "What happened during Hong Kong's 2019 protests?",
+        "How did Beijing's crackdown end 'One Country, Two Systems' in practice?",
+        "Why did Hong Kong's fate terrify Taiwan?",
+        "How did Tsai Ing-wen's reelection reflect Hong Kong's impact?",
+        "Is Hong Kong a preview of Taiwan's future under Beijing?"
+      ],
+      "tags": [
+        "geography",
+        "activism",
+        "elections",
+        "asia"
+      ]
+    },
+    {
+      "name": "Military Balance—Could China Take Taiwan?",
+      "topics": [
+        "How has China's military modernization shifted the balance?",
+        "What would an invasion of Taiwan actually require?",
+        "How is Taiwan preparing to defend itself?",
+        "What is the 'porcupine strategy'?",
+        "Could the US military defeat a Chinese invasion?",
+        "What role would Japan, Australia, and others play?"
+      ],
+      "tags": [
+        "conflict",
+        "identity",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "The Silicon Shield—Semiconductors as Deterrent",
+      "topics": [
+        "Why does Taiwan make over 90% of the world's advanced chips?",
+        "What is the 'silicon shield' theory of Taiwan's security?",
+        "How would a war over Taiwan devastate the global economy?",
+        "Is China trying to build its own chip independence?",
+        "Could Taiwan destroy TSMC to deny it to China?",
+        "Does semiconductor dependence protect Taiwan—or make it a target?"
+      ],
+      "tags": [
+        "conflict",
+        "theory",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Flashpoints and Escalation (2020-Present)",
+      "topics": [
+        "Why have Chinese military incursions into Taiwan's airspace surged?",
+        "What happened during Nancy Pelosi's 2022 Taiwan visit?",
+        "How do Chinese 'exercises' simulate blockade and invasion?",
+        "What is the risk of accidental escalation?",
+        "How does Taiwan respond to daily military pressure?",
+        "Are we already in a gray-zone conflict?"
+      ],
+      "tags": [
+        "conflict",
+        "critical-thinking",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "The World Takes Sides",
+      "topics": [
+        "Why has Europe become more vocal about Taiwan?",
+        "How has Japan's position shifted from neutrality to concern?",
+        "What role does Australia play in a potential conflict?",
+        "How do Southeast Asian nations balance China and Taiwan?",
+        "Why do only 12 countries officially recognize Taiwan?",
+        "How has Taiwan built unofficial diplomatic relationships?"
+      ],
+      "tags": [
+        "conflict",
+        "sustainability",
+        "asia",
+        "europe"
+      ]
+    },
+    {
+      "name": "Competing Narratives",
+      "topics": [
+        "How does Beijing frame the Taiwan issue for domestic audiences?",
+        "How do Taiwanese see themselves in this story?",
+        "Is this about democracy vs. authoritarianism, or something else?",
+        "Why do some argue the US is provoking conflict?",
+        "What does international law actually say about Taiwan's status?",
+        "What facts do all sides agree on—if any?"
+      ],
+      "tags": [
+        "law",
+        "democracy",
+        "asia",
+        "media-literacy"
+      ]
+    },
+    {
+      "name": "Scenarios—What Happens Next?",
+      "topics": [
+        "What would a Chinese blockade of Taiwan look like?",
+        "What would a full-scale invasion involve?",
+        "Could 'reunification' happen peacefully or by coercion short of war?",
+        "What would it take for Taiwan to declare formal independence?",
+        "Is indefinite status quo sustainable?",
+        "What would a US-China war over Taiwan mean for the world?"
+      ],
+      "tags": [
+        "conflict",
+        "sustainability",
+        "europe",
+        "asia"
+      ]
+    }
+  ]
+}

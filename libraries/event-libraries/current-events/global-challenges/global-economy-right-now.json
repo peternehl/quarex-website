@@ -1,0 +1,65 @@
+{
+  "name": "Global Economy Right Now",
+  "chapters": [
+    {
+      "name": "Inflation, Interest Rates, and Prices",
+      "topics": [
+        "What inflation is and how it is measured",
+        "Central banks and interest rate decisions",
+        "How inflation affects households and businesses",
+        "Trade-offs between fighting inflation and avoiding recession"
+      ],
+      "tags": [
+        "economics",
+        "finance",
+        "history",
+        "interdisciplinary"
+      ]
+    },
+    {
+      "name": "Jobs, Wages, and Labor Markets",
+      "topics": [
+        "Unemployment, underemployment, and job quality",
+        "Wage growth versus cost of living",
+        "Remote work, automation, and changing workplaces",
+        "Labor organizing, unions, and worker power"
+      ],
+      "tags": [
+        "economics",
+        "workplace-dynamics",
+        "history",
+        "interdisciplinary"
+      ]
+    },
+    {
+      "name": "Trade, Supply Chains, and Geopolitics",
+      "topics": [
+        "Globalization, deglobalization, and reshoring",
+        "Supply-chain disruptions after the pandemic",
+        "Strategic sectors like semiconductors and energy",
+        "Economic sanctions and trade wars"
+      ],
+      "tags": [
+        "economics",
+        "globalization",
+        "infrastructure",
+        "history"
+      ]
+    },
+    {
+      "name": "Inequality and Financial Stability",
+      "topics": [
+        "Wealth and income gaps within countries",
+        "Global North–South economic divides",
+        "Household debt, housing costs, and financial stress",
+        "Financial crises, bank failures, and regulation debates"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "finance",
+        "history"
+      ]
+    }
+  ]
+}

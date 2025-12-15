@@ -1,0 +1,335 @@
+{
+  "name": "Technology's Hidden Tradeoffs",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "Why Technology Is Never Neutral",
+      "topics": [
+        "Why do technologies embed the values and biases of their creators?",
+        "What does it mean to say technology has 'politics'?",
+        "How do design choices determine who benefits and who is harmed?",
+        "Why do unintended consequences often outweigh intended ones?",
+        "What gets lost when we frame technology as inevitable progress?",
+        "How do corporations shape which technologies get developed?",
+        "Why is 'just a tool' a misleading way to think about technology?"
+      ],
+      "tags": ["technology", "ethics", "bias", "philosophy"]
+    },
+    {
+      "name": "The Surveillance Bargain",
+      "topics": [
+        "What do you give up when you accept 'free' digital services?",
+        "How does location tracking reveal patterns you never consciously share?",
+        "Why did we trade privacy for convenience without a public debate?",
+        "What can your metadata reveal that your actual content cannot?",
+        "How do smart home devices change the nature of private space?",
+        "Why does 'I have nothing to hide' miss the point about surveillance?",
+        "What chilling effects occur when people know they're being watched?",
+        "How did Edward Snowden's revelations change—or fail to change—surveillance practices?"
+      ],
+      "tags": ["technology", "surveillance", "privacy", "digital-life"]
+    },
+    {
+      "name": "Algorithmic Decision-Making",
+      "topics": [
+        "Why do algorithms used in hiring, lending, and sentencing encode historical biases?",
+        "What happens when no human can explain why an algorithm made a decision?",
+        "How do feedback loops cause algorithmic systems to amplify their own errors?",
+        "Why is 'the algorithm decided' not an acceptable explanation?",
+        "What does it mean to have a right to explanation for automated decisions?",
+        "How do predictive policing systems perpetuate discriminatory enforcement?",
+        "Why do optimization targets often produce outcomes nobody wanted?"
+      ],
+      "tags": ["technology", "algorithms", "bias", "accountability"]
+    },
+    {
+      "name": "Artificial Intelligence: Promise and Peril",
+      "topics": [
+        "What can AI actually do today versus what is hype?",
+        "Why do AI systems confidently produce wrong or fabricated information?",
+        "How might AI concentrate power in the hands of those who control it?",
+        "What jobs will AI replace and what happens to the people in them?",
+        "Why do some researchers believe advanced AI poses existential risks?",
+        "How should we think about AI systems that seem to exhibit emergent behaviors?",
+        "What does it mean to align AI systems with human values when humans disagree?",
+        "Who should decide the rules that govern AI development?"
+      ],
+      "tags": ["technology", "ai-ml", "automation", "ai-policy"]
+    },
+    {
+      "name": "Social Media's Psychological Costs",
+      "topics": [
+        "Why did platforms design features they knew would be addictive?",
+        "How does social comparison on Instagram affect mental health?",
+        "What evidence links smartphone use to the teen mental health crisis?",
+        "Why do notifications hijack attention in ways users don't want?",
+        "How do infinite scroll and autoplay override conscious choice?",
+        "What happens to self-worth when it's measured in likes and followers?",
+        "Why do platforms resist changes that would reduce engagement but improve wellbeing?"
+      ],
+      "tags": ["technology", "social-media", "mental-health", "cognition"]
+    },
+    {
+      "name": "Novel Technologies and Missing Cultural Defenses",
+      "topics": [
+        "Is humanity facing social media the way populations historically faced novel addictive substances—without cultural defenses?",
+        "Why do societies develop rituals and taboos around dangerous substances but not yet around technology?",
+        "How did suppliers of alcohol to indigenous populations justify profiting from visible devastation?",
+        "What cultural antibodies might future generations develop that we lack?",
+        "Why does damage from novel exposures typically precede adaptation by generations?",
+        "How do tech companies exploit psychological vulnerabilities as deliberately as drug pushers?",
+        "What happens when an entire species encounters an addictive technology simultaneously?",
+        "Can we accelerate the development of cultural guardrails or must we simply endure the acute phase?"
+      ],
+      "tags": ["society", "evolution", "mental-health", "anthropology"]
+    },
+    {
+      "name": "Children in the Digital World",
+      "topics": [
+        "What happens when children grow up with their lives documented online by parents?",
+        "How does early smartphone use affect developing brains?",
+        "Why are children particularly vulnerable to manipulative design?",
+        "What data about children is being collected and sold?",
+        "How do algorithms shape children's worldviews before they can think critically?",
+        "What age-appropriate technology use actually looks like?",
+        "Why have some tech executives limited their own children's screen time?"
+      ],
+      "tags": ["technology", "education", "mental-health", "privacy"]
+    },
+    {
+      "name": "The Automation of Work",
+      "topics": [
+        "Which jobs are most vulnerable to automation in the next decade?",
+        "Why do predictions about automation eliminating jobs often prove wrong?",
+        "How does automation change jobs rather than simply eliminating them?",
+        "What happens to communities when their primary employers automate?",
+        "Why might productivity gains from automation not translate into shared prosperity?",
+        "How do warehouse robots and delivery drones affect workers today?",
+        "What policies could help workers navigate technological displacement?"
+      ],
+      "tags": ["technology", "automation", "labor", "inequality"]
+    },
+    {
+      "name": "The Gig Economy's Hidden Costs",
+      "topics": [
+        "How do apps like Uber and DoorDash shift risk from companies to workers?",
+        "Why does algorithmic management feel more oppressive than a human boss?",
+        "What benefits do gig workers lose compared to traditional employees?",
+        "How do platforms use gamification to manipulate worker behavior?",
+        "Why does flexibility often come with precarity?",
+        "What happens when algorithms set pay that doesn't cover costs?",
+        "How are gig workers organizing to demand better conditions?"
+      ],
+      "tags": ["technology", "labor", "platforms", "inequality"]
+    },
+    {
+      "name": "Platform Power and Digital Monopolies",
+      "topics": [
+        "How did a handful of companies come to dominate the digital economy?",
+        "What network effects make it nearly impossible to compete with established platforms?",
+        "Why can platforms change the rules overnight and destroy businesses built on them?",
+        "How do app store gatekeepers extract rents from developers?",
+        "What happens when essential infrastructure is controlled by private companies?",
+        "Why did antitrust enforcement fail to prevent digital monopolization?",
+        "What would breaking up big tech actually accomplish?"
+      ],
+      "tags": ["technology", "platforms", "regulation", "economics"]
+    },
+    {
+      "name": "Data Ownership and Consent",
+      "topics": [
+        "Do you meaningfully consent when you click 'I agree' on terms nobody reads?",
+        "Who owns the data generated by your activities and relationships?",
+        "Why is data about you valuable and to whom?",
+        "How do data brokers compile profiles on people who never gave them information?",
+        "What would genuine informed consent for data collection look like?",
+        "Can you ever really delete data once it's been collected?",
+        "Why do some advocate for data as a collectively owned resource?"
+      ],
+      "tags": ["technology", "privacy", "law", "human-rights"]
+    },
+    {
+      "name": "Technology and Democracy",
+      "topics": [
+        "How do social media platforms shape political discourse and polarization?",
+        "Why does viral misinformation spread faster than corrections?",
+        "What role did technology play in enabling new forms of authoritarianism?",
+        "How do targeted political ads undermine shared public deliberation?",
+        "Why might algorithmic content curation be incompatible with informed citizenship?",
+        "What happens when foreign actors weaponize platforms against democracies?",
+        "Can technology strengthen rather than undermine democratic participation?"
+      ],
+      "tags": ["technology", "democracy", "misinformation", "authoritarianism"]
+    },
+    {
+      "name": "Facial Recognition and Biometric Surveillance",
+      "topics": [
+        "How accurate is facial recognition technology and for whom does it fail?",
+        "Why have cities begun banning government use of facial recognition?",
+        "What does ubiquitous facial recognition mean for anonymity in public?",
+        "How does China's social credit system use biometric surveillance?",
+        "Why do error rates matter more when the stakes are arrest or deportation?",
+        "What other biometrics—gait, voice, emotion—are being developed?",
+        "Can we enjoy security benefits without enabling authoritarian control?"
+      ],
+      "tags": ["technology", "surveillance", "privacy", "asia"]
+    },
+    {
+      "name": "Autonomous Weapons and Military AI",
+      "topics": [
+        "What autonomous weapons exist today and what's in development?",
+        "Should machines be allowed to make life-or-death decisions without humans?",
+        "Why does the speed of AI warfare pressure humans out of the loop?",
+        "How might autonomous weapons lower the threshold for going to war?",
+        "What accountability exists when an autonomous system kills wrongly?",
+        "Why have efforts to ban 'killer robots' stalled?",
+        "How do AI-enabled drones change the nature of warfare?"
+      ],
+      "tags": ["technology", "conflict", "drones", "ethics"]
+    },
+    {
+      "name": "Biotechnology and Human Enhancement",
+      "topics": [
+        "What gene editing capabilities exist today and what's coming?",
+        "Should parents be able to select or edit their children's traits?",
+        "How might human enhancement technologies widen inequality?",
+        "What happens when some humans are engineered to be 'better' than others?",
+        "Why did the CRISPR babies scandal alarm scientists?",
+        "Where is the line between treating disease and enhancing beyond normal?",
+        "Who should decide which enhancements are permissible?"
+      ],
+      "tags": ["technology", "biotechnology", "genetics", "ethics"]
+    },
+    {
+      "name": "Environmental Costs of Technology",
+      "topics": [
+        "What is the carbon footprint of data centers and cryptocurrency mining?",
+        "How does planned obsolescence generate mountains of e-waste?",
+        "What rare earth mining practices enable our devices?",
+        "Why does streaming video consume more energy than people realize?",
+        "How do AI training runs consume electricity equivalent to small cities?",
+        "What environmental promises of 'green tech' have proven misleading?",
+        "Can technology solve environmental problems it helped create?"
+      ],
+      "tags": ["technology", "environment", "climate-change", "sustainability"]
+    },
+    {
+      "name": "Digital Divide and Technological Inequality",
+      "topics": [
+        "Who lacks internet access and what opportunities does this foreclose?",
+        "Why do algorithmic systems often work worse for marginalized populations?",
+        "How does the shift to digital services exclude people without tech literacy?",
+        "What 'digital redlining' practices limit access in underserved communities?",
+        "Why do benefits of technology accrue disproportionately to the already privileged?",
+        "How did COVID-19 expose the digital divide in education?",
+        "What would equitable technology access actually require?"
+      ],
+      "tags": ["technology", "inequality", "accessibility", "poverty"]
+    },
+    {
+      "name": "Smart Cities and Public Space",
+      "topics": [
+        "What surveillance infrastructure do 'smart city' initiatives install?",
+        "Who owns the data collected from public spaces and sensors?",
+        "How do automated systems change the experience of urban life?",
+        "Why did Toronto cancel its Sidewalk Labs smart city project?",
+        "What happens when essential city services depend on proprietary systems?",
+        "How do sensing technologies reshape who feels welcome in public spaces?",
+        "Can smart cities be designed for residents rather than for surveillance?"
+      ],
+      "tags": ["technology", "infrastructure", "surveillance", "governance"]
+    },
+    {
+      "name": "The Right to Repair",
+      "topics": [
+        "Why do manufacturers design products that users cannot repair?",
+        "How do software locks prevent fixing hardware you own?",
+        "What happens to farmers when only John Deere can fix their tractors?",
+        "Why does the right to repair matter for the environment?",
+        "How have manufacturers lobbied against repair legislation?",
+        "What devices have become essentially unrepairable by design?",
+        "Why might repair be a form of resistance to planned obsolescence?"
+      ],
+      "tags": ["technology", "sustainability", "regulation", "economics"]
+    },
+    {
+      "name": "Health Technology and Medical AI",
+      "topics": [
+        "What medical decisions are increasingly being made by algorithms?",
+        "Why did some hospitals' AI systems deprioritize Black patients for care?",
+        "How do health apps collect sensitive data with inadequate protection?",
+        "What happens when diagnostic AI makes confident but wrong recommendations?",
+        "Who is liable when medical AI causes harm?",
+        "How might AI change the doctor-patient relationship?",
+        "What lifesaving applications make AI in medicine worth the risks?"
+      ],
+      "tags": ["technology", "health", "ai-ml", "bias"]
+    },
+    {
+      "name": "Cryptocurrency and Decentralized Finance",
+      "topics": [
+        "What problems was cryptocurrency designed to solve?",
+        "Why has crypto become associated with speculation, fraud, and scams?",
+        "How do proof-of-work blockchains consume massive amounts of energy?",
+        "What 'decentralization' claims about crypto have proven illusory?",
+        "Why did crypto collapse in 2022 wipe out ordinary investors?",
+        "How do crypto technologies enable ransomware and sanctions evasion?",
+        "Are there legitimate use cases for blockchain beyond speculation?"
+      ],
+      "tags": ["technology", "finance", "cryptography", "environment"]
+    },
+    {
+      "name": "Content Moderation Dilemmas",
+      "topics": [
+        "Who decides what speech is allowed on major platforms?",
+        "Why is content moderation at scale an essentially impossible task?",
+        "How do moderation failures harm marginalized communities most?",
+        "What happens when platforms become arbiters of truth?",
+        "Why do automated moderation systems make systematic errors?",
+        "How should platforms balance free expression against harm?",
+        "What alternatives to centralized content moderation exist?"
+      ],
+      "tags": ["technology", "free-speech", "platforms", "governance"]
+    },
+    {
+      "name": "Technology in Education",
+      "topics": [
+        "What do educational technology companies do with student data?",
+        "Why have many ed-tech promises failed to improve learning outcomes?",
+        "How does surveillance software monitor students in ways that harm them?",
+        "What happens when AI is used to grade essays or detect cheating?",
+        "Why might screens be a poor substitute for human teachers?",
+        "How did pandemic remote learning reveal ed-tech's limitations?",
+        "What role should technology play in education versus human connection?"
+      ],
+      "tags": ["technology", "education", "privacy", "surveillance"]
+    },
+    {
+      "name": "Emerging Technologies on the Horizon",
+      "topics": [
+        "What brain-computer interfaces are being developed and for what purposes?",
+        "How might quantum computing disrupt current encryption and security?",
+        "What does the metaverse promise and what might it actually deliver?",
+        "Why are some billionaires investing in life extension technologies?",
+        "What space technologies raise new ethical questions about resources?",
+        "How should we govern technologies that don't yet exist?",
+        "What emerging technologies should we be paying attention to now?"
+      ],
+      "tags": ["technology", "innovation", "prediction", "frontiers"]
+    },
+    {
+      "name": "Who Gets to Decide?",
+      "topics": [
+        "Why are consequential technology decisions made by a small number of people?",
+        "How could democratic participation shape technological development?",
+        "What role should ethics review boards play in technology companies?",
+        "Why do technologists often resist external regulation?",
+        "How have affected communities organized to resist harmful technologies?",
+        "What models exist for more inclusive technology governance?",
+        "Can we shape technology's direction or is momentum unstoppable?"
+      ],
+      "tags": ["technology", "governance", "democracy", "regulation"]
+    }
+  ]
+}

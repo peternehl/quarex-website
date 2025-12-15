@@ -1,0 +1,125 @@
+{
+  "name": "Biology: Life and Evolution",
+  "chapters": [
+    {
+      "name": "What Is Life?",
+      "topics": [
+        "What characteristics define something as living versus non-living?",
+        "How do cells serve as the fundamental unit of all life?",
+        "What is metabolism and why is it essential for life?",
+        "How do organisms maintain homeostasis in changing environments?",
+        "What role does reproduction play in the definition of life?",
+        "Why are viruses on the boundary between living and non-living?"
+      ],
+      "tags": ["science", "biology", "critical-thinking", "education"]
+    },
+    {
+      "name": "Cell Structure and Function",
+      "topics": [
+        "What are the main differences between prokaryotic and eukaryotic cells?",
+        "How do organelles like mitochondria and chloroplasts function?",
+        "What is the role of the cell membrane in controlling what enters and exits?",
+        "How does the nucleus store and protect genetic information?",
+        "What is the endoplasmic reticulum and what does it produce?",
+        "How do plant cells differ structurally from animal cells?"
+      ],
+      "tags": ["science", "biology", "genetics", "education"]
+    },
+    {
+      "name": "DNA and the Genetic Code",
+      "topics": [
+        "What is the structure of DNA and how was it discovered?",
+        "How does DNA replication ensure accurate copying of genetic information?",
+        "What is the genetic code and how do codons specify amino acids?",
+        "How does transcription convert DNA into RNA?",
+        "What is translation and how do ribosomes build proteins?",
+        "What happens when mutations occur in DNA sequences?"
+      ],
+      "tags": ["science", "biology", "genetics", "biotechnology"]
+    },
+    {
+      "name": "Darwin and Natural Selection",
+      "topics": [
+        "What observations led Darwin to develop the theory of natural selection?",
+        "How does natural selection lead to adaptation over generations?",
+        "What is the difference between natural selection and artificial selection?",
+        "What evidence from fossils, biogeography, and anatomy supports evolution?",
+        "How do variations arise in populations and why are they important?",
+        "What misconceptions about evolution are most common?"
+      ],
+      "tags": ["science", "biology", "evolution", "critical-thinking"]
+    },
+    {
+      "name": "Speciation and Biodiversity",
+      "topics": [
+        "What is a species and how do biologists define species boundaries?",
+        "How does geographic isolation lead to the formation of new species?",
+        "What is adaptive radiation and how did it produce Darwin's finches?",
+        "How do mass extinctions affect the course of evolution?",
+        "Why is biodiversity important for ecosystem stability?",
+        "How do scientists estimate the total number of species on Earth?"
+      ],
+      "tags": ["science", "biology", "evolution", "ecology"]
+    },
+    {
+      "name": "Human Evolution",
+      "topics": [
+        "What fossil evidence traces human ancestry back millions of years?",
+        "How did bipedalism evolve and why was it advantageous?",
+        "What drove the dramatic increase in human brain size?",
+        "How do Neanderthals relate to modern humans genetically?",
+        "When and how did Homo sapiens spread out of Africa?",
+        "What makes humans biologically unique among primates?"
+      ],
+      "tags": ["science", "biology", "anthropology", "evolution"]
+    },
+    {
+      "name": "Photosynthesis and Energy",
+      "topics": [
+        "How do plants capture light energy and convert it to chemical energy?",
+        "What happens in the light reactions versus the Calvin cycle?",
+        "Why is photosynthesis essential for nearly all life on Earth?",
+        "How do C3, C4, and CAM plants differ in their photosynthesis?",
+        "What factors affect the rate of photosynthesis?",
+        "How has photosynthesis shaped Earth's atmosphere over billions of years?"
+      ],
+      "tags": ["science", "biology", "ecology", "energy"]
+    },
+    {
+      "name": "Cellular Respiration",
+      "topics": [
+        "How do cells extract energy from glucose through cellular respiration?",
+        "What are the three main stages: glycolysis, Krebs cycle, and electron transport?",
+        "How does ATP serve as the energy currency of cells?",
+        "What is the difference between aerobic and anaerobic respiration?",
+        "How does fermentation work when oxygen is unavailable?",
+        "How are photosynthesis and cellular respiration connected?"
+      ],
+      "tags": ["science", "biology", "energy", "education"]
+    },
+    {
+      "name": "Mendelian Genetics and Inheritance",
+      "topics": [
+        "What experiments did Mendel perform with pea plants?",
+        "What are dominant and recessive alleles and how do they interact?",
+        "How do Punnett squares predict the outcomes of genetic crosses?",
+        "What is the difference between genotype and phenotype?",
+        "How do sex-linked traits like color blindness pass through families?",
+        "What patterns of inheritance don't follow simple Mendelian rules?"
+      ],
+      "tags": ["science", "biology", "genetics", "education"]
+    },
+    {
+      "name": "Modern Evolutionary Synthesis",
+      "topics": [
+        "How did genetics and Darwin's theory merge into the modern synthesis?",
+        "What is population genetics and how does it explain evolution mathematically?",
+        "How do genetic drift and gene flow affect evolution?",
+        "What is the Hardy-Weinberg equilibrium and when does it apply?",
+        "How does molecular evidence reveal evolutionary relationships?",
+        "What are current debates and frontiers in evolutionary biology?"
+      ],
+      "tags": ["science", "biology", "evolution", "genetics"]
+    }
+  ]
+}

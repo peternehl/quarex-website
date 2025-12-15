@@ -1,0 +1,42 @@
+{
+  "name": "Nebraska",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Pete Ricketts (R)",
+        "Edward Dunn (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Dan Osborn (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

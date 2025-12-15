@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quarex.org/schema/v1",
+  "title": "Quarex",
+  "description": "A dynamically generated, recursively structured knowledge artifact that evolves through iterative inquiry.",
+  "type": "object",
+  "required": ["name", "chapters"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The title of the Quarex artifact"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["followup", "sequential"],
+      "default": "followup",
+      "description": "Reading mode: 'followup' for exploratory inquiry with AI-generated follow-up questions, 'sequential' for ordered consumption through chapters and topics"
+    },
+    "architect": {
+      "type": "string",
+      "description": "The originator of the Quarex — the constitutional author of the knowledge system"
+    },
+    "created": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the Quarex was created (ISO 8601)"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version identifier for this Quarex"
+    },
+    "license": {
+      "type": "string",
+      "description": "License under which this Quarex is published"
+    },
+    "chapters": {
+      "type": "array",
+      "description": "Ordered collection of chapters, each containing inquiry topics",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "topics"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Chapter title"
+          },
+          "topics": {
+            "type": "array",
+            "description": "Inquiry topics within this chapter — each serves as a generative engine for recursive exploration",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Idaho",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Brad Little (R)",
+        "Jordan Chirat (R)",
+        "Lisa Marie (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Stephen Heidt (D)",
+        "Terri Pickens (D)",
+        "Chanelle Torrez (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ammon Bundy (I)",
+        "Maxine Durand (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

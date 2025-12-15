@@ -1,0 +1,125 @@
+{
+  "name": "Dance History, Theory, and Choreography",
+  "chapters": [
+    {
+      "name": "Classical Ballet Technique and History",
+      "topics": [
+        "How did ballet develop from Italian Renaissance courts to Russian imperial stages?",
+        "What are the five positions and why do they form ballet's foundation?",
+        "How do the French, Russian, and Balanchine schools of ballet differ technically?",
+        "What makes pointe work possible and how has it evolved over time?",
+        "Who were the major choreographers who shaped classical ballet: Petipa, Fokine, Balanchine?",
+        "How do dancers train to achieve the technical demands of classical ballet?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "dance"]
+    },
+    {
+      "name": "Modern Dance Pioneers",
+      "topics": [
+        "How did Isadora Duncan reject ballet conventions to create a new dance form?",
+        "What were Martha Graham's key innovations in technique and choreography?",
+        "How did Doris Humphrey and José Limón develop fall-and-recovery technique?",
+        "What role did Merce Cunningham play in separating dance from music and narrative?",
+        "How did German expressionist dance through Laban and Wigman influence American modern dance?",
+        "Why did modern dance pioneers see their work as revolutionary?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "dance"]
+    },
+    {
+      "name": "Contemporary Dance Practices",
+      "topics": [
+        "What distinguishes contemporary dance from modern dance technically and aesthetically?",
+        "How has release technique changed the way dancers use their bodies?",
+        "Who are the major contemporary choreographers working today?",
+        "How do contemporary dancers train across multiple techniques?",
+        "What role does improvisation play in contemporary dance creation?",
+        "How has contemporary dance incorporated elements from other movement forms?"
+      ],
+      "tags": ["arts", "performing-arts", "dance", "innovation"]
+    },
+    {
+      "name": "Jazz Dance Evolution",
+      "topics": [
+        "How did jazz dance develop from African American vernacular dance traditions?",
+        "What innovations did Jack Cole, Bob Fosse, and Gus Giordano bring to jazz technique?",
+        "How did Broadway and Hollywood shape commercial jazz dance styles?",
+        "What are the core technical elements of jazz dance training?",
+        "How has jazz dance evolved from its roots to contemporary commercial styles?",
+        "What is the relationship between jazz dance and jazz music?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "dance"]
+    },
+    {
+      "name": "Hip-Hop and Street Dance",
+      "topics": [
+        "How did hip-hop dance emerge from Bronx block parties and street culture?",
+        "What are the foundational styles: breaking, popping, locking, and house?",
+        "How do battles, cyphers, and crews function in hip-hop dance culture?",
+        "What is the difference between street dance and commercial hip-hop?",
+        "How has hip-hop dance moved from the streets to concert stages and studios?",
+        "What debates exist about authenticity and appropriation in hip-hop dance?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "dance"]
+    },
+    {
+      "name": "World Dance Traditions",
+      "topics": [
+        "What are the classical dance forms of India: Bharatanatyam, Kathak, Odissi?",
+        "How do West African dance traditions emphasize community and polyrhythm?",
+        "What characterizes flamenco as both dance and cultural expression?",
+        "How do traditional dances function in their cultural and ritual contexts?",
+        "What ethical considerations arise when learning dances from other cultures?",
+        "How have diaspora communities preserved and transformed traditional dances?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "dance"]
+    },
+    {
+      "name": "Choreographic Process and Composition",
+      "topics": [
+        "How do choreographers generate movement material for a new work?",
+        "What tools—space, time, energy, shape—do choreographers use to structure dance?",
+        "How do choreographers work with dancers in the creative process?",
+        "What approaches exist: setting movement versus collaborative creation?",
+        "How do choreographers develop their own movement vocabulary and style?",
+        "What makes a dance work succeed as a coherent artistic statement?"
+      ],
+      "tags": ["arts", "performing-arts", "dance", "creativity"]
+    },
+    {
+      "name": "Dance Notation and Documentation",
+      "topics": [
+        "How does Labanotation record movement in written symbols?",
+        "What other notation systems exist and how do they differ?",
+        "How has video changed the way dance works are preserved and transmitted?",
+        "What challenges arise when reconstructing dances from notation or memory?",
+        "How do dance archives preserve the legacy of choreographers and companies?",
+        "What is lost and gained when dance moves from body to documentation?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "dance"]
+    },
+    {
+      "name": "Dance and Technology",
+      "topics": [
+        "How are choreographers using motion capture and digital tools in creation?",
+        "What new performance possibilities do projection and interactive media offer?",
+        "How has dance on screen—from films to TikTok—changed the art form?",
+        "What role does technology play in dance education and training?",
+        "How are virtual and augmented reality being used in dance performance?",
+        "What is lost and gained when dance moves into digital spaces?"
+      ],
+      "tags": ["arts", "innovation", "digital-art", "dance"]
+    },
+    {
+      "name": "Somatic Practices and Dance Science",
+      "topics": [
+        "What are somatic practices like Alexander Technique, Feldenkrais, and Body-Mind Centering?",
+        "How does dance science inform training, injury prevention, and performance?",
+        "What do dancers need to know about anatomy and kinesiology?",
+        "How do somatic approaches help dancers recover from and prevent injuries?",
+        "What psychological skills training helps dancers with performance anxiety?",
+        "How are dance medicine specialists supporting professional dancers today?"
+      ],
+      "tags": ["health", "performing-arts", "dance", "education"]
+    }
+  ]
+}

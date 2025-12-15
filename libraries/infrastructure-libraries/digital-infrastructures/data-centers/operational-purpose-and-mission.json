@@ -1,0 +1,120 @@
+{
+  "name": "Operational Purpose & Mission",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Enterprise Data Centers",
+      "topics": [
+        "What defines an enterprise data center and how does it differ from colocation or cloud?",
+        "Why do large organizations still build and operate their own data centers?",
+        "What are typical enterprise data center layouts and design patterns?",
+        "How do enterprise facilities integrate with corporate campus infrastructure?",
+        "What power and cooling configurations are standard in enterprise facilities?",
+        "How do enterprises balance efficiency investments against operational budgets?",
+        "How do enterprise IT teams staff and operate dedicated data centers?",
+        "What DCIM and monitoring tools are common in enterprise environments?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Colocation Facilities",
+      "topics": [
+        "What is colocation and how does the business model work?",
+        "What types of customers use colocation facilities?",
+        "How are colocation facilities designed for multi-tenant environments?",
+        "What cage, cabinet, and suite configurations do colos offer?",
+        "How do colocation providers price and deliver power to tenants?",
+        "What cooling options and SLAs do colocation facilities offer?",
+        "What remote hands and smart hands services do colos provide?",
+        "How do tenants monitor their equipment in colocation environments?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "digital-life",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Public Cloud Facilities",
+      "topics": [
+        "How do public cloud providers design and operate their data centers?",
+        "What scale and geographic distribution characterize major cloud providers?",
+        "How do cloud providers design for massive multi-tenancy?",
+        "What custom hardware do major cloud providers develop?",
+        "What efficiency innovations have cloud providers pioneered?",
+        "How do cloud providers source and contract for renewable energy?",
+        "How do cloud providers achieve high availability across global infrastructure?",
+        "What automation enables cloud providers to operate at massive scale?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Edge & CDN Facilities",
+      "topics": [
+        "What distinguishes edge and CDN facilities from traditional data centers?",
+        "How do content delivery networks distribute infrastructure globally?",
+        "What form factors and designs characterize edge and CDN points of presence?",
+        "How do CDN facilities integrate with carrier and ISP networks?",
+        "How do edge facilities manage power in diverse deployment environments?",
+        "What cooling challenges arise in small, distributed edge locations?",
+        "How do operators manage thousands of distributed edge locations?",
+        "What monitoring and automation enable lights-out edge operations?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "cybersecurity",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "AI / HPC / Research Facilities",
+      "topics": [
+        "What defines AI, HPC, and research-focused data center facilities?",
+        "How do computational research facilities differ from general-purpose data centers?",
+        "What specialized infrastructure do AI training clusters require?",
+        "How do HPC facility designs optimize for parallel computing workloads?",
+        "Why do AI and HPC facilities have extreme power density requirements?",
+        "What cooling technologies address GPU and accelerator thermal loads?",
+        "How do operators manage job scheduling across large HPC clusters?",
+        "What monitoring detects performance degradation in AI training runs?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "ai-ml"
+      ]
+    },
+    {
+      "name": "Disaster Recovery Facilities",
+      "topics": [
+        "What is a disaster recovery facility and how does it differ from primary sites?",
+        "What recovery objectives (RTO/RPO) drive disaster recovery facility design?",
+        "How far should disaster recovery facilities be from primary sites?",
+        "What infrastructure configurations support hot, warm, and cold DR sites?",
+        "How do DR facilities balance efficiency with readiness requirements?",
+        "What power configurations ensure DR sites can activate quickly?",
+        "How do organizations test disaster recovery facilities regularly?",
+        "What staffing models support facilities that rarely run production workloads?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "cybersecurity",
+        "data-centers"
+      ]
+    }
+  ]
+}

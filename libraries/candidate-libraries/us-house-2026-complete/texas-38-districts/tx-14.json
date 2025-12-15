@@ -1,0 +1,33 @@
+{
+  "name": "TX-14",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Randy Weber (R)",
+        "Jessica Forgy (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Thurman Bill Bartie (D)",
+        "Richard Davis (Texas) (D)",
+        "Konstantinos Vogiatzis (D)",
+        "Robert Thomas (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

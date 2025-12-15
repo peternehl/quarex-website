@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex JSON Schema v1</title>
+    <meta name="description" content="The official JSON Schema for validating Quarex artifacts — dynamically generated, recursively structured knowledge systems.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Quarex JSON Schema v1">
+    <meta property="og:description" content="The official JSON Schema for validating Quarex artifacts.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://quarex.org/schema/v1">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://quarex.org/schema/v1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --card: #111111;
+            --text: #F7F7F7;
+            --muted: #A0A0A0;
+            --accent: #60a5fa;
+            --accent-glow: rgba(96, 165, 250, 0.3);
+            --border: #262626;
+            --gold: #fbbf24;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+
+        .version-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            margin-left: 0.5rem;
+            vertical-align: middle;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--bg);
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-bottom: 3rem;
+            transition: all 0.2s;
+        }
+
+        .download-btn:hover {
+            background: var(--text);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px var(--accent-glow);
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: var(--text);
+        }
+
+        p {
+            color: var(--muted);
+            margin-bottom: 1rem;
+        }
+
+        .schema-block {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            overflow-x: auto;
+            margin: 1.5rem 0;
+        }
+
+        pre {
+            font-family: 'JetBrains Mono', 'SF Mono', Monaco, monospace;
+            font-size: 0.875rem;
+            color: var(--text);
+            margin: 0;
+            white-space: pre;
+        }
+
+        .key { color: #f472b6; }
+        .string { color: #34d399; }
+        .keyword { color: #60a5fa; }
+
+        .field-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+
+        .field-table th,
+        .field-table td {
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .field-table th {
+            color: var(--text);
+            font-weight: 600;
+            background: var(--card);
+        }
+
+        .field-table td {
+            color: var(--muted);
+        }
+
+        .field-table code {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            background: var(--card);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+        }
+
+        .required {
+            color: var(--gold);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            margin-bottom: 2rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            .field-table {
+                font-size: 0.875rem;
+            }
+
+            .field-table th,
+            .field-table td {
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="../../" class="back-link">&larr; Back to Quarex</a>
+
+    <h1>Quarex JSON Schema <span class="version-badge">v1.0</span></h1>
+    <p class="subtitle">The official schema for validating Quarex artifacts</p>
+
+    <a href="schema.json" download class="download-btn">Download schema.json</a>
+
+    <h2>Overview</h2>
+    <p>A Quarex is a dynamically generated, recursively structured knowledge artifact. This JSON Schema defines the structure of a single Quarex artifact — the "book" level of the knowledge hierarchy.</p>
+    <p>The schema does not define the taxonomy or navigation structure (library types, shelves, categories). Those are implementation-specific. This schema defines only what constitutes a valid Quarex artifact.</p>
+
+    <h2>Schema URL</h2>
+    <p>Reference this schema in your Quarex JSON files:</p>
+    <div class="schema-block">
+        <pre><span class="key">"$schema"</span>: <span class="string">"https://quarex.org/schema/v1"</span></pre>
+    </div>
+
+    <h2>Fields</h2>
+    <table class="field-table">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>name</code> <span class="required">REQUIRED</span></td>
+                <td>string</td>
+                <td>The title of the Quarex artifact</td>
+            </tr>
+            <tr>
+                <td><code>chapters</code> <span class="required">REQUIRED</span></td>
+                <td>array</td>
+                <td>Ordered collection of chapters, each containing inquiry topics</td>
+            </tr>
+            <tr>
+                <td><code>mode</code></td>
+                <td>string</td>
+                <td>Reading mode: <code>"followup"</code> (default) for exploratory inquiry, or <code>"sequential"</code> for ordered consumption</td>
+            </tr>
+            <tr>
+                <td><code>architect</code></td>
+                <td>string</td>
+                <td>The originator of the Quarex — the constitutional author</td>
+            </tr>
+            <tr>
+                <td><code>created</code></td>
+                <td>string (date)</td>
+                <td>Date the Quarex was created (ISO 8601)</td>
+            </tr>
+            <tr>
+                <td><code>version</code></td>
+                <td>string</td>
+                <td>Version identifier for this Quarex</td>
+            </tr>
+            <tr>
+                <td><code>license</code></td>
+                <td>string</td>
+                <td>License under which this Quarex is published</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Chapter Structure</h2>
+    <p>Each chapter object requires:</p>
+    <table class="field-table">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Type</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>name</code> <span class="required">REQUIRED</span></td>
+                <td>string</td>
+                <td>Chapter title</td>
+            </tr>
+            <tr>
+                <td><code>topics</code> <span class="required">REQUIRED</span></td>
+                <td>array of strings</td>
+                <td>Inquiry topics — each serves as a generative engine for recursive exploration</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Example: Exploratory Mode (default)</h2>
+    <div class="schema-block">
+        <pre>{
+  <span class="key">"$schema"</span>: <span class="string">"https://quarex.org/schema/v1"</span>,
+  <span class="key">"name"</span>: <span class="string">"African Philosophy — Henry Odera Oruka"</span>,
+  <span class="key">"architect"</span>: <span class="string">"Pete and ChatGPT 5.1"</span>,
+  <span class="key">"created"</span>: <span class="string">"2025-11-27"</span>,
+  <span class="key">"chapters"</span>: [
+    {
+      <span class="key">"name"</span>: <span class="string">"Early Life"</span>,
+      <span class="key">"topics"</span>: [
+        <span class="string">"Birth and Cultural Roots in Colonial Kenya"</span>,
+        <span class="string">"Oral Traditions as a First Classroom"</span>,
+        <span class="string">"Witnessing Colonial Power and Indigenous Resistance"</span>
+      ]
+    },
+    {
+      <span class="key">"name"</span>: <span class="string">"The Birth of Sage Philosophy"</span>,
+      <span class="key">"topics"</span>: [
+        <span class="string">"Challenging the Myth That Africa Had No Philosophy"</span>,
+        <span class="string">"Identifying Indigenous Thinkers Outside Formal Academia"</span>,
+        <span class="string">"Distinguishing Folk Wisdom From Critical Reflection"</span>
+      ]
+    }
+  ]
+}</pre>
+    </div>
+
+    <h2>Example: Sequential Mode</h2>
+    <p>For content designed to be consumed in order (stories, tutorials, courses):</p>
+    <div class="schema-block">
+        <pre>{
+  <span class="key">"$schema"</span>: <span class="string">"https://quarex.org/schema/v1"</span>,
+  <span class="key">"name"</span>: <span class="string">"The Sleepy Star"</span>,
+  <span class="key">"architect"</span>: <span class="string">"Pete and ChatGPT 5.1"</span>,
+  <span class="key">"mode"</span>: <span class="string">"sequential"</span>,
+  <span class="key">"chapters"</span>: [
+    {
+      <span class="key">"name"</span>: <span class="string">"The Star That Wouldn't Glow"</span>,
+      <span class="key">"topics"</span>: [
+        <span class="string">"What made the star feel tired?"</span>,
+        <span class="string">"Who noticed the dim light first?"</span>,
+        <span class="string">"What helped the star feel seen?"</span>
+      ]
+    },
+    {
+      <span class="key">"name"</span>: <span class="string">"The Moon's Visit"</span>,
+      <span class="key">"topics"</span>: [
+        <span class="string">"Why did the moon come close?"</span>,
+        <span class="string">"What did the star share?"</span>
+      ]
+    }
+  ]
+}</pre>
+    </div>
+
+    <h2>Full Schema</h2>
+    <div class="schema-block">
+        <pre>{
+  <span class="key">"$schema"</span>: <span class="string">"https://json-schema.org/draft/2020-12/schema"</span>,
+  <span class="key">"$id"</span>: <span class="string">"https://quarex.org/schema/v1"</span>,
+  <span class="key">"title"</span>: <span class="string">"Quarex"</span>,
+  <span class="key">"description"</span>: <span class="string">"A dynamically generated, recursively structured knowledge artifact that evolves through iterative inquiry."</span>,
+  <span class="key">"type"</span>: <span class="string">"object"</span>,
+  <span class="key">"required"</span>: [<span class="string">"name"</span>, <span class="string">"chapters"</span>],
+  <span class="key">"properties"</span>: {
+    <span class="key">"name"</span>: {
+      <span class="key">"type"</span>: <span class="string">"string"</span>,
+      <span class="key">"description"</span>: <span class="string">"The title of the Quarex artifact"</span>
+    },
+    <span class="key">"mode"</span>: {
+      <span class="key">"type"</span>: <span class="string">"string"</span>,
+      <span class="key">"enum"</span>: [<span class="string">"followup"</span>, <span class="string">"sequential"</span>],
+      <span class="key">"default"</span>: <span class="string">"followup"</span>,
+      <span class="key">"description"</span>: <span class="string">"Reading mode: 'followup' for exploratory inquiry, 'sequential' for ordered consumption"</span>
+    },
+    <span class="key">"architect"</span>: {
+      <span class="key">"type"</span>: <span class="string">"string"</span>,
+      <span class="key">"description"</span>: <span class="string">"The originator of the Quarex — the constitutional author of the knowledge system"</span>
+    },
+    <span class="key">"created"</span>: {
+      <span class="key">"type"</span>: <span class="string">"string"</span>,
+      <span class="key">"format"</span>: <span class="string">"date"</span>,
+      <span class="key">"description"</span>: <span class="string">"Date the Quarex was created (ISO 8601)"</span>
+    },
+    <span class="key">"version"</span>: {
+      <span class="key">"type"</span>: <span class="string">"string"</span>,
+      <span class="key">"description"</span>: <span class="string">"Version identifier for this Quarex"</span>
+    },
+    <span class="key">"license"</span>: {
+      <span class="key">"type"</span>: <span class="string">"string"</span>,
+      <span class="key">"description"</span>: <span class="string">"License under which this Quarex is published"</span>
+    },
+    <span class="key">"chapters"</span>: {
+      <span class="key">"type"</span>: <span class="string">"array"</span>,
+      <span class="key">"description"</span>: <span class="string">"Ordered collection of chapters, each containing inquiry topics"</span>,
+      <span class="key">"minItems"</span>: <span class="keyword">1</span>,
+      <span class="key">"items"</span>: {
+        <span class="key">"type"</span>: <span class="string">"object"</span>,
+        <span class="key">"required"</span>: [<span class="string">"name"</span>, <span class="string">"topics"</span>],
+        <span class="key">"properties"</span>: {
+          <span class="key">"name"</span>: {
+            <span class="key">"type"</span>: <span class="string">"string"</span>,
+            <span class="key">"description"</span>: <span class="string">"Chapter title"</span>
+          },
+          <span class="key">"topics"</span>: {
+            <span class="key">"type"</span>: <span class="string">"array"</span>,
+            <span class="key">"description"</span>: <span class="string">"Inquiry topics within this chapter — each serves as a generative engine for recursive exploration"</span>,
+            <span class="key">"minItems"</span>: <span class="keyword">1</span>,
+            <span class="key">"items"</span>: {
+              <span class="key">"type"</span>: <span class="string">"string"</span>
+            }
+          }
+        }
+      }
+    }
+  }
+}</pre>
+    </div>
+
+    <footer>
+        <p><a href="../../">Quarex</a> · <a href="../../spec/">Specification</a> · <a href="https://truthangel.org">TruthAngel.org</a></p>
+        <p style="margin-top: 0.5rem;">Schema released under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></p>
+    </footer>
+</div>
+
+</body>
+</html>

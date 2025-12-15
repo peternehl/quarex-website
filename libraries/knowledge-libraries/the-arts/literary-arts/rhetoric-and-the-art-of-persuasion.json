@@ -1,0 +1,125 @@
+{
+  "name": "Rhetoric and the Art of Persuasion",
+  "chapters": [
+    {
+      "name": "Classical Rhetoric: Aristotle and Cicero",
+      "topics": [
+        "What did Aristotle identify as the three modes of persuasion?",
+        "How did rhetoric develop as a discipline in ancient Greece?",
+        "What were the five canons of rhetoric that Roman orators like Cicero taught?",
+        "Why was rhetoric central to citizenship and public life in the ancient world?",
+        "How did the Sophists approach rhetoric differently than Plato?",
+        "What made Cicero and Quintilian influential teachers of rhetoric?"
+      ],
+      "tags": ["arts", "communication", "rhetoric", "philosophy"]
+    },
+    {
+      "name": "The Rhetorical Triangle: Ethos, Pathos, Logos",
+      "topics": [
+        "How does ethos establish a speaker's credibility and character?",
+        "What techniques do speakers use to appeal to audience emotions through pathos?",
+        "How does logos use reason, evidence, and logic to persuade?",
+        "How do effective arguments balance all three appeals?",
+        "Why do different audiences respond better to different appeals?",
+        "How can you identify which appeals a text or speech relies on most?"
+      ],
+      "tags": ["arts", "communication", "critical-thinking", "rhetoric"]
+    },
+    {
+      "name": "Invention and Argument",
+      "topics": [
+        "What is rhetorical invention and how do speakers generate arguments?",
+        "How do the classical topics (topoi) help discover arguments?",
+        "What types of reasoning—deductive, inductive, analogical—do arguments use?",
+        "How do you construct a thesis and support it with evidence?",
+        "What is stasis theory and how does it help analyze controversies?",
+        "What logical fallacies weaken arguments and how do you spot them?"
+      ],
+      "tags": ["philosophy", "critical-thinking", "epistemology", "rhetoric"]
+    },
+    {
+      "name": "Arrangement and Organization",
+      "topics": [
+        "What parts did classical orations typically include?",
+        "How does the order of arguments affect persuasiveness?",
+        "When should you present your strongest arguments first versus last?",
+        "How do you structure a refutation of opposing arguments?",
+        "What organizational patterns work for different rhetorical purposes?",
+        "How do introductions and conclusions frame arguments effectively?"
+      ],
+      "tags": ["arts", "critical-thinking", "communication", "rhetoric"]
+    },
+    {
+      "name": "Style and Diction",
+      "topics": [
+        "What rhetorical figures and tropes make language more persuasive?",
+        "How do metaphor, analogy, and other figures of thought work?",
+        "What are schemes like parallelism, antithesis, and chiasmus?",
+        "How does word choice affect tone, clarity, and persuasiveness?",
+        "What distinguished the three classical styles: plain, middle, and grand?",
+        "How do you adapt style to audience, purpose, and context?"
+      ],
+      "tags": ["arts", "communication", "literary-arts", "rhetoric"]
+    },
+    {
+      "name": "Delivery and Performance",
+      "topics": [
+        "Why was delivery considered essential to oratory in the ancient world?",
+        "How do voice, gesture, and movement affect audience reception?",
+        "What makes a speech compelling to hear versus merely read?",
+        "How have media like radio, TV, and video changed delivery expectations?",
+        "What can speakers learn from actors about physical presence?",
+        "How do you practice and improve speech delivery?"
+      ],
+      "tags": ["arts", "communication", "performing-arts", "rhetoric"]
+    },
+    {
+      "name": "Visual Rhetoric and Design",
+      "topics": [
+        "How do images, graphics, and layout make arguments?",
+        "What rhetorical principles apply to visual communication?",
+        "How do advertisements use visual rhetoric to persuade?",
+        "What makes infographics and data visualizations persuasive or misleading?",
+        "How does document design affect how readers process arguments?",
+        "What ethical issues arise in visual persuasion and manipulation?"
+      ],
+      "tags": ["arts", "communication", "visual-arts", "rhetoric"]
+    },
+    {
+      "name": "Digital Rhetoric and New Media",
+      "topics": [
+        "How has the internet changed rhetorical practices and possibilities?",
+        "What makes writing for screens different from print?",
+        "How do social media platforms shape argumentation and persuasion?",
+        "What rhetorical strategies work in viral content and memes?",
+        "How do hyperlinks, multimedia, and interactivity create new rhetorical forms?",
+        "What digital literacy skills help people analyze online rhetoric?"
+      ],
+      "tags": ["media", "digital-life", "communication", "rhetoric"]
+    },
+    {
+      "name": "Political and Public Discourse",
+      "topics": [
+        "What makes some political speeches historically powerful?",
+        "How do politicians use rhetoric to build coalitions and win support?",
+        "What role does rhetoric play in propaganda and demagoguery?",
+        "How can citizens evaluate political arguments critically?",
+        "What rhetorical techniques define contemporary political communication?",
+        "How has the decline of deliberative rhetoric affected democratic discourse?"
+      ],
+      "tags": ["politics", "democracy", "free-speech", "rhetoric"]
+    },
+    {
+      "name": "Contemporary Rhetorical Theory",
+      "topics": [
+        "How have Kenneth Burke and other 20th-century theorists redefined rhetoric?",
+        "What is Burke's concept of identification and how does it extend persuasion?",
+        "How has feminist rhetoric challenged traditional rhetorical concepts?",
+        "What does it mean that rhetoric is epistemic—that it creates knowledge?",
+        "How do rhetorical critics analyze texts, speeches, and cultural artifacts?",
+        "What is the relationship between rhetoric, power, and social change?"
+      ],
+      "tags": ["arts", "critical-thinking", "communication", "rhetoric"]
+    }
+  ]
+}

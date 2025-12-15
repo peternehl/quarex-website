@@ -1,0 +1,228 @@
+{
+  "name": "Off Grid Electrical",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "Why Go Off-Grid?",
+      "topics": [
+        "What motivates people to disconnect from the electrical grid?",
+        "How reliable is grid power compared to well-designed off-grid systems?",
+        "What are the hidden costs of staying connected to utility power?",
+        "Is complete energy independence realistic or just a myth?",
+        "How do off-grid systems perform during natural disasters and grid failures?",
+        "What lifestyle changes does off-grid living actually require?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "sustainability"
+      ]
+    },
+    {
+      "name": "Solar Power Fundamentals",
+      "topics": [
+        "How do photovoltaic cells convert sunlight into usable electricity?",
+        "What's the real difference between monocrystalline and polycrystalline panels?",
+        "How much do clouds, shade, and panel angle actually affect solar output?",
+        "Why do solar panels degrade over time and how fast does it happen?",
+        "What are MPPT charge controllers and why do they matter?",
+        "How do you calculate the solar array size needed for your loads?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "physics"
+      ]
+    },
+    {
+      "name": "Wind Power Systems",
+      "topics": [
+        "What wind speeds are actually needed to make a turbine worthwhile?",
+        "Why do small residential wind turbines often disappoint their owners?",
+        "How does tower height dramatically affect wind power generation?",
+        "What's the difference between horizontal and vertical axis turbines?",
+        "Can wind and solar work together effectively in hybrid systems?",
+        "What maintenance challenges do wind turbines present in remote locations?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "physics"
+      ]
+    },
+    {
+      "name": "Micro-Hydro Power",
+      "topics": [
+        "What stream flow and head are needed to make micro-hydro viable?",
+        "How do pelton, turgo, and crossflow turbines differ in application?",
+        "Why does micro-hydro often outperform solar for consistent baseload power?",
+        "What permits and water rights issues affect micro-hydro installations?",
+        "How do you measure and calculate potential power from a water source?",
+        "What intake, penstock, and powerhouse designs work best for small streams?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "physics"
+      ]
+    },
+    {
+      "name": "Geothermal and Ground-Source Systems",
+      "topics": [
+        "What's the difference between geothermal electricity and ground-source heat pumps?",
+        "How deep must you drill to tap into usable geothermal heat?",
+        "Can ground-source heat pumps dramatically reduce electrical heating loads?",
+        "What soil and geology conditions make geothermal systems cost-effective?",
+        "How do closed-loop and open-loop ground-source systems compare?",
+        "What are the realistic payback periods for residential geothermal installations?"
+      ],
+      "tags": [
+        "environment",
+        "energy",
+        "infrastructure",
+        "earth-science"
+      ]
+    },
+    {
+      "name": "Battery Storage Technologies",
+      "topics": [
+        "Why are lithium iron phosphate batteries dominating off-grid installations?",
+        "How do depth of discharge and cycle life determine battery economics?",
+        "What killed the lead-acid battery's dominance in off-grid systems?",
+        "How do battery management systems prevent fires and extend lifespan?",
+        "What emerging battery technologies might transform off-grid storage?",
+        "How do you size a battery bank for multi-day autonomy?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "materials-science"
+      ]
+    },
+    {
+      "name": "Inverters and Power Conversion",
+      "topics": [
+        "What's the difference between pure sine wave and modified sine wave inverters?",
+        "Why do some appliances fail or overheat with cheap inverters?",
+        "How do hybrid inverter-chargers simplify off-grid system design?",
+        "What causes inverter efficiency losses and how significant are they?",
+        "How do you match inverter capacity to surge loads from motors and compressors?",
+        "What protection features should a quality off-grid inverter include?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "physics"
+      ]
+    },
+    {
+      "name": "Backup Generators and Hybrid Systems",
+      "topics": [
+        "When does adding a generator make more sense than expanding solar and batteries?",
+        "How do propane generators compare to gasoline and diesel for off-grid backup?",
+        "What's the true fuel consumption of running a generator for battery charging?",
+        "How do automatic transfer switches integrate generators with off-grid systems?",
+        "Can you stay connected to the grid while maintaining energy independence?",
+        "What are the pros and cons of grid-tied systems with battery backup?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "home-repair"
+      ]
+    },
+    {
+      "name": "Load Management and Efficiency",
+      "topics": [
+        "Which household appliances consume the most power off-grid?",
+        "How can load scheduling dramatically reduce battery and solar requirements?",
+        "What makes DC appliances more efficient than their AC counterparts?",
+        "How do phantom loads silently drain off-grid battery banks?",
+        "What lighting technologies offer the best efficiency for off-grid homes?",
+        "How does insulation and passive solar design reduce electrical loads?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "System Design and Sizing",
+      "topics": [
+        "How do you conduct a load analysis for accurate system sizing?",
+        "What safety margins should be built into off-grid system designs?",
+        "How do seasonal variations affect system sizing in different climates?",
+        "What's the correct wire gauge for various DC voltage and distance combinations?",
+        "How do you design a system that can expand as needs grow?",
+        "What are common mistakes that lead to undersized or oversized systems?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Installation and Safety",
+      "topics": [
+        "What electrical codes apply to off-grid installations?",
+        "How do you properly ground an off-grid electrical system?",
+        "What fire risks exist with battery installations and how are they mitigated?",
+        "Why is DC wiring more dangerous than AC at the same voltage?",
+        "What disconnect and overcurrent protection does an off-grid system need?",
+        "How do you safely work on energized solar arrays?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Monitoring and Maintenance",
+      "topics": [
+        "What parameters should be monitored in an off-grid power system?",
+        "How do battery state-of-charge monitors prevent premature battery death?",
+        "What regular maintenance do solar panels actually require?",
+        "How do you diagnose declining system performance over time?",
+        "What remote monitoring options exist for off-grid systems?",
+        "How do you plan for component replacement and system upgrades?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Economics and Regulations",
+      "topics": [
+        "What's the true payback period for off-grid systems versus grid power?",
+        "How do utility interconnection fees and rate structures affect the grid-vs-off-grid decision?",
+        "What permits and inspections are required for off-grid installations?",
+        "How do property values change with off-grid power systems?",
+        "What tax incentives and rebates apply to off-grid renewable installations?",
+        "How do you finance an off-grid system with limited upfront capital?"
+      ],
+      "tags": [
+        "economics",
+        "energy",
+        "infrastructure",
+        "us-politics"
+      ]
+    }
+  ]
+}

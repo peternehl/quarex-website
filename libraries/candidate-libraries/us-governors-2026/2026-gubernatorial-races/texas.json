@@ -1,0 +1,35 @@
+{
+  "name": "Texas",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Greg Abbott (R)",
+        "Pete Chambers (R)",
+        "Ronnie Tullos (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chris Bell (D)",
+        "Bobby Cole (D)",
+        "Gina Hinojosa (D)",
+        "Nick Pappas (D)",
+        "Meagan Tehseldar (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Distribution Networks and Local Power Delivery",
+  "chapters": [
+    {
+      "name": "Architecture of Distribution Networks",
+      "topics": [
+        "Medium-voltage feeders and local transformer roles",
+        "Radial, loop, and networked distribution topologies",
+        "Urban versus rural distribution design differences",
+        "Modeling demand diversity and load profiles"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "physics"
+      ]
+    },
+    {
+      "name": "Local Grid Components",
+      "topics": [
+        "Distribution substations, switches, and reclosers",
+        "Overhead lines versus underground cabling trade-offs",
+        "Smart meters, AMI systems, and customer interfaces",
+        "Voltage regulation equipment in local grids"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "education"
+      ]
+    },
+    {
+      "name": "Distributed Energy Resources",
+      "topics": [
+        "Rooftop solar, batteries, and microinverters on distribution grids",
+        "Bi-directional power flow and the challenge to traditional protection",
+        "Net metering policies and their grid impacts",
+        "Aggregators and virtual power plants coordinating many small resources"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "education"
+      ]
+    },
+    {
+      "name": "Reliability, Outages, and Maintenance",
+      "topics": [
+        "Why most customer outages originate in distribution networks",
+        "Tree contact, storms, and local line vulnerability patterns",
+        "Preventive maintenance, inspection cycles, and asset aging",
+        "Utility emergency response and restoration processes"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "education"
+      ]
+    },
+    {
+      "name": "Urban Distribution Grid Challenges",
+      "topics": [
+        "High-rise load density and cable heating constraints",
+        "Space-limited transformer placement and cooling",
+        "EV charging clusters and new peak load patterns",
+        "Managing fire risk in underground vaults and ducts"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "education"
+      ]
+    },
+    {
+      "name": "Customer-Side Power Systems",
+      "topics": [
+        "Building wiring standards, panels, and safety codes",
+        "Backup generators, inverters, and transfer switches",
+        "Power quality requirements for sensitive electronics",
+        "Designing microgrid-ready buildings for resilience"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "education"
+      ]
+    },
+    {
+      "name": "The Future of Distribution Grids",
+      "topics": [
+        "Fully digitalized 'smart grid' concepts at local scale",
+        "Neighborhood-scale microgrids and energy communities",
+        "AI-driven load forecasting and demand-side optimization",
+        "Electrification of heating and transport at the edge of the grid"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "ai-ml"
+      ]
+    }
+  ]
+}

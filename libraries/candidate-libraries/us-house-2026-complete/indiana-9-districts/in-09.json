@@ -1,0 +1,48 @@
+{
+  "name": "IN-09",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Erin Houchin (I)",
+        "James Davidson (I)",
+        "Jim Graham (I)",
+        "Emilee McCartney (I)",
+        "Brad Meyer (I)",
+        "Timothy Peck (I)",
+        "Cody Voyles (I)",
+        "Floyd Taylor (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "name": "Civil Rights Movement in the US",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "Roots and Pre-Movement Context",
+      "topics": [
+        "How did Reconstruction's collapse set the stage for a century of Jim Crow laws?",
+        "What role did Black churches play in building the organizational infrastructure for civil rights?",
+        "Why did the Great Migration reshape both Northern cities and Southern power structures?",
+        "How did World War II veterans returning home catalyze demands for equality?",
+        "What legal strategies did the NAACP develop in the decades before Brown v. Board?",
+        "How did the murder of Emmett Till in 1955 galvanize national attention?"
+      ],
+      "tags": ["history", "modern-history", "race", "activism"]
+    },
+    {
+      "name": "Legal Battles and the Courts",
+      "topics": [
+        "What made Thurgood Marshall's strategy in Brown v. Board of Education so groundbreaking?",
+        "Why did 'separate but equal' survive for 58 years before being overturned?",
+        "How did Southern states use 'massive resistance' to defy Supreme Court rulings?",
+        "What role did the federal courts play in desegregating universities?",
+        "Why were voting rights cases often harder to win than school desegregation?",
+        "How did legal victories translate—or fail to translate—into real-world change?"
+      ],
+      "tags": ["law", "supreme-court", "civil-rights", "justice"]
+    },
+    {
+      "name": "The Montgomery Bus Boycott",
+      "topics": [
+        "Why was Rosa Parks chosen as the test case rather than earlier resisters like Claudette Colvin?",
+        "How did the Black community sustain a 381-day boycott without public transportation?",
+        "What organizational systems made the carpools and walking networks function?",
+        "How did the boycott launch Martin Luther King Jr. into national prominence?",
+        "What economic pressures ultimately forced Montgomery to desegregate buses?",
+        "Why is the role of the Women's Political Council often overlooked in boycott histories?"
+      ],
+      "tags": ["activism", "race", "modern-history", "economics"]
+    },
+    {
+      "name": "Nonviolent Direct Action",
+      "topics": [
+        "How did Gandhi's philosophy of satyagraha influence American civil rights tactics?",
+        "What training did activists undergo to prepare for violent responses to peaceful protest?",
+        "Why were sit-ins at lunch counters such effective tools for desegregation?",
+        "How did the Freedom Rides expose the federal government's failure to enforce its own laws?",
+        "What made Birmingham in 1963 the 'most segregated city in America'?",
+        "How did images of fire hoses and police dogs transform Northern public opinion?"
+      ],
+      "tags": ["activism", "ethics", "race", "media"]
+    },
+    {
+      "name": "Key Organizations and Their Tensions",
+      "topics": [
+        "How did the NAACP, SCLC, SNCC, and CORE differ in strategy and philosophy?",
+        "Why did younger activists in SNCC grow frustrated with older civil rights leadership?",
+        "What tensions existed between national leaders and local grassroots organizers?",
+        "How did debates over nonviolence versus self-defense divide the movement?",
+        "Why did some organizations resist working with white allies?",
+        "What role did labor unions play in supporting—or opposing—civil rights goals?"
+      ],
+      "tags": ["activism", "society", "labor", "identity"]
+    },
+    {
+      "name": "Women in the Movement",
+      "topics": [
+        "Why have women like Ella Baker, Diane Nash, and Septima Clark been historically underrecognized?",
+        "How did Fannie Lou Hamer's testimony at the 1964 Democratic Convention shake the party?",
+        "What barriers did women face within civil rights organizations themselves?",
+        "How did the movement's gender dynamics influence the later women's liberation movement?",
+        "What role did women play in the dangerous voter registration drives?",
+        "Why was Coretta Scott King's activism often overshadowed by her husband's legacy?"
+      ],
+      "tags": ["activism", "gender", "race", "representation"]
+    },
+    {
+      "name": "Voting Rights Struggles",
+      "topics": [
+        "How did literacy tests, poll taxes, and grandfather clauses suppress Black voting?",
+        "What made Mississippi's Freedom Summer of 1964 so dangerous for volunteers?",
+        "Why did the murders of Chaney, Goodman, and Schwerner receive more attention than other killings?",
+        "How did Bloody Sunday in Selma lead directly to the Voting Rights Act?",
+        "What immediate impact did the Voting Rights Act of 1965 have on Black political power?",
+        "Why did the Mississippi Freedom Democratic Party challenge fail at the 1964 convention?"
+      ],
+      "tags": ["democracy", "voting-rights", "race", "human-rights"]
+    },
+    {
+      "name": "Federal Government Response",
+      "topics": [
+        "Why was President Kennedy initially reluctant to push civil rights legislation?",
+        "How did the Cuban Missile Crisis and Cold War propaganda influence civil rights politics?",
+        "What role did J. Edgar Hoover's FBI play in surveilling and undermining movement leaders?",
+        "How did Lyndon Johnson leverage Kennedy's assassination to pass the Civil Rights Act?",
+        "Why did federal marshals protect some activists while local FBI agents watched violence occur?",
+        "What compromises weakened civil rights legislation before passage?"
+      ],
+      "tags": ["politics", "governance", "cold-war", "us-politics"]
+    },
+    {
+      "name": "White Resistance and Violence",
+      "topics": [
+        "How did the White Citizens' Councils use economic pressure to enforce segregation?",
+        "What role did the Ku Klux Klan play in the organized violence against activists?",
+        "Why were so few perpetrators of racial violence prosecuted in the 1950s and 1960s?",
+        "How did state and local governments actively support segregationist violence?",
+        "What was the 'Southern Manifesto' and how did it legitimize resistance?",
+        "Why did church bombings and assassinations escalate in the movement's later years?"
+      ],
+      "tags": ["conflict", "race", "criminal-justice", "terrorism"]
+    },
+    {
+      "name": "The March on Washington",
+      "topics": [
+        "How did A. Philip Randolph's earlier March on Washington threat in 1941 set precedent?",
+        "What negotiations and compromises shaped the 1963 March's tone and message?",
+        "Why was John Lewis pressured to soften his planned speech?",
+        "How did the 'I Have a Dream' speech become the march's defining moment?",
+        "What demands from the march were actually achieved in subsequent years?",
+        "Why do historians debate whether the march was a radical protest or a managed spectacle?"
+      ],
+      "tags": ["activism", "modern-history", "race", "rhetoric"]
+    },
+    {
+      "name": "Beyond the South",
+      "topics": [
+        "How did Northern segregation differ in form but not effect from Southern Jim Crow?",
+        "Why did Martin Luther King's Chicago campaign struggle compared to Southern efforts?",
+        "What caused the urban uprisings in Watts, Detroit, and Newark?",
+        "How did housing discrimination maintain segregation without explicit laws?",
+        "Why did some Northern white liberals who supported Southern civil rights oppose local integration?",
+        "What was the relationship between civil rights and urban deindustrialization?"
+      ],
+      "tags": ["society", "housing", "race", "inequality"]
+    },
+    {
+      "name": "Black Power and Shifting Philosophies",
+      "topics": [
+        "What did Stokely Carmichael mean when he called for 'Black Power' in 1966?",
+        "How did Malcolm X's philosophy evolve from Nation of Islam separatism to something broader?",
+        "Why did the Black Panther Party's free breakfast programs alarm the FBI more than their guns?",
+        "What led to the split between integrationist and Black nationalist wings of the movement?",
+        "How did the concept of Black pride reshape cultural and political identity?",
+        "Why did COINTELPRO target Black Power organizations so aggressively?"
+      ],
+      "tags": ["activism", "identity", "nationalism", "surveillance"]
+    },
+    {
+      "name": "Economic Justice Demands",
+      "topics": [
+        "Why did Martin Luther King shift focus to poverty and economic inequality in his final years?",
+        "What was the Poor People's Campaign and why did it struggle after King's assassination?",
+        "How did the Memphis sanitation strike connect labor rights to civil rights?",
+        "Why have economic demands from the movement remained largely unfulfilled?",
+        "What role did debates over reparations play in movement discourse?",
+        "How did automation and job discrimination compound racial economic inequality?"
+      ],
+      "tags": ["economics", "poverty", "labor", "inequality"]
+    },
+    {
+      "name": "Assassinations and Their Aftermath",
+      "topics": [
+        "How did Medgar Evers' 1963 murder affect the movement in Mississippi?",
+        "What conspiracy theories persist about Martin Luther King Jr.'s assassination?",
+        "How did the urban uprisings following King's death reshape white political attitudes?",
+        "What impact did Malcolm X's assassination have on the Black Power movement?",
+        "Why did the deaths of movement leaders not stop but transform the struggle?",
+        "How were assassinations used as tools of political terror throughout the era?"
+      ],
+      "tags": ["conflict", "modern-history", "race", "terrorism"]
+    },
+    {
+      "name": "Legislative Achievements and Limitations",
+      "topics": [
+        "What did the Civil Rights Act of 1964 actually prohibit and require?",
+        "How did the Voting Rights Act of 1965 transform Southern politics within a decade?",
+        "Why did the Fair Housing Act of 1968 prove so difficult to enforce?",
+        "What provisions of civil rights legislation were weakened by court interpretations?",
+        "How did affirmative action policies emerge from civil rights law?",
+        "Why do some argue the movement's legal victories masked deeper structural failures?"
+      ],
+      "tags": ["law", "civil-rights", "voting-rights", "governance"]
+    },
+    {
+      "name": "Media, Photography, and Public Opinion",
+      "topics": [
+        "How did television coverage of Southern violence shift national opinion?",
+        "What role did Black newspapers and magazines play in movement communication?",
+        "Why were certain images—fire hoses, police dogs, bridge beatings—so transformative?",
+        "How did segregationists attempt to control media narratives?",
+        "What role did documentary filmmakers play in preserving movement history?",
+        "How did international media coverage pressure the US government to act?"
+      ],
+      "tags": ["media", "journalism", "propaganda", "communication"]
+    },
+    {
+      "name": "Legacy and Ongoing Struggles",
+      "topics": [
+        "How has the Voting Rights Act been weakened by subsequent Supreme Court decisions?",
+        "Why does school segregation remain prevalent despite Brown v. Board?",
+        "What connections do activists draw between the 1960s movement and Black Lives Matter?",
+        "How has Martin Luther King Jr.'s legacy been sanitized or co-opted?",
+        "What lessons from the civil rights era apply to contemporary social movements?",
+        "Why do debates over 'how far we've come' versus 'how far we have to go' persist?",
+        "How has the 2025 Trump administration's restructuring of the DOJ Civil Rights Division affected enforcement of civil rights laws?"
+      ],
+      "tags": ["activism", "legacy", "voting-rights", "trump"]
+    }
+  ]
+}

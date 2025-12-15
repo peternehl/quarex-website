@@ -1,0 +1,125 @@
+{
+  "name": "Sculpture: A Comprehensive Guide to Forms and Techniques",
+  "chapters": [
+    {
+      "name": "Sculpture Materials: Stone, Metal, Clay, Wood",
+      "topics": [
+        "What properties make different stones suitable for carving?",
+        "How do metals like bronze, steel, and aluminum differ as sculpture materials?",
+        "What types of clay do sculptors use and how do they behave differently?",
+        "What wood species work best for carving and why?",
+        "How do material choices affect a sculpture's appearance and longevity?",
+        "What contemporary materials have expanded sculptural possibilities?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "sculpture"]
+    },
+    {
+      "name": "Modeling and Additive Techniques",
+      "topics": [
+        "What is modeling and how does it differ from carving?",
+        "What tools and techniques do sculptors use for clay modeling?",
+        "How do you build armatures to support sculptural forms?",
+        "What is the process for creating a clay model for bronze casting?",
+        "How do sculptors achieve surface texture and detail in modeled work?",
+        "What modeling materials besides clay do sculptors use?"
+      ],
+      "tags": ["arts", "visual-arts", "sculpture", "education"]
+    },
+    {
+      "name": "Carving and Subtractive Methods",
+      "topics": [
+        "What is the subtractive process and how do carvers approach a block?",
+        "What tools do stone carvers use from rough shaping to finishing?",
+        "How do you plan a carving and transfer a design to the material?",
+        "What techniques help carvers avoid mistakes in an unforgiving medium?",
+        "How did Michelangelo describe his approach to carving marble?",
+        "What safety considerations apply to stone and wood carving?"
+      ],
+      "tags": ["arts", "visual-arts", "sculpture", "education"]
+    },
+    {
+      "name": "Casting: Mold-Making and Bronze",
+      "topics": [
+        "What is the lost-wax casting process and how does it work?",
+        "How do you make molds from original sculptures?",
+        "What materials can be cast: bronze, resin, plaster, concrete?",
+        "What role do foundries play in creating metal sculptures?",
+        "How do artists finish and patinate bronze castings?",
+        "What determines the cost and feasibility of casting a sculpture?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "sculpture"]
+    },
+    {
+      "name": "Assemblage and Found Objects",
+      "topics": [
+        "What is assemblage and how did it develop as a sculptural practice?",
+        "How do artists select and combine found objects meaningfully?",
+        "What techniques join diverse materials in assembled sculptures?",
+        "How did artists like Picasso and Rauschenberg pioneer assemblage?",
+        "What conceptual concerns often drive found object sculpture?",
+        "How do you preserve and stabilize assemblage artworks?"
+      ],
+      "tags": ["arts", "identity", "visual-arts", "sculpture"]
+    },
+    {
+      "name": "Kinetic and Mobile Sculpture",
+      "topics": [
+        "What is kinetic sculpture and how does it incorporate movement?",
+        "How did Alexander Calder invent the mobile as an art form?",
+        "What engineering principles do kinetic sculptors need to understand?",
+        "How do artists use motors, wind, and other forces to create motion?",
+        "What maintenance challenges do kinetic sculptures present?",
+        "How has technology expanded possibilities for moving sculpture?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "sculpture"]
+    },
+    {
+      "name": "Installation Art",
+      "topics": [
+        "What distinguishes installation art from traditional sculpture?",
+        "How do installation artists transform spaces into artworks?",
+        "What role does the viewer's body and movement play in installations?",
+        "How do artists plan and execute large-scale installation projects?",
+        "What documentation challenges do temporary installations present?",
+        "How have museums adapted to collecting and displaying installations?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "sculpture"]
+    },
+    {
+      "name": "Relief Sculpture",
+      "topics": [
+        "What is relief sculpture and how does it differ from sculpture in the round?",
+        "What are bas-relief, high relief, and sunken relief?",
+        "How do relief sculptors create the illusion of depth on a flat surface?",
+        "What architectural and decorative contexts traditionally used relief?",
+        "How do you carve or model a relief sculpture?",
+        "What contemporary artists are working in relief today?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "sculpture"]
+    },
+    {
+      "name": "Public and Monumental Sculpture",
+      "topics": [
+        "What considerations shape public sculpture commissions?",
+        "How do artists work with architects and public agencies on monuments?",
+        "What materials and engineering support large outdoor sculptures?",
+        "How has the meaning and purpose of monuments changed over time?",
+        "What controversies surround public sculptures and their removal?",
+        "How do contemporary artists approach public art differently?"
+      ],
+      "tags": ["arts", "cultural-heritage", "architecture", "sculpture"]
+    },
+    {
+      "name": "Contemporary Sculpture Practices",
+      "topics": [
+        "How has sculpture expanded beyond traditional materials and forms?",
+        "What role do digital fabrication and 3D printing play in contemporary sculpture?",
+        "How do contemporary sculptors address social and political themes?",
+        "What is post-minimalist sculpture and who are its practitioners?",
+        "How do temporary and ephemeral sculptures challenge permanence?",
+        "What directions is sculpture taking in the 21st century?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "sculpture"]
+    }
+  ]
+}

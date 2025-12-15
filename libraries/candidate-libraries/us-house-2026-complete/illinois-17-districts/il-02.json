@@ -1,0 +1,54 @@
+{
+  "name": "IL-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Noack (R)",
+        "Ashley Ramos (R)",
+        "Calvin Coleman (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Toni Brown (D)",
+        "Yumeka Brown (D)",
+        "Eric France (D)",
+        "Jesse L. Jackson, Jr. (D)",
+        "Patrick Keating (D)",
+        "Donna Miller (D)",
+        "Sidney Moore (D)",
+        "Robert Peters (D)",
+        "Willie Preston (D)",
+        "Adal Regis (D)",
+        "Robin Kelly (D)",
+        "Jeremy Young (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ashley Banks (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

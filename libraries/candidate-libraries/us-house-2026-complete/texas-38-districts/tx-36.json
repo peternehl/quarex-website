@@ -1,0 +1,30 @@
+{
+  "name": "TX-36",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Brian Babin (R)",
+        "Jonathan Mitchell (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Peter Filler (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

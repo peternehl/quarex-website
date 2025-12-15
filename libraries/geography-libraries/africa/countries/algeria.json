@@ -1,0 +1,84 @@
+{
+  "name": "Algeria",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "Population",
+        "Climate & Geography",
+        "Economy & Industries",
+        "Government & Politics",
+        "Culture & Language",
+        "Major Cities & Regions",
+        "History (Key Events)",
+        "Ethnic & Religious Composition",
+        "Education & Literacy",
+        "Healthcare & Nutrition",
+        "Infrastructure & Transportation",
+        "Current Issues & Today's Headlines",
+        "International Relations",
+        "Natural Resources & Environment",
+        "What to Know if Visiting"
+      ],
+      "tags": [
+        "geography",
+        "development",
+        "africa",
+        "identity"
+      ]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "Pre-Human & Paleoclimate Era",
+        "Pre-Historic Civilization",
+        "Pre-Historic to 0 BC",
+        "0–1000 AD",
+        "1000–2000 AD",
+        "2000 AD to Present"
+      ],
+      "tags": [
+        "history",
+        "colonialism",
+        "africa",
+        "geography"
+      ]
+    },
+    {
+      "name": "Government & Laws",
+      "topics": [
+        "Constitution",
+        "Political System",
+        "Branches of Government",
+        "Political Parties",
+        "Civil Liberties & Human Rights",
+        "Recent Elections",
+        "Judicial System & Key Laws"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "democracy",
+        "geography"
+      ]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "Safety & Risk Assessment",
+        "Entry Requirements (Visas, Vaccines, Restrictions)",
+        "Currency & Payment Systems",
+        "Transportation & Navigation",
+        "Rules & Laws Visitors Must Know",
+        "Cultural Etiquette & Expectations",
+        "Travel Tips & Practical Advice"
+      ],
+      "tags": [
+        "geography",
+        "migration",
+        "travel",
+        "identity"
+      ]
+    }
+  ]
+}

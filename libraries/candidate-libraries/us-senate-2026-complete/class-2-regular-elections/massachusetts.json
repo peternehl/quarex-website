@@ -1,0 +1,46 @@
+{
+  "name": "Massachusetts",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Nathan Bech (R)",
+        "John Deaton (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Edward J. Markey (D)",
+        "Seth Moulton (D)",
+        "Alexander Rikleen (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Philip Devincentis (I)",
+        "Morgan Dawicki (I)",
+        "Joseph Tache (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

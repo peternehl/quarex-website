@@ -1,0 +1,126 @@
+{
+  "name": "Zoology and Animal Behavior",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Zoology?",
+      "topics": [
+        "What is zoology and what questions do zoologists ask?",
+        "How do scientists classify animals into phyla, classes, and orders?",
+        "What characteristics define the animal kingdom?",
+        "How many animal species exist and how many remain undiscovered?",
+        "What methods do zoologists use to study animals in the wild and lab?",
+        "How has zoology contributed to medicine, conservation, and agriculture?"
+      ],
+      "tags": ["science", "zoology", "biology", "education"]
+    },
+    {
+      "name": "Invertebrates: Animals Without Backbones",
+      "topics": [
+        "What percentage of animal species are invertebrates?",
+        "What are the major invertebrate groups: sponges, cnidarians, worms, mollusks, arthropods?",
+        "How do insects achieve such incredible diversity?",
+        "What adaptations make arthropods the most successful animal group?",
+        "How do simple invertebrates like jellyfish function without brains?",
+        "What ecological roles do invertebrates play in ecosystems?"
+      ],
+      "tags": ["science", "zoology", "biology", "ecology"]
+    },
+    {
+      "name": "Vertebrates: From Fish to Mammals",
+      "topics": [
+        "What characteristics define vertebrates?",
+        "How did the first vertebrates evolve in ancient oceans?",
+        "What adaptations allowed vertebrates to colonize land?",
+        "How do fish, amphibians, reptiles, birds, and mammals differ?",
+        "What makes mammals unique among vertebrates?",
+        "How are birds related to dinosaurs?"
+      ],
+      "tags": ["science", "zoology", "biology", "evolution"]
+    },
+    {
+      "name": "Animal Physiology",
+      "topics": [
+        "How do different animals solve the problems of gas exchange and circulation?",
+        "What digestive strategies do herbivores, carnivores, and omnivores use?",
+        "How do animals regulate body temperature: ectotherms versus endotherms?",
+        "What excretory systems remove waste in different animal groups?",
+        "How do animals sense their environment: vision, hearing, electroreception?",
+        "What hormones control reproduction and development in animals?"
+      ],
+      "tags": ["science", "zoology", "biology", "physiology"]
+    },
+    {
+      "name": "Animal Behavior: Instinct and Learning",
+      "topics": [
+        "What is the difference between innate and learned behavior?",
+        "What are fixed action patterns and what triggers them?",
+        "How do animals learn through classical and operant conditioning?",
+        "What is imprinting and why is timing critical?",
+        "How do animals solve problems and use tools?",
+        "What evidence exists for animal consciousness and emotion?"
+      ],
+      "tags": ["science", "zoology", "psychology", "behavior"]
+    },
+    {
+      "name": "Communication and Social Behavior",
+      "topics": [
+        "How do animals communicate: sounds, visual signals, chemicals, touch?",
+        "What information do bird songs and whale calls convey?",
+        "How do social insects like bees and ants coordinate colony behavior?",
+        "What is the waggle dance and how does it communicate location?",
+        "Why do some animals live in groups while others are solitary?",
+        "What is altruism in animals and how does it evolve?"
+      ],
+      "tags": ["science", "zoology", "behavior", "ecology"]
+    },
+    {
+      "name": "Mating and Reproduction",
+      "topics": [
+        "What is sexual selection and how does it shape animal appearance?",
+        "Why do male peacocks have elaborate tails?",
+        "What mating systems exist: monogamy, polygyny, polyandry?",
+        "How do animals choose mates and what do they look for?",
+        "What strategies do animals use for parental care?",
+        "How does reproductive behavior differ between species?"
+      ],
+      "tags": ["science", "zoology", "biology", "behavior"]
+    },
+    {
+      "name": "Migration and Navigation",
+      "topics": [
+        "Why do animals migrate and what triggers seasonal movements?",
+        "How do birds navigate thousands of miles to precise locations?",
+        "What cues do animals use for navigation: sun, stars, magnetic field?",
+        "How do salmon return to the exact stream where they were born?",
+        "What are the longest animal migrations on Earth?",
+        "How is climate change affecting migration patterns?"
+      ],
+      "tags": ["science", "zoology", "ecology", "behavior"]
+    },
+    {
+      "name": "Predators and Prey",
+      "topics": [
+        "What adaptations make predators effective hunters?",
+        "How do prey animals avoid being eaten: camouflage, warning colors, mimicry?",
+        "What is an evolutionary arms race between predators and prey?",
+        "How do predator-prey relationships affect population dynamics?",
+        "What role do apex predators play in ecosystems?",
+        "How do animals use deception for hunting or defense?"
+      ],
+      "tags": ["science", "zoology", "ecology", "evolution"]
+    },
+    {
+      "name": "Conservation and Animal Welfare",
+      "topics": [
+        "What are the main threats to animal species today?",
+        "How do zoos and captive breeding programs help conservation?",
+        "What ethical questions arise about animals in research and entertainment?",
+        "How do we balance human needs with wildlife protection?",
+        "What success stories show that conservation can save species?",
+        "How can individuals contribute to animal conservation?"
+      ],
+      "tags": ["science", "zoology", "conservation", "ethics"]
+    }
+  ]
+}

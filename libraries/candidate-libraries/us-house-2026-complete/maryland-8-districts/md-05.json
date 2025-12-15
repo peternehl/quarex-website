@@ -1,0 +1,33 @@
+{
+  "name": "MD-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Michelle Talkington (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Steny Hoyer (D)",
+        "Quincy Bareebe (D)",
+        "Terry Jackson (D)",
+        "Harry Jarin (D)",
+        "Heather Luper (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

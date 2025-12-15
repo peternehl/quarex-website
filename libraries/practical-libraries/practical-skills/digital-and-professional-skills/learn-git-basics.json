@@ -1,0 +1,95 @@
+{
+  "name": "Learn Git Basics",
+  "chapters": [
+    {
+      "name": "What is Git?",
+      "topics": [
+        "What problem does Git solve?",
+        "What is version control and why do developers need it?",
+        "How is Git different from saving multiple copies of files?",
+        "What is the difference between Git and GitHub?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "digital-life",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Core Concepts",
+      "topics": [
+        "What is a repository?",
+        "What is a commit?",
+        "What is the staging area and why does it exist?",
+        "What is a branch?"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Basic Workflow",
+      "topics": [
+        "How do I create a new Git repository?",
+        "How do I stage and commit changes?",
+        "How do I view the history of commits?",
+        "How do I undo changes I haven't committed yet?"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "innovation",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Working with Remotes",
+      "topics": [
+        "What is a remote repository?",
+        "How do I connect my local repo to GitHub?",
+        "What does git push do?",
+        "What does git pull do and when should I use it?"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "infrastructure",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Branching Basics",
+      "topics": [
+        "Why would I create a branch?",
+        "How do I create and switch to a new branch?",
+        "How do I merge a branch back into main?",
+        "What is a merge conflict and how do I resolve it?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "computer-science",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Everyday Git Practices",
+      "topics": [
+        "What is .gitignore and why do I need it?",
+        "How do I see what changed before committing?",
+        "How do I temporarily save work without committing?",
+        "What makes a good commit message?"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "cybersecurity"
+      ]
+    }
+  ]
+}

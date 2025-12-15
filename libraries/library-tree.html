@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Library Browser</title>
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --card: #1A1A1A;
+            --text: #F7F7F7;
+            --muted: #A0A0A0;
+            --accent: #4A9EFF;
+            --border: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #4A9EFF 0%, #357ABD 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--muted);
+        }
+
+        /* Library Type Selector */
+        .type-selector {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        .type-btn {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem 1.25rem;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+        }
+
+        .type-btn:hover {
+            border-color: var(--accent);
+            background: #252525;
+        }
+
+        .type-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: white;
+        }
+
+        /* Tree Styles */
+        .tree {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+
+        .tree-loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--muted);
+        }
+
+        /* Library Level */
+        .library {
+            margin-bottom: 1.5rem;
+        }
+
+        .library-name {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--accent);
+            padding: 0.5rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            user-select: none;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .library-name:hover {
+            background: rgba(74, 158, 255, 0.1);
+        }
+
+        .library-name::before {
+            content: "▶";
+            color: var(--muted);
+            font-size: 0.8rem;
+            transition: transform 0.2s;
+        }
+
+        .library.expanded .library-name::before {
+            transform: rotate(90deg);
+        }
+
+        .library-shelves {
+            display: none;
+        }
+
+        .library.expanded .library-shelves {
+            display: block;
+        }
+
+        .library-shelf-count {
+            font-size: 0.9rem;
+            color: var(--muted);
+            font-weight: 400;
+            margin-left: auto;
+        }
+
+        /* Shelf Level */
+        .shelf {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .shelf-name {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #a78bfa;
+            padding: 0.5rem 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.2s;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .shelf-name::before {
+            content: "▶";
+            color: var(--muted);
+            font-size: 0.7rem;
+            transition: transform 0.2s;
+        }
+
+        .shelf.expanded .shelf-name::before {
+            transform: rotate(90deg);
+        }
+
+        .shelf-name:hover {
+            background: rgba(167, 139, 250, 0.15);
+            color: #c4b5fd;
+        }
+
+        .shelf-name .go-icon {
+            opacity: 0;
+            font-size: 0.8rem;
+            transition: opacity 0.2s;
+            margin-left: auto;
+        }
+
+        .shelf.expanded .shelf-name .go-icon {
+            opacity: 0.6;
+        }
+
+        .shelf.expanded .shelf-name:hover .go-icon {
+            opacity: 1;
+        }
+
+        /* Book Level */
+        .books {
+            margin-left: 1.5rem;
+            display: none;
+            padding-left: 0.5rem;
+            border-left: 1px solid var(--border);
+            margin-top: 0.25rem;
+        }
+
+        .shelf.expanded .books {
+            display: block;
+        }
+
+        .book-display {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.3rem 0.75rem;
+            margin: 0.15rem 0;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .book-icon {
+            font-size: 0.9rem;
+        }
+
+        .book-name {
+            flex: 1;
+        }
+
+        .book-meta {
+            font-size: 0.75rem;
+            color: var(--border);
+        }
+
+        .book-count {
+            font-size: 0.85rem;
+            color: var(--muted);
+            font-weight: 400;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+
+        /* Home Link */
+        .home-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--muted);
+            text-decoration: none;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .home-link:hover {
+            color: var(--accent);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .library-name {
+                font-size: 1.2rem;
+            }
+
+            .shelf {
+                margin-left: 1rem;
+            }
+
+            .books {
+                margin-left: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../libraries/" class="home-link">← Back to Quarex Libraries</a>
+
+        <header>
+            <h1>Library Browser</h1>
+            <p>Explore the complete knowledge tree - click any book to start reading</p>
+        </header>
+
+        <div class="type-selector" id="typeSelector">
+            <!-- Buttons will be inserted here -->
+        </div>
+
+        <div class="stats-bar" id="statsBar">
+            <!-- Stats will be inserted here -->
+        </div>
+
+        <div class="tree" id="tree">
+            <div class="tree-loading">Select a library type above to view its contents...</div>
+        </div>
+    </div>
+
+    <script>
+        // Available library types
+        const libraryTypes = [
+            { slug: 'knowledge-libraries', name: 'Knowledge', icon: '📚' },
+            { slug: 'perspectives-libraries', name: 'Perspectives', icon: '🔍' },
+            { slug: 'practical-libraries', name: 'Practical', icon: '🛠️' },
+            { slug: 'event-libraries', name: 'Events', icon: '📅' },
+            { slug: 'geography-libraries', name: 'Geography', icon: '🌍' },
+            { slug: 'candidate-libraries', name: 'Candidates', icon: '🗳️' },
+            { slug: 'infrastructure-libraries', name: 'Infrastructure', icon: '🏗️' }
+        ];
+
+        let currentType = null;
+
+        // Initialize type selector buttons
+        function initTypeSelector() {
+            const selector = document.getElementById('typeSelector');
+            selector.innerHTML = libraryTypes.map(type => `
+                <button class="type-btn" data-slug="${type.slug}">
+                    ${type.icon} ${type.name}
+                </button>
+            `).join('');
+
+            // Add click handlers
+            selector.querySelectorAll('.type-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const slug = btn.dataset.slug;
+                    selectType(slug);
+
+                    // Update active state
+                    selector.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                });
+            });
+        }
+
+        // Select a library type and load its tree
+        async function selectType(typeSlug) {
+            currentType = typeSlug;
+            const tree = document.getElementById('tree');
+            const statsBar = document.getElementById('statsBar');
+
+            tree.innerHTML = '<div class="tree-loading">Loading library structure...</div>';
+            statsBar.innerHTML = '';
+
+            try {
+                // Fetch the library type's manifest
+                const typeManifest = await fetchJson(`/unlimited/${typeSlug}/_manifest.json`);
+
+                if (!typeManifest || typeManifest.length === 0) {
+                    tree.innerHTML = '<div class="tree-loading">No libraries found in this category.</div>';
+                    return;
+                }
+
+                // Fetch all library manifests in parallel
+                const libraryData = await Promise.all(
+                    typeManifest.map(async (library) => {
+                        try {
+                            const shelves = await fetchJson(`/unlimited/${typeSlug}/${library.slug}/_manifest.json`);
+
+                            // Fetch all shelf manifests in parallel
+                            const shelvesWithBooks = await Promise.all(
+                                (shelves || []).map(async (shelf) => {
+                                    try {
+                                        const books = await fetchJson(`/unlimited/${typeSlug}/${library.slug}/${shelf.slug}/_manifest.json`);
+                                        return { ...shelf, books: books || [] };
+                                    } catch (e) {
+                                        return { ...shelf, books: [] };
+                                    }
+                                })
+                            );
+
+                            return { ...library, shelves: shelvesWithBooks };
+                        } catch (e) {
+                            return { ...library, shelves: [] };
+                        }
+                    })
+                );
+
+                // Calculate stats
+                let totalLibraries = libraryData.length;
+                let totalShelves = 0;
+                let totalBooks = 0;
+                let totalChapters = 0;
+
+                libraryData.forEach(lib => {
+                    totalShelves += lib.shelves.length;
+                    lib.shelves.forEach(shelf => {
+                        totalBooks += shelf.books.length;
+                        shelf.books.forEach(book => {
+                            totalChapters += book.chapterCount || 0;
+                        });
+                    });
+                });
+
+                // Render stats
+                statsBar.innerHTML = `
+                    <div class="stat">
+                        <div class="stat-value">${totalLibraries}</div>
+                        <div class="stat-label">Libraries</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${totalShelves}</div>
+                        <div class="stat-label">Shelves</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${totalBooks}</div>
+                        <div class="stat-label">Books</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">${totalChapters}</div>
+                        <div class="stat-label">Chapters</div>
+                    </div>
+                `;
+
+                // Render tree
+                tree.innerHTML = renderTree(libraryData, typeSlug);
+
+            } catch (error) {
+                console.error('Failed to load:', error);
+                tree.innerHTML = `<div class="tree-loading">Failed to load: ${error.message}</div>`;
+            }
+        }
+
+        // Render the tree HTML
+        function renderTree(libraries, typeSlug) {
+            if (libraries.length === 0) {
+                return '<div class="tree-loading">No libraries found.</div>';
+            }
+
+            return libraries.map(library => {
+                const shelvesHtml = library.shelves.map(shelf => {
+                    // Shelf URL for navigation (second click)
+                    const shelfUrl = `/unlimited/${getTypeAbbrev(typeSlug)}/${library.slug}/${shelf.slug}`;
+
+                    // Books are display-only (not clickable)
+                    const booksHtml = shelf.books.map(book => {
+                        const chapters = book.chapterCount || 0;
+                        const topics = book.topicCount || 0;
+
+                        return `
+                            <div class="book-display">
+                                <span class="book-icon">📖</span>
+                                <span class="book-name">${escapeHtml(book.name)}</span>
+                                <span class="book-meta">${chapters} ch${topics ? ` · ${topics} topics` : ''}</span>
+                            </div>
+                        `;
+                    }).join('');
+
+                    const bookCount = shelf.books.length;
+
+                    return `
+                        <div class="shelf" data-url="${shelfUrl}">
+                            <div class="shelf-name">
+                                <span class="shelf-title">${escapeHtml(shelf.name)}</span>
+                                <span class="book-count">(${bookCount} book${bookCount !== 1 ? 's' : ''})</span>
+                                <span class="go-icon">→ Go</span>
+                            </div>
+                            <div class="books">${booksHtml || '<div style="color: var(--muted); font-size: 0.9rem;">No books yet</div>'}</div>
+                        </div>
+                    `;
+                }).join('');
+
+                const shelfCount = library.shelves.length;
+
+                return `
+                    <div class="library">
+                        <div class="library-name">
+                            <span class="library-title">${escapeHtml(library.name)}</span>
+                            <span class="library-shelf-count">(${shelfCount} shelf${shelfCount !== 1 ? 'ves' : ''})</span>
+                        </div>
+                        <div class="library-shelves">
+                            ${shelvesHtml || '<div style="color: var(--muted); margin-left: 1.5rem;">No shelves yet</div>'}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Get display name for library type
+        function getTypeName(slug) {
+            const names = {
+                'knowledge-libraries': 'Knowledge Libraries',
+                'perspectives-libraries': 'Perspectives & Debates',
+                'practical-libraries': 'Practical Libraries',
+                'event-libraries': 'Event Libraries',
+                'geography-libraries': 'Geography Libraries',
+                'candidate-libraries': 'Candidate Research',
+                'infrastructure-libraries': 'Infrastructure & Systems'
+            };
+            return names[slug] || slug;
+        }
+
+        // Get URL abbreviation for library type (matches index.html typeAbbreviations)
+        function getTypeAbbrev(slug) {
+            const abbrevs = {
+                'knowledge-libraries': 'k',
+                'perspectives-libraries': 'pe',
+                'practical-libraries': 'pr',
+                'event-libraries': 'e',
+                'geography-libraries': 'g',
+                'candidate-libraries': 'c',
+                'infrastructure-libraries': 'i'
+            };
+            return abbrevs[slug] || slug;
+        }
+
+        // Fetch JSON helper
+        async function fetchJson(url) {
+            const res = await fetch(url);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            return res.json();
+        }
+
+        // Escape HTML
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Initialize
+        initTypeSelector();
+
+        // Auto-select from URL hash or default to knowledge
+        const hash = window.location.hash.slice(1);
+        const defaultType = libraryTypes.find(t => t.slug === hash) ? hash : 'knowledge-libraries';
+
+        // Click the default button
+        document.querySelector(`[data-slug="${defaultType}"]`).click();
+
+        // Handle clicks on tree elements
+        document.getElementById('tree').addEventListener('click', (e) => {
+            // Handle library clicks - toggle expand/collapse
+            const libraryName = e.target.closest('.library-name');
+            if (libraryName) {
+                const library = libraryName.closest('.library');
+                if (library) {
+                    library.classList.toggle('expanded');
+                }
+                return;
+            }
+
+            // Handle shelf clicks - first click expands, second click navigates
+            const shelfName = e.target.closest('.shelf-name');
+            if (shelfName) {
+                const shelf = shelfName.closest('.shelf');
+                if (!shelf) return;
+
+                e.preventDefault();
+
+                if (shelf.classList.contains('expanded')) {
+                    // Already expanded - navigate to the shelf page
+                    const url = shelf.dataset.url;
+                    if (url) {
+                        window.location.href = url;
+                    }
+                } else {
+                    // First click - expand to show books
+                    shelf.classList.add('expanded');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

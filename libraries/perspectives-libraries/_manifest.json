@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "contested-issues",
+    "name": "Contested Issues",
+    "description": "Topics where reasonable people disagree - policy debates, ethical dilemmas, and social controversies",
+    "shelfCount": 5
+  },
+  {
+    "slug": "cultural-and-identity",
+    "name": "Cultural & Identity Perspectives",
+    "description": "How different groups see themselves and the world - indigenous peoples, ethnic groups, religious communities, diaspora communities",
+    "shelfCount": 3
+  },
+  {
+    "slug": "fact-vs-fiction",
+    "name": "Fact vs Fiction",
+    "description": "Separating truth from falsehood - fact-checking, debunking misinformation, and accountability",
+    "shelfCount": 1
+  },
+  {
+    "slug": "geopolitical",
+    "name": "Geopolitical Perspectives",
+    "description": "How nations and regions see global affairs - wars, conflicts, international relations, and great power competition",
+    "shelfCount": 4
+  },
+  {
+    "slug": "historical-narratives",
+    "name": "Historical Narratives",
+    "description": "How different groups remember and interpret the past - competing accounts of history from different viewpoints",
+    "shelfCount": 5
+  },
+  {
+    "slug": "ideological",
+    "name": "Ideological Perspectives",
+    "description": "Worldviews, belief systems, and frameworks for understanding society - political ideologies, economic philosophies, media and technology critiques",
+    "shelfCount": 4
+  }
+]

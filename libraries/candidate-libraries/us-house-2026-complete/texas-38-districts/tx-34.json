@@ -1,0 +1,51 @@
+{
+  "name": "TX-34",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Keith Allen (R)",
+        "Luis Buentello (R)",
+        "Eric Flores (R)",
+        "Mayra Flores (R)",
+        "Fred Hinojosa (R)",
+        "Gregory Kunkle Jr. (R)",
+        "Scott Mandel (R)",
+        "Bam Morales (R)",
+        "Jay Nagy (R)",
+        "Mauro Garza (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Vicente Gonzalez Jr. (D)",
+        "Etienne Rosas (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Eddie Espinoza (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Sequential Learning",
+  "chapters": [
+    {
+      "name": "When to Use Sequential Mode",
+      "topics": [
+        "What is sequential mode?",
+        "How-to content vs exploratory content",
+        "Why sequential mode hides distractions",
+        "Building skills step by step",
+        "When exploration helps vs hurts learning"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "critical-thinking",
+        "ai-ml"
+      ]
+    },
+    {
+      "name": "Practical Skills Libraries",
+      "topics": [
+        "How practical libraries differ from knowledge libraries",
+        "Learning by doing vs learning by exploring",
+        "The structure of how-to content",
+        "Progressing through skill levels",
+        "When to switch from sequential to exploratory"
+      ],
+      "tags": [
+        "education",
+        "innovation",
+        "critical-thinking",
+        "foundations"
+      ]
+    }
+  ]
+}

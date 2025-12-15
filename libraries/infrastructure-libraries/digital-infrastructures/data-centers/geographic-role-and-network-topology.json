@@ -1,0 +1,101 @@
+{
+  "name": "Geographic Role & Network Topology",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Core Backbone Facilities",
+      "topics": [
+        "What defines a core backbone facility in internet infrastructure?",
+        "How do backbone facilities differ from edge and regional data centers?",
+        "What physical characteristics define major backbone interconnection points?",
+        "How do backbone facilities enable peering between major networks?",
+        "What power densities characterize backbone routing and switching infrastructure?",
+        "How do backbone facilities manage thermal loads from network equipment?",
+        "How are backbone facilities monitored for network performance and availability?",
+        "What coordination occurs between multiple operators at backbone facilities?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Regional Hubs",
+      "topics": [
+        "What defines a regional hub in data center and network topology?",
+        "How do regional hubs connect local networks to global infrastructure?",
+        "What infrastructure characterizes regional hub facilities?",
+        "How do regional hubs aggregate traffic from metropolitan areas?",
+        "What power and cooling requirements characterize regional hubs?",
+        "How do regional hub facilities access reliable utility infrastructure?",
+        "How are regional hubs staffed compared to edge or backbone facilities?",
+        "What operational capabilities concentrate at regional hub locations?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Edge Nodes",
+      "topics": [
+        "What defines an edge node in network and data center topology?",
+        "How do edge nodes differ from regional and core facilities?",
+        "What physical forms do edge nodes take in different deployment scenarios?",
+        "How do edge nodes connect to aggregation and core infrastructure?",
+        "How do edge nodes manage power in diverse deployment environments?",
+        "What cooling approaches work for small, distributed edge installations?",
+        "How are thousands of distributed edge nodes monitored and managed?",
+        "What automation enables edge node operations without local staff?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Latency vs Distance Physics",
+      "topics": [
+        "What physical laws govern the relationship between distance and latency?",
+        "How does the speed of light constrain network communication?",
+        "How do network architectures minimize latency within physical constraints?",
+        "What infrastructure placement optimizes latency for target populations?",
+        "How do latency requirements affect facility siting near power infrastructure?",
+        "What trade-offs exist between optimal latency locations and power availability?",
+        "How do operators measure and monitor network latency?",
+        "What tools detect latency degradation and its causes?"
+      ],
+      "tags": [
+        "science",
+        "infrastructure",
+        "data-centers",
+        "physics"
+      ]
+    },
+    {
+      "name": "Disaster Isolation Zones",
+      "topics": [
+        "What is a disaster isolation zone in data center planning?",
+        "How do organizations define geographic separation for disaster resilience?",
+        "What geographic distances provide meaningful disaster isolation?",
+        "How do isolation zone requirements affect data center site selection?",
+        "How do power grid topologies affect disaster isolation zone definitions?",
+        "What shared utility dependencies undermine isolation zone separation?",
+        "How do organizations test disaster isolation zone effectiveness?",
+        "What operational coordination spans disaster isolation zones?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    }
+  ]
+}

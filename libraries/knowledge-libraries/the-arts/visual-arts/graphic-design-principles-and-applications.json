@@ -1,0 +1,125 @@
+{
+  "name": "Graphic Design: Principles and Applications",
+  "chapters": [
+    {
+      "name": "Graphic Design History and Movements",
+      "topics": [
+        "How did the printing press and industrial revolution shape graphic design's emergence?",
+        "What was the Arts and Crafts movement's influence on design aesthetics?",
+        "How did Bauhaus principles shape modern graphic design education?",
+        "What made Swiss/International Style so influential in corporate design?",
+        "How did postmodern designers like David Carson challenge modernist rules?",
+        "What movements and designers define contemporary graphic design?"
+      ],
+      "tags": ["arts", "cultural-heritage", "art-history", "visual-arts"]
+    },
+    {
+      "name": "Typography Fundamentals",
+      "topics": [
+        "What are the main typeface classifications: serif, sans-serif, script, display?",
+        "How do you choose appropriate typefaces for different projects?",
+        "What typographic terms like kerning, leading, and tracking mean?",
+        "How do you create visual hierarchy using type size, weight, and style?",
+        "What makes type readable and legible in different contexts?",
+        "How do you pair typefaces effectively in a design?"
+      ],
+      "tags": ["arts", "communication", "visual-arts", "education"]
+    },
+    {
+      "name": "Layout and Grid Systems",
+      "topics": [
+        "What is a grid system and why do designers use them?",
+        "How do you construct and use column-based grid layouts?",
+        "What principles govern the placement of elements on a page?",
+        "How do margins, gutters, and white space affect design?",
+        "What is the difference between symmetric and asymmetric layouts?",
+        "How do responsive grids adapt layouts across screen sizes?"
+      ],
+      "tags": ["arts", "systems-thinking", "visual-arts", "education"]
+    },
+    {
+      "name": "Color in Graphic Design",
+      "topics": [
+        "How do RGB and CMYK color modes differ and when do you use each?",
+        "What color relationships—complementary, analogous, triadic—create harmony?",
+        "How does color psychology affect viewer response to designs?",
+        "What role does contrast play in accessible color choices?",
+        "How do you create and work with color palettes?",
+        "What cultural associations with color should designers consider?"
+      ],
+      "tags": ["arts", "communication", "visual-arts", "graphic-design"]
+    },
+    {
+      "name": "Logo and Identity Design",
+      "topics": [
+        "What makes a logo effective and memorable?",
+        "How do designers develop visual identity systems beyond just logos?",
+        "What is the design process for creating a brand identity?",
+        "How do logos need to work across different applications and sizes?",
+        "What legal considerations apply to trademark and logo ownership?",
+        "How do rebranding projects update identity while maintaining recognition?"
+      ],
+      "tags": ["arts", "identity", "visual-arts", "communication"]
+    },
+    {
+      "name": "Print Design: Books, Posters, Packaging",
+      "topics": [
+        "What are the fundamentals of book and publication design?",
+        "How do poster designers create visual impact and communicate quickly?",
+        "What special considerations apply to packaging design?",
+        "How do print specifications like bleed, trim, and resolution work?",
+        "What paper stocks and printing techniques affect the final product?",
+        "How do designers prepare files for professional printing?"
+      ],
+      "tags": ["arts", "visual-arts", "communication", "printmaking"]
+    },
+    {
+      "name": "Digital and Web Design",
+      "topics": [
+        "How does designing for screens differ from designing for print?",
+        "What principles guide effective website layout and navigation?",
+        "How do designers create responsive designs for multiple devices?",
+        "What role does user experience (UX) play in web design?",
+        "How do web designers work with developers to implement designs?",
+        "What current trends are shaping web design practice?"
+      ],
+      "tags": ["arts", "digital-life", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "User Interface (UI) Design",
+      "topics": [
+        "What distinguishes UI design from graphic design and UX design?",
+        "How do designers create consistent interface components and patterns?",
+        "What makes buttons, forms, and navigation intuitive to users?",
+        "How do design systems and style guides maintain consistency?",
+        "What accessibility standards must UI designers follow?",
+        "What tools do UI designers use for prototyping and handoff?"
+      ],
+      "tags": ["technology", "innovation", "digital-life", "communication"]
+    },
+    {
+      "name": "Motion Graphics",
+      "topics": [
+        "What are motion graphics and how do they differ from animation?",
+        "What software do motion designers use: After Effects, Cinema 4D?",
+        "How do principles of animation apply to motion graphics?",
+        "What makes effective title sequences and broadcast graphics?",
+        "How do motion designers create kinetic typography?",
+        "What role does motion design play in social media and advertising?"
+      ],
+      "tags": ["arts", "innovation", "digital-art", "animation"]
+    },
+    {
+      "name": "Design Thinking and Process",
+      "topics": [
+        "What is design thinking and how does it structure creative problem-solving?",
+        "How do designers research and define problems before creating solutions?",
+        "What role do sketching and ideation play in the design process?",
+        "How do designers present work and incorporate client feedback?",
+        "What does a professional design workflow look like from brief to delivery?",
+        "How do designers continue developing their skills throughout their careers?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "education"]
+    }
+  ]
+}

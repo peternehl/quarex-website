@@ -1,0 +1,65 @@
+{
+  "name": "Home & Auto Repair Basics",
+  "chapters": [
+    {
+      "name": "Tools and Safety",
+      "topics": [
+        "Essential hand tools every household should own",
+        "Basic power tools and when to use them",
+        "Personal protective equipment and safe habits",
+        "Knowing when a job is too dangerous to DIY"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "home-repair",
+        "application"
+      ]
+    },
+    {
+      "name": "Simple Home Repairs",
+      "topics": [
+        "Fixing small wall damage like nail holes and cracks",
+        "Stopping common household leaks and drips",
+        "Unclogging sinks, tubs, and basic drain issues",
+        "Quick fixes for squeaky doors and loose hardware"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "home-repair",
+        "personal-finance"
+      ]
+    },
+    {
+      "name": "Plumbing Basics",
+      "topics": [
+        "Understanding your home's water shutoffs and valves",
+        "Replacing faucet washers and cartridges",
+        "Clearing simple toilet and sink clogs safely",
+        "When plumbing jobs require a licensed professional"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "home-repair",
+        "application"
+      ]
+    },
+    {
+      "name": "Auto Maintenance Basics",
+      "topics": [
+        "Checking tire pressure and tread wear",
+        "Understanding oil changes and service intervals",
+        "Recognizing warning lights on your dashboard",
+        "What to keep in a basic car emergency kit"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "home-repair",
+        "application"
+      ]
+    }
+  ]
+}

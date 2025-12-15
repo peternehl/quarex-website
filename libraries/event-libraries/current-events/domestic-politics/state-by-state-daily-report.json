@@ -1,0 +1,189 @@
+{
+  "name": "State by State Daily Report",
+  "created_by": "Peter Nehl",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "Washington DC",
+      "topics": [
+        "What major actions has the Executive Branch taken this week?",
+        "What legislation is moving through Congress right now?",
+        "What significant rulings has the Supreme Court issued recently?",
+        "What federal agency announcements are affecting policy?",
+        "What diplomatic or foreign policy developments are unfolding?",
+        "What budget or spending battles are brewing in Washington?",
+        "What political scandals or investigations are in the news?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "democracy"
+      ]
+    },
+    {
+      "name": "Northeast",
+      "topics": [
+        "What's the biggest story in this region today?",
+        "Which state here faces a developing situation?",
+        "What local policy could have national implications?",
+        "What economic shift is affecting this region?",
+        "What's the most underreported story here?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Southeast",
+      "topics": [
+        "What's the biggest story in this region today?",
+        "Which state here faces a developing situation?",
+        "What local policy could have national implications?",
+        "What economic shift is affecting this region?",
+        "What's the most underreported story here?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "governance",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Midwest",
+      "topics": [
+        "What's the biggest story in this region today?",
+        "Which state here faces a developing situation?",
+        "What local policy could have national implications?",
+        "What economic shift is affecting this region?",
+        "What's the most underreported story here?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "history"
+      ]
+    },
+    {
+      "name": "Southwest",
+      "topics": [
+        "What's the biggest story in this region today?",
+        "Which state here faces a developing situation?",
+        "What local policy could have national implications?",
+        "What economic shift is affecting this region?",
+        "What's the most underreported story here?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "history"
+      ]
+    },
+    {
+      "name": "Mountain West",
+      "topics": [
+        "What's the biggest story in this region today?",
+        "Which state here faces a developing situation?",
+        "What local policy could have national implications?",
+        "What economic shift is affecting this region?",
+        "What's the most underreported story here?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "democracy"
+      ]
+    },
+    {
+      "name": "Pacific",
+      "topics": [
+        "What's the biggest story in this region today?",
+        "Which state here faces a developing situation?",
+        "What local policy could have national implications?",
+        "What economic shift is affecting this region?",
+        "What's the most underreported story here?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "history"
+      ]
+    },
+    {
+      "name": "Swing States",
+      "topics": [
+        "How have battleground polls shifted this week?",
+        "What voter registration trends are emerging?",
+        "Which swing state legislatures are passing controversial laws?",
+        "What ground-game activity is happening now?",
+        "What demographic changes are reshaping swing state politics?",
+        "Which swing state races are attracting the most money?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Border States",
+      "topics": [
+        "What immigration enforcement actions are underway?",
+        "How are border communities responding to federal policy?",
+        "What's the economic impact of border activity this week?",
+        "What legal challenges involve border state policies?",
+        "How are border governors coordinating or conflicting with Washington?",
+        "What humanitarian situations are developing at the border?"
+      ],
+      "tags": [
+        "politics",
+        "migration",
+        "us-politics",
+        "history"
+      ]
+    },
+    {
+      "name": "Red States",
+      "topics": [
+        "What conservative policies are being implemented this week?",
+        "Which red state is testing new restrictions or reforms?",
+        "What economic or demographic shifts could change the political landscape?",
+        "What intra-party conflicts are emerging among Republicans?",
+        "How are red states responding to federal policy?",
+        "What red state policies are being challenged in court?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "trump"
+      ]
+    },
+    {
+      "name": "Blue States",
+      "topics": [
+        "What progressive policies are being implemented this week?",
+        "Which blue state is expanding social programs or regulations?",
+        "What fiscal or governance challenges are blue states facing?",
+        "What intra-party conflicts are emerging among Democrats?",
+        "How are blue states responding to federal policy?",
+        "What blue state policies are being challenged in court?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "democracy",
+        "us-politics"
+      ]
+    }
+  ]
+}

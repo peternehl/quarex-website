@@ -1,0 +1,31 @@
+{
+  "name": "TX-33",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Payton Jackson (R)",
+        "Kurt L. Schwab (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Marc Veasey (D)",
+        "Zeeshan Hafeez (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

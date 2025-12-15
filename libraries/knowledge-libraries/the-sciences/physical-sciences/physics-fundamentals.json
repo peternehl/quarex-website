@@ -1,0 +1,126 @@
+{
+  "name": "Physics Fundamentals",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Physics?",
+      "topics": [
+        "What questions does physics try to answer about the universe?",
+        "How does physics relate to other sciences like chemistry and biology?",
+        "What is the scientific method and how do physicists use it?",
+        "How do theories, laws, and hypotheses differ in physics?",
+        "What role does mathematics play in describing physical phenomena?",
+        "Who are some of the most influential physicists in history?"
+      ],
+      "tags": ["science", "physics", "education", "history"]
+    },
+    {
+      "name": "Motion and Forces",
+      "topics": [
+        "How do we describe motion using position, velocity, and acceleration?",
+        "What are Newton's three laws of motion and what do they explain?",
+        "What is a force and what types of forces exist in nature?",
+        "How does friction affect motion and why is it essential for walking?",
+        "What is momentum and why is it conserved in collisions?",
+        "How do circular motion and centripetal force work?"
+      ],
+      "tags": ["science", "physics", "mechanics", "education"]
+    },
+    {
+      "name": "Energy and Work",
+      "topics": [
+        "What is energy and why can it never be created or destroyed?",
+        "How do kinetic and potential energy transform into each other?",
+        "What is work in physics and how is it related to force and distance?",
+        "What is power and how does it differ from energy?",
+        "How do simple machines multiply force at the cost of distance?",
+        "What happens to energy in inelastic collisions?"
+      ],
+      "tags": ["science", "physics", "energy", "mechanics"]
+    },
+    {
+      "name": "Gravity",
+      "topics": [
+        "What is Newton's law of universal gravitation?",
+        "How does gravity keep planets in orbit and hold galaxies together?",
+        "What determines the strength of gravitational attraction?",
+        "How did Einstein's general relativity change our understanding of gravity?",
+        "What are gravitational waves and how were they detected?",
+        "Why is gravity so much weaker than other fundamental forces?"
+      ],
+      "tags": ["science", "physics", "astronomy", "relativity"]
+    },
+    {
+      "name": "Electricity and Magnetism",
+      "topics": [
+        "What is electric charge and how do positive and negative charges interact?",
+        "What is electric current and how do circuits work?",
+        "What creates magnetic fields and how do they affect moving charges?",
+        "How did Maxwell unify electricity and magnetism into electromagnetism?",
+        "How do electric motors and generators convert between electrical and mechanical energy?",
+        "What is electromagnetic induction and why is it so useful?"
+      ],
+      "tags": ["science", "physics", "electricity", "magnetism"]
+    },
+    {
+      "name": "Waves and Oscillations",
+      "topics": [
+        "What is a wave and what properties describe waves?",
+        "How do transverse and longitudinal waves differ?",
+        "What happens when waves interfere constructively or destructively?",
+        "What is resonance and why can it cause bridges to collapse?",
+        "How do standing waves form in musical instruments?",
+        "What is the Doppler effect and what causes it?"
+      ],
+      "tags": ["science", "physics", "waves", "acoustics"]
+    },
+    {
+      "name": "Light and Optics",
+      "topics": [
+        "What is light: a wave, a particle, or both?",
+        "How do reflection and refraction bend light?",
+        "What is the electromagnetic spectrum beyond visible light?",
+        "How do lenses and mirrors form images?",
+        "What causes the colors we see and how does color vision work?",
+        "How do lasers produce coherent light?"
+      ],
+      "tags": ["science", "physics", "optics", "electromagnetic"]
+    },
+    {
+      "name": "Special Relativity",
+      "topics": [
+        "What did Einstein mean by special relativity?",
+        "Why is the speed of light the same for all observers?",
+        "How does time dilation cause moving clocks to run slower?",
+        "What is length contraction and when is it noticeable?",
+        "What does E=mc² mean and why is it important?",
+        "How does relativity affect GPS satellites?"
+      ],
+      "tags": ["science", "physics", "relativity", "space-time"]
+    },
+    {
+      "name": "Atomic and Nuclear Physics",
+      "topics": [
+        "What experiments revealed the structure of the atom?",
+        "What holds the nucleus together against electric repulsion?",
+        "What are the four fundamental forces of nature?",
+        "How do nuclear reactions release energy in the sun and in reactors?",
+        "What are quarks, leptons, and the Standard Model of particle physics?",
+        "What questions remain unanswered in particle physics?"
+      ],
+      "tags": ["science", "physics", "nuclear", "particles"]
+    },
+    {
+      "name": "Physics in Everyday Life",
+      "topics": [
+        "How does physics explain common phenomena like rainbows and sunsets?",
+        "What physics principles underlie smartphones and computers?",
+        "How do physics principles keep airplanes in the air?",
+        "What physics makes medical imaging technologies like MRI work?",
+        "How do sports use physics principles for better performance?",
+        "What physics breakthroughs might transform future technology?"
+      ],
+      "tags": ["science", "physics", "technology", "applications"]
+    }
+  ]
+}

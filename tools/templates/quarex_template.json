@@ -1,0 +1,26 @@
+{
+  "library": "LIBRARY_NAME",
+  "created_by": "AUTHOR_NAME",
+  "shelves": [
+    {
+      "name": "SHELF_NAME",
+      "books": [
+        {
+          "name": "BOOK_NAME",
+          "mode": "followup",
+          "chapters": [
+            {
+              "name": "CHAPTER_NAME",
+              "topics": [
+                "Topic 1",
+                "Topic 2",
+                "Topic 3",
+                "Topic 4"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

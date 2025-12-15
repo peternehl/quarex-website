@@ -1,0 +1,120 @@
+{
+  "name": "Workloads, Compute Identity & Risk",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "General Compute & Web Platforms",
+      "topics": [
+        "What defines general compute and web platform workloads?",
+        "How do web applications and services utilize data center infrastructure?",
+        "What infrastructure patterns support web-scale applications?",
+        "How do web platforms distribute workloads across data centers?",
+        "What power and cooling profiles characterize web workloads?",
+        "How do web platform load variations affect facility operations?",
+        "How do web platforms achieve high availability across infrastructure?",
+        "What monitoring and observability tools manage web platform operations?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Financial, Trading & Transactional Systems",
+      "topics": [
+        "What infrastructure requirements define financial system workloads?",
+        "How do trading systems differ from general computing in requirements?",
+        "What facility designs optimize for ultra-low latency trading?",
+        "How do financial systems achieve transaction consistency across sites?",
+        "What power and cooling reliability do financial systems require?",
+        "How do financial facilities achieve extreme uptime requirements?",
+        "How do financial systems maintain availability during maintenance?",
+        "What monitoring ensures financial transaction integrity?"
+      ],
+      "tags": [
+        "economics",
+        "finance",
+        "infrastructure",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "AI Training, Inference & Model Infrastructure",
+      "topics": [
+        "What infrastructure requirements distinguish AI workloads?",
+        "How do AI training and inference workloads differ in infrastructure needs?",
+        "What data center designs optimize for AI training clusters?",
+        "How do AI model serving architectures distribute inference workloads?",
+        "What power densities do AI training clusters require?",
+        "How do AI accelerator cooling requirements differ from CPUs?",
+        "How do operators manage long-running AI training jobs?",
+        "What monitoring ensures AI cluster health and training progress?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "ai-ml",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Government, Defense & National Systems",
+      "topics": [
+        "What infrastructure requirements define government and defense workloads?",
+        "How do classified and sensitive systems differ from commercial infrastructure?",
+        "What security requirements govern government facility design?",
+        "How do classified information systems architecture requirements differ?",
+        "What power resilience do government and defense facilities require?",
+        "How do secure facilities manage environmental system security?",
+        "What clearance and vetting applies to government facility personnel?",
+        "How do government facilities manage vendor and contractor access?"
+      ],
+      "tags": [
+        "politics",
+        "security",
+        "infrastructure",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Media, Streaming & Mass Communication",
+      "topics": [
+        "What infrastructure requirements define media and streaming workloads?",
+        "How do streaming services utilize data center and edge infrastructure?",
+        "What infrastructure patterns support global streaming delivery?",
+        "How do encoding and transcoding operations utilize compute resources?",
+        "What power profiles characterize streaming infrastructure workloads?",
+        "How do live streaming events affect infrastructure load curves?",
+        "How do streaming platforms maintain quality during peak events?",
+        "What monitoring ensures streaming service quality and availability?"
+      ],
+      "tags": [
+        "media",
+        "infrastructure",
+        "digital-life",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Scientific, Medical & High-Performance Computing",
+      "topics": [
+        "What infrastructure requirements define scientific and HPC workloads?",
+        "How do research computing needs differ from commercial infrastructure?",
+        "What facility designs optimize for HPC cluster deployments?",
+        "How do scientific computing architectures differ from cloud infrastructure?",
+        "What power and cooling demands characterize supercomputer installations?",
+        "How do HPC facilities achieve cooling for extreme power densities?",
+        "How do operators manage job scheduling across large HPC systems?",
+        "What monitoring ensures scientific computing system health?"
+      ],
+      "tags": [
+        "science",
+        "infrastructure",
+        "computer-science",
+        "data-centers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "OH-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "David Taylor (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

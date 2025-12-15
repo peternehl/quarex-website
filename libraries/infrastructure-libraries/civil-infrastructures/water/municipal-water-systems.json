@@ -1,0 +1,246 @@
+{
+  "name": "Municipal Water Systems",
+  "created_by": "Peter and Claude",
+  "chapters": [
+    {
+      "name": "Water Sources and Collection",
+      "topics": [
+        "Where does tap water actually come from before it reaches treatment plants?",
+        "How do cities decide between surface water and groundwater sources?",
+        "What makes a watershed protected and why does it matter for drinking water?",
+        "How do reservoirs store billions of gallons while maintaining water quality?",
+        "What happens to municipal water supplies during extended droughts?",
+        "How do aquifer recharge programs work to sustain groundwater supplies?"
+      ],
+      "tags": ["infrastructure", "water", "environment", "sustainability"]
+    },
+    {
+      "name": "Water Treatment Processes",
+      "topics": [
+        "What are the essential steps that transform raw water into safe drinking water?",
+        "How does coagulation and flocculation remove microscopic particles from water?",
+        "Why do treatment plants use multiple disinfection methods instead of just one?",
+        "What contaminants can slip through conventional treatment processes?",
+        "How do membrane filtration systems achieve near-complete pathogen removal?",
+        "What role does activated carbon play in removing chemicals and taste issues?"
+      ],
+      "tags": ["infrastructure", "public-health", "technology", "engineering"]
+    },
+    {
+      "name": "Distribution Infrastructure",
+      "topics": [
+        "How do water mains maintain pressure across an entire city's elevation changes?",
+        "What determines whether pipes are made of iron, concrete, or plastic?",
+        "How do water towers and pumping stations work together to ensure constant flow?",
+        "Why do some neighborhoods experience water pressure problems while others don't?",
+        "How do utilities detect and locate leaks in underground pipe networks?",
+        "What causes water hammer and how can it damage residential plumbing?"
+      ],
+      "tags": ["infrastructure", "engineering", "technology", "systems-thinking"]
+    },
+    {
+      "name": "Water Quality Standards",
+      "topics": [
+        "How does the EPA set maximum contaminant levels for drinking water?",
+        "What's the difference between primary and secondary drinking water standards?",
+        "How often must utilities test water and what happens when tests fail?",
+        "Why do acceptable lead levels keep getting revised downward over time?",
+        "What emerging contaminants like PFAS are not yet fully regulated?",
+        "How do Consumer Confidence Reports help residents understand their water quality?"
+      ],
+      "tags": ["regulation", "public-health", "governance", "infrastructure"]
+    },
+    {
+      "name": "Aging Infrastructure Challenges",
+      "topics": [
+        "Why are so many American cities still using water pipes over 100 years old?",
+        "What caused the Flint water crisis and what lessons emerged from it?",
+        "How much would it cost to replace all aging water infrastructure nationwide?",
+        "What happens when cast iron pipes corrode and how does it affect water quality?",
+        "How do utilities prioritize which pipes to replace with limited budgets?",
+        "What non-invasive technologies can extend the life of existing pipes?"
+      ],
+      "tags": ["infrastructure", "us-politics", "public-health", "finance"]
+    },
+    {
+      "name": "Lead Service Lines",
+      "topics": [
+        "How many homes in America still receive water through lead pipes?",
+        "Why doesn't lead always leach into water from lead service lines?",
+        "What corrosion control treatments prevent lead from dissolving into water?",
+        "How do partial lead line replacements sometimes make contamination worse?",
+        "What federal programs fund lead service line replacement for homeowners?",
+        "How can residents determine if their home has lead pipes?"
+      ],
+      "tags": ["public-health", "infrastructure", "pollution", "health"]
+    },
+    {
+      "name": "Water Metering and Billing",
+      "topics": [
+        "How do water meters measure consumption and what causes inaccurate readings?",
+        "What's driving the shift from manual meter reading to smart water meters?",
+        "How do tiered water pricing structures encourage conservation?",
+        "Why do water bills include charges beyond just the water consumed?",
+        "How do utilities handle customers who can't afford their water bills?",
+        "What data can smart meters reveal about household water use patterns?"
+      ],
+      "tags": ["infrastructure", "technology", "conservation", "economics"]
+    },
+    {
+      "name": "Wastewater Collection",
+      "topics": [
+        "How do sewer systems move wastewater uphill to treatment plants?",
+        "What's the difference between combined and separate sewer systems?",
+        "Why do combined sewer overflows dump raw sewage into waterways during storms?",
+        "How do cities prevent fats, oils, and grease from clogging sewer lines?",
+        "What happens when tree roots infiltrate sewer pipes?",
+        "How are cities separating stormwater from sanitary sewers to reduce overflows?"
+      ],
+      "tags": ["infrastructure", "engineering", "pollution", "environment"]
+    },
+    {
+      "name": "Wastewater Treatment",
+      "topics": [
+        "What biological processes break down organic matter in sewage treatment?",
+        "How do treatment plants remove nitrogen and phosphorus to prevent algae blooms?",
+        "What happens to the solid sludge removed during wastewater treatment?",
+        "Can treated wastewater become clean enough to drink directly?",
+        "How do industrial discharges complicate municipal wastewater treatment?",
+        "What pharmaceuticals and microplastics pass through conventional treatment?"
+      ],
+      "tags": ["infrastructure", "biology", "public-health", "environment"]
+    },
+    {
+      "name": "Water Recycling and Reuse",
+      "topics": [
+        "How does purple pipe reclaimed water differ from drinking water?",
+        "What psychological barriers prevent wider acceptance of toilet-to-tap recycling?",
+        "How do indirect potable reuse systems use natural filtration as a buffer?",
+        "Which cities have successfully implemented direct potable water reuse?",
+        "How does industrial water recycling reduce strain on municipal supplies?",
+        "What treatment standards must recycled water meet for different uses?"
+      ],
+      "tags": ["sustainability", "infrastructure", "conservation", "innovation"]
+    },
+    {
+      "name": "Stormwater Management",
+      "topics": [
+        "How does urbanization increase flooding and stormwater pollution?",
+        "What are green infrastructure solutions for managing stormwater naturally?",
+        "How do retention ponds and bioswales filter pollutants from runoff?",
+        "Why are cities requiring permeable pavement in new developments?",
+        "How do rain gardens and green roofs reduce stormwater volume?",
+        "What pollutants does stormwater carry from roads and parking lots?"
+      ],
+      "tags": ["infrastructure", "environment", "pollution", "ecology"]
+    },
+    {
+      "name": "Water Conservation Programs",
+      "topics": [
+        "Which water conservation measures provide the biggest savings for utilities?",
+        "How do rebate programs for efficient fixtures reduce water demand?",
+        "What outdoor irrigation restrictions do drought-prone cities implement?",
+        "How does water-efficient landscaping reduce residential consumption?",
+        "What role do building codes play in mandating water efficiency?",
+        "How have some cities achieved significant demand reduction without rationing?"
+      ],
+      "tags": ["conservation", "sustainability", "governance", "infrastructure"]
+    },
+    {
+      "name": "Climate Change Impacts",
+      "topics": [
+        "How is climate change affecting the reliability of traditional water sources?",
+        "What infrastructure adaptations help cities prepare for more intense flooding?",
+        "How do rising sea levels threaten coastal aquifers with saltwater intrusion?",
+        "What new water sources are drought-stricken regions developing?",
+        "How does increased wildfire activity affect watershed water quality?",
+        "What redundancy do water systems need to survive climate-related disruptions?"
+      ],
+      "tags": ["climate-change", "infrastructure", "environment", "sustainability"]
+    },
+    {
+      "name": "Desalination Technology",
+      "topics": [
+        "How does reverse osmosis desalination remove salt from seawater?",
+        "Why is desalinated water so much more expensive than conventional sources?",
+        "What environmental impacts does desalination have on marine ecosystems?",
+        "How much energy does desalination require and can renewables power it?",
+        "Which water-scarce regions depend heavily on desalination plants?",
+        "What technological advances are making desalination more cost-effective?"
+      ],
+      "tags": ["technology", "infrastructure", "energy", "innovation"]
+    },
+    {
+      "name": "Cybersecurity and System Control",
+      "topics": [
+        "How do SCADA systems automate water treatment and distribution operations?",
+        "What cybersecurity vulnerabilities have hackers exploited in water utilities?",
+        "How did the Oldsmar water treatment hack attempt to poison a city's water?",
+        "What safeguards prevent unauthorized changes to chemical dosing systems?",
+        "How are water utilities improving cybersecurity with limited budgets?",
+        "What happens if a cyberattack disables a city's water system?"
+      ],
+      "tags": ["cybersecurity", "infrastructure", "technology", "security"]
+    },
+    {
+      "name": "Emergency Preparedness",
+      "topics": [
+        "How do utilities maintain water service during natural disasters?",
+        "What backup systems keep water flowing during extended power outages?",
+        "How do boil water advisories protect public health after contamination events?",
+        "What mutual aid agreements help utilities respond to emergencies?",
+        "How quickly can utilities restore service after major infrastructure failures?",
+        "What strategic water reserves do cities maintain for emergencies?"
+      ],
+      "tags": ["infrastructure", "security", "public-health", "systems-thinking"]
+    },
+    {
+      "name": "Financing Water Infrastructure",
+      "topics": [
+        "How do municipal bonds fund water infrastructure projects?",
+        "What federal programs provide grants and loans for water system improvements?",
+        "Why do water rates vary so dramatically between different cities?",
+        "How do public-private partnerships work for water utility operations?",
+        "What happens when cities can't afford to maintain their water systems?",
+        "How does the Infrastructure Investment and Jobs Act fund water projects?"
+      ],
+      "tags": ["finance", "infrastructure", "governance", "economics"]
+    },
+    {
+      "name": "Water Equity and Access",
+      "topics": [
+        "Why do low-income communities often have the worst water infrastructure?",
+        "How do water affordability programs help struggling households?",
+        "What legal protections prevent water shutoffs for non-payment?",
+        "How does environmental justice relate to drinking water quality?",
+        "What barriers prevent rural communities from accessing safe water?",
+        "How are cities addressing historical underinvestment in marginalized neighborhoods?"
+      ],
+      "tags": ["inequality", "human-rights", "infrastructure", "justice"]
+    },
+    {
+      "name": "Smart Water Technology",
+      "topics": [
+        "How do sensors throughout distribution networks detect problems in real-time?",
+        "What predictive analytics help utilities prevent pipe failures before they happen?",
+        "How does digital twin technology model entire water systems virtually?",
+        "What AI applications are optimizing water treatment chemical dosing?",
+        "How do leak detection algorithms identify water loss in distribution systems?",
+        "What customer-facing apps help residents monitor and reduce water use?"
+      ],
+      "tags": ["technology", "innovation", "ai-ml", "infrastructure"]
+    },
+    {
+      "name": "Future of Municipal Water",
+      "topics": [
+        "How might decentralized water treatment change urban water systems?",
+        "What role could atmospheric water harvesting play in future supply?",
+        "How are net-zero water buildings reducing municipal system demands?",
+        "What workforce challenges do water utilities face as employees retire?",
+        "How might water utilities evolve as climate change intensifies?",
+        "What emerging treatment technologies could address forever chemicals?"
+      ],
+      "tags": ["innovation", "infrastructure", "climate-change", "technology"]
+    }
+  ]
+}

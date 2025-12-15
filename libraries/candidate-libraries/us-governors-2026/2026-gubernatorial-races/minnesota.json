@@ -1,0 +1,49 @@
+{
+  "name": "Minnesota",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Lisa Demuth (R)",
+        "Thomas Evenstad (R)",
+        "Scott Jensen (R)",
+        "Jeff Johnson (R)",
+        "Patrick Knight (R)",
+        "Brad Kohler (R)",
+        "Phillip Parrish (R)",
+        "Kendall Qualls (R)",
+        "Kristin Robbins (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Tim Walz (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Mike Newcome (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

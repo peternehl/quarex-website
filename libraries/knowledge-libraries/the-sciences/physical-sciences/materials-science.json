@@ -1,0 +1,126 @@
+{
+  "name": "Materials Science",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Materials Science?",
+      "topics": [
+        "How do materials scientists study the relationship between structure and properties?",
+        "What are the main classes of materials: metals, ceramics, polymers, composites?",
+        "How has materials science shaped human civilization from stone age to silicon age?",
+        "What makes certain materials suitable for specific applications?",
+        "How do atomic and molecular structure determine material properties?",
+        "What career paths exist in materials science and engineering?"
+      ],
+      "tags": ["science", "materials-science", "engineering", "education"]
+    },
+    {
+      "name": "Metals and Alloys",
+      "topics": [
+        "What atomic structure gives metals their unique properties?",
+        "How does metallic bonding explain electrical conductivity and malleability?",
+        "What are alloys and how do they improve on pure metals?",
+        "How is steel made and why are there so many different types?",
+        "What are aluminum, titanium, and copper used for and why?",
+        "How do heat treatments like annealing and quenching change metal properties?"
+      ],
+      "tags": ["science", "materials-science", "engineering", "industry"]
+    },
+    {
+      "name": "Ceramics and Glass",
+      "topics": [
+        "What makes ceramics hard but brittle compared to metals?",
+        "How are traditional ceramics like pottery and bricks made?",
+        "What advanced ceramics are used in electronics and aerospace?",
+        "How does glass form and what makes it transparent?",
+        "What are glass-ceramics and what applications do they have?",
+        "How do ceramic superconductors and piezoelectrics work?"
+      ],
+      "tags": ["science", "materials-science", "engineering", "technology"]
+    },
+    {
+      "name": "Polymers and Plastics",
+      "topics": [
+        "What are polymers and how do long molecular chains create their properties?",
+        "How are plastics synthesized from petroleum and other sources?",
+        "What distinguishes thermoplastics from thermosets?",
+        "Why are some plastics rigid while others are flexible?",
+        "What makes polymers like nylon, PVC, and polystyrene different?",
+        "What are the environmental challenges of plastic waste?"
+      ],
+      "tags": ["science", "materials-science", "chemistry", "environment"]
+    },
+    {
+      "name": "Composites",
+      "topics": [
+        "What is a composite material and why combine different materials?",
+        "How does fiberglass combine glass fibers with polymer matrix?",
+        "What makes carbon fiber composites strong yet lightweight?",
+        "How are composites used in aircraft, cars, and sports equipment?",
+        "What is concrete and why is it reinforced with steel?",
+        "How do natural composites like wood and bone achieve their properties?"
+      ],
+      "tags": ["science", "materials-science", "engineering", "innovation"]
+    },
+    {
+      "name": "Semiconductors",
+      "topics": [
+        "What makes semiconductors different from conductors and insulators?",
+        "How does silicon's atomic structure enable electronic applications?",
+        "What is doping and how does it create n-type and p-type semiconductors?",
+        "How do p-n junctions form the basis of diodes and transistors?",
+        "How has semiconductor technology enabled the computer revolution?",
+        "What materials might replace silicon in future electronics?"
+      ],
+      "tags": ["science", "materials-science", "electronics", "technology"]
+    },
+    {
+      "name": "Nanomaterials",
+      "topics": [
+        "What are nanomaterials and why do properties change at nanoscale?",
+        "What are carbon nanotubes and graphene and what makes them special?",
+        "How are nanoparticles used in medicine, electronics, and coatings?",
+        "What fabrication techniques create nanoscale structures?",
+        "What are quantum dots and how do they enable new display technologies?",
+        "What safety concerns exist around nanomaterials?"
+      ],
+      "tags": ["science", "materials-science", "nanotechnology", "innovation"]
+    },
+    {
+      "name": "Biomaterials",
+      "topics": [
+        "What materials are used for medical implants and prosthetics?",
+        "How must biomaterials be biocompatible to work inside the body?",
+        "What are biodegradable materials and when are they useful?",
+        "How are scaffolds used in tissue engineering?",
+        "What materials replace heart valves, hip joints, and dental implants?",
+        "How might lab-grown materials someday replace harvested tissues?"
+      ],
+      "tags": ["science", "materials-science", "medicine", "biotechnology"]
+    },
+    {
+      "name": "Smart and Functional Materials",
+      "topics": [
+        "What are smart materials that respond to environmental changes?",
+        "How do shape memory alloys return to their original shape?",
+        "What are piezoelectric materials and how do they convert mechanical to electrical energy?",
+        "How do photochromic materials change color in response to light?",
+        "What self-healing materials can repair damage automatically?",
+        "How might programmable materials change manufacturing?"
+      ],
+      "tags": ["science", "materials-science", "innovation", "technology"]
+    },
+    {
+      "name": "Sustainable Materials",
+      "topics": [
+        "How can materials science address environmental challenges?",
+        "What bio-based materials can replace petroleum-derived plastics?",
+        "How can recycling and circular economy principles reduce waste?",
+        "What lightweight materials improve fuel efficiency in vehicles?",
+        "How do materials enable renewable energy technologies?",
+        "What breakthroughs are needed for a sustainable materials future?"
+      ],
+      "tags": ["science", "materials-science", "sustainability", "environment"]
+    }
+  ]
+}

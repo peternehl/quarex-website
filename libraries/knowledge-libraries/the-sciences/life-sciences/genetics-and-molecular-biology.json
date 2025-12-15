@@ -1,0 +1,126 @@
+{
+  "name": "Genetics and Molecular Biology",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "DNA: The Molecule of Heredity",
+      "topics": [
+        "How did scientists determine that DNA carries genetic information?",
+        "What is the structure of DNA and how do the base pairs fit together?",
+        "How did Watson and Crick discover the double helix?",
+        "What does it mean that DNA strands are antiparallel?",
+        "How is DNA packaged into chromosomes in eukaryotic cells?",
+        "Why is the structure of DNA perfectly suited for storing information?"
+      ],
+      "tags": ["science", "genetics", "biology", "history"]
+    },
+    {
+      "name": "DNA Replication",
+      "topics": [
+        "How does a cell copy its entire genome before dividing?",
+        "What enzymes are involved in DNA replication and what do they do?",
+        "What is the difference between the leading and lagging strand?",
+        "How do cells proofread DNA replication to minimize errors?",
+        "What are telomeres and why do they shorten with each cell division?",
+        "How fast does DNA replication occur and how is it coordinated?"
+      ],
+      "tags": ["science", "genetics", "biology", "cell-biology"]
+    },
+    {
+      "name": "From Gene to Protein",
+      "topics": [
+        "What is the central dogma of molecular biology?",
+        "How does transcription copy DNA into messenger RNA?",
+        "What is the genetic code and how do codons specify amino acids?",
+        "How does translation at ribosomes build proteins from mRNA?",
+        "What roles do tRNA and rRNA play in protein synthesis?",
+        "How do mutations in DNA affect the proteins cells produce?"
+      ],
+      "tags": ["science", "genetics", "biology", "biochemistry"]
+    },
+    {
+      "name": "Gene Regulation",
+      "topics": [
+        "Why don't all cells express all genes even though they have the same DNA?",
+        "How do transcription factors turn genes on and off?",
+        "What is the lac operon and how does it respond to lactose?",
+        "How do epigenetic modifications affect gene expression without changing DNA?",
+        "What role does chromatin structure play in gene regulation?",
+        "How do cells become specialized during development?"
+      ],
+      "tags": ["science", "genetics", "biology", "development"]
+    },
+    {
+      "name": "Mendelian Genetics",
+      "topics": [
+        "What experiments did Gregor Mendel perform with pea plants?",
+        "What are dominant and recessive alleles?",
+        "How do Punnett squares predict inheritance patterns?",
+        "What is the difference between genotype and phenotype?",
+        "How do Mendel's laws of segregation and independent assortment work?",
+        "What inheritance patterns don't follow simple Mendelian rules?"
+      ],
+      "tags": ["science", "genetics", "biology", "education"]
+    },
+    {
+      "name": "Chromosomes and Human Genetics",
+      "topics": [
+        "How many chromosomes do humans have and how are they organized?",
+        "What happens during meiosis to create genetic diversity?",
+        "How do sex chromosomes determine biological sex in humans?",
+        "What are chromosomal disorders like Down syndrome and Turner syndrome?",
+        "How does crossing over during meiosis shuffle genetic information?",
+        "What is genetic linkage and how was it used to map genes?"
+      ],
+      "tags": ["science", "genetics", "medicine", "human-rights"]
+    },
+    {
+      "name": "Mutations and Genetic Variation",
+      "topics": [
+        "What types of mutations can occur in DNA sequences?",
+        "What causes mutations: replication errors, radiation, chemicals?",
+        "How can a single nucleotide change cause sickle cell disease?",
+        "What is the difference between germline and somatic mutations?",
+        "How do mutations provide the raw material for evolution?",
+        "What repair mechanisms do cells have to fix DNA damage?"
+      ],
+      "tags": ["science", "genetics", "biology", "evolution"]
+    },
+    {
+      "name": "Genomics and the Human Genome Project",
+      "topics": [
+        "What was the Human Genome Project and what did it accomplish?",
+        "How many genes do humans have and why was this number surprising?",
+        "What is the difference between a genome and a proteome?",
+        "How has genome sequencing become faster and cheaper over time?",
+        "What have we learned by comparing genomes across species?",
+        "What percentage of the human genome actually codes for proteins?"
+      ],
+      "tags": ["science", "genetics", "biotechnology", "innovation"]
+    },
+    {
+      "name": "Genetic Testing and Medicine",
+      "topics": [
+        "How do genetic tests identify disease risk and carrier status?",
+        "What is pharmacogenomics and how does it personalize drug treatment?",
+        "How has genetic testing changed prenatal diagnosis?",
+        "What are the benefits and risks of direct-to-consumer genetic testing?",
+        "How do forensic scientists use DNA profiling?",
+        "What genetic counseling helps people understand about their results?"
+      ],
+      "tags": ["science", "genetics", "medicine", "ethics"]
+    },
+    {
+      "name": "Ethics of Genetic Technology",
+      "topics": [
+        "Who should have access to a person's genetic information?",
+        "What is genetic discrimination and how do laws protect against it?",
+        "Should parents be able to select embryos based on genetic traits?",
+        "What are the ethical concerns about human germline editing?",
+        "How do different cultures and religions view genetic modification?",
+        "What regulations govern genetic research and its applications?"
+      ],
+      "tags": ["science", "genetics", "ethics", "policy"]
+    }
+  ]
+}

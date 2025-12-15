@@ -1,0 +1,31 @@
+{
+  "name": "Oklahoma",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Markwayne Mullin (R)",
+        "Tammy Swearengin (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Troy Green (D)",
+        "N'Kiyla Thomas (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

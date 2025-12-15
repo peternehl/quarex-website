@@ -1,0 +1,126 @@
+{
+  "name": "Neuroscience and the Brain",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The Brain: An Overview",
+      "topics": [
+        "How is the brain organized into major regions and what do they do?",
+        "How many neurons does the human brain contain and how are they connected?",
+        "What makes the human brain different from other animal brains?",
+        "How much energy does the brain use compared to other organs?",
+        "What protects the brain: skull, meninges, cerebrospinal fluid?",
+        "How has our understanding of the brain changed throughout history?"
+      ],
+      "tags": ["science", "neuroscience", "biology", "education"]
+    },
+    {
+      "name": "Neurons and Neural Communication",
+      "topics": [
+        "What are the parts of a neuron: dendrites, cell body, axon?",
+        "How do neurons generate and transmit electrical signals?",
+        "What is an action potential and how does it travel down an axon?",
+        "How do synapses allow neurons to communicate with each other?",
+        "What are neurotransmitters and what do different ones do?",
+        "How do drugs and medications affect neurotransmitter systems?"
+      ],
+      "tags": ["science", "neuroscience", "biology", "chemistry"]
+    },
+    {
+      "name": "The Cerebral Cortex",
+      "topics": [
+        "What are the four lobes of the cerebral cortex and their functions?",
+        "How is the motor cortex organized to control body movement?",
+        "What does the somatosensory cortex process?",
+        "Where and how does the brain process vision, hearing, and language?",
+        "What are association areas and what do they do?",
+        "What happens when different parts of the cortex are damaged?"
+      ],
+      "tags": ["science", "neuroscience", "biology", "anatomy"]
+    },
+    {
+      "name": "Memory and Learning",
+      "topics": [
+        "What are the different types of memory: short-term, long-term, procedural?",
+        "What role does the hippocampus play in forming new memories?",
+        "How do synaptic changes create long-term memories?",
+        "What is neuroplasticity and how does the brain change with experience?",
+        "Why do we forget and what causes memory loss?",
+        "What can patient H.M. teach us about how memory works?"
+      ],
+      "tags": ["science", "neuroscience", "psychology", "education"]
+    },
+    {
+      "name": "Emotion and the Limbic System",
+      "topics": [
+        "What brain structures make up the limbic system?",
+        "What role does the amygdala play in fear and emotion?",
+        "How does the brain produce feelings of pleasure and reward?",
+        "What is the stress response and how does the brain trigger it?",
+        "How do emotions and rational thinking interact in the brain?",
+        "What happens when emotional brain circuits don't function properly?"
+      ],
+      "tags": ["science", "neuroscience", "psychology", "mental-health"]
+    },
+    {
+      "name": "Sleep and Consciousness",
+      "topics": [
+        "What happens in the brain during different stages of sleep?",
+        "Why do we need sleep and what happens when we don't get enough?",
+        "What are dreams and what brain activity produces them?",
+        "What is consciousness and which brain areas support it?",
+        "How do anesthesia and coma affect brain function?",
+        "What can disorders of consciousness teach us about awareness?"
+      ],
+      "tags": ["science", "neuroscience", "psychology", "health"]
+    },
+    {
+      "name": "Brain Development",
+      "topics": [
+        "How does the brain develop from embryo to adult?",
+        "What is the critical period and why is early experience important?",
+        "How does the teenage brain differ from adult and child brains?",
+        "What environmental factors affect brain development?",
+        "How does the brain change with aging?",
+        "What can go wrong during brain development?"
+      ],
+      "tags": ["science", "neuroscience", "development", "education"]
+    },
+    {
+      "name": "Neurological and Mental Disorders",
+      "topics": [
+        "What causes neurodegenerative diseases like Alzheimer's and Parkinson's?",
+        "What is happening in the brain during a stroke or seizure?",
+        "What brain changes are associated with depression and anxiety?",
+        "How does schizophrenia affect perception and thinking?",
+        "What is addiction and how does it change the brain's reward system?",
+        "How do treatments for neurological disorders work?"
+      ],
+      "tags": ["health", "neuroscience", "mental-health", "medicine"]
+    },
+    {
+      "name": "Neuroscience Research Methods",
+      "topics": [
+        "How do brain imaging techniques like fMRI and PET work?",
+        "What can EEG tell us about brain electrical activity?",
+        "How do researchers study individual neurons in animals?",
+        "What have brain lesion studies taught us about function?",
+        "How do optogenetics and other new tools control specific neurons?",
+        "What ethical considerations apply to neuroscience research?"
+      ],
+      "tags": ["science", "neuroscience", "methodology", "innovation"]
+    },
+    {
+      "name": "The Future of Neuroscience",
+      "topics": [
+        "How are brain-computer interfaces being developed to help paralyzed patients?",
+        "Could we ever upload or simulate a human brain?",
+        "What might cognitive enhancement technologies look like?",
+        "How is neuroscience informing artificial intelligence research?",
+        "What ethical questions does neuroscience raise about free will and identity?",
+        "What are the biggest unsolved mysteries about the brain?"
+      ],
+      "tags": ["science", "neuroscience", "innovation", "ethics"]
+    }
+  ]
+}

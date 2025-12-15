@@ -1,0 +1,31 @@
+{
+  "name": "TX-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Lance Gooden (R)",
+        "Travis Edwards (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chelsey Hockett (D)",
+        "Ruth Torres (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

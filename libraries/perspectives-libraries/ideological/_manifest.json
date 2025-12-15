@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "critical-thinking",
+    "name": "Critical Thinking",
+    "description": "Tools and frameworks for evaluating arguments, identifying biases, and thinking clearly",
+    "bookCount": 1
+  },
+  {
+    "slug": "economic-theories",
+    "name": "Economic Theories",
+    "description": "Competing economic theories, policy debates, and differing interpretations of markets, taxation, and government intervention",
+    "bookCount": 1
+  },
+  {
+    "slug": "media-and-information",
+    "name": "Media and Information",
+    "description": "Competing perspectives on media bias, information ecosystems, and how information is created, curated, and consumed",
+    "bookCount": 1
+  },
+  {
+    "slug": "technology-ethics",
+    "name": "Technology Ethics",
+    "description": "Competing viewpoints on how emerging technologies shape society, identity, rights, power, and everyday life",
+    "bookCount": 1
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "name": "New Mexico",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Gregg Hull (R)",
+        "Steve D. Lanier (R)",
+        "Duke Rodriguez (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sam Bregman (D)",
+        "Debra Haaland (D)",
+        "Ken Miyagishima (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

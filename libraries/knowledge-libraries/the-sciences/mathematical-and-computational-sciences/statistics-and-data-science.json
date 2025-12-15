@@ -1,0 +1,126 @@
+{
+  "name": "Statistics and Data Science",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Statistics?",
+      "topics": [
+        "What is statistics and what questions does it help us answer?",
+        "What is the difference between descriptive and inferential statistics?",
+        "How did statistics develop as a field?",
+        "What is the difference between a population and a sample?",
+        "Why do we need statistics instead of just collecting all the data?",
+        "What makes statistics both a science and an art?"
+      ],
+      "tags": ["science", "mathematics", "data-science", "education"]
+    },
+    {
+      "name": "Descriptive Statistics",
+      "topics": [
+        "What are measures of center: mean, median, mode?",
+        "What are measures of spread: range, variance, standard deviation?",
+        "When should you use mean versus median?",
+        "What do histograms and box plots reveal about data?",
+        "What is a normal distribution and why is it so common?",
+        "How do you identify outliers and what should you do about them?"
+      ],
+      "tags": ["science", "mathematics", "data-science", "methodology"]
+    },
+    {
+      "name": "Probability",
+      "topics": [
+        "What is probability and how is it measured?",
+        "What are independent events and conditional probability?",
+        "What is Bayes' theorem and why is it so powerful?",
+        "What are common probability distributions: binomial, Poisson, normal?",
+        "What is expected value and how do you calculate it?",
+        "How do we use probability to quantify uncertainty?"
+      ],
+      "tags": ["science", "mathematics", "probability", "education"]
+    },
+    {
+      "name": "Statistical Inference",
+      "topics": [
+        "What is statistical inference and how does it work?",
+        "What is a confidence interval and what does 95% confidence mean?",
+        "What is hypothesis testing and what are null and alternative hypotheses?",
+        "What is a p-value and what does it actually tell us?",
+        "What is the difference between statistical and practical significance?",
+        "What are Type I and Type II errors?"
+      ],
+      "tags": ["science", "mathematics", "data-science", "methodology"]
+    },
+    {
+      "name": "Regression and Correlation",
+      "topics": [
+        "What is correlation and how do you measure it?",
+        "What does linear regression do and when should you use it?",
+        "How do you interpret regression coefficients?",
+        "What is the difference between correlation and causation?",
+        "What is multiple regression and when is it needed?",
+        "What are the assumptions of linear regression and why do they matter?"
+      ],
+      "tags": ["science", "mathematics", "data-science", "prediction"]
+    },
+    {
+      "name": "Experimental Design",
+      "topics": [
+        "Why is experimental design crucial for drawing valid conclusions?",
+        "What makes a randomized controlled trial the gold standard?",
+        "What is a control group and why is it necessary?",
+        "What are confounding variables and how do you control for them?",
+        "What is blinding and why do double-blind studies matter?",
+        "How do you determine the sample size needed for an experiment?"
+      ],
+      "tags": ["science", "methodology", "research", "medicine"]
+    },
+    {
+      "name": "Bayesian Statistics",
+      "topics": [
+        "What is Bayesian statistics and how does it differ from frequentist?",
+        "What are prior and posterior probabilities?",
+        "How does Bayesian reasoning update beliefs with evidence?",
+        "What are the advantages of Bayesian methods?",
+        "When should you use Bayesian versus frequentist approaches?",
+        "How do computers make Bayesian analysis practical?"
+      ],
+      "tags": ["science", "mathematics", "data-science", "methodology"]
+    },
+    {
+      "name": "Data Science and Machine Learning",
+      "topics": [
+        "What is data science and how does it combine statistics and computing?",
+        "How does machine learning relate to traditional statistics?",
+        "What is the bias-variance tradeoff?",
+        "What is cross-validation and why is it important?",
+        "How do you prevent overfitting in predictive models?",
+        "What is feature engineering and feature selection?"
+      ],
+      "tags": ["science", "data-science", "ai-ml", "computer-science"]
+    },
+    {
+      "name": "Data Visualization",
+      "topics": [
+        "Why is data visualization important for understanding data?",
+        "What makes a good statistical graphic?",
+        "What are common chart types and when should you use each?",
+        "How can visualizations mislead and how do you spot deceptive graphs?",
+        "What tools do data scientists use for visualization?",
+        "How do you tell a story with data?"
+      ],
+      "tags": ["science", "data-science", "communication", "design"]
+    },
+    {
+      "name": "Statistics in the Real World",
+      "topics": [
+        "How do polls and surveys gather accurate information?",
+        "Why do medical studies sometimes contradict each other?",
+        "What is the replication crisis in science?",
+        "How is statistics misused in media and politics?",
+        "What statistical literacy should every citizen have?",
+        "How do you critically evaluate statistical claims you encounter?"
+      ],
+      "tags": ["science", "data-science", "critical-thinking", "media-literacy"]
+    }
+  ]
+}

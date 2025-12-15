@@ -1,0 +1,126 @@
+{
+  "name": "Chemistry and Matter",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Atoms: Building Blocks of Matter",
+      "topics": [
+        "What are atoms made of: protons, neutrons, and electrons?",
+        "How did scientists discover that atoms exist?",
+        "What determines an element's identity and properties?",
+        "How do isotopes differ from each other?",
+        "What is the electron cloud model of the atom?",
+        "How small are atoms and how do we visualize them?"
+      ],
+      "tags": ["science", "chemistry", "physics", "education"]
+    },
+    {
+      "name": "The Periodic Table",
+      "topics": [
+        "How is the periodic table organized and what patterns does it reveal?",
+        "What are periods, groups, and what do they tell us about elements?",
+        "How did Mendeleev create the periodic table and predict new elements?",
+        "What distinguishes metals, nonmetals, and metalloids?",
+        "What are the alkali metals, halogens, and noble gases?",
+        "Why do elements in the same group have similar chemical properties?"
+      ],
+      "tags": ["science", "chemistry", "education", "history"]
+    },
+    {
+      "name": "Chemical Bonds",
+      "topics": [
+        "What is a chemical bond and why do atoms bond together?",
+        "How do ionic bonds form between metals and nonmetals?",
+        "What is a covalent bond and how do atoms share electrons?",
+        "What are metallic bonds and how do they explain metal properties?",
+        "How do hydrogen bonds and van der Waals forces work?",
+        "How does electronegativity determine bond type?"
+      ],
+      "tags": ["science", "chemistry", "physics", "education"]
+    },
+    {
+      "name": "Chemical Reactions",
+      "topics": [
+        "What happens at the molecular level during a chemical reaction?",
+        "How do you balance a chemical equation?",
+        "What are the main types of reactions: synthesis, decomposition, combustion?",
+        "What is activation energy and how do catalysts lower it?",
+        "How do reaction rates depend on temperature and concentration?",
+        "What is chemical equilibrium and why don't all reactions go to completion?"
+      ],
+      "tags": ["science", "chemistry", "education", "methodology"]
+    },
+    {
+      "name": "States of Matter",
+      "topics": [
+        "What distinguishes solids, liquids, and gases at the molecular level?",
+        "How do phase transitions like melting and boiling occur?",
+        "What is plasma and where is it found?",
+        "What determines a substance's melting and boiling points?",
+        "How do pressure and temperature affect states of matter?",
+        "What are exotic states like Bose-Einstein condensates?"
+      ],
+      "tags": ["science", "chemistry", "physics", "thermodynamics"]
+    },
+    {
+      "name": "Acids, Bases, and pH",
+      "topics": [
+        "What makes a substance an acid or a base?",
+        "What is pH and how is it measured?",
+        "What happens when acids and bases react in neutralization?",
+        "What are strong versus weak acids and bases?",
+        "How do buffers maintain stable pH in biological systems?",
+        "What everyday substances are acidic or basic?"
+      ],
+      "tags": ["science", "chemistry", "biology", "education"]
+    },
+    {
+      "name": "Organic Chemistry",
+      "topics": [
+        "What makes organic chemistry the chemistry of carbon?",
+        "What are hydrocarbons and how are they classified?",
+        "What functional groups give organic molecules their properties?",
+        "How do polymers form from small repeating units?",
+        "What is the difference between saturated and unsaturated fats?",
+        "Why is carbon uniquely suited to form complex molecules?"
+      ],
+      "tags": ["science", "chemistry", "biology", "biochemistry"]
+    },
+    {
+      "name": "Biochemistry: Chemistry of Life",
+      "topics": [
+        "What are the four major types of biological molecules?",
+        "How do proteins fold into their functional shapes?",
+        "What is the structure and function of DNA and RNA?",
+        "How do enzymes catalyze biochemical reactions?",
+        "What role do lipids play in cell membranes?",
+        "How does ATP store and release energy in cells?"
+      ],
+      "tags": ["science", "chemistry", "biology", "biochemistry"]
+    },
+    {
+      "name": "Nuclear Chemistry",
+      "topics": [
+        "What is radioactivity and what types of radiation exist?",
+        "How does nuclear fission split atoms and release energy?",
+        "What is nuclear fusion and why does it power stars?",
+        "What is half-life and how is it used in radiocarbon dating?",
+        "How do nuclear power plants generate electricity?",
+        "What are the benefits and risks of nuclear technology?"
+      ],
+      "tags": ["science", "chemistry", "physics", "energy"]
+    },
+    {
+      "name": "Chemistry in the Modern World",
+      "topics": [
+        "How does chemistry contribute to medicine and drug development?",
+        "What role does chemistry play in creating new materials?",
+        "How do batteries and fuel cells store chemical energy?",
+        "What environmental chemistry issues affect air and water quality?",
+        "How is green chemistry reducing pollution and waste?",
+        "What chemistry challenges remain for the future?"
+      ],
+      "tags": ["science", "chemistry", "innovation", "sustainability"]
+    }
+  ]
+}

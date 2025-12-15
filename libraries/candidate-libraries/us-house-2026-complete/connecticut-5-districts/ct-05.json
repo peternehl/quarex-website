@@ -1,0 +1,45 @@
+{
+  "name": "CT-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jahana Hayes (I)",
+        "Winter Solomita (I)",
+        "Michele Botelho (I)",
+        "Jonathan De Barros (I)",
+        "Jackson Taddeo-Waite (I)"
+      ],
+      "tags": [
+        "politics",
+        "representation",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

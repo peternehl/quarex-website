@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMVLTZ6BB5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TMVLTZ6BB5');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Libraries - Universal Knowledge Explorer</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="/assets/quarex-hero-round-500pixels.png">
+    <!-- Tablet Configuration System -->
+    <script src="/tablet/tablet-config.js"></script>
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --card: #1A1A1A;
+            --card-hover: #252525;
+            --text: #F7F7F7;
+            --muted: #A0A0A0;
+            --accent: #4A9EFF;
+            --accent-hover: #357ABD;
+            --border: #333333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background:
+                linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.3)),
+                url('../assets/living-book-iceberg.png') center center / cover fixed no-repeat;
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Two-panel layout */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 1024px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .question-panel {
+                order: 1; /* Show libraries first on mobile */
+            }
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+            position: relative;
+        }
+
+        .home-btn {
+            position: absolute;
+            top: 1rem;
+            left: 0;
+            width: 67px;
+            height: 67px;
+            background: transparent;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .home-btn:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+        }
+
+        .home-btn img {
+            width: 67px;
+            height: 67px;
+            object-fit: contain;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.8);
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #FFFFFF;
+        }
+
+        .header p {
+            font-size: 1.56rem;
+            color: #7CB9FF;
+            font-weight: 700;
+            -webkit-text-stroke: 1px #000000;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Breadcrumb Navigation */
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: var(--card);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .share-btn {
+            margin-left: auto;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 0.5rem 1rem;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .share-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        .share-btn.copied {
+            background: #28a745;
+        }
+
+        .breadcrumb-item {
+            color: var(--muted);
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .breadcrumb-item:hover {
+            color: var(--accent);
+        }
+
+        .breadcrumb-item.active {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .breadcrumb-separator {
+            color: var(--border);
+        }
+
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent) 0%, var(--accent-hover) 100%);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            background: var(--card-hover);
+            border-color: var(--accent);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(74, 158, 255, 0.15);
+        }
+
+        .card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        .card-description {
+            font-size: 0.9rem;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        .card-meta {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--muted);
+        }
+
+        .loading::after {
+            content: '...';
+            animation: dots 1.5s steps(4, end) infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--muted);
+        }
+
+        .empty-state h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        /* Question Panel (always visible) */
+        .question-panel {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            position: sticky;
+            top: 2rem;
+            max-height: calc(100vh - 4rem);
+            overflow-y: auto;
+        }
+
+        .question-panel h3 {
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        }
+
+        .mode-toggle {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            background: var(--bg);
+            border-radius: 8px;
+            padding: 0.25rem;
+        }
+
+        .mode-toggle button {
+            flex: 1;
+            background: transparent;
+            border: none;
+            border-radius: 6px;
+            padding: 0.5rem 0.75rem;
+            color: var(--muted);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .mode-toggle button.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        .mode-toggle button:hover:not(.active) {
+            color: var(--text);
+        }
+
+        .current-context {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .current-context strong {
+            color: var(--accent);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .question-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .question-btn {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem;
+            color: var(--text);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: left;
+        }
+
+        .question-btn:hover {
+            border-color: var(--accent);
+            background: var(--card-hover);
+            transform: translateX(4px);
+        }
+
+        .question-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .question-btn.disabled:hover {
+            transform: none;
+            border-color: var(--border);
+        }
+
+        .question-category {
+            font-weight: 600;
+            color: var(--accent);
+            font-size: 0.75rem;
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem 1.25rem;
+            color: var(--text);
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+
+        .back-btn:hover {
+            background: var(--card-hover);
+            border-color: var(--accent);
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 0.1rem;
+        }
+
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+
+        /* ========================================
+           MOBILE RESPONSIVE STYLES
+           ======================================== */
+
+        /* Tablet and below (768px) */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            .header {
+                margin-bottom: 2rem;
+                padding: 1.5rem 0;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .header p {
+                font-size: 1rem;
+            }
+
+            .main-layout {
+                gap: 1.5rem;
+            }
+
+            .breadcrumb {
+                flex-wrap: wrap;
+                padding: 0.75rem;
+            }
+
+            .breadcrumb-item {
+                font-size: 0.9rem;
+            }
+
+            .share-btn {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.8rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+                gap: 1.25rem;
+            }
+
+            .card {
+                padding: 1.25rem;
+            }
+
+            .card-title {
+                font-size: 1.15rem;
+            }
+
+            .card-description {
+                font-size: 0.85rem;
+            }
+
+            .question-panel {
+                position: static;
+                max-height: none;
+            }
+
+            .question-panel h3 {
+                font-size: 1.1rem;
+            }
+
+            .question-panel h3 img {
+                width: 28px !important;
+                height: 28px !important;
+            }
+
+            .current-context {
+                padding: 0.85rem;
+                font-size: 0.85rem;
+            }
+
+            .question-btn {
+                padding: 0.65rem;
+                font-size: 0.8rem;
+            }
+
+            .mode-toggle {
+                flex-direction: column;
+            }
+
+            .mode-toggle button {
+                padding: 0.6rem;
+            }
+
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.75rem;
+                margin-bottom: 2rem;
+            }
+
+            .stat-card {
+                padding: 1.25rem;
+            }
+
+            .stat-value {
+                font-size: 2rem;
+            }
+
+            .stat-label {
+                font-size: 0.85rem;
+            }
+
+            .back-btn {
+                padding: 0.65rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        /* Mobile phones (480px and below) */
+        @media (max-width: 480px) {
+            body {
+                font-size: 14px;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+
+            .header {
+                margin-bottom: 1.5rem;
+                padding: 1rem 0;
+            }
+
+            .header h1 {
+                font-size: 1.75rem;
+            }
+
+            .header p {
+                font-size: 0.9rem;
+            }
+
+            .main-layout {
+                gap: 1.25rem;
+                margin-top: 1.5rem;
+            }
+
+            .breadcrumb {
+                padding: 0.6rem;
+                font-size: 0.85rem;
+            }
+
+            .breadcrumb-item {
+                font-size: 0.8rem;
+            }
+
+            .breadcrumb-separator {
+                font-size: 0.8rem;
+            }
+
+            .share-btn {
+                padding: 0.35rem 0.7rem;
+                font-size: 0.75rem;
+                margin-left: auto;
+                margin-top: 0.5rem;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .grid {
+                gap: 1rem;
+            }
+
+            .card {
+                padding: 1rem;
+                border-radius: 12px;
+            }
+
+            .card-title {
+                font-size: 1.05rem;
+            }
+
+            .card-description {
+                font-size: 0.8rem;
+            }
+
+            .card-meta {
+                font-size: 0.8rem;
+                margin-top: 0.75rem;
+                padding-top: 0.75rem;
+            }
+
+            .question-panel {
+                padding: 1.25rem;
+                border-radius: 12px;
+            }
+
+            .question-panel h3 {
+                font-size: 1rem;
+                gap: 0.5rem;
+            }
+
+            .question-panel h3 img {
+                width: 24px !important;
+                height: 24px !important;
+            }
+
+            .current-context {
+                padding: 0.75rem;
+                font-size: 0.8rem;
+                margin-bottom: 1.25rem;
+            }
+
+            .question-btn {
+                padding: 0.6rem;
+                font-size: 0.75rem;
+                border-radius: 6px;
+            }
+
+            .question-category {
+                font-size: 0.7rem;
+            }
+
+            .mode-toggle {
+                margin-bottom: 1.25rem;
+            }
+
+            .mode-toggle button {
+                padding: 0.5rem;
+                font-size: 0.8rem;
+            }
+
+            .stats {
+                grid-template-columns: 1fr;
+                gap: 0.6rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .stat-card {
+                padding: 1rem;
+            }
+
+            .stat-value {
+                font-size: 1.75rem;
+            }
+
+            .stat-label {
+                font-size: 0.8rem;
+            }
+
+            .back-btn {
+                padding: 0.6rem 0.9rem;
+                font-size: 0.85rem;
+                margin-bottom: 1.5rem;
+            }
+
+            .loading {
+                padding: 3rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .empty-state {
+                padding: 3rem 1.5rem;
+            }
+
+            .empty-state h3 {
+                font-size: 1.3rem;
+            }
+        }
+
+        /* Very small screens (360px and below) */
+        @media (max-width: 360px) {
+            .container {
+                padding: 0.75rem;
+            }
+
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .header p {
+                font-size: 0.85rem;
+            }
+
+            .breadcrumb {
+                padding: 0.5rem;
+            }
+
+            .card {
+                padding: 0.85rem;
+            }
+
+            .card-title {
+                font-size: 1rem;
+            }
+
+            .question-panel {
+                padding: 1rem;
+            }
+
+            .question-btn {
+                padding: 0.5rem;
+                font-size: 0.7rem;
+            }
+
+            .stats {
+                gap: 0.5rem;
+            }
+
+            .stat-card {
+                padding: 0.85rem;
+            }
+
+            .stat-value {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* ========================================
+           TABLET MODE STYLES
+           ======================================== */
+
+        /* Senior mode - slightly larger, easier to read */
+        body.tablet-mode-senior {
+            font-size: 16px;
+        }
+
+        body.tablet-mode-senior .header h1 {
+            font-size: 2.2rem;
+        }
+
+        body.tablet-mode-senior .card {
+            padding: 1.5rem;
+        }
+
+        body.tablet-mode-senior .card-title {
+            font-size: 1.3rem;
+        }
+
+        body.tablet-mode-senior .card-description {
+            font-size: 1rem;
+        }
+
+        body.tablet-mode-senior .question-btn {
+            padding: 0.9rem;
+            font-size: 1rem;
+        }
+
+        body.tablet-mode-senior .breadcrumb-item {
+            font-size: 1rem;
+        }
+
+        body.tablet-mode-senior .stat-value {
+            font-size: 2.5rem;
+        }
+
+        body.tablet-mode-senior .stat-label {
+            font-size: 1rem;
+        }
+
+        /* Senior mode - single column on tablets, question panel BELOW content */
+        body.tablet-mode-senior .main-layout {
+            grid-template-columns: 1fr;
+        }
+
+        body.tablet-mode-senior .question-panel {
+            order: 1;  /* Show questions below content */
+            position: static;
+            max-height: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="../index.html" class="home-btn" title="Back to Quarex Home">
+                <img src="../assets/quarex-hero-round-500pixels.png" alt="Quarex">
+            </a>
+            <h1>Quarex Libraries</h1>
+            <p>Explore the complete taxonomy of human knowledge</p>
+        </header>
+
+        <!-- Stats (shown on home view) -->
+        <div id="stats" class="stats" style="display: none;"></div>
+
+        <!-- Two-panel layout -->
+        <div class="main-layout">
+            <!-- Left: Knowledge Navigation -->
+            <div>
+                <!-- Breadcrumb Navigation -->
+                <nav id="breadcrumb" class="breadcrumb" style="display: none;"></nav>
+
+                <!-- Main Content Area -->
+                <div id="content">
+                    <div class="loading">Loading knowledge libraries</div>
+                </div>
+            </div>
+
+            <!-- Right: Question Panel (always visible) -->
+            <div class="question-panel" id="questionPanel">
+                <h3 style="display: flex; align-items: center; gap: 0.75rem;">
+                    <img src="../assets/quarex-hero-round-500pixels.png" alt="Quarex" style="width: 32px; height: 32px;">
+                    Ask a Question
+                </h3>
+                <div class="current-context">
+                    <strong>Select a topic</strong>
+                    Navigate the knowledge taxonomy on the left, then choose a question to explore.
+                </div>
+                <div id="questionList">
+                    <div style="color: var(--muted); text-align: center; padding: 2rem;">
+                        Loading questions...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Type abbreviations for shorter URLs
+        const typeAbbreviations = {
+            'g': 'Geography Libraries',
+            'k': 'Knowledge Libraries',
+            'e': 'Event Libraries',
+            'pr': 'Practical Libraries',
+            'pe': 'Perspectives & Debates',
+            'c': 'Candidate Research',
+            'i': 'Infrastructure & Systems'
+        };
+
+        // Reverse lookup: full name to abbreviation
+        const typeToAbbrev = {
+            'Geography Libraries': 'g',
+            'Knowledge Libraries': 'k',
+            'Event Libraries': 'e',
+            'Practical Libraries': 'pr',
+            'Perspectives & Debates': 'pe',
+            'Candidate Research': 'c',
+            'Infrastructure & Systems': 'i'
+        };
+
+        // Convert string to URL-safe slug
+        function toSlug(str) {
+            if (!str) return '';
+            return str.toLowerCase()
+                .replace(/[^a-z0-9]+/g, '-')
+                .replace(/(^-|-$)/g, '');
+        }
+
+        // Get slug for an item (use explicit slug if available, otherwise auto-generate)
+        function getSlug(item) {
+            if (!item) return '';
+            if (item.slug) return item.slug;
+            return toSlug(item.name || item.library || (typeof item === 'string' ? item : ''));
+        }
+
+        // Find item by slug (matches either explicit slug or auto-generated slug from name)
+        function findBySlug(items, slug, nameKey = 'name') {
+            if (!items || !slug) return null;
+            return items.find(item => {
+                const itemSlug = item.slug || toSlug(item[nameKey] || item.name || item.library || (typeof item === 'string' ? item : ''));
+                return itemSlug === slug;
+            });
+        }
+
+        // State management
+        const state = {
+            libraryTypes: [],
+            generalQuestions: null, // Always available
+            libraryQuestions: null, // Library-specific questions
+            currentLibraryType: null,
+            currentLibrary: null,
+            currentShelf: null,
+            currentBook: null,
+            currentChapter: null,
+            currentTopic: null,
+            questionMode: 'forms', // 'forms' or 'intents'
+            expandedQuestionCategory: null, // Track which question category is expanded
+            expandedSource: null, // 'general' or 'library'
+            view: 'library-types' // library-types, libraries, shelves, books, chapters, topics
+        };
+
+        // URL parameter handling - supports short params, long params, and path-based URLs
+        function getUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+
+            // Check for query string format (supports both short and long param names)
+            // Short: ?t=k&l=the-sciences&s=physical-sciences&b=earth-science&c=volcanoes
+            // Long:  ?type=Knowledge Libraries&lib=the-sciences&shelf=...
+            const typeParam = params.get('t') || params.get('type');
+            if (typeParam) {
+                // If type is an abbreviation (k, g, e, etc.), expand it
+                const typeName = typeAbbreviations[typeParam] || typeParam;
+                return {
+                    type: typeName,
+                    lib: params.get('l') || params.get('lib'),
+                    shelf: params.get('s') || params.get('shelf'),
+                    book: params.get('b') || params.get('book'),
+                    chapter: params.get('c') || params.get('chapter'),
+                    topic: params.get('topic'),
+                    isLegacy: true  // Flag to indicate query string format
+                };
+            }
+
+            // Parse new path-based URL: /unlimited/k/philosophy/world-philosophies/oruka/sage-birth
+            const path = window.location.pathname
+                .replace(/^\/unlimited\/?/, '')  // Remove /unlimited/ prefix
+                .split('/')
+                .filter(Boolean);  // Remove empty segments
+
+            if (path.length === 0) {
+                return { type: null, lib: null, shelf: null, book: null, chapter: null, topic: null };
+            }
+
+            // First segment is type abbreviation (k, e, pr, pe, c)
+            const typeAbbrev = path[0];
+            const typeName = typeAbbreviations[typeAbbrev] || null;
+
+            return {
+                type: typeName,
+                typeSlug: typeAbbrev,
+                lib: path[1] || null,
+                shelf: path[2] || null,
+                book: path[3] || null,
+                chapter: path[4] || null,
+                topic: path[5] || null,
+                isLegacy: false
+            };
+        }
+
+        function updateUrl() {
+            // Build path-based URL: /unlimited/k/philosophy/world-philosophies/oruka/sage-birth
+            const parts = ['/unlimited'];
+
+            if (state.currentLibraryType) {
+                // Use abbreviation for library type
+                const abbrev = typeToAbbrev[state.currentLibraryType.name] || toSlug(state.currentLibraryType.name);
+                parts.push(abbrev);
+            }
+
+            if (state.currentLibrary) {
+                parts.push(getSlug(state.currentLibrary));
+            }
+
+            if (state.currentShelf) {
+                parts.push(getSlug(state.currentShelf));
+            }
+
+            if (state.currentBook) {
+                parts.push(getSlug(state.currentBook));
+            }
+
+            if (state.currentChapter) {
+                parts.push(getSlug(state.currentChapter));
+            }
+
+            if (state.currentTopic) {
+                parts.push(toSlug(state.currentTopic));
+            }
+
+            const newUrl = parts.length > 1 ? parts.join('/') : '/unlimited/';
+            window.history.pushState({}, '', newUrl);
+        }
+
+        // Handle browser back/forward
+        window.addEventListener('popstate', () => {
+            location.reload(); // Simple approach: reload and parse URL
+        });
+
+        // Base path for all fetches (ensures correct path regardless of URL depth)
+        // Auto-detect if running under a subdirectory (e.g., /Quarex/)
+        const SITE_PREFIX = window.location.pathname.includes('/Quarex/') ? '/Quarex' : '';
+        const BASE_PATH = SITE_PREFIX + '/libraries/';
+
+        // Initialize
+        async function init() {
+            try {
+                // Load general question taxonomy (always available)
+                const questionsRes = await fetch(BASE_PATH + 'questions-libraries/question-taxonomy.json');
+                state.generalQuestions = await questionsRes.json();
+
+                // Library types - metadata only, libraries loaded dynamically from _manifest.json
+                state.libraryTypes = [
+                    {
+                        name: 'Geography Libraries',
+                        description: 'Physical and human geography, places, regions, and spatial relationships',
+                        folder: 'geography-libraries',
+                        questionFile: 'questions-libraries/geography-questions.json',
+                        libraries: []  // Loaded dynamically from _manifest.json
+                    },
+                    {
+                        name: 'Knowledge Libraries',
+                        description: 'Background concepts, systems, and theories',
+                        folder: 'knowledge-libraries',
+                        questionFile: 'questions-libraries/knowledge-questions.json',
+                        libraries: []
+                    },
+                    {
+                        name: 'Event Libraries',
+                        description: 'Time-bound events, timelines, elections, wars, crises',
+                        folder: 'event-libraries',
+                        questionFile: 'questions-libraries/event-questions.json',
+                        libraries: []
+                    },
+                    {
+                        name: 'Practical Libraries',
+                        description: 'Skills, how-to guides, step-by-step playbooks',
+                        folder: 'practical-libraries',
+                        questionFile: 'questions-libraries/practical-questions.json',
+                        libraries: []
+                    },
+                    {
+                        name: 'Candidate Research',
+                        description: 'Research candidates for elected office - policies, records, and positions',
+                        folder: 'candidate-libraries',
+                        questionFile: 'questions-libraries/candidate-questions.json',
+                        externalLinks: [
+                            {
+                                name: 'Find Your Congressional District',
+                                url: 'https://www.census.gov/mycd/',
+                                description: 'Interactive map to find your federal congressional district'
+                            }
+                        ],
+                        libraries: []
+                    },
+                    {
+                        name: 'Perspectives & Debates',
+                        description: 'Controversial issues and competing viewpoints',
+                        folder: 'perspectives-libraries',
+                        questionFile: 'questions-libraries/perspectives-questions.json',
+                        libraries: []
+                    },
+                    {
+                        name: 'Infrastructure & Systems',
+                        description: 'Data centers, power systems, networks, and critical infrastructure',
+                        folder: 'infrastructure-libraries',
+                        questionFile: 'questions-libraries/infrastructure-questions.json',
+                        libraries: []
+                    }
+                ];
+
+                // Load discovery index for stats
+                try {
+                    const discoveryRes = await fetch(BASE_PATH + 'discovery-index.json');
+                    state.discoveryIndex = await discoveryRes.json();
+                } catch (error) {
+                    console.error('Failed to load discovery index:', error);
+                    state.discoveryIndex = null;
+                }
+
+                // Render questions panel (always visible)
+                renderQuestionPanel();
+
+                // Check for URL parameters and auto-navigate
+                const urlParams = getUrlParams();
+                // Navigate if we have a type (legacy) or typeSlug (new path-based)
+                if (urlParams.type || urlParams.typeSlug) {
+                    await autoNavigateFromUrl(urlParams);
+                } else {
+                    render();
+                }
+            } catch (error) {
+                console.error('Failed to load:', error);
+                document.getElementById('content').innerHTML = `
+                    <div class="empty-state">
+                        <h3>Failed to load libraries</h3>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Auto-navigate based on URL parameters
+        async function autoNavigateFromUrl(params) {
+            try {
+                // Navigate to library type
+                if (params.type || params.typeSlug) {
+                    // Find library type by name (legacy) or by abbreviation/slug (new)
+                    let libraryType = null;
+
+                    if (params.type) {
+                        // Legacy: exact name match
+                        libraryType = state.libraryTypes.find(t => t.name === params.type);
+                    }
+
+                    if (!libraryType && params.typeSlug) {
+                        // New: match by abbreviation first, then by auto-generated slug
+                        libraryType = state.libraryTypes.find(t =>
+                            typeToAbbrev[t.name] === params.typeSlug ||
+                            toSlug(t.name) === params.typeSlug
+                        );
+                    }
+
+                    if (!libraryType) {
+                        console.warn('Library type not found:', params.type || params.typeSlug);
+                        render();
+                        return;
+                    }
+
+                    state.currentLibraryType = libraryType;
+
+                    // Load library-type questions
+                    try {
+                        const questionsRes = await fetch(BASE_PATH + libraryType.questionFile);
+                        state.libraryQuestions = await questionsRes.json();
+                    } catch (error) {
+                        console.error('Failed to load questions:', error);
+                    }
+
+                    // Load libraries from manifest
+                    try {
+                        const manifestRes = await fetch(`${BASE_PATH}${libraryType.folder}/_manifest.json`);
+                        const libraries = await manifestRes.json();
+                        libraryType.libraries = libraries.map(lib => ({
+                            name: lib.name,
+                            slug: lib.slug,
+                            description: lib.description || '',
+                            shelfCount: lib.shelfCount || 0,
+                            status: 'ready'
+                        }));
+                    } catch (error) {
+                        console.error('Failed to load libraries manifest:', error);
+                        libraryType.libraries = [];
+                    }
+
+                    // Navigate to library
+                    if (params.lib) {
+                        // Find library by slug
+                        const library = libraryType.libraries.find(lib =>
+                            lib.slug === params.lib || toSlug(lib.name) === params.lib
+                        );
+
+                        if (!library) {
+                            console.warn('Library not found:', params.lib);
+                            state.view = 'libraries';
+                            render();
+                            return;
+                        }
+
+                        // Load shelves from library's _manifest.json
+                        try {
+                            const shelvesRes = await fetch(`${BASE_PATH}${libraryType.folder}/${library.slug}/_manifest.json`);
+                            const shelves = await shelvesRes.json();
+
+                            state.currentLibrary = {
+                                library: library.name,
+                                slug: library.slug,
+                                description: library.description,
+                                shelves: shelves.map(shelf => ({
+                                    name: shelf.name,
+                                    slug: shelf.slug,
+                                    bookCount: shelf.bookCount || 0
+                                }))
+                            };
+                        } catch (error) {
+                            console.error('Failed to load library shelves:', error);
+                            state.view = 'libraries';
+                            render();
+                            return;
+                        }
+
+                        // Navigate to shelf
+                        if (params.shelf) {
+                            const shelf = state.currentLibrary.shelves.find(s =>
+                                s.slug === params.shelf || toSlug(s.name) === params.shelf
+                            );
+
+                            if (shelf) {
+                                // Load books from shelf's _manifest.json
+                                try {
+                                    const booksRes = await fetch(`${BASE_PATH}${libraryType.folder}/${state.currentLibrary.slug}/${shelf.slug}/_manifest.json`);
+                                    const books = await booksRes.json();
+
+                                    state.currentShelf = {
+                                        name: shelf.name,
+                                        slug: shelf.slug,
+                                        books: books.map(book => ({
+                                            name: book.name,
+                                            slug: book.slug,
+                                            chapterCount: book.chapterCount || 0,
+                                            tags: book.tags || [],
+                                            created_by: book.created_by || null
+                                        }))
+                                    };
+                                } catch (error) {
+                                    console.error('Failed to load shelf books:', error);
+                                    state.view = 'shelves';
+                                    render();
+                                    return;
+                                }
+
+                                // Navigate to book
+                                if (params.book) {
+                                    const book = state.currentShelf.books.find(b =>
+                                        b.slug === params.book || toSlug(b.name) === params.book
+                                    );
+
+                                    if (book) {
+                                        // Load full book data
+                                        try {
+                                            const bookRes = await fetch(`${BASE_PATH}${libraryType.folder}/${state.currentLibrary.slug}/${state.currentShelf.slug}/${book.slug}.json`);
+                                            const bookData = await bookRes.json();
+
+                                            state.currentBook = {
+                                                name: bookData.name || book.name,
+                                                slug: book.slug,
+                                                mode: bookData.mode,
+                                                chapters: bookData.chapters || [],
+                                                tags: bookData.tags || []
+                                            };
+                                        } catch (error) {
+                                            console.error('Failed to load book:', error);
+                                            state.view = 'books';
+                                            render();
+                                            return;
+                                        }
+
+                                        // Navigate to chapter
+                                        if (params.chapter) {
+                                            const chapter = state.currentBook.chapters.find(c => {
+                                                const chapterSlug = c.slug || toSlug(c.name);
+                                                return chapterSlug === params.chapter || c.name === params.chapter;
+                                            });
+
+                                            if (chapter) {
+                                                state.currentChapter = chapter;
+
+                                                // Navigate to topic (if chapter has topics)
+                                                if (params.topic && chapter.topics && chapter.topics.length > 0) {
+                                                    const topic = chapter.topics.find(t => {
+                                                        const topicSlug = toSlug(t);
+                                                        return topicSlug === params.topic || t === params.topic;
+                                                    });
+                                                    state.currentTopic = topic || null;
+                                                    state.view = 'topics';
+                                                } else if (chapter.topics && chapter.topics.length > 0) {
+                                                    state.view = 'topics';
+                                                } else {
+                                                    state.view = 'chapters';
+                                                }
+                                            } else {
+                                                state.view = 'chapters';
+                                            }
+                                        } else {
+                                            state.view = 'chapters';
+                                        }
+                                    } else {
+                                        state.view = 'books';
+                                    }
+                                } else {
+                                    state.view = 'books';
+                                }
+                            } else {
+                                state.view = 'shelves';
+                            }
+                        } else {
+                            state.view = 'shelves';
+                        }
+                    } else {
+                        state.view = 'libraries';
+                    }
+                } else {
+                    state.view = 'library-types';
+                }
+
+                render();
+            } catch (error) {
+                console.error('Failed to auto-navigate:', error);
+                render();
+            }
+        }
+
+        // Render simple question format (recommended_questions)
+        function renderSimpleQuestions(questions, source, hasSelection) {
+            const questionArray = questions.recommended_questions;
+
+            // Return HTML for recommended questions
+            return `
+                <h4 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.1rem;">
+                    ${source === 'library' ? 'Library-Specific' : 'General'} Questions
+                </h4>
+                <div class="question-grid">
+                    ${questionArray.map(question => `
+                        <div class="question-btn ${!hasSelection ? 'disabled' : ''}"
+                             ${hasSelection ? `onclick="askQuestion(\`${escapeHtml(question)}\`)"` : ''}>
+                            <div>${escapeHtml(question)}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // Render question panel (always visible, updates based on current selection)
+        function renderQuestionPanel() {
+            if (!state.generalQuestions) return;
+
+            const questionList = document.getElementById('questionList');
+
+            // Check formats
+            const generalIsSimple = state.generalQuestions.recommended_questions !== undefined;
+            const libraryIsSimple = state.libraryQuestions?.recommended_questions !== undefined;
+
+            // Build context string
+            let contextText = 'Select a topic from the knowledge taxonomy';
+            let contextParts = [];
+
+            if (state.currentLibraryType) contextParts.push(state.currentLibraryType.name);
+            if (state.currentLibrary) contextParts.push(state.currentLibrary.library);
+            if (state.currentShelf) contextParts.push(state.currentShelf.name);
+            if (state.currentBook) contextParts.push(state.currentBook.name);
+            if (state.currentChapter) contextParts.push(state.currentChapter.name);
+            if (state.currentTopic) contextParts.push(state.currentTopic);
+
+            if (contextParts.length > 0) {
+                contextText = contextParts.join(' → ');
+            }
+
+            // Update context display
+            const contextDiv = document.querySelector('.current-context');
+            const hasSelection = contextParts.length > 0;
+
+            contextDiv.innerHTML = hasSelection
+                ? `<strong>Current Selection:</strong>${escapeHtml(contextText)}`
+                : `<strong>Select a topic</strong>Navigate the knowledge taxonomy on the left, then choose a question to explore.`;
+
+            // If a topic is selected, show "Ask the Question" button prominently
+            if (state.currentTopic) {
+                questionList.innerHTML = `
+                    <div style="margin-bottom: 2rem;">
+                        <button onclick="askQuestion(\`${escapeHtml(state.currentTopic)}\`)"
+                                style="width: 100%; background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
+                                       border: none; border-radius: 12px; padding: 1.25rem; color: white;
+                                       font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: transform 0.2s;
+                                       box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3); display: flex; align-items: center;
+                                       justify-content: center; gap: 0.5rem;">
+                            <img src="../assets/quarex-hero-round-500pixels.png" alt="" style="width: 24px; height: 24px;">
+                            Ask This Question
+                        </button>
+                    </div>
+                    <div style="text-align: center; color: var(--muted); margin-bottom: 1.5rem; font-size: 0.9rem;">
+                        Or choose a different question below
+                    </div>
+                    ${renderBothQuestionSets()}
+                `;
+                return;
+            }
+
+            // Helper function to render both question sets
+            function renderBothQuestionSets() {
+
+                // Check if we have library-specific questions to show side by side
+                if (state.libraryQuestions && libraryIsSimple) {
+                const libraryHtml = renderSimpleQuestions(state.libraryQuestions, 'library', hasSelection);
+
+                // If general is also simple, show both as simple
+                if (generalIsSimple) {
+                    const generalHtml = renderSimpleQuestions(state.generalQuestions, 'general', hasSelection);
+                    questionList.innerHTML = `
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                            <div>${libraryHtml}</div>
+                            <div>${generalHtml}</div>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // General is complex, library is simple - render complex on left, simple on right
+                const taxonomy = state.generalQuestions.question_taxonomy;
+                const categories = state.questionMode === 'forms'
+                    ? taxonomy.question_forms
+                    : taxonomy.user_intents;
+
+                const modeToggleHtml = `
+                    <div class="mode-toggle">
+                        <button class="${state.questionMode === 'forms' ? 'active' : ''}"
+                                onclick="setQuestionMode('forms')">
+                            Question Forms (5W+H)
+                        </button>
+                        <button class="${state.questionMode === 'intents' ? 'active' : ''}"
+                                onclick="setQuestionMode('intents')">
+                            User Intents
+                        </button>
+                    </div>
+                `;
+
+                let generalPanelHtml = '';
+
+                if (state.expandedQuestionCategory !== null) {
+                    const category = categories[state.expandedQuestionCategory];
+                    const questionsArray = state.questionMode === 'forms'
+                        ? category.questions
+                        : category.question_patterns;
+
+                    generalPanelHtml = `
+                        ${modeToggleHtml}
+                        <div style="margin-bottom: 1rem;">
+                            <button onclick="collapseQuestionCategory()"
+                                    style="background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
+                                           padding: 0.5rem 1rem; color: var(--text); cursor: pointer; font-size: 0.85rem;">
+                                ← Back to ${state.questionMode === 'forms' ? 'forms' : 'intents'}
+                            </button>
+                        </div>
+                        <h4 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.1rem;">
+                            ${escapeHtml(category.name)}
+                            ${state.questionMode === 'intents' ? ' Intent' : ''}
+                        </h4>
+                        ${state.questionMode === 'intents' ? `
+                            <p style="color: var(--muted); font-size: 0.85rem; margin-bottom: 1rem;">
+                                ${escapeHtml(category.description)}
+                            </p>
+                        ` : ''}
+                        <div class="question-grid">
+                            ${questionsArray.map(question => `
+                                <div class="question-btn ${!hasSelection ? 'disabled' : ''}"
+                                     ${hasSelection ? `onclick="askQuestion(\`${escapeHtml(question)}\`)"` : ''}>
+                                    <div>${escapeHtml(question)}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                } else {
+                    generalPanelHtml = `
+                        ${modeToggleHtml}
+                        <h4 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.1rem;">
+                            General Questions
+                        </h4>
+                        <div class="question-grid">
+                            ${categories.map((category, index) => {
+                                const questionCount = state.questionMode === 'forms'
+                                    ? category.questions.length
+                                    : category.question_patterns.length;
+                                return `
+                                    <div class="question-btn ${!hasSelection ? 'disabled' : ''}"
+                                         onclick="${hasSelection ? `expandQuestionCategory(${index})` : ''}">
+                                        <div class="question-category">${escapeHtml(category.name)}</div>
+                                        <div style="font-size: 0.8rem; opacity: 0.8;">${questionCount} ${state.questionMode === 'forms' ? 'questions' : 'patterns'} →</div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    `;
+                }
+
+                    return `
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                            <div>${libraryHtml}</div>
+                            <div>${generalPanelHtml}</div>
+                        </div>
+                    `;
+                }
+
+                // Only general questions (simple format)
+                if (generalIsSimple) {
+                    return renderSimpleQuestions(state.generalQuestions, 'general', hasSelection);
+                }
+
+                // Only general questions (complex format)
+                const taxonomy = state.generalQuestions.question_taxonomy;
+
+                // Get current categories based on mode
+                const categories = state.questionMode === 'forms'
+                    ? taxonomy.question_forms
+                    : taxonomy.user_intents;
+
+                    // Mode toggle
+                const modeToggleHtml = `
+                    <div class="mode-toggle">
+                        <button class="${state.questionMode === 'forms' ? 'active' : ''}"
+                                onclick="setQuestionMode('forms')">
+                            Question Forms (5W+H)
+                        </button>
+                        <button class="${state.questionMode === 'intents' ? 'active' : ''}"
+                                onclick="setQuestionMode('intents')">
+                            User Intents
+                        </button>
+                    </div>
+                `;
+
+                // If a category is expanded, show its questions
+                if (state.expandedQuestionCategory !== null) {
+                    const category = categories[state.expandedQuestionCategory];
+                    const questionsArray = state.questionMode === 'forms'
+                        ? category.questions
+                        : category.question_patterns;
+
+                    return `
+                        ${modeToggleHtml}
+                        <div style="margin-bottom: 1rem;">
+                            <button onclick="collapseQuestionCategory()"
+                                    style="background: var(--bg); border: 1px solid var(--border); border-radius: 6px;
+                                           padding: 0.5rem 1rem; color: var(--text); cursor: pointer; font-size: 0.85rem;">
+                                ← Back to ${state.questionMode === 'forms' ? 'forms' : 'intents'}
+                            </button>
+                        </div>
+                        <h4 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.1rem;">
+                            ${escapeHtml(category.name)}
+                            ${state.questionMode === 'intents' ? ' Intent' : ''}
+                        </h4>
+                        ${state.questionMode === 'intents' ? `
+                            <p style="color: var(--muted); font-size: 0.85rem; margin-bottom: 1rem;">
+                                ${escapeHtml(category.description)}
+                            </p>
+                        ` : ''}
+                        <div class="question-grid">
+                            ${questionsArray.map(question => `
+                                <div class="question-btn ${!hasSelection ? 'disabled' : ''}"
+                                     ${hasSelection ? `onclick="askQuestion(\`${escapeHtml(question)}\`)"` : ''}>
+                                    <div>${escapeHtml(question)}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                } else {
+                    // Show category overview
+                    return `
+                        ${modeToggleHtml}
+                        <div class="question-grid">
+                            ${categories.map((category, index) => {
+                                const questionCount = state.questionMode === 'forms'
+                                    ? category.questions.length
+                                    : category.question_patterns.length;
+                                return `
+                                    <div class="question-btn ${!hasSelection ? 'disabled' : ''}"
+                                         onclick="${hasSelection ? `expandQuestionCategory(${index})` : ''}">
+                                        <div class="question-category">${escapeHtml(category.name)}</div>
+                                        <div style="font-size: 0.8rem; opacity: 0.8;">${questionCount} ${state.questionMode === 'forms' ? 'questions' : 'patterns'} →</div>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    `;
+                }
+            }
+
+            // Render the question sets
+            questionList.innerHTML = renderBothQuestionSets();
+        }
+
+        // Switch question mode
+        function setQuestionMode(mode) {
+            state.questionMode = mode;
+            state.expandedQuestionCategory = null; // Reset expansion when switching modes
+            renderQuestionPanel();
+        }
+
+        // Expand a question category to show all its questions
+        function expandQuestionCategory(categoryIndex) {
+            state.expandedQuestionCategory = categoryIndex;
+            renderQuestionPanel();
+        }
+
+        // Collapse back to category view
+        function collapseQuestionCategory() {
+            state.expandedQuestionCategory = null;
+            renderQuestionPanel();
+        }
+
+        // Render based on current state
+        function render() {
+            updateBreadcrumb();
+            renderQuestionPanel(); // Update question panel on every render
+
+            switch (state.view) {
+                case 'library-types':
+                    renderLibraryTypes();
+                    break;
+                case 'libraries':
+                    renderLibraries();
+                    break;
+                case 'shelves':
+                    renderShelves();
+                    break;
+                case 'books':
+                    renderBooks();
+                    break;
+                case 'chapters':
+                    renderChapters();
+                    break;
+                case 'topics':
+                    renderTopics();
+                    break;
+            }
+        }
+
+        // Update breadcrumb navigation
+        function updateBreadcrumb() {
+            const breadcrumb = document.getElementById('breadcrumb');
+            const parts = [];
+
+            parts.push({ label: 'Library Types', action: () => navigateTo('library-types') });
+
+            if (state.currentLibraryType) {
+                parts.push({ label: state.currentLibraryType.name, action: () => navigateTo('libraries') });
+            }
+
+            if (state.currentLibrary) {
+                parts.push({ label: state.currentLibrary.library, action: () => navigateTo('shelves') });
+            }
+
+            if (state.currentShelf) {
+                parts.push({ label: state.currentShelf.name, action: () => navigateTo('books') });
+            }
+
+            if (state.currentBook) {
+                parts.push({ label: state.currentBook.name, action: () => navigateTo('chapters') });
+            }
+
+            if (state.currentChapter) {
+                parts.push({ label: state.currentChapter.name, action: () => navigateTo('topics') });
+            }
+
+            if (state.currentTopic) {
+                parts.push({ label: state.currentTopic.substring(0, 50) + '...', action: () => {} });
+            }
+
+            if (parts.length > 1) {
+                breadcrumb.style.display = 'flex';
+                breadcrumb.innerHTML = parts.map((part, i) => `
+                    <span class="breadcrumb-item ${i === parts.length - 1 ? 'active' : ''}"
+                          onclick="(${part.action.toString()})()">
+                        ${part.label}
+                    </span>
+                    ${i < parts.length - 1 ? '<span class="breadcrumb-separator">→</span>' : ''}
+                `).join('') + `
+                    <button class="share-btn" onclick="copyShareLink()" id="shareBtn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                            <polyline points="16 6 12 2 8 6"></polyline>
+                            <line x1="12" y1="2" x2="12" y2="15"></line>
+                        </svg>
+                        <span id="shareBtnText">Share</span>
+                    </button>
+                `;
+            } else {
+                breadcrumb.style.display = 'none';
+            }
+        }
+
+        // Copy current URL to clipboard
+        async function copyShareLink() {
+            const btn = document.getElementById('shareBtn');
+            const btnText = document.getElementById('shareBtnText');
+
+            try {
+                await navigator.clipboard.writeText(window.location.href);
+
+                // Show success state
+                btn.classList.add('copied');
+                btnText.textContent = 'Copied!';
+
+                // Reset after 2 seconds
+                setTimeout(() => {
+                    btn.classList.remove('copied');
+                    btnText.textContent = 'Share';
+                }, 2000);
+            } catch (err) {
+                console.error('Failed to copy:', err);
+                btnText.textContent = 'Error';
+                setTimeout(() => {
+                    btnText.textContent = 'Share';
+                }, 2000);
+            }
+        }
+
+        // Render library types (topmost level)
+        function renderLibraryTypes() {
+            const statsDiv = document.getElementById('stats');
+            const content = document.getElementById('content');
+
+            // Compute stats from discovery index
+            if (state.discoveryIndex && state.discoveryIndex.chapters) {
+                const chapters = state.discoveryIndex.chapters;
+                const libraryTypes = new Set();
+                const libraries = new Set();
+                const shelves = new Set();
+                const books = new Set();
+                let topicCount = 0;
+
+                chapters.forEach(ch => {
+                    libraryTypes.add(ch.folder);
+                    libraries.add(`${ch.folder}/${ch.librarySlug}`);
+                    shelves.add(`${ch.folder}/${ch.librarySlug}/${ch.shelfSlug}`);
+                    books.add(`${ch.folder}/${ch.librarySlug}/${ch.shelfSlug}/${ch.bookSlug}`);
+                    topicCount += ch.topicCount || 0;
+                });
+
+                statsDiv.innerHTML = `
+                    <div class="stat-card">
+                        <div class="stat-value">${libraryTypes.size}</div>
+                        <div class="stat-label">Library Types</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${libraries.size}</div>
+                        <div class="stat-label">Libraries</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${shelves.size}</div>
+                        <div class="stat-label">Shelves</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${books.size}</div>
+                        <div class="stat-label">Books</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${chapters.length.toLocaleString()}</div>
+                        <div class="stat-label">Chapters</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">${topicCount.toLocaleString()}</div>
+                        <div class="stat-label">Topics</div>
+                    </div>
+                `;
+                statsDiv.style.display = 'grid';
+            } else {
+                statsDiv.style.display = 'none';
+            }
+
+            content.innerHTML = `
+                <div class="grid">
+                    ${state.libraryTypes.map(type => {
+                        return `
+                            <div class="card" onclick="selectLibraryType('${escapeHtml(type.name)}')">
+                                <div class="card-title">${escapeHtml(type.name)}</div>
+                                <div class="card-description">${escapeHtml(type.description)}</div>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        }
+
+        // Select library type and load its question set
+        async function selectLibraryType(typeName) {
+            const libraryType = state.libraryTypes.find(type => type.name === typeName);
+            state.currentLibraryType = libraryType;
+
+            // Load the library-specific question taxonomy
+            try {
+                const questionsRes = await fetch(BASE_PATH + libraryType.questionFile);
+                state.libraryQuestions = await questionsRes.json();
+                state.expandedQuestionCategory = null; // Reset question expansion
+                state.expandedSource = null; // Reset source
+                state.questionMode = 'forms'; // Reset to default mode
+            } catch (error) {
+                console.error('Failed to load questions for library type:', error);
+                state.libraryQuestions = null; // Clear library questions on error
+            }
+
+            // Load libraries from _manifest.json (new folder-based structure)
+            try {
+                const manifestRes = await fetch(`${BASE_PATH}${libraryType.folder}/_manifest.json`);
+                const libraries = await manifestRes.json();
+                // Transform manifest entries to match expected library format
+                libraryType.libraries = libraries.map(lib => ({
+                    name: lib.name,
+                    slug: lib.slug,
+                    description: lib.description || '',
+                    shelfCount: lib.shelfCount || 0,
+                    status: 'ready'
+                }));
+            } catch (error) {
+                console.error('Failed to load libraries manifest:', error);
+                libraryType.libraries = [];
+            }
+
+            state.view = 'libraries';
+            updateUrl();
+            render();
+        }
+
+        // Render libraries (within a library type)
+        function renderLibraries() {
+            document.getElementById('stats').style.display = 'none';
+            const content = document.getElementById('content');
+
+            if (!state.currentLibraryType) {
+                content.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No library type selected</h3>
+                        <p>Please select a library type first.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const libraries = state.currentLibraryType.libraries;
+
+            if (libraries.length === 0) {
+                content.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No libraries yet</h3>
+                        <p>Libraries in this category are being generated.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const externalLinks = state.currentLibraryType.externalLinks || [];
+            const externalLinksHtml = externalLinks.length > 0 ? `
+                <div class="external-links" style="margin-bottom: 1.5rem;">
+                    ${externalLinks.map(link => `
+                        <a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer"
+                           class="external-link-btn"
+                           style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem;
+                                  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+                                  color: white; text-decoration: none; border-radius: 8px;
+                                  font-weight: 500; margin-right: 0.75rem; margin-bottom: 0.5rem;
+                                  transition: transform 0.2s, box-shadow 0.2s;"
+                           onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(96,165,250,0.4)';"
+                           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                            <span>🗺️</span>
+                            <span>${escapeHtml(link.name)}</span>
+                            <span style="font-size: 0.8em;">↗</span>
+                        </a>
+                    `).join('')}
+                </div>
+            ` : '';
+
+            content.innerHTML = `
+                ${externalLinksHtml}
+                <div class="grid">
+                    ${libraries.map((lib, index) => `
+                        <div class="card" onclick="selectLibraryByIndex(${index})">
+                            <div class="card-title">${escapeHtml(lib.name)}</div>
+                            <div class="card-description">${escapeHtml(lib.description || '')}</div>
+                            <div class="card-meta">
+                                ${lib.status === 'generating'
+                                    ? '⏳ Generating...'
+                                    : `${lib.shelfCount || 0} ${(lib.shelfCount || 0) === 1 ? 'shelf' : 'shelves'}`
+                                }
+                            </div>
+                            ${state.currentLibraryType.name === 'Candidate Research' ? '<div style="color: #ef4444; font-weight: 600; font-size: 0.85rem; margin-top: 0.5rem;">⚠️ Beware: Name Confusion Possible</div>' : ''}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // Select library by index (avoids quote issues in onclick)
+        async function selectLibraryByIndex(index) {
+            const library = state.currentLibraryType.libraries[index];
+            await selectLibrary(library.slug);
+        }
+
+        // Select library and load its shelves from _manifest.json
+        async function selectLibrary(librarySlug) {
+            const library = state.currentLibraryType.libraries.find(lib => lib.slug === librarySlug);
+
+            if (!library) {
+                alert('Library not found');
+                return;
+            }
+
+            if (library.status === 'generating') {
+                alert('This library is currently being generated. Please check back soon!');
+                return;
+            }
+
+            try {
+                // Load shelves from library's _manifest.json
+                const manifestPath = `${BASE_PATH}${state.currentLibraryType.folder}/${library.slug}/_manifest.json`;
+                const res = await fetch(manifestPath);
+                const shelves = await res.json();
+
+                // Store library data with shelves
+                state.currentLibrary = {
+                    library: library.name,
+                    slug: library.slug,
+                    description: library.description,
+                    shelves: shelves.map(shelf => ({
+                        name: shelf.name,
+                        slug: shelf.slug,
+                        bookCount: shelf.bookCount || 0
+                    }))
+                };
+
+                state.view = 'shelves';
+                updateUrl();
+                render();
+            } catch (error) {
+                console.error('Failed to load library shelves:', error);
+                alert('Failed to load library: ' + error.message);
+            }
+        }
+
+        // Render shelves
+        function renderShelves() {
+            document.getElementById('stats').style.display = 'none';
+            const content = document.getElementById('content');
+
+            content.innerHTML = `
+                <div class="grid">
+                    ${state.currentLibrary.shelves.map((shelf, index) => `
+                        <div class="card" onclick="selectShelfByIndex(${index})">
+                            <div class="card-title">${escapeHtml(shelf.name)}</div>
+                            <div class="card-meta">${shelf.bookCount || 0} ${(shelf.bookCount || 0) === 1 ? 'book' : 'books'}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // Select shelf by index and load books from _manifest.json
+        async function selectShelfByIndex(index) {
+            const shelf = state.currentLibrary.shelves[index];
+            await selectShelf(shelf.slug);
+        }
+
+        // Select shelf and load books
+        async function selectShelf(shelfSlug) {
+            const shelf = state.currentLibrary.shelves.find(s => s.slug === shelfSlug);
+
+            if (!shelf) {
+                alert('Shelf not found');
+                return;
+            }
+
+            try {
+                // Load books from shelf's _manifest.json
+                const manifestPath = `${BASE_PATH}${state.currentLibraryType.folder}/${state.currentLibrary.slug}/${shelf.slug}/_manifest.json`;
+                const res = await fetch(manifestPath);
+                const books = await res.json();
+
+                // Store shelf with books list
+                state.currentShelf = {
+                    name: shelf.name,
+                    slug: shelf.slug,
+                    books: books.map(book => ({
+                        name: book.name,
+                        slug: book.slug,
+                        chapterCount: book.chapterCount || 0,
+                        tags: book.tags || [],
+                        created_by: book.created_by || null
+                    }))
+                };
+
+                state.view = 'books';
+                updateUrl();
+                render();
+            } catch (error) {
+                console.error('Failed to load shelf books:', error);
+                alert('Failed to load shelf: ' + error.message);
+            }
+        }
+
+        // Render books
+        function renderBooks() {
+            const content = document.getElementById('content');
+
+            content.innerHTML = `
+                <div class="grid">
+                    ${state.currentShelf.books.map((book, index) => {
+                        return `
+                            <div class="card" onclick="selectBookByIndex(${index})">
+                                <div class="card-title">${escapeHtml(book.name)}</div>
+                                <div class="card-meta">${book.chapterCount || 0} ${(book.chapterCount || 0) === 1 ? 'chapter' : 'chapters'}</div>
+                                ${book.created_by ? `<div class="card-meta" style="font-style: italic; color: var(--accent);">by ${escapeHtml(book.created_by)}</div>` : ''}
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        }
+
+        // Select book by index
+        async function selectBookByIndex(index) {
+            const book = state.currentShelf.books[index];
+            await selectBook(book.slug);
+        }
+
+        // Select book and load its full data from JSON file
+        async function selectBook(bookSlug) {
+            const book = state.currentShelf.books.find(b => b.slug === bookSlug);
+
+            if (!book) {
+                alert('Book not found');
+                return;
+            }
+
+            try {
+                // Load full book data from JSON file
+                const bookPath = `${BASE_PATH}${state.currentLibraryType.folder}/${state.currentLibrary.slug}/${state.currentShelf.slug}/${book.slug}.json`;
+                const res = await fetch(bookPath);
+                const bookData = await res.json();
+
+                // Store book data (include tags for crosslinks)
+                state.currentBook = {
+                    name: bookData.name || book.name,
+                    slug: book.slug,
+                    mode: bookData.mode,
+                    chapters: bookData.chapters || [],
+                    tags: bookData.tags || []
+                };
+
+                // Check if sequential mode book
+                if (bookData.mode === 'sequential') {
+                    startSequentialReading();
+                } else {
+                    state.view = 'chapters';
+                    updateUrl();
+                    render();
+                }
+            } catch (error) {
+                console.error('Failed to load book:', error);
+                alert('Failed to load book: ' + error.message);
+            }
+        }
+
+        // Start sequential reading mode
+        function startSequentialReading() {
+            const book = state.currentBook;
+
+            // Get the folder from the library type
+            const folder = state.currentLibraryType.folder || 'knowledge-libraries';
+
+            // Build path for sequential mode: folder/library/shelf/book
+            const bookPath = `${state.currentLibrary.slug}/${state.currentShelf.slug}/${book.slug}`;
+
+            // Build sequential mode URL
+            const url = `${SITE_PREFIX}/ask/ask.html?mode=sequential&folder=${encodeURIComponent(folder)}&bookPath=${encodeURIComponent(bookPath)}&book=${encodeURIComponent(book.name)}`;
+            console.log('Navigating to:', url);
+            window.location.href = url;
+        }
+
+        // Render chapters
+        function renderChapters() {
+            const content = document.getElementById('content');
+
+            content.innerHTML = `
+                <div class="grid">
+                    ${state.currentBook.chapters.map((chapter, index) => {
+                        const chapterName = typeof chapter === 'string' ? chapter : chapter.name;
+                        const hasTopics = chapter.topics && chapter.topics.length > 0;
+                        const topicCount = hasTopics ? chapter.topics.length : 0;
+
+                        return `
+                            <div class="card" onclick="selectChapter(${index})">
+                                <div class="card-title">${escapeHtml(chapterName)}</div>
+                                ${hasTopics ? `<div class="card-meta">${topicCount} topics</div>` : ''}
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        }
+
+        // Select chapter - check if it has topics
+        function selectChapter(chapterIndex) {
+            const chapter = state.currentBook.chapters[chapterIndex];
+            state.currentChapter = chapter;
+
+            // Check if chapter has topics
+            if (chapter.topics && chapter.topics.length > 0) {
+                // Has topics - navigate to topics view
+                state.view = 'topics';
+            } else {
+                // No topics - this is the deepest level (backward compatible)
+                state.view = 'chapters';
+            }
+
+            updateUrl();
+            render();
+        }
+
+        // Select topic - final selection
+        function selectTopic(topicIndex) {
+            const topic = state.currentChapter.topics[topicIndex];
+            state.currentTopic = topic;
+            updateUrl();
+            render();
+        }
+
+        // Render topics (new deeper level)
+        function renderTopics() {
+            const content = document.getElementById('content');
+
+            if (!state.currentChapter.topics || state.currentChapter.topics.length === 0) {
+                // Fallback - shouldn't happen but handle gracefully
+                content.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No topics available</h3>
+                        <p>This chapter doesn't have specific topics.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            content.innerHTML = `
+                <div class="grid">
+                    ${state.currentChapter.topics.map((topic, index) => `
+                        <div class="card" onclick="selectTopic(${index})">
+                            <div class="card-title">${escapeHtml(topic)}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // Ask question about current selection
+        function askQuestion(question) {
+            // Build context from current selection
+            let contextParts = [];
+
+            if (state.currentLibraryType) contextParts.push(state.currentLibraryType.name);
+            if (state.currentLibrary) contextParts.push(state.currentLibrary.library);
+            if (state.currentShelf) contextParts.push(state.currentShelf.name);
+            if (state.currentBook) contextParts.push(state.currentBook.name);
+            if (state.currentChapter) contextParts.push(state.currentChapter.name);
+            if (state.currentTopic) contextParts.push(state.currentTopic);
+
+            const context = contextParts.join(' → ');
+
+            // Build URL with tablet mode if applicable
+            let url = `${SITE_PREFIX}/ask/ask.html?context=${encodeURIComponent(context)}&q=${encodeURIComponent(question)}&autosend=1`;
+
+            // Pass tablet mode to ask page
+            if (window.TABLET_MODE && window.TABLET_MODE !== 'standard') {
+                url += `&tablet=${encodeURIComponent(window.TABLET_MODE)}`;
+            }
+
+            // Pass tags for crosslinks (from chapter or book)
+            let tags = [];
+            if (state.currentChapter && state.currentChapter.tags) {
+                tags = state.currentChapter.tags;
+            } else if (state.currentBook && state.currentBook.tags) {
+                tags = state.currentBook.tags;
+            }
+            if (tags.length > 0) {
+                url += `&tags=${encodeURIComponent(tags.join(','))}`;
+            }
+
+            // Pass bookSlug to filter out same-book results
+            if (state.currentBook && state.currentBook.slug) {
+                url += `&bookSlug=${encodeURIComponent(state.currentBook.slug)}`;
+            }
+
+            window.location.href = url;
+        }
+
+        // Navigate to a view
+        function navigateTo(view) {
+            state.view = view;
+
+            if (view === 'library-types') {
+                state.currentLibraryType = null;
+                state.libraryQuestions = null; // Clear library-specific questions
+                state.currentLibrary = null;
+                state.currentShelf = null;
+                state.currentBook = null;
+                state.currentChapter = null;
+                state.currentTopic = null;
+            } else if (view === 'libraries') {
+                state.currentLibrary = null;
+                state.currentShelf = null;
+                state.currentBook = null;
+                state.currentChapter = null;
+                state.currentTopic = null;
+            } else if (view === 'shelves') {
+                state.currentShelf = null;
+                state.currentBook = null;
+                state.currentChapter = null;
+                state.currentTopic = null;
+            } else if (view === 'books') {
+                state.currentBook = null;
+                state.currentChapter = null;
+                state.currentTopic = null;
+            } else if (view === 'chapters') {
+                state.currentChapter = null;
+                state.currentTopic = null;
+            } else if (view === 'topics') {
+                state.currentTopic = null;
+            }
+
+            updateUrl();
+            render();
+        }
+
+        // Utility
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Apply tablet configuration on load
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof applyTabletConfig === 'function') {
+                const config = applyTabletConfig();
+
+                // Update header text based on config
+                const h1 = document.querySelector('.header h1');
+                const p = document.querySelector('.header p');
+                if (h1 && config.headerText) h1.textContent = config.headerText;
+                if (p && config.headerSubtext) p.textContent = config.headerSubtext;
+            }
+        });
+
+        // Start
+        init();
+    </script>
+
+<footer style="text-align:center; margin-top:40px; padding:20px 0; font-size:0.9em; color:#ffffff;">
+  © 2025 Quarex / Peter Nehl. All Rights Reserved.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "name": "WV-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Carol Miller (R)",
+        "Abel Clendenen (R)",
+        "Larry Jackson (R)",
+        "David Sartin (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Britta Aguirre (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Isaiah Rucker (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "TX-23",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tony Gonzales (R)",
+        "Brandon Herrera (R)",
+        "Susan Storey Rubio (R)",
+        "Ezekiel Enriquez (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Gretel Marysdatter Enck (D)",
+        "Santos Limon (D)",
+        "Gregory Lopez (D)",
+        "Katy Padilla Stout (D)",
+        "Peter White (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Patti Hale Ashe (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

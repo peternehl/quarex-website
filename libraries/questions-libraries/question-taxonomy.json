@@ -1,0 +1,296 @@
+{
+  "question_taxonomy": {
+    "meta": {
+      "version": "2.0",
+      "note": "Upgraded taxonomy with separate axes for Question Forms (5W+H) and User Intents (cognitive goals). Based on the original 5 W's + H file, extended for TruthAngel Unlimited.",
+      "original_basis": "Classic journalism framework: 5 W's + H",
+      "total_question_forms": 6,
+      "total_user_intents": 7,
+      "total_form_questions": 60
+    },
+    "question_forms": [
+      {
+        "id": 1,
+        "name": "What",
+        "description": "Questions about definition, essence, and identity.",
+        "questions": [
+          "What is this?",
+          "What are the essential characteristics?",
+          "What distinguishes this from related concepts?",
+          "What are the different types or categories?",
+          "What does this encompass?",
+          "What are the boundaries or limits?",
+          "What are the components?",
+          "What are the key elements?",
+          "What patterns exist?",
+          "What common misconceptions exist?"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "How",
+        "description": "Questions about process, mechanism, and method.",
+        "questions": [
+          "How does this work?",
+          "How do I do this?",
+          "How do the parts interact?",
+          "How can this be broken down?",
+          "How is this implemented?",
+          "How can this be analyzed?",
+          "How can I improve at this?",
+          "How is this evaluated or measured?",
+          "How does this compare to alternatives?",
+          "How can this solve problems?"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Why",
+        "description": "Questions about reasons, causes, and significance.",
+        "questions": [
+          "Why does this happen?",
+          "Why does this matter?",
+          "Why is this important?",
+          "What causes this?",
+          "What are the root causes?",
+          "What are the consequences?",
+          "What would happen without this?",
+          "What are the benefits?",
+          "What are the limitations or drawbacks?",
+          "What are the ethical implications?"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "When",
+        "description": "Questions about history, development, and timeline.",
+        "questions": [
+          "When did this emerge?",
+          "How did this develop?",
+          "What is the history?",
+          "How has this evolved?",
+          "What were the key milestones?",
+          "How has understanding changed?",
+          "What is the current state?",
+          "What is the future direction?",
+          "What led to this development?",
+          "When is this used or applied?"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Who",
+        "description": "Questions about people, actors, and attribution.",
+        "questions": [
+          "Who is this person?",
+          "Who uses this and how?",
+          "Who is affected by this?",
+          "Who discovered or created this?",
+          "Who are the major contributors?",
+          "Who benefits from this?",
+          "Who disagrees or opposes this?",
+          "Who are the experts?",
+          "Who should know about this?",
+          "Who is responsible for this?"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Where",
+        "description": "Questions about context, location, and relationships.",
+        "questions": [
+          "Where does this fit into the bigger picture?",
+          "Where do we see this in everyday life?",
+          "Where is this applied?",
+          "Where did this originate?",
+          "How does this relate to other concepts?",
+          "How does this connect to the broader field?",
+          "How does this integrate with other knowledge?",
+          "How does this bridge different domains?",
+          "What role does this play in its broader context?",
+          "What are real-world applications?"
+        ]
+      }
+    ],
+    "user_intents": [
+      {
+        "id": 1,
+        "name": "Understand",
+        "description": "The user wants clarity and explanation: what something is, how it works, or what it means.",
+        "question_patterns": [
+          "Can you explain what this is in simple terms?",
+          "Help me understand how this works.",
+          "What does this concept really mean?",
+          "I’m confused about this—can you clarify it?"
+        ],
+        "answer_style": {
+          "focus": "Clarity, plain language, big-picture explanation with just enough detail.",
+          "structure": [
+            "1–2 sentence overview",
+            "Key points in a short list",
+            "Optional: simple example or analogy"
+          ],
+          "tone": "Patient, non-judgmental, teacher-like.",
+          "includes": [
+            "Definitions",
+            "Core ideas",
+            "A simple example when helpful"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "name": "Analyze",
+        "description": "The user wants a breakdown, comparison, or deeper structural understanding.",
+        "question_patterns": [
+          "How do the main parts of this fit together?",
+          "What are the main factors or components here?",
+          "How does this compare to other approaches?",
+          "Can you break this down into smaller pieces?"
+        ],
+        "answer_style": {
+          "focus": "Structure, relationships, comparisons, and tradeoffs.",
+          "structure": [
+            "Brief summary of the thing being analyzed",
+            "Breakdown into components or dimensions",
+            "Optional: comparison to 1–2 alternatives"
+          ],
+          "tone": "Analytical, organized, but still accessible.",
+          "includes": [
+            "Subheadings or bullet points",
+            "Comparisons and contrasts",
+            "Clear highlighting of key differences"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "name": "Evaluate",
+        "description": "The user wants a judgment: pros/cons, strengths/weaknesses, or whether something is effective.",
+        "question_patterns": [
+          "Is this a good idea, and why or why not?",
+          "What are the pros and cons of this approach?",
+          "How effective is this in practice?",
+          "What are the main advantages and drawbacks?"
+        ],
+        "answer_style": {
+          "focus": "Balanced assessment using clear criteria, without propaganda or hype.",
+          "structure": [
+            "Short neutral overview",
+            "Pros list",
+            "Cons list",
+            "Optional: brief, nuanced overall assessment"
+          ],
+          "tone": "Fair, even-handed, explicit about uncertainty.",
+          "includes": [
+            "Criteria used for evaluation",
+            "Caveats and limitations",
+            "Cases where it works well vs. poorly"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "name": "Decide",
+        "description": "The user wants help choosing between options or figuring out what to do next.",
+        "question_patterns": [
+          "What should I do in this situation?",
+          "Which option is better for me and why?",
+          "How do I choose between these two paths?",
+          "What factors should I consider before deciding?"
+        ],
+        "answer_style": {
+          "focus": "Clarifying options, tradeoffs, and values; not dictating choices.",
+          "structure": [
+            "Restate the decision in neutral terms",
+            "Lay out the main options",
+            "Compare tradeoffs and risks",
+            "Invite the user to weigh based on their priorities"
+          ],
+          "tone": "Supportive, non-controlling, values-aware.",
+          "includes": [
+            "Questions the user can ask themselves",
+            "Different scenarios or user profiles",
+            "Encouragement to reflect rather than obey"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "name": "Predict",
+        "description": "The user wants plausible future scenarios, outcomes, or what is likely to happen next.",
+        "question_patterns": [
+          "What is likely to happen if we continue on this path?",
+          "How might this technology change things in the next 5–10 years?",
+          "What are the most plausible scenarios here?",
+          "What could go right and what could go wrong?"
+        ],
+        "answer_style": {
+          "focus": "Scenario thinking, probabilities, and uncertainty, not false certainty.",
+          "structure": [
+            "Brief framing of current state",
+            "2–3 plausible scenarios (optimistic, middle, pessimistic)",
+            "Key uncertainties and tipping points"
+          ],
+          "tone": "Careful, humble about limits, grounded in evidence.",
+          "includes": [
+            "Explicit uncertainty and caveats",
+            "Known trends and constraints",
+            "Clear separation of facts vs. speculation"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "name": "Practical Action",
+        "description": "The user wants concrete steps, checklists, or how-to guidance they can apply right now.",
+        "question_patterns": [
+          "How do I get started with this?",
+          "What are the first steps I should take?",
+          "Can you give me a simple step-by-step plan?",
+          "What should I avoid when doing this?"
+        ],
+        "answer_style": {
+          "focus": "Actionable steps, safety, and realistic expectations.",
+          "structure": [
+            "Short goal restatement",
+            "Numbered step-by-step instructions",
+            "Tips, pitfalls, and safeguards"
+          ],
+          "tone": "Encouraging, practical, realistic.",
+          "includes": [
+            "Concrete steps and checklists",
+            "Common mistakes to avoid",
+            "Suggestions for next learning steps"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "name": "Ethical Reasoning",
+        "description": "The user wants to explore fairness, responsibility, harm, rights, or what is morally right or wrong.",
+        "question_patterns": [
+          "Is this fair or unjust, and to whom?",
+          "What are the main ethical concerns here?",
+          "Who could be harmed or helped by this?",
+          "How do different values or principles apply to this case?"
+        ],
+        "answer_style": {
+          "focus": "Surfacing perspectives, values, and tradeoffs—not imposing a single ideology.",
+          "structure": [
+            "Brief neutral description of the issue",
+            "Key ethical questions and tensions",
+            "Main perspectives (e.g., rights, harm, justice, autonomy)",
+            "Encouragement for user reflection"
+          ],
+          "tone": "Respectful, pluralistic, non-dogmatic.",
+          "includes": [
+            "Multiple viewpoints when relevant",
+            "Potential harms and benefits to different groups",
+            "Acknowledgement of disagreement and uncertainty"
+          ]
+        }
+      }
+    ]
+  }
+}

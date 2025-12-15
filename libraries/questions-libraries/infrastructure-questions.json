@@ -1,0 +1,15 @@
+{
+  "library_type": "infrastructure",
+  "recommended_questions": [
+    "What are the core components and how do they work together?",
+    "What are the key design considerations and trade-offs?",
+    "What failure modes should operators prepare for?",
+    "How does this scale from small to large deployments?",
+    "What are the power, cooling, and environmental requirements?",
+    "What operational practices ensure reliability and availability?",
+    "What are the emerging trends and future challenges?",
+    "How do regulatory and compliance requirements affect this?",
+    "What are the economic and business model considerations?",
+    "What security and resilience measures are essential?"
+  ]
+}

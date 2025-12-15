@@ -1,0 +1,125 @@
+{
+  "name": "Photography: History, Theory, and Practice",
+  "chapters": [
+    {
+      "name": "History of Photography",
+      "topics": [
+        "How did photography develop from the camera obscura to Daguerre and Talbot?",
+        "What technical innovations expanded photography's capabilities over time?",
+        "How did photography challenge painting's role in representation?",
+        "What were the major movements in art photography: Pictorialism, Straight Photography, New Topographics?",
+        "How did documentary and photojournalism develop as distinct practices?",
+        "What photographers have been most influential in the medium's history?"
+      ],
+      "tags": ["arts", "cultural-heritage", "art-history", "photography"]
+    },
+    {
+      "name": "Camera Fundamentals and Types",
+      "topics": [
+        "How do DSLR, mirrorless, and smartphone cameras differ in their operation?",
+        "What do lens focal length and aperture numbers mean?",
+        "How do full-frame, APS-C, and medium format sensors compare?",
+        "What features should you consider when choosing a camera for different uses?",
+        "How do viewfinders, autofocus systems, and image stabilization work?",
+        "What role does the camera body play versus the lens in image quality?"
+      ],
+      "tags": ["technology", "innovation", "photography", "education"]
+    },
+    {
+      "name": "Exposure: Aperture, Shutter, ISO",
+      "topics": [
+        "How do aperture, shutter speed, and ISO work together to control exposure?",
+        "What is the exposure triangle and how do you balance its elements?",
+        "How does aperture affect depth of field in photographs?",
+        "What shutter speeds freeze motion versus create blur?",
+        "How does ISO sensitivity affect image noise and quality?",
+        "What metering modes help achieve accurate exposure?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "photography"]
+    },
+    {
+      "name": "Composition and Visual Language",
+      "topics": [
+        "What compositional rules like rule of thirds help structure photographs?",
+        "How do leading lines, framing, and visual flow guide the viewer's eye?",
+        "What role does negative space play in photographic composition?",
+        "How do photographers create depth and dimension in two-dimensional images?",
+        "When should photographers break compositional rules deliberately?",
+        "How do great photographs use composition to convey meaning?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "photography"]
+    },
+    {
+      "name": "Lighting Techniques",
+      "topics": [
+        "How does the quality of light—hard versus soft—affect photographs?",
+        "What is the golden hour and why do photographers prize it?",
+        "How do you work with natural light in different conditions?",
+        "What artificial lighting equipment do photographers use in studio?",
+        "How do you set up basic portrait lighting patterns?",
+        "What techniques help balance flash with ambient light?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "photography"]
+    },
+    {
+      "name": "Black and White Photography",
+      "topics": [
+        "What makes a good black and white photograph different from color?",
+        "How do you see and compose in terms of tone rather than color?",
+        "What subjects work particularly well in black and white?",
+        "How did masters like Ansel Adams develop the zone system?",
+        "What post-processing techniques enhance black and white images?",
+        "Why do many photographers still prefer black and white today?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "photography"]
+    },
+    {
+      "name": "Color Photography Theory",
+      "topics": [
+        "How does color theory apply to photographic composition?",
+        "What is color temperature and how does white balance correct it?",
+        "How do complementary and harmonious colors create visual impact?",
+        "What emotional associations do different colors carry in photographs?",
+        "How did photographers like William Eggleston elevate color photography to art?",
+        "What color grading techniques give photographs distinctive looks?"
+      ],
+      "tags": ["arts", "visual-arts", "photography", "education"]
+    },
+    {
+      "name": "Digital Workflow and Post-Processing",
+      "topics": [
+        "What is a RAW file and why shoot in RAW versus JPEG?",
+        "How do you organize, cull, and catalog large photo libraries?",
+        "What basic adjustments should every photograph receive in post?",
+        "How do Lightroom and Photoshop serve different purposes in workflow?",
+        "What is non-destructive editing and why does it matter?",
+        "How do you develop a consistent editing style across your work?"
+      ],
+      "tags": ["technology", "digital-life", "photography", "visual-arts"]
+    },
+    {
+      "name": "Photographic Genres and Styles",
+      "topics": [
+        "What distinguishes portrait, landscape, street, and documentary photography?",
+        "How do commercial, editorial, and fine art photography differ in purpose?",
+        "What equipment and techniques suit different photographic genres?",
+        "How do photographers develop a distinctive personal style?",
+        "What emerging genres are expanding photography's boundaries?",
+        "How do you find your niche within the photography field?"
+      ],
+      "tags": ["arts", "visual-arts", "photography", "art-history"]
+    },
+    {
+      "name": "Contemporary Photography Practice",
+      "topics": [
+        "How has digital technology transformed photography practice?",
+        "What role does social media play in contemporary photography?",
+        "How are photographers building careers and audiences today?",
+        "What ethical issues arise with AI, manipulation, and consent in photography?",
+        "How do contemporary art photographers push the medium's boundaries?",
+        "What skills do aspiring photographers need to develop?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "photography"]
+    }
+  ]
+}

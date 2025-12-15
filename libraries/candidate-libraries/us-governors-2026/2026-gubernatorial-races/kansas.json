@@ -1,0 +1,36 @@
+{
+  "name": "Kansas",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Doug Billings (R)",
+        "Joy Eakins (R)",
+        "Ty Masterson (R)",
+        "Charlotte O'Hara (R)",
+        "Stacy Rogers (R)",
+        "Vicki Schmidt (R)",
+        "Scott Schwab (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ethan Corson (D)",
+        "Cindy Holscher (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

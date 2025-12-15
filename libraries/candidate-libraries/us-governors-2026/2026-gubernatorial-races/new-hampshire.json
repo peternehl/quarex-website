@@ -1,0 +1,29 @@
+{
+  "name": "New Hampshire",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "us-politics",
+        "democracy"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jonathan Kiper (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

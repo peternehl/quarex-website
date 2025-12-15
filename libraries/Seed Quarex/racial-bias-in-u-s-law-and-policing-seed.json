@@ -1,0 +1,122 @@
+{
+  "_instructions": "Please expand this Quarex book seed into a complete book. Create as many chapters as necessary to cover the subject matter thoroughly. \nWithin chapter: Create 4-8 Topics in form of questions that users can click to explore.\nEach Topic should be a clear, curiosity-sparking question",
+  "_placement": {
+    "library_type": "perspectives-libraries",
+    "library": "contested-issues",
+    "shelf": "criminal-justice-debates"
+  },
+  "seed": {
+    "name": "Racial Bias in U.S. Law and Policing",
+    "created_by": "Peter Nehl and Claude Opus 4.5",
+    "chapters": [
+      {
+        "name": "Historical Roots of Racial Disparities",
+        "topics": [
+          "How did slave patrols and Black Codes shape early American policing?",
+          "What role did Jim Crow laws play in criminalizing Black life in the South?",
+          "How did the War on Drugs disproportionately target minority communities?",
+          "What was the impact of 'tough on crime' policies in the 1980s and 1990s?",
+          "How have housing segregation policies affected neighborhood policing patterns?",
+          "What historical context do critics say is missing from 'law and order' narratives?"
+        ],
+        "tags": ["history", "slave-patrols", "jim-crow", "war-on-drugs", "segregation"]
+      },
+      {
+        "name": "What the Data Shows—and What It Doesn't",
+        "topics": [
+          "What do arrest and incarceration statistics reveal about racial disparities?",
+          "How do researchers control for variables like crime rates and geography?",
+          "Why do analysts disagree about whether disparities prove discrimination?",
+          "What does traffic stop data reveal about racial profiling claims?",
+          "How reliable are use-of-force statistics, and what are their limitations?",
+          "What do studies on identical resumes with different names suggest about systemic bias?"
+        ],
+        "tags": ["statistics", "data", "disparities", "methodology", "research"]
+      },
+      {
+        "name": "Competing Explanations for Disparities",
+        "topics": [
+          "What is the 'systemic racism' framework and how does it explain disparities?",
+          "How do critics argue disparities reflect crime rate differences rather than bias?",
+          "What role do poverty and socioeconomic factors play in these debates?",
+          "How does the concept of 'implicit bias' fit into explanations of disparate outcomes?",
+          "What do 'individual bad actors' versus 'systemic problems' framings each emphasize?",
+          "Can multiple explanations be true simultaneously, and how would that change solutions?"
+        ],
+        "tags": ["systemic-racism", "crime-rates", "implicit-bias", "socioeconomics", "frameworks"]
+      },
+      {
+        "name": "Policing Practices Under Scrutiny",
+        "topics": [
+          "What is 'stop and frisk' and why did it become so controversial?",
+          "How do predictive policing algorithms work, and do they embed racial bias?",
+          "What does research say about the effectiveness of 'broken windows' policing?",
+          "How do police union contracts affect accountability for misconduct?",
+          "What is qualified immunity and why do reformers want to change it?",
+          "How do warrior training versus guardian training models shape police behavior?"
+        ],
+        "tags": ["stop-and-frisk", "predictive-policing", "broken-windows", "qualified-immunity", "training"]
+      },
+      {
+        "name": "Courts, Prosecutors, and Sentencing",
+        "topics": [
+          "How much discretion do prosecutors have, and does it produce racial disparities?",
+          "What do studies show about racial differences in bail and pretrial detention?",
+          "How do mandatory minimum sentences affect minority defendants differently?",
+          "What role do public defenders' caseloads play in outcomes for poor defendants?",
+          "How do plea bargaining dynamics differ across racial groups?",
+          "What does research reveal about racial disparities in death penalty cases?"
+        ],
+        "tags": ["prosecutors", "sentencing", "bail", "public-defenders", "death-penalty", "courts"]
+      },
+      {
+        "name": "The Debate Over Police Use of Force",
+        "topics": [
+          "What do we actually know about how often police use lethal force by race?",
+          "Why do high-profile cases dominate the debate while statistics remain contested?",
+          "How do 'per capita' versus 'per encounter' measurements change the picture?",
+          "What factors predict whether a police encounter escalates to force?",
+          "How do body cameras affect use-of-force incidents and accountability?",
+          "What do police officers themselves say about use-of-force training and culture?"
+        ],
+        "tags": ["use-of-force", "police-shootings", "body-cameras", "accountability", "statistics"]
+      },
+      {
+        "name": "Reform Proposals Across the Spectrum",
+        "topics": [
+          "What does 'defund the police' mean, and what alternatives do proponents envision?",
+          "How do community policing advocates propose rebuilding trust?",
+          "What reforms do police organizations themselves support or oppose?",
+          "How have consent decrees changed police departments under federal oversight?",
+          "What is restorative justice, and can it work for serious crimes?",
+          "What do conservatives propose as solutions to improving police-community relations?"
+        ],
+        "tags": ["reform", "defund", "community-policing", "consent-decrees", "restorative-justice"]
+      },
+      {
+        "name": "Lived Experiences and Perception Gaps",
+        "topics": [
+          "Why do Black and white Americans report such different experiences with police?",
+          "How does 'the talk' that Black parents give children shape community perceptions?",
+          "What do surveys reveal about trust in police across different demographics?",
+          "How do police officers describe feeling misunderstood or unfairly criticized?",
+          "Why do viral videos have such powerful effects on public opinion?",
+          "Can understanding different lived experiences bridge polarized views on policing?"
+        ],
+        "tags": ["lived-experience", "perception", "trust", "polarization", "community-relations"]
+      },
+      {
+        "name": "What Other Countries Do Differently",
+        "topics": [
+          "How does police training length in the U.S. compare to other democracies?",
+          "Why do police in many countries rarely carry or use firearms?",
+          "How do incarceration rates in America compare to similar nations?",
+          "What accountability mechanisms exist in countries with less police violence?",
+          "Are there international models the U.S. could realistically adopt?",
+          "What unique factors make American policing difficult to compare internationally?"
+        ],
+        "tags": ["international", "comparative", "training", "incarceration-rates", "accountability"]
+      }
+    ]
+  }
+}

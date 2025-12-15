@@ -1,0 +1,31 @@
+{
+  "name": "Montana",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Steve Daines (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Michael BlackWolf (D)",
+        "Michael Hummert (D)",
+        "Reilly Neill (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

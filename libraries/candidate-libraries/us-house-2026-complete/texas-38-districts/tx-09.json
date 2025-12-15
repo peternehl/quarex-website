@@ -1,0 +1,50 @@
+{
+  "name": "TX-09",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jaimy Annette Zoboulikos-Blanco (R)",
+        "Alexandria Butler (R)",
+        "Briscoe Cain (R)",
+        "Peter Emmert (R)",
+        "Alex Mealer (R)",
+        "Dan Mims (R)",
+        "Dwayne Stovall (R)",
+        "Terry Lee Thain (R)",
+        "Deddrick Wilmer (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Earnest Clayton (D)",
+        "Terry Virts (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Roy Morales (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

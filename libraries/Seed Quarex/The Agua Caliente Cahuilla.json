@@ -1,0 +1,114 @@
+{
+  "_instructions": "Use this seed with an LLM to generate a complete Quarex book. See https://truthangel.org/template-files/quarex-seed-instructions.html for detailed instructions.",
+  "_placement": {
+    "library_type": "perspectives-libraries",
+    "library": "historical-narratives",
+    "shelf": "indigenous-peoples"
+  },
+  "seed": {
+    "name": "The Agua Caliente Cahuilla",
+    "created_by": "Peter and Claude Opus 4.5",
+    "chapters": [
+      {
+        "name": "Origins and Traditional Life",
+        "topics": [
+          "Who are the Cahuilla people and how long have they lived in the Coachella Valley?",
+          "Why are the Agua Caliente called 'the people of the hot water'?",
+          "How did the Cahuilla adapt to thrive in the harsh desert environment?",
+          "What was the traditional clan and moiety system that organized Cahuilla society?",
+          "What role did the hot springs play in Cahuilla spiritual and daily life?",
+          "What foods, medicines, and materials did the Cahuilla harvest from the desert and canyons?"
+        ],
+        "tags": ["history", "indigenous", "california", "culture"]
+      },
+      {
+        "name": "Cahuilla Philosophy and Spirituality",
+        "topics": [
+          "What creation stories explain the Cahuilla understanding of the world?",
+          "How did the Cahuilla view the relationship between humans and the natural world?",
+          "What role did the pul (shaman) play in Cahuilla spiritual life?",
+          "What ceremonies and rituals marked the seasons and life transitions?",
+          "How was knowledge passed down through oral tradition and song?"
+        ],
+        "tags": ["philosophy", "spirituality", "indigenous", "oral-tradition"]
+      },
+      {
+        "name": "Contact, Missions, and Survival",
+        "topics": [
+          "How did Spanish colonization and the mission system affect the Cahuilla?",
+          "Why did the Cahuilla fare differently than coastal tribes during the mission era?",
+          "What happened to the Cahuilla during Mexican rule and early American California?",
+          "How did the tribe maintain cultural continuity through centuries of disruption?",
+          "What diseases, displacement, and policies threatened Cahuilla survival?"
+        ],
+        "tags": ["colonization", "history", "survival", "california"]
+      },
+      {
+        "name": "The Checkerboard: An Accident of History",
+        "topics": [
+          "What was the 1876 railroad land grant and how did it create the checkerboard pattern?",
+          "Why did the federal government think desert land was worthless?",
+          "How did Palm Springs transform from desert outpost to resort destination?",
+          "When did the tribe realize the value of what they owned?",
+          "What legal battles did the Agua Caliente fight to control their own land?"
+        ],
+        "tags": ["land-rights", "economics", "federal-policy", "palm-springs"]
+      },
+      {
+        "name": "Sovereignty and Self-Determination",
+        "topics": [
+          "What does tribal sovereignty actually mean in practice?",
+          "How does the Agua Caliente govern itself today?",
+          "What is the relationship between tribal law and California/federal law?",
+          "How has the tribe used economic success to strengthen cultural programs?",
+          "What tensions exist between tribal sovereignty and local/state government?"
+        ],
+        "tags": ["sovereignty", "governance", "law", "self-determination"]
+      },
+      {
+        "name": "Sacred Geography: The Canyons",
+        "topics": [
+          "Why are Tahquitz, Palm, and Andreas Canyons sacred to the Cahuilla?",
+          "Who was Tahquitz in Cahuilla tradition and why does his name mark the canyon?",
+          "How does the tribe balance public access with protection of sacred sites?",
+          "What can visitors see in Indian Canyons that reveals Cahuilla history?",
+          "How do the canyons function as living cultural landscapes rather than museums?"
+        ],
+        "tags": ["sacred-sites", "geography", "canyons", "tourism"]
+      },
+      {
+        "name": "Economic Power in Modern America",
+        "topics": [
+          "How wealthy is the Agua Caliente tribe and where does that wealth come from?",
+          "What businesses and developments does the tribe operate?",
+          "How do land leases work in Palm Springs and what do they mean for homeowners?",
+          "What has the tribe done with its economic resources?",
+          "Is the Agua Caliente model replicable for other tribes?"
+        ],
+        "tags": ["economics", "business", "wealth", "development"]
+      },
+      {
+        "name": "Keeping Culture Alive",
+        "topics": [
+          "What is the Agua Caliente Cultural Museum and what does it preserve?",
+          "How is the Cahuilla language being documented and taught?",
+          "What traditional arts, basketry, and crafts continue today?",
+          "How do younger tribal members connect with traditional knowledge?",
+          "What challenges does cultural preservation face in a wealthy, modern tribe?"
+        ],
+        "tags": ["culture", "preservation", "language", "museum"]
+      },
+      {
+        "name": "The Tribe and Palm Springs Today",
+        "topics": [
+          "How do tribal members and non-Native residents coexist in Palm Springs?",
+          "What do most Palm Springs residents actually know about the Agua Caliente?",
+          "How has the tribe shaped the architecture, development, and character of the city?",
+          "What ongoing negotiations and tensions exist between tribe and city?",
+          "What might Palm Springs look like in 50 years as tribal influence grows?"
+        ],
+        "tags": ["palm-springs", "community", "future", "coexistence"]
+      }
+    ]
+  }
+}

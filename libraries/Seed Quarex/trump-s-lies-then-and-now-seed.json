@@ -1,0 +1,148 @@
+{
+  "_instructions": "Please expand this Quarex book seed into a complete book. Create as many chapters as necessary to cover the subject matter thoroughly. \nWithin chapter: Create 4-8 Topics in form of questions that users can click to explore.\nEach Topic should be a clear, curiosity-sparking question",
+  "_placement": {
+    "library_type": "perspectives-libraries",
+    "library": "fact-vs-fiction",
+    "shelf": "political-accountability"
+  },
+  "seed": {
+    "name": "Trump's Lies: Then and Now",
+    "created_by": "Peter Nehl and Claude Opus 4.5",
+    "chapters": [
+      {
+        "name": "The Business Years: Building a Brand on Exaggeration",
+        "topics": [
+          "How did Trump inflate his net worth to qualify for Forbes lists?",
+          "What false claims did Trump make about his casino businesses before they went bankrupt?",
+          "How did the 'River of Blood' Civil War story at his golf course reveal his approach to truth?",
+          "What did lawsuits against Trump University reveal about systematic deception?",
+          "Why did ghostwriters later say Trump's books misrepresented his business acumen?",
+          "How did the pattern of exaggeration in business foreshadow his political style?"
+        ],
+        "tags": ["business", "trump-university", "net-worth", "pre-politics", "pattern"]
+      },
+      {
+        "name": "2011-2016: Birtherism and the Rise of Political Lying",
+        "topics": [
+          "What evidence did Trump claim to have that Obama was born in Kenya?",
+          "Why did Trump continue the birther conspiracy years after Obama released his birth certificate?",
+          "How did the birther lie test whether media and voters would accept blatant falsehoods?",
+          "What false claims did Trump make about Mexican immigrants when announcing his candidacy?",
+          "How many of Trump's 2016 campaign claims were rated false by fact-checkers?",
+          "Why did Trump claim he predicted 9/11 in a book, and what did the book actually say?"
+        ],
+        "tags": ["birtherism", "2016-campaign", "obama", "immigration", "origins"]
+      },
+      {
+        "name": "First Term 2017-2018: Establishing the Pattern",
+        "topics": [
+          "Why did Trump insist his inauguration crowd was the largest ever despite photographic evidence?",
+          "What was the significance of 'alternative facts' as a defense of obvious falsehoods?",
+          "How many false claims did the Washington Post document in Trump's first year?",
+          "What false claims did Trump make about the Mueller investigation as it unfolded?",
+          "How did Trump misrepresent the contents and impact of his tax cut legislation?",
+          "Why did fact-checkers create new categories like 'Bottomless Pinocchio' for Trump?"
+        ],
+        "tags": ["inauguration", "alternative-facts", "mueller", "tax-cuts", "2017", "2018"]
+      },
+      {
+        "name": "First Term 2019-2020: Pre-Pandemic Falsehoods",
+        "topics": [
+          "What false claims did Trump make about the Ukraine call that led to his first impeachment?",
+          "How did Trump misrepresent the whistleblower's account and the transcript itself?",
+          "What false claims did Trump make about the economy that contradicted official data?",
+          "How did Trump's claims about trade deals compare to their actual terms?",
+          "Why did Trump falsely claim he built most of the border wall?",
+          "How many total false claims had fact-checkers documented by early 2020?"
+        ],
+        "tags": ["impeachment", "ukraine", "economy", "border-wall", "2019", "2020"]
+      },
+      {
+        "name": "COVID-19: A Pandemic of Misinformation",
+        "topics": [
+          "What did Trump claim about COVID-19 'disappearing' and when did he say it?",
+          "How did Trump's claims about hydroxychloroquine contradict scientific evidence?",
+          "What did Trump actually suggest about disinfectants and UV light as treatments?",
+          "How did Trump misrepresent testing numbers and America's pandemic response?",
+          "What false claims did Trump make about the virus's origins and severity?",
+          "How did public health experts assess the real-world harm of pandemic misinformation?"
+        ],
+        "tags": ["covid-19", "pandemic", "hydroxychloroquine", "public-health", "2020"]
+      },
+      {
+        "name": "The Big Lie: 2020 Election Denial",
+        "topics": [
+          "What specific fraud claims did Trump make, and how were they investigated?",
+          "How many court cases did Trump lose, and what did judges say about evidence?",
+          "What did Trump's own Attorney General say about the fraud claims?",
+          "How did the 'stolen election' narrative spread despite repeated debunking?",
+          "What false claims did Trump make about Dominion voting machines?",
+          "How did the Big Lie directly contribute to the January 6th Capitol attack?",
+          "Why do election experts call this the most consequential lie in modern American history?"
+        ],
+        "tags": ["2020-election", "big-lie", "january-6", "voter-fraud", "dominion"]
+      },
+      {
+        "name": "2021-2024: Exile, Indictments, and Continued Falsehoods",
+        "topics": [
+          "How did Trump continue to spread the stolen election narrative after leaving office?",
+          "What false claims did Trump make about the classified documents found at Mar-a-Lago?",
+          "How did Trump characterize the January 6th defendants despite video evidence?",
+          "What false claims did Trump make about his criminal indictments?",
+          "How did Trump misrepresent his record when launching his 2024 campaign?",
+          "What new false claims emerged during the 2024 presidential debates?"
+        ],
+        "tags": ["post-presidency", "indictments", "mar-a-lago", "2024-campaign", "january-6"]
+      },
+      {
+        "name": "Second Term 2025: The Lies Continue",
+        "topics": [
+          "Why does Trump claim grocery prices are down when official data shows they're up?",
+          "How does Trump claim drug price cuts of '200%, 500%, 1000%' when that's mathematically impossible?",
+          "What is the actual U.S. aid to Ukraine versus Trump's repeated '$350 billion' claim?",
+          "Why does Trump claim 'no inflation' when the inflation rate remains measurable?",
+          "How does Trump's claim about border crossings being 'lowest ever' compare to actual records?",
+          "What false claims has Trump made about 'ending eight wars'?",
+          "Why does Trump claim the U.S. is the 'only country' with mail-in voting when dozens use it?"
+        ],
+        "tags": ["2025", "economy", "inflation", "ukraine", "immigration", "current"]
+      },
+      {
+        "name": "The Repetition Strategy: Why the Same Lies Persist",
+        "topics": [
+          "What did Steve Bannon mean by 'flood the zone with shit'?",
+          "Why does Trump repeat debunked claims dozens or hundreds of times?",
+          "How does repetition exhaust fact-checkers and normalize falsehoods?",
+          "What happens to media coverage when a lie is told for the 100th time?",
+          "How do Trump's supporters process repeated fact-checks of his claims?",
+          "Is there a strategic advantage to shameless persistence in lying?"
+        ],
+        "tags": ["strategy", "repetition", "media", "firehose-of-falsehood", "normalization"]
+      },
+      {
+        "name": "Consequences: When Lies Cause Real Harm",
+        "topics": [
+          "How did COVID misinformation affect vaccination rates and public health outcomes?",
+          "What violence has been directly linked to Trump's false claims?",
+          "How has election denial undermined confidence in democratic institutions?",
+          "What legal consequences have others faced for repeating Trump's lies?",
+          "How do Trump's lies about immigrants affect targeted communities?",
+          "What does research show about the societal cost of normalized political lying?"
+        ],
+        "tags": ["consequences", "harm", "violence", "democracy", "public-health", "impact"]
+      },
+      {
+        "name": "Why Do People Believe? The Psychology of Political Lying",
+        "topics": [
+          "What makes some people resistant to fact-checks of claims they want to believe?",
+          "How does partisan identity affect willingness to accept corrections?",
+          "What is the 'illusory truth effect' and how does repetition exploit it?",
+          "Why do some voters say they don't take Trump's claims 'literally'?",
+          "How do information bubbles protect false beliefs from challenge?",
+          "What would it take to break through to someone who believes demonstrable falsehoods?"
+        ],
+        "tags": ["psychology", "belief", "partisanship", "illusory-truth", "bubbles"]
+      }
+    ]
+  }
+}

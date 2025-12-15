@@ -1,0 +1,65 @@
+{
+  "name": "Learning & Study Skills",
+  "chapters": [
+    {
+      "name": "How Learning and Memory Work",
+      "topics": [
+        "Short-term versus long-term memory",
+        "Why cramming fails and spacing works",
+        "The role of attention and distraction",
+        "Sleep, exercise, and their impact on learning"
+      ],
+      "tags": [
+        "psychology",
+        "mental-health",
+        "neuroscience",
+        "application"
+      ]
+    },
+    {
+      "name": "Effective Note-Taking",
+      "topics": [
+        "Turning information into your own words",
+        "Using outlines, Cornell notes, and mind maps",
+        "Highlighting versus actually processing ideas",
+        "Organizing notes so you can find things later"
+      ],
+      "tags": [
+        "education",
+        "critical-thinking",
+        "application",
+        "interdisciplinary"
+      ]
+    },
+    {
+      "name": "Practice and Recall",
+      "topics": [
+        "Active recall versus passive rereading",
+        "Spaced repetition and flashcard systems",
+        "Self-testing as a learning tool",
+        "Using mistakes to strengthen understanding"
+      ],
+      "tags": [
+        "education",
+        "critical-thinking",
+        "neuroscience",
+        "application"
+      ]
+    },
+    {
+      "name": "Beating Procrastination",
+      "topics": [
+        "Why we delay tasks even when they matter",
+        "Breaking big tasks into small, doable steps",
+        "Using timers and routines to build momentum",
+        "Designing your environment to reduce distractions"
+      ],
+      "tags": [
+        "psychology",
+        "mental-health",
+        "interpersonal-dynamics",
+        "application"
+      ]
+    }
+  ]
+}

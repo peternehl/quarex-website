@@ -1,0 +1,42 @@
+{
+  "name": "TX-20",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Edgardo Baez (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Joaquin Castro (D)",
+        "Kendra Wilkerson (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Anthony Tristan (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Tennessee",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Marsha Blackburn (R)",
+        "Monty Fritts (R)",
+        "Cito Pellegra (R)",
+        "John Rose (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Carnita Atwater (D)",
+        "Tim Cyr (D)",
+        "Jerri Green (D)",
+        "Adam Kurtz (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Stephen Maxwell (I)",
+        "Lauren Pinkston (I)",
+        "Manasa Reddy (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

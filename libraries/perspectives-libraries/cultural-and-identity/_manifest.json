@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "abortion",
+    "name": "Abortion",
+    "description": "Perspectives on reproductive rights, bodily autonomy, fetal rights, and abortion policy",
+    "bookCount": 1
+  },
+  {
+    "slug": "feminism-and-equality",
+    "name": "Feminism and Equality",
+    "description": "Women's rights movements, gender equality debates, and feminist perspectives across history",
+    "bookCount": 1
+  },
+  {
+    "slug": "gay-rights",
+    "name": "Gay Rights",
+    "description": "Perspectives on LGBTQ+ rights, marriage equality, discrimination, and social acceptance",
+    "bookCount": 1
+  }
+]

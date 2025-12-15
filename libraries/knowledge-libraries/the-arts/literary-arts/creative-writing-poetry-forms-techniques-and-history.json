@@ -1,0 +1,125 @@
+{
+  "name": "Creative Writing: Poetry (Forms, Techniques, and History)",
+  "chapters": [
+    {
+      "name": "Poetic Forms: Sonnet, Villanelle, Haiku",
+      "topics": [
+        "What are the structural rules of the Shakespearean versus Petrarchan sonnet?",
+        "How does the villanelle's repetition create emotional intensity?",
+        "What makes a haiku more than just counting syllables?",
+        "Why did traditional forms dominate poetry for centuries?",
+        "How do contemporary poets use and subvert classical forms?",
+        "What are some other fixed forms like the sestina, pantoum, and ghazal?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Free Verse and Open Forms",
+      "topics": [
+        "What distinguishes free verse from prose broken into lines?",
+        "How did Walt Whitman and the Modernists revolutionize poetry with free verse?",
+        "What gives free verse its structure if not meter and rhyme?",
+        "How do poets use the line break as a tool in free verse?",
+        "What is organic form and how do poets achieve it?",
+        "Why do some poets and critics argue that free verse is harder to write well than formal poetry?"
+      ],
+      "tags": ["arts", "modernism", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Meter and Rhythm",
+      "topics": [
+        "What is iambic pentameter and why has it dominated English poetry?",
+        "How do you scan a line of poetry to identify its meter?",
+        "What are the main metrical feet: iamb, trochee, dactyl, anapest, spondee?",
+        "How do poets use variation and substitution to keep meter from becoming monotonous?",
+        "What is the difference between meter and rhythm?",
+        "How does meter affect the way a poem sounds when read aloud?"
+      ],
+      "tags": ["arts", "technique", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Rhyme and Sound Patterns",
+      "topics": [
+        "What types of rhyme exist beyond perfect end rhyme?",
+        "How do slant rhyme and near rhyme create subtler effects?",
+        "What are alliteration, assonance, and consonance and how do poets use them?",
+        "How do rhyme schemes like ABAB and ABBA affect a poem's feel?",
+        "Why did many 20th century poets reject rhyme and how is it making a comeback?",
+        "How do you use sound patterns without the poem sounding forced?"
+      ],
+      "tags": ["arts", "craft", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Imagery and Figurative Language",
+      "topics": [
+        "What is the difference between an image and imagery in poetry?",
+        "How do metaphor and simile work differently to create meaning?",
+        "What is an extended metaphor and when should you use one?",
+        "How did the Imagist movement change the way poets use images?",
+        "What makes imagery concrete versus abstract and why does it matter?",
+        "How do poets use synesthesia and other unusual sensory combinations?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Line and Stanza",
+      "topics": [
+        "What is enjambment and how does it create tension and surprise?",
+        "What is the effect of end-stopped lines versus run-on lines?",
+        "How do you decide where to break a line in free verse?",
+        "What are couplets, tercets, quatrains, and other stanza forms?",
+        "How does white space and stanza breaks affect pacing and meaning?",
+        "What role does the visual arrangement of a poem play on the page?"
+      ],
+      "tags": ["arts", "craft", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Voice and Tone in Poetry",
+      "topics": [
+        "What is the speaker of a poem and how does it differ from the poet?",
+        "How do you establish a consistent voice throughout a poem?",
+        "What is tone and how do word choice and syntax create it?",
+        "How do persona poems use a dramatic speaker different from the poet?",
+        "What is the confessional mode and who were the major confessional poets?",
+        "How do you write in an authentic voice without being cliché?"
+      ],
+      "tags": ["arts", "identity", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Modern and Contemporary Poetry",
+      "topics": [
+        "How did Modernist poets like Eliot, Pound, and Stevens change poetry?",
+        "What movements emerged after Modernism: Beat, Confessional, Language poetry?",
+        "How has poetry diversified in the 21st century across styles and voices?",
+        "What role does spoken word and performance poetry play today?",
+        "How has Instagram and social media created new audiences for poetry?",
+        "Who are the most influential contemporary poets writing today?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Poetry Workshop and Revision",
+      "topics": [
+        "How do poetry workshops work and what makes them effective?",
+        "What kind of feedback is most useful for a poet revising their work?",
+        "How do you revise a poem without losing what made it work initially?",
+        "What did famous poets say about their revision processes?",
+        "When should you abandon a poem versus keep revising it?",
+        "How do you develop your critical eye to evaluate your own poems?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Publishing Poetry",
+      "topics": [
+        "How do you submit poems to literary magazines and journals?",
+        "What are the major poetry contests and prizes worth entering?",
+        "How do you put together a poetry manuscript for book publication?",
+        "What role do small presses play in poetry publishing?",
+        "How do poets build an audience through readings and social media?",
+        "Can poets make money from their work and how?"
+      ],
+      "tags": ["arts", "workplace-dynamics", "literary-arts", "education"]
+    }
+  ]
+}

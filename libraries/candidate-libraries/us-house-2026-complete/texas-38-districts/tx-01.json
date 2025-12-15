@@ -1,0 +1,45 @@
+{
+  "name": "TX-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Nathaniel Moran (R)",
+        "Ryan Nichols (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Dax Alexander (D)",
+        "Tracy Andrus (D)",
+        "Yolanda Prince (D)",
+        "Masika Akilah Ray (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Sonia Canchola (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

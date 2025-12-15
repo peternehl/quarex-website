@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "history-and-anthropology",
+    "name": "History And Anthropology",
+    "description": null,
+    "bookCount": 1
+  },
+  {
+    "slug": "life-sciences",
+    "name": "Life Sciences",
+    "description": null,
+    "bookCount": 10
+  },
+  {
+    "slug": "mathematical-and-computational-sciences",
+    "name": "Mathematical And Computational Sciences",
+    "description": null,
+    "bookCount": 10
+  },
+  {
+    "slug": "physical-sciences",
+    "name": "Physical Sciences",
+    "description": null,
+    "bookCount": 10
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "name": "KY-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Morgan McGarvey (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Oumou Diallo (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "representation",
+        "us-politics"
+      ]
+    }
+  ]
+}

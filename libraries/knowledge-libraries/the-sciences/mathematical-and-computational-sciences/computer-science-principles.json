@@ -1,0 +1,126 @@
+{
+  "name": "Computer Science Principles",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Computer Science?",
+      "topics": [
+        "What is computer science and how is it different from programming?",
+        "What fundamental questions does computer science address?",
+        "How did computer science develop as a discipline?",
+        "What are the major subfields of computer science?",
+        "Why is computer science considered both science and engineering?",
+        "What skills do computer scientists develop?"
+      ],
+      "tags": ["technology", "computer-science", "education", "careers"]
+    },
+    {
+      "name": "Algorithms and Problem Solving",
+      "topics": [
+        "What is an algorithm and what makes one good or bad?",
+        "How do you measure algorithm efficiency using Big O notation?",
+        "What is the difference between linear, logarithmic, and exponential time?",
+        "What are classic algorithms for searching and sorting?",
+        "How do divide-and-conquer strategies solve complex problems?",
+        "Why do some problems have no efficient algorithms?"
+      ],
+      "tags": ["technology", "computer-science", "algorithms", "methodology"]
+    },
+    {
+      "name": "Data Structures",
+      "topics": [
+        "What are data structures and why do they matter?",
+        "How do arrays, linked lists, and dynamic arrays differ?",
+        "What are stacks and queues and where are they used?",
+        "How do trees and graphs organize hierarchical and networked data?",
+        "What are hash tables and why are they so fast?",
+        "How do you choose the right data structure for a problem?"
+      ],
+      "tags": ["technology", "computer-science", "programming", "education"]
+    },
+    {
+      "name": "Programming Languages",
+      "topics": [
+        "What is a programming language and how do they differ?",
+        "What is the difference between compiled and interpreted languages?",
+        "What are the major programming paradigms: procedural, object-oriented, functional?",
+        "Why do so many programming languages exist?",
+        "How do programming languages evolve over time?",
+        "What language should a beginner learn first?"
+      ],
+      "tags": ["technology", "computer-science", "programming", "education"]
+    },
+    {
+      "name": "Computer Architecture",
+      "topics": [
+        "How do computers execute instructions at the hardware level?",
+        "What is the von Neumann architecture?",
+        "How do CPU, memory, and storage work together?",
+        "What is the memory hierarchy and why does it matter for performance?",
+        "How do modern CPUs achieve parallel execution?",
+        "What are the limits of current computer architecture?"
+      ],
+      "tags": ["technology", "computer-science", "hardware", "engineering"]
+    },
+    {
+      "name": "Operating Systems",
+      "topics": [
+        "What does an operating system do and why do we need one?",
+        "How do operating systems manage multiple running programs?",
+        "What is virtual memory and how does it work?",
+        "How do file systems organize data on storage devices?",
+        "What security features do operating systems provide?",
+        "What are the differences between Windows, macOS, Linux, and mobile OS?"
+      ],
+      "tags": ["technology", "computer-science", "systems", "software"]
+    },
+    {
+      "name": "Networks and the Internet",
+      "topics": [
+        "How do computers communicate over networks?",
+        "What is the TCP/IP protocol stack and how does it work?",
+        "How does the internet route data packets around the world?",
+        "What is HTTP and how do web browsers and servers communicate?",
+        "How does DNS translate domain names to IP addresses?",
+        "What security threats exist on networks and how are they countered?"
+      ],
+      "tags": ["technology", "computer-science", "networking", "cybersecurity"]
+    },
+    {
+      "name": "Databases",
+      "topics": [
+        "What is a database and why do we use them?",
+        "What is SQL and how do you query relational databases?",
+        "What are the ACID properties and why do they matter for transactions?",
+        "What is the difference between relational and NoSQL databases?",
+        "How do databases handle millions of requests per second?",
+        "What is database normalization and when should you denormalize?"
+      ],
+      "tags": ["technology", "computer-science", "data", "software"]
+    },
+    {
+      "name": "Theory of Computation",
+      "topics": [
+        "What is computability and what can computers actually compute?",
+        "What is a Turing machine and why is it important?",
+        "What is the halting problem and why can't it be solved?",
+        "What is the P versus NP problem and why does it matter?",
+        "What problems are NP-complete and why are they hard?",
+        "What are the limits of what computers can do?"
+      ],
+      "tags": ["technology", "computer-science", "theory", "mathematics"]
+    },
+    {
+      "name": "Software Engineering",
+      "topics": [
+        "How do teams build large, complex software systems?",
+        "What is the software development lifecycle?",
+        "What are agile methods and how do they differ from waterfall?",
+        "How do version control systems like Git help collaboration?",
+        "What is testing and why is it essential for software quality?",
+        "What makes software maintainable and how do you reduce technical debt?"
+      ],
+      "tags": ["technology", "computer-science", "software", "methodology"]
+    }
+  ]
+}

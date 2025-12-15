@@ -1,0 +1,30 @@
+{
+  "name": "TN-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Diana Harshbarger (R)",
+        "Danny Gibson (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

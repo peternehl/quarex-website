@@ -1,0 +1,45 @@
+{
+  "name": "TX-18",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Allen Berry (R)",
+        "Cyrus Sajna (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Al Green (I)",
+        "Gretchen Brown (I)",
+        "Earnest Clayton (I)",
+        "Sylvester Turner (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

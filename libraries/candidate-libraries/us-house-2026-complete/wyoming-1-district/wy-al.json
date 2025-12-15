@@ -1,0 +1,47 @@
+{
+  "name": "WY-AL",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Chuck Gray (R)",
+        "Bryan Keller (R)",
+        "Marissa Selvig (R)",
+        "Darin Smith (R)",
+        "Bryan Miller (R)",
+        "Bo Biteman (R)",
+        "Catharine O'Neill (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Casey Hardison (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

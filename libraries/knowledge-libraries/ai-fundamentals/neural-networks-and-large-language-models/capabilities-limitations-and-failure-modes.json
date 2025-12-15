@@ -1,0 +1,45 @@
+{
+  "name": "Capabilities, Limitations, and Failure Modes",
+  "chapters": [
+    {
+      "name": "Patterns of Strength: Language, Code, and Patterns",
+      "topics": [],
+      "tags": [
+        "technology",
+        "ai-ml",
+        "innovation",
+        "neural-networks"
+      ]
+    },
+    {
+      "name": "Hallucinations and Fabricated Facts",
+      "topics": [],
+      "tags": [
+        "technology",
+        "misinformation",
+        "ai-ml",
+        "education"
+      ]
+    },
+    {
+      "name": "Bias, Toxic Outputs, and Safety Filters",
+      "topics": [],
+      "tags": [
+        "technology",
+        "ai-ml",
+        "bias",
+        "ethics"
+      ]
+    },
+    {
+      "name": "Robustness, Adversarial Inputs, and Edge Cases",
+      "topics": [],
+      "tags": [
+        "technology",
+        "ai-ml",
+        "cybersecurity",
+        "computer-science"
+      ]
+    }
+  ]
+}

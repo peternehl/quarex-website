@@ -1,0 +1,49 @@
+{
+  "name": "Colorado",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Dathan Jones (R)",
+        "Janak Joshi (R)",
+        "George Washington Markert (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "John Hickenlooper (D)",
+        "Karen Breslin (D)",
+        "Brashad Hasley (D)",
+        "Anthony Zimpfer (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Matthew Wood (I)",
+        "Clinton Dale (I)",
+        "Joshua Kuebler (I)",
+        "Robert Wolfe (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

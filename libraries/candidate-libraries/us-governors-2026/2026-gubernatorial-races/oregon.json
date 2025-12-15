@@ -1,0 +1,51 @@
+{
+  "name": "Oregon",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Danielle Bethell (R)",
+        "David Burch (R)",
+        "Christine Drazan (R)",
+        "Kyle Duyck (R)",
+        "Patrick Kopke-Hales (R)",
+        "Robert Neuman (R)",
+        "Brad T. Peters (R)",
+        "Matthew Piatt (R)",
+        "Paul Romero (R)",
+        "Martin Ward (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "James Atkinson (D)",
+        "Brittany Jones (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Alexander Ziwahatan (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "governance",
+        "us-politics"
+      ]
+    }
+  ]
+}

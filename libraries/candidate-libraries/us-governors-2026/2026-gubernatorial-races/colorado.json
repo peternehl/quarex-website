@@ -1,0 +1,79 @@
+{
+  "name": "Colorado",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mark Baisley (R)",
+        "Scott Bottoms (R)",
+        "Bob Brinkerhoff (R)",
+        "John Brooks (R)",
+        "Jason Ray Clark (R)",
+        "Brycen Garrison (R)",
+        "Stevan Gess (R)",
+        "Jon Gray-Ginsberg (R)",
+        "Joshua Griffin (R)",
+        "Barbara Kirkmeyer (R)",
+        "Greg Lopez (R)",
+        "Rabin Mahanty (R)",
+        "Vaughn Marx (R)",
+        "Will McBride (R)",
+        "Jason Mikesell (R)",
+        "Robert Moore (R)",
+        "Alex Mugatu (R)",
+        "Maria Orms (R)",
+        "Katie Pierce (R)",
+        "Jim Rundberg (R)",
+        "Daniel Thomas (R)",
+        "Kelvin Wimberly (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Michael Bennet (D)",
+        "Carmen Broesder (D)",
+        "David Hughes (D)",
+        "Anthony Martinez (D)",
+        "William Moses (D)",
+        "Phil Weiser (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Stephen Hamilton (I)",
+        "Kelsey Heikkinen (I)",
+        "Abass Yaya Bamba (I)",
+        "Shawn Bennett (I)",
+        "Willow Collamer (I)",
+        "Charles Evanson (I)",
+        "Marla Fernandez (I)",
+        "Justin Ganoe (I)",
+        "Chante Jones (I)",
+        "Marcus Marte (I)",
+        "Jarvis Ray (I)",
+        "Bradley Wall (I)",
+        "Matthew Yearous (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

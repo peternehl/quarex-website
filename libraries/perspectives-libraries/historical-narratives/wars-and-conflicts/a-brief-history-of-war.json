@@ -1,0 +1,151 @@
+{
+  "name": "A Brief History of War",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "The Origins of War",
+      "topics": [
+        "Did prehistoric humans wage war, or is warfare a product of civilization?",
+        "What archaeological evidence reveals the earliest organized violence?",
+        "Why did the first city-states develop professional armies?",
+        "How did agriculture and surplus wealth create incentives for conflict?",
+        "What role did religion play in justifying early warfare?"
+      ],
+      "tags": ["conflict", "anthropology", "ancient-history", "causation"]
+    },
+    {
+      "name": "Warfare in the Ancient World",
+      "topics": [
+        "How did the Greek phalanx revolutionize battlefield tactics?",
+        "What made the Roman legions so effective for centuries?",
+        "How did Sun Tzu's strategic principles shape Eastern warfare?",
+        "Why did ancient empires rise and fall through military conquest?",
+        "What technologies gave ancient armies decisive advantages?",
+        "How did siege warfare evolve from Assyria to Rome?"
+      ],
+      "tags": ["conflict", "ancient-history", "ancient-greece", "ancient-rome"]
+    },
+    {
+      "name": "Medieval and Feudal Warfare",
+      "topics": [
+        "How did the mounted knight dominate European battlefields for centuries?",
+        "What was the true military impact of the Crusades?",
+        "How did castles and fortifications shape medieval strategy?",
+        "Why did the Mongol conquests succeed on such an unprecedented scale?",
+        "What ended the dominance of armored cavalry?",
+        "How did feudal obligations create the armies of medieval Europe?"
+      ],
+      "tags": ["conflict", "medieval", "europe", "asia"]
+    },
+    {
+      "name": "The Gunpowder Revolution",
+      "topics": [
+        "How did gunpowder weapons transform warfare between 1400-1700?",
+        "Why did European armies adopt firearms faster than Asian powers?",
+        "What made the Ottoman military machine so formidable?",
+        "How did naval warfare change with cannons and galleons?",
+        "What was the 'Military Revolution' and why does it matter?",
+        "How did fortification design evolve to counter artillery?"
+      ],
+      "tags": ["conflict", "revolution", "innovation", "middle-east"]
+    },
+    {
+      "name": "Colonial Wars and Imperial Expansion",
+      "topics": [
+        "How did small European forces conquer vast empires?",
+        "What role did disease play as a weapon of conquest?",
+        "How did indigenous peoples resist colonial military power?",
+        "Why did the slave trade fuel cycles of African warfare?",
+        "What military innovations emerged from colonial conflicts?",
+        "How did guerrilla warfare develop as a response to imperial armies?"
+      ],
+      "tags": ["conflict", "colonialism", "africa", "americas"]
+    },
+    {
+      "name": "The Napoleonic Era and Industrial Warfare",
+      "topics": [
+        "What made Napoleon's armies so revolutionary?",
+        "How did mass conscription change the nature of war?",
+        "What lessons did the American Civil War teach about industrial warfare?",
+        "How did railways and telegraphs transform military logistics?",
+        "Why did the wars of German unification reshape European power?",
+        "What warning signs of modern total war appeared before 1914?"
+      ],
+      "tags": ["conflict", "industrial-revolution", "europe", "innovation"]
+    },
+    {
+      "name": "World War I: The Great Catastrophe",
+      "topics": [
+        "Why did the assassination of one man trigger global war?",
+        "What caused the Western Front to become a static nightmare?",
+        "How did new weapons—gas, tanks, aircraft—fail to break the stalemate?",
+        "What was the human cost of industrialized killing?",
+        "How did the war destroy four empires and reshape the world?",
+        "Could different decisions have prevented or shortened the war?"
+      ],
+      "tags": ["conflict", "world-wars", "europe", "causation"]
+    },
+    {
+      "name": "World War II: Total War and Genocide",
+      "topics": [
+        "How did the failures of WWI's peace lead to WWII?",
+        "What made Nazi Germany's early military victories so swift?",
+        "How did the Eastern Front become history's deadliest theater?",
+        "What role did strategic bombing play in defeating the Axis?",
+        "Was the atomic bombing of Japan militarily necessary?",
+        "How did WWII establish the framework for modern international order?",
+        "What distinguishes WWII's genocide from other wartime atrocities?"
+      ],
+      "tags": ["conflict", "world-wars", "nuclear-weapons", "human-rights"]
+    },
+    {
+      "name": "The Cold War and Proxy Conflicts",
+      "topics": [
+        "How did nuclear weapons paradoxically prevent great power war?",
+        "Why did Korea become the first major Cold War battlefield?",
+        "What made Vietnam a turning point in American military confidence?",
+        "How did superpower rivalry fuel conflicts across the developing world?",
+        "What was the human cost of Cold War proxy wars?",
+        "How close did the world come to nuclear war?"
+      ],
+      "tags": ["conflict", "cold-war", "nuclear-weapons", "geopolitics"]
+    },
+    {
+      "name": "Modern Warfare and Asymmetric Conflict",
+      "topics": [
+        "Why have powerful militaries struggled against insurgencies?",
+        "How has terrorism reshaped global security strategy?",
+        "What ethical dilemmas do drone strikes and targeted killings raise?",
+        "How has cyber warfare become a new domain of conflict?",
+        "What role do private military contractors play in modern wars?",
+        "Why do civil wars now last longer and kill more civilians?"
+      ],
+      "tags": ["conflict", "terrorism", "cyber-warfare", "drones"]
+    },
+    {
+      "name": "Future War in Literature and Thought",
+      "topics": [
+        "How did H.G. Wells and early science fiction imagine future warfare?",
+        "What did Cold War strategists predict about nuclear conflict?",
+        "How are autonomous weapons and AI changing military theory?",
+        "What do speculative fiction authors warn about tomorrow's wars?",
+        "Will space become the next battlefield?",
+        "How might climate change reshape the geography of future conflicts?"
+      ],
+      "tags": ["conflict", "prediction", "ai-ml", "fiction"]
+    },
+    {
+      "name": "The Ethics and Laws of War",
+      "topics": [
+        "Can war ever be morally justified?",
+        "How did international humanitarian law develop?",
+        "Why do war crimes persist despite legal prohibitions?",
+        "What moral obligations do soldiers have in combat?",
+        "How should societies remember and memorialize war?",
+        "Is lasting peace achievable, or is war inevitable?"
+      ],
+      "tags": ["ethics", "international-law", "human-rights", "justice"]
+    }
+  ]
+}

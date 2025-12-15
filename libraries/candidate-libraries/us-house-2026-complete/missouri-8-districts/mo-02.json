@@ -1,0 +1,47 @@
+{
+  "name": "MO-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ann Wagner (I)",
+        "Timothy Bilash (I)",
+        "Chuck Summers (I)",
+        "Nick Vivio (I)",
+        "Frederick Wellman (I)",
+        "Ryan Sheridan (I)",
+        "John Kiehne (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "name": "How Information Shapes What We Believe",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "The Psychology of Belief Formation",
+      "topics": [
+        "Why do humans form beliefs before gathering evidence rather than after?",
+        "What is confirmation bias and why is it so difficult to overcome?",
+        "How does motivated reasoning lead us to reject information that threatens our identity?",
+        "Why do repeated claims feel more true even when we know they're false?",
+        "What makes some ideas 'sticky' while others fail to spread?",
+        "How do emotions override rational evaluation of information?",
+        "Why do we trust information from people who seem like us?"
+      ],
+      "tags": ["psychology", "cognitive-bias", "cognition", "epistemology"]
+    },
+    {
+      "name": "How Media Evolved",
+      "topics": [
+        "How did the printing press transform who could spread ideas?",
+        "Why did newspapers develop partisan identities in the 18th and 19th centuries?",
+        "What 'objectivity' norm emerged in 20th-century journalism and why?",
+        "How did radio and television change the speed and reach of information?",
+        "Why did media consolidation accelerate in the 1980s and 1990s?",
+        "What business model shifts accompanied the rise of the internet?",
+        "How has the smartphone changed when and how we consume information?"
+      ],
+      "tags": ["media", "history", "journalism", "technology"]
+    },
+    {
+      "name": "The Attention Economy",
+      "topics": [
+        "Why is your attention the product being sold in digital media?",
+        "How do engagement metrics shape what content gets created?",
+        "What techniques do platforms use to maximize time on site?",
+        "Why does outrage spread faster than nuanced information?",
+        "How do variable rewards and infinite scroll exploit psychological vulnerabilities?",
+        "What happens to journalism when clicks matter more than accuracy?",
+        "Can subscription models escape the attention economy's incentives?"
+      ],
+      "tags": ["media", "digital-life", "platforms", "cognition"]
+    },
+    {
+      "name": "Algorithms and Filter Bubbles",
+      "topics": [
+        "How do recommendation algorithms decide what you see next?",
+        "What is a 'filter bubble' and how does it form around you?",
+        "Why might algorithmic personalization increase polarization?",
+        "Do algorithms actually trap people or do we self-select into bubbles?",
+        "How does YouTube's recommendation system shape political radicalization?",
+        "What happens when algorithms optimize for engagement over accuracy?",
+        "Can algorithmic transparency solve the filter bubble problem?"
+      ],
+      "tags": ["media", "algorithms", "social-media", "bias"]
+    },
+    {
+      "name": "Social Media Dynamics",
+      "topics": [
+        "Why does misinformation spread faster than corrections on social media?",
+        "How do social networks amplify extreme voices over moderate ones?",
+        "What role do bots and coordinated campaigns play in shaping discourse?",
+        "Why do people share content they haven't actually read?",
+        "How does the pursuit of likes and shares distort how we present information?",
+        "What 'context collapse' occurs when all audiences see the same post?",
+        "Why do pile-ons and viral shaming spread so quickly online?"
+      ],
+      "tags": ["media", "social-media", "misinformation", "communication"]
+    },
+    {
+      "name": "Media Bias: Real and Perceived",
+      "topics": [
+        "What forms of bias exist in media—selection, framing, omission, tone?",
+        "How do ownership structures influence what stories get covered?",
+        "Why do people perceive bias in coverage that researchers find balanced?",
+        "What is the 'hostile media effect' and who experiences it?",
+        "How does geographic concentration of journalists affect coverage?",
+        "Do fact-checkers exhibit systematic bias in what they choose to check?",
+        "Why do accusations of bias sometimes function as a way to dismiss unwelcome facts?",
+        "Why did media frame the Afghanistan evacuation as a catastrophe while the far more chaotic Vietnam withdrawal escaped similar criticism?"
+      ],
+      "tags": ["media", "bias", "journalism", "rhetoric"]
+    },
+    {
+      "name": "Propaganda and Persuasion",
+      "topics": [
+        "What distinguishes propaganda from legitimate persuasion?",
+        "How did 20th-century regimes develop systematic propaganda techniques?",
+        "What makes wartime propaganda effective at shaping public opinion?",
+        "How do modern authoritarian states control information environments?",
+        "What 'firehose of falsehood' strategy does Russian disinformation employ?",
+        "How does advertising use propaganda techniques to shape behavior?",
+        "Why is propaganda often most effective when it confirms existing beliefs?"
+      ],
+      "tags": ["media", "propaganda", "authoritarianism", "influence"]
+    },
+    {
+      "name": "Misinformation and Disinformation",
+      "topics": [
+        "What distinguishes misinformation (false) from disinformation (deliberately false)?",
+        "Why do conspiracy theories appeal to psychological needs for pattern and agency?",
+        "How do foreign actors use disinformation to destabilize democracies?",
+        "What makes health misinformation particularly dangerous?",
+        "Why do corrections sometimes backfire and strengthen false beliefs?",
+        "How did misinformation spread during COVID-19 and with what consequences?",
+        "What role do elite political figures play in legitimizing false claims?"
+      ],
+      "tags": ["media", "misinformation", "fact-checking", "public-health"]
+    },
+    {
+      "name": "The Decline of Shared Reality",
+      "topics": [
+        "Why did Americans once share a relatively common set of facts?",
+        "How has media fragmentation enabled people to live in different information worlds?",
+        "What happens to democracy when citizens cannot agree on basic facts?",
+        "Why do partisan media consumers have more factual misconceptions?",
+        "How do 'alternative facts' and 'fake news' accusations undermine shared epistemology?",
+        "Can a society function when groups hold incompatible versions of reality?",
+        "What would it take to rebuild a shared factual foundation?"
+      ],
+      "tags": ["society", "democracy", "epistemology", "identity"]
+    },
+    {
+      "name": "Trust and Institutional Credibility",
+      "topics": [
+        "Why has trust in mainstream media declined so dramatically?",
+        "How did the credibility gap between partisan groups widen?",
+        "What role did media failures—like Iraq WMD coverage—play in eroding trust?",
+        "Why do people trust partisan sources that confirm their views over neutral ones?",
+        "How do attacks on 'fake news' undermine legitimate journalism?",
+        "What makes some institutions retain credibility while others lose it?",
+        "Can trust in media be rebuilt, and if so, how?"
+      ],
+      "tags": ["media", "journalism", "accountability", "epistemology"]
+    },
+    {
+      "name": "Political Communication and Spin",
+      "topics": [
+        "How do political campaigns craft messages to shape perception?",
+        "What techniques do politicians use to avoid answering questions?",
+        "How does 'framing' change how people evaluate the same policy?",
+        "Why do attack ads work even when viewers say they dislike them?",
+        "What role do focus groups and polling play in crafting political messages?",
+        "How do political operatives plant stories and shape news coverage?",
+        "Why has political communication become more sophisticated while voters feel less informed?"
+      ],
+      "tags": ["politics", "rhetoric", "elections", "propaganda"]
+    },
+    {
+      "name": "Echo Chambers and Polarization",
+      "topics": [
+        "What is an echo chamber and how does it differ from a filter bubble?",
+        "Why do people increasingly consume news that reinforces their existing views?",
+        "How does selective exposure contribute to political polarization?",
+        "What role does social identity play in which information we accept?",
+        "Why do partisan media hosts become trusted authorities for their audiences?",
+        "How do echo chambers distort perception of what the 'other side' believes?",
+        "Can exposure to opposing views reduce polarization or does it backfire?"
+      ],
+      "tags": ["media", "identity", "bias", "democracy"]
+    },
+    {
+      "name": "The Business of News",
+      "topics": [
+        "How did the collapse of classified advertising devastate local newspapers?",
+        "Why has consolidation reduced the number of independent news sources?",
+        "What 'news deserts' have formed as local journalism disappears?",
+        "How do hedge fund owners change newsroom priorities?",
+        "Why does investigative journalism struggle to find sustainable funding?",
+        "What alternative business models—nonprofit, membership, public—show promise?",
+        "How does the economics of news shape what stories get told?"
+      ],
+      "tags": ["media", "journalism", "finance", "development"]
+    },
+    {
+      "name": "Information Warfare",
+      "topics": [
+        "How do nation-states weaponize information against adversaries?",
+        "What cyber operations target information systems and public opinion?",
+        "How did Russian interference target the 2016 US election?",
+        "What role does China play in global information manipulation?",
+        "How do information operations exploit existing societal divisions?",
+        "What defenses can democracies mount against information warfare?",
+        "Why is attribution of information attacks so difficult?"
+      ],
+      "tags": ["security", "cyber-warfare", "geopolitics", "elections"]
+    },
+    {
+      "name": "Deepfakes and Synthetic Media",
+      "topics": [
+        "What are deepfakes and how convincing have they become?",
+        "Why does AI-generated content threaten our ability to trust video evidence?",
+        "How might synthetic media be used to manipulate elections or markets?",
+        "What detection methods exist for identifying AI-generated content?",
+        "Why might the mere existence of deepfakes undermine trust in all media?",
+        "How are platforms and governments responding to synthetic media threats?",
+        "What happens to evidence and accountability in a post-truth visual world?"
+      ],
+      "tags": ["media", "deepfakes", "ai-ml", "verification"]
+    },
+    {
+      "name": "Platform Power and Content Moderation",
+      "topics": [
+        "Why do a handful of companies control most online information flow?",
+        "What principles guide platform decisions about what content to allow?",
+        "How do content moderation decisions balance free speech and harm reduction?",
+        "Why do both left and right accuse platforms of biased moderation?",
+        "What happened when Twitter/X changed its moderation policies under new ownership?",
+        "Should platforms be treated as publishers, utilities, or something new?",
+        "What alternatives to centralized platform control have been proposed?"
+      ],
+      "tags": ["media", "platforms", "free-speech", "regulation"]
+    },
+    {
+      "name": "Media Literacy and Critical Thinking",
+      "topics": [
+        "What skills help people evaluate information sources effectively?",
+        "Why do media literacy programs show mixed results?",
+        "How can 'lateral reading' help verify claims quickly?",
+        "What questions should you ask before sharing information?",
+        "Why is emotional reaction often a signal to slow down and verify?",
+        "How do professional fact-checkers approach verification?",
+        "Can individual skills compensate for a broken information environment?"
+      ],
+      "tags": ["media", "media-literacy", "critical-thinking", "source-evaluation"]
+    },
+    {
+      "name": "Science Communication and Expertise",
+      "topics": [
+        "Why does scientific consensus get misrepresented as 'debate' in media?",
+        "How does false balance distort coverage of settled science?",
+        "What makes some people distrust scientific expertise?",
+        "How did COVID-19 expose failures in science communication?",
+        "Why do preliminary studies get amplified before replication?",
+        "What role do preprints and social media play in bypassing peer review?",
+        "How can scientists communicate uncertainty without undermining trust?"
+      ],
+      "tags": ["science", "communication", "methodology", "public-health"]
+    },
+    {
+      "name": "Information Access and Inequality",
+      "topics": [
+        "How does the digital divide affect who can access quality information?",
+        "Why do paywalls create a two-tiered information system?",
+        "What information deserts exist in underserved communities?",
+        "How does information asymmetry perpetuate economic and political inequality?",
+        "Why do some populations face greater exposure to misinformation?",
+        "What language barriers limit access to reliable information?",
+        "How does information inequality compound other forms of disadvantage?"
+      ],
+      "tags": ["media", "inequality", "accessibility", "poverty"]
+    },
+    {
+      "name": "Government, Secrecy, and Transparency",
+      "topics": [
+        "What legitimate reasons exist for government secrecy?",
+        "How do FOIA requests and leaks reveal information governments hide?",
+        "What role did WikiLeaks and Snowden play in exposing government surveillance?",
+        "Why do classification systems over-classify information?",
+        "How does government propaganda operate in democracies?",
+        "What transparency mechanisms help citizens hold governments accountable?",
+        "When does secrecy protect security and when does it enable abuse?"
+      ],
+      "tags": ["governance", "transparency", "surveillance", "accountability"]
+    },
+    {
+      "name": "AI and the Future of Information",
+      "topics": [
+        "How will AI-generated content flood the information environment?",
+        "What happens when chatbots become primary information sources?",
+        "Can AI tools help identify misinformation or will they amplify it?",
+        "How might personalized AI assistants shape individual worldviews?",
+        "What does search look like when AI summarizes rather than links?",
+        "Why might AI make it impossible to distinguish human from synthetic content?",
+        "What governance frameworks could manage AI's information impacts?"
+      ],
+      "tags": ["technology", "ai-ml", "llms", "prediction"]
+    },
+    {
+      "name": "Possible Futures",
+      "topics": [
+        "What would a healthier information ecosystem look like?",
+        "Can regulation improve information quality without enabling censorship?",
+        "What role should public media play in providing reliable information?",
+        "How might decentralized platforms change information dynamics?",
+        "What business models could sustain quality journalism?",
+        "Can societies develop immunity to manipulation over time?",
+        "What gives you hope—or concern—about the future of information?"
+      ],
+      "tags": ["media", "prediction", "regulation", "innovation"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AZ-07",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Daniel Butierez (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Adelita Grijalva (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

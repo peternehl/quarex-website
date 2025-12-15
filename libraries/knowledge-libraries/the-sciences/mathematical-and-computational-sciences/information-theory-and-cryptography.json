@@ -1,0 +1,126 @@
+{
+  "name": "Information Theory and Cryptography",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Information?",
+      "topics": [
+        "How do mathematicians define and measure information?",
+        "What is a bit and why is it the fundamental unit of information?",
+        "What did Claude Shannon discover about information?",
+        "How does information content relate to probability and surprise?",
+        "What is entropy in information theory?",
+        "How do we measure how much information a message contains?"
+      ],
+      "tags": ["science", "mathematics", "information-theory", "education"]
+    },
+    {
+      "name": "Entropy and Compression",
+      "topics": [
+        "What is Shannon entropy and what does it measure?",
+        "Why can some data be compressed more than others?",
+        "What is the fundamental limit on lossless compression?",
+        "How do Huffman codes achieve efficient compression?",
+        "What is the difference between lossless and lossy compression?",
+        "How do ZIP files and MP3s use information theory?"
+      ],
+      "tags": ["science", "mathematics", "information-theory", "technology"]
+    },
+    {
+      "name": "Communication Channels",
+      "topics": [
+        "What is a communication channel in information theory?",
+        "What is channel capacity and what limits how fast we can communicate?",
+        "What is noise and how does it affect information transmission?",
+        "What is the Shannon-Hartley theorem?",
+        "How do modems and cell phones approach channel capacity?",
+        "What is the noisy channel coding theorem?"
+      ],
+      "tags": ["science", "mathematics", "communication", "engineering"]
+    },
+    {
+      "name": "Error Correction",
+      "topics": [
+        "Why do we need error-correcting codes?",
+        "How do parity bits detect errors?",
+        "What are Hamming codes and how do they correct single errors?",
+        "What are Reed-Solomon codes and where are they used?",
+        "How do CDs and DVDs recover from scratches using error correction?",
+        "What error correction do modern communication systems use?"
+      ],
+      "tags": ["science", "mathematics", "coding-theory", "technology"]
+    },
+    {
+      "name": "History of Cryptography",
+      "topics": [
+        "What is cryptography and why has it been important throughout history?",
+        "How did ancient civilizations encrypt secret messages?",
+        "What was the Caesar cipher and how was it broken?",
+        "How did the Enigma machine work and how was it cracked?",
+        "Who were the codebreakers of World War II?",
+        "How did cryptography change with computers?"
+      ],
+      "tags": ["science", "cryptography", "history", "security"]
+    },
+    {
+      "name": "Symmetric Encryption",
+      "topics": [
+        "What is symmetric encryption and how does it work?",
+        "What is AES and why is it the current standard?",
+        "What is the key distribution problem?",
+        "What is a one-time pad and why is it perfectly secure?",
+        "What is a block cipher versus a stream cipher?",
+        "How do we generate secure random numbers for cryptography?"
+      ],
+      "tags": ["science", "cryptography", "cybersecurity", "technology"]
+    },
+    {
+      "name": "Public Key Cryptography",
+      "topics": [
+        "What is public key cryptography and why was it revolutionary?",
+        "How does RSA encryption work?",
+        "What mathematical problem makes RSA secure?",
+        "What is the Diffie-Hellman key exchange?",
+        "How do digital signatures verify authenticity?",
+        "What is elliptic curve cryptography and why is it popular?"
+      ],
+      "tags": ["science", "cryptography", "cybersecurity", "mathematics"]
+    },
+    {
+      "name": "Cryptographic Protocols",
+      "topics": [
+        "How does HTTPS secure web browsing?",
+        "What is TLS and how does it establish secure connections?",
+        "What are hash functions and what properties must they have?",
+        "How do cryptocurrencies like Bitcoin use cryptography?",
+        "What is zero-knowledge proof and what can it do?",
+        "How does end-to-end encryption protect messaging apps?"
+      ],
+      "tags": ["science", "cryptography", "cybersecurity", "applications"]
+    },
+    {
+      "name": "Quantum Information",
+      "topics": [
+        "What is quantum information and how is it different from classical?",
+        "What is a qubit and how does superposition work?",
+        "How does quantum key distribution provide unbreakable security?",
+        "What is quantum entanglement and how is it used in communication?",
+        "Could quantum computers break current encryption?",
+        "What is post-quantum cryptography?"
+      ],
+      "tags": ["science", "quantum", "cryptography", "innovation"]
+    },
+    {
+      "name": "Information Security Today",
+      "topics": [
+        "What are the biggest threats to information security?",
+        "How do attackers try to break cryptographic systems?",
+        "What is social engineering and why is it often easier than breaking codes?",
+        "How do governments and corporations protect sensitive data?",
+        "What privacy issues arise from the digitization of information?",
+        "How might cryptography and information security evolve?"
+      ],
+      "tags": ["science", "cryptography", "cybersecurity", "policy"]
+    }
+  ]
+}

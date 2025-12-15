@@ -1,0 +1,84 @@
+{
+  "name": "Marie Byrd Land",
+  "chapters": [
+    {
+      "name": "Regional Overview",
+      "topics": [
+        "Population (Research Personnel Only)",
+        "Climate & Geography",
+        "Scientific Research Activities",
+        "Governance (Antarctic Treaty System)",
+        "Culture & Language (Scientific Community)",
+        "Major Bases & Stations",
+        "History & Exploration",
+        "Environmental Conditions",
+        "Logistics & Transportation",
+        "Ecosystems & Wildlife",
+        "Infrastructure & Facilities",
+        "Current Issues & Headlines",
+        "International Cooperation",
+        "Natural Resources & Conservation",
+        "What to Know if Visiting (Researchers Only)"
+      ],
+      "tags": [
+        "geography",
+        "climate-change",
+        "earth-science",
+        "identity"
+      ]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "Pre-Human & Paleoclimate Era",
+        "Pre-Historic Civilization",
+        "Pre-Historic to 0 BC",
+        "0–1000 AD",
+        "1000–2000 AD",
+        "2000 AD to Present"
+      ],
+      "tags": [
+        "history",
+        "climate-change",
+        "earth-science",
+        "geography"
+      ]
+    },
+    {
+      "name": "Government & Laws",
+      "topics": [
+        "Constitution",
+        "Political System",
+        "Branches of Government",
+        "Political Parties",
+        "Civil Liberties & Human Rights",
+        "Recent Elections",
+        "Judicial System & Key Laws"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "diplomacy",
+        "geography"
+      ]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "Safety & Risk Assessment",
+        "Entry Requirements (Visas, Vaccines, Restrictions)",
+        "Currency & Payment Systems",
+        "Transportation & Navigation",
+        "Rules & Laws Visitors Must Know",
+        "Cultural Etiquette & Expectations",
+        "Travel Tips & Practical Advice"
+      ],
+      "tags": [
+        "geography",
+        "infrastructure",
+        "climate-change",
+        "identity"
+      ]
+    }
+  ]
+}

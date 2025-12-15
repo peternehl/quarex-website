@@ -1,0 +1,30 @@
+{
+  "name": "New York",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Elise Stefanik (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Kathy Hochul (D)",
+        "Antonio Delgado (D)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Contemporary Art: Themes and Movements Since 1945",
+  "chapters": [
+    {
+      "name": "Abstract Expressionism",
+      "topics": [
+        "How did Abstract Expressionism emerge in postwar New York?",
+        "What distinguished the gestural painting of de Kooning and Pollock from Color Field painters?",
+        "How did Jackson Pollock's drip technique change the act of painting?",
+        "What role did critics like Clement Greenberg play in promoting Abstract Expressionism?",
+        "How did women artists like Lee Krasner and Helen Frankenthaler contribute to the movement?",
+        "Why did Abstract Expressionism shift the art world's center from Paris to New York?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "painting"]
+    },
+    {
+      "name": "Pop Art and Consumer Culture",
+      "topics": [
+        "How did Pop artists use imagery from advertising, comics, and mass media?",
+        "What was Andy Warhol saying about fame, celebrity, and reproduction?",
+        "How did Roy Lichtenstein transform comic book imagery into fine art?",
+        "What distinguished British Pop Art from its American counterpart?",
+        "How did Pop Art challenge the distinction between high art and popular culture?",
+        "What is Pop Art's legacy in contemporary visual culture?"
+      ],
+      "tags": ["arts", "identity", "visual-arts", "pop-art"]
+    },
+    {
+      "name": "Minimalism and Conceptual Art",
+      "topics": [
+        "What did Minimalist artists mean by 'what you see is what you see'?",
+        "How did Donald Judd, Dan Flavin, and Carl Andre redefine sculpture?",
+        "What is Conceptual Art and why does the idea matter more than the object?",
+        "How did artists like Sol LeWitt use instructions and systems to make art?",
+        "What role did language play in Conceptual Art practices?",
+        "How did Minimalism and Conceptual Art challenge traditional art markets?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Performance and Body Art",
+      "topics": [
+        "How did performance art emerge as a distinct medium in the 1960s and 70s?",
+        "What role does the artist's body play in Body Art?",
+        "How did Marina Abramović push the limits of endurance in her performances?",
+        "What distinguished Fluxus performances from traditional theatre?",
+        "How do performance artists document ephemeral works?",
+        "What ethical questions arise when artists put their bodies at risk?"
+      ],
+      "tags": ["arts", "performing-arts", "identity", "visual-arts"]
+    },
+    {
+      "name": "Installation and Environmental Art",
+      "topics": [
+        "What defines installation art and how does it differ from traditional sculpture?",
+        "How do installation artists transform gallery spaces into immersive environments?",
+        "What is Land Art and how did artists like Smithson work in the landscape?",
+        "How does site-specificity determine the meaning of installation works?",
+        "What role does the viewer's movement and participation play in installations?",
+        "How have artists addressed environmental issues through their work?"
+      ],
+      "tags": ["arts", "environment", "visual-arts", "sculpture"]
+    },
+    {
+      "name": "Postmodernism and Appropriation",
+      "topics": [
+        "What does postmodernism mean in the context of visual art?",
+        "How do appropriation artists like Sherrie Levine and Richard Prince use existing images?",
+        "What legal and ethical issues surround artistic appropriation?",
+        "How did postmodern artists question originality and authorship?",
+        "What role does irony and pastiche play in postmodern art?",
+        "How did postmodernism challenge modernist ideas of progress and purity?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "postmodernism"]
+    },
+    {
+      "name": "Identity Politics and Art",
+      "topics": [
+        "How have artists addressed race, gender, and sexuality in their work?",
+        "What contributions did feminist artists make starting in the 1970s?",
+        "How have African American artists engaged with identity and representation?",
+        "What role has LGBTQ+ identity played in contemporary art?",
+        "How do artists from marginalized communities challenge art world exclusions?",
+        "What debates surround identity-based art and representation?"
+      ],
+      "tags": ["arts", "identity", "human-rights", "visual-arts"]
+    },
+    {
+      "name": "New Media and Digital Art",
+      "topics": [
+        "How have artists used video, computers, and the internet as artistic media?",
+        "What is net art and how did artists use the early internet creatively?",
+        "How do interactive digital works engage audiences differently than static art?",
+        "What new possibilities do virtual and augmented reality offer artists?",
+        "How has social media become both subject and medium for contemporary artists?",
+        "What challenges does digital art pose for collection and preservation?"
+      ],
+      "tags": ["arts", "digital-life", "innovation", "digital-art"]
+    },
+    {
+      "name": "Globalization and Contemporary Art",
+      "topics": [
+        "How has globalization changed which artists and regions gain recognition?",
+        "What role do international biennials play in the global art world?",
+        "How have artists from Asia, Africa, and Latin America reshaped contemporary art?",
+        "What tensions exist between local traditions and global art market demands?",
+        "How do postcolonial perspectives inform contemporary art practice?",
+        "What does it mean for contemporary art to be truly global?"
+      ],
+      "tags": ["arts", "globalization", "cultural-heritage", "visual-arts"]
+    },
+    {
+      "name": "Social Practice and Relational Aesthetics",
+      "topics": [
+        "What is social practice art and how does it differ from traditional art forms?",
+        "How did Nicolas Bourriaud define relational aesthetics?",
+        "What kinds of community engagement do social practice artists pursue?",
+        "How do artists working in social practice measure success?",
+        "What critiques have been made of relational and social practice art?",
+        "How does social practice art blur the line between art and activism?"
+      ],
+      "tags": ["arts", "activism", "interpersonal-dynamics", "visual-arts"]
+    }
+  ]
+}

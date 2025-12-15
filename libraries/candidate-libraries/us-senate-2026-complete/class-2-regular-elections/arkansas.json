@@ -1,0 +1,33 @@
+{
+  "name": "Arkansas",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tom Cotton (R)",
+        "Micah Ashby (R)",
+        "Jeb Little (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ethan Dunbar (D)",
+        "Hallie Shoffner (D)",
+        "Dan Whitfield (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

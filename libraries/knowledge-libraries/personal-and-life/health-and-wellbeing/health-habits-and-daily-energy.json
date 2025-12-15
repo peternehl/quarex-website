@@ -1,0 +1,65 @@
+{
+  "name": "Health, Habits & Daily Energy",
+  "chapters": [
+    {
+      "name": "Sleep, Food, and Movement",
+      "topics": [
+        "Why sleep is a foundation for mental and physical health",
+        "Simple approaches to eating a bit better over time",
+        "Finding forms of movement you actually enjoy",
+        "How small changes compound over months and years"
+      ],
+      "tags": [
+        "health",
+        "mental-health",
+        "behavioral-psychology",
+        "nutrition"
+      ]
+    },
+    {
+      "name": "Building Better Habits",
+      "topics": [
+        "Starting tiny instead of relying on willpower",
+        "Habit stacking: attaching new habits to existing ones",
+        "Tracking progress without becoming obsessive",
+        "Recovering from setbacks without giving up"
+      ],
+      "tags": [
+        "health",
+        "mental-health",
+        "behavioral-psychology",
+        "innovation"
+      ]
+    },
+    {
+      "name": "Managing Stress and Overload",
+      "topics": [
+        "Recognizing early signs of burnout and exhaustion",
+        "Small daily practices that lower stress",
+        "Setting limits on work, news, and digital overwhelm",
+        "Knowing when stress is a signal to change something bigger"
+      ],
+      "tags": [
+        "health",
+        "mental-health",
+        "workplace-dynamics",
+        "education"
+      ]
+    },
+    {
+      "name": "Mental Health Basics",
+      "topics": [
+        "Normal ups and downs versus concerning symptoms",
+        "When to consider therapy or counseling",
+        "How to talk to loved ones about mental health",
+        "Reducing self-stigma around getting help"
+      ],
+      "tags": [
+        "psychology",
+        "mental-health",
+        "interpersonal-dynamics",
+        "neuroscience"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Kentucky",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Andy Barr (R)",
+        "Daniel Cameron (R)",
+        "Mike Faris (R)",
+        "Wende Kennedy (R)",
+        "Nate Morris (R)",
+        "Andrew Shelley (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Logan Forsythe (D)",
+        "Jared Randall (D)",
+        "Dale Romans (D)",
+        "Pamela Stevenson (D)",
+        "Vincent Thompson (D)",
+        "Joel Willett (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Christopher Campbell (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

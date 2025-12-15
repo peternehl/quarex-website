@@ -1,0 +1,50 @@
+{
+  "name": "KY-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ralph Alvarado (R)",
+        "Ryan Dotson (R)",
+        "Deanna Frazier Gordon (R)",
+        "Adam Perez Arquette (R)",
+        "Greg Plucinski (R)",
+        "Andy Barr (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Zach Dembo (D)",
+        "David Kloiber (D)",
+        "Erin Petrey (D)",
+        "Cherlynn Stevenson (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jay Bowman (I)",
+        "Pete Lynch (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

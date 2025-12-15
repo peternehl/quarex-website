@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "climate-debates",
+    "name": "Climate Debates",
+    "description": "Competing viewpoints on climate change causes, consequences, responsibilities, and policy responses",
+    "bookCount": 1
+  },
+  {
+    "slug": "criminal-justice-debates",
+    "name": "Criminal Justice Debates",
+    "description": "Competing perspectives on policing, criminal justice, public safety, accountability, and reform",
+    "bookCount": 1
+  },
+  {
+    "slug": "free-speech-debates",
+    "name": "Free Speech Debates",
+    "description": "Competing views on balancing free expression with protection from harm",
+    "bookCount": 1
+  },
+  {
+    "slug": "immigration-debates",
+    "name": "Immigration Debates",
+    "description": "Competing perspectives on immigration, borders, belonging, and national identity",
+    "bookCount": 1
+  },
+  {
+    "slug": "social-equality-debates",
+    "name": "Social Equality Debates",
+    "description": "Competing viewpoints on equality, discrimination, identity, rights, fairness, and inclusion",
+    "bookCount": 1
+  }
+]

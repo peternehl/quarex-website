@@ -1,0 +1,126 @@
+{
+  "name": "Energy Science and Engineering",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Energy?",
+      "topics": [
+        "How do physicists define energy and what forms does it take?",
+        "What is the difference between kinetic and potential energy?",
+        "How does the law of conservation of energy work?",
+        "What is the relationship between energy and work?",
+        "How do we measure energy in different units: joules, calories, kilowatt-hours?",
+        "Why is energy central to everything that happens in the universe?"
+      ],
+      "tags": ["science", "energy", "physics", "education"]
+    },
+    {
+      "name": "Fossil Fuels",
+      "topics": [
+        "How did coal, oil, and natural gas form over millions of years?",
+        "How do we extract and process fossil fuels?",
+        "What is the energy density of different fossil fuels?",
+        "How do power plants convert fossil fuels into electricity?",
+        "What environmental impacts result from burning fossil fuels?",
+        "How long will fossil fuel reserves last at current consumption rates?"
+      ],
+      "tags": ["science", "energy", "environment", "industry"]
+    },
+    {
+      "name": "Nuclear Energy",
+      "topics": [
+        "How does nuclear fission release energy from uranium atoms?",
+        "How do nuclear power plants generate electricity safely?",
+        "What is nuclear waste and how is it managed?",
+        "What caused nuclear accidents at Chernobyl and Fukushima?",
+        "How does nuclear fusion differ from fission and why is it promising?",
+        "What role might nuclear energy play in reducing carbon emissions?"
+      ],
+      "tags": ["science", "energy", "physics", "innovation"]
+    },
+    {
+      "name": "Solar Energy",
+      "topics": [
+        "How do photovoltaic cells convert sunlight directly into electricity?",
+        "What is concentrated solar power and how does it work?",
+        "How efficient are current solar panels and how is this improving?",
+        "What factors affect how much solar energy a location receives?",
+        "How has the cost of solar energy changed over time?",
+        "What are the challenges of integrating solar into the electrical grid?"
+      ],
+      "tags": ["science", "energy", "sustainability", "technology"]
+    },
+    {
+      "name": "Wind Energy",
+      "topics": [
+        "How do wind turbines convert moving air into electricity?",
+        "What determines how much power a wind turbine can generate?",
+        "Where are the best locations for wind farms on land and at sea?",
+        "How has wind turbine technology evolved over decades?",
+        "What are the environmental impacts of wind energy?",
+        "How do grid operators manage variable wind power?"
+      ],
+      "tags": ["science", "energy", "sustainability", "engineering"]
+    },
+    {
+      "name": "Hydroelectric and Ocean Energy",
+      "topics": [
+        "How do hydroelectric dams generate electricity from flowing water?",
+        "What are run-of-river and pumped storage hydroelectric systems?",
+        "What environmental trade-offs come with damming rivers?",
+        "How can ocean tides and waves be harnessed for energy?",
+        "What is ocean thermal energy conversion?",
+        "What role does hydropower play in different countries' energy mix?"
+      ],
+      "tags": ["science", "energy", "sustainability", "infrastructure"]
+    },
+    {
+      "name": "Geothermal and Biomass Energy",
+      "topics": [
+        "How does geothermal energy tap Earth's internal heat?",
+        "Where are geothermal resources most accessible?",
+        "What is biomass and how can it be converted to energy?",
+        "What are biofuels and how sustainable are they?",
+        "How do anaerobic digesters produce biogas from organic waste?",
+        "What are the carbon implications of burning biomass?"
+      ],
+      "tags": ["science", "energy", "sustainability", "environment"]
+    },
+    {
+      "name": "Energy Storage",
+      "topics": [
+        "Why is energy storage critical for renewable energy systems?",
+        "How do lithium-ion batteries work and what limits them?",
+        "What other battery technologies are being developed?",
+        "How does pumped hydro storage work at grid scale?",
+        "What is the role of hydrogen as an energy carrier?",
+        "How might future energy storage transform the grid?"
+      ],
+      "tags": ["science", "energy", "technology", "innovation"]
+    },
+    {
+      "name": "The Electrical Grid",
+      "topics": [
+        "How does electricity travel from power plants to homes and businesses?",
+        "What is the difference between AC and DC power transmission?",
+        "How do grid operators balance supply and demand in real time?",
+        "What is a smart grid and how does it improve efficiency?",
+        "How do microgrids provide local energy resilience?",
+        "What infrastructure changes are needed for a renewable energy grid?"
+      ],
+      "tags": ["science", "energy", "infrastructure", "engineering"]
+    },
+    {
+      "name": "Energy Efficiency and the Future",
+      "topics": [
+        "Why is reducing energy demand as important as clean supply?",
+        "What technologies improve energy efficiency in buildings?",
+        "How can transportation become more energy efficient?",
+        "What industrial processes waste the most energy?",
+        "What would a fully decarbonized energy system look like?",
+        "What policy approaches help accelerate the energy transition?"
+      ],
+      "tags": ["science", "energy", "sustainability", "policy"]
+    }
+  ]
+}

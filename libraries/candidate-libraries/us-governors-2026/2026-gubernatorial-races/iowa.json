@@ -1,0 +1,35 @@
+{
+  "name": "Iowa",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Eddie Andrews (R)",
+        "Randy Feenstra (R)",
+        "Zach Lahn (R)",
+        "Brad Sherman (R)",
+        "Adam Steen (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Paul Dahl (D)",
+        "Rob Sand (D)",
+        "Julie Stauch (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Power, Energy & Cooling Systems",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Grid Power & Utility Dependency",
+      "topics": [
+        "How dependent are data centers on stable grid power?",
+        "What utility relationships do data centers require?",
+        "How do data centers connect to utility power infrastructure?",
+        "What transformer and switchgear configurations serve data centers?",
+        "What power quality issues affect data center equipment?",
+        "How do voltage sags, surges, and harmonics impact operations?",
+        "How do operators monitor grid power quality and availability?",
+        "What utility communication and coordination protocols exist?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Backup Power & Emergency Generation",
+      "topics": [
+        "What backup power systems protect data centers during outages?",
+        "How do UPS systems provide immediate power continuity?",
+        "What UPS topologies and configurations do data centers deploy?",
+        "How are generator systems sized and configured for data center loads?",
+        "How do UPS systems affect overall power efficiency?",
+        "What cooling requirements apply to UPS and generator systems?",
+        "How often should backup power systems be tested?",
+        "What maintenance schedules keep UPS and generators reliable?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Renewable & Alternative Energy Integration",
+      "topics": [
+        "How are data centers integrating renewable energy sources?",
+        "What renewable energy options are viable for data center operations?",
+        "How do on-site solar and wind installations integrate with data centers?",
+        "What grid interconnection enables off-site renewable energy use?",
+        "How do intermittent renewable sources affect power reliability?",
+        "What role does energy storage play in renewable integration?",
+        "How do operators manage variable renewable energy supply?",
+        "What monitoring tracks renewable energy generation and consumption?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "climate-change",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Cooling Systems & Thermal Engineering",
+      "topics": [
+        "Why is cooling critical to data center operations?",
+        "What are the fundamental principles of data center thermal management?",
+        "How do raised floor and hot/cold aisle designs manage airflow?",
+        "What CRAC and CRAH systems provide precision cooling?",
+        "How is cooling system efficiency measured and optimized?",
+        "What free cooling and economizer strategies reduce energy use?",
+        "How do operators monitor and manage thermal conditions?",
+        "What maintenance keeps cooling systems operating reliably?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Water Use, Scarcity & Environmental Load",
+      "topics": [
+        "How do data centers use water in their operations?",
+        "What is water usage effectiveness and how is it measured?",
+        "What cooling system designs minimize water consumption?",
+        "How do evaporative cooling systems use and consume water?",
+        "What trade-offs exist between water use and energy efficiency?",
+        "How do climate and humidity affect data center water consumption?",
+        "How do operators monitor and manage water consumption?",
+        "What water treatment and chemical management is required?"
+      ],
+      "tags": [
+        "environment",
+        "infrastructure",
+        "energy",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Energy Density, Load Curves & AI Power Shock",
+      "topics": [
+        "What is driving unprecedented growth in data center power demand?",
+        "How do AI workloads differ from traditional computing in power requirements?",
+        "What infrastructure designs support extreme power density AI deployments?",
+        "How do AI cluster layouts differ from traditional server deployments?",
+        "What cooling innovations address AI accelerator thermal loads?",
+        "How do GPU and AI chip power profiles differ from CPUs?",
+        "How do operators manage highly variable AI workload power demands?",
+        "What monitoring detects AI cluster power and thermal anomalies?"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "data-centers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1950 @@
+{
+  "books-missing-topics.txt": null,
+  "candidate-libraries": {
+    "us-governors-2026": {
+      "2026-gubernatorial-races": {
+        "alabama.json": null,
+        "alaska.json": null,
+        "arizona.json": null,
+        "arkansas.json": null,
+        "california.json": null,
+        "colorado.json": null,
+        "connecticut.json": null,
+        "florida.json": null,
+        "georgia.json": null,
+        "guam.json": null,
+        "hawaii.json": null,
+        "idaho.json": null,
+        "illinois.json": null,
+        "iowa.json": null,
+        "kansas.json": null,
+        "maine.json": null,
+        "maryland.json": null,
+        "massachusetts.json": null,
+        "michigan.json": null,
+        "minnesota.json": null,
+        "nebraska.json": null,
+        "nevada.json": null,
+        "new-hampshire.json": null,
+        "new-mexico.json": null,
+        "new-york.json": null,
+        "northern-mariana-islands.json": null,
+        "ohio.json": null,
+        "oklahoma.json": null,
+        "oregon.json": null,
+        "pennsylvania.json": null,
+        "rhode-island.json": null,
+        "south-carolina.json": null,
+        "south-dakota.json": null,
+        "tennessee.json": null,
+        "texas.json": null,
+        "vermont.json": null,
+        "virgin-islands.json": null,
+        "wisconsin.json": null,
+        "wyoming.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "us-house-2026-complete": {
+      "alabama-7-districts": {
+        "al-01.json": null,
+        "al-02.json": null,
+        "al-03.json": null,
+        "al-04.json": null,
+        "al-05.json": null,
+        "al-06.json": null,
+        "al-07.json": null,
+        "_manifest.json": null
+      },
+      "alaska-1-district": {
+        "ak-al.json": null,
+        "_manifest.json": null
+      },
+      "arizona-9-districts": {
+        "az-01.json": null,
+        "az-02.json": null,
+        "az-03.json": null,
+        "az-04.json": null,
+        "az-05.json": null,
+        "az-06.json": null,
+        "az-07.json": null,
+        "az-08.json": null,
+        "az-09.json": null,
+        "_manifest.json": null
+      },
+      "arkansas-4-districts": {
+        "ar-01.json": null,
+        "ar-02.json": null,
+        "ar-03.json": null,
+        "ar-04.json": null,
+        "_manifest.json": null
+      },
+      "california-52-districts": {
+        "ca-01.json": null,
+        "ca-02.json": null,
+        "ca-03.json": null,
+        "ca-04.json": null,
+        "ca-05.json": null,
+        "ca-06.json": null,
+        "ca-07.json": null,
+        "ca-08.json": null,
+        "ca-09.json": null,
+        "ca-10.json": null,
+        "ca-11.json": null,
+        "ca-12.json": null,
+        "ca-13.json": null,
+        "ca-14.json": null,
+        "ca-15.json": null,
+        "ca-16.json": null,
+        "ca-17.json": null,
+        "ca-18.json": null,
+        "ca-19.json": null,
+        "ca-20.json": null,
+        "ca-21.json": null,
+        "ca-22.json": null,
+        "ca-23.json": null,
+        "ca-24.json": null,
+        "ca-25.json": null,
+        "ca-26.json": null,
+        "ca-27.json": null,
+        "ca-28.json": null,
+        "ca-29.json": null,
+        "ca-30.json": null,
+        "ca-31.json": null,
+        "ca-32.json": null,
+        "ca-33.json": null,
+        "ca-34.json": null,
+        "ca-35.json": null,
+        "ca-36.json": null,
+        "ca-37.json": null,
+        "ca-38.json": null,
+        "ca-39.json": null,
+        "ca-40.json": null,
+        "ca-41.json": null,
+        "ca-42.json": null,
+        "ca-43.json": null,
+        "ca-44.json": null,
+        "ca-45.json": null,
+        "ca-46.json": null,
+        "ca-47.json": null,
+        "ca-48.json": null,
+        "ca-49.json": null,
+        "ca-50.json": null,
+        "ca-51.json": null,
+        "ca-52.json": null,
+        "_manifest.json": null
+      },
+      "colorado-8-districts": {
+        "co-01.json": null,
+        "co-02.json": null,
+        "co-03.json": null,
+        "co-04.json": null,
+        "co-05.json": null,
+        "co-06.json": null,
+        "co-07.json": null,
+        "co-08.json": null,
+        "_manifest.json": null
+      },
+      "connecticut-5-districts": {
+        "ct-01.json": null,
+        "ct-02.json": null,
+        "ct-03.json": null,
+        "ct-04.json": null,
+        "ct-05.json": null,
+        "_manifest.json": null
+      },
+      "delaware-1-district": {
+        "de-al.json": null,
+        "_manifest.json": null
+      },
+      "florida-28-districts": {
+        "fl-01.json": null,
+        "fl-02.json": null,
+        "fl-03.json": null,
+        "fl-04.json": null,
+        "fl-05.json": null,
+        "fl-06.json": null,
+        "fl-07.json": null,
+        "fl-08.json": null,
+        "fl-09.json": null,
+        "fl-10.json": null,
+        "fl-11.json": null,
+        "fl-12.json": null,
+        "fl-13.json": null,
+        "fl-14.json": null,
+        "fl-15.json": null,
+        "fl-16.json": null,
+        "fl-17.json": null,
+        "fl-18.json": null,
+        "fl-19.json": null,
+        "fl-20.json": null,
+        "fl-21.json": null,
+        "fl-22.json": null,
+        "fl-23.json": null,
+        "fl-24.json": null,
+        "fl-25.json": null,
+        "fl-26.json": null,
+        "fl-27.json": null,
+        "fl-28.json": null,
+        "_manifest.json": null
+      },
+      "georgia-14-districts": {
+        "ga-01.json": null,
+        "ga-02.json": null,
+        "ga-03.json": null,
+        "ga-04.json": null,
+        "ga-05.json": null,
+        "ga-06.json": null,
+        "ga-07.json": null,
+        "ga-08.json": null,
+        "ga-09.json": null,
+        "ga-10.json": null,
+        "ga-11.json": null,
+        "ga-12.json": null,
+        "ga-13.json": null,
+        "ga-14.json": null,
+        "_manifest.json": null
+      },
+      "hawaii-2-districts": {
+        "hi-01.json": null,
+        "hi-02.json": null,
+        "_manifest.json": null
+      },
+      "idaho-2-districts": {
+        "id-01.json": null,
+        "id-02.json": null,
+        "_manifest.json": null
+      },
+      "illinois-17-districts": {
+        "il-01.json": null,
+        "il-02.json": null,
+        "il-03.json": null,
+        "il-04.json": null,
+        "il-05.json": null,
+        "il-06.json": null,
+        "il-07.json": null,
+        "il-08.json": null,
+        "il-09.json": null,
+        "il-10.json": null,
+        "il-11.json": null,
+        "il-12.json": null,
+        "il-13.json": null,
+        "il-14.json": null,
+        "il-15.json": null,
+        "il-16.json": null,
+        "il-17.json": null,
+        "_manifest.json": null
+      },
+      "indiana-9-districts": {
+        "in-01.json": null,
+        "in-02.json": null,
+        "in-03.json": null,
+        "in-04.json": null,
+        "in-05.json": null,
+        "in-06.json": null,
+        "in-07.json": null,
+        "in-08.json": null,
+        "in-09.json": null,
+        "_manifest.json": null
+      },
+      "iowa-4-districts": {
+        "ia-01.json": null,
+        "ia-02.json": null,
+        "ia-03.json": null,
+        "ia-04.json": null,
+        "_manifest.json": null
+      },
+      "kansas-4-districts": {
+        "ks-01.json": null,
+        "ks-02.json": null,
+        "ks-03.json": null,
+        "ks-04.json": null,
+        "_manifest.json": null
+      },
+      "kentucky-6-districts": {
+        "ky-01.json": null,
+        "ky-02.json": null,
+        "ky-03.json": null,
+        "ky-04.json": null,
+        "ky-05.json": null,
+        "ky-06.json": null,
+        "_manifest.json": null
+      },
+      "louisiana-6-districts": {
+        "la-01.json": null,
+        "la-02.json": null,
+        "la-03.json": null,
+        "la-04.json": null,
+        "la-05.json": null,
+        "la-06.json": null,
+        "_manifest.json": null
+      },
+      "maine-2-districts": {
+        "me-01.json": null,
+        "me-02.json": null,
+        "_manifest.json": null
+      },
+      "maryland-8-districts": {
+        "md-01.json": null,
+        "md-02.json": null,
+        "md-03.json": null,
+        "md-04.json": null,
+        "md-05.json": null,
+        "md-06.json": null,
+        "md-07.json": null,
+        "md-08.json": null,
+        "_manifest.json": null
+      },
+      "massachusetts-9-districts": {
+        "ma-01.json": null,
+        "ma-02.json": null,
+        "ma-03.json": null,
+        "ma-04.json": null,
+        "ma-05.json": null,
+        "ma-06.json": null,
+        "ma-07.json": null,
+        "ma-08.json": null,
+        "ma-09.json": null,
+        "_manifest.json": null
+      },
+      "michigan-13-districts": {
+        "mi-01.json": null,
+        "mi-02.json": null,
+        "mi-03.json": null,
+        "mi-04.json": null,
+        "mi-05.json": null,
+        "mi-06.json": null,
+        "mi-07.json": null,
+        "mi-08.json": null,
+        "mi-09.json": null,
+        "mi-10.json": null,
+        "mi-11.json": null,
+        "mi-12.json": null,
+        "mi-13.json": null,
+        "_manifest.json": null
+      },
+      "minnesota-8-districts": {
+        "mn-01.json": null,
+        "mn-02.json": null,
+        "mn-03.json": null,
+        "mn-04.json": null,
+        "mn-05.json": null,
+        "mn-06.json": null,
+        "mn-07.json": null,
+        "mn-08.json": null,
+        "_manifest.json": null
+      },
+      "mississippi-4-districts": {
+        "ms-01.json": null,
+        "ms-02.json": null,
+        "ms-03.json": null,
+        "ms-04.json": null,
+        "_manifest.json": null
+      },
+      "missouri-8-districts": {
+        "mo-01.json": null,
+        "mo-02.json": null,
+        "mo-03.json": null,
+        "mo-04.json": null,
+        "mo-05.json": null,
+        "mo-06.json": null,
+        "mo-07.json": null,
+        "mo-08.json": null,
+        "_manifest.json": null
+      },
+      "montana-2-districts": {
+        "mt-01.json": null,
+        "mt-02.json": null,
+        "_manifest.json": null
+      },
+      "nebraska-3-districts": {
+        "ne-01.json": null,
+        "ne-02.json": null,
+        "ne-03.json": null,
+        "_manifest.json": null
+      },
+      "nevada-4-districts": {
+        "nv-01.json": null,
+        "nv-02.json": null,
+        "nv-03.json": null,
+        "nv-04.json": null,
+        "_manifest.json": null
+      },
+      "new-hampshire-2-districts": {
+        "nh-01.json": null,
+        "nh-02.json": null,
+        "_manifest.json": null
+      },
+      "new-jersey-12-districts": {
+        "nj-01.json": null,
+        "nj-02.json": null,
+        "nj-03.json": null,
+        "nj-04.json": null,
+        "nj-05.json": null,
+        "nj-06.json": null,
+        "nj-07.json": null,
+        "nj-08.json": null,
+        "nj-09.json": null,
+        "nj-10.json": null,
+        "nj-11.json": null,
+        "nj-12.json": null,
+        "_manifest.json": null
+      },
+      "new-mexico-3-districts": {
+        "nm-01.json": null,
+        "nm-02.json": null,
+        "nm-03.json": null,
+        "_manifest.json": null
+      },
+      "new-york-26-districts": {
+        "ny-01.json": null,
+        "ny-02.json": null,
+        "ny-03.json": null,
+        "ny-04.json": null,
+        "ny-05.json": null,
+        "ny-06.json": null,
+        "ny-07.json": null,
+        "ny-08.json": null,
+        "ny-09.json": null,
+        "ny-10.json": null,
+        "ny-11.json": null,
+        "ny-12.json": null,
+        "ny-13.json": null,
+        "ny-14.json": null,
+        "ny-15.json": null,
+        "ny-16.json": null,
+        "ny-17.json": null,
+        "ny-18.json": null,
+        "ny-19.json": null,
+        "ny-20.json": null,
+        "ny-21.json": null,
+        "ny-22.json": null,
+        "ny-23.json": null,
+        "ny-24.json": null,
+        "ny-25.json": null,
+        "ny-26.json": null,
+        "_manifest.json": null
+      },
+      "north-carolina-14-districts": {
+        "nc-01.json": null,
+        "nc-02.json": null,
+        "nc-03.json": null,
+        "nc-04.json": null,
+        "nc-05.json": null,
+        "nc-06.json": null,
+        "nc-07.json": null,
+        "nc-08.json": null,
+        "nc-09.json": null,
+        "nc-10.json": null,
+        "nc-11.json": null,
+        "nc-12.json": null,
+        "nc-13.json": null,
+        "nc-14.json": null,
+        "_manifest.json": null
+      },
+      "north-dakota-1-district": {
+        "nd-al.json": null,
+        "_manifest.json": null
+      },
+      "ohio-15-districts": {
+        "oh-01.json": null,
+        "oh-02.json": null,
+        "oh-03.json": null,
+        "oh-04.json": null,
+        "oh-05.json": null,
+        "oh-06.json": null,
+        "oh-07.json": null,
+        "oh-08.json": null,
+        "oh-09.json": null,
+        "oh-10.json": null,
+        "oh-11.json": null,
+        "oh-12.json": null,
+        "oh-13.json": null,
+        "oh-14.json": null,
+        "oh-15.json": null,
+        "_manifest.json": null
+      },
+      "oklahoma-5-districts": {
+        "ok-01.json": null,
+        "ok-02.json": null,
+        "ok-03.json": null,
+        "ok-04.json": null,
+        "ok-05.json": null,
+        "_manifest.json": null
+      },
+      "oregon-6-districts": {
+        "or-01.json": null,
+        "or-02.json": null,
+        "or-03.json": null,
+        "or-04.json": null,
+        "or-05.json": null,
+        "or-06.json": null,
+        "_manifest.json": null
+      },
+      "pennsylvania-17-districts": {
+        "pa-01.json": null,
+        "pa-02.json": null,
+        "pa-03.json": null,
+        "pa-04.json": null,
+        "pa-05.json": null,
+        "pa-06.json": null,
+        "pa-07.json": null,
+        "pa-08.json": null,
+        "pa-09.json": null,
+        "pa-10.json": null,
+        "pa-11.json": null,
+        "pa-12.json": null,
+        "pa-13.json": null,
+        "pa-14.json": null,
+        "pa-15.json": null,
+        "pa-16.json": null,
+        "pa-17.json": null,
+        "_manifest.json": null
+      },
+      "rhode-island-2-districts": {
+        "ri-01.json": null,
+        "ri-02.json": null,
+        "_manifest.json": null
+      },
+      "south-carolina-7-districts": {
+        "sc-01.json": null,
+        "sc-02.json": null,
+        "sc-03.json": null,
+        "sc-04.json": null,
+        "sc-05.json": null,
+        "sc-06.json": null,
+        "sc-07.json": null,
+        "_manifest.json": null
+      },
+      "south-dakota-1-district": {
+        "sd-al.json": null,
+        "_manifest.json": null
+      },
+      "tennessee-9-districts": {
+        "tn-01.json": null,
+        "tn-02.json": null,
+        "tn-03.json": null,
+        "tn-04.json": null,
+        "tn-05.json": null,
+        "tn-06.json": null,
+        "tn-07.json": null,
+        "tn-08.json": null,
+        "tn-09.json": null,
+        "_manifest.json": null
+      },
+      "texas-38-districts": {
+        "tx-01.json": null,
+        "tx-02.json": null,
+        "tx-03.json": null,
+        "tx-04.json": null,
+        "tx-05.json": null,
+        "tx-06.json": null,
+        "tx-07.json": null,
+        "tx-08.json": null,
+        "tx-09.json": null,
+        "tx-10.json": null,
+        "tx-11.json": null,
+        "tx-12.json": null,
+        "tx-13.json": null,
+        "tx-14.json": null,
+        "tx-15.json": null,
+        "tx-16.json": null,
+        "tx-17.json": null,
+        "tx-18.json": null,
+        "tx-19.json": null,
+        "tx-20.json": null,
+        "tx-21.json": null,
+        "tx-22.json": null,
+        "tx-23.json": null,
+        "tx-24.json": null,
+        "tx-25.json": null,
+        "tx-26.json": null,
+        "tx-27.json": null,
+        "tx-28.json": null,
+        "tx-29.json": null,
+        "tx-30.json": null,
+        "tx-31.json": null,
+        "tx-32.json": null,
+        "tx-33.json": null,
+        "tx-34.json": null,
+        "tx-35.json": null,
+        "tx-36.json": null,
+        "tx-37.json": null,
+        "tx-38.json": null,
+        "_manifest.json": null
+      },
+      "utah-4-districts": {
+        "ut-01.json": null,
+        "ut-02.json": null,
+        "ut-03.json": null,
+        "ut-04.json": null,
+        "_manifest.json": null
+      },
+      "vermont-1-district": {
+        "vt-al.json": null,
+        "_manifest.json": null
+      },
+      "virginia-11-districts": {
+        "va-01.json": null,
+        "va-02.json": null,
+        "va-03.json": null,
+        "va-04.json": null,
+        "va-05.json": null,
+        "va-06.json": null,
+        "va-07.json": null,
+        "va-08.json": null,
+        "va-09.json": null,
+        "va-10.json": null,
+        "va-11.json": null,
+        "_manifest.json": null
+      },
+      "washington-10-districts": {
+        "wa-01.json": null,
+        "wa-02.json": null,
+        "wa-03.json": null,
+        "wa-04.json": null,
+        "wa-05.json": null,
+        "wa-06.json": null,
+        "wa-07.json": null,
+        "wa-08.json": null,
+        "wa-09.json": null,
+        "wa-10.json": null,
+        "_manifest.json": null
+      },
+      "west-virginia-2-districts": {
+        "wv-01.json": null,
+        "wv-02.json": null,
+        "_manifest.json": null
+      },
+      "wisconsin-8-districts": {
+        "wi-01.json": null,
+        "wi-02.json": null,
+        "wi-03.json": null,
+        "wi-04.json": null,
+        "wi-05.json": null,
+        "wi-06.json": null,
+        "wi-07.json": null,
+        "wi-08.json": null,
+        "_manifest.json": null
+      },
+      "wyoming-1-district": {
+        "wy-al.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "us-senate-2026-complete": {
+      "class-2-regular-elections": {
+        "alabama.json": null,
+        "alaska.json": null,
+        "arkansas.json": null,
+        "colorado.json": null,
+        "delaware.json": null,
+        "georgia.json": null,
+        "idaho.json": null,
+        "illinois.json": null,
+        "iowa.json": null,
+        "kansas.json": null,
+        "kentucky.json": null,
+        "louisiana.json": null,
+        "maine.json": null,
+        "massachusetts.json": null,
+        "michigan.json": null,
+        "minnesota.json": null,
+        "mississippi.json": null,
+        "montana.json": null,
+        "nebraska.json": null,
+        "new-hampshire.json": null,
+        "new-jersey.json": null,
+        "new-mexico.json": null,
+        "north-carolina.json": null,
+        "oklahoma.json": null,
+        "oregon.json": null,
+        "rhode-island.json": null,
+        "south-carolina.json": null,
+        "south-dakota.json": null,
+        "tennessee.json": null,
+        "texas.json": null,
+        "virginia.json": null,
+        "west-virginia.json": null,
+        "wyoming.json": null,
+        "_manifest.json": null
+      },
+      "special-elections": {
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "_manifest.json": null,
+    "_meta.json": null
+  },
+  "event-libraries": {
+    "current-events": {
+      "domestic-politics": {
+        "us-politics-20242025.json": null,
+        "_manifest.json": null
+      },
+      "global-challenges": {
+        "global-climate-and-environment.json": null,
+        "global-economy-right-now.json": null,
+        "_manifest.json": null
+      },
+      "international-conflicts": {
+        "middle-east-conflicts.json": null,
+        "russiaukraine-war.json": null,
+        "_manifest.json": null
+      },
+      "news-of-the-day": {
+        "news-of-the-region.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "the-20162024-maga-era-in-us-politics": {
+      "after-2020-persistence-fragmentation-and-legacy": {
+        "long-term-impacts-and-future-scenarios.json": null,
+        "maga-after-the-2020-election.json": null,
+        "media-platforms-and-deplatforming.json": null,
+        "_manifest.json": null
+      },
+      "governing-institutions-and-conflict": {
+        "impeachments-investigations-and-norms.json": null,
+        "january-6-and-democratic-backsliding.json": null,
+        "trump-in-office-20172020.json": null,
+        "_manifest.json": null
+      },
+      "the-rise-of-maga": {
+        "movement-brand-and-base.json": null,
+        "pre-2016-context-and-grievances.json": null,
+        "the-2016-campaign-and-election.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "_manifest.json": null,
+    "_meta.json": null
+  },
+  "geography-libraries": {
+    "africa": {
+      "countries": {
+        "algeria.json": null,
+        "angola.json": null,
+        "benin.json": null,
+        "botswana.json": null,
+        "burkina-faso.json": null,
+        "burundi.json": null,
+        "cabo-verde.json": null,
+        "cameroon.json": null,
+        "central-african-republic.json": null,
+        "chad.json": null,
+        "comoros.json": null,
+        "cte-divoire.json": null,
+        "democratic-republic-of-the-congo.json": null,
+        "djibouti.json": null,
+        "egypt.json": null,
+        "equatorial-guinea.json": null,
+        "eritrea.json": null,
+        "eswatini.json": null,
+        "ethiopia.json": null,
+        "gabon.json": null,
+        "gambia.json": null,
+        "ghana.json": null,
+        "guinea-bissau.json": null,
+        "guinea.json": null,
+        "kenya.json": null,
+        "lesotho.json": null,
+        "liberia.json": null,
+        "libya.json": null,
+        "madagascar.json": null,
+        "malawi.json": null,
+        "mali.json": null,
+        "mauritania.json": null,
+        "mauritius.json": null,
+        "morocco.json": null,
+        "mozambique.json": null,
+        "namibia.json": null,
+        "niger.json": null,
+        "nigeria.json": null,
+        "republic-of-the-congo.json": null,
+        "rwanda.json": null,
+        "senegal.json": null,
+        "seychelles.json": null,
+        "sierra-leone.json": null,
+        "so-tom-and-prncipe.json": null,
+        "somalia.json": null,
+        "south-africa.json": null,
+        "south-sudan.json": null,
+        "sudan.json": null,
+        "tanzania.json": null,
+        "togo.json": null,
+        "tunisia.json": null,
+        "uganda.json": null,
+        "zambia.json": null,
+        "zimbabwe.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "antarctica": {
+      "regions": {
+        "antarctic-peninsula.json": null,
+        "east-antarctica.json": null,
+        "major-international-research-stations.json": null,
+        "marie-byrd-land.json": null,
+        "ross-sea-region.json": null,
+        "west-antarctica.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "asia": {
+      "countries": {
+        "afghanistan.json": null,
+        "armenia.json": null,
+        "azerbaijan.json": null,
+        "bahrain.json": null,
+        "bangladesh.json": null,
+        "bhutan.json": null,
+        "brunei.json": null,
+        "cambodia.json": null,
+        "china.json": null,
+        "cyprus.json": null,
+        "georgia.json": null,
+        "india.json": null,
+        "indonesia.json": null,
+        "iran.json": null,
+        "iraq.json": null,
+        "israel.json": null,
+        "japan.json": null,
+        "jordan.json": null,
+        "kazakhstan.json": null,
+        "kuwait.json": null,
+        "kyrgyzstan.json": null,
+        "laos.json": null,
+        "lebanon.json": null,
+        "malaysia.json": null,
+        "maldives.json": null,
+        "mongolia.json": null,
+        "myanmar.json": null,
+        "nepal.json": null,
+        "north-korea.json": null,
+        "oman.json": null,
+        "pakistan.json": null,
+        "palestine.json": null,
+        "philippines.json": null,
+        "qatar.json": null,
+        "saudi-arabia.json": null,
+        "singapore.json": null,
+        "south-korea.json": null,
+        "sri-lanka.json": null,
+        "syria.json": null,
+        "taiwan.json": null,
+        "tajikistan.json": null,
+        "thailand.json": null,
+        "timor-leste.json": null,
+        "turkmenistan.json": null,
+        "united-arab-emirates.json": null,
+        "uzbekistan.json": null,
+        "vietnam.json": null,
+        "yemen.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "europe": {
+      "countries": {
+        "albania.json": null,
+        "andorra.json": null,
+        "armenia.json": null,
+        "austria.json": null,
+        "azerbaijan.json": null,
+        "belarus.json": null,
+        "belgium.json": null,
+        "bosnia-and-herzegovina.json": null,
+        "bulgaria.json": null,
+        "croatia.json": null,
+        "cyprus.json": null,
+        "czech-republic.json": null,
+        "denmark.json": null,
+        "estonia.json": null,
+        "finland.json": null,
+        "france.json": null,
+        "georgia.json": null,
+        "germany.json": null,
+        "greece.json": null,
+        "hungary.json": null,
+        "iceland.json": null,
+        "ireland.json": null,
+        "italy.json": null,
+        "kazakhstan.json": null,
+        "kosovo.json": null,
+        "latvia.json": null,
+        "liechtenstein.json": null,
+        "lithuania.json": null,
+        "luxembourg.json": null,
+        "malta.json": null,
+        "moldova.json": null,
+        "monaco.json": null,
+        "montenegro.json": null,
+        "netherlands.json": null,
+        "north-macedonia.json": null,
+        "norway.json": null,
+        "poland.json": null,
+        "portugal.json": null,
+        "romania.json": null,
+        "san-marino.json": null,
+        "serbia.json": null,
+        "slovakia.json": null,
+        "slovenia.json": null,
+        "spain.json": null,
+        "sweden.json": null,
+        "switzerland.json": null,
+        "turkey.json": null,
+        "ukraine.json": null,
+        "united-kingdom.json": null,
+        "vatican-city.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "north-america": {
+      "countries": {
+        "antigua-and-barbuda.json": null,
+        "bahamas.json": null,
+        "barbados.json": null,
+        "belize.json": null,
+        "canada.json": null,
+        "costa-rica.json": null,
+        "cuba.json": null,
+        "dominica.json": null,
+        "dominican-republic.json": null,
+        "el-salvador.json": null,
+        "grenada.json": null,
+        "guatemala.json": null,
+        "haiti.json": null,
+        "honduras.json": null,
+        "jamaica.json": null,
+        "mexico.json": null,
+        "nicaragua.json": null,
+        "panama.json": null,
+        "saint-kitts-and-nevis.json": null,
+        "saint-lucia.json": null,
+        "saint-vincent-and-the-grenadines.json": null,
+        "trinidad-and-tobago.json": null,
+        "united-states.json": null,
+        "_manifest.json": null
+      },
+      "the-united-states": {
+        "us-geography.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "oceania": {
+      "countries": {
+        "australia.json": null,
+        "fiji.json": null,
+        "kiribati.json": null,
+        "marshall-islands.json": null,
+        "micronesia-federated-states-of.json": null,
+        "nauru.json": null,
+        "new-zealand.json": null,
+        "palau.json": null,
+        "papua-new-guinea.json": null,
+        "samoa.json": null,
+        "solomon-islands.json": null,
+        "tonga.json": null,
+        "tuvalu.json": null,
+        "vanuatu.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "south-america": {
+      "countries": {
+        "argentina.json": null,
+        "bolivia.json": null,
+        "brazil.json": null,
+        "chile.json": null,
+        "colombia.json": null,
+        "ecuador.json": null,
+        "guyana.json": null,
+        "paraguay.json": null,
+        "peru.json": null,
+        "suriname.json": null,
+        "uruguay.json": null,
+        "venezuela.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "us-geography": {
+      "states-and-territories": {
+        "alabama.json": null,
+        "alaska.json": null,
+        "american-samoa.json": null,
+        "arizona.json": null,
+        "arkansas.json": null,
+        "california.json": null,
+        "colorado.json": null,
+        "connecticut.json": null,
+        "delaware.json": null,
+        "florida.json": null,
+        "georgia.json": null,
+        "guam.json": null,
+        "hawaii.json": null,
+        "idaho.json": null,
+        "illinois.json": null,
+        "indiana.json": null,
+        "iowa.json": null,
+        "kansas.json": null,
+        "kentucky.json": null,
+        "louisiana.json": null,
+        "maine.json": null,
+        "maryland.json": null,
+        "massachusetts.json": null,
+        "michigan.json": null,
+        "minnesota.json": null,
+        "mississippi.json": null,
+        "missouri.json": null,
+        "montana.json": null,
+        "nebraska.json": null,
+        "nevada.json": null,
+        "new-hampshire.json": null,
+        "new-jersey.json": null,
+        "new-mexico.json": null,
+        "new-york.json": null,
+        "north-carolina.json": null,
+        "north-dakota.json": null,
+        "northern-mariana-islands.json": null,
+        "ohio.json": null,
+        "oklahoma.json": null,
+        "oregon.json": null,
+        "pennsylvania.json": null,
+        "puerto-rico.json": null,
+        "rhode-island.json": null,
+        "south-carolina.json": null,
+        "south-dakota.json": null,
+        "tennessee.json": null,
+        "texas.json": null,
+        "united-states.json": null,
+        "us-virgin-islands.json": null,
+        "utah.json": null,
+        "vermont.json": null,
+        "virginia.json": null,
+        "washington-dc.json": null,
+        "washington.json": null,
+        "west-virginia.json": null,
+        "wisconsin.json": null,
+        "wyoming.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "_manifest.json": null,
+    "_meta.json": null
+  },
+  "infrastucture-libraries": {
+    "data-centers": {
+      "availability-and-failure-engineering": {
+        "cascading-failure-risk.json": null,
+        "maintenance-vs-failure-modes.json": null,
+        "n1-vs-2n-vs-fault-tolerant.json": null,
+        "slas-vs-physical-reality.json": null,
+        "tier-iiv-models.json": null,
+        "_manifest.json": null
+      },
+      "data-center-physical-systems": {
+        "future-power-scaling-curves.json": null,
+        "large-and-hyperscale-facilities.json": null,
+        "micro-edge-facilities.json": null,
+        "power-density-and-cooling-envelopes.json": null,
+        "small-and-medium-facilities.json": null,
+        "_manifest.json": null
+      },
+      "geographic-role-and-network-topology": {
+        "core-backbone-facilities.json": null,
+        "disaster-isolation-zones.json": null,
+        "edge-nodes.json": null,
+        "latency-vs-distance-physics.json": null,
+        "regional-hubs.json": null,
+        "_manifest.json": null
+      },
+      "operational-purpose-and-mission": {
+        "ai-hpc-research-facilities.json": null,
+        "colocation-facilities.json": null,
+        "disaster-recovery-facilities.json": null,
+        "edge-and-cdn-facilities.json": null,
+        "enterprise-data-centers.json": null,
+        "public-cloud-facilities.json": null,
+        "_manifest.json": null
+      },
+      "ownership-control-and-sovereignty": {
+        "foreign-vs-domestic-control.json": null,
+        "jurisdictional-law-boundaries.json": null,
+        "national-security-implications.json": null,
+        "private-ownership.json": null,
+        "public-cloud-ownership.json": null,
+        "_manifest.json": null
+      },
+      "power-energy-and-cooling-systems": {
+        "backup-power-and-emergency-generation.json": null,
+        "cooling-systems-and-thermal-engineering.json": null,
+        "energy-density-load-curves-and-ai-power-shock.json": null,
+        "grid-power-and-utility-dependency.json": null,
+        "renewable-and-alternative-energy-integration.json": null,
+        "water-use-scarcity-and-environmental-load.json": null,
+        "_manifest.json": null
+      },
+      "workloads-compute-identity-and-risk": {
+        "ai-training-inference-and-model-infrastructure.json": null,
+        "financial-trading-and-transactional-systems.json": null,
+        "general-compute-and-web-platforms.json": null,
+        "government-defense-and-national-systems.json": null,
+        "media-streaming-and-mass-communication.json": null,
+        "scientific-medical-and-high-performance-computing.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "power-and-energy": {
+      "electrical-power-systems": {
+        "distribution-networks-and-local-power-delivery.json": null,
+        "future-power-systems-and-energy-transition.json": null,
+        "grid-stability-control-and-reliability-engineering.json": null,
+        "high-voltage-transmission-systems.json": null,
+        "power-generation-systems.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "_manifest.json": null,
+    "_meta.json": null
+  },
+  "knowledge-libraries": {
+    "ai-fundamentals": {
+      "ai-in-the-real-world": {
+        "ai-in-everyday-life.json": null,
+        "one-mind-many-machines-how-solo-builders-now-outpace-legacy-platforms.json": null,
+        "responsible-use-and-human-judgment.json": null,
+        "risks-harms-and-governance.json": null,
+        "_manifest.json": null
+      },
+      "foundations-of-artificial-intelligence": {
+        "key-ideas-in-machine-learning.json": null,
+        "probability-statistics-and-uncertainty.json": null,
+        "what-is-ai-really.json": null,
+        "_manifest.json": null
+      },
+      "neural-networks-and-large-language-models": {
+        "capabilities-limitations-and-failure-modes.json": null,
+        "neural-networks-explained.json": null,
+        "transformers-and-llms.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "biographies": {
+      "political-biographies": {
+        "the-unauthorized-biography-of-donald-trump.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "human-knowledge": {
+      "history-and-anthropology": {
+        "technologies-that-made-us-human.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "meta-knowledge": {
+      "building-truthangel": {
+        "creating-living-books.json": null,
+        "the-design-philosophy.json": null,
+        "_manifest.json": null,
+        "_meta.json": null
+      },
+      "quarex-applications": {
+        "how-truthangelorg-works.json": null,
+        "quarex-in-education.json": null,
+        "quarex-in-history.json": null,
+        "quarex-in-politics.json": null,
+        "sequential-learning.json": null,
+        "using-truthangel-effectively.json": null,
+        "_manifest.json": null,
+        "_meta.json": null
+      },
+      "quarex-foundations": {
+        "one-mind-many-machines-how-solo-builders-now-outpace-legacy-platforms.json": null,
+        "philosophy-of-knowledge.json": null,
+        "recursive-knowledge-authorship.json": null,
+        "the-ethics-of-information.json": null,
+        "what-is-quarex.json": null,
+        "what-is-the-quarex-as-used-in-the-truthangel.json": null,
+        "_manifest.json": null,
+        "_meta.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "personal-and-life": {
+      "health-and-wellbeing": {
+        "health-habits-and-daily-energy.json": null,
+        "_manifest.json": null
+      },
+      "life-transitions-and-growth": {
+        "aging-loss-and-personal-growth.json": null,
+        "life-choices-and-transitions.json": null,
+        "work-purpose-and-identity.json": null,
+        "_manifest.json": null
+      },
+      "relationships-and-communication": {
+        "relationships-and-communication.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "philosophy": {
+      "world-philosophies": {
+        "african-philosophy-henry-odera-oruka.json": null,
+        "asian-philosophy-nagarjuna.json": null,
+        "european-philosophy-sren-kierkegaard.json": null,
+        "north-american-philosophy-charles-sanders-peirce.json": null,
+        "oceania-philosophy-sir-mason-durie.json": null,
+        "south-american-philosophy-enrique-dussel.json": null,
+        "twelve-ancient-sages.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "power-and-energy": {
+      "electrical-power-systems": {
+        "distribution-networks-and-local-power-delivery.json": null,
+        "future-power-systems-and-energy-transition.json": null,
+        "grid-stability-control-and-reliability-engineering.json": null,
+        "high-voltage-transmission-systems.json": null,
+        "power-generation-systems.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "robotic-guide-dogs": {
+      "deployment-and-operations": {
+        "business-models-cost-structures-and-regulatory-compliance.json": null,
+        "operations-maintenance-and-fleet-management.json": null,
+        "user-experience-and-humanrobot-interaction.json": null,
+        "_manifest.json": null
+      },
+      "impact-and-future": {
+        "accessibility-equity-and-social-impact.json": null,
+        "ethics-privacy-and-responsible-innovation.json": null,
+        "how-to-fund-research-development-and-deployment.json": null,
+        "roadmaps-futures-and-policy-advocacy.json": null,
+        "_manifest.json": null
+      },
+      "technical-development": {
+        "brains-and-software-control-ai-and-safety-architectures.json": null,
+        "platform-selection-and-mechanical-design.json": null,
+        "sensing-the-world-perception-systems-for-robotic-guide-dogs.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "the-arts": {
+      "literary-arts": {
+        "childrens-literature-history-theory-and-practice.json": null,
+        "creative-writing-dramaplaywriting.json": null,
+        "creative-writing-fiction-short-story-and-novel.json": null,
+        "creative-writing-poetry-forms-techniques-and-history.json": null,
+        "history-of-literary-criticism-and-theory.json": null,
+        "literary-genres-a-comprehensive-guide.json": null,
+        "literary-translation-theory-and-practice.json": null,
+        "narrative-theory-and-techniques.json": null,
+        "rhetoric-and-the-art-of-persuasion.json": null,
+        "world-literature-survey-anthology-and-analysis.json": null,
+        "_manifest.json": null
+      },
+      "performing-arts": {
+        "acting-techniques-and-performance-theory.json": null,
+        "dance-history-theory-and-choreography.json": null,
+        "directing-for-stage-and-screen.json": null,
+        "history-of-western-theatre-ancient-greece-to-present.json": null,
+        "musical-theatre-history-theory-and-practice.json": null,
+        "opera-history-analysis-and-production.json": null,
+        "performance-art-history-theory-and-practice.json": null,
+        "playwriting-and-screenwriting-craft-and-analysis.json": null,
+        "stagecraft-and-technical-theatre-production.json": null,
+        "world-theatre-traditions-non-western-performance.json": null,
+        "_manifest.json": null
+      },
+      "visual-arts": {
+        "art-history-from-prehistory-to-the-present.json": null,
+        "contemporary-art-themes-and-movements-since-1945.json": null,
+        "digital-art-and-design-tools-and-concepts.json": null,
+        "drawing-techniques-and-principles.json": null,
+        "graphic-design-principles-and-applications.json": null,
+        "illustration-concepts-and-techniques.json": null,
+        "painting-materials-methods-and-expression.json": null,
+        "photography-history-theory-and-practice.json": null,
+        "printmaking-processes-and-practices.json": null,
+        "sculpture-a-comprehensive-guide-to-forms-and-techniques.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "the-sciences": {
+      "history-and-anthropology": {
+        "technologies-that-made-us-human.json": null,
+        "_manifest.json": null
+      },
+      "life-sciences": {
+        "biology-life-and-evolution.json": null,
+        "biotechnology-and-bioengineering.json": null,
+        "botany-and-plant-science.json": null,
+        "ecology-and-ecosystems.json": null,
+        "genetics-and-molecular-biology.json": null,
+        "health-disease-and-immunity.json": null,
+        "human-anatomy-and-physiology.json": null,
+        "microbiology-and-virology.json": null,
+        "neuroscience-and-the-brain.json": null,
+        "zoology-and-animal-behavior.json": null,
+        "_manifest.json": null
+      },
+      "mathematical-and-computational-sciences": {
+        "algebra-and-number-theory.json": null,
+        "artificial-intelligence-and-learning.json": null,
+        "chaos-patterns-and-complexity.json": null,
+        "computer-science-principles.json": null,
+        "foundations-of-mathematics.json": null,
+        "geometry-and-topology.json": null,
+        "information-theory-and-cryptography.json": null,
+        "logic-and-proof.json": null,
+        "scientific-computing.json": null,
+        "statistics-and-data-science.json": null,
+        "_manifest.json": null
+      },
+      "physical-sciences": {
+        "astronomy-and-cosmology.json": null,
+        "chemistry-and-matter.json": null,
+        "climate-systems-and-atmosphere.json": null,
+        "earth-science-and-geophysics.json": null,
+        "energy-science-and-engineering.json": null,
+        "materials-science.json": null,
+        "physics-fundamentals.json": null,
+        "quantum-science-and-applications.json": null,
+        "thermodynamics-and-heat.json": null,
+        "waves-sound-and-light.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "_manifest.json": null,
+    "_meta.json": null
+  },
+  "perspectives-libraries": {
+    "a-history-of-racism-in-the-americas": {
+      "foundations-of-race-based-slavery-1400s1700s": {
+        "conquest-indigenous-peoples-and-racial-hierarchies.json": null,
+        "indigenous-genocide-and-forced-removal.json": null,
+        "invention-of-race-and-hereditary-slavery.json": null,
+        "law-religion-and-the-justification-of-racial-slavery.json": null,
+        "transatlantic-slave-trade-and-plantation-economies.json": null,
+        "_manifest.json": null
+      },
+      "neoliberal-era-mass-incarceration-and-borders-1980s2000s": {
+        "colorblind-racism-and-neoliberalism.json": null,
+        "environmental-racism.json": null,
+        "housing-discrimination-and-urban-racism.json": null,
+        "media-stereotypes-and-moral-panics.json": null,
+        "migration-borders-and-racialized-security.json": null,
+        "the-drug-war-and-mass-incarceration.json": null,
+        "_manifest.json": null
+      },
+      "post-emancipation-orders-and-segregation-late-1800s1930s": {
+        "jim-crow-and-legal-segregation-in-the-united-states.json": null,
+        "migration-labor-and-racialized-nativism.json": null,
+        "racial-regimes-in-latin-america-and-the-caribbean.json": null,
+        "racism-in-canada-slavery-segregation-and-indigenous-genocide.json": null,
+        "scientific-racism-and-eugenics.json": null,
+        "_manifest.json": null
+      },
+      "revolutions-abolition-and-emancipation-1700s1800s": {
+        "abolitionism-and-slave-resistance.json": null,
+        "emancipation-and-new-racial-orders.json": null,
+        "haiti-and-the-fear-of-black-revolution.json": null,
+        "racism-and-atlantic-revolutions.json": null,
+        "_manifest.json": null
+      },
+      "twenty-first-century-racism-and-resistance-2000spresent": {
+        "digital-racism-and-algorithmic-bias.json": null,
+        "education-battles-in-the-21st-century.json": null,
+        "health-disparities-and-medical-racism.json": null,
+        "policing-state-violence-and-social-movements.json": null,
+        "populism-far-right-politics-and-racial-backlash.json": null,
+        "reparations-memory-and-futures-of-justice.json": null,
+        "the-psychology-of-racism-and-internalized-oppression.json": null,
+        "_manifest.json": null
+      },
+      "world-war-ii-civil-rights-and-dictatorships-1940s1970s": {
+        "culture-media-and-resistance.json": null,
+        "racism-under-latin-american-dictatorships.json": null,
+        "us-civil-rights-and-black-power-movements.json": null,
+        "war-fascism-and-global-anti-racism.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "climate-change-debates": {
+      "ethics-responsibility-and-justice": {
+        "equity-and-fairness.json": null,
+        "ethical-debates-in-policy-choices.json": null,
+        "individual-vs-collective-action.json": null,
+        "intergenerational-ethics.json": null,
+        "_manifest.json": null
+      },
+      "global-coordination-and-geopolitics": {
+        "energy-geopolitics.json": null,
+        "global-development-and-finance.json": null,
+        "global-risk-and-security.json": null,
+        "international-agreements.json": null,
+        "_manifest.json": null
+      },
+      "policy-approaches-and-tradeoffs": {
+        "adaptation-strategies.json": null,
+        "economic-considerations.json": null,
+        "mitigation-strategies.json": null,
+        "political-and-regulatory-approaches.json": null,
+        "_manifest.json": null
+      },
+      "public-debate-communication-and-culture": {
+        "activism-and-public-movements.json": null,
+        "cultural-and-identity-dimensions.json": null,
+        "media-and-messaging.json": null,
+        "misinformation-and-influence.json": null,
+        "_manifest.json": null
+      },
+      "scientific-foundations-and-disagreements": {
+        "climate-impacts-and-risks.json": null,
+        "climate-models-and-uncertainty.json": null,
+        "climate-science-basics.json": null,
+        "scientific-consensus-and-skepticism.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "critical-thinking": {
+      "ai-and-society": {
+        "ai-democracy-and-public-discourse.json": null,
+        "ai-in-education-and-knowledge.json": null,
+        "everyday-ai-tools-habits-and-personal-productivity.json": null,
+        "imagining-and-shaping-ai-futures.json": null,
+        "thinking-with-not-like-ai.json": null,
+        "_manifest.json": null
+      },
+      "ai-fundamentals": {
+        "ai-and-the-transformation-of-work.json": null,
+        "from-data-to-decisions-how-machine-learning-works.json": null,
+        "large-language-models-and-generative-ai.json": null,
+        "neural-networks-and-deep-learning-explained.json": null,
+        "_manifest.json": null
+      },
+      "core-critical-thinking": {
+        "cognitive-biases.json": null,
+        "logic-and-arguments.json": null,
+        "media-literacy.json": null,
+        "online-misinformation.json": null,
+        "science-and-evidence.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "economic-theories-and-trade-offs": {
+      "foundational-economic-perspectives": {
+        "behavioral-and-institutional-economics.json": null,
+        "classical-and-neoclassical-thought.json": null,
+        "keynesian-and-post-keynesian-approaches.json": null,
+        "marxist-and-structuralist-perspectives.json": null,
+        "_manifest.json": null
+      },
+      "growth-productivity-and-development": {
+        "economic-development-strategies.json": null,
+        "environmental-and-sustainability-trade-offs.json": null,
+        "models-of-economic-growth.json": null,
+        "productivity-debates.json": null,
+        "_manifest.json": null
+      },
+      "labor-wages-and-inequality": {
+        "inequality-and-distribution.json": null,
+        "labor-market-dynamics.json": null,
+        "power-bargaining-and-institutions.json": null,
+        "wages-and-living-standards.json": null,
+        "_manifest.json": null
+      },
+      "markets-government-and-regulation": {
+        "deregulation-and-free-market-approaches.json": null,
+        "industrial-and-strategic-policy.json": null,
+        "role-of-government-in-the-economy.json": null,
+        "taxation-and-redistribution.json": null,
+        "_manifest.json": null
+      },
+      "trade-globalization-and-monetary-systems": {
+        "financial-systems-and-crises.json": null,
+        "globalization-and-its-critics.json": null,
+        "international-trade.json": null,
+        "monetary-and-fiscal-policy.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "free-speech-vs-hate-speech": {
+      "foundations-and-philosophical-perspectives": {
+        "competing-values-and-tradeoffs.json": null,
+        "what-is-hate-speech-and-harmful-speech.json": null,
+        "why-free-speech-matters.json": null,
+        "_manifest.json": null
+      },
+      "law-policy-and-global-approaches": {
+        "democracy-extremism-and-safeguards.json": null,
+        "free-speech-in-us-law.json": null,
+        "international-approaches-to-hate-speech.json": null,
+        "_manifest.json": null
+      },
+      "platforms-moderation-and-the-real-world": {
+        "harassment-targeted-abuse-and-safety-online.json": null,
+        "social-media-platforms-as-gatekeepers.json": null,
+        "thinking-through-hard-cases.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "gaza-war": {
+      "diplomacy-future-scenarios-and-paths-to-peace": {
+        "ceasefires-and-short-term-agreements.json": null,
+        "long-term-political-solutions.json": null,
+        "reconstruction-recovery-and-justice.json": null,
+        "uncertainties-and-future-risks.json": null,
+        "_manifest.json": null
+      },
+      "historical-and-political-background": {
+        "gazas-modern-history.json": null,
+        "origins-of-the-conflict.json": null,
+        "political-actors-and-factions.json": null,
+        "triggers-and-escalation-dynamics.json": null,
+        "_manifest.json": null
+      },
+      "humanitarian-legal-and-ethical-dimensions": {
+        "ethical-and-moral-debates.json": null,
+        "humanitarian-impact.json": null,
+        "international-humanitarian-law-and-war-crimes-allegations.json": null,
+        "international-institutions-and-responses.json": null,
+        "_manifest.json": null
+      },
+      "military-operations-strategy-and-tactics": {
+        "civilian-protection-and-targeting-controversies.json": null,
+        "conduct-of-operations.json": null,
+        "objectives-and-strategies.json": null,
+        "regional-security-and-deterrence.json": null,
+        "_manifest.json": null
+      },
+      "narratives-media-and-global-public-opinion": {
+        "competing-narratives-and-frames.json": null,
+        "global-reactions-and-solidarity-movements.json": null,
+        "media-coverage-and-information-flows.json": null,
+        "misinformation-propaganda-and-online-campaigns.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "immigration-and-national-identity": {
+      "culture-identity-and-belonging": {
+        "diaspora-hybridity-and-multiple-identities.json": null,
+        "language-religion-and-everyday-life.json": null,
+        "national-identity-and-belonging.json": null,
+        "racism-xenophobia-and-exclusion.json": null,
+        "_manifest.json": null
+      },
+      "economics-labor-and-social-systems": {
+        "fiscal-impacts-and-public-services.json": null,
+        "immigration-and-labor-markets.json": null,
+        "innovation-entrepreneurship-and-growth.json": null,
+        "social-safety-nets-and-fairness.json": null,
+        "_manifest.json": null
+      },
+      "histories-and-narratives-of-immigration": {
+        "changing-ideas-of-citizenship.json": null,
+        "historical-patterns-of-migration.json": null,
+        "national-stories-and-myths.json": null,
+        "public-memory-and-monuments.json": null,
+        "_manifest.json": null
+      },
+      "law-borders-and-policy-regimes": {
+        "admission-criteria-and-quotas.json": null,
+        "border-control-and-sovereignty.json": null,
+        "legal-categories-and-status.json": null,
+        "security-and-public-safety-framing.json": null,
+        "_manifest.json": null
+      },
+      "politics-media-and-public-debate": {
+        "media-narratives-and-framing.json": null,
+        "misinformation-and-public-perception.json": null,
+        "movements-advocacy-and-resistance.json": null,
+        "party-politics-and-electoral-strategy.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "media-bias-and-information-ecosystems": {
+      "digital-platforms-and-algorithmic-influence": {
+        "algorithms-and-personalization.json": null,
+        "information-integrity-and-verification.json": null,
+        "platforms-as-information-gatekeepers.json": null,
+        "social-media-ecosystems.json": null,
+        "_manifest.json": null
+      },
+      "foundations-of-media-and-information-flow": {
+        "bias-in-traditional-journalism.json": null,
+        "how-media-systems-work.json": null,
+        "information-ecosystems.json": null,
+        "media-literacy-and-public-understanding.json": null,
+        "_manifest.json": null
+      },
+      "media-futures-and-ethical-challenges": {
+        "ai-automation-and-news-production.json": null,
+        "ethical-frameworks-and-dilemmas.json": null,
+        "new-media-ecosystems.json": null,
+        "the-future-of-journalism.json": null,
+        "_manifest.json": null
+      },
+      "misinformation-disinformation-and-manipulation": {
+        "actors-and-motivations.json": null,
+        "manipulation-tactics.json": null,
+        "spread-and-amplification.json": null,
+        "understanding-misdisinformation.json": null,
+        "_manifest.json": null
+      },
+      "politics-power-and-public-opinion": {
+        "elections-and-campaigns.json": null,
+        "media-and-political-institutions.json": null,
+        "polarization-and-identity.json": null,
+        "public-opinion-and-trust.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "policing-and-criminal-justice-debates": {
+      "courts-sentencing-and-corrections": {
+        "alternatives-to-incarceration.json": null,
+        "criminal-courts-and-legal-process.json": null,
+        "mass-incarceration-and-sentencing-debates.json": null,
+        "prisons-jails-and-detention.json": null,
+        "_manifest.json": null
+      },
+      "foundations-of-policing-and-justice": {
+        "history-and-evolution-of-policing.json": null,
+        "measuring-crime-and-safety.json": null,
+        "purpose-and-goals-of-criminal-justice.json": null,
+        "structures-of-the-justice-system.json": null,
+        "_manifest.json": null
+      },
+      "policing-practices-and-accountability": {
+        "accountability-and-misconduct.json": null,
+        "community-police-relations.json": null,
+        "oversight-and-transparency.json": null,
+        "use-of-force-and-public-safety.json": null,
+        "_manifest.json": null
+      },
+      "race-inequality-and-social-impact": {
+        "disparities-in-policing.json": null,
+        "public-trust-and-legitimacy.json": null,
+        "structural-inequality-and-the-justice-system.json": null,
+        "youth-families-and-communities.json": null,
+        "_manifest.json": null
+      },
+      "reform-policy-innovation-and-future-directions": {
+        "comparative-and-international-approaches.json": null,
+        "policy-proposals-and-evaluation.json": null,
+        "reimagining-public-safety.json": null,
+        "technology-and-surveillance.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "social-equality-and-civil-rights": {
+      "democracy-movements-and-social-change": {
+        "civil-rights-movements-and-strategies.json": null,
+        "media-culture-and-public-debate.json": null,
+        "paths-to-social-transformation.json": null,
+        "political-participation-and-representation.json": null,
+        "_manifest.json": null
+      },
+      "economic-health-and-disability-rights": {
+        "aging-care-and-social-participation.json": null,
+        "disability-rights-and-inclusion.json": null,
+        "economic-inequality-and-redistribution.json": null,
+        "healthcare-access-and-equity.json": null,
+        "_manifest.json": null
+      },
+      "foundations-of-equality-and-rights": {
+        "concepts-of-equality-and-justice.json": null,
+        "historical-struggles-for-rights.json": null,
+        "law-and-constitutional-principles.json": null,
+        "measuring-inequality.json": null,
+        "_manifest.json": null
+      },
+      "gender-sexuality-and-family-rights": {
+        "family-care-and-labor.json": null,
+        "gender-equality-and-feminist-perspectives.json": null,
+        "sexual-orientation-and-identity.json": null,
+        "transgender-and-nonbinary-rights.json": null,
+        "_manifest.json": null
+      },
+      "race-ethnicity-and-structural-inequality": {
+        "education-housing-and-opportunity.json": null,
+        "immigration-identity-and-belonging.json": null,
+        "policing-courts-and-incarceration.json": null,
+        "race-power-and-society.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "taiwan-strait-tensions": {
+      "geopolitics-economics-and-global-stakes": {
+        "economic-interdependence-and-vulnerability.json": null,
+        "great-power-competition.json": null,
+        "international-responses-and-constraints.json": null,
+        "semiconductors-and-critical-infrastructure.json": null,
+        "_manifest.json": null
+      },
+      "historical-political-and-identity-foundations": {
+        "diplomacy-agreements-and-ambiguity.json": null,
+        "legal-and-sovereignty-claims.json": null,
+        "national-identity-and-political-evolution.json": null,
+        "origins-of-the-dispute.json": null,
+        "_manifest.json": null
+      },
+      "military-balance-security-and-strategic-calculations": {
+        "deterrence-escalation-and-risk.json": null,
+        "military-postures-and-capabilities.json": null,
+        "scenarios-for-conflict.json": null,
+        "us-and-allied-security-commitments.json": null,
+        "_manifest.json": null
+      },
+      "narratives-media-and-information-warfare": {
+        "competing-narratives.json": null,
+        "information-warfare-and-propaganda.json": null,
+        "international-public-opinion.json": null,
+        "media-ecosystems-and-influence.json": null,
+        "_manifest.json": null
+      },
+      "paths-to-stability-conflict-prevention-and-peace": {
+        "arms-control-risk-reduction-and-guardrails.json": null,
+        "diplomatic-options-and-negotiation-frameworks.json": null,
+        "economic-and-societal-stabilizers.json": null,
+        "future-scenarios-and-long-term-risks.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "technology-ethics-and-digital-life": {
+      "ai-automation-and-algorithmic-systems": {
+        "ai-ethics-and-governance.json": null,
+        "algorithmic-decision-making.json": null,
+        "automation-and-labor.json": null,
+        "generative-ai-and-synthetic-media.json": null,
+        "_manifest.json": null
+      },
+      "foundations-of-digital-ethics-and-society": {
+        "digital-citizenship-and-rights.json": null,
+        "principles-of-technology-ethics.json": null,
+        "technology-and-human-behavior.json": null,
+        "technology-power-and-society.json": null,
+        "_manifest.json": null
+      },
+      "futures-emerging-tech-and-ethical-horizons": {
+        "autonomous-systems.json": null,
+        "bio-digital-integration.json": null,
+        "long-term-ethical-challenges.json": null,
+        "virtual-worlds-and-immersive-tech.json": null,
+        "_manifest.json": null
+      },
+      "identity-community-and-everyday-digital-life": {
+        "digital-well-being-and-mental-health.json": null,
+        "identity-and-self-presentation.json": null,
+        "social-relationships-and-community.json": null,
+        "youth-development-and-screens.json": null,
+        "_manifest.json": null
+      },
+      "platforms-data-and-digital-ecosystems": {
+        "data-surveillance-and-privacy.json": null,
+        "digital-public-squares.json": null,
+        "ecosystems-and-interoperability.json": null,
+        "platform-power-and-governance.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "trumps-lies-a-quarex": {
+      "us-leaders-and-lies": {
+        "trumps-lies-then-and-now.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "ukraine-war": {
+      "diplomacy-outcomes-and-future-security-order": {
+        "long-term-security-and-global-order.json": null,
+        "negotiations-ceasefires-and-peace-efforts.json": null,
+        "territorial-control-and-political-settlement.json": null,
+        "uncertainties-and-future-scenarios.json": null,
+        "_manifest.json": null
+      },
+      "historical-political-and-regional-background": {
+        "from-protests-to-conflict.json": null,
+        "nato-eu-and-security-architectures.json": null,
+        "triggers-of-the-full-scale-invasion.json": null,
+        "ukraine-russia-and-the-region.json": null,
+        "_manifest.json": null
+      },
+      "humanitarian-impact-and-law-of-armed-conflict": {
+        "aid-relief-and-humanitarian-corridors.json": null,
+        "civilian-suffering-and-displacement.json": null,
+        "international-humanitarian-law-and-accountability.json": null,
+        "targeting-destruction-and-infrastructure.json": null,
+        "_manifest.json": null
+      },
+      "information-narratives-and-global-public-opinion": {
+        "competing-narratives-of-the-war.json": null,
+        "global-reactions-and-alignments.json": null,
+        "media-coverage-and-symbolism.json": null,
+        "misinformation-propaganda-and-cyber-campaigns.json": null,
+        "_manifest.json": null
+      },
+      "military-operations-and-strategy": {
+        "campaigns-and-battlefronts.json": null,
+        "external-military-support.json": null,
+        "nuclear-cyber-and-hybrid-dimensions.json": null,
+        "tactics-technology-and-logistics.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "war-peace-and-geopolitics": {
+      "foundations-of-conflict-and-geopolitical-strategy": {
+        "drivers-of-conflict.json": null,
+        "global-order-and-institutions.json": null,
+        "power-influence-and-strategy.json": null,
+        "theories-of-war-and-peace.json": null,
+        "_manifest.json": null
+      },
+      "global-power-dynamics-and-regional-orders": {
+        "chinas-rise-and-strategic-vision.json": null,
+        "regional-powers-and-alignments.json": null,
+        "russias-power-projection.json": null,
+        "united-states-and-global-leadership.json": null,
+        "_manifest.json": null
+      },
+      "human-consequences-narratives-and-public-debate": {
+        "ethics-and-responsibility.json": null,
+        "media-propaganda-and-perception.json": null,
+        "paths-to-a-more-peaceful-future.json": null,
+        "wars-impact-on-people-and-society.json": null,
+        "_manifest.json": null
+      },
+      "modern-warfare-and-security-challenges": {
+        "contemporary-warfare.json": null,
+        "human-security-and-civilian-protection.json": null,
+        "terrorism-and-non-state-actors.json": null,
+        "weapons-technology-and-innovation.json": null,
+        "_manifest.json": null
+      },
+      "peacebuilding-diplomacy-and-conflict-resolution": {
+        "arms-control-and-disarmament.json": null,
+        "diplomacy-and-negotiation.json": null,
+        "humanitarian-intervention.json": null,
+        "peacebuilding-and-reconstruction.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "_manifest.json": null,
+    "_meta.json": null
+  },
+  "practical-libraries": {
+    "digital-safety-and-fact-checking": {
+      "advanced-civic-fact-checking-and-sharing-responsibly": {
+        "ai-bots-and-synthetic-media.json": null,
+        "being-a-responsible-sharer-and-helper.json": null,
+        "checking-political-claims-and-statistics.json": null,
+        "_manifest.json": null
+      },
+      "everyday-fact-checking-skills": {
+        "evaluating-sources-and-expertise.json": null,
+        "quick-checks-before-you-believe-or-share.json": null,
+        "tools-and-techniques-for-verifying-information.json": null,
+        "_manifest.json": null
+      },
+      "personal-digital-security": {
+        "locking-down-your-devices-and-accounts.json": null,
+        "privacy-and-data-minimization.json": null,
+        "recognizing-scams-and-phishing.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null,
+      "_meta.json": null
+    },
+    "practical-knowledge": {
+      "personal-finance": {
+        "personal-finance-for-people-who-were-never-taught.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "practical-skills": {
+      "digital-and-professional-skills": {
+        "autocad-2d.json": null,
+        "digital-life-and-computer-basics.json": null,
+        "how-to-build-a-3-camera-studio.json": null,
+        "learn-git-basics.json": null,
+        "photoshop-for-beginners.json": null,
+        "_manifest.json": null
+      },
+      "home-and-daily-life": {
+        "everyday-cooking-skills.json": null,
+        "home-and-auto-repair-basics.json": null,
+        "_manifest.json": null
+      },
+      "personal-development": {
+        "learning-and-study-skills.json": null,
+        "personal-finance-for-people-who-were-never-taught.json": null,
+        "_manifest.json": null
+      },
+      "_manifest.json": null
+    },
+    "_manifest.json": null,
+    "_meta.json": null
+  },
+  "questions-libraries": {
+    "_manifest.json": null,
+    "_meta.json": null
+  }
+}

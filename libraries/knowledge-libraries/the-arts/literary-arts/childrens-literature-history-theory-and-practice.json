@@ -1,0 +1,125 @@
+{
+  "name": "Children's Literature: History, Theory, and Practice",
+  "chapters": [
+    {
+      "name": "History of Children's Literature",
+      "topics": [
+        "When did books written specifically for children first appear, and what were they like?",
+        "How did Puritan moral tales differ from the fairy tales that followed?",
+        "What role did John Newbery play in creating the children's book industry?",
+        "How did the Golden Age of children's literature (1865-1914) transform the genre?",
+        "What social changes drove the explosion of young adult literature in the 1960s and 70s?",
+        "How has children's literature reflected changing attitudes toward childhood over centuries?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "education"]
+    },
+    {
+      "name": "Picture Books and Early Readers",
+      "topics": [
+        "How do picture book authors and illustrators collaborate to tell a unified story?",
+        "What makes a picture book work as a read-aloud versus a child reading alone?",
+        "How did Randolph Caldecott revolutionize the relationship between text and image?",
+        "What vocabulary and sentence structure constraints apply to early reader books?",
+        "Why do some picture books become classics that parents read to multiple generations?",
+        "How do wordless picture books tell complex stories without any text?"
+      ],
+      "tags": ["arts", "education", "literary-arts", "visual-arts"]
+    },
+    {
+      "name": "Middle Grade Fiction",
+      "topics": [
+        "What age range and reading level defines middle grade fiction?",
+        "Why do middle grade novels often feature protagonists solving problems without adult help?",
+        "How do successful middle grade authors balance humor with serious themes?",
+        "What topics are considered appropriate for middle grade versus young adult?",
+        "How did Harry Potter change expectations for middle grade book length and complexity?",
+        "What makes school and friendship stories so enduringly popular with this age group?"
+      ],
+      "tags": ["arts", "identity", "critical-thinking", "literary-arts"]
+    },
+    {
+      "name": "Young Adult Literature",
+      "topics": [
+        "How did S.E. Hinton's The Outsiders help establish young adult as a distinct category?",
+        "Why does young adult literature often feature first-person present-tense narration?",
+        "What controversial topics appear in YA that would be avoided in middle grade?",
+        "How has the #OwnVoices movement changed who writes YA stories about marginalized groups?",
+        "Why do so many adults read and enjoy young adult novels?",
+        "What distinguishes literary YA from commercial or genre YA fiction?"
+      ],
+      "tags": ["arts", "identity", "human-rights", "literary-arts"]
+    },
+    {
+      "name": "Fairy Tales and Folk Literature",
+      "topics": [
+        "How did the Brothers Grimm collect and reshape German folk tales?",
+        "Why did Charles Perrault add morals to the end of his fairy tale versions?",
+        "How do different cultures tell similar stories like Cinderella with local variations?",
+        "What psychological interpretations have scholars applied to classic fairy tales?",
+        "How have modern authors like Angela Carter subverted traditional fairy tale tropes?",
+        "Why do fairy tales often feature violence that would be censored in other children's books?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "oral-tradition"]
+    },
+    {
+      "name": "Fantasy and Adventure",
+      "topics": [
+        "How did Tolkien and Lewis establish the conventions of modern children's fantasy?",
+        "What world-building techniques make fantasy settings feel real to young readers?",
+        "Why do so many children's fantasy novels use the portal or hidden world structure?",
+        "How do adventure stories teach problem-solving and resilience to young readers?",
+        "What distinguishes high fantasy from urban fantasy in children's literature?",
+        "How have diverse authors expanded fantasy beyond European medieval settings?"
+      ],
+      "tags": ["arts", "narrative", "literary-arts", "fiction"]
+    },
+    {
+      "name": "Diversity and Representation",
+      "topics": [
+        "Why has children's literature historically underrepresented non-white characters?",
+        "What is the 'mirrors and windows' concept in diverse children's books?",
+        "How do awards like the Coretta Scott King and Pura Belpré promote diverse books?",
+        "What controversies arise when authors write outside their own cultural experience?",
+        "How can books help children understand disability, gender identity, and family diversity?",
+        "What progress has been made in diversifying children's book authors and illustrators?"
+      ],
+      "tags": ["arts", "human-rights", "identity", "literary-arts"]
+    },
+    {
+      "name": "Educational and Moral Dimensions",
+      "topics": [
+        "How did didactic children's literature evolve from pure moral instruction to subtle themes?",
+        "Should children's books explicitly teach lessons or let readers draw their own conclusions?",
+        "How do bibliotherapy programs use children's books to help kids process difficult experiences?",
+        "What role do children's books play in early literacy development?",
+        "How have attitudes toward death, divorce, and difficult topics in children's books changed?",
+        "What makes a children's book 'age appropriate' and who decides?"
+      ],
+      "tags": ["education", "ethics", "cultural-heritage", "literary-arts"]
+    },
+    {
+      "name": "Illustration and Text Interaction",
+      "topics": [
+        "How do illustrators decide what to show versus what the text already tells?",
+        "What illustration styles work best for different age groups and genres?",
+        "How has digital illustration changed the look of children's books?",
+        "Why do some illustrators like Maurice Sendak become as famous as authors?",
+        "How do graphic novels for children balance panels, text, and pacing?",
+        "What role does page turn timing play in picture book storytelling?"
+      ],
+      "tags": ["arts", "visual-arts", "literary-arts", "education"]
+    },
+    {
+      "name": "Writing for Children: Craft and Market",
+      "topics": [
+        "How do word count expectations differ across picture books, chapter books, and novels?",
+        "What do children's book editors look for in manuscript submissions?",
+        "How has self-publishing changed opportunities for children's book creators?",
+        "Why do agents recommend against writing books that talk down to children?",
+        "What role do school and library sales play in children's book publishing?",
+        "How do authors handle feedback from child readers versus adult gatekeepers?"
+      ],
+      "tags": ["arts", "workplace-dynamics", "literary-arts", "writing"]
+    }
+  ]
+}

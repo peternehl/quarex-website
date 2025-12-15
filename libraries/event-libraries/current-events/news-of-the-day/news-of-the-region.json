@@ -1,0 +1,293 @@
+{
+  "name": "News of the Region",
+  "chapters": [
+    {
+      "name": "Western Europe",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "European Union policy and integration developments",
+        "Immigration and refugee policy debates"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "european-union",
+        "nato"
+      ]
+    },
+    {
+      "name": "Eastern Europe",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "NATO expansion and Russia relations",
+        "EU membership and integration efforts"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "europe",
+        "russia-ukraine"
+      ]
+    },
+    {
+      "name": "Middle East",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Oil markets and energy sector developments",
+        "Regional conflicts and peace negotiations"
+      ],
+      "tags": [
+        "politics",
+        "middle-east",
+        "diplomacy",
+        "israel-palestine"
+      ]
+    },
+    {
+      "name": "North Africa",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Migration routes and European border issues",
+        "Political stability and democratic transitions"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "african-philosophy",
+        "history"
+      ]
+    },
+    {
+      "name": "Central Africa",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Humanitarian crises and conflict zones",
+        "Mining, natural resources, and foreign investment"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "africa",
+        "history"
+      ]
+    },
+    {
+      "name": "Southern Africa",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Economic development and infrastructure projects",
+        "Regional cooperation and SADC initiatives"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "africa",
+        "governance"
+      ]
+    },
+    {
+      "name": "East Africa",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Horn of Africa security and conflicts",
+        "Chinese investment and Belt & Road projects"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "africa",
+        "governance"
+      ]
+    },
+    {
+      "name": "West Africa",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Sahel security and counter-terrorism efforts",
+        "Oil production and natural resource management"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "africa",
+        "history"
+      ]
+    },
+    {
+      "name": "North America",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "US-Canada-Mexico trade and USMCA developments",
+        "Border security and immigration policy"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "democracy",
+        "elections"
+      ]
+    },
+    {
+      "name": "Central America",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Migration patterns and US border issues",
+        "Gang violence and security challenges"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "americas",
+        "history"
+      ]
+    },
+    {
+      "name": "South America",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Political shifts and election developments",
+        "Amazon deforestation and environmental policy"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "americas",
+        "history"
+      ]
+    },
+    {
+      "name": "Caribbean",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Tourism industry and economic recovery",
+        "Hurricane preparedness and climate resilience"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "migration",
+        "history"
+      ]
+    },
+    {
+      "name": "East Asia",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "US-China relations and trade tensions",
+        "North Korea and Korean peninsula security"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "china-taiwan",
+        "history"
+      ]
+    },
+    {
+      "name": "Southeast Asia",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "South China Sea disputes and territorial claims",
+        "ASEAN economic integration and trade"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "china-taiwan",
+        "history"
+      ]
+    },
+    {
+      "name": "South Asia",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "India-Pakistan relations and regional tensions",
+        "Economic growth and technology sector development"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "asia",
+        "history"
+      ]
+    },
+    {
+      "name": "Central Asia",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Russian and Chinese regional influence",
+        "Energy pipelines and resource exports"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "asia",
+        "history"
+      ]
+    },
+    {
+      "name": "Russia & Eurasia",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "Ukraine conflict and military developments",
+        "Western sanctions and diplomatic relations"
+      ],
+      "tags": [
+        "politics",
+        "diplomacy",
+        "russia-ukraine",
+        "geopolitics"
+      ]
+    },
+    {
+      "name": "Australia & Oceania",
+      "topics": [
+        "What are the headlines today?",
+        "Who's making recent news?",
+        "Discuss the latest political, financial and environmental news",
+        "China relations and Pacific regional influence",
+        "Climate change impacts on Pacific islands"
+      ],
+      "tags": [
+        "politics",
+        "globalization",
+        "oceania",
+        "history"
+      ]
+    }
+  ]
+}

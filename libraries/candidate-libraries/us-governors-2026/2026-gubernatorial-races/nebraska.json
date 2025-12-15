@@ -1,0 +1,29 @@
+{
+  "name": "Nebraska",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jacy Todd (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

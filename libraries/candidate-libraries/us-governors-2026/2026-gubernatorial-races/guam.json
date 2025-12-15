@@ -1,0 +1,32 @@
+{
+  "name": "Guam",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Vicente Ada (R)",
+        "Frank Blas Jr. (R)",
+        "Marcel Camacho (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "democracy",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Joe S. San Agustin (D)",
+        "Josh Tenorio (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

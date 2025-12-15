@@ -1,0 +1,43 @@
+{
+  "name": "Rhode Island",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Raymond McKay (R)",
+        "Allen Waters (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jack Reed (D)",
+        "Connor Burbridge (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jon Lindley (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

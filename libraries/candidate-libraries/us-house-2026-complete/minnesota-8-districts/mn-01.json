@@ -1,0 +1,44 @@
+{
+  "name": "MN-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Brad Finstad (I)",
+        "Jake Johnson (I)",
+        "Oliver Morlan (I)",
+        "Andy Smith (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "us-politics",
+        "democracy"
+      ]
+    }
+  ]
+}

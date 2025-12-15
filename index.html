@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMVLTZ6BB5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TMVLTZ6BB5');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quarex — The Curiosity Engine | AI-Powered Living Books</title>
+  <meta name="description" content="Quarex is an AI-powered knowledge platform with Living Books. Explore complex topics through structured questions, ethical AI, and transparent, citation-backed sourcing." />
+
+  <!-- SEO Meta Tags -->
+  <meta name="keywords" content="AI knowledge platform, ethical AI, living books, educational AI, fact-checked answers, sourced learning, Quarex, curiosity engine" />
+  <meta name="author" content="Quarex / Peter Nehl" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://quarex.org/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://quarex.org/" />
+  <meta property="og:title" content="Quarex — The Curiosity Engine" />
+  <meta property="og:description" content="Explore AI-powered Living Books with sourced, ethical answers on science, philosophy, current events, and more." />
+  <meta property="og:image" content="https://quarex.org/assets/quarex-hero.jpg" />
+  <meta property="og:site_name" content="Quarex" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://quarex.org/" />
+  <meta name="twitter:title" content="Quarex — The Curiosity Engine" />
+  <meta name="twitter:description" content="Explore AI-powered Living Books with sourced, ethical answers on science, philosophy, current events, and more." />
+  <meta name="twitter:image" content="https://quarex.org/assets/quarex-hero.jpg" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Quarex",
+    "url": "https://quarex.org/",
+    "description": "AI-powered knowledge platform featuring interactive Living Books that explore complex topics through AI-generated follow-up questions.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Quarex",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://quarex.org/assets/quarex-hero-round-500pixels.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://quarex.org/ask/ask.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0A0A0A;
+      --ink: #F7F7F7;
+      --muted: #B7BCC2;
+      --line: #262626;
+      --card: #111111;
+      --accent: #7CB9FF;
+      --brand: #EDEDED;
+      --blue: #3B82F6;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font: 16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--ink);
+      background: url('assets/living-book-iceberg.png') center center / cover fixed no-repeat;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page-overlay {
+      min-height: 100vh;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    img { max-width: 100%; height: auto; display: block; }
+
+    /* Hero Section */
+    .hero {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: clamp(36px, 5vw, 64px);
+      color: var(--brand);
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .tagline {
+      font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+      color: var(--accent);
+      font-style: italic;
+      margin-bottom: 1.5rem;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .intro-copy {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .intro-copy p {
+      color: #FFFFFF;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Manifesto Section */
+    .manifesto {
+      max-width: 860px;
+      margin: 20px auto 40px;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .manifesto h2 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(22px, 3.2vw, 36px);
+      color: var(--brand);
+      margin: 0 0 16px;
+    }
+
+    .manifesto p {
+      color: #FFFFFF;
+      margin: 12px auto;
+      max-width: 700px;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .manifesto-cta {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+
+    .btn-light {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 999px;
+      background: #ffffff;
+      color: #111;
+      text-decoration: none;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      transition: all 0.2s;
+    }
+    .btn-light:hover {
+      filter: brightness(0.95);
+      text-decoration: none;
+    }
+
+    /* Libraries Section */
+    .libraries {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .libraries h2 {
+      font-family: "Playfair Display", serif;
+      font-size: clamp(24px, 3.5vw, 40px);
+      color: var(--brand);
+      text-align: center;
+      margin: 0 0 32px;
+      letter-spacing: 0.1em;
+    }
+
+    /* Featured Button */
+    .featured-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      background: linear-gradient(135deg, #1e3a8a, #1e40af);
+      color: var(--accent);
+      padding: 24px 40px;
+      border-radius: 16px;
+      text-decoration: none;
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: clamp(28px, 3.5vw, 42px);
+      letter-spacing: 0.1em;
+      box-shadow: 0 8px 28px rgba(30, 58, 138, 0.5);
+      transition: all 0.3s ease;
+      margin: 0 0 24px 0;
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      text-align: center;
+    }
+    .featured-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 36px rgba(30, 58, 138, 0.6);
+      filter: brightness(1.15);
+      text-decoration: none;
+    }
+    .featured-btn .logo-icon {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+
+    /* Secondary Buttons Row */
+    .secondary-btns {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+
+    .secondary-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: var(--accent);
+      padding: 20px 32px;
+      border-radius: 16px;
+      text-decoration: none;
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: clamp(18px, 2.5vw, 24px);
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.5);
+      transition: all 0.3s ease;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+    }
+    .secondary-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.6);
+      filter: brightness(1.1);
+      text-decoration: none;
+    }
+    .secondary-btn .logo-icon {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+
+    /* Seed Creator */
+    .seed-creator {
+      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      box-shadow: 0 8px 28px rgba(37, 99, 235, 0.4);
+    }
+    .seed-creator:hover {
+      box-shadow: 0 12px 36px rgba(37, 99, 235, 0.5);
+    }
+    .seed-subtitle {
+      font-size: clamp(12px, 1.5vw, 14px);
+      color: #bfdbfe;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 24px 20px 40px;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+    footer a {
+      color: var(--accent);
+      margin: 0 8px;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      .hero {
+        padding: 40px 16px 32px;
+      }
+
+      .featured-btn {
+        flex-direction: column;
+        padding: 20px 24px;
+        gap: 12px;
+      }
+      .featured-btn .logo-icon {
+        width: 64px;
+        height: 64px;
+      }
+
+      .secondary-btns {
+        flex-direction: column;
+        align-items: center;
+      }
+      .secondary-btn {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .manifesto-cta {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 {
+        font-size: clamp(28px, 8vw, 36px);
+      }
+
+      .featured-btn {
+        padding: 16px 20px;
+        font-size: clamp(22px, 5vw, 28px);
+      }
+      .featured-btn .logo-icon {
+        width: 56px;
+        height: 56px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-overlay">
+  <main>
+    <!-- Hero Section -->
+    <header class="hero">
+      <h1>Quarex</h1>
+      <p class="tagline">The Curiosity Engine</p>
+
+      <section class="intro-copy">
+        <p>
+          Quarex is an AI-powered knowledge platform that helps people explore complex topics through structured,
+          question-driven "Living Books." Each book is organized into libraries, chapters, and follow-up questions so
+          readers can go deeper, sideways, or outward while keeping context.
+        </p>
+        <p>
+          Unlike traditional search engines or static articles, Quarex emphasizes ethical AI, transparent sourcing,
+          and structured exploration for learners, educators, and researchers.
+        </p>
+      </section>
+    </header>
+
+    <!-- Manifesto Section -->
+    <section class="manifesto">
+      <h2>Living Books and The Ethical Web</h2>
+      <div class="manifesto-cta">
+        <a href="ethics/" class="btn-light">Read our Ethics</a>
+        <a href="spec/" class="btn-light">What is a Quarex?</a>
+      </div>
+      <p>
+        Quarex draws on information architecture, knowledge graphs, educational technology, and AI-assisted learning
+        to make deep understanding easier and more reliable.
+      </p>
+      <p>
+        For decades, the Internet has been a vast library without a librarian — an ocean of information
+        where truth and illusion drift side by side.
+      </p>
+      <p>
+        But with the right front end — one grounded in ethics, empathy, and clarity — the web can become
+        what it was meant to be: a living, responsible source of truth.
+      </p>
+    </section>
+
+    <!-- Libraries Section -->
+    <section class="libraries">
+      <h2>LIBRARIES</h2>
+
+      <!-- Quarex Libraries Featured Button -->
+      <a href="libraries/" class="featured-btn">
+        <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
+        <span>Quarex Libraries</span>
+        <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
+      </a>
+
+      <!-- Secondary Buttons -->
+      <div class="secondary-btns">
+        <!-- Index -->
+        <a href="libraries/library-tree.html" class="secondary-btn">
+          <span>Index</span>
+          <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
+        </a>
+
+        <!-- Quarex Tools -->
+        <a href="tools/" class="secondary-btn seed-creator">
+          <span>Creator Tools</span>
+          <span class="seed-subtitle">Build your own Living Books</span>
+          <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Quarex / Peter Nehl. All Rights Reserved.<br>
+    <a href="privacy.html">Privacy Policy</a> &bull; <a href="ethics/">Ethics</a>
+  </footer>
+</div>
+
+</body>
+</html>

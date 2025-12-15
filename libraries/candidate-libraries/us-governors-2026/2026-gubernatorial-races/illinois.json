@@ -1,0 +1,37 @@
+{
+  "name": "Illinois",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Darren Bailey (R)",
+        "Ted Dabrowski (R)",
+        "Rick Heidner (R)",
+        "Andro Lerario (R)",
+        "James Mendrick (R)",
+        "Gregg Moore (R)",
+        "Joseph Severino (R)",
+        "Max Solomon (R)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "us-politics",
+        "maga"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "J.B. Pritzker (D)",
+        "Patricia L. Tillman (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

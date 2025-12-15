@@ -1,0 +1,31 @@
+{
+  "name": "TX-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Keith Self (R)",
+        "Zain Shaito (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Evan Hunt (D)",
+        "Jordan Wheatley (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

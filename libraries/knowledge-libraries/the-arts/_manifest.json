@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "literary-arts",
+    "name": "Literary Arts",
+    "description": null,
+    "bookCount": 10
+  },
+  {
+    "slug": "performing-arts",
+    "name": "Performing Arts",
+    "description": null,
+    "bookCount": 10
+  },
+  {
+    "slug": "visual-arts",
+    "name": "Visual Arts",
+    "description": null,
+    "bookCount": 10
+  }
+]

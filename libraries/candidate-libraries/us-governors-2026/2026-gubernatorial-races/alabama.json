@@ -1,0 +1,45 @@
+{
+  "name": "Alabama",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ken McFeeters (R)",
+        "Tommy Tuberville (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Will Boyd (D)",
+        "Ja'Mel Brown (D)",
+        "Doug Jones (D)",
+        "Chad Chig Martin (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ronald Burnette Jr. (I)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "democracy",
+        "us-politics"
+      ]
+    }
+  ]
+}

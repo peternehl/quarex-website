@@ -1,0 +1,125 @@
+{
+  "name": "Illustration: Concepts and Techniques",
+  "chapters": [
+    {
+      "name": "History of Illustration",
+      "topics": [
+        "How did illustration evolve from medieval manuscripts to modern media?",
+        "What was the Golden Age of American Illustration and who were its masters?",
+        "How did printing technology changes affect illustration styles?",
+        "What role did illustrators play in magazines, advertising, and publishing?",
+        "How did illustration's status change relative to fine art over time?",
+        "Who are the most influential illustrators in history and why?"
+      ],
+      "tags": ["arts", "cultural-heritage", "art-history", "visual-arts"]
+    },
+    {
+      "name": "Editorial Illustration",
+      "topics": [
+        "What is editorial illustration and where does it appear?",
+        "How do editorial illustrators interpret and visualize written content?",
+        "What makes an editorial illustration thought-provoking rather than literal?",
+        "How do illustrators work with art directors on tight deadlines?",
+        "What styles work best for different types of publications?",
+        "How has digital media changed editorial illustration opportunities?"
+      ],
+      "tags": ["arts", "communication", "visual-arts", "media"]
+    },
+    {
+      "name": "Book Illustration and Publishing",
+      "topics": [
+        "How do illustrators work with authors and publishers on book projects?",
+        "What is the process from initial sketches to final book illustrations?",
+        "How do page layout and text placement affect illustration design?",
+        "What techniques work best for chapter headers, spot illustrations, and full pages?",
+        "How do royalty structures and contracts work for book illustrators?",
+        "What makes a book illustration enhance rather than merely decorate the text?"
+      ],
+      "tags": ["arts", "communication", "visual-arts", "literary-arts"]
+    },
+    {
+      "name": "Children's Book Illustration",
+      "topics": [
+        "What makes children's book illustration different from other illustration work?",
+        "How do illustrators create characters that appeal to young readers?",
+        "What pacing and visual storytelling techniques work in picture books?",
+        "How do illustrators handle the relationship between text and image?",
+        "What styles dominate children's illustration and why?",
+        "How do illustrators get started in the children's book market?"
+      ],
+      "tags": ["arts", "education", "visual-arts", "literary-arts"]
+    },
+    {
+      "name": "Scientific and Technical Illustration",
+      "topics": [
+        "What skills do scientific illustrators need beyond artistic ability?",
+        "How do medical illustrators create accurate anatomical artwork?",
+        "What role does technical illustration play in engineering and manufacturing?",
+        "How do natural history illustrators balance accuracy with visual appeal?",
+        "What software and tools do technical illustrators use today?",
+        "How do you research and verify accuracy in scientific illustration?"
+      ],
+      "tags": ["arts", "sciences", "visual-arts", "education"]
+    },
+    {
+      "name": "Fashion Illustration",
+      "topics": [
+        "What is fashion illustration's role in the design and marketing process?",
+        "How do fashion illustrators stylize the figure and garments?",
+        "What media and techniques define fashion illustration styles?",
+        "How has fashion illustration evolved from hand-drawing to digital?",
+        "What makes fashion illustration different from fashion photography?",
+        "How do illustrators develop their own signature style for fashion work?"
+      ],
+      "tags": ["arts", "identity", "visual-arts", "drawing"]
+    },
+    {
+      "name": "Concept Art for Games and Film",
+      "topics": [
+        "What is concept art and how does it function in production pipelines?",
+        "How do concept artists visualize characters, environments, and props?",
+        "What skills and software do professional concept artists use?",
+        "How do concept artists communicate ideas quickly through sketches?",
+        "What is the difference between concept art and production art?",
+        "How do you build a portfolio for concept art careers?"
+      ],
+      "tags": ["arts", "film", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "Storyboarding",
+      "topics": [
+        "What is storyboarding and how does it serve film and animation production?",
+        "How do storyboard artists translate scripts into visual sequences?",
+        "What camera angles, compositions, and staging techniques do storyboards show?",
+        "How do storyboard artists indicate movement, timing, and transitions?",
+        "What software and traditional tools do storyboard artists use?",
+        "How does advertising storyboarding differ from film and animation?"
+      ],
+      "tags": ["arts", "communication", "film", "visual-arts"]
+    },
+    {
+      "name": "Character Design",
+      "topics": [
+        "What principles guide effective character design?",
+        "How do designers create characters that read clearly at any size?",
+        "What role do silhouette, shape language, and color play in character design?",
+        "How do you design characters that are both original and appealing?",
+        "What makes characters expressive and capable of conveying emotion?",
+        "How do character designers create model sheets and turnarounds?"
+      ],
+      "tags": ["arts", "identity", "visual-arts", "animation"]
+    },
+    {
+      "name": "Digital vs Traditional Illustration",
+      "topics": [
+        "What are the advantages and disadvantages of digital versus traditional media?",
+        "How do professional illustrators combine digital and traditional techniques?",
+        "What traditional skills translate to digital illustration?",
+        "How do you achieve a traditional look with digital tools?",
+        "What considerations affect whether to work digitally or traditionally?",
+        "How has the shift to digital changed illustration workflows and markets?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "digital-art"]
+    }
+  ]
+}

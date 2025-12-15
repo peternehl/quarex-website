@@ -1,0 +1,29 @@
+{
+  "name": "MD-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Kim Klacik (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "John Olszewski Jr. (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

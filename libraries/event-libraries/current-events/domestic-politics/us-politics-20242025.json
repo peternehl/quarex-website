@@ -1,0 +1,65 @@
+{
+  "name": "US Politics 2024–2025",
+  "chapters": [
+    {
+      "name": "Parties, Coalitions, and Factions",
+      "topics": [
+        "Major parties and their core constituencies",
+        "Internal factions within each party",
+        "Role of independents and swing voters",
+        "How party coalitions have shifted over time"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "governance",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Elections and Institutions",
+      "topics": [
+        "Key races and offices at stake in 2024–2025",
+        "How the Electoral College and Congress work",
+        "State-level election rules and variations",
+        "Debates over election integrity and voting access"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Policy Fights and Culture Wars",
+      "topics": [
+        "Economic policy and inequality debates",
+        "Abortion, gender, and cultural flashpoints",
+        "Immigration, borders, and national identity",
+        "Education, curriculum, and school politics"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Media, Money, and Influence",
+      "topics": [
+        "Campaign finance, super PACs, and dark money",
+        "Role of cable news and partisan media ecosystems",
+        "Social media, disinformation, and microtargeting",
+        "Polling, narratives, and public opinion shaping"
+      ],
+      "tags": [
+        "politics",
+        "media",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

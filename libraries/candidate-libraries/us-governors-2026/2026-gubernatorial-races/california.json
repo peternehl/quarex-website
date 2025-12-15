@@ -1,0 +1,59 @@
+{
+  "name": "California",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Chad Bianco (R)",
+        "Sharifah Hardie (R)",
+        "Steve Hilton (R)",
+        "Brandon Jones (R)",
+        "Kyle Langford (R)",
+        "Daniel Mercuri (R)",
+        "Leo Zacky (R)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "us-politics",
+        "democracy"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ethan Agarwal (D)",
+        "Xavier Becerra (D)",
+        "Ian Charles Calderon (D)",
+        "Katie Porter (D)",
+        "Raji Rab (D)",
+        "Thomas Steyer (D)",
+        "Eric Swalwell (D)",
+        "Tony Thurmond (D)",
+        "Antonio Villaraigosa (D)",
+        "Betty Yee (D)",
+        "Michael Younger (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Nicholas Thompson (I)",
+        "Jesse Alberti (I)",
+        "Tony Fitzpatrick (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

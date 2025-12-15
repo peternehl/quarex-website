@@ -1,0 +1,278 @@
+{
+  "_placement": {
+    "library_type": "perspectives-libraries",
+    "library": "contested-issues",
+    "shelf": "immigration-debates"
+  },
+  "book": {
+    "name": "Nation of Immigrants, Land of Walls",
+    "created_by": "Peter Nehl and Claude Opus 4.5",
+    "chapters": [
+      {
+        "name": "Chapter 1: Before There Were Borders (Pre-1882)",
+        "topics": [
+          "Was early America really 'open borders'?",
+          "Who came in the colonial era, and who was forced to come?",
+          "How did the Naturalization Act of 1790 define who could be American?",
+          "Why were Irish and German immigrants considered threatening?",
+          "What was the Know-Nothing movement, and why did it fail?",
+          "How did the Civil War change who was considered 'American'?"
+        ],
+        "tags": ["colonial", "naturalization", "know-nothings", "early-immigration"]
+      },
+      {
+        "name": "Chapter 2: The First Walls—Chinese Exclusion (1882-1943)",
+        "topics": [
+          "Why were Chinese workers recruited, then banned?",
+          "What did the Chinese Exclusion Act actually do?",
+          "How did 'paper sons' and Angel Island become part of immigration history?",
+          "Why did exclusion last 61 years?",
+          "How did Chinese exclusion create the template for future restrictions?",
+          "What other Asian groups were subsequently banned?"
+        ],
+        "tags": ["chinese-exclusion", "angel-island", "asian-immigration", "racism"]
+      },
+      {
+        "name": "Chapter 3: Ellis Island and the 'Good' Immigrants (1892-1924)",
+        "topics": [
+          "What was the Ellis Island experience really like?",
+          "Why were Southern and Eastern Europeans seen as racially inferior?",
+          "How did 'eugenics' shape immigration thinking?",
+          "Who got turned away at Ellis Island, and why?",
+          "How did immigrants transform American cities?",
+          "Why do descendants of this era often oppose today's immigration?"
+        ],
+        "tags": ["ellis-island", "eugenics", "southern-europeans", "eastern-europeans"]
+      },
+      {
+        "name": "Chapter 4: Closing the Golden Door (1924-1965)",
+        "topics": [
+          "What did the Immigration Act of 1924 actually do?",
+          "How were national-origin quotas designed to keep America 'white'?",
+          "Why were Western Hemisphere immigrants initially exempt?",
+          "How did the Great Depression change attitudes toward Mexican workers?",
+          "What was 'Mexican Repatriation,' and why isn't it widely known?",
+          "How did refugee crises expose the quota system's cruelty?"
+        ],
+        "tags": ["1924-act", "quotas", "mexican-repatriation", "refugees"]
+      },
+      {
+        "name": "Chapter 5: The Bracero Era and Operation Wetback (1942-1964)",
+        "topics": [
+          "What was the Bracero Program, and why was it created?",
+          "How did millions of Mexican workers build American agriculture?",
+          "What were working conditions like for braceros?",
+          "What was Operation Wetback, and how many were deported?",
+          "How did the program end, and what replaced it?",
+          "Why does the Bracero era matter for today's debates?"
+        ],
+        "tags": ["bracero", "operation-wetback", "guest-workers", "deportation"]
+      },
+      {
+        "name": "Chapter 6: The 1965 Revolution (1965-1980)",
+        "topics": [
+          "Why did the 1965 Immigration Act pass during the Civil Rights era?",
+          "What did the law's sponsors think would happen—and what actually happened?",
+          "How did family reunification reshape who came to America?",
+          "Why did Asian and Latin American immigration surge?",
+          "How did the end of quotas change America's demographics?",
+          "Was the 1965 Act a success or a mistake?"
+        ],
+        "tags": ["1965-act", "hart-celler", "family-reunification", "demographics"]
+      },
+      {
+        "name": "Chapter 7: Refugees and Asylum—Who Deserves Protection? (1980-Present)",
+        "topics": [
+          "What's the difference between a refugee and an asylum seeker?",
+          "How did the Cold War shape who America accepted as refugees?",
+          "Why were Cubans welcomed while Haitians were turned away?",
+          "What is the legal right to seek asylum?",
+          "How has the asylum system become overwhelmed?",
+          "Are asylum seekers 'gaming the system' or fleeing for their lives?"
+        ],
+        "tags": ["refugees", "asylum", "cubans", "haitians", "cold-war"]
+      },
+      {
+        "name": "Chapter 8: The Invention of 'Illegal' Immigration",
+        "topics": [
+          "When did crossing the border without papers become a crime?",
+          "How did 'illegal alien' become the dominant framing?",
+          "Why was unauthorized immigration relatively tolerated for decades?",
+          "How did employer demand drive unauthorized migration?",
+          "What does 'illegal' actually mean legally?",
+          "Why do some prefer 'undocumented' while others insist on 'illegal'?"
+        ],
+        "tags": ["illegal-immigration", "framing", "language", "criminalization"]
+      },
+      {
+        "name": "Chapter 9: Reagan's Amnesty and Its Aftermath (1986)",
+        "topics": [
+          "What did the Immigration Reform and Control Act (IRCA) actually do?",
+          "How did 3 million undocumented immigrants gain legal status?",
+          "Why did Reagan support amnesty?",
+          "What was supposed to prevent future illegal immigration—and why did it fail?",
+          "Why do conservatives now disavow Reagan's approach?",
+          "Could amnesty ever happen again?"
+        ],
+        "tags": ["IRCA", "amnesty", "reagan", "legalization"]
+      },
+      {
+        "name": "Chapter 10: Border Militarization (1990s-Present)",
+        "topics": [
+          "How did the border go from lightly patrolled to heavily fortified?",
+          "What were Operations Gatekeeper, Hold the Line, and Safeguard?",
+          "How did 'prevention through deterrence' push crossings into deadly terrain?",
+          "How many migrants have died crossing the border?",
+          "Has more enforcement actually reduced unauthorized immigration?",
+          "What does the border actually look like today?"
+        ],
+        "tags": ["border-patrol", "militarization", "deaths", "enforcement"]
+      },
+      {
+        "name": "Chapter 11: The Undocumented Population—Who Are They?",
+        "topics": [
+          "How many undocumented immigrants live in America?",
+          "Where do they come from, and where do they live?",
+          "How long have most undocumented immigrants been here?",
+          "What jobs do undocumented workers actually do?",
+          "Do undocumented immigrants pay taxes?",
+          "What is life like living 'in the shadows'?"
+        ],
+        "tags": ["undocumented", "demographics", "labor", "taxes", "daily-life"]
+      },
+      {
+        "name": "Chapter 12: The DREAMers and DACA",
+        "topics": [
+          "Who are the DREAMers?",
+          "Why has the DREAM Act failed repeatedly since 2001?",
+          "What did Obama's DACA program actually provide?",
+          "Why do courts keep ruling on DACA's legality?",
+          "What would happen to 800,000 people if DACA ends?",
+          "Why can't Congress solve this?"
+        ],
+        "tags": ["dreamers", "DACA", "obama", "congress", "youth"]
+      },
+      {
+        "name": "Chapter 13: The Economic Debate",
+        "topics": [
+          "Do immigrants take jobs from American workers?",
+          "Do immigrants lower wages?",
+          "What do economists actually say about immigration's effects?",
+          "Do immigrants pay more in taxes than they receive in benefits?",
+          "Which industries depend on immigrant labor?",
+          "What would happen economically if all undocumented workers left?"
+        ],
+        "tags": ["economics", "jobs", "wages", "taxes", "labor-market"]
+      },
+      {
+        "name": "Chapter 14: The Cultural Debate",
+        "topics": [
+          "Will today's immigrants 'assimilate' like previous waves?",
+          "Are immigrants learning English?",
+          "What does 'assimilation' even mean—and who defines it?",
+          "How have previous 'unassimilable' groups become 'American'?",
+          "Is America's identity based on culture, values, or civic participation?",
+          "What is the 'Great Replacement' theory, and where did it come from?"
+        ],
+        "tags": ["assimilation", "culture", "english", "identity", "great-replacement"]
+      },
+      {
+        "name": "Chapter 15: The Security Debate",
+        "topics": [
+          "Do immigrants commit more crimes than native-born Americans?",
+          "What does the data actually show about immigration and crime?",
+          "How did 9/11 transform immigration enforcement?",
+          "What is the connection between immigration and terrorism?",
+          "How did MS-13 become a political symbol?",
+          "Are 'sanctuary cities' protecting criminals or communities?"
+        ],
+        "tags": ["crime", "security", "terrorism", "sanctuary-cities", "MS-13"]
+      },
+      {
+        "name": "Chapter 16: Family Separation and Detention (2018-Present)",
+        "topics": [
+          "What was the 'zero tolerance' family separation policy?",
+          "How many children were separated from their parents?",
+          "What are immigration detention centers like?",
+          "How did family separation become a political flashpoint?",
+          "What happened to the separated families?",
+          "Is detention necessary for immigration enforcement?"
+        ],
+        "tags": ["family-separation", "detention", "zero-tolerance", "children"]
+      },
+      {
+        "name": "Chapter 17: Trump's First Term—The Hardline Experiment (2017-2021)",
+        "topics": [
+          "What did Trump's 'Muslim ban' actually do?",
+          "How did 'zero tolerance' lead to family separation?",
+          "What was 'Remain in Mexico' and how did it work?",
+          "How did Trump use Title 42 during COVID?",
+          "Why couldn't Trump build 'the wall' as promised?",
+          "Did Trump's policies actually reduce illegal immigration?"
+        ],
+        "tags": ["trump", "muslim-ban", "remain-in-mexico", "title-42", "wall", "first-term"]
+      },
+      {
+        "name": "Chapter 18: The Biden Interlude (2021-2025)",
+        "topics": [
+          "How did Biden try to reverse Trump's policies?",
+          "Why did border crossings surge in 2021-2023?",
+          "Why did Biden keep Title 42 in place for so long?",
+          "What happened at the border in 2024?",
+          "Why did a bipartisan border deal collapse?",
+          "Did Biden's approach satisfy anyone?"
+        ],
+        "tags": ["biden", "border-surge", "title-42", "bipartisan-deal"]
+      },
+      {
+        "name": "Chapter 19: Trump's Second Term—Mass Deportation (2025-Present)",
+        "topics": [
+          "What has the Trump administration actually done on deportations?",
+          "Is 'mass deportation' logistically possible?",
+          "What legal authorities is the administration using?",
+          "How are sanctuary cities and states responding?",
+          "What is happening to DACA recipients?",
+          "What are the human and economic costs of enforcement at scale?",
+          "How does current policy compare to historical deportation campaigns?"
+        ],
+        "tags": ["trump", "mass-deportation", "second-term", "enforcement", "2025"]
+      },
+      {
+        "name": "Chapter 20: The Legal Immigration Backlog",
+        "topics": [
+          "How long does legal immigration actually take?",
+          "Why are some visa backlogs measured in decades?",
+          "What is the 'diversity lottery,' and why is it controversial?",
+          "How does the H-1B visa system work?",
+          "Why do critics say 'get in line' when there's no real line?",
+          "Could legal immigration reform reduce illegal immigration?"
+        ],
+        "tags": ["legal-immigration", "backlogs", "visas", "H-1B", "lottery"]
+      },
+      {
+        "name": "Chapter 21: Competing Narratives",
+        "topics": [
+          "Is America fundamentally a 'nation of immigrants'?",
+          "What do restrictionists believe, and why?",
+          "What do open-borders advocates believe, and why?",
+          "How do immigrants themselves view the debate?",
+          "Why do both sides accuse the other of bad faith?",
+          "What values are actually in conflict?"
+        ],
+        "tags": ["narratives", "restrictionism", "open-borders", "values"]
+      },
+      {
+        "name": "Chapter 22: What Would Real Reform Look Like?",
+        "topics": [
+          "What would a 'compromise' immigration bill include?",
+          "Is mass deportation logistically possible?",
+          "What would a path to citizenship require politically?",
+          "How do other countries manage immigration differently?",
+          "What role does foreign policy play in migration?",
+          "Is there any immigration policy that could satisfy most Americans?"
+        ],
+        "tags": ["reform", "compromise", "deportation", "citizenship", "solutions"]
+      }
+    ]
+  }
+}

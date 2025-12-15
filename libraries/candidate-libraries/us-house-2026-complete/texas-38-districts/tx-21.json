@@ -1,0 +1,58 @@
+{
+  "name": "TX-21",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Daniel Betts (R)",
+        "Jason Cahill (R)",
+        "Jacques DuBose (R)",
+        "Ezekiel Enriquez (R)",
+        "Denis Goulet (R)",
+        "Weston Martinez (R)",
+        "Matt Okerson (R)",
+        "Paul Rojas (R)",
+        "Kyle Sinclair (R)",
+        "Mark Teixeira (R)",
+        "Heather Tessmer (R)",
+        "Trey Trainor (R)",
+        "Mike Wheeler (R)",
+        "Chip Roy (R)",
+        "Jessica Karlsruher (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Javi Andrade (D)",
+        "Gary Taylor (D)",
+        "Regina Vanburg (D)",
+        "Daniel Weber (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Dan McQueen (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

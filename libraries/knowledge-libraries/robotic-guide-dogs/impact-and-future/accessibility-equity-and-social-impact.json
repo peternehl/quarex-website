@@ -1,0 +1,50 @@
+{
+  "name": "Accessibility, Equity, and Social Impact",
+  "chapters": [
+    {
+      "name": "Complementing Traditional Guide Dogs and Mobility Tools",
+      "topics": [
+        "In what ways can robotic guide dogs complement rather than replace traditional guide dogs and white canes?",
+        "How should users be supported in choosing the right mix of tools for their preferences, lifestyle, and environment?",
+        "What lessons from traditional orientation and mobility training can guide the integration of robotics?",
+        "How might service providers collaborate across biological and robotic programs for the benefit of users?"
+      ],
+      "tags": [
+        "technology",
+        "human-rights",
+        "accessibility",
+        "robotics"
+      ]
+    },
+    {
+      "name": "Equity, Inclusion, and Global Access",
+      "topics": [
+        "How can we ensure that robotic guide dogs do not deepen existing disparities in access to mobility support?",
+        "What special barriers might exist for users in low-income regions, rural areas, or communities with limited infrastructure?",
+        "How can design decisions around language, culture, and local norms influence the accessibility of these systems?",
+        "What partnerships with governments, NGOs, and community organizations could broaden access globally?"
+      ],
+      "tags": [
+        "technology",
+        "human-rights",
+        "accessibility",
+        "robotics"
+      ]
+    },
+    {
+      "name": "Public Perception, Stigma, and Social Norms",
+      "topics": [
+        "How might the public initially react to blind individuals guided by robotic quadrupeds in everyday settings?",
+        "What forms of stigma or curiosity could users face, and how might that impact their comfort and independence?",
+        "How can education campaigns, media portrayals, and public demonstrations shape more positive social norms?",
+        "What role can blind and visually impaired advocates play in steering public narratives about robotic guide dogs?"
+      ],
+      "tags": [
+        "society",
+        "human-rights",
+        "bias",
+        "accessibility"
+      ]
+    }
+  ]
+}

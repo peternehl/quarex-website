@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "ai-fundamentals",
+    "name": "AI Fundamentals",
+    "description": "How modern artificial intelligence works: from basic concepts and machine learning to large language models, their capabilities, and their limitations.",
+    "shelfCount": 3
+  },
+  {
+    "slug": "biographies",
+    "name": "Biographies",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "human-knowledge",
+    "name": "Human Knowledge",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "meta-knowledge",
+    "name": "Meta Knowledge",
+    "description": "Understanding TruthAngel, the Quarex philosophy, and how recursive knowledge exploration works",
+    "shelfCount": 3
+  },
+  {
+    "slug": "personal-and-life",
+    "name": "Personal And Life",
+    "description": null,
+    "shelfCount": 3
+  },
+  {
+    "slug": "philosophy",
+    "name": "Philosophy",
+    "description": "Exploring fundamental questions about existence, knowledge, ethics, and meaning across world philosophical traditions.",
+    "shelfCount": 1
+  },
+  {
+    "slug": "power-and-energy",
+    "name": "Power And Energy",
+    "description": null,
+    "shelfCount": 1
+  },
+  {
+    "slug": "robotic-guide-dogs",
+    "name": "Robotic Guide Dogs",
+    "description": null,
+    "shelfCount": 3
+  },
+  {
+    "slug": "the-arts",
+    "name": "The Arts",
+    "description": null,
+    "shelfCount": 3
+  },
+  {
+    "slug": "the-sciences",
+    "name": "The Sciences",
+    "description": null,
+    "shelfCount": 4
+  }
+]

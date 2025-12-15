@@ -1,0 +1,62 @@
+{
+  "name": "Illinois",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "R. Cary Capparelli (R)",
+        "Casey Chlebek (R)",
+        "CaSándra Claiborne (R)",
+        "Jeannie Evans (R)",
+        "Pamela Denise Long (R)",
+        "Jimmy Lee Tillman II (R)",
+        "Don Tracy (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Steve Botsford Jr. (D)",
+        "Sean Brown (D)",
+        "Awisi Bustos (D)",
+        "Jonathan Dean (D)",
+        "Adam Delgado (D)",
+        "Robin Kelly (D)",
+        "Raja Krishnamoorthi (D)",
+        "Bryan Maxwell (D)",
+        "Robert Palmer (D)",
+        "Kevin Ryan (D)",
+        "Jump Shepherd (D)",
+        "Juliana Stratton (D)",
+        "Christopher Swann (D)",
+        "Anthony Williams (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Austin Mink (I)",
+        "Tyrone Muhammad (I)",
+        "Anthony Smith (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Waves, Sound, and Light",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Wave Fundamentals",
+      "topics": [
+        "What is a wave and how does it transfer energy without transferring matter?",
+        "What properties describe waves: wavelength, frequency, amplitude, speed?",
+        "How are transverse and longitudinal waves different?",
+        "What is the relationship between wavelength, frequency, and wave speed?",
+        "How do mechanical waves require a medium while electromagnetic waves don't?",
+        "What are some examples of waves in everyday life?"
+      ],
+      "tags": ["science", "physics", "waves", "education"]
+    },
+    {
+      "name": "Wave Behavior",
+      "topics": [
+        "What happens when a wave reflects off a boundary?",
+        "How does refraction bend waves when they change speed?",
+        "What is diffraction and when is it most noticeable?",
+        "How do waves interfere constructively and destructively?",
+        "What are standing waves and how do they form?",
+        "What is resonance and why can it be both useful and dangerous?"
+      ],
+      "tags": ["science", "physics", "waves", "mechanics"]
+    },
+    {
+      "name": "Sound Waves",
+      "topics": [
+        "How are sound waves produced by vibrating objects?",
+        "What determines the pitch and loudness of a sound?",
+        "How fast does sound travel through different materials?",
+        "Why does sound need a medium and what happens in a vacuum?",
+        "How do we hear sound through the ear and brain?",
+        "What is the threshold of hearing and the threshold of pain?"
+      ],
+      "tags": ["science", "physics", "acoustics", "biology"]
+    },
+    {
+      "name": "Musical Acoustics",
+      "topics": [
+        "How do musical instruments produce different notes and timbres?",
+        "What is a harmonic series and how does it relate to music?",
+        "How do string, wind, and percussion instruments work differently?",
+        "Why do different instruments playing the same note sound different?",
+        "How do concert halls use acoustics to improve sound?",
+        "What is the physics behind digital music and electronic instruments?"
+      ],
+      "tags": ["science", "physics", "music", "acoustics"]
+    },
+    {
+      "name": "The Doppler Effect",
+      "topics": [
+        "What causes the Doppler effect for sound waves?",
+        "Why does a siren sound different as an ambulance passes?",
+        "How do police use the Doppler effect in radar speed guns?",
+        "How does the Doppler effect apply to light from stars and galaxies?",
+        "What is redshift and what does it tell us about the expanding universe?",
+        "How is Doppler ultrasound used in medical imaging?"
+      ],
+      "tags": ["science", "physics", "waves", "applications"]
+    },
+    {
+      "name": "The Nature of Light",
+      "topics": [
+        "Is light a wave or a particle, and how do we know?",
+        "What is the electromagnetic spectrum and where is visible light?",
+        "How fast does light travel and how was this measured?",
+        "What experiments proved light has wave properties?",
+        "What experiments proved light has particle properties?",
+        "How does wave-particle duality resolve this apparent contradiction?"
+      ],
+      "tags": ["science", "physics", "optics", "quantum"]
+    },
+    {
+      "name": "Reflection and Mirrors",
+      "topics": [
+        "What is the law of reflection and why do mirrors work?",
+        "How do plane mirrors create virtual images?",
+        "How do concave and convex mirrors form different types of images?",
+        "What applications use curved mirrors: telescopes, car mirrors, solar collectors?",
+        "Why do some surfaces reflect diffusely while others reflect specularly?",
+        "How do two-way mirrors work?"
+      ],
+      "tags": ["science", "physics", "optics", "technology"]
+    },
+    {
+      "name": "Refraction and Lenses",
+      "topics": [
+        "What causes light to bend when entering a different medium?",
+        "What is Snell's law and how does it predict refraction angles?",
+        "How do lenses form images and what determines their focal length?",
+        "What is total internal reflection and how do fiber optics use it?",
+        "Why do prisms separate white light into a rainbow of colors?",
+        "How do corrective lenses fix nearsightedness and farsightedness?"
+      ],
+      "tags": ["science", "physics", "optics", "technology"]
+    },
+    {
+      "name": "Color and the Spectrum",
+      "topics": [
+        "What is visible light and why do we see different colors?",
+        "How do objects appear colored based on what light they reflect?",
+        "What is the difference between additive and subtractive color mixing?",
+        "How do our eyes detect color using cone cells?",
+        "What causes rainbows, sunsets, and other natural color phenomena?",
+        "What is color blindness and how does it affect perception?"
+      ],
+      "tags": ["science", "physics", "optics", "biology"]
+    },
+    {
+      "name": "Modern Optics and Technology",
+      "topics": [
+        "How do lasers produce coherent light and what makes them useful?",
+        "How do cameras and the human eye use similar optical principles?",
+        "What is holography and how does it create three-dimensional images?",
+        "How do microscopes and telescopes extend our vision?",
+        "How does fiber optic communication transmit data at light speed?",
+        "What emerging optical technologies might transform the future?"
+      ],
+      "tags": ["science", "physics", "optics", "innovation"]
+    }
+  ]
+}

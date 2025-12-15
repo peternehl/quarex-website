@@ -1,0 +1,35 @@
+{
+  "name": "SD-AL",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Christopher Sanders (R)",
+        "Justin McNeal (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Bert Olson (D)",
+        "Zach Kovach (D)",
+        "Ryan Ryder (D)",
+        "Brian Wirth (D)",
+        "Whitney Raver (D)",
+        "Ellee Spawn (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

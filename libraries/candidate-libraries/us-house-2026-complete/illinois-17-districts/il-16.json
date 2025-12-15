@@ -1,0 +1,34 @@
+{
+  "name": "IL-16",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Darin LaHood (R)",
+        "John Kitover (R)",
+        "Garth Gullette (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Paul Nolley (D)",
+        "Joe Albright (D)",
+        "Scott Best (D)",
+        "Brendyn Morgan (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

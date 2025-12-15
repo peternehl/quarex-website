@@ -1,0 +1,101 @@
+{
+  "name": "Physical Systems",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Micro / Edge Facilities",
+      "topics": [
+        "What defines a micro or edge data center compared to traditional facilities?",
+        "Why are edge facilities becoming critical for modern computing?",
+        "What are the common form factors for micro data centers?",
+        "How do modular and containerized designs simplify edge deployment?",
+        "How do edge facilities manage power in locations with unreliable grids?",
+        "What cooling solutions work for small, enclosed edge deployments?",
+        "How are remote edge facilities monitored without on-site staff?",
+        "What automation is required for lights-out edge operations?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Small & Medium Facilities",
+      "topics": [
+        "What distinguishes small and medium data centers from enterprise or hyperscale?",
+        "What organizations typically build or lease small and medium facilities?",
+        "What building types are commonly converted into small data centers?",
+        "How do raised floors versus slab designs affect small facility layouts?",
+        "What power distribution architectures work best for mid-sized facilities?",
+        "How do small facilities choose between air, liquid, or hybrid cooling?",
+        "How do staffing models differ for small versus large data centers?",
+        "What monitoring and DCIM tools are cost-effective for mid-sized facilities?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Large & Hyperscale Facilities",
+      "topics": [
+        "What defines a hyperscale data center and who operates them?",
+        "How do hyperscale facilities differ from traditional enterprise data centers?",
+        "How do hyperscale operators design buildings for maximum efficiency?",
+        "What custom server and rack designs do hyperscale companies use?",
+        "How do hyperscale facilities achieve PUE below 1.2?",
+        "What cooling innovations have hyperscale operators pioneered?",
+        "How do hyperscale operators achieve economies of scale in operations?",
+        "What automation and AI tools manage hyperscale infrastructure?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Power Density & Cooling Envelopes",
+      "topics": [
+        "What is power density and why does it matter for data center design?",
+        "How has rack power density evolved from the 1990s to today?",
+        "How do high-density zones integrate with standard data center layouts?",
+        "What rack configurations support 30+ kW per rack deployments?",
+        "Why does air cooling fail above certain power densities?",
+        "What liquid cooling technologies address high-density thermal loads?",
+        "How do operators monitor thermal conditions in high-density environments?",
+        "What maintenance challenges arise from liquid cooling systems?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Future Power Scaling Curves",
+      "topics": [
+        "What historical trends define data center power consumption growth?",
+        "How do AI and machine learning workloads change power scaling curves?",
+        "How must facility designs change to accommodate future power demands?",
+        "What electrical infrastructure upgrades enable higher power delivery?",
+        "How will cooling technology evolve to match power scaling curves?",
+        "What renewable energy sources can realistically power future growth?",
+        "How do power monitoring systems scale for multi-hundred megawatt facilities?",
+        "What operational practices change as facilities approach utility-scale power?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "data-centers"
+      ]
+    }
+  ]
+}

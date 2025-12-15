@@ -1,0 +1,31 @@
+{
+  "name": "TN-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Scott DesJarlais (R)",
+        "Robert Arnold (R)",
+        "Thomas Davis (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "democracy"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Victoria Broderick (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

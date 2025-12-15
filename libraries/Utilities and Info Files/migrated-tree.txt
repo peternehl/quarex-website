@@ -1,0 +1,1952 @@
+Folder PATH listing
+Volume serial number is 1E31-34CB
+C:\USERS\PETER\PROJECTS\WEBSITES\TRUTHANGEL\UNLIMITED\MIGRATED
+|   books-missing-topics.txt
+|   
++---candidate-libraries
+|   |   _manifest.json
+|   |   _meta.json
+|   |   
+|   +---us-governors-2026
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   \---2026-gubernatorial-races
+|   |           alabama.json
+|   |           alaska.json
+|   |           arizona.json
+|   |           arkansas.json
+|   |           california.json
+|   |           colorado.json
+|   |           connecticut.json
+|   |           florida.json
+|   |           georgia.json
+|   |           guam.json
+|   |           hawaii.json
+|   |           idaho.json
+|   |           illinois.json
+|   |           iowa.json
+|   |           kansas.json
+|   |           maine.json
+|   |           maryland.json
+|   |           massachusetts.json
+|   |           michigan.json
+|   |           minnesota.json
+|   |           nebraska.json
+|   |           nevada.json
+|   |           new-hampshire.json
+|   |           new-mexico.json
+|   |           new-york.json
+|   |           northern-mariana-islands.json
+|   |           ohio.json
+|   |           oklahoma.json
+|   |           oregon.json
+|   |           pennsylvania.json
+|   |           rhode-island.json
+|   |           south-carolina.json
+|   |           south-dakota.json
+|   |           tennessee.json
+|   |           texas.json
+|   |           vermont.json
+|   |           virgin-islands.json
+|   |           wisconsin.json
+|   |           wyoming.json
+|   |           _manifest.json
+|   |           
+|   +---us-house-2026-complete
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---alabama-7-districts
+|   |   |       al-01.json
+|   |   |       al-02.json
+|   |   |       al-03.json
+|   |   |       al-04.json
+|   |   |       al-05.json
+|   |   |       al-06.json
+|   |   |       al-07.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---alaska-1-district
+|   |   |       ak-al.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---arizona-9-districts
+|   |   |       az-01.json
+|   |   |       az-02.json
+|   |   |       az-03.json
+|   |   |       az-04.json
+|   |   |       az-05.json
+|   |   |       az-06.json
+|   |   |       az-07.json
+|   |   |       az-08.json
+|   |   |       az-09.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---arkansas-4-districts
+|   |   |       ar-01.json
+|   |   |       ar-02.json
+|   |   |       ar-03.json
+|   |   |       ar-04.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---california-52-districts
+|   |   |       ca-01.json
+|   |   |       ca-02.json
+|   |   |       ca-03.json
+|   |   |       ca-04.json
+|   |   |       ca-05.json
+|   |   |       ca-06.json
+|   |   |       ca-07.json
+|   |   |       ca-08.json
+|   |   |       ca-09.json
+|   |   |       ca-10.json
+|   |   |       ca-11.json
+|   |   |       ca-12.json
+|   |   |       ca-13.json
+|   |   |       ca-14.json
+|   |   |       ca-15.json
+|   |   |       ca-16.json
+|   |   |       ca-17.json
+|   |   |       ca-18.json
+|   |   |       ca-19.json
+|   |   |       ca-20.json
+|   |   |       ca-21.json
+|   |   |       ca-22.json
+|   |   |       ca-23.json
+|   |   |       ca-24.json
+|   |   |       ca-25.json
+|   |   |       ca-26.json
+|   |   |       ca-27.json
+|   |   |       ca-28.json
+|   |   |       ca-29.json
+|   |   |       ca-30.json
+|   |   |       ca-31.json
+|   |   |       ca-32.json
+|   |   |       ca-33.json
+|   |   |       ca-34.json
+|   |   |       ca-35.json
+|   |   |       ca-36.json
+|   |   |       ca-37.json
+|   |   |       ca-38.json
+|   |   |       ca-39.json
+|   |   |       ca-40.json
+|   |   |       ca-41.json
+|   |   |       ca-42.json
+|   |   |       ca-43.json
+|   |   |       ca-44.json
+|   |   |       ca-45.json
+|   |   |       ca-46.json
+|   |   |       ca-47.json
+|   |   |       ca-48.json
+|   |   |       ca-49.json
+|   |   |       ca-50.json
+|   |   |       ca-51.json
+|   |   |       ca-52.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---colorado-8-districts
+|   |   |       co-01.json
+|   |   |       co-02.json
+|   |   |       co-03.json
+|   |   |       co-04.json
+|   |   |       co-05.json
+|   |   |       co-06.json
+|   |   |       co-07.json
+|   |   |       co-08.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---connecticut-5-districts
+|   |   |       ct-01.json
+|   |   |       ct-02.json
+|   |   |       ct-03.json
+|   |   |       ct-04.json
+|   |   |       ct-05.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---delaware-1-district
+|   |   |       de-al.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---florida-28-districts
+|   |   |       fl-01.json
+|   |   |       fl-02.json
+|   |   |       fl-03.json
+|   |   |       fl-04.json
+|   |   |       fl-05.json
+|   |   |       fl-06.json
+|   |   |       fl-07.json
+|   |   |       fl-08.json
+|   |   |       fl-09.json
+|   |   |       fl-10.json
+|   |   |       fl-11.json
+|   |   |       fl-12.json
+|   |   |       fl-13.json
+|   |   |       fl-14.json
+|   |   |       fl-15.json
+|   |   |       fl-16.json
+|   |   |       fl-17.json
+|   |   |       fl-18.json
+|   |   |       fl-19.json
+|   |   |       fl-20.json
+|   |   |       fl-21.json
+|   |   |       fl-22.json
+|   |   |       fl-23.json
+|   |   |       fl-24.json
+|   |   |       fl-25.json
+|   |   |       fl-26.json
+|   |   |       fl-27.json
+|   |   |       fl-28.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---georgia-14-districts
+|   |   |       ga-01.json
+|   |   |       ga-02.json
+|   |   |       ga-03.json
+|   |   |       ga-04.json
+|   |   |       ga-05.json
+|   |   |       ga-06.json
+|   |   |       ga-07.json
+|   |   |       ga-08.json
+|   |   |       ga-09.json
+|   |   |       ga-10.json
+|   |   |       ga-11.json
+|   |   |       ga-12.json
+|   |   |       ga-13.json
+|   |   |       ga-14.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---hawaii-2-districts
+|   |   |       hi-01.json
+|   |   |       hi-02.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---idaho-2-districts
+|   |   |       id-01.json
+|   |   |       id-02.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---illinois-17-districts
+|   |   |       il-01.json
+|   |   |       il-02.json
+|   |   |       il-03.json
+|   |   |       il-04.json
+|   |   |       il-05.json
+|   |   |       il-06.json
+|   |   |       il-07.json
+|   |   |       il-08.json
+|   |   |       il-09.json
+|   |   |       il-10.json
+|   |   |       il-11.json
+|   |   |       il-12.json
+|   |   |       il-13.json
+|   |   |       il-14.json
+|   |   |       il-15.json
+|   |   |       il-16.json
+|   |   |       il-17.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---indiana-9-districts
+|   |   |       in-01.json
+|   |   |       in-02.json
+|   |   |       in-03.json
+|   |   |       in-04.json
+|   |   |       in-05.json
+|   |   |       in-06.json
+|   |   |       in-07.json
+|   |   |       in-08.json
+|   |   |       in-09.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---iowa-4-districts
+|   |   |       ia-01.json
+|   |   |       ia-02.json
+|   |   |       ia-03.json
+|   |   |       ia-04.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---kansas-4-districts
+|   |   |       ks-01.json
+|   |   |       ks-02.json
+|   |   |       ks-03.json
+|   |   |       ks-04.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---kentucky-6-districts
+|   |   |       ky-01.json
+|   |   |       ky-02.json
+|   |   |       ky-03.json
+|   |   |       ky-04.json
+|   |   |       ky-05.json
+|   |   |       ky-06.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---louisiana-6-districts
+|   |   |       la-01.json
+|   |   |       la-02.json
+|   |   |       la-03.json
+|   |   |       la-04.json
+|   |   |       la-05.json
+|   |   |       la-06.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---maine-2-districts
+|   |   |       me-01.json
+|   |   |       me-02.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---maryland-8-districts
+|   |   |       md-01.json
+|   |   |       md-02.json
+|   |   |       md-03.json
+|   |   |       md-04.json
+|   |   |       md-05.json
+|   |   |       md-06.json
+|   |   |       md-07.json
+|   |   |       md-08.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---massachusetts-9-districts
+|   |   |       ma-01.json
+|   |   |       ma-02.json
+|   |   |       ma-03.json
+|   |   |       ma-04.json
+|   |   |       ma-05.json
+|   |   |       ma-06.json
+|   |   |       ma-07.json
+|   |   |       ma-08.json
+|   |   |       ma-09.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---michigan-13-districts
+|   |   |       mi-01.json
+|   |   |       mi-02.json
+|   |   |       mi-03.json
+|   |   |       mi-04.json
+|   |   |       mi-05.json
+|   |   |       mi-06.json
+|   |   |       mi-07.json
+|   |   |       mi-08.json
+|   |   |       mi-09.json
+|   |   |       mi-10.json
+|   |   |       mi-11.json
+|   |   |       mi-12.json
+|   |   |       mi-13.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---minnesota-8-districts
+|   |   |       mn-01.json
+|   |   |       mn-02.json
+|   |   |       mn-03.json
+|   |   |       mn-04.json
+|   |   |       mn-05.json
+|   |   |       mn-06.json
+|   |   |       mn-07.json
+|   |   |       mn-08.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---mississippi-4-districts
+|   |   |       ms-01.json
+|   |   |       ms-02.json
+|   |   |       ms-03.json
+|   |   |       ms-04.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---missouri-8-districts
+|   |   |       mo-01.json
+|   |   |       mo-02.json
+|   |   |       mo-03.json
+|   |   |       mo-04.json
+|   |   |       mo-05.json
+|   |   |       mo-06.json
+|   |   |       mo-07.json
+|   |   |       mo-08.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---montana-2-districts
+|   |   |       mt-01.json
+|   |   |       mt-02.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---nebraska-3-districts
+|   |   |       ne-01.json
+|   |   |       ne-02.json
+|   |   |       ne-03.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---nevada-4-districts
+|   |   |       nv-01.json
+|   |   |       nv-02.json
+|   |   |       nv-03.json
+|   |   |       nv-04.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---new-hampshire-2-districts
+|   |   |       nh-01.json
+|   |   |       nh-02.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---new-jersey-12-districts
+|   |   |       nj-01.json
+|   |   |       nj-02.json
+|   |   |       nj-03.json
+|   |   |       nj-04.json
+|   |   |       nj-05.json
+|   |   |       nj-06.json
+|   |   |       nj-07.json
+|   |   |       nj-08.json
+|   |   |       nj-09.json
+|   |   |       nj-10.json
+|   |   |       nj-11.json
+|   |   |       nj-12.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---new-mexico-3-districts
+|   |   |       nm-01.json
+|   |   |       nm-02.json
+|   |   |       nm-03.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---new-york-26-districts
+|   |   |       ny-01.json
+|   |   |       ny-02.json
+|   |   |       ny-03.json
+|   |   |       ny-04.json
+|   |   |       ny-05.json
+|   |   |       ny-06.json
+|   |   |       ny-07.json
+|   |   |       ny-08.json
+|   |   |       ny-09.json
+|   |   |       ny-10.json
+|   |   |       ny-11.json
+|   |   |       ny-12.json
+|   |   |       ny-13.json
+|   |   |       ny-14.json
+|   |   |       ny-15.json
+|   |   |       ny-16.json
+|   |   |       ny-17.json
+|   |   |       ny-18.json
+|   |   |       ny-19.json
+|   |   |       ny-20.json
+|   |   |       ny-21.json
+|   |   |       ny-22.json
+|   |   |       ny-23.json
+|   |   |       ny-24.json
+|   |   |       ny-25.json
+|   |   |       ny-26.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---north-carolina-14-districts
+|   |   |       nc-01.json
+|   |   |       nc-02.json
+|   |   |       nc-03.json
+|   |   |       nc-04.json
+|   |   |       nc-05.json
+|   |   |       nc-06.json
+|   |   |       nc-07.json
+|   |   |       nc-08.json
+|   |   |       nc-09.json
+|   |   |       nc-10.json
+|   |   |       nc-11.json
+|   |   |       nc-12.json
+|   |   |       nc-13.json
+|   |   |       nc-14.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---north-dakota-1-district
+|   |   |       nd-al.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---ohio-15-districts
+|   |   |       oh-01.json
+|   |   |       oh-02.json
+|   |   |       oh-03.json
+|   |   |       oh-04.json
+|   |   |       oh-05.json
+|   |   |       oh-06.json
+|   |   |       oh-07.json
+|   |   |       oh-08.json
+|   |   |       oh-09.json
+|   |   |       oh-10.json
+|   |   |       oh-11.json
+|   |   |       oh-12.json
+|   |   |       oh-13.json
+|   |   |       oh-14.json
+|   |   |       oh-15.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---oklahoma-5-districts
+|   |   |       ok-01.json
+|   |   |       ok-02.json
+|   |   |       ok-03.json
+|   |   |       ok-04.json
+|   |   |       ok-05.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---oregon-6-districts
+|   |   |       or-01.json
+|   |   |       or-02.json
+|   |   |       or-03.json
+|   |   |       or-04.json
+|   |   |       or-05.json
+|   |   |       or-06.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---pennsylvania-17-districts
+|   |   |       pa-01.json
+|   |   |       pa-02.json
+|   |   |       pa-03.json
+|   |   |       pa-04.json
+|   |   |       pa-05.json
+|   |   |       pa-06.json
+|   |   |       pa-07.json
+|   |   |       pa-08.json
+|   |   |       pa-09.json
+|   |   |       pa-10.json
+|   |   |       pa-11.json
+|   |   |       pa-12.json
+|   |   |       pa-13.json
+|   |   |       pa-14.json
+|   |   |       pa-15.json
+|   |   |       pa-16.json
+|   |   |       pa-17.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---rhode-island-2-districts
+|   |   |       ri-01.json
+|   |   |       ri-02.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---south-carolina-7-districts
+|   |   |       sc-01.json
+|   |   |       sc-02.json
+|   |   |       sc-03.json
+|   |   |       sc-04.json
+|   |   |       sc-05.json
+|   |   |       sc-06.json
+|   |   |       sc-07.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---south-dakota-1-district
+|   |   |       sd-al.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---tennessee-9-districts
+|   |   |       tn-01.json
+|   |   |       tn-02.json
+|   |   |       tn-03.json
+|   |   |       tn-04.json
+|   |   |       tn-05.json
+|   |   |       tn-06.json
+|   |   |       tn-07.json
+|   |   |       tn-08.json
+|   |   |       tn-09.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---texas-38-districts
+|   |   |       tx-01.json
+|   |   |       tx-02.json
+|   |   |       tx-03.json
+|   |   |       tx-04.json
+|   |   |       tx-05.json
+|   |   |       tx-06.json
+|   |   |       tx-07.json
+|   |   |       tx-08.json
+|   |   |       tx-09.json
+|   |   |       tx-10.json
+|   |   |       tx-11.json
+|   |   |       tx-12.json
+|   |   |       tx-13.json
+|   |   |       tx-14.json
+|   |   |       tx-15.json
+|   |   |       tx-16.json
+|   |   |       tx-17.json
+|   |   |       tx-18.json
+|   |   |       tx-19.json
+|   |   |       tx-20.json
+|   |   |       tx-21.json
+|   |   |       tx-22.json
+|   |   |       tx-23.json
+|   |   |       tx-24.json
+|   |   |       tx-25.json
+|   |   |       tx-26.json
+|   |   |       tx-27.json
+|   |   |       tx-28.json
+|   |   |       tx-29.json
+|   |   |       tx-30.json
+|   |   |       tx-31.json
+|   |   |       tx-32.json
+|   |   |       tx-33.json
+|   |   |       tx-34.json
+|   |   |       tx-35.json
+|   |   |       tx-36.json
+|   |   |       tx-37.json
+|   |   |       tx-38.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---utah-4-districts
+|   |   |       ut-01.json
+|   |   |       ut-02.json
+|   |   |       ut-03.json
+|   |   |       ut-04.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---vermont-1-district
+|   |   |       vt-al.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---virginia-11-districts
+|   |   |       va-01.json
+|   |   |       va-02.json
+|   |   |       va-03.json
+|   |   |       va-04.json
+|   |   |       va-05.json
+|   |   |       va-06.json
+|   |   |       va-07.json
+|   |   |       va-08.json
+|   |   |       va-09.json
+|   |   |       va-10.json
+|   |   |       va-11.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---washington-10-districts
+|   |   |       wa-01.json
+|   |   |       wa-02.json
+|   |   |       wa-03.json
+|   |   |       wa-04.json
+|   |   |       wa-05.json
+|   |   |       wa-06.json
+|   |   |       wa-07.json
+|   |   |       wa-08.json
+|   |   |       wa-09.json
+|   |   |       wa-10.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---west-virginia-2-districts
+|   |   |       wv-01.json
+|   |   |       wv-02.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---wisconsin-8-districts
+|   |   |       wi-01.json
+|   |   |       wi-02.json
+|   |   |       wi-03.json
+|   |   |       wi-04.json
+|   |   |       wi-05.json
+|   |   |       wi-06.json
+|   |   |       wi-07.json
+|   |   |       wi-08.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---wyoming-1-district
+|   |           wy-al.json
+|   |           _manifest.json
+|   |           
+|   \---us-senate-2026-complete
+|       |   _manifest.json
+|       |   _meta.json
+|       |   
+|       +---class-2-regular-elections
+|       |       alabama.json
+|       |       alaska.json
+|       |       arkansas.json
+|       |       colorado.json
+|       |       delaware.json
+|       |       georgia.json
+|       |       idaho.json
+|       |       illinois.json
+|       |       iowa.json
+|       |       kansas.json
+|       |       kentucky.json
+|       |       louisiana.json
+|       |       maine.json
+|       |       massachusetts.json
+|       |       michigan.json
+|       |       minnesota.json
+|       |       mississippi.json
+|       |       montana.json
+|       |       nebraska.json
+|       |       new-hampshire.json
+|       |       new-jersey.json
+|       |       new-mexico.json
+|       |       north-carolina.json
+|       |       oklahoma.json
+|       |       oregon.json
+|       |       rhode-island.json
+|       |       south-carolina.json
+|       |       south-dakota.json
+|       |       tennessee.json
+|       |       texas.json
+|       |       virginia.json
+|       |       west-virginia.json
+|       |       wyoming.json
+|       |       _manifest.json
+|       |       
+|       \---special-elections
+|               _manifest.json
+|               
++---event-libraries
+|   |   _manifest.json
+|   |   _meta.json
+|   |   
+|   +---current-events
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---domestic-politics
+|   |   |       us-politics-20242025.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---global-challenges
+|   |   |       global-climate-and-environment.json
+|   |   |       global-economy-right-now.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---international-conflicts
+|   |   |       middle-east-conflicts.json
+|   |   |       russiaukraine-war.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---news-of-the-day
+|   |           news-of-the-region.json
+|   |           _manifest.json
+|   |           
+|   \---the-20162024-maga-era-in-us-politics
+|       |   _manifest.json
+|       |   _meta.json
+|       |   
+|       +---after-2020-persistence-fragmentation-and-legacy
+|       |       long-term-impacts-and-future-scenarios.json
+|       |       maga-after-the-2020-election.json
+|       |       media-platforms-and-deplatforming.json
+|       |       _manifest.json
+|       |       
+|       +---governing-institutions-and-conflict
+|       |       impeachments-investigations-and-norms.json
+|       |       january-6-and-democratic-backsliding.json
+|       |       trump-in-office-20172020.json
+|       |       _manifest.json
+|       |       
+|       \---the-rise-of-maga
+|               movement-brand-and-base.json
+|               pre-2016-context-and-grievances.json
+|               the-2016-campaign-and-election.json
+|               _manifest.json
+|               
++---geography-libraries
+|   |   _manifest.json
+|   |   _meta.json
+|   |   
+|   +---africa
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---countries
+|   |           algeria.json
+|   |           angola.json
+|   |           benin.json
+|   |           botswana.json
+|   |           burkina-faso.json
+|   |           burundi.json
+|   |           cabo-verde.json
+|   |           cameroon.json
+|   |           central-african-republic.json
+|   |           chad.json
+|   |           comoros.json
+|   |           cte-divoire.json
+|   |           democratic-republic-of-the-congo.json
+|   |           djibouti.json
+|   |           egypt.json
+|   |           equatorial-guinea.json
+|   |           eritrea.json
+|   |           eswatini.json
+|   |           ethiopia.json
+|   |           gabon.json
+|   |           gambia.json
+|   |           ghana.json
+|   |           guinea-bissau.json
+|   |           guinea.json
+|   |           kenya.json
+|   |           lesotho.json
+|   |           liberia.json
+|   |           libya.json
+|   |           madagascar.json
+|   |           malawi.json
+|   |           mali.json
+|   |           mauritania.json
+|   |           mauritius.json
+|   |           morocco.json
+|   |           mozambique.json
+|   |           namibia.json
+|   |           niger.json
+|   |           nigeria.json
+|   |           republic-of-the-congo.json
+|   |           rwanda.json
+|   |           senegal.json
+|   |           seychelles.json
+|   |           sierra-leone.json
+|   |           so-tom-and-prncipe.json
+|   |           somalia.json
+|   |           south-africa.json
+|   |           south-sudan.json
+|   |           sudan.json
+|   |           tanzania.json
+|   |           togo.json
+|   |           tunisia.json
+|   |           uganda.json
+|   |           zambia.json
+|   |           zimbabwe.json
+|   |           _manifest.json
+|   |           
+|   +---antarctica
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---regions
+|   |           antarctic-peninsula.json
+|   |           east-antarctica.json
+|   |           major-international-research-stations.json
+|   |           marie-byrd-land.json
+|   |           ross-sea-region.json
+|   |           west-antarctica.json
+|   |           _manifest.json
+|   |           
+|   +---asia
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---countries
+|   |           afghanistan.json
+|   |           armenia.json
+|   |           azerbaijan.json
+|   |           bahrain.json
+|   |           bangladesh.json
+|   |           bhutan.json
+|   |           brunei.json
+|   |           cambodia.json
+|   |           china.json
+|   |           cyprus.json
+|   |           georgia.json
+|   |           india.json
+|   |           indonesia.json
+|   |           iran.json
+|   |           iraq.json
+|   |           israel.json
+|   |           japan.json
+|   |           jordan.json
+|   |           kazakhstan.json
+|   |           kuwait.json
+|   |           kyrgyzstan.json
+|   |           laos.json
+|   |           lebanon.json
+|   |           malaysia.json
+|   |           maldives.json
+|   |           mongolia.json
+|   |           myanmar.json
+|   |           nepal.json
+|   |           north-korea.json
+|   |           oman.json
+|   |           pakistan.json
+|   |           palestine.json
+|   |           philippines.json
+|   |           qatar.json
+|   |           saudi-arabia.json
+|   |           singapore.json
+|   |           south-korea.json
+|   |           sri-lanka.json
+|   |           syria.json
+|   |           taiwan.json
+|   |           tajikistan.json
+|   |           thailand.json
+|   |           timor-leste.json
+|   |           turkmenistan.json
+|   |           united-arab-emirates.json
+|   |           uzbekistan.json
+|   |           vietnam.json
+|   |           yemen.json
+|   |           _manifest.json
+|   |           
+|   +---europe
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---countries
+|   |           albania.json
+|   |           andorra.json
+|   |           armenia.json
+|   |           austria.json
+|   |           azerbaijan.json
+|   |           belarus.json
+|   |           belgium.json
+|   |           bosnia-and-herzegovina.json
+|   |           bulgaria.json
+|   |           croatia.json
+|   |           cyprus.json
+|   |           czech-republic.json
+|   |           denmark.json
+|   |           estonia.json
+|   |           finland.json
+|   |           france.json
+|   |           georgia.json
+|   |           germany.json
+|   |           greece.json
+|   |           hungary.json
+|   |           iceland.json
+|   |           ireland.json
+|   |           italy.json
+|   |           kazakhstan.json
+|   |           kosovo.json
+|   |           latvia.json
+|   |           liechtenstein.json
+|   |           lithuania.json
+|   |           luxembourg.json
+|   |           malta.json
+|   |           moldova.json
+|   |           monaco.json
+|   |           montenegro.json
+|   |           netherlands.json
+|   |           north-macedonia.json
+|   |           norway.json
+|   |           poland.json
+|   |           portugal.json
+|   |           romania.json
+|   |           san-marino.json
+|   |           serbia.json
+|   |           slovakia.json
+|   |           slovenia.json
+|   |           spain.json
+|   |           sweden.json
+|   |           switzerland.json
+|   |           turkey.json
+|   |           ukraine.json
+|   |           united-kingdom.json
+|   |           vatican-city.json
+|   |           _manifest.json
+|   |           
+|   +---north-america
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---countries
+|   |   |       antigua-and-barbuda.json
+|   |   |       bahamas.json
+|   |   |       barbados.json
+|   |   |       belize.json
+|   |   |       canada.json
+|   |   |       costa-rica.json
+|   |   |       cuba.json
+|   |   |       dominica.json
+|   |   |       dominican-republic.json
+|   |   |       el-salvador.json
+|   |   |       grenada.json
+|   |   |       guatemala.json
+|   |   |       haiti.json
+|   |   |       honduras.json
+|   |   |       jamaica.json
+|   |   |       mexico.json
+|   |   |       nicaragua.json
+|   |   |       panama.json
+|   |   |       saint-kitts-and-nevis.json
+|   |   |       saint-lucia.json
+|   |   |       saint-vincent-and-the-grenadines.json
+|   |   |       trinidad-and-tobago.json
+|   |   |       united-states.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---the-united-states
+|   |           us-geography.json
+|   |           _manifest.json
+|   |           
+|   +---oceania
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---countries
+|   |           australia.json
+|   |           fiji.json
+|   |           kiribati.json
+|   |           marshall-islands.json
+|   |           micronesia-federated-states-of.json
+|   |           nauru.json
+|   |           new-zealand.json
+|   |           palau.json
+|   |           papua-new-guinea.json
+|   |           samoa.json
+|   |           solomon-islands.json
+|   |           tonga.json
+|   |           tuvalu.json
+|   |           vanuatu.json
+|   |           _manifest.json
+|   |           
+|   +---south-america
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---countries
+|   |           argentina.json
+|   |           bolivia.json
+|   |           brazil.json
+|   |           chile.json
+|   |           colombia.json
+|   |           ecuador.json
+|   |           guyana.json
+|   |           paraguay.json
+|   |           peru.json
+|   |           suriname.json
+|   |           uruguay.json
+|   |           venezuela.json
+|   |           _manifest.json
+|   |           
+|   \---us-geography
+|       |   _manifest.json
+|       |   
+|       \---states-and-territories
+|               alabama.json
+|               alaska.json
+|               american-samoa.json
+|               arizona.json
+|               arkansas.json
+|               california.json
+|               colorado.json
+|               connecticut.json
+|               delaware.json
+|               florida.json
+|               georgia.json
+|               guam.json
+|               hawaii.json
+|               idaho.json
+|               illinois.json
+|               indiana.json
+|               iowa.json
+|               kansas.json
+|               kentucky.json
+|               louisiana.json
+|               maine.json
+|               maryland.json
+|               massachusetts.json
+|               michigan.json
+|               minnesota.json
+|               mississippi.json
+|               missouri.json
+|               montana.json
+|               nebraska.json
+|               nevada.json
+|               new-hampshire.json
+|               new-jersey.json
+|               new-mexico.json
+|               new-york.json
+|               north-carolina.json
+|               north-dakota.json
+|               northern-mariana-islands.json
+|               ohio.json
+|               oklahoma.json
+|               oregon.json
+|               pennsylvania.json
+|               puerto-rico.json
+|               rhode-island.json
+|               south-carolina.json
+|               south-dakota.json
+|               tennessee.json
+|               texas.json
+|               united-states.json
+|               us-virgin-islands.json
+|               utah.json
+|               vermont.json
+|               virginia.json
+|               washington-dc.json
+|               washington.json
+|               west-virginia.json
+|               wisconsin.json
+|               wyoming.json
+|               _manifest.json
+|               
++---infrastucture-libraries
+|   |   _manifest.json
+|   |   _meta.json
+|   |   
+|   +---data-centers
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---availability-and-failure-engineering
+|   |   |       cascading-failure-risk.json
+|   |   |       maintenance-vs-failure-modes.json
+|   |   |       n1-vs-2n-vs-fault-tolerant.json
+|   |   |       slas-vs-physical-reality.json
+|   |   |       tier-iiv-models.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---data-center-physical-systems
+|   |   |       future-power-scaling-curves.json
+|   |   |       large-and-hyperscale-facilities.json
+|   |   |       micro-edge-facilities.json
+|   |   |       power-density-and-cooling-envelopes.json
+|   |   |       small-and-medium-facilities.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---geographic-role-and-network-topology
+|   |   |       core-backbone-facilities.json
+|   |   |       disaster-isolation-zones.json
+|   |   |       edge-nodes.json
+|   |   |       latency-vs-distance-physics.json
+|   |   |       regional-hubs.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---operational-purpose-and-mission
+|   |   |       ai-hpc-research-facilities.json
+|   |   |       colocation-facilities.json
+|   |   |       disaster-recovery-facilities.json
+|   |   |       edge-and-cdn-facilities.json
+|   |   |       enterprise-data-centers.json
+|   |   |       public-cloud-facilities.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---ownership-control-and-sovereignty
+|   |   |       foreign-vs-domestic-control.json
+|   |   |       jurisdictional-law-boundaries.json
+|   |   |       national-security-implications.json
+|   |   |       private-ownership.json
+|   |   |       public-cloud-ownership.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---power-energy-and-cooling-systems
+|   |   |       backup-power-and-emergency-generation.json
+|   |   |       cooling-systems-and-thermal-engineering.json
+|   |   |       energy-density-load-curves-and-ai-power-shock.json
+|   |   |       grid-power-and-utility-dependency.json
+|   |   |       renewable-and-alternative-energy-integration.json
+|   |   |       water-use-scarcity-and-environmental-load.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---workloads-compute-identity-and-risk
+|   |           ai-training-inference-and-model-infrastructure.json
+|   |           financial-trading-and-transactional-systems.json
+|   |           general-compute-and-web-platforms.json
+|   |           government-defense-and-national-systems.json
+|   |           media-streaming-and-mass-communication.json
+|   |           scientific-medical-and-high-performance-computing.json
+|   |           _manifest.json
+|   |           
+|   \---power-and-energy
+|       |   _manifest.json
+|       |   
+|       \---electrical-power-systems
+|               distribution-networks-and-local-power-delivery.json
+|               future-power-systems-and-energy-transition.json
+|               grid-stability-control-and-reliability-engineering.json
+|               high-voltage-transmission-systems.json
+|               power-generation-systems.json
+|               _manifest.json
+|               
++---knowledge-libraries
+|   |   _manifest.json
+|   |   _meta.json
+|   |   
+|   +---ai-fundamentals
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---ai-in-the-real-world
+|   |   |       ai-in-everyday-life.json
+|   |   |       one-mind-many-machines-how-solo-builders-now-outpace-legacy-platforms.json
+|   |   |       responsible-use-and-human-judgment.json
+|   |   |       risks-harms-and-governance.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---foundations-of-artificial-intelligence
+|   |   |       key-ideas-in-machine-learning.json
+|   |   |       probability-statistics-and-uncertainty.json
+|   |   |       what-is-ai-really.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---neural-networks-and-large-language-models
+|   |           capabilities-limitations-and-failure-modes.json
+|   |           neural-networks-explained.json
+|   |           transformers-and-llms.json
+|   |           _manifest.json
+|   |           
+|   +---biographies
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---political-biographies
+|   |           the-unauthorized-biography-of-donald-trump.json
+|   |           _manifest.json
+|   |           
+|   +---human-knowledge
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---history-and-anthropology
+|   |           technologies-that-made-us-human.json
+|   |           _manifest.json
+|   |           
+|   +---meta-knowledge
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---building-truthangel
+|   |   |       creating-living-books.json
+|   |   |       the-design-philosophy.json
+|   |   |       _manifest.json
+|   |   |       _meta.json
+|   |   |       
+|   |   +---quarex-applications
+|   |   |       how-truthangelorg-works.json
+|   |   |       quarex-in-education.json
+|   |   |       quarex-in-history.json
+|   |   |       quarex-in-politics.json
+|   |   |       sequential-learning.json
+|   |   |       using-truthangel-effectively.json
+|   |   |       _manifest.json
+|   |   |       _meta.json
+|   |   |       
+|   |   \---quarex-foundations
+|   |           one-mind-many-machines-how-solo-builders-now-outpace-legacy-platforms.json
+|   |           philosophy-of-knowledge.json
+|   |           recursive-knowledge-authorship.json
+|   |           the-ethics-of-information.json
+|   |           what-is-quarex.json
+|   |           what-is-the-quarex-as-used-in-the-truthangel.json
+|   |           _manifest.json
+|   |           _meta.json
+|   |           
+|   +---personal-and-life
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---health-and-wellbeing
+|   |   |       health-habits-and-daily-energy.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---life-transitions-and-growth
+|   |   |       aging-loss-and-personal-growth.json
+|   |   |       life-choices-and-transitions.json
+|   |   |       work-purpose-and-identity.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---relationships-and-communication
+|   |           relationships-and-communication.json
+|   |           _manifest.json
+|   |           
+|   +---philosophy
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   \---world-philosophies
+|   |           african-philosophy-henry-odera-oruka.json
+|   |           asian-philosophy-nagarjuna.json
+|   |           european-philosophy-sren-kierkegaard.json
+|   |           north-american-philosophy-charles-sanders-peirce.json
+|   |           oceania-philosophy-sir-mason-durie.json
+|   |           south-american-philosophy-enrique-dussel.json
+|   |           twelve-ancient-sages.json
+|   |           _manifest.json
+|   |           
+|   +---power-and-energy
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---electrical-power-systems
+|   |           distribution-networks-and-local-power-delivery.json
+|   |           future-power-systems-and-energy-transition.json
+|   |           grid-stability-control-and-reliability-engineering.json
+|   |           high-voltage-transmission-systems.json
+|   |           power-generation-systems.json
+|   |           _manifest.json
+|   |           
+|   +---robotic-guide-dogs
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---deployment-and-operations
+|   |   |       business-models-cost-structures-and-regulatory-compliance.json
+|   |   |       operations-maintenance-and-fleet-management.json
+|   |   |       user-experience-and-humanrobot-interaction.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---impact-and-future
+|   |   |       accessibility-equity-and-social-impact.json
+|   |   |       ethics-privacy-and-responsible-innovation.json
+|   |   |       how-to-fund-research-development-and-deployment.json
+|   |   |       roadmaps-futures-and-policy-advocacy.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---technical-development
+|   |           brains-and-software-control-ai-and-safety-architectures.json
+|   |           platform-selection-and-mechanical-design.json
+|   |           sensing-the-world-perception-systems-for-robotic-guide-dogs.json
+|   |           _manifest.json
+|   |           
+|   +---the-arts
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---literary-arts
+|   |   |       childrens-literature-history-theory-and-practice.json
+|   |   |       creative-writing-dramaplaywriting.json
+|   |   |       creative-writing-fiction-short-story-and-novel.json
+|   |   |       creative-writing-poetry-forms-techniques-and-history.json
+|   |   |       history-of-literary-criticism-and-theory.json
+|   |   |       literary-genres-a-comprehensive-guide.json
+|   |   |       literary-translation-theory-and-practice.json
+|   |   |       narrative-theory-and-techniques.json
+|   |   |       rhetoric-and-the-art-of-persuasion.json
+|   |   |       world-literature-survey-anthology-and-analysis.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---performing-arts
+|   |   |       acting-techniques-and-performance-theory.json
+|   |   |       dance-history-theory-and-choreography.json
+|   |   |       directing-for-stage-and-screen.json
+|   |   |       history-of-western-theatre-ancient-greece-to-present.json
+|   |   |       musical-theatre-history-theory-and-practice.json
+|   |   |       opera-history-analysis-and-production.json
+|   |   |       performance-art-history-theory-and-practice.json
+|   |   |       playwriting-and-screenwriting-craft-and-analysis.json
+|   |   |       stagecraft-and-technical-theatre-production.json
+|   |   |       world-theatre-traditions-non-western-performance.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---visual-arts
+|   |           art-history-from-prehistory-to-the-present.json
+|   |           contemporary-art-themes-and-movements-since-1945.json
+|   |           digital-art-and-design-tools-and-concepts.json
+|   |           drawing-techniques-and-principles.json
+|   |           graphic-design-principles-and-applications.json
+|   |           illustration-concepts-and-techniques.json
+|   |           painting-materials-methods-and-expression.json
+|   |           photography-history-theory-and-practice.json
+|   |           printmaking-processes-and-practices.json
+|   |           sculpture-a-comprehensive-guide-to-forms-and-techniques.json
+|   |           _manifest.json
+|   |           
+|   \---the-sciences
+|       |   _manifest.json
+|       |   
+|       +---history-and-anthropology
+|       |       technologies-that-made-us-human.json
+|       |       _manifest.json
+|       |       
+|       +---life-sciences
+|       |       biology-life-and-evolution.json
+|       |       biotechnology-and-bioengineering.json
+|       |       botany-and-plant-science.json
+|       |       ecology-and-ecosystems.json
+|       |       genetics-and-molecular-biology.json
+|       |       health-disease-and-immunity.json
+|       |       human-anatomy-and-physiology.json
+|       |       microbiology-and-virology.json
+|       |       neuroscience-and-the-brain.json
+|       |       zoology-and-animal-behavior.json
+|       |       _manifest.json
+|       |       
+|       +---mathematical-and-computational-sciences
+|       |       algebra-and-number-theory.json
+|       |       artificial-intelligence-and-learning.json
+|       |       chaos-patterns-and-complexity.json
+|       |       computer-science-principles.json
+|       |       foundations-of-mathematics.json
+|       |       geometry-and-topology.json
+|       |       information-theory-and-cryptography.json
+|       |       logic-and-proof.json
+|       |       scientific-computing.json
+|       |       statistics-and-data-science.json
+|       |       _manifest.json
+|       |       
+|       \---physical-sciences
+|               astronomy-and-cosmology.json
+|               chemistry-and-matter.json
+|               climate-systems-and-atmosphere.json
+|               earth-science-and-geophysics.json
+|               energy-science-and-engineering.json
+|               materials-science.json
+|               physics-fundamentals.json
+|               quantum-science-and-applications.json
+|               thermodynamics-and-heat.json
+|               waves-sound-and-light.json
+|               _manifest.json
+|               
++---perspectives-libraries
+|   |   _manifest.json
+|   |   _meta.json
+|   |   
+|   +---a-history-of-racism-in-the-americas
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---foundations-of-race-based-slavery-1400s1700s
+|   |   |       conquest-indigenous-peoples-and-racial-hierarchies.json
+|   |   |       indigenous-genocide-and-forced-removal.json
+|   |   |       invention-of-race-and-hereditary-slavery.json
+|   |   |       law-religion-and-the-justification-of-racial-slavery.json
+|   |   |       transatlantic-slave-trade-and-plantation-economies.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---neoliberal-era-mass-incarceration-and-borders-1980s2000s
+|   |   |       colorblind-racism-and-neoliberalism.json
+|   |   |       environmental-racism.json
+|   |   |       housing-discrimination-and-urban-racism.json
+|   |   |       media-stereotypes-and-moral-panics.json
+|   |   |       migration-borders-and-racialized-security.json
+|   |   |       the-drug-war-and-mass-incarceration.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---post-emancipation-orders-and-segregation-late-1800s1930s
+|   |   |       jim-crow-and-legal-segregation-in-the-united-states.json
+|   |   |       migration-labor-and-racialized-nativism.json
+|   |   |       racial-regimes-in-latin-america-and-the-caribbean.json
+|   |   |       racism-in-canada-slavery-segregation-and-indigenous-genocide.json
+|   |   |       scientific-racism-and-eugenics.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---revolutions-abolition-and-emancipation-1700s1800s
+|   |   |       abolitionism-and-slave-resistance.json
+|   |   |       emancipation-and-new-racial-orders.json
+|   |   |       haiti-and-the-fear-of-black-revolution.json
+|   |   |       racism-and-atlantic-revolutions.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---twenty-first-century-racism-and-resistance-2000spresent
+|   |   |       digital-racism-and-algorithmic-bias.json
+|   |   |       education-battles-in-the-21st-century.json
+|   |   |       health-disparities-and-medical-racism.json
+|   |   |       policing-state-violence-and-social-movements.json
+|   |   |       populism-far-right-politics-and-racial-backlash.json
+|   |   |       reparations-memory-and-futures-of-justice.json
+|   |   |       the-psychology-of-racism-and-internalized-oppression.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---world-war-ii-civil-rights-and-dictatorships-1940s1970s
+|   |           culture-media-and-resistance.json
+|   |           racism-under-latin-american-dictatorships.json
+|   |           us-civil-rights-and-black-power-movements.json
+|   |           war-fascism-and-global-anti-racism.json
+|   |           _manifest.json
+|   |           
+|   +---climate-change-debates
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---ethics-responsibility-and-justice
+|   |   |       equity-and-fairness.json
+|   |   |       ethical-debates-in-policy-choices.json
+|   |   |       individual-vs-collective-action.json
+|   |   |       intergenerational-ethics.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---global-coordination-and-geopolitics
+|   |   |       energy-geopolitics.json
+|   |   |       global-development-and-finance.json
+|   |   |       global-risk-and-security.json
+|   |   |       international-agreements.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---policy-approaches-and-tradeoffs
+|   |   |       adaptation-strategies.json
+|   |   |       economic-considerations.json
+|   |   |       mitigation-strategies.json
+|   |   |       political-and-regulatory-approaches.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---public-debate-communication-and-culture
+|   |   |       activism-and-public-movements.json
+|   |   |       cultural-and-identity-dimensions.json
+|   |   |       media-and-messaging.json
+|   |   |       misinformation-and-influence.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---scientific-foundations-and-disagreements
+|   |           climate-impacts-and-risks.json
+|   |           climate-models-and-uncertainty.json
+|   |           climate-science-basics.json
+|   |           scientific-consensus-and-skepticism.json
+|   |           _manifest.json
+|   |           
+|   +---critical-thinking
+|   |   |   _manifest.json
+|   |   |   
+|   |   +---ai-and-society
+|   |   |       ai-democracy-and-public-discourse.json
+|   |   |       ai-in-education-and-knowledge.json
+|   |   |       everyday-ai-tools-habits-and-personal-productivity.json
+|   |   |       imagining-and-shaping-ai-futures.json
+|   |   |       thinking-with-not-like-ai.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---ai-fundamentals
+|   |   |       ai-and-the-transformation-of-work.json
+|   |   |       from-data-to-decisions-how-machine-learning-works.json
+|   |   |       large-language-models-and-generative-ai.json
+|   |   |       neural-networks-and-deep-learning-explained.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---core-critical-thinking
+|   |           cognitive-biases.json
+|   |           logic-and-arguments.json
+|   |           media-literacy.json
+|   |           online-misinformation.json
+|   |           science-and-evidence.json
+|   |           _manifest.json
+|   |           
+|   +---economic-theories-and-trade-offs
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---foundational-economic-perspectives
+|   |   |       behavioral-and-institutional-economics.json
+|   |   |       classical-and-neoclassical-thought.json
+|   |   |       keynesian-and-post-keynesian-approaches.json
+|   |   |       marxist-and-structuralist-perspectives.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---growth-productivity-and-development
+|   |   |       economic-development-strategies.json
+|   |   |       environmental-and-sustainability-trade-offs.json
+|   |   |       models-of-economic-growth.json
+|   |   |       productivity-debates.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---labor-wages-and-inequality
+|   |   |       inequality-and-distribution.json
+|   |   |       labor-market-dynamics.json
+|   |   |       power-bargaining-and-institutions.json
+|   |   |       wages-and-living-standards.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---markets-government-and-regulation
+|   |   |       deregulation-and-free-market-approaches.json
+|   |   |       industrial-and-strategic-policy.json
+|   |   |       role-of-government-in-the-economy.json
+|   |   |       taxation-and-redistribution.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---trade-globalization-and-monetary-systems
+|   |           financial-systems-and-crises.json
+|   |           globalization-and-its-critics.json
+|   |           international-trade.json
+|   |           monetary-and-fiscal-policy.json
+|   |           _manifest.json
+|   |           
+|   +---free-speech-vs-hate-speech
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---foundations-and-philosophical-perspectives
+|   |   |       competing-values-and-tradeoffs.json
+|   |   |       what-is-hate-speech-and-harmful-speech.json
+|   |   |       why-free-speech-matters.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---law-policy-and-global-approaches
+|   |   |       democracy-extremism-and-safeguards.json
+|   |   |       free-speech-in-us-law.json
+|   |   |       international-approaches-to-hate-speech.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---platforms-moderation-and-the-real-world
+|   |           harassment-targeted-abuse-and-safety-online.json
+|   |           social-media-platforms-as-gatekeepers.json
+|   |           thinking-through-hard-cases.json
+|   |           _manifest.json
+|   |           
+|   +---gaza-war
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---diplomacy-future-scenarios-and-paths-to-peace
+|   |   |       ceasefires-and-short-term-agreements.json
+|   |   |       long-term-political-solutions.json
+|   |   |       reconstruction-recovery-and-justice.json
+|   |   |       uncertainties-and-future-risks.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---historical-and-political-background
+|   |   |       gazas-modern-history.json
+|   |   |       origins-of-the-conflict.json
+|   |   |       political-actors-and-factions.json
+|   |   |       triggers-and-escalation-dynamics.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---humanitarian-legal-and-ethical-dimensions
+|   |   |       ethical-and-moral-debates.json
+|   |   |       humanitarian-impact.json
+|   |   |       international-humanitarian-law-and-war-crimes-allegations.json
+|   |   |       international-institutions-and-responses.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---military-operations-strategy-and-tactics
+|   |   |       civilian-protection-and-targeting-controversies.json
+|   |   |       conduct-of-operations.json
+|   |   |       objectives-and-strategies.json
+|   |   |       regional-security-and-deterrence.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---narratives-media-and-global-public-opinion
+|   |           competing-narratives-and-frames.json
+|   |           global-reactions-and-solidarity-movements.json
+|   |           media-coverage-and-information-flows.json
+|   |           misinformation-propaganda-and-online-campaigns.json
+|   |           _manifest.json
+|   |           
+|   +---immigration-and-national-identity
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---culture-identity-and-belonging
+|   |   |       diaspora-hybridity-and-multiple-identities.json
+|   |   |       language-religion-and-everyday-life.json
+|   |   |       national-identity-and-belonging.json
+|   |   |       racism-xenophobia-and-exclusion.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---economics-labor-and-social-systems
+|   |   |       fiscal-impacts-and-public-services.json
+|   |   |       immigration-and-labor-markets.json
+|   |   |       innovation-entrepreneurship-and-growth.json
+|   |   |       social-safety-nets-and-fairness.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---histories-and-narratives-of-immigration
+|   |   |       changing-ideas-of-citizenship.json
+|   |   |       historical-patterns-of-migration.json
+|   |   |       national-stories-and-myths.json
+|   |   |       public-memory-and-monuments.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---law-borders-and-policy-regimes
+|   |   |       admission-criteria-and-quotas.json
+|   |   |       border-control-and-sovereignty.json
+|   |   |       legal-categories-and-status.json
+|   |   |       security-and-public-safety-framing.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---politics-media-and-public-debate
+|   |           media-narratives-and-framing.json
+|   |           misinformation-and-public-perception.json
+|   |           movements-advocacy-and-resistance.json
+|   |           party-politics-and-electoral-strategy.json
+|   |           _manifest.json
+|   |           
+|   +---media-bias-and-information-ecosystems
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---digital-platforms-and-algorithmic-influence
+|   |   |       algorithms-and-personalization.json
+|   |   |       information-integrity-and-verification.json
+|   |   |       platforms-as-information-gatekeepers.json
+|   |   |       social-media-ecosystems.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---foundations-of-media-and-information-flow
+|   |   |       bias-in-traditional-journalism.json
+|   |   |       how-media-systems-work.json
+|   |   |       information-ecosystems.json
+|   |   |       media-literacy-and-public-understanding.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---media-futures-and-ethical-challenges
+|   |   |       ai-automation-and-news-production.json
+|   |   |       ethical-frameworks-and-dilemmas.json
+|   |   |       new-media-ecosystems.json
+|   |   |       the-future-of-journalism.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---misinformation-disinformation-and-manipulation
+|   |   |       actors-and-motivations.json
+|   |   |       manipulation-tactics.json
+|   |   |       spread-and-amplification.json
+|   |   |       understanding-misdisinformation.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---politics-power-and-public-opinion
+|   |           elections-and-campaigns.json
+|   |           media-and-political-institutions.json
+|   |           polarization-and-identity.json
+|   |           public-opinion-and-trust.json
+|   |           _manifest.json
+|   |           
+|   +---policing-and-criminal-justice-debates
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---courts-sentencing-and-corrections
+|   |   |       alternatives-to-incarceration.json
+|   |   |       criminal-courts-and-legal-process.json
+|   |   |       mass-incarceration-and-sentencing-debates.json
+|   |   |       prisons-jails-and-detention.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---foundations-of-policing-and-justice
+|   |   |       history-and-evolution-of-policing.json
+|   |   |       measuring-crime-and-safety.json
+|   |   |       purpose-and-goals-of-criminal-justice.json
+|   |   |       structures-of-the-justice-system.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---policing-practices-and-accountability
+|   |   |       accountability-and-misconduct.json
+|   |   |       community-police-relations.json
+|   |   |       oversight-and-transparency.json
+|   |   |       use-of-force-and-public-safety.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---race-inequality-and-social-impact
+|   |   |       disparities-in-policing.json
+|   |   |       public-trust-and-legitimacy.json
+|   |   |       structural-inequality-and-the-justice-system.json
+|   |   |       youth-families-and-communities.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---reform-policy-innovation-and-future-directions
+|   |           comparative-and-international-approaches.json
+|   |           policy-proposals-and-evaluation.json
+|   |           reimagining-public-safety.json
+|   |           technology-and-surveillance.json
+|   |           _manifest.json
+|   |           
+|   +---social-equality-and-civil-rights
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---democracy-movements-and-social-change
+|   |   |       civil-rights-movements-and-strategies.json
+|   |   |       media-culture-and-public-debate.json
+|   |   |       paths-to-social-transformation.json
+|   |   |       political-participation-and-representation.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---economic-health-and-disability-rights
+|   |   |       aging-care-and-social-participation.json
+|   |   |       disability-rights-and-inclusion.json
+|   |   |       economic-inequality-and-redistribution.json
+|   |   |       healthcare-access-and-equity.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---foundations-of-equality-and-rights
+|   |   |       concepts-of-equality-and-justice.json
+|   |   |       historical-struggles-for-rights.json
+|   |   |       law-and-constitutional-principles.json
+|   |   |       measuring-inequality.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---gender-sexuality-and-family-rights
+|   |   |       family-care-and-labor.json
+|   |   |       gender-equality-and-feminist-perspectives.json
+|   |   |       sexual-orientation-and-identity.json
+|   |   |       transgender-and-nonbinary-rights.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---race-ethnicity-and-structural-inequality
+|   |           education-housing-and-opportunity.json
+|   |           immigration-identity-and-belonging.json
+|   |           policing-courts-and-incarceration.json
+|   |           race-power-and-society.json
+|   |           _manifest.json
+|   |           
+|   +---taiwan-strait-tensions
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---geopolitics-economics-and-global-stakes
+|   |   |       economic-interdependence-and-vulnerability.json
+|   |   |       great-power-competition.json
+|   |   |       international-responses-and-constraints.json
+|   |   |       semiconductors-and-critical-infrastructure.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---historical-political-and-identity-foundations
+|   |   |       diplomacy-agreements-and-ambiguity.json
+|   |   |       legal-and-sovereignty-claims.json
+|   |   |       national-identity-and-political-evolution.json
+|   |   |       origins-of-the-dispute.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---military-balance-security-and-strategic-calculations
+|   |   |       deterrence-escalation-and-risk.json
+|   |   |       military-postures-and-capabilities.json
+|   |   |       scenarios-for-conflict.json
+|   |   |       us-and-allied-security-commitments.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---narratives-media-and-information-warfare
+|   |   |       competing-narratives.json
+|   |   |       information-warfare-and-propaganda.json
+|   |   |       international-public-opinion.json
+|   |   |       media-ecosystems-and-influence.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---paths-to-stability-conflict-prevention-and-peace
+|   |           arms-control-risk-reduction-and-guardrails.json
+|   |           diplomatic-options-and-negotiation-frameworks.json
+|   |           economic-and-societal-stabilizers.json
+|   |           future-scenarios-and-long-term-risks.json
+|   |           _manifest.json
+|   |           
+|   +---technology-ethics-and-digital-life
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---ai-automation-and-algorithmic-systems
+|   |   |       ai-ethics-and-governance.json
+|   |   |       algorithmic-decision-making.json
+|   |   |       automation-and-labor.json
+|   |   |       generative-ai-and-synthetic-media.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---foundations-of-digital-ethics-and-society
+|   |   |       digital-citizenship-and-rights.json
+|   |   |       principles-of-technology-ethics.json
+|   |   |       technology-and-human-behavior.json
+|   |   |       technology-power-and-society.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---futures-emerging-tech-and-ethical-horizons
+|   |   |       autonomous-systems.json
+|   |   |       bio-digital-integration.json
+|   |   |       long-term-ethical-challenges.json
+|   |   |       virtual-worlds-and-immersive-tech.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---identity-community-and-everyday-digital-life
+|   |   |       digital-well-being-and-mental-health.json
+|   |   |       identity-and-self-presentation.json
+|   |   |       social-relationships-and-community.json
+|   |   |       youth-development-and-screens.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---platforms-data-and-digital-ecosystems
+|   |           data-surveillance-and-privacy.json
+|   |           digital-public-squares.json
+|   |           ecosystems-and-interoperability.json
+|   |           platform-power-and-governance.json
+|   |           _manifest.json
+|   |           
+|   +---trumps-lies-a-quarex
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---us-leaders-and-lies
+|   |           trumps-lies-then-and-now.json
+|   |           _manifest.json
+|   |           
+|   +---ukraine-war
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---diplomacy-outcomes-and-future-security-order
+|   |   |       long-term-security-and-global-order.json
+|   |   |       negotiations-ceasefires-and-peace-efforts.json
+|   |   |       territorial-control-and-political-settlement.json
+|   |   |       uncertainties-and-future-scenarios.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---historical-political-and-regional-background
+|   |   |       from-protests-to-conflict.json
+|   |   |       nato-eu-and-security-architectures.json
+|   |   |       triggers-of-the-full-scale-invasion.json
+|   |   |       ukraine-russia-and-the-region.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---humanitarian-impact-and-law-of-armed-conflict
+|   |   |       aid-relief-and-humanitarian-corridors.json
+|   |   |       civilian-suffering-and-displacement.json
+|   |   |       international-humanitarian-law-and-accountability.json
+|   |   |       targeting-destruction-and-infrastructure.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---information-narratives-and-global-public-opinion
+|   |   |       competing-narratives-of-the-war.json
+|   |   |       global-reactions-and-alignments.json
+|   |   |       media-coverage-and-symbolism.json
+|   |   |       misinformation-propaganda-and-cyber-campaigns.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---military-operations-and-strategy
+|   |           campaigns-and-battlefronts.json
+|   |           external-military-support.json
+|   |           nuclear-cyber-and-hybrid-dimensions.json
+|   |           tactics-technology-and-logistics.json
+|   |           _manifest.json
+|   |           
+|   \---war-peace-and-geopolitics
+|       |   _manifest.json
+|       |   _meta.json
+|       |   
+|       +---foundations-of-conflict-and-geopolitical-strategy
+|       |       drivers-of-conflict.json
+|       |       global-order-and-institutions.json
+|       |       power-influence-and-strategy.json
+|       |       theories-of-war-and-peace.json
+|       |       _manifest.json
+|       |       
+|       +---global-power-dynamics-and-regional-orders
+|       |       chinas-rise-and-strategic-vision.json
+|       |       regional-powers-and-alignments.json
+|       |       russias-power-projection.json
+|       |       united-states-and-global-leadership.json
+|       |       _manifest.json
+|       |       
+|       +---human-consequences-narratives-and-public-debate
+|       |       ethics-and-responsibility.json
+|       |       media-propaganda-and-perception.json
+|       |       paths-to-a-more-peaceful-future.json
+|       |       wars-impact-on-people-and-society.json
+|       |       _manifest.json
+|       |       
+|       +---modern-warfare-and-security-challenges
+|       |       contemporary-warfare.json
+|       |       human-security-and-civilian-protection.json
+|       |       terrorism-and-non-state-actors.json
+|       |       weapons-technology-and-innovation.json
+|       |       _manifest.json
+|       |       
+|       \---peacebuilding-diplomacy-and-conflict-resolution
+|               arms-control-and-disarmament.json
+|               diplomacy-and-negotiation.json
+|               humanitarian-intervention.json
+|               peacebuilding-and-reconstruction.json
+|               _manifest.json
+|               
++---practical-libraries
+|   |   _manifest.json
+|   |   _meta.json
+|   |   
+|   +---digital-safety-and-fact-checking
+|   |   |   _manifest.json
+|   |   |   _meta.json
+|   |   |   
+|   |   +---advanced-civic-fact-checking-and-sharing-responsibly
+|   |   |       ai-bots-and-synthetic-media.json
+|   |   |       being-a-responsible-sharer-and-helper.json
+|   |   |       checking-political-claims-and-statistics.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   +---everyday-fact-checking-skills
+|   |   |       evaluating-sources-and-expertise.json
+|   |   |       quick-checks-before-you-believe-or-share.json
+|   |   |       tools-and-techniques-for-verifying-information.json
+|   |   |       _manifest.json
+|   |   |       
+|   |   \---personal-digital-security
+|   |           locking-down-your-devices-and-accounts.json
+|   |           privacy-and-data-minimization.json
+|   |           recognizing-scams-and-phishing.json
+|   |           _manifest.json
+|   |           
+|   +---practical-knowledge
+|   |   |   _manifest.json
+|   |   |   
+|   |   \---personal-finance
+|   |           personal-finance-for-people-who-were-never-taught.json
+|   |           _manifest.json
+|   |           
+|   \---practical-skills
+|       |   _manifest.json
+|       |   
+|       +---digital-and-professional-skills
+|       |       autocad-2d.json
+|       |       digital-life-and-computer-basics.json
+|       |       how-to-build-a-3-camera-studio.json
+|       |       learn-git-basics.json
+|       |       photoshop-for-beginners.json
+|       |       _manifest.json
+|       |       
+|       +---home-and-daily-life
+|       |       everyday-cooking-skills.json
+|       |       home-and-auto-repair-basics.json
+|       |       _manifest.json
+|       |       
+|       \---personal-development
+|               learning-and-study-skills.json
+|               personal-finance-for-people-who-were-never-taught.json
+|               _manifest.json
+|               
+\---questions-libraries
+        _manifest.json
+        _meta.json
+        

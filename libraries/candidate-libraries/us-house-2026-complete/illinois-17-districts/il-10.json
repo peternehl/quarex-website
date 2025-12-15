@@ -1,0 +1,44 @@
+{
+  "name": "IL-10",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Carl Lambrecht (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Brad Schneider (D)",
+        "Morgan Coghill (D)",
+        "John Minarcik (D)",
+        "Thomas Rudd (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Austin Mink (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

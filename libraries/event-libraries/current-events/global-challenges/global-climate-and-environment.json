@@ -1,0 +1,65 @@
+{
+  "name": "Global Climate & Environment",
+  "chapters": [
+    {
+      "name": "Climate Science and Warming Trends",
+      "topics": [
+        "Evidence that the planet is warming",
+        "Greenhouse gases and human contributions",
+        "Extreme weather events and attribution science",
+        "Tipping points and long-term climate risks"
+      ],
+      "tags": [
+        "science",
+        "climate-change",
+        "earth-science",
+        "ecology"
+      ]
+    },
+    {
+      "name": "International Climate Policy",
+      "topics": [
+        "The Paris Agreement and national climate pledges",
+        "Climate summits (COP meetings) and negotiations",
+        "Loss and damage debates between rich and poor countries",
+        "Climate justice and responsibility for past emissions"
+      ],
+      "tags": [
+        "politics",
+        "climate-change",
+        "diplomacy",
+        "united-nations"
+      ]
+    },
+    {
+      "name": "Energy Transition and Technology",
+      "topics": [
+        "Shift from fossil fuels to renewable energy",
+        "Role of solar, wind, nuclear, and storage technologies",
+        "Grid modernization and electrification of transport",
+        "Economic and social impacts of the energy transition"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "renewable-energy"
+      ]
+    },
+    {
+      "name": "Adaptation and Local Impacts",
+      "topics": [
+        "Sea-level rise and coastal vulnerability",
+        "Droughts, floods, and food security risks",
+        "City planning and climate adaptation strategies",
+        "Community resilience and local climate action"
+      ],
+      "tags": [
+        "environment",
+        "climate-change",
+        "earth-science",
+        "ecology"
+      ]
+    }
+  ]
+}

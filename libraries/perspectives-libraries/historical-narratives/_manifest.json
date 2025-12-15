@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "civil-rights-movements",
+    "name": "Civil Rights Movements",
+    "description": "Perspectives on civil rights struggles, achievements, ongoing challenges, and methods of social change",
+    "bookCount": 1
+  },
+  {
+    "slug": "colonialism",
+    "name": "Colonialism",
+    "description": "Perspectives on colonial history, post-colonialism, reparations, and lasting global impacts",
+    "bookCount": 1
+  },
+  {
+    "slug": "indigenous-peoples",
+    "name": "Indigenous Peoples",
+    "description": "Perspectives on indigenous rights, land claims, cultural preservation, and historical injustices",
+    "bookCount": 1
+  },
+  {
+    "slug": "racism",
+    "name": "Racism",
+    "description": "Historical and contemporary perspectives on racial discrimination, systemic racism, and racial justice",
+    "bookCount": 1
+  },
+  {
+    "slug": "wars-and-conflicts",
+    "name": "Wars and Conflicts",
+    "description": "Competing narratives about historical wars, military interventions, and armed conflicts",
+    "bookCount": 1
+  }
+]

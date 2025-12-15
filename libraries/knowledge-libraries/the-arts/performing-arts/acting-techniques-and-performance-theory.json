@@ -1,0 +1,125 @@
+{
+  "name": "Acting Techniques and Performance Theory",
+  "chapters": [
+    {
+      "name": "Stanislavski System and Method Acting",
+      "topics": [
+        "What are the core principles of Stanislavski's system for actor training?",
+        "How does emotional memory work and when should actors use it?",
+        "What is the difference between Stanislavski's system and American Method acting?",
+        "How did Lee Strasberg, Stella Adler, and Sanford Meisner interpret Stanislavski differently?",
+        "What are the main criticisms of Method acting and its psychological demands?",
+        "How do actors use the 'magic if' and given circumstances to build a role?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "education"]
+    },
+    {
+      "name": "Meisner Technique",
+      "topics": [
+        "What is the repetition exercise and how does it train actors to listen?",
+        "How does Meisner technique define 'living truthfully under imaginary circumstances'?",
+        "What is emotional preparation and how do Meisner actors use it?",
+        "How does Meisner technique differ from Strasberg's Method approach?",
+        "What are the stages of Meisner training from repetition to scene work?",
+        "Why do many film and television actors prefer Meisner technique?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "education"]
+    },
+    {
+      "name": "Classical Acting and Text Analysis",
+      "topics": [
+        "How do actors approach Shakespeare's verse and heightened language?",
+        "What techniques help actors handle iambic pentameter naturally?",
+        "How do you analyze a classical text for objectives, obstacles, and tactics?",
+        "What physical and vocal demands does classical theatre require?",
+        "How do actors balance period style with emotional truth in classical roles?",
+        "What are the key differences between performing Greek tragedy and Restoration comedy?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "literary-arts"]
+    },
+    {
+      "name": "Physical Theatre and Movement",
+      "topics": [
+        "What are the principles of Jacques Lecoq's physical theatre training?",
+        "How do actors use their bodies to communicate without words?",
+        "What is the neutral mask and how does it develop physical awareness?",
+        "How did practitioners like Grotowski and Barba approach the actor's body?",
+        "What is viewpoints training and how does it create ensemble awareness?",
+        "How do physical theatre techniques from mime to clown inform realistic acting?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "dance"]
+    },
+    {
+      "name": "Voice and Speech for Actors",
+      "topics": [
+        "How do actors develop breath support and vocal projection for stage?",
+        "What are the main voice training methods: Linklater, Lessac, Fitzmaurice?",
+        "How do actors learn dialects and accents for different roles?",
+        "What exercises free tension and expand vocal range?",
+        "How does voice work differ for stage versus film and microphone work?",
+        "What causes vocal strain and how do actors protect their voices?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "communication"]
+    },
+    {
+      "name": "Improvisation Techniques",
+      "topics": [
+        "What are the fundamental rules of improv: yes-and, make your partner look good?",
+        "How did Viola Spolin's theatre games develop improvisational acting?",
+        "What is the difference between short-form and long-form improvisation?",
+        "How do scripted actors use improv skills in rehearsal and performance?",
+        "What makes the Second City and UCB approaches to improv different?",
+        "How can improvisation help actors become more spontaneous and present?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "comedy"]
+    },
+    {
+      "name": "Character Development",
+      "topics": [
+        "How do actors research and build a character's backstory?",
+        "What physical choices—posture, gesture, walk—help define character?",
+        "How do actors find a character's voice distinct from their own?",
+        "What is the difference between playing actions versus playing emotions?",
+        "How do actors handle characters whose values differ from their own?",
+        "What techniques help actors transform physically for character roles?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "identity"]
+    },
+    {
+      "name": "Scene Study and Rehearsal",
+      "topics": [
+        "How do actors break down a scene to identify beats and transitions?",
+        "What does it mean to play objectives and pursue tactics in a scene?",
+        "How do scene partners build trust and collaboration in rehearsal?",
+        "What is table work and how do actors use it before getting on their feet?",
+        "How do actors take direction without losing their own creative choices?",
+        "What makes the difference between a technically correct and a living performance?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "education"]
+    },
+    {
+      "name": "Camera Acting vs Stage Acting",
+      "topics": [
+        "How must actors adjust their performance scale for camera versus stage?",
+        "What eye-line and framing considerations affect film acting choices?",
+        "How do actors maintain continuity across multiple takes and shooting days?",
+        "What techniques help actors achieve intimacy and subtlety on camera?",
+        "How does the non-linear shooting schedule affect character preparation?",
+        "What do actors need to know about hitting marks and technical requirements?"
+      ],
+      "tags": ["arts", "performing-arts", "film", "theater"]
+    },
+    {
+      "name": "Contemporary Performance Practices",
+      "topics": [
+        "How has devised theatre changed the actor's role in creating work?",
+        "What demands do immersive and site-specific performances place on actors?",
+        "How do actors work with directors who use non-traditional rehearsal methods?",
+        "What skills do actors need for motion capture and virtual production?",
+        "How has diversity and inclusion changed casting and performance practices?",
+        "What new forms of performance are emerging in digital and hybrid spaces?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "innovation"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "AI in Everyday Life",
+  "chapters": [
+    {
+      "name": "Recommender Systems and Personalization",
+      "topics": [],
+      "tags": [
+        "technology",
+        "innovation",
+        "ai-ml",
+        "digital-life"
+      ]
+    },
+    {
+      "name": "Search, Assistants, and Productivity Tools",
+      "topics": [],
+      "tags": [
+        "technology",
+        "innovation",
+        "digital-life",
+        "ai-ml"
+      ]
+    },
+    {
+      "name": "AI in Phones, Cars, and Smart Devices",
+      "topics": [],
+      "tags": [
+        "technology",
+        "innovation",
+        "ai-ml",
+        "digital-life"
+      ]
+    },
+    {
+      "name": "Invisible AI in Infrastructure and Services",
+      "topics": [],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "ai-ml",
+        "cybersecurity"
+      ]
+    }
+  ]
+}

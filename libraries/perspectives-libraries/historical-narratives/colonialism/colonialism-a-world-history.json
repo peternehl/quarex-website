@@ -1,0 +1,353 @@
+{
+  "name": "Colonialism: A World History",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "Defining Colonialism",
+      "topics": [
+        "What distinguishes colonialism from empire, imperialism, and conquest?",
+        "Why do scholars debate whether ancient empires like Rome practiced 'colonialism'?",
+        "How did settler colonialism differ fundamentally from extractive colonialism?",
+        "What role did racial ideology play in justifying modern colonial systems?",
+        "Why is the concept of 'terra nullius' central to understanding colonial legal claims?",
+        "How did colonizers distinguish between 'civilized' and 'uncivilized' peoples to justify rule?"
+      ],
+      "tags": ["colonialism", "epistemology", "race", "theory"]
+    },
+    {
+      "name": "Pre-Modern Empires and Colonial Precursors",
+      "topics": [
+        "How did Phoenician and Greek trading colonies establish patterns later empires would follow?",
+        "What made the Roman system of provinces a template for European colonial administration?",
+        "How did the Crusader states in the Levant prefigure later European colonial ventures?",
+        "Why did the Venetian and Genoese trading empires pioneer techniques of commercial colonialism?",
+        "What role did the Reconquista play in preparing Spain for overseas conquest?",
+        "How did Chinese tributary systems differ from European models of colonial control?"
+      ],
+      "tags": ["history", "ancient-history", "ancient-rome", "trade"]
+    },
+    {
+      "name": "The Age of Exploration Begins",
+      "topics": [
+        "Why did Portugal rather than larger European powers pioneer Atlantic exploration?",
+        "How did Prince Henry the Navigator's systematic approach transform maritime expansion?",
+        "What technological innovations—from caravel ships to astrolabes—enabled oceanic voyages?",
+        "Why was the 1494 Treaty of Tordesillas a turning point in dividing the non-European world?",
+        "How did the search for routes to Asian spices drive the first wave of colonization?",
+        "What role did the fall of Constantinople play in redirecting European trade ambitions?"
+      ],
+      "tags": ["history", "europe", "innovation", "treaties"]
+    },
+    {
+      "name": "Spanish Empire in the Americas",
+      "topics": [
+        "How did Hernán Cortés conquer the Aztec Empire with fewer than 600 soldiers?",
+        "Why did disease kill more Indigenous Americans than Spanish weapons ever could?",
+        "What was the encomienda system and how did it function as disguised slavery?",
+        "How did Bartolomé de las Casas's advocacy expose Spanish colonial brutality?",
+        "Why did silver from Potosí transform both the Spanish economy and global trade?",
+        "What role did the Catholic Church play in legitimizing and sometimes resisting conquest?",
+        "How did the casta system create hierarchies based on racial mixture?"
+      ],
+      "tags": ["colonialism", "americas", "race", "religion"]
+    },
+    {
+      "name": "Portuguese Maritime Empire",
+      "topics": [
+        "Why did Portugal focus on trading posts rather than territorial conquest?",
+        "How did the capture of Goa, Malacca, and Hormuz give Portugal control of Indian Ocean trade?",
+        "What made the Portuguese slave trade from Africa the template for later atrocities?",
+        "How did Brazil evolve from a neglected colony to Portugal's most valuable possession?",
+        "Why did Portugal's small population ultimately limit its imperial ambitions?",
+        "What role did Jesuit missionaries play in Portuguese colonial expansion?"
+      ],
+      "tags": ["colonialism", "europe", "africa", "asia"]
+    },
+    {
+      "name": "Dutch Colonial Enterprise",
+      "topics": [
+        "How did the Dutch East India Company become the world's first multinational corporation?",
+        "Why did the Dutch focus on controlling trade chokepoints rather than vast territories?",
+        "What made the spice islands of Indonesia so valuable that the Dutch committed genocide to control them?",
+        "How did the Dutch colony at the Cape of Good Hope lay foundations for South African apartheid?",
+        "Why did New Amsterdam matter less to the Dutch than tiny nutmeg-producing islands?",
+        "What financial innovations did the Dutch develop to fund colonial expansion?"
+      ],
+      "tags": ["colonialism", "europe", "trade", "finance"]
+    },
+    {
+      "name": "British Empire: Rise to Dominance",
+      "topics": [
+        "How did defeat of the Spanish Armada in 1588 enable British colonial ambitions?",
+        "Why did British colonies in North America develop so differently from Spanish ones?",
+        "What role did chartered companies like the East India Company play in building empire?",
+        "How did Britain gain control of India through the fiction of 'company rule'?",
+        "Why did the loss of the American colonies redirect British imperialism toward Asia and Africa?",
+        "What made the British navy's supremacy essential to maintaining a global empire?",
+        "How did the British justify empire through ideologies of 'civilizing mission'?"
+      ],
+      "tags": ["colonialism", "europe", "asia", "propaganda"]
+    },
+    {
+      "name": "French Colonial Empire",
+      "topics": [
+        "Why did France's North American empire fail while its Caribbean colonies thrived?",
+        "How did Saint-Domingue become the most profitable colony in the world before the Haitian Revolution?",
+        "What drove France's 19th-century conquest of Algeria and much of West Africa?",
+        "How did French colonial ideology of 'assimilation' differ from British 'indirect rule'?",
+        "Why did Indochina become central to French imperial identity?",
+        "What role did the mission civilisatrice play in justifying French expansion?"
+      ],
+      "tags": ["colonialism", "europe", "africa", "asia"]
+    },
+    {
+      "name": "The Scramble for Africa",
+      "topics": [
+        "Why did European powers divide nearly all of Africa in just two decades after 1880?",
+        "What rules did the Berlin Conference of 1884-85 establish for claiming African territory?",
+        "How did King Leopold II's personal rule over the Congo produce one of history's worst atrocities?",
+        "Why did African resistance movements ultimately fail against European military technology?",
+        "How did arbitrary colonial borders ignore ethnic, linguistic, and political realities?",
+        "What role did quinine and the Maxim gun play in enabling the conquest of Africa?",
+        "Why did Ethiopia alone successfully resist European colonization?"
+      ],
+      "tags": ["colonialism", "africa", "diplomacy", "conflict"]
+    },
+    {
+      "name": "Colonialism in Asia",
+      "topics": [
+        "How did the British East India Company transform from traders to rulers of India?",
+        "Why did the Opium Wars force China into a 'century of humiliation'?",
+        "What made the Dutch East Indies one of the most profitable colonial possessions?",
+        "How did Japan escape colonization and become a colonial power itself?",
+        "Why did Southeast Asia become a battleground for competing European empires?",
+        "What role did 'treaty ports' play in semi-colonizing countries that remained nominally independent?",
+        "How did the Indian Rebellion of 1857 transform British colonial administration?"
+      ],
+      "tags": ["colonialism", "asia", "trade", "conflict"]
+    },
+    {
+      "name": "Pacific and Oceanian Colonization",
+      "topics": [
+        "How did European diseases devastate Pacific Island populations before formal colonization?",
+        "Why did Australia's Aboriginal peoples face policies amounting to genocide?",
+        "What made Hawaii's transformation from kingdom to US territory a case study in colonial annexation?",
+        "How did the 'blackbirding' labor trade function as Pacific slavery?",
+        "Why did Germany, Britain, and the US compete for control of Samoa?",
+        "What role did missionaries play in preparing Pacific islands for colonial rule?",
+        "How did New Zealand's Treaty of Waitangi become both a foundation and a betrayal?"
+      ],
+      "tags": ["colonialism", "oceania", "human-rights", "treaties"]
+    },
+    {
+      "name": "Settler Colonialism",
+      "topics": [
+        "Why does settler colonialism aim to replace rather than exploit Indigenous populations?",
+        "How did the United States expand westward through systematic Indigenous displacement?",
+        "What made Australia's 'Stolen Generations' policies a form of cultural genocide?",
+        "Why did settler colonies develop different racial hierarchies than extractive colonies?",
+        "How did Zionist settlement in Palestine follow patterns established in other settler colonies?",
+        "What role did frontier mythology play in justifying settler violence?",
+        "Why do scholars argue settler colonialism is a structure rather than an event?"
+      ],
+      "tags": ["colonialism", "migration", "human-rights", "identity"]
+    },
+    {
+      "name": "The Economics of Extraction",
+      "topics": [
+        "How did mercantilism shape colonial economic policies for centuries?",
+        "Why did plantation agriculture create such brutal labor demands?",
+        "What made the triangular trade connecting Europe, Africa, and the Americas so profitable?",
+        "How did colonial powers systematically deindustrialize colonized regions?",
+        "Why did cash crop monocultures leave colonies vulnerable to famine?",
+        "What role did colonial taxation play in impoverishing subject populations?",
+        "How did extraction of raw materials benefit metropolitan industries at colonial expense?"
+      ],
+      "tags": ["economics", "trade", "inequality", "development"]
+    },
+    {
+      "name": "The Atlantic Slave Trade",
+      "topics": [
+        "How many Africans were forcibly transported across the Atlantic over four centuries?",
+        "Why did the demand for sugar drive the expansion of Atlantic slavery?",
+        "What was the Middle Passage and how did its horrors define the slave trade?",
+        "How did the slave trade reshape African societies and politics?",
+        "Why did some African elites participate in the slave trade?",
+        "What role did slave resistance—from shipboard revolts to maroon communities—play in undermining the system?",
+        "How did abolition movements ultimately end the legal Atlantic slave trade?"
+      ],
+      "tags": ["history", "africa", "americas", "human-rights"]
+    },
+    {
+      "name": "Colonial Administration and Control",
+      "topics": [
+        "How did 'indirect rule' use traditional authorities to administer colonial subjects?",
+        "Why did colonial powers invest so little in education and infrastructure for colonized peoples?",
+        "What role did colonial legal systems play in dispossessing Indigenous peoples of land?",
+        "How did 'divide and rule' strategies exploit ethnic and religious differences?",
+        "Why did colonial censuses and categories often create the identities they claimed to describe?",
+        "What forms of surveillance and documentation enabled colonial control?",
+        "How did pass laws and movement restrictions control colonized populations?"
+      ],
+      "tags": ["governance", "law", "surveillance", "identity"]
+    },
+    {
+      "name": "Violence, Atrocity, and Genocide",
+      "topics": [
+        "Why do historians now recognize the Congo Free State as a site of mass atrocity?",
+        "How did Germany's genocide of the Herero and Nama peoples foreshadow later Nazi methods?",
+        "What role did famine—often deliberately engineered—play in colonial population control?",
+        "Why were collective punishment and village destruction standard counterinsurgency tactics?",
+        "How did the Amritsar Massacre of 1919 expose the violence underlying British rule in India?",
+        "What concentration camps did colonial powers operate before the term became associated with Nazis?",
+        "Why has colonial violence been systematically minimized in metropolitan historical memory?"
+      ],
+      "tags": ["conflict", "human-rights", "africa", "asia"]
+    },
+    {
+      "name": "Resistance and Rebellion",
+      "topics": [
+        "How did the Haitian Revolution create the first successful slave revolt in history?",
+        "Why did the Indian Rebellion of 1857 nearly end British rule a century before independence?",
+        "What forms of everyday resistance did colonized peoples use against colonial authority?",
+        "How did the Mau Mau uprising in Kenya challenge British colonial control?",
+        "Why did some resistance movements embrace armed struggle while others pursued nonviolence?",
+        "What role did religious and millenarian movements play in anti-colonial resistance?",
+        "How did women participate in resistance movements despite patriarchal limitations?"
+      ],
+      "tags": ["activism", "revolution", "americas", "africa"]
+    },
+    {
+      "name": "Anti-Colonial Thought and Nationalism",
+      "topics": [
+        "How did Enlightenment ideas of liberty and equality become weapons against colonialism?",
+        "Why did Pan-Africanism emerge as a unifying ideology across the African diaspora?",
+        "What role did Frantz Fanon's writings play in theorizing colonial psychology and liberation?",
+        "How did Gandhi's concept of swaraj reimagine Indian self-rule?",
+        "Why did anti-colonial nationalism often adopt the nation-state form imposed by colonizers?",
+        "What tensions existed between socialist and nationalist visions of decolonization?",
+        "How did the Bandung Conference of 1955 attempt to unite the colonized world?"
+      ],
+      "tags": ["philosophy", "nationalism", "activism", "identity"]
+    },
+    {
+      "name": "Decolonization in Asia",
+      "topics": [
+        "How did World War II fatally weaken European colonial empires in Asia?",
+        "Why did Indian independence in 1947 come with the catastrophic violence of Partition?",
+        "What made Indonesia's struggle against Dutch recolonization a defining anti-colonial war?",
+        "How did Vietnam defeat first French and then American attempts to control it?",
+        "Why did decolonization in Malaya involve both communist insurgency and negotiated transfer?",
+        "What role did Cold War rivalries play in shaping Asian decolonization?",
+        "How did the Philippines transition from American colonial rule to formal independence?"
+      ],
+      "tags": ["history", "asia", "cold-war", "conflict"]
+    },
+    {
+      "name": "Decolonization in Africa",
+      "topics": [
+        "Why did most African colonies gain independence in a single decade after 1957?",
+        "How did the Algerian War of Independence traumatize both Algeria and France?",
+        "What made the Congo Crisis immediately following independence so catastrophic?",
+        "Why did settler colonies like Kenya, Rhodesia, and South Africa resist decolonization longest?",
+        "How did Kwame Nkrumah's Ghana become a symbol of African independence?",
+        "What role did the Organization of African Unity play in completing decolonization?",
+        "Why did Portuguese colonies fight the longest wars for independence?"
+      ],
+      "tags": ["history", "africa", "conflict", "diplomacy"]
+    },
+    {
+      "name": "Decolonization's Limits and Legacies",
+      "topics": [
+        "Why did colonial borders—drawn with little regard for local realities—persist after independence?",
+        "How did newly independent nations inherit economies structured for colonial extraction?",
+        "What role did assassinations of leaders like Lumumba play in limiting decolonization?",
+        "Why did some independence movements produce authoritarian successor states?",
+        "How did Cold War interventions compromise the sovereignty of newly independent nations?",
+        "What 'neo-colonial' economic relationships continued to bind former colonies to metropoles?",
+        "Why do some scholars argue true decolonization has never been achieved?"
+      ],
+      "tags": ["colonialism", "economics", "cold-war", "governance"]
+    },
+    {
+      "name": "Cultural Imperialism and Its Legacies",
+      "topics": [
+        "How did colonial education systems attempt to create 'civilized' colonial subjects?",
+        "Why did colonial powers suppress Indigenous languages in favor of European ones?",
+        "What role did museums and exhibitions play in constructing colonial knowledge?",
+        "How did colonial anthropology create racial categories that persist today?",
+        "Why did colonial architecture and urban planning segregate colonized populations?",
+        "What 'colonial mentality' did Fanon argue colonialism instilled in the colonized?",
+        "How have post-colonial nations grappled with the cultural legacies of colonialism?"
+      ],
+      "tags": ["society", "education", "cultural-heritage", "psychology"]
+    },
+    {
+      "name": "Environmental Impacts of Colonialism",
+      "topics": [
+        "How did colonial plantation agriculture transform tropical ecosystems?",
+        "Why did the Columbian Exchange reshape global biology and agriculture?",
+        "What role did colonial forestry policies play in deforestation?",
+        "How did colonial mining operations create lasting environmental devastation?",
+        "Why did colonial conservation often mean dispossessing Indigenous peoples from their lands?",
+        "What 'ecological imperialism' allowed European diseases and species to overwhelm Indigenous ones?",
+        "How do former colonies bear disproportionate impacts of climate change caused by industrialization?"
+      ],
+      "tags": ["environment", "ecology", "climate-change", "agriculture"]
+    },
+    {
+      "name": "Gender, Sexuality, and Colonial Power",
+      "topics": [
+        "How did colonial regimes regulate sexuality to maintain racial hierarchies?",
+        "Why did colonial powers impose European gender norms on colonized societies?",
+        "What role did sexual violence play in colonial conquest and control?",
+        "How did colonialism transform Indigenous family structures and gender roles?",
+        "Why did anti-sodomy laws spread throughout the British Empire?",
+        "What 'colonial domesticity' did European women bring to colonies?",
+        "How did nationalist movements both challenge and reinforce colonial gender ideologies?"
+      ],
+      "tags": ["gender", "society", "human-rights", "law"]
+    },
+    {
+      "name": "Reparations and Restitution Debates",
+      "topics": [
+        "Why have demands for colonial reparations gained momentum in the 21st century?",
+        "How do scholars calculate the economic debt owed by colonial powers?",
+        "What role should repatriation of looted artifacts play in addressing colonial wrongs?",
+        "Why did CARICOM nations formally demand reparations from European powers?",
+        "How have some former colonial powers responded to reparations demands?",
+        "What precedents exist for colonial reparations payments?",
+        "Why do critics argue reparations cannot address the full scope of colonial harm?"
+      ],
+      "tags": ["justice", "economics", "cultural-heritage", "accountability"]
+    },
+    {
+      "name": "Israeli Settlement in the West Bank",
+      "topics": [
+        "How did Israel's 1967 occupation of the West Bank create conditions for settler expansion?",
+        "Why do scholars debate whether Israeli settlement policy fits the 'settler colonialism' framework?",
+        "What legal mechanisms has Israel used to transfer Palestinian land to settlements?",
+        "How has the settlement population grown from zero in 1967 to over 700,000 today?",
+        "Why does international law consider the settlements illegal while Israel disputes this?",
+        "What role do 'outposts,' bypass roads, and the separation barrier play in fragmenting Palestinian territory?",
+        "How do Palestinians experience daily life under military occupation alongside civilian settlers?",
+        "What parallels and differences exist between West Bank settlements and other settler colonial cases?"
+      ],
+      "tags": ["colonialism", "israel-palestine", "international-law", "human-rights"]
+    },
+    {
+      "name": "Colonialism in Contemporary Perspective",
+      "topics": [
+        "Why do scholars debate whether colonialism has truly ended?",
+        "How do ongoing territorial occupations continue colonial relationships?",
+        "What forms does 'internal colonialism' take within contemporary nation-states?",
+        "Why has 'decolonizing' become a framework across academic and activist movements?",
+        "How do global economic structures perpetuate colonial-era inequalities?",
+        "What role does colonial history play in contemporary migration patterns?",
+        "Why do former colonial powers struggle to acknowledge colonial violence and responsibility?"
+      ],
+      "tags": ["colonialism", "legacy", "globalization", "accountability"]
+    }
+  ]
+}

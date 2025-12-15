@@ -1,0 +1,125 @@
+{
+  "name": "Creative Writing: Fiction (Short Story & Novel)",
+  "chapters": [
+    {
+      "name": "Elements of Fiction: Plot and Structure",
+      "topics": [
+        "What is the difference between plot and story in fiction writing?",
+        "How does Freytag's pyramid describe the structure of a traditional story?",
+        "What is an inciting incident and where should it appear in a story?",
+        "How do rising action and complications build tension toward a climax?",
+        "What makes an ending satisfying without being predictable?",
+        "How do modern writers subvert traditional plot structures?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Character Creation and Development",
+      "topics": [
+        "How do writers create characters that feel like real people?",
+        "What is a character arc and how do you structure one?",
+        "How do you show character through action rather than telling readers who someone is?",
+        "What makes readers care about a protagonist within the first few pages?",
+        "How do you write complex antagonists who aren't simply evil?",
+        "What role do minor characters play in enriching a story's world?"
+      ],
+      "tags": ["arts", "identity", "literary-arts", "education"]
+    },
+    {
+      "name": "Point of View and Narration",
+      "topics": [
+        "What are the main point of view options and when should you use each?",
+        "How does first person narration create intimacy but limit information?",
+        "What is third person limited versus third person omniscient?",
+        "Why is second person narration rare and when does it work?",
+        "How do you maintain consistent point of view throughout a story?",
+        "What is narrative distance and how does it affect reader engagement?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "education"]
+    },
+    {
+      "name": "Setting and World-Building",
+      "topics": [
+        "How much setting description is enough without slowing the story?",
+        "What details make a fictional world feel real and lived-in?",
+        "How do you integrate setting with character and plot rather than just describing it?",
+        "What research do writers do to make historical or unfamiliar settings authentic?",
+        "How do fantasy and science fiction writers build consistent imaginary worlds?",
+        "When should setting be a character in its own right?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "education"]
+    },
+    {
+      "name": "Dialogue Writing",
+      "topics": [
+        "How does fictional dialogue differ from real conversation?",
+        "What are dialogue tags and when should you use them versus action beats?",
+        "How do you give different characters distinctive speech patterns?",
+        "What is the purpose of subtext in dialogue and how do you write it?",
+        "How do you format dialogue correctly with punctuation and paragraphing?",
+        "When should you summarize dialogue instead of writing it out?"
+      ],
+      "tags": ["arts", "communication", "literary-arts", "education"]
+    },
+    {
+      "name": "Show vs Tell: Description and Scene",
+      "topics": [
+        "What does 'show don't tell' actually mean in practice?",
+        "When is telling appropriate and even preferable to showing?",
+        "How do you write a scene that immerses readers in the moment?",
+        "What sensory details bring fiction to life beyond just visual description?",
+        "How do you transition between scenes without confusing readers?",
+        "What is summary versus scene and how do you balance them?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Short Story Form and Techniques",
+      "topics": [
+        "What word count range defines a short story versus flash fiction or novella?",
+        "How do you tell a complete story in 5,000 words or less?",
+        "Why do short stories often focus on a single moment or revelation?",
+        "What techniques do masters like Chekhov and Carver use in short fiction?",
+        "How do you write an opening that hooks readers immediately?",
+        "What makes a short story ending feel complete rather than abrupt?"
+      ],
+      "tags": ["arts", "craft", "literary-arts", "education"]
+    },
+    {
+      "name": "Novel Structure and Pacing",
+      "topics": [
+        "How do novelists sustain a story across 80,000 or more words?",
+        "What is scene-sequel structure and how does it control pacing?",
+        "How do you outline a novel before writing versus discovering as you go?",
+        "What role do subplots play in a novel and how many are too many?",
+        "How do you manage multiple point of view characters in a novel?",
+        "What techniques prevent the 'saggy middle' that plagues many novels?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "education"]
+    },
+    {
+      "name": "Revision and Editing Process",
+      "topics": [
+        "What is the difference between revision and editing?",
+        "How do professional writers approach rewriting their first drafts?",
+        "What should you look for in a developmental edit versus a line edit?",
+        "How do you know when a story is finished and ready for readers?",
+        "What role do beta readers and critique partners play in revision?",
+        "How do you cut material you love that isn't serving the story?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Publishing and Literary Markets",
+      "topics": [
+        "What is the difference between traditional publishing and self-publishing?",
+        "How do literary agents work and how do you query them?",
+        "What do acquisitions editors look for in fiction submissions?",
+        "How has Amazon and digital publishing changed the fiction marketplace?",
+        "What markets exist for short fiction and how do you submit to them?",
+        "How do writers build an audience and platform in today's market?"
+      ],
+      "tags": ["arts", "workplace-dynamics", "literary-arts", "education"]
+    }
+  ]
+}

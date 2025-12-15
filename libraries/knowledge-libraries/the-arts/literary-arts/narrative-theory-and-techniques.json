@@ -1,0 +1,125 @@
+{
+  "name": "Narrative Theory and Techniques",
+  "chapters": [
+    {
+      "name": "Story vs Discourse",
+      "topics": [
+        "What is the difference between story (what happens) and discourse (how it's told)?",
+        "How can the same story be told in radically different ways through discourse?",
+        "What did the Russian Formalists mean by fabula and syuzhet?",
+        "How does manipulating the order of events create suspense and surprise?",
+        "What is the difference between showing and telling in narrative?",
+        "How do writers choose what to include, omit, and emphasize?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Narratology: Genette and Structuralism",
+      "topics": [
+        "What are Genette's categories of order, duration, and frequency in narrative?",
+        "How do flashbacks (analepsis) and flash-forwards (prolepsis) work?",
+        "What is narrative duration and how do summary, scene, and pause differ?",
+        "How does iterative versus singulative narration affect pacing?",
+        "What tools does narratology provide for analyzing any narrative text?",
+        "How has structuralist narratology influenced contemporary narrative studies?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "theory"]
+    },
+    {
+      "name": "Focalization and Perspective",
+      "topics": [
+        "What is the difference between who sees (focalization) and who speaks (voice)?",
+        "How do internal and external focalization shape reader knowledge?",
+        "What effects does shifting focalization between characters create?",
+        "How does zero focalization (omniscient) differ from restricted focalization?",
+        "What is free indirect discourse and how does it blur narrator and character?",
+        "How do first, second, and third person relate to focalization choices?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Time in Narrative",
+      "topics": [
+        "How do writers manipulate chronology to create different effects?",
+        "What is the difference between story time and discourse time?",
+        "How do techniques like in medias res affect reader engagement?",
+        "What are the effects of real-time narration versus compressed time?",
+        "How do modernist writers like Woolf and Proust experiment with time?",
+        "What role does tense play in creating narrative temporality?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Unreliable Narrators",
+      "topics": [
+        "What makes a narrator unreliable and how do readers recognize it?",
+        "What different types of unreliability exist: lying, naive, deluded?",
+        "How do writers plant clues that the narrator cannot be fully trusted?",
+        "What famous unreliable narrators demonstrate different techniques?",
+        "Why do authors choose unreliable narrators over reliable ones?",
+        "How do readers reconstruct the 'true' story behind an unreliable account?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Frame Narratives and Embedding",
+      "topics": [
+        "What is a frame narrative and how does it work?",
+        "How do stories within stories (embedding) create multiple narrative levels?",
+        "What classic works like the Canterbury Tales and 1001 Nights use frame structures?",
+        "What is metalepsis and how do narratives break their own frames?",
+        "How do frame narratives create distance or intimacy with the reader?",
+        "What effects do nested narratives create for interpretation?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "writing"]
+    },
+    {
+      "name": "Narrative Voice and Distance",
+      "topics": [
+        "How does narrative distance affect readers' relationship to characters?",
+        "What is the difference between homodiegetic and heterodiegetic narration?",
+        "How do writers create a distinctive narrative voice?",
+        "What effects do first-person versus third-person limited create?",
+        "How does an ironic or sympathetic narrator change meaning?",
+        "What is narrative situation and how does it encompass voice, mode, and tense?"
+      ],
+      "tags": ["arts", "communication", "literary-arts", "writing"]
+    },
+    {
+      "name": "Implied Author and Reader",
+      "topics": [
+        "What is the implied author and how does it differ from the real author?",
+        "How do readers construct the implied author from textual cues?",
+        "What is the implied reader and how do texts address their audiences?",
+        "How does Wayne Booth's concept of the implied author work in practice?",
+        "What is the difference between narrative audience and actual readers?",
+        "How do unreliable narrators rely on the implied author for meaning?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "theory"]
+    },
+    {
+      "name": "Transmedia Storytelling",
+      "topics": [
+        "How do stories extend across multiple media platforms?",
+        "What makes transmedia storytelling different from adaptation?",
+        "How do franchises like Star Wars or Marvel create transmedia universes?",
+        "What challenges do storytellers face maintaining coherence across media?",
+        "How do video games, films, and novels contribute differently to transmedia stories?",
+        "What new forms of interactive and participatory storytelling are emerging?"
+      ],
+      "tags": ["arts", "innovation", "digital-art", "media"]
+    },
+    {
+      "name": "Experimental Narrative Forms",
+      "topics": [
+        "How have modernist and postmodernist writers challenged traditional narrative?",
+        "What techniques like fragmentation and non-linearity disrupt conventional storytelling?",
+        "How do choose-your-own-adventure and hypertext fiction work?",
+        "What is ergodic literature and how does it require reader effort?",
+        "How have writers experimented with typography, layout, and visual elements?",
+        "What possibilities do digital media open for narrative experimentation?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "innovation"]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Human Anatomy and Physiology",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Organization of the Human Body",
+      "topics": [
+        "How is the body organized from cells to tissues to organs to systems?",
+        "What are the four main tissue types and their functions?",
+        "What is homeostasis and why is it essential for survival?",
+        "How do organ systems work together to maintain body function?",
+        "What anatomical terms describe body positions, planes, and directions?",
+        "How did the study of anatomy develop from ancient times to today?"
+      ],
+      "tags": ["science", "biology", "medicine", "anatomy"]
+    },
+    {
+      "name": "The Skeletal System",
+      "topics": [
+        "How many bones are in the human body and how are they classified?",
+        "What is bone made of and how does it grow and repair?",
+        "What types of joints allow different kinds of movement?",
+        "How does the skeleton protect organs and support the body?",
+        "What happens when bones break and how do they heal?",
+        "What diseases affect bones: osteoporosis, arthritis, fractures?"
+      ],
+      "tags": ["science", "biology", "medicine", "anatomy"]
+    },
+    {
+      "name": "The Muscular System",
+      "topics": [
+        "What are the three types of muscle tissue and where are they found?",
+        "How do muscles contract at the molecular level?",
+        "How do skeletal muscles work in opposing pairs to move bones?",
+        "What is the difference between voluntary and involuntary muscle control?",
+        "How does exercise change muscle size and strength?",
+        "What causes muscle cramps, strains, and fatigue?"
+      ],
+      "tags": ["science", "biology", "medicine", "anatomy"]
+    },
+    {
+      "name": "The Nervous System",
+      "topics": [
+        "What are the major divisions of the nervous system?",
+        "How do neurons transmit electrical signals?",
+        "What is a synapse and how do neurotransmitters cross it?",
+        "How is the brain organized into regions with different functions?",
+        "What is the difference between the somatic and autonomic nervous systems?",
+        "How do reflexes work without involving the brain?"
+      ],
+      "tags": ["science", "biology", "neuroscience", "anatomy"]
+    },
+    {
+      "name": "The Cardiovascular System",
+      "topics": [
+        "How does the heart pump blood through the body?",
+        "What is the difference between arteries, veins, and capillaries?",
+        "How does blood flow through the pulmonary and systemic circuits?",
+        "What controls heart rate and blood pressure?",
+        "What is blood made of: plasma, red cells, white cells, platelets?",
+        "How do heart attacks and strokes occur?"
+      ],
+      "tags": ["science", "biology", "medicine", "cardiology"]
+    },
+    {
+      "name": "The Respiratory System",
+      "topics": [
+        "How does air travel from the nose to the lungs?",
+        "What happens during gas exchange in the alveoli?",
+        "How do the diaphragm and rib muscles control breathing?",
+        "What is the difference between oxygen and carbon dioxide transport?",
+        "How does the body regulate breathing rate?",
+        "What diseases affect the respiratory system: asthma, COPD, pneumonia?"
+      ],
+      "tags": ["science", "biology", "medicine", "anatomy"]
+    },
+    {
+      "name": "The Digestive System",
+      "topics": [
+        "What organs make up the digestive tract from mouth to anus?",
+        "How do mechanical and chemical digestion break down food?",
+        "What enzymes digest carbohydrates, proteins, and fats?",
+        "How does the small intestine absorb nutrients into the bloodstream?",
+        "What role do the liver, gallbladder, and pancreas play in digestion?",
+        "What causes common digestive problems: reflux, ulcers, IBS?"
+      ],
+      "tags": ["science", "biology", "medicine", "nutrition"]
+    },
+    {
+      "name": "The Endocrine System",
+      "topics": [
+        "What are hormones and how do they differ from nerve signals?",
+        "What glands make up the endocrine system and what do they secrete?",
+        "How does the hypothalamus connect the nervous and endocrine systems?",
+        "How do insulin and glucagon regulate blood sugar?",
+        "What happens when hormone levels are too high or too low?",
+        "How do hormones control growth, metabolism, and reproduction?"
+      ],
+      "tags": ["science", "biology", "medicine", "endocrinology"]
+    },
+    {
+      "name": "The Urinary System",
+      "topics": [
+        "How do the kidneys filter blood and produce urine?",
+        "What is a nephron and how does it work?",
+        "How do the kidneys maintain water, salt, and pH balance?",
+        "What role do the ureters, bladder, and urethra play?",
+        "What happens when kidneys fail and how does dialysis work?",
+        "What causes kidney stones and urinary tract infections?"
+      ],
+      "tags": ["science", "biology", "medicine", "anatomy"]
+    },
+    {
+      "name": "The Reproductive System",
+      "topics": [
+        "What are the main organs of male and female reproductive systems?",
+        "How are sperm and eggs produced through meiosis?",
+        "What hormones control the menstrual cycle?",
+        "What happens during fertilization and implantation?",
+        "How does a fetus develop during pregnancy?",
+        "What common conditions affect reproductive health?"
+      ],
+      "tags": ["science", "biology", "medicine", "development"]
+    }
+  ]
+}

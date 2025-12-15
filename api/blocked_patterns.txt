@@ -1,0 +1,29 @@
+# TruthAngel Content Filter Patterns
+# One regex pattern per line (without delimiters)
+# Lines starting with # are comments
+# Empty lines are ignored
+# Patterns are case-insensitive
+
+# === VIOLENCE AND WEAPONS ===
+(how to|ways to|instructions for).{0,20}(make|build|create|construct).{0,20}(bomb|explosive|weapon|gun|poison)
+(synthesize|manufacture).{0,20}(drugs|meth|fentanyl|cocaine|heroin)
+(kill|murder|assassinate|harm).{0,20}(someone|person|people|specific)
+
+# === EXPLOITATION AND ILLEGAL CONTENT ===
+(child|minor|underage).{0,20}(porn|sex|nude|exploit)
+(csam|cp\b|pedo)
+(human trafficking|sex trafficking)
+
+# === TERRORISM AND EXTREMISM ===
+(terrorist|terrorism).{0,20}(attack|plot|plan)
+(join|recruit|support).{0,20}(isis|al.?qaeda|taliban)
+(radicalize|extremist recruitment)
+
+# === HACKING AND FRAUD ===
+(hack|breach|exploit).{0,20}(bank|government|password|database)
+(steal|forge).{0,20}(identity|credit card|ssn|social security)
+(ransomware|malware).{0,20}(create|deploy|spread)
+(create|build|make).{0,20}(ransomware|malware|virus|trojan)
+
+# === SELF-HARM ===
+(how to|methods for).{0,20}(suicide|kill myself|end my life)

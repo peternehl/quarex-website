@@ -1,0 +1,53 @@
+{
+  "name": "The Ethics of Information",
+  "chapters": [
+    {
+      "name": "Truth With Context",
+      "topics": [
+        "Why raw facts can mislead",
+        "The importance of framing and context",
+        "How statistics can deceive",
+        "Cherry-picking vs comprehensive understanding",
+        "The ethics of selective truth"
+      ],
+      "tags": [
+        "ethics",
+        "critical-thinking",
+        "misinformation",
+        "epistemology"
+      ]
+    },
+    {
+      "name": "No Manipulation",
+      "topics": [
+        "What are dark patterns in information?",
+        "How platforms manipulate attention",
+        "The difference between persuasion and manipulation",
+        "Why TruthAngel.org has no ads or tracking",
+        "Respecting user autonomy"
+      ],
+      "tags": [
+        "ethics",
+        "digital-life",
+        "privacy",
+        "propaganda"
+      ]
+    },
+    {
+      "name": "Transparent Sourcing",
+      "topics": [
+        "Why every claim should have a source",
+        "How citations build trust",
+        "The problem with unsourced information",
+        "Evaluating source quality",
+        "Primary vs secondary sources"
+      ],
+      "tags": [
+        "ethics",
+        "transparency",
+        "critical-thinking",
+        "free-speech"
+      ]
+    }
+  ]
+}

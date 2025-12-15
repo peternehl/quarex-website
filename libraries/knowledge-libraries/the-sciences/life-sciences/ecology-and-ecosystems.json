@@ -1,0 +1,126 @@
+{
+  "name": "Ecology and Ecosystems",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Ecology?",
+      "topics": [
+        "How do ecologists define ecology and what questions does it address?",
+        "What are the levels of ecological organization from individuals to the biosphere?",
+        "How does ecology differ from environmentalism?",
+        "Who were the founders of ecology as a scientific discipline?",
+        "Why is understanding ecology essential for human survival?",
+        "How do ecologists conduct research in the field versus the laboratory?"
+      ],
+      "tags": ["science", "ecology", "biology", "environment"]
+    },
+    {
+      "name": "Energy Flow Through Ecosystems",
+      "topics": [
+        "How does energy enter ecosystems through primary producers?",
+        "What is the difference between food chains and food webs?",
+        "Why is only about 10% of energy transferred between trophic levels?",
+        "What are primary producers, consumers, and decomposers?",
+        "How do ecological pyramids visualize energy, biomass, and numbers?",
+        "What would happen to an ecosystem if decomposers disappeared?"
+      ],
+      "tags": ["science", "ecology", "biology", "systems-thinking"]
+    },
+    {
+      "name": "Nutrient Cycles",
+      "topics": [
+        "What is the carbon cycle and how do living things participate in it?",
+        "How does nitrogen move from atmosphere to organisms and back?",
+        "Why is the phosphorus cycle different from other nutrient cycles?",
+        "What role do bacteria play in nutrient cycling?",
+        "How have humans disrupted the nitrogen and carbon cycles?",
+        "What is eutrophication and how does it harm aquatic ecosystems?"
+      ],
+      "tags": ["science", "ecology", "chemistry", "sustainability"]
+    },
+    {
+      "name": "Population Ecology",
+      "topics": [
+        "What factors determine whether a population grows, shrinks, or stays stable?",
+        "What is carrying capacity and what happens when populations exceed it?",
+        "How do exponential and logistic growth patterns differ?",
+        "What are density-dependent versus density-independent limiting factors?",
+        "How do predator-prey relationships create population cycles?",
+        "What demographic tools do ecologists use to study populations?"
+      ],
+      "tags": ["science", "ecology", "biology", "mathematics"]
+    },
+    {
+      "name": "Community Ecology",
+      "topics": [
+        "What defines an ecological community and how do species interact?",
+        "What are the different types of symbiosis: mutualism, commensalism, parasitism?",
+        "How does competition between species affect community structure?",
+        "What is a keystone species and why are they disproportionately important?",
+        "How do invasive species disrupt established communities?",
+        "What is ecological succession and how do communities change over time?"
+      ],
+      "tags": ["science", "ecology", "biodiversity", "biology"]
+    },
+    {
+      "name": "Major Biomes of the World",
+      "topics": [
+        "What determines where different biomes occur on Earth?",
+        "What characterizes tropical rainforests and why are they so biodiverse?",
+        "How do organisms survive in desert and tundra biomes?",
+        "What is the difference between temperate and tropical grasslands?",
+        "Why are wetlands called the 'kidneys of the landscape'?",
+        "How do aquatic biomes differ: freshwater versus marine ecosystems?"
+      ],
+      "tags": ["science", "ecology", "geography", "biodiversity"]
+    },
+    {
+      "name": "Biodiversity and Its Importance",
+      "topics": [
+        "What is biodiversity and how is it measured at different levels?",
+        "Why does biodiversity matter for ecosystem stability and resilience?",
+        "What ecosystem services do humans depend on from biodiversity?",
+        "What is the current rate of species extinction compared to background rates?",
+        "How do habitat loss, climate change, and pollution threaten biodiversity?",
+        "What is the relationship between biodiversity and human health?"
+      ],
+      "tags": ["science", "ecology", "biodiversity", "conservation"]
+    },
+    {
+      "name": "Climate Change and Ecosystems",
+      "topics": [
+        "How is climate change affecting species distributions and behaviors?",
+        "What are tipping points in ecosystems and why are they dangerous?",
+        "How do rising ocean temperatures and acidification affect marine life?",
+        "What is happening to coral reefs and why does it matter?",
+        "How are polar ecosystems responding to warming temperatures?",
+        "Can ecosystems adapt fast enough to keep pace with climate change?"
+      ],
+      "tags": ["science", "ecology", "climate-change", "environment"]
+    },
+    {
+      "name": "Conservation Ecology",
+      "topics": [
+        "What strategies do conservationists use to protect endangered species?",
+        "How do protected areas and wildlife corridors help conservation?",
+        "What is rewilding and how does it restore degraded ecosystems?",
+        "How do captive breeding programs help save species from extinction?",
+        "What role do indigenous peoples play in conservation?",
+        "How do conservationists prioritize which species and areas to protect?"
+      ],
+      "tags": ["science", "ecology", "conservation", "policy"]
+    },
+    {
+      "name": "Human Ecology and Sustainability",
+      "topics": [
+        "How do human activities affect ecosystems at local and global scales?",
+        "What is an ecological footprint and how is it calculated?",
+        "How can agriculture become more sustainable while feeding billions?",
+        "What is restoration ecology and how do we repair damaged ecosystems?",
+        "How do cities function as ecosystems and how can they become greener?",
+        "What does it mean to live sustainably within Earth's ecological limits?"
+      ],
+      "tags": ["science", "ecology", "sustainability", "human-rights"]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Health, Disease, and Immunity",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Health?",
+      "topics": [
+        "How do doctors and scientists define health beyond the absence of disease?",
+        "What factors determine whether a person is healthy: genetics, environment, behavior?",
+        "What is the difference between physical, mental, and social well-being?",
+        "How has our understanding of health changed throughout history?",
+        "Why do some populations live longer and healthier than others?",
+        "What role does access to healthcare play in population health?"
+      ],
+      "tags": ["health", "medicine", "human-rights", "public-health"]
+    },
+    {
+      "name": "How Diseases Spread",
+      "topics": [
+        "What is the difference between infectious and non-infectious diseases?",
+        "How do pathogens spread: airborne, contact, vector-borne, foodborne?",
+        "What is the chain of infection and how can it be broken?",
+        "What makes some diseases more contagious than others?",
+        "How do epidemics become pandemics?",
+        "What role do asymptomatic carriers play in disease transmission?"
+      ],
+      "tags": ["health", "medicine", "microbiology", "public-health"]
+    },
+    {
+      "name": "The Immune System",
+      "topics": [
+        "What organs and cells make up the immune system?",
+        "How does the body distinguish between self and non-self?",
+        "What is the difference between innate and adaptive immunity?",
+        "How do white blood cells detect and destroy pathogens?",
+        "What are antibodies and how do they neutralize threats?",
+        "How does fever help the body fight infection?"
+      ],
+      "tags": ["health", "biology", "medicine", "immunology"]
+    },
+    {
+      "name": "Vaccination and Immunization",
+      "topics": [
+        "How do vaccines work to train the immune system?",
+        "What is herd immunity and why does it protect vulnerable people?",
+        "How did Edward Jenner develop the first vaccine for smallpox?",
+        "What types of vaccines exist: live attenuated, inactivated, mRNA?",
+        "How are vaccines tested for safety and effectiveness?",
+        "Why have some diseases been eliminated through vaccination while others persist?"
+      ],
+      "tags": ["health", "medicine", "public-health", "history"]
+    },
+    {
+      "name": "Bacteria and Antibiotics",
+      "topics": [
+        "What are bacteria and how do they cause disease?",
+        "How did Alexander Fleming discover penicillin?",
+        "How do antibiotics kill bacteria or stop their growth?",
+        "What is antibiotic resistance and why is it a crisis?",
+        "Why don't antibiotics work against viruses?",
+        "What practices contribute to antibiotic resistance and how can we slow it?"
+      ],
+      "tags": ["health", "medicine", "microbiology", "public-health"]
+    },
+    {
+      "name": "Viruses and Viral Diseases",
+      "topics": [
+        "What are viruses and why are they considered non-living?",
+        "How do viruses hijack cells to reproduce?",
+        "What makes RNA viruses like influenza mutate so quickly?",
+        "How do antiviral medications work differently from antibiotics?",
+        "What have we learned from HIV/AIDS about viral diseases?",
+        "Why are new viral diseases emerging more frequently?"
+      ],
+      "tags": ["health", "medicine", "microbiology", "virology"]
+    },
+    {
+      "name": "Autoimmune and Allergic Diseases",
+      "topics": [
+        "What happens when the immune system attacks the body's own tissues?",
+        "What autoimmune diseases exist: lupus, rheumatoid arthritis, type 1 diabetes?",
+        "What causes allergies and why are they becoming more common?",
+        "How does anaphylaxis occur and why is it life-threatening?",
+        "What is the hygiene hypothesis for rising autoimmune and allergic disease?",
+        "How are autoimmune diseases treated?"
+      ],
+      "tags": ["health", "medicine", "immunology", "biology"]
+    },
+    {
+      "name": "Cancer: When Cells Go Wrong",
+      "topics": [
+        "What is cancer and how do normal cells become cancerous?",
+        "What genetic mutations lead to uncontrolled cell growth?",
+        "How do cancers spread through metastasis?",
+        "What causes cancer: mutations, viruses, carcinogens, radiation?",
+        "How do treatments like chemotherapy, radiation, and immunotherapy work?",
+        "What role does the immune system play in fighting cancer?"
+      ],
+      "tags": ["health", "medicine", "genetics", "biology"]
+    },
+    {
+      "name": "Chronic and Lifestyle Diseases",
+      "topics": [
+        "What are chronic diseases and why are they the leading cause of death?",
+        "How do heart disease, stroke, and diabetes develop over time?",
+        "What is metabolic syndrome and why does it matter?",
+        "How do diet, exercise, smoking, and alcohol affect disease risk?",
+        "What is the relationship between obesity and chronic disease?",
+        "Can lifestyle changes reverse or prevent chronic diseases?"
+      ],
+      "tags": ["health", "medicine", "nutrition", "prevention"]
+    },
+    {
+      "name": "Global Health Challenges",
+      "topics": [
+        "What diseases cause the most death and disability worldwide?",
+        "Why do infectious diseases disproportionately affect poor countries?",
+        "How do international organizations respond to disease outbreaks?",
+        "What is the role of clean water, sanitation, and nutrition in health?",
+        "How does climate change affect the spread of disease?",
+        "What lessons did COVID-19 teach about pandemic preparedness?"
+      ],
+      "tags": ["health", "medicine", "global-issues", "public-health"]
+    }
+  ]
+}

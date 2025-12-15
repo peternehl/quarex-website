@@ -1,0 +1,31 @@
+{
+  "name": "Wyoming",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Eric Barlow (R)",
+        "Brent Bien (R)",
+        "Joseph Kibler (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

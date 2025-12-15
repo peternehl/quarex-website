@@ -1,0 +1,30 @@
+{
+  "name": "MD-08",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Cheryl Riley (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jamie Raskin (D)",
+        "Stephen Leon (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

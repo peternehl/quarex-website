@@ -1,0 +1,33 @@
+{
+  "name": "West Virginia",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Shelley Moore Capito (R)",
+        "Derrick Evans (R)",
+        "Alexander Gaaserud (R)",
+        "Tom Willis (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Rio Phillips (D)",
+        "Zachary Shrewsbury (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

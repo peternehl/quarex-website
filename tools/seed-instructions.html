@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Seed Instructions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0A0A0A;
+            --bg-secondary: #111111;
+            --bg-card: #1a1a1a;
+            --text-primary: #F7F7F7;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --accent-blue: #3b82f6;
+            --accent-purple: #a78bfa;
+            --accent-gradient: linear-gradient(135deg, #60a5fa, #a78bfa);
+            --border-color: #2a2a2a;
+            --code-bg: #1e1e1e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0.5rem;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--accent-purple);
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+        }
+
+        ol, ul {
+            margin-bottom: 1rem;
+            padding-left: 1.5rem;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        li ul {
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+        }
+
+        strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        code {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            background: var(--code-bg);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #e879f9;
+        }
+
+        pre {
+            background: var(--code-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+        }
+
+        pre code {
+            background: none;
+            padding: 0;
+            font-size: 0.85rem;
+            color: var(--text-primary);
+        }
+
+        .json-key {
+            color: #60a5fa;
+        }
+
+        .json-string {
+            color: #86efac;
+        }
+
+        .json-bracket {
+            color: #fbbf24;
+        }
+
+        .prompt-box {
+            background: var(--bg-card);
+            border: 1px solid var(--accent-blue);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .prompt-box p {
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+
+        .prompt-box ul {
+            color: var(--text-primary);
+        }
+
+        .prompt-box .placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1.5rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        td {
+            color: var(--text-secondary);
+        }
+
+        td code {
+            white-space: nowrap;
+        }
+
+        .example-box {
+            background: var(--bg-card);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .good {
+            border-left: 3px solid #22c55e;
+        }
+
+        .avoid {
+            border-left: 3px solid #ef4444;
+        }
+
+        .submit-section {
+            background: var(--bg-card);
+            border: 1px solid var(--accent-purple);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .submit-section h2 {
+            margin-top: 0;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .email-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 2rem 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            pre {
+                padding: 1rem;
+                font-size: 0.8rem;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/tools/" class="back-link">&larr; Back to Tools</a>
+
+        <h1>Quarex Seed Instructions</h1>
+        <p class="subtitle">Create your own Living Books for the Quarex community</p>
+
+        <p>Use the Quarex Seed Creator to generate a quarex seed, then expand it using an AI assistant (ChatGPT, Claude, etc.).</p>
+
+        <h2>Step 1: Generate a Seed</h2>
+        <ol>
+            <li>Download the <strong>Quarex Seed Creator</strong> from Quarex.org</li>
+            <li>Select your quarex context location:
+                <ul>
+                    <li><strong>Library Type</strong> (e.g., Knowledge Libraries, Practical Libraries)</li>
+                    <li><strong>Library</strong> (e.g., The Sciences, Digital Skills)</li>
+                    <li><strong>Shelf</strong> (e.g., Physics, Programming)</li>
+                </ul>
+            </li>
+            <li>Enter your <strong>Quarex Name</strong> and <strong>Created By</strong></li>
+            <li>Choose a seed mode:
+                <ul>
+                    <li><strong>Bare Bones</strong>: Minimal structure for manual completion</li>
+                    <li><strong>LLM-Ready</strong>: Includes instructions for AI expansion</li>
+                </ul>
+            </li>
+            <li>Click <strong>Generate Seed</strong> and copy the output</li>
+        </ol>
+
+        <h2>Step 2: Expand with AI</h2>
+        <p>Paste your seed into ChatGPT, Claude, or another AI. The seed contains the instructions below:</p>
+
+        <div class="prompt-box">
+            <p>Please expand this Quarex seed into a complete quarex.</p>
+            <p>For each chapter:</p>
+            <ul>
+                <li>Create 4-8 topic questions that users can click to explore</li>
+                <li>Topics should be clear, curiosity-sparking questions</li>
+                <li>Leave the tags array empty - tags will be auto-generated during review</li>
+            </ul>
+        </div>
+
+        <h2>Quarex JSON Example</h2>
+        <pre><code>{
+  <span class="json-key">"name"</span>: <span class="json-string">"Your Quarex Title"</span>,
+  <span class="json-key">"created_by"</span>: <span class="json-string">"Your Name and/or AI Assistant"</span>,
+  <span class="json-key">"chapters"</span>: <span class="json-bracket">[</span>
+    <span class="json-bracket">{</span>
+      <span class="json-key">"name"</span>: <span class="json-string">"Chapter Name"</span>,
+      <span class="json-key">"topics"</span>: <span class="json-bracket">[</span>
+        <span class="json-string">"What is the main concept?"</span>,
+        <span class="json-string">"How does this work in practice?"</span>,
+        <span class="json-string">"Why is this important?"</span>,
+        <span class="json-string">"What are common misconceptions?"</span>
+      <span class="json-bracket">]</span>,
+      <span class="json-key">"tags"</span>: <span class="json-bracket">[]</span>
+    <span class="json-bracket">}</span>
+  <span class="json-bracket">]</span>
+}</code></pre>
+
+        <h2>Field Definitions</h2>
+        <table>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><code>name</code></td>
+                <td>Quarex title - a focused subject area</td>
+            </tr>
+            <tr>
+                <td><code>created_by</code></td>
+                <td>Author name(s) and/or AI assistant used</td>
+            </tr>
+            <tr>
+                <td><code>chapters</code></td>
+                <td>Array of chapters within this book</td>
+            </tr>
+            <tr>
+                <td><code>chapters[].name</code></td>
+                <td>Chapter title - a specific aspect of the book topic</td>
+            </tr>
+            <tr>
+                <td><code>chapters[].topics</code></td>
+                <td>Array of 4-8 topic strings - clickable questions users can explore</td>
+            </tr>
+            </table>
+
+        <h2>Guidelines</h2>
+
+        <h3>1. Topic Phrasing</h3>
+        <p>Write topics as questions that spark curiosity:</p>
+        <div class="example-box good">
+            <strong>Good:</strong> "Why do stars shine?"
+        </div>
+        <div class="example-box avoid">
+            <strong>Avoid:</strong> "Stars" or "Stellar physics overview"
+        </div>
+
+        <h3>2. Chapter Focus</h3>
+        <p>Each chapter should cover a distinct aspect:</p>
+        <ul>
+            <li>Aim for 3-8 chapters per book</li>
+            <li>Aim for 4-8 topics per chapter</li>
+        </ul>
+
+        <h3>3. Tags</h3>
+        <p>Do not add tags, tags will be generated by Quarex after submission.</p>
+
+        <h3>4. Attribution</h3>
+        <p>Include all contributors in <code>created_by</code>:</p>
+        <div class="example-box good">
+            <strong>Example:</strong> "Jane Doe, ChatGPT 4, and Claude"
+        </div>
+
+        <div class="submit-section">
+            <h2>Submitting Your Book</h2>
+            <p>Once your book JSON is complete:</p>
+            <ol>
+                <li>Save it as <code>your-book-name.json</code> (lowercase, hyphens for spaces)</li>
+                <li>Email it to <a href="mailto:peter@quarex.org" class="email-link">peter@quarex.org</a></li>
+                <li>Include the placement path from your seed (Library Type → Library → Shelf)</li>
+            </ol>
+            <p>Your book will be reviewed and added to the Quarex library!</p>
+        </div>
+
+        <footer>
+            <p>Questions? Visit <a href="https://quarex.org">Quarex.org</a></p>
+            <p style="margin-top: 1rem;">© 2025 Quarex / Peter Nehl. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "KY-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Thomas Massie (R)",
+        "Nicole Lee Ethington (R)",
+        "Ed Gallrein (R)",
+        "Robert Wells Jr. (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jesse Brewer (D)",
+        "Monica Dean (D)",
+        "Elizabeth Mason-Hill (D)",
+        "Melissa Strange (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

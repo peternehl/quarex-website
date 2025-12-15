@@ -1,0 +1,31 @@
+{
+  "name": "Oregon",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Joe Johnson (R)",
+        "Timothy Skelton (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jeff Merkley (D)",
+        "Jacob Ryan (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Iowa",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John Berman (R)",
+        "Jim Carlin (R)",
+        "Ashley Hinson (R)",
+        "Joshua Smith (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chris Henry (D)",
+        "Nathan Sage (D)",
+        "Josh Turek (D)",
+        "Zach Wahls (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Thomas Laehn (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

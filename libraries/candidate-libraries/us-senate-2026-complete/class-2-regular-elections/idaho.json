@@ -1,0 +1,44 @@
+{
+  "name": "Idaho",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jim Risch (R)",
+        "Joe Evans (R)",
+        "Josh Roy (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "David Roth (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Todd Achilles (I)",
+        "Natalie Fleming (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

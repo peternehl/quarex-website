@@ -1,0 +1,110 @@
+{
+  "name": "High-Voltage Transmission Systems",
+  "chapters": [
+    {
+      "name": "Principles of High-Voltage Transmission",
+      "topics": [
+        "Why power is transmitted at high voltage and low current",
+        "AC versus DC transmission and where each is used",
+        "Resistive, inductive, and capacitive losses in long lines",
+        "How transmission corridor planning shapes grid topology"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "physics",
+        "education"
+      ]
+    },
+    {
+      "name": "Transmission Hardware and Engineering",
+      "topics": [
+        "Design of towers, insulators, conductors, and rights-of-way",
+        "HVDC converter stations and modern power electronics",
+        "Reactive power compensation and synchronous condensers",
+        "Substation architecture, step-up and step-down transformers"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Grid Interconnection and Regional Coordination",
+      "topics": [
+        "How large regional grids synchronize frequency and phase",
+        "Operational benefits and risks of interconnected systems",
+        "Black-start capabilities and contingency planning across regions",
+        "Political and regulatory challenges of cross-border grids"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "education"
+      ]
+    },
+    {
+      "name": "Reliability, Resilience, and Failure Modes",
+      "topics": [
+        "Cascading outages and how local faults propagate",
+        "Weather, wildfire, and physical vulnerabilities of overhead lines",
+        "Protection relays, fault detection, and isolation strategies",
+        "Cyber-physical security risks and mitigation approaches"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "education"
+      ]
+    },
+    {
+      "name": "Transmission Planning and Expansion",
+      "topics": [
+        "Why transmission bottlenecks limit renewable deployment",
+        "Cost allocation, permitting delays, and public opposition",
+        "Undergrounding and submarine cable trade-offs",
+        "Concepts for long-distance HVDC supergrids"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "education"
+      ]
+    },
+    {
+      "name": "Environmental and Societal Impacts",
+      "topics": [
+        "Land use, wildlife, and electromagnetic field concerns",
+        "Indigenous land rights and community consultation processes",
+        "Visual impact and political resistance to new lines",
+        "Evaluating the social cost and benefits of expansion projects"
+      ],
+      "tags": [
+        "environment",
+        "energy",
+        "infrastructure",
+        "climate-change"
+      ]
+    },
+    {
+      "name": "Future of Long-Distance Power Movement",
+      "topics": [
+        "High-temperature superconducting transmission concepts",
+        "AI-driven grid routing and predictive load balancing",
+        "Global energy interconnection and planetary grid visions",
+        "Transmission design for extreme climates and remote regions"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "education"
+      ]
+    }
+  ]
+}

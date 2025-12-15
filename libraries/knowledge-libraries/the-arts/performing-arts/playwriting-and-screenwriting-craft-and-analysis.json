@@ -1,0 +1,125 @@
+{
+  "name": "Playwriting and Screenwriting: Craft and Analysis",
+  "chapters": [
+    {
+      "name": "Dramatic Structure and Plot",
+      "topics": [
+        "What is dramatic structure and why do most plays follow recognizable patterns?",
+        "How does Freytag's pyramid describe the shape of dramatic action?",
+        "What is the inciting incident and where should it occur in a play?",
+        "How do rising action, climax, and resolution function in drama?",
+        "What alternative structures do experimental playwrights use?",
+        "How does plot differ from story in dramatic writing?"
+      ],
+      "tags": ["arts", "critical-thinking", "performing-arts", "theater"]
+    },
+    {
+      "name": "Character Development in Drama",
+      "topics": [
+        "How do playwrights create characters that feel three-dimensional?",
+        "What is a character's objective and why is it essential to drama?",
+        "How do playwrights reveal character through action rather than description?",
+        "What makes a protagonist compelling and an antagonist believable?",
+        "How do supporting characters serve the main dramatic action?",
+        "What common character archetypes appear across dramatic literature?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "literary-arts"]
+    },
+    {
+      "name": "Dialogue and Subtext",
+      "topics": [
+        "What makes stage dialogue different from everyday conversation?",
+        "How do playwrights create subtext—meaning beneath the spoken words?",
+        "What techniques help writers give each character a distinctive voice?",
+        "How do interruptions, pauses, and silences work dramatically?",
+        "What role does dialect and speech pattern play in characterization?",
+        "How did Pinter, Mamet, and other writers develop distinctive dialogue styles?"
+      ],
+      "tags": ["arts", "communication", "performing-arts", "theater"]
+    },
+    {
+      "name": "Theme and Meaning",
+      "topics": [
+        "How do playwrights embed themes without becoming preachy?",
+        "What is the difference between a play's subject and its theme?",
+        "How do symbols and motifs reinforce thematic content?",
+        "Should playwrights know their theme before writing or discover it after?",
+        "How do the best plays allow multiple interpretations?",
+        "What role does ambiguity play in dramatic meaning?"
+      ],
+      "tags": ["arts", "critical-thinking", "performing-arts", "theater"]
+    },
+    {
+      "name": "Genre in Playwriting",
+      "topics": [
+        "What conventions define tragedy, comedy, and tragicomedy?",
+        "How do farce, satire, and dark comedy use humor differently?",
+        "What makes a thriller or mystery work on stage?",
+        "How have genre boundaries blurred in contemporary playwriting?",
+        "What audience expectations come with different dramatic genres?",
+        "How do playwrights subvert genre conventions for effect?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "literary-arts"]
+    },
+    {
+      "name": "Screenplay Format and Structure",
+      "topics": [
+        "What are the standard formatting conventions for screenplays?",
+        "How does three-act structure apply to feature film screenwriting?",
+        "What are the major plot points and turning points in screenplay structure?",
+        "How do scene headings, action lines, and dialogue work in scripts?",
+        "What is the difference between spec scripts and shooting scripts?",
+        "How do television scripts differ from feature film scripts in format?"
+      ],
+      "tags": ["arts", "film", "performing-arts", "media"]
+    },
+    {
+      "name": "Scene Construction",
+      "topics": [
+        "What makes a scene work as a unit of dramatic action?",
+        "How do scenes begin, build, and end effectively?",
+        "What should change from the beginning to the end of every scene?",
+        "How do writers create conflict and tension within individual scenes?",
+        "What is a French scene and how do entrances and exits affect drama?",
+        "How do scene transitions affect pacing and rhythm?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "film"]
+    },
+    {
+      "name": "Adaptation: Page to Stage/Screen",
+      "topics": [
+        "What challenges arise when adapting novels, stories, or other sources for drama?",
+        "How do writers decide what to cut, compress, or expand in adaptation?",
+        "What makes some literary works more adaptable than others?",
+        "How do successful adaptations find their own dramatic logic?",
+        "What legal and rights issues surround adaptation?",
+        "How have playwrights and screenwriters approached adapting true stories?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "literary-arts"]
+    },
+    {
+      "name": "Revision and Dramaturgy",
+      "topics": [
+        "What does the revision process look like for plays and screenplays?",
+        "How do writers use readings and workshops to develop their scripts?",
+        "What is dramaturgy and how do dramaturgs support new play development?",
+        "What feedback is most useful for writers revising dramatic work?",
+        "How do writers know when a script is finished?",
+        "What did major playwrights say about their revision processes?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "education"]
+    },
+    {
+      "name": "New Play Development Process",
+      "topics": [
+        "How do new plays get developed from first draft to production?",
+        "What role do developmental labs and residencies play for playwrights?",
+        "How do playwrights work with directors and actors in development?",
+        "What is the difference between a reading, workshop, and production?",
+        "How do playwrights navigate feedback from multiple sources?",
+        "What paths exist for getting new plays produced professionally?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "workplace-dynamics"]
+    }
+  ]
+}

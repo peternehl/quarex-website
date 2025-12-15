@@ -1,0 +1,125 @@
+{
+  "name": "World Theatre Traditions (Non-Western Performance)",
+  "chapters": [
+    {
+      "name": "Sanskrit Drama and Indian Theatre",
+      "topics": [
+        "What are the origins and classical texts of Sanskrit drama?",
+        "How does the Natyashastra define the theory and practice of Indian performance?",
+        "What are the major classical Indian dance-drama forms: Kathakali, Bharatanatyam, Kutiyattam?",
+        "How do rasa (emotional essence) and bhava (emotional states) work in Indian aesthetics?",
+        "What role do music, gesture, and costume play in traditional Indian theatre?",
+        "How is classical Indian performance being preserved and adapted today?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Noh and Kabuki: Japanese Theatre",
+      "topics": [
+        "What are the origins and aesthetic principles of Noh theatre?",
+        "How do masks, movement, and music create Noh's distinctive style?",
+        "What is Kabuki and how did it develop as popular entertainment?",
+        "How do Kabuki's staging conventions like the hanamichi runway work?",
+        "What training do performers undergo for Noh and Kabuki?",
+        "How have these traditional forms influenced modern theatre worldwide?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Beijing Opera and Chinese Theatre",
+      "topics": [
+        "How did Beijing Opera emerge and what are its key characteristics?",
+        "What are the four main role types in Beijing Opera and how are they performed?",
+        "How do stylized movement, singing, and acrobatics combine in Chinese opera?",
+        "What meanings do costumes, makeup, and colors convey to audiences?",
+        "How is traditional Chinese theatre adapting to contemporary contexts?",
+        "What regional variations of Chinese opera exist beyond Beijing Opera?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Indonesian Wayang (Shadow Puppetry)",
+      "topics": [
+        "What is wayang kulit and what role does the dalang puppeteer play?",
+        "How do wayang performances adapt stories from the Ramayana and Mahabharata?",
+        "What techniques create the shadows and movement in puppet performances?",
+        "How long do traditional wayang performances last and how are they structured?",
+        "What ritual and spiritual significance does wayang hold in Javanese culture?",
+        "How is wayang being preserved and innovated for contemporary audiences?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "African Performance Traditions",
+      "topics": [
+        "What are the major theatrical traditions across different African regions?",
+        "How do storytelling, music, and dance integrate in African performance?",
+        "What role do masks and masquerade play in West African traditions?",
+        "How has colonial history affected the development of African theatre?",
+        "Who are the major contemporary African playwrights and theatre makers?",
+        "How do African diaspora artists engage with traditional performance forms?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "african-philosophy"]
+    },
+    {
+      "name": "Latin American Theatre",
+      "topics": [
+        "How did colonial and indigenous traditions blend in Latin American theatre?",
+        "What is Teatro Campesino and how did it serve Chicano communities?",
+        "How did Augusto Boal's Theatre of the Oppressed emerge from Latin America?",
+        "What distinctive styles have developed in Mexican, Brazilian, and Argentine theatre?",
+        "How have Latin American playwrights addressed political repression and social issues?",
+        "What role does popular and street theatre play in Latin American culture?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Middle Eastern Theatre Forms",
+      "topics": [
+        "What traditional performance forms exist in Middle Eastern cultures?",
+        "What is Ta'ziyeh and how does this passion play tradition work?",
+        "How has contemporary theatre developed in countries like Iran, Egypt, and Lebanon?",
+        "What role does storytelling and oral tradition play in the region?",
+        "How have political contexts shaped theatrical expression in the Middle East?",
+        "What challenges and innovations characterize Middle Eastern theatre today?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Indigenous Performance Practices",
+      "topics": [
+        "What performance traditions exist among Indigenous peoples of the Americas?",
+        "How do ceremony, storytelling, and dance function in Indigenous cultures?",
+        "What ethical considerations apply to non-Indigenous engagement with these traditions?",
+        "How are Indigenous theatre artists creating contemporary work from traditional roots?",
+        "What is the relationship between performance, land, and Indigenous identity?",
+        "How are Indigenous performance practices being documented and transmitted?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "identity"]
+    },
+    {
+      "name": "Ritual and Ceremonial Performance",
+      "topics": [
+        "How do ritual and theatrical performance relate across cultures?",
+        "What elements distinguish sacred performance from secular entertainment?",
+        "How have anthropologists and theatre scholars theorized ritual performance?",
+        "What transformative functions does ritual performance serve in communities?",
+        "How do contemporary artists draw on ritual in their work?",
+        "What happens when sacred performances are presented as art?"
+      ],
+      "tags": ["arts", "spirituality", "performing-arts", "cultural-heritage"]
+    },
+    {
+      "name": "Intercultural Theatre",
+      "topics": [
+        "What is intercultural theatre and how has it developed as a practice?",
+        "How did directors like Peter Brook and Ariane Mnouchkine approach intercultural work?",
+        "What controversies and critiques have surrounded intercultural performance?",
+        "How can artists engage across cultures ethically and productively?",
+        "What is the difference between intercultural exchange and cultural appropriation?",
+        "How are artists from traditionally marginalized cultures reclaiming their performance forms?"
+      ],
+      "tags": ["arts", "identity", "human-rights", "performing-arts"]
+    }
+  ]
+}

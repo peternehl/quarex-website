@@ -1,0 +1,52 @@
+{
+  "name": "Louisiana",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Bill Cassidy (R)",
+        "Randall Arrington (R)",
+        "Tracy Dendy (R)",
+        "Julie Emerson (R)",
+        "John Fleming (R)",
+        "Chris Holder (R)",
+        "Xan John (R)",
+        "Blake Miguez (R)",
+        "Joshua Morott (R)",
+        "Kathy Seiden (R)",
+        "Eric Skrmetta (R)",
+        "Samuel Wyatt (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Tracie Burke (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jamie LaBranche (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "IL-09",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Rocio Cleveland (R)",
+        "John Elleson (R)",
+        "Paul Friedman (R)",
+        "Mark Su (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Kat Abughazaleh (D)",
+        "Bushra Amiwala (D)",
+        "Phil Andrew (D)",
+        "Natalie Angelo (D)",
+        "Daniel K. Biss (D)",
+        "Patricia Brown (D)",
+        "Jeff Cohen (D)",
+        "Laura Fine (D)",
+        "Justin Ford (D)",
+        "Mark Fredrickson (D)",
+        "Hoan Huynh (D)",
+        "Bethany Johnson (D)",
+        "Bruce Leon (D)",
+        "Sam Polan (D)",
+        "Nick Pyati (D)",
+        "Howard Rosenblum (D)",
+        "Mike Simmons (D)",
+        "Jan Schakowsky (D)",
+        "David Abrevaya (D)",
+        "Tamika La'Shon Hill (D)",
+        "Miracle Jenkins (D)",
+        "Jill Manrique (D)",
+        "Lauren Million (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Delila Barrera (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

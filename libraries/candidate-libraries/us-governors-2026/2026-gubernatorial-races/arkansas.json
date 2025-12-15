@@ -1,0 +1,30 @@
+{
+  "name": "Arkansas",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Sarah Huckabee Sanders (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Fredrick Love (D)",
+        "Supha Xayprasith-Mays (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

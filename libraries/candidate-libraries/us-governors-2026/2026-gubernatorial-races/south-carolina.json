@@ -1,0 +1,33 @@
+{
+  "name": "South Carolina",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Pamela Evette (R)",
+        "Josh Kimbrell (R)",
+        "Nancy Mace (R)",
+        "Ralph Norman (R)",
+        "Alan Wilson (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jermaine Johnson (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

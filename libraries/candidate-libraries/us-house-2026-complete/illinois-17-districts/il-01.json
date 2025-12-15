@@ -1,0 +1,32 @@
+{
+  "name": "IL-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Marcus Lewis (R)",
+        "Christian Maxwell (R)",
+        "Brian Kovaka (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jonathan Jackson (D)",
+        "Joely Faren King (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

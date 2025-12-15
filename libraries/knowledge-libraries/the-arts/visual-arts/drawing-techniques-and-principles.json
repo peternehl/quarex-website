@@ -1,0 +1,125 @@
+{
+  "name": "Drawing: Techniques and Principles",
+  "chapters": [
+    {
+      "name": "Drawing Materials and Tools",
+      "topics": [
+        "What are the differences between graphite pencil grades and when do you use each?",
+        "How do charcoal, conte, and graphite produce different effects?",
+        "What paper surfaces work best for different drawing media?",
+        "How do erasers function as drawing tools beyond just correcting mistakes?",
+        "What specialized tools like blending stumps and fixatives do artists use?",
+        "How do you build a basic drawing kit for different skill levels?"
+      ],
+      "tags": ["arts", "visual-arts", "drawing", "education"]
+    },
+    {
+      "name": "Line, Form, and Contour",
+      "topics": [
+        "What types of line—contour, gesture, hatching—serve different purposes?",
+        "How does line quality and weight create visual interest?",
+        "What is blind contour drawing and how does it train observation?",
+        "How do artists use cross-contour lines to describe form?",
+        "What is the difference between outline and contour drawing?",
+        "How do master draftsmen like Ingres and Dürer use line expressively?"
+      ],
+      "tags": ["arts", "visual-arts", "drawing", "education"]
+    },
+    {
+      "name": "Perspective and Spatial Depth",
+      "topics": [
+        "How does one-point perspective create the illusion of depth?",
+        "When do you use two-point versus three-point perspective?",
+        "How do you find the horizon line and vanishing points in a scene?",
+        "What is atmospheric perspective and how does it suggest distance?",
+        "How do you draw circles and curved objects in perspective?",
+        "What shortcuts help artists draw perspective accurately and quickly?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "drawing"]
+    },
+    {
+      "name": "Light, Shadow, and Value",
+      "topics": [
+        "What are the components of light on form: highlight, halftone, core shadow, reflected light?",
+        "How do you create a value scale and why is it useful practice?",
+        "What techniques—hatching, cross-hatching, stippling—build up tone?",
+        "How does the direction and quality of light affect mood in a drawing?",
+        "What is chiaroscuro and how did old masters use dramatic lighting?",
+        "How do you train your eye to see values accurately?"
+      ],
+      "tags": ["arts", "visual-arts", "drawing", "education"]
+    },
+    {
+      "name": "Texture and Surface Quality",
+      "topics": [
+        "How do you render different textures like fabric, metal, wood, and skin?",
+        "What mark-making techniques suggest different surface qualities?",
+        "How does the tooth of the paper affect texture in drawings?",
+        "What is the difference between actual texture and implied texture?",
+        "How do you balance texture with other elements like value and form?",
+        "How did artists like Van Gogh use texture expressively in drawings?"
+      ],
+      "tags": ["arts", "visual-arts", "drawing", "education"]
+    },
+    {
+      "name": "Composition and Design",
+      "topics": [
+        "What principles like rule of thirds and golden ratio guide composition?",
+        "How do you create visual hierarchy and focal points in a drawing?",
+        "What role do positive and negative space play in composition?",
+        "How do leading lines and visual flow guide the viewer's eye?",
+        "What makes a composition feel balanced or deliberately unbalanced?",
+        "How do thumbnail sketches help artists plan compositions?"
+      ],
+      "tags": ["arts", "critical-thinking", "visual-arts", "drawing"]
+    },
+    {
+      "name": "Figure Drawing and Anatomy",
+      "topics": [
+        "What are the basic proportions of the human figure?",
+        "How does gesture drawing capture movement and energy quickly?",
+        "What anatomical landmarks help artists construct the figure accurately?",
+        "How do muscles and bones affect the surface forms you see?",
+        "What is the difference between anatomical study and expressive figure drawing?",
+        "How do you practice figure drawing without a live model?"
+      ],
+      "tags": ["arts", "visual-arts", "drawing", "education"]
+    },
+    {
+      "name": "Portrait Drawing",
+      "topics": [
+        "What are the standard proportions and placement of facial features?",
+        "How do you capture a likeness beyond just accurate proportions?",
+        "What techniques help render eyes, nose, mouth, and ears convincingly?",
+        "How does lighting affect the appearance of facial planes and features?",
+        "What role does hair play in portrait composition and framing?",
+        "How do you convey personality and expression in a portrait?"
+      ],
+      "tags": ["arts", "identity", "visual-arts", "drawing"]
+    },
+    {
+      "name": "Landscape and Environment",
+      "topics": [
+        "How do you create depth and distance in landscape drawings?",
+        "What techniques help render trees, foliage, and natural forms?",
+        "How do you simplify complex scenes into manageable compositions?",
+        "What role does atmosphere and weather play in landscape drawing?",
+        "How do you draw architectural elements and urban environments?",
+        "What plein air practices help artists draw from observation outdoors?"
+      ],
+      "tags": ["arts", "environment", "visual-arts", "drawing"]
+    },
+    {
+      "name": "Expressive and Gestural Drawing",
+      "topics": [
+        "What is gesture drawing and how does it capture essential movement?",
+        "How do you loosen up and draw more expressively?",
+        "What role does speed play in gestural and expressive work?",
+        "How did artists like Egon Schiele use expressive line and distortion?",
+        "What exercises help artists break free from tight, overworked drawings?",
+        "How do you balance expressive freedom with structural accuracy?"
+      ],
+      "tags": ["arts", "visual-arts", "drawing", "education"]
+    }
+  ]
+}

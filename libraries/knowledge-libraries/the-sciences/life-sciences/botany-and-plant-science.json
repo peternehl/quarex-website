@@ -1,0 +1,126 @@
+{
+  "name": "Botany and Plant Science",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Makes Plants Unique",
+      "topics": [
+        "What defines a plant and separates plants from other organisms?",
+        "How did plants evolve from aquatic algae to colonize land?",
+        "What adaptations did plants develop to survive outside water?",
+        "How do plant cells differ from animal cells in structure and function?",
+        "What is the plant cell wall made of and what does it do?",
+        "Why are plants essential to life on Earth beyond providing food?"
+      ],
+      "tags": ["science", "botany", "biology", "ecology"]
+    },
+    {
+      "name": "Photosynthesis: How Plants Make Food",
+      "topics": [
+        "What is photosynthesis and what are its inputs and outputs?",
+        "How do chloroplasts capture light energy using chlorophyll?",
+        "What happens during the light reactions versus the Calvin cycle?",
+        "Why do plants appear green and why do leaves change color in fall?",
+        "What are C3, C4, and CAM plants and how do they differ?",
+        "How much of Earth's oxygen comes from photosynthesis?"
+      ],
+      "tags": ["science", "botany", "biology", "chemistry"]
+    },
+    {
+      "name": "Plant Anatomy: Roots, Stems, and Leaves",
+      "topics": [
+        "What functions do roots perform beyond anchoring the plant?",
+        "How do stems transport water, nutrients, and sugars through the plant?",
+        "What is the difference between xylem and phloem tissue?",
+        "How are leaves structured to maximize photosynthesis?",
+        "What are stomata and how do they regulate gas exchange and water loss?",
+        "How do modified roots, stems, and leaves adapt plants to different environments?"
+      ],
+      "tags": ["science", "botany", "biology", "education"]
+    },
+    {
+      "name": "Plant Reproduction and Life Cycles",
+      "topics": [
+        "What is alternation of generations in plant life cycles?",
+        "How do flowers attract pollinators and ensure cross-pollination?",
+        "What happens during pollination, fertilization, and seed formation?",
+        "How do fruits develop and aid in seed dispersal?",
+        "What is asexual reproduction in plants: runners, bulbs, cuttings?",
+        "How do ferns and mosses reproduce without flowers or seeds?"
+      ],
+      "tags": ["science", "botany", "biology", "ecology"]
+    },
+    {
+      "name": "Plant Growth and Development",
+      "topics": [
+        "What are meristems and how do they allow plants to grow throughout life?",
+        "How do plant hormones like auxin, gibberellin, and cytokinin control growth?",
+        "What is phototropism and how do plants grow toward light?",
+        "How do plants know when to flower based on day length?",
+        "What triggers seed germination and what conditions do seeds need?",
+        "How do plants respond to gravity, touch, and other environmental signals?"
+      ],
+      "tags": ["science", "botany", "biology", "agriculture"]
+    },
+    {
+      "name": "Plant Diversity: From Mosses to Flowering Plants",
+      "topics": [
+        "How are plants classified into major groups: bryophytes, ferns, gymnosperms, angiosperms?",
+        "What characteristics define mosses and liverworts?",
+        "How do ferns differ from seed plants in their reproduction?",
+        "What are gymnosperms and why are conifers economically important?",
+        "Why are angiosperms (flowering plants) the most successful plant group?",
+        "What is the difference between monocots and dicots?"
+      ],
+      "tags": ["science", "botany", "biodiversity", "ecology"]
+    },
+    {
+      "name": "Plants and Their Environment",
+      "topics": [
+        "How do plants adapt to extreme environments: deserts, arctic, high altitude?",
+        "What is the role of mycorrhizal fungi in plant nutrition?",
+        "How do carnivorous plants trap and digest insects?",
+        "What defenses do plants use against herbivores and pathogens?",
+        "How do plants communicate with each other through chemical signals?",
+        "What is allelopathy and how do some plants suppress competitors?"
+      ],
+      "tags": ["science", "botany", "ecology", "environment"]
+    },
+    {
+      "name": "Agriculture and Crop Science",
+      "topics": [
+        "What were the origins of agriculture and the first domesticated crops?",
+        "How has selective breeding improved crop yields over millennia?",
+        "What are the major staple crops that feed humanity?",
+        "How do fertilizers, irrigation, and pest control increase agricultural productivity?",
+        "What is sustainable agriculture and why does it matter?",
+        "How might climate change affect global food production?"
+      ],
+      "tags": ["science", "botany", "agriculture", "food-security"]
+    },
+    {
+      "name": "Plants in Medicine and Industry",
+      "topics": [
+        "What important medicines come from plants: aspirin, morphine, digitalis?",
+        "How do traditional herbal medicines compare to pharmaceutical drugs?",
+        "What plant products do we use daily: wood, cotton, rubber, paper?",
+        "How are plants used to produce biofuels and other renewable materials?",
+        "What is phytoremediation and how can plants clean polluted environments?",
+        "How does plant biotechnology create new varieties and products?"
+      ],
+      "tags": ["science", "botany", "medicine", "industry"]
+    },
+    {
+      "name": "Conservation and Future of Plants",
+      "topics": [
+        "How many plant species are threatened with extinction?",
+        "What are seed banks and why do they preserve plant genetic diversity?",
+        "How does deforestation affect global biodiversity and climate?",
+        "What invasive plant species threaten native ecosystems?",
+        "How are botanical gardens contributing to plant conservation?",
+        "What challenges does plant science face in feeding a growing world?"
+      ],
+      "tags": ["science", "botany", "conservation", "sustainability"]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "TN-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Andy Ogles (R)",
+        "Charlie Hatcher (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mike Cortese (D)",
+        "Chaz Molder (D)",
+        "Joyce Neal (D)",
+        "Diana Onyejiaka (D)",
+        "James Torino (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Kenneth Brown (I)",
+        "Lowell Reynolds (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

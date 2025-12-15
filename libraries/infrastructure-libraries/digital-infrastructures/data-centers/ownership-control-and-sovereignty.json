@@ -1,0 +1,101 @@
+{
+  "name": "Ownership, Control & Sovereignty",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Private Ownership",
+      "topics": [
+        "What defines private ownership of data center infrastructure?",
+        "Why do organizations choose to own rather than lease data center capacity?",
+        "What design flexibility does private ownership enable?",
+        "How do privately owned facilities integrate with leased or cloud resources?",
+        "How do owners make long-term power and cooling infrastructure investments?",
+        "What efficiency improvements justify private facility capital investment?",
+        "How do staffing models differ for owner-operated facilities?",
+        "What operational control do owners have versus colocation tenants?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Public Cloud Ownership",
+      "topics": [
+        "How do public cloud providers structure ownership of their infrastructure?",
+        "What scale of infrastructure do major cloud providers own globally?",
+        "How do cloud providers design facilities they own versus lease?",
+        "What custom infrastructure investments define cloud provider facilities?",
+        "How do cloud providers leverage ownership scale for energy procurement?",
+        "What efficiency innovations do cloud owners develop for competitive advantage?",
+        "How do cloud providers operate owned facilities at global scale?",
+        "What operational efficiencies arise from standardized owned infrastructure?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Foreign vs Domestic Control",
+      "topics": [
+        "Why does the nationality of data center ownership matter?",
+        "What geopolitical tensions affect cross-border infrastructure ownership?",
+        "How do foreign ownership restrictions affect facility design and location?",
+        "What technical architectures enable compliance with domestic control requirements?",
+        "How do foreign owners navigate local utility and energy regulations?",
+        "What infrastructure dependencies concern governments about foreign ownership?",
+        "What operational restrictions apply to foreign-controlled facilities?",
+        "How do governments monitor foreign-owned critical infrastructure?"
+      ],
+      "tags": [
+        "politics",
+        "infrastructure",
+        "diplomacy",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Jurisdictional Law Boundaries",
+      "topics": [
+        "How do jurisdictional boundaries affect data center operations?",
+        "What laws apply to data based on facility location versus data origin?",
+        "How do facility locations determine applicable legal jurisdictions?",
+        "What architectural approaches address multi-jurisdictional requirements?",
+        "How do environmental regulations vary across jurisdictions?",
+        "What energy and utility regulations affect facility operations by location?",
+        "How do operational requirements vary across legal jurisdictions?",
+        "What reporting and audit requirements apply by jurisdiction?"
+      ],
+      "tags": [
+        "law",
+        "governance",
+        "infrastructure",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "National Security Implications",
+      "topics": [
+        "Why is data center infrastructure considered critical to national security?",
+        "What government agencies oversee data center security in major nations?",
+        "What security requirements apply to facilities handling government data?",
+        "How do classified and sensitive compartmented information facilities differ?",
+        "How do national security facilities ensure power resilience?",
+        "What grid dependencies concern national security planners?",
+        "What clearance requirements apply to national security facility personnel?",
+        "How do secure facilities manage supply chain and vendor access?"
+      ],
+      "tags": [
+        "politics",
+        "infrastructure",
+        "security",
+        "data-centers"
+      ]
+    }
+  ]
+}

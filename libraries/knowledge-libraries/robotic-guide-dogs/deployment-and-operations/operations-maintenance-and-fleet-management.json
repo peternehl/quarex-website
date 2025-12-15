@@ -1,0 +1,50 @@
+{
+  "name": "Operations, Maintenance, and Fleet Management",
+  "chapters": [
+    {
+      "name": "Daily Use, Charging, and Operational Routines",
+      "topics": [
+        "What typical daily routines will users and service providers follow to keep robotic guide dogs ready for use?",
+        "How can charging, docking, and storage workflows be designed to minimize friction for blind users?",
+        "What differences in operations arise between personal ownership and shared or pooled service models?",
+        "How might usage data inform scheduling, resource allocation, and support staffing over time?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "accessibility",
+        "robotics"
+      ]
+    },
+    {
+      "name": "Maintenance, Repair, and Lifecycle Management",
+      "topics": [
+        "What regular maintenance tasks are needed to keep sensors, joints, and electronics functioning reliably in the field?",
+        "How can service organizations design repair workflows that minimize downtime for dependent users?",
+        "What strategies can extend the useful life of robotic guide dogs while planning for hardware upgrades and obsolescence?",
+        "How should spare parts, replacement units, and loaner robots be managed to support a growing user base?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "robotics",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Remote Monitoring, Support, and Updates",
+      "topics": [
+        "What telemetry and health data should be collected to monitor fleets without compromising user privacy?",
+        "How can remote support teams intervene safely if they detect anomalies, errors, or unsafe conditions in real time?",
+        "What processes ensure that software updates and model retraining are rolled out without disrupting user routines?",
+        "How can organizations communicate upcoming changes or new features to blind users in accessible, trustworthy ways?"
+      ],
+      "tags": [
+        "technology",
+        "privacy",
+        "innovation",
+        "robotics"
+      ]
+    }
+  ]
+}

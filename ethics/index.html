@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quarex — Ethics</title>
+  <meta name="description" content="Quarex Ethics — our commitments to responsible, transparent, and humane use of knowledge and AI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0A0A0A; --ink:#F7F7F7; --muted:#B7BCC2; --line:#262626;
+      --card:#111111; --accent:#E6E6E6; --brand:#EDEDED; --blue:#3B82F6;
+    }
+    html,body{height:100%}
+    body{
+      margin:0; background:var(--bg); color:var(--ink);
+      font:16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+    a{color:var(--blue); text-decoration:none} a:hover{text-decoration:underline}
+    /* Header */
+    .topbar{
+      max-width:1100px; margin:0 auto; padding:20px 20px 0;
+      letter-spacing:.25em; font-weight:700; color:var(--muted);
+      text-transform:uppercase; font-size:.9rem;
+    }
+    .header{
+      max-width:1100px; margin:0 auto; padding:16px 20px 8px;
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+    }
+    .brand{font-family:"Playfair Display",serif; font-size:clamp(22px,3.2vw,32px); color:var(--brand); margin:0}
+    .nav a{color:var(--muted); margin-left:14px}
+    .nav a:hover{color:var(--blue)}
+    /* Page */
+    .container{max-width:900px; margin:18px auto 40px; padding:0 20px}
+    .lead{
+      color:var(--muted); margin-top:4px; margin-bottom:18px;
+      border-left:3px solid var(--line); padding-left:12px;
+    }
+    .card{
+      background:var(--card); border:1px solid var(--line);
+      border-radius:14px; padding:16px 18px; margin:14px 0 22px;
+      box-shadow:0 10px 28px rgba(0,0,0,.35);
+    }
+    h1,h2,h3{font-family:"Playfair Display",serif; margin:0 0 8px}
+    h1{font-size:clamp(26px,4vw,40px); color:var(--brand)}
+    h2{font-size:clamp(20px,3vw,28px); color:var(--brand); margin-top:18px}
+    h3{font-size:clamp(18px,2.2vw,22px); color:var(--brand); margin-top:12px}
+    ul{margin:10px 0 0 20px}
+    li{margin:6px 0}
+    .toc a{display:inline-block; margin:6px 10px 0 0}
+    .btn{
+      display:inline-block; padding:10px 16px; border-radius:999px;
+      background:#ffffff; color:#111; font-weight:700; letter-spacing:.02em;
+    }
+    .btn:hover{filter:brightness(.98)}
+    .muted{color:var(--muted)}
+    footer{color:var(--muted); text-align:center; font-size:.9rem; padding:28px 20px 40px; border-top:1px solid var(--line); margin-top:26px}
+    /* Hero video */
+    .hero-video-container{
+      max-width:900px; margin:0 auto; padding:0 20px;
+    }
+    .hero-video{
+      width:100%; border-radius:14px; display:block;
+      box-shadow:0 10px 28px rgba(0,0,0,.35);
+    }
+    /* Simple reveal animation */
+    .reveal{opacity:0; transform:translateY(10px); transition:opacity .5s ease, transform .5s ease}
+    .reveal.show{opacity:1; transform:none}
+
+    /* ========================================
+       MOBILE RESPONSIVE STYLES
+       ======================================== */
+
+    /* Tablet and below (768px) */
+    @media (max-width: 768px) {
+      body {
+        font-size: 15px;
+      }
+
+      .topbar {
+        padding: 16px 16px 0;
+        font-size: 0.8rem;
+      }
+
+      .header {
+        padding: 14px 16px 6px;
+        flex-wrap: wrap;
+      }
+
+      .brand {
+        font-size: clamp(20px, 4vw, 28px);
+      }
+
+      .nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 8px;
+      }
+
+      .nav a {
+        margin: 0 8px;
+      }
+
+      .container {
+        padding: 0 16px;
+        margin: 16px auto 32px;
+      }
+
+      .card {
+        padding: 14px 16px;
+        margin: 12px 0 18px;
+      }
+
+      h1 {
+        font-size: clamp(24px, 5vw, 36px);
+      }
+
+      h2 {
+        font-size: clamp(18px, 4vw, 24px);
+        margin-top: 16px;
+      }
+
+      h3 {
+        font-size: clamp(16px, 3vw, 20px);
+        margin-top: 10px;
+      }
+
+      ul {
+        margin-left: 16px;
+      }
+
+      .toc {
+        flex-wrap: wrap;
+      }
+
+      .toc a {
+        margin: 4px 8px 0 0;
+      }
+
+      footer {
+        padding: 24px 16px 32px;
+      }
+    }
+
+    /* Mobile phones (480px and below) */
+    @media (max-width: 480px) {
+      body {
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .topbar {
+        padding: 12px 12px 0;
+        letter-spacing: 0.15em;
+      }
+
+      .header {
+        padding: 12px 12px 4px;
+      }
+
+      .container {
+        padding: 0 12px;
+        margin: 12px auto 24px;
+      }
+
+      .lead {
+        font-size: 0.95rem;
+        padding-left: 10px;
+      }
+
+      .card {
+        padding: 12px 14px;
+        margin: 10px 0 16px;
+        border-radius: 12px;
+      }
+
+      h2 {
+        margin-top: 14px;
+        margin-bottom: 6px;
+      }
+
+      h3 {
+        margin-top: 8px;
+        margin-bottom: 4px;
+      }
+
+      ul {
+        margin-left: 14px;
+      }
+
+      li {
+        margin: 5px 0;
+      }
+
+      .btn {
+        padding: 9px 14px;
+        font-size: 0.95rem;
+      }
+
+      .toc {
+        text-align: center;
+      }
+
+      .toc a {
+        display: inline-block;
+        margin: 3px 6px;
+        font-size: 0.9rem;
+      }
+
+      footer {
+        padding: 20px 12px 28px;
+        font-size: 0.85rem;
+      }
+    }
+
+    /* Very small screens (360px and below) */
+    @media (max-width: 360px) {
+      .card {
+        padding: 10px 12px;
+      }
+
+      .btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+      }
+
+      .toc strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Quarex</div>
+  <header class="header">
+    <h1 class="brand">Ethics</h1>
+    <nav class="nav">
+      <a href="/">Home</a>
+    </nav>
+  </header>
+
+  <div class="hero-video-container">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="/assets/quarex-spheres-720p.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <main class="container">
+    <p class="lead reveal">The web should serve human understanding — not harvest it. These are the principles that guide Quarex's design, data practices, and behavior.</p>
+
+    <section id="principles" class="card reveal">
+      <h2>Core Principles</h2>
+      <ul>
+        <li><strong>Human dignity first.</strong> People are ends, never means. We refuse manipulative design and attention traps.</li>
+        <li><strong>Truth with context.</strong> Facts are paired with sources, uncertainty notes, and clear causal explanations.</li>
+        <li><strong>Current, not careless.</strong> We value up-to-date answers while acknowledging when evidence is mixed or evolving.</li>
+        <li><strong>Privacy by default.</strong> We minimize data collection and avoid selling or sharing personal data.</li>
+        <li><strong>Non-exploitation.</strong> No emotional bait, outrage loops, or deceptive patterns.</li>
+      </ul>
+    </section>
+
+    <section id="practice" class="card reveal">
+      <h2>How This Works in Practice</h2>
+      <h3>1) Sourcing & Transparency</h3>
+      <ul>
+        <li>When answers reference current events or specific claims, we favor primary or highly credible sources.</li>
+        <li>We label uncertainty (“preliminary,” “disputed,” or “consensus forming”) instead of overstating confidence.</li>
+      </ul>
+      <h3>2) Privacy & Data</h3>
+      <ul>
+        <li>We avoid collecting personal data beyond what’s needed to respond (e.g., contact form email).</li>
+        <li>We don’t sell personal data. We don’t build advertising profiles.</li>
+        <li>Server logs are used for security and reliability and are periodically purged.</li>
+      </ul>
+      <h3>3) Safety & Boundaries</h3>
+      <ul>
+        <li>No guidance that enables harm, abuse, or illegal activity.</li>
+        <li>We discourage harassment and dehumanizing language. Critique policies and actions, not inherent identities.</li>
+      </ul>
+      <h3>4) Fairness & Non-Manipulation</h3>
+      <ul>
+        <li>We avoid dark patterns (fake urgency, disguised ads, consent shaming).</li>
+        <li>We design for clarity: clear labels, undo paths, and plain-language explanations.</li>
+      </ul>
+    </section>
+
+    <section id="political" class="card reveal">
+      <h2>Political Content</h2>
+      <ul>
+        <li><strong>Candor with balance.</strong> We describe mechanisms candidly (e.g., money in politics) while distinguishing fact from opinion.</li>
+        <li><strong>Source diversity.</strong> For contested topics, we cite across reputable perspectives and note where interpretations differ.</li>
+        <li><strong>Reader agency.</strong> We encourage questions and provide pathways to primary materials.</li>
+      </ul>
+    </section>
+
+    <section id="correctness" class="card reveal">
+      <h2>When We’re Wrong</h2>
+      <p>Mistakes can happen. When they do, we:</p>
+      <ul>
+        <li>Flag the issue and correct it promptly.</li>
+        <li>Note what changed and why.</li>
+        <li>Where possible, link to the corrected source trail.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card reveal">
+      <h2>Contact & Feedback</h2>
+      <p>See something that could be clearer or more responsible? Tell us.</p>
+      <p>
+        <a class="btn" href="/#contact">Send a message</a>
+        &nbsp; <span class="muted">or</span> &nbsp;
+        <a href="/">Ask Quarex</a>
+      </p>
+      <p class="muted">Last updated: <span id="updated"></span></p>
+    </section>
+
+    <nav class="toc reveal" aria-label="On this page">
+      <strong>On this page:</strong>
+      <a href="#principles">Principles</a>
+      <a href="#practice">Practice</a>
+      <a href="#political">Political</a>
+      <a href="#correctness">Corrections</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </main>
+
+<footer style="text-align:center; margin-top:40px; padding:20px 0; font-size:0.9em; color:#777;">
+  © 2025 Quarex / Peter Nehl. All Rights Reserved.
+</footer>
+
+  <script>
+    // reveal animation for cards
+    const els = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    els.forEach(el => io.observe(el));
+
+    // simple date stamp (edit if you want a fixed date)
+    document.getElementById('updated').textContent =
+      new Date().toLocaleDateString(undefined, { year:'numeric', month:'long', day:'numeric' });
+  </script>
+</body>
+</html>

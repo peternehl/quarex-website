@@ -1,0 +1,126 @@
+{
+  "name": "Logic and Proof",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Logic?",
+      "topics": [
+        "What is logic and why is it fundamental to clear thinking?",
+        "How did logic develop from Aristotle to modern times?",
+        "What is the difference between formal and informal logic?",
+        "Why do mathematics and computer science rely so heavily on logic?",
+        "What are the main branches of modern logic?",
+        "How does logic help us distinguish valid from invalid arguments?"
+      ],
+      "tags": ["philosophy", "logic", "critical-thinking", "education"]
+    },
+    {
+      "name": "Propositional Logic",
+      "topics": [
+        "What are propositions and what makes them true or false?",
+        "What are the logical connectives: and, or, not, if-then?",
+        "How do truth tables determine the truth value of compound statements?",
+        "What is a tautology and what is a contradiction?",
+        "What does logical equivalence mean?",
+        "How do we translate everyday arguments into propositional logic?"
+      ],
+      "tags": ["philosophy", "logic", "mathematics", "education"]
+    },
+    {
+      "name": "Predicate Logic",
+      "topics": [
+        "What is predicate logic and how does it extend propositional logic?",
+        "What are quantifiers and what do 'for all' and 'there exists' mean?",
+        "How do you translate statements with quantifiers into symbols?",
+        "What is the domain of discourse?",
+        "How do nested quantifiers work and why does order matter?",
+        "What new kinds of arguments can predicate logic express?"
+      ],
+      "tags": ["philosophy", "logic", "mathematics", "language"]
+    },
+    {
+      "name": "Valid Arguments and Fallacies",
+      "topics": [
+        "What makes an argument valid versus invalid?",
+        "What is the difference between validity and soundness?",
+        "What are common valid argument forms: modus ponens, modus tollens?",
+        "What are formal fallacies and how do you spot them?",
+        "What are informal fallacies like ad hominem and straw man?",
+        "How do you construct a counterexample to show invalidity?"
+      ],
+      "tags": ["philosophy", "logic", "critical-thinking", "education"]
+    },
+    {
+      "name": "Mathematical Proof",
+      "topics": [
+        "What is a mathematical proof and why do mathematicians value them?",
+        "What is direct proof and how do you construct one?",
+        "What is proof by contradiction and when should you use it?",
+        "What is proof by contrapositive?",
+        "What is mathematical induction and how does it work?",
+        "What makes a proof elegant versus just correct?"
+      ],
+      "tags": ["mathematics", "logic", "methodology", "education"]
+    },
+    {
+      "name": "Set Theory and Logic",
+      "topics": [
+        "How is set theory connected to logic?",
+        "What are set operations and how do they relate to logical operations?",
+        "What is Russell's paradox and what does it reveal?",
+        "How do axiomatic set theories avoid paradoxes?",
+        "What is the relationship between sets, logic, and foundations?",
+        "How do Venn diagrams represent logical relationships?"
+      ],
+      "tags": ["mathematics", "logic", "set-theory", "foundations"]
+    },
+    {
+      "name": "Boolean Algebra and Computing",
+      "topics": [
+        "What is Boolean algebra and how is it related to logic?",
+        "How do logic gates perform logical operations in hardware?",
+        "What are AND, OR, NOT, NAND, and XOR gates?",
+        "How do computers use Boolean algebra to process information?",
+        "What is circuit minimization and why does it matter?",
+        "How does Boolean satisfiability relate to hard computational problems?"
+      ],
+      "tags": ["mathematics", "logic", "computer-science", "engineering"]
+    },
+    {
+      "name": "Modal and Non-Classical Logics",
+      "topics": [
+        "What is modal logic and what do possibility and necessity mean?",
+        "What is temporal logic and how does it handle time?",
+        "What is fuzzy logic and how does it handle vagueness?",
+        "What is intuitionistic logic and how does it differ from classical?",
+        "What is multi-valued logic?",
+        "What applications use these alternative logics?"
+      ],
+      "tags": ["philosophy", "logic", "computer-science", "theory"]
+    },
+    {
+      "name": "Logic and Language",
+      "topics": [
+        "How does logic relate to natural language?",
+        "What are the limitations of translating English into logic?",
+        "How do linguists use logic to study meaning?",
+        "What is pragmatics and how does context affect meaning?",
+        "How do paradoxes like the liar's paradox challenge logic?",
+        "What is the relationship between logic and grammar?"
+      ],
+      "tags": ["philosophy", "logic", "linguistics", "language"]
+    },
+    {
+      "name": "Logic in Everyday Life",
+      "topics": [
+        "How can studying logic improve everyday reasoning?",
+        "How do you evaluate arguments in news and advertising?",
+        "What role does logic play in legal reasoning?",
+        "How do doctors and scientists use logical reasoning?",
+        "What are common reasoning errors people make?",
+        "How can logical thinking help with difficult decisions?"
+      ],
+      "tags": ["philosophy", "logic", "critical-thinking", "applications"]
+    }
+  ]
+}

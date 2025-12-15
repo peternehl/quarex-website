@@ -1,0 +1,111 @@
+{
+  "name": "Grid Stability, Control and Reliability Engineering",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Frequency and Voltage Fundamentals",
+      "topics": [
+        "Why grid frequency must stay within tight tolerances",
+        "Voltage collapse mechanisms and reactive power support",
+        "How load variability challenges stable operation",
+        "Physical inertia versus synthetic inertia in modern grids"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Control Rooms and System Operations",
+      "topics": [
+        "Roles and responsibilities of grid operators in real time",
+        "SCADA systems, telemetry, and situational awareness",
+        "Operator decision-making under stress and uncertainty",
+        "Training, simulation, and human factors in control centers"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Stability Threats and Disturbances",
+      "topics": [
+        "Sudden generator outages and ramping constraints",
+        "Weather-driven load swings and extreme event scenarios",
+        "Cyberattacks on control systems and data integrity",
+        "Environmental stress, heatwaves, and equipment derating"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "energy",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Load Balancing and Dispatch",
+      "topics": [
+        "Differences between economic and physical dispatch",
+        "Ancillary services markets and their reliability role",
+        "Automatic generation control and balancing areas",
+        "Forecasting demand and renewable output under uncertainty"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Failure Modes and Blackout Dynamics",
+      "topics": [
+        "N-1 and N-k contingency planning principles",
+        "How cascading failures propagate across large networks",
+        "Islanding, controlled separation, and damage limitation",
+        "Black-start strategies and staged system restoration"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Energy Storage as a Stability Tool",
+      "topics": [
+        "Lithium-ion grid batteries and their operational roles",
+        "Pumped hydro and other large-scale storage technologies",
+        "Flywheels, compressed air, and long-duration storage concepts",
+        "Storage as synthetic inertia and fast frequency response"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Future Stability Architectures",
+      "topics": [
+        "Designing stability in high-renewable, low-inertia grids",
+        "AI-driven autonomous control strategies and safeguards",
+        "Centralized versus decentralized stability coordination",
+        "Resilience planning in an era of climate-driven extremes"
+      ],
+      "tags": [
+        "technology",
+        "energy",
+        "infrastructure",
+        "ai-ml"
+      ]
+    }
+  ]
+}

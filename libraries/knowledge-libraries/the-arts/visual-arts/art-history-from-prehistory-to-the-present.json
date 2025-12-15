@@ -1,0 +1,125 @@
+{
+  "name": "Art History: From Prehistory to the Present",
+  "chapters": [
+    {
+      "name": "Prehistoric Art and Cave Paintings",
+      "topics": [
+        "What do the cave paintings at Lascaux and Altamira tell us about early human creativity?",
+        "Why did prehistoric people create art and what purposes might it have served?",
+        "What techniques did prehistoric artists use to create images in caves?",
+        "How do Venus figurines and other portable art objects reveal prehistoric beliefs?",
+        "What do megalithic structures like Stonehenge tell us about prehistoric societies?",
+        "How have archaeologists dated and interpreted prehistoric artworks?"
+      ],
+      "tags": ["history", "cultural-heritage", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Ancient Egyptian Art and Architecture",
+      "topics": [
+        "Why did Egyptian art maintain consistent conventions for over 3,000 years?",
+        "How did beliefs about the afterlife shape Egyptian tomb painting and sculpture?",
+        "What principles governed the Egyptian way of representing the human figure?",
+        "How were the pyramids and temples of Egypt constructed and decorated?",
+        "What can we learn from the treasures found in Tutankhamun's tomb?",
+        "How did Egyptian art influence later Mediterranean cultures?"
+      ],
+      "tags": ["arts", "cultural-heritage", "art-history", "visual-arts"]
+    },
+    {
+      "name": "Classical Greek and Roman Art",
+      "topics": [
+        "How did Greek sculpture evolve from the Archaic through Hellenistic periods?",
+        "What ideals of beauty and proportion did Greek artists pursue?",
+        "How did Greek vase painting develop and what stories did it tell?",
+        "What innovations did Roman art bring to portraiture and narrative relief?",
+        "How did Roman architecture use the arch, vault, and concrete?",
+        "Why has classical art been revived repeatedly throughout Western history?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Medieval Art and Gothic Cathedrals",
+      "topics": [
+        "How did Early Christian and Byzantine art develop distinct visual languages?",
+        "What role did illuminated manuscripts play in medieval culture?",
+        "How did Romanesque architecture and sculpture prepare the way for Gothic?",
+        "What engineering innovations made Gothic cathedrals possible?",
+        "How did stained glass windows function as visual theology?",
+        "What was the relationship between medieval art and religious devotion?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Renaissance: Italy and Northern Europe",
+      "topics": [
+        "How did linear perspective transform painting in 15th-century Florence?",
+        "What made Leonardo, Michelangelo, and Raphael the epitome of Renaissance genius?",
+        "How did Northern Renaissance artists like Van Eyck achieve such detailed realism?",
+        "What role did wealthy patrons like the Medici play in Renaissance art?",
+        "How did printmaking spread Renaissance ideas across Europe?",
+        "What humanist ideas shaped Renaissance artists' approach to classical antiquity?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Baroque and Rococo Periods",
+      "topics": [
+        "How did Baroque art use drama, movement, and emotion to engage viewers?",
+        "What made Caravaggio's use of light and shadow revolutionary?",
+        "How did Baroque art serve the Catholic Counter-Reformation?",
+        "What characterized the Dutch Golden Age of painting?",
+        "How did Rococo art reflect aristocratic taste in 18th-century France?",
+        "What distinguishes Baroque grandeur from Rococo elegance and intimacy?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Romanticism and Realism",
+      "topics": [
+        "How did Romantic artists challenge Neoclassical rationality with emotion and nature?",
+        "What sublime landscapes did painters like Turner and Friedrich create?",
+        "How did Realist artists like Courbet challenge academic art conventions?",
+        "What social conditions did Realist painters depict in their work?",
+        "How did photography's invention affect painting in the 19th century?",
+        "What role did Salons and academies play in 19th-century art?"
+      ],
+      "tags": ["arts", "cultural-heritage", "art-history", "visual-arts"]
+    },
+    {
+      "name": "Impressionism and Post-Impressionism",
+      "topics": [
+        "How did Impressionists like Monet capture fleeting effects of light?",
+        "Why was Impressionism initially rejected by the official art establishment?",
+        "What technical innovations in brushwork and color did Impressionists introduce?",
+        "How did Post-Impressionists like Cézanne, Van Gogh, and Gauguin move beyond Impressionism?",
+        "What influence did Japanese prints have on Impressionist and Post-Impressionist artists?",
+        "How did these movements lay the groundwork for modern art?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Modern Art Movements (1900-1950)",
+      "topics": [
+        "How did Cubism shatter traditional perspective and representation?",
+        "What ideas drove abstract art from Kandinsky to Mondrian?",
+        "How did Surrealism explore dreams, the unconscious, and irrational imagery?",
+        "What was Dada and how did it challenge the very concept of art?",
+        "How did the World Wars affect artistic movements in the 20th century?",
+        "What role did major museums and collectors play in establishing modern art?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "art-history"]
+    },
+    {
+      "name": "Contemporary Art (1950-Present)",
+      "topics": [
+        "How did Abstract Expressionism make New York the center of the art world?",
+        "What did Pop Art say about consumer culture and mass media?",
+        "How have Conceptual artists prioritized ideas over objects?",
+        "What forms has art taken beyond painting and sculpture since the 1960s?",
+        "How have globalization and technology transformed contemporary art?",
+        "What debates surround contemporary art's value, meaning, and market?"
+      ],
+      "tags": ["arts", "cultural-heritage", "visual-arts", "art-history"]
+    }
+  ]
+}

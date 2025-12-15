@@ -1,0 +1,125 @@
+{
+  "name": "History of Literary Criticism and Theory",
+  "chapters": [
+    {
+      "name": "Classical Rhetoric and Poetics",
+      "topics": [
+        "What did Aristotle mean by mimesis and how did it shape Western ideas about art?",
+        "How did Plato's critique of poetry influence the debate about literature's value?",
+        "What are the three rhetorical appeals—ethos, pathos, logos—and how do they work?",
+        "Why did Aristotle consider tragedy superior to epic poetry?",
+        "How did Roman critics like Horace and Longinus build on Greek foundations?",
+        "What classical concepts like catharsis and decorum still influence criticism today?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "philosophy"]
+    },
+    {
+      "name": "Medieval and Renaissance Criticism",
+      "topics": [
+        "How did medieval allegorical interpretation treat texts as having multiple levels of meaning?",
+        "What role did Christian theology play in medieval approaches to reading literature?",
+        "How did Renaissance humanists rediscover and reinterpret classical literary theory?",
+        "Why did Philip Sidney defend poetry against Puritan attacks in his Apology for Poetry?",
+        "How did the recovery of Aristotle's Poetics transform Renaissance drama?",
+        "What debates about the three unities shaped neoclassical dramatic rules?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "art-history"]
+    },
+    {
+      "name": "Neoclassicism and Enlightenment",
+      "topics": [
+        "What rules for literature did neoclassical critics like Dryden and Pope establish?",
+        "How did Samuel Johnson challenge neoclassical rigidity while maintaining standards?",
+        "Why did Enlightenment thinkers value reason and order in literary judgment?",
+        "How did the rise of the novel change critical ideas about what counted as literature?",
+        "What was the battle between the Ancients and Moderns about?",
+        "How did periodicals and literary magazines create new venues for criticism?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "art-history"]
+    },
+    {
+      "name": "Romantic Literary Theory",
+      "topics": [
+        "How did Wordsworth and Coleridge revolutionize ideas about poetry and imagination?",
+        "What did Coleridge mean by primary and secondary imagination?",
+        "Why did the Romantics reject neoclassical rules in favor of organic form?",
+        "How did German Romantic philosophers like the Schlegel brothers influence literary theory?",
+        "What role did emotion, nature, and the individual genius play in Romantic criticism?",
+        "How did Keats's concept of negative capability describe the creative process?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "romanticism"]
+    },
+    {
+      "name": "Formalism and New Criticism",
+      "topics": [
+        "What does it mean to analyze a text 'on its own terms' without external context?",
+        "How did the New Critics use close reading to interpret poetry?",
+        "Why did formalists argue against the intentional fallacy and affective fallacy?",
+        "What are literary devices like irony, paradox, and ambiguity and why did New Critics value them?",
+        "How did Russian Formalists like Shklovsky focus on 'literariness' and defamiliarization?",
+        "What were the limitations of New Criticism that later movements challenged?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "education"]
+    },
+    {
+      "name": "Structuralism and Semiotics",
+      "topics": [
+        "How did Saussure's linguistics provide a model for analyzing literature as a system?",
+        "What is the difference between signifier and signified in semiotics?",
+        "How did structuralists like Lévi-Strauss look for underlying patterns in myths and stories?",
+        "What did Roland Barthes mean by the 'death of the author'?",
+        "How do binary oppositions structure meaning in texts according to structuralists?",
+        "Why did structuralism eventually give way to post-structuralist critiques?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "philosophy"]
+    },
+    {
+      "name": "Post-Structuralism and Deconstruction",
+      "topics": [
+        "What did Derrida mean by deconstruction and how does it work in practice?",
+        "How does deconstruction expose contradictions and instabilities in texts?",
+        "What is différance and why did Derrida spell it that way?",
+        "How did Foucault analyze the relationship between discourse, knowledge, and power?",
+        "Why do post-structuralists argue that meaning is always deferred and unstable?",
+        "How has deconstruction influenced literary criticism and other disciplines?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "philosophy"]
+    },
+    {
+      "name": "Marxist and Materialist Criticism",
+      "topics": [
+        "How do Marxist critics analyze literature in relation to class, economics, and ideology?",
+        "What did Lukács contribute to understanding realism and the historical novel?",
+        "How did the Frankfurt School analyze culture industry and mass media?",
+        "What is Althusser's concept of ideology and interpellation?",
+        "How do critics like Eagleton and Jameson combine Marxism with other approaches?",
+        "What does it mean to read a text against its ideological grain?"
+      ],
+      "tags": ["arts", "critical-thinking", "economics", "literary-arts"]
+    },
+    {
+      "name": "Feminist and Gender Theory",
+      "topics": [
+        "How did early feminist critics recover and revalue women's writing?",
+        "What did Simone de Beauvoir's 'One is not born, but rather becomes, a woman' mean for literary analysis?",
+        "How do feminist critics analyze representations of gender in literature?",
+        "What is écriture féminine and how did French feminists theorize women's writing?",
+        "How has queer theory expanded analysis of gender and sexuality in texts?",
+        "What does intersectionality add to feminist literary criticism?"
+      ],
+      "tags": ["arts", "identity", "human-rights", "literary-arts"]
+    },
+    {
+      "name": "Postcolonial and Cultural Studies",
+      "topics": [
+        "How did Edward Said's Orientalism change the study of colonial literature?",
+        "What strategies do postcolonial critics use to read texts from colonized perspectives?",
+        "How do concepts like hybridity, mimicry, and the subaltern apply to literature?",
+        "What did Gayatri Spivak mean by asking 'Can the Subaltern Speak?'",
+        "How does cultural studies expand literary analysis to include popular culture and media?",
+        "What role does race play in critical approaches like African American literary theory?"
+      ],
+      "tags": ["arts", "cultural-heritage", "identity", "literary-arts"]
+    }
+  ]
+}

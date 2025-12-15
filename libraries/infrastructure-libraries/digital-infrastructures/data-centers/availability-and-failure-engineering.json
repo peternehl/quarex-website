@@ -1,0 +1,101 @@
+{
+  "name": "Availability & Failure Engineering",
+  "created_by": "ChatGPT",
+  "chapters": [
+    {
+      "name": "Tier I–IV Models",
+      "topics": [
+        "What are the Uptime Institute Tier classifications and what do they measure?",
+        "How do Tier I through Tier IV facilities differ in design requirements?",
+        "What infrastructure components define each Tier classification?",
+        "How do electrical and mechanical system designs differ across Tiers?",
+        "How do power system designs scale from Tier I to Tier IV?",
+        "What cooling redundancy does each Tier level require?",
+        "How do operational requirements differ across Tier classifications?",
+        "What maintenance capabilities define concurrently maintainable facilities?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "N+1 vs 2N vs Fault-Tolerant",
+      "topics": [
+        "What do N+1, 2N, and fault-tolerant redundancy configurations mean?",
+        "How do redundancy models relate to availability and reliability?",
+        "How do N+1 power and cooling systems provide redundancy?",
+        "What makes 2N architectures different from N+1 approaches?",
+        "How do UPS configurations differ across N+1, 2N, and fault-tolerant designs?",
+        "What cooling redundancy corresponds to each power redundancy model?",
+        "How does maintenance differ for N+1 versus 2N systems?",
+        "What operational procedures enable concurrent maintenance?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Maintenance vs Failure Modes",
+      "topics": [
+        "How do planned maintenance windows differ from unplanned failures?",
+        "What is concurrent maintainability and why does it matter?",
+        "What design features enable maintenance without service interruption?",
+        "How do bypass and isolation capabilities support safe maintenance?",
+        "How do operators safely maintain live electrical systems?",
+        "What procedures govern cooling system maintenance?",
+        "How do organizations schedule and coordinate maintenance windows?",
+        "What change management processes govern maintenance activities?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Cascading Failure Risk",
+      "topics": [
+        "What is a cascading failure and how does it differ from isolated failures?",
+        "What conditions enable failures to cascade through data center systems?",
+        "How do architectural choices create or prevent cascade pathways?",
+        "What isolation and segmentation techniques contain failures?",
+        "How do power system failures cascade to cooling and compute?",
+        "What thermal cascades occur when cooling systems fail?",
+        "How do operators detect and interrupt cascade sequences?",
+        "What runbooks and procedures address cascade scenarios?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "cybersecurity",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "SLAs vs Physical Reality",
+      "topics": [
+        "What do data center SLAs typically promise and measure?",
+        "How do SLA availability percentages translate to actual downtime?",
+        "How do physical infrastructure capabilities constrain achievable SLAs?",
+        "What architectural features must exist to deliver high availability SLAs?",
+        "How do power and cooling SLAs define acceptable operating conditions?",
+        "What environmental excursions violate SLA commitments?",
+        "How do operational practices affect SLA achievement?",
+        "What monitoring and reporting verify SLA compliance?"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "data-centers",
+        "cybersecurity"
+      ]
+    }
+  ]
+}

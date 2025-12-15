@@ -1,0 +1,126 @@
+{
+  "name": "Thermodynamics and Heat",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Temperature and Heat",
+      "topics": [
+        "What is temperature and how does it relate to molecular motion?",
+        "What is the difference between heat and temperature?",
+        "How do different temperature scales (Celsius, Fahrenheit, Kelvin) compare?",
+        "What is absolute zero and why can't we reach it?",
+        "How do thermometers measure temperature?",
+        "What is thermal equilibrium and the zeroth law of thermodynamics?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "education"]
+    },
+    {
+      "name": "Heat Transfer",
+      "topics": [
+        "How does conduction transfer heat through solid materials?",
+        "What is convection and how does it move heat through fluids?",
+        "How does radiation transfer heat without any medium?",
+        "What materials are good thermal conductors versus insulators?",
+        "How do we keep buildings warm in winter and cool in summer?",
+        "How does the human body regulate its temperature?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "engineering"]
+    },
+    {
+      "name": "The First Law of Thermodynamics",
+      "topics": [
+        "What is the first law and how does it relate to conservation of energy?",
+        "What is internal energy and how does it change?",
+        "How do heat and work transfer energy into and out of systems?",
+        "What is the difference between isothermal, adiabatic, and isobaric processes?",
+        "How does the first law apply to heat engines?",
+        "Why can't we create a perpetual motion machine of the first kind?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "energy"]
+    },
+    {
+      "name": "The Second Law of Thermodynamics",
+      "topics": [
+        "What does the second law of thermodynamics say about heat flow?",
+        "Why does heat naturally flow from hot to cold but not reverse?",
+        "What is entropy and why does it always increase in isolated systems?",
+        "Why can't heat engines be 100% efficient?",
+        "What does the second law say about the direction of time?",
+        "Why can't we create a perpetual motion machine of the second kind?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "entropy"]
+    },
+    {
+      "name": "Entropy and Disorder",
+      "topics": [
+        "How is entropy related to disorder and probability?",
+        "Why does a broken glass never spontaneously reassemble?",
+        "How did Boltzmann connect entropy to microscopic states?",
+        "What is the relationship between entropy and information?",
+        "How do living things create order while respecting the second law?",
+        "What happens to entropy in the expanding universe?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "philosophy"]
+    },
+    {
+      "name": "Heat Engines and Refrigerators",
+      "topics": [
+        "How do heat engines convert thermal energy into mechanical work?",
+        "What is the Carnot cycle and why is it theoretically most efficient?",
+        "How do gasoline and diesel engines work?",
+        "How do refrigerators and air conditioners move heat against its natural flow?",
+        "What is a heat pump and why is it efficient for heating?",
+        "How has heat engine technology improved over centuries?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "engineering"]
+    },
+    {
+      "name": "Phase Transitions",
+      "topics": [
+        "What happens at the molecular level during melting and boiling?",
+        "What is latent heat and why doesn't temperature change during phase transitions?",
+        "What determines a substance's melting and boiling points?",
+        "What is a phase diagram and what does it show?",
+        "What is the critical point and supercritical fluids?",
+        "How do phase transitions relate to the formation of ice and steam?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "chemistry"]
+    },
+    {
+      "name": "Gases and the Ideal Gas Law",
+      "topics": [
+        "What is the ideal gas law and when does it apply?",
+        "How do pressure, volume, and temperature of gases relate?",
+        "What are real gases and how do they deviate from ideal behavior?",
+        "How does kinetic molecular theory explain gas properties?",
+        "What is the distribution of molecular speeds in a gas?",
+        "How do gases behave at very high pressures and low temperatures?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "chemistry"]
+    },
+    {
+      "name": "Statistical Mechanics",
+      "topics": [
+        "How does statistical mechanics connect microscopic and macroscopic properties?",
+        "What is the Boltzmann distribution and what does it describe?",
+        "How do quantum statistics differ from classical statistics?",
+        "What distinguishes fermions from bosons?",
+        "How does statistical mechanics explain thermodynamic laws?",
+        "What is the partition function and why is it useful?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "quantum"]
+    },
+    {
+      "name": "Thermodynamics in the Real World",
+      "topics": [
+        "How does thermodynamics govern power plants and energy systems?",
+        "What thermodynamic principles apply to climate and weather?",
+        "How does thermodynamics constrain biological processes?",
+        "What is the thermodynamics of black holes?",
+        "How might the universe end according to thermodynamics?",
+        "What technological advances push thermodynamic limits?"
+      ],
+      "tags": ["science", "physics", "thermodynamics", "applications"]
+    }
+  ]
+}

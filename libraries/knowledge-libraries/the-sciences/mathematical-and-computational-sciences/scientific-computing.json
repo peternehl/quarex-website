@@ -1,0 +1,126 @@
+{
+  "name": "Scientific Computing",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Scientific Computing?",
+      "topics": [
+        "What is scientific computing and how does it differ from computer science?",
+        "How do scientists use computers to solve problems that can't be solved analytically?",
+        "What role has computing played in scientific discovery?",
+        "What are the main challenges in computational science?",
+        "How has scientific computing evolved from mainframes to supercomputers?",
+        "What programming languages and tools do scientific programmers use?"
+      ],
+      "tags": ["science", "computer-science", "mathematics", "education"]
+    },
+    {
+      "name": "Numerical Methods",
+      "topics": [
+        "What are numerical methods and when do we need them?",
+        "How do computers represent numbers and what is floating-point arithmetic?",
+        "What is numerical error and how does it accumulate?",
+        "What is numerical stability and why does it matter?",
+        "How do iterative methods converge to solutions?",
+        "What is the trade-off between accuracy and computational cost?"
+      ],
+      "tags": ["science", "mathematics", "computer-science", "methodology"]
+    },
+    {
+      "name": "Solving Equations",
+      "topics": [
+        "How do computers solve systems of linear equations?",
+        "What is Gaussian elimination and how does it work?",
+        "How do iterative methods like Gauss-Seidel solve large systems?",
+        "What are root-finding methods like Newton-Raphson?",
+        "How do you solve nonlinear systems of equations?",
+        "What makes some systems harder to solve than others?"
+      ],
+      "tags": ["science", "mathematics", "algorithms", "methodology"]
+    },
+    {
+      "name": "Numerical Integration and Differentiation",
+      "topics": [
+        "How do computers approximate integrals?",
+        "What are Simpson's rule and the trapezoidal rule?",
+        "What is Gaussian quadrature and why is it efficient?",
+        "How do you numerically compute derivatives?",
+        "What is automatic differentiation and how does it work?",
+        "How accurate can numerical integration and differentiation be?"
+      ],
+      "tags": ["science", "mathematics", "calculus", "algorithms"]
+    },
+    {
+      "name": "Differential Equations",
+      "topics": [
+        "Why are differential equations so important in science?",
+        "What is Euler's method for solving ODEs?",
+        "What are Runge-Kutta methods and why are they better?",
+        "How do you handle stiff differential equations?",
+        "What methods solve partial differential equations?",
+        "How do finite difference and finite element methods work?"
+      ],
+      "tags": ["science", "mathematics", "physics", "engineering"]
+    },
+    {
+      "name": "Optimization",
+      "topics": [
+        "What is optimization and why is it ubiquitous in science and engineering?",
+        "How does gradient descent find minima?",
+        "What is convex optimization and why is it easier?",
+        "How do you handle constraints in optimization problems?",
+        "What is linear programming and the simplex method?",
+        "What are global optimization methods for problems with many local minima?"
+      ],
+      "tags": ["science", "mathematics", "ai-ml", "engineering"]
+    },
+    {
+      "name": "Simulation and Modeling",
+      "topics": [
+        "How do scientists build computational models of real systems?",
+        "What is the difference between simulation and emulation?",
+        "How do Monte Carlo methods use randomness to solve problems?",
+        "What is molecular dynamics simulation?",
+        "How do climate models simulate Earth's atmosphere?",
+        "How do you validate that a simulation matches reality?"
+      ],
+      "tags": ["science", "simulation", "physics", "methodology"]
+    },
+    {
+      "name": "High-Performance Computing",
+      "topics": [
+        "What is high-performance computing and what problems require it?",
+        "What are supercomputers and how do they achieve their speed?",
+        "How does parallel computing split problems across many processors?",
+        "What is GPU computing and why is it transforming scientific computing?",
+        "What is cloud computing and how do scientists use it?",
+        "What are the limits of computational speed and how might we exceed them?"
+      ],
+      "tags": ["science", "technology", "computer-science", "infrastructure"]
+    },
+    {
+      "name": "Computational Science Applications",
+      "topics": [
+        "How does computational fluid dynamics simulate airflow and weather?",
+        "What role does computing play in drug discovery and molecular biology?",
+        "How do astronomers simulate galaxy formation and cosmic evolution?",
+        "What computational methods do quantum chemists use?",
+        "How do engineers use finite element analysis to design structures?",
+        "What discoveries have been enabled by scientific computing?"
+      ],
+      "tags": ["science", "innovation", "physics", "biology"]
+    },
+    {
+      "name": "The Future of Scientific Computing",
+      "topics": [
+        "How might quantum computers transform scientific computing?",
+        "What role will machine learning play in computational science?",
+        "How is exascale computing changing what problems we can solve?",
+        "What is neuromorphic computing and could it help science?",
+        "What scientific grand challenges remain computationally intractable?",
+        "How might scientific computing evolve in the coming decades?"
+      ],
+      "tags": ["science", "innovation", "quantum", "future"]
+    }
+  ]
+}

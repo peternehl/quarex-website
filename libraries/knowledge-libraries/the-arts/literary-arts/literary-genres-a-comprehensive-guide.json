@@ -1,0 +1,125 @@
+{
+  "name": "Literary Genres: A Comprehensive Guide",
+  "chapters": [
+    {
+      "name": "Epic and Romance",
+      "topics": [
+        "What are the defining features of epic poetry from Homer to Milton?",
+        "How does the epic hero's journey structure stories across cultures?",
+        "What distinguishes medieval romance from classical epic?",
+        "How did chivalric romance influence later adventure and fantasy genres?",
+        "What role do supernatural elements play in epic and romance traditions?",
+        "How have modern writers adapted epic conventions for contemporary novels?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Tragedy and Comedy",
+      "topics": [
+        "What did Aristotle identify as the essential elements of tragedy?",
+        "How does tragic catharsis work and why do audiences enjoy sad endings?",
+        "What makes a tragic hero different from an ordinary protagonist?",
+        "How have comedy's forms evolved from Aristophanes to modern sitcoms?",
+        "What is the difference between romantic comedy, farce, and satire?",
+        "Why do tragicomedies blend genres and what effects do they achieve?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "theater"]
+    },
+    {
+      "name": "Satire and Parody",
+      "topics": [
+        "How does satire use humor to criticize society, politics, or human nature?",
+        "What distinguishes Horatian satire from Juvenalian satire?",
+        "How does parody work by imitating and mocking other texts or genres?",
+        "What makes satirists like Swift, Voltaire, and Twain enduringly relevant?",
+        "How has political satire functioned in different historical periods?",
+        "What legal and ethical issues surround satire and parody today?"
+      ],
+      "tags": ["arts", "free-speech", "literary-arts", "critical-thinking"]
+    },
+    {
+      "name": "Gothic and Horror",
+      "topics": [
+        "What conventions define Gothic literature from Walpole to the present?",
+        "How do Gothic novels use setting, atmosphere, and the supernatural?",
+        "What psychological fears does horror literature tap into?",
+        "How did writers like Poe, Shelley, and Stoker establish horror traditions?",
+        "What distinguishes cosmic horror, psychological horror, and body horror?",
+        "How has horror literature reflected and shaped cultural anxieties?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "art-history"]
+    },
+    {
+      "name": "Science Fiction",
+      "topics": [
+        "What distinguishes science fiction from fantasy and speculative fiction?",
+        "How did writers like Wells, Asimov, and Clarke establish SF conventions?",
+        "What subgenres exist within science fiction: space opera, cyberpunk, hard SF?",
+        "How does science fiction use thought experiments to explore ideas?",
+        "What role has science fiction played in predicting or inspiring technology?",
+        "How have diverse voices expanded science fiction beyond its white male origins?"
+      ],
+      "tags": ["arts", "innovation", "literary-arts", "fiction"]
+    },
+    {
+      "name": "Fantasy and Magical Realism",
+      "topics": [
+        "How did Tolkien and his successors define the modern fantasy genre?",
+        "What distinguishes high fantasy, urban fantasy, and sword and sorcery?",
+        "How does magical realism differ from traditional fantasy?",
+        "Why did Latin American writers develop magical realism as a literary mode?",
+        "How do fantasy worlds comment on real-world issues through allegory?",
+        "What world-building techniques make fantasy settings believable?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "fiction"]
+    },
+    {
+      "name": "Mystery and Detective Fiction",
+      "topics": [
+        "How did Poe invent the detective fiction genre with Auguste Dupin?",
+        "What conventions define the classic whodunit mystery?",
+        "How did hard-boiled detective fiction differ from the British cozy tradition?",
+        "What 'fair play' rules did golden age mystery writers follow?",
+        "How have police procedurals and forensic thrillers evolved the genre?",
+        "What makes a satisfying mystery ending versus a cheat?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "fiction"]
+    },
+    {
+      "name": "Historical Fiction",
+      "topics": [
+        "How do historical novelists balance accuracy with storytelling?",
+        "What research methods do writers use to recreate past periods?",
+        "When is it acceptable to change historical facts for fiction?",
+        "How do different approaches—epic, intimate, revisionist—shape historical novels?",
+        "What responsibilities do writers have when fictionalizing real people?",
+        "How has historical fiction given voice to marginalized perspectives on the past?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "fiction"]
+    },
+    {
+      "name": "Young Adult Literature",
+      "topics": [
+        "How did young adult literature emerge as a distinct publishing category?",
+        "What themes and concerns define YA fiction across genres?",
+        "How do YA novels handle mature content differently than adult fiction?",
+        "Why has YA dystopian fiction become so popular in recent decades?",
+        "What controversies surround challenged and banned YA books?",
+        "How has YA diversified to include more marginalized perspectives?"
+      ],
+      "tags": ["arts", "identity", "literary-arts", "education"]
+    },
+    {
+      "name": "Genre-Blending and Experimental Forms",
+      "topics": [
+        "How do authors combine genres to create hybrid works?",
+        "What happens when literary fiction incorporates genre conventions?",
+        "How have digital and interactive forms created new narrative possibilities?",
+        "What is slipstream fiction and why does it resist classification?",
+        "How do graphic novels and comics combine visual and literary storytelling?",
+        "What experimental techniques have challenged traditional genre boundaries?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "innovation"]
+    }
+  ]
+}

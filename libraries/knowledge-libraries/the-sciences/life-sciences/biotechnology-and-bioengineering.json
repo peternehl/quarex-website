@@ -1,0 +1,126 @@
+{
+  "name": "Biotechnology and Bioengineering",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Biotechnology?",
+      "topics": [
+        "How do scientists define biotechnology and what distinguishes it from traditional biology?",
+        "What ancient practices like fermentation and selective breeding were early biotechnology?",
+        "How did the discovery of DNA's structure revolutionize biotechnology?",
+        "What is the difference between traditional breeding and genetic engineering?",
+        "What major industries use biotechnology today: medicine, agriculture, environment?",
+        "Why is biotechnology considered one of the most impactful technologies of our era?"
+      ],
+      "tags": ["science", "biotechnology", "innovation", "genetics"]
+    },
+    {
+      "name": "DNA Manipulation and Recombinant Technology",
+      "topics": [
+        "What is recombinant DNA and how is it created in the laboratory?",
+        "How do restriction enzymes cut DNA at specific sequences?",
+        "What role do plasmids and vectors play in genetic engineering?",
+        "How did scientists first produce human insulin using bacteria?",
+        "What is PCR and why is it called 'molecular photocopying'?",
+        "How has DNA sequencing technology evolved from Sanger to next-generation methods?"
+      ],
+      "tags": ["science", "biotechnology", "genetics", "medicine"]
+    },
+    {
+      "name": "CRISPR and Gene Editing",
+      "topics": [
+        "What is CRISPR-Cas9 and how does it work as 'molecular scissors'?",
+        "How did scientists discover CRISPR in bacterial immune systems?",
+        "What makes CRISPR faster, cheaper, and more precise than older gene editing methods?",
+        "What diseases have been treated or are being researched using CRISPR?",
+        "What are the ethical concerns about editing human embryos?",
+        "How might gene drives eliminate malaria-carrying mosquitoes?"
+      ],
+      "tags": ["science", "biotechnology", "genetics", "ethics"]
+    },
+    {
+      "name": "Medical Biotechnology",
+      "topics": [
+        "How are monoclonal antibodies produced and what diseases do they treat?",
+        "What is gene therapy and how does it attempt to cure genetic diseases?",
+        "How do mRNA vaccines work and why were they revolutionary for COVID-19?",
+        "What are CAR-T cells and how do they fight cancer?",
+        "How is personalized medicine using genetic information to tailor treatments?",
+        "What role does biotechnology play in developing new antibiotics?"
+      ],
+      "tags": ["health", "biotechnology", "medicine", "innovation"]
+    },
+    {
+      "name": "Agricultural Biotechnology",
+      "topics": [
+        "What are GMOs and how are genetically modified crops created?",
+        "How does Bt corn protect itself from insect pests without pesticides?",
+        "What is Golden Rice and why was it developed to fight vitamin A deficiency?",
+        "How do herbicide-resistant crops change farming practices?",
+        "What are the scientific consensus and controversies around GMO safety?",
+        "How might gene editing create crops resistant to climate change?"
+      ],
+      "tags": ["science", "biotechnology", "agriculture", "food-security"]
+    },
+    {
+      "name": "Industrial and Environmental Biotechnology",
+      "topics": [
+        "How do microorganisms produce biofuels as alternatives to fossil fuels?",
+        "What is bioremediation and how do bacteria clean up oil spills?",
+        "How are enzymes used in detergents, food processing, and manufacturing?",
+        "What is synthetic biology and how does it design new biological systems?",
+        "How can biotechnology create biodegradable plastics from renewable sources?",
+        "What role do engineered microbes play in wastewater treatment?"
+      ],
+      "tags": ["science", "biotechnology", "sustainability", "environment"]
+    },
+    {
+      "name": "Cloning and Stem Cells",
+      "topics": [
+        "How was Dolly the sheep cloned and what did this achievement demonstrate?",
+        "What is the difference between reproductive and therapeutic cloning?",
+        "What are stem cells and what makes embryonic stem cells special?",
+        "How do induced pluripotent stem cells avoid ethical concerns about embryos?",
+        "What diseases might stem cell therapies treat in the future?",
+        "Why has human reproductive cloning been widely banned?"
+      ],
+      "tags": ["science", "biotechnology", "medicine", "ethics"]
+    },
+    {
+      "name": "Bioengineering and Synthetic Biology",
+      "topics": [
+        "What is bioengineering and how does it apply engineering principles to biology?",
+        "How do scientists design artificial organs and tissue engineering scaffolds?",
+        "What are biosensors and how do they detect diseases or pollutants?",
+        "How does synthetic biology create biological circuits that function like computers?",
+        "What is the iGEM competition and how are students building with biology?",
+        "Could synthetic organisms be designed to produce any chemical we need?"
+      ],
+      "tags": ["science", "biotechnology", "engineering", "innovation"]
+    },
+    {
+      "name": "Bioinformatics and Computational Biology",
+      "topics": [
+        "What is bioinformatics and why is computing essential for modern biology?",
+        "How do scientists analyze the massive data from genome sequencing projects?",
+        "What databases store biological information and how are they used?",
+        "How does machine learning help predict protein structures and drug interactions?",
+        "What is systems biology and how does it model complex biological networks?",
+        "How did computational methods accelerate COVID-19 vaccine development?"
+      ],
+      "tags": ["science", "biotechnology", "computer-science", "ai-ml"]
+    },
+    {
+      "name": "Ethics and Future of Biotechnology",
+      "topics": [
+        "What ethical frameworks guide decisions about genetic modification?",
+        "Who should have access to genetic information and how should it be protected?",
+        "What are the risks of bioterrorism and dual-use biotechnology research?",
+        "How do patent laws affect biotechnology innovation and access to treatments?",
+        "What regulations govern biotechnology in different countries?",
+        "How might biotechnology change what it means to be human in the future?"
+      ],
+      "tags": ["science", "biotechnology", "ethics", "policy"]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "name": "AutoCAD 2D",
+  "chapters": [
+    {
+      "name": "Getting Started with AutoCAD 2D",
+      "topics": [
+        "Understanding the AutoCAD interface and workspace",
+        "Setting up drawing units and limits",
+        "Basic navigation and zoom tools",
+        "Using the command line effectively",
+        "Saving and managing drawing files"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "innovation",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Drawing Fundamentals",
+      "topics": [
+        "Creating lines, circles, and arcs",
+        "Drawing rectangles and polygons",
+        "Using polylines and splines",
+        "Understanding coordinate systems (absolute, relative, polar)",
+        "Creating construction lines and rays"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "computer-science",
+        "drawing"
+      ]
+    },
+    {
+      "name": "Editing & Modification",
+      "topics": [
+        "Moving, copying, and rotating objects",
+        "Using mirror and array commands",
+        "Trimming and extending objects",
+        "Using offset and fillet commands",
+        "Scaling and stretching objects"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "computer-science",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Precision & Constraints",
+      "topics": [
+        "Using object snaps (OSNAP) effectively",
+        "Working with polar tracking and ortho mode",
+        "Applying geometric constraints",
+        "Using dimensional constraints",
+        "Understanding tracking and alignment tools"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "computer-science",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Layers & Properties",
+      "topics": [
+        "Creating and managing layers",
+        "Setting layer colors, linetypes, and lineweights",
+        "Using layer states and filters",
+        "Managing object properties",
+        "Understanding layer standards and best practices"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "digital-life",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Blocks & References",
+      "topics": [
+        "Creating and inserting blocks",
+        "Using dynamic blocks",
+        "Working with attributes and attribute extraction",
+        "Managing external references (XREFs)",
+        "Creating and using block libraries"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "infrastructure",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Working with External Files and Data Sources",
+      "topics": [
+        "Linking AutoCAD to Excel spreadsheets",
+        "Using data extraction and data tables",
+        "Working with database connectivity",
+        "Creating parametric drawings with external data",
+        "Updating drawings dynamically from external sources"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "computer-science",
+        "data-centers"
+      ]
+    },
+    {
+      "name": "Dimensions & Annotations",
+      "topics": [
+        "Creating linear and angular dimensions",
+        "Setting up dimension styles",
+        "Adding text and multiline text",
+        "Using leaders and multileaders",
+        "Creating and managing tables"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "infrastructure",
+        "engineering"
+      ]
+    },
+    {
+      "name": "Plotting & Output",
+      "topics": [
+        "Understanding model space vs paper space",
+        "Creating and managing layouts",
+        "Setting up viewports and scales",
+        "Configuring plot settings and styles",
+        "Exporting to PDF and other formats"
+      ],
+      "tags": [
+        "technology",
+        "infrastructure",
+        "computer-science",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "File Storage and Naming Taxonomy",
+      "topics": [
+        "Establishing file naming conventions",
+        "Organizing project folder structures",
+        "Managing drawing templates and standards",
+        "Using drawing file properties and metadata",
+        "Implementing version control and backup strategies"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "digital-life",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Customization using LISP",
+      "topics": [
+        "Introduction to AutoLISP programming basics",
+        "Creating simple automation routines",
+        "Loading and running LISP files",
+        "Customizing the AutoCAD environment with LISP",
+        "Building useful productivity tools and macros"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "computer-science",
+        "ai-ml"
+      ]
+    }
+  ]
+}

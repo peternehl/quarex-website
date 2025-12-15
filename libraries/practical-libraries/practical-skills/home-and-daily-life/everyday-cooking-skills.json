@@ -1,0 +1,65 @@
+{
+  "name": "Everyday Cooking Skills",
+  "chapters": [
+    {
+      "name": "Kitchen Safety and Setup",
+      "topics": [
+        "Safe knife handling and cutting surfaces",
+        "Preventing burns, fires, and common accidents",
+        "Food safety: temperatures, storage, and leftovers",
+        "Organizing your kitchen for easy cooking"
+      ],
+      "tags": [
+        "health",
+        "infrastructure",
+        "cooking",
+        "application"
+      ]
+    },
+    {
+      "name": "Knife Skills and Prep",
+      "topics": [
+        "Basic cuts: dice, slice, mince, and julienne",
+        "Choosing and caring for a good chef's knife",
+        "How to chop faster without losing safety",
+        "Setting up an efficient prep routine"
+      ],
+      "tags": [
+        "health",
+        "human-rights",
+        "innovation",
+        "nutrition"
+      ]
+    },
+    {
+      "name": "Core Cooking Methods",
+      "topics": [
+        "Sautéing, pan-frying, and stir-frying",
+        "Boiling, steaming, and poaching",
+        "Roasting and baking for everyday meals",
+        "Using slow cookers, pressure cookers, and air fryers"
+      ],
+      "tags": [
+        "health",
+        "sustainability",
+        "innovation",
+        "cooking"
+      ]
+    },
+    {
+      "name": "Simple Meal Planning",
+      "topics": [
+        "Planning a week of easy dinners",
+        "Batch cooking and freezing for busy days",
+        "Making use of pantry staples and leftovers",
+        "Balancing cost, nutrition, and convenience"
+      ],
+      "tags": [
+        "health",
+        "innovation",
+        "sustainability",
+        "cooking"
+      ]
+    }
+  ]
+}

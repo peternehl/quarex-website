@@ -1,0 +1,159 @@
+{
+  "_instructions": "Please expand this Quarex book seed into a complete book. Create as many chapters as necessary to cover the subject matter thoroughly. \nWithin chapter: Create 4-8 Topics in form of questions that users can click to explore.\nEach Topic should be a clear, curiosity-sparking question",
+  "_placement": {
+    "library_type": "perspectives-libraries",
+    "library": "contested-issues",
+    "shelf": "social-equality-debates"
+  },
+  "seed": {
+    "name": "Social Equality & Civil Rights",
+    "created_by": "Peter Nehl and Claude Opus 4.5",
+    "chapters": [
+      {
+        "name": "What Do We Mean by Equality?",
+        "topics": [
+          "What is the difference between equality of opportunity and equality of outcome?",
+          "Why do people disagree about which kind of equality a just society should pursue?",
+          "How do formal legal equality and substantive equality differ in practice?",
+          "Can a society treat everyone identically and still produce unequal results?",
+          "What does 'equity' mean, and why has it become controversial?",
+          "How do libertarian, liberal, and progressive frameworks define fairness differently?"
+        ],
+        "tags": ["definitions", "philosophy", "opportunity", "outcome", "equity", "fairness"]
+      },
+      {
+        "name": "The Evolution of Civil Rights in America",
+        "topics": [
+          "How did the meaning of 'civil rights' change from Reconstruction to the 1960s?",
+          "What strategies drove the success of the Civil Rights Movement?",
+          "Why did some activists favor integration while others advocated separatism?",
+          "How did the Civil Rights Act and Voting Rights Act change American law?",
+          "What gains from the Civil Rights era have endured, and which remain contested?",
+          "How have other movements modeled themselves on the Black civil rights struggle?"
+        ],
+        "tags": ["history", "civil-rights-movement", "legislation", "strategy", "legacy"]
+      },
+      {
+        "name": "Affirmative Action: Remedy or Reverse Discrimination?",
+        "topics": [
+          "What was affirmative action originally designed to accomplish?",
+          "How have Supreme Court rulings reshaped affirmative action over decades?",
+          "What do supporters say affirmative action achieves that race-blind policies cannot?",
+          "Why do critics argue affirmative action violates the principle of equal treatment?",
+          "What does research show about the effects of affirmative action on outcomes?",
+          "How do race-based versus class-based approaches compare in addressing inequality?",
+          "What happened after the 2023 Supreme Court decision ending race-conscious admissions?"
+        ],
+        "tags": ["affirmative-action", "supreme-court", "admissions", "employment", "reverse-discrimination"]
+      },
+      {
+        "name": "Systemic Racism: Concept and Controversy",
+        "topics": [
+          "What do scholars mean by 'systemic' or 'structural' racism?",
+          "How do critics challenge the concept of systemic racism?",
+          "Can racism exist without individual racists intending harm?",
+          "What evidence do researchers cite for ongoing systemic effects?",
+          "Why do some argue focusing on systemic racism obscures personal responsibility?",
+          "How does this debate shape policy disagreements on housing, education, and policing?"
+        ],
+        "tags": ["systemic-racism", "structural", "definitions", "evidence", "debate"]
+      },
+      {
+        "name": "Gender Equality: Progress and Persistent Gaps",
+        "topics": [
+          "How much has the gender pay gap closed, and what explains what remains?",
+          "Why do women remain underrepresented in political leadership globally?",
+          "What role do workplace policies play in shaping women's career outcomes?",
+          "How do different feminist perspectives disagree on the path to equality?",
+          "What do critics of gender quotas argue about merit and fairness?",
+          "How has the #MeToo movement changed workplace norms and legal standards?"
+        ],
+        "tags": ["gender", "pay-gap", "representation", "feminism", "workplace", "metoo"]
+      },
+      {
+        "name": "LGBTQ+ Rights: Rapid Change and Ongoing Battles",
+        "topics": [
+          "How did same-sex marriage go from fringe position to constitutional right so quickly?",
+          "What legal protections against discrimination do LGBTQ+ Americans currently have?",
+          "Why has transgender rights become the new frontline in culture war debates?",
+          "How do religious liberty advocates frame their opposition to LGBTQ+ protections?",
+          "What do international comparisons reveal about LGBTQ+ rights trajectories?",
+          "Can conflicts between LGBTQ+ rights and religious freedom be resolved?"
+        ],
+        "tags": ["lgbtq", "marriage-equality", "transgender", "religious-liberty", "discrimination"]
+      },
+      {
+        "name": "Religious Freedom vs. Anti-Discrimination",
+        "topics": [
+          "When does protecting religious practice conflict with civil rights laws?",
+          "What did the Masterpiece Cakeshop case decide, and what did it leave unresolved?",
+          "Should religious organizations be exempt from anti-discrimination requirements?",
+          "How do other democracies balance religious freedom with equality protections?",
+          "Why do both sides claim they are defending fundamental rights?",
+          "Are there frameworks that could accommodate both religious conscience and equal treatment?"
+        ],
+        "tags": ["religious-freedom", "conscience", "exemptions", "accommodation", "conflict"]
+      },
+      {
+        "name": "Disability Rights: The Overlooked Movement",
+        "topics": [
+          "How did the Americans with Disabilities Act change life for disabled Americans?",
+          "What barriers to full participation remain three decades after the ADA?",
+          "How do the medical and social models of disability lead to different policies?",
+          "Why is employment for people with disabilities still so much lower than average?",
+          "What does 'accessibility' mean beyond physical ramps and elevators?",
+          "How do disability rights intersect with debates about euthanasia and prenatal testing?"
+        ],
+        "tags": ["disability", "ada", "accessibility", "employment", "social-model"]
+      },
+      {
+        "name": "Immigration, Citizenship, and Belonging",
+        "topics": [
+          "Who counts as a member of society entitled to civil rights protections?",
+          "How have U.S. immigration policies reflected and shaped ideas about equality?",
+          "What rights do undocumented immigrants have under American law?",
+          "Why do birthright citizenship and pathways to legalization remain contested?",
+          "How do other nations define membership and belonging differently?",
+          "What is the relationship between national identity and equal treatment?"
+        ],
+        "tags": ["immigration", "citizenship", "birthright", "undocumented", "belonging"]
+      },
+      {
+        "name": "DEI Programs: Promise and Backlash",
+        "topics": [
+          "What do Diversity, Equity, and Inclusion programs typically aim to accomplish?",
+          "What does research show about the effectiveness of corporate DEI initiatives?",
+          "Why has DEI become a lightning rod for political conflict?",
+          "What do critics from the left and right each say is wrong with DEI?",
+          "How have legal challenges and state laws restricted DEI programs?",
+          "Are there approaches to workplace diversity that avoid the current backlash?"
+        ],
+        "tags": ["dei", "diversity", "corporate", "backlash", "effectiveness", "training"]
+      },
+      {
+        "name": "Economic Inequality and Civil Rights",
+        "topics": [
+          "How does wealth inequality intersect with racial and gender disparities?",
+          "Should economic class be treated as a civil rights category?",
+          "Why did Martin Luther King Jr. emphasize economic justice alongside racial equality?",
+          "What do conservatives and progressives each propose to address economic mobility?",
+          "How does geographic inequality create unequal access to opportunity?",
+          "Can civil rights frameworks address economic inequality, or are different tools needed?"
+        ],
+        "tags": ["economic-inequality", "class", "wealth-gap", "mobility", "geography"]
+      },
+      {
+        "name": "Measuring Progress: How Do We Know If We're Succeeding?",
+        "topics": [
+          "What metrics best capture whether society is becoming more equal?",
+          "Why do people looking at the same data reach opposite conclusions about progress?",
+          "How should we weigh legal equality against persistent outcome disparities?",
+          "What does public opinion data reveal about changing attitudes on equality?",
+          "Is perfect equality achievable, or is ongoing progress the realistic goal?",
+          "How do generational differences shape expectations about civil rights?"
+        ],
+        "tags": ["metrics", "progress", "data", "attitudes", "generational", "goals"]
+      }
+    ]
+  }
+}

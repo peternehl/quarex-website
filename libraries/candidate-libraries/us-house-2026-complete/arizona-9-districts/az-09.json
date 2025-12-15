@@ -1,0 +1,31 @@
+{
+  "name": "AZ-09",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Paul Gosar (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Keith Lara (D)",
+        "Danielle Sterbinsky (D)",
+        "Camelia Ward (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

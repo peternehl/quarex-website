@@ -1,0 +1,126 @@
+{
+  "name": "Foundations of Mathematics",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Are the Foundations of Mathematics?",
+      "topics": [
+        "What does it mean to put mathematics on firm foundations?",
+        "Why did mathematicians feel the need to formalize mathematics?",
+        "What crises in the late 1800s challenged mathematical certainty?",
+        "What are axioms and why do we need them?",
+        "How do definitions, theorems, and proofs build mathematical knowledge?",
+        "Is mathematics discovered or invented?"
+      ],
+      "tags": ["science", "mathematics", "philosophy", "epistemology"]
+    },
+    {
+      "name": "Set Theory",
+      "topics": [
+        "What is a set and what operations can you perform on sets?",
+        "How did Georg Cantor create set theory?",
+        "What paradoxes arise in naive set theory?",
+        "What are the Zermelo-Fraenkel axioms for set theory?",
+        "How does set theory provide a foundation for all of mathematics?",
+        "What is the axiom of choice and why is it controversial?"
+      ],
+      "tags": ["science", "mathematics", "logic", "education"]
+    },
+    {
+      "name": "Infinity",
+      "topics": [
+        "How do mathematicians make sense of infinity?",
+        "Why are some infinities larger than others?",
+        "What is the difference between countable and uncountable infinity?",
+        "How did Cantor prove there are more real numbers than integers?",
+        "What is the continuum hypothesis?",
+        "How does infinity appear in calculus and analysis?"
+      ],
+      "tags": ["science", "mathematics", "philosophy", "set-theory"]
+    },
+    {
+      "name": "Mathematical Logic",
+      "topics": [
+        "What is mathematical logic and what does it study?",
+        "What is propositional logic and how do truth tables work?",
+        "What is predicate logic and how does it extend propositional logic?",
+        "What makes an argument valid versus sound?",
+        "What are formal systems and how do they work?",
+        "How do logicians distinguish syntax from semantics?"
+      ],
+      "tags": ["science", "mathematics", "logic", "critical-thinking"]
+    },
+    {
+      "name": "Proof Methods",
+      "topics": [
+        "What is a mathematical proof and what makes one valid?",
+        "What is direct proof and proof by contradiction?",
+        "What is mathematical induction and when do you use it?",
+        "What is proof by contrapositive?",
+        "How do existence and uniqueness proofs work?",
+        "What is a constructive versus non-constructive proof?"
+      ],
+      "tags": ["science", "mathematics", "methodology", "education"]
+    },
+    {
+      "name": "Gödel's Incompleteness Theorems",
+      "topics": [
+        "What did Kurt Gödel prove about formal systems?",
+        "What does the first incompleteness theorem say about mathematical truth?",
+        "What does the second theorem say about consistency?",
+        "How did Gödel prove his theorems using self-reference?",
+        "What do the incompleteness theorems mean for the foundations of mathematics?",
+        "Do the theorems limit what mathematicians can know?"
+      ],
+      "tags": ["science", "mathematics", "logic", "philosophy"]
+    },
+    {
+      "name": "Computation and Foundations",
+      "topics": [
+        "How is computation related to mathematical foundations?",
+        "What is the Church-Turing thesis?",
+        "What did Alan Turing prove about computable numbers?",
+        "How does computability theory relate to Gödel's results?",
+        "What are decidable and undecidable problems?",
+        "What is the relationship between logic and computer science?"
+      ],
+      "tags": ["science", "mathematics", "computer-science", "logic"]
+    },
+    {
+      "name": "Alternative Foundations",
+      "topics": [
+        "What is intuitionism and how does it differ from classical mathematics?",
+        "What is constructive mathematics?",
+        "What is category theory and can it serve as a foundation?",
+        "What is type theory and how does it relate to set theory?",
+        "What are other proposed foundations for mathematics?",
+        "Does it matter which foundation we choose?"
+      ],
+      "tags": ["science", "mathematics", "philosophy", "theory"]
+    },
+    {
+      "name": "Philosophy of Mathematics",
+      "topics": [
+        "What is mathematical Platonism and do numbers really exist?",
+        "What is formalism and does mathematics need meaning?",
+        "What is logicism and can mathematics be reduced to logic?",
+        "What is mathematical structuralism?",
+        "Why is mathematics so effective in describing the physical world?",
+        "What philosophical questions remain open about mathematics?"
+      ],
+      "tags": ["science", "mathematics", "philosophy", "epistemology"]
+    },
+    {
+      "name": "Foundations in Practice",
+      "topics": [
+        "Do working mathematicians care about foundations?",
+        "How do proof assistants verify mathematical proofs?",
+        "What role do foundations play in education?",
+        "How did the foundational crisis affect mathematics?",
+        "What foundational issues arise in modern mathematics?",
+        "How might foundations change in the age of computers?"
+      ],
+      "tags": ["science", "mathematics", "education", "technology"]
+    }
+  ]
+}

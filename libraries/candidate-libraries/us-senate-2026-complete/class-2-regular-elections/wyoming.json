@@ -1,0 +1,30 @@
+{
+  "name": "Wyoming",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Cynthia Lummis (R)",
+        "Jimmy Skovgard (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Risks, Harms, and Governance",
+  "chapters": [
+    {
+      "name": "Bias, Discrimination, and Unequal Impact",
+      "topics": [],
+      "tags": [
+        "ethics",
+        "human-rights",
+        "bias",
+        "ai-ml"
+      ]
+    },
+    {
+      "name": "Privacy, Surveillance, and Data Exploitation",
+      "topics": [],
+      "tags": [
+        "ethics",
+        "privacy",
+        "human-rights",
+        "ai-ml"
+      ]
+    },
+    {
+      "name": "Safety, Misuse, and Dual-Use Concerns",
+      "topics": [],
+      "tags": [
+        "ethics",
+        "governance",
+        "human-rights",
+        "ai-ml"
+      ]
+    },
+    {
+      "name": "Regulation, Standards, and Oversight Efforts",
+      "topics": [],
+      "tags": [
+        "technology",
+        "governance",
+        "regulation",
+        "ai-ml"
+      ]
+    }
+  ]
+}

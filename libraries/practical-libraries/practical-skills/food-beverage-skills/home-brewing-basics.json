@@ -1,0 +1,142 @@
+{
+  "name": "Home Brewing Basics",
+  "created_by": "Peter and Claude",
+  "mode": "followup",
+  "chapters": [
+    {
+      "name": "Getting Started",
+      "topics": [
+        "What equipment do I actually need to brew my first batch?",
+        "How much space and time does home brewing require?",
+        "What's the difference between extract, partial-mash, and all-grain brewing?",
+        "How much does it cost to get started versus buying commercial beer?",
+        "What are the most common beginner mistakes and how do I avoid them?",
+        "Is home brewing legal where I live?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "cooking",
+        "nutrition"
+      ]
+    },
+    {
+      "name": "Understanding Ingredients",
+      "topics": [
+        "What do different malts contribute to flavor and color?",
+        "How do hops create bitterness, flavor, and aroma?",
+        "Why is yeast selection the most important decision in brewing?",
+        "Does water chemistry really matter for home brewers?",
+        "What adjuncts can I add and when should I use them?",
+        "How do I read and understand a beer recipe?"
+      ],
+      "tags": [
+        "science",
+        "innovation",
+        "chemistry",
+        "nutrition"
+      ]
+    },
+    {
+      "name": "The Brewing Process",
+      "topics": [
+        "What happens during mashing and why do temperatures matter?",
+        "How long should I boil and when do I add hops?",
+        "Why is cooling the wort quickly so important?",
+        "What does 'pitching' yeast mean and how do I do it right?",
+        "How do I know when fermentation is complete?",
+        "What is secondary fermentation and do I need it?"
+      ],
+      "tags": [
+        "science",
+        "innovation",
+        "chemistry",
+        "nutrition"
+      ]
+    },
+    {
+      "name": "Sanitation and Safety",
+      "topics": [
+        "What's the difference between cleaning and sanitizing?",
+        "Which sanitizers work best and how do I use them?",
+        "How do I know if my batch is contaminated?",
+        "Can contaminated beer make me sick?",
+        "What safety precautions should I take when brewing?"
+      ],
+      "tags": [
+        "health",
+        "innovation",
+        "cooking",
+        "application"
+      ]
+    },
+    {
+      "name": "Bottling and Kegging",
+      "topics": [
+        "How do I calculate the right amount of priming sugar?",
+        "What causes bottle bombs and how do I prevent them?",
+        "How long does bottle conditioning take?",
+        "Is kegging worth the investment for home brewers?",
+        "How do I get clear beer without filtration?",
+        "What's the shelf life of home-brewed beer?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "home-repair",
+        "cooking"
+      ]
+    },
+    {
+      "name": "Troubleshooting Common Problems",
+      "topics": [
+        "Why does my beer taste like green apples or butter?",
+        "What causes off-flavors and how do I identify them?",
+        "Why didn't my beer carbonate properly?",
+        "What should I do if fermentation doesn't start?",
+        "Why is my beer cloudy or hazy?",
+        "How do I fix a batch that's too bitter or not bitter enough?"
+      ],
+      "tags": [
+        "health",
+        "innovation",
+        "nutrition",
+        "application"
+      ]
+    },
+    {
+      "name": "Beer Styles and Recipe Design",
+      "topics": [
+        "What makes an ale different from a lager?",
+        "Which beer styles are easiest for beginners to brew?",
+        "How do I scale recipes up or down?",
+        "What is OG, FG, and ABV and how do I calculate them?",
+        "How do I create my own recipes from scratch?",
+        "What are IBUs and how do I hit my target?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "cooking",
+        "nutrition"
+      ]
+    },
+    {
+      "name": "Beyond the Basics",
+      "topics": [
+        "When should I move from extract to all-grain brewing?",
+        "How do I harvest and reuse yeast?",
+        "What is dry hopping and how does it change my beer?",
+        "How do I brew lagers without a fermentation chamber?",
+        "What can I learn from entering homebrew competitions?",
+        "How do home brewers turn pro?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "cooking",
+        "application"
+      ]
+    }
+  ]
+}

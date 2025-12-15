@@ -1,0 +1,126 @@
+{
+  "name": "Algebra and Number Theory",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Numbers and Their Properties",
+      "topics": [
+        "What are the different types of numbers: natural, integer, rational, real, complex?",
+        "What properties do numbers have: commutativity, associativity, distributivity?",
+        "What are prime numbers and why are they the building blocks of all integers?",
+        "How did ancient civilizations develop their number systems?",
+        "What is the fundamental theorem of arithmetic?",
+        "Why are there infinitely many prime numbers?"
+      ],
+      "tags": ["science", "mathematics", "number-theory", "education"]
+    },
+    {
+      "name": "Divisibility and Prime Numbers",
+      "topics": [
+        "What does it mean for one number to divide another?",
+        "How do you find the greatest common divisor of two numbers?",
+        "What is the Euclidean algorithm and why is it so efficient?",
+        "How do mathematicians test whether large numbers are prime?",
+        "What is the prime number theorem and what does it tell us?",
+        "What are the largest known prime numbers and how were they found?"
+      ],
+      "tags": ["science", "mathematics", "number-theory", "algorithms"]
+    },
+    {
+      "name": "Modular Arithmetic",
+      "topics": [
+        "What is modular arithmetic and how does 'clock arithmetic' work?",
+        "How do you add, subtract, and multiply in modular systems?",
+        "What is a modular inverse and when does it exist?",
+        "How does modular arithmetic protect credit card numbers?",
+        "What is Fermat's little theorem and what does it say about primes?",
+        "How do computers use modular arithmetic for fast calculations?"
+      ],
+      "tags": ["science", "mathematics", "cryptography", "computer-science"]
+    },
+    {
+      "name": "Introduction to Abstract Algebra",
+      "topics": [
+        "What is a group and what examples exist in everyday life?",
+        "What properties define rings and fields?",
+        "How do symmetries form mathematical groups?",
+        "What is the difference between a group and a ring?",
+        "How does abstract algebra unify different areas of mathematics?",
+        "What practical applications use group theory?"
+      ],
+      "tags": ["science", "mathematics", "algebra", "education"]
+    },
+    {
+      "name": "Equations and Polynomials",
+      "topics": [
+        "What is a polynomial and how do you find its roots?",
+        "Why can't we solve general equations of degree 5 or higher with formulas?",
+        "What is the quadratic formula and how was it discovered?",
+        "How do polynomial roots relate to factors?",
+        "What are complex roots and why do polynomials always have them?",
+        "How does Galois theory connect equations to symmetry?"
+      ],
+      "tags": ["science", "mathematics", "algebra", "history"]
+    },
+    {
+      "name": "Diophantine Equations",
+      "topics": [
+        "What are Diophantine equations and why do we seek integer solutions?",
+        "What is Fermat's Last Theorem and why did it take 350 years to prove?",
+        "What simple Diophantine equations can be solved completely?",
+        "What is the Pythagorean theorem and how do you find all Pythagorean triples?",
+        "Why are some Diophantine equations impossible to solve?",
+        "How did Andrew Wiles finally prove Fermat's Last Theorem?"
+      ],
+      "tags": ["science", "mathematics", "number-theory", "history"]
+    },
+    {
+      "name": "Cryptography and Number Theory",
+      "topics": [
+        "How does RSA encryption use prime numbers to secure communication?",
+        "Why is factoring large numbers so difficult?",
+        "What is public key cryptography and how does it work?",
+        "How do elliptic curves provide security for modern encryption?",
+        "What would quantum computers mean for current encryption methods?",
+        "What number theory problems are the basis of internet security?"
+      ],
+      "tags": ["science", "mathematics", "cryptography", "cybersecurity"]
+    },
+    {
+      "name": "Famous Unsolved Problems",
+      "topics": [
+        "What is the Riemann Hypothesis and why is it so important?",
+        "What are twin primes and will we ever prove infinitely many exist?",
+        "What is Goldbach's Conjecture and has anyone proved it?",
+        "What Millennium Prize Problems involve number theory?",
+        "Why do unsolved problems drive mathematical research?",
+        "What progress has been made on these famous conjectures?"
+      ],
+      "tags": ["science", "mathematics", "number-theory", "research"]
+    },
+    {
+      "name": "Algebraic Structures in Nature",
+      "topics": [
+        "How do group symmetries appear in physics and chemistry?",
+        "What role does algebra play in coding theory and error correction?",
+        "How do algebraic structures model physical systems?",
+        "What is the connection between algebra and quantum mechanics?",
+        "How does lattice theory apply to computer science?",
+        "Where do algebraic patterns appear in nature?"
+      ],
+      "tags": ["science", "mathematics", "physics", "applications"]
+    },
+    {
+      "name": "Computational Number Theory",
+      "topics": [
+        "How do computers find large prime numbers?",
+        "What algorithms factor integers efficiently?",
+        "How fast can we test if a number is prime?",
+        "What computational tools help mathematicians explore number theory?",
+        "How do computer-assisted proofs work in mathematics?",
+        "What number theory calculations would be impossible without computers?"
+      ],
+      "tags": ["science", "mathematics", "computer-science", "algorithms"]
+    }
+  ]
+}

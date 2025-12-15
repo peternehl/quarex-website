@@ -1,0 +1,126 @@
+{
+  "name": "Climate Systems and Atmosphere",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Earth's Atmosphere",
+      "topics": [
+        "What gases make up Earth's atmosphere and in what proportions?",
+        "What are the layers of the atmosphere and their characteristics?",
+        "How did Earth's atmosphere form and change over billions of years?",
+        "What role does the ozone layer play in protecting life?",
+        "How does atmospheric pressure change with altitude?",
+        "What would happen to Earth without an atmosphere?"
+      ],
+      "tags": ["science", "earth-science", "climate-change", "environment"]
+    },
+    {
+      "name": "The Greenhouse Effect",
+      "topics": [
+        "How does the greenhouse effect keep Earth warm enough for life?",
+        "What are greenhouse gases and which are most important?",
+        "How do human activities increase greenhouse gas concentrations?",
+        "What is the difference between the natural and enhanced greenhouse effect?",
+        "How do scientists measure historical CO2 levels from ice cores?",
+        "Why is water vapor both a greenhouse gas and a climate feedback?"
+      ],
+      "tags": ["science", "climate-change", "environment", "physics"]
+    },
+    {
+      "name": "Weather Versus Climate",
+      "topics": [
+        "What is the difference between weather and climate?",
+        "How do meteorologists forecast weather?",
+        "What factors create different climate zones around the world?",
+        "How do ocean currents affect regional climates?",
+        "What is the jet stream and how does it influence weather patterns?",
+        "Why is climate change different from normal weather variation?"
+      ],
+      "tags": ["science", "earth-science", "climate-change", "education"]
+    },
+    {
+      "name": "Global Circulation Patterns",
+      "topics": [
+        "How does uneven solar heating drive atmospheric circulation?",
+        "What are Hadley, Ferrel, and polar cells?",
+        "Why do trade winds and westerlies blow in predictable directions?",
+        "How does the Coriolis effect influence wind patterns?",
+        "What creates monsoon seasons in tropical regions?",
+        "How do El Niño and La Niña affect global weather?"
+      ],
+      "tags": ["science", "earth-science", "climate-change", "geography"]
+    },
+    {
+      "name": "Ocean-Atmosphere Interactions",
+      "topics": [
+        "How do oceans store and transport heat around the planet?",
+        "What is thermohaline circulation and the global conveyor belt?",
+        "How do oceans absorb carbon dioxide and what are the consequences?",
+        "What causes ocean acidification and why does it matter?",
+        "How do hurricanes and typhoons draw energy from warm ocean water?",
+        "What role does ocean upwelling play in marine ecosystems?"
+      ],
+      "tags": ["science", "earth-science", "climate-change", "oceanography"]
+    },
+    {
+      "name": "Climate Change Evidence",
+      "topics": [
+        "How do scientists know global temperatures are rising?",
+        "What evidence from ice cores, tree rings, and sediments reveals past climates?",
+        "How have sea levels changed and why are they rising?",
+        "What changes in weather patterns indicate climate change?",
+        "How are glaciers and ice sheets responding to warming?",
+        "What does the scientific consensus say about human-caused climate change?"
+      ],
+      "tags": ["science", "climate-change", "critical-thinking", "evidence"]
+    },
+    {
+      "name": "Climate Models and Predictions",
+      "topics": [
+        "How do climate models simulate Earth's climate system?",
+        "What scenarios do scientists use to project future climate?",
+        "How accurate have past climate predictions been?",
+        "What are climate tipping points and why are they concerning?",
+        "What temperature targets like 1.5°C and 2°C mean?",
+        "What uncertainties exist in climate projections?"
+      ],
+      "tags": ["science", "climate-change", "technology", "methodology"]
+    },
+    {
+      "name": "Climate Impacts",
+      "topics": [
+        "How is climate change affecting ecosystems and biodiversity?",
+        "What impacts does climate change have on agriculture and food security?",
+        "How are extreme weather events changing in frequency and intensity?",
+        "What health effects result from climate change?",
+        "How does sea level rise threaten coastal communities?",
+        "Which regions and populations are most vulnerable to climate impacts?"
+      ],
+      "tags": ["science", "climate-change", "environment", "human-rights"]
+    },
+    {
+      "name": "Mitigation: Reducing Emissions",
+      "topics": [
+        "What are the main sources of greenhouse gas emissions?",
+        "How can renewable energy reduce emissions from electricity generation?",
+        "What role do transportation and buildings play in emissions?",
+        "How can land use and agriculture reduce or increase emissions?",
+        "What is carbon capture and storage technology?",
+        "What policies help reduce greenhouse gas emissions?"
+      ],
+      "tags": ["science", "climate-change", "sustainability", "policy"]
+    },
+    {
+      "name": "Adaptation: Living with Climate Change",
+      "topics": [
+        "What is climate adaptation and why is it necessary?",
+        "How can cities adapt to heat waves and flooding?",
+        "What agricultural practices help farmers adapt to changing conditions?",
+        "How are coastal communities preparing for sea level rise?",
+        "What role does infrastructure planning play in adaptation?",
+        "How can we build resilience in vulnerable communities?"
+      ],
+      "tags": ["science", "climate-change", "sustainability", "policy"]
+    }
+  ]
+}

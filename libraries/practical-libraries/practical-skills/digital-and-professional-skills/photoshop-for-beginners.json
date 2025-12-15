@@ -1,0 +1,316 @@
+{
+  "name": "Photoshop For Beginners",
+  "chapters": [
+    {
+      "name": "Getting Started",
+      "topics": [
+        "The Photoshop Interface Overview",
+        "Setting Up Your Workspace",
+        "Creating New Documents",
+        "Opening and Placing Images",
+        "Navigating and Zooming",
+        "Using Rulers, Guides, and Grids",
+        "Undo, History Panel, and Non-Destructive Editing"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "digital-life",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Top Line Menus",
+      "topics": [
+        "The File Menu",
+        "The Edit Menu",
+        "The Image Menu",
+        "The Layer Menu",
+        "The Type Menu",
+        "The Select Menu",
+        "The Filter Menu",
+        "The View Menu",
+        "The Window Menu"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "The Toolbar (Left Side Icons)",
+      "topics": [
+        "Move Tool and Auto-Select",
+        "Marquee Selection Tools (Rectangular, Elliptical)",
+        "Lasso Tools (Freehand, Polygonal, Magnetic)",
+        "Object Selection and Quick Selection Tools",
+        "Magic Wand Tool",
+        "Crop and Slice Tools",
+        "Eyedropper and Color Sampler Tools",
+        "Healing Brush and Spot Healing Tools",
+        "Clone Stamp and Pattern Stamp Tools",
+        "Brush and Pencil Tools",
+        "Eraser Tools",
+        "Gradient and Paint Bucket Tools",
+        "Blur, Sharpen, and Smudge Tools",
+        "Dodge, Burn, and Sponge Tools",
+        "Pen and Path Tools",
+        "Type Tools (Horizontal, Vertical, Masks)",
+        "Shape Tools",
+        "Hand and Rotate View Tools",
+        "Zoom Tool"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Essential Panels",
+      "topics": [
+        "Layers Panel Fundamentals",
+        "Properties Panel",
+        "Adjustments Panel",
+        "History Panel",
+        "Color and Swatches Panels",
+        "Brushes and Brush Settings Panels",
+        "Character and Paragraph Panels",
+        "Paths Panel"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Understanding Layers",
+      "topics": [
+        "What Are Layers and Why They Matter",
+        "Creating and Deleting Layers",
+        "Layer Visibility and Locking",
+        "Renaming and Organizing Layers",
+        "Layer Groups and Folders",
+        "Merging and Flattening Layers",
+        "Layer Opacity and Fill",
+        "Blend Modes Explained",
+        "Adjustment Layers",
+        "Smart Objects"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "visual-arts",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Making Selections",
+      "topics": [
+        "Selection Basics and Marching Ants",
+        "Geometric Selections with Marquee Tools",
+        "Freeform Selections with Lasso Tools",
+        "Automatic Selections (Quick Selection, Object Selection)",
+        "Color-Based Selections (Magic Wand, Color Range)",
+        "Select Subject and Select and Mask",
+        "Modifying Selections (Expand, Contract, Feather, Smooth)",
+        "Saving and Loading Selections",
+        "Using Quick Mask Mode"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Masks and Masking",
+      "topics": [
+        "What Are Masks and Non-Destructive Editing",
+        "Layer Masks Basics",
+        "Painting on Masks (Black Conceals, White Reveals)",
+        "Refining Mask Edges",
+        "Clipping Masks",
+        "Vector Masks"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "innovation",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Color and Image Adjustments",
+      "topics": [
+        "Understanding Color Modes (RGB, CMYK, Grayscale)",
+        "Brightness and Contrast",
+        "Levels Adjustment",
+        "Curves Adjustment",
+        "Hue/Saturation Adjustment",
+        "Color Balance",
+        "Vibrance vs Saturation",
+        "Black and White Conversion",
+        "Photo Filters and Color Lookup",
+        "Shadow/Highlights Adjustment"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "visual-arts",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Retouching and Repair",
+      "topics": [
+        "Spot Healing Brush for Quick Fixes",
+        "Healing Brush for Controlled Repairs",
+        "Patch Tool for Larger Areas",
+        "Clone Stamp Technique",
+        "Content-Aware Fill",
+        "Content-Aware Move and Extend",
+        "Removing Objects from Photos",
+        "Basic Portrait Retouching"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "innovation",
+        "photography"
+      ]
+    },
+    {
+      "name": "Working with Text",
+      "topics": [
+        "Adding Point Text vs Paragraph Text",
+        "Formatting Text (Font, Size, Color)",
+        "Character Panel Options",
+        "Paragraph Panel Options",
+        "Text on a Path",
+        "Warping Text",
+        "Rasterizing vs Keeping Text Editable"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "digital-art",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "Filters and Effects",
+      "topics": [
+        "Filter Gallery Overview",
+        "Blur Filters (Gaussian, Motion, Lens)",
+        "Sharpen Filters",
+        "Distort Filters",
+        "Stylize Filters",
+        "Using Smart Filters",
+        "Layer Styles and Effects",
+        "Drop Shadows and Glows",
+        "Bevels, Emboss, and Strokes"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Transforming and Resizing",
+      "topics": [
+        "Free Transform Basics",
+        "Scale, Rotate, and Skew",
+        "Flip Horizontal and Vertical",
+        "Warp and Perspective Transform",
+        "Content-Aware Scale",
+        "Image Size vs Canvas Size",
+        "Cropping and Straightening"
+      ],
+      "tags": [
+        "arts",
+        "digital-life",
+        "visual-arts",
+        "photography"
+      ]
+    },
+    {
+      "name": "Basic Compositing",
+      "topics": [
+        "Combining Multiple Images",
+        "Cutting Out Subjects",
+        "Matching Color and Lighting",
+        "Creating Shadows for Realism",
+        "Blending Layers Together",
+        "Simple Photo Manipulation Projects"
+      ],
+      "tags": [
+        "arts",
+        "digital-life",
+        "photography",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Resolution and Image Size",
+      "topics": [
+        "Pixels, Resolution, and DPI Explained",
+        "Screen Resolution vs Print Resolution",
+        "Resizing Images Without Losing Quality",
+        "Resampling Methods",
+        "Checking and Changing Document Resolution",
+        "Understanding File Size"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "photography",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "File Types and Exporting",
+      "topics": [
+        "Photoshop Native Formats (PSD, PSB, PSDT)",
+        "JPEG: When and How to Use",
+        "PNG: Transparency and Web Use",
+        "TIFF: Print and Archival",
+        "GIF: Animation and Limited Colors",
+        "PDF Export from Photoshop",
+        "Export As vs Save As vs Save for Web",
+        "Choosing the Right Format for Your Purpose"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "digital-art"
+      ]
+    },
+    {
+      "name": "Keyboard Shortcuts and Workflow Tips",
+      "topics": [
+        "Essential Keyboard Shortcuts",
+        "Customizing Shortcuts",
+        "Batch Processing with Actions",
+        "Creating and Using Actions",
+        "Organizing Your Files and Projects",
+        "Performance Settings and Scratch Disks"
+      ],
+      "tags": [
+        "technology",
+        "digital-life",
+        "computer-science",
+        "digital-art"
+      ]
+    }
+  ]
+}

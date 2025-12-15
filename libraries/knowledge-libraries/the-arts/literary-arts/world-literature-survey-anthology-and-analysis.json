@@ -1,0 +1,125 @@
+{
+  "name": "World Literature Survey (Anthology & Analysis)",
+  "chapters": [
+    {
+      "name": "Ancient Epic: Gilgamesh, Homer, Virgil",
+      "topics": [
+        "What themes and concerns does the Epic of Gilgamesh explore?",
+        "How do Homer's Iliad and Odyssey define the Western epic tradition?",
+        "What did Virgil's Aeneid contribute to epic conventions and Roman identity?",
+        "How do these epics portray heroism, mortality, and the divine?",
+        "What oral traditions shaped how these epics were composed and transmitted?",
+        "Why have these ancient texts remained foundational to world literature?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "poetry"]
+    },
+    {
+      "name": "Classical Drama: Greek and Roman",
+      "topics": [
+        "What was the role of theater in Athenian civic and religious life?",
+        "How did Greek tragedy explore fate, free will, and human suffering?",
+        "What distinguishes the styles of Aeschylus, Sophocles, and Euripides?",
+        "How did Greek comedy from Aristophanes to Menander develop?",
+        "What adaptations did Roman playwrights like Plautus and Seneca make?",
+        "What performance conventions shaped how ancient plays were staged?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "theater"]
+    },
+    {
+      "name": "Medieval Literature: East and West",
+      "topics": [
+        "How did Dante's Divine Comedy synthesize medieval Christian worldviews?",
+        "What themes define Chaucer's Canterbury Tales as social commentary?",
+        "How did The Tale of Genji pioneer psychological fiction in Japan?",
+        "What were the major forms of medieval literature: romance, allegory, fabliau?",
+        "How did Islamic literature flourish in the golden age of Arabic poetry?",
+        "What roles did monasteries and courts play in preserving and creating literature?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "religion"]
+    },
+    {
+      "name": "Renaissance Humanism and Literature",
+      "topics": [
+        "How did humanism change ideas about literature's purpose and value?",
+        "What made Shakespeare's plays revolutionary in form and content?",
+        "How did Cervantes' Don Quixote help create the modern novel?",
+        "What was the sonnet tradition and how did Petrarch influence European poetry?",
+        "How did Renaissance writers engage with classical models and break from them?",
+        "What patronage systems supported Renaissance literary production?"
+      ],
+      "tags": ["history", "cultural-heritage", "literary-arts", "theater"]
+    },
+    {
+      "name": "Enlightenment and Neoclassical Works",
+      "topics": [
+        "How did the Enlightenment value reason and satire in literature?",
+        "What made Voltaire's Candide an influential philosophical satire?",
+        "How did the novel emerge as a dominant form in 18th-century England?",
+        "What conventions defined neoclassical poetry and drama?",
+        "How did literary salons and coffeehouses shape intellectual culture?",
+        "What role did literature play in spreading Enlightenment ideas?"
+      ],
+      "tags": ["arts", "critical-thinking", "literary-arts", "philosophy"]
+    },
+    {
+      "name": "Romanticism Across Cultures",
+      "topics": [
+        "What core values—emotion, nature, individualism—defined Romanticism?",
+        "How did German, English, and French Romanticism differ?",
+        "What made poets like Wordsworth, Keats, and Shelley revolutionary?",
+        "How did Romantic ideas spread beyond Europe to other literary traditions?",
+        "What narrative innovations did Romantic novels introduce?",
+        "Why did Romanticism react against Enlightenment rationalism?"
+      ],
+      "tags": ["arts", "cultural-heritage", "literary-arts", "romanticism"]
+    },
+    {
+      "name": "Realism and Naturalism Worldwide",
+      "topics": [
+        "What distinguished literary realism from earlier Romantic modes?",
+        "How did novelists like Balzac, Tolstoy, and Eliot depict society?",
+        "What scientific and philosophical ideas influenced naturalism?",
+        "How did American realists like Twain and James approach the form?",
+        "What social issues did realist and naturalist writers address?",
+        "How did realism develop differently across national traditions?"
+      ],
+      "tags": ["arts", "human-rights", "literary-arts", "fiction"]
+    },
+    {
+      "name": "Modernist Literature",
+      "topics": [
+        "How did modernist writers break from 19th-century conventions?",
+        "What techniques—stream of consciousness, fragmentation—define modernism?",
+        "What makes works by Joyce, Woolf, Kafka, and Proust exemplary modernist texts?",
+        "How did historical events like World War I shape modernist sensibilities?",
+        "What was the Harlem Renaissance and how did it intersect with modernism?",
+        "How did modernist poetry from Eliot to the Imagists reinvent the form?"
+      ],
+      "tags": ["arts", "identity", "literary-arts", "modernism"]
+    },
+    {
+      "name": "Postcolonial Literature",
+      "topics": [
+        "How have writers from formerly colonized nations responded to colonial legacies?",
+        "What themes of identity, language, and belonging define postcolonial literature?",
+        "How do writers like Achebe, Rushdie, and Coetzee address colonial history?",
+        "What role does language choice—colonial versus indigenous—play?",
+        "How has postcolonial literature challenged the Western literary canon?",
+        "What is the relationship between postcolonial literature and nationalism?"
+      ],
+      "tags": ["arts", "colonialism", "human-rights", "literary-arts"]
+    },
+    {
+      "name": "Contemporary Global Fiction",
+      "topics": [
+        "What characterizes contemporary world literature in an era of globalization?",
+        "How do international literary prizes shape what gets translated and read?",
+        "What voices and regions are gaining prominence in global fiction?",
+        "How do contemporary writers address migration, diaspora, and transnationalism?",
+        "What tensions exist between local traditions and global literary markets?",
+        "How has digital technology changed literary production and distribution worldwide?"
+      ],
+      "tags": ["arts", "globalization", "identity", "literary-arts"]
+    }
+  ]
+}

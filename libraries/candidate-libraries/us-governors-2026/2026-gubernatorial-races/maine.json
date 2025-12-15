@@ -1,0 +1,60 @@
+{
+  "name": "Maine",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jonathan Bush (R)",
+        "Ken A. Capron (R)",
+        "Bobby Charles (R)",
+        "David Foster (R)",
+        "David Jones (R)",
+        "James Libby (R)",
+        "Owen McCarthy (R)",
+        "Ben Midgley (R)",
+        "Steven Sheppard (R)",
+        "Robert J. Wessels (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Shenna Bellows (D)",
+        "Jason Cherry (D)",
+        "Kenneth Forrest Pinet (D)",
+        "Troy Dale Jackson (D)",
+        "Angus King III (D)",
+        "Hannah Pingree (D)",
+        "Nirav Shah (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Richard Bennett (I)",
+        "W. Edward Crockett (I)",
+        "John Glowa (I)",
+        "Derek Levasseur (I)",
+        "Alexander Murchison (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

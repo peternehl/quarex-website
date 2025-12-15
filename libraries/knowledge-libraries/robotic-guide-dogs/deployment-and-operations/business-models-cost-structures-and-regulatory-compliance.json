@@ -1,0 +1,50 @@
+{
+  "name": "Business Models, Cost Structures, and Regulatory Compliance",
+  "chapters": [
+    {
+      "name": "Cost Analysis, Funding, and Affordability",
+      "topics": [
+        "How do upfront hardware costs, ongoing maintenance, and support expenses compare to traditional guide dog programs?",
+        "What funding models (public, private, philanthropic, subscription) could make robotic guide dogs widely accessible?",
+        "How can cost-benefit analyses account for intangible benefits like independence, employment opportunities, and safety?",
+        "What strategies can prevent a two-tier system where only wealthy users gain access to advanced robotic guides?"
+      ],
+      "tags": [
+        "economics",
+        "innovation",
+        "infrastructure",
+        "robotics"
+      ]
+    },
+    {
+      "name": "Regulatory, Legal, and Liability Considerations",
+      "topics": [
+        "How do existing service animal and accessibility laws apply, or fail to apply, to robotic guide dogs?",
+        "Who bears liability when a robotic guide dog is involved in an accident, and how should legal frameworks evolve?",
+        "What certifications, safety audits, or approvals might be required before deployment in public spaces?",
+        "How can international differences in regulation affect global deployment strategies for these systems?"
+      ],
+      "tags": [
+        "law",
+        "human-rights",
+        "accessibility",
+        "robotics"
+      ]
+    },
+    {
+      "name": "Accessibility Integration with Infrastructure and Services",
+      "topics": [
+        "How should public transit, buildings, and streetscapes be adapted to support robotic guide dog navigation?",
+        "What collaborations with transit agencies, employers, and schools are needed to enable seamless travel for users?",
+        "How can digital infrastructure like mapping services, beacons, and signage be leveraged to aid robotic guidance?",
+        "What standards and interoperability requirements could ensure that different vendors' systems work reliably across cities?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "infrastructure",
+        "accessibility"
+      ]
+    }
+  ]
+}

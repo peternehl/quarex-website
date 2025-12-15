@@ -1,0 +1,126 @@
+{
+  "name": "Geometry and Topology",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Euclidean Geometry",
+      "topics": [
+        "What are Euclid's five postulates and why are they important?",
+        "What basic shapes and theorems form the foundation of geometry?",
+        "How did the ancient Greeks prove geometric theorems without algebra?",
+        "What is the Pythagorean theorem and how many ways can it be proved?",
+        "What are constructions with compass and straightedge?",
+        "What geometric problems are impossible to solve with compass and straightedge?"
+      ],
+      "tags": ["science", "mathematics", "geometry", "history"]
+    },
+    {
+      "name": "Non-Euclidean Geometry",
+      "topics": [
+        "What happens if you change Euclid's fifth postulate?",
+        "What is hyperbolic geometry and how does it differ from Euclidean?",
+        "What is spherical geometry and where do we encounter it?",
+        "How did the discovery of non-Euclidean geometry change mathematics?",
+        "What did this discovery mean for the philosophy of mathematics?",
+        "Which geometry describes our actual universe?"
+      ],
+      "tags": ["science", "mathematics", "geometry", "philosophy"]
+    },
+    {
+      "name": "Coordinate Geometry",
+      "topics": [
+        "How did Descartes connect algebra and geometry?",
+        "How do you represent points, lines, and curves using coordinates?",
+        "What are conic sections: circles, ellipses, parabolas, hyperbolas?",
+        "How do you calculate distance and slope using coordinates?",
+        "What is parametric representation of curves?",
+        "How does coordinate geometry enable computer graphics?"
+      ],
+      "tags": ["science", "mathematics", "geometry", "algebra"]
+    },
+    {
+      "name": "Transformational Geometry",
+      "topics": [
+        "What are geometric transformations: translations, rotations, reflections?",
+        "What properties are preserved under different transformations?",
+        "What is symmetry and how do mathematicians classify it?",
+        "What are wallpaper groups and why are there exactly 17?",
+        "How do transformations form mathematical groups?",
+        "What is the Erlangen program and how does it unify geometry?"
+      ],
+      "tags": ["science", "mathematics", "geometry", "symmetry"]
+    },
+    {
+      "name": "Introduction to Topology",
+      "topics": [
+        "What is topology and why is it called 'rubber sheet geometry'?",
+        "What properties are preserved when shapes are stretched and bent?",
+        "Why are a coffee cup and donut topologically the same?",
+        "What is a topological space and what are open sets?",
+        "What does continuity mean in topology?",
+        "What is homeomorphism and when are two spaces the same?"
+      ],
+      "tags": ["science", "mathematics", "topology", "education"]
+    },
+    {
+      "name": "Surfaces and Manifolds",
+      "topics": [
+        "What is a surface and how do topologists classify them?",
+        "What is the Euler characteristic and what does it tell us?",
+        "What is the genus of a surface and how do you count holes?",
+        "What is a manifold and why are they important in physics?",
+        "What is the Klein bottle and why can't it exist in 3D?",
+        "What is the Möbius strip and what makes it special?"
+      ],
+      "tags": ["science", "mathematics", "topology", "physics"]
+    },
+    {
+      "name": "Knot Theory",
+      "topics": [
+        "What is a mathematical knot and how do we study them?",
+        "How do you tell if two knots are really different?",
+        "What are knot invariants and how do they help classify knots?",
+        "What is the connection between knots and DNA?",
+        "How are knots related to quantum physics?",
+        "What unsolved problems exist in knot theory?"
+      ],
+      "tags": ["science", "mathematics", "topology", "biology"]
+    },
+    {
+      "name": "Differential Geometry",
+      "topics": [
+        "What is differential geometry and how does it use calculus?",
+        "What is curvature and how do you measure it?",
+        "What is Gaussian curvature and what does it tell us about surfaces?",
+        "How does differential geometry describe curved spacetime?",
+        "What is a geodesic and why do airplanes fly on great circles?",
+        "How does GPS use the geometry of spacetime?"
+      ],
+      "tags": ["science", "mathematics", "geometry", "physics"]
+    },
+    {
+      "name": "Geometry in Higher Dimensions",
+      "topics": [
+        "What does it mean to work in four or more dimensions?",
+        "What is a hypercube and how do we visualize 4D objects?",
+        "What are the Platonic solids and their higher-dimensional analogs?",
+        "How many regular polytopes exist in each dimension?",
+        "Why does geometry behave differently in high dimensions?",
+        "What applications use high-dimensional geometry?"
+      ],
+      "tags": ["science", "mathematics", "geometry", "visualization"]
+    },
+    {
+      "name": "Applications of Geometry and Topology",
+      "topics": [
+        "How is topology used to analyze data?",
+        "What is computational geometry and what problems does it solve?",
+        "How does geometry enable computer-aided design?",
+        "What role does geometry play in robotics and motion planning?",
+        "How do physicists use topology to understand matter?",
+        "What are topological insulators and why are they important?"
+      ],
+      "tags": ["science", "mathematics", "applications", "technology"]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Musical Theatre: History, Theory, and Practice",
+  "chapters": [
+    {
+      "name": "Origins: Operetta and Vaudeville",
+      "topics": [
+        "How did European operetta by Gilbert and Sullivan influence American musicals?",
+        "What was vaudeville and how did it shape musical comedy traditions?",
+        "How did early American musical comedies like those of George M. Cohan work?",
+        "What role did revues and follies play in early 20th-century musical theatre?",
+        "How did Show Boat revolutionize the musical as a form in 1927?",
+        "What conventions from operetta and vaudeville survive in modern musicals?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Golden Age Musicals (1940s-1960s)",
+      "topics": [
+        "What made Oklahoma! a watershed moment for the integrated musical?",
+        "How did Rodgers and Hammerstein establish the book musical model?",
+        "What innovations did composers like Cole Porter, Irving Berlin, and Lerner and Loewe bring?",
+        "How did musicals like West Side Story and My Fair Lady push the form forward?",
+        "What social issues did Golden Age musicals address or avoid?",
+        "Why is this era still considered the benchmark for musical theatre?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Concept Musicals and Sondheim",
+      "topics": [
+        "What is a concept musical and how does it differ from a book musical?",
+        "How did Company and A Chorus Line change what musicals could be about?",
+        "What makes Stephen Sondheim's work distinctive in lyrics and music?",
+        "How do Sondheim's major works like Sweeney Todd and Sunday in the Park function?",
+        "What compositional techniques does Sondheim use in his scores?",
+        "Why is Sondheim considered the most influential figure in modern musical theatre?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "music"]
+    },
+    {
+      "name": "Rock Musicals and Contemporary Forms",
+      "topics": [
+        "How did Hair and Jesus Christ Superstar bring rock music to Broadway?",
+        "What made Rent a cultural phenomenon for a new generation?",
+        "How have hip-hop musicals like Hamilton transformed the form?",
+        "What distinguishes jukebox musicals from original-score shows?",
+        "How have musicals adapted pop and contemporary music styles?",
+        "What new voices and styles are shaping 21st-century musical theatre?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "music"]
+    },
+    {
+      "name": "Musical Theatre Acting and Performance",
+      "topics": [
+        "How does acting in musicals differ from acting in plays?",
+        "What skills do musical theatre performers need to integrate acting, singing, and dancing?",
+        "How do performers handle the transition from dialogue to song?",
+        "What audition techniques are specific to musical theatre?",
+        "How do performers maintain vocal and physical stamina for eight shows a week?",
+        "What training programs prepare performers for musical theatre careers?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "education"]
+    },
+    {
+      "name": "Music Direction and Vocal Coaching",
+      "topics": [
+        "What does a music director do in a musical theatre production?",
+        "How do music directors work with actors who have varying vocal abilities?",
+        "What is the rehearsal process for learning a musical score?",
+        "How do vocal coaches help performers develop healthy technique for belting?",
+        "What role does the conductor play during performances?",
+        "How do arrangements and orchestrations get created for productions?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "music"]
+    },
+    {
+      "name": "Choreography for Musical Theatre",
+      "topics": [
+        "How did choreographers like Jerome Robbins and Bob Fosse define musical staging?",
+        "What role does choreography play in storytelling within musicals?",
+        "How do choreographers work with directors on musical numbers?",
+        "What dance styles are most common in musical theatre?",
+        "How has musical theatre choreography evolved from dream ballets to contemporary movement?",
+        "What does the choreographer's process look like from concept to opening?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "dance"]
+    },
+    {
+      "name": "Book, Music, and Lyrics Integration",
+      "topics": [
+        "How do writers create songs that advance plot and develop character?",
+        "What makes a good 'I want' song and why do musicals need them?",
+        "How do composers and lyricists collaborate on creating songs?",
+        "What is the role of the book writer and how does dialogue serve songs?",
+        "How do reprises function dramatically in a musical?",
+        "What makes the best musicals feel like unified artistic works?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "music"]
+    },
+    {
+      "name": "Production and Design for Musicals",
+      "topics": [
+        "What special design considerations do musicals require for sets and costumes?",
+        "How do productions balance spectacle with storytelling?",
+        "What role does sound design play in musical theatre?",
+        "How do mega-musicals like Phantom and Les Misérables achieve their effects?",
+        "What challenges do touring productions face in adapting Broadway designs?",
+        "How are smaller-scale musicals reimagining production values?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "design"]
+    },
+    {
+      "name": "Contemporary Musical Theatre Trends",
+      "topics": [
+        "How has Broadway become increasingly dependent on film adaptations and revivals?",
+        "What role do development processes like readings and workshops play today?",
+        "How are streaming and filmed stage productions changing access to musicals?",
+        "What conversations about diversity and representation are reshaping musical theatre?",
+        "How are regional theatres and the West End influencing Broadway?",
+        "What does the future of musical theatre look like economically and artistically?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "innovation"]
+    }
+  ]
+}

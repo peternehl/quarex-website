@@ -1,0 +1,170 @@
+{
+  "_instructions": "Please expand this Quarex book seed into a complete book. Create as many chapters as necessary to cover the subject matter thoroughly. \nWithin chapter: Create 4-8 Topics in form of questions that users can click to explore.\nEach Topic should be a clear, curiosity-sparking question",
+  "_placement": {
+    "library_type": "perspectives-libraries",
+    "library": "historical-narratives",
+    "shelf": "racism"
+  },
+  "seed": {
+    "name": "A History of Racism in the Americas",
+    "created_by": "Peter Nehl and Claude Opus 4.5",
+    "chapters": [
+      {
+        "name": "Before Race: How Europeans Invented Racial Categories",
+        "topics": [
+          "Did concepts of 'race' exist before European colonization of the Americas?",
+          "How did Europeans justify colonization before racial ideology developed?",
+          "When and why did skin color become the primary marker of human difference?",
+          "How did Enlightenment thinkers contribute to 'scientific' racism?",
+          "Why did racial categories harden over time rather than dissolve?",
+          "How did the need for labor shape the invention of racial hierarchy?"
+        ],
+        "tags": ["origins", "racial-categories", "enlightenment", "ideology", "colonization"]
+      },
+      {
+        "name": "The Genocide of Indigenous Peoples",
+        "topics": [
+          "How many Indigenous people died in the first century after European contact?",
+          "What role did disease versus violence play in Indigenous population collapse?",
+          "How did different colonial powers treat Indigenous peoples differently?",
+          "What ideologies justified the displacement and killing of Native peoples?",
+          "How did Indigenous peoples resist colonization across the Americas?",
+          "Why do some historians call this a genocide while others dispute the term?"
+        ],
+        "tags": ["indigenous", "genocide", "colonization", "disease", "resistance"]
+      },
+      {
+        "name": "The Atlantic Slave Trade",
+        "topics": [
+          "How many Africans were forcibly transported to the Americas over four centuries?",
+          "Why did the slave trade concentrate in certain regions of Africa?",
+          "How did European nations compete for control of the slave trade?",
+          "What were conditions like on slave ships during the Middle Passage?",
+          "How did African kingdoms participate in or resist the slave trade?",
+          "Why did Brazil receive far more enslaved Africans than North America?"
+        ],
+        "tags": ["slave-trade", "atlantic", "middle-passage", "africa", "economics"]
+      },
+      {
+        "name": "Slavery in Colonial Latin America",
+        "topics": [
+          "How did Spain's 'casta' system create a racial hierarchy in its colonies?",
+          "Why was manumission more common in Latin America than in British colonies?",
+          "How did slavery in Brazil differ from slavery in Spanish America?",
+          "What roles did enslaved people play beyond plantation agriculture?",
+          "How did race mixing complicate rigid racial categories in Latin America?",
+          "Why did some historians once call Latin American slavery 'gentler'—and why is that view now rejected?"
+        ],
+        "tags": ["latin-america", "casta", "brazil", "spain", "manumission", "colonial"]
+      },
+      {
+        "name": "Slavery in British North America and the Caribbean",
+        "topics": [
+          "How did slavery in the Caribbean differ from slavery on the North American mainland?",
+          "Why did British colonies develop a rigid 'one-drop rule' for racial classification?",
+          "How did slavery become embedded in American law from the earliest colonial period?",
+          "What was daily life like for enslaved people on Southern plantations?",
+          "How did enslaved people resist through rebellion, escape, and everyday acts?",
+          "Why did slavery expand so dramatically after American independence?"
+        ],
+        "tags": ["british-colonies", "caribbean", "plantation", "resistance", "one-drop-rule"]
+      },
+      {
+        "name": "Abolition: Different Paths Across the Americas",
+        "topics": [
+          "Why did Haiti's slave revolution succeed when others failed?",
+          "How did Britain's abolition of the slave trade affect the Americas?",
+          "Why did slavery end gradually in some countries and suddenly in others?",
+          "What role did enslaved people themselves play in achieving abolition?",
+          "How did abolition in Brazil differ from abolition in the United States?",
+          "What economic and moral arguments drove the abolition movement?"
+        ],
+        "tags": ["abolition", "haiti", "emancipation", "activism", "economics"]
+      },
+      {
+        "name": "After Slavery: New Systems of Control",
+        "topics": [
+          "How did sharecropping and debt peonage recreate slavery's conditions?",
+          "What were 'Black Codes' and how did they restrict freedpeople's lives?",
+          "Why did Reconstruction's promise of equality collapse so quickly?",
+          "How did Latin American countries handle the transition from slavery differently?",
+          "What was convict leasing and why do historians call it 'slavery by another name'?",
+          "How did former slaveholding elites maintain power after abolition?"
+        ],
+        "tags": ["reconstruction", "sharecropping", "black-codes", "convict-leasing", "post-emancipation"]
+      },
+      {
+        "name": "Jim Crow and Legal Segregation",
+        "topics": [
+          "How did the Supreme Court enable segregation through Plessy v. Ferguson?",
+          "What did 'separate but equal' actually look like in practice?",
+          "How was segregation enforced through law, custom, and violence?",
+          "Why did lynching become a tool of racial terror in the American South?",
+          "How did Black Americans build institutions and communities despite Jim Crow?",
+          "What forms of segregation existed outside the South?"
+        ],
+        "tags": ["jim-crow", "segregation", "lynching", "plessy", "institution-building"]
+      },
+      {
+        "name": "Racism Against Indigenous Peoples in the Modern Era",
+        "topics": [
+          "How did 'Indian removal' policies dispossess Native peoples of their lands?",
+          "What were residential and boarding schools, and what was their impact?",
+          "How have Indigenous peoples in Latin America faced discrimination differently?",
+          "Why do Indigenous peoples in the Americas still have lower life expectancy and income?",
+          "How have Indigenous rights movements emerged across the hemisphere?",
+          "What does sovereignty mean for Indigenous nations today?"
+        ],
+        "tags": ["indigenous", "removal", "boarding-schools", "sovereignty", "land-rights"]
+      },
+      {
+        "name": "The Myth of Racial Democracy in Latin America",
+        "topics": [
+          "What is 'racial democracy' and why did Brazil promote this idea?",
+          "How does colorism operate differently in Latin America than in the U.S.?",
+          "What evidence contradicts claims that Latin America overcame racism?",
+          "How do racial disparities in wealth and power persist in Latin American nations?",
+          "Why has Afro-Latino identity become more politically visible in recent decades?",
+          "How do Indigenous peoples experience racism in countries that claim mestizo identity?"
+        ],
+        "tags": ["racial-democracy", "brazil", "colorism", "afro-latino", "mestizo", "myth"]
+      },
+      {
+        "name": "Civil Rights Movements Across the Americas",
+        "topics": [
+          "What strategies made the U.S. Civil Rights Movement successful?",
+          "How did Black movements in Brazil differ from those in the United States?",
+          "What role did international pressure play in advancing civil rights?",
+          "How have Indigenous rights movements achieved recognition across the hemisphere?",
+          "Why did some civil rights gains prove durable while others eroded?",
+          "How did women of color shape civil rights movements often led by men?"
+        ],
+        "tags": ["civil-rights", "activism", "brazil", "indigenous-rights", "strategy"]
+      },
+      {
+        "name": "Immigration, Exclusion, and Racial Boundaries",
+        "topics": [
+          "How did immigration laws across the Americas enforce racial preferences?",
+          "Why did the U.S. exclude Chinese, Japanese, and other Asian immigrants?",
+          "How did Latin American countries encourage European immigration to 'whiten' their populations?",
+          "What happened to Asian and Middle Eastern immigrant communities in the Americas?",
+          "How have debates over immigration reflected and reinforced racial anxieties?",
+          "Why do racial categories for immigrants shift over time?"
+        ],
+        "tags": ["immigration", "exclusion", "whitening", "asian-americans", "policy"]
+      },
+      {
+        "name": "Contemporary Racism: What Has Changed, What Hasn't",
+        "topics": [
+          "How do racial disparities in wealth, health, and incarceration persist today?",
+          "What does research reveal about ongoing discrimination in housing and employment?",
+          "How has racism adapted to an era when explicit prejudice is less socially acceptable?",
+          "Why do racial justice movements keep emerging despite legal equality?",
+          "How do countries across the Americas compare on measures of racial inequality?",
+          "What would it take for the Americas to overcome their racial histories?"
+        ],
+        "tags": ["contemporary", "disparities", "discrimination", "movements", "persistence"]
+      }
+    ]
+  }
+}

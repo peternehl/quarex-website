@@ -1,0 +1,43 @@
+{
+  "name": "Arizona",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Andy Biggs (R)",
+        "David Schweikert (R)",
+        "Karrin Taylor Robson (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "elections",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Katie Hobbs (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "William Pounds (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

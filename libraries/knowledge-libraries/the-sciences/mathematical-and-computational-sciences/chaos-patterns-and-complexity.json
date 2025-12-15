@@ -1,0 +1,126 @@
+{
+  "name": "Chaos, Patterns, and Complexity",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Chaos?",
+      "topics": [
+        "What does chaos mean in mathematics and science?",
+        "How can deterministic systems produce unpredictable behavior?",
+        "What is sensitive dependence on initial conditions?",
+        "How did Edward Lorenz discover chaos while studying weather?",
+        "What is the butterfly effect and is it real?",
+        "Why does chaos not mean randomness?"
+      ],
+      "tags": ["science", "mathematics", "complexity", "physics"]
+    },
+    {
+      "name": "Strange Attractors",
+      "topics": [
+        "What is an attractor in a dynamical system?",
+        "What makes strange attractors different from regular attractors?",
+        "What does the Lorenz attractor look like and what does it represent?",
+        "How do chaotic systems stay bounded while being unpredictable?",
+        "What is fractal dimension and how does it apply to attractors?",
+        "Where do strange attractors appear in nature?"
+      ],
+      "tags": ["science", "mathematics", "complexity", "visualization"]
+    },
+    {
+      "name": "Fractals",
+      "topics": [
+        "What is a fractal and what makes it self-similar?",
+        "How did Benoit Mandelbrot discover and name fractals?",
+        "What is the Mandelbrot set and how is it generated?",
+        "How long is the coastline of Britain and why is that a strange question?",
+        "Where do fractal patterns appear in nature: trees, rivers, lungs?",
+        "How are fractals used in computer graphics and compression?"
+      ],
+      "tags": ["science", "mathematics", "visualization", "nature"]
+    },
+    {
+      "name": "Nonlinear Dynamics",
+      "topics": [
+        "What makes a system linear versus nonlinear?",
+        "Why are nonlinear systems so much harder to analyze?",
+        "What is a bifurcation and how do systems change behavior suddenly?",
+        "How does the logistic map show the route to chaos?",
+        "What is period doubling and what is universal about it?",
+        "How do feedback loops create complex behavior?"
+      ],
+      "tags": ["science", "mathematics", "complexity", "systems-thinking"]
+    },
+    {
+      "name": "Emergence and Self-Organization",
+      "topics": [
+        "What does it mean for complexity to emerge from simple rules?",
+        "How do flocking birds and schooling fish coordinate without leaders?",
+        "What is self-organization and how does it happen?",
+        "How do patterns form in chemical reactions like Belousov-Zhabotinsky?",
+        "What creates the stripes on zebras and spots on leopards?",
+        "Why does the whole seem greater than the sum of its parts?"
+      ],
+      "tags": ["science", "complexity", "biology", "systems-thinking"]
+    },
+    {
+      "name": "Cellular Automata",
+      "topics": [
+        "What is a cellular automaton and how does it work?",
+        "What surprising behaviors did Conway's Game of Life reveal?",
+        "How can simple rules generate complex patterns?",
+        "What is Wolfram's classification of cellular automaton behavior?",
+        "Can cellular automata compute anything a computer can?",
+        "How are cellular automata used to model physical systems?"
+      ],
+      "tags": ["science", "mathematics", "computer-science", "simulation"]
+    },
+    {
+      "name": "Network Science",
+      "topics": [
+        "What is a network and how do we study network structure?",
+        "What are small-world networks and why are there six degrees of separation?",
+        "What are scale-free networks and why do hubs matter?",
+        "How do diseases and information spread through networks?",
+        "What makes some networks robust and others fragile?",
+        "How does network structure affect social media and the internet?"
+      ],
+      "tags": ["science", "complexity", "systems-thinking", "sociology"]
+    },
+    {
+      "name": "Complexity in Living Systems",
+      "topics": [
+        "What makes living systems complex?",
+        "How do ecosystems maintain stability or collapse?",
+        "What is the edge of chaos and why might life exist there?",
+        "How do complex systems adapt and evolve?",
+        "What is swarm intelligence and how do ants solve complex problems?",
+        "Can complexity science explain consciousness?"
+      ],
+      "tags": ["science", "complexity", "biology", "ecology"]
+    },
+    {
+      "name": "Predictability and Limits",
+      "topics": [
+        "Why can't we predict the weather beyond about two weeks?",
+        "What is the practical limit of prediction for chaotic systems?",
+        "How do scientists make useful predictions despite chaos?",
+        "What is ensemble forecasting and how does it handle uncertainty?",
+        "Can machine learning predict chaotic systems better?",
+        "What does chaos mean for free will and determinism?"
+      ],
+      "tags": ["science", "complexity", "epistemology", "philosophy"]
+    },
+    {
+      "name": "Applications of Complexity Science",
+      "topics": [
+        "How does complexity science help us understand economics and markets?",
+        "What can complexity teach us about cities and urban planning?",
+        "How do complex systems ideas apply to organizational management?",
+        "What role does complexity play in understanding climate?",
+        "How might complexity science help with pandemics and public health?",
+        "What are the limits of applying complexity science to real problems?"
+      ],
+      "tags": ["science", "complexity", "systems-thinking", "applications"]
+    }
+  ]
+}

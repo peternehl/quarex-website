@@ -1,0 +1,38 @@
+{
+  "name": "TX-35",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Joshua Cortez (R)",
+        "Carlos De La Cruz (R)",
+        "Jay Furman (R)",
+        "Ryan Krause (R)",
+        "John Lujan (R)",
+        "Steven Wright (R)",
+        "Christopher Schuchardt (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Johnny Garcia (D)",
+        "John Lira (D)",
+        "Whitney Masterson-Moyes (D)",
+        "Greg Casar (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

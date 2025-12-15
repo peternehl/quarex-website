@@ -1,0 +1,32 @@
+{
+  "name": "Connecticut",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ryan Fazio (R)",
+        "Erin Stewart (R)",
+        "Timothy Wilcox (R)"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ned Lamont (D)",
+        "Joshua Elliott (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

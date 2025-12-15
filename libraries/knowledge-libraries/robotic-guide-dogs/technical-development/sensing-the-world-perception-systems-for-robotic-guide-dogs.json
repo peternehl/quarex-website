@@ -1,0 +1,50 @@
+{
+  "name": "Sensing the World: Perception Systems for Robotic Guide Dogs",
+  "chapters": [
+    {
+      "name": "Vision, Depth, and Obstacle Detection",
+      "topics": [
+        "How can cameras, lidar, radar, and ultrasonic sensors be combined to provide robust obstacle detection in complex environments?",
+        "What challenges arise in perceiving small or partially occluded hazards such as low-hanging branches or open manholes?",
+        "How can perception systems maintain performance under difficult conditions like glare, rain, or nighttime lighting?",
+        "What strategies can reduce false positives and false negatives in obstacle detection without compromising safety?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "robotics",
+        "ai-ml"
+      ]
+    },
+    {
+      "name": "Localization, Mapping, and Wayfinding",
+      "topics": [
+        "How can robotic guide dogs localize themselves accurately when GPS is unreliable or unavailable, such as indoors or in dense cities?",
+        "What approaches to mapping and semantic annotation best support safe navigation for blind users?",
+        "How can robots handle dynamic changes in the environment, such as construction zones or temporary barriers, while guiding?",
+        "In what ways can shared maps, crowd-sourced data, and cloud services improve navigation reliability and efficiency?"
+      ],
+      "tags": [
+        "technology",
+        "innovation",
+        "robotics",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "Human, Traffic, and Context Awareness",
+      "topics": [
+        "How can a robotic guide dog recognize and interpret pedestrians, cyclists, vehicles, and traffic signals in a user-centric way?",
+        "What forms of context awareness are needed to handle social norms like yielding, queueing, and passing in crowded spaces?",
+        "How should the robot detect and respond to emergency situations, such as sirens, alarms, or unsafe behavior nearby?",
+        "How can perception systems be tuned to prioritize information that is most relevant to the user's safety and comfort?"
+      ],
+      "tags": [
+        "technology",
+        "human-rights",
+        "accessibility",
+        "robotics"
+      ]
+    }
+  ]
+}

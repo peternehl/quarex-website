@@ -1,0 +1,125 @@
+{
+  "name": "Directing for Stage and Screen",
+  "chapters": [
+    {
+      "name": "Director's Vision and Concept",
+      "topics": [
+        "How does a director develop an interpretive concept for a production?",
+        "What does it mean to have a directorial 'point of view' on a script?",
+        "How do directors balance their vision with the playwright's intentions?",
+        "What research and preparation do directors do before rehearsals begin?",
+        "How do directors communicate their concept to designers and actors?",
+        "What makes some directors' visions groundbreaking while others feel gimmicky?"
+      ],
+      "tags": ["arts", "critical-thinking", "performing-arts", "theater"]
+    },
+    {
+      "name": "Script Analysis for Directors",
+      "topics": [
+        "How do directors break down a script's structure, themes, and given circumstances?",
+        "What questions should directors ask when analyzing a play or screenplay?",
+        "How do directors identify the spine or super-objective of a work?",
+        "What textual clues help directors understand character relationships?",
+        "How does a director's analysis differ from an actor's or scholar's?",
+        "What tools like beat breakdowns and event maps help directors prepare?"
+      ],
+      "tags": ["arts", "critical-thinking", "performing-arts", "theater"]
+    },
+    {
+      "name": "Casting and Working with Actors",
+      "topics": [
+        "How do directors run effective auditions and make casting decisions?",
+        "What techniques help directors communicate with actors of different training backgrounds?",
+        "How do directors give notes that help rather than confuse actors?",
+        "What is the director's role in helping actors find their characters?",
+        "How do directors handle conflicts and difficult personalities in rehearsal?",
+        "When should directors give specific direction versus let actors discover?"
+      ],
+      "tags": ["arts", "interpersonal-dynamics", "performing-arts", "theater"]
+    },
+    {
+      "name": "Blocking and Stage Composition",
+      "topics": [
+        "What principles of stage composition guide effective blocking?",
+        "How do directors use stage pictures to convey meaning and relationships?",
+        "What is the difference between organic blocking and pre-planned staging?",
+        "How do sightlines and different stage configurations affect blocking?",
+        "What do strong and weak stage positions communicate to audiences?",
+        "How do directors balance visual interest with actors' comfort and truth?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "visual-arts"]
+    },
+    {
+      "name": "Rehearsal Techniques and Process",
+      "topics": [
+        "How do directors structure a rehearsal schedule from first read to opening?",
+        "What happens in table work, blocking rehearsals, and run-throughs?",
+        "How do directors adjust their process for different genres and styles?",
+        "What techniques help directors use limited rehearsal time effectively?",
+        "How do directors balance exploration with the need to set the production?",
+        "What distinguishes professional rehearsal processes from educational ones?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "education"]
+    },
+    {
+      "name": "Collaborating with Designers",
+      "topics": [
+        "How do directors communicate their vision to set, costume, lighting, and sound designers?",
+        "What happens in design meetings and how do directors lead them?",
+        "How do directors integrate design elements into the rehearsal process?",
+        "What do directors need to know about technical theatre capabilities?",
+        "How do directors handle disagreements with designers about creative choices?",
+        "What makes the director-designer collaboration successful?"
+      ],
+      "tags": ["arts", "interpersonal-dynamics", "performing-arts", "theater"]
+    },
+    {
+      "name": "Film Directing Fundamentals",
+      "topics": [
+        "How does film directing differ from stage directing in approach and skills?",
+        "What does a film director do in pre-production, production, and post?",
+        "How do directors work with cinematographers to plan coverage?",
+        "What is the director's role in working with actors on a film set?",
+        "How do directors maintain creative vision across months of fragmented shooting?",
+        "What distinguishes auteur directors from directors-for-hire?"
+      ],
+      "tags": ["arts", "film", "performing-arts", "media"]
+    },
+    {
+      "name": "Camera Placement and Movement",
+      "topics": [
+        "What are the basic shot types and when does each serve the story?",
+        "How do directors use camera angles to affect audience perception?",
+        "What motivates camera movement: dollies, pans, tilts, handheld?",
+        "How do directors plan coverage to give editors options in post?",
+        "What is shot-reverse-shot and how do directors use it in dialogue scenes?",
+        "How do directors balance efficiency with getting the coverage they need?"
+      ],
+      "tags": ["arts", "film", "performing-arts", "visual-arts"]
+    },
+    {
+      "name": "Editing and Post-Production",
+      "topics": [
+        "What role does the director play in the editing room?",
+        "How do directors work with editors to shape performance and pacing?",
+        "What is the difference between director's cut and final cut?",
+        "How do music, sound design, and color grading complete the director's vision?",
+        "What choices in the edit can save or sink a film?",
+        "How has digital editing changed the director's post-production process?"
+      ],
+      "tags": ["arts", "film", "performing-arts", "media"]
+    },
+    {
+      "name": "Contemporary Directing Practices",
+      "topics": [
+        "How has devised and collaborative creation changed the director's role?",
+        "What new skills do directors need for immersive and site-specific work?",
+        "How are directors working across stage, screen, and digital platforms?",
+        "What conversations about diversity and inclusion are reshaping directing?",
+        "How do directors navigate intimacy coordination and trauma-informed practices?",
+        "What career paths exist for emerging directors in theatre and film?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "innovation"]
+    }
+  ]
+}

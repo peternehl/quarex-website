@@ -1,0 +1,42 @@
+{
+  "name": "OH-13",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Margaret Briem (R)",
+        "Kevin Coughlin (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Emilia Sykes (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Sandeep Dixit (I)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "us-politics"
+      ]
+    }
+  ]
+}

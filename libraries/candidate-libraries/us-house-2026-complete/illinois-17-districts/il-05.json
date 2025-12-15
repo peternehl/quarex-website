@@ -1,0 +1,35 @@
+{
+  "name": "IL-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tom Hanson (R)",
+        "Kimball Ladien (R)",
+        "Barry Wicker (R)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mike Quigley (D)",
+        "Jonathan Bishop (D)",
+        "Matthew Conroy (D)",
+        "Ellen Corley (D)",
+        "Anthony Michael Tamez (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}

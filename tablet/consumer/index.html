@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthAngel - Safe Knowledge Explorer</title>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="/assets/truthangel-logo-500.png">
+    <style>
+        /* Loading screen while redirect happens */
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0A0A0A;
+            color: #F7F7F7;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .loading {
+            font-size: 1.5rem;
+        }
+        .loading img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 1rem;
+        }
+        .loading p {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: #A0A0A0;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading">
+        <img src="/assets/truthangel-logo-500.png" alt="TruthAngel">
+        <div>TruthAngel</div>
+        <p>Loading...</p>
+    </div>
+
+    <script>
+        // Set tablet mode in sessionStorage for persistence
+        sessionStorage.setItem('TABLET_MODE', 'consumer');
+        window.TABLET_MODE = 'consumer';
+
+        // Redirect to unlimited - the config will pick up the mode from sessionStorage
+        window.location.replace('/unlimited/');
+    </script>
+</body>
+</html>

@@ -1,0 +1,1486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMVLTZ6BB5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TMVLTZ6BB5');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quarex • Ask the Living Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- CJK font support: Chinese (Simplified & Traditional), Japanese, Korean -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600&family=Noto+Sans+TC:wght@400;600&family=Noto+Sans+JP:wght@400;600&family=Noto+Sans+KR:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Tablet Configuration System -->
+  <script>
+    // Read tablet mode from URL parameter and set it before config loads
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const tabletMode = params.get('tablet');
+      if (tabletMode) {
+        window.TABLET_MODE = tabletMode;
+      }
+    })();
+  </script>
+  <script src="/tablet/tablet-config.js"></script>
+  <style>
+    :root{
+      --bg:#0a0f1a; --panel:#0f1726; --ink:#e6eefc; --muted:#b6c3df; --brand:#7aa7ff; --ring:rgba(122,167,255,.5);
+      --shadow:0 10px 30px rgba(0,0,0,.35); --radius:18px
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+                   "Noto Sans SC", "Noto Sans TC", "Noto Sans JP", "Noto Sans KR",
+                   "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Hiragino Kaku Gothic Pro",
+                   "Microsoft YaHei", "Microsoft JhengHei", "Yu Gothic", "Malgun Gothic",
+                   Arial, Helvetica, sans-serif;
+      color:var(--ink);
+      background: radial-gradient(900px 500px at 90% -10%, rgba(122,167,255,.12), transparent), var(--bg)
+    }
+    a{ color:var(--brand); text-decoration:none }
+    a:hover{ text-decoration:underline }
+    .wrap{ max-width:1100px; margin:0 auto; padding:28px 20px 80px }
+    .nav{ display:flex; align-items:center; justify-content:space-between }
+    .brand{ display:flex; align-items:center; gap:12px; font-weight:800 }
+    .halo{ width:32px; height:32px; border-radius:50%; background:conic-gradient(from 0deg, rgba(155,232,255,.8), rgba(122,167,255,.9), rgba(155,232,255,.8)); box-shadow:0 0 18px rgba(122,167,255,.7) }
+    .back{ display:inline-flex; align-items:center; gap:8px; border:1px solid rgba(122,167,255,.35); padding:8px 12px; border-radius:999px; position:fixed; top:20px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px) }
+    .lang-select{ position:fixed; top:70px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px); border:1px solid rgba(122,167,255,.35); padding:6px 10px; border-radius:12px; color:var(--ink); font-size:.9rem; cursor:pointer; outline:none }
+    .lang-select:focus{ box-shadow:0 0 0 3px var(--ring) }
+
+    /* Single-column layout */
+    .columns{ display:block; margin-top:20px }
+    .chat{
+      background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:var(--radius);
+      min-height:calc(100vh - 160px);
+      display:flex; flex-direction:column;
+      box-shadow:var(--shadow)
+    }
+
+    /* Context bar */
+    .context-bar{
+      margin:10px 18px 0; padding:8px 12px;
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:12px; background:rgba(255,255,255,.04);
+      color:var(--muted); font-size:.95rem;
+    }
+    .context-bar b{ color:#dfe9ff }
+
+    /* Messages + bubbles */
+    .messages{ flex:1; overflow:auto; padding:18px; display:flex; flex-direction:column; gap:12px; scroll-behavior:smooth }
+    .bubble{ max-width:78%; padding:12px 14px; border-radius:14px; line-height:1.5 }
+    .me{ align-self:flex-end; background:linear-gradient(180deg, rgba(155,232,255,.22), rgba(122,167,255,.18)); border:1px solid rgba(122,167,255,.35) }
+    .ai{ align-self:flex-start; background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.10) }
+    .bubble.thinking{ opacity:.85; font-style:italic }
+
+    /* Composer */
+    .composer{
+      position:sticky; bottom:0;
+      display:grid; grid-template-columns: auto 1fr auto auto; gap:10px;
+      padding:12px 12px 6px; border-top:1px solid rgba(255,255,255,.08);
+      background:linear-gradient(180deg, rgba(10,15,26,0.85), rgba(10,15,26,1));
+      backdrop-filter:saturate(1.2) blur(2px);
+    }
+    .composer input{
+      flex:1; background:#0c1322; color:var(--ink);
+      border:1px solid rgba(122,167,255,.25); border-radius:12px; padding:12px 14px; outline:none
+    }
+    .composer input:focus{ box-shadow:0 0 0 3px var(--ring) }
+    .composer button{
+      background:linear-gradient(180deg, rgba(155,232,255,.22), rgba(122,167,255,.18));
+      color:var(--ink); border:1px solid rgba(122,167,255,.35);
+      border-radius:12px; padding:8px 14px; font-weight:700; cursor:pointer; font-size:0.9rem;
+      display:flex; flex-direction:column; align-items:center; gap:6px;
+    }
+    .composer button img{
+      width:32px; height:32px; display:block;
+    }
+    #send[disabled]{ opacity:.6; cursor:not-allowed }
+    #copyLocal, #copyQA{
+      background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.05));
+      border:1px solid rgba(255,255,255,.2);
+    }
+    #copyLocal:hover, #copyQA:hover{
+      background:linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.08));
+    }
+    #copyQA[disabled]{
+      opacity:.4; cursor:not-allowed;
+    }
+    .copy-feedback{
+      position:fixed; bottom:80px; right:20px;
+      background:rgba(122,167,255,.95); color:#fff;
+      padding:12px 20px; border-radius:8px;
+      box-shadow:0 4px 12px rgba(0,0,0,.3);
+      font-size:.9rem; font-weight:600;
+      animation:slideIn 0.3s ease-out;
+      z-index:9999;
+    }
+    @keyframes slideIn{
+      from{ transform:translateY(20px); opacity:0 }
+      to{ transform:translateY(0); opacity:1 }
+    }
+
+    /* Ask input textarea */
+    .ask-input{
+	  width:100%;
+	  min-height:2.2em;
+	  max-height:50vh;
+	  padding:.5rem .7rem;
+	  font-size:0.9rem;
+	  line-height:1.3;
+	  border:1px solid rgba(122,167,255,.15);
+	  border-radius:12px;
+	  background:#0a0e18; color:rgba(230,238,252,.6);
+	  resize:none;
+	  overflow:auto;
+	  box-sizing:border-box;
+	  cursor:not-allowed;
+	  opacity:0.7;
+	}
+
+    /* ========================================
+       MOBILE RESPONSIVE STYLES
+       ======================================== */
+
+    /* Tablet and below (768px) */
+    @media (max-width: 768px) {
+      .wrap {
+        padding: 20px 16px 60px;
+      }
+
+      .nav {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .brand {
+        font-size: 0.95rem;
+      }
+
+      .halo {
+        width: 28px;
+        height: 28px;
+      }
+
+      .back {
+        top: 16px;
+        right: 16px;
+        padding: 6px 10px;
+        font-size: 0.9rem;
+      }
+
+      .lang-select {
+        top: 60px;
+        right: 16px;
+        padding: 5px 8px;
+        font-size: 0.85rem;
+      }
+
+      .chat {
+        min-height: calc(100vh - 140px);
+      }
+
+      .context-bar {
+        margin: 8px 12px 0;
+        padding: 6px 10px;
+        font-size: 0.9rem;
+      }
+
+      .messages {
+        padding: 12px;
+        gap: 10px;
+      }
+
+      .bubble {
+        max-width: 85%;
+        padding: 10px 12px;
+        font-size: 0.95rem;
+      }
+
+      .composer {
+        grid-template-columns: auto 1fr auto;
+        gap: 8px;
+        padding: 10px 10px 5px;
+      }
+
+      /* Hide "Copy Q&A" button on mobile to save space */
+      #copyQA {
+        display: none;
+      }
+
+      .composer button {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+      }
+
+      .composer button img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .ask-input {
+        min-height: 1.5em;
+        max-height: 20vh;
+        font-size: 0.85rem;
+        padding: 0.4rem 0.6rem;
+      }
+
+      .copy-feedback {
+        bottom: 70px;
+        right: 16px;
+        font-size: 0.85rem;
+      }
+
+      .followup-buttons {
+        gap: 6px;
+        margin-top: 10px;
+      }
+
+      .followup-btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Mobile phones (480px and below) */
+    @media (max-width: 480px) {
+      body {
+        font-size: 14px;
+      }
+
+      .wrap {
+        padding: 16px 12px 50px;
+      }
+
+      .brand {
+        font-size: 0.9rem;
+        gap: 8px;
+      }
+
+      .halo {
+        width: 24px;
+        height: 24px;
+      }
+
+      .back {
+        top: 12px;
+        right: 12px;
+        padding: 5px 8px;
+        font-size: 0.85rem;
+        gap: 4px;
+      }
+
+      .lang-select {
+        top: 55px;
+        right: 12px;
+        padding: 4px 6px;
+        font-size: 0.8rem;
+      }
+
+      .columns {
+        margin-top: 16px;
+      }
+
+      .chat {
+        border-radius: 14px;
+        min-height: calc(100vh - 120px);
+      }
+
+      .context-bar {
+        margin: 6px 10px 0;
+        padding: 5px 8px;
+        font-size: 0.85rem;
+      }
+
+      .messages {
+        padding: 10px;
+        gap: 8px;
+      }
+
+      .bubble {
+        max-width: 90%;
+        padding: 8px 10px;
+        font-size: 0.9rem;
+        border-radius: 12px;
+      }
+
+      .composer {
+        grid-template-columns: 1fr auto;
+        gap: 6px;
+        padding: 8px 8px 4px;
+      }
+
+      /* Hide "Ask Local" button on very small screens */
+      #copyLocal {
+        display: none;
+      }
+
+      .composer button {
+        padding: 8px;
+        gap: 4px;
+      }
+
+      .composer button img {
+        width: 28px;
+        height: 28px;
+      }
+
+      .composer button span {
+        font-size: 0.75rem;
+      }
+
+      .ask-input {
+        font-size: 16px; /* Prevents zoom on iOS */
+      }
+
+      .followup-btn {
+        padding: 7px 10px;
+        font-size: 0.85rem;
+        max-height: 50px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+
+      .ask-input {
+        max-height: 50px;
+      }
+
+      footer {
+        font-size: 0.8rem;
+        padding: 16px 0;
+      }
+    }
+
+    /* Very small screens (360px and below) */
+    @media (max-width: 360px) {
+      .brand {
+        font-size: 0.85rem;
+      }
+
+      .back {
+        padding: 4px 6px;
+        font-size: 0.8rem;
+      }
+
+      .composer button {
+        padding: 6px;
+      }
+
+      .composer button img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .composer button span {
+        font-size: 0.7rem;
+      }
+    }
+
+    /* Follow-up question buttons */
+    .followup-buttons{
+      display:flex; flex-direction:column; gap:8px; margin-top:12px;
+    }
+    .followup-btn{
+      background:rgba(122,167,255,.12); border:1px solid rgba(122,167,255,.35);
+      color:var(--ink); padding:10px 14px; border-radius:10px; text-align:left;
+      cursor:pointer; font-size:.95rem; line-height:1.4;
+      white-space: normal; word-wrap: break-word; overflow-wrap: break-word;
+    }
+    .followup-btn:hover{
+      background:rgba(122,167,255,.2); border-color:rgba(122,167,255,.5);
+    }
+
+    /* Sources section */
+    .sources {
+      margin: 10px 0 0;
+      padding: 10px 12px;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 10px;
+      background: rgba(255,255,255,.04);
+      font-size: .95rem;
+    }
+    .sources b { color: #dfe9ff; }
+    .sources ul { margin: 6px 0 0 18px; padding: 0; }
+    .sources li { margin: 4px 0; }
+    .sources a { text-decoration: underline; }
+
+    /* Related Topics section (discovery feature) */
+    .related-topics {
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,.1);
+    }
+    .related-topics-header {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .related-topics-header::before {
+      content: '🔗';
+    }
+    .related-topic-btn {
+      display: block;
+      background: rgba(147, 51, 234, 0.12);
+      border: 1px solid rgba(147, 51, 234, 0.35);
+      color: var(--ink);
+      padding: 10px 14px;
+      border-radius: 10px;
+      text-align: left;
+      cursor: pointer;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      margin-bottom: 6px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .related-topic-btn:hover {
+      background: rgba(147, 51, 234, 0.2);
+      border-color: rgba(147, 51, 234, 0.5);
+      text-decoration: none;
+    }
+    .related-topic-btn .topic-name {
+      font-weight: 600;
+      display: block;
+    }
+    .related-topic-btn .topic-path {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    .related-topic-btn .topic-type {
+      display: inline-block;
+      background: rgba(147, 51, 234, 0.3);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      margin-top: 4px;
+    }
+
+    /* ========================================
+       SEQUENTIAL MODE STYLES
+       ======================================== */
+    body.sequential-mode .followup-buttons {
+      display: none !important;
+    }
+    .progress-bar{
+      margin:10px 18px 0; padding:10px 14px;
+      border:1px solid rgba(251,191,36,.3);
+      border-radius:12px; background:rgba(251,191,36,.08);
+      color:var(--ink); font-size:.9rem;
+      display:none; align-items:center; gap:12px;
+    }
+    body.sequential-mode .progress-bar:not([hidden]) {
+      display:flex;
+    }
+    .progress-bar .progress-text{
+      flex:1;
+    }
+    .progress-bar .progress-track{
+      width:120px; height:6px;
+      background:rgba(255,255,255,.1);
+      border-radius:3px; overflow:hidden;
+    }
+    .progress-bar .progress-fill{
+      height:100%; background:linear-gradient(90deg, #fbbf24, #f59e0b);
+      border-radius:3px; transition:width 0.3s ease;
+    }
+    .progress-bar b{ color:#fbbf24 }
+
+    .book-complete{
+      text-align:center; padding:40px 20px;
+      background:linear-gradient(180deg, rgba(251,191,36,.1), rgba(251,191,36,.05));
+      border:1px solid rgba(251,191,36,.3);
+      border-radius:16px; margin:20px 0;
+    }
+    .book-complete h3{
+      font-size:1.5rem; color:#fbbf24; margin:0 0 10px;
+    }
+    .book-complete p{
+      color:var(--muted); margin:0;
+    }
+
+    .next-topic-preview{
+      background:rgba(122,167,255,.08);
+      border:1px solid rgba(122,167,255,.25);
+      border-radius:10px; padding:12px 16px;
+      margin-top:16px; color:var(--muted); font-size:.9rem;
+    }
+    .next-topic-preview b{ color:var(--ink) }
+
+    /* Sequential mode table of contents */
+    .seq-toc{
+      text-align:left; margin-top:20px;
+    }
+    .seq-toc-chapter{
+      margin:16px 0 8px; font-weight:600; color:#fbbf24; font-size:1rem;
+    }
+    .seq-toc-topic{
+      display:block; padding:8px 12px; margin:4px 0 4px 16px;
+      background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1);
+      border-radius:8px; color:var(--ink); font-size:.9rem;
+      cursor:pointer; transition:all .2s; text-align:left;
+    }
+    .seq-toc-topic:hover{
+      background:rgba(122,167,255,.15); border-color:rgba(122,167,255,.4);
+      transform:translateX(4px);
+    }
+    .seq-start-btn{
+      display:inline-block; margin:20px 0; padding:14px 28px;
+      background:linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+      border:none; border-radius:10px; color:#0A0A0A;
+      font-weight:600; font-size:1rem; cursor:pointer;
+      transition:transform .2s, box-shadow .2s;
+    }
+    .seq-start-btn:hover{
+      transform:translateY(-2px);
+      box-shadow:0 4px 12px rgba(251,191,36,.4);
+    }
+
+    /* ========================================
+       TABLET MODE STYLES
+       ======================================== */
+
+    /* Senior mode - larger everything */
+    body.tablet-mode-senior {
+      font-size: 18px;
+    }
+
+    body.tablet-mode-senior .brand {
+      font-size: 1.3rem;
+    }
+
+    body.tablet-mode-senior .halo {
+      width: 40px;
+      height: 40px;
+    }
+
+    body.tablet-mode-senior .bubble {
+      font-size: 1.15rem;
+      padding: 16px 18px;
+      max-width: 85%;
+    }
+
+    body.tablet-mode-senior .followup-btn {
+      font-size: 1.15rem;
+      padding: 14px 18px;
+    }
+
+    body.tablet-mode-senior .context-bar {
+      font-size: 1.1rem;
+      padding: 12px 16px;
+    }
+
+    body.tablet-mode-senior .composer button {
+      padding: 12px 18px;
+      font-size: 1rem;
+    }
+
+    body.tablet-mode-senior .composer button img {
+      width: 40px;
+      height: 40px;
+    }
+
+    body.tablet-mode-senior .ask-input {
+      font-size: 1.1rem;
+      padding: 0.7rem 1rem;
+    }
+
+    body.tablet-mode-senior .sources {
+      font-size: 1.1rem;
+    }
+
+    body.tablet-mode-senior .back {
+      padding: 12px 18px;
+      font-size: 1.1rem;
+    }
+
+    body.tablet-mode-senior .lang-select {
+      font-size: 1.1rem;
+      padding: 10px 14px;
+    }
+
+    /* Senior mode portrait - shorter follow-up buttons */
+    body.tablet-mode-senior .followup-btn {
+      padding: 10px 14px;
+      font-size: 1rem;
+      min-height: auto;
+      max-height: 60px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    /* Senior mode - compact composer area */
+    body.tablet-mode-senior .composer {
+      padding: 8px 10px 4px;
+      gap: 6px;
+    }
+
+    body.tablet-mode-senior .composer button {
+      padding: 8px 12px;
+      font-size: 0.85rem;
+    }
+
+    body.tablet-mode-senior .composer button img {
+      width: 28px;
+      height: 28px;
+    }
+
+    body.tablet-mode-senior .ask-input {
+      font-size: 0.95rem;
+      padding: 0.5rem 0.7rem;
+      min-height: 1.8em;
+      max-height: 60px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+	<header class="nav">
+	  <div class="brand"><span class="halo" aria-hidden="true"></span>Quarex</div>
+	  <a class="back" href="/living-book/" aria-label="Go back" onclick="return goBack(event)">← Back</a>
+	</header>
+
+	<select id="languageSelect" class="lang-select" aria-label="Select language">
+	  <option value="en">English</option>
+	  <option value="es">Español</option>
+	  <option value="it">Italiano</option>
+	  <option value="fr">Français</option>
+	  <option value="de">Deutsch</option>
+	  <option value="pt">Português</option>
+	  <option value="ar">العربية</option>
+	  <option value="hi">हिन्दी</option>
+	  <option value="ru">Русский</option>
+	  <option value="zh-CN">简体中文</option>
+	  <option value="zh-TW">繁體中文</option>
+	  <option value="ja">日本語</option>
+	  <option value="ko">한국어</option>
+	</select>
+
+
+    <section class="columns">
+      <div class="chat" role="region" aria-label="Chat with the Living Book">
+        <div id="contextBar" class="context-bar" hidden></div>
+        <div id="progressBar" class="progress-bar" hidden>
+          <span class="progress-text"><b id="progressChapter">Chapter 1</b> · <span id="progressTopic">Topic 1</span></span>
+          <div class="progress-track"><div id="progressFill" class="progress-fill" style="width:0%"></div></div>
+        </div>
+
+        <div id="messages" class="messages" aria-live="polite">
+          <div class="bubble ai">
+            Welcome... Be sure to click on any of the follow-up questions to explore deeper!
+          </div>
+        </div>
+
+        <div class="composer">
+          <button id="copyQA" title="Copy latest Q&A to clipboard" disabled>
+            <span style="font-size:24px">💬</span>
+            <span>Copy Q&A</span>
+          </button>
+
+			<textarea id="prompt" class="ask-input" placeholder="Click a follow-up question above..." readonly></textarea>
+
+          <button id="copyLocal" title="Copy question + context to clipboard">
+            <span style="font-size:24px">📋</span>
+            <span>Ask Local</span>
+          </button>
+
+          <button id="send">
+            <img src="../assets/quarex-hero-round-500pixels.png" alt="Quarex">
+            <span>Ask Quarex</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Apply tablet configuration if available
+    if (typeof applyTabletConfig === 'function') {
+      applyTabletConfig();
+    }
+
+    const elMessages = document.getElementById('messages');
+    const elPrompt   = document.getElementById('prompt');
+    const elSend     = document.getElementById('send');
+    const elCopyLocal = document.getElementById('copyLocal');
+    const elCopyQA   = document.getElementById('copyQA');
+    const elBar      = document.getElementById('contextBar');
+    const elLangSelect = document.getElementById('languageSelect');
+
+    // Track latest Q&A
+    let latestQuestion = '';
+    let latestAnswer = '';
+
+    // Language mapping
+    const languages = {
+      'en': 'English',
+      'es': 'Spanish',
+      'it': 'Italian',
+      'fr': 'French',
+      'de': 'German',
+      'pt': 'Portuguese',
+      'ar': 'Arabic',
+      'hi': 'Hindi',
+      'ru': 'Russian',
+      'zh-CN': 'Simplified Chinese',
+      'zh-TW': 'Traditional Chinese',
+      'ja': 'Japanese',
+      'ko': 'Korean'
+    };
+
+    // Load language preference from localStorage
+    const savedLang = localStorage.getItem('quarex_language') || 'en';
+    elLangSelect.value = savedLang;
+
+    // Save language preference when changed
+    elLangSelect.addEventListener('change', () => {
+      localStorage.setItem('quarex_language', elLangSelect.value);
+    });
+
+    // ---- URL params ----
+    const p        = new URLSearchParams(location.search);
+    // Auto-detect if running under a subdirectory (e.g., /Quarex/)
+    const SITE_PREFIX = window.location.pathname.includes('/Quarex/') ? '/Quarex' : '';
+    const book     = p.get('book');
+    const context  = p.get('context');
+    const chapter  = p.get('chapter');
+    const promptQ  = p.get('prompt');
+    const buttonQ  = p.get('q');
+    const autosend = p.get('autosend') === '1';
+    const tagsParam = p.get('tags');
+    const currentTags = tagsParam ? tagsParam.split(',') : [];
+    const currentBookSlug = p.get('bookSlug') || '';
+
+    // Sequential mode params
+    const seqMode    = p.get('mode') === 'sequential';
+    const seqLibrary = p.get('library');
+    const seqBook    = p.get('book');
+    const seqShelf   = p.get('shelf');
+    const seqFolder  = p.get('folder') || 'knowledge-libraries'; // default folder
+    const seqStart   = parseInt(p.get('start')) || 0; // starting topic index
+
+    // ---- Sequential Mode State ----
+    let sequentialData = null;  // The book's chapters/topics
+    let seqIndex = 0;           // Current position in flat topic list
+    let seqTopics = [];         // Flat array of {chapter, chapterIndex, topic, topicIndex}
+    let seqBookName = '';
+
+    const elProgressBar = document.getElementById('progressBar');
+    const elProgressChapter = document.getElementById('progressChapter');
+    const elProgressTopic = document.getElementById('progressTopic');
+    const elProgressFill = document.getElementById('progressFill');
+
+    // ---- Initialize Sequential Mode ----
+    async function initSequentialMode() {
+      console.log('initSequentialMode called');
+      console.log('seqLibrary:', seqLibrary, 'seqBook:', seqBook, 'seqFolder:', seqFolder);
+
+      if (!seqLibrary || !seqBook) {
+        console.error('Sequential mode requires library and book params');
+        return false;
+      }
+
+      try {
+        // Fetch the library JSON
+        const url = `${SITE_PREFIX}/libraries/${seqFolder}/${seqLibrary}.json`;
+        console.log('Fetching:', url);
+        const resp = await fetch(url);
+        console.log('Response status:', resp.status);
+        if (!resp.ok) throw new Error('Library not found: ' + url);
+        const libraryData = await resp.json();
+
+        // Find the book - search through shelves if present
+        let bookData = null;
+        if (libraryData.shelves) {
+          for (const shelf of libraryData.shelves) {
+            if (seqShelf && shelf.name !== seqShelf) continue;
+            const found = shelf.books?.find(b => b.name === seqBook);
+            if (found) { bookData = found; break; }
+          }
+        } else if (libraryData.books) {
+          bookData = libraryData.books.find(b => b.name === seqBook);
+        }
+
+        if (!bookData) throw new Error('Book not found in library: ' + seqBook);
+
+        console.log('Book found:', bookData.name);
+        sequentialData = bookData;
+        seqBookName = bookData.name;
+
+        // Build flat topic list
+        seqTopics = [];
+        bookData.chapters.forEach((ch, ci) => {
+          ch.topics.forEach((topic, ti) => {
+            seqTopics.push({
+              chapter: ch.name,
+              chapterIndex: ci,
+              chapterTotal: bookData.chapters.length,
+              topic: topic,
+              topicIndex: ti,
+              topicTotal: ch.topics.length
+            });
+          });
+        });
+
+        console.log('Built seqTopics:', seqTopics.length, 'topics');
+        if (seqTopics.length === 0) throw new Error('Book has no topics');
+
+        // Build table of contents HTML
+        let tocHtml = '';
+        let currentChapter = '';
+        seqTopics.forEach((item, index) => {
+          if (item.chapter !== currentChapter) {
+            currentChapter = item.chapter;
+            tocHtml += `<div class="seq-toc-chapter">${item.chapterIndex + 1}. ${escapeHtml(item.chapter)}</div>`;
+          }
+          tocHtml += `<button class="seq-toc-topic" onclick="jumpToTopic(${index})">${escapeHtml(item.topic)}</button>`;
+        });
+
+        // Update welcome message with TOC
+        elMessages.innerHTML = `
+          <div class="bubble ai">
+            <strong>${escapeHtml(seqBookName)}</strong><br><br>
+            This is a sequential reading experience. ${seqTopics.length} topics across ${bookData.chapters.length} chapters.<br>
+            <button class="seq-start-btn" onclick="jumpToTopic(0)">▶ Start from Beginning</button>
+            <div class="seq-toc">
+              <div style="color:var(--muted); margin-bottom:8px;">Or jump to any topic:</div>
+              ${tocHtml}
+            </div>
+          </div>
+        `;
+
+        // Show progress bar
+        elProgressBar.hidden = false;
+
+        // If start param provided, jump directly to that topic
+        if (seqStart > 0 && seqStart < seqTopics.length) {
+          jumpToTopic(seqStart);
+        } else {
+          updateProgress();
+          // Don't auto-load first topic - let user choose from TOC or click Start
+        }
+
+        return true;
+      } catch (err) {
+        console.error('Failed to init sequential mode:', err);
+        elMessages.innerHTML = `
+          <div class="bubble ai">
+            Error loading book: ${escapeHtml(err.message)}<br>
+            <a href="${SITE_PREFIX}/libraries/">Return to Libraries</a>
+          </div>
+        `;
+        return false;
+      }
+    }
+
+    function updateProgress() {
+      if (!seqTopics.length) return;
+      const current = seqTopics[seqIndex];
+      elProgressChapter.textContent = `Chapter ${current.chapterIndex + 1} of ${current.chapterTotal}`;
+      elProgressTopic.textContent = `Topic ${current.topicIndex + 1} of ${current.topicTotal}`;
+      const percent = ((seqIndex + 1) / seqTopics.length) * 100;
+      elProgressFill.style.width = percent + '%';
+    }
+
+    function loadCurrentTopic() {
+      if (seqIndex >= seqTopics.length) {
+        showBookComplete();
+        return;
+      }
+      const current = seqTopics[seqIndex];
+      // Build prompt with context
+      const parts = [
+        current.topic,
+        `Book: ${seqBookName}`,
+        `Chapter: ${current.chapter}`
+      ];
+      elPrompt.value = parts.join('\n\n');
+      elPrompt.dispatchEvent(new Event('input', { bubbles:true }));
+      updateProgress();
+
+      // Update context bar
+      elBar.innerHTML = `<b>Book:</b> ${escapeHtml(seqBookName)} &nbsp;•&nbsp; <b>Chapter:</b> ${escapeHtml(current.chapter)}`;
+      elBar.hidden = false;
+    }
+
+    // Jump to a specific topic (called from TOC)
+    function jumpToTopic(index) {
+      seqIndex = index;
+      // Clear the welcome/TOC message and show a clean slate
+      elMessages.innerHTML = `
+        <div class="bubble ai">
+          Starting at: <strong>${escapeHtml(seqTopics[index].chapter)}</strong> — ${escapeHtml(seqTopics[index].topic)}
+        </div>
+      `;
+      loadCurrentTopic();
+      elPrompt.focus();
+    }
+    // Make it globally accessible
+    window.jumpToTopic = jumpToTopic;
+
+    function advanceToNextTopic() {
+      seqIndex++;
+      if (seqIndex >= seqTopics.length) {
+        showBookComplete();
+      } else {
+        loadCurrentTopic();
+        // Show preview of next topic
+        showNextTopicPreview();
+      }
+    }
+
+    function showNextTopicPreview() {
+      // Remove existing preview
+      const existing = elMessages.querySelector('.next-topic-preview');
+      if (existing) existing.remove();
+
+      if (seqIndex >= seqTopics.length) return;
+
+      const next = seqTopics[seqIndex];
+      const preview = document.createElement('div');
+      preview.className = 'next-topic-preview';
+      preview.innerHTML = `<b>Next:</b> ${escapeHtml(next.topic)}`;
+      elMessages.appendChild(preview);
+      elMessages.scrollTop = elMessages.scrollHeight;
+    }
+
+    function showBookComplete() {
+      // Hide progress bar
+      elProgressBar.hidden = true;
+
+      // Clear prompt
+      elPrompt.value = '';
+
+      // Show completion message
+      const complete = document.createElement('div');
+      complete.className = 'book-complete';
+      complete.innerHTML = `
+        <h3>The End</h3>
+        <p>You have completed <strong>${escapeHtml(seqBookName)}</strong></p>
+        <p style="margin-top:16px"><a href="${SITE_PREFIX}/libraries/">Explore more books</a></p>
+      `;
+      elMessages.appendChild(complete);
+      elMessages.scrollTop = elMessages.scrollHeight;
+    }
+
+    // ---- Context bar (non-sequential) ----
+    const bits = [];
+    if (!seqMode) {
+      if (book)    bits.push(`<b>Book:</b> ${escapeHtml(book)}`);
+      if (context) bits.push(`<b>Context:</b> ${escapeHtml(context)}`);
+      if (chapter) bits.push(`<b>Chapter:</b> ${escapeHtml(chapter)}`);
+      if (bits.length){ elBar.innerHTML = bits.join(' &nbsp;•&nbsp; '); elBar.hidden = false; }
+    }
+
+    // ---- Prefill (non-sequential) ----
+    if (!seqMode) {
+      const prefill = [
+        buttonQ || '',
+        book    ? `Book: ${book}`     : '',
+        context ? `Context: ${context}` : '',
+        chapter ? `Chapter: ${chapter}` : '',
+        promptQ || ''
+      ].filter(Boolean).join('\n\n');
+      if (prefill){
+        elPrompt.value = prefill;
+        elPrompt.dispatchEvent(new Event('input', { bubbles:true }));
+        elPrompt.focus();
+      }
+    }
+
+    // Initialize sequential mode if active
+    if (seqMode) {
+      document.body.classList.add('sequential-mode');
+      initSequentialMode();
+    }
+
+    // ---- Copy to Clipboard (Ask Local) ----
+    elCopyLocal.addEventListener('click', async () => {
+      // In sequential mode, the prompt already contains topic + book + chapter
+      // In regular mode, we need to build the context
+      let fullText = elPrompt.value.trim();
+
+      if (!fullText) {
+        fullText = latestQuestion || buttonQ || '';
+      }
+
+      if (!fullText) {
+        showCopyFeedback('No question to copy!');
+        return;
+      }
+
+      // For non-sequential mode, add context if not already in prompt
+      if (!seqMode && !fullText.includes('Book:')) {
+        const contextParts = [];
+        if (book) contextParts.push(`Book: ${book}`);
+        if (context) contextParts.push(`Context: ${context}`);
+        if (chapter) contextParts.push(`Chapter: ${chapter}`);
+
+        if (contextParts.length > 0) {
+          fullText = fullText + '\n\n' + contextParts.join('\n');
+        }
+      }
+
+      try {
+        await navigator.clipboard.writeText(fullText);
+        showCopyFeedback('✓ Copied to clipboard!');
+      } catch (err) {
+        console.error('Copy failed:', err);
+        showCopyFeedback('❌ Copy failed');
+      }
+    });
+
+    function showCopyFeedback(message) {
+      const feedback = document.createElement('div');
+      feedback.className = 'copy-feedback';
+      feedback.textContent = message;
+      document.body.appendChild(feedback);
+      setTimeout(() => feedback.remove(), 2000);
+    }
+
+    // ---- Copy Q&A to Clipboard ----
+    elCopyQA.addEventListener('click', async () => {
+      if (!latestQuestion || !latestAnswer) {
+        showCopyFeedback('No Q&A to copy yet!');
+        return;
+      }
+
+      // Build context string
+      const contextParts = [];
+      if (book) contextParts.push(`Book: ${book}`);
+      if (context) contextParts.push(`Context: ${context}`);
+      if (chapter) contextParts.push(`Chapter: ${chapter}`);
+
+      // Format Q&A
+      let fullText = '';
+      if (contextParts.length > 0) {
+        fullText += contextParts.join('\n') + '\n\n';
+      }
+      fullText += `Question: ${latestQuestion}\n\n`;
+      fullText += `Answer: ${latestAnswer}`;
+      fullText += `\n\n---\nGenerated by Quarex.org`;
+
+      try {
+        await navigator.clipboard.writeText(fullText);
+        showCopyFeedback('✓ Q&A copied to clipboard!');
+      } catch (err) {
+        console.error('Copy failed:', err);
+        showCopyFeedback('❌ Copy failed');
+      }
+    });
+
+    // ---- Utilities ----
+    function escapeHtml(s){
+      return String(s)
+        .replaceAll('&','&amp;').replaceAll('<','&lt;')
+        .replaceAll('>','&gt;').replaceAll('"','&quot;')
+        .replaceAll("'",'&#39;');
+    }
+
+    // Simple markdown link parser: [Title](url) -> <a> element
+    function markdownToLink(md) {
+      const m = md.match(/^\s*\[([^\]]+)\]\(([^)]+)\)\s*$/);
+      if (!m) return document.createTextNode(md);
+      const a = document.createElement('a');
+      a.href = m[2];
+      a.textContent = m[1];
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      return a;
+    }
+
+    // Render sources list from markdown_links array
+    function renderSources(links) {
+      if (!Array.isArray(links) || links.length === 0) return '';
+      let html = '<div class="sources"><b>Sources</b><ul>';
+      links.forEach(md => {
+        const m = md.match(/^\s*\[([^\]]+)\]\(([^)]+)\)\s*$/);
+        if (m) {
+          html += `<li><a href="${escapeHtml(m[2])}" target="_blank" rel="noopener noreferrer">${escapeHtml(m[1])}</a></li>`;
+        } else {
+          html += `<li>${escapeHtml(md)}</li>`;
+        }
+      });
+      html += '</ul></div>';
+      return html;
+    }
+    function addBubble(html, who='me'){
+      const b = document.createElement('div');
+      b.className = `bubble ${who}`;
+      b.innerHTML = html;
+      elMessages.appendChild(b);
+      elMessages.scrollTop = elMessages.scrollHeight;
+    }
+    function thinking(){
+      const t = document.createElement('div');
+      t.className = 'bubble ai thinking';
+      t.textContent = 'Thinking…';
+      elMessages.appendChild(t);
+      elMessages.scrollTop = elMessages.scrollHeight;
+      return (replyHtml) => { t.classList.remove('thinking'); t.innerHTML = replyHtml; };
+    }
+    
+    // Add follow-up question buttons
+    function addFollowupButtons(questions) {
+      // Remove any existing follow-up buttons
+      const existing = elMessages.querySelector('.followup-buttons');
+      if (existing) existing.remove();
+      
+      // Filter out empty questions
+      const validQuestions = questions.filter(q => q && q.trim());
+      if (validQuestions.length === 0) return;
+      
+      const container = document.createElement('div');
+      container.className = 'followup-buttons';
+      
+      validQuestions.forEach(q => {
+        const btn = document.createElement('button');
+        btn.className = 'followup-btn';
+        btn.textContent = q;
+        btn.onclick = () => {
+          // Include context info with the follow-up question
+          const parts = [
+            q,
+            book    ? `Book: ${book}`     : '',
+            context ? `Context: ${context}` : '',
+            chapter ? `Chapter: ${chapter}` : ''
+          ].filter(Boolean).join('\n\n');
+          elPrompt.value = parts;
+          elSend.click();
+        };
+        container.appendChild(btn);
+      });
+      
+      elMessages.appendChild(container);
+      elMessages.scrollTop = elMessages.scrollHeight;
+    }
+
+    // ---- Discovery: Related Topics ----
+    let discoveryIndex = null;
+
+    async function loadDiscoveryIndex() {
+      if (discoveryIndex) return discoveryIndex;
+      try {
+        const resp = await fetch(SITE_PREFIX + '/libraries/discovery-index.json');
+        if (!resp.ok) return null;
+        discoveryIndex = await resp.json();
+        return discoveryIndex;
+      } catch (e) {
+        console.error('Failed to load discovery index:', e);
+        return null;
+      }
+    }
+
+    // Extract matching tags from AI response text
+    async function extractTagsFromResponse(responseText) {
+      const index = await loadDiscoveryIndex();
+      if (!index || !index.byTag) return [];
+
+      const availableTags = Object.keys(index.byTag);
+      const textLower = responseText.toLowerCase();
+      const foundTags = [];
+
+      // Common tag variations/synonyms to help matching
+      const tagVariations = {
+        'ai-ml': ['artificial intelligence', 'machine learning', 'ai ', 'ml ', 'neural network', 'deep learning'],
+        'climate-change': ['climate', 'global warming', 'greenhouse', 'carbon emission'],
+        'cybersecurity': ['cyber security', 'hacking', 'data breach', 'malware', 'encryption'],
+        'economics': ['economic', 'economy', 'fiscal', 'monetary', 'gdp', 'inflation'],
+        'governance': ['government', 'governing', 'policy', 'legislation', 'regulatory'],
+        'ethics': ['ethical', 'moral', 'morality'],
+        'democracy': ['democratic', 'voting', 'election'],
+        'privacy': ['data protection', 'surveillance', 'personal data'],
+        'misinformation': ['disinformation', 'fake news', 'propaganda'],
+        'critical-thinking': ['critical analysis', 'logical thinking', 'reasoning'],
+        'human-rights': ['civil rights', 'civil liberties', 'human dignity'],
+        'technology': ['technological', 'tech ', 'digital'],
+        'philosophy': ['philosophical', 'philosopher'],
+        'history': ['historical', 'historian'],
+        'science': ['scientific', 'scientist'],
+        'education': ['educational', 'learning', 'teaching'],
+        'politics': ['political', 'politician'],
+        'media': ['journalism', 'news media', 'press'],
+        'regulation': ['regulatory', 'compliance', 'law enforcement'],
+        'infrastructure': ['infrastructural', 'public works'],
+        'agriculture': ['farming', 'agricultural', 'crops'],
+        'migration': ['immigration', 'emigration', 'refugee'],
+        'innovation': ['innovative', 'breakthrough', 'invention'],
+        'nutrition': ['nutritional', 'dietary', 'diet '],
+        'communication': ['communicating', 'messaging'],
+        'engineering': ['engineer', 'engineered'],
+        'architecture': ['architectural', 'architect '],
+        'writing': ['written', 'author', 'literary'],
+        'cooking': ['culinary', 'recipe', 'cuisine'],
+        'bias': ['biased', 'prejudice', 'discrimination'],
+        'uncertainty': ['uncertain', 'probabilistic', 'ambiguous'],
+        'interpersonal-dynamics': ['interpersonal', 'relationship', 'social dynamics'],
+        'workplace-dynamics': ['workplace', 'office politics', 'corporate culture'],
+        'systems-thinking': ['systems theory', 'holistic', 'interconnected'],
+        'free-speech': ['freedom of speech', 'censorship', 'expression'],
+        'authoritarianism': ['authoritarian', 'autocracy', 'dictator'],
+        'identity': ['cultural identity', 'self-identity', 'belonging']
+      };
+
+      availableTags.forEach(tag => {
+        // Direct tag match (with word boundaries approximation)
+        const tagClean = tag.replace(/-/g, ' ');
+        if (textLower.includes(tagClean) || textLower.includes(tag)) {
+          foundTags.push(tag);
+          return;
+        }
+
+        // Check variations
+        const variations = tagVariations[tag] || [];
+        for (const variant of variations) {
+          if (textLower.includes(variant)) {
+            foundTags.push(tag);
+            break;
+          }
+        }
+      });
+
+      // Return unique tags, limit to top 8 to avoid noise
+      return [...new Set(foundTags)].slice(0, 8);
+    }
+
+    async function showRelatedTopics(dynamicTags = null) {
+      // Use dynamic tags if provided, otherwise fall back to URL tags
+      const tagsToUse = dynamicTags && dynamicTags.length > 0 ? dynamicTags : currentTags;
+      if (!tagsToUse || tagsToUse.length === 0) return;
+
+      const index = await loadDiscoveryIndex();
+      if (!index || !index.byTag || !index.chapters) return;
+
+      // Find chapters that share tags with current context
+      const matchingIndices = new Set();
+      const tagScores = {}; // Track how many tags each chapter matches
+
+      tagsToUse.forEach(tag => {
+        const indices = index.byTag[tag] || [];
+        indices.forEach(idx => {
+          matchingIndices.add(idx);
+          tagScores[idx] = (tagScores[idx] || 0) + 1;
+        });
+      });
+
+      if (matchingIndices.size === 0) return;
+
+      // Helper to filter out chapters from the same book
+      const filterSameBook = (arr) => {
+        if (!currentBookSlug) return arr;
+        return arr.filter(c => c.bookSlug !== currentBookSlug);
+      };
+
+      // Convert to array with scores
+      const allWithScores = Array.from(matchingIndices)
+        .map(idx => ({ ...index.chapters[idx], score: tagScores[idx] }))
+        .sort((a, b) => b.score - a.score);
+
+      // Try to get candidates with 2+ matching tags (excluding same book)
+      let candidates = filterSameBook(allWithScores.filter(c => c.score >= 2));
+
+      // Fallback: if no 2+ tag matches remain after filtering, use 1+ tag matches
+      if (candidates.length === 0) {
+        candidates = filterSameBook(allWithScores.filter(c => c.score >= 1));
+      }
+
+      // Prioritize chapters from DIFFERENT library types for diversity
+      const seenTypes = new Set();
+      const diverse = [];
+      const rest = [];
+
+      candidates.forEach(c => {
+        if (!seenTypes.has(c.libraryType)) {
+          seenTypes.add(c.libraryType);
+          diverse.push(c);
+        } else {
+          rest.push(c);
+        }
+      });
+
+      // Take up to 4 related topics (prefer diverse, then fill with rest)
+      const selected = [...diverse, ...rest].slice(0, 4);
+      if (selected.length === 0) return;
+
+      // Remove existing related topics section
+      const existing = elMessages.querySelector('.related-topics');
+      if (existing) existing.remove();
+
+      // Create the related topics section
+      const container = document.createElement('div');
+      container.className = 'related-topics';
+
+      const header = document.createElement('div');
+      header.className = 'related-topics-header';
+      header.textContent = 'Explore Related Topics';
+      container.appendChild(header);
+
+      selected.forEach(topic => {
+        const link = document.createElement('a');
+        link.className = 'related-topic-btn';
+        // Build short query-string URL: ?t=k&l=library&s=shelf&b=book&c=chapter
+        // Uses typeAbbrev from discovery index (k, g, e, pr, pe, c, i)
+        const unlimitedUrl = `${SITE_PREFIX}/libraries/?t=${topic.typeAbbrev}&l=${topic.librarySlug}&s=${topic.shelfSlug}&b=${topic.bookSlug}&c=${topic.chapterSlug}`;
+        link.href = unlimitedUrl;
+
+        link.innerHTML = `
+          <span class="topic-name">${escapeHtml(topic.name)}</span>
+          <span class="topic-path">${escapeHtml(topic.path)}</span>
+          <span class="topic-type">${escapeHtml(topic.libraryType)}</span>
+        `;
+        container.appendChild(link);
+      });
+
+      elMessages.appendChild(container);
+      elMessages.scrollTop = elMessages.scrollHeight;
+    }
+
+    // ---- Send logic ----
+    elSend.addEventListener('click', async () => {
+      const q = elPrompt.value.trim();
+      if (!q || elSend.disabled) return;
+
+      // Extract just the question without context metadata
+      const questionLines = q.split('\n');
+      const mainQuestion = questionLines[0]; // First line is the actual question
+
+      addBubble(escapeHtml(q), 'me');
+      const finish = thinking();
+      elSend.disabled = true;
+
+      // Prepare question with language instruction if non-English
+      const selectedLang = elLangSelect.value;
+      let finalQuestion = q;
+      if (selectedLang !== 'en') {
+        const langName = languages[selectedLang];
+        finalQuestion = `Please respond in ${langName}.\n\n${q}`;
+      }
+
+      try{
+        const resp = await fetch(SITE_PREFIX + '/api/ask.php', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+            q: finalQuestion,
+            topic: chapter || context || '',
+            category: book || ''
+          })
+        });
+        const data = await resp.json();
+
+        if (!resp.ok || data.error) {
+          finish('Error: ' + escapeHtml(data?.error || (resp.status + ' request failed')));
+        } else {
+          // Build answer HTML
+          let bodyHtml = data.html
+            ? data.html
+            : `<pre>${escapeHtml(data.text || 'No answer')}</pre>`;
+
+          // Add sources section if we have markdown_links
+          const sourcesHtml = renderSources(data.markdown_links || []);
+
+          finish(bodyHtml + sourcesHtml);
+
+			// Store latest Q&A (plain text versions)
+			latestQuestion = mainQuestion;
+			latestAnswer = data.text || 'No answer';
+			elCopyQA.disabled = false; // Enable the Copy Q&A button
+
+			// Handle mode-specific behavior
+			console.log('Response complete. seqMode:', seqMode, 'seqTopics.length:', seqTopics.length, 'seqIndex:', seqIndex);
+			if (seqMode && seqTopics.length > 0) {
+			  // Sequential mode: advance to next topic (don't show follow-ups)
+			  console.log('Advancing to next topic...');
+			  advanceToNextTopic();
+			} else if (!seqMode) {
+			  // Follow-up mode: show follow-up questions if available
+			  if (data.followup_questions && data.followup_questions.length > 0) {
+			    addFollowupButtons(data.followup_questions);
+			  }
+			  // Show related topics - try dynamic extraction from response, fall back to URL tags
+			  const responseText = data.text || '';
+			  const dynamicTags = await extractTagsFromResponse(responseText);
+			  console.log('Dynamic tags extracted:', dynamicTags);
+			  showRelatedTopics(dynamicTags.length > 0 ? dynamicTags : null);
+			}
+        }
+      } catch (err){
+        console.error(err);
+        finish('Network error. Please try again.');
+      } finally {
+        elSend.disabled = false;
+        // Don't clear prompt in sequential mode - we just loaded the next topic
+        if (!seqMode) {
+          elPrompt.value = '';
+        }
+        elPrompt.focus();
+      }
+    });
+
+    // ---- Optional autosend ----
+    if (autosend && elPrompt.value.trim()){ setTimeout(() => elSend.click(), 60); }
+  });
+  </script>
+  
+	  <script>
+	  (function(){
+		const el = document.getElementById('prompt');
+		if(!el) return;
+		function autosize(){
+		  el.style.height = 'auto';
+		  const limit = Math.floor(window.innerHeight * 0.5);
+		  el.style.height = Math.min(el.scrollHeight, limit) + 'px';
+		}
+		['input','change'].forEach(e=>el.addEventListener(e, autosize));
+		window.addEventListener('load', autosize);
+	  })();
+	</script>
+	<script>
+	  function goBack(e){
+		try {
+		  // Always try browser history first (goes back one level)
+		  const ref = document.referrer;
+		  if (ref && new URL(ref).origin === window.location.origin) {
+			e.preventDefault();
+			history.back();
+			return false;
+		  }
+
+		  // Fallback: if no history, go to tablet mode home or default
+		  if (window.TABLET_MODE && window.TABLET_MODE !== 'standard') {
+			e.preventDefault();
+			window.location.href = '/tablet/' + window.TABLET_MODE + '/';
+			return false;
+		  }
+		} catch (_) {}
+		return true;
+	  }
+	</script>
+ 
+ <footer style="text-align:center; margin-top:40px; padding:20px 0; font-size:0.9em; color:#777;">
+  © 2025 Quarex / Peter Nehl. All Rights Reserved.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "name": "History of Western Theatre (Ancient Greece to Present)",
+  "chapters": [
+    {
+      "name": "Greek Theatre: Tragedy and Comedy",
+      "topics": [
+        "How did Greek theatre emerge from religious festivals honoring Dionysus?",
+        "What were the conventions of Greek tragedy: chorus, masks, three actors?",
+        "How did Aeschylus, Sophocles, and Euripides each develop the tragic form?",
+        "What was the structure of Greek comedies by Aristophanes and Menander?",
+        "What did the Greek amphitheatre look like and how did it shape performance?",
+        "Why do Greek plays continue to be performed and adapted today?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Roman Theatre and Performance",
+      "topics": [
+        "How did Roman theatre adapt and transform Greek dramatic traditions?",
+        "What were the comedies of Plautus and Terence like?",
+        "How did Seneca's closet dramas influence later European tragedy?",
+        "What popular entertainments—mime, pantomime, spectacle—dominated Roman stages?",
+        "How did Roman theatre architecture differ from Greek models?",
+        "Why did theatre decline as the Roman Empire fell?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Medieval Mystery and Morality Plays",
+      "topics": [
+        "How did Christian liturgical drama revive theatre after Rome's fall?",
+        "What were mystery cycles and how did guilds produce them?",
+        "What moral lessons did morality plays like Everyman teach?",
+        "How were medieval plays staged on pageant wagons and in public spaces?",
+        "What theatrical traditions developed outside the church in medieval times?",
+        "How did medieval performance practices influence later theatre?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Renaissance Theatre: England and Europe",
+      "topics": [
+        "How did commedia dell'arte develop improvised comedy in Italy?",
+        "What was the Spanish Golden Age theatre of Lope de Vega and Calderón?",
+        "How did French neoclassicism shape the tragedies of Corneille and Racine?",
+        "What were the conventions of English Renaissance playhouses like the Globe?",
+        "How did the profession of acting develop during the Renaissance?",
+        "What social and political forces shaped Renaissance theatrical culture?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Shakespeare and Elizabethan Drama",
+      "topics": [
+        "What made Shakespeare's plays revolutionary in their own time?",
+        "How did the structure and economics of Elizabethan theatre companies work?",
+        "What were the staging conventions of the public and private playhouses?",
+        "Who were Shakespeare's contemporaries: Marlowe, Jonson, Webster?",
+        "How have different eras interpreted and produced Shakespeare differently?",
+        "What do we know about acting styles in Shakespeare's theatre?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Restoration and 18th Century Theatre",
+      "topics": [
+        "How did theatre change when it reopened after the English Civil War?",
+        "What characterized Restoration comedy and its portrayal of society?",
+        "How did women first appear on the English professional stage?",
+        "What reforms did 18th-century sentimental comedy introduce?",
+        "How did David Garrick transform acting and theatre management?",
+        "What was theatre's social function in 18th-century London and Paris?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Romanticism and Melodrama",
+      "topics": [
+        "What made melodrama the dominant popular form of 19th-century theatre?",
+        "How did Romantic drama attempt to break neoclassical rules?",
+        "What stock characters and plot conventions defined melodrama?",
+        "How did technological innovations like gaslight transform staging?",
+        "What was the star system and how did it shape 19th-century theatre?",
+        "How did melodrama influence later film and popular entertainment?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Realism and Naturalism",
+      "topics": [
+        "How did Ibsen's plays pioneer modern realistic drama?",
+        "What innovations did Chekhov bring to dramatic structure and dialogue?",
+        "How did naturalism attempt to show life scientifically on stage?",
+        "What changes in staging and design did realism require?",
+        "How did Stanislavski's Moscow Art Theatre realize realistic acting?",
+        "Why was realistic drama considered scandalous and revolutionary?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Modernism and Experimental Theatre",
+      "topics": [
+        "How did expressionism distort reality to show inner psychological states?",
+        "What was Brecht's epic theatre and how did it aim to change audiences?",
+        "How did Artaud's Theatre of Cruelty challenge conventional theatre?",
+        "What experiments did the Theatre of the Absurd pursue?",
+        "How did directors like Meyerhold and Craig reimagine theatrical staging?",
+        "What lasting impact did modernist experiments have on contemporary theatre?"
+      ],
+      "tags": ["arts", "cultural-heritage", "performing-arts", "theater"]
+    },
+    {
+      "name": "Contemporary Theatre Movements",
+      "topics": [
+        "How has postmodern and postdramatic theatre challenged narrative and character?",
+        "What is devised theatre and how do companies create work collaboratively?",
+        "How have identity politics shaped contemporary playwriting and performance?",
+        "What immersive and interactive forms are redefining audience experience?",
+        "How has globalization brought world theatre traditions into dialogue?",
+        "What challenges and opportunities does theatre face in the digital age?"
+      ],
+      "tags": ["arts", "performing-arts", "theater", "innovation"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "TX-19",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Christopher Adams (R)",
+        "Tom Sell (R)",
+        "Jodey Arrington (R)"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "democracy",
+        "elections"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Kyle Rable (D)"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "elections"
+      ]
+    }
+  ]
+}
