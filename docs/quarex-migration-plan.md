@@ -74,6 +74,7 @@ TruthAngel.org stays live throughout the process.
 - [ ] Check for hardcoded domain references in JavaScript
 - [ ] Update CORS settings if applicable
 - [ ] Update any API keys that are domain-restricted
+- [ ] **SECURITY:** Rotate Gemini API key (was exposed in initial git commit history)
 
 ## Phase 5: Browser Extension
 - [ ] Decide: Rebrand "TruthAngel Unchained" → "Quarex Unchained" (or similar)?
