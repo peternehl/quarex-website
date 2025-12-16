@@ -376,7 +376,7 @@
 
             try {
                 // Fetch the library type's manifest
-                const typeManifest = await fetchJson(`/unlimited/${typeSlug}/_manifest.json`);
+                const typeManifest = await fetchJson(`${BASE_PATH}${typeSlug}/_manifest.json`);
 
                 if (!typeManifest || typeManifest.length === 0) {
                     tree.innerHTML = '<div class="tree-loading">No libraries found in this category.</div>';
@@ -387,13 +387,13 @@
                 const libraryData = await Promise.all(
                     typeManifest.map(async (library) => {
                         try {
-                            const shelves = await fetchJson(`/unlimited/${typeSlug}/${library.slug}/_manifest.json`);
+                            const shelves = await fetchJson(`${BASE_PATH}${typeSlug}/${library.slug}/_manifest.json`);
 
                             // Fetch all shelf manifests in parallel
                             const shelvesWithBooks = await Promise.all(
                                 (shelves || []).map(async (shelf) => {
                                     try {
-                                        const books = await fetchJson(`/unlimited/${typeSlug}/${library.slug}/${shelf.slug}/_manifest.json`);
+                                        const books = await fetchJson(`${BASE_PATH}${typeSlug}/${library.slug}/${shelf.slug}/_manifest.json`);
                                         return { ...shelf, books: books || [] };
                                     } catch (e) {
                                         return { ...shelf, books: [] };
@@ -462,7 +462,7 @@
             return libraries.map(library => {
                 const shelvesHtml = library.shelves.map(shelf => {
                     // Shelf URL for navigation (second click)
-                    const shelfUrl = `/unlimited/${getTypeAbbrev(typeSlug)}/${library.slug}/${shelf.slug}`;
+                    const shelfUrl = `${SITE_PREFIX}/libraries/?t=${getTypeAbbrev(typeSlug)}&lib=${library.slug}&s=${shelf.slug}`;
 
                     // Books are display-only (not clickable)
                     const booksHtml = shelf.books.map(book => {
@@ -535,6 +535,10 @@
             };
             return abbrevs[slug] || slug;
         }
+
+        // Base path detection for Quarex subdirectory support
+        const SITE_PREFIX = window.location.pathname.includes('/Quarex/') ? '/Quarex' : '';
+        const BASE_PATH = SITE_PREFIX + '/libraries/';
 
         // Fetch JSON helper
         async function fetchJson(url) {

@@ -800,8 +800,8 @@
 <body>
     <div class="container">
         <header class="header">
-            <a href="../index.html" class="home-btn" title="Back to Quarex Home">
-                <img src="../assets/quarex-hero-round-500pixels.png" alt="Quarex">
+            <a id="homeBtn" href="/" class="home-btn" title="Back to Quarex Home">
+                <img id="homeLogo" src="/assets/quarex-hero-round-500pixels.png" alt="Quarex">
             </a>
             <h1>Quarex Libraries</h1>
             <p>Explore the complete taxonomy of human knowledge</p>
@@ -928,9 +928,10 @@
                 };
             }
 
-            // Parse new path-based URL: /unlimited/k/philosophy/world-philosophies/oruka/sage-birth
+            // Parse new path-based URL: /libraries/k/philosophy/world-philosophies/oruka/sage-birth
+            // Also supports /Quarex/libraries/... for local development
             const path = window.location.pathname
-                .replace(/^\/unlimited\/?/, '')  // Remove /unlimited/ prefix
+                .replace(/^(\/Quarex)?\/libraries\/?/, '')  // Remove /libraries/ or /Quarex/libraries/ prefix
                 .split('/')
                 .filter(Boolean);  // Remove empty segments
 
@@ -955,8 +956,8 @@
         }
 
         function updateUrl() {
-            // Build path-based URL: /unlimited/k/philosophy/world-philosophies/oruka/sage-birth
-            const parts = ['/unlimited'];
+            // Build path-based URL: /libraries/k/philosophy/world-philosophies/oruka/sage-birth
+            const parts = [SITE_PREFIX + '/libraries'];
 
             if (state.currentLibraryType) {
                 // Use abbreviation for library type
@@ -984,7 +985,7 @@
                 parts.push(toSlug(state.currentTopic));
             }
 
-            const newUrl = parts.length > 1 ? parts.join('/') : '/unlimited/';
+            const newUrl = parts.length > 1 ? parts.join('/') : SITE_PREFIX + '/libraries/';
             window.history.pushState({}, '', newUrl);
         }
 
@@ -2219,6 +2220,12 @@
                 if (h1 && config.headerText) h1.textContent = config.headerText;
                 if (p && config.headerSubtext) p.textContent = config.headerSubtext;
             }
+
+            // Set home button href dynamically based on SITE_PREFIX
+            const homeBtn = document.getElementById('homeBtn');
+            const homeLogo = document.getElementById('homeLogo');
+            if (homeBtn) homeBtn.href = SITE_PREFIX + '/';
+            if (homeLogo) homeLogo.src = SITE_PREFIX + '/assets/quarex-hero-round-500pixels.png';
         });
 
         // Start

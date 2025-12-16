@@ -17,6 +17,10 @@ if (file_exists(__DIR__ . '/config.php')) {
 
 // ------------------------ CORS / Origin Validation ------------------------
 $ALLOWED_ORIGINS = [
+  'https://quarex.org',
+  'https://www.quarex.org',
+  'http://quarex.org',
+  'http://www.quarex.org',
   'https://truthangel.org',
   'https://www.truthangel.org',
   'http://truthangel.org',

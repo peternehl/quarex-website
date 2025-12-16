@@ -1,0 +1,14 @@
+# Rewrite rules for path-based navigation
+# Routes all non-file/non-directory requests to index.html
+# which handles the routing via JavaScript
+
+RewriteEngine On
+
+# Don't rewrite requests for actual files
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Don't rewrite requests for actual directories
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite everything else to index.html
+RewriteRule ^(.*)$ index.html [L]

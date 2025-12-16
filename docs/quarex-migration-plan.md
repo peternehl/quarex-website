@@ -26,11 +26,11 @@ TruthAngel.org stays live throughout the process.
 
 ---
 
-## Phase 1: Infrastructure Setup
-- [ ] Verify quarex.org DNS is pointing to GoDaddy hosting
-- [ ] Create folder structure on server for quarex.org
-- [ ] Set up SSL certificate for quarex.org
-- [ ] Configure .htaccess for quarex.org
+## Phase 1: Infrastructure Setup ✅ COMPLETE
+- [x] Verify quarex.org DNS is pointing to GoDaddy hosting
+- [x] Create folder structure on server for quarex.org
+- [x] Set up SSL certificate for quarex.org (Let's Encrypt)
+- [x] Configure .htaccess for quarex.org (libraries/.htaccess for SPA routing)
 
 ## Phase 2: Content Replication ✅ COMPLETE
 - [x] Copy all files from TruthAngel.org to quarex.org
@@ -42,8 +42,8 @@ TruthAngel.org stays live throughout the process.
   - [x] /quarex/schema/ → /schema/
   - [x] Landing page (merge index.html + quarex/index.html)
   - [x] /ethics, /help, /privacy pages
-- [ ] Verify all file permissions are correct
-- [ ] Test that the unbranded copy works at quarex.org
+- [x] Verify all file permissions are correct
+- [x] Test that the unbranded copy works at quarex.org
 
 ## Phase 3: Branding Updates ✅ MAIN FILES COMPLETE
 - [x] Update all "TruthAngel" text references to "Quarex" (main user-facing pages)
@@ -67,16 +67,50 @@ TruthAngel.org stays live throughout the process.
 - [x] Update footer credits/copyright
 - [x] Update manifest.json for PWA
 
-## Phase 4: Technical Updates
-- [ ] Update API endpoints if hardcoded URLs exist
-- [ ] Update any absolute URLs (TruthAngel.org → quarex.org)
-- [ ] Update Google Analytics tracking ID (if different)
-- [ ] Check for hardcoded domain references in JavaScript
-- [ ] Update CORS settings if applicable
-- [ ] Update any API keys that are domain-restricted
-- [ ] **SECURITY:** Rotate Gemini API key (was exposed in initial git commit history)
+## Phase 4: Technical Updates ✅ COMPLETE (deferred items noted)
+- [x] Update API endpoints if hardcoded URLs exist
+- [x] Update any absolute URLs (TruthAngel.org → quarex.org)
+- [ ] Update Google Analytics tracking ID (if different) → moved to Phase 6
+- [x] Check for hardcoded domain references in JavaScript (fixed /unlimited/ → /libraries/)
+- [x] Update CORS settings if applicable (added quarex.org to ask.php)
+- [x] Update any API keys that are domain-restricted (N/A - Gemini not domain-restricted)
+- [x] **SECURITY:** Rotate Gemini API key ✅ (new key deployed to both sites, old key deleted 2024-12-16)
 
-## Phase 5: Browser Extension
+## Phase 5: Testing ✅ COMPLETE
+- [x] Test landing page
+- [x] Test /libraries/ navigation
+- [x] Test book loading and chapter display
+- [x] Test ask.html Q&A functionality
+- [x] Test related topics cross-linking
+- [x] Test on mobile devices
+- [x] Test all external links
+- [x] Run dead link checker (manual verification - all OK)
+- [x] Test API responses
+
+## Phase 6: Monitoring & Analytics ✅ COMPLETE (deferred items noted)
+- [x] Set up Google Analytics for quarex.org (reusing G-TMVLTZ6BB5 from TruthAngel)
+- [x] Set up Google Search Console for quarex.org
+  - [x] Verify domain ownership
+  - [x] Submit sitemap (sitemap.xml created and submitted)
+- [ ] Set up uptime monitoring → deferred to post-launch
+- [ ] Set up error logging → deferred to post-launch
+- [ ] Create test Gmail/social accounts if needed → deferred to post-launch
+
+## Phase 7: Soft Launch
+- [x] Share quarex.org with small test group (Core Group?) - sent 2024-12-16
+- [ ] Collect feedback on branding
+- [ ] Fix any issues found
+- [ ] Iterate on design if needed
+
+## Phase 8: Official Rollout
+- [ ] Announce Quarex launch
+- [ ] Update Buffer/social media profiles
+- [ ] Update email signatures
+- [ ] Consider: Redirect TruthAngel.org → quarex.org (or keep both?)
+- [ ] Submit to search engines
+- [ ] Update any external listings/links
+
+## Phase 9: Browser Extension (Post-Rollout)
 - [ ] Decide: Rebrand "TruthAngel Unchained" → "Quarex Unchained" (or similar)?
 - [ ] Update extension name in manifest.json
 - [ ] Update extension description
@@ -84,38 +118,6 @@ TruthAngel.org stays live throughout the process.
 - [ ] Update any hardcoded TruthAngel references
 - [ ] Update help.html in extension
 - [ ] Test extension with new quarex.org domain
-
-## Phase 6: Testing
-- [ ] Test landing page
-- [ ] Test /libraries/ navigation
-- [ ] Test book loading and chapter display
-- [ ] Test ask.html Q&A functionality
-- [ ] Test related topics cross-linking
-- [ ] Test on mobile devices
-- [ ] Test all external links
-- [ ] Run dead link checker
-- [ ] Test API responses
-- [ ] Test browser extension with quarex.org
-
-## Phase 7: Monitoring & Analytics
-- [ ] Set up Google Analytics for quarex.org (or reuse existing)
-- [ ] Set up uptime monitoring
-- [ ] Set up error logging
-- [ ] Create test Gmail/social accounts if needed for Quarex brand
-
-## Phase 8: Soft Launch
-- [ ] Share quarex.org with small test group (Core Group?)
-- [ ] Collect feedback on branding
-- [ ] Fix any issues found
-- [ ] Iterate on design if needed
-
-## Phase 9: Official Rollout
-- [ ] Announce Quarex launch
-- [ ] Update Buffer/social media profiles
-- [ ] Update email signatures
-- [ ] Consider: Redirect TruthAngel.org → quarex.org (or keep both?)
-- [ ] Submit to search engines
-- [ ] Update any external listings/links
 
 ---
 

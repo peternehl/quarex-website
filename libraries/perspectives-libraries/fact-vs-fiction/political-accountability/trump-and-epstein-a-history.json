@@ -1,0 +1,200 @@
+{
+  "name": "Trump and Epstein: A History",
+  "created_by": "Peter Nehl, Claude Opus 4.5, and ChatGPT 5.2",
+  "chapters": [
+    {
+      "name": "Why This Topic Attracts Misinformation",
+      "topics": [
+        "What makes the Trump-Epstein story so prone to rumor, speculation, and viral claims?",
+        "How do 'association' claims differ from evidence of specific wrongdoing?",
+        "What is the difference between an allegation, a lawsuit, a sworn statement, and a finding of fact?",
+        "How can confirmation bias shape what people 'remember' about high-profile scandals?",
+        "What are the most common false or misleading narratives in circulation, and why do they stick?",
+        "What standards should a 'Fact vs Fiction' library use when discussing sensitive claims?"
+      ],
+      "tags": ["media", "misinformation", "cognitive-bias", "fact-checking"]
+    },
+    {
+      "name": "Jeffrey Epstein in Brief",
+      "topics": [
+        "Who was Jeffrey Epstein, and what is the broad outline of his public life and crimes?",
+        "What is known about Epstein's wealth, social network, and methods of influence?",
+        "How did Epstein recruit, groom, and exploit victims according to court records and investigations?",
+        "What role did intermediaries and associates play in Epstein's trafficking operation?",
+        "Why do Epstein cases often involve sealed records and limited public documentation?"
+      ],
+      "tags": ["law", "accountability", "criminal-justice", "human-rights"]
+    },
+    {
+      "name": "Donald Trump in Brief",
+      "topics": [
+        "What aspects of Trump's business and social life are relevant to understanding the timeline?",
+        "How should researchers distinguish public persona, tabloid coverage, and verifiable records?",
+        "Which parts of Trump's biography generate frequent 'friendship by proximity' claims?",
+        "What are the limits of drawing conclusions from celebrity social circles?"
+      ],
+      "tags": ["politics", "influence", "trump", "journalism"]
+    },
+    {
+      "name": "Primary Sources and Record Types",
+      "topics": [
+        "What are the main categories of primary sources in the Epstein story (court filings, depositions, emails, logs, etc.)?",
+        "How reliable are flight logs, and what are their common pitfalls for interpretation?",
+        "What is the difference between a court filing and evidence admitted in court?",
+        "How do journalists verify claims when records are sealed or scattered across jurisdictions?",
+        "What should readers look for to detect manipulated screenshots, fake documents, or misattributed quotes?"
+      ],
+      "tags": ["media", "methodology", "source-evaluation", "fact-checking"]
+    },
+    {
+      "name": "Early Social Connections (1980s-1990s)",
+      "topics": [
+        "When and how did Trump and Epstein first meet?",
+        "What social circles did Trump and Epstein share in New York?",
+        "How often were Trump and Epstein photographed together during this period?",
+        "What did Trump say about Epstein in his 2002 New York Magazine interview?",
+        "Did Trump and Epstein share business connections or investments?",
+        "What does 'appearing together' in media coverage prove—and what does it not prove?"
+      ],
+      "tags": ["history", "verification", "journalism", "trump"]
+    },
+    {
+      "name": "Mar-a-Lago and Palm Beach",
+      "topics": [
+        "Was Epstein a member of Mar-a-Lago?",
+        "What led to Epstein's reported ban from Mar-a-Lago?",
+        "When did the alleged Mar-a-Lago ban occur and what evidence supports it?",
+        "Did Trump and Epstein socialize at Palm Beach events?",
+        "What do Mar-a-Lago staff or members say about Epstein's presence there?"
+      ],
+      "tags": ["history", "verification", "trump", "americas"]
+    },
+    {
+      "name": "Public Statements and Quotes",
+      "topics": [
+        "What did Trump mean when he said Epstein liked women 'on the younger side'?",
+        "How did Trump describe his relationship with Epstein over the years?",
+        "What statements did Trump make after Epstein's 2019 arrest?",
+        "How have Trump's characterizations of the relationship changed over time?",
+        "What did Epstein say publicly about Trump?",
+        "How can you verify a quote: transcript, date, venue, and reputable archival sources?",
+        "What are common tactics used to 'launder' a fake quote into credible-looking sources?"
+      ],
+      "tags": ["media", "verification", "trump", "fact-checking"]
+    },
+    {
+      "name": "The Falling Out",
+      "topics": [
+        "What caused the reported rift between Trump and Epstein?",
+        "Did a real estate deal dispute contribute to their falling out?",
+        "What is the timeline of their estrangement?",
+        "Did Trump cooperate with Epstein investigators before the 2019 arrest?",
+        "What did attorney Bradley Edwards say about Trump's cooperation?"
+      ],
+      "tags": ["history", "accountability", "trump", "journalism"]
+    },
+    {
+      "name": "Legal Proceedings and Depositions",
+      "topics": [
+        "Was Trump ever deposed in cases related to Epstein?",
+        "What do court documents reveal about Trump's knowledge of Epstein's activities?",
+        "Did any Epstein accusers mention Trump in legal proceedings?",
+        "What was the 'Jane Doe' lawsuit filed against Trump in 2016?",
+        "Why was the 2016 lawsuit withdrawn and what were its claims?",
+        "What do flight logs show about Trump and Epstein's private aircraft?",
+        "How should we interpret lawsuits that were filed and later withdrawn or dismissed?",
+        "What does 'unproven' mean in legal and journalistic contexts—and why it matters here?"
+      ],
+      "tags": ["law", "methodology", "criminal-justice", "trump"]
+    },
+    {
+      "name": "The Acosta Connection",
+      "topics": [
+        "Who was Alexander Acosta and what was his role in Epstein's 2008 plea deal?",
+        "Why did Trump appoint Acosta as Labor Secretary?",
+        "What did Trump say about the Epstein plea deal during Acosta's tenure?",
+        "Why did Acosta resign from the Trump administration?",
+        "What questions remain about the 2008 non-prosecution agreement?",
+        "How did plea deals, immunity provisions, and jurisdictional choices affect what became public?"
+      ],
+      "tags": ["law", "accountability", "criminal-justice", "trump"]
+    },
+    {
+      "name": "2019 Arrest and Aftermath",
+      "topics": [
+        "How did Trump respond to Epstein's July 2019 arrest?",
+        "What conspiracy theories emerged after Epstein's death in custody?",
+        "Did Trump promote or comment on Epstein death conspiracies?",
+        "What security failures occurred at the Metropolitan Correctional Center?",
+        "What did official investigations conclude about Epstein's death?"
+      ],
+      "tags": ["law", "misinformation", "criminal-justice", "journalism"]
+    },
+    {
+      "name": "Document Releases and Revelations",
+      "topics": [
+        "What did the 2024 Epstein document releases reveal about Trump?",
+        "Which prominent figures were named in released court documents?",
+        "What context is important for understanding names in Epstein documents?",
+        "How did Trump respond to the 2024 document releases?",
+        "What do the documents actually prove versus what is speculation?",
+        "Why do large document drops get misread, and how can a reader avoid common errors?"
+      ],
+      "tags": ["media", "critical-thinking", "source-evaluation", "trump"]
+    },
+    {
+      "name": "Media Ecosystems: How Narratives Are Built",
+      "topics": [
+        "How did tabloids, mainstream outlets, and social media each shape the public narrative differently?",
+        "What incentives drive sensational framing in high-profile scandal coverage?",
+        "How do partisan media environments reinterpret the same set of facts in opposite directions?",
+        "What role do influencers and 'citizen investigators' play—helpful, harmful, or both?",
+        "How can readers audit a claim's origin and track how it mutated over time?"
+      ],
+      "tags": ["media", "propaganda", "journalism", "social-media"]
+    },
+    {
+      "name": "Conspiracy Theories and 'Epstein Files' Claims",
+      "topics": [
+        "What do people usually mean by 'the Epstein files,' and what documents actually exist?",
+        "How do conspiracy narratives exploit real gaps in public information?",
+        "What are signs of a claim designed to inflame rather than inform?",
+        "How should a Fact vs Fiction project handle unresolved questions without filling gaps with guesswork?"
+      ],
+      "tags": ["media", "misinformation", "critical-thinking", "fact-checking"]
+    },
+    {
+      "name": "Evidence Evaluation: A Practical Method",
+      "topics": [
+        "What is a simple 'evidence ladder' for grading claims from weak to strong?",
+        "How can you cross-check a claim using independent sources without cherry-picking?",
+        "What questions should you ask about dates, locations, and chain-of-custody for documents?",
+        "How do you responsibly discuss victims' accounts while avoiding exploitation or sensationalism?",
+        "What mistakes do 'debunkers' and 'believers' both tend to make?"
+      ],
+      "tags": ["philosophy", "methodology", "source-evaluation", "media-literacy"]
+    },
+    {
+      "name": "Separating Fact from Fiction",
+      "topics": [
+        "What claims about Trump and Epstein are supported by evidence?",
+        "What claims have been debunked or lack credible sourcing?",
+        "How has this history been used in political attacks from both parties?",
+        "What remains unknown or unverified about their relationship?",
+        "How should voters weigh documented associations versus unproven allegations?"
+      ],
+      "tags": ["politics", "critical-thinking", "fact-checking", "trump"]
+    },
+    {
+      "name": "What Remains Unknown, and Why",
+      "topics": [
+        "Which key questions remain genuinely unresolved based on the public record?",
+        "What kinds of records might exist but be sealed, destroyed, or never created?",
+        "How do ongoing investigations, privacy protections, and victim safety affect transparency?",
+        "What would new credible evidence look like—and what would not count?",
+        "How can citizens demand accountability without fueling misinformation?"
+      ],
+      "tags": ["ethics", "transparency", "accountability", "journalism"]
+    }
+  ]
+}
