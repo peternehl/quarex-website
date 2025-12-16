@@ -31,3 +31,6 @@ logs/
 
 # Windows reserved names (accidental files)
 nul
+
+# Seed files (intermediate/development files)
+libraries/Seed Quarex/
