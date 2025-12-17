@@ -18,6 +18,12 @@ function scanLibraryStructure($basePath) {
 
     foreach ($libraryTypes as $libraryTypePath) {
         $libraryTypeSlug = basename($libraryTypePath);
+
+        // Skip questions-libraries (system-generated, not for user creation)
+        if ($libraryTypeSlug === 'questions-libraries') {
+            continue;
+        }
+
         $libraryTypeName = formatName($libraryTypeSlug);
 
         $libraryTypeData = [
@@ -67,7 +73,7 @@ function formatName($slug) {
 }
 
 // Get the library structure
-$basePath = __DIR__;
+$basePath = __DIR__ . '/../libraries';
 $structure = scanLibraryStructure($basePath);
 $structureJson = json_encode($structure, JSON_PRETTY_PRINT);
 
