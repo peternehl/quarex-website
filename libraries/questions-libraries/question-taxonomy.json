@@ -2,7 +2,7 @@
   "question_taxonomy": {
     "meta": {
       "version": "2.0",
-      "note": "Upgraded taxonomy with separate axes for Question Forms (5W+H) and User Intents (cognitive goals). Based on the original 5 W's + H file, extended for TruthAngel Unlimited.",
+      "note": "Upgraded taxonomy with separate axes for Question Forms (5W+H) and User Intents (cognitive goals). Based on the original 5 W's + H file, extended for Quarex.",
       "original_basis": "Classic journalism framework: 5 W's + H",
       "total_question_forms": 6,
       "total_user_intents": 7,
