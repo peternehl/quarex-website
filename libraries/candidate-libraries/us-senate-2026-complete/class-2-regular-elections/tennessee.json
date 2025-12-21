@@ -1,5 +1,5 @@
 {
-  "name": "Tennessee",
+  "book": "Tennessee",
   "chapters": [
     {
       "name": "Republican",
@@ -8,21 +8,21 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "tennessee"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "No candidates declared"
+        "Diana Onyejiaka (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "tennessee"
       ]
     },
     {
@@ -32,9 +32,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "tennessee"
       ]
     }
   ]

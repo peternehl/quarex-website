@@ -1,0 +1,60 @@
+{
+  "book": "Kansas",
+  "chapters": [
+    {
+      "name": "KS-01",
+      "topics": [
+        "Tracey Mann (R)",
+        "Colin McRoberts (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kansas"
+      ]
+    },
+    {
+      "name": "KS-02",
+      "topics": [
+        "Derek Schmidt (R)",
+        "Don Coover (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kansas"
+      ]
+    },
+    {
+      "name": "KS-03",
+      "topics": [
+        "Blake Stanley (R)",
+        "Sharice Davids (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kansas"
+      ]
+    },
+    {
+      "name": "KS-04",
+      "topics": [
+        "Ron Estes (R)",
+        "Chris Carmichael (D)",
+        "Ryan Gilbert (D)",
+        "Jordan Mitchell (D)",
+        "Daniel Schneider (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kansas"
+      ]
+    }
+  ]
+}

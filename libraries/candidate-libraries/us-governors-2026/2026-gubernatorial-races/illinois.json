@@ -1,5 +1,5 @@
 {
-  "name": "Illinois",
+  "book": "Illinois",
   "chapters": [
     {
       "name": "Republican",
@@ -10,14 +10,13 @@
         "Andro Lerario (R)",
         "James Mendrick (R)",
         "Gregg Moore (R)",
-        "Joseph Severino (R)",
-        "Max Solomon (R)"
+        "Joseph Severino (R)"
       ],
       "tags": [
         "politics",
         "elections",
-        "us-politics",
-        "maga"
+        "governor",
+        "illinois"
       ]
     },
     {
@@ -28,9 +27,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "illinois"
       ]
     }
   ]

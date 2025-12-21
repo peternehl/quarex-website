@@ -1,0 +1,87 @@
+{
+  "book": "Louisiana",
+  "chapters": [
+    {
+      "name": "LA-01",
+      "topics": [
+        "Steve Scalise (R)",
+        "Lauren Jewett (D)",
+        "Donna Major (D)",
+        "Candida Pagel (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "louisiana"
+      ]
+    },
+    {
+      "name": "LA-02",
+      "topics": [
+        "Ray Smith (R)",
+        "Troy Carter (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "louisiana"
+      ]
+    },
+    {
+      "name": "LA-03",
+      "topics": [
+        "Clay Higgins (R)",
+        "Tia LeBrun (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "louisiana"
+      ]
+    },
+    {
+      "name": "LA-04",
+      "topics": [
+        "Mike Johnson (R)",
+        "Joshua Morott (R)",
+        "Conrad Cable (D)",
+        "Matthew Gromlich (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "louisiana"
+      ]
+    },
+    {
+      "name": "LA-05",
+      "topics": [
+        "Julia Letlow (R)",
+        "Larry Davis (R)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "louisiana"
+      ]
+    },
+    {
+      "name": "LA-06",
+      "topics": [
+        "Christian Johnson (R)",
+        "Cleo Fields (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "louisiana"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "New Hampshire",
+  "book": "New Hampshire",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "new-hampshire"
       ]
     },
     {
@@ -23,9 +23,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "new-hampshire"
       ]
     },
     {
@@ -35,9 +35,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "new-hampshire"
       ]
     }
   ]

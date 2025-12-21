@@ -1,5 +1,5 @@
 {
-  "name": "Connecticut",
+  "book": "Connecticut",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "connecticut"
       ]
     },
     {
@@ -23,9 +23,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "connecticut"
       ]
     }
   ]

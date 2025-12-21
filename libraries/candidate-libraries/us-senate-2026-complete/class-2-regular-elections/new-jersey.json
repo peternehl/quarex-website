@@ -1,5 +1,5 @@
 {
-  "name": "New Jersey",
+  "book": "New Jersey",
   "chapters": [
     {
       "name": "Republican",
@@ -8,9 +8,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "new-jersey"
       ]
     },
     {
@@ -22,9 +22,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "new-jersey"
       ]
     },
     {
@@ -34,9 +34,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "new-jersey"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Colorado",
+  "book": "Colorado",
   "chapters": [
     {
       "name": "Republican",
@@ -29,9 +29,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "colorado"
       ]
     },
     {
@@ -46,9 +46,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "colorado"
       ]
     },
     {
@@ -70,9 +70,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "colorado"
       ]
     }
   ]

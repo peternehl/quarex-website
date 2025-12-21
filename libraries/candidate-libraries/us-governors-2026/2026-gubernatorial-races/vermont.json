@@ -1,5 +1,5 @@
 {
-  "name": "Vermont",
+  "book": "Vermont",
   "chapters": [
     {
       "name": "Republican",
@@ -8,9 +8,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "vermont"
       ]
     },
     {
@@ -20,9 +20,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "governance",
-        "us-politics"
+        "elections",
+        "governor",
+        "vermont"
       ]
     }
   ]

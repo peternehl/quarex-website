@@ -1,5 +1,5 @@
 {
-  "name": "Maryland",
+  "book": "Maryland",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "maryland"
       ]
     },
     {
@@ -21,9 +21,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "governance",
-        "us-politics"
+        "elections",
+        "governor",
+        "maryland"
       ]
     },
     {
@@ -33,9 +33,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "maryland"
       ]
     }
   ]

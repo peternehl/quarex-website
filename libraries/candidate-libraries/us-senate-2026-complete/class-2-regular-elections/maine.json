@@ -1,5 +1,5 @@
 {
-  "name": "Maine",
+  "book": "Maine",
   "chapters": [
     {
       "name": "Republican",
@@ -11,9 +11,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "maine"
       ]
     },
     {
@@ -29,9 +29,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "maine"
       ]
     },
     {
@@ -42,9 +42,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "maine"
       ]
     }
   ]

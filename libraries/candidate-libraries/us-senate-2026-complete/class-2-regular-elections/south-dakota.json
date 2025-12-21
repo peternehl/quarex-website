@@ -1,5 +1,5 @@
 {
-  "name": "South Dakota",
+  "book": "South Dakota",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "south-dakota"
       ]
     },
     {
@@ -21,9 +21,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "south-dakota"
       ]
     },
     {
@@ -33,9 +33,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "south-dakota"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Alabama",
+  "book": "Alabama",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "alabama"
       ]
     },
     {
@@ -24,9 +24,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "alabama"
       ]
     },
     {
@@ -36,9 +36,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "democracy",
-        "us-politics"
+        "elections",
+        "governor",
+        "alabama"
       ]
     }
   ]

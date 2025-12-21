@@ -1,5 +1,5 @@
 {
-  "name": "Iowa",
+  "book": "Iowa",
   "chapters": [
     {
       "name": "Republican",
@@ -12,9 +12,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "iowa"
       ]
     },
     {
@@ -26,9 +26,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "iowa"
       ]
     }
   ]

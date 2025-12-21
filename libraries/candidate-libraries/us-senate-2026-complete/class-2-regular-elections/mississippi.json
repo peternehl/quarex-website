@@ -1,5 +1,5 @@
 {
-  "name": "Mississippi",
+  "book": "Mississippi",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "mississippi"
       ]
     },
     {
@@ -24,9 +24,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "mississippi"
       ]
     },
     {
@@ -36,9 +36,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "mississippi"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "South Carolina",
+  "book": "South Carolina",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "south-carolina"
       ]
     },
     {
@@ -27,9 +27,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "south-carolina"
       ]
     },
     {
@@ -40,13 +40,14 @@
         "Paul Sedletsky (I)",
         "Edward Strunge (I)",
         "Reece Wright-McDonald (I)",
+        "Jason Brenkus (I)",
         "Kasie Whitener (I)"
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "south-carolina"
       ]
     }
   ]

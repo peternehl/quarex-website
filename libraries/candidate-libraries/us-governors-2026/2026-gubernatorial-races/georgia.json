@@ -1,5 +1,5 @@
 {
-  "name": "Georgia",
+  "book": "Georgia",
   "chapters": [
     {
       "name": "Republican",
@@ -9,13 +9,14 @@
         "Burt Jones (R)",
         "Gregg Kirkpatrick (R)",
         "Leland Olinger II (R)",
-        "Brad Raffensperger (R)"
+        "Brad Raffensperger (R)",
+        "Kenneth Yasger (R)"
       ],
       "tags": [
         "politics",
-        "governance",
         "elections",
-        "us-politics"
+        "governor",
+        "georgia"
       ]
     },
     {
@@ -31,9 +32,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "georgia"
       ]
     }
   ]

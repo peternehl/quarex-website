@@ -1,5 +1,5 @@
 {
-  "name": "Rhode Island",
+  "book": "Rhode Island",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "rhode-island"
       ]
     },
     {
@@ -22,9 +22,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "rhode-island"
       ]
     },
     {
@@ -34,9 +34,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "rhode-island"
       ]
     }
   ]

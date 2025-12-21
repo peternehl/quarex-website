@@ -1,5 +1,5 @@
 {
-  "name": "Pennsylvania",
+  "book": "Pennsylvania",
   "chapters": [
     {
       "name": "Republican",
@@ -8,9 +8,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "governance",
-        "us-politics"
+        "elections",
+        "governor",
+        "pennsylvania"
       ]
     },
     {
@@ -20,9 +20,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "pennsylvania"
       ]
     }
   ]

@@ -1,30 +1,32 @@
 {
-  "name": "Montana",
+  "book": "Montana",
   "chapters": [
     {
       "name": "Republican",
       "topics": [
-        "Steve Daines (R)"
+        "Steve Daines (R)",
+        "Charles A. Walking Child (R)"
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "montana"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
+        "Alani Bankhead (D)",
         "Michael BlackWolf (D)",
         "Michael Hummert (D)",
         "Reilly Neill (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "montana"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "New Hampshire",
+  "book": "New Hampshire",
   "chapters": [
     {
       "name": "Republican",
@@ -9,8 +9,8 @@
       "tags": [
         "politics",
         "elections",
-        "us-politics",
-        "democracy"
+        "governor",
+        "new-hampshire"
       ]
     },
     {
@@ -20,9 +20,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "new-hampshire"
       ]
     }
   ]

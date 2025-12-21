@@ -1,17 +1,18 @@
 {
-  "name": "Oregon",
+  "book": "Oregon",
   "chapters": [
     {
       "name": "Republican",
       "topics": [
         "Joe Johnson (R)",
+        "Russell McAlmond (R)",
         "Timothy Skelton (R)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "oregon"
       ]
     },
     {
@@ -22,9 +23,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "oregon"
       ]
     }
   ]

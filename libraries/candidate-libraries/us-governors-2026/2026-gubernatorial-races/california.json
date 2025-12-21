@@ -1,5 +1,5 @@
 {
-  "name": "California",
+  "book": "California",
   "chapters": [
     {
       "name": "Republican",
@@ -10,13 +10,14 @@
         "Brandon Jones (R)",
         "Kyle Langford (R)",
         "Daniel Mercuri (R)",
+        "Jon Slavet (R)",
         "Leo Zacky (R)"
       ],
       "tags": [
         "politics",
         "elections",
-        "us-politics",
-        "democracy"
+        "governor",
+        "california"
       ]
     },
     {
@@ -36,9 +37,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "california"
       ]
     },
     {
@@ -50,9 +51,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "california"
       ]
     }
   ]

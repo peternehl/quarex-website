@@ -1,5 +1,5 @@
 {
-  "name": "Kansas",
+  "book": "Kansas",
   "chapters": [
     {
       "name": "Republican",
@@ -14,9 +14,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "kansas"
       ]
     },
     {
@@ -27,9 +27,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "kansas"
       ]
     }
   ]

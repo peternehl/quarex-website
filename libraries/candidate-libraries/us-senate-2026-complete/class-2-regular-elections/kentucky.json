@@ -1,5 +1,5 @@
 {
-  "name": "Kentucky",
+  "book": "Kentucky",
   "chapters": [
     {
       "name": "Republican",
@@ -13,14 +13,15 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "kentucky"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
+        "Charles Booker (D)",
         "Logan Forsythe (D)",
         "Jared Randall (D)",
         "Dale Romans (D)",
@@ -30,9 +31,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "kentucky"
       ]
     },
     {
@@ -42,9 +43,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "kentucky"
       ]
     }
   ]

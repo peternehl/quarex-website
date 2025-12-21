@@ -1,5 +1,5 @@
 {
-  "name": "Arizona",
+  "book": "Arizona",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
         "elections",
-        "us-politics"
+        "governor",
+        "arizona"
       ]
     },
     {
@@ -22,9 +22,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "arizona"
       ]
     },
     {
@@ -34,9 +34,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "arizona"
       ]
     }
   ]

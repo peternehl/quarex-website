@@ -1,5 +1,5 @@
 {
-  "name": "Florida",
+  "book": "Florida",
   "chapters": [
     {
       "name": "Republican",
@@ -18,17 +18,19 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "florida"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
         "Faith E. Antonio (D)",
+        "Evelyn Castillo-Bach (D)",
         "Richard Dembinsky (D)",
         "Jerry Demings (D)",
+        "Thomas E. Fernandez (D)",
         "Dayna Foster (D)",
         "Indony Jean Baptiste (D)",
         "David Jolly (D)",
@@ -37,9 +39,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "florida"
       ]
     },
     {
@@ -50,6 +52,7 @@
         "Scott Jewett (I)",
         "Surindar Bedi (I)",
         "James Brown (I)",
+        "Jeffrey Peter Datto (I)",
         "Moliere Dimanche (I)",
         "Insley Evans (I)",
         "Kyle Gibson (I)",
@@ -59,13 +62,14 @@
         "Holly Klask (I)",
         "Andrea Lynn Klink (I)",
         "Jason Pizzo (I)",
+        "Frank J. Russo (I)",
         "David Wexler (I)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "florida"
       ]
     }
   ]

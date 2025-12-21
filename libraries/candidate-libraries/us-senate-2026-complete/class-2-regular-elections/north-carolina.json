@@ -1,17 +1,22 @@
 {
-  "name": "North Carolina",
+  "book": "North Carolina",
   "chapters": [
     {
       "name": "Republican",
       "topics": [
         "Don Brown (R)",
+        "Richard Dansie (R)",
+        "Margot Dupre (R)",
+        "Thomas Johnson (R)",
+        "Michele Morrow (R)",
+        "Elizabeth Anne Temple (R)",
         "Michael Whatley (R)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "north-carolina"
       ]
     },
     {
@@ -19,26 +24,30 @@
       "topics": [
         "Roy Cooper (D)",
         "Justin Dues (D)",
-        "Orrick Quick (D)"
+        "Daryl Farrow (D)",
+        "Alyssia Hammond (D)",
+        "Orrick Quick (D)",
+        "Marcus Williams (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "north-carolina"
       ]
     },
     {
       "name": "Independent/Other",
       "topics": [
         "Brian McGinnis (I)",
+        "Shannon Bray (I)",
         "Shaunesi Deberry (I)"
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "north-carolina"
       ]
     }
   ]

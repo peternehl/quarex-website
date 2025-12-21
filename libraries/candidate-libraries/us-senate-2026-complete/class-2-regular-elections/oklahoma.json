@@ -1,5 +1,5 @@
 {
-  "name": "Oklahoma",
+  "book": "Oklahoma",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "oklahoma"
       ]
     },
     {
@@ -22,9 +22,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "oklahoma"
       ]
     }
   ]

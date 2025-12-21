@@ -1,5 +1,5 @@
 {
-  "name": "Virgin Islands",
+  "book": "Virgin Islands",
   "chapters": [
     {
       "name": "Republican",
@@ -8,9 +8,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "virgin-islands"
       ]
     },
     {
@@ -20,9 +20,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "virgin-islands"
       ]
     }
   ]

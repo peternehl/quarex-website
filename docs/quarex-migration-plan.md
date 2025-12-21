@@ -110,15 +110,6 @@ TruthAngel.org stays live throughout the process.
 - [ ] Submit to search engines
 - [ ] Update any external listings/links
 
-## Phase 9: Browser Extension (Post-Rollout)
-- [ ] Decide: Rebrand "TruthAngel Unchained" → "Quarex Unchained" (or similar)?
-- [ ] Update extension name in manifest.json
-- [ ] Update extension description
-- [ ] Replace extension icons/logo
-- [ ] Update any hardcoded TruthAngel references
-- [ ] Update help.html in extension
-- [ ] Test extension with new quarex.org domain
-
 ---
 
 ## Files to Search for "TruthAngel" References
@@ -133,7 +124,7 @@ grep -r "TruthAngel" --include="*.html" --include="*.js" --include="*.php" --inc
    - Phase A: Keep TruthAngel.org live during Quarex.org testing
    - Phase B: After Quarex.org launch, redirect TruthAngel.org → Quarex.org (duration determined by exigent circumstances)
    - Phase C: Repurpose TruthAngel.org (keep domain forever)
-3. **Extension name**: "Quarex Unchained"? "Quarex Assistant"? Something else? → **PENDING**
+3. ~~**Extension name**~~ → **CANCELLED** (Browser extension dropped from roadmap)
 4. ~~**Tagline**~~ → **DECIDED: "The Curiosity Engine"**
 5. ~~**Color scheme**~~ → **DECIDED: Keep the dark theme** (#0A0A0A background, #F7F7F7 text)
 

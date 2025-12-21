@@ -1,5 +1,5 @@
 {
-  "name": "Wyoming",
+  "book": "Wyoming",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "wyoming"
       ]
     },
     {
@@ -22,9 +22,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "wyoming"
       ]
     }
   ]

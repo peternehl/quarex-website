@@ -1,5 +1,5 @@
 {
-  "name": "Delaware",
+  "book": "Delaware",
   "chapters": [
     {
       "name": "Republican",
@@ -8,9 +8,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "delaware"
       ]
     },
     {
@@ -21,9 +21,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "delaware"
       ]
     }
   ]

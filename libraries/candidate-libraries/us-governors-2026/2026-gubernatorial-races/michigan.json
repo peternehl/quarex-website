@@ -1,5 +1,5 @@
 {
-  "name": "Michigan",
+  "book": "Michigan",
   "chapters": [
     {
       "name": "Republican",
@@ -16,9 +16,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "michigan"
       ]
     },
     {
@@ -32,9 +32,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "michigan"
       ]
     },
     {
@@ -44,9 +44,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "governance",
-        "us-politics"
+        "elections",
+        "governor",
+        "michigan"
       ]
     }
   ]

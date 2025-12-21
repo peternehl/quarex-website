@@ -1,5 +1,5 @@
 {
-  "name": "South Carolina",
+  "book": "South Carolina",
   "chapters": [
     {
       "name": "Republican",
@@ -12,21 +12,23 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "south-carolina"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "Jermaine Johnson (D)"
+        "Justin Bennett (D)",
+        "Jermaine Johnson (D)",
+        "Mullins McLeod (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "south-carolina"
       ]
     }
   ]

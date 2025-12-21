@@ -1,18 +1,19 @@
 {
-  "name": "Virginia",
+  "book": "Virginia",
   "chapters": [
     {
       "name": "Republican",
       "topics": [
         "Kim Farington (R)",
+        "Al Mina (R)",
         "Bryce Reeves (R)",
         "David Williams (R)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "virginia"
       ]
     },
     {
@@ -25,9 +26,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "virginia"
       ]
     }
   ]

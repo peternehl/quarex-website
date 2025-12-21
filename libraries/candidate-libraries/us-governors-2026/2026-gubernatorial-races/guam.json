@@ -1,5 +1,5 @@
 {
-  "name": "Guam",
+  "book": "Guam",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "democracy",
-        "us-politics"
+        "elections",
+        "governor",
+        "guam"
       ]
     },
     {
@@ -23,9 +23,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "guam"
       ]
     }
   ]

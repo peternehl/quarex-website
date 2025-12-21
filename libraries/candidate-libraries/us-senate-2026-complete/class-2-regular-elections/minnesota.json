@@ -1,11 +1,12 @@
 {
-  "name": "Minnesota",
+  "book": "Minnesota",
   "chapters": [
     {
       "name": "Republican",
       "topics": [
         "Christopher Brooks (R)",
         "Alycia Gruenhagen (R)",
+        "David Hann (R)",
         "Raymond Petersen (R)",
         "Mike Ruoho (R)",
         "Adam Schwarze (R)",
@@ -14,9 +15,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "minnesota"
       ]
     },
     {
@@ -28,9 +29,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "minnesota"
       ]
     },
     {
@@ -40,9 +41,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "minnesota"
       ]
     }
   ]

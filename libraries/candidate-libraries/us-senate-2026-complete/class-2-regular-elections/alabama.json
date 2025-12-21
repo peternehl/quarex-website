@@ -1,5 +1,5 @@
 {
-  "name": "Alabama",
+  "book": "Alabama",
   "chapters": [
     {
       "name": "Republican",
@@ -12,9 +12,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "alabama"
       ]
     },
     {
@@ -27,9 +27,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "alabama"
       ]
     }
   ]

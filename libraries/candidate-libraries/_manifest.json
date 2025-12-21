@@ -6,6 +6,12 @@
     "shelfCount": 1
   },
   {
+    "slug": "us-house-2026-complete",
+    "name": "US House 2026",
+    "description": "All 2026 House races with declared candidates (excludes 6 redistricting states). Manual collection from Ballotpedia.",
+    "shelfCount": 1
+  },
+  {
     "slug": "us-senate-2026-complete",
     "name": "US Senate 2026 - Complete",
     "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",

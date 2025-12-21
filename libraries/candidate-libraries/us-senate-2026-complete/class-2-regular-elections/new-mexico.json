@@ -1,5 +1,5 @@
 {
-  "name": "New Mexico",
+  "book": "New Mexico",
   "chapters": [
     {
       "name": "Republican",
@@ -8,9 +8,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "new-mexico"
       ]
     },
     {
@@ -20,9 +20,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "new-mexico"
       ]
     },
     {
@@ -32,9 +32,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "new-mexico"
       ]
     }
   ]

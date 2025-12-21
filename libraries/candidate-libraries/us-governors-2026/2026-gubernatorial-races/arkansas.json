@@ -1,5 +1,5 @@
 {
-  "name": "Arkansas",
+  "book": "Arkansas",
   "chapters": [
     {
       "name": "Republican",
@@ -8,9 +8,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "arkansas"
       ]
     },
     {
@@ -21,9 +21,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "arkansas"
       ]
     }
   ]

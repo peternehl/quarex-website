@@ -1,5 +1,5 @@
 {
-  "name": "Idaho",
+  "book": "Idaho",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "idaho"
       ]
     },
     {
@@ -24,9 +24,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "idaho"
       ]
     },
     {
@@ -37,9 +37,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "idaho"
       ]
     }
   ]

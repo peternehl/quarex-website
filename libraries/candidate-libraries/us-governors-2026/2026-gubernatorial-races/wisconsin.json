@@ -1,5 +1,5 @@
 {
-  "name": "Wisconsin",
+  "book": "Wisconsin",
   "chapters": [
     {
       "name": "Republican",
@@ -10,14 +10,17 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "wisconsin"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
+        "Mandela Barnes (D)",
+        "Joel Brennan (D)",
+        "David Crowley (D)",
         "Francesca Hong (D)",
         "Missy Hughes (D)",
         "Brett Hulsey (D)",
@@ -27,9 +30,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "wisconsin"
       ]
     },
     {
@@ -42,9 +45,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "wisconsin"
       ]
     }
   ]

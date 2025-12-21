@@ -1,5 +1,5 @@
 {
-  "name": "Massachusetts",
+  "book": "Massachusetts",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "massachusetts"
       ]
     },
     {
@@ -23,9 +23,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "massachusetts"
       ]
     },
     {
@@ -37,9 +37,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "massachusetts"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Colorado",
+  "book": "Colorado",
   "chapters": [
     {
       "name": "Republican",
@@ -10,9 +10,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "colorado"
       ]
     },
     {
@@ -20,14 +20,15 @@
       "topics": [
         "John Hickenlooper (D)",
         "Karen Breslin (D)",
+        "Julie Gonzales (D)",
         "Brashad Hasley (D)",
         "Anthony Zimpfer (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "colorado"
       ]
     },
     {
@@ -40,9 +41,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "colorado"
       ]
     }
   ]

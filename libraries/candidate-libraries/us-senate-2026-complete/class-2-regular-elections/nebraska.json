@@ -1,5 +1,5 @@
 {
-  "name": "Nebraska",
+  "book": "Nebraska",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "nebraska"
       ]
     },
     {
@@ -21,9 +21,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "nebraska"
       ]
     },
     {
@@ -33,9 +33,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "nebraska"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Nevada",
+  "book": "Nevada",
   "chapters": [
     {
       "name": "Republican",
@@ -9,9 +9,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "governance",
-        "us-politics"
+        "elections",
+        "governor",
+        "nevada"
       ]
     },
     {
@@ -22,9 +22,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "nevada"
       ]
     }
   ]

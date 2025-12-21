@@ -1,5 +1,5 @@
 {
-  "name": "Michigan",
+  "book": "Michigan",
   "chapters": [
     {
       "name": "Republican",
@@ -13,9 +13,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "michigan"
       ]
     },
     {
@@ -29,9 +29,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "michigan"
       ]
     },
     {
@@ -43,9 +43,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "michigan"
       ]
     }
   ]

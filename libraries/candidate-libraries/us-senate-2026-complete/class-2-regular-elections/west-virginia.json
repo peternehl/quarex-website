@@ -1,5 +1,5 @@
 {
-  "name": "West Virginia",
+  "book": "West Virginia",
   "chapters": [
     {
       "name": "Republican",
@@ -7,13 +7,14 @@
         "Shelley Moore Capito (R)",
         "Derrick Evans (R)",
         "Alexander Gaaserud (R)",
+        "Bryan McKinney (R)",
         "Tom Willis (R)"
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "west-virginia"
       ]
     },
     {
@@ -24,9 +25,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "west-virginia"
       ]
     }
   ]

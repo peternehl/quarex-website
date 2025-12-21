@@ -1,0 +1,67 @@
+{
+  "book": "Mississippi",
+  "chapters": [
+    {
+      "name": "MS-01",
+      "topics": [
+        "Trent Kelly (R)",
+        "Kelvin Buck (D)",
+        "Montravius Hall (D)",
+        "Cliff Johnson (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "mississippi"
+      ]
+    },
+    {
+      "name": "MS-02",
+      "topics": [
+        "Ron Eller (R)",
+        "Kevin Wilson (R)",
+        "Bennie Thompson (D)",
+        "Evan Turnage (D)",
+        "Bennie Foster (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "mississippi"
+      ]
+    },
+    {
+      "name": "MS-03",
+      "topics": [
+        "Michael Guest (R)",
+        "Justin James (R)",
+        "Michael Chiaradio (D)",
+        "Erik Kiehle (L)",
+        "Shaun McInnish Sr. (L)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "mississippi"
+      ]
+    },
+    {
+      "name": "MS-04",
+      "topics": [
+        "Mike Ezell (R)",
+        "John Mills (R)",
+        "Paul Blackman (D)",
+        "Charles Claburn (AIC)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "mississippi"
+      ]
+    }
+  ]
+}

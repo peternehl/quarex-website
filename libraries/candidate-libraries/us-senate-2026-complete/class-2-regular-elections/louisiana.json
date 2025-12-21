@@ -1,5 +1,5 @@
 {
-  "name": "Louisiana",
+  "book": "Louisiana",
   "chapters": [
     {
       "name": "Republican",
@@ -19,21 +19,23 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "louisiana"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "Tracie Burke (D)"
+        "Tracie Burke (D)",
+        "Jamie Davis (D)",
+        "Jabarie Walker (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "louisiana"
       ]
     },
     {
@@ -43,9 +45,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "louisiana"
       ]
     }
   ]

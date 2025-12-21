@@ -1,5 +1,5 @@
 {
-  "name": "Arkansas",
+  "book": "Arkansas",
   "chapters": [
     {
       "name": "Republican",
@@ -10,23 +10,22 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "arkansas"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
         "Ethan Dunbar (D)",
-        "Hallie Shoffner (D)",
-        "Dan Whitfield (D)"
+        "Hallie Shoffner (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "arkansas"
       ]
     }
   ]

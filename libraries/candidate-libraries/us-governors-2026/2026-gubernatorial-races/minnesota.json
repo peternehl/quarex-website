@@ -1,5 +1,5 @@
 {
-  "name": "Minnesota",
+  "book": "Minnesota",
   "chapters": [
     {
       "name": "Republican",
@@ -10,15 +10,17 @@
         "Jeff Johnson (R)",
         "Patrick Knight (R)",
         "Brad Kohler (R)",
+        "Mike Lindell (R)",
+        "Chris Madel (R)",
         "Phillip Parrish (R)",
         "Kendall Qualls (R)",
         "Kristin Robbins (R)"
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "minnesota"
       ]
     },
     {
@@ -28,9 +30,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "minnesota"
       ]
     },
     {
@@ -40,9 +42,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "governor",
+        "minnesota"
       ]
     }
   ]

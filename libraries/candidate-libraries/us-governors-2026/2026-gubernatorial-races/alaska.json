@@ -1,5 +1,5 @@
 {
-  "name": "Alaska",
+  "book": "Alaska",
   "chapters": [
     {
       "name": "Republican",
@@ -17,8 +17,8 @@
       "tags": [
         "politics",
         "elections",
-        "us-politics",
-        "maga"
+        "governor",
+        "alaska"
       ]
     },
     {
@@ -29,9 +29,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "alaska"
       ]
     }
   ]

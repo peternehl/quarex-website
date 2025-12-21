@@ -1,5 +1,5 @@
 {
-  "name": "Massachusetts",
+  "book": "Massachusetts",
   "chapters": [
     {
       "name": "Republican",
@@ -11,9 +11,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "massachusetts"
       ]
     },
     {
@@ -25,9 +25,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "massachusetts"
       ]
     },
     {
@@ -37,9 +37,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "massachusetts"
       ]
     }
   ]

@@ -1,0 +1,47 @@
+{
+  "book": "New Mexico",
+  "chapters": [
+    {
+      "name": "NM-01",
+      "topics": [
+        "Steve Jones (R)",
+        "Ndidiamaka Okpareke (R)",
+        "Melanie Ann Stansbury (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "new-mexico"
+      ]
+    },
+    {
+      "name": "NM-02",
+      "topics": [
+        "Eddy Aragon (R)",
+        "Greg Cunningham (R)",
+        "Jose Orozco (R)",
+        "Gabriel Vasquez (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "new-mexico"
+      ]
+    },
+    {
+      "name": "NM-03",
+      "topics": [
+        "Martin Ruben Zamora (R)",
+        "Teresa Leger Fernandez (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "new-mexico"
+      ]
+    }
+  ]
+}

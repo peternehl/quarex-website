@@ -1,14 +1,16 @@
 {
-  "name": "Texas",
+  "book": "Texas",
   "chapters": [
     {
       "name": "Republican",
       "topics": [
         "John Cornyn (R)",
+        "John Adefope (R)",
         "Andrew Alvarez (R)",
+        "Anna Bender (R)",
         "Virgil Bierschwale (R)",
+        "Sara Canady (R)",
         "Alexander Duncan (R)",
-        "Ronald Evans (R)",
         "Wesley Hunt (R)",
         "Matthew Elliot Kelley (R)",
         "Gulrez Khan (R)",
@@ -21,15 +23,16 @@
       ],
       "tags": [
         "politics",
-        "democracy",
         "elections",
-        "us-politics"
+        "senate",
+        "texas"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "Colin Allred (D)",
+        "Jasmine Crockett (D)",
+        "Ahmad Hassan (D)",
         "Emily Morgul (D)",
         "Michael Swanson (D)",
         "James Talarico (D)",
@@ -37,24 +40,25 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "texas"
       ]
     },
     {
       "name": "Independent/Other",
       "topics": [
         "Joshua Cain (I)",
+        "Ronald Evans (I)",
         "Camencia Ford (I)",
         "Jade Simmons (I)",
         "Hans Truelson (I)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "senate",
+        "texas"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "Oregon",
+  "book": "Oregon",
   "chapters": [
     {
       "name": "Republican",
@@ -8,6 +8,7 @@
         "David Burch (R)",
         "Christine Drazan (R)",
         "Kyle Duyck (R)",
+        "Caleb Kintz (R)",
         "Patrick Kopke-Hales (R)",
         "Robert Neuman (R)",
         "Brad T. Peters (R)",
@@ -17,22 +18,23 @@
       ],
       "tags": [
         "politics",
-        "governance",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "oregon"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
+        "Tina Kotek (D)",
         "James Atkinson (D)",
         "Brittany Jones (D)"
       ],
       "tags": [
         "politics",
-        "democracy",
-        "us-politics",
-        "elections"
+        "elections",
+        "governor",
+        "oregon"
       ]
     },
     {
@@ -42,9 +44,9 @@
       ],
       "tags": [
         "politics",
-        "democracy",
-        "governance",
-        "us-politics"
+        "elections",
+        "governor",
+        "oregon"
       ]
     }
   ]
