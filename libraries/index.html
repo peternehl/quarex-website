@@ -1143,6 +1143,7 @@
                             slug: lib.slug,
                             description: lib.description || '',
                             shelfCount: lib.shelfCount || 0,
+                            disclaimer: lib.disclaimer || null,
                             status: 'ready'
                         }));
                     } catch (error) {
@@ -1783,6 +1784,7 @@
                     slug: lib.slug,
                     description: lib.description || '',
                     shelfCount: lib.shelfCount || 0,
+                    disclaimer: lib.disclaimer || null,
                     status: 'ready'
                 }));
             } catch (error) {
@@ -1857,7 +1859,7 @@
                                     : `${lib.shelfCount || 0} ${(lib.shelfCount || 0) === 1 ? 'shelf' : 'shelves'}`
                                 }
                             </div>
-                            ${state.currentLibraryType.name === 'Candidate Research' ? '<div style="color: #ef4444; font-weight: 600; font-size: 0.85rem; margin-top: 0.5rem;">⚠️ Beware: Name Confusion Possible</div><div style="color: #3b82f6; font-weight: 600; font-size: 0.85rem; margin-top: 0.25rem;">📅 Content Updated Every Friday</div>' : ''}
+                            ${lib.disclaimer ? `<div style="color: #fbbf24; font-weight: 600; font-size: 0.85rem; margin-top: 0.5rem;">${escapeHtml(lib.disclaimer)}</div>` : ''}
                         </div>
                     `).join('')}
                 </div>
