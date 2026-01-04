@@ -1,0 +1,75 @@
+{
+  "book": "Oklahoma",
+  "chapters": [
+    {
+      "name": "OK-01",
+      "topics": [
+        "Kevin Hern (R)",
+        "John Croisant (D)",
+        "Erica Watkins (D)",
+        "Ryan Parschauer (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oklahoma"
+      ]
+    },
+    {
+      "name": "OK-02",
+      "topics": [
+        "Josh Brecheen (R)",
+        "William Webb (R)",
+        "Erik Terwey (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oklahoma"
+      ]
+    },
+    {
+      "name": "OK-03",
+      "topics": [
+        "Frank Lucas (R)",
+        "Jules Roberson (D)",
+        "Rebekah LaVann (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oklahoma"
+      ]
+    },
+    {
+      "name": "OK-04",
+      "topics": [
+        "Tom Cole (R)",
+        "Mitchell Jacob (D)",
+        "Kody Macaulay (D)",
+        "Jeff Pixley (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oklahoma"
+      ]
+    },
+    {
+      "name": "OK-05",
+      "topics": [
+        "Stephanie Bice (R)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oklahoma"
+      ]
+    }
+  ]
+}

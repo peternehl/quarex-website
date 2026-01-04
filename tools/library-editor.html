@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthAngel Library Editor (Internal)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --accent: #E6E6E6;
+            --brand: #EDEDED;
+            --blue: #3B82F6;
+            --green: #22c55e;
+            --red: #ef4444;
+            --orange: #f97316;
+            --purple: #a855f7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(24px, 4vw, 32px);
+            color: var(--brand);
+        }
+
+        .internal-badge {
+            background: var(--orange);
+            color: black;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            margin-bottom: 20px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            color: var(--brand);
+            margin-bottom: 16px;
+        }
+
+        .card h3 {
+            font-size: 15px;
+            color: var(--accent);
+            margin: 16px 0 8px;
+        }
+
+        /* Form elements */
+        label {
+            display: block;
+            color: var(--muted);
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+
+        select, input[type="text"], textarea {
+            width: 100%;
+            padding: 10px 12px;
+            background: #1a1a1a;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            color: var(--ink);
+            font-family: inherit;
+            font-size: 14px;
+            margin-bottom: 12px;
+        }
+
+        textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        select:focus, input[type="text"]:focus, textarea:focus {
+            outline: none;
+            border-color: var(--blue);
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--blue);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: var(--line);
+            color: var(--ink);
+        }
+
+        .btn-secondary:hover {
+            background: #333;
+        }
+
+        .btn-success {
+            background: var(--green);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #16a34a;
+        }
+
+        .btn-danger {
+            background: transparent;
+            color: var(--red);
+            padding: 6px 10px;
+            font-size: 13px;
+        }
+
+        .btn-danger:hover {
+            background: rgba(239, 68, 68, 0.1);
+        }
+
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 13px;
+        }
+
+        .button-row {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+
+        /* Load section */
+        .load-section {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .load-section input[type="file"] {
+            display: none;
+        }
+
+        .file-name {
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        /* Shelf accordion */
+        .shelf-item {
+            background: #1a1a1a;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .shelf-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 16px;
+            background: #1f1f1f;
+            cursor: pointer;
+        }
+
+        .shelf-header:hover {
+            background: #252525;
+        }
+
+        .shelf-toggle {
+            color: var(--muted);
+            font-size: 12px;
+            transition: transform 0.2s;
+        }
+
+        .shelf-toggle.open {
+            transform: rotate(90deg);
+        }
+
+        .shelf-name-display {
+            flex: 1;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .shelf-count {
+            color: var(--muted);
+            font-size: 12px;
+        }
+
+        .shelf-content {
+            padding: 16px;
+            display: none;
+        }
+
+        .shelf-content.open {
+            display: block;
+        }
+
+        .shelf-name-input {
+            margin-bottom: 16px;
+        }
+
+        /* Book item */
+        .book-item {
+            background: #141414;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .book-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 12px;
+            background: #181818;
+            cursor: pointer;
+        }
+
+        .book-header:hover {
+            background: #1c1c1c;
+        }
+
+        .book-icon {
+            color: var(--purple);
+            font-size: 14px;
+        }
+
+        .book-name-display {
+            flex: 1;
+            font-size: 14px;
+        }
+
+        .chapter-count {
+            color: var(--muted);
+            font-size: 11px;
+        }
+
+        .book-content {
+            padding: 12px;
+            display: none;
+        }
+
+        .book-content.open {
+            display: block;
+        }
+
+        /* Chapter list */
+        .chapter-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-top: 10px;
+        }
+
+        .chapter-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .chapter-item input {
+            flex: 1;
+            margin-bottom: 0;
+            padding: 8px 10px;
+            font-size: 13px;
+        }
+
+        .chapter-bullet {
+            color: var(--muted);
+            font-size: 10px;
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--muted);
+        }
+
+        /* Preview panel */
+        .preview-panel {
+            background: #0d0d0d;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            padding: 12px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 12px;
+            max-height: 500px;
+            overflow: auto;
+            white-space: pre-wrap;
+            color: var(--muted);
+        }
+
+        /* Status messages */
+        .status {
+            padding: 10px 14px;
+            border-radius: 6px;
+            margin-bottom: 16px;
+            font-size: 13px;
+        }
+
+        .status.error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid var(--red);
+            color: var(--red);
+        }
+
+        .status.success {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid var(--green);
+            color: var(--green);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* Stats bar */
+        .stats-bar {
+            display: flex;
+            gap: 20px;
+            padding: 12px 16px;
+            background: #0d0d0d;
+            border-radius: 6px;
+            margin-bottom: 16px;
+            font-size: 13px;
+        }
+
+        .stat {
+            color: var(--muted);
+        }
+
+        .stat strong {
+            color: var(--ink);
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .button-row {
+                flex-direction: column;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Library Editor</h1>
+                <span class="internal-badge">Internal Tool</span>
+            </div>
+            <div class="load-section">
+                <label for="loadFileInput" class="btn btn-secondary" style="cursor: pointer; margin-bottom: 0;">
+                    Load Library JSON
+                </label>
+                <input type="file" id="loadFileInput" accept=".json">
+                <span id="loadedFileName" class="file-name"></span>
+            </div>
+        </header>
+
+        <div id="statusMsg" class="status hidden"></div>
+
+        <!-- No file loaded state -->
+        <div id="emptyState" class="card">
+            <div class="empty-state">
+                <p style="font-size: 18px; margin-bottom: 8px;">No library loaded</p>
+                <p>Click "Load Library JSON" to open an existing library file for editing.</p>
+            </div>
+        </div>
+
+        <!-- Editor (shown when file loaded) -->
+        <div id="editorSection" class="hidden">
+            <!-- Library metadata -->
+            <div class="card">
+                <h2>Library Info</h2>
+
+                <label for="libraryName">Library Name</label>
+                <input type="text" id="libraryName" placeholder="Library name">
+
+                <label for="libraryType">Library Type</label>
+                <select id="libraryType">
+                    <option value="knowledge">knowledge</option>
+                    <option value="perspectives">perspectives</option>
+                    <option value="event">event</option>
+                    <option value="practical">practical</option>
+                </select>
+
+                <label for="libraryDescription">Description</label>
+                <textarea id="libraryDescription" placeholder="Library description"></textarea>
+            </div>
+
+            <!-- Stats -->
+            <div class="stats-bar">
+                <div class="stat">Shelves: <strong id="shelfCount">0</strong></div>
+                <div class="stat">Books: <strong id="bookCount">0</strong></div>
+                <div class="stat">Chapters: <strong id="chapterCount">0</strong></div>
+            </div>
+
+            <!-- Shelves -->
+            <div class="card">
+                <h2>Shelves & Books</h2>
+                <div id="shelfList"></div>
+                <div class="button-row">
+                    <button class="btn btn-secondary" id="addShelfBtn">+ Add Shelf</button>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="card">
+                <h2>Export</h2>
+                <div id="previewToggle" style="margin-bottom: 12px;">
+                    <button class="btn btn-secondary btn-small" id="togglePreviewBtn">Show JSON Preview</button>
+                </div>
+                <div id="previewSection" class="hidden">
+                    <div id="jsonPreview" class="preview-panel"></div>
+                </div>
+                <div class="button-row">
+                    <button class="btn btn-success" id="downloadBtn">Download JSON</button>
+                    <button class="btn btn-secondary" id="copyBtn">Copy to Clipboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let libraryData = null;
+        let originalFileName = '';
+
+        // DOM elements
+        const loadFileInput = document.getElementById('loadFileInput');
+        const loadedFileName = document.getElementById('loadedFileName');
+        const emptyState = document.getElementById('emptyState');
+        const editorSection = document.getElementById('editorSection');
+        const shelfList = document.getElementById('shelfList');
+
+        // Load file
+        loadFileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            originalFileName = file.name;
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    libraryData = JSON.parse(event.target.result);
+
+                    // Validate basic structure
+                    if (!libraryData.library) {
+                        showStatus('Invalid library JSON: missing "library" field', 'error');
+                        return;
+                    }
+
+                    // Ensure shelves array exists
+                    if (!libraryData.shelves) {
+                        libraryData.shelves = [];
+                    }
+
+                    loadedFileName.textContent = originalFileName;
+                    populateEditor();
+                    emptyState.classList.add('hidden');
+                    editorSection.classList.remove('hidden');
+                    showStatus(`Loaded "${libraryData.library}"`, 'success');
+                } catch (err) {
+                    showStatus('Error parsing JSON: ' + err.message, 'error');
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        // Populate editor with loaded data
+        function populateEditor() {
+            document.getElementById('libraryName').value = libraryData.library || '';
+            document.getElementById('libraryType').value = libraryData.library_type || 'knowledge';
+            document.getElementById('libraryDescription').value = libraryData.description || '';
+            renderShelves();
+            updateStats();
+        }
+
+        // Render shelves
+        function renderShelves() {
+            if (!libraryData.shelves || libraryData.shelves.length === 0) {
+                shelfList.innerHTML = '<div class="empty-state"><p>No shelves yet. Add one to get started.</p></div>';
+                return;
+            }
+
+            shelfList.innerHTML = libraryData.shelves.map((shelf, shelfIndex) => `
+                <div class="shelf-item" data-shelf="${shelfIndex}">
+                    <div class="shelf-header" onclick="toggleShelf(${shelfIndex})">
+                        <span class="shelf-toggle" id="shelfToggle${shelfIndex}">▶</span>
+                        <span class="shelf-name-display">${escapeHtml(shelf.name || 'Unnamed Shelf')}</span>
+                        <span class="shelf-count">${shelf.books ? shelf.books.length : 0} books</span>
+                        <button class="btn btn-danger btn-small" onclick="event.stopPropagation(); deleteShelf(${shelfIndex})">Delete</button>
+                    </div>
+                    <div class="shelf-content" id="shelfContent${shelfIndex}">
+                        <div class="shelf-name-input">
+                            <label>Shelf Name</label>
+                            <input type="text" value="${escapeHtml(shelf.name || '')}"
+                                   onchange="updateShelfName(${shelfIndex}, this.value)"
+                                   placeholder="Shelf name">
+                        </div>
+                        <h3>Books</h3>
+                        <div class="book-list" id="bookList${shelfIndex}">
+                            ${renderBooks(shelf.books || [], shelfIndex)}
+                        </div>
+                        <button class="btn btn-secondary btn-small" onclick="addBook(${shelfIndex})" style="margin-top: 10px;">+ Add Book</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render books for a shelf
+        function renderBooks(books, shelfIndex) {
+            if (!books || books.length === 0) {
+                return '<div class="empty-state" style="padding: 15px;"><p>No books on this shelf.</p></div>';
+            }
+
+            return books.map((book, bookIndex) => `
+                <div class="book-item" data-book="${bookIndex}">
+                    <div class="book-header" onclick="toggleBook(${shelfIndex}, ${bookIndex})">
+                        <span class="book-icon">📖</span>
+                        <span class="book-name-display">${escapeHtml(book.name || 'Unnamed Book')}</span>
+                        <span class="chapter-count">${book.chapters ? book.chapters.length : 0} ch</span>
+                        <button class="btn btn-danger btn-small" onclick="event.stopPropagation(); deleteBook(${shelfIndex}, ${bookIndex})">×</button>
+                    </div>
+                    <div class="book-content" id="bookContent${shelfIndex}_${bookIndex}">
+                        <label>Book Title</label>
+                        <input type="text" value="${escapeHtml(book.name || '')}"
+                               onchange="updateBookName(${shelfIndex}, ${bookIndex}, this.value)"
+                               placeholder="Book title">
+                        <h3 style="font-size: 13px;">Chapters</h3>
+                        <div class="chapter-list">
+                            ${renderChapters(book.chapters || [], shelfIndex, bookIndex)}
+                        </div>
+                        <button class="btn btn-secondary btn-small" onclick="addChapter(${shelfIndex}, ${bookIndex})" style="margin-top: 8px;">+ Add Chapter</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render chapters for a book
+        function renderChapters(chapters, shelfIndex, bookIndex) {
+            if (!chapters || chapters.length === 0) {
+                return '<p style="color: var(--muted); font-size: 12px;">No chapters yet.</p>';
+            }
+
+            return chapters.map((chapter, chapterIndex) => `
+                <div class="chapter-item">
+                    <span class="chapter-bullet">•</span>
+                    <input type="text" value="${escapeHtml(chapter.name || '')}"
+                           onchange="updateChapter(${shelfIndex}, ${bookIndex}, ${chapterIndex}, this.value)"
+                           placeholder="Chapter name">
+                    <button class="btn btn-danger btn-small" onclick="deleteChapter(${shelfIndex}, ${bookIndex}, ${chapterIndex})">×</button>
+                </div>
+            `).join('');
+        }
+
+        // Toggle functions
+        function toggleShelf(shelfIndex) {
+            const content = document.getElementById(`shelfContent${shelfIndex}`);
+            const toggle = document.getElementById(`shelfToggle${shelfIndex}`);
+            content.classList.toggle('open');
+            toggle.classList.toggle('open');
+        }
+
+        function toggleBook(shelfIndex, bookIndex) {
+            const content = document.getElementById(`bookContent${shelfIndex}_${bookIndex}`);
+            content.classList.toggle('open');
+        }
+
+        // Update functions
+        function updateShelfName(shelfIndex, value) {
+            libraryData.shelves[shelfIndex].name = value;
+            renderShelves();
+        }
+
+        function updateBookName(shelfIndex, bookIndex, value) {
+            libraryData.shelves[shelfIndex].books[bookIndex].name = value;
+            updateStats();
+        }
+
+        function updateChapter(shelfIndex, bookIndex, chapterIndex, value) {
+            libraryData.shelves[shelfIndex].books[bookIndex].chapters[chapterIndex].name = value;
+        }
+
+        // Add functions
+        document.getElementById('addShelfBtn').addEventListener('click', () => {
+            if (!libraryData.shelves) libraryData.shelves = [];
+            libraryData.shelves.push({
+                name: '',
+                books: []
+            });
+            renderShelves();
+            updateStats();
+            // Open the new shelf
+            toggleShelf(libraryData.shelves.length - 1);
+        });
+
+        function addBook(shelfIndex) {
+            if (!libraryData.shelves[shelfIndex].books) {
+                libraryData.shelves[shelfIndex].books = [];
+            }
+            libraryData.shelves[shelfIndex].books.push({
+                name: '',
+                chapters: []
+            });
+            renderShelves();
+            updateStats();
+            // Re-open the shelf
+            toggleShelf(shelfIndex);
+        }
+
+        function addChapter(shelfIndex, bookIndex) {
+            if (!libraryData.shelves[shelfIndex].books[bookIndex].chapters) {
+                libraryData.shelves[shelfIndex].books[bookIndex].chapters = [];
+            }
+            libraryData.shelves[shelfIndex].books[bookIndex].chapters.push({ name: '' });
+            renderShelves();
+            updateStats();
+            // Re-open shelf and book
+            toggleShelf(shelfIndex);
+            toggleBook(shelfIndex, bookIndex);
+        }
+
+        // Delete functions
+        function deleteShelf(shelfIndex) {
+            if (confirm('Delete this shelf and all its books?')) {
+                libraryData.shelves.splice(shelfIndex, 1);
+                renderShelves();
+                updateStats();
+            }
+        }
+
+        function deleteBook(shelfIndex, bookIndex) {
+            if (confirm('Delete this book?')) {
+                libraryData.shelves[shelfIndex].books.splice(bookIndex, 1);
+                renderShelves();
+                updateStats();
+            }
+        }
+
+        function deleteChapter(shelfIndex, bookIndex, chapterIndex) {
+            libraryData.shelves[shelfIndex].books[bookIndex].chapters.splice(chapterIndex, 1);
+            renderShelves();
+            updateStats();
+            // Re-open shelf and book
+            toggleShelf(shelfIndex);
+            toggleBook(shelfIndex, bookIndex);
+        }
+
+        // Update stats
+        function updateStats() {
+            let shelves = 0, books = 0, chapters = 0;
+            if (libraryData && libraryData.shelves) {
+                shelves = libraryData.shelves.length;
+                libraryData.shelves.forEach(shelf => {
+                    if (shelf.books) {
+                        books += shelf.books.length;
+                        shelf.books.forEach(book => {
+                            if (book.chapters) {
+                                chapters += book.chapters.length;
+                            }
+                        });
+                    }
+                });
+            }
+            document.getElementById('shelfCount').textContent = shelves;
+            document.getElementById('bookCount').textContent = books;
+            document.getElementById('chapterCount').textContent = chapters;
+        }
+
+        // Sync metadata on change
+        document.getElementById('libraryName').addEventListener('change', (e) => {
+            libraryData.library = e.target.value;
+        });
+
+        document.getElementById('libraryType').addEventListener('change', (e) => {
+            libraryData.library_type = e.target.value;
+        });
+
+        document.getElementById('libraryDescription').addEventListener('change', (e) => {
+            libraryData.description = e.target.value;
+        });
+
+        // Preview toggle
+        document.getElementById('togglePreviewBtn').addEventListener('click', () => {
+            const section = document.getElementById('previewSection');
+            const btn = document.getElementById('togglePreviewBtn');
+            section.classList.toggle('hidden');
+            if (!section.classList.contains('hidden')) {
+                btn.textContent = 'Hide JSON Preview';
+                document.getElementById('jsonPreview').textContent = JSON.stringify(generateOutput(), null, 2);
+            } else {
+                btn.textContent = 'Show JSON Preview';
+            }
+        });
+
+        // Generate output
+        function generateOutput() {
+            return {
+                library: libraryData.library || '',
+                library_type: libraryData.library_type || 'knowledge',
+                description: libraryData.description || '',
+                shelves: (libraryData.shelves || []).map(shelf => ({
+                    name: shelf.name || '',
+                    books: (shelf.books || []).map(book => ({
+                        name: book.name || '',
+                        chapters: (book.chapters || []).map(ch => ({
+                            name: ch.name || ''
+                        })).filter(ch => ch.name)
+                    })).filter(book => book.name)
+                })).filter(shelf => shelf.name)
+            };
+        }
+
+        // Download
+        document.getElementById('downloadBtn').addEventListener('click', () => {
+            const output = generateOutput();
+            const filename = originalFileName || 'library.json';
+
+            const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+
+            showStatus(`Downloaded ${filename}`, 'success');
+        });
+
+        // Copy to clipboard
+        document.getElementById('copyBtn').addEventListener('click', async () => {
+            const output = generateOutput();
+            try {
+                await navigator.clipboard.writeText(JSON.stringify(output, null, 2));
+                showStatus('Copied to clipboard', 'success');
+            } catch (err) {
+                showStatus('Failed to copy: ' + err.message, 'error');
+            }
+        });
+
+        // Show status message
+        function showStatus(message, type) {
+            const statusEl = document.getElementById('statusMsg');
+            statusEl.textContent = message;
+            statusEl.className = 'status ' + type;
+            statusEl.classList.remove('hidden');
+            setTimeout(() => {
+                statusEl.classList.add('hidden');
+            }, 4000);
+        }
+
+        // Escape HTML
+        function escapeHtml(str) {
+            if (typeof str !== 'string') return '';
+            return str
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{
+  "name": "AI Risks: Real vs. Imaginary",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Framing the Debate: What Counts as a Real Risk?",
+      "topics": [
+        "How do we distinguish between present harms and speculative futures?",
+        "What makes a risk 'real'—probability, proximity, or severity?",
+        "Why do dramatic but unlikely scenarios capture more attention than slow-moving crises?",
+        "Who gets to define which AI risks matter most?",
+        "What is the difference between science fiction and scientific prediction?"
+      ],
+      "tags": ["ethics", "epistemology", "critical-thinking", "media-literacy"]
+    },
+    {
+      "name": "Real Danger: Economic Displacement and Job Loss",
+      "topics": [
+        "Which jobs are already being eliminated or degraded by AI systems?",
+        "How fast is AI-driven job displacement happening compared to previous technological shifts?",
+        "Why do economists disagree about whether AI will create more jobs than it destroys?",
+        "What happens to workers in industries where AI makes human labor obsolete?",
+        "Are 'learn to code' and retraining programs adequate responses to AI displacement?",
+        "How does AI change the balance of power between employers and workers?",
+        "What communities and demographics are most vulnerable to AI job loss?"
+      ],
+      "tags": ["economics", "inequality", "labor", "automation"]
+    },
+    {
+      "name": "Real Danger: Billionaire Control and Platform Manipulation",
+      "topics": [
+        "How do billionaire-owned platforms use AI to shape political discourse?",
+        "What evidence exists that algorithms are tuned for political outcomes?",
+        "Why does concentrated AI ownership threaten democratic accountability?",
+        "How does AI amplify the power of the already-powerful?",
+        "What is 'hyperagency' and why does it matter for democracy?",
+        "Can a handful of tech billionaires exert more influence than governments?"
+      ],
+      "tags": ["politics", "democracy", "platforms", "algorithms"]
+    },
+    {
+      "name": "Real Danger: AI-Powered Disinformation",
+      "topics": [
+        "How has AI changed the scale and speed of disinformation campaigns?",
+        "What are synthetic media and deepfakes doing to public trust?",
+        "Why did AI-generated fake news sites grow tenfold in one year?",
+        "How do foreign and domestic actors use AI to amplify division?",
+        "Can AI-generated content be reliably detected—and does detection even help?",
+        "What happens when people can no longer trust what they see and hear?"
+      ],
+      "tags": ["media", "misinformation", "deepfakes", "journalism"]
+    },
+    {
+      "name": "Real Danger: Surveillance, Bias, and Institutional Harms",
+      "topics": [
+        "How is AI being used to expand surveillance by governments and corporations?",
+        "What documented harms have AI systems caused in hiring, lending, and policing?",
+        "Why do AI systems often replicate and amplify existing biases?",
+        "Who bears the costs when AI systems make consequential errors?",
+        "How does AI affect privacy, autonomy, and human dignity in daily life?",
+        "Are there adequate legal remedies when AI causes harm?"
+      ],
+      "tags": ["ethics", "privacy", "surveillance", "bias"]
+    },
+    {
+      "name": "Imaginary Danger: Sentient AI and Machine Consciousness",
+      "topics": [
+        "What would it actually take for an AI to become conscious or sentient?",
+        "Why do current AI systems lack anything resembling subjective experience?",
+        "How does the 'sentient AI' narrative misrepresent how these systems work?",
+        "What is the difference between pattern matching and understanding?",
+        "Why do people anthropomorphize language models—and does it matter?",
+        "Has any credible scientist claimed we are close to machine consciousness?"
+      ],
+      "tags": ["technology", "cognition", "ai-ml", "neuroscience"]
+    },
+    {
+      "name": "Imaginary Danger: Superintelligence and Extinction",
+      "topics": [
+        "What is the 'superintelligence' hypothesis and what assumptions does it require?",
+        "How many speculative leaps are needed to get from current AI to existential threat?",
+        "Why do extinction scenarios dominate media coverage of AI risk?",
+        "What do most AI researchers actually believe about superintelligence timelines?",
+        "Is there any empirical evidence that AI is approaching general intelligence?",
+        "How did the 'paperclip maximizer' become a serious policy concern?"
+      ],
+      "tags": ["technology", "controversy", "ai-ml", "media-literacy"]
+    },
+    {
+      "name": "Who Benefits from the Imaginary Risks Narrative?",
+      "topics": [
+        "Why might tech billionaires prefer public focus on existential AI risk?",
+        "How does the 'brave pioneer' narrative obscure present harms?",
+        "What funding and status incentives drive AI safety researchers toward speculative scenarios?",
+        "Does fear of superintelligence distract from regulating current AI systems?",
+        "Why do science fiction scenarios attract more media attention than job displacement?",
+        "How does the extinction narrative make billionaires look like saviors rather than exploiters?"
+      ],
+      "tags": ["media", "influence", "propaganda", "rhetoric"]
+    },
+    {
+      "name": "The Opportunity Cost of Misplaced Fear",
+      "topics": [
+        "What real AI harms go unaddressed while we debate robot uprisings?",
+        "How does speculative risk framing shape AI policy and regulation?",
+        "Are resources being diverted from present harms to hypothetical futures?",
+        "What would AI governance look like if focused on documented harms?",
+        "Why is it politically easier to address imaginary threats than economic displacement?",
+        "What happens to workers and democracy while we wait for the singularity?"
+      ],
+      "tags": ["politics", "governance", "ai-policy", "labor"]
+    },
+    {
+      "name": "Defenses Against AI Risk Misinformation",
+      "topics": [
+        "How can ordinary people evaluate AI risk claims critically?",
+        "What red flags indicate an AI risk narrative is speculative rather than evidence-based?",
+        "Why should we ask 'who benefits?' when encountering AI danger stories?",
+        "What questions cut through hype about sentient machines and superintelligence?",
+        "How can media literacy help people distinguish real from imaginary AI threats?",
+        "What credible sources focus on documented AI harms rather than speculation?",
+        "How do we avoid both dismissing AI concerns and being captured by science fiction?"
+      ],
+      "tags": ["education", "critical-thinking", "media-literacy", "fact-checking"]
+    },
+    {
+      "name": "Contested Perspectives",
+      "topics": [
+        "Do existential AI risk researchers have legitimate concerns that shouldn't be dismissed?",
+        "Is it possible to take both present harms and speculative risks seriously?",
+        "What do AI safety advocates say in defense of focusing on long-term risks?",
+        "Are there scenarios where superintelligence concerns are not just science fiction?",
+        "How do we allocate attention and resources across risks with different probabilities and timelines?",
+        "What would change the assessment from 'imaginary' to 'real'?"
+      ],
+      "tags": ["philosophy", "controversy", "uncertainty", "ai-ml"]
+    },
+    {
+      "name": "Focusing on What Matters",
+      "topics": [
+        "What AI risks deserve urgent policy attention right now?",
+        "How can citizens push for regulation focused on present harms?",
+        "What would an evidence-based AI risk agenda look like?",
+        "How do we hold powerful actors accountable for documented AI harms?",
+        "What role do workers, unions, and civic organizations play in shaping AI's future?",
+        "Can we build AI systems that serve broad public interests rather than billionaire agendas?"
+      ],
+      "tags": ["politics", "accountability", "ai-policy", "activism"]
+    }
+  ]
+}

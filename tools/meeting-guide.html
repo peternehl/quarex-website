@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quarex Meeting Guide</title>
+  <style>
+    :root {
+      --bg: #0A0A0A;
+      --ink: #F7F7F7;
+      --muted: #B7BCC2;
+      --line: #262626;
+      --card: #111111;
+      --accent: #E6E6E6;
+      --brand: #EDEDED;
+      --blue: #3B82F6;
+      --orange: #f59e0b;
+      --green: #10b981;
+      --red: #ef4444;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0 30px;
+      border-bottom: 2px solid var(--line);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(24px, 4vw, 36px);
+      color: var(--brand);
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    /* Project Info */
+    .project-info {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 20px;
+      margin: 30px 0;
+    }
+
+    .project-info label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 6px;
+    }
+
+    .project-info input {
+      width: 100%;
+      padding: 12px;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--ink);
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+
+    .project-info input:focus {
+      outline: none;
+      border-color: var(--blue);
+    }
+
+    .project-info input:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Meeting Selector */
+    .meeting-selector {
+      margin: 30px 0;
+    }
+
+    .meeting-selector label {
+      display: block;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 10px;
+    }
+
+    .meeting-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .meeting-btn {
+      padding: 10px 16px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .meeting-btn:hover {
+      border-color: var(--blue);
+      color: var(--ink);
+    }
+
+    .meeting-btn.active {
+      background: var(--blue);
+      border-color: var(--blue);
+      color: white;
+    }
+
+    .meeting-btn.has-notes {
+      border-color: var(--green);
+    }
+
+    .meeting-btn.has-notes::after {
+      content: " *";
+      color: var(--green);
+    }
+
+    .meeting-btn.active.has-notes::after {
+      color: white;
+    }
+
+    /* Checklist */
+    .checklist {
+      margin: 30px 0;
+    }
+
+    .checklist-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .checklist-header h2 {
+      margin: 0;
+      font-size: 1.4rem;
+      color: var(--brand);
+    }
+
+    .progress {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .progress-bar {
+      width: 150px;
+      height: 6px;
+      background: var(--line);
+      border-radius: 3px;
+      margin-top: 6px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--green);
+      border-radius: 3px;
+      transition: width 0.3s;
+    }
+
+    .topic-item {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      overflow: hidden;
+    }
+
+    .topic-header {
+      display: flex;
+      align-items: flex-start;
+      padding: 16px;
+      cursor: pointer;
+      gap: 12px;
+    }
+
+    .topic-header:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .topic-checkbox {
+      width: 22px;
+      height: 22px;
+      border: 2px solid var(--line);
+      border-radius: 4px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+      transition: all 0.2s;
+    }
+
+    .topic-checkbox.checked {
+      background: var(--green);
+      border-color: var(--green);
+    }
+
+    .topic-checkbox.checked::after {
+      content: "";
+      width: 6px;
+      height: 10px;
+      border: solid white;
+      border-width: 0 2px 2px 0;
+      transform: rotate(45deg);
+      margin-bottom: 2px;
+    }
+
+    .topic-checkbox.flagged {
+      background: var(--orange);
+      border-color: var(--orange);
+    }
+
+    .topic-checkbox.flagged::after {
+      content: "!";
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .topic-text {
+      flex: 1;
+      color: var(--ink);
+      font-size: 1rem;
+    }
+
+    .topic-text.completed {
+      color: var(--muted);
+      text-decoration: line-through;
+    }
+
+    .topic-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .topic-action-btn {
+      padding: 4px 8px;
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      color: var(--muted);
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .topic-action-btn:hover {
+      border-color: var(--blue);
+      color: var(--ink);
+    }
+
+    .topic-action-btn.flag-btn:hover,
+    .topic-action-btn.flag-btn.active {
+      border-color: var(--orange);
+      color: var(--orange);
+    }
+
+    .topic-notes {
+      padding: 0 16px 16px 50px;
+      display: none;
+    }
+
+    .topic-notes.open {
+      display: block;
+    }
+
+    .topic-notes textarea {
+      width: 100%;
+      min-height: 80px;
+      padding: 12px;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 0.95rem;
+      resize: vertical;
+    }
+
+    .topic-notes textarea:focus {
+      outline: none;
+      border-color: var(--blue);
+    }
+
+    /* Action Buttons */
+    .actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 30px 0;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--blue);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #2563eb;
+    }
+
+    .btn-secondary {
+      background: var(--card);
+      color: var(--ink);
+      border: 1px solid var(--line);
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--blue);
+    }
+
+    .btn-danger {
+      background: var(--card);
+      color: var(--red);
+      border: 1px solid var(--line);
+    }
+
+    .btn-danger:hover {
+      border-color: var(--red);
+    }
+
+    /* Summary Section */
+    .summary {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 20px;
+      margin: 30px 0;
+      display: none;
+    }
+
+    .summary.visible {
+      display: block;
+    }
+
+    .summary h3 {
+      margin: 0 0 15px;
+      color: var(--brand);
+    }
+
+    .summary-section {
+      margin-bottom: 20px;
+    }
+
+    .summary-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .summary-section h4 {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .summary-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .summary-list li {
+      padding: 8px 0;
+      border-bottom: 1px solid var(--line);
+      color: var(--ink);
+    }
+
+    .summary-list li:last-child {
+      border-bottom: none;
+    }
+
+    .summary-list .flagged {
+      color: var(--orange);
+    }
+
+    .summary-list .note {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 4px;
+      padding-left: 16px;
+      border-left: 2px solid var(--line);
+    }
+
+    /* Hidden state for initial load */
+    .hidden {
+      display: none;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white;
+        color: black;
+      }
+      .meeting-selector, .actions, .topic-action-btn {
+        display: none !important;
+      }
+      .topic-notes {
+        display: block !important;
+      }
+      .topic-item {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Quarex Meeting Guide</h1>
+      <p class="subtitle">Pre-Planning and Planning Meetings</p>
+    </header>
+
+    <div class="project-info">
+      <label for="projectName">Project Name</label>
+      <input type="text" id="projectName" placeholder="Enter project name...">
+      <label for="clientName">Client Name</label>
+      <input type="text" id="clientName" placeholder="Enter client name...">
+      <label for="meetingDate">Meeting Date</label>
+      <input type="date" id="meetingDate">
+    </div>
+
+    <div class="meeting-selector">
+      <label>Select Meeting Type</label>
+      <div class="meeting-buttons" id="meetingButtons"></div>
+    </div>
+
+    <div class="checklist hidden" id="checklist">
+      <div class="checklist-header">
+        <h2 id="meetingTitle">Meeting Title</h2>
+        <div class="progress">
+          <span id="progressText">0 / 0 covered</span>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
+      <div id="topicList"></div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-primary" onclick="downloadNotes()">Download Notes</button>
+      <button class="btn btn-secondary" onclick="showSummary()">View Summary</button>
+      <button class="btn btn-secondary" onclick="saveToLocal()">Save Progress</button>
+      <button class="btn btn-danger" onclick="clearAll()">Clear All</button>
+    </div>
+
+    <div class="summary" id="summary">
+      <h3>Meeting Summary</h3>
+      <div id="summaryContent"></div>
+    </div>
+  </div>
+
+  <script>
+    // Meeting data embedded from Quarex book
+    const meetingData = {
+      "name": "Pre-Planning and Planning Meetings",
+      "chapters": [
+        {
+          "name": "The Initial Contact Call (Single)",
+          "topics": [
+            "What should you learn before you ever get on the first call?",
+            "How do you quickly assess if this is a real project or a fishing expedition?",
+            "What questions reveal the caller's actual decision-making authority?",
+            "How do you set expectations about the process without overselling?",
+            "When should you walk away before investing more time?",
+            "What information do you need to prepare for the first real meeting?"
+          ]
+        },
+        {
+          "name": "The Relationship Framework Meeting (Single)",
+          "topics": [
+            "Who needs to be in the room from both sides?",
+            "How do you establish communication protocols that prevent friction?",
+            "What contact list information do you need and why do titles matter?",
+            "How do you define boundaries between your team and their team?",
+            "What approval chains need to be established upfront?",
+            "Should subcontractor relationships need to be defined in this meeting?",
+            "How do you handle clients who want to bypass process?"
+          ]
+        },
+        {
+          "name": "Expectations Alignment Meetings (Multiple)",
+          "topics": [
+            "How do you surface what the client really expects versus what they say?",
+            "What do you need to communicate about your own expectations?",
+            "How do you address unrealistic timelines before they become problems?",
+            "What happens when stakeholders have conflicting expectations?",
+            "How do you document expectations so they can't be revised later?",
+            "When do expectation gaps signal you should decline the project?"
+          ]
+        },
+        {
+          "name": "Requirements Discovery Meetings (Multiple)",
+          "topics": [
+            "What questions uncover requirements the client hasn't articulated?",
+            "How do you distinguish between needs, wants, and wishes?",
+            "What operational workflows must you understand before specifying technology?",
+            "How do you probe for growth expectations without leading the witness?",
+            "What existing systems and integrations constrain the solution?",
+            "How do you capture requirements in a form that survives personnel changes?"
+          ]
+        },
+        {
+          "name": "Constraints Reality Meetings (Multiple)",
+          "topics": [
+            "How do you get honest answers about budget when clients won't say the number?",
+            "How do you define budget categories within the overall budget?",
+            "What technical constraints does the existing client infrastructure impose?",
+            "How do you assess organizational constraints like security and IT policies?",
+            "What physical constraints affect what's actually buildable?",
+            "How do you handle vendor relationships the client insists on?",
+            "When do constraints make the project infeasible as scoped?"
+          ]
+        },
+        {
+          "name": "Technology Direction Meetings (Multiple)",
+          "topics": [
+            "How do you guide technology choices without imposing your preferences?",
+            "What questions reveal the client's actual technology sophistication?",
+            "How do you handle clients locked into specific vendors or platforms?",
+            "When should you push back on technology choices that will cause problems?",
+            "How do you present options without overwhelming non-technical stakeholders?",
+            "What technology decisions must be made before design can proceed?"
+          ]
+        },
+        {
+          "name": "The Schedule and Milestones Meeting (Single)",
+          "topics": [
+            "How do you build a realistic schedule when the client has a fixed deadline?",
+            "What milestones create natural checkpoints for both sides?",
+            "How do you structure design reviews that don't become approval bottlenecks?",
+            "What procurement lead times must be factored into scheduling?",
+            "How do you structure change order mechanisms to handle the unexpected?",
+            "What schedule dependencies need to be explicitly documented?"
+          ]
+        },
+        {
+          "name": "Procurement and Logistics Meetings (Multiple)",
+          "topics": [
+            "Who buys what and through which purchasing channels?",
+            "Where does equipment get shipped, staged, and stored?",
+            "How do you coordinate deliveries with installation schedules?",
+            "Who is in charge of inventory tracking and record keeping?",
+            "How do you handle client-furnished equipment that's late or wrong?",
+            "What spare parts and consumables need to be in the initial order?"
+          ]
+        },
+        {
+          "name": "The Documentation Standards Meeting (Single)",
+          "topics": [
+            "What documentation does the client require for their own records?",
+            "How do you integrate with client documentation systems?",
+            "What as-built documentation standards will be delivered?",
+            "How do you handle revision control when multiple parties edit documents?",
+            "What training documentation will be required for the system?",
+            "What process catches undocumented decisions before they become disputes?"
+          ]
+        },
+        {
+          "name": "The Progress Review Cadence Meeting (Single)",
+          "topics": [
+            "How often should formal progress meetings occur?",
+            "What reporting format keeps stakeholders informed without overwhelming them?",
+            "How do you escalate problems before they become crises?",
+            "What triggers an unscheduled meeting versus a status update?",
+            "How do you handle clients who want daily check-ins?",
+            "What gets documented from progress meetings and who owns that?"
+          ]
+        },
+        {
+          "name": "The Pre-Design Signoff Meeting (Single)",
+          "topics": [
+            "What must be agreed before design work begins?",
+            "How do you package everything learned into a design brief?",
+            "What signoff prevents scope creep disguised as clarification?",
+            "How do you handle late changes to agreed requirements?",
+            "What documentation does the client need to provide before you start designing?",
+            "What documentation does the systems integrator need to provide before starting the design?",
+            "When is the project ready to move from planning to design?"
+          ]
+        }
+      ]
+    };
+
+    // State
+    let currentMeeting = 0;
+    let state = {
+      projectName: '',
+      clientName: '',
+      meetingDate: '',
+      meetings: {}
+    };
+
+    // Initialize meetings state
+    meetingData.chapters.forEach((chapter, idx) => {
+      state.meetings[idx] = {
+        topics: chapter.topics.map(() => ({
+          checked: false,
+          flagged: false,
+          notes: ''
+        }))
+      };
+    });
+
+    // DOM Elements
+    const meetingButtons = document.getElementById('meetingButtons');
+    const checklist = document.getElementById('checklist');
+    const meetingTitle = document.getElementById('meetingTitle');
+    const topicList = document.getElementById('topicList');
+    const progressText = document.getElementById('progressText');
+    const progressFill = document.getElementById('progressFill');
+    const projectNameInput = document.getElementById('projectName');
+    const clientNameInput = document.getElementById('clientName');
+    const meetingDateInput = document.getElementById('meetingDate');
+
+    // Initialize
+    function init() {
+      loadFromLocal();
+      renderMeetingButtons();
+      selectMeeting(0);
+
+      // Bind project info inputs
+      projectNameInput.addEventListener('input', (e) => {
+        state.projectName = e.target.value;
+      });
+      clientNameInput.addEventListener('input', (e) => {
+        state.clientName = e.target.value;
+      });
+      meetingDateInput.addEventListener('input', (e) => {
+        state.meetingDate = e.target.value;
+      });
+
+      // Set today's date as default
+      if (!state.meetingDate) {
+        const today = new Date().toISOString().split('T')[0];
+        meetingDateInput.value = today;
+        state.meetingDate = today;
+      }
+    }
+
+    function renderMeetingButtons() {
+      meetingButtons.innerHTML = meetingData.chapters.map((chapter, idx) => {
+        const hasNotes = state.meetings[idx].topics.some(t => t.notes || t.checked || t.flagged);
+        return `<button class="meeting-btn ${idx === currentMeeting ? 'active' : ''} ${hasNotes ? 'has-notes' : ''}"
+                        onclick="selectMeeting(${idx})">${chapter.name.replace(/ \(.*\)/, '')}</button>`;
+      }).join('');
+    }
+
+    function selectMeeting(idx) {
+      currentMeeting = idx;
+      checklist.classList.remove('hidden');
+      renderMeetingButtons();
+      renderTopics();
+    }
+
+    function renderTopics() {
+      const chapter = meetingData.chapters[currentMeeting];
+      const meetingState = state.meetings[currentMeeting];
+
+      meetingTitle.textContent = chapter.name;
+
+      topicList.innerHTML = chapter.topics.map((topic, idx) => {
+        const topicState = meetingState.topics[idx];
+        const checkboxClass = topicState.flagged ? 'flagged' : (topicState.checked ? 'checked' : '');
+        const textClass = topicState.checked ? 'completed' : '';
+
+        return `
+          <div class="topic-item">
+            <div class="topic-header" onclick="toggleTopic(${idx})">
+              <div class="topic-checkbox ${checkboxClass}"></div>
+              <div class="topic-text ${textClass}">${topic}</div>
+              <div class="topic-actions">
+                <button class="topic-action-btn flag-btn ${topicState.flagged ? 'active' : ''}"
+                        onclick="event.stopPropagation(); toggleFlag(${idx})">Flag</button>
+                <button class="topic-action-btn"
+                        onclick="event.stopPropagation(); toggleNotes(${idx})">Notes</button>
+              </div>
+            </div>
+            <div class="topic-notes ${topicState.notes ? 'open' : ''}" id="notes-${idx}">
+              <textarea placeholder="Add notes..."
+                        onchange="updateNotes(${idx}, this.value)">${topicState.notes}</textarea>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      updateProgress();
+    }
+
+    function toggleTopic(idx) {
+      const topicState = state.meetings[currentMeeting].topics[idx];
+      if (topicState.flagged) {
+        topicState.flagged = false;
+        topicState.checked = true;
+      } else if (topicState.checked) {
+        topicState.checked = false;
+      } else {
+        topicState.checked = true;
+      }
+      renderTopics();
+      renderMeetingButtons();
+    }
+
+    function toggleFlag(idx) {
+      const topicState = state.meetings[currentMeeting].topics[idx];
+      topicState.flagged = !topicState.flagged;
+      if (topicState.flagged) {
+        topicState.checked = false;
+      }
+      renderTopics();
+      renderMeetingButtons();
+    }
+
+    function toggleNotes(idx) {
+      const notesEl = document.getElementById(`notes-${idx}`);
+      notesEl.classList.toggle('open');
+      if (notesEl.classList.contains('open')) {
+        notesEl.querySelector('textarea').focus();
+      }
+    }
+
+    function updateNotes(idx, value) {
+      state.meetings[currentMeeting].topics[idx].notes = value;
+      renderMeetingButtons();
+    }
+
+    function updateProgress() {
+      const meetingState = state.meetings[currentMeeting];
+      const total = meetingState.topics.length;
+      const covered = meetingState.topics.filter(t => t.checked || t.flagged).length;
+
+      progressText.textContent = `${covered} / ${total} covered`;
+      progressFill.style.width = `${(covered / total) * 100}%`;
+    }
+
+    function saveToLocal() {
+      state.projectName = projectNameInput.value;
+      state.clientName = clientNameInput.value;
+      state.meetingDate = meetingDateInput.value;
+      localStorage.setItem('quarex-meeting-guide', JSON.stringify(state));
+      alert('Progress saved!');
+    }
+
+    function loadFromLocal() {
+      const saved = localStorage.getItem('quarex-meeting-guide');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        state = { ...state, ...parsed };
+        projectNameInput.value = state.projectName || '';
+        clientNameInput.value = state.clientName || '';
+        meetingDateInput.value = state.meetingDate || '';
+      }
+    }
+
+    function clearAll() {
+      if (confirm('Clear all notes and progress? This cannot be undone.')) {
+        localStorage.removeItem('quarex-meeting-guide');
+        location.reload();
+      }
+    }
+
+    function showSummary() {
+      const summary = document.getElementById('summary');
+      const content = document.getElementById('summaryContent');
+
+      let html = '';
+
+      // Flagged items
+      const flagged = [];
+      meetingData.chapters.forEach((chapter, mIdx) => {
+        chapter.topics.forEach((topic, tIdx) => {
+          if (state.meetings[mIdx].topics[tIdx].flagged) {
+            flagged.push({
+              meeting: chapter.name,
+              topic: topic,
+              notes: state.meetings[mIdx].topics[tIdx].notes
+            });
+          }
+        });
+      });
+
+      if (flagged.length > 0) {
+        html += `<div class="summary-section">
+          <h4>Flagged for Follow-up (${flagged.length})</h4>
+          <ul class="summary-list">
+            ${flagged.map(f => `
+              <li class="flagged">
+                <strong>${f.meeting}:</strong> ${f.topic}
+                ${f.notes ? `<div class="note">${f.notes}</div>` : ''}
+              </li>
+            `).join('')}
+          </ul>
+        </div>`;
+      }
+
+      // Items with notes
+      const withNotes = [];
+      meetingData.chapters.forEach((chapter, mIdx) => {
+        chapter.topics.forEach((topic, tIdx) => {
+          const topicState = state.meetings[mIdx].topics[tIdx];
+          if (topicState.notes && !topicState.flagged) {
+            withNotes.push({
+              meeting: chapter.name,
+              topic: topic,
+              notes: topicState.notes
+            });
+          }
+        });
+      });
+
+      if (withNotes.length > 0) {
+        html += `<div class="summary-section">
+          <h4>Notes (${withNotes.length})</h4>
+          <ul class="summary-list">
+            ${withNotes.map(n => `
+              <li>
+                <strong>${n.meeting}:</strong> ${n.topic}
+                <div class="note">${n.notes}</div>
+              </li>
+            `).join('')}
+          </ul>
+        </div>`;
+      }
+
+      // Overall progress
+      let totalTopics = 0;
+      let coveredTopics = 0;
+      meetingData.chapters.forEach((chapter, mIdx) => {
+        totalTopics += chapter.topics.length;
+        coveredTopics += state.meetings[mIdx].topics.filter(t => t.checked || t.flagged).length;
+      });
+
+      html += `<div class="summary-section">
+        <h4>Overall Progress</h4>
+        <p>${coveredTopics} of ${totalTopics} topics covered (${Math.round((coveredTopics/totalTopics)*100)}%)</p>
+      </div>`;
+
+      content.innerHTML = html;
+      summary.classList.add('visible');
+    }
+
+    function downloadNotes() {
+      const projectName = projectNameInput.value || 'Project';
+      const clientName = clientNameInput.value || 'Client';
+      const meetingDate = meetingDateInput.value || new Date().toISOString().split('T')[0];
+
+      let text = `MEETING NOTES\n`;
+      text += `${'='.repeat(60)}\n\n`;
+      text += `Project: ${projectName}\n`;
+      text += `Client: ${clientName}\n`;
+      text += `Date: ${meetingDate}\n\n`;
+      text += `${'='.repeat(60)}\n\n`;
+
+      meetingData.chapters.forEach((chapter, mIdx) => {
+        const meetingState = state.meetings[mIdx];
+        const hasContent = meetingState.topics.some(t => t.checked || t.flagged || t.notes);
+
+        if (hasContent) {
+          text += `${chapter.name}\n`;
+          text += `${'-'.repeat(chapter.name.length)}\n\n`;
+
+          chapter.topics.forEach((topic, tIdx) => {
+            const topicState = meetingState.topics[tIdx];
+            if (topicState.checked || topicState.flagged || topicState.notes) {
+              const status = topicState.flagged ? '[FLAG]' : (topicState.checked ? '[OK]' : '[  ]');
+              text += `${status} ${topic}\n`;
+              if (topicState.notes) {
+                text += `    Notes: ${topicState.notes}\n`;
+              }
+              text += '\n';
+            }
+          });
+
+          text += '\n';
+        }
+      });
+
+      // Flagged summary at the end
+      const flagged = [];
+      meetingData.chapters.forEach((chapter, mIdx) => {
+        chapter.topics.forEach((topic, tIdx) => {
+          if (state.meetings[mIdx].topics[tIdx].flagged) {
+            flagged.push(`- ${chapter.name}: ${topic}`);
+          }
+        });
+      });
+
+      if (flagged.length > 0) {
+        text += `${'='.repeat(60)}\n`;
+        text += `FOLLOW-UP REQUIRED\n`;
+        text += `${'='.repeat(60)}\n\n`;
+        text += flagged.join('\n');
+        text += '\n';
+      }
+
+      // Download
+      const blob = new Blob([text], { type: 'text/plain' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `meeting-notes-${projectName.replace(/\s+/g, '-').toLowerCase()}-${meetingDate}.txt`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    // Initialize on load
+    init();
+  </script>
+</body>
+</html>

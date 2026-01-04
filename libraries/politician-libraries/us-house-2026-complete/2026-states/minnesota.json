@@ -1,0 +1,120 @@
+{
+  "book": "Minnesota",
+  "chapters": [
+    {
+      "name": "MN-01",
+      "topics": [
+        "Brad Finstad (R)",
+        "Jake Johnson (D)",
+        "Oliver Morlan (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    },
+    {
+      "name": "MN-02",
+      "topics": [
+        "Tyler Kistner (R)",
+        "Eric Pratt (R)",
+        "Kaela Berg (D)",
+        "Matt Klein (D)",
+        "Matt Little (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    },
+    {
+      "name": "MN-03",
+      "topics": [
+        "Jeremy Westby (R)",
+        "Kelly Morrison (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    },
+    {
+      "name": "MN-04",
+      "topics": [
+        "Betty McCollum (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    },
+    {
+      "name": "MN-05",
+      "topics": [
+        "John Nagel (R)",
+        "Dalia al-Aqidi (R)",
+        "Ilhan Omar (D)",
+        "Latonya Reeves (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    },
+    {
+      "name": "MN-06",
+      "topics": [
+        "Tom Emmer (R)",
+        "Michael Foley (R)",
+        "Doug Chapin (D)",
+        "Sierra Grandy (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    },
+    {
+      "name": "MN-07",
+      "topics": [
+        "Michelle Fischbach (R)",
+        "Jared Adams (D)",
+        "Heather Keeler (D)",
+        "Erik Osberg (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    },
+    {
+      "name": "MN-08",
+      "topics": [
+        "Pete Stauber (R)",
+        "Emanuel Anastos (D)",
+        "Cyle Cramer (D)",
+        "John-Paul McBride (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "minnesota"
+      ]
+    }
+  ]
+}

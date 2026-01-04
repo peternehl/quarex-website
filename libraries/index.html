@@ -18,7 +18,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="apple-touch-icon" href="/assets/quarex-hero-round-500pixels.png">
     <!-- Tablet Configuration System -->
-    <script src="/tablet/tablet-config.js"></script>
+    <script src="/tablet/tablet-config.js?v=2"></script>
     <style>
         :root {
             --bg: #0A0A0A;
@@ -850,7 +850,7 @@
             'e': 'Event Libraries',
             'pr': 'Practical Libraries',
             'pe': 'Perspectives & Debates',
-            'c': 'Candidate Research',
+            'c': 'Politician Research',
             'i': 'Infrastructure & Systems'
         };
 
@@ -861,7 +861,7 @@
             'Event Libraries': 'e',
             'Practical Libraries': 'pr',
             'Perspectives & Debates': 'pe',
-            'Candidate Research': 'c',
+            'Politician Research': 'c',
             'Infrastructure & Systems': 'i'
         };
 
@@ -1037,9 +1037,9 @@
                         libraries: []
                     },
                     {
-                        name: 'Candidate Research',
-                        description: 'Research candidates for elected office - policies, records, and positions',
-                        folder: 'candidate-libraries',
+                        name: 'Politician Research',
+                        description: 'Research politicians and candidates - policies, records, and positions',
+                        folder: 'politician-libraries',
                         questionFile: 'questions-libraries/candidate-questions.json',
                         externalLinks: [
                             {
@@ -1824,14 +1824,14 @@
 
             const externalLinks = state.currentLibraryType.externalLinks || [];
             const externalLinksHtml = externalLinks.length > 0 ? `
-                <div class="external-links" style="margin-bottom: 1.5rem;">
+                <div class="external-links" style="margin-bottom: 1.5rem; display: flex; align-items: center; flex-wrap: wrap; gap: 1rem;">
                     ${externalLinks.map(link => `
                         <a href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer"
                            class="external-link-btn"
                            style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem;
                                   background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
                                   color: white; text-decoration: none; border-radius: 8px;
-                                  font-weight: 500; margin-right: 0.75rem; margin-bottom: 0.5rem;
+                                  font-weight: 500;
                                   transition: transform 0.2s, box-shadow 0.2s;"
                            onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(96,165,250,0.4)';"
                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
@@ -1840,6 +1840,7 @@
                             <span style="font-size: 0.8em;">↗</span>
                         </a>
                     `).join('')}
+                    <span style="background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 0.75rem 1.25rem; color: var(--text); font-size: 1.25rem; font-weight: 600;">↓ Select an office below to research candidates and elected officials ↓</span>
                 </div>
             ` : '';
 
@@ -1974,7 +1975,28 @@
         function renderBooks() {
             const content = document.getElementById('content');
 
+            // Check for special index link (Trump Administration cabinet)
+            let indexLinkHtml = '';
+            if (state.currentLibrary && state.currentLibrary.slug === 'trump-administration-2025' &&
+                state.currentShelf && state.currentShelf.slug === 'cabinet-and-senior-officials') {
+                indexLinkHtml = `
+                    <div style="margin-bottom: 1.5rem;">
+                        <a href="${BASE_PATH}politician-libraries/trump-administration-2025/index.html"
+                           style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem;
+                                  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+                                  color: white; text-decoration: none; border-radius: 8px;
+                                  font-weight: 500; transition: transform 0.2s, box-shadow 0.2s;"
+                           onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 12px rgba(96,165,250,0.4)';"
+                           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                            <span>📋</span>
+                            <span>View Alphabetical Cabinet Index</span>
+                        </a>
+                    </div>
+                `;
+            }
+
             content.innerHTML = `
+                ${indexLinkHtml}
                 <div class="grid">
                     ${state.currentShelf.books.map((book, index) => {
                         return `
@@ -2016,7 +2038,8 @@
                     slug: book.slug,
                     mode: bookData.mode,
                     chapters: bookData.chapters || [],
-                    tags: bookData.tags || []
+                    tags: bookData.tags || [],
+                    tool: bookData.tool || null
                 };
 
                 // Check if sequential mode book
@@ -2052,8 +2075,20 @@
         // Render chapters
         function renderChapters() {
             const content = document.getElementById('content');
+            const tool = state.currentBook.tool;
 
             content.innerHTML = `
+                ${tool ? `
+                <div class="tool-banner" style="background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%); border: 1px solid #4a9eff; border-radius: 12px; padding: 1.25rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+                    <div>
+                        <div style="font-weight: 600; color: #fff; margin-bottom: 0.25rem;">${escapeHtml(tool.label)}</div>
+                        <div style="color: #a0aec0; font-size: 0.9rem;">${escapeHtml(tool.description)}</div>
+                    </div>
+                    <a href="${tool.url}" target="_blank" style="background: #4a9eff; color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; white-space: nowrap; transition: background 0.2s;" onmouseover="this.style.background='#357abd'" onmouseout="this.style.background='#4a9eff'">
+                        Launch Tool
+                    </a>
+                </div>
+                ` : ''}
                 <div class="grid">
                     ${state.currentBook.chapters.map((chapter, index) => {
                         const chapterName = typeof chapter === 'string' ? chapter : chapter.name;

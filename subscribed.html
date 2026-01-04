@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thanks for Subscribing - Quarex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0A0A0A;
+      --ink: #F7F7F7;
+      --muted: #B7BCC2;
+      --accent: #7CB9FF;
+      --brand: #EDEDED;
+      --blue: #3B82F6;
+      --green: #10b981;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font: 16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--ink);
+      background: url('assets/living-book-iceberg.png') center center / cover fixed no-repeat;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .page-overlay {
+      min-height: 100vh;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .thank-you-card {
+      background: linear-gradient(135deg, #1e3a8a, #1e40af);
+      border-radius: 20px;
+      padding: 48px 40px;
+      max-width: 500px;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      border: 2px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .checkmark {
+      width: 80px;
+      height: 80px;
+      background: var(--green);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      font-size: 40px;
+    }
+
+    h1 {
+      font-family: "Playfair Display", serif;
+      font-size: 2.5rem;
+      color: var(--brand);
+      margin-bottom: 16px;
+    }
+
+    p {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 32px;
+      background: #ffffff;
+      color: #111;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 999px;
+      transition: all 0.2s;
+    }
+
+    .btn:hover {
+      filter: brightness(0.95);
+      transform: translateY(-2px);
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="page-overlay">
+    <div class="thank-you-card">
+      <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex" class="logo" />
+      <div class="checkmark">&#10003;</div>
+      <h1>You're In!</h1>
+      <p>Thanks for subscribing to Quarex updates.</p>
+      <p class="subtitle">We'll notify you when new Living Books are published.</p>
+      <a href="/" class="btn">Explore the Libraries</a>
+    </div>
+  </div>
+</body>
+</html>

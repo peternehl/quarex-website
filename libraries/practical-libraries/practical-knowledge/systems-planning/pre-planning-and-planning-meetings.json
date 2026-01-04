@@ -1,0 +1,146 @@
+{
+  "name": "Pre-Planning and Planning Meetings",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tool": {
+    "url": "/tools/meeting-guide.html",
+    "label": "Open Meeting Guide",
+    "description": "Interactive checklist with notes and export"
+  },
+  "chapters": [
+    {
+      "name": "The Initial Contact Call (Single)",
+      "topics": [
+        "What should you learn before you ever get on the first call?",
+        "How do you quickly assess if this is a real project or a fishing expedition?",
+        "What questions reveal the callers's actual decision-making authority?",
+        "How do you set expectations about the process without overselling?",
+        "When should you walk away before investing more time?",
+        "What information do you need to prepare for the first real meeting?"
+      ],
+      "tags": ["economics", "communication", "negotiation", "leadership"]
+    },
+    {
+      "name": "The Relationship Framework Meeting (Single)",
+      "topics": [
+        "Who needs to be in the room from both sides?",
+        "How do you establish communication protocols that prevent friction?",
+        "What contact list information do you need and why do titles matter?",
+        "How do you define boundaries between your team and their team?",
+        "What approval chains need to be established upfront?",
+        "Should subcontractor relationships need to be defined in this meeting?",
+        "How do you handle clients who want to bypass process?"
+      ],
+      "tags": ["economics", "communication", "leadership", "negotiation"]
+    },
+    {
+      "name": "Expectations Alignment Meetings (Multiple)",
+      "topics": [
+        "How do you surface what the client really expects versus what they say?",
+        "What do you need to communicate about your own expectations?",
+        "How do you address unrealistic timelines before they become problems?",
+        "What happens when stakeholders have conflicting expectations?",
+        "How do you document expectations so they can't be revised later?",
+        "When do expectation gaps signal you should decline the project?"
+      ],
+      "tags": ["economics", "communication", "negotiation", "leadership"]
+    },
+    {
+      "name": "Requirements Discovery Meetings (Multiple)",
+      "topics": [
+        "What questions uncover requirements the client hasn't articulated?",
+        "How do you distinguish between needs, wants, and wishes?",
+        "What operational workflows must you understand before specifying technology?",
+        "How do you probe for growth expectations without leading the witness?",
+        "What existing systems and integrations constrain the solution?",
+        "How do you capture requirements in a form that survives personnel changes?"
+      ],
+      "tags": ["technology", "systems-thinking", "engineering", "software-engineering"]
+    },
+    {
+      "name": "Constraints Reality Meetings (Multiple)",
+      "topics": [
+        "How do you get honest answers about budget when clients won't say the number?",
+        "How do you define budget categories within the overall budget?",
+        "What technical constraints does the existing client infrastructure impose?",
+        "How do you assess organizational constraints like security and IT policies?",
+        "What physical constraints affect what's actually buildable?",
+        "How do you handle vendor relationships the client insists on?",
+        "When do constraints make the project infeasible as scoped?"
+      ],
+      "tags": ["economics", "systems-thinking", "negotiation", "engineering"]
+    },
+    {
+      "name": "Technology Direction Meetings (Multiple)",
+      "topics": [
+        "How do you guide technology choices without imposing your preferences?",
+        "What questions reveal the client's actual technology sophistication?",
+        "How do you handle clients locked into specific vendors or platforms?",
+        "When should you push back on technology choices that will cause problems?",
+        "How do you present options without overwhelming non-technical stakeholders?",
+        "What technology decisions must be made before design can proceed?"
+      ],
+      "tags": ["technology", "systems-thinking", "engineering", "software-engineering"]
+    },
+    {
+      "name": "The Schedule and Milestones Meeting (Single)",
+      "topics": [
+        "How do you build a realistic schedule when the client has a fixed deadline?",
+        "What milestones create natural checkpoints for both sides?",
+        "How do you structure design reviews that don't become approval bottlenecks?",
+        "What procurement lead times must be factored into scheduling?",
+        "How do you structure change order mechanisms to handle the unexpected?",
+        "What schedule dependencies need to be explicitly documented?"
+      ],
+      "tags": ["economics", "systems-thinking", "leadership", "negotiation"]
+    },
+    {
+      "name": "Procurement and Logistics Meetings (Multiple)",
+      "topics": [
+        "Who buys what and through which purchasing channels?",
+        "Where does equipment get shipped, staged, and stored?",
+        "How do you coordinate deliveries with installation schedules?",
+        "Who is in charge of inventory tracking and record keeping?",
+        "How do you handle client-furnished equipment that's late or wrong?",
+        "What spare parts and consumables need to be in the initial order?"
+      ],
+      "tags": ["economics", "infrastructure", "engineering", "leadership"]
+    },
+    {
+      "name": "The Documentation Standards Meeting (Single)",
+      "topics": [
+        "What documentation does the client require for their own records?",
+        "How do you integrate with client documentation systems?",
+        "What as-built documentation standards will be delivered?",
+        "How do you handle revision control when multiple parties edit documents?",
+        "What training documentation will be required for the system?",
+        "What process catches undocumented decisions before they become disputes?"
+      ],
+      "tags": ["technology", "communication", "engineering", "software-engineering"]
+    },
+    {
+      "name": "The Progress Review Cadence Meeting (Single)",
+      "topics": [
+        "How often should formal progress meetings occur?",
+        "What reporting format keeps stakeholders informed without overwhelming them?",
+        "How do you escalate problems before they become crises?",
+        "What triggers an unscheduled meeting versus a status update?",
+        "How do you handle clients who want daily check-ins?",
+        "What gets documented from progress meetings and who owns that?"
+      ],
+      "tags": ["economics", "communication", "leadership", "accountability"]
+    },
+    {
+      "name": "The Pre-Design Signoff Meeting (Single)",
+      "topics": [
+        "What must be agreed before design work begins?",
+        "How do you package everything learned into a design brief?",
+        "What signoff prevents scope creep disguised as clarification?",
+        "How do you handle late changes to agreed requirements?",
+        "What documentation does the client need to provide before you start designing?",
+        "What documentation does the systems integrator need to provide before starting the design?",
+        "When is the project ready to move from planning to design?"
+      ],
+      "tags": ["economics", "governance", "negotiation", "accountability"]
+    }
+  ]
+}

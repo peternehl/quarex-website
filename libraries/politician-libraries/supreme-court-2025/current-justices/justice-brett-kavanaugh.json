@@ -1,0 +1,62 @@
+{
+  "name": "Justice Brett Kavanaugh",
+  "slug": "justice-brett-kavanaugh",
+  "tags": ["politics", "governance", "supreme-court", "us-politics"],
+  "chapters": [
+    {
+      "name": "Background and Path to the Court",
+      "slug": "background-and-path-to-the-court",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "What is Brett Kavanaugh's educational and professional background?",
+        "What was Kavanaugh's role in the Ken Starr investigation?",
+        "What was Kavanaugh's record on the D.C. Circuit Court of Appeals?",
+        "What roles did Kavanaugh hold in the George W. Bush administration?"
+      ]
+    },
+    {
+      "name": "Confirmation Controversy",
+      "slug": "confirmation-controversy",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "What were the allegations against Kavanaugh during his confirmation?",
+        "Who is Christine Blasey Ford and what did she allege?",
+        "What was the scope of the FBI investigation into the allegations?",
+        "How did Kavanaugh respond to the allegations at his hearing?"
+      ]
+    },
+    {
+      "name": "Judicial Philosophy",
+      "slug": "judicial-philosophy",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "How would you describe Brett Kavanaugh's judicial philosophy?",
+        "What is Kavanaugh's approach to executive power?",
+        "How does Kavanaugh view precedent?",
+        "What is Kavanaugh's position on administrative law?"
+      ]
+    },
+    {
+      "name": "Notable Opinions and Votes",
+      "slug": "notable-opinions-and-votes",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "What are Brett Kavanaugh's most significant opinions?",
+        "How has Kavanaugh voted on abortion cases?",
+        "What is Kavanaugh's record on Second Amendment cases?",
+        "When has Kavanaugh sided with liberal justices?"
+      ]
+    },
+    {
+      "name": "Role on the Current Court",
+      "slug": "role-on-the-current-court",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "Where does Kavanaugh fall on the ideological spectrum of the Court?",
+        "Is Kavanaugh considered a swing vote on certain issues?",
+        "How does Kavanaugh's voting pattern compare to Roberts?",
+        "What is Kavanaugh's relationship with other justices?"
+      ]
+    }
+  ]
+}

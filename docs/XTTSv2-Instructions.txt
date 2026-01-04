@@ -1,0 +1,25 @@
+I want to generate a voiceover for a script using my own voice from a previous video.
+The solution must run entirely locally on Windows, use Python, and support GPU acceleration.
+I want to use XTTS v2 or an equivalent open-source voice-cloning TTS model.
+
+Requirements:
+
+Use a short WAV voice sample (30–90 seconds)
+
+Generate natural, neutral narration suitable for explainer videos
+
+No cloud services, no accounts, no telemetry
+
+Allow re-rendering of sections
+
+Output clean WAV files
+
+Please:
+
+Install dependencies in a clean Python environment
+
+Verify GPU usage
+
+Provide a simple script or CLI workflow
+
+Document how to change pacing and regenerate sections

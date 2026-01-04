@@ -8,13 +8,13 @@ CPANEL_PASSWORD = ""  # Fill in your GoDaddy cPanel password
 CPANEL_PORT = 22
 
 # Remote paths on cPanel
-REMOTE_CANDIDATE_DIR = "/home/YOUR_CPANEL_USER/public_html/libraries/candidate-libraries/"
+REMOTE_CANDIDATE_DIR = "/home/YOUR_CPANEL_USER/public_html/libraries/politician-libraries/"
 
 # Local paths
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(BASE_DIR)
-LOCAL_CANDIDATE_DIR = os.path.join(PROJECT_DIR, "libraries", "candidate-libraries")
+LOCAL_CANDIDATE_DIR = os.path.join(PROJECT_DIR, "libraries", "politician-libraries")
 LOCAL_BACKUP_DIR = os.path.join(BASE_DIR, "backups")
 LOCAL_REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 

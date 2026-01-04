@@ -1,0 +1,93 @@
+{
+  "book": "Oregon",
+  "chapters": [
+    {
+      "name": "OR-01",
+      "topics": [
+        "Suzanne Bonamici (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oregon"
+      ]
+    },
+    {
+      "name": "OR-02",
+      "topics": [
+        "Cliff Bentz (R)",
+        "Andrea Carr (R)",
+        "Russell McAlmond (R)",
+        "Peter Black (D)",
+        "Mary Doyle (D)",
+        "Mitchel Knight (D)",
+        "Dawn Rasmussen (D)",
+        "Patty Snow (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oregon"
+      ]
+    },
+    {
+      "name": "OR-03",
+      "topics": [
+        "Maxine Dexter (D)",
+        "Jessica Salas (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oregon"
+      ]
+    },
+    {
+      "name": "OR-04",
+      "topics": [
+        "Monique DeSpain (R)",
+        "Raiph Huber (R)",
+        "Val Hoyle (D)",
+        "Melissa Bird (D)",
+        "William King (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oregon"
+      ]
+    },
+    {
+      "name": "OR-05",
+      "topics": [
+        "Patti Adair (R)",
+        "Joseph Lehman (R)",
+        "Jonathan Lockwood (R)",
+        "Janelle Bynum (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oregon"
+      ]
+    },
+    {
+      "name": "OR-06",
+      "topics": [
+        "David Russ (R)",
+        "Andrea Salinas (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "oregon"
+      ]
+    }
+  ]
+}

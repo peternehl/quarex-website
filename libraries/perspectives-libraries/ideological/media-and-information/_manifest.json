@@ -13,5 +13,50 @@
       "epistemology"
     ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "ai-billionaires-hyperagency",
+    "name": "AI + Billionaires = Hyperagency",
+    "description": null,
+    "chapterCount": 10,
+    "tags": [
+      "politics",
+      "democracy",
+      "ai-ml",
+      "platforms",
+      "inequality",
+      "misinformation"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "ai-risks-real-vs-imaginary",
+    "name": "AI Risks: Real vs. Imaginary",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "technology",
+      "critical-thinking",
+      "ai-ml",
+      "misinformation",
+      "media-literacy",
+      "labor"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "polarization-pays",
+    "name": "Polarization Pays",
+    "description": "How Division Became a Business Model",
+    "chapterCount": 14,
+    "tags": [
+      "media",
+      "politics",
+      "misinformation",
+      "social-media",
+      "democracy",
+      "psychology"
+    ],
+    "created_by": "Peter Nehl and ChatGPT 5.2"
   }
 ]

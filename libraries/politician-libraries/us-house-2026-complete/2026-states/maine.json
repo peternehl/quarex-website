@@ -1,0 +1,36 @@
+{
+  "book": "Maine",
+  "chapters": [
+    {
+      "name": "ME-01",
+      "topics": [
+        "Joshua James Duprey (R)",
+        "Andrew Piantidosi (R)",
+        "Ronald C. Russell (R)",
+        "Chellie Pingree (D)",
+        "Tiffany Roberts (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "maine"
+      ]
+    },
+    {
+      "name": "ME-02",
+      "topics": [
+        "James Clark (R)",
+        "Paul LePage (R)",
+        "Matthew Dunlap (D)",
+        "Jordan Wood (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "maine"
+      ]
+    }
+  ]
+}

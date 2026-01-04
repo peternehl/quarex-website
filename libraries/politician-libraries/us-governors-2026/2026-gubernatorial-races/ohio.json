@@ -1,0 +1,43 @@
+{
+  "book": "Ohio",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Heather Hill (R)",
+        "Casey Putsch (R)",
+        "Vivek Ramaswamy (R)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "governor",
+        "ohio"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Amy Acton (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "governor",
+        "ohio"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Tim Grady (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "governor",
+        "ohio"
+      ]
+    }
+  ]
+}

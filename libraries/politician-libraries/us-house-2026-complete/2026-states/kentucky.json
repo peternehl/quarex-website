@@ -1,0 +1,104 @@
+{
+  "book": "Kentucky",
+  "chapters": [
+    {
+      "name": "KY-01",
+      "topics": [
+        "James Comer Jr. (R)",
+        "David Sims (R)",
+        "Drew Williams (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kentucky"
+      ]
+    },
+    {
+      "name": "KY-02",
+      "topics": [
+        "Brett Guthrie (R)",
+        "Joshua Ferguson (R)",
+        "William Compton (D)",
+        "Hank Linderman (D)",
+        "Megan Wingfield (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kentucky"
+      ]
+    },
+    {
+      "name": "KY-03",
+      "topics": [
+        "Morgan McGarvey (D)",
+        "Oumou Diallo (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kentucky"
+      ]
+    },
+    {
+      "name": "KY-04",
+      "topics": [
+        "Thomas Massie (R)",
+        "Nicole Lee Ethington (R)",
+        "Ed Gallrein (R)",
+        "Robert Wells Jr. (R)",
+        "Jesse Brewer (D)",
+        "Monica Dean (D)",
+        "Elizabeth Mason-Hill (D)",
+        "Melissa Strange (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kentucky"
+      ]
+    },
+    {
+      "name": "KY-05",
+      "topics": [
+        "Hal Rogers (R)",
+        "Benjamin Hurley (R)",
+        "Jacob Trimble (R)",
+        "Ned Pillersdorf (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kentucky"
+      ]
+    },
+    {
+      "name": "KY-06",
+      "topics": [
+        "Ralph Alvarado (R)",
+        "Ryan Dotson (R)",
+        "Adam Perez Arquette (R)",
+        "Greg Plucinski (R)",
+        "Steve Shannon (R)",
+        "Zach Dembo (D)",
+        "David Kloiber (D)",
+        "Erin Petrey (D)",
+        "Cherlynn Stevenson (D)",
+        "Jay Bowman (I)",
+        "Pete Lynch (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "kentucky"
+      ]
+    }
+  ]
+}

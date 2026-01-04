@@ -1,0 +1,34 @@
+{
+  "book": "Idaho",
+  "chapters": [
+    {
+      "name": "ID-01",
+      "topics": [
+        "Russ Fulcher (R)",
+        "Ken Brungardt (D)",
+        "Sarah Zabel (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "idaho"
+      ]
+    },
+    {
+      "name": "ID-02",
+      "topics": [
+        "Michael K. Simpson (R)",
+        "Perry Shumway (R)",
+        "Julie Wiley (D)",
+        "Tripp Hutchinson (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "idaho"
+      ]
+    }
+  ]
+}

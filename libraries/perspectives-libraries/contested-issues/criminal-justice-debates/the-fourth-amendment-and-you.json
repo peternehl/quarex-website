@@ -1,0 +1,112 @@
+{
+  "name": "The Fourth Amendment and You!",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Does It Actually Say?",
+      "topics": [
+        "What are the exact words of the Fourth Amendment?",
+        "What did 'unreasonable searches and seizures' mean in 1791?",
+        "What is a 'warrant' and what makes one valid?",
+        "What are 'persons, houses, papers, and effects'?",
+        "Why did the Founders care so much about this right?",
+        "What were 'general warrants' and why were they hated?"
+      ],
+      "tags": ["law", "foundations", "constitutional-law", "history"]
+    },
+    {
+      "name": "Your Body and Physical Space",
+      "topics": [
+        "Can police stop you on the street without a warrant?",
+        "What is 'stop and frisk' and is it constitutional?",
+        "Can police enter your home without permission?",
+        "What happens if police knock and you don't answer?",
+        "Can you be strip-searched after a minor arrest?",
+        "Do DUI checkpoints violate the Fourth Amendment?",
+        "What's the difference between a 'stop' and an 'arrest'?"
+      ],
+      "tags": ["law", "human-rights", "policing", "civil-rights"]
+    },
+    {
+      "name": "Your Car and Travel",
+      "topics": [
+        "Why do cars get less Fourth Amendment protection than homes?",
+        "Can police search your car during a traffic stop?",
+        "What is the 'automobile exception' to the warrant requirement?",
+        "Can police use drug-sniffing dogs without a warrant?",
+        "What are your rights at a DUI checkpoint?",
+        "Can passengers be searched during a traffic stop?",
+        "What's the 100-mile border zone and why does it matter?"
+      ],
+      "tags": ["law", "human-rights", "policing", "transportation"]
+    },
+    {
+      "name": "Your Digital Life",
+      "topics": [
+        "Do police need a warrant to search your phone?",
+        "Is your cloud storage protected by the Fourth Amendment?",
+        "Can the government access your emails without a warrant?",
+        "What is the 'third-party doctrine' and does it still apply?",
+        "Can police track your location using cell tower data?",
+        "What are 'geofence warrants' and are they constitutional?",
+        "Do smart home devices have Fourth Amendment protection?",
+        "Can police search your phone at the border?"
+      ],
+      "tags": ["law", "privacy", "surveillance", "digital-safety"]
+    },
+    {
+      "name": "The Exceptions",
+      "topics": [
+        "How many exceptions to the warrant requirement exist?",
+        "What is 'consent' and how easily can you give it away?",
+        "What are 'exigent circumstances'?",
+        "What is the 'plain view' doctrine?",
+        "Can evidence found during a lawful arrest be used against you?",
+        "What is 'hot pursuit' and when does it apply?",
+        "What counts as 'reasonable suspicion' vs 'probable cause'?",
+        "Can schools search students without warrants?"
+      ],
+      "tags": ["law", "governance", "constitutional-law", "policing"]
+    },
+    {
+      "name": "Remedies When Your Rights Are Violated",
+      "topics": [
+        "What is the 'exclusionary rule'?",
+        "Can illegally obtained evidence ever be used against you?",
+        "What is 'fruit of the poisonous tree'?",
+        "Can you sue police for violating your Fourth Amendment rights?",
+        "What is 'qualified immunity' and how does it affect your remedies?",
+        "What is a 'Section 1983' lawsuit?",
+        "Do state constitutions offer stronger protections than federal?"
+      ],
+      "tags": ["law", "justice", "criminal-justice", "civil-rights"]
+    },
+    {
+      "name": "Contested Questions",
+      "topics": [
+        "Has the Fourth Amendment been weakened over time?",
+        "Should the third-party doctrine survive the digital age?",
+        "Did the War on Terror permanently shift the balance?",
+        "Are warrant exceptions reasonable or out of control?",
+        "Should 'good faith' mistakes by police excuse violations?",
+        "Does qualified immunity make Fourth Amendment rights meaningless?",
+        "Should originalism or living constitutionalism guide interpretation?",
+        "Is mass surveillance compatible with the Fourth Amendment?"
+      ],
+      "tags": ["law", "controversy", "constitutional-law", "surveillance"]
+    },
+    {
+      "name": "Know Your Rights",
+      "topics": [
+        "What should you say if police ask to search your car?",
+        "Can you refuse to answer police questions?",
+        "What does 'I do not consent to a search' actually do?",
+        "When should you ask 'Am I free to go'?",
+        "What are the risks of asserting your rights?",
+        "How do you find a lawyer who handles Fourth Amendment cases?",
+        "What should you do if your rights were violated?"
+      ],
+      "tags": ["law", "human-rights", "civil-rights", "policing"]
+    }
+  ]
+}

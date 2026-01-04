@@ -1,0 +1,106 @@
+{
+  "book": "Alabama",
+  "chapters": [
+    {
+      "name": "AL-01",
+      "topics": [
+        "Jerry Carl (R)",
+        "James Dees (R)",
+        "Rhett Marques (R)",
+        "Joshua Mckee (R)",
+        "Austin Sidwell (R)",
+        "Clyde Jones (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "alabama"
+      ]
+    },
+    {
+      "name": "AL-02",
+      "topics": [
+        "Shomari Figures (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "alabama"
+      ]
+    },
+    {
+      "name": "AL-03",
+      "topics": [
+        "Mike Rogers (R)",
+        "Draic Coakley (R)",
+        "Terri LaPoint (R)",
+        "Lee McInnis (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "alabama"
+      ]
+    },
+    {
+      "name": "AL-04",
+      "topics": [
+        "Robert Aderholt (R)",
+        "Tommy Barnes (R)",
+        "Amanda Pusczek (D)",
+        "Shane Weaver (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "alabama"
+      ]
+    },
+    {
+      "name": "AL-05",
+      "topics": [
+        "Dale Strong (R)",
+        "Jeremy Devito (D)",
+        "Candice Duvieilh (D)",
+        "Greg Howard (D)",
+        "Andrew Sneed (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "alabama"
+      ]
+    },
+    {
+      "name": "AL-06",
+      "topics": [
+        "Gary Palmer (R)",
+        "Case Dixon (R)",
+        "Keith Pilkington (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "alabama"
+      ]
+    },
+    {
+      "name": "AL-07",
+      "topics": [
+        "Terri Sewell (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "alabama"
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 /**
- * TruthAngel Tablet Configuration System
+ * Quarex Tablet Configuration System
  *
  * This file defines configuration profiles for different tablet deployment modes.
- * The main codebase (unlimited/index.html, ask/ask.html) reads these settings
+ * The main codebase (libraries/index.html, ask/ask.html) reads these settings
  * to customize behavior without maintaining separate codebases.
  */
 
@@ -18,7 +18,7 @@ const TABLET_CONFIGS = {
         sourcesClickable: true,
         allowedDomains: null,  // null = allow all
         customAPI: null,
-        headerText: 'TruthAngel Unlimited',
+        headerText: 'The Quarex Curiosity Engine',
         headerSubtext: 'Explore the complete taxonomy of human knowledge'
     },
 
@@ -31,9 +31,9 @@ const TABLET_CONFIGS = {
         fontSize: 1.1,  // 10% larger text (was 30%, too big)
         showSources: true,
         sourcesClickable: false,  // Show sources but not as links
-        allowedDomains: ['truthangel.org'],
+        allowedDomains: ['quarex.org'],
         customAPI: null,
-        headerText: 'TruthAngel',
+        headerText: 'Quarex',
         headerSubtext: 'Ask me anything'
     },
 
@@ -46,9 +46,9 @@ const TABLET_CONFIGS = {
         fontSize: 1.0,
         showSources: true,
         sourcesClickable: false,
-        allowedDomains: ['truthangel.org'],
+        allowedDomains: ['quarex.org'],
         customAPI: null,
-        headerText: 'TruthAngel',
+        headerText: 'Quarex',
         headerSubtext: 'Safe, unlimited knowledge exploration'
     },
 
@@ -61,9 +61,9 @@ const TABLET_CONFIGS = {
         fontSize: 1.0,
         showSources: true,
         sourcesClickable: false,
-        allowedDomains: ['truthangel.org'],  // Can expand to whitelist educational sites
+        allowedDomains: ['quarex.org'],  // Can expand to whitelist educational sites
         customAPI: null,
-        headerText: 'TruthAngel for Education',
+        headerText: 'Quarex for Education',
         headerSubtext: 'Safe research for students'
     },
 

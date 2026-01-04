@@ -1,0 +1,70 @@
+{
+  "book": "Utah",
+  "chapters": [
+    {
+      "name": "UT-01",
+      "topics": [
+        "Blake Moore (R)",
+        "Nate Blouin (D)",
+        "Kye Hinckley (D)",
+        "Derek Kitchen (D)",
+        "Eva Lopez Chavez (D)",
+        "Ben McAdams (D)",
+        "Kathleen Riebe (D)",
+        "Anthony Tomkins (D)",
+        "Luis Villarreal (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "utah"
+      ]
+    },
+    {
+      "name": "UT-02",
+      "topics": [
+        "Celeste Maloy (I)",
+        "Peter Crosby (I)",
+        "Tyler Farnsworth (I)",
+        "Jarom Gillins (I)",
+        "Jonathan Larsen (I)",
+        "Bryan Lamont Arrington (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "utah"
+      ]
+    },
+    {
+      "name": "UT-03",
+      "topics": [
+        "Mike Kennedy (R)",
+        "Steven Merrill (D)",
+        "Adonis Hooslyn (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "utah"
+      ]
+    },
+    {
+      "name": "UT-04",
+      "topics": [
+        "Burgess Owens (I)",
+        "Ty Jensen (I)",
+        "Steven Burt (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "utah"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Justice Amy Coney Barrett",
+  "slug": "justice-amy-coney-barrett",
+  "tags": ["politics", "governance", "supreme-court", "us-politics"],
+  "chapters": [
+    {
+      "name": "Background and Path to the Court",
+      "slug": "background-and-path-to-the-court",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "What is Amy Coney Barrett's educational and professional background?",
+        "What was Barrett's academic career before joining the bench?",
+        "What was Barrett's brief tenure on the 7th Circuit?",
+        "How was Barrett nominated and confirmed to the Supreme Court?"
+      ]
+    },
+    {
+      "name": "Confirmation Context",
+      "slug": "confirmation-context",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "What was the controversy over Barrett's nomination timing?",
+        "How did Barrett's confirmation differ from Merrick Garland's treatment?",
+        "What role did Ruth Bader Ginsburg's death play in the nomination?",
+        "What concerns were raised about confirming during an election?"
+      ]
+    },
+    {
+      "name": "Judicial Philosophy",
+      "slug": "judicial-philosophy",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "How would you describe Amy Coney Barrett's judicial philosophy?",
+        "What is Barrett's approach to originalism?",
+        "How does Barrett view the role of precedent?",
+        "What influence did Antonin Scalia have on Barrett's thinking?"
+      ]
+    },
+    {
+      "name": "Notable Opinions and Votes",
+      "slug": "notable-opinions-and-votes",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "What are Amy Coney Barrett's most significant opinions?",
+        "How has Barrett voted on abortion cases since Dobbs?",
+        "What is Barrett's record on gun rights cases?",
+        "How has Barrett approached religious liberty cases?"
+      ]
+    },
+    {
+      "name": "Faith and Judicial Role",
+      "slug": "faith-and-judicial-role",
+      "tags": ["politics", "governance", "supreme-court", "religion"],
+      "topics": [
+        "What is known about Barrett's religious background?",
+        "What is People of Praise and Barrett's involvement?",
+        "How has Barrett addressed questions about faith affecting her rulings?",
+        "What has Barrett said about separating personal beliefs from judging?"
+      ]
+    }
+  ]
+}

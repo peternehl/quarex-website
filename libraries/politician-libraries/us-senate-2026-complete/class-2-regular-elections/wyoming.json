@@ -1,0 +1,30 @@
+{
+  "book": "Wyoming",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Harriet Hageman (R)",
+        "Jimmy Skovgard (R)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "senate",
+        "wyoming"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "senate",
+        "wyoming"
+      ]
+    }
+  ]
+}

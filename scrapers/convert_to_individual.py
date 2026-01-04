@@ -17,7 +17,7 @@ import re
 from datetime import datetime
 
 # Paths
-CANDIDATE_DIR = os.path.join(os.path.dirname(__file__), "..", "libraries", "candidate-libraries")
+CANDIDATE_DIR = os.path.join(os.path.dirname(__file__), "..", "libraries", "politician-libraries")
 
 def slugify(name):
     """Convert name to slug format (lowercase, hyphens)"""

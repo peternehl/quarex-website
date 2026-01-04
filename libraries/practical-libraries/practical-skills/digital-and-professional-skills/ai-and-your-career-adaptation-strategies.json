@@ -1,0 +1,151 @@
+{
+  "name": "AI and Your Career: Adaptation Strategies",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Understanding the AI Job Landscape",
+      "topics": [
+        "Which jobs and industries are most affected by AI right now?",
+        "How fast is AI-driven job displacement actually happening?",
+        "What types of tasks are AI systems good at—and bad at?",
+        "Why do experts disagree about whether AI creates or destroys more jobs?",
+        "How is this technological shift different from previous ones?",
+        "What jobs are growing because of AI adoption?"
+      ],
+      "tags": ["economics", "innovation", "ai-ml", "labor"]
+    },
+    {
+      "name": "Assessing Your Own Vulnerability",
+      "topics": [
+        "How do I evaluate whether my job is at risk from AI?",
+        "What percentage of my daily tasks could AI realistically automate?",
+        "What warning signs indicate my industry is about to change?",
+        "How do I honestly assess my transferable skills?",
+        "Should I be worried if my company is investing heavily in AI?",
+        "What's the difference between job elimination and job transformation?"
+      ],
+      "tags": ["psychology", "analysis", "automation", "labor"]
+    },
+    {
+      "name": "Skills That Remain Valuable",
+      "topics": [
+        "What human capabilities are genuinely difficult for AI to replicate?",
+        "Why do interpersonal and emotional skills matter more in an AI economy?",
+        "Which technical skills complement AI rather than compete with it?",
+        "How important is creativity—and can AI really not be creative?",
+        "What role does judgment, ethics, and contextual understanding play?",
+        "Are there 'AI-proof' careers, or is that a myth?"
+      ],
+      "tags": ["education", "interpersonal-dynamics", "leadership", "cognition"]
+    },
+    {
+      "name": "Working With AI: Augmentation Strategies",
+      "topics": [
+        "How can I use AI tools to make myself more valuable rather than replaceable?",
+        "What does it mean to be 'AI-augmented' in my field?",
+        "Which AI tools should I learn for my specific profession?",
+        "How do I become the person who manages AI rather than competes with it?",
+        "What is prompt engineering and is it a real skill?",
+        "How do I demonstrate AI competence to employers?"
+      ],
+      "tags": ["technology", "application", "ai-ml", "software-engineering"]
+    },
+    {
+      "name": "Retraining and Education Options",
+      "topics": [
+        "Are coding bootcamps and quick certifications actually worth it?",
+        "How do I evaluate which retraining programs are legitimate vs. scams?",
+        "Should I go back to school or learn on my own?",
+        "What free and low-cost learning resources are genuinely useful?",
+        "How long does meaningful reskilling actually take?",
+        "What credentials do employers actually value in the AI era?",
+        "Is it too late to change careers at my age?"
+      ],
+      "tags": ["education", "critical-thinking", "source-evaluation", "personal-finance"]
+    },
+    {
+      "name": "Career Pivots: Where to Go",
+      "topics": [
+        "What industries and roles are expanding due to AI adoption?",
+        "How do I identify career paths that leverage my existing experience?",
+        "What fields have labor shortages that AI won't fill soon?",
+        "Should I move toward AI-adjacent roles or away from technology entirely?",
+        "How do I research a new field before committing to a pivot?",
+        "What do successful career changers in the AI era have in common?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "research-methods", "labor"]
+    },
+    {
+      "name": "Entrepreneurship and Self-Employment",
+      "topics": [
+        "Can I use AI tools to start my own business with minimal capital?",
+        "What small business opportunities exist in the AI economy?",
+        "How do I identify problems AI creates that humans can solve?",
+        "What are realistic expectations for self-employment income?",
+        "How do I build a personal brand or consulting practice?",
+        "What are the risks of entrepreneurship during economic disruption?"
+      ],
+      "tags": ["economics", "innovation", "entrepreneurship", "personal-finance"]
+    },
+    {
+      "name": "Freelancing and the Gig Economy",
+      "topics": [
+        "Is freelancing a viable path or a race to the bottom against AI?",
+        "Which freelance skills are still in demand despite AI tools?",
+        "How do I price my services when AI can do a cheaper version?",
+        "What platforms and strategies work for finding freelance clients?",
+        "How do I build a sustainable freelance career rather than gig-to-gig survival?",
+        "What are the hidden costs and risks of gig work?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "negotiation", "platforms"]
+    },
+    {
+      "name": "Financial Survival During Transition",
+      "topics": [
+        "How do I financially prepare for potential job loss or career change?",
+        "What emergency fund and savings strategies make sense right now?",
+        "How do I reduce expenses without destroying quality of life?",
+        "What government programs and safety nets are available during displacement?",
+        "Should I take a lower-paying job while I retrain or hold out for something better?",
+        "How do I handle debt and financial obligations during career transition?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "poverty"]
+    },
+    {
+      "name": "Collective Action and Worker Power",
+      "topics": [
+        "Can unions and collective bargaining help workers navigate AI disruption?",
+        "What are workers in AI-affected industries organizing around?",
+        "How do I advocate for better transition support from my employer?",
+        "What policy changes would help displaced workers—and how do I push for them?",
+        "Are there professional associations or networks focused on AI adaptation?",
+        "What can workers learn from past technological transitions?"
+      ],
+      "tags": ["politics", "activism", "labor", "civil-rights"]
+    },
+    {
+      "name": "Managing the Emotional and Identity Impact",
+      "topics": [
+        "How do I cope with anxiety about an uncertain career future?",
+        "What happens to my sense of identity when my profession disappears?",
+        "How do I explain career disruption to family, friends, and future employers?",
+        "What mental health resources are available during job transitions?",
+        "How do I stay motivated during a long retraining or job search process?",
+        "Is it okay to grieve a career I loved that AI made obsolete?"
+      ],
+      "tags": ["psychology", "mental-health", "identity", "interpersonal-dynamics"]
+    },
+    {
+      "name": "Long-Term Planning in an Uncertain Economy",
+      "topics": [
+        "How do I build a career strategy when the future is unpredictable?",
+        "Should I plan for multiple career changes over my lifetime?",
+        "What does retirement planning look like in an AI-disrupted economy?",
+        "How do I stay adaptable without burning out on constant reinvention?",
+        "What investments in myself will pay off regardless of how AI evolves?",
+        "How do I help my children prepare for a world with advanced AI?"
+      ],
+      "tags": ["economics", "systems-thinking", "personal-finance", "prediction"]
+    }
+  ]
+}
