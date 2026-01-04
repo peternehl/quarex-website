@@ -1,0 +1,176 @@
+{
+  "name": "Franklin D. Roosevelt: A Biography",
+  "slug": "franklin-d-roosevelt-a-biography",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["history", "us-politics", "governance", "modern-history"],
+  "chapters": [
+    {
+      "name": "Privilege and Pedigree",
+      "slug": "privilege-and-pedigree",
+      "tags": ["society", "identity", "us-politics", "sociology"],
+      "topics": [
+        "What was life like at the Roosevelt estate in Hyde Park, New York?",
+        "How did his mother Sara Delano Roosevelt shape his character and ambitions?",
+        "What advantages did his family's wealth and connections provide?",
+        "How was he related to Theodore Roosevelt and what influence did that have?",
+        "What kind of education did Groton and Harvard provide the young FDR?"
+      ]
+    },
+    {
+      "name": "Early Political Rise",
+      "slug": "early-political-rise",
+      "tags": ["politics", "democracy", "us-politics", "elections"],
+      "topics": [
+        "Why did a wealthy aristocrat choose the Democratic Party over Republicans?",
+        "How did he win his first election to the New York State Senate in 1910?",
+        "What made Woodrow Wilson appoint him Assistant Secretary of the Navy?",
+        "Why did his 1920 vice presidential run with James Cox fail?",
+        "What political lessons did he learn from his early career setbacks?"
+      ]
+    },
+    {
+      "name": "Polio and Transformation",
+      "slug": "polio-and-transformation",
+      "tags": ["health", "identity", "us-politics", "disability"],
+      "topics": [
+        "How did polio strike FDR at age 39 and what were the immediate effects?",
+        "Why did he and his team work so hard to hide the extent of his disability?",
+        "How did Warm Springs, Georgia become central to his recovery and identity?",
+        "Did polio fundamentally change his character and empathy for suffering?",
+        "How did the press cooperate in concealing his wheelchair use from the public?"
+      ]
+    },
+    {
+      "name": "Eleanor Roosevelt Partnership",
+      "slug": "eleanor-roosevelt-partnership",
+      "tags": ["politics", "activism", "us-politics", "civil-rights"],
+      "topics": [
+        "How did Franklin and Eleanor's marriage survive his affair with Lucy Mercer?",
+        "What political role did Eleanor carve out that was unprecedented for First Ladies?",
+        "How did their partnership function as a political alliance rather than romance?",
+        "What causes did Eleanor champion that Franklin could not publicly support?",
+        "Did Eleanor push FDR toward more progressive positions on civil rights?"
+      ]
+    },
+    {
+      "name": "The 1932 Election",
+      "slug": "the-1932-election",
+      "tags": ["politics", "elections", "us-politics", "modern-history"],
+      "topics": [
+        "How bad was the Great Depression when FDR ran against Herbert Hoover?",
+        "What did FDR promise with his 'New Deal for the American people'?",
+        "Why did voters overwhelmingly reject Hoover's approach to the crisis?",
+        "How did FDR's optimism contrast with the national mood of despair?",
+        "What coalition of voters did FDR assemble that would dominate for decades?"
+      ]
+    },
+    {
+      "name": "The First Hundred Days",
+      "slug": "the-first-hundred-days",
+      "tags": ["politics", "governance", "us-politics", "economics-theory"],
+      "topics": [
+        "Why are FDR's first hundred days still the benchmark for presidential action?",
+        "How did the Emergency Banking Act restore confidence in the financial system?",
+        "What was the purpose of the 'alphabet soup' agencies like CCC, NRA, and AAA?",
+        "How did FDR use radio 'Fireside Chats' to communicate directly with Americans?",
+        "Did the First Hundred Days actually end the Depression or just provide relief?"
+      ]
+    },
+    {
+      "name": "The New Deal Programs",
+      "slug": "the-new-deal-programs",
+      "tags": ["economics", "governance", "us-politics", "labor"],
+      "topics": [
+        "How did Social Security transform the American social contract?",
+        "What was the Works Progress Administration and who did it employ?",
+        "How did the Tennessee Valley Authority bring electricity to rural America?",
+        "Why did the National Labor Relations Act strengthen union power?",
+        "Which New Deal programs still exist today and which were abandoned?"
+      ]
+    },
+    {
+      "name": "Opposition and Controversy",
+      "slug": "opposition-and-controversy",
+      "tags": ["politics", "controversy", "us-politics", "supreme-court"],
+      "topics": [
+        "Why did business leaders call FDR a 'traitor to his class'?",
+        "What was the Supreme Court 'packing' scheme and why did it fail?",
+        "How did critics like Huey Long and Father Coughlin attack FDR from the left?",
+        "Was FDR a socialist or did he save capitalism from itself?",
+        "Why did the 'Roosevelt Recession' of 1937-38 undermine New Deal credibility?"
+      ]
+    },
+    {
+      "name": "Road to World War II",
+      "slug": "road-to-world-war-ii",
+      "tags": ["conflict", "diplomacy", "us-politics", "world-wars"],
+      "topics": [
+        "How did FDR navigate between isolationists and interventionists in the 1930s?",
+        "What was Lend-Lease and how did it help Britain before America entered the war?",
+        "Did FDR know about Pearl Harbor in advance or was it truly a surprise?",
+        "How did the 'Arsenal of Democracy' speech prepare Americans for war?",
+        "Why did FDR break tradition to run for a third term in 1940?"
+      ]
+    },
+    {
+      "name": "Wartime Leadership",
+      "slug": "wartime-leadership",
+      "tags": ["conflict", "governance", "us-politics", "world-wars"],
+      "topics": [
+        "How did FDR manage the alliance with Churchill and Stalin?",
+        "What strategic decisions did FDR make about the conduct of the war?",
+        "How did the home front transform American industry and society?",
+        "What was FDR's vision for the United Nations and postwar order?",
+        "Why did FDR run for an unprecedented fourth term in 1944 despite failing health?"
+      ]
+    },
+    {
+      "name": "Moral Failures and Blind Spots",
+      "slug": "moral-failures-and-blind-spots",
+      "tags": ["ethics", "accountability", "us-politics", "civil-rights"],
+      "topics": [
+        "Why did FDR order the internment of 120,000 Japanese Americans?",
+        "How much did FDR know about the Holocaust and why didn't he act sooner?",
+        "Why did New Deal programs often exclude or discriminate against Black Americans?",
+        "Did FDR's coalition with Southern Democrats require compromising on civil rights?",
+        "How do historians weigh his achievements against these moral failures?"
+      ]
+    },
+    {
+      "name": "Death and Legacy",
+      "slug": "death-and-legacy",
+      "tags": ["history", "legacy", "us-politics", "modern-history"],
+      "topics": [
+        "What were the circumstances of FDR's death at Warm Springs in April 1945?",
+        "How did Americans react to losing their wartime leader before victory?",
+        "Why was the 22nd Amendment passed to limit presidents to two terms?",
+        "How did FDR permanently expand the role of the federal government?",
+        "Is FDR the greatest president of the 20th century or dangerously overrated?"
+      ]
+    },
+    {
+      "name": "FDR's Political Style",
+      "slug": "fdrs-political-style",
+      "tags": ["politics", "communication", "us-politics", "leadership"],
+      "topics": [
+        "How did FDR maintain his famous optimism and charm under pressure?",
+        "What made his 'Fireside Chats' so effective at building public trust?",
+        "How did he manage competing factions within his own administration?",
+        "Was FDR an ideological visionary or a pragmatic improviser?",
+        "How did his patrician background allow him to champion the 'forgotten man'?"
+      ]
+    },
+    {
+      "name": "FDR vs. Modern Populism",
+      "slug": "fdr-vs-modern-populism",
+      "tags": ["politics", "nationalism", "us-politics", "trump"],
+      "topics": [
+        "How does FDR's New Deal coalition compare to today's political alignments?",
+        "What would FDR think of modern Democratic Party positions?",
+        "How do Trump's economic nationalism and FDR's approach compare?",
+        "Is 'big government' liberalism still viable in 21st century America?",
+        "What lessons does FDR's era offer for addressing today's economic anxieties?"
+      ]
+    }
+  ]
+}

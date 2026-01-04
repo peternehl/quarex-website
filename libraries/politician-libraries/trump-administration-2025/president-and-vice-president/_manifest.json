@@ -4,19 +4,24 @@
     "name": "Donald Trump: A Biography",
     "description": null,
     "chapterCount": 12,
-    "tags": ["politics", "us-politics", "trump", "authoritarianism"],
+    "tags": [
+      "politics",
+      "us-politics",
+      "trump",
+      "authoritarianism"
+    ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
-    "slug": "franklin-d-roosevelt-a-biography",
-    "name": "Franklin D. Roosevelt: A Biography",
+    "slug": "jd-vance-a-biography",
+    "name": "JD Vance: A Biography",
     "description": null,
     "chapterCount": 14,
     "tags": [
-      "history",
+      "politics",
       "us-politics",
-      "governance",
-      "modern-history"
+      "trump",
+      "candidates"
     ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
   }
