@@ -7,36 +7,19 @@
         "Andy Biggs (R)",
         "David Schweikert (R)",
         "Karrin Taylor Robson (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "governor",
-        "arizona"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
         "Katie Hobbs (D)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "governor",
-        "arizona"
       ]
     },
     {
       "name": "Independent/Other",
       "topics": [
-        "William Pounds (I)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "governor",
-        "arizona"
+        "William Pounds (I)",
+        "Leezah Sun (I)"
       ]
     }
   ]

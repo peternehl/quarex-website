@@ -2,7 +2,7 @@
   "library": "US Governors 2026",
   "library_type": "candidates",
   "description": "All 2026 gubernatorial races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2025-12-19",
+  "last_updated": "2026-01-04",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -81,7 +81,8 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "William Pounds (I)"
+                "William Pounds (I)",
+                "Leezah Sun (I)"
               ]
             }
           ]
@@ -164,7 +165,7 @@
                 "Barbara Kirkmeyer (R)",
                 "Greg Lopez (R)",
                 "Rabin Mahanty (R)",
-                "Vaughn Marx (R)",
+                "Victor Marx (R)",
                 "Will McBride (R)",
                 "Jason Mikesell (R)",
                 "Robert Moore (R)",
@@ -388,7 +389,6 @@
                 "Darren Bailey (R)",
                 "Ted Dabrowski (R)",
                 "Rick Heidner (R)",
-                "Andro Lerario (R)",
                 "James Mendrick (R)",
                 "Gregg Moore (R)",
                 "Joseph Severino (R)"
@@ -693,13 +693,14 @@
             {
               "name": "Republican",
               "topics": [
-                "Elise Stefanik (R)"
+                "Bruce Blakeman (R)"
               ]
             },
             {
               "name": "Democratic",
               "topics": [
                 "Kathy Hochul (D)",
+                "Jean Anglade (D)",
                 "Antonio Delgado (D)"
               ]
             }
@@ -729,6 +730,7 @@
               "name": "Republican",
               "topics": [
                 "Heather Hill (R)",
+                "Casey Putsch (R)",
                 "Vivek Ramaswamy (R)"
               ]
             },
@@ -954,6 +956,12 @@
                 "Andrew White (D)",
                 "Faizan Syed (D)",
                 "Meagan Tehseldar (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Jenn Mack Raphoon (I)"
               ]
             }
           ]

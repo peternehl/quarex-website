@@ -2,7 +2,7 @@
   "library": "US Senate 2026 - Complete",
   "library_type": "candidates",
   "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2025-12-19",
+  "last_updated": "2026-01-04",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -146,7 +146,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Jon Ossoff (D)"
+                "Jon Ossoff (D)",
+                "Kia Legette (D)"
               ]
             },
             {
@@ -376,8 +377,7 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "David Evans (I)",
-                "Phillip Rench (I)"
+                "David Evans (I)"
               ]
             }
           ]
@@ -492,7 +492,7 @@
               "topics": [
                 "Scott Colom (D)",
                 "Albert Littell (D)",
-                "Priscilla Williams-Till (D)"
+                "Priscilla W. Till (D)"
               ]
             },
             {
@@ -617,7 +617,7 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "Toby Smith (New Mexico) (I)"
+                "Toby Smith (I)"
               ]
             }
           ]
@@ -672,6 +672,7 @@
               "name": "Democratic",
               "topics": [
                 "Troy Green (D)",
+                "Rebekah LaVann (D)",
                 "N'Kiyla Thomas (D)"
               ]
             }
@@ -903,7 +904,7 @@
             {
               "name": "Republican",
               "topics": [
-                "Cynthia Lummis (R)",
+                "Harriet Hageman (R)",
                 "Jimmy Skovgard (R)"
               ]
             },
