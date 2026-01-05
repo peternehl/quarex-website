@@ -371,15 +371,10 @@
     <p>Blocked queries are logged to <code>security.log</code> for audit purposes but the query content is truncated to protect privacy.</p>
 
     <h3>Layer 2: AI System Instructions</h3>
-    <p>The AI model receives explicit safety instructions in its system prompt:</p>
-    <pre>"If a query requests information about illegal activities,
-violence, exploitation, self-harm, or other harmful content,
-begin your response with exactly [FLAGGED:SAFETY] followed
-by a polite refusal explaining you cannot assist with that topic."</pre>
-    <p>This catches queries that may slip past the regex filter through obfuscation or novel phrasing.</p>
+    <p>The AI model receives explicit safety instructions in its system prompt that direct it to refuse harmful requests. This catches queries that may slip past the regex filter through obfuscation or novel phrasing.</p>
 
     <h3>Layer 3: Response Detection</h3>
-    <p>If the AI model flags a response with <code>[FLAGGED:SAFETY]</code>, the system intercepts this and returns a sanitized refusal message rather than passing through any potentially harmful content.</p>
+    <p>If the AI model flags a response as potentially harmful, the system intercepts this and returns a sanitized refusal message rather than passing through any potentially harmful content.</p>
   </div>
 
   <div class="section">
@@ -395,7 +390,6 @@ by a polite refusal explaining you cannot assist with that topic."</pre>
 
     <h3>Rate Limiting</h3>
     <ul>
-      <li><strong>Limit:</strong> 20 requests per 60 seconds per IP address</li>
       <li><strong>Purpose:</strong> Prevents abuse, denial-of-service attacks, and API cost runaway</li>
       <li><strong>Privacy:</strong> IP addresses are hashed before storage</li>
     </ul>
@@ -436,7 +430,7 @@ by a polite refusal explaining you cannot assist with that topic."</pre>
       </tr>
     </table>
 
-    <p><strong>Log Retention:</strong> 7 days maximum, 10MB file size limit with automatic cleanup.</p>
+    <p><strong>Log Retention:</strong> Logs are retained briefly for security auditing and then automatically purged.</p>
   </div>
 
   <div class="section">
@@ -537,14 +531,6 @@ the date or timeframe of your sources."</pre>
       <li><strong>Cybersecurity:</strong> Prevention of malicious hacking assistance</li>
       <li><strong>Autonomy:</strong> Limits on autonomous agent capabilities</li>
       <li><strong>Persuasion:</strong> Safeguards against manipulation</li>
-    </ul>
-
-    <h4>Configurable Safety Thresholds</h4>
-    <p>The Gemini API provides configurable harm block thresholds:</p>
-    <ul>
-      <li><code>BLOCK_LOW_AND_ABOVE</code> - Most restrictive (blocks LOW, MEDIUM, HIGH probability)</li>
-      <li><code>BLOCK_MEDIUM_AND_ABOVE</code> - Moderate (blocks MEDIUM and HIGH)</li>
-      <li><code>BLOCK_ONLY_HIGH</code> - Least restrictive (blocks only HIGH probability)</li>
     </ul>
 
     <p><em>Source: <a href="https://gemini.google/policy-guidelines/" target="_blank">Google Gemini Policy Guidelines</a></em></p>
