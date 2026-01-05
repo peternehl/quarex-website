@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your 2026 Candidates | Quarex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --blue: #3B82F6;
+            --accent: #4A9EFF;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header a {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 60px;
+            height: 60px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(24px, 5vw, 36px);
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-size: 1rem;
+        }
+
+        .search-box {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .search-box label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--brand);
+        }
+
+        .input-row {
+            display: flex;
+            gap: 12px;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 14px 16px;
+            font-size: 18px;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: var(--bg);
+            color: var(--ink);
+            letter-spacing: 2px;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .search-box button {
+            padding: 14px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            background: var(--blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .search-box button:hover {
+            background: #2563eb;
+        }
+
+        .search-box button:disabled {
+            background: #555;
+            cursor: not-allowed;
+        }
+
+        .results {
+            display: none;
+        }
+
+        .results.show {
+            display: block;
+        }
+
+        .result-section {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+
+        .result-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            color: var(--accent);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .result-section h2 .icon {
+            font-size: 20px;
+        }
+
+        .result-link {
+            display: block;
+            padding: 12px 16px;
+            background: rgba(74, 158, 255, 0.1);
+            border: 1px solid rgba(74, 158, 255, 0.2);
+            border-radius: 8px;
+            color: var(--ink);
+            text-decoration: none;
+            margin-bottom: 8px;
+            transition: all 0.2s;
+        }
+
+        .result-link:last-child {
+            margin-bottom: 0;
+        }
+
+        .result-link:hover {
+            background: rgba(74, 158, 255, 0.2);
+            border-color: var(--accent);
+        }
+
+        .result-link .state {
+            font-weight: 600;
+            color: var(--brand);
+        }
+
+        .result-link .district {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        .error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 8px;
+            padding: 16px;
+            color: #fca5a5;
+            margin-bottom: 16px;
+            display: none;
+        }
+
+        .error.show {
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: var(--muted);
+            display: none;
+        }
+
+        .loading.show {
+            display: block;
+        }
+
+        .no-race {
+            color: var(--muted);
+            font-style: italic;
+            padding: 8px 0;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            margin-top: 24px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 480px) {
+            .input-row {
+                flex-direction: column;
+            }
+            .search-box button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <a href="/"><img src="/assets/quarex-hero-round-500pixels.png" alt="Quarex"></a>
+        <h1>Find Your 2026 Candidates</h1>
+        <p class="subtitle">Enter your zip code to find your congressional representatives and statewide races</p>
+    </div>
+
+    <div class="search-box">
+        <label for="zipInput">Your Zip Code</label>
+        <div class="input-row">
+            <input type="text" id="zipInput" placeholder="e.g. 90210" maxlength="5" pattern="[0-9]{5}">
+            <button id="searchBtn" onclick="lookupZip()">Find Candidates</button>
+        </div>
+    </div>
+
+    <div class="error" id="error"></div>
+    <div class="loading" id="loading">Looking up your representatives...</div>
+
+    <div class="results" id="results">
+        <div class="result-section" id="houseSection">
+            <h2><span class="icon">🏛️</span> US House of Representatives</h2>
+            <div id="houseResults"></div>
+        </div>
+
+        <div class="result-section" id="senateSection">
+            <h2><span class="icon">🏛️</span> US Senate</h2>
+            <div id="senateResults"></div>
+        </div>
+
+        <div class="result-section" id="governorSection">
+            <h2><span class="icon">🏛️</span> Governor</h2>
+            <div id="governorResults"></div>
+        </div>
+    </div>
+
+    <a href="/tools/" class="back-link">← Back to Tools</a>
+</div>
+
+<script>
+// State abbreviation to full name mapping
+const stateNames = {
+    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
+    'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia',
+    'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa',
+    'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
+    'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
+    'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey',
+    'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio',
+    'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+    'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont',
+    'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming',
+    'DC': 'District of Columbia', 'PR': 'Puerto Rico', 'GU': 'Guam', 'VI': 'Virgin Islands',
+    'AS': 'American Samoa', 'MP': 'Northern Mariana Islands'
+};
+
+// States with Senate races in 2026 (Class 2)
+const senateStates2026 = [
+    'AL', 'AK', 'AR', 'CO', 'DE', 'GA', 'ID', 'IL', 'IA', 'KS', 'KY', 'LA', 'ME', 'MA',
+    'MI', 'MN', 'MS', 'MT', 'NE', 'NH', 'NJ', 'NM', 'NC', 'OK', 'OR', 'RI', 'SC', 'SD',
+    'TN', 'TX', 'VA', 'WV', 'WY'
+];
+
+// States with Governor races in 2026
+const governorStates2026 = [
+    'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'FL', 'GA', 'HI', 'ID', 'IL', 'IA', 'KS',
+    'ME', 'MD', 'MA', 'MI', 'MN', 'NE', 'NV', 'NH', 'NM', 'NY', 'OH', 'OK', 'OR', 'PA',
+    'RI', 'SC', 'SD', 'TN', 'TX', 'VT', 'WI', 'WY', 'GU', 'MP', 'VI'
+];
+
+// Convert state name to slug
+function toSlug(str) {
+    return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+// Google Civic Information API key (same as Gemini key)
+const API_KEY = 'AIzaSyC0cs00GejPUxMxqr0bbngQmWHqGL4rCng';
+
+async function lookupZip() {
+    const zipInput = document.getElementById('zipInput');
+    const zip = zipInput.value.trim();
+    const errorEl = document.getElementById('error');
+    const loadingEl = document.getElementById('loading');
+    const resultsEl = document.getElementById('results');
+    const searchBtn = document.getElementById('searchBtn');
+
+    // Reset
+    errorEl.classList.remove('show');
+    resultsEl.classList.remove('show');
+    loadingEl.classList.remove('show');
+
+    // Validate
+    if (!/^\d{5}$/.test(zip)) {
+        errorEl.textContent = 'Please enter a valid 5-digit zip code.';
+        errorEl.classList.add('show');
+        return;
+    }
+
+    // Show loading
+    loadingEl.classList.add('show');
+    searchBtn.disabled = true;
+
+    try {
+        // Call Google Civic Information API - divisionsByAddress endpoint
+        const url = `https://www.googleapis.com/civicinfo/v2/divisionsByAddress?address=${encodeURIComponent(zip)}&key=${API_KEY}`;
+
+        const response = await fetch(url);
+        const data = await response.json();
+
+        console.log('API Response:', data); // Debug
+
+        if (data.error) {
+            throw new Error(data.error.message || 'Could not find information for this zip code.');
+        }
+
+        // Extract state and district info from divisions
+        let stateAbbr = null;
+        let districts = [];
+
+        // The API returns divisions as an object with OCD-IDs as keys
+        if (data.divisions) {
+            for (const ocdId of Object.keys(data.divisions)) {
+                console.log('OCD-ID:', ocdId); // Debug
+
+                // State: ocd-division/country:us/state:ca
+                const stateMatch = ocdId.match(/\/state:(\w{2})(?:$|\/)/);
+                if (stateMatch && !stateAbbr) {
+                    stateAbbr = stateMatch[1].toUpperCase();
+                }
+
+                // Congressional district: ocd-division/country:us/state:ca/cd:12
+                const cdMatch = ocdId.match(/\/state:(\w{2})\/cd:(\d+)/);
+                if (cdMatch) {
+                    stateAbbr = cdMatch[1].toUpperCase();
+                    districts.push(parseInt(cdMatch[2]));
+                }
+            }
+        }
+
+        if (!stateAbbr) {
+            throw new Error('Could not determine state from zip code. API response: ' + JSON.stringify(data));
+        }
+
+        const stateName = stateNames[stateAbbr];
+        const stateSlug = toSlug(stateName);
+
+        // Build results (pass zip for Census lookup link)
+        buildResults(stateAbbr, stateName, stateSlug, districts, zip);
+
+        loadingEl.classList.remove('show');
+        resultsEl.classList.add('show');
+
+    } catch (err) {
+        loadingEl.classList.remove('show');
+        errorEl.textContent = err.message || 'An error occurred. Please try again.';
+        errorEl.classList.add('show');
+    } finally {
+        searchBtn.disabled = false;
+    }
+}
+
+function buildResults(stateAbbr, stateName, stateSlug, districts, zip) {
+    const houseResults = document.getElementById('houseResults');
+    const senateResults = document.getElementById('senateResults');
+    const governorResults = document.getElementById('governorResults');
+
+    // Census lookup link for finding exact district
+    const censusUrl = `https://www.census.gov/mycd/application/`;
+
+    // House results
+    if (districts.length > 0) {
+        houseResults.innerHTML = districts.map(d => {
+            const districtLabel = d === 0 ? 'At-Large' : `District ${d}`;
+            const chapterName = `${stateAbbr}-${d.toString().padStart(2, '0')}`;
+            // Link format: /libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=STATE#CHAPTER
+            return `
+                <a href="/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=${stateSlug}" class="result-link" target="_blank">
+                    <span class="state">${stateName}</span>
+                    <span class="district">${districtLabel} (${chapterName})</span>
+                </a>
+            `;
+        }).join('');
+    } else {
+        // At-large states (AK, DE, ND, SD, VT, WY, MT)
+        const atLargeStates = ['AK', 'DE', 'MT', 'ND', 'SD', 'VT', 'WY'];
+        if (atLargeStates.includes(stateAbbr)) {
+            houseResults.innerHTML = `
+                <a href="/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=${stateSlug}" class="result-link" target="_blank">
+                    <span class="state">${stateName}</span>
+                    <span class="district">At-Large (${stateAbbr}-01)</span>
+                </a>
+            `;
+        } else {
+            houseResults.innerHTML = `
+                <a href="/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=${stateSlug}" class="result-link" target="_blank">
+                    <span class="state">${stateName}</span>
+                    <span class="district">View all districts</span>
+                </a>
+                <a href="${censusUrl}" class="result-link" target="_blank" style="background: rgba(34, 197, 94, 0.1); border-color: rgba(34, 197, 94, 0.3);">
+                    <span class="state">Zip code spans multiple districts?</span>
+                    <span class="district">Enter your address on Census.gov to find your exact district</span>
+                </a>
+            `;
+        }
+    }
+
+    // Senate results
+    if (senateStates2026.includes(stateAbbr)) {
+        senateResults.innerHTML = `
+            <a href="/libraries/?t=c&l=us-senate-2026-complete&s=class-2-regular-elections&b=${stateSlug}" class="result-link" target="_blank">
+                <span class="state">${stateName}</span>
+                <span class="district">Class 2 Senate Race</span>
+            </a>
+        `;
+    } else {
+        senateResults.innerHTML = `<p class="no-race">No Senate race in ${stateName} in 2026</p>`;
+    }
+
+    // Governor results
+    if (governorStates2026.includes(stateAbbr)) {
+        governorResults.innerHTML = `
+            <a href="/libraries/?t=c&l=us-governors-2026&s=2026-gubernatorial-races&b=${stateSlug}" class="result-link" target="_blank">
+                <span class="state">${stateName}</span>
+                <span class="district">Gubernatorial Race</span>
+            </a>
+        `;
+    } else {
+        governorResults.innerHTML = `<p class="no-race">No Governor race in ${stateName} in 2026</p>`;
+    }
+}
+
+// Allow Enter key to trigger search
+document.getElementById('zipInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        lookupZip();
+    }
+});
+
+// Auto-focus input
+document.getElementById('zipInput').focus();
+</script>
+
+</body>
+</html>
