@@ -6,10 +6,11 @@
       "topics": [
         "Donald Davis (D)",
         "Asa Buck (R)",
+        "Laurie Buckhout (R)",
         "Robert Hanig (R)",
         "Eric Rouse (R)",
-        "Sandy Roberson (R)",
-        "Tom Bailey (I)"
+        "Ashley-Nicole Russell (R)",
+        "Tom Bailey (L)"
       ],
       "tags": [
         "politics",
@@ -22,9 +23,8 @@
       "name": "NC-02",
       "topics": [
         "Deborah Ross (D)",
-        "Robert Bennett (D)",
         "Eugene Douglass (R)",
-        "Matthew Laszacs (I)"
+        "Matthew Laszacs (L)"
       ],
       "tags": [
         "politics",
@@ -36,12 +36,10 @@
     {
       "name": "NC-03",
       "topics": [
-        "Austin Ayers (I)",
+        "Gregory Murphy (R)",
         "Allison Jaslow (D)",
-        "George Papastrat (D)",
-        "Christopher Schulte (D)",
         "Raymond Smith Jr. (D)",
-        "Gregory Murphy (R)"
+        "Daniel Cavender (L)"
       ],
       "tags": [
         "politics",
@@ -57,7 +55,7 @@
         "Nida Allam (D)",
         "Mary Patterson (D)",
         "Mahesh Ganorkar (R)",
-        "Guy Meilleur (I)"
+        "Guy Meilleur (L)"
       ],
       "tags": [
         "politics",
@@ -69,12 +67,14 @@
     {
       "name": "NC-05",
       "topics": [
-        "David Clayton (I)",
-        "Kyah Creekmore (D)",
-        "Chuck Hubbard (D)",
         "Virginia Foxx (R)",
         "Steve Girard (R)",
-        "Robert Luffman (I)"
+        "Joseph Osborne (R)",
+        "Roman Williams II (R)",
+        "Kyah Creekmore (D)",
+        "Chuck Hubbard (D)",
+        "Robert Luffman (L)",
+        "David Clayton (I)"
       ],
       "tags": [
         "politics",
@@ -86,13 +86,12 @@
     {
       "name": "NC-06",
       "topics": [
-        "Joshua Hager (I)",
+        "Addison McDowell (R)",
         "Beau Blair (D)",
         "Keith Davenport (D)",
-        "Tavin Felton-Stackhouse (D)",
         "Cyril Jefferson (D)",
         "Alysa Kassay (D)",
-        "Addison McDowell (R)"
+        "Joshua Hager (I)"
       ],
       "tags": [
         "politics",
@@ -104,9 +103,10 @@
     {
       "name": "NC-07",
       "topics": [
-        "Maad Abu-Ghazalah (I)",
+        "David Rouzer (R)",
+        "David Buzzard (R)",
         "Kimberly Hardy (D)",
-        "David Rouzer (R)"
+        "Maad Abu-Ghazalah (L)"
       ],
       "tags": [
         "politics",
@@ -118,12 +118,10 @@
     {
       "name": "NC-08",
       "topics": [
-        "Justin Bunting (D)",
+        "Mark Harris (R)",
         "Kevin Clark (D)",
         "Jesse Oppenheim (D)",
-        "Colby Watson (D)",
-        "Justin Dues (D)",
-        "Mark Harris (R)"
+        "Colby Watson (D)"
       ],
       "tags": [
         "politics",
@@ -135,12 +133,12 @@
     {
       "name": "NC-09",
       "topics": [
-        "Tita Hunter-Herod (I)",
+        "Richard Hudson (R)",
         "Loren Bibler (D)",
         "Nigel Bristow (D)",
         "Lent Carr II (D)",
         "Richard Ojeda (D)",
-        "Richard Hudson (R)"
+        "Tita Hunter-Herod (I)"
       ],
       "tags": [
         "politics",
@@ -152,14 +150,15 @@
     {
       "name": "NC-10",
       "topics": [
+        "Pat Harrigan (R)",
+        "Matthew Sin (R)",
         "Ashley Bell (D)",
         "West Caudle (D)",
         "Harry Morley (D)",
         "Marcus D. Pearson (D)",
         "Ralph Scott Jr. (D)",
-        "Pat Harrigan (R)",
-        "Matthew Sin (R)",
-        "Steven Feldman (I)"
+        "Mir Yarfitz (D)",
+        "Steven Feldman (L)"
       ],
       "tags": [
         "politics",
@@ -171,18 +170,15 @@
     {
       "name": "NC-11",
       "topics": [
-        "John Rogers (I)",
-        "Jamie Ager (D)",
-        "Zelda Briarwood (D)",
-        "Chris Harjes (D)",
-        "Richard Hudspeth (D)",
-        "Jacob Lawrence (D)",
-        "Paul Maddox (D)",
-        "Lee Whipple (D)",
-        "Morris Davis (D)",
         "Chuck Edwards (R)",
         "Adam Smith (R)",
-        "Travis Groo (I)"
+        "Jamie Ager (D)",
+        "Zelda Briarwood (D)",
+        "Richard Hudspeth (D)",
+        "Paul Maddox (D)",
+        "Lee Whipple (D)",
+        "Travis Groo (L)",
+        "John Rogers (I)"
       ],
       "tags": [
         "politics",
@@ -209,11 +205,12 @@
     {
       "name": "NC-13",
       "topics": [
-        "Paul Barringer (D)",
-        "Alexander Nicholi (D)",
         "Brad Knott (R)",
         "Sid Sharma (R)",
-        "Steven Swinton (I)"
+        "Paul Barringer (D)",
+        "Alexander Nicholi (D)",
+        "Frank Pierce (D)",
+        "Steven Swinton (L)"
       ],
       "tags": [
         "politics",

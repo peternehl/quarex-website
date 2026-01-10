@@ -424,13 +424,29 @@ const governorStates2026 = [
     'RI', 'SC', 'SD', 'TN', 'TX', 'VT', 'WI', 'WY', 'GU', 'MP', 'VI'
 ];
 
+// ZIP to Congressional District lookup (loaded from file)
+let zipLookup = null;
+
 // Convert state name to slug
 function toSlug(str) {
     return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
-// Google Civic Information API key
-const API_KEY = 'AIzaSyC0cs00GejPUxMxqr0bbngQmWHqGL4rCng';
+// Load ZIP lookup data
+async function loadZipLookup() {
+    if (zipLookup) return zipLookup;
+    try {
+        const response = await fetch('/candidates/zip-to-cd.json');
+        zipLookup = await response.json();
+        return zipLookup;
+    } catch (err) {
+        console.error('Failed to load ZIP lookup:', err);
+        return null;
+    }
+}
+
+// Preload the ZIP data
+loadZipLookup();
 
 async function lookupZip() {
     const zipInput = document.getElementById('zipInput');
@@ -457,50 +473,27 @@ async function lookupZip() {
     searchBtn.disabled = true;
 
     try {
-        // Call Google Civic Information API - divisionsByAddress endpoint
-        const url = `https://www.googleapis.com/civicinfo/v2/divisionsByAddress?address=${encodeURIComponent(zip)}&key=${API_KEY}`;
+        // Load ZIP lookup data
+        const lookup = await loadZipLookup();
 
-        const response = await fetch(url);
-        const data = await response.json();
+        if (lookup && lookup[zip]) {
+            // Use local ZIP lookup
+            const districts = lookup[zip]; // e.g., ["NY-10", "NY-12"]
+            const stateAbbr = districts[0].split('-')[0];
+            const stateName = stateNames[stateAbbr];
+            const stateSlug = toSlug(stateName);
 
-        if (data.error) {
-            throw new Error(data.error.message || 'Could not find information for this zip code.');
+            // Parse district numbers
+            const districtNums = districts.map(d => parseInt(d.split('-')[1]));
+
+            buildResults(stateAbbr, stateName, stateSlug, districtNums, zip, districts.length > 1);
+
+            loadingEl.classList.remove('show');
+            resultsEl.classList.add('show');
+        } else {
+            // ZIP not found in lookup
+            throw new Error('ZIP code not found. Please check and try again.');
         }
-
-        // Extract state and district info from divisions
-        let stateAbbr = null;
-        let districts = [];
-
-        // The API returns divisions as an object with OCD-IDs as keys
-        if (data.divisions) {
-            for (const ocdId of Object.keys(data.divisions)) {
-                // State: ocd-division/country:us/state:ca
-                const stateMatch = ocdId.match(/\/state:(\w{2})(?:$|\/)/);
-                if (stateMatch && !stateAbbr) {
-                    stateAbbr = stateMatch[1].toUpperCase();
-                }
-
-                // Congressional district: ocd-division/country:us/state:ca/cd:12
-                const cdMatch = ocdId.match(/\/state:(\w{2})\/cd:(\d+)/);
-                if (cdMatch) {
-                    stateAbbr = cdMatch[1].toUpperCase();
-                    districts.push(parseInt(cdMatch[2]));
-                }
-            }
-        }
-
-        if (!stateAbbr) {
-            throw new Error('Could not determine state from zip code.');
-        }
-
-        const stateName = stateNames[stateAbbr];
-        const stateSlug = toSlug(stateName);
-
-        // Build results
-        buildResults(stateAbbr, stateName, stateSlug, districts, zip);
-
-        loadingEl.classList.remove('show');
-        resultsEl.classList.add('show');
 
     } catch (err) {
         loadingEl.classList.remove('show');
@@ -511,17 +504,17 @@ async function lookupZip() {
     }
 }
 
-function buildResults(stateAbbr, stateName, stateSlug, districts, zip) {
+function buildResults(stateAbbr, stateName, stateSlug, districts, zip, isMultiDistrict) {
     const houseResults = document.getElementById('houseResults');
     const senateResults = document.getElementById('senateResults');
     const governorResults = document.getElementById('governorResults');
 
     // Census lookup link for finding exact district
-    const censusUrl = `https://www.census.gov/mycd/application/`;
+    const censusUrl = 'https://www.census.gov/mycd/application/';
 
     // House results
     if (districts.length > 0) {
-        houseResults.innerHTML = districts.map(d => {
+        let html = districts.map(d => {
             const districtLabel = d === 0 ? 'At-Large' : `District ${d}`;
             const chapterName = `${stateAbbr}-${d.toString().padStart(2, '0')}`;
             return `
@@ -531,28 +524,25 @@ function buildResults(stateAbbr, stateName, stateSlug, districts, zip) {
                 </a>
             `;
         }).join('');
-    } else {
-        // At-large states (AK, DE, ND, SD, VT, WY, MT)
-        const atLargeStates = ['AK', 'DE', 'MT', 'ND', 'SD', 'VT', 'WY'];
-        if (atLargeStates.includes(stateAbbr)) {
-            houseResults.innerHTML = `
-                <a href="/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=${stateSlug}" class="result-link" target="_blank">
-                    <span class="state">${stateName}</span>
-                    <span class="district">At-Large (${stateAbbr}-01)</span>
-                </a>
-            `;
-        } else {
-            houseResults.innerHTML = `
-                <a href="/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=${stateSlug}" class="result-link" target="_blank">
-                    <span class="state">${stateName}</span>
-                    <span class="district">View all districts</span>
-                </a>
+
+        // Add Census link if ZIP spans multiple districts
+        if (isMultiDistrict) {
+            html += `
                 <a href="${censusUrl}" class="result-link" target="_blank" style="background: rgba(34, 197, 94, 0.1); border-color: rgba(34, 197, 94, 0.3);">
-                    <span class="state">Zip code spans multiple districts?</span>
+                    <span class="state">Not sure which district?</span>
                     <span class="district">Enter your address on Census.gov to find your exact district</span>
                 </a>
             `;
         }
+
+        houseResults.innerHTML = html;
+    } else {
+        houseResults.innerHTML = `
+            <a href="/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=${stateSlug}" class="result-link" target="_blank">
+                <span class="state">${stateName}</span>
+                <span class="district">View all districts</span>
+            </a>
+        `;
     }
 
     // Senate results

@@ -4,6 +4,7 @@
     {
       "name": "Republican",
       "topics": [
+        "Peggy Bennett (R)",
         "Lisa Demuth (R)",
         "Thomas Evenstad (R)",
         "Scott Jensen (R)",
@@ -19,7 +20,9 @@
     },
     {
       "name": "Democratic",
-      "topics": []
+      "topics": [
+        "No candidates declared"
+      ]
     },
     {
       "name": "Independent/Other",

@@ -55,8 +55,114 @@
     .lang-select{ position:fixed; top:70px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px); border:1px solid rgba(122,167,255,.35); padding:6px 10px; border-radius:12px; color:var(--ink); font-size:.9rem; cursor:pointer; outline:none }
     .lang-select:focus{ box-shadow:0 0 0 3px var(--ring) }
 
-    /* Single-column layout */
-    .columns{ display:block; margin-top:20px }
+    /* Two-column layout with sidebar */
+    .columns{
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    /* History Sidebar */
+    .history-sidebar {
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      padding: 16px;
+      max-height: calc(100vh - 160px);
+      overflow-y: auto;
+      position: sticky;
+      top: 20px;
+      box-shadow: var(--shadow);
+    }
+    .history-sidebar h3 {
+      font-size: 0.95rem;
+      color: var(--brand);
+      margin: 0 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+      font-weight: 600;
+    }
+    .history-section {
+      margin-bottom: 14px;
+    }
+    .history-section-title {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .history-section-title .step-num {
+      background: rgba(122,167,255,.2);
+      color: var(--brand);
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.65rem;
+      font-weight: 700;
+    }
+    .history-item {
+      background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: 8px;
+      padding: 8px 10px;
+      margin-bottom: 5px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      line-height: 1.35;
+    }
+    .history-item:hover {
+      background: rgba(122,167,255,.12);
+      border-color: rgba(122,167,255,.3);
+    }
+    .history-item.explored {
+      border-left: 3px solid var(--brand);
+    }
+    .history-item.unexplored {
+      opacity: 0.7;
+      border-left: 3px solid rgba(255,255,255,.15);
+    }
+    .history-item.current {
+      background: rgba(122,167,255,.15);
+      border-color: var(--brand);
+    }
+    .history-item-label {
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .history-item-status {
+      font-size: 0.65rem;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+    .history-empty {
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-style: italic;
+      padding: 8px 0;
+    }
+
+    @media (max-width: 900px) {
+      .columns {
+        grid-template-columns: 1fr;
+      }
+      .history-sidebar {
+        position: static;
+        max-height: none;
+        order: 2;
+        margin-top: 16px;
+      }
+    }
     .chat{
       background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
       border:1px solid rgba(255,255,255,.08);
@@ -153,6 +259,28 @@
 
     /* Tablet and below (768px) */
     @media (max-width: 768px) {
+      .columns {
+        grid-template-columns: 1fr;
+      }
+
+      .history-sidebar {
+        position: static;
+        max-height: 200px;
+        order: 2;
+        margin-top: 12px;
+        padding: 12px;
+      }
+
+      .history-sidebar h3 {
+        font-size: 0.85rem;
+        margin-bottom: 8px;
+      }
+
+      .history-item {
+        padding: 6px 8px;
+        font-size: 0.75rem;
+      }
+
       .wrap {
         padding: 20px 16px 60px;
       }
@@ -253,6 +381,11 @@
 
     /* Mobile phones (480px and below) */
     @media (max-width: 480px) {
+      /* Hide sidebar on small phones to save space */
+      .history-sidebar {
+        display: none;
+      }
+
       body {
         font-size: 14px;
       }
@@ -678,6 +811,14 @@
 
 
     <section class="columns">
+      <!-- History Sidebar -->
+      <aside id="historySidebar" class="history-sidebar">
+        <h3>Question History</h3>
+        <div id="historyContent">
+          <p class="history-empty">Your exploration history will appear here as you ask questions.</p>
+        </div>
+      </aside>
+
       <div class="chat" role="region" aria-label="Chat with the Living Book">
         <div id="contextBar" class="context-bar" hidden></div>
         <div id="progressBar" class="progress-bar" hidden>
@@ -731,6 +872,10 @@
     // Track latest Q&A
     let latestQuestion = '';
     let latestAnswer = '';
+
+    // History tracking for sidebar
+    const elHistoryContent = document.getElementById('historyContent');
+    let explorationHistory = []; // Array of {question, followups, exploredFollowups}
 
     // Language mapping
     const languages = {
@@ -1142,23 +1287,29 @@
     }
     
     // Add follow-up question buttons
-    function addFollowupButtons(questions) {
+    function addFollowupButtons(questions, historyIndex = null) {
       // Remove any existing follow-up buttons
       const existing = elMessages.querySelector('.followup-buttons');
       if (existing) existing.remove();
-      
+
       // Filter out empty questions
       const validQuestions = questions.filter(q => q && q.trim());
       if (validQuestions.length === 0) return;
-      
+
       const container = document.createElement('div');
       container.className = 'followup-buttons';
-      
+
       validQuestions.forEach(q => {
         const btn = document.createElement('button');
         btn.className = 'followup-btn';
         btn.textContent = q;
         btn.onclick = () => {
+          // Mark this follow-up as explored in history
+          if (historyIndex !== null && explorationHistory[historyIndex]) {
+            if (!explorationHistory[historyIndex].exploredFollowups.includes(q)) {
+              explorationHistory[historyIndex].exploredFollowups.push(q);
+            }
+          }
           // Include context info with the follow-up question
           const parts = [
             q,
@@ -1171,9 +1322,88 @@
         };
         container.appendChild(btn);
       });
-      
+
       elMessages.appendChild(container);
       elMessages.scrollTop = elMessages.scrollHeight;
+    }
+
+    // Update history sidebar
+    function updateHistorySidebar() {
+      if (explorationHistory.length === 0) {
+        elHistoryContent.innerHTML = '<p class="history-empty">Your exploration history will appear here as you ask questions.</p>';
+        return;
+      }
+
+      let html = '';
+      explorationHistory.forEach((step, stepIndex) => {
+        html += '<div class="history-section">';
+
+        // Section title with step number and question
+        const shortQ = step.question.length > 30 ? step.question.substring(0, 30) + '...' : step.question;
+        html += `<div class="history-section-title"><span class="step-num">${stepIndex + 1}</span> ${escapeHtml(shortQ)}</div>`;
+
+        // Show the asked question as explored
+        html += `<div class="history-item explored current" title="${escapeHtml(step.question)}">
+          <span class="history-item-label">${escapeHtml(step.question.substring(0, 50))}${step.question.length > 50 ? '...' : ''}</span>
+          <span class="history-item-status">Asked</span>
+        </div>`;
+
+        // Show follow-up questions from this step
+        if (step.followups && step.followups.length > 0) {
+          step.followups.forEach(f => {
+            const isExplored = step.exploredFollowups.includes(f);
+            const itemClass = isExplored ? 'explored' : 'unexplored';
+            html += `<div class="history-item ${itemClass}" data-step="${stepIndex}" data-followup="${escapeHtml(f)}" title="${escapeHtml(f)}">
+              <span class="history-item-label">${escapeHtml(f.substring(0, 45))}${f.length > 45 ? '...' : ''}</span>
+              <span class="history-item-status">${isExplored ? 'Explored' : 'Click to explore'}</span>
+            </div>`;
+          });
+        }
+
+        html += '</div>';
+      });
+
+      elHistoryContent.innerHTML = html;
+
+      // Add click handlers for unexplored items
+      elHistoryContent.querySelectorAll('.history-item.unexplored').forEach(item => {
+        item.addEventListener('click', () => {
+          const stepIndex = parseInt(item.dataset.step);
+          const followup = item.dataset.followup;
+          exploreFromSidebar(stepIndex, followup);
+        });
+      });
+    }
+
+    // Explore a follow-up from the sidebar
+    function exploreFromSidebar(stepIndex, followup) {
+      // Mark as explored
+      if (explorationHistory[stepIndex]) {
+        if (!explorationHistory[stepIndex].exploredFollowups.includes(followup)) {
+          explorationHistory[stepIndex].exploredFollowups.push(followup);
+        }
+      }
+      updateHistorySidebar();
+
+      // Submit the question
+      const parts = [
+        followup,
+        book    ? `Book: ${book}`     : '',
+        context ? `Context: ${context}` : '',
+        chapter ? `Chapter: ${chapter}` : ''
+      ].filter(Boolean).join('\n\n');
+      elPrompt.value = parts;
+      elSend.click();
+    }
+
+    // Add entry to exploration history
+    function addToHistory(question, followups = []) {
+      explorationHistory.push({
+        question: question,
+        followups: followups,
+        exploredFollowups: []
+      });
+      updateHistorySidebar();
     }
 
     // ---- Discovery: Related Topics ----
@@ -1414,9 +1644,14 @@
 			  console.log('Advancing to next topic...');
 			  advanceToNextTopic();
 			} else if (!seqMode) {
+			  // Add to exploration history
+			  const followups = data.followup_questions || [];
+			  addToHistory(mainQuestion, followups);
+			  const currentHistoryIndex = explorationHistory.length - 1;
+
 			  // Follow-up mode: show follow-up questions if available
-			  if (data.followup_questions && data.followup_questions.length > 0) {
-			    addFollowupButtons(data.followup_questions);
+			  if (followups.length > 0) {
+			    addFollowupButtons(followups, currentHistoryIndex);
 			  }
 			  // Show related topics - try dynamic extraction from response, fall back to URL tags
 			  const responseText = data.text || '';
