@@ -180,6 +180,32 @@
     <script>
         let bookIndex = null;
 
+        // Check for URL parameter
+        function getUrlQuery() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('q') || '';
+        }
+
+        // Perform search programmatically
+        function doSearch(query) {
+            const input = document.getElementById('search-input');
+            input.value = query;
+
+            if (!bookIndex) return;
+
+            if (query.length === 0) {
+                showAllBooks();
+                return;
+            }
+
+            const parsed = parseQuery(query);
+            const results = bookIndex.books.filter(book => {
+                const searchText = `${book.name} ${book.library} ${book.shelf}`;
+                return matchesQuery(searchText, parsed);
+            });
+            renderResults(results, query);
+        }
+
         // Load the book index
         fetch('/libraries/book-index.json')
             .then(res => res.json())
@@ -187,7 +213,14 @@
                 bookIndex = data;
                 document.getElementById('stats').textContent =
                     `${data.count} books available`;
-                showAllBooks();
+
+                // Check for URL query parameter
+                const urlQuery = getUrlQuery();
+                if (urlQuery) {
+                    doSearch(urlQuery);
+                } else {
+                    showAllBooks();
+                }
             })
             .catch(err => {
                 document.getElementById('stats').textContent = 'Error loading index';
