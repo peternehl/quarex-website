@@ -167,7 +167,7 @@
         <p class="subtitle">Find any book in the library</p>
 
         <div class="search-box">
-            <input type="text" id="search-input" placeholder="Start typing to search..." autofocus>
+            <input type="text" id="search-input" placeholder="Search... use quotes for exact phrases, * for wildcards" autofocus>
         </div>
 
         <div class="stats" id="stats">Loading...</div>
@@ -194,9 +194,63 @@
                 console.error(err);
             });
 
+        // Parse search query for quotes and wildcards
+        function parseQuery(query) {
+            const phrases = [];
+            const wildcards = [];
+            const terms = [];
+
+            // Extract quoted phrases (both " and ')
+            const quoteRegex = /["']([^"']+)["']/g;
+            let match;
+            let remaining = query;
+
+            while ((match = quoteRegex.exec(query)) !== null) {
+                phrases.push(match[1].toLowerCase());
+                remaining = remaining.replace(match[0], ' ');
+            }
+
+            // Process remaining terms
+            remaining.trim().split(/\s+/).filter(t => t).forEach(term => {
+                if (term.includes('*')) {
+                    // Convert wildcard to regex pattern
+                    const pattern = term.toLowerCase()
+                        .replace(/[.+?^${}()|[\]\\]/g, '\\$&')  // Escape regex chars except *
+                        .replace(/\*/g, '.*');  // Convert * to .*
+                    wildcards.push(new RegExp(pattern));
+                } else if (term) {
+                    terms.push(term.toLowerCase());
+                }
+            });
+
+            return { phrases, wildcards, terms };
+        }
+
+        // Check if text matches parsed query
+        function matchesQuery(text, parsed) {
+            const lower = text.toLowerCase();
+
+            // All phrases must match exactly
+            for (const phrase of parsed.phrases) {
+                if (!lower.includes(phrase)) return false;
+            }
+
+            // All wildcards must match
+            for (const pattern of parsed.wildcards) {
+                if (!pattern.test(lower)) return false;
+            }
+
+            // All regular terms must match
+            for (const term of parsed.terms) {
+                if (!lower.includes(term)) return false;
+            }
+
+            return true;
+        }
+
         // Search input handler
         document.getElementById('search-input').addEventListener('input', function(e) {
-            const query = e.target.value.trim().toLowerCase();
+            const query = e.target.value.trim();
 
             if (!bookIndex) return;
 
@@ -205,11 +259,12 @@
                 return;
             }
 
-            const results = bookIndex.books.filter(book =>
-                book.name.toLowerCase().includes(query) ||
-                book.library.toLowerCase().includes(query) ||
-                book.shelf.toLowerCase().includes(query)
-            );
+            const parsed = parseQuery(query);
+
+            const results = bookIndex.books.filter(book => {
+                const searchText = `${book.name} ${book.library} ${book.shelf}`;
+                return matchesQuery(searchText, parsed);
+            });
 
             renderResults(results, query);
         });
