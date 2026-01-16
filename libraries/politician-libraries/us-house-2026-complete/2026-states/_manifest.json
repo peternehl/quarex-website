@@ -1,252 +1,242 @@
 [
   {
     "slug": "alabama",
-    "name": "Alabama",
+    "name": "Alabama (7 districts)",
     "chapterCount": 7
   },
   {
     "slug": "alaska",
-    "name": "Alaska",
+    "name": "Alaska (1 district)",
     "chapterCount": 1
   },
   {
     "slug": "arizona",
-    "name": "Arizona",
+    "name": "Arizona (9 districts)",
     "chapterCount": 9
   },
   {
     "slug": "arkansas",
-    "name": "Arkansas",
+    "name": "Arkansas (4 districts)",
     "chapterCount": 4
   },
   {
     "slug": "california",
-    "name": "California",
+    "name": "California (52 districts)",
     "chapterCount": 52
   },
   {
     "slug": "colorado",
-    "name": "Colorado",
+    "name": "Colorado (8 districts)",
     "chapterCount": 8
   },
   {
     "slug": "connecticut",
-    "name": "Connecticut",
+    "name": "Connecticut (5 districts)",
     "chapterCount": 5
   },
   {
     "slug": "delaware",
-    "name": "Delaware",
+    "name": "Delaware (1 district)",
     "chapterCount": 1
   },
   {
     "slug": "florida",
-    "name": "Florida",
+    "name": "Florida (28 districts)",
     "chapterCount": 28
   },
   {
     "slug": "georgia",
-    "name": "Georgia",
+    "name": "Georgia (14 districts)",
     "chapterCount": 14
   },
   {
     "slug": "hawaii",
-    "name": "Hawaii",
+    "name": "Hawaii (2 districts)",
     "chapterCount": 2
   },
   {
     "slug": "idaho",
-    "name": "Idaho",
+    "name": "Idaho (2 districts)",
     "chapterCount": 2
   },
   {
     "slug": "illinois",
-    "name": "Illinois",
+    "name": "Illinois (17 districts)",
     "chapterCount": 17
   },
   {
     "slug": "indiana",
-    "name": "Indiana",
+    "name": "Indiana (9 districts)",
     "chapterCount": 9
   },
   {
     "slug": "iowa",
-    "name": "Iowa",
+    "name": "Iowa (4 districts)",
     "chapterCount": 4
   },
   {
     "slug": "kansas",
-    "name": "Kansas",
+    "name": "Kansas (4 districts)",
     "chapterCount": 4
   },
   {
     "slug": "kentucky",
-    "name": "Kentucky",
+    "name": "Kentucky (6 districts)",
     "chapterCount": 6
   },
   {
     "slug": "louisiana",
-    "name": "Louisiana",
+    "name": "Louisiana (6 districts)",
     "chapterCount": 6
   },
   {
     "slug": "maine",
-    "name": "Maine",
+    "name": "Maine (2 districts)",
     "chapterCount": 2
   },
   {
     "slug": "maryland",
-    "name": "Maryland",
+    "name": "Maryland (8 districts)",
     "chapterCount": 8
   },
   {
     "slug": "massachusetts",
-    "name": "Massachusetts",
+    "name": "Massachusetts (9 districts)",
     "chapterCount": 9
   },
   {
     "slug": "michigan",
-    "name": "Michigan",
+    "name": "Michigan (13 districts)",
     "chapterCount": 13
   },
   {
     "slug": "minnesota",
-    "name": "Minnesota",
+    "name": "Minnesota (8 districts)",
     "chapterCount": 8
   },
   {
     "slug": "mississippi",
-    "name": "Mississippi",
+    "name": "Mississippi (4 districts)",
     "chapterCount": 4
   },
   {
     "slug": "missouri",
-    "name": "Missouri",
+    "name": "Missouri (8 districts)",
     "chapterCount": 8
   },
   {
     "slug": "montana",
-    "name": "Montana",
+    "name": "Montana (2 districts)",
     "chapterCount": 2
   },
   {
     "slug": "nebraska",
-    "name": "Nebraska",
+    "name": "Nebraska (3 districts)",
     "chapterCount": 3
   },
   {
     "slug": "nevada",
-    "name": "Nevada",
+    "name": "Nevada (4 districts)",
     "chapterCount": 4
   },
   {
     "slug": "new-hampshire",
-    "name": "New Hampshire",
+    "name": "New Hampshire (2 districts)",
     "chapterCount": 2
   },
   {
     "slug": "new-jersey",
-    "name": "New Jersey",
+    "name": "New Jersey (12 districts)",
     "chapterCount": 12
   },
   {
     "slug": "new-mexico",
-    "name": "New Mexico",
+    "name": "New Mexico (3 districts)",
     "chapterCount": 3
   },
   {
     "slug": "new-york",
-    "name": "New York",
+    "name": "New York (26 districts)",
     "chapterCount": 26
   },
   {
     "slug": "north-carolina",
-    "name": "North Carolina",
+    "name": "North Carolina (14 districts)",
     "chapterCount": 14
   },
   {
     "slug": "north-dakota",
-    "name": "North Dakota",
+    "name": "North Dakota (1 district)",
     "chapterCount": 1
   },
   {
-    "slug": "ohio",
-    "name": "Ohio",
-    "chapterCount": 15
-  },
-  {
     "slug": "oklahoma",
-    "name": "Oklahoma",
+    "name": "Oklahoma (5 districts)",
     "chapterCount": 5
   },
   {
     "slug": "oregon",
-    "name": "Oregon",
+    "name": "Oregon (6 districts)",
     "chapterCount": 6
   },
   {
     "slug": "pennsylvania",
-    "name": "Pennsylvania",
+    "name": "Pennsylvania (17 districts)",
     "chapterCount": 17
   },
   {
     "slug": "rhode-island",
-    "name": "Rhode Island",
+    "name": "Rhode Island (2 districts)",
     "chapterCount": 2
   },
   {
     "slug": "south-carolina",
-    "name": "South Carolina",
+    "name": "South Carolina (7 districts)",
     "chapterCount": 7
   },
   {
     "slug": "south-dakota",
-    "name": "South Dakota",
+    "name": "South Dakota (1 district)",
     "chapterCount": 1
   },
   {
     "slug": "tennessee",
-    "name": "Tennessee",
+    "name": "Tennessee (9 districts)",
     "chapterCount": 9
   },
   {
-    "slug": "texas",
-    "name": "Texas",
-    "chapterCount": 38
-  },
-  {
     "slug": "utah",
-    "name": "Utah",
+    "name": "Utah (4 districts)",
     "chapterCount": 4
   },
   {
     "slug": "vermont",
-    "name": "Vermont",
+    "name": "Vermont (1 district)",
     "chapterCount": 1
   },
   {
     "slug": "virginia",
-    "name": "Virginia",
+    "name": "Virginia (11 districts)",
     "chapterCount": 11
   },
   {
     "slug": "washington",
-    "name": "Washington",
+    "name": "Washington (10 districts)",
     "chapterCount": 10
   },
   {
     "slug": "west-virginia",
-    "name": "West Virginia",
+    "name": "West Virginia (2 districts)",
     "chapterCount": 2
   },
   {
     "slug": "wisconsin",
-    "name": "Wisconsin",
+    "name": "Wisconsin (8 districts)",
     "chapterCount": 8
   },
   {
     "slug": "wyoming",
-    "name": "Wyoming",
+    "name": "Wyoming (1 district)",
     "chapterCount": 1
   }
 ]

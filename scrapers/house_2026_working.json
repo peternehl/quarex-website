@@ -2,7 +2,7 @@
   "library": "us-house-2026-complete",
   "library_type": "candidates",
   "description": "All 435 House districts with declared 2026 candidates. Auto-generated from Ballotpedia.",
-  "last_updated": "2026-01-04",
+  "last_updated": "2026-01-16",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -502,6 +502,7 @@
             {
               "name": "Republican",
               "topics": [
+                "Angelita Valles (R)",
                 "Doug LaMalfa (R)"
               ]
             },
@@ -573,7 +574,8 @@
               "name": "Democratic",
               "topics": [
                 "Mike Thompson (D)",
-                "Eric Jones (D)"
+                "Eric Jones (D)",
+                "Trevor Merrell (D)"
               ]
             },
             {
@@ -598,6 +600,7 @@
               "name": "Democratic",
               "topics": [
                 "Mike Barkley (D)",
+                "Paul Danbom (D)",
                 "Michael Masuda (D)",
                 "Angelina Sigala (D)",
                 "Kate Sills (D)"
@@ -613,7 +616,8 @@
               "topics": [
                 "Christine Bish (R)",
                 "Craig DeLuz (R)",
-                "Raymond Riehle (R)"
+                "Raymond Riehle (R)",
+                "Michael Stansfield (R)"
               ]
             },
             {
@@ -676,7 +680,8 @@
               "name": "Republican",
               "topics": [
                 "John McBride (R)",
-                "Jim Shoemaker (R)"
+                "Jim Shoemaker (R)",
+                "Parminder Singh (R)"
               ]
             },
             {
@@ -722,6 +727,7 @@
                 "Cole Bettles (D)",
                 "Saikat Chakrabarti (D)",
                 "Connie Chan (D)",
+                "Omed Hamid (D)",
                 "Darren Helton (D)",
                 "Daniel Wheeler (D)",
                 "Scott Wiener (D)",
@@ -780,6 +786,8 @@
             {
               "name": "Democratic",
               "topics": [
+                "Melissa Hernandez (D)",
+                "Matt Ortega (D)",
                 "Abrar Qadir (D)",
                 "Eric Swalwell (D)"
               ]
@@ -1018,6 +1026,7 @@
             {
               "name": "Democratic",
               "topics": [
+                "Jacqui Irwin (D)",
                 "Julia Brownley (D)"
               ]
             }
@@ -1091,6 +1100,7 @@
               "topics": [
                 "Laura Friedman (D)",
                 "Lester Herman (D)",
+                "Darrell Reeves (D)",
                 "Alan Starzinski (D)"
               ]
             }
@@ -1130,6 +1140,7 @@
                 "Orissa Ishii (D)",
                 "Wyatt Karem (D)",
                 "Jake Levine (D)",
+                "Marena Lin (D)",
                 "Mia Phillips (D)",
                 "Josh Sautter (D)",
                 "Anna Wilding (D)",
@@ -1144,7 +1155,7 @@
             {
               "name": "Republican",
               "topics": [
-                "No candidates declared"
+                "Stephanie Vargas (R)"
               ]
             },
             {
@@ -1172,6 +1183,12 @@
                 "David Ferrell (D)",
                 "Angela Gonzales-Torres (D)",
                 "Robert Lucero (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Vivian Nguyen (I)"
               ]
             }
           ]
@@ -1315,6 +1332,7 @@
               "topics": [
                 "Katherine Aleman (D)",
                 "Jason Byors (D)",
+                "Hector De La Torre (D)",
                 "David Karson (D)",
                 "Shonique Williams (D)",
                 "Anuj Dixit (D)",
@@ -1413,6 +1431,7 @@
               "name": "Democratic",
               "topics": [
                 "Lou Correa (D)",
+                "Francisco Bahena (D)",
                 "Christian Mendez (D)"
               ]
             }
@@ -1458,6 +1477,7 @@
               "topics": [
                 "Ammar Campa-Najjar (D)",
                 "Abel Chavez (D)",
+                "Stephen Clemons (D)",
                 "Corinna Contreras (D)",
                 "Nicholas Davis (D)",
                 "Marc Iannarino (D)",
@@ -1511,6 +1531,7 @@
               "name": "Democratic",
               "topics": [
                 "Scott Peters (D)",
+                "Tim Arnous (D)",
                 "Timothy Bilash (D)",
                 "Aishwarya Mitra (D)",
                 "Ernesto Perez (D)"
@@ -2260,7 +2281,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "Curtis Gibson (D)"
               ]
             }
           ]
@@ -2272,6 +2293,7 @@
               "name": "Republican",
               "topics": [
                 "Madison Cawthorn (R)",
+                "Chris Collins (R)",
                 "Stephen Elliott (R)",
                 "John Fratto (R)",
                 "Ola Hawatmeh (R)",
@@ -4259,6 +4281,7 @@
                 "Rick Jakious (D)",
                 "Dan Koh (D)",
                 "Tram Nguyen (D)",
+                "Jamie Zahlaway Belsito (D)",
                 "Seth Moulton (D)"
               ]
             }
@@ -4426,7 +4449,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Jacob Vravis (D)"
+                "Jacob Vravis (D)",
+                "Christian Vukasovich (D)"
               ]
             }
           ]
@@ -4557,10 +4581,10 @@
               "topics": [
                 "Stu Baker (D)",
                 "Aisha Farooqi (D)",
-                "Anil Kumar (D)",
                 "Jeremy Moss (D)",
                 "John Paul Torres (D)",
-                "Don Ufford (D)"
+                "Don Ufford (D)",
+                "Anil Kumar (D)"
               ]
             }
           ]
@@ -4770,6 +4794,7 @@
                 "Emanuel Anastos (D)",
                 "Cyle Cramer (D)",
                 "John-Paul McBride (D)",
+                "Trina Swanson (D)",
                 "Chad McKenna (D)"
               ]
             }
@@ -4912,6 +4937,7 @@
                 "Timothy Bilash (D)",
                 "Chuck Summers (D)",
                 "Nick Vivio (D)",
+                "Joan VonDras (D)",
                 "Frederick Wellman (D)"
               ]
             },
@@ -5174,6 +5200,7 @@
               "name": "Democratic",
               "topics": [
                 "Dina Titus (D)",
+                "Gabriel Cornejo (D)",
                 "Alex Pereszlenyi (D)"
               ]
             },
@@ -5191,7 +5218,8 @@
             {
               "name": "Republican",
               "topics": [
-                "Mark Amodei (R)"
+                "Mark Amodei (R)",
+                "Rick Shepherd (R)"
               ]
             },
             {
@@ -5212,14 +5240,14 @@
               "topics": [
                 "Tera Anderson (R)",
                 "Christopher Brandlin (R)",
-                "Lydia Dominguez (R)",
                 "Jeff Gunter (R)",
                 "Ronda Kennedy (R)",
                 "Steve London (R)",
                 "Aury Nagy (R)",
                 "Marty O'Donnell (R)",
                 "Lucena Parker (R)",
-                "Joshua Walters (R)"
+                "Joshua Walters (R)",
+                "Lydia Dominguez (R)"
               ]
             },
             {
@@ -5227,7 +5255,8 @@
               "topics": [
                 "Susie Lee (D)",
                 "Sean Hutchinson (D)",
-                "James Lally (D)"
+                "James Lally (D)",
+                "Terrill Robinson (D)"
               ]
             }
           ]
@@ -5320,6 +5349,7 @@
               "name": "Democratic",
               "topics": [
                 "Donald Norcross (D)",
+                "Lonnie Affrime (D)",
                 "Bill Finn (D)"
               ]
             }
@@ -5379,7 +5409,9 @@
               "name": "Democratic",
               "topics": [
                 "John Blake (D)",
-                "Julie Flynn (D)"
+                "Julie Flynn (D)",
+                "Peter Linardakis (D)",
+                "Rachel Peace (D)"
               ]
             },
             {
@@ -5490,6 +5522,7 @@
             {
               "name": "Republican",
               "topics": [
+                "Tiffany Burgess (R)",
                 "Rosemary Pino (R)"
               ]
             },
@@ -5766,10 +5799,12 @@
                 "Alexander Campagna (D)",
                 "Steven Carbajal (D)",
                 "Sydney Martinez (D)",
+                "Dane-Brandon Noble (D)",
                 "Edwin Osorio (D)",
                 "Paperboy Prince (D)",
                 "Antonio Reynoso (D)",
                 "Miles Shore (D)",
+                "Claire Valdez (D)",
                 "Nydia Velazquez (D)"
               ]
             }
@@ -5847,7 +5882,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Troy McGhie (D)"
+                "Troy McGhie (D)",
+                "Umar Usman (D)"
               ]
             }
           ]
@@ -5869,7 +5905,6 @@
               "topics": [
                 "Micah Bergdale (D)",
                 "Alex Bores (D)",
-                "Erik Bottcher (D)",
                 "George Conway (D)",
                 "Christopher Diep (D)",
                 "Laura Dunn (D)",
@@ -5879,7 +5914,9 @@
                 "Micah Lasher (D)",
                 "Alan Pardee (D)",
                 "Jack Schlossberg (D)",
-                "Mathew Shurka (D)"
+                "Nina Schwalbe (D)",
+                "Mathew Shurka (D)",
+                "Erik Bottcher (D)"
               ]
             },
             {
@@ -5952,7 +5989,8 @@
               "topics": [
                 "Michael Blake (D)",
                 "Jon LaTona (D)",
-                "Dalourny Nemorin (D)"
+                "Dalourny Nemorin (D)",
+                "Amanda Septimo (D)"
               ]
             },
             {
@@ -6168,7 +6206,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Joseph Morelle (D)"
+                "Joseph Morelle (D)",
+                "Sherita Traywick (D)"
               ]
             }
           ]
@@ -6186,6 +6225,273 @@
               "name": "Democratic",
               "topics": [
                 "Timothy M. Kennedy (D)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "North Carolina (14 districts)",
+      "books": [
+        {
+          "name": "NC-01",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Donald Davis (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-02",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Eugene Douglass (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Deborah Ross (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-03",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Gregory Murphy (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-04",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Mahesh Ganorkar (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-05",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "David Clayton (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-06",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Addison McDowell (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Joshua Hager (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-07",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Kimberly Hardy (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-08",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Mark Harris (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-09",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Richard Hudson (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Tita Hunter-Herod (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-10",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-11",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "John Rogers (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-12",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-13",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NC-14",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
               ]
             }
           ]
@@ -6366,6 +6672,7 @@
                 "Peter Black (D)",
                 "Mary Doyle (D)",
                 "Mitchel Knight (D)",
+                "Rebecca Mueller (D)",
                 "Dawn Rasmussen (D)",
                 "Patty Snow (D)"
               ]
@@ -6417,7 +6724,8 @@
               "name": "Republican",
               "topics": [
                 "Patti Adair (R)",
-                "Jonathan Lockwood (R)"
+                "Jonathan Lockwood (R)",
+                "Jo Rae Perkins (R)"
               ]
             },
             {
@@ -6593,7 +6901,14 @@
                 "Aiden Gonzalez (D)",
                 "Lamont McClure (D)",
                 "Carol Obando-Derstine (D)",
-                "Mark Pinsley (D)"
+                "Mark Pinsley (D)",
+                "Lewis Shupe (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Ramon Granados (I)"
               ]
             }
           ]
@@ -6653,6 +6968,7 @@
                 "Jason Cass (D)",
                 "Justin Douglas (D)",
                 "William Lillich (D)",
+                "Michael Robinson (D)",
                 "Janelle Stelson (D)"
               ]
             },
@@ -6670,8 +6986,7 @@
             {
               "name": "Republican",
               "topics": [
-                "Lloyd Smucker (R)",
-                "Jeffrey Wilder (R)"
+                "Lloyd Smucker (R)"
               ]
             },
             {
@@ -6679,6 +6994,12 @@
               "topics": [
                 "Sarah Klimm (D)",
                 "Nancy Mannion (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Jeffrey Wilder (I)"
               ]
             }
           ]
@@ -6697,6 +7018,7 @@
             {
               "name": "Democratic",
               "topics": [
+                "Summer Lee (D)",
                 "Adam Forgie (D)"
               ]
             }
@@ -6977,7 +7299,8 @@
             {
               "name": "Republican",
               "topics": [
-                "Russell Fry (R)"
+                "Russell Fry (R)",
+                "Adam Moye (R)"
               ]
             },
             {
@@ -7363,6 +7686,7 @@
                 "Lisa Khanna (D)",
                 "Jason Knapp (D)",
                 "Ericka Kopp (D)",
+                "Lewis Littlepage (D)",
                 "Andrew Lucchetti (D)",
                 "Amanda Pohl (D)",
                 "James Shea (D)",
@@ -7416,7 +7740,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Robert C. Scott (D)"
+                "Robert C. Scott (D)",
+                "Justin Maffett (D)"
               ]
             },
             {
@@ -7504,7 +7829,8 @@
                 "John Gray (R)",
                 "Darius Mayfield (R)",
                 "Douglas Ollivant (R)",
-                "Alex Thymmons (R)"
+                "Alex Thymmons (R)",
+                "Waverly Washington (R)"
               ]
             },
             {
@@ -7532,6 +7858,7 @@
               "topics": [
                 "Donald Sternoff Beyer Jr. (D)",
                 "Michael Duffin (D)",
+                "Adam Dunigan (D)",
                 "Frank Ferreira (D)",
                 "Daniel Gray (D)",
                 "Mo Seifeldein (D)"
@@ -7565,7 +7892,7 @@
             {
               "name": "Republican",
               "topics": [
-                "No candidates declared"
+                "Julie Perry (R)"
               ]
             },
             {
@@ -7671,6 +7998,7 @@
             {
               "name": "Republican",
               "topics": [
+                "Amanda McKinney (R)",
                 "Wesley Meier (R)",
                 "Jerrod Sessler (R)"
               ]
@@ -7679,6 +8007,12 @@
               "name": "Democratic",
               "topics": [
                 "John Duresky (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Devin Poore (I)"
               ]
             }
           ]
@@ -7698,6 +8032,7 @@
               "topics": [
                 "Carmela Conroy (D)",
                 "Ann Marie Danimus (D)",
+                "Bajun Mavalwalla (D)",
                 "Anthony Whisenhunt (D)",
                 "David Womack (D)"
               ]
@@ -7933,7 +8268,8 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "Rustin Provance (I)"
+                "Rustin Provance (I)",
+                "Jayte Welch (I)"
               ]
             }
           ]

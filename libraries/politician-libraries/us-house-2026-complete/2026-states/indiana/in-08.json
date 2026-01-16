@@ -1,0 +1,25 @@
+{
+  "book": "IN-08",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mark Messmer (R)",
+        "Daniel George (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mary Allen (D)",
+        "Christopher Rector (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "James Burke (I)"
+      ]
+    }
+  ]
+}

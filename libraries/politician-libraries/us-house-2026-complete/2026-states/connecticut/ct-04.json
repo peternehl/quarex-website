@@ -1,0 +1,23 @@
+{
+  "book": "CT-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jim Himes (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Damon Cerreta (I)"
+      ]
+    }
+  ]
+}

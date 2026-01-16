@@ -1,0 +1,23 @@
+{
+  "book": "IN-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Rudy Yakym (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jamee Decio (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Eric Beebe (I)"
+      ]
+    }
+  ]
+}

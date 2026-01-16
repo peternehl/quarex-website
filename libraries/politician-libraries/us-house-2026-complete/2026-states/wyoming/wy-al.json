@@ -1,0 +1,30 @@
+{
+  "book": "WY-AL",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Harriet Hageman (R)",
+        "Bo Biteman (R)",
+        "Chuck Gray (R)",
+        "Bryan Keller (R)",
+        "Bryan Miller (R)",
+        "Catharine O'Neill (R)",
+        "Marissa Selvig (R)",
+        "Darin Smith (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "No candidates declared"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Casey Hardison (I)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "book": "IL-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Lupe Castillo (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Patty Garcia (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ed Hershey (Working Class)"
+      ]
+    }
+  ]
+}

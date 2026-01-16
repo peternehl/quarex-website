@@ -1,0 +1,31 @@
+{
+  "book": "WI-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Glenn Grothman (R)",
+        "Jonathan Peetz (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Amanda Bell (D)",
+        "Kelly Brown (D)",
+        "Michael Heidenreich (D)",
+        "John Macho (D)",
+        "Joey Marschall (D)",
+        "Kortney Oldham (D)",
+        "Bradley Smith (D)",
+        "Aaron Wojciechowski (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Michael Thurow (I)"
+      ]
+    }
+  ]
+}

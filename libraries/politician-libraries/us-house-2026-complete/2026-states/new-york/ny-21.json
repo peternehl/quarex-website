@@ -1,0 +1,30 @@
+{
+  "book": "NY-21",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Robert Smullen (R)",
+        "Elise Stefanik (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Stuart Amoriell (D)",
+        "Paula Collins (D)",
+        "Blake Gendebien (D)",
+        "Maylon Haller (D)",
+        "Andrew Henson (D)",
+        "Dylan Hewitt (D)",
+        "Steven Holden (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Chris Schmidt (I)"
+      ]
+    }
+  ]
+}

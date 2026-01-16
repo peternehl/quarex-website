@@ -1,0 +1,29 @@
+{
+  "book": "NV-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tera Anderson (R)",
+        "Christopher Brandlin (R)",
+        "Jeff Gunter (R)",
+        "Ronda Kennedy (R)",
+        "Steve London (R)",
+        "Aury Nagy (R)",
+        "Marty O'Donnell (R)",
+        "Lucena Parker (R)",
+        "Joshua Walters (R)",
+        "Lydia Dominguez (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Susie Lee (D)",
+        "Sean Hutchinson (D)",
+        "James Lally (D)",
+        "Terrill Robinson (D)"
+      ]
+    }
+  ]
+}

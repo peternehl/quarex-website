@@ -2,7 +2,7 @@
   "library": "US Senate 2026 - Complete",
   "library_type": "candidates",
   "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-09",
+  "last_updated": "2026-01-16",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -45,7 +45,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Ann Diener (D)"
+                "Ann Diener (D)",
+                "Mary Peltola (D)"
               ]
             },
             {
@@ -82,9 +83,12 @@
             {
               "name": "Republican",
               "topics": [
+                "Mark Baisley (R)",
+                "Amanda Calderon (R)",
                 "Dathan Jones (R)",
                 "Janak Joshi (R)",
-                "George Washington Markert (R)"
+                "George Washington Markert (R)",
+                "Sean Pond (R)"
               ]
             },
             {
@@ -122,6 +126,12 @@
               "topics": [
                 "Chris Coons (D)",
                 "Christopher Beardsley (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Dexter Bland (I)"
               ]
             }
           ]
@@ -288,28 +298,28 @@
               "topics": [
                 "Andy Barr (R)",
                 "Daniel Cameron (R)",
+                "Anissa Catlett (R)",
+                "James Duncan (R)",
                 "Mike Faris (R)",
-                "Wende Kennedy (R)",
+                "Val Fredrick (R)",
+                "Jonathan Holliday (R)",
+                "Jimmy Leon (R)",
                 "Nate Morris (R)",
-                "Andrew Shelley (R)"
+                "Andrew Shelley (R)",
+                "George Washington (R)",
+                "Donald Wenzel (R)"
               ]
             },
             {
               "name": "Democratic",
               "topics": [
+                "Joshua Blanton Sr. (D)",
                 "Charles Booker (D)",
                 "Logan Forsythe (D)",
-                "Jared Randall (D)",
+                "Amy McGrath (D)",
                 "Dale Romans (D)",
                 "Pamela Stevenson (D)",
-                "Vincent Thompson (D)",
-                "Joel Willett (D)"
-              ]
-            },
-            {
-              "name": "Independent/Other",
-              "topics": [
-                "Christopher Campbell (I)"
+                "Vincent Thompson (D)"
               ]
             }
           ]
@@ -396,6 +406,7 @@
               "name": "Democratic",
               "topics": [
                 "Edward J. Markey (D)",
+                "William Gates (D)",
                 "Seth Moulton (D)",
                 "Alexander Rikleen (D)"
               ]
@@ -457,7 +468,8 @@
                 "Mike Ruoho (R)",
                 "Adam Schwarze (R)",
                 "Tom Weiler (R)",
-                "Royce White (R)"
+                "Royce White (R)",
+                "Mark York (R)"
               ]
             },
             {
@@ -520,6 +532,12 @@
                 "Michael BlackWolf (D)",
                 "Michael Hummert (D)",
                 "Reilly Neill (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Kyle Austin (I)"
               ]
             }
           ]
@@ -673,6 +691,7 @@
               "topics": [
                 "Troy W. Green (D)",
                 "Rebekah LaVann (D)",
+                "Jim Priest (D)",
                 "N'Kiyla Thomas (D)"
               ]
             }
@@ -818,9 +837,9 @@
                 "Virgil Bierschwale (R)",
                 "Sara Canady (R)",
                 "Wesley Hunt (R)",
-                "Matthew Elliot Kelley (R)",
                 "Gulrez Khan (R)",
                 "Ken Paxton (R)",
+                "Matthew Elliot Kelley (R)",
                 "Tony Schmoker (R)",
                 "Andrew Trakas (R)",
                 "Leo Wyatt (R)"
@@ -831,9 +850,9 @@
               "topics": [
                 "Jasmine Crockett (D)",
                 "Ahmad Hassan (D)",
+                "James Talarico (D)",
                 "Emily Morgul (D)",
                 "Michael Swanson (D)",
-                "James Talarico (D)",
                 "Paula Williams (D)"
               ]
             },
@@ -841,10 +860,10 @@
               "name": "Independent/Other",
               "topics": [
                 "Joshua Cain (I)",
-                "Ronald Evans (I)",
                 "Camencia Ford (I)",
                 "Jade Simmons (I)",
-                "Hans Truelson (I)"
+                "Hans Truelson (I)",
+                "Ronald Evans (I)"
               ]
             }
           ]
@@ -857,6 +876,7 @@
               "topics": [
                 "Kim Farington (R)",
                 "Al Mina (R)",
+                "Chuck Smith (R)",
                 "David Williams (R)"
               ]
             },

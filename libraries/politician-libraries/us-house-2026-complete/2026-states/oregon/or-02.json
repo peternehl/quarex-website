@@ -1,0 +1,24 @@
+{
+  "book": "OR-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Cliff Bentz (R)",
+        "Andrea Carr (R)",
+        "Russell McAlmond (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Peter Black (D)",
+        "Mary Doyle (D)",
+        "Mitchel Knight (D)",
+        "Rebecca Mueller (D)",
+        "Dawn Rasmussen (D)",
+        "Patty Snow (D)"
+      ]
+    }
+  ]
+}

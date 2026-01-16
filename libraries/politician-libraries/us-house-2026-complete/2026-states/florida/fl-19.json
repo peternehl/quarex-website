@@ -1,0 +1,29 @@
+{
+  "book": "FL-19",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Madison Cawthorn (R)",
+        "Chris Collins (R)",
+        "Stephen Elliott (R)",
+        "John Fratto (R)",
+        "Ola Hawatmeh (R)",
+        "Catalina Lauf (R)",
+        "Dylan Modarelli (R)",
+        "Jim Oberweis (R)",
+        "Mike Pedersen (R)",
+        "Jim Schwartzel (R)",
+        "John Strand (R)",
+        "Byron Donalds (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jared Kane (D)",
+        "Howard Sapp (D)"
+      ]
+    }
+  ]
+}

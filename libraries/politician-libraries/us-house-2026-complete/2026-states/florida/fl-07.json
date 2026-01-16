@@ -1,0 +1,25 @@
+{
+  "book": "FL-07",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Cory Mills (R)",
+        "Michael Johnson (R)",
+        "Sarah Ulrich (R)",
+        "Mike Wilnau (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jennifer Adams (D)",
+        "George Bock (D)",
+        "Bale Dalton (D)",
+        "Benjamin Ewers (D)",
+        "Marialana Kinter (D)",
+        "Noah Widmann (D)"
+      ]
+    }
+  ]
+}

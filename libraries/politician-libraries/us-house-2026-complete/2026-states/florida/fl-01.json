@@ -1,0 +1,23 @@
+{
+  "book": "FL-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jimmy Patronis (R)",
+        "Aaron Dimmock (R)",
+        "Charles Keebaugh (R)",
+        "John Mills (R)",
+        "Bernadette Pittman (R)",
+        "Tayla Plumer (R)",
+        "Gene Valentino (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Gay Valimont (D)"
+      ]
+    }
+  ]
+}

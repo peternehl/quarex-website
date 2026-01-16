@@ -1,0 +1,25 @@
+{
+  "book": "MS-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ron Eller (R)",
+        "Kevin Wilson (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Bennie Thompson (D)",
+        "Evan Turnage (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Bennie Foster (I)"
+      ]
+    }
+  ]
+}

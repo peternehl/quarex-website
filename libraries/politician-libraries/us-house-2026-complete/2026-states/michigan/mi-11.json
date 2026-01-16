@@ -1,0 +1,24 @@
+{
+  "book": "MI-11",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Anthony Paesano (R)",
+        "Tony Prieto (R)",
+        "Michael Steger (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Stu Baker (D)",
+        "Aisha Farooqi (D)",
+        "Jeremy Moss (D)",
+        "John Paul Torres (D)",
+        "Don Ufford (D)",
+        "Anil Kumar (D)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "book": "CA-40",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ken Calvert (R)",
+        "Young Kim (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Claude Keissieh (D)",
+        "Joe Kerr (D)",
+        "Eric Peterson (D)",
+        "Lisa Ramirez (D)",
+        "Paula Swift (D)",
+        "Tiffanie Tate (D)",
+        "Esther Kim Varet (D)",
+        "Christina Gagnier (D)",
+        "Perry Meade (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Nina Linh (I)"
+      ]
+    }
+  ]
+}

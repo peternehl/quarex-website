@@ -1,0 +1,27 @@
+{
+  "book": "CA-34",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Calvin Lee (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jimmy Gomez (D)",
+        "Arthur Dixon (D)",
+        "David Ferrell (D)",
+        "Angela Gonzales-Torres (D)",
+        "Robert Lucero (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Vivian Nguyen (I)"
+      ]
+    }
+  ]
+}

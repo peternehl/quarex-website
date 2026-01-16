@@ -1,0 +1,27 @@
+{
+  "book": "GA-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Matt Day (R)",
+        "Patrick Farrell (R)",
+        "James Kingston (R)",
+        "Brian Montgomery (R)",
+        "Krista Penn (R)",
+        "Kandiss Taylor (R)",
+        "Eugene Yu (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Defonsio Daniels (D)",
+        "Amanda Hollowell (D)",
+        "Michael McCord (D)",
+        "Joseph Palimeno (D)",
+        "Randy Zurcher (D)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "book": "WV-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Riley Moore (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ahsan Parsi (D)",
+        "Steven Wendelin (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Christopher Whitcomb (I)"
+      ]
+    }
+  ]
+}

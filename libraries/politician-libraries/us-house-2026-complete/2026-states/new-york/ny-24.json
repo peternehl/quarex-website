@@ -1,0 +1,25 @@
+{
+  "book": "NY-24",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Claudia Tenney (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Alissa Ellman (D)",
+        "Steven Holden (D)",
+        "Diana Kastenbaum (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ken Estes (I)"
+      ]
+    }
+  ]
+}

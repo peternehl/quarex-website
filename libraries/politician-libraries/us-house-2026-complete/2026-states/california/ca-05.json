@@ -1,0 +1,22 @@
+{
+  "book": "CA-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tom McClintock (R)",
+        "Jason Weland (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mike Barkley (D)",
+        "Paul Danbom (D)",
+        "Michael Masuda (D)",
+        "Angelina Sigala (D)",
+        "Kate Sills (D)"
+      ]
+    }
+  ]
+}
