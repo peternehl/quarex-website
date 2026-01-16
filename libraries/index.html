@@ -894,6 +894,8 @@
             libraryTypes: [],
             generalQuestions: null, // Always available
             libraryQuestions: null, // Library-specific questions
+            discoveryIndex: null,
+            bookIndex: null, // For accurate book count
             currentLibraryType: null,
             currentLibrary: null,
             currentShelf: null,
@@ -1073,6 +1075,15 @@
                 } catch (error) {
                     console.error('Failed to load discovery index:', error);
                     state.discoveryIndex = null;
+                }
+
+                // Load book index for accurate book count
+                try {
+                    const bookIndexRes = await fetch(BASE_PATH + 'book-index.json');
+                    state.bookIndex = await bookIndexRes.json();
+                } catch (error) {
+                    console.error('Failed to load book index:', error);
+                    state.bookIndex = null;
                 }
 
                 // Render questions panel (always visible)
@@ -1695,22 +1706,23 @@
             const statsDiv = document.getElementById('stats');
             const content = document.getElementById('content');
 
-            // Compute stats from discovery index
+            // Compute stats from discovery index and book index
             if (state.discoveryIndex && state.discoveryIndex.chapters) {
                 const chapters = state.discoveryIndex.chapters;
                 const libraryTypes = new Set();
                 const libraries = new Set();
                 const shelves = new Set();
-                const books = new Set();
                 let topicCount = 0;
 
                 chapters.forEach(ch => {
                     libraryTypes.add(ch.folder);
                     libraries.add(`${ch.folder}/${ch.librarySlug}`);
                     shelves.add(`${ch.folder}/${ch.librarySlug}/${ch.shelfSlug}`);
-                    books.add(`${ch.folder}/${ch.librarySlug}/${ch.shelfSlug}/${ch.bookSlug}`);
                     topicCount += ch.topicCount || 0;
                 });
+
+                // Use book index for accurate book count (includes books without tagged chapters)
+                const bookCount = state.bookIndex ? state.bookIndex.count : 0;
 
                 statsDiv.innerHTML = `
                     <div class="stat-card">
@@ -1726,7 +1738,7 @@
                         <div class="stat-label">Shelves</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-value">${books.size}</div>
+                        <div class="stat-value">${bookCount}</div>
                         <div class="stat-label">Books</div>
                     </div>
                     <div class="stat-card">

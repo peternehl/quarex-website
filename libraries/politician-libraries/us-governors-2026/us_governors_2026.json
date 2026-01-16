@@ -2,7 +2,7 @@
   "library": "US Governors 2026",
   "library_type": "candidates",
   "description": "All 2026 gubernatorial races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-04",
+  "last_updated": "2026-01-09",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -129,6 +129,7 @@
                 "Ian Charles Calderon (D)",
                 "Katie Porter (D)",
                 "Raji Rab (D)",
+                "George Slivka (D)",
                 "Thomas Steyer (D)",
                 "Eric Swalwell (D)",
                 "Tony Thurmond (D)",
@@ -585,6 +586,7 @@
             {
               "name": "Republican",
               "topics": [
+                "Peggy Bennett (R)",
                 "Lisa Demuth (R)",
                 "Thomas Evenstad (R)",
                 "Scott Jensen (R)",
@@ -601,7 +603,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "Tim Walz (D)"
+                "No candidates declared"
               ]
             },
             {
@@ -817,7 +819,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "Josh Shapiro (D)"
               ]
             }
           ]

@@ -49,11 +49,23 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Candidate Lookup -->
+  <url>
+    <loc>https://quarex.org/candidates/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Tools -->
   <url>
     <loc>https://quarex.org/tools/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/tools/zip-lookup.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://quarex.org/tools/seed-creator.html</loc>

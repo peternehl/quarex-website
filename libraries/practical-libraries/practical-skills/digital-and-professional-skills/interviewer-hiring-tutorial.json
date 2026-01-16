@@ -1,0 +1,186 @@
+{
+  "name": "Interviewer and Hiring Manager Tutorial",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Makes a Good Hire",
+      "topics": [
+        "What actually predicts job success--and what doesn't?",
+        "How do I separate 'culture fit' from unconscious bias?",
+        "What's the real cost of a bad hire vs an unfilled position?",
+        "How do I identify potential when a candidate lacks direct experience?",
+        "What red flags actually matter and which ones are overblown?",
+        "How do I avoid hiring people who just interview well?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "labor", "leadership"]
+    },
+    {
+      "name": "Defining the Role Before You Post",
+      "topics": [
+        "How do I write a job description that attracts the right candidates?",
+        "What's the difference between 'must-have' and 'nice-to-have' qualifications?",
+        "How do I determine the right salary range for a position?",
+        "When should I hire for skills vs hire for potential?",
+        "How do I avoid writing job posts that discourage diverse applicants?",
+        "What information should I share about the role upfront?"
+      ],
+      "tags": ["economics", "communication", "labor", "writing"]
+    },
+    {
+      "name": "Sourcing and Screening Candidates",
+      "topics": [
+        "How do I evaluate resumes quickly without missing good candidates?",
+        "What should I look for beyond keywords and job titles?",
+        "How do I handle high-volume applications efficiently?",
+        "When should I use recruiters vs source directly?",
+        "How do I reach passive candidates who aren't actively looking?",
+        "What's the right way to screen for basic qualifications?"
+      ],
+      "tags": ["economics", "critical-thinking", "labor", "source-evaluation"]
+    },
+    {
+      "name": "Structuring the Interview Process",
+      "topics": [
+        "How many interview rounds are too many?",
+        "Who should be involved in the interview process and why?",
+        "How do I design an interview process that's consistent and fair?",
+        "What's the right balance between speed and thoroughness?",
+        "How do I coordinate feedback across multiple interviewers?",
+        "When should I use phone screens vs video vs in-person?"
+      ],
+      "tags": ["economics", "methodology", "labor", "leadership"]
+    },
+    {
+      "name": "Conducting Effective Phone Screens",
+      "topics": [
+        "What should I accomplish in a 15-30 minute phone screen?",
+        "How do I assess communication skills over the phone?",
+        "What questions help me identify dealbreakers early?",
+        "How do I discuss salary expectations without wasting anyone's time?",
+        "What should I tell candidates about next steps?",
+        "How do I take useful notes during a phone screen?"
+      ],
+      "tags": ["economics", "communication", "labor", "negotiation"]
+    },
+    {
+      "name": "Behavioral Interview Questions That Work",
+      "topics": [
+        "What makes a behavioral question effective vs useless?",
+        "How do I probe past the rehearsed STAR answers?",
+        "What questions reveal how someone actually handles conflict?",
+        "How do I assess leadership without asking 'Are you a leader?'",
+        "What follow-up questions expose exaggeration or fabrication?",
+        "How do I evaluate candidates with limited work history?"
+      ],
+      "tags": ["psychology", "communication", "behavioral-psychology", "leadership"]
+    },
+    {
+      "name": "Technical and Skills Assessments",
+      "topics": [
+        "How do I design a skills test that's fair and relevant?",
+        "What's the right length for a take-home assignment?",
+        "How do I evaluate technical ability without being a technical expert?",
+        "When should I use live tests vs take-home projects?",
+        "How do I assess problem-solving rather than just knowledge?",
+        "What should I pay candidates for take-home work?"
+      ],
+      "tags": ["technology", "methodology", "software-engineering", "computer-science"]
+    },
+    {
+      "name": "Interviewing for Trades and Blue Collar Roles",
+      "topics": [
+        "What matters most when hiring for skilled trades?",
+        "How do I verify certifications and safety training?",
+        "What questions reveal reliability and work ethic?",
+        "How do I assess hands-on skills during an interview?",
+        "What should I look for in a working interview?",
+        "How do I discuss physical demands and schedule requirements?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "labor", "engineering"]
+    },
+    {
+      "name": "Hiring Contractors and Freelancers",
+      "topics": [
+        "How is interviewing contractors different from full-time employees?",
+        "What contract terms should I clarify before making an offer?",
+        "How do I evaluate a contractor's portfolio and references?",
+        "What rate negotiations are reasonable for contract work?",
+        "How do I assess whether a contractor will integrate with my team?",
+        "What legal considerations matter when hiring contractors?"
+      ],
+      "tags": ["economics", "finance", "labor", "personal-finance"]
+    },
+    {
+      "name": "Running Panel and Group Interviews",
+      "topics": [
+        "How do I coordinate multiple interviewers effectively?",
+        "What roles should different panel members play?",
+        "How do I prevent panel interviews from overwhelming candidates?",
+        "What's the best way to debrief after a panel interview?",
+        "How do I handle disagreements among interviewers?",
+        "When are group interviews with multiple candidates appropriate?"
+      ],
+      "tags": ["economics", "communication", "labor", "leadership"]
+    },
+    {
+      "name": "Avoiding Bias and Legal Pitfalls",
+      "topics": [
+        "What questions are illegal to ask--and why?",
+        "How do I recognize and counteract my own unconscious bias?",
+        "What documentation should I keep from every interview?",
+        "How do I handle accommodation requests during interviews?",
+        "What's the right way to discuss salary history and gaps?",
+        "How do I ensure my process doesn't discriminate unintentionally?"
+      ],
+      "tags": ["law", "human-rights", "civil-rights", "accessibility"]
+    },
+    {
+      "name": "Making the Decision",
+      "topics": [
+        "How do I compare candidates fairly when they're very different?",
+        "What weight should I give to gut feeling vs structured scores?",
+        "How do I handle a split decision among interviewers?",
+        "When should I keep searching vs hire the best available?",
+        "How do I avoid analysis paralysis when choosing between finalists?",
+        "What's the right way to involve stakeholders in the final decision?"
+      ],
+      "tags": ["psychology", "critical-thinking", "behavioral-psychology", "cognition"]
+    },
+    {
+      "name": "Making Offers and Negotiating",
+      "topics": [
+        "How do I make an offer that gets accepted?",
+        "What should I include beyond base salary?",
+        "How do I handle counter-offers and negotiations?",
+        "What's the right timeline for an offer decision?",
+        "How do I compete when I can't match a candidate's other offers?",
+        "What do I do when my first choice declines?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "negotiation"]
+    },
+    {
+      "name": "Rejecting Candidates Professionally",
+      "topics": [
+        "How do I deliver rejection in a way that preserves relationships?",
+        "Should I give feedback to rejected candidates--and how?",
+        "How do I handle requests for detailed rejection reasons?",
+        "What's the right timeline for notifying unsuccessful candidates?",
+        "How do I keep strong runners-up warm for future roles?",
+        "What language should I avoid in rejection communications?"
+      ],
+      "tags": ["ethics", "communication", "labor", "writing"]
+    },
+    {
+      "name": "Improving Your Hiring Process",
+      "topics": [
+        "How do I measure whether my hiring process is working?",
+        "What metrics actually predict hiring success?",
+        "How do I gather feedback from candidates about their experience?",
+        "What should I track to identify bias in my process?",
+        "How do I reduce time-to-hire without sacrificing quality?",
+        "When should I redesign my interview process entirely?"
+      ],
+      "tags": ["economics", "methodology", "labor", "measurement"]
+    }
+  ]
+}

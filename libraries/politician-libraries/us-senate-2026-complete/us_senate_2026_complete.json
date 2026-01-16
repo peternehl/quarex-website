@@ -2,7 +2,7 @@
   "library": "US Senate 2026 - Complete",
   "library_type": "candidates",
   "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-04",
+  "last_updated": "2026-01-09",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -580,7 +580,7 @@
             {
               "name": "Republican",
               "topics": [
-                "No candidates declared"
+                "Justin Murphy (R)"
               ]
             },
             {
@@ -640,10 +640,10 @@
             {
               "name": "Democratic",
               "topics": [
+                "Robert Colon (D)",
                 "Roy Cooper (D)",
                 "Justin Dues (D)",
                 "Daryl Farrow (D)",
-                "Alyssia Hammond (D)",
                 "Orrick Quick (D)",
                 "Marcus Williams (D)"
               ]
@@ -651,8 +651,8 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "Brian McGinnis (I)",
                 "Shannon Bray (I)",
+                "Brian McGinnis (I)",
                 "Shaunesi Deberry (I)"
               ]
             }
@@ -671,7 +671,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "Troy Green (D)",
+                "Troy W. Green (D)",
                 "Rebekah LaVann (D)",
                 "N'Kiyla Thomas (D)"
               ]
@@ -814,16 +814,12 @@
               "topics": [
                 "John Cornyn (R)",
                 "John Adefope (R)",
-                "Andrew Alvarez (R)",
                 "Anna Bender (R)",
                 "Virgil Bierschwale (R)",
                 "Sara Canady (R)",
-                "Alexander Duncan (R)",
                 "Wesley Hunt (R)",
                 "Matthew Elliot Kelley (R)",
                 "Gulrez Khan (R)",
-                "Connor Kraus (R)",
-                "Rennie Mann (R)",
                 "Ken Paxton (R)",
                 "Tony Schmoker (R)",
                 "Andrew Trakas (R)",
@@ -861,7 +857,6 @@
               "topics": [
                 "Kim Farington (R)",
                 "Al Mina (R)",
-                "Bryce Reeves (R)",
                 "David Williams (R)"
               ]
             },
@@ -892,6 +887,7 @@
             {
               "name": "Democratic",
               "topics": [
+                "Fetty Anderson (D)",
                 "Rio Phillips (D)",
                 "Zachary Shrewsbury (D)"
               ]

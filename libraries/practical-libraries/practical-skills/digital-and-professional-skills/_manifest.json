@@ -57,5 +57,35 @@
       "education"
     ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "job-seeker-interviewing-tutorial",
+    "name": "Job Seeker Interviewing Tutorial",
+    "description": "A practical, end-to-end interviewing playbook for any role: professional, blue-collar, full-time, or contract",
+    "chapterCount": 17,
+    "tags": [
+      "economics",
+      "workplace-dynamics",
+      "labor",
+      "negotiation",
+      "communication",
+      "psychology"
+    ],
+    "created_by": "Peter Nehl, Claude Opus 4.5, and ChatGPT 5.2"
+  },
+  {
+    "slug": "interviewer-hiring-tutorial",
+    "name": "Interviewer and Hiring Manager Tutorial",
+    "description": "A practical guide for interviewers and hiring managers to evaluate candidates fairly, avoid bias, and make better hiring decisions",
+    "chapterCount": 15,
+    "tags": [
+      "economics",
+      "workplace-dynamics",
+      "labor",
+      "leadership",
+      "communication",
+      "psychology"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   }
 ]

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Quarex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0a1628 0%, #1a2a4a 50%, #0d1f3c 100%);
+            min-height: 100vh;
+            color: #e0e7ef;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #7cb9ff;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #8899aa;
+            margin-bottom: 30px;
+            font-size: 1rem;
+        }
+
+        .search-box {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        #search-input {
+            width: 100%;
+            padding: 16px 20px;
+            font-size: 1.1rem;
+            font-family: 'Inter', sans-serif;
+            background: rgba(255, 255, 255, 0.08);
+            border: 2px solid rgba(124, 185, 255, 0.3);
+            border-radius: 12px;
+            color: #fff;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        #search-input:focus {
+            border-color: #7cb9ff;
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        #search-input::placeholder {
+            color: #667788;
+        }
+
+        .stats {
+            text-align: center;
+            color: #667788;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .results {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .result-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(124, 185, 255, 0.15);
+            border-radius: 10px;
+            padding: 16px 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .result-item:hover {
+            background: rgba(124, 185, 255, 0.1);
+            border-color: rgba(124, 185, 255, 0.4);
+            transform: translateX(4px);
+        }
+
+        .result-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 6px;
+        }
+
+        .result-name mark {
+            background: rgba(124, 185, 255, 0.3);
+            color: #7cb9ff;
+            padding: 0 2px;
+            border-radius: 3px;
+        }
+
+        .result-meta {
+            font-size: 0.85rem;
+            color: #8899aa;
+        }
+
+        .result-meta span {
+            margin-right: 12px;
+        }
+
+        .result-path {
+            font-size: 0.8rem;
+            color: #556677;
+            margin-top: 6px;
+            font-family: monospace;
+        }
+
+        .no-results {
+            text-align: center;
+            color: #667788;
+            padding: 40px;
+            font-size: 1.1rem;
+        }
+
+        .home-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            color: #7cb9ff;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .home-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Search Quarex</h1>
+        <p class="subtitle">Find any book in the library</p>
+
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Start typing to search..." autofocus>
+        </div>
+
+        <div class="stats" id="stats">Loading...</div>
+
+        <div class="results" id="results"></div>
+
+        <a href="/" class="home-link">← Back to Quarex Home</a>
+    </div>
+
+    <script>
+        let bookIndex = null;
+
+        // Load the book index
+        fetch('/libraries/book-index.json')
+            .then(res => res.json())
+            .then(data => {
+                bookIndex = data;
+                document.getElementById('stats').textContent =
+                    `${data.count} books available`;
+                showAllBooks();
+            })
+            .catch(err => {
+                document.getElementById('stats').textContent = 'Error loading index';
+                console.error(err);
+            });
+
+        // Search input handler
+        document.getElementById('search-input').addEventListener('input', function(e) {
+            const query = e.target.value.trim().toLowerCase();
+
+            if (!bookIndex) return;
+
+            if (query.length === 0) {
+                showAllBooks();
+                return;
+            }
+
+            const results = bookIndex.books.filter(book =>
+                book.name.toLowerCase().includes(query) ||
+                book.library.toLowerCase().includes(query) ||
+                book.shelf.toLowerCase().includes(query)
+            );
+
+            renderResults(results, query);
+        });
+
+        function showAllBooks() {
+            if (!bookIndex) return;
+            // Show first 50 books by default
+            renderResults(bookIndex.books.slice(0, 50), '');
+            document.getElementById('stats').textContent =
+                `Showing 50 of ${bookIndex.count} books. Type to search all.`;
+        }
+
+        function renderResults(results, query) {
+            const container = document.getElementById('results');
+            const stats = document.getElementById('stats');
+
+            if (results.length === 0) {
+                container.innerHTML = '<div class="no-results">No books found matching your search.</div>';
+                stats.textContent = '0 results';
+                return;
+            }
+
+            stats.textContent = query
+                ? `${results.length} result${results.length !== 1 ? 's' : ''} for "${query}"`
+                : `Showing ${results.length} of ${bookIndex.count} books`;
+
+            container.innerHTML = results.map(book => {
+                const highlightedName = query
+                    ? book.name.replace(new RegExp(`(${escapeRegex(query)})`, 'gi'), '<mark>$1</mark>')
+                    : book.name;
+
+                return `
+                    <a href="/libraries/${book.path}" class="result-item">
+                        <div class="result-name">${highlightedName}</div>
+                        <div class="result-meta">
+                            <span>📚 ${book.library}</span>
+                            <span>📁 ${book.shelf}</span>
+                            <span>📖 ${book.chapters} chapters</span>
+                        </div>
+                        <div class="result-path">/libraries/${book.path}</div>
+                    </a>
+                `;
+            }).join('');
+        }
+
+        function escapeRegex(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+    </script>
+</body>
+</html>

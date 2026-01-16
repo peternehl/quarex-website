@@ -1,0 +1,4192 @@
+{
+  "generated": "2026-01-15",
+  "count": 598,
+  "books": [
+    {
+      "name": "A Brief History of War",
+      "path": "pe/historical-narratives/wars-and-conflicts/a-brief-history-of-war",
+      "library": "Historical Narratives",
+      "shelf": "Wars And Conflicts",
+      "chapters": 12
+    },
+    {
+      "name": "A History of Racism in the Americas",
+      "path": "pe/historical-narratives/racism/a-history-of-racism-in-the-americas",
+      "library": "Historical Narratives",
+      "shelf": "Racism",
+      "chapters": 15
+    },
+    {
+      "name": "Acting Techniques and Performance Theory",
+      "path": "k/the-arts/performing-arts/acting-techniques-and-performance-theory",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Afghanistan",
+      "path": "g/asia/countries/afghanistan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "African Philosophy-Henry Odera Oruka",
+      "path": "k/philosophy/world-philosophies/african-philosophy-henry-odera-oruka",
+      "library": "Philosophy",
+      "shelf": "World Philosophies",
+      "chapters": 16
+    },
+    {
+      "name": "Aging, Loss & Personal Growth",
+      "path": "k/personal-and-life/life-transitions-and-growth/aging-loss-and-personal-growth",
+      "library": "Personal And Life",
+      "shelf": "Life Transitions And Growth",
+      "chapters": 4
+    },
+    {
+      "name": "AI + Billionaires = Hyperagency",
+      "path": "pe/ideological/media-and-information/ai-billionaires-hyperagency",
+      "library": "Ideological",
+      "shelf": "Media And Information",
+      "chapters": 10
+    },
+    {
+      "name": "AI and Your Career: Adaptation Strategies",
+      "path": "pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 12
+    },
+    {
+      "name": "AI in Everyday Life",
+      "path": "k/ai-fundamentals/ai-in-the-real-world/ai-in-everyday-life",
+      "library": "Ai Fundamentals",
+      "shelf": "Ai In The Real World",
+      "chapters": 4
+    },
+    {
+      "name": "AI Risks: Real vs. Imaginary",
+      "path": "pe/ideological/media-and-information/ai-risks-real-vs-imaginary",
+      "library": "Ideological",
+      "shelf": "Media And Information",
+      "chapters": 12
+    },
+    {
+      "name": "AI, Bots, and Synthetic Media",
+      "path": "pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media",
+      "library": "Practical Knowledge",
+      "shelf": "Advanced Civic Fact Checking And Sharing Responsibly",
+      "chapters": 4
+    },
+    {
+      "name": "Alabama",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/alabama",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Alabama",
+      "path": "c/us-house-2026-complete/2026-states/alabama",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 7
+    },
+    {
+      "name": "Alabama",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/alabama",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Alabama",
+      "path": "g/us-geography/states-and-territories/alabama",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Alaska",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/alaska",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Alaska",
+      "path": "c/us-house-2026-complete/2026-states/alaska",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
+    },
+    {
+      "name": "Alaska",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/alaska",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Alaska",
+      "path": "g/us-geography/states-and-territories/alaska",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Albania",
+      "path": "g/europe/countries/albania",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Algebra and Number Theory",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/algebra-and-number-theory",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Algeria",
+      "path": "g/africa/countries/algeria",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "American Samoa",
+      "path": "g/us-geography/states-and-territories/american-samoa",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Andorra",
+      "path": "g/europe/countries/andorra",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Angola",
+      "path": "g/africa/countries/angola",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Antarctic Peninsula",
+      "path": "g/antarctica/regions/antarctic-peninsula",
+      "library": "Antarctica",
+      "shelf": "Regions",
+      "chapters": 4
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "path": "g/north-america/countries/antigua-and-barbuda",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Argentina",
+      "path": "g/south-america/countries/argentina",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Arizona",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/arizona",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Arizona",
+      "path": "c/us-house-2026-complete/2026-states/arizona",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 9
+    },
+    {
+      "name": "Arizona",
+      "path": "g/us-geography/states-and-territories/arizona",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Arkansas",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/arkansas",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Arkansas",
+      "path": "c/us-house-2026-complete/2026-states/arkansas",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 4
+    },
+    {
+      "name": "Arkansas",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/arkansas",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Arkansas",
+      "path": "g/us-geography/states-and-territories/arkansas",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Armenia",
+      "path": "g/asia/countries/armenia",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Armenia",
+      "path": "g/europe/countries/armenia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Art History: From Prehistory to the Present",
+      "path": "k/the-arts/visual-arts/art-history-from-prehistory-to-the-present",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Artificial Intelligence and Learning",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/artificial-intelligence-and-learning",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Asian Philosophy-Nagarjuna",
+      "path": "k/philosophy/world-philosophies/asian-philosophy-nagarjuna",
+      "library": "Philosophy",
+      "shelf": "World Philosophies",
+      "chapters": 16
+    },
+    {
+      "name": "Astronomy and Cosmology",
+      "path": "k/the-sciences/physical-sciences/astronomy-and-cosmology",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Attorney General",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/attorney-general",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Australia",
+      "path": "g/oceania/countries/australia",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Austria",
+      "path": "g/europe/countries/austria",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "AutoCAD 2D",
+      "path": "pr/practical-skills/digital-and-professional-skills/autocad-2d",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 11
+    },
+    {
+      "name": "Availability & Failure Engineering",
+      "path": "i/digital-infrastructures/data-centers/availability-and-failure-engineering",
+      "library": "Digital Infrastructures",
+      "shelf": "Data Centers",
+      "chapters": 5
+    },
+    {
+      "name": "Azerbaijan",
+      "path": "g/asia/countries/azerbaijan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Azerbaijan",
+      "path": "g/europe/countries/azerbaijan",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Bahamas",
+      "path": "g/north-america/countries/bahamas",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Bahrain",
+      "path": "g/asia/countries/bahrain",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Bangladesh",
+      "path": "g/asia/countries/bangladesh",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Barbados",
+      "path": "g/north-america/countries/barbados",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Being a Responsible Sharer and Helper",
+      "path": "pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/being-a-responsible-sharer-and-helper",
+      "library": "Practical Knowledge",
+      "shelf": "Advanced Civic Fact Checking And Sharing Responsibly",
+      "chapters": 4
+    },
+    {
+      "name": "Belarus",
+      "path": "g/europe/countries/belarus",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Belgium",
+      "path": "g/europe/countries/belgium",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Belize",
+      "path": "g/north-america/countries/belize",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Benin",
+      "path": "g/africa/countries/benin",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Bhutan",
+      "path": "g/asia/countries/bhutan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Biology: Life and Evolution",
+      "path": "k/the-sciences/life-sciences/biology-life-and-evolution",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Biotechnology and Bioengineering",
+      "path": "k/the-sciences/life-sciences/biotechnology-and-bioengineering",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Bolivia",
+      "path": "g/south-america/countries/bolivia",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "path": "g/europe/countries/bosnia-and-herzegovina",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Botany and Plant Science",
+      "path": "k/the-sciences/life-sciences/botany-and-plant-science",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Botswana",
+      "path": "g/africa/countries/botswana",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Brazil",
+      "path": "g/south-america/countries/brazil",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Brunei",
+      "path": "g/asia/countries/brunei",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Bulgaria",
+      "path": "g/europe/countries/bulgaria",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Burkina Faso",
+      "path": "g/africa/countries/burkina-faso",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Burundi",
+      "path": "g/africa/countries/burundi",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Cabo Verde",
+      "path": "g/africa/countries/cabo-verde",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "California",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/california",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "California",
+      "path": "c/us-house-2026-complete/2026-states/california",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 52
+    },
+    {
+      "name": "California",
+      "path": "g/us-geography/states-and-territories/california",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Cambodia",
+      "path": "g/asia/countries/cambodia",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Cameroon",
+      "path": "g/africa/countries/cameroon",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Canada",
+      "path": "g/north-america/countries/canada",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Capabilities, Limitations, and Failure Modes",
+      "path": "k/ai-fundamentals/neural-networks-and-large-language-models/capabilities-limitations-and-failure-modes",
+      "library": "Ai Fundamentals",
+      "shelf": "Neural Networks And Large Language Models",
+      "chapters": 4
+    },
+    {
+      "name": "Central African Republic",
+      "path": "g/africa/countries/central-african-republic",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Chad",
+      "path": "g/africa/countries/chad",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Chaos, Patterns, and Complexity",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/chaos-patterns-and-complexity",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Checking Political Claims and Statistics",
+      "path": "pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics",
+      "library": "Practical Knowledge",
+      "shelf": "Advanced Civic Fact Checking And Sharing Responsibly",
+      "chapters": 4
+    },
+    {
+      "name": "Chemistry and Matter",
+      "path": "k/the-sciences/physical-sciences/chemistry-and-matter",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Chief Justice John Roberts",
+      "path": "c/supreme-court-2025/current-justices/chief-justice-john-roberts",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Children's Literature: History, Theory, and Practice",
+      "path": "k/the-arts/literary-arts/childrens-literature-history-theory-and-practice",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Chile",
+      "path": "g/south-america/countries/chile",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "China",
+      "path": "g/asia/countries/china",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "CIA Director",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/cia-director",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Civil Rights Movement in the US",
+      "path": "pe/historical-narratives/civil-rights-movements/civil-rights-movement-in-the-us",
+      "library": "Historical Narratives",
+      "shelf": "Civil Rights Movements",
+      "chapters": 17
+    },
+    {
+      "name": "Climate Change",
+      "path": "pe/contested-issues/climate-debates/the-climate-question",
+      "library": "Contested Issues",
+      "shelf": "Climate Debates",
+      "chapters": 12
+    },
+    {
+      "name": "Climate Systems and Atmosphere",
+      "path": "k/the-sciences/physical-sciences/climate-systems-and-atmosphere",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Colombia",
+      "path": "g/south-america/countries/colombia",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Colonialism: A World History",
+      "path": "pe/historical-narratives/colonialism/colonialism-a-world-history",
+      "library": "Historical Narratives",
+      "shelf": "Colonialism",
+      "chapters": 27
+    },
+    {
+      "name": "Colorado",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/colorado",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Colorado",
+      "path": "c/us-house-2026-complete/2026-states/colorado",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 8
+    },
+    {
+      "name": "Colorado",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/colorado",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Colorado",
+      "path": "g/us-geography/states-and-territories/colorado",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Comoros",
+      "path": "g/africa/countries/comoros",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Computer Science Principles",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/computer-science-principles",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Connecticut",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/connecticut",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Connecticut",
+      "path": "c/us-house-2026-complete/2026-states/connecticut",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 5
+    },
+    {
+      "name": "Connecticut",
+      "path": "g/us-geography/states-and-territories/connecticut",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Contemporary Art: Themes and Movements Since 1945",
+      "path": "k/the-arts/visual-arts/contemporary-art-themes-and-movements-since-1945",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Costa Rica",
+      "path": "g/north-america/countries/costa-rica",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "path": "g/africa/countries/cte-divoire",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Creative Writing: Drama/Playwriting",
+      "path": "k/the-arts/literary-arts/creative-writing-dramaplaywriting",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Creative Writing: Fiction (Short Story & Novel)",
+      "path": "k/the-arts/literary-arts/creative-writing-fiction-short-story-and-novel",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Creative Writing: Poetry (Forms, Techniques, and History)",
+      "path": "k/the-arts/literary-arts/creative-writing-poetry-forms-techniques-and-history",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Croatia",
+      "path": "g/europe/countries/croatia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Cross-Strait Crisis: China, Taiwan, and the World",
+      "path": "pe/geopolitical/asia-pacific-tensions/cross-strait-crisis-china-taiwan-and-the-world",
+      "library": "Geopolitical",
+      "shelf": "Asia Pacific Tensions",
+      "chapters": 18
+    },
+    {
+      "name": "Cuba",
+      "path": "g/north-america/countries/cuba",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Cyprus",
+      "path": "g/asia/countries/cyprus",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Cyprus",
+      "path": "g/europe/countries/cyprus",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Czech Republic",
+      "path": "g/europe/countries/czech-republic",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Dance History, Theory, and Choreography",
+      "path": "k/the-arts/performing-arts/dance-history-theory-and-choreography",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Delaware",
+      "path": "c/us-house-2026-complete/2026-states/delaware",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
+    },
+    {
+      "name": "Delaware",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/delaware",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Delaware",
+      "path": "g/us-geography/states-and-territories/delaware",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "path": "g/africa/countries/democratic-republic-of-the-congo",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Denmark",
+      "path": "g/europe/countries/denmark",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Department of Government Efficiency (DOGE)",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/doge-advisory",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 3
+    },
+    {
+      "name": "Desalinization Strategies for the 21st Century",
+      "path": "i/civil-infrastructures/water/desalinization-strategies-for-the-21st-century",
+      "library": "Civil Infrastructures",
+      "shelf": "Water",
+      "chapters": 13
+    },
+    {
+      "name": "Digital Art and Design: Tools and Concepts",
+      "path": "k/the-arts/visual-arts/digital-art-and-design-tools-and-concepts",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Digital Life & Computer Basics",
+      "path": "pr/practical-skills/digital-and-professional-skills/digital-life-and-computer-basics",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 4
+    },
+    {
+      "name": "Directing for Stage and Screen",
+      "path": "k/the-arts/performing-arts/directing-for-stage-and-screen",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Director of National Intelligence",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/director-of-national-intelligence",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Director of Office of Management and Budget",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/omb-director",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Distribution Networks and Local Power Delivery",
+      "path": "i/civil-infrastructures/electrical-power-systems/distribution-networks-and-local-power-delivery",
+      "library": "Civil Infrastructures",
+      "shelf": "Electrical Power Systems",
+      "chapters": 7
+    },
+    {
+      "name": "Djibouti",
+      "path": "g/africa/countries/djibouti",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Dominica",
+      "path": "g/north-america/countries/dominica",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Dominican Republic",
+      "path": "g/north-america/countries/dominican-republic",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Donald Trump: A Biography",
+      "path": "k/biographies/political-biographies/donald-trump-a-biography",
+      "library": "Biographies",
+      "shelf": "Political Biographies",
+      "chapters": 12
+    },
+    {
+      "name": "Donald Trump: A Biography",
+      "path": "c/trump-administration-2025/president-and-vice-president/donald-trump-a-biography",
+      "library": "Trump Administration 2025",
+      "shelf": "President And Vice President",
+      "chapters": 12
+    },
+    {
+      "name": "Drawing: Techniques and Principles",
+      "path": "k/the-arts/visual-arts/drawing-techniques-and-principles",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Earth Science and Geophysics",
+      "path": "k/the-sciences/physical-sciences/earth-science-and-geophysics",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "East Antarctica",
+      "path": "g/antarctica/regions/east-antarctica",
+      "library": "Antarctica",
+      "shelf": "Regions",
+      "chapters": 4
+    },
+    {
+      "name": "Ecology and Ecosystems",
+      "path": "k/the-sciences/life-sciences/ecology-and-ecosystems",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Economic Systems Compared",
+      "path": "pe/ideological/economic-theories/economic-systems-compared",
+      "library": "Ideological",
+      "shelf": "Economic Theories",
+      "chapters": 23
+    },
+    {
+      "name": "Ecuador",
+      "path": "g/south-america/countries/ecuador",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Egypt",
+      "path": "g/africa/countries/egypt",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "El Salvador",
+      "path": "g/north-america/countries/el-salvador",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Energy Science and Engineering",
+      "path": "k/the-sciences/physical-sciences/energy-science-and-engineering",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "EPA Administrator",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/epa-administrator",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Equatorial Guinea",
+      "path": "g/africa/countries/equatorial-guinea",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Eritrea",
+      "path": "g/africa/countries/eritrea",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Estonia",
+      "path": "g/europe/countries/estonia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Eswatini",
+      "path": "g/africa/countries/eswatini",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Ethiopia",
+      "path": "g/africa/countries/ethiopia",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "European Philosophy-Søren Kierkegaard",
+      "path": "k/philosophy/world-philosophies/european-philosophy-sren-kierkegaard",
+      "library": "Philosophy",
+      "shelf": "World Philosophies",
+      "chapters": 16
+    },
+    {
+      "name": "Evaluating Sources and Expertise",
+      "path": "pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise",
+      "library": "Practical Knowledge",
+      "shelf": "Everyday Fact Checking Skills",
+      "chapters": 4
+    },
+    {
+      "name": "Everyday Cooking Skills",
+      "path": "pr/practical-skills/home-and-daily-life/everyday-cooking-skills",
+      "library": "Practical Skills",
+      "shelf": "Home And Daily Life",
+      "chapters": 4
+    },
+    {
+      "name": "FBI Director",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/fbi-director",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Fiji",
+      "path": "g/oceania/countries/fiji",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Finland",
+      "path": "g/europe/countries/finland",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Florida",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/florida",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Florida",
+      "path": "c/us-house-2026-complete/2026-states/florida",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 28
+    },
+    {
+      "name": "Florida",
+      "path": "g/us-geography/states-and-territories/florida",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Foundations of Critical Thinking",
+      "path": "pe/ideological/critical-thinking/foundations-of-critical-thinking",
+      "library": "Ideological",
+      "shelf": "Critical Thinking",
+      "chapters": 8
+    },
+    {
+      "name": "Foundations of Mathematics",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/foundations-of-mathematics",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "France",
+      "path": "g/europe/countries/france",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Franklin D. Roosevelt: A Biography",
+      "path": "k/biographies/political-biographies/franklin-d-roosevelt-a-biography",
+      "library": "Biographies",
+      "shelf": "Political Biographies",
+      "chapters": 15
+    },
+    {
+      "name": "Free Speech versus Hate Speech",
+      "path": "pe/contested-issues/free-speech-debates/free-speech-versus-hate-speech",
+      "library": "Contested Issues",
+      "shelf": "Free Speech Debates",
+      "chapters": 10
+    },
+    {
+      "name": "Future Power Systems and Energy Transition",
+      "path": "i/civil-infrastructures/electrical-power-systems/future-power-systems-and-energy-transition",
+      "library": "Civil Infrastructures",
+      "shelf": "Electrical Power Systems",
+      "chapters": 7
+    },
+    {
+      "name": "Gabon",
+      "path": "g/africa/countries/gabon",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Gambia",
+      "path": "g/africa/countries/gambia",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Gaza: How Did We Get Here?",
+      "path": "pe/geopolitical/middle-east-conflicts/gaza-how-did-we-get-here",
+      "library": "Geopolitical",
+      "shelf": "Middle East Conflicts",
+      "chapters": 17
+    },
+    {
+      "name": "Genetics and Molecular Biology",
+      "path": "k/the-sciences/life-sciences/genetics-and-molecular-biology",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Geographic Role & Network Topology",
+      "path": "i/digital-infrastructures/data-centers/geographic-role-and-network-topology",
+      "library": "Digital Infrastructures",
+      "shelf": "Data Centers",
+      "chapters": 5
+    },
+    {
+      "name": "Geometry and Topology",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/geometry-and-topology",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Georgia",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/georgia",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Georgia",
+      "path": "c/us-house-2026-complete/2026-states/georgia",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 14
+    },
+    {
+      "name": "Georgia",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/georgia",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Georgia",
+      "path": "g/asia/countries/georgia",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Georgia",
+      "path": "g/europe/countries/georgia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Georgia",
+      "path": "g/us-geography/states-and-territories/georgia",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Germany",
+      "path": "g/europe/countries/germany",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Ghana",
+      "path": "g/africa/countries/ghana",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Global Climate & Environment",
+      "path": "e/current-events/global-challenges/global-climate-and-environment",
+      "library": "Current Events",
+      "shelf": "Global Challenges",
+      "chapters": 4
+    },
+    {
+      "name": "Global Economy Right Now",
+      "path": "e/current-events/global-challenges/global-economy-right-now",
+      "library": "Current Events",
+      "shelf": "Global Challenges",
+      "chapters": 4
+    },
+    {
+      "name": "Graphic Design: Principles and Applications",
+      "path": "k/the-arts/visual-arts/graphic-design-principles-and-applications",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Greece",
+      "path": "g/europe/countries/greece",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Grenada",
+      "path": "g/north-america/countries/grenada",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Grid Stability, Control and Reliability Engineering",
+      "path": "i/civil-infrastructures/electrical-power-systems/grid-stability-control-and-reliability-engineering",
+      "library": "Civil Infrastructures",
+      "shelf": "Electrical Power Systems",
+      "chapters": 7
+    },
+    {
+      "name": "Guam",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/guam",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Guam",
+      "path": "g/us-geography/states-and-territories/guam",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Guatemala",
+      "path": "g/north-america/countries/guatemala",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Guinea",
+      "path": "g/africa/countries/guinea",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Guinea-Bissau",
+      "path": "g/africa/countries/guinea-bissau",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Guyana",
+      "path": "g/south-america/countries/guyana",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Haiti",
+      "path": "g/north-america/countries/haiti",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Hawaii",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/hawaii",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Hawaii",
+      "path": "c/us-house-2026-complete/2026-states/hawaii",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 2
+    },
+    {
+      "name": "Hawaii",
+      "path": "g/us-geography/states-and-territories/hawaii",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Health, Disease, and Immunity",
+      "path": "k/the-sciences/life-sciences/health-disease-and-immunity",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Health, Habits & Daily Energy",
+      "path": "k/personal-and-life/health-and-wellbeing/health-habits-and-daily-energy",
+      "library": "Personal And Life",
+      "shelf": "Health And Wellbeing",
+      "chapters": 4
+    },
+    {
+      "name": "High-Voltage Transmission Systems",
+      "path": "i/civil-infrastructures/electrical-power-systems/high-voltage-transmission-systems",
+      "library": "Civil Infrastructures",
+      "shelf": "Electrical Power Systems",
+      "chapters": 7
+    },
+    {
+      "name": "History of Literary Criticism and Theory",
+      "path": "k/the-arts/literary-arts/history-of-literary-criticism-and-theory",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "History of Western Theatre (Ancient Greece to Present)",
+      "path": "k/the-arts/performing-arts/history-of-western-theatre-ancient-greece-to-present",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Home & Auto Repair Basics",
+      "path": "pr/practical-skills/home-and-daily-life/home-and-auto-repair-basics",
+      "library": "Practical Skills",
+      "shelf": "Home And Daily Life",
+      "chapters": 4
+    },
+    {
+      "name": "Home Brewing Basics",
+      "path": "pr/practical-skills/food-beverage-skills/home-brewing-basics",
+      "library": "Practical Skills",
+      "shelf": "Food Beverage Skills",
+      "chapters": 8
+    },
+    {
+      "name": "Honduras",
+      "path": "g/north-america/countries/honduras",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "How Abortion Became a Political Wedge",
+      "path": "pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge",
+      "library": "Cultural And Identity",
+      "shelf": "Abortion",
+      "chapters": 9
+    },
+    {
+      "name": "How History Gets Rewritten: The Revisionism Playbook",
+      "path": "pe/fact-vs-fiction/historical-revisionism/how-history-gets-rewritten-the-revisionism-playbook",
+      "library": "Fact Vs Fiction",
+      "shelf": "Historical Revisionism",
+      "chapters": 9
+    },
+    {
+      "name": "How Information Shapes What We Believe",
+      "path": "pe/ideological/media-and-information/how-information-shapes-what-we-believe",
+      "library": "Ideological",
+      "shelf": "Media And Information",
+      "chapters": 22
+    },
+    {
+      "name": "How to Build a 3-Camera Studio",
+      "path": "pr/practical-skills/digital-and-professional-skills/how-to-build-a-3-camera-studio",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 9
+    },
+    {
+      "name": "Human Anatomy and Physiology",
+      "path": "k/the-sciences/life-sciences/human-anatomy-and-physiology",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Hungary",
+      "path": "g/europe/countries/hungary",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Iceland",
+      "path": "g/europe/countries/iceland",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Idaho",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/idaho",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Idaho",
+      "path": "c/us-house-2026-complete/2026-states/idaho",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 2
+    },
+    {
+      "name": "Idaho",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/idaho",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Idaho",
+      "path": "g/us-geography/states-and-territories/idaho",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Illinois",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/illinois",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Illinois",
+      "path": "c/us-house-2026-complete/2026-states/illinois",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 17
+    },
+    {
+      "name": "Illinois",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/illinois",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Illinois",
+      "path": "g/us-geography/states-and-territories/illinois",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Illustration: Concepts and Techniques",
+      "path": "k/the-arts/visual-arts/illustration-concepts-and-techniques",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Impeachments, Investigations, and Norms",
+      "path": "e/the-20162024-maga-era-in-us-politics/governing-institutions-and-conflict/impeachments-investigations-and-norms",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "Governing Institutions And Conflict",
+      "chapters": 4
+    },
+    {
+      "name": "India",
+      "path": "g/asia/countries/india",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Indiana",
+      "path": "c/us-house-2026-complete/2026-states/indiana",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 9
+    },
+    {
+      "name": "Indiana",
+      "path": "g/us-geography/states-and-territories/indiana",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Indonesia",
+      "path": "g/asia/countries/indonesia",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Information Theory and Cryptography",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/information-theory-and-cryptography",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Interviewer and Hiring Manager Tutorial",
+      "path": "pr/practical-skills/digital-and-professional-skills/interviewer-hiring-tutorial",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 15
+    },
+    {
+      "name": "Iowa",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/iowa",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Iowa",
+      "path": "c/us-house-2026-complete/2026-states/iowa",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 4
+    },
+    {
+      "name": "Iowa",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/iowa",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Iowa",
+      "path": "g/us-geography/states-and-territories/iowa",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Iran",
+      "path": "g/asia/countries/iran",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Iraq",
+      "path": "g/asia/countries/iraq",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Ireland",
+      "path": "g/europe/countries/ireland",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Israel",
+      "path": "g/asia/countries/israel",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Italy",
+      "path": "g/europe/countries/italy",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Jamaica",
+      "path": "g/north-america/countries/jamaica",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "January 6 and Democratic Backsliding",
+      "path": "e/the-20162024-maga-era-in-us-politics/governing-institutions-and-conflict/january-6-and-democratic-backsliding",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "Governing Institutions And Conflict",
+      "chapters": 4
+    },
+    {
+      "name": "Japan",
+      "path": "g/asia/countries/japan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "JD Vance: A Biography",
+      "path": "c/trump-administration-2025/president-and-vice-president/jd-vance-a-biography",
+      "library": "Trump Administration 2025",
+      "shelf": "President And Vice President",
+      "chapters": 14
+    },
+    {
+      "name": "Job Seeker Interviewing Tutorial",
+      "path": "pr/practical-skills/digital-and-professional-skills/job-seeker-interviewing-tutorial",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 17
+    },
+    {
+      "name": "Jordan",
+      "path": "g/asia/countries/jordan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Justice Amy Coney Barrett",
+      "path": "c/supreme-court-2025/current-justices/justice-amy-coney-barrett",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Justice Brett Kavanaugh",
+      "path": "c/supreme-court-2025/current-justices/justice-brett-kavanaugh",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Justice Clarence Thomas",
+      "path": "c/supreme-court-2025/current-justices/justice-clarence-thomas",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Justice Elena Kagan",
+      "path": "c/supreme-court-2025/current-justices/justice-elena-kagan",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Justice Ketanji Brown Jackson",
+      "path": "c/supreme-court-2025/current-justices/justice-ketanji-brown-jackson",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Justice Neil Gorsuch",
+      "path": "c/supreme-court-2025/current-justices/justice-neil-gorsuch",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Justice Samuel Alito",
+      "path": "c/supreme-court-2025/current-justices/justice-samuel-alito",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Justice Sonia Sotomayor",
+      "path": "c/supreme-court-2025/current-justices/justice-sonia-sotomayor",
+      "library": "Supreme Court 2025",
+      "shelf": "Current Justices",
+      "chapters": 5
+    },
+    {
+      "name": "Kansas",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/kansas",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Kansas",
+      "path": "c/us-house-2026-complete/2026-states/kansas",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 4
+    },
+    {
+      "name": "Kansas",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/kansas",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Kansas",
+      "path": "g/us-geography/states-and-territories/kansas",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Kazakhstan",
+      "path": "g/asia/countries/kazakhstan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Kazakhstan",
+      "path": "g/europe/countries/kazakhstan",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Kentucky",
+      "path": "c/us-house-2026-complete/2026-states/kentucky",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 6
+    },
+    {
+      "name": "Kentucky",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/kentucky",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Kentucky",
+      "path": "g/us-geography/states-and-territories/kentucky",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Kenya",
+      "path": "g/africa/countries/kenya",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Key Ideas in Machine Learning",
+      "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/key-ideas-in-machine-learning",
+      "library": "Ai Fundamentals",
+      "shelf": "Foundations Of Artificial Intelligence",
+      "chapters": 4
+    },
+    {
+      "name": "Kiribati",
+      "path": "g/oceania/countries/kiribati",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Kosovo",
+      "path": "g/europe/countries/kosovo",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Kuwait",
+      "path": "g/asia/countries/kuwait",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Kyrgyzstan",
+      "path": "g/asia/countries/kyrgyzstan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Laos",
+      "path": "g/asia/countries/laos",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Latvia",
+      "path": "g/europe/countries/latvia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Learn Git Basics",
+      "path": "pr/practical-skills/digital-and-professional-skills/learn-git-basics",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 6
+    },
+    {
+      "name": "Learning & Study Skills",
+      "path": "pr/practical-skills/personal-development/learning-and-study-skills",
+      "library": "Practical Skills",
+      "shelf": "Personal Development",
+      "chapters": 4
+    },
+    {
+      "name": "Lebanon",
+      "path": "g/asia/countries/lebanon",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Lesotho",
+      "path": "g/africa/countries/lesotho",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Liberia",
+      "path": "g/africa/countries/liberia",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Libya",
+      "path": "g/africa/countries/libya",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Liechtenstein",
+      "path": "g/europe/countries/liechtenstein",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Life Choices & Transitions",
+      "path": "k/personal-and-life/life-transitions-and-growth/life-choices-and-transitions",
+      "library": "Personal And Life",
+      "shelf": "Life Transitions And Growth",
+      "chapters": 4
+    },
+    {
+      "name": "Literary Genres: A Comprehensive Guide",
+      "path": "k/the-arts/literary-arts/literary-genres-a-comprehensive-guide",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Literary Translation: Theory and Practice",
+      "path": "k/the-arts/literary-arts/literary-translation-theory-and-practice",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Lithuania",
+      "path": "g/europe/countries/lithuania",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Locking Down Your Devices and Accounts",
+      "path": "pr/practical-knowledge/personal-digital-security/locking-down-your-devices-and-accounts",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Digital Security",
+      "chapters": 4
+    },
+    {
+      "name": "Logic and Proof",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/logic-and-proof",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Long-Term Impacts and Future Scenarios",
+      "path": "e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy/long-term-impacts-and-future-scenarios",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "After 2020 Persistence Fragmentation And Legacy",
+      "chapters": 4
+    },
+    {
+      "name": "Louisiana",
+      "path": "c/us-house-2026-complete/2026-states/louisiana",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 6
+    },
+    {
+      "name": "Louisiana",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/louisiana",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Louisiana",
+      "path": "g/us-geography/states-and-territories/louisiana",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Luxembourg",
+      "path": "g/europe/countries/luxembourg",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Madagascar",
+      "path": "g/africa/countries/madagascar",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "MAGA After the 2020 Election",
+      "path": "e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy/maga-after-the-2020-election",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "After 2020 Persistence Fragmentation And Legacy",
+      "chapters": 4
+    },
+    {
+      "name": "Maine",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/maine",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Maine",
+      "path": "c/us-house-2026-complete/2026-states/maine",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 2
+    },
+    {
+      "name": "Maine",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/maine",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Maine",
+      "path": "g/us-geography/states-and-territories/maine",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Major International Research Stations",
+      "path": "g/antarctica/regions/major-international-research-stations",
+      "library": "Antarctica",
+      "shelf": "Regions",
+      "chapters": 4
+    },
+    {
+      "name": "Malawi",
+      "path": "g/africa/countries/malawi",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Malaysia",
+      "path": "g/asia/countries/malaysia",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Maldives",
+      "path": "g/asia/countries/maldives",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Mali",
+      "path": "g/africa/countries/mali",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Malta",
+      "path": "g/europe/countries/malta",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Marie Byrd Land",
+      "path": "g/antarctica/regions/marie-byrd-land",
+      "library": "Antarctica",
+      "shelf": "Regions",
+      "chapters": 4
+    },
+    {
+      "name": "Marshall Islands",
+      "path": "g/oceania/countries/marshall-islands",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Maryland",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/maryland",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Maryland",
+      "path": "c/us-house-2026-complete/2026-states/maryland",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 8
+    },
+    {
+      "name": "Maryland",
+      "path": "g/us-geography/states-and-territories/maryland",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Massachusetts",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/massachusetts",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Massachusetts",
+      "path": "c/us-house-2026-complete/2026-states/massachusetts",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 9
+    },
+    {
+      "name": "Massachusetts",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/massachusetts",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Massachusetts",
+      "path": "g/us-geography/states-and-territories/massachusetts",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Materials Science",
+      "path": "k/the-sciences/physical-sciences/materials-science",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Mauritania",
+      "path": "g/africa/countries/mauritania",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Mauritius",
+      "path": "g/africa/countries/mauritius",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Media, Platforms, and Deplatforming",
+      "path": "e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy/media-platforms-and-deplatforming",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "After 2020 Persistence Fragmentation And Legacy",
+      "chapters": 4
+    },
+    {
+      "name": "Mexico",
+      "path": "g/north-america/countries/mexico",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Michigan",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/michigan",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Michigan",
+      "path": "c/us-house-2026-complete/2026-states/michigan",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 13
+    },
+    {
+      "name": "Michigan",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/michigan",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Michigan",
+      "path": "g/us-geography/states-and-territories/michigan",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Microbiology and Virology",
+      "path": "k/the-sciences/life-sciences/microbiology-and-virology",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Micronesia (Federated States of)",
+      "path": "g/oceania/countries/micronesia-federated-states-of",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Middle East Conflicts",
+      "path": "e/current-events/international-conflicts/middle-east-conflicts",
+      "library": "Current Events",
+      "shelf": "International Conflicts",
+      "chapters": 4
+    },
+    {
+      "name": "Minnesota",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/minnesota",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Minnesota",
+      "path": "c/us-house-2026-complete/2026-states/minnesota",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 8
+    },
+    {
+      "name": "Minnesota",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/minnesota",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Minnesota",
+      "path": "g/us-geography/states-and-territories/minnesota",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Mississippi",
+      "path": "c/us-house-2026-complete/2026-states/mississippi",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 4
+    },
+    {
+      "name": "Mississippi",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/mississippi",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Mississippi",
+      "path": "g/us-geography/states-and-territories/mississippi",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Missouri",
+      "path": "c/us-house-2026-complete/2026-states/missouri",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 8
+    },
+    {
+      "name": "Missouri",
+      "path": "g/us-geography/states-and-territories/missouri",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Moldova",
+      "path": "g/europe/countries/moldova",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Monaco",
+      "path": "g/europe/countries/monaco",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Mongolia",
+      "path": "g/asia/countries/mongolia",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Montana",
+      "path": "c/us-house-2026-complete/2026-states/montana",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 2
+    },
+    {
+      "name": "Montana",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/montana",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Montana",
+      "path": "g/us-geography/states-and-territories/montana",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Montenegro",
+      "path": "g/europe/countries/montenegro",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Morocco",
+      "path": "g/africa/countries/morocco",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Movement, Brand, and Base",
+      "path": "e/the-20162024-maga-era-in-us-politics/the-rise-of-maga/movement-brand-and-base",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "The Rise Of Maga",
+      "chapters": 4
+    },
+    {
+      "name": "Mozambique",
+      "path": "g/africa/countries/mozambique",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Municipal Water Systems",
+      "path": "i/civil-infrastructures/water/municipal-water-systems",
+      "library": "Civil Infrastructures",
+      "shelf": "Water",
+      "chapters": 20
+    },
+    {
+      "name": "Musical Theatre: History, Theory, and Practice",
+      "path": "k/the-arts/performing-arts/musical-theatre-history-theory-and-practice",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Myanmar",
+      "path": "g/asia/countries/myanmar",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Namibia",
+      "path": "g/africa/countries/namibia",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Narrative Theory and Techniques",
+      "path": "k/the-arts/literary-arts/narrative-theory-and-techniques",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Nation of Immigrants, Land of Walls",
+      "path": "pe/contested-issues/immigration-debates/nation-of-immigrants-land-of-walls",
+      "library": "Contested Issues",
+      "shelf": "Immigration Debates",
+      "chapters": 22
+    },
+    {
+      "name": "Nauru",
+      "path": "g/oceania/countries/nauru",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Nebraska",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/nebraska",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Nebraska",
+      "path": "c/us-house-2026-complete/2026-states/nebraska",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 3
+    },
+    {
+      "name": "Nebraska",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/nebraska",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Nebraska",
+      "path": "g/us-geography/states-and-territories/nebraska",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Nepal",
+      "path": "g/asia/countries/nepal",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Netherlands",
+      "path": "g/europe/countries/netherlands",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Neural Networks Explained",
+      "path": "k/ai-fundamentals/neural-networks-and-large-language-models/neural-networks-explained",
+      "library": "Ai Fundamentals",
+      "shelf": "Neural Networks And Large Language Models",
+      "chapters": 4
+    },
+    {
+      "name": "Neuroscience and the Brain",
+      "path": "k/the-sciences/life-sciences/neuroscience-and-the-brain",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Nevada",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/nevada",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Nevada",
+      "path": "c/us-house-2026-complete/2026-states/nevada",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 4
+    },
+    {
+      "name": "Nevada",
+      "path": "g/us-geography/states-and-territories/nevada",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "New Hampshire",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/new-hampshire",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "New Hampshire",
+      "path": "c/us-house-2026-complete/2026-states/new-hampshire",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 2
+    },
+    {
+      "name": "New Hampshire",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/new-hampshire",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "New Hampshire",
+      "path": "g/us-geography/states-and-territories/new-hampshire",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "New Jersey",
+      "path": "c/us-house-2026-complete/2026-states/new-jersey",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 12
+    },
+    {
+      "name": "New Jersey",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/new-jersey",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "New Jersey",
+      "path": "g/us-geography/states-and-territories/new-jersey",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "New Mexico",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/new-mexico",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "New Mexico",
+      "path": "c/us-house-2026-complete/2026-states/new-mexico",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 3
+    },
+    {
+      "name": "New Mexico",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/new-mexico",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "New Mexico",
+      "path": "g/us-geography/states-and-territories/new-mexico",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "New York",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/new-york",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "New York",
+      "path": "c/us-house-2026-complete/2026-states/new-york",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 26
+    },
+    {
+      "name": "New York",
+      "path": "g/us-geography/states-and-territories/new-york",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "New Zealand",
+      "path": "g/oceania/countries/new-zealand",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "News of the Region",
+      "path": "e/current-events/news-of-the-day/news-of-the-region",
+      "library": "Current Events",
+      "shelf": "News Of The Day",
+      "chapters": 18
+    },
+    {
+      "name": "Nicaragua",
+      "path": "g/north-america/countries/nicaragua",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Niger",
+      "path": "g/africa/countries/niger",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Nigeria",
+      "path": "g/africa/countries/nigeria",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "North American Philosophy-Charles Sanders Peirce",
+      "path": "k/philosophy/world-philosophies/north-american-philosophy-charles-sanders-peirce",
+      "library": "Philosophy",
+      "shelf": "World Philosophies",
+      "chapters": 16
+    },
+    {
+      "name": "North Carolina",
+      "path": "c/us-house-2026-complete/2026-states/north-carolina",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 14
+    },
+    {
+      "name": "North Carolina",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/north-carolina",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "North Carolina",
+      "path": "g/us-geography/states-and-territories/north-carolina",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "North Dakota",
+      "path": "c/us-house-2026-complete/2026-states/north-dakota",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
+    },
+    {
+      "name": "North Dakota",
+      "path": "g/us-geography/states-and-territories/north-dakota",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "North Korea",
+      "path": "g/asia/countries/north-korea",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "North Macedonia",
+      "path": "g/europe/countries/north-macedonia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/northern-mariana-islands",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "path": "g/us-geography/states-and-territories/northern-mariana-islands",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Norway",
+      "path": "g/europe/countries/norway",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Oceania Philosophy-Sir Mason Durie",
+      "path": "k/philosophy/world-philosophies/oceania-philosophy-sir-mason-durie",
+      "library": "Philosophy",
+      "shelf": "World Philosophies",
+      "chapters": 16
+    },
+    {
+      "name": "Off Grid Electrical",
+      "path": "i/environmental-infrastructures/home-autonomy/off-grid-electrical",
+      "library": "Environmental Infrastructures",
+      "shelf": "Home Autonomy",
+      "chapters": 13
+    },
+    {
+      "name": "Ohio",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/ohio",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Ohio",
+      "path": "c/us-house-2026-complete/2026-states/ohio",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 15
+    },
+    {
+      "name": "Ohio",
+      "path": "g/us-geography/states-and-territories/ohio",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Oklahoma",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/oklahoma",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Oklahoma",
+      "path": "c/us-house-2026-complete/2026-states/oklahoma",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 5
+    },
+    {
+      "name": "Oklahoma",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/oklahoma",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Oklahoma",
+      "path": "g/us-geography/states-and-territories/oklahoma",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Oman",
+      "path": "g/asia/countries/oman",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "One Mind, Many Machines: How Solo Builders Now Outpace Legacy Platforms",
+      "path": "k/ai-fundamentals/ai-in-the-real-world/one-mind-many-machines-how-solo-builders-now-outpace-legacy-platforms",
+      "library": "Ai Fundamentals",
+      "shelf": "Ai In The Real World",
+      "chapters": 20
+    },
+    {
+      "name": "Opera: History, Analysis, and Production",
+      "path": "k/the-arts/performing-arts/opera-history-analysis-and-production",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Operational Purpose & Mission",
+      "path": "i/digital-infrastructures/data-centers/operational-purpose-and-mission",
+      "library": "Digital Infrastructures",
+      "shelf": "Data Centers",
+      "chapters": 6
+    },
+    {
+      "name": "Oregon",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/oregon",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Oregon",
+      "path": "c/us-house-2026-complete/2026-states/oregon",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 6
+    },
+    {
+      "name": "Oregon",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/oregon",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Oregon",
+      "path": "g/us-geography/states-and-territories/oregon",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Overcoming Loneliness",
+      "path": "k/personal-and-life/health-and-wellbeing/overcoming-loneliness",
+      "library": "Personal And Life",
+      "shelf": "Health And Wellbeing",
+      "chapters": 10
+    },
+    {
+      "name": "Ownership, Control & Sovereignty",
+      "path": "i/digital-infrastructures/data-centers/ownership-control-and-sovereignty",
+      "library": "Digital Infrastructures",
+      "shelf": "Data Centers",
+      "chapters": 5
+    },
+    {
+      "name": "Painting: Materials, Methods, and Expression",
+      "path": "k/the-arts/visual-arts/painting-materials-methods-and-expression",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Pakistan",
+      "path": "g/asia/countries/pakistan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Palau",
+      "path": "g/oceania/countries/palau",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Palestine",
+      "path": "g/asia/countries/palestine",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Panama",
+      "path": "g/north-america/countries/panama",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Papua New Guinea",
+      "path": "g/oceania/countries/papua-new-guinea",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Paraguay",
+      "path": "g/south-america/countries/paraguay",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Pennsylvania",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/pennsylvania",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Pennsylvania",
+      "path": "c/us-house-2026-complete/2026-states/pennsylvania",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 17
+    },
+    {
+      "name": "Pennsylvania",
+      "path": "g/us-geography/states-and-territories/pennsylvania",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Performance Art: History, Theory, and Practice",
+      "path": "k/the-arts/performing-arts/performance-art-history-theory-and-practice",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Personal Finance for People Who Were Never Taught",
+      "path": "pr/practical-knowledge/personal-finance/personal-finance-for-people-who-were-never-taught",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
+    },
+    {
+      "name": "Peru",
+      "path": "g/south-america/countries/peru",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Philippines",
+      "path": "g/asia/countries/philippines",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Photography: History, Theory, and Practice",
+      "path": "k/the-arts/visual-arts/photography-history-theory-and-practice",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Photoshop For Beginners",
+      "path": "pr/practical-skills/digital-and-professional-skills/photoshop-for-beginners",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 16
+    },
+    {
+      "name": "Physical Systems",
+      "path": "i/digital-infrastructures/data-centers/physical-systems",
+      "library": "Digital Infrastructures",
+      "shelf": "Data Centers",
+      "chapters": 5
+    },
+    {
+      "name": "Physics Fundamentals",
+      "path": "k/the-sciences/physical-sciences/physics-fundamentals",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Playwriting and Screenwriting: Craft and Analysis",
+      "path": "k/the-arts/performing-arts/playwriting-and-screenwriting-craft-and-analysis",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Poland",
+      "path": "g/europe/countries/poland",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Polarization Pays",
+      "path": "pe/ideological/media-and-information/polarization-pays",
+      "library": "Ideological",
+      "shelf": "Media And Information",
+      "chapters": 14
+    },
+    {
+      "name": "Political Advertising: Finding the Facts",
+      "path": "pe/fact-vs-fiction/political-accountability/political-advertising-finding-the-facts",
+      "library": "Fact Vs Fiction",
+      "shelf": "Political Accountability",
+      "chapters": 10
+    },
+    {
+      "name": "Portugal",
+      "path": "g/europe/countries/portugal",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Power Generation Systems",
+      "path": "i/civil-infrastructures/electrical-power-systems/power-generation-systems",
+      "library": "Civil Infrastructures",
+      "shelf": "Electrical Power Systems",
+      "chapters": 7
+    },
+    {
+      "name": "Power, Energy & Cooling Systems",
+      "path": "i/digital-infrastructures/data-centers/power-energy-and-cooling-systems",
+      "library": "Digital Infrastructures",
+      "shelf": "Data Centers",
+      "chapters": 6
+    },
+    {
+      "name": "Pre-2016 Context and Grievances",
+      "path": "e/the-20162024-maga-era-in-us-politics/the-rise-of-maga/pre-2016-context-and-grievances",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "The Rise Of Maga",
+      "chapters": 4
+    },
+    {
+      "name": "Pre-Planning and Planning Meetings",
+      "path": "pr/practical-knowledge/systems-planning/pre-planning-and-planning-meetings",
+      "library": "Practical Knowledge",
+      "shelf": "Systems Planning",
+      "chapters": 11
+    },
+    {
+      "name": "Pride and Politics: The Fight for LGBTQ+ Equality",
+      "path": "pe/cultural-and-identity/gay-rights/pride-and-politics-the-fight-for-lgbtq-equality",
+      "library": "Cultural And Identity",
+      "shelf": "Gay Rights",
+      "chapters": 12
+    },
+    {
+      "name": "Printmaking: Processes and Practices",
+      "path": "k/the-arts/visual-arts/printmaking-processes-and-practices",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Privacy and Data Minimization",
+      "path": "pr/practical-knowledge/personal-digital-security/privacy-and-data-minimization",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Digital Security",
+      "chapters": 4
+    },
+    {
+      "name": "Probability, Statistics, and Uncertainty",
+      "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/probability-statistics-and-uncertainty",
+      "library": "Ai Fundamentals",
+      "shelf": "Foundations Of Artificial Intelligence",
+      "chapters": 4
+    },
+    {
+      "name": "Puerto Rico",
+      "path": "g/us-geography/states-and-territories/puerto-rico",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Qatar",
+      "path": "g/asia/countries/qatar",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Quantum Science and Applications",
+      "path": "k/the-sciences/physical-sciences/quantum-science-and-applications",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Quick Checks Before You Believe or Share",
+      "path": "pr/practical-knowledge/everyday-fact-checking-skills/quick-checks-before-you-believe-or-share",
+      "library": "Practical Knowledge",
+      "shelf": "Everyday Fact Checking Skills",
+      "chapters": 4
+    },
+    {
+      "name": "Racial Bias in U.S. Law and Policing",
+      "path": "pe/contested-issues/criminal-justice-debates/racial-bias-in-u-s-law-and-policing",
+      "library": "Contested Issues",
+      "shelf": "Criminal Justice Debates",
+      "chapters": 9
+    },
+    {
+      "name": "Recognizing Scams and Phishing",
+      "path": "pr/practical-knowledge/personal-digital-security/recognizing-scams-and-phishing",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Digital Security",
+      "chapters": 4
+    },
+    {
+      "name": "Relationships & Communication",
+      "path": "k/personal-and-life/relationships-and-communication/relationships-and-communication",
+      "library": "Personal And Life",
+      "shelf": "Relationships And Communication",
+      "chapters": 4
+    },
+    {
+      "name": "Republic of the Congo",
+      "path": "g/africa/countries/republic-of-the-congo",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Responsible Use and Human Judgment",
+      "path": "k/ai-fundamentals/ai-in-the-real-world/responsible-use-and-human-judgment",
+      "library": "Ai Fundamentals",
+      "shelf": "Ai In The Real World",
+      "chapters": 4
+    },
+    {
+      "name": "Rhetoric and the Art of Persuasion",
+      "path": "k/the-arts/literary-arts/rhetoric-and-the-art-of-persuasion",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Rhode Island",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/rhode-island",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Rhode Island",
+      "path": "c/us-house-2026-complete/2026-states/rhode-island",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 2
+    },
+    {
+      "name": "Rhode Island",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/rhode-island",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Rhode Island",
+      "path": "g/us-geography/states-and-territories/rhode-island",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Risks, Harms, and Governance",
+      "path": "k/ai-fundamentals/ai-in-the-real-world/risks-harms-and-governance",
+      "library": "Ai Fundamentals",
+      "shelf": "Ai In The Real World",
+      "chapters": 4
+    },
+    {
+      "name": "Romania",
+      "path": "g/europe/countries/romania",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Ross Sea Region",
+      "path": "g/antarctica/regions/ross-sea-region",
+      "library": "Antarctica",
+      "shelf": "Regions",
+      "chapters": 4
+    },
+    {
+      "name": "Russia–Ukraine War",
+      "path": "e/current-events/international-conflicts/russiaukraine-war",
+      "library": "Current Events",
+      "shelf": "International Conflicts",
+      "chapters": 4
+    },
+    {
+      "name": "Rwanda",
+      "path": "g/africa/countries/rwanda",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "path": "g/north-america/countries/saint-kitts-and-nevis",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Saint Lucia",
+      "path": "g/north-america/countries/saint-lucia",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "path": "g/north-america/countries/saint-vincent-and-the-grenadines",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Samoa",
+      "path": "g/oceania/countries/samoa",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "San Marino",
+      "path": "g/europe/countries/san-marino",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "path": "g/africa/countries/so-tom-and-prncipe",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Saudi Arabia",
+      "path": "g/asia/countries/saudi-arabia",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Scientific Computing",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/scientific-computing",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Sculpture: A Comprehensive Guide to Forms and Techniques",
+      "path": "k/the-arts/visual-arts/sculpture-a-comprehensive-guide-to-forms-and-techniques",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Secretary of Agriculture",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-agriculture",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Commerce",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-commerce",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Defense",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-defense",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Education",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-education",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Energy",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-energy",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Health and Human Services",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-hhs",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Homeland Security",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-homeland-security",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Housing and Urban Development",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-hud",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Labor",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-labor",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of State",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-state",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of the Interior",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-interior",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of the Treasury",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-treasury",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Transportation",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-transportation",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Secretary of Veterans Affairs",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-veterans-affairs",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Senegal",
+      "path": "g/africa/countries/senegal",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Serbia",
+      "path": "g/europe/countries/serbia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Seychelles",
+      "path": "g/africa/countries/seychelles",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Sierra Leone",
+      "path": "g/africa/countries/sierra-leone",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Singapore",
+      "path": "g/asia/countries/singapore",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Slovakia",
+      "path": "g/europe/countries/slovakia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Slovenia",
+      "path": "g/europe/countries/slovenia",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Small Business Administration Administrator",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/sba-administrator",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Social Equality & Civil Rights",
+      "path": "pe/contested-issues/social-equality-debates/social-equality-and-civil-rights",
+      "library": "Contested Issues",
+      "shelf": "Social Equality Debates",
+      "chapters": 12
+    },
+    {
+      "name": "Solo Builder Funding How-To",
+      "path": "pr/practical-skills/digital-and-professional-skills/solo-builder-funding-how-to",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 7
+    },
+    {
+      "name": "Solomon Islands",
+      "path": "g/oceania/countries/solomon-islands",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Somalia",
+      "path": "g/africa/countries/somalia",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "South Africa",
+      "path": "g/africa/countries/south-africa",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "South American Philosophy-Enrique Dussel",
+      "path": "k/philosophy/world-philosophies/south-american-philosophy-enrique-dussel",
+      "library": "Philosophy",
+      "shelf": "World Philosophies",
+      "chapters": 16
+    },
+    {
+      "name": "South Carolina",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/south-carolina",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "South Carolina",
+      "path": "c/us-house-2026-complete/2026-states/south-carolina",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 7
+    },
+    {
+      "name": "South Carolina",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/south-carolina",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "South Carolina",
+      "path": "g/us-geography/states-and-territories/south-carolina",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "South Dakota",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/south-dakota",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "South Dakota",
+      "path": "c/us-house-2026-complete/2026-states/south-dakota",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
+    },
+    {
+      "name": "South Dakota",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/south-dakota",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "South Dakota",
+      "path": "g/us-geography/states-and-territories/south-dakota",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "South Korea",
+      "path": "g/asia/countries/south-korea",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "South Sudan",
+      "path": "g/africa/countries/south-sudan",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Spain",
+      "path": "g/europe/countries/spain",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Sri Lanka",
+      "path": "g/asia/countries/sri-lanka",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Stagecraft and Technical Theatre Production",
+      "path": "k/the-arts/performing-arts/stagecraft-and-technical-theatre-production",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "State by State Daily Report",
+      "path": "e/current-events/domestic-politics/state-by-state-daily-report",
+      "library": "Current Events",
+      "shelf": "Domestic Politics",
+      "chapters": 11
+    },
+    {
+      "name": "State Oligarchs: The Hidden Wealth of Autocrats",
+      "path": "pe/cultural-and-identity/billionaires/state-oligarchs-hidden-wealth-of-autocrats",
+      "library": "Cultural And Identity",
+      "shelf": "Billionaires",
+      "chapters": 9
+    },
+    {
+      "name": "Statistics and Data Science",
+      "path": "k/the-sciences/mathematical-and-computational-sciences/statistics-and-data-science",
+      "library": "The Sciences",
+      "shelf": "Mathematical And Computational Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Sudan",
+      "path": "g/africa/countries/sudan",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Suriname",
+      "path": "g/south-america/countries/suriname",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Sweden",
+      "path": "g/europe/countries/sweden",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Switzerland",
+      "path": "g/europe/countries/switzerland",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Syria",
+      "path": "g/asia/countries/syria",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Taiwan",
+      "path": "g/asia/countries/taiwan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Tajikistan",
+      "path": "g/asia/countries/tajikistan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Tanzania",
+      "path": "g/africa/countries/tanzania",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Technologies That Made Us Human",
+      "path": "k/the-sciences/history-and-anthropology/technologies-that-made-us-human",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 17
+    },
+    {
+      "name": "Technology's Hidden Tradeoffs",
+      "path": "pe/ideological/technology-ethics/technologys-hidden-tradeoffs",
+      "library": "Ideological",
+      "shelf": "Technology Ethics",
+      "chapters": 25
+    },
+    {
+      "name": "Tennessee",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/tennessee",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Tennessee",
+      "path": "c/us-house-2026-complete/2026-states/tennessee",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 9
+    },
+    {
+      "name": "Tennessee",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/tennessee",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Tennessee",
+      "path": "g/us-geography/states-and-territories/tennessee",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Texas",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/texas",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Texas",
+      "path": "c/us-house-2026-complete/2026-states/texas",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 38
+    },
+    {
+      "name": "Texas",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/texas",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 3
+    },
+    {
+      "name": "Texas",
+      "path": "g/us-geography/states-and-territories/texas",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Thailand",
+      "path": "g/asia/countries/thailand",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "The 2016 Campaign and Election",
+      "path": "e/the-20162024-maga-era-in-us-politics/the-rise-of-maga/the-2016-campaign-and-election",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "The Rise Of Maga",
+      "chapters": 4
+    },
+    {
+      "name": "The Agua Caliente Cahuilla",
+      "path": "pe/historical-narratives/indigenous-peoples/the-agua-caliente-cahuilla",
+      "library": "Historical Narratives",
+      "shelf": "Indigenous Peoples",
+      "chapters": 9
+    },
+    {
+      "name": "The Billionaire-President Problem",
+      "path": "pe/cultural-and-identity/billionaires/the-billionaire-president-problem",
+      "library": "Cultural And Identity",
+      "shelf": "Billionaires",
+      "chapters": 10
+    },
+    {
+      "name": "The Fourth Amendment and You!",
+      "path": "pe/contested-issues/criminal-justice-debates/the-fourth-amendment-and-you",
+      "library": "Contested Issues",
+      "shelf": "Criminal Justice Debates",
+      "chapters": 8
+    },
+    {
+      "name": "The Geopolitics of War in the 21st Century",
+      "path": "pe/geopolitical/war-and-peace/the-geopolitics-of-war-in-the-21st-century",
+      "library": "Geopolitical",
+      "shelf": "War And Peace",
+      "chapters": 12
+    },
+    {
+      "name": "The Richest People in the World (2025)",
+      "path": "pe/cultural-and-identity/billionaires/the-richest-people-in-the-world-2025",
+      "library": "Cultural And Identity",
+      "shelf": "Billionaires",
+      "chapters": 21
+    },
+    {
+      "name": "The Story of Dogs",
+      "path": "k/the-sciences/life-sciences/the-story-of-dogs",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 12
+    },
+    {
+      "name": "The Trump Effect on the News",
+      "path": "pe/ideological/media-and-information/the-trump-effect-on-the-news",
+      "library": "Ideological",
+      "shelf": "Media And Information",
+      "chapters": 10
+    },
+    {
+      "name": "Thermodynamics and Heat",
+      "path": "k/the-sciences/physical-sciences/thermodynamics-and-heat",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "Timor-Leste",
+      "path": "g/asia/countries/timor-leste",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Togo",
+      "path": "g/africa/countries/togo",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Tonga",
+      "path": "g/oceania/countries/tonga",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Tools and Techniques for Verifying Information",
+      "path": "pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information",
+      "library": "Practical Knowledge",
+      "shelf": "Everyday Fact Checking Skills",
+      "chapters": 4
+    },
+    {
+      "name": "Transformers and LLMs",
+      "path": "k/ai-fundamentals/neural-networks-and-large-language-models/transformers-and-llms",
+      "library": "Ai Fundamentals",
+      "shelf": "Neural Networks And Large Language Models",
+      "chapters": 4
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "path": "g/north-america/countries/trinidad-and-tobago",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Trump and Epstein: A History",
+      "path": "pe/fact-vs-fiction/political-accountability/trump-and-epstein-a-history",
+      "library": "Fact Vs Fiction",
+      "shelf": "Political Accountability",
+      "chapters": 17
+    },
+    {
+      "name": "Trump in Office (2017–2020)",
+      "path": "e/the-20162024-maga-era-in-us-politics/governing-institutions-and-conflict/trump-in-office-20172020",
+      "library": "The 20162024 Maga Era In Us Politics",
+      "shelf": "Governing Institutions And Conflict",
+      "chapters": 4
+    },
+    {
+      "name": "Trump's Lies: Then and Now",
+      "path": "pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now",
+      "library": "Fact Vs Fiction",
+      "shelf": "Political Accountability",
+      "chapters": 11
+    },
+    {
+      "name": "Tunisia",
+      "path": "g/africa/countries/tunisia",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Turkey",
+      "path": "g/europe/countries/turkey",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Turkmenistan",
+      "path": "g/asia/countries/turkmenistan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Tuvalu",
+      "path": "g/oceania/countries/tuvalu",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Twelve Ancient Sages",
+      "path": "k/philosophy/world-philosophies/twelve-ancient-sages",
+      "library": "Philosophy",
+      "shelf": "World Philosophies",
+      "chapters": 12
+    },
+    {
+      "name": "U.S. Virgin Islands",
+      "path": "g/us-geography/states-and-territories/us-virgin-islands",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Uganda",
+      "path": "g/africa/countries/uganda",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Ukraine",
+      "path": "g/europe/countries/ukraine",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Ukraine: How Did We Get Here?",
+      "path": "pe/geopolitical/eastern-europe-conflicts/ukraine-how-did-we-get-here",
+      "library": "Geopolitical",
+      "shelf": "Eastern Europe Conflicts",
+      "chapters": 20
+    },
+    {
+      "name": "United Arab Emirates",
+      "path": "g/asia/countries/united-arab-emirates",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "United Kingdom",
+      "path": "g/europe/countries/united-kingdom",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "United States",
+      "path": "g/north-america/countries/united-states",
+      "library": "North America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "United States",
+      "path": "g/us-geography/states-and-territories/united-states",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "United States Civil War Revisionism",
+      "path": "pe/fact-vs-fiction/historical-revisionism/united-states-civil-war-revisionism",
+      "library": "Fact Vs Fiction",
+      "shelf": "Historical Revisionism",
+      "chapters": 9
+    },
+    {
+      "name": "Uruguay",
+      "path": "g/south-america/countries/uruguay",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "US Ambassador to the United Nations",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/un-ambassador",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "US Geography",
+      "path": "g/north-america/the-united-states/us-geography",
+      "library": "North America",
+      "shelf": "The United States",
+      "chapters": 57
+    },
+    {
+      "name": "US Politics 2024–2025",
+      "path": "e/current-events/domestic-politics/us-politics-20242025",
+      "library": "Current Events",
+      "shelf": "Domestic Politics",
+      "chapters": 4
+    },
+    {
+      "name": "US Trade Representative",
+      "path": "c/trump-administration-2025/cabinet-and-senior-officials/us-trade-representative",
+      "library": "Trump Administration 2025",
+      "shelf": "Cabinet And Senior Officials",
+      "chapters": 2
+    },
+    {
+      "name": "Utah",
+      "path": "c/us-house-2026-complete/2026-states/utah",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 4
+    },
+    {
+      "name": "Utah",
+      "path": "g/us-geography/states-and-territories/utah",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Uzbekistan",
+      "path": "g/asia/countries/uzbekistan",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Vanuatu",
+      "path": "g/oceania/countries/vanuatu",
+      "library": "Oceania",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Vatican City",
+      "path": "g/europe/countries/vatican-city",
+      "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Venezuela",
+      "path": "g/south-america/countries/venezuela",
+      "library": "South America",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Vermont",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/vermont",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Vermont",
+      "path": "c/us-house-2026-complete/2026-states/vermont",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
+    },
+    {
+      "name": "Vermont",
+      "path": "g/us-geography/states-and-territories/vermont",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Vietnam",
+      "path": "g/asia/countries/vietnam",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Virgin Islands",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/virgin-islands",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Virginia",
+      "path": "c/us-house-2026-complete/2026-states/virginia",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 11
+    },
+    {
+      "name": "Virginia",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/virginia",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Virginia",
+      "path": "g/us-geography/states-and-territories/virginia",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Washington",
+      "path": "c/us-house-2026-complete/2026-states/washington",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 10
+    },
+    {
+      "name": "Washington",
+      "path": "g/us-geography/states-and-territories/washington",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Washington, D.C.",
+      "path": "g/us-geography/states-and-territories/washington-dc",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Waves, Sound, and Light",
+      "path": "k/the-sciences/physical-sciences/waves-sound-and-light",
+      "library": "The Sciences",
+      "shelf": "Physical Sciences",
+      "chapters": 10
+    },
+    {
+      "name": "West Antarctica",
+      "path": "g/antarctica/regions/west-antarctica",
+      "library": "Antarctica",
+      "shelf": "Regions",
+      "chapters": 4
+    },
+    {
+      "name": "West Virginia",
+      "path": "c/us-house-2026-complete/2026-states/west-virginia",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 2
+    },
+    {
+      "name": "West Virginia",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/west-virginia",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "West Virginia",
+      "path": "g/us-geography/states-and-territories/west-virginia",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "What Is AI, Really?",
+      "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really",
+      "library": "Ai Fundamentals",
+      "shelf": "Foundations Of Artificial Intelligence",
+      "chapters": 4
+    },
+    {
+      "name": "Wisconsin",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/wisconsin",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Wisconsin",
+      "path": "c/us-house-2026-complete/2026-states/wisconsin",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 8
+    },
+    {
+      "name": "Wisconsin",
+      "path": "g/us-geography/states-and-territories/wisconsin",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Women's Rights: Centuries of Struggle",
+      "path": "pe/cultural-and-identity/feminism-and-equality/womens-rights-centuries-of-struggle",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 14
+    },
+    {
+      "name": "Work, Purpose & Identity",
+      "path": "k/personal-and-life/life-transitions-and-growth/work-purpose-and-identity",
+      "library": "Personal And Life",
+      "shelf": "Life Transitions And Growth",
+      "chapters": 4
+    },
+    {
+      "name": "Workloads, Compute Identity & Risk",
+      "path": "i/digital-infrastructures/data-centers/workloads-compute-identity-and-risk",
+      "library": "Digital Infrastructures",
+      "shelf": "Data Centers",
+      "chapters": 6
+    },
+    {
+      "name": "World Literature Survey (Anthology & Analysis)",
+      "path": "k/the-arts/literary-arts/world-literature-survey-anthology-and-analysis",
+      "library": "The Arts",
+      "shelf": "Literary Arts",
+      "chapters": 10
+    },
+    {
+      "name": "World Theatre Traditions (Non-Western Performance)",
+      "path": "k/the-arts/performing-arts/world-theatre-traditions-non-western-performance",
+      "library": "The Arts",
+      "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Wyoming",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/wyoming",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 2
+    },
+    {
+      "name": "Wyoming",
+      "path": "c/us-house-2026-complete/2026-states/wyoming",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
+    },
+    {
+      "name": "Wyoming",
+      "path": "c/us-senate-2026-complete/class-2-regular-elections/wyoming",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Class 2 Regular Elections",
+      "chapters": 2
+    },
+    {
+      "name": "Wyoming",
+      "path": "g/us-geography/states-and-territories/wyoming",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
+    },
+    {
+      "name": "Yemen",
+      "path": "g/asia/countries/yemen",
+      "library": "Asia",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Zambia",
+      "path": "g/africa/countries/zambia",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Zimbabwe",
+      "path": "g/africa/countries/zimbabwe",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Zoology and Animal Behavior",
+      "path": "k/the-sciences/life-sciences/zoology-and-animal-behavior",
+      "library": "The Sciences",
+      "shelf": "Life Sciences",
+      "chapters": 10
+    }
+  ]
+}

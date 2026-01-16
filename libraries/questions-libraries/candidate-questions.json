@@ -3,15 +3,14 @@
   "recommended_questions": [
     "Who is this person?",
     "Who funds this candidate's campaign, and in what approximate amounts?",
-    "What conflicts of interest exist between this candidate's public role and their financial, business, or personal ties?",
-    "Does this candidate have a criminal record, history of bankruptcy, or other significant legal issues that voters should understand?",
-    "What major controversies, scandals, or ethical concerns have surrounded this candidate?",
-    "What demonstrably false or materially misleading public claims has this candidate made in the last 30 days, based on verifiable reporting and primary-source evidence?",
-    "What is this candidate's long-term record of truthfulness, accuracy, and public credibility?",
-    "Who materially or politically benefits the most if this candidate wins?",
-    "Who is most likely to be harmed, excluded, or disadvantaged by this candidate's agenda?",
+    "What demonstrably false or materially misleading public claims has this candidate made in the last 30 days?",
     "What does this candidate's social media history reveal about their priorities, behavior, and public conduct?",
-    "What are this candidate's core policy positions explained in plain, non-technical language?",
-    "What office is this candidate seeking, and what formal powers and responsibilities come with that office?"
+    "What major controversies, scandals, or ethical concerns have surrounded this candidate?",
+    "Does this candidate have a criminal record, history of bankruptcy, or other significant legal issues that voters should understand?",
+    "What conflicts of interest exist between this candidate's public role and their financial, business, or personal ties?",
+    "What is this candidate's long-term record of truthfulness, accuracy, and public credibility?",
+    "Who materially or politically benefits the most from this candidate's agenda?",
+    "Who is most likely to be harmed, excluded, or disadvantaged by this candidate's agenda?",
+    "What are this candidate's core policy positions explained in plain, non-technical language?"
   ]
 }

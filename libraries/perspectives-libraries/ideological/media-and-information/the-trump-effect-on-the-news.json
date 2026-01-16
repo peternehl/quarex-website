@@ -1,0 +1,129 @@
+{
+  "name": "The Trump Effect on the News",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The 'Fake News' Revolution",
+      "topics": [
+        "How did Trump weaponize the term 'fake news' when it originally targeted him?",
+        "Why do supporters and critics hear completely different things when Trump says 'fake news'?",
+        "Has the 'fake news' label made people more skeptical of media—or just their opponents' media?",
+        "What happens to democracy when a president tells citizens not to believe what they see and hear?",
+        "How do other world leaders now use 'fake news' to silence their own press?"
+      ],
+      "tags": ["media", "propaganda", "journalism", "trump"]
+    },
+    {
+      "name": "The Cable News Transformation",
+      "topics": [
+        "Did CNN become more partisan because of Trump, or did Trump expose existing bias?",
+        "How did Fox News evolve from ally to enemy and back during the Trump era?",
+        "Why did cable news ratings soar under Trump—and what does that say about us?",
+        "Is the 24-hour outrage cycle a Trump creation or did he just master it?",
+        "What happened to journalists who tried to cover Trump neutrally?"
+      ],
+      "tags": ["media", "bias", "journalism", "us-politics"]
+    },
+    {
+      "name": "Twitter, Truth Social, and the Direct Pipeline",
+      "topics": [
+        "How did Trump's Twitter feed change what counts as 'news'?",
+        "Why did traditional media feel obligated to cover every tweet?",
+        "What was lost when journalists no longer served as gatekeepers?",
+        "Did Trump's social media dominance prove mainstream media was obsolete—or essential?",
+        "How has Truth Social changed the information ecosystem compared to Twitter?",
+        "What happens when a president can reach 90 million people without press filters?"
+      ],
+      "tags": ["media", "communication", "social-media", "platforms"]
+    },
+    {
+      "name": "The Access vs. Accountability Dilemma",
+      "topics": [
+        "Should journalists have attended White House dinners while covering Trump critically?",
+        "Why did some reporters get banned while others got exclusive access?",
+        "Did the press corps normalize Trump by following traditional protocols?",
+        "How do you cover a president who lies at unprecedented rates without becoming 'the opposition'?",
+        "What's the real cost of losing White House access—and is it worth paying?"
+      ],
+      "tags": ["media", "accountability", "journalism", "executive-power"]
+    },
+    {
+      "name": "The Business of Trump Coverage",
+      "topics": [
+        "Did media outlets secretly love Trump because he was good for ratings?",
+        "How much free coverage did Trump receive in 2016—and did it hand him the election?",
+        "Why did newspapers gain subscribers while local news collapsed during the Trump era?",
+        "Is 'Trump Bump' journalism sustainable, or did it create perverse incentives?",
+        "Who profited most from the Trump media wars?",
+        "Why did 2024 coverage treat Trump's threats to democracy as routine campaign rhetoric?",
+        "How did 'sanewashing' normalize increasingly extreme Trump statements?",
+        "Did media learn nothing from 2016—or did they learn the wrong lessons?",
+        "Why did outlets cover Biden's age relentlessly while downplaying Trump's cognitive lapses?",
+        "What role did false equivalence play in making authoritarianism seem like just another policy position?",
+        "How did the business pressure for 'a close race' distort 2024 coverage?"
+      ],
+      "tags": ["economics", "influence", "journalism", "elections"]
+    },
+    {
+      "name": "Presidential War on the Press",
+      "topics": [
+        "How did Trump turn regulatory leverage into a weapon against media companies?",
+        "Why did CBS and ABC settle lawsuits that legal experts called 'frivolous'?",
+        "What happens when media companies need government approval while being sued by the government?",
+        "Is $55+ billion in lawsuits against journalists a free speech crisis or legitimate grievance?",
+        "How does threatening broadcast licenses differ from any previous president's media conflicts?",
+        "Why did the FCC shift from defending press freedom to supporting Trump's revocation threats?",
+        "What message does the Kimmel suspension send to other Trump critics in media?",
+        "How did defunding PBS and NPR fit into the broader assault on independent journalism?",
+        "Are we witnessing the end of adversarial journalism in America?"
+      ],
+      "tags": ["media", "free-speech", "journalism", "constitutional-law"]
+    },
+    {
+      "name": "Polarization and the Two Realities",
+      "topics": [
+        "Can Americans who watch different news channels even agree on basic facts anymore?",
+        "How did Trump accelerate the trend of partisan media consumption?",
+        "What does it mean that Trump supporters and opponents literally see different news?",
+        "Is media polarization a cause or effect of political polarization?",
+        "Can any news source be trusted by both sides—and should that even be the goal?"
+      ],
+      "tags": ["media", "epistemology", "journalism", "us-politics"]
+    },
+    {
+      "name": "Journalism's Identity Crisis",
+      "topics": [
+        "Should journalists call lies 'lies' or maintain neutral language?",
+        "Did the Trump era kill 'both sides' journalism—or prove we need more of it?",
+        "How did newsrooms struggle with reporters expressing political views?",
+        "Is objectivity still possible when one side rejects the legitimacy of journalism itself?",
+        "What do young journalists learn from covering the Trump era?",
+        "Has advocacy journalism replaced traditional reporting—and is that better or worse?"
+      ],
+      "tags": ["ethics", "bias", "journalism", "media-literacy"]
+    },
+    {
+      "name": "International Perspectives",
+      "topics": [
+        "How does foreign media cover Trump compared to American outlets?",
+        "Why do international journalists see American media coverage so differently?",
+        "What can American news learn from how other democracies covered their populists?",
+        "Did American media's Trump obsession distort international news coverage?",
+        "How do authoritarian governments use Trump's media attacks to justify their own?"
+      ],
+      "tags": ["media", "globalization", "journalism", "geopolitics"]
+    },
+    {
+      "name": "The Legacy and Ongoing Impact",
+      "topics": [
+        "Has journalism permanently changed because of the Trump era?",
+        "Will trust in media ever recover—and should it?",
+        "How do news organizations cover Trump differently in his second term?",
+        "What lessons did media learn—and which mistakes are they repeating?",
+        "Is the Trump effect on news a warning or a new normal?",
+        "How should consumers navigate news in the post-Trump media landscape?"
+      ],
+      "tags": ["media", "legacy", "journalism", "democracy"]
+    }
+  ]
+}

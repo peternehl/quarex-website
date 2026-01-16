@@ -23,7 +23,7 @@
 (hack|breach|exploit).{0,20}(bank|government|password|database)
 (steal|forge).{0,20}(identity|credit card|ssn|social security)
 (ransomware|malware).{0,20}(create|deploy|spread)
-(create|build|make).{0,20}(ransomware|malware|virus|trojan)
+(create|build|make).{0,20}(ransomware|malware|computer virus|trojan)
 
 # === SELF-HARM ===
 (how to|methods for).{0,20}(suicide|kill myself|end my life)

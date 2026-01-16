@@ -1,0 +1,211 @@
+{
+  "name": "Job Seeker Interviewing Tutorial",
+  "created_by": "Peter Nehl, Claude Opus 4.5, and ChatGPT 5.2",
+  "chapters": [
+    {
+      "name": "What Hiring Managers Actually Decide",
+      "topics": [
+        "What are interviewers really evaluating besides my skills?",
+        "How do I tailor my approach for entry-level vs senior roles?",
+        "What does 'culture fit' mean--and how can I address it without faking it?",
+        "How do hiring teams make decisions when candidates seem equally qualified?",
+        "What are common red flags that eliminate candidates early?",
+        "How do I avoid overthinking and focus on what matters most?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "labor", "leadership"]
+    },
+    {
+      "name": "Clarify Your Target: Role, Level, and Story",
+      "topics": [
+        "How do I pick the right job titles when listings use different wording?",
+        "What's the fastest way to identify my 'level' for a role and pay band?",
+        "How do I explain a career change without sounding unfocused?",
+        "What's my one-minute professional story and how do I craft it?",
+        "How do I handle gaps in employment confidently and honestly?",
+        "How do I decide whether to pursue full-time, contract, or gig work?"
+      ],
+      "tags": ["economics", "communication", "labor", "writing"]
+    },
+    {
+      "name": "Research Like a Pro",
+      "topics": [
+        "What information should I collect about a company before interviewing?",
+        "How do I decode a job posting to predict interview questions?",
+        "How can I research the interviewer without being creepy?",
+        "What questions help me detect a toxic workplace early?",
+        "How do I learn the 'real priorities' of a role from public clues?",
+        "How do I research pay ranges reliably for my area and level?"
+      ],
+      "tags": ["economics", "critical-thinking", "labor", "source-evaluation"]
+    },
+    {
+      "name": "Your Materials: Resume, Portfolio, and References",
+      "topics": [
+        "How do I tailor my resume fast without rewriting everything?",
+        "What does an ATS-friendly resume actually look like in 2026?",
+        "What belongs in a portfolio for non-creative jobs and trades?",
+        "How do I quantify impact if my past work wasn't measured?",
+        "What should I prepare for references--and when do I offer them?",
+        "How do I present certifications, licenses, and safety training effectively?"
+      ],
+      "tags": ["economics", "communication", "labor", "writing"]
+    },
+    {
+      "name": "Applications and Outreach",
+      "topics": [
+        "When should I apply online vs reach out to a person first?",
+        "How do I write a short outreach message that gets replies?",
+        "What should I include in a cover letter and when should I skip it?",
+        "How do recruiters work--and what do they need from me?",
+        "How do I follow up without annoying people?",
+        "How do I keep track of applications without a complicated system?"
+      ],
+      "tags": ["economics", "communication", "labor", "negotiation"]
+    },
+    {
+      "name": "Screening Calls and First Contact",
+      "topics": [
+        "How do I answer 'Tell me about yourself' without rambling?",
+        "What are the best ways to discuss salary expectations early?",
+        "How do I explain why I'm leaving my current job diplomatically?",
+        "What questions should I ask a recruiter on the first call?",
+        "How do I handle a surprise phone screen when I'm unprepared?",
+        "What should I do immediately after the call to improve my odds?"
+      ],
+      "tags": ["economics", "communication", "labor", "negotiation"]
+    },
+    {
+      "name": "Behavioral Interviews: Stories That Prove You Can Do the Job",
+      "topics": [
+        "What's the STAR method and how do I build stories that cover most questions?",
+        "How do I answer 'What's your biggest weakness?' credibly?",
+        "How should I respond to 'Tell me about a conflict with a coworker'?",
+        "How do I talk about failures without hurting my candidacy?",
+        "How do I show leadership if I've never been a manager?",
+        "How do I answer behavioral questions when I have limited experience?"
+      ],
+      "tags": ["psychology", "communication", "behavioral-psychology", "leadership"]
+    },
+    {
+      "name": "Technical and Skills Interviews",
+      "topics": [
+        "How do I figure out what skills they'll actually test me on?",
+        "How do I prepare for a skills test or practical demonstration?",
+        "How do I think out loud during problem-solving without sounding lost?",
+        "What should I do if I blank out or get stuck during a technical question?",
+        "How do I showcase skills I've learned informally or am self-taught?",
+        "How do I evaluate whether a take-home assignment is reasonable?"
+      ],
+      "tags": ["technology", "methodology", "software-engineering", "computer-science"]
+    },
+    {
+      "name": "Blue Collar and Trades Interviews",
+      "topics": [
+        "How are skilled trades interviews different from office jobs?",
+        "What should I bring to demonstrate my hands-on abilities?",
+        "How do I discuss safety record and compliance history credibly?",
+        "What questions reveal whether a job site is well-managed?",
+        "How do I talk about physical demands, schedules, and shift flexibility?",
+        "What red flags should I watch for in trades employment?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "labor", "engineering"]
+    },
+    {
+      "name": "Contract and Freelance Interviews",
+      "topics": [
+        "How is interviewing for contract work different from permanent roles?",
+        "What should I ask about contract terms and extensions?",
+        "How do I present a portfolio of past contract work?",
+        "What rate negotiation strategies work for contractors?",
+        "How do I address concerns about my commitment to short-term roles?",
+        "What contract terms matter most--non-compete, IP, termination?"
+      ],
+      "tags": ["economics", "finance", "labor", "personal-finance"]
+    },
+    {
+      "name": "Remote, Video, and Panel Interviews",
+      "topics": [
+        "How do I set up my camera, audio, and background for a professional look?",
+        "What's the best way to manage notes during a video interview?",
+        "How do I handle panel interviews when questions come fast from multiple people?",
+        "How do I recover when I talk over someone or get interrupted?",
+        "What questions should I ask different interviewers in a panel?",
+        "How do I handle time zone confusion and scheduling mistakes gracefully?"
+      ],
+      "tags": ["technology", "communication", "digital-life", "user-experience"]
+    },
+    {
+      "name": "Questions to Ask the Interviewer",
+      "topics": [
+        "What questions reveal whether I'll succeed in this role in 90 days?",
+        "How do I ask about management style without sounding difficult?",
+        "How can I probe workload and work-life balance tactfully?",
+        "What questions help me evaluate team health and turnover risk?",
+        "How do I ask about growth, training, and promotion paths?",
+        "How do I close the interview in a way that increases my chances?"
+      ],
+      "tags": ["economics", "critical-thinking", "labor", "leadership"]
+    },
+    {
+      "name": "Professional Presence and First Impressions",
+      "topics": [
+        "What should I wear when the dress code isn't specified?",
+        "How early should I arrive and what do I do while waiting?",
+        "What body language signals confidence without arrogance?",
+        "How do I recover from a nervous or awkward start?",
+        "What small talk is appropriate before the interview begins?",
+        "How do I make a strong impression in the first 30 seconds?"
+      ],
+      "tags": ["psychology", "communication", "behavioral-psychology", "sociology"]
+    },
+    {
+      "name": "Salary Negotiation and Benefits",
+      "topics": [
+        "When is the right time to discuss compensation?",
+        "How do I research what salary to ask for?",
+        "How do I compare total compensation instead of just base salary?",
+        "How do I counter a lowball offer without seeming greedy?",
+        "Should I reveal my current or previous salary?",
+        "What benefits should I negotiate beyond base pay?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "negotiation"]
+    },
+    {
+      "name": "After the Interview",
+      "topics": [
+        "What should a good thank-you email say and when should I send it?",
+        "How long should I wait before following up?",
+        "What does it mean when I don't hear back for weeks?",
+        "How do I handle a rejection professionally?",
+        "When is it appropriate to ask for feedback--and how do I phrase it?",
+        "How do I evaluate an offer before accepting?"
+      ],
+      "tags": ["economics", "communication", "labor", "writing"]
+    },
+    {
+      "name": "Handling Rejection and Building Confidence",
+      "topics": [
+        "How do I interpret a rejection without blaming myself or them?",
+        "How do I improve between interviews using a simple debrief method?",
+        "How do I keep momentum when I feel burned out by job searching?",
+        "What signs tell me my strategy is wrong vs my timing is just bad?",
+        "How do I rebuild confidence after a bad interview?",
+        "What's the right mindset for a long job search?"
+      ],
+      "tags": ["psychology", "mental-health", "behavioral-psychology", "cognition"]
+    },
+    {
+      "name": "Special Circumstances",
+      "topics": [
+        "How do I interview while currently employed without getting caught?",
+        "What accommodations can I request for disabilities--and how?",
+        "How do I handle interviews in a second language?",
+        "What should career changers emphasize in interviews?",
+        "How do I address a criminal record if asked?",
+        "What's different about interviewing after age 50?",
+        "How do I respond to illegal or inappropriate questions?"
+      ],
+      "tags": ["society", "human-rights", "accessibility", "civil-rights"]
+    }
+  ]
+}
