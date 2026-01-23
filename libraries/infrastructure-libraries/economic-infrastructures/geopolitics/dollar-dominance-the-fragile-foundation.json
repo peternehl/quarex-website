@@ -1,0 +1,179 @@
+{
+  "book": "Dollar Dominance: The Fragile Foundation",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The Exorbitant Privilege",
+      "topics": [
+        "Why do countries hoard dollars they never plan to spend?",
+        "How did the dollar become the world's default currency after World War II?",
+        "What was the petrodollar deal and does it still hold?",
+        "How much does the US Dollar reserve currency status benefit Americans?",
+        "Why can the US run deficits that would bankrupt other nations?",
+        "What makes a currency 'trustworthy' enough to hold as reserves?"
+      ],
+      "tags": ["economics", "finance", "monetary-policy", "trade"]
+    },
+    {
+      "name": "The Fragility Factors",
+      "topics": [
+        "At $38 trillion in debt, when does borrowing become unsustainable?",
+        "What happens when the US 'weaponizes' the dollar through sanctions?",
+        "Why did freezing Russia's reserves alarm central banks worldwide?",
+        "What is SWIFT and why are countries racing to build alternatives?",
+        "How do trade wars and tariffs erode currency confidence?",
+        "What are the early warning signs that reserve status is slipping?"
+      ],
+      "tags": ["economics", "finance", "sanctions", "monetary-policy"]
+    },
+    {
+      "name": "False Alarm vs Real Signal",
+      "topics": [
+        "Which dollar-decline warnings have appeared repeatedly without consequence?",
+        "How do we distinguish noise from regime change?",
+        "Why most 'de-dollarization' headlines are overstated",
+        "What would not cause reserve status loss, despite headlines?",
+        "Why did past predictions of dollar collapse fail to materialize?",
+        "What structural factors make the dollar more resilient than critics assume?"
+      ],
+      "tags": ["economics", "finance", "media-literacy", "critical-thinking"]
+    },
+    {
+      "name": "The Greenland Catalyst",
+      "topics": [
+        "Why would European allies consider abandoning the dollar over an Arctic island?",
+        "What did Denmark's Prime Minister mean by 'the end of NATO'?",
+        "How does threatening allies undermine the currency they hold?",
+        "Why are European troops now deployed to Greenland?",
+        "What's the connection between military alliances and currency trust?",
+        "Could a single act of territorial aggression trigger financial realignment?"
+      ],
+      "tags": ["politics", "diplomacy", "nato", "europe"]
+    },
+    {
+      "name": "The Trump Effect: Tariffs, Greenland, and Fed Attacks",
+      "topics": [
+        "How do Trump's tariffs used as a cudgel undermine dollar trust?",
+        "What happens when allies can no longer predict US economic policy under Trump?",
+        "Why does Trump's pressure on the Federal Reserve threaten currency credibility?",
+        "How do Trump's threats against NATO members accelerate dollar alternatives?",
+        "What message does Trump's Greenland seizure threat send to countries holding dollar reserves?",
+        "Why does Trump's 'America First' trade policy accelerate 'Dollar Last' currency shifts?",
+        "How does Trump's attacks on institutional independence erode reserve currency status?",
+        "What's the difference between strategic unpredictability and Trump's chaotic policy reversals?",
+        "Why does the cumulative effect of Trump's tariffs, Greenland threats, and Fed attacks matter more than any single action?",
+        "How do allies and rivals interpret Trump's pattern of institutional attacks versus isolated incidents?",
+        "At what point does Trump's transactional diplomacy become transactional currency flight?"
+      ],
+      "tags": ["politics", "us-politics", "trade", "monetary-policy"]
+    },
+    {
+      "name": "Europe's Dollar Alternative",
+      "topics": [
+        "Is Europe actually building a replacement for dollar dominance?",
+        "Why did the dollar have its worst performance since 1991?",
+        "What did the ECB President mean when she linked currency to 'hard power'?",
+        "What is the digital euro and why does it threaten dollar stablecoins?",
+        "How does European defense spending connect to currency ambitions?",
+        "What's stopping the euro from becoming a true reserve alternative?"
+      ],
+      "tags": ["economics", "finance", "european-union", "monetary-policy"]
+    },
+    {
+      "name": "China's Long Game",
+      "topics": [
+        "Why has China cut its US Treasury holdings by nearly half?",
+        "Why can't China just dump all its dollars at once?",
+        "How much gold does China really have — and why are official numbers suspect?",
+        "What is mBridge and why should Americans care?",
+        "Is China trying to replace the dollar or just reduce its exposure?",
+        "How does the Belt and Road Initiative advance yuan internationalization?"
+      ],
+      "tags": ["economics", "globalization", "asia", "trade"]
+    },
+    {
+      "name": "The BRICS Challenge",
+      "topics": [
+        "What are BRICS nations actually building to bypass the dollar?",
+        "Could a BRICS currency ever rival the dollar?",
+        "Why are Saudi Arabia and UAE joining dollar-alternative projects?",
+        "What is BRICS Clear and how would it work?",
+        "How do bilateral currency deals chip away at dollar dominance?",
+        "Is de-dollarization a coordinated strategy or parallel self-interest?"
+      ],
+      "tags": ["economics", "globalization", "trade", "geopolitics"]
+    },
+    {
+      "name": "Invalidation Thresholds",
+      "topics": [
+        "What measurable signals would indicate reserve status is no longer self-reinforcing?",
+        "What percentage of global trade settlement outside dollars would trigger nonlinear effects?",
+        "At what Treasury auction failure rate does confidence shift from concern to flight?",
+        "What alliance rupture would markets treat as irreversible?",
+        "How much gold accumulation by rivals signals genuine dollar hedging vs routine diversification?",
+        "What debt-to-GDP ratio historically precedes currency crises?"
+      ],
+      "tags": ["economics", "finance", "data-analytics", "risk-assessment"]
+    },
+    {
+      "name": "Historical Precedent",
+      "topics": [
+        "How did the British pound lose its reserve currency status?",
+        "What role did the Suez Crisis play in ending sterling dominance?",
+        "How long did Britain's currency decline actually take?",
+        "Could dollar decline happen faster in the digital age?",
+        "What parallels exist between imperial overreach and currency collapse?",
+        "Has any nation ever recovered reserve status once lost?"
+      ],
+      "tags": ["history", "legacy", "modern-history", "europe"]
+    },
+    {
+      "name": "Consequences for Americans",
+      "topics": [
+        "How would ordinary Americans feel dollar decline in daily life?",
+        "What happens to mortgage rates if US borrowing costs spike?",
+        "Could America still afford its military without cheap borrowing?",
+        "What happens to Social Security if interest payments crowd out spending?",
+        "Are there any benefits to losing reserve currency status?",
+        "How would import prices change if dollar dominance erodes?"
+      ],
+      "tags": ["economics", "finance", "fiscal-policy", "us-politics"]
+    },
+    {
+      "name": "The AI Wild Card",
+      "topics": [
+        "Could AI agents make reserve currency status irrelevant?",
+        "What happens when algorithms can seamlessly convert between currencies in real-time?",
+        "Who controls the AI infrastructure that settles global trade?",
+        "Is frictionless currency interoperability better than a messy geopolitical transition?",
+        "What new risks emerge when no single currency anchors global trade?",
+        "Could AI-driven settlement be the peaceful off-ramp from dollar dominance?"
+      ],
+      "tags": ["economics", "technology", "ai-ml", "globalization"]
+    },
+    {
+      "name": "Worst Case Scenario",
+      "topics": [
+        "What if China and Europe dump Treasuries simultaneously?",
+        "How fast could hyperinflation hit if confidence collapses?",
+        "What happens to global supply chains if the dollar loses reserve status overnight?",
+        "Could the US military sustain operations without cheap borrowing?",
+        "What does a currency crisis look like for ordinary Americans — bank runs, empty shelves?",
+        "Has any major currency ever collapsed this quickly?"
+      ],
+      "tags": ["economics", "finance", "monetary-policy", "geopolitics"]
+    },
+    {
+      "name": "The Path Forward",
+      "topics": [
+        "What would it take for America to secure the dollar's future?",
+        "Can fiscal responsibility restore currency confidence?",
+        "Does treating allies as partners rather than targets matter for currency?",
+        "Is a multipolar currency world inevitable — or preventable?",
+        "What are the risks of a disorderly transition away from dollar dominance?",
+        "Could the US benefit from a managed decline in reserve status?"
+      ],
+      "tags": ["politics", "governance", "fiscal-policy", "geopolitics"]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "book": "The Ungovernable Economy: How Billionaire AI Could Break Global Finance",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The New Gilded Age",
+      "topics": [
+        "How does current wealth concentration compare to any period in history?",
+        "At what point does individual wealth become nation-state scale?",
+        "What's the difference between paper wealth and deployable financial power?",
+        "Why has wealth concentration accelerated faster than GDP growth?",
+        "Why do traditional antitrust frameworks fail to address modern concentration?"
+      ],
+      "tags": ["economics", "inequality", "finance", "modern-history"]
+    },
+    {
+      "name": "Who Owns the AI Infrastructure",
+      "topics": [
+        "Which billionaires control the foundational AI companies and cloud platforms?",
+        "How concentrated is ownership of GPU compute capacity globally?",
+        "What happens when the same people own AI labs, cloud platforms, and financial assets?",
+        "How does vertical integration from chips to applications create systemic risk?",
+        "Who controls the training data that shapes AI behavior?",
+        "Could a handful of actors effectively control artificial general intelligence?"
+      ],
+      "tags": ["technology", "infrastructure", "ai-ml", "cloud-computing"]
+    },
+    {
+      "name": "AI-Driven Market Dynamics",
+      "topics": [
+        "What percentage of market trades are already algorithm-driven?",
+        "How do AI agents interact with each other in ways humans can't predict?",
+        "What's the difference between algorithmic trading and AI-autonomous trading?",
+        "How do correlated AI strategies amplify market movements?",
+        "Why do circuit breakers fail when multiple AI systems trigger simultaneously?",
+        "What's a 'liquidity black hole' and how do AI systems create them?",
+        "Why can't regulators keep pace with AI-driven financial innovation?"
+      ],
+      "tags": ["economics", "finance", "ai-ml", "algorithms"]
+    },
+    {
+      "name": "Pathways to Crisis: Coordination vs Emergence",
+      "topics": [
+        "Could billionaires coordinate asset movements without explicit communication?",
+        "What's the difference between parallel self-interest and conspiracy?",
+        "How might AI systems discover and exploit the same vulnerabilities simultaneously?",
+        "Could shared AI infrastructure create unintentional coordination?",
+        "How do complex systems fail in ways individual components don't predict?",
+        "What happens when AI optimization objectives conflict with financial stability?",
+        "Could an AI 'discover' a profitable strategy that destroys the market it trades in?"
+      ],
+      "tags": ["economics", "complexity", "ai-ml", "algorithms"]
+    },
+    {
+      "name": "Historical Precedents",
+      "topics": [
+        "How did Morgan and Rockefeller's concentration contribute to the Panic of 1907?",
+        "What parallels exist between pre-1929 concentration and today?",
+        "How did Long-Term Capital Management nearly crash the global economy in 1998?",
+        "Why did the 2008 crisis prove 'too big to fail' was real?",
+        "How fast did historical crises cascade before electronic trading?",
+        "Has any previous concentration of private power matched current levels?"
+      ],
+      "tags": ["history", "finance", "modern-history", "economics-theory"]
+    },
+    {
+      "name": "Infrastructure Chokepoints",
+      "topics": [
+        "What happens if AWS, Azure, and Google Cloud experience simultaneous failures?",
+        "How dependent is global finance on a handful of cloud providers?",
+        "Why does NVIDIA's dominance in AI chips create a single point of failure?",
+        "Why can't financial systems quickly migrate away from dominant providers?",
+        "Could infrastructure control become a form of financial weapon?",
+        "What happens when payment systems, trading platforms, and AI all share infrastructure?"
+      ],
+      "tags": ["technology", "infrastructure", "cloud-computing", "data-centers"]
+    },
+    {
+      "name": "Regulatory Failure",
+      "topics": [
+        "Why don't financial regulators understand the AI systems they oversee?",
+        "How do regulatory silos miss risks that span technology and finance?",
+        "Why is there no global regulator for AI-driven financial systems?",
+        "How does regulatory capture prevent oversight of the ultra-wealthy?",
+        "What would effective AI-finance regulation even look like?",
+        "Why did regulators miss obvious warning signs before 2008?"
+      ],
+      "tags": ["politics", "regulation", "ai-policy", "governance"]
+    },
+    {
+      "name": "From Trigger to Cascade",
+      "topics": [
+        "What events could trigger coordinated billionaire asset exit?",
+        "How might geopolitical crisis interact with AI-driven financial systems?",
+        "What would a financial singularity actually look like in real-time?",
+        "How fast could global markets collapse if AI systems moved together?",
+        "Could governments intervene fast enough to stop an AI-accelerated crash?",
+        "What does 'too fast to save' mean in an AI-driven crisis?"
+      ],
+      "tags": ["economics", "complexity", "geopolitics", "ai-ml"]
+    },
+    {
+      "name": "Winners and Losers",
+      "topics": [
+        "Who profits from financial chaos they help create?",
+        "How do billionaires hedge against crises their systems might cause?",
+        "What happens to pension funds and retirement savings in a singularity event?",
+        "How does crisis accelerate wealth transfer to those with liquidity?",
+        "Why might billionaires with infrastructure control emerge stronger from collapse?",
+        "Who owns hard assets when paper wealth evaporates?"
+      ],
+      "tags": ["economics", "inequality", "finance", "personal-finance"]
+    },
+    {
+      "name": "The Benign Scenario",
+      "topics": [
+        "Why might wealth concentration and AI not cause financial catastrophe?",
+        "What self-correcting mechanisms exist in current financial systems?",
+        "How do billionaires' own interests align with systemic stability?",
+        "Why might competitive dynamics among tech billionaires prevent coordination?",
+        "What historical predictions of concentration catastrophe failed to materialize?",
+        "Could AI systems learn to prevent rather than cause crashes?"
+      ],
+      "tags": ["economics", "critical-thinking", "finance", "ai-ml"]
+    },
+    {
+      "name": "Early Warning Signs",
+      "topics": [
+        "What measurable signals would indicate a financial singularity is approaching?",
+        "How can billionaire asset movements be tracked in near-real-time?",
+        "What AI behavior patterns should regulators monitor?",
+        "What market indicators preceded previous crashes — would they work today?",
+        "How much warning time would we realistically have?",
+        "What role could independent AI monitoring play in detection?"
+      ],
+      "tags": ["economics", "analysis", "data-analytics", "ai-ml"]
+    },
+    {
+      "name": "Policy Responses",
+      "topics": [
+        "Should there be wealth caps or concentration limits for systemic stability?",
+        "How could AI trading systems be required to include stability constraints?",
+        "Should critical AI infrastructure be treated as public utilities?",
+        "How could transaction taxes slow AI-driven market movements?",
+        "What international coordination would effective regulation require?",
+        "What emergency powers should governments have over AI financial systems?"
+      ],
+      "tags": ["politics", "regulation", "ai-policy", "fiscal-policy"]
+    },
+    {
+      "name": "National Defense Strategies",
+      "topics": [
+        "How are nations diversifying away from US tech and dollar dependence?",
+        "Should nations build independent AI and financial infrastructure?",
+        "How do sovereign wealth funds hedge against concentration risk?",
+        "What does China's parallel infrastructure strategy reveal about the risk?",
+        "How might regional currency blocs insulate from dollar-denominated collapse?",
+        "What role do central bank digital currencies play in national resilience?"
+      ],
+      "tags": ["politics", "security", "geopolitics", "monetary-policy"]
+    },
+    {
+      "name": "The Normie's Survival Guide",
+      "topics": [
+        "What practical steps can ordinary people take before a financial singularity?",
+        "How much cash should households keep accessible outside the banking system?",
+        "What role do physical precious metals play versus paper gold and ETFs?",
+        "How does geographic diversification of assets protect against localized collapse?",
+        "What essential supplies matter when payment systems fail for days or weeks?",
+        "How do community networks and local relationships provide resilience?",
+        "What skills become valuable when digital systems are unreliable?",
+        "How should retirement accounts be positioned against systemic risk?",
+        "What's the difference between panic prepping and prudent preparation?",
+        "How do you protect assets without triggering tax penalties or liquidity traps?"
+      ],
+      "tags": ["economics", "critical-thinking", "personal-finance", "preparedness"]
+    },
+    {
+      "name": "Connection to Dollar Dominance",
+      "topics": [
+        "How does billionaire dollar-asset concentration affect reserve currency stability?",
+        "Could coordinated billionaire exit accelerate dollar decline?",
+        "Why might AI-driven currency trading amplify dollar volatility?",
+        "How does tech billionaires' attitude toward government affect dollar confidence?",
+        "Could billionaire-controlled AI systems pick currency winners and losers?",
+        "Why might a financial singularity and dollar collapse occur together?"
+      ],
+      "tags": ["economics", "globalization", "monetary-policy", "geopolitics"]
+    },
+    {
+      "name": "After the Singularity",
+      "topics": [
+        "What financial system emerges after a concentration-driven collapse?",
+        "Would crisis lead to more or less regulation of wealth and AI?",
+        "How might nations restructure economies after global financial failure?",
+        "What role would billionaires play in rebuilding — or would they be constrained?",
+        "How long would global economic recovery realistically take?",
+        "Could a financial singularity ultimately produce a more stable system?"
+      ],
+      "tags": ["economics", "governance", "geopolitics", "fiscal-policy"]
+    }
+  ]
+}

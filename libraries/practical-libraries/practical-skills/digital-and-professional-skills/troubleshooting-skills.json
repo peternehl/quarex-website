@@ -1,0 +1,193 @@
+{
+  "name": "Troubleshooting Skills",
+  "created_by": "Peter Nehl and ChatGPT 5.2",
+  "description": "A practical and cognitive framework for diagnosing, isolating, and resolving problems across technical, organizational, and human systems. This book emphasizes structured reasoning, evidence-based investigation, and disciplined exploration when certainty is no longer available.",
+  "tags": [
+    "psychology",
+    "critical-thinking",
+    "research-methods",
+    "engineering"
+  ],
+  "chapters": [
+    {
+      "name": "What Is Troubleshooting, Really?",
+      "topics": [
+        "Why is troubleshooting fundamentally a thinking skill?",
+        "What separates disciplined troubleshooting from guesswork?",
+        "Why do intelligent people often troubleshoot poorly under pressure?",
+        "How does troubleshooting differ from debugging, repair, or optimization?",
+        "Why is defining the problem often harder than solving it?"
+      ],
+      "tags": [
+        "psychology",
+        "critical-thinking",
+        "research-methods",
+        "cognitive-bias"
+      ]
+    },
+    {
+      "name": "Defining the Problem Correctly",
+      "topics": [
+        "What does a well-defined problem actually look like?",
+        "Why are symptoms so often mistaken for root causes?",
+        "How can reframing the problem expose hidden solutions?",
+        "What questions must be answered before changing anything?",
+        "How does scope creep undermine effective troubleshooting?"
+      ],
+      "tags": [
+        "psychology",
+        "critical-thinking",
+        "logical-fallacies",
+        "research-methods"
+      ]
+    },
+    {
+      "name": "Hypothesis-Driven Troubleshooting",
+      "topics": [
+        "What makes a hypothesis testable in real systems?",
+        "How do you narrow a large problem space efficiently?",
+        "Why should every troubleshooting step aim to disprove something?",
+        "How do you rank hypotheses by likelihood and impact?",
+        "What does a failed hypothesis actually teach you?"
+      ],
+      "tags": [
+        "science",
+        "methodology",
+        "scientific-method",
+        "research-methods"
+      ]
+    },
+    {
+      "name": "Isolation and Elimination Techniques",
+      "topics": [
+        "Why is isolation the core skill of troubleshooting?",
+        "How does binary isolation outperform linear inspection?",
+        "What role do known-good baselines play?",
+        "When is removal more informative than inspection?",
+        "How can environmental isolation reveal non-obvious causes?"
+      ],
+      "tags": [
+        "technology",
+        "methodology",
+        "engineering",
+        "research-methods"
+      ]
+    },
+    {
+      "name": "Stabilization First: Restoring Functionality to Remove Pressure",
+      "topics": [
+        "Why does restoring functionality reduce cognitive and organizational pressure?",
+        "How does pressure distort judgment during critical failures?",
+        "What forms of stabilization restore operation without masking the failure?",
+        "When is rollback or bypass preferable to forward debugging?",
+        "What does 'functional enough' mean when time and risk are constrained?",
+        "How can evidence be preserved while pressure is being reduced?",
+        "When does pressure relief turn into hidden technical debt?"
+      ],
+      "tags": [
+        "technology",
+        "systems-thinking",
+        "engineering",
+        "risk-assessment"
+      ]
+    },
+    {
+      "name": "Human Factors and Cognitive Traps",
+      "topics": [
+        "How does confirmation bias distort troubleshooting decisions?",
+        "Why do experts sometimes overlook obvious failures?",
+        "How does stress impair diagnostic reasoning?",
+        "Why do people fix the last thing they touched?",
+        "How can ego prevent the correct solution from being accepted?"
+      ],
+      "tags": [
+        "psychology",
+        "bias",
+        "cognitive-bias",
+        "behavioral-psychology"
+      ]
+    },
+    {
+      "name": "Documentation, Signals, and Evidence",
+      "topics": [
+        "Why is undocumented troubleshooting unreproducible?",
+        "What distinguishes evidence from noise?",
+        "How do logs mislead as often as they inform?",
+        "Why does absence of evidence still matter?",
+        "How can timelines expose hidden correlations?"
+      ],
+      "tags": [
+        "science",
+        "empiricism",
+        "research-methods",
+        "data-analytics"
+      ]
+    },
+    {
+      "name": "When Fixes Create New Problems",
+      "topics": [
+        "Why do quick fixes often create long-term damage?",
+        "How does troubleshooting differ from system design?",
+        "What is technical debt introduced by emergency repairs?",
+        "When should fixing stop and redesign begin?",
+        "How can post-mortems improve future troubleshooting?"
+      ],
+      "tags": [
+        "technology",
+        "systems-thinking",
+        "engineering",
+        "risk-assessment"
+      ]
+    },
+    {
+      "name": "Becoming a Better Troubleshooter",
+      "topics": [
+        "What habits distinguish elite troubleshooters?",
+        "How can troubleshooting skills be deliberately practiced?",
+        "Why does curiosity matter more than speed?",
+        "How do experienced troubleshooters know when to stop?",
+        "What mindset turns failure into useful data?"
+      ],
+      "tags": [
+        "education",
+        "methodology",
+        "research-methods",
+        "leadership"
+      ]
+    },
+    {
+      "name": "The Infinite Monkey Theory as a Last Resort",
+      "topics": [
+        "What does the Infinite Monkey Theory mean after systematic troubleshooting?",
+        "How does prior knowledge constrain experimental randomness?",
+        "What distinguishes informed exploration from blind trial-and-error?",
+        "How do hypotheses evolve into probabilistic search spaces?",
+        "What safeguards prevent exploratory actions from causing new failures?",
+        "How do you extract insight from an unexpected success?",
+        "When does informed experimentation become a new hypothesis?"
+      ],
+      "tags": [
+        "philosophy",
+        "epistemology",
+        "scientific-method",
+        "research-methods"
+      ]
+    },
+    {
+      "name": "Troubleshooting Across Domains",
+      "topics": [
+        "How do troubleshooting principles apply beyond technology?",
+        "What do medicine, aviation, and engineering share diagnostically?",
+        "How does organizational troubleshooting differ from technical troubleshooting?",
+        "Why do social systems resist clear root causes?",
+        "Can troubleshooting frameworks be explicitly taught?"
+      ],
+      "tags": [
+        "education",
+        "interdisciplinary",
+        "engineering",
+        "medicine"
+      ]
+    }
+  ]
+}

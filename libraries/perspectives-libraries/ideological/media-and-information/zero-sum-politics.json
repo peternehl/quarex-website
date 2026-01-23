@@ -1,0 +1,125 @@
+{
+  "name": "Zero Sum Politics",
+  "description": "How Win/Lose Thinking Fuels Polarization and Democratic Breakdown",
+  "created_by": "Peter Nehl and ChatGPT 5.2",
+  "chapters": [
+    {
+      "name": "What Is Zero-Sum Politics?",
+      "topics": [
+        "What does 'zero-sum' mean in political thinking?",
+        "How is zero-sum politics different from healthy political competition?",
+        "Why does zero-sum framing turn compromise into betrayal?",
+        "When did American politics begin to shift toward zero-sum logic?",
+        "Is zero-sum thinking a strategy, a mindset, or a manipulation?"
+      ],
+      "tags": ["politics", "critical-thinking", "us-politics", "democracy"]
+    },
+    {
+      "name": "From Policy Disagreement to Existential Conflict",
+      "topics": [
+        "How do policy debates become identity wars?",
+        "Why do political losses now feel existential rather than temporary?",
+        "How does fear replace persuasion in zero-sum environments?",
+        "What role does grievance play in sustaining perpetual conflict?",
+        "Can a democracy survive if every election is framed as the last one?"
+      ],
+      "tags": ["politics", "identity", "democracy", "elections"]
+    },
+    {
+      "name": "Media Incentives and the Win/Lose Narrative",
+      "topics": [
+        "Why does conflict-driven coverage outperform cooperative narratives?",
+        "How do cable news and social media reward outrage over accuracy?",
+        "What is engagement maximization and how does it amplify polarization?",
+        "How does framing politics as a sport change public behavior?",
+        "Do media outlets have structural incentives to prevent de-escalation?"
+      ],
+      "tags": ["media", "finance", "journalism", "social-media"]
+    },
+    {
+      "name": "Social Media, Algorithms, and Radicalization Loops",
+      "topics": [
+        "How do algorithms push users toward more extreme content?",
+        "Why does zero-sum content spread faster than nuanced explanations?",
+        "How do online identity tribes form and harden?",
+        "What is the role of humiliation and mockery in online politics?",
+        "Can platform design reduce zero-sum amplification without censorship?"
+      ],
+      "tags": ["technology", "digital-life", "algorithms", "social-media"]
+    },
+    {
+      "name": "Political Elites and Strategic Polarization",
+      "topics": [
+        "Who benefits from framing politics as total war?",
+        "How do leaders use zero-sum narratives to consolidate loyalty?",
+        "Why is governing harder than campaigning in zero-sum systems?",
+        "How does demonizing opponents excuse norm-breaking behavior?",
+        "Is zero-sum politics a deliberate choice or an uncontrollable spiral?"
+      ],
+      "tags": ["politics", "influence", "us-politics", "candidates"]
+    },
+    {
+      "name": "The Psychological Pull of Zero-Sum Thinking",
+      "topics": [
+        "Why does zero-sum thinking feel emotionally satisfying?",
+        "How do anger and moral certainty override critical thinking?",
+        "Why are humans vulnerable to us-versus-them narratives?",
+        "How does constant conflict affect mental health and civic trust?",
+        "Can people change deeply held political views without feeling they lost?"
+      ],
+      "tags": ["psychology", "cognition", "cognitive-bias", "behavioral-psychology"]
+    },
+    {
+      "name": "Democratic Damage and Institutional Erosion",
+      "topics": [
+        "How does zero-sum politics weaken democratic norms?",
+        "Why does losing legitimacy matter more than losing elections?",
+        "How are courts, elections, and journalism targeted in zero-sum struggles?",
+        "What happens when peaceful transfer of power is no longer assumed?",
+        "At what point does democracy become unworkable?"
+      ],
+      "tags": ["politics", "governance", "democracy", "constitutional-law"]
+    },
+    {
+      "name": "Breaking the Zero-Sum Trap",
+      "topics": [
+        "What would non-zero-sum politics actually look like?",
+        "How can media reduce polarization without losing audiences?",
+        "What incentives could reward cooperation instead of conflict?",
+        "Can citizens resist zero-sum framing without disengaging?",
+        "Is it possible to rebuild shared reality after extreme polarization?"
+      ],
+      "tags": ["politics", "democracy", "activism", "media-literacy"]
+    },
+    {
+      "name": "Historical Precedents for Zero-Sum Politics",
+      "topics": [
+        "How did zero-sum politics contribute to the fall of the Roman Republic?",
+        "What role did polarization play in the collapse of the Weimar Republic?",
+        "How did media and propaganda intensify zero-sum thinking in 20th-century Europe?",
+        "What lessons can be learned from societies that failed to escape zero-sum spirals?",
+        "Are there historical examples where zero-sum politics was successfully reversed?"
+      ],
+      "tags": ["history", "colonialism", "ancient-rome", "modern-history"]
+    },
+    {
+      "name": "Polarizing Issues and How They Are Manipulated",
+      "topics": [
+        "Why are abortion debates framed as absolute moral battles rather than policy tradeoffs?",
+        "How is abortion used to activate fear, guilt, and religious identity across elections?",
+        "Why do both sides rarely focus on policies that actually reduce abortion rates?",
+        "How do countries with fewer abortion restrictions often have lower abortion rates than the US?",
+        "Why does gun control discourse resist compromise even when public opinion overlaps?",
+        "How do US gun death rates compare to other developed countries with stricter regulations?",
+        "How are guns framed as symbols of freedom, masculinity, or oppression to harden sides?",
+        "How are sex and gender identity issues simplified into existential threats to mobilize voters?",
+        "What does the evidence show about bathroom safety in places with trans-inclusive policies?",
+        "Why don't unisex bathrooms get proposed as a solution that addresses concerns from all sides?",
+        "How does the debate over trans athletes in sports compare to the actual number of cases involved?",
+        "What do studies show about outcomes for youth who receive gender-affirming care versus those who don't?",
+        "Why do sex identity debates escalate faster online than almost any other issue?"
+      ],
+      "tags": ["politics", "rhetoric", "propaganda", "elections"]
+    }
+  ]
+}
