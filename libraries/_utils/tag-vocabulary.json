@@ -348,7 +348,15 @@
       {"id": "minimalism", "label": "Minimalism", "description": "Simplicity, reduction, and minimal forms."},
       {"id": "expressionism", "label": "Expressionism", "description": "Emotional intensity, distortion, and inner experience."},
       {"id": "cubism", "label": "Cubism", "description": "Fragmented forms, multiple perspectives, and geometric abstraction."},
-      {"id": "pop-art", "label": "Pop Art", "description": "Popular culture, mass media, and consumerism in art."}
+      {"id": "pop-art", "label": "Pop Art", "description": "Popular culture, mass media, and consumerism in art."},
+      {"id": "data-analytics", "label": "Data Analytics", "description": "Analysis of data for insights, patterns, and decision-making."},
+      {"id": "risk-assessment", "label": "Risk Assessment", "description": "Evaluating potential risks, threats, and vulnerabilities."},
+      {"id": "preparedness", "label": "Preparedness", "description": "Planning and preparing for emergencies, crises, or adverse events."},
+      {"id": "asian-philosophy", "label": "Asian Philosophy", "description": "Asian philosophical traditions and thinkers."},
+      {"id": "european-philosophy", "label": "European Philosophy", "description": "European philosophical traditions and thinkers."},
+      {"id": "latin-american-philosophy", "label": "Latin American Philosophy", "description": "Latin American philosophical traditions and thinkers."},
+      {"id": "north-american-philosophy", "label": "North American Philosophy", "description": "North American philosophical traditions and thinkers."},
+      {"id": "oceania-philosophy", "label": "Oceania Philosophy", "description": "Oceania and Pacific philosophical traditions and thinkers."}
     ]
   }
 }

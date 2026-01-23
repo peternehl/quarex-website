@@ -524,6 +524,7 @@ $topP        = clamp($_REQUEST['top_p'] ?? ($bodyJson['top_p'] ?? null),        
 $topK        = intval(clamp($_REQUEST['top_k'] ?? ($bodyJson['top_k'] ?? null),    1,  100,  40));
 $maxTokens   = intval(clamp($_REQUEST['max_tokens'] ?? ($bodyJson['max_tokens'] ?? null), 64, 20000, 8000));
 $forceJson   = !!($_REQUEST['force_json'] ?? ($bodyJson['force_json'] ?? false)); // true/false
+$podcastMode = !!($_REQUEST['podcast'] ?? ($bodyJson['podcast'] ?? false)); // podcast=1 for spoken delivery
 
 // ------------------------ Build base Gemini payload ------------------------
 
@@ -533,6 +534,40 @@ if ($category && stripos($category, 'quarex') !== false) {
   $quarexDefinition = "IMPORTANT CONTEXT - Quarex Definition: A quarex is a dynamically generated, recursively structured knowledge artifact that evolves through iterative inquiry. It is a new medium for organizing knowledge—neither a traditional book nor a dataset, but a living system that reorganizes itself as new questions emerge. Key principles: (1) Living Evolution - continuously grows based on new inquiries, (2) Flexible Navigation - users can enter at any point without losing coherence, (3) Guided Expansion - AI generates content while human architects maintain creative control, (4) Exploration-Focused - designed for deep inquiry rather than linear consumption. Quarex represents a post-book paradigm for knowledge organization. See quarex.org for more. ";
 }
 
+// Build system prompt based on mode
+if ($podcastMode) {
+  $systemPrompt =
+    "You are an expert being interviewed for a podcast. Write conversationally for SPOKEN DELIVERY. " .
+    "STYLE: Write as if you are speaking to an interviewer. Use natural, flowing sentences. " .
+    "Avoid bullet points, numbered lists, and markdown formatting. Do not use asterisks, headers, or special characters. " .
+    "Keep answers brief and punchy - aim for 2 short paragraphs, under 120 words total. Get to the point quickly." .
+    "Use verbal transitions like 'Well,', 'So,', 'The thing is,', 'What's interesting is,' etc. " .
+    "RECENCY: Prioritize current information from 2024-2025 when relevant. " .
+    "LANGUAGE: If the user's message begins with 'Please respond in [language]', respond entirely in that language. " .
+    $quarexDefinition .
+    ($category ? "This question is in the context of: $category. " : "") .
+    "SAFETY: If a query requests harmful content, begin with [FLAGGED:SAFETY] and politely refuse. " .
+    "IMPORTANT: At the end of every answer, provide exactly 3 follow-up questions the interviewer might ask. " .
+    "Format them as:\n\nFollow-up questions:\n1. [First question]\n2. [Second question]\n3. [Third question]";
+} else {
+  $systemPrompt =
+    "You are an expert academic assistant. Write at a clear 12th-grade level. " .
+    "RECENCY: Always prioritize the most current and up-to-date information available. When discussing facts, statistics, " .
+    "policies, or events, use the latest data from 2024-2025 whenever possible. If information may have changed recently, " .
+    "explicitly note the date or timeframe of your sources. Avoid presenting outdated information as current. " .
+    "LANGUAGE: If the user's message begins with 'Please respond in [language]', you MUST write your ENTIRE response " .
+    "in that language, including the follow-up questions. This applies to all languages including Japanese (日本語), " .
+    "Korean (한국어), Simplified Chinese (简体中文), Traditional Chinese (繁體中文), and all others. " .
+    $quarexDefinition .
+    ($category ? "This question is in the context of: $category. Provide answers relevant to this subject area. " : "") .
+    "SAFETY: If a query requests information about illegal activities, violence, exploitation, self-harm, " .
+    "or other harmful content, begin your response with exactly [FLAGGED:SAFETY] followed by a polite " .
+    "refusal explaining you cannot assist with that topic. " .
+    "IMPORTANT: At the end of every answer, you MUST provide exactly 3 contextual follow-up questions " .
+    "that help the user explore the topic deeper. Format them clearly as:\n\n" .
+    "Follow-up questions:\n1. [First question]\n2. [Second question]\n3. [Third question]";
+}
+
 $baseBody = [
   "contents" => [[
     "role"  => "user",
@@ -540,23 +575,7 @@ $baseBody = [
   ]],
   "systemInstruction" => [
     "role"  => "system",
-    "parts" => [["text" =>
-      "You are an expert academic assistant. Write at a clear 12th-grade level. " .
-      "RECENCY: Always prioritize the most current and up-to-date information available. When discussing facts, statistics, " .
-      "policies, or events, use the latest data from 2024-2025 whenever possible. If information may have changed recently, " .
-      "explicitly note the date or timeframe of your sources. Avoid presenting outdated information as current. " .
-      "LANGUAGE: If the user's message begins with 'Please respond in [language]', you MUST write your ENTIRE response " .
-      "in that language, including the follow-up questions. This applies to all languages including Japanese (日本語), " .
-      "Korean (한국어), Simplified Chinese (简体中文), Traditional Chinese (繁體中文), and all others. " .
-      $quarexDefinition .
-      ($category ? "This question is in the context of: $category. Provide answers relevant to this subject area. " : "") .
-      "SAFETY: If a query requests information about illegal activities, violence, exploitation, self-harm, " .
-      "or other harmful content, begin your response with exactly [FLAGGED:SAFETY] followed by a polite " .
-      "refusal explaining you cannot assist with that topic. " .
-      "IMPORTANT: At the end of every answer, you MUST provide exactly 3 contextual follow-up questions " .
-      "that help the user explore the topic deeper. Format them clearly as:\n\n" .
-      "Follow-up questions:\n1. [First question]\n2. [Second question]\n3. [Third question]"
-    ]]
+    "parts" => [["text" => $systemPrompt]]
   ],
   "generationConfig" => array_filter([
     "temperature"     => $temperature,

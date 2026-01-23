@@ -1,0 +1,266 @@
+{
+  "batch": 6,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "Montana",
+      "abbrev": "MT",
+      "districts": [
+        {
+          "district": "MT-01",
+          "candidates": {
+            "Republican": ["Ryan K. Zinke (R)"],
+            "Democratic": ["Ryan Busse (D)", "Russell Cleveland (D)", "Samuel Forstag (D)", "Matt Rains (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MT-02",
+          "candidates": {
+            "Republican": ["Troy Downing (R)"],
+            "Democratic": ["Sam Lux (D)", "Brian Miller (D)"],
+            "Independent": ["Michael Eisenhauer (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Nebraska",
+      "abbrev": "NE",
+      "districts": [
+        {
+          "district": "NE-01",
+          "candidates": {
+            "Republican": ["Mike Flood (R)"],
+            "Democratic": ["Christopher Backemeyer (D)", "Eric Moyer (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NE-02",
+          "candidates": {
+            "Republican": ["Brinker Harding (R)", "Brett Lindstrom (R)"],
+            "Democratic": ["Evangelos Argyrakis (D)", "Kishla Askins (D)", "John Cavanaugh (D)", "James Leuschen (D)", "Denise Powell (D)", "Crystal Rhoades (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NE-03",
+          "candidates": {
+            "Republican": ["Adrian Smith (R)", "David Huebner (R)"],
+            "Democratic": ["Becky Lynn Stille (D)"],
+            "Independent": ["Mark Cohen (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Nevada",
+      "abbrev": "NV",
+      "districts": [
+        {
+          "district": "NV-01",
+          "candidates": {
+            "Republican": ["Jim Blockey (R)", "Michael Boris (R)", "Carrie Buck (R)", "Roy Gurner (R)", "Keith Hanoff (R)", "Bobby Khan (R)", "Jim Marchant (R)"],
+            "Democratic": ["Dina Titus (D)", "Gabriel Cornejo (D)", "Alex Pereszlenyi (D)"],
+            "Independent": ["J.E. Houston (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NV-02",
+          "candidates": {
+            "Republican": ["Mark Amodei (R)", "Rick Shepherd (R)"],
+            "Democratic": ["Kathy Durham (D)", "Matthew Fonken (D)", "Morgan Wadsworth (D)", "Samuel White (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NV-03",
+          "candidates": {
+            "Republican": ["Tera Anderson (R)", "Christopher Brandlin (R)", "Jeff Gunter (R)", "Ronda Kennedy (R)", "Steve London (R)", "Aury Nagy (R)", "Marty O'Donnell (R)", "Lucena Parker (R)", "Joshua Walters (R)"],
+            "Democratic": ["Susie Lee (D)", "Sean Hutchinson (D)", "James Lally (D)", "Terrill Robinson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NV-04",
+          "candidates": {
+            "Republican": ["David Flippo (R)", "Aaron Hill (R)", "Cody Whipple (R)"],
+            "Democratic": ["Steven Horsford (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "New Hampshire",
+      "abbrev": "NH",
+      "districts": [
+        {
+          "district": "NH-01",
+          "candidates": {
+            "Republican": ["Melissa Bailey (R)", "Brian Cole (R)", "Anthony DiLorenzo (R)", "Elizabeth Girard (R)", "Hollie Noveletsky (R)"],
+            "Democratic": ["Carleigh Beriont (D)", "Sarah E. Chadzynski (D)", "Heath Howard (D)", "Stefany Shaheen (D)", "Maura Sullivan (D)", "Christian Urrutia (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NH-02",
+          "candidates": {
+            "Republican": ["Victor Orlando (R)", "Lily Williams (R)"],
+            "Democratic": ["Maggie Goodlander (D)", "Paige Beauchemin (D)", "Dean Pennington (D)", "Chris Tardif (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "New Jersey",
+      "abbrev": "NJ",
+      "districts": [
+        {
+          "district": "NJ-01",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Donald Norcross (D)", "Lonnie Affrime (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-02",
+          "candidates": {
+            "Republican": ["Jeff Van Drew (R)"],
+            "Democratic": ["Tim Alexander (D)", "Bill Finn (D)", "Terri Reese (D)", "Bayly Winder (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-03",
+          "candidates": {
+            "Republican": ["Justin Barbera (R)", "Jason Cullen (R)", "Michael McGuire (R)"],
+            "Democratic": ["Herbert C. Conaway Jr. (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-04",
+          "candidates": {
+            "Republican": ["Chris Smith (R)"],
+            "Democratic": ["John Blake (D)", "Julie Flynn (D)", "Peter Linardakis (D)", "Rachel Peace (D)"],
+            "Independent": ["Kevin Cupples (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-05",
+          "candidates": {
+            "Republican": ["Chandiha Gajapathy (R)", "Sean Kirrane (R)"],
+            "Democratic": ["Josh Gottheimer (D)", "Nick Gebo (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-06",
+          "candidates": {
+            "Republican": ["Hillary Herzig (R)"],
+            "Democratic": ["Frank Pallone Jr. (D)", "Katie Bansil (D)", "John Hsu (D)"],
+            "Independent": ["Fahad Akhtar (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-07",
+          "candidates": {
+            "Republican": ["Thomas Kean Jr. (R)"],
+            "Democratic": ["Beth Ellen Adubato (D)", "Rebecca Bennett (D)", "Michael Garth (D)", "Valentina Mendoza (D)", "Megan O'Rourke (D)", "Michael Roth (D)", "Felipe Santos (D)", "Tina Shah (D)", "Sara Sooy (D)", "Brian Varela (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-08",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Robert Menendez Jr. (D)"],
+            "Independent": ["Richard Barilla (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-09",
+          "candidates": {
+            "Republican": ["Tiffany Burress (R)", "Rosemary Pino (R)"],
+            "Democratic": ["Nellie Pou (D)", "Samuel Buccola (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-10",
+          "candidates": {
+            "Republican": ["Carmen Bucco (R)"],
+            "Democratic": ["LaMonica McIver (D)", "Shana Melius (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-11",
+          "candidates": {
+            "Republican": [],
+            "Democratic": [],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NJ-12",
+          "candidates": {
+            "Republican": ["Gregg Mele (R)"],
+            "Democratic": ["Brad Cohen (D)", "Elijah Dixon (D)", "Raymond Heck (D)", "Kyle Little (D)", "Adrian Mapp (D)", "Tennille R. McCoy (D)", "Verlina Reynolds-Jackson (D)", "Shanel Robinson (D)", "Squire Servance (D)", "Sujit Singh (D)", "Jay Vaingankar (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}

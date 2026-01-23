@@ -87,5 +87,18 @@
       "psychology"
     ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "troubleshooting-skills",
+    "name": "Troubleshooting Skills",
+    "description": "A practical and cognitive framework for diagnosing, isolating, and resolving problems across technical, organizational, and human systems.",
+    "chapterCount": 11,
+    "tags": [
+      "psychology",
+      "critical-thinking",
+      "research-methods",
+      "engineering"
+    ],
+    "created_by": "Peter Nehl and ChatGPT 5.2"
   }
 ]

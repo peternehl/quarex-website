@@ -1,0 +1,626 @@
+{
+  "batch": 7,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "New Mexico",
+      "abbrev": "NM",
+      "districts": [
+        {
+          "district": "NM-01",
+          "candidates": {
+            "Republican": ["Steve Jones (R)", "Ndidiamaka Okpareke (R)"],
+            "Democratic": ["Melanie Ann Stansbury (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NM-02",
+          "candidates": {
+            "Republican": ["Eddy Aragon (R)", "Greg Cunningham (R)", "Jose Orozco (R)"],
+            "Democratic": ["Gabriel Vasquez (D)", "Tom Wakely (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NM-03",
+          "candidates": {
+            "Republican": ["Martin Ruben Zamora (R)"],
+            "Democratic": ["Teresa Leger Fernandez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "New York",
+      "abbrev": "NY",
+      "districts": [
+        {
+          "district": "NY-01",
+          "candidates": {
+            "Republican": ["Nicholas J. LaLota (R)"],
+            "Democratic": ["Christopher Gallant (D)", "Lukas Ventouras (D)"],
+            "Independent": ["Thomas Sorensen (I)", "Jordan Maggio (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-02",
+          "candidates": {
+            "Republican": ["Andrew Garbarino (R)"],
+            "Democratic": ["Patrick Halpin (D)", "Jess Murphy (D)", "Garrett Petersen (D)", "Josh Taveras (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-03",
+          "candidates": {
+            "Republican": ["Gregory Hach (R)", "Michael Lavery (R)"],
+            "Democratic": ["Tom Suozzi (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-04",
+          "candidates": {
+            "Republican": ["Dennis McGrath (R)", "Brian Miller (R)", "Martin Smithmyer (R)"],
+            "Democratic": ["Laura Gillen (D)", "Kiana Bierria-Anderson (D)", "Gian Jones (D)", "Nicholas Sciretta (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-05",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Gregory W. Meeks (D)", "Salvatore Padellaro (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-06",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Grace Meng (D)", "Charles Park (D)", "Yan Xiong (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-07",
+          "candidates": {
+            "Republican": ["Evan Hutchison (R)"],
+            "Democratic": ["Alexander Campagna (D)", "Steven Carbajal (D)", "Sydney Martinez (D)", "Dane-Brandon Noble (D)", "Edwin Osorio (D)", "Paperboy Prince (D)", "Antonio Reynoso (D)", "Miles Shore (D)", "Claire Valdez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-08",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Hakeem Jeffries (D)", "Vance Bostic (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-09",
+          "candidates": {
+            "Republican": ["Joel Anabilah-Azumah (R)", "Jean Depalis (R)"],
+            "Democratic": ["Yvette D. Clarke (D)", "Joshua Bristol (D)", "Michael Goldfarb (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-10",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Daniel Goldman (D)", "Nickie Kane (D)", "Brad Lander (D)", "Savail Majid (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-11",
+          "candidates": {
+            "Republican": ["Nicole Malliotakis (R)"],
+            "Democratic": ["Troy McGhie (D)", "Umar Usman (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-12",
+          "candidates": {
+            "Republican": ["Kaley Aldrich (R)", "Amy Jordan (R)", "Gavin Solomon (R)", "Lucian Wintrich (R)", "Massimiliano Zappone (R)"],
+            "Democratic": ["Micah Bergdale (D)", "Alex Bores (D)", "George Conway (D)", "Christopher Diep (D)", "Laura Dunn (D)", "Liam Elkind (D)", "Jami Floyd (D)", "Cameron Kasky (D)", "Micah Lasher (D)", "Alan Pardee (D)", "Jack Schlossberg (D)", "Nina Schwalbe (D)", "Mathew Shurka (D)"],
+            "Independent": ["Robb Huhn (I)", "Wilneida Negron (I)", "Karen Ortiz (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-13",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Adriano Espaillat (D)", "Jaliel Amador (D)", "Darializa Avila Chevalier (D)", "Theo Chino-Tavarez (D)", "James Felton Keith (D)", "Matt Miller (D)", "Candace Niles (D)", "Megan Rodriguez (D)", "Oscar Romero (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-14",
+          "candidates": {
+            "Republican": ["Aurelio Arcabascio (R)", "Tina Forte (R)", "Diamant Hysenaj (R)", "Ariel Rivera-Diaz (R)"],
+            "Democratic": ["Alexandria Ocasio-Cortez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-15",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Michael Blake (D)", "Jon LaTona (D)", "Dalourny Nemorin (D)", "Amanda Septimo (D)", "Jose Vega (D)"],
+            "Independent": ["Andre Easton (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-16",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["George Latimer (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-17",
+          "candidates": {
+            "Republican": ["Michael Lawler (R)"],
+            "Democratic": ["John Cappello (D)", "Peter Chatzky (D)", "Cait Conley (D)", "Beth Davidson (D)", "Effie Phillips-Staley (D)", "Jessica Reinmann (D)", "Mike Sacks (D)", "John Sullivan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-18",
+          "candidates": {
+            "Republican": ["Sharanjit Thind (R)"],
+            "Democratic": ["Pat Ryan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-19",
+          "candidates": {
+            "Republican": ["Peter Oberacker (R)", "Alexander Portelli (R)"],
+            "Democratic": ["Josh Riley (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-20",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Paul Tonko (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-21",
+          "candidates": {
+            "Republican": ["Robert Smullen (R)"],
+            "Democratic": ["Stuart Amoriell (D)", "Paula Collins (D)", "Blake Gendebien (D)", "Maylon Haller (D)", "Andrew Henson (D)", "Dylan Hewitt (D)"],
+            "Independent": ["Michael Metzgier (I)", "Christopher Schmidt (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-22",
+          "candidates": {
+            "Republican": ["John Lemondes Jr. (R)", "John Salka (R)"],
+            "Democratic": ["John Mannion (D)"],
+            "Independent": ["William Staton (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-23",
+          "candidates": {
+            "Republican": ["Nick Langworthy (R)"],
+            "Democratic": ["Stephen Collins (D)", "Aaron Gies (D)", "Jeff Rayner (D)", "Kevin Stocker (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-24",
+          "candidates": {
+            "Republican": ["Claudia Tenney (R)"],
+            "Democratic": ["Alissa Ellman (D)", "Steven Holden (D)", "Diana Kastenbaum (D)"],
+            "Independent": ["Ken Estes (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-25",
+          "candidates": {
+            "Republican": ["Cassandra Lin Leach (R)"],
+            "Democratic": ["Joseph Morelle (D)", "Sherita Traywick (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NY-26",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Timothy M. Kennedy (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "North Carolina",
+      "abbrev": "NC",
+      "districts": [
+        {
+          "district": "NC-01",
+          "candidates": {
+            "Republican": ["Asa Buck (R)", "Laurie Buckhout (R)", "Robert Hanig (R)", "Eric Rouse (R)", "Ashley-Nicole Russell (R)"],
+            "Democratic": ["Donald Davis (D)"],
+            "Independent": [],
+            "Libertarian": ["Tom Bailey (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-02",
+          "candidates": {
+            "Republican": ["Eugene Douglass (R)"],
+            "Democratic": ["Deborah Ross (D)"],
+            "Independent": [],
+            "Libertarian": ["Matthew Laszacs (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-03",
+          "candidates": {
+            "Republican": ["Gregory Murphy (R)"],
+            "Democratic": ["Allison Jaslow (D)", "Raymond Smith Jr. (D)"],
+            "Independent": [],
+            "Libertarian": ["Daniel Cavender (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-04",
+          "candidates": {
+            "Republican": ["Mahesh Ganorkar (R)"],
+            "Democratic": ["Valerie Foushee (D)", "Nida Allam (D)", "Mary Patterson (D)"],
+            "Independent": [],
+            "Libertarian": ["Guy Meilleur (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-05",
+          "candidates": {
+            "Republican": ["Virginia Foxx (R)", "Steve Girard (R)", "Joseph Osborne (R)", "Roman Williams II (R)"],
+            "Democratic": ["Kyah Creekmore (D)", "Chuck Hubbard (D)"],
+            "Independent": ["David Clayton (I)"],
+            "Libertarian": ["Robert Luffman (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-06",
+          "candidates": {
+            "Republican": ["Addison McDowell (R)"],
+            "Democratic": ["Beau Blair (D)", "Keith Davenport (D)", "Cyril Jefferson (D)", "Alysa Kassay (D)"],
+            "Independent": ["Joshua Hager (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-07",
+          "candidates": {
+            "Republican": ["David Rouzer (R)", "David Buzzard (R)"],
+            "Democratic": ["Kimberly Hardy (D)"],
+            "Independent": ["Michael Henry (I)"],
+            "Libertarian": ["Maad Abu-Ghazalah (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-08",
+          "candidates": {
+            "Republican": ["Mark Harris (R)"],
+            "Democratic": ["Kevin Clark (D)", "Jesse Oppenheim (D)", "Colby Watson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-09",
+          "candidates": {
+            "Republican": ["Richard Hudson (R)"],
+            "Democratic": ["Loren Bibler (D)", "Nigel Bristow (D)", "Lent Carr II (D)", "Richard Ojeda (D)"],
+            "Independent": ["Tita Hunter-Herod (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-10",
+          "candidates": {
+            "Republican": ["Pat Harrigan (R)", "Matthew Sin (R)"],
+            "Democratic": ["Ashley Bell (D)", "West Caudle (D)", "Harry Morley (D)", "Marcus D. Pearson (D)", "Ralph Scott Jr. (D)", "Mir Yarfitz (D)"],
+            "Independent": [],
+            "Libertarian": ["Steven Feldman (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-11",
+          "candidates": {
+            "Republican": ["Chuck Edwards (R)", "Adam Smith (R)"],
+            "Democratic": ["Jamie Ager (D)", "Zelda Briarwood (D)", "Richard Hudspeth (D)", "Paul Maddox (D)", "Lee Whipple (D)"],
+            "Independent": ["John Rogers (I)"],
+            "Libertarian": ["Travis Groo (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-12",
+          "candidates": {
+            "Republican": ["Addul Ali (R)", "Jack Codiga (R)"],
+            "Democratic": ["Alma Adams (D)", "Monaca Maye Williamson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "NC-13",
+          "candidates": {
+            "Republican": ["Brad Knott (R)", "Sid Sharma (R)"],
+            "Democratic": ["Paul Barringer (D)", "Alexander Nicholi (D)", "Frank Pierce (D)"],
+            "Independent": [],
+            "Libertarian": ["Steven Swinton (L)"],
+            "Green": ["Anthony Aguilar (G)"]
+          }
+        },
+        {
+          "district": "NC-14",
+          "candidates": {
+            "Republican": ["Timothy K. Moore (R)", "Kate Barr (R)"],
+            "Democratic": ["Brent Caldwell (D)", "Ahmid Kargbo (D)", "Lakesha Womack (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "North Dakota",
+      "abbrev": "ND",
+      "districts": [
+        {
+          "district": "ND-AL",
+          "candidates": {
+            "Republican": ["Julie Fedorchak (R)", "Alex Balazs (R)"],
+            "Democratic": [],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Ohio",
+      "abbrev": "OH",
+      "districts": [
+        {
+          "district": "OH-01",
+          "candidates": {
+            "Republican": ["Eric Conroy (R)", "Steven Erbeck (R)", "Rosemary Oglesby-Henry (R)"],
+            "Democratic": ["Greg Landsman (D)", "Lindsey Ferreira (D)"],
+            "Independent": [],
+            "Libertarian": ["John Hancock (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-02",
+          "candidates": {
+            "Republican": ["David Taylor (R)"],
+            "Democratic": [],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-03",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Joyce Beatty (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-04",
+          "candidates": {
+            "Republican": ["Jim Jordan (R)"],
+            "Democratic": ["Joshua Kolasinski (D)", "Tamie Wilson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-05",
+          "candidates": {
+            "Republican": ["Bob Latta (R)", "Erica Kelley (R)"],
+            "Democratic": ["Daniel Burket (D)", "Christopher Maddaluno (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-06",
+          "candidates": {
+            "Republican": ["Michael Rulli (R)", "Julia Kelley (R)"],
+            "Democratic": ["Sam Barrick (D)", "Sean Connolly (D)", "Michael Kripchak (D)", "Malcolm Ritchie (D)", "Adrian Vitus (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-07",
+          "candidates": {
+            "Republican": ["Max Miller (R)", "Jonah Schulz (R)"],
+            "Democratic": ["Michael Eisner (D)", "Ed FitzGerald (D)", "Brian Poindexter (D)", "Scott Schulz (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-08",
+          "candidates": {
+            "Republican": ["Warren Davidson (R)"],
+            "Democratic": ["Madaris Grant (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-09",
+          "candidates": {
+            "Republican": ["Anthony Campbell (R)", "Jacob Frost (R)", "Wayne Kinsel (R)", "Derek Merrin (R)", "Alea Nadeem (R)", "Madison Sheahan (R)", "Josh Williams (R)"],
+            "Democratic": ["Marcy Kaptur (D)"],
+            "Independent": [],
+            "Libertarian": ["David Gedert (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-10",
+          "candidates": {
+            "Republican": ["Michael Turner (R)"],
+            "Democratic": ["Kristina Knickerbocker (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-11",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Shontel Brown (D)", "Ardelia Holmes (D)", "David Light (D)", "Cortney Peterson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-12",
+          "candidates": {
+            "Republican": ["Troy Balderson (R)"],
+            "Democratic": ["Jerrad Christian (D)", "Daniel Crawford (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-13",
+          "candidates": {
+            "Republican": ["Margaret Briem (R)", "Carey Coleman (R)", "Neil Patel (R)", "Kevin Siembida (R)"],
+            "Democratic": ["Emilia Sykes (D)"],
+            "Independent": ["Sandeep Dixit (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-14",
+          "candidates": {
+            "Republican": ["David Joyce (R)", "Nicole Frenchko (R)"],
+            "Democratic": ["Bill O'Neill (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OH-15",
+          "candidates": {
+            "Republican": ["Mike Carey (R)", "Evan Pargeter (R)"],
+            "Democratic": ["Don Leonard (D)", "Adam Miller (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}

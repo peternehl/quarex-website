@@ -15,5 +15,6 @@ Update the shelf's _manifest.json with full book metadata:
    - tags: array of key vocabulary tags representing the book
    - created_by: author attribution from the seed
 Update the library's _manifest.json bookCount if this is a new book
+Update libraries/book-index.json if this is a new book
 Rebuild discovery-index.json: node "Utilities and Info Files/build-discovery-index-v2.js"
 Provide a list of files to upload to the server

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-15",
-  "count": 598,
+  "generated": "2026-01-20",
+  "count": 603,
   "books": [
     {
       "name": "A Brief History of War",
@@ -812,7 +812,7 @@
       "path": "c/us-senate-2026-complete/class-2-regular-elections/delaware",
       "library": "Us Senate 2026 Complete",
       "shelf": "Class 2 Regular Elections",
-      "chapters": 2
+      "chapters": 3
     },
     {
       "name": "Delaware",
@@ -897,6 +897,13 @@
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Dollar Dominance: The Fragile Foundation",
+      "path": "i/economic-infrastructures/geopolitics/dollar-dominance-the-fragile-foundation",
+      "library": "Economic Infrastructures",
+      "shelf": "Geopolitics",
+      "chapters": 14
     },
     {
       "name": "Dominica",
@@ -1778,7 +1785,7 @@
       "path": "c/us-senate-2026-complete/class-2-regular-elections/kentucky",
       "library": "Us Senate 2026 Complete",
       "shelf": "Class 2 Regular Elections",
-      "chapters": 3
+      "chapters": 2
     },
     {
       "name": "Kentucky",
@@ -2296,7 +2303,7 @@
       "path": "c/us-senate-2026-complete/class-2-regular-elections/montana",
       "library": "Us Senate 2026 Complete",
       "shelf": "Class 2 Regular Elections",
-      "chapters": 2
+      "chapters": 3
     },
     {
       "name": "Montana",
@@ -2856,7 +2863,7 @@
       "path": "c/us-governors-2026/2026-gubernatorial-races/pennsylvania",
       "library": "Us Governors 2026",
       "shelf": "2026 Gubernatorial Races",
-      "chapters": 2
+      "chapters": 3
     },
     {
       "name": "Pennsylvania",
@@ -3671,6 +3678,13 @@
       "chapters": 9
     },
     {
+      "name": "The Arrogance That's Destroying American Power",
+      "path": "i/economic-infrastructures/geopolitics/the-arrogance-thats-destroying-american-power",
+      "library": "Economic Infrastructures",
+      "shelf": "Geopolitics",
+      "chapters": 18
+    },
+    {
       "name": "The Billionaire-President Problem",
       "path": "pe/cultural-and-identity/billionaires/the-billionaire-president-problem",
       "library": "Cultural And Identity",
@@ -3711,6 +3725,13 @@
       "library": "Ideological",
       "shelf": "Media And Information",
       "chapters": 10
+    },
+    {
+      "name": "The Ungovernable Economy: How Billionaire AI Could Break Global Finance",
+      "path": "i/economic-infrastructures/geopolitics/concentration-singularity",
+      "library": "Economic Infrastructures",
+      "shelf": "Geopolitics",
+      "chapters": 16
     },
     {
       "name": "Thermodynamics and Heat",
@@ -3760,6 +3781,13 @@
       "library": "North America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Troubleshooting Skills",
+      "path": "pr/practical-skills/digital-and-professional-skills/troubleshooting-skills",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 11
     },
     {
       "name": "Trump and Epstein: A History",
@@ -4173,6 +4201,13 @@
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Zero Sum Politics",
+      "path": "pe/ideological/media-and-information/zero-sum-politics",
+      "library": "Ideological",
+      "shelf": "Media And Information",
+      "chapters": 10
     },
     {
       "name": "Zimbabwe",

@@ -1,0 +1,376 @@
+{
+  "batch": 3,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "Hawaii",
+      "abbrev": "HI",
+      "districts": [
+        {
+          "district": "HI-01",
+          "candidates": {
+            "Republican": ["Maxwell Frazier (R)"],
+            "Democratic": ["Ed Case (D)", "Della Au Belatti (D)", "Perry Gregg (D)", "Jarrett Keohokalole (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "HI-02",
+          "candidates": {
+            "Republican": ["Brenton Awa (R)"],
+            "Democratic": ["Jill Tokuda (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Idaho",
+      "abbrev": "ID",
+      "districts": [
+        {
+          "district": "ID-01",
+          "candidates": {
+            "Republican": ["Russ Fulcher (R)"],
+            "Democratic": ["Ken Brungardt (D)", "Kaylee Peterson (D)"],
+            "Independent": ["Sarah Zabel (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "ID-02",
+          "candidates": {
+            "Republican": ["Michael K. Simpson (R)", "Sean Higgins (R)", "Perry Shumway (R)"],
+            "Democratic": ["Julie Wiley (D)"],
+            "Independent": ["Tripp Hutchinson (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Illinois",
+      "abbrev": "IL",
+      "districts": [
+        {
+          "district": "IL-01",
+          "candidates": {
+            "Republican": ["Marcus Lewis (R)", "Christian Maxwell (R)"],
+            "Democratic": ["Jonathan Jackson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-02",
+          "candidates": {
+            "Republican": ["Mike Noack (R)"],
+            "Democratic": ["Toni Brown (D)", "Yumeka Brown (D)", "Eric France (D)", "Jesse L. Jackson Jr. (D)", "Patrick Keating (D)", "Donna Miller (D)", "Sidney Moore (D)", "Robert Peters (D)", "Willie Preston (D)", "Adal Regis (D)"],
+            "Independent": ["Ashley Banks (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-03",
+          "candidates": {
+            "Republican": ["Angel Oakley (R)"],
+            "Democratic": ["Delia Ramirez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-04",
+          "candidates": {
+            "Republican": ["Lupe Castillo (R)"],
+            "Democratic": ["Patty Garcia (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-05",
+          "candidates": {
+            "Republican": ["Tom Hanson (R)", "Kimball Ladien (R)", "Barry Wicker (R)"],
+            "Democratic": ["Mike Quigley (D)", "Matthew Conroy (D)", "Ellen Corley (D)", "Anthony Michael Tamez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-06",
+          "candidates": {
+            "Republican": ["Niki Conforti (R)", "Skylar Duensing (R)"],
+            "Democratic": ["Sean Casten (D)", "Joseph Ruzevich (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-07",
+          "candidates": {
+            "Republican": ["Patricia Easley (R)", "Chad Koppie (R)"],
+            "Democratic": ["Richard Boykin (D)", "Kina Collins (D)", "Melissa Conyears-Ervin (D)", "Anthony Driver Jr. (D)", "David Ehrlich (D)", "Thomas Fisher (D)", "La Shawn Ford (D)", "Jason Friedman (D)", "Rory Hoskins (D)", "Anabel Mendoza (D)", "Jazmin Robinson (D)", "Reed Showalter (D)", "Felix Tello (D)"],
+            "Independent": ["Nathan Billips (I)", "Anita Rao (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-08",
+          "candidates": {
+            "Republican": ["Kevin Ake (R)", "Jennifer Davis (R)", "Herbert Hebein (R)", "Mark Rice (R)"],
+            "Democratic": ["Junaid Ahmed (D)", "Yasmeen Bankole (D)", "Melissa Bean (D)", "Sanjyot Dunung (D)", "Neil Khot (D)", "Kevin Morrison (D)", "Dan Tully (D)", "Ryan Vetticad (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-09",
+          "candidates": {
+            "Republican": ["Rocio Cleveland (R)", "John Elleson (R)", "Paul Friedman (R)", "Mark Su (R)"],
+            "Democratic": ["Kat Abughazaleh (D)", "Bushra Amiwala (D)", "Phil Andrew (D)", "Natalie Angelo (D)", "Daniel K. Biss (D)", "Patricia Brown (D)", "Jeff Cohen (D)", "Laura Fine (D)", "Justin Ford (D)", "Mark Fredrickson (D)", "Hoan Huynh (D)", "Bethany Johnson (D)", "Sam Polan (D)", "Nick Pyati (D)", "Howard Rosenblum (D)", "Mike Simmons (D)"],
+            "Independent": ["Delila Barrera (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-10",
+          "candidates": {
+            "Republican": ["Carl Lambrecht (R)"],
+            "Democratic": ["Brad Schneider (D)", "Morgan Coghill (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-11",
+          "candidates": {
+            "Republican": ["Tedora Brown (R)", "Charlie Kim (R)", "Mike Pierce (R)", "Jeffrey Walter (R)"],
+            "Democratic": ["Bill Foster (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-12",
+          "candidates": {
+            "Republican": ["Mike Bost (R)"],
+            "Democratic": ["Julie Fortier (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-13",
+          "candidates": {
+            "Republican": ["Joshua Loyd (R)", "Jeff Wilson (R)"],
+            "Democratic": ["Nikki Budzinski (D)", "Dylan Blaha (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-14",
+          "candidates": {
+            "Republican": ["James Marter (R)", "Gary Vician (R)"],
+            "Democratic": ["Lauren Underwood (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-15",
+          "candidates": {
+            "Republican": ["Mary Miller (R)", "Judy Bowlby (R)", "Ryan Tebrugge (R)"],
+            "Democratic": ["Paul Davis (D)", "Kyle Nudo (D)", "Randy Raley (D)", "Jennifer Todd (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-16",
+          "candidates": {
+            "Republican": ["Darin LaHood (R)"],
+            "Democratic": ["Paul Nolley (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IL-17",
+          "candidates": {
+            "Republican": ["Julie Bickelhaupt (R)", "Dillan Vancil (R)"],
+            "Democratic": ["Eric Sorensen (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Indiana",
+      "abbrev": "IN",
+      "districts": [
+        {
+          "district": "IN-01",
+          "candidates": {
+            "Republican": ["Jennifer-Ruth Green (R)", "Barb Regnitz (R)", "David Ben Ruiz (R)", "James Schenke (R)"],
+            "Democratic": ["Frank Mrvan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-02",
+          "candidates": {
+            "Republican": ["Rudy Yakym (R)"],
+            "Democratic": ["Jamee Decio (D)"],
+            "Independent": ["Eric Beebe (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-03",
+          "candidates": {
+            "Republican": ["Marlin A. Stutzman (R)"],
+            "Democratic": ["Phil Goss (D)", "Kelly Thompson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-04",
+          "candidates": {
+            "Republican": ["Jim Baird (R)", "Chad Elwartowski (R)", "Craig Haggard (R)", "Anthony Hustedt-Mai (R)"],
+            "Democratic": ["Drew Cox (D)", "Thomas D. Hall Jr. (D)", "Joe Mackey (D)", "John Whetstone (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-05",
+          "candidates": {
+            "Republican": ["Victoria Spartz (R)"],
+            "Democratic": ["Samuel Cooper (D)", "J.D. Ford (D)", "Jackson Franklin (D)", "Deborah A. Pickett (D)", "Todd Shelton (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-06",
+          "candidates": {
+            "Republican": ["Jefferson Shreve (R)"],
+            "Democratic": ["Raymond Alt (D)", "William Kory Amyx (D)", "David Boyd (D)", "Alexander Hardy (D)", "Cynthia Wirth (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-07",
+          "candidates": {
+            "Republican": ["Felipe Rios (R)"],
+            "Democratic": ["André Carson (D)", "George Hornedo (D)", "Trapper Stewart (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-08",
+          "candidates": {
+            "Republican": ["Mark Messmer (R)", "Daniel George (R)"],
+            "Democratic": ["Mary Allen (D)", "Christopher Rector (D)", "Aleem Young (D)"],
+            "Independent": ["James Burke (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IN-09",
+          "candidates": {
+            "Republican": ["Erin Houchin (R)"],
+            "Democratic": ["James Davidson (D)", "Jim Graham (D)", "Emilee McCartney (D)", "Brad Meyer (D)", "Timothy Peck (D)", "Keil Roark (D)", "Cody Voyles (D)"],
+            "Independent": ["Floyd Taylor (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Iowa",
+      "abbrev": "IA",
+      "districts": [
+        {
+          "district": "IA-01",
+          "candidates": {
+            "Republican": ["Mariannette Miller-Meeks (R)", "Grant Hill (R)", "David Pautsch (R)"],
+            "Democratic": ["Christina Bohannan (D)", "Bob Krause (D)", "Travis Terrell (D)", "Taylor Wettach (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IA-02",
+          "candidates": {
+            "Republican": ["Shannon Lundgren (R)", "Charlie McClintock (R)", "Joe Mitchell (R)"],
+            "Democratic": ["Kathryn Dolter (D)", "Lindsay James (D)", "Guy Morgan (D)", "Clint Twedt-Ball (D)"],
+            "Independent": ["Dave Bushaw (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IA-03",
+          "candidates": {
+            "Republican": ["Zach Nunn (R)"],
+            "Democratic": ["Xavier Carrigan (D)", "Jennifer Konfrst (D)", "Tracy Limon (D)", "Sarah Trone Garriott (D)", "Easton Wolfe (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "IA-04",
+          "candidates": {
+            "Republican": ["Randy Feenstra (R)", "Chris McGowan (R)", "Ryan Rhodes (R)", "Christian Schlaefer (R)", "Matt Windschitl (R)"],
+            "Democratic": ["Dave Dawson (D)", "Stephanie Steiner (D)", "Ashley WolfTornabane (D)"],
+            "Independent": ["Jermaine Decker (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "batch": 1,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "Alabama",
+      "abbrev": "AL",
+      "districts": [
+        {
+          "district": "AL-01",
+          "candidates": {
+            "Republican": ["Jerry Carl (R)", "James Dees (R)", "Rhett Marques (R)", "Joshua McKee (R)", "James Richardson (R)", "Austin Sidwell (R)"],
+            "Democratic": ["Clyde Jones (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AL-02",
+          "candidates": {
+            "Republican": ["Hampton Harris (R)"],
+            "Democratic": ["Shomari Figures (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AL-03",
+          "candidates": {
+            "Republican": ["Mike Rogers (R)", "Draic Coakley (R)", "Terri LaPoint (R)"],
+            "Democratic": ["Lee McInnis (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AL-04",
+          "candidates": {
+            "Republican": ["Robert Aderholt (R)", "Tommy Barnes (R)"],
+            "Democratic": ["Amanda Pusczek (D)", "Shane Weaver (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AL-05",
+          "candidates": {
+            "Republican": ["Dale Strong (R)", "Joseph Terry (R)"],
+            "Democratic": ["Jeremy Devito (D)", "Candice Duvieilh (D)", "Greg Howard (D)", "Andrew Sneed (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AL-06",
+          "candidates": {
+            "Republican": ["Gary Palmer (R)", "Case Dixon (R)"],
+            "Democratic": ["Elizabeth Anderson (D)", "Keith Pilkington (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AL-07",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Terri Sewell (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Alaska",
+      "abbrev": "AK",
+      "districts": [
+        {
+          "district": "AK-AL",
+          "candidates": {
+            "Republican": ["Nicholas Begich (R)"],
+            "Democratic": ["Matthew Schultz (D)", "John Brendan Williams (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Arizona",
+      "abbrev": "AZ",
+      "districts": [
+        {
+          "district": "AZ-01",
+          "candidates": {
+            "Republican": ["Joseph Chaplik (R)", "Jason Duey (R)", "Jay Feely (R)", "Derrick Gallego (R)", "Kaitlin Purrington (R)", "Paul Reevs (R)", "Brandon Sowers (R)", "Gina Swoboda (R)", "John Trobough (R)"],
+            "Democratic": ["Andres Barraza (D)", "Brian Del Vecchio (D)", "Brandon Donnelly (D)", "Marlene Galán-Woods (D)", "Mark Robert Gordon (D)", "Daniel Lucio (D)", "Rick McCartney (D)", "Angie Montoya (D)", "David Redkey (D)", "Amish Shah (D)", "Jonathan Treble (D)", "Victor Weintraub (D)"],
+            "Independent": ["Christopher Ajluni (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AZ-02",
+          "candidates": {
+            "Republican": ["Eli Crane (R)"],
+            "Democratic": ["Eric Descheenie (D)", "Jonathan Nez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AZ-03",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Yassamin Ansari (D)", "Sandy Cano-Bravo (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AZ-04",
+          "candidates": {
+            "Republican": ["Jerone Davison (R)", "Bradley Honer (R)", "Zuhdi Jasser (R)", "Elizabeth Reye (R)", "Alex Stovall (R)"],
+            "Democratic": ["Greg Stanton (D)"],
+            "Independent": ["Andromeda Crum (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AZ-05",
+          "candidates": {
+            "Republican": ["Travis Grantham (R)", "Mike Gross (R)", "Daniel Keenan (R)", "Mark Lamb (R)"],
+            "Democratic": ["Blake Bracht (D)", "Brian Hualde (D)", "Chris James (D)", "Elizabeth Lee (D)", "Evan Olson (D)", "Justin Poff (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": ["Richard Grayson (G)"]
+          }
+        },
+        {
+          "district": "AZ-06",
+          "candidates": {
+            "Republican": ["Juan Ciscomani (R)"],
+            "Democratic": ["Johnathan Buma (D)", "Chris Donat (D)", "JoAnna Mendoza (D)", "Samantha Severson (D)", "Aiden Swallow (D)", "Carter Weeks (D)"],
+            "Independent": ["Trevor Dickerson (I)"],
+            "Libertarian": [],
+            "Green": ["Gary Swing (G)"]
+          }
+        },
+        {
+          "district": "AZ-07",
+          "candidates": {
+            "Republican": ["Daniel Butierez (R)"],
+            "Democratic": ["Adelita Grijalva (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AZ-08",
+          "candidates": {
+            "Republican": ["Abraham Hamadeh (R)", "Amanda Rose (R)"],
+            "Democratic": ["Jillian Barfield (D)", "Maria Flores (D)", "Bernadette Greene Placentia (D)", "Raymond Keeler (D)", "Jessie Martines (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AZ-09",
+          "candidates": {
+            "Republican": ["Paul Gosar (R)", "Teresa Volesky (R)"],
+            "Democratic": ["Keith Lara (D)", "Danielle Sterbinsky (D)", "Camelia Ward (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Arkansas",
+      "abbrev": "AR",
+      "districts": [
+        {
+          "district": "AR-01",
+          "candidates": {
+            "Republican": ["Rick Crawford (R)"],
+            "Democratic": ["Terri Yarbrough Green (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AR-02",
+          "candidates": {
+            "Republican": ["French Hill (R)", "Chase McDowell (R)"],
+            "Democratic": ["Zack Huffman (D)", "Chris Jones (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AR-03",
+          "candidates": {
+            "Republican": ["Steve Womack (R)"],
+            "Democratic": ["Robb Ryerse (D)"],
+            "Independent": ["Christopher Hocevar (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "AR-04",
+          "candidates": {
+            "Republican": ["Bruce Westerman (R)"],
+            "Democratic": ["Steven O'Donnell (D)", "James Russell (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "California",
+      "abbrev": "CA",
+      "districts": [
+        {
+          "district": "CA-01",
+          "candidates": {
+            "Republican": ["Paul Saulsbury (R)", "Angelita Valles (R)"],
+            "Democratic": ["Audrey Denney (D)", "Mike McGuire (D)", "James Salegui (D)", "Casey Stewart (D)", "Kyle Wilson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-02",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Jared Huffman (D)", "Kevin Eisele (D)", "Rose Penelope Yee (D)"],
+            "Independent": ["Colby Smart (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-03",
+          "candidates": {
+            "Republican": ["Kevin Kiley (R)"],
+            "Democratic": ["Ami Bera (D)", "Chris Bennett (D)", "Lyndon Cervantes (D)", "Heidi Hall (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-04",
+          "candidates": {
+            "Republican": ["Sharon Brown (R)", "Heath Fulkerson (R)", "Mandy Ghusar (R)", "Laurie MacKenzie (R)"],
+            "Democratic": ["Mike Thompson (D)", "Eric Jones (D)", "Trevor Merrell (D)"],
+            "Independent": ["John Wesley Tyler (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-05",
+          "candidates": {
+            "Republican": ["Tom McClintock (R)", "Jason Weland (R)"],
+            "Democratic": ["Mike Barkley (D)", "Paul Danbom (D)", "Michael Masuda (D)", "Angelina Sigala (D)", "Kate Sills (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-06",
+          "candidates": {
+            "Republican": ["Christine Bish (R)", "Craig DeLuz (R)", "Raymond Riehle (R)", "Michael Stansfield (R)"],
+            "Democratic": ["Lauren Babb Tomlinson (D)", "Thien Ho (D)", "Richard Pan (D)", "Kindra Pring (D)", "Tyler Vandenberg (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-07",
+          "candidates": {
+            "Republican": ["Kathryn Ming (R)"],
+            "Democratic": ["Doris Matsui (D)", "Erica Lee (D)", "Robert Morin (D)", "Enayat Nazhat (D)", "Mai Vang (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-08",
+          "candidates": {
+            "Republican": ["Rudy Recile (R)"],
+            "Democratic": ["John Garamendi (D)", "Nicolas Carjuzaa (D)", "Harinder Lamba (D)", "Aaron Rowden (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-09",
+          "candidates": {
+            "Republican": ["John McBride (R)", "Jim Shoemaker (R)", "Parminder Singh (R)"],
+            "Democratic": ["Josh Harder (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-10",
+          "candidates": {
+            "Republican": ["Jeffrey Frese (R)", "Katherine Piccinini (R)"],
+            "Democratic": ["Mark DeSaulnier (D)", "Josh Hamilton (D)", "Mitchell Maisler (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-11",
+          "candidates": {
+            "Republican": ["David Ganezer (R)"],
+            "Democratic": ["Cole Bettles (D)", "Saikat Chakrabarti (D)", "Connie Chan (D)", "Omed Hamid (D)", "Darren Helton (D)", "Daniel Wheeler (D)", "Scott Wiener (D)", "Jingchao Xiong (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-12",
+          "candidates": {
+            "Republican": ["Heath Fulkerson (R)"],
+            "Democratic": ["Lateefah Simon (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-13",
+          "candidates": {
+            "Republican": ["Vin Kruttiventi (R)", "Kevin Lincoln II (R)", "Javier Lopez (R)"],
+            "Democratic": ["Adam Gray (D)"],
+            "Independent": ["Alberto Escobedo (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-14",
+          "candidates": {
+            "Republican": ["Wendy Huang (R)"],
+            "Democratic": ["Melissa Hernandez (D)", "Matt Ortega (D)", "Abrar Qadir (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-15",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Kevin Mullin (D)", "Mantosh Kumar (D)", "Brian Tetrud (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-16",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Sam Liccardo (D)"],
+            "Independent": ["Jotham Stein (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-17",
+          "candidates": {
+            "Republican": ["Ha Phan (R)", "Ritesh Tandon (R)"],
+            "Democratic": ["Ro Khanna (D)", "Nicholas Finan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-18",
+          "candidates": {
+            "Republican": ["Zakaria Kortam (R)"],
+            "Democratic": ["Zoe Lofgren (D)"],
+            "Independent": ["Chris Demers (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-19",
+          "candidates": {
+            "Republican": ["Peter Verbica (R)"],
+            "Democratic": ["Jimmy Panetta (D)", "Hannah James (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-20",
+          "candidates": {
+            "Republican": ["Vince Fong (R)"],
+            "Democratic": ["Patrick Robb (D)", "Carol Kristina Roper (D)", "Sandra Van Scotter (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-21",
+          "candidates": {
+            "Republican": ["Kyle Kirkland (R)", "Lorenzo Rios (R)"],
+            "Democratic": ["Jim Costa (D)", "Lourin Hubbard (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-22",
+          "candidates": {
+            "Republican": ["David G. Valadao (R)"],
+            "Democratic": ["Jasmeet Bains (D)", "Eric Garcia (D)", "Rudy Salas (D)", "Randy Villegas (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-23",
+          "candidates": {
+            "Republican": ["Jay Obernolte (R)"],
+            "Democratic": ["Edwin Alonzo (D)", "Paul Chakalian (D)", "Alexis Claiborne (D)", "Tessa Lynn Hodge (D)", "David Jones (D)", "Charles Wallis (D)"],
+            "Independent": ["Karen Matthews (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-24",
+          "candidates": {
+            "Republican": ["Bob Smith (R)"],
+            "Democratic": ["Salud Carbajal (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-25",
+          "candidates": {
+            "Republican": ["Ronald Huffman (R)", "John Kesselmark (R)", "Joe Males (R)"],
+            "Democratic": ["Raul Ruiz (D)"],
+            "Independent": ["Eli Owens (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-26",
+          "candidates": {
+            "Republican": ["Samuel Gallucci (R)", "Crystal Golden (R)", "Michael Koslow (R)", "William Scott (R)", "Jonathan Wagoner (R)"],
+            "Democratic": ["Sonia Devgan-Kacker (D)", "Jacqui Irwin (D)", "Kyle Langford (D)", "Kyle Rohrbach (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-27",
+          "candidates": {
+            "Republican": ["Jason Gibbs (R)", "David Neidhart (R)"],
+            "Democratic": ["George Whitesides (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-28",
+          "candidates": {
+            "Republican": ["April Verlato (R)"],
+            "Democratic": ["Judy Chu (D)", "Robert Gonzalez (D)", "Michael Tucker (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-29",
+          "candidates": {
+            "Republican": ["Margarita Maria Carranza (R)", "Steven Sparrow (R)"],
+            "Democratic": ["Luz Maria Rivas (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-30",
+          "candidates": {
+            "Republican": ["Dennis Feitosa (R)"],
+            "Democratic": ["Laura Friedman (D)", "Lester Herman (D)", "Darrell Reeves (D)", "Alan Starzinski (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-31",
+          "candidates": {
+            "Republican": ["Erskine Levi (R)"],
+            "Democratic": ["Gil Cisneros (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-32",
+          "candidates": {
+            "Republican": ["Larry Thompson (R)"],
+            "Democratic": ["Christopher Ahuja (D)", "Dory Benami (D)", "Orissa Ishii (D)", "Wyatt Karem (D)", "Jake Levine (D)", "Marena Lin (D)", "Mia Phillips (D)", "Josh Sautter (D)", "Anna Wilding (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-33",
+          "candidates": {
+            "Republican": ["Stephanie Vargas (R)"],
+            "Democratic": ["Pete Aguilar (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-34",
+          "candidates": {
+            "Republican": ["Calvin Lee (R)"],
+            "Democratic": ["Jimmy Gomez (D)", "Arthur Dixon (D)", "David Ferrell (D)", "Angela Gonzales-Torres (D)", "Robert Lucero (D)"],
+            "Independent": ["Loren Colin (I)", "Vivian Nguyen (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-35",
+          "candidates": {
+            "Republican": ["Mike Cargile (R)", "Michael Horvath (R)"],
+            "Democratic": ["Norma Torres (D)", "W.H. Lane (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-36",
+          "candidates": {
+            "Republican": ["Houston Brignano (R)", "Melissa Toomim (R)"],
+            "Democratic": ["Rustin Knudtson (D)"],
+            "Independent": ["Claire Anderson (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-37",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Sydney Kamlager-Dove (D)", "Ryan Duckett (D)", "Todd Lombardo (D)", "Samantha Mota (D)"],
+            "Independent": ["Steve Hill (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-38",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Linda Sánchez (D)", "Thomas Adams-Falconer (D)", "Monica Sanchez (D)", "Hilda Solis (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-39",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Mark Takano (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-40",
+          "candidates": {
+            "Republican": ["Ken Calvert (R)", "Young Kim (R)"],
+            "Democratic": ["Claude Keissieh (D)", "Joe Kerr (D)", "Eric Peterson (D)", "Lisa Ramirez (D)", "Paula Swift (D)", "Tiffanie Tate (D)", "Esther Kim Varet (D)"],
+            "Independent": ["Christian Ahmed (I)", "Nina Linh (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-41",
+          "candidates": {
+            "Republican": ["Cody Wiebelhaus (R)"],
+            "Democratic": ["Katherine Aleman (D)", "Jason Byors (D)", "Hector De La Torre (D)", "David Karson (D)", "Gale Duane Lawton (D)", "Shonique Williams (D)"],
+            "Independent": [],
+            "Libertarian": ["Shaaf Patel (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-42",
+          "candidates": {
+            "Republican": ["Brian Burley (R)"],
+            "Democratic": ["Robert Garcia (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-43",
+          "candidates": {
+            "Republican": ["Craig Geiger (R)", "Anish Jain (R)"],
+            "Democratic": ["Maxine Waters (D)", "Eden Cristo (D)", "Christopher Truman (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-44",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Nanette Barragán (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-45",
+          "candidates": {
+            "Republican": ["Mark Leonard (R)", "Chi Charlie Nguyen (R)", "Amy Phan West (R)", "Michelle Steel (R)", "Chuong Vo (R)"],
+            "Democratic": ["Derek Tran (D)", "Brian Forde (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-46",
+          "candidates": {
+            "Republican": ["David Pan (R)"],
+            "Democratic": ["Lou Correa (D)", "Francisco Bahena (D)", "Christian Mendez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-47",
+          "candidates": {
+            "Republican": ["Julia Hashemieh (R)", "Sage Lam (R)", "Michael Maxsenti (R)"],
+            "Democratic": ["Dave Min (D)", "Hunter Miranda (D)"],
+            "Independent": ["Eric Troutman (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-48",
+          "candidates": {
+            "Republican": ["Darrell Issa (R)"],
+            "Democratic": ["Ammar Campa-Najjar (D)", "Abel Chavez (D)", "Stephen Clemons (D)", "Corinna Contreras (D)", "Nicholas Davis (D)", "Marc Iannarino (D)", "Curtis Morrison (D)", "Brian Nash (D)", "Ferguson Porter (D)", "Brandon Riker (D)", "Whitney Shanahan (D)", "Marni von Wilpert (D)"],
+            "Independent": ["Mike Bucy (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-49",
+          "candidates": {
+            "Republican": ["Jim Desmond (R)", "Star Parker (R)", "Eli Stern (R)"],
+            "Democratic": ["Mike Levin (D)"],
+            "Independent": ["Julian Arellano (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-50",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Scott Peters (D)", "Tim Arnous (D)", "Timothy Bilash (D)", "Aishwarya Mitra (D)", "Ernesto Perez (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-51",
+          "candidates": {
+            "Republican": ["John-Samuel Etheridge Williams (R)"],
+            "Democratic": ["Sara Jacobs (D)"],
+            "Independent": ["Mike Bucy (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "CA-52",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Juan Vargas (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}

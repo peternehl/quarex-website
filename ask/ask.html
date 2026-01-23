@@ -925,6 +925,10 @@
     const seqFolder  = p.get('folder') || 'knowledge-libraries'; // default folder
     const seqStart   = parseInt(p.get('start')) || 0; // starting topic index
 
+    // Podcast mode - enables editable textarea for custom questions
+    // Check URL param first, then localStorage (set from index.html PC button)
+    const podcastMode = p.get('podcast') === '1' || localStorage.getItem('quarex_podcast') === '1';
+
     // ---- Sequential Mode State ----
     let sequentialData = null;  // The book's chapters/topics
     let seqIndex = 0;           // Current position in flat topic list
@@ -1158,6 +1162,15 @@
     if (seqMode) {
       document.body.classList.add('sequential-mode');
       initSequentialMode();
+    }
+
+    // Initialize podcast mode - make textarea editable
+    if (podcastMode) {
+      elPrompt.removeAttribute('readonly');
+      elPrompt.placeholder = 'Type your question here...';
+      elPrompt.style.cursor = 'text';
+      elPrompt.style.opacity = '1';
+      elPrompt.style.color = 'var(--ink)';
     }
 
     // ---- Copy to Clipboard (Ask Local) ----
@@ -1608,14 +1621,20 @@
       }
 
       try{
+        const requestBody = {
+          q: finalQuestion,
+          topic: chapter || context || '',
+          category: book || ''
+        };
+        // Add podcast flag if in podcast mode
+        if (podcastMode) {
+          requestBody.podcast = true;
+        }
+
         const resp = await fetch(SITE_PREFIX + '/api/ask.php', {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({
-            q: finalQuestion,
-            topic: chapter || context || '',
-            category: book || ''
-          })
+          body: JSON.stringify(requestBody)
         });
         const data = await resp.json();
 

@@ -1,0 +1,456 @@
+{
+  "batch": 5,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "Massachusetts",
+      "abbrev": "MA",
+      "districts": [
+        {
+          "district": "MA-01",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Richard Neal (D)", "Anthony Celata (D)", "Nathan Tracy (D)", "Jeromie Whalen (D)"],
+            "Independent": ["Nadia Milleron (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-02",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Jim McGovern (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-03",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Lori Trahan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-04",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Jake Auchincloss (D)", "Christopher Boyd (D)", "Steve Chasse (D)"],
+            "Independent": ["Matthew Cook (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-05",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Katherine Clark (D)", "Jonathan Paz (D)", "Tarik Samman (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-06",
+          "candidates": {
+            "Republican": ["John Field (R)"],
+            "Democratic": ["Beth Andres-Beck (D)", "John Beccia (D)", "Rick Jakious (D)", "Dan Koh (D)", "Mariah Lancaster (D)", "Tram Nguyen (D)", "Jamie Zahlaway Belsito (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-07",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Ayanna Pressley (D)"],
+            "Independent": ["Kelechi Linardon (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-08",
+          "candidates": {
+            "Republican": ["Walter Grochowski (R)"],
+            "Democratic": ["Stephen Lynch (D)", "Patrick Roath (D)", "Andrew Zylberfink (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MA-09",
+          "candidates": {
+            "Republican": ["Robert MacAllister (R)"],
+            "Democratic": ["Bill Keating (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Michigan",
+      "abbrev": "MI",
+      "districts": [
+        {
+          "district": "MI-01",
+          "candidates": {
+            "Republican": ["Jack Bergman (R)", "Justin Michal (R)"],
+            "Democratic": ["Callie Barr (D)", "Kyle Blomquist (D)", "Wayne Stiles (D)"],
+            "Independent": ["Zebulon Featherly (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-02",
+          "candidates": {
+            "Republican": ["John Moolenaar (R)"],
+            "Democratic": ["Benjamin Ambrose (D)", "Andrew Ault (D)", "Richard Carrizales (D)", "Jamie Hill (D)", "Michael Lynch (D)", "Clyde Welford (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-03",
+          "candidates": {
+            "Republican": ["J. Allen Fiorletta (R)"],
+            "Democratic": ["Hillary Scholten (D)", "Zachary Ketchum (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-04",
+          "candidates": {
+            "Republican": ["Bill Huizenga (R)"],
+            "Democratic": ["Richard Aaron (D)", "Diop Harris (D)", "Sean McCann (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-05",
+          "candidates": {
+            "Republican": ["Tim Walberg (R)"],
+            "Democratic": ["Jacob Vravis (D)", "Christian Vukasovich (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-06",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Debbie Dingell (D)", "Jason Cloutier (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-07",
+          "candidates": {
+            "Republican": ["Tom Barrett (R)"],
+            "Democratic": ["Elyon Badger (D)", "Bridget Brink (D)", "Josh Cowen (D)", "William Lawrence (D)", "Matt Maasdam (D)", "Alexandra Prieditis (D)", "Muhammad Salman Rais (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-08",
+          "candidates": {
+            "Republican": ["Amir Hassan (R)"],
+            "Democratic": ["Kristen McDonald Rivet (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-09",
+          "candidates": {
+            "Republican": ["Lisa McClain (R)", "Daltson Atwell (R)"],
+            "Democratic": ["Wyatt Clark (D)", "Ray Pooley (D)"],
+            "Independent": ["Jasen Cartwright (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-10",
+          "candidates": {
+            "Republican": ["John James (R)", "Casey Armitage (R)", "Michael Bouchard (R)", "Steven Elliott (R)", "Cody Ingram (R)", "Justin Kirk (R)", "Robert Lulgjuraj (R)"],
+            "Democratic": ["Tripp Adams (D)", "Eric Chung (D)", "Tim Greimel (D)", "Christina Hines (D)", "Brian Steven Jaye (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-11",
+          "candidates": {
+            "Republican": ["Anthony Paesano (R)", "Tony Prieto (R)", "Michael Steger (R)"],
+            "Democratic": ["Stu Baker (D)", "Aisha Farooqi (D)", "Jeremy Moss (D)", "John Paul Torres (D)", "Don Ufford (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-12",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Rashida Tlaib (D)", "Allen Downer (D)", "Byron Nolen (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MI-13",
+          "candidates": {
+            "Republican": ["Articia Bomer (R)", "Andrew Lorenz (R)"],
+            "Democratic": ["Shri Thanedar (D)", "Shelby Campbell (D)", "Anthony Carbonaro (D)", "Nazmul Hassan (D)", "Donavan McKinney (D)"],
+            "Independent": ["Maurice Morton (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Minnesota",
+      "abbrev": "MN",
+      "districts": [
+        {
+          "district": "MN-01",
+          "candidates": {
+            "Republican": ["Brad Finstad (R)"],
+            "Democratic": ["Jake Johnson (D)"],
+            "Independent": ["Oliver Morlan (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MN-02",
+          "candidates": {
+            "Republican": ["Tyler Kistner (R)", "Eric Pratt (R)"],
+            "Democratic": ["Kaela Berg (D)", "Matt Klein (D)", "Matt Little (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MN-03",
+          "candidates": {
+            "Republican": ["Jeremy Westby (R)"],
+            "Democratic": ["Kelly Morrison (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MN-04",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Betty McCollum (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MN-05",
+          "candidates": {
+            "Republican": ["John Nagel (R)", "Dalia al-Aqidi (R)"],
+            "Democratic": ["Ilhan Omar (D)", "Latonya Reeves (D)"],
+            "Independent": ["DeVelle Jackson (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MN-06",
+          "candidates": {
+            "Republican": ["Tom Emmer (R)", "Michael Foley (R)"],
+            "Democratic": ["Doug Chapin (D)", "Sierra Grandy (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MN-07",
+          "candidates": {
+            "Republican": ["Michelle Fischbach (R)"],
+            "Democratic": ["Jared Adams (D)", "Heather Keeler (D)", "Erik Osberg (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MN-08",
+          "candidates": {
+            "Republican": ["Pete Stauber (R)"],
+            "Democratic": ["Emanuel Anastos (D)", "Cyle Cramer (D)", "John-Paul McBride (D)", "Trina Swanson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Mississippi",
+      "abbrev": "MS",
+      "districts": [
+        {
+          "district": "MS-01",
+          "candidates": {
+            "Republican": ["Trent Kelly (R)"],
+            "Democratic": ["Kelvin Buck (D)", "Cliff Johnson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MS-02",
+          "candidates": {
+            "Republican": ["Ron Eller (R)", "Kevin Wilson (R)"],
+            "Democratic": ["Bennie Thompson (D)", "Evan Turnage (D)", "Pertis Williams III (D)"],
+            "Independent": ["Bennie Foster (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MS-03",
+          "candidates": {
+            "Republican": ["Michael Guest (R)"],
+            "Democratic": ["Michael Chiaradio (D)"],
+            "Independent": [],
+            "Libertarian": ["Erik Kiehle (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "MS-04",
+          "candidates": {
+            "Republican": ["Mike Ezell (R)", "Sawyer Walters (R)"],
+            "Democratic": ["Paul Blackman (D)", "D. Ryan Grover (D)", "Jeffrey Hulum III (D)"],
+            "Independent": ["Carl Boyanton (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Missouri",
+      "abbrev": "MO",
+      "districts": [
+        {
+          "district": "MO-01",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Wesley Bell (D)", "Cori Bush (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MO-02",
+          "candidates": {
+            "Republican": ["Ann Wagner (R)", "Ryan Sheridan (R)"],
+            "Democratic": ["Timothy Bilash (D)", "Chuck Summers (D)", "Nick Vivio (D)", "Joan VonDras (D)", "Frederick Wellman (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MO-03",
+          "candidates": {
+            "Republican": ["Bob Onder (R)"],
+            "Democratic": ["Bethany Mann (D)", "Alexander Thurmon (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MO-04",
+          "candidates": {
+            "Republican": ["Mark Alford (R)"],
+            "Democratic": ["Ricky Dana (D)", "Hartzell Gray (D)", "Jordan Herrera (D)", "Danny Province (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MO-05",
+          "candidates": {
+            "Republican": ["Robert Foltz (R)", "Brett Hueffmeier (R)"],
+            "Democratic": ["Emanuel Cleaver (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MO-06",
+          "candidates": {
+            "Republican": ["Sam Graves (R)", "Jim Ingram (R)", "Gena Ross (R)"],
+            "Democratic": ["Matthew Levine (D)", "Josh Smead (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MO-07",
+          "candidates": {
+            "Republican": ["Eric Burlison (R)", "John Casey (R)", "Grayson Hunt (R)"],
+            "Democratic": ["Missi Hesketh (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MO-08",
+          "candidates": {
+            "Republican": ["Jason Smith (R)", "Johnathon Tune (R)"],
+            "Democratic": ["Frank Barnitz (D)", "Gerald Cass (D)", "Christopher Reichard (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -481,8 +481,46 @@
   <footer>
     &copy; 2025 Quarex / Peter Nehl. All Rights Reserved.<br>
     <a href="privacy.html">Privacy Policy</a> &bull; <a href="ethics/">Ethics</a>
+    <span id="pcBtn" style="cursor:pointer;margin-left:16px;opacity:0.3;font-size:0.8rem;" title="Podcast Mode">PC</span>
   </footer>
 </div>
+
+<script>
+(function() {
+  const pcBtn = document.getElementById('pcBtn');
+  const CODE = 'quarexpod';
+
+  // Show active state if podcast mode is on
+  if (localStorage.getItem('quarex_podcast') === '1') {
+    pcBtn.style.opacity = '1';
+    pcBtn.style.color = '#7CB9FF';
+    pcBtn.title = 'Podcast Mode: ON (click to disable)';
+  }
+
+  pcBtn.addEventListener('click', function() {
+    if (localStorage.getItem('quarex_podcast') === '1') {
+      // Toggle off
+      localStorage.removeItem('quarex_podcast');
+      pcBtn.style.opacity = '0.3';
+      pcBtn.style.color = '';
+      pcBtn.title = 'Podcast Mode';
+      alert('Podcast mode disabled.');
+    } else {
+      // Prompt for code
+      const input = prompt('Enter podcast code:');
+      if (input && input.toLowerCase() === CODE) {
+        localStorage.setItem('quarex_podcast', '1');
+        pcBtn.style.opacity = '1';
+        pcBtn.style.color = '#7CB9FF';
+        pcBtn.title = 'Podcast Mode: ON (click to disable)';
+        alert('Podcast mode enabled! All Quarex questions will use spoken-delivery format.');
+      } else if (input !== null) {
+        alert('Invalid code.');
+      }
+    }
+  });
+})();
+</script>
 
 </body>
 </html>

@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Bash(python house_scraper.py:*)",
+      "Bash(python convert_house_to_flat.py:*)"
     ]
   }
 }

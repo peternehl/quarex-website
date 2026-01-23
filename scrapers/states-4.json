@@ -1,0 +1,296 @@
+{
+  "batch": 4,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "Kansas",
+      "abbrev": "KS",
+      "districts": [
+        {
+          "district": "KS-01",
+          "candidates": {
+            "Republican": ["Tracey Mann (R)"],
+            "Democratic": ["Colin McRoberts (D)", "Lauren Reinhold (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KS-02",
+          "candidates": {
+            "Republican": ["Derek Schmidt (R)"],
+            "Democratic": ["Don Coover (D)", "Braeden Curwick (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KS-03",
+          "candidates": {
+            "Republican": ["Blake Stanley (R)"],
+            "Democratic": ["Sharice Davids (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KS-04",
+          "candidates": {
+            "Republican": ["Ron Estes (R)"],
+            "Democratic": ["Chris Carmichael (D)", "Ryan Gilbert (D)", "Jordan Mitchell (D)", "Daniel Schneider (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Kentucky",
+      "abbrev": "KY",
+      "districts": [
+        {
+          "district": "KY-01",
+          "candidates": {
+            "Republican": ["James Comer Jr. (R)", "Penny Arcos (R)", "David Sims (R)", "Robert James Sutherby (R)"],
+            "Democratic": ["Drew Williams (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KY-02",
+          "candidates": {
+            "Republican": ["Brett Guthrie (R)", "G. Perry Adelmann (R)", "Joshua Ferguson (R)"],
+            "Democratic": ["William Compton (D)", "David Hatfield (D)", "Hank Linderman (D)", "Megan Wingfield (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KY-03",
+          "candidates": {
+            "Republican": ["Daniel Cobble (R)", "David Nichter (R)", "Donald Pay (R)", "Maria Teresa Rodriguez (R)"],
+            "Democratic": ["Morgan McGarvey (D)"],
+            "Independent": ["Oumou Diallo (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KY-04",
+          "candidates": {
+            "Republican": ["Thomas Massie (R)", "Nicole Lee Ethington (R)", "Ed Gallrein (R)"],
+            "Democratic": ["Jesse Brewer (D)", "Monica Dean (D)", "Elizabeth Mason-Hill (D)", "Melissa Strange (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KY-05",
+          "candidates": {
+            "Republican": ["Hal Rogers (R)", "Benjamin Hurley (R)", "Brandon Monhollen (R)", "Jerry Shelton (R)", "Kevin Smith (R)", "Jacob Trimble (R)"],
+            "Democratic": ["Ned Pillersdorf (D)"],
+            "Independent": ["Mikel Wein (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "KY-06",
+          "candidates": {
+            "Republican": ["Ralph Alvarado (R)", "Ryan Dotson (R)", "Adam Perez Arquette (R)", "Greg Plucinski (R)", "Steve Shannon (R)"],
+            "Democratic": ["Jimmy Ausbrooks (D)", "Harvey Carroll Jr. (D)", "Zach Dembo (D)", "Corey Edwards (D)", "David Kloiber (D)", "Erin Petrey (D)", "Cherlynn Stevenson (D)"],
+            "Independent": ["Jay Bowman (I)", "Pete Lynch (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Louisiana",
+      "abbrev": "LA",
+      "districts": [
+        {
+          "district": "LA-01",
+          "candidates": {
+            "Republican": ["Steve Scalise (R)"],
+            "Democratic": ["Lauren Jewett (D)", "Donna Major (D)", "Candida Pagel (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "LA-02",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Troy Carter (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "LA-03",
+          "candidates": {
+            "Republican": ["Clay Higgins (R)"],
+            "Democratic": ["Tia LeBrun (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "LA-04",
+          "candidates": {
+            "Republican": ["Mike Johnson (R)"],
+            "Democratic": ["Conrad Cable (D)", "Matthew Gromlich (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "LA-05",
+          "candidates": {
+            "Republican": ["Larry Davis (R)", "Ray Smith (R)"],
+            "Democratic": ["Larry Foy (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "LA-06",
+          "candidates": {
+            "Republican": ["Christian Johnson (R)"],
+            "Democratic": ["Cleo Fields (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Maine",
+      "abbrev": "ME",
+      "districts": [
+        {
+          "district": "ME-01",
+          "candidates": {
+            "Republican": ["Joshua James Duprey (R)", "Andrew Piantidosi (R)", "Joshua Pietrowicz (R)", "Ronald C. Russell (R)"],
+            "Democratic": ["Chellie Pingree (D)", "Tiffany Roberts (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "ME-02",
+          "candidates": {
+            "Republican": ["James Clark (R)", "Paul LePage (R)"],
+            "Democratic": ["Joe Baldacci (D)", "Matthew Dunlap (D)", "Paige Loud (D)", "Jordan Wood (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Maryland",
+      "abbrev": "MD",
+      "districts": [
+        {
+          "district": "MD-01",
+          "candidates": {
+            "Republican": ["Andrew Harris (R)"],
+            "Democratic": ["Victor Guidice (D)", "Terrence Rogers (D)", "Dan Schwartz (D)", "George Walish (D)", "Randi White (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MD-02",
+          "candidates": {
+            "Republican": ["Kim Klacik (R)"],
+            "Democratic": ["John Olszewski Jr. (D)", "Enrico Bailey (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MD-03",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Sarah Elfreth (D)", "Felix Seier (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MD-04",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Glenn Ivey (D)", "Khyre Edwards (D)", "Anthony Field (D)", "Jakeya Johnson (D)", "Jonathan White (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MD-05",
+          "candidates": {
+            "Republican": ["Michelle Talkington (R)"],
+            "Democratic": ["Quincy Bareebe (D)", "Wala Blegay (D)", "Adrian Boafo (D)", "Jennifer Cross (D)", "Terry Jackson (D)", "Harry Jarin (D)", "Walter Kirkland (D)", "Heather Luper (D)", "Alexis Solis (D)", "Tracy Starr (D)", "Nicole Williams (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MD-06",
+          "candidates": {
+            "Republican": ["Christopher Burnett (R)", "Chris Hyser (R)", "Neil Parrott (R)"],
+            "Democratic": ["April McClain-Delaney (D)", "David Trone (D)", "Ethan Wechtaluk (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MD-07",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Kweisi Mfume (D)", "Hadley Anthony (D)", "Mark Conway (D)", "Theo Gillespie (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "MD-08",
+          "candidates": {
+            "Republican": ["Cheryl Riley (R)"],
+            "Democratic": ["Jamie Raskin (D)", "Stephen Leon (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}
