@@ -1,0 +1,356 @@
+{
+  "batch": 10,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "Virginia",
+      "abbrev": "VA",
+      "districts": [
+        {
+          "district": "VA-01",
+          "candidates": {
+            "Republican": ["Robert J. Wittman (R)"],
+            "Democratic": ["Elizabeth Beggs (D)", "Salaam Bhatti (D)", "Tim Cywinski (D)", "Lisa Khanna (D)", "Jason Knapp (D)", "Ericka Kopp (D)", "Lewis Littlepage (D)", "Andrew Lucchetti (D)", "Amanda Pohl (D)", "James Shea (D)", "Sean Sublette (D)", "Shannon Taylor (D)", "Melvin Tull (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-02",
+          "candidates": {
+            "Republican": ["Jennifer Kiggans (R)", "William Matthews (R)"],
+            "Democratic": ["Nila Devanath (D)", "Elaine Luria (D)", "Patrick Mosolf (D)", "James Osyf (D)", "Nicolaus Sleister (D)", "Matthew Strickler (D)", "John Stringfellow (D)", "Michael Williamson (D)"],
+            "Independent": ["Bishop Staten (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-03",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Robert C. Scott (D)", "Justin Maffett (D)"],
+            "Independent": ["James Taylor (I)", "Dawn Vasquez (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-04",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Jennifer McClellan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-05",
+          "candidates": {
+            "Republican": ["John McGuire (R)", "Bob Good (R)", "Melanie Lucero (R)"],
+            "Democratic": ["Suzanne Krzyzanowski (D)", "Hugh Murray (D)", "Tom Perriello (D)", "Mike Pruitt (D)", "Paul Riley (D)", "Robert Tracinski (D)", "Kate Zabriskie (D)"],
+            "Independent": ["Cooke Harvey (I)", "Chris Register (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-06",
+          "candidates": {
+            "Republican": ["Benjamin Lee Cline (R)"],
+            "Democratic": ["Pete Barlow (D)", "Wendy Gooditis (D)", "Beth Macy (D)", "Ken Mitchell (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-07",
+          "candidates": {
+            "Republican": ["Tara Durant (R)", "John Gray (R)", "Darius Mayfield (R)", "Douglas Ollivant (R)", "Waverly Washington (R)"],
+            "Democratic": ["Eugene Vindman (D)", "Matthew Rainforth (D)", "Alex Thymmons (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-08",
+          "candidates": {
+            "Republican": ["Heerak Christian Kim (R)", "Luke Nathan Phillips (R)", "Tony Sabio (R)"],
+            "Democratic": ["Donald Sternoff Beyer Jr. (D)", "Michael Duffin (D)", "Adam Dunigan (D)", "Frank Ferreira (D)", "Daniel Gray (D)", "Mo Seifeldein (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-09",
+          "candidates": {
+            "Republican": ["H. Morgan Griffith (R)", "Brandon Cook (R)"],
+            "Democratic": ["Brandi Hall (D)", "Adam Murphy (D)", "Joy Powers (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-10",
+          "candidates": {
+            "Republican": ["Julie Perry (R)", "Sam Wong (R)"],
+            "Democratic": ["Suhas Subramanyam (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "VA-11",
+          "candidates": {
+            "Republican": ["Nathan Headrick (R)", "Michael Van Meter (R)"],
+            "Democratic": ["James Walkinshaw (D)", "Stella Pekarsky (D)", "Amy Roma (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Washington",
+      "abbrev": "WA",
+      "districts": [
+        {
+          "district": "WA-01",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Suzan DelBene (D)", "Hunter Gordon (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-02",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Rick Larsen (D)", "Tomas Scheel (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-03",
+          "candidates": {
+            "Republican": ["Antony Barran (R)", "John Braun (R)", "Lawrence Kellogg (R)"],
+            "Democratic": ["Marie Gluesenkamp Pérez (D)", "Brent Hennrich (D)", "Suzzanna V. Tanner (D)"],
+            "Independent": ["Eric Vaughan (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-04",
+          "candidates": {
+            "Republican": ["Amanda McKinney (R)", "Wesley Meier (R)", "Jerrod Sessler (R)"],
+            "Democratic": ["John Duresky (D)"],
+            "Independent": ["Devin Poore (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-05",
+          "candidates": {
+            "Republican": ["Michael Baumgartner (R)", "Anthony Jensen (R)"],
+            "Democratic": ["Carmela Conroy (D)", "Ann Marie Danimus (D)", "Bajun Mavalwalla (D)", "Anthony Whisenhunt (D)", "David Womack (D)"],
+            "Independent": ["Aaron Croft (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-06",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Emily Randall (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-07",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Pramila Jayapal (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-08",
+          "candidates": {
+            "Republican": ["Trinh Ha (R)", "Bob Hagglund (R)", "Andres Valleza (R)"],
+            "Democratic": ["Kim Schrier (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-09",
+          "candidates": {
+            "Republican": ["Janis Clark (R)", "C. Mark Greene (R)"],
+            "Democratic": ["D. Adam Smith (D)", "Melissa Chaudhry (D)"],
+            "Independent": ["Kshama Sawant (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WA-10",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Marilyn Strickland (D)", "Adam Arafat (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "West Virginia",
+      "abbrev": "WV",
+      "districts": [
+        {
+          "district": "WV-01",
+          "candidates": {
+            "Republican": ["Carol Miller (R)", "Abel Clendenen (R)", "Larry Jackson (R)", "David Sartin (R)"],
+            "Democratic": ["Britta Aguirre (D)"],
+            "Independent": ["Isaiah Rucker (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WV-02",
+          "candidates": {
+            "Republican": ["Riley Moore (R)"],
+            "Democratic": ["Ahsan Parsi (D)", "Steven Wendelin (D)"],
+            "Independent": ["Patrick Carney (I)", "Christopher Whitcomb (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "abbrev": "WI",
+      "districts": [
+        {
+          "district": "WI-01",
+          "candidates": {
+            "Republican": ["Bryan Steil (R)", "Connor Walleck (R)"],
+            "Democratic": ["Miguel Aranda (D)", "Travis Beckius (D)", "Mitchell Berman (D)", "Randy Bryce (D)", "Enrique Casiano (D)", "Gage Stills (D)"],
+            "Independent": ["Adam Follmer (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WI-02",
+          "candidates": {
+            "Republican": ["Erik Olsen (R)"],
+            "Democratic": ["Mark Pocan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WI-03",
+          "candidates": {
+            "Republican": ["Derrick Van Orden (R)"],
+            "Democratic": ["Emily Berge (D)", "Rebecca Cooke (D)", "Rodney Rave (D)"],
+            "Independent": ["Rustin Provance (I)", "Jayte Welch (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WI-04",
+          "candidates": {
+            "Republican": ["Purnima Nath (R)"],
+            "Democratic": ["Gwen Moore (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WI-05",
+          "candidates": {
+            "Republican": ["Scott Fitzgerald (R)"],
+            "Democratic": ["Andrew Beck (D)", "Ben Steinhoff (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WI-06",
+          "candidates": {
+            "Republican": ["Glenn Grothman (R)", "Jonathan Peetz (R)"],
+            "Democratic": ["Amanda Bell (D)", "Kelly Brown (D)", "Michael Heidenreich (D)", "John Macho (D)", "Joey Marschall (D)", "Kortney Oldham (D)", "Bradley Smith (D)", "Aaron Wojciechowski (D)"],
+            "Independent": ["Michael Thurow (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WI-07",
+          "candidates": {
+            "Republican": ["Michael Alfonso (R)", "Jessi Ebben (R)", "Kevin Hermening (R)", "Paul Wassgren (R)"],
+            "Democratic": ["Chris Armstrong (D)", "Fred Clark (D)", "Ginger Murray (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "WI-08",
+          "candidates": {
+            "Republican": ["Tony Wied (R)"],
+            "Democratic": ["Rick Crosson (D)", "Benjamin Hable (D)", "Mark Scheffler (D)", "Katrina DeVille (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Wyoming",
+      "abbrev": "WY",
+      "districts": [
+        {
+          "district": "WY-AL",
+          "candidates": {
+            "Republican": ["Jillian Balow (R)", "Chuck Gray (R)", "Reid Rasner (R)"],
+            "Democratic": [],
+            "Independent": ["Daniel Workman (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}

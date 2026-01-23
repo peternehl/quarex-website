@@ -2,20 +2,13 @@
   "book": "NY-10",
   "chapters": [
     {
-      "name": "Republican",
-      "topics": [
-        "No candidates declared"
-      ]
-    },
-    {
       "name": "Democratic",
       "topics": [
         "Daniel Goldman (D)",
         "Evan Hutchison (D)",
         "Nickie Kane (D)",
         "Brad Lander (D)",
-        "Savail Majid (D)",
-        "Joshua Bristol (D)"
+        "Savail Majid (D)"
       ]
     }
   ]

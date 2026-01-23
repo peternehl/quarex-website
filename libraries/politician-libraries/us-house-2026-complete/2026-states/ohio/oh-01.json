@@ -1,0 +1,26 @@
+{
+  "book": "OH-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Eric Conroy (R)",
+        "Steven Erbeck (R)",
+        "Rosemary Oglesby-Henry (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Greg Landsman (D)",
+        "Lindsey Ferreira (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "John Hancock (L)"
+      ]
+    }
+  ]
+}

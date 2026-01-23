@@ -4,19 +4,24 @@
     {
       "name": "Republican",
       "topics": [
-        "Justin McNeal (R)",
-        "Christopher Sanders (R)"
+        "Dusty Johnson (R)",
+        "James Bialota (R)",
+        "Casey Crabtree (R)",
+        "Marty J. Jackley (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "Zach Kovach (D)",
-        "Bert Olson (D)",
-        "Ryan Ryder (D)",
-        "Whitney Raver (D)",
-        "Ellee Spawn (D)",
-        "Brian Wirth (D)"
+        "Nicole Gronli (D)",
+        "Billy Mawhiney (D)",
+        "Scott Schlagel (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jack Pittman (I)"
       ]
     }
   ]

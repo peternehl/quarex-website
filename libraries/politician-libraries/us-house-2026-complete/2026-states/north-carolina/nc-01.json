@@ -4,13 +4,23 @@
     {
       "name": "Republican",
       "topics": [
-        "No candidates declared"
+        "Asa Buck (R)",
+        "Laurie Buckhout (R)",
+        "Robert Hanig (R)",
+        "Eric Rouse (R)",
+        "Ashley-Nicole Russell (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
         "Donald Davis (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Tom Bailey (L)"
       ]
     }
   ]

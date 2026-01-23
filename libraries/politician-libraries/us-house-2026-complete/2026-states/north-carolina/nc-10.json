@@ -4,13 +4,25 @@
     {
       "name": "Republican",
       "topics": [
-        "No candidates declared"
+        "Pat Harrigan (R)",
+        "Matthew Sin (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "No candidates declared"
+        "Ashley Bell (D)",
+        "West Caudle (D)",
+        "Harry Morley (D)",
+        "Marcus D. Pearson (D)",
+        "Ralph Scott Jr. (D)",
+        "Mir Yarfitz (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Steven Feldman (L)"
       ]
     }
   ]

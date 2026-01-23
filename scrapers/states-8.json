@@ -1,0 +1,406 @@
+{
+  "batch": 8,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "Oklahoma",
+      "abbrev": "OK",
+      "districts": [
+        {
+          "district": "OK-01",
+          "candidates": {
+            "Republican": ["Kevin Hern (R)"],
+            "Democratic": ["John Croisant (D)", "Erica Watkins (D)"],
+            "Independent": ["Ryan Parschauer (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OK-02",
+          "candidates": {
+            "Republican": ["Josh Brecheen (R)", "William Webb (R)"],
+            "Democratic": ["Erik Terwey (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OK-03",
+          "candidates": {
+            "Republican": ["Frank Lucas (R)"],
+            "Democratic": ["Jules Roberson (D)"],
+            "Independent": ["Rebekah LaVann (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OK-04",
+          "candidates": {
+            "Republican": ["Tom Cole (R)", "Marcie Everhart (R)"],
+            "Democratic": ["Mitchell Jacob (D)", "Kody Macaulay (D)", "Jeff Pixley (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OK-05",
+          "candidates": {
+            "Republican": ["Stephanie Bice (R)"],
+            "Democratic": [],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Oregon",
+      "abbrev": "OR",
+      "districts": [
+        {
+          "district": "OR-01",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Suzanne Bonamici (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OR-02",
+          "candidates": {
+            "Republican": ["Cliff Bentz (R)", "Andrea Carr (R)", "Peter Larson (R)", "Russell McAlmond (R)"],
+            "Democratic": ["Peter Black (D)", "Mary Doyle (D)", "Mitchel Knight (D)", "Rebecca Mueller (D)", "Dawn Rasmussen (D)", "Patty Snow (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OR-03",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Maxine Dexter (D)", "Jessica Salas (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OR-04",
+          "candidates": {
+            "Republican": ["Monique DeSpain (R)", "Raiph Huber (R)"],
+            "Democratic": ["Val Hoyle (D)", "Melissa Bird (D)", "William King (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "OR-05",
+          "candidates": {
+            "Republican": ["Patti Adair (R)", "Jonathan Lockwood (R)", "Jo Rae Perkins (R)"],
+            "Democratic": ["Janelle Bynum (D)"],
+            "Independent": [],
+            "Libertarian": ["Joseph Lehman (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "OR-06",
+          "candidates": {
+            "Republican": ["David Russ (R)"],
+            "Democratic": ["Andrea Salinas (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Pennsylvania",
+      "abbrev": "PA",
+      "districts": [
+        {
+          "district": "PA-01",
+          "candidates": {
+            "Republican": ["Brian Fitzpatrick (R)"],
+            "Democratic": ["Bob Harvie (D)", "Tracy Hunt (D)", "Lucia Simonelli (D)", "Rob Strickler (D)"],
+            "Independent": ["John Hoban (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-02",
+          "candidates": {
+            "Republican": ["Jessica Arriaga (R)"],
+            "Democratic": ["Brendan Boyle (D)", "Salem Snow (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-03",
+          "candidates": {
+            "Republican": ["Sheila Armstrong (R)"],
+            "Democratic": ["Gabriel Caceres (D)", "Cole Carter (D)", "Morgan Cephas (D)", "Shaun Griffith (D)", "Jahmiel Jackson (D)", "Isaiah Martin (D)", "Pablo McConnie-Saad (D)", "Karl Morris (D)", "David Oxman (D)", "Christopher Rabb (D)", "Ala Stanford (D)", "Sharif Street (D)", "Robin Toldens (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-04",
+          "candidates": {
+            "Republican": ["Ismaine Ayouaz (R)"],
+            "Democratic": ["Madeleine Dean (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-05",
+          "candidates": {
+            "Republican": ["Melvin Prince Johnakin (R)"],
+            "Democratic": ["Mary Gay Scanlon (D)", "Melvin Campbell (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-06",
+          "candidates": {
+            "Republican": ["Marty Young (R)"],
+            "Democratic": ["Chrissy Houlahan (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-07",
+          "candidates": {
+            "Republican": ["Ryan Mackenzie (R)"],
+            "Democratic": ["Bob Brooks (D)", "Ryan Crosswell (D)", "Aiden Gonzalez (D)", "Lamont McClure (D)", "Carol Obando-Derstine (D)", "Mark Pinsley (D)", "Lewis Shupe (D)"],
+            "Independent": ["Ramon Granados (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-08",
+          "candidates": {
+            "Republican": ["Rob Bresnahan Jr. (R)"],
+            "Democratic": ["Paige Cognetti (D)", "Eric Stone (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-09",
+          "candidates": {
+            "Republican": ["Dan Meuser (R)", "Gage Heller (R)"],
+            "Democratic": ["Jennifer Brothers (D)", "Daniel Byron (D)", "Rachel Wallace (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-10",
+          "candidates": {
+            "Republican": ["Scott Perry (R)", "Karen Dalton (R)", "Josh Hall (R)"],
+            "Democratic": ["Jason Cass (D)", "Justin Douglas (D)", "William Lillich (D)", "Michael Robinson (D)", "Janelle Stelson (D)"],
+            "Independent": ["Isabelle Harman (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-11",
+          "candidates": {
+            "Republican": ["Lloyd Smucker (R)"],
+            "Democratic": ["Sarah Klimm (D)", "Nancy Mannion (D)"],
+            "Independent": ["Jeffrey Wilder (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-12",
+          "candidates": {
+            "Republican": ["Benson Fechter (R)", "James Hayes (R)", "Arnold Santos (R)"],
+            "Democratic": ["Summer Lee (D)", "Adam Forgie (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-13",
+          "candidates": {
+            "Republican": ["John Joyce (R)"],
+            "Democratic": ["Beth Farnham (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-14",
+          "candidates": {
+            "Republican": ["Guy Reschenthaler (R)"],
+            "Democratic": ["David Alan Bradstock (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-15",
+          "candidates": {
+            "Republican": ["Glenn Thompson (R)"],
+            "Democratic": ["Ray Bilger (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-16",
+          "candidates": {
+            "Republican": ["Mike Kelly (R)"],
+            "Democratic": ["Justin Wagner (D)"],
+            "Independent": ["Nick Singelis (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "PA-17",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["Chris Deluzio (D)", "Alec Barlock (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Rhode Island",
+      "abbrev": "RI",
+      "districts": [
+        {
+          "district": "RI-01",
+          "candidates": {
+            "Republican": [],
+            "Democratic": [],
+            "Independent": ["Wilfred Curioso (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "RI-02",
+          "candidates": {
+            "Republican": ["Victor Mellor (R)"],
+            "Democratic": ["Seth Magaziner (D)"],
+            "Independent": ["Armando Anzoli (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "South Carolina",
+      "abbrev": "SC",
+      "districts": [
+        {
+          "district": "SC-01",
+          "candidates": {
+            "Republican": ["Dan Brown (R)", "Logan Cunningham (R)", "Tyler Dykes (R)", "Jack Ellison (R)", "Jenny Honeycutt (R)", "Sam McCown (R)", "Alex Pelbath (R)", "Mark Smith (R)"],
+            "Democratic": ["Robert Beers (D)", "Mac Deford (D)", "Max Diaz (D)", "Matthew Fulmer (D)", "Mayra Rivera-Vazquez (D)"],
+            "Independent": [],
+            "Libertarian": ["William Reeside (L)"],
+            "Green": []
+          }
+        },
+        {
+          "district": "SC-02",
+          "candidates": {
+            "Republican": ["Joe Wilson (R)"],
+            "Democratic": ["Roger Pruitt (D)", "David Robinson II (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "SC-03",
+          "candidates": {
+            "Republican": ["Sheri Biggs (R)"],
+            "Democratic": [],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "SC-04",
+          "candidates": {
+            "Republican": ["William Timmons (R)", "David Atchley (R)"],
+            "Democratic": ["Courtney McClain (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "SC-05",
+          "candidates": {
+            "Republican": ["Bill Bledsoe (R)", "Wes Climer (R)"],
+            "Democratic": ["Andrew Clough (D)", "Mallory Dittmer (D)", "Alex Harper (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "SC-06",
+          "candidates": {
+            "Republican": [],
+            "Democratic": ["James Clyburn (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "SC-07",
+          "candidates": {
+            "Republican": ["Russell Fry (R)", "Adam Moye (R)"],
+            "Democratic": ["John Vincent (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}

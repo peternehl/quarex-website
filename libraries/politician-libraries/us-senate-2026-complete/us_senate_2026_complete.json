@@ -2,7 +2,7 @@
   "library": "US Senate 2026 - Complete",
   "library_type": "candidates",
   "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-16",
+  "last_updated": "2026-01-23",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -118,7 +118,8 @@
             {
               "name": "Republican",
               "topics": [
-                "No candidates declared"
+                "Michael Katz (R)",
+                "John Shulli (R)"
               ]
             },
             {
@@ -149,6 +150,7 @@
                 "Derek Dooley (R)",
                 "Christoph La'Flare Chapman (R)",
                 "Jonathan McColumn (R)",
+                "Chelsae Pile (R)",
                 "Rick Temple (R)",
                 "Vinson Watkins (R)"
               ]
@@ -321,6 +323,12 @@
                 "Pamela Stevenson (D)",
                 "Vincent Thompson (D)"
               ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Christopher Campbell (I)"
+              ]
             }
           ]
         },
@@ -332,11 +340,13 @@
               "topics": [
                 "Bill Cassidy (R)",
                 "Randall Arrington (R)",
+                "Markeda Cottonham (R)",
                 "Tracy Dendy (R)",
                 "Julie Emerson (R)",
                 "John Fleming (R)",
                 "Chris Holder (R)",
                 "Xan John (R)",
+                "Julia Letlow (R)",
                 "Blake Miguez (R)",
                 "Joshua Morott (R)",
                 "Kathy Seiden (R)",
@@ -387,7 +397,8 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "David Evans (I)"
+                "David Evans (I)",
+                "Timothy Rich (I)"
               ]
             }
           ]
@@ -467,6 +478,7 @@
                 "Raymond Petersen (R)",
                 "Mike Ruoho (R)",
                 "Adam Schwarze (R)",
+                "Michele Tafoya (R)",
                 "Tom Weiler (R)",
                 "Royce White (R)",
                 "Mark York (R)"
@@ -495,8 +507,7 @@
               "name": "Republican",
               "topics": [
                 "Cindy Hyde-Smith (R)",
-                "Sarah Adlakha (R)",
-                "Andrew S. Smith (R)"
+                "Sarah Adlakha (R)"
               ]
             },
             {
@@ -531,6 +542,7 @@
                 "Alani Bankhead (D)",
                 "Michael BlackWolf (D)",
                 "Michael Hummert (D)",
+                "Kathleen McLaughlin (D)",
                 "Reilly Neill (D)"
               ]
             },
@@ -606,6 +618,7 @@
               "topics": [
                 "Cory Booker (D)",
                 "Saxon Callahan (D)",
+                "Lisa McCormick (D)",
                 "Gregory Tomaini (D)"
               ]
             },
@@ -629,7 +642,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Ben Ray Luj\u00e1n (D)"
+                "Ben Ray Luj\u00e1n (D)",
+                "Matt Dodson (D)"
               ]
             },
             {
@@ -886,6 +900,7 @@
                 "Mark Warner (D)",
                 "Lorita Daniels (D)",
                 "Gregory Eichelberger (D)",
+                "Mark Moran (D)",
                 "Jason Reynolds (D)"
               ]
             }

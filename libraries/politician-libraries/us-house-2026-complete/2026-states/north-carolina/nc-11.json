@@ -4,19 +4,25 @@
     {
       "name": "Republican",
       "topics": [
-        "No candidates declared"
+        "Chuck Edwards (R)",
+        "Adam Smith (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "No candidates declared"
+        "Jamie Ager (D)",
+        "Zelda Briarwood (D)",
+        "Richard Hudspeth (D)",
+        "Paul Maddox (D)",
+        "Lee Whipple (D)"
       ]
     },
     {
       "name": "Independent/Other",
       "topics": [
-        "John Rogers (I)"
+        "John Rogers (I)",
+        "Travis Groo (L)"
       ]
     }
   ]

@@ -4,13 +4,20 @@
     {
       "name": "Republican",
       "topics": [
-        "No candidates declared"
+        "David Rouzer (R)",
+        "David Buzzard (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
         "Kimberly Hardy (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Maad Abu-Ghazalah (L)"
       ]
     }
   ]

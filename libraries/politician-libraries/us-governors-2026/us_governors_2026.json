@@ -2,7 +2,7 @@
   "library": "US Governors 2026",
   "library_type": "candidates",
   "description": "All 2026 gubernatorial races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-16",
+  "last_updated": "2026-01-23",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -81,6 +81,7 @@
             {
               "name": "Independent/Other",
               "topics": [
+                "Teri Hourihan (I)",
                 "William Pounds (I)",
                 "Leezah Sun (I)"
               ]
@@ -115,7 +116,6 @@
                 "Sharifah Hardie (R)",
                 "Steve Hilton (R)",
                 "Brandon Jones (R)",
-                "Kyle Langford (R)",
                 "Daniel Mercuri (R)",
                 "Jon Slavet (R)",
                 "Leo Zacky (R)"
@@ -143,7 +143,8 @@
               "topics": [
                 "Nicholas Thompson (I)",
                 "Jesse Alberti (I)",
-                "Tony Fitzpatrick (I)"
+                "Tony Fitzpatrick (I)",
+                "Lewis Herms (I)"
               ]
             }
           ]
@@ -203,6 +204,7 @@
                 "Danny Fish (I)",
                 "Justin Ganoe (I)",
                 "Chante Jones (I)",
+                "Christian Komor (I)",
                 "Marcus Marte (I)",
                 "Jarvis Ray (I)",
                 "Gregory Roebuck (I)",
@@ -219,6 +221,7 @@
               "name": "Republican",
               "topics": [
                 "Ryan Fazio (R)",
+                "Betsy McCaughey (R)",
                 "Erin Stewart (R)",
                 "Timothy Wilcox (R)"
               ]
@@ -248,6 +251,7 @@
                 "John Joseph Mercadante (R)",
                 "William Reicherter (R)",
                 "Paul Renner (R)",
+                "Rachel Rodriguez (R)",
                 "Caneste Succe (R)",
                 "Bobby Williams Jr. (R)"
               ]
@@ -263,6 +267,7 @@
                 "Dayna Foster (D)",
                 "Indony Jean Baptiste (D)",
                 "David Jolly (D)",
+                "Charles Lewis I (D)",
                 "Donald Peterson (D)",
                 "Christopher Powell (D)"
               ]
@@ -365,6 +370,7 @@
               "topics": [
                 "Brad Little (R)",
                 "Jordan Chirat (R)",
+                "Scott Hert (R)",
                 "Lisa Marie (R)",
                 "Justin Plante (R)"
               ]
@@ -608,7 +614,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "Christopher Seymore (D)"
               ]
             },
             {
@@ -791,6 +797,7 @@
                 "Kyle Duyck (R)",
                 "Caleb Kintz (R)",
                 "Patrick Kopke-Hales (R)",
+                "David Medina (R)",
                 "Robert Neuman (R)",
                 "Brad T. Peters (R)",
                 "Matthew Piatt (R)",
@@ -905,7 +912,8 @@
               "name": "Independent/Other",
               "topics": [
                 "Terry Gleason (I)",
-                "Scott Morris (South Dakota) (I)"
+                "Scott Morris (I)",
+                "Allison Renville (I)"
               ]
             }
           ]
@@ -1060,6 +1068,7 @@
               "topics": [
                 "Eric Barlow (R)",
                 "Brent Bien (R)",
+                "Megan Degenfelder (R)",
                 "Joseph Kibler (R)"
               ]
             },

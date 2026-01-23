@@ -2,12 +2,6 @@
   "book": "NY-07",
   "chapters": [
     {
-      "name": "Republican",
-      "topics": [
-        "No candidates declared"
-      ]
-    },
-    {
       "name": "Democratic",
       "topics": [
         "Alexander Campagna (D)",
@@ -18,8 +12,7 @@
         "Paperboy Prince (D)",
         "Antonio Reynoso (D)",
         "Miles Shore (D)",
-        "Claire Valdez (D)",
-        "Nydia Velazquez (D)"
+        "Claire Valdez (D)"
       ]
     }
   ]

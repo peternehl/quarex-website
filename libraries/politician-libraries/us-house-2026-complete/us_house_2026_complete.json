@@ -2,7 +2,7 @@
   "library": "us-house-2026-complete",
   "library_type": "candidates",
   "description": "All 435 House districts with declared 2026 candidates. Auto-generated from Ballotpedia.",
-  "last_updated": "2026-01-16",
+  "last_updated": "2026-01-23",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -502,6 +502,7 @@
             {
               "name": "Republican",
               "topics": [
+                "Paul Saulsbury (R)",
                 "Angelita Valles (R)",
                 "Doug LaMalfa (R)"
               ]
@@ -958,7 +959,8 @@
                 "Paul Chakalian (D)",
                 "Alexis Claiborne (D)",
                 "Tessa Lynn Hodge (D)",
-                "David Jones (D)"
+                "David Jones (D)",
+                "Charles Wallis (D)"
               ]
             },
             {
@@ -1018,6 +1020,7 @@
               "name": "Republican",
               "topics": [
                 "Samuel Gallucci (R)",
+                "Crystal Golden (R)",
                 "Michael Koslow (R)",
                 "William Scott (R)",
                 "Jonathan Wagoner (R)"
@@ -1026,8 +1029,12 @@
             {
               "name": "Democratic",
               "topics": [
+                "Sonia Devgan-Kacker (D)",
                 "Jacqui Irwin (D)",
-                "Julia Brownley (D)"
+                "Kyle Langford (D)",
+                "Kyle Rohrbach (D)",
+                "Julia Brownley (D)",
+                "Chris Espinosa (D)"
               ]
             }
           ]
@@ -1063,7 +1070,8 @@
               "name": "Democratic",
               "topics": [
                 "Judy Chu (D)",
-                "Robert Gonzalez (D)"
+                "Robert Gonzalez (D)",
+                "Michael Tucker (D)"
               ]
             }
           ]
@@ -1206,7 +1214,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Norma Torres (D)"
+                "Norma Torres (D)",
+                "W.H. Lane (D)"
               ]
             }
           ]
@@ -1334,6 +1343,7 @@
                 "Jason Byors (D)",
                 "Hector De La Torre (D)",
                 "David Karson (D)",
+                "Gale Duane Lawton (D)",
                 "Shonique Williams (D)",
                 "Anuj Dixit (D)",
                 "Tim Myers (D)",
@@ -1391,7 +1401,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "Nanette Barrag\u00e1n (D)"
               ]
             }
           ]
@@ -1406,7 +1416,8 @@
                 "Chi Charlie Nguyen (R)",
                 "Amy Phan West (R)",
                 "Michelle Steel (R)",
-                "Chuong Vo (R)"
+                "Chuong Vo (R)",
+                "Thomas Vo (R)"
               ]
             },
             {
@@ -1844,7 +1855,7 @@
             {
               "name": "Republican",
               "topics": [
-                "No candidates declared"
+                "Michael Goldstein (R)"
               ]
             },
             {
@@ -1868,7 +1879,8 @@
               "name": "Republican",
               "topics": [
                 "Michele Botelho (R)",
-                "Jonathan De Barros (R)"
+                "Jonathan De Barros (R)",
+                "Chris Shea (R)"
               ]
             },
             {
@@ -3992,6 +4004,7 @@
             {
               "name": "Democratic",
               "topics": [
+                "Joe Baldacci (D)",
                 "Matthew Dunlap (D)",
                 "Paige Loud (D)",
                 "Jordan Wood (D)",
@@ -5522,7 +5535,7 @@
             {
               "name": "Republican",
               "topics": [
-                "Tiffany Burgess (R)",
+                "Tiffany Burress (R)",
                 "Rosemary Pino (R)"
               ]
             },
@@ -5861,11 +5874,11 @@
               "name": "Democratic",
               "topics": [
                 "Daniel Goldman (D)",
-                "Evan Hutchison (D)",
                 "Nickie Kane (D)",
                 "Brad Lander (D)",
                 "Savail Majid (D)",
-                "Joshua Bristol (D)"
+                "Joshua Bristol (D)",
+                "Evan Hutchison (D)"
               ]
             }
           ]
@@ -5895,6 +5908,7 @@
               "name": "Republican",
               "topics": [
                 "Kaley Aldrich (R)",
+                "Amy Jordan (R)",
                 "Gavin Solomon (R)",
                 "Lucian Wintrich (R)",
                 "Massimiliano Zappone (R)"
@@ -5923,7 +5937,6 @@
               "name": "Independent/Other",
               "topics": [
                 "Robb Huhn (I)",
-                "Amy Jordan (I)",
                 "Wilneida Negron (I)",
                 "Karen Ortiz (I)"
               ]
@@ -6119,7 +6132,7 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "Chris Schmidt (I)"
+                "Christopher Schmidt (I)"
               ]
             }
           ]
@@ -6361,6 +6374,12 @@
               "name": "Democratic",
               "topics": [
                 "Kimberly Hardy (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Michael Henry (I)"
               ]
             }
           ]
@@ -6817,6 +6836,7 @@
                 "Gabriel Caceres (D)",
                 "Cole Carter (D)",
                 "Morgan Cephas (D)",
+                "Shaun Griffith (D)",
                 "Jahmiel Jackson (D)",
                 "Isaiah Martin (D)",
                 "Pablo McConnie-Saad (D)",
@@ -7070,7 +7090,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "Ray Bilger (D)"
               ]
             }
           ]
@@ -7185,7 +7205,6 @@
                 "Jenny Honeycutt (R)",
                 "Sam McCown (R)",
                 "Alex Pelbath (R)",
-                "William Reeside (R)",
                 "Mark Smith (R)",
                 "Nancy Mace (R)"
               ]

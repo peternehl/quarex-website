@@ -4,218 +4,137 @@
     {
       "name": "OH-01",
       "topics": [
-        "John Hancock (I)",
-        "Greg Landsman (D)",
-        "Lindsey Ferreira (D)",
         "Eric Conroy (R)",
         "Steven Erbeck (R)",
-        "Rosemary Oglesby-Henry (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Rosemary Oglesby-Henry (R)",
+        "Greg Landsman (D)",
+        "Lindsey Ferreira (D)",
+        "John Hancock (L)"
       ]
     },
     {
       "name": "OH-02",
       "topics": [
         "David Taylor (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
       ]
     },
     {
       "name": "OH-03",
       "topics": [
         "Joyce Beatty (D)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
       ]
     },
     {
       "name": "OH-04",
       "topics": [
-        "Tamie Wilson (D)",
-        "Jim Jordan (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Jim Jordan (R)",
+        "Joshua Kolasinski (D)",
+        "Tamie Wilson (D)"
       ]
     },
     {
       "name": "OH-05",
       "topics": [
-        "Daniel Burket (D)",
-        "Christopher Maddaluno (D)",
         "Bob Latta (R)",
-        "Erica Kelley (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Erica Kelley (R)",
+        "Daniel Burket (D)",
+        "Christopher Maddaluno (D)"
       ]
     },
     {
       "name": "OH-06",
       "topics": [
+        "Michael Rulli (R)",
+        "Julia Kelley (R)",
         "Sam Barrick (D)",
         "Sean Connolly (D)",
         "Michael Kripchak (D)",
         "Malcolm Ritchie (D)",
-        "Michael Rulli (R)",
-        "Julia Kelley (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Adrian Vitus (D)"
       ]
     },
     {
       "name": "OH-07",
       "topics": [
+        "Max Miller (R)",
+        "Jonah Schulz (R)",
         "Michael Eisner (D)",
         "Ed FitzGerald (D)",
-        "Scott Schulz (D)",
-        "Max Miller (R)",
-        "Jonah Schulz (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Brian Poindexter (D)",
+        "Scott Schulz (D)"
       ]
     },
     {
       "name": "OH-08",
       "topics": [
-        "Madaris Grant (D)",
-        "Warren Davidson (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Warren Davidson (R)",
+        "Madaris Grant (D)"
       ]
     },
     {
       "name": "OH-09",
       "topics": [
-        "Marcy Kaptur (D)",
         "Anthony Campbell (R)",
         "Jacob Frost (R)",
         "Wayne Kinsel (R)",
         "Derek Merrin (R)",
         "Alea Nadeem (R)",
+        "Madison Sheahan (R)",
         "Josh Williams (R)",
+        "Marcy Kaptur (D)",
         "David Gedert (L)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
       ]
     },
     {
       "name": "OH-10",
       "topics": [
-        "Michael Turner (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Michael Turner (R)",
+        "Kristina Knickerbocker (D)"
       ]
     },
     {
       "name": "OH-11",
       "topics": [
         "Shontel Brown (D)",
+        "Ardelia Holmes (D)",
         "David Light (D)",
         "Cortney Peterson (D)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
       ]
     },
     {
       "name": "OH-12",
       "topics": [
+        "Troy Balderson (R)",
         "Jerrad Christian (D)",
-        "Troy Balderson (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Daniel Crawford (D)"
       ]
     },
     {
       "name": "OH-13",
       "topics": [
-        "Emilia Sykes (D)",
         "Margaret Briem (R)",
+        "Carey Coleman (R)",
         "Neil Patel (R)",
         "Kevin Siembida (R)",
+        "Emilia Sykes (D)",
         "Sandeep Dixit (I)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
       ]
     },
     {
       "name": "OH-14",
       "topics": [
-        "Bill O'Neill (D)",
-        "David Joyce (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "David Joyce (R)",
+        "Nicole Frenchko (R)",
+        "Bill O'Neill (D)"
       ]
     },
     {
       "name": "OH-15",
       "topics": [
-        "Don Leonard (D)",
-        "Adam Miller (D)",
         "Mike Carey (R)",
-        "Evan Pargeter (R)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "ohio"
+        "Evan Pargeter (R)",
+        "Don Leonard (D)",
+        "Adam Miller (D)"
       ]
     }
   ]

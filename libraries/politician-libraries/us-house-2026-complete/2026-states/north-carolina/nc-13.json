@@ -4,13 +4,23 @@
     {
       "name": "Republican",
       "topics": [
-        "No candidates declared"
+        "Brad Knott (R)",
+        "Sid Sharma (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "No candidates declared"
+        "Paul Barringer (D)",
+        "Alexander Nicholi (D)",
+        "Frank Pierce (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Steven Swinton (L)",
+        "Anthony Aguilar (G)"
       ]
     }
   ]

@@ -1,0 +1,570 @@
+{
+  "batch": 9,
+  "scraped": "2026-01-23",
+  "states": [
+    {
+      "state": "South Dakota",
+      "abbrev": "SD",
+      "districts": [
+        {
+          "district": "SD-AL",
+          "candidates": {
+            "Republican": ["Dusty Johnson (R)", "James Bialota (R)", "Casey Crabtree (R)", "Marty J. Jackley (R)"],
+            "Democratic": ["Nicole Gronli (D)", "Billy Mawhiney (D)", "Scott Schlagel (D)"],
+            "Independent": ["Jack Pittman (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Tennessee",
+      "abbrev": "TN",
+      "districts": [
+        {
+          "district": "TN-01",
+          "candidates": {
+            "Republican": ["Diana Harshbarger (R)", "Danny Gibson (R)"],
+            "Democratic": [],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TN-02",
+          "candidates": {
+            "Republican": ["Tim Burchett (R)"],
+            "Democratic": ["Michaela Barnett (D)"],
+            "Independent": ["Oliver Freeman Pogue (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TN-03",
+          "candidates": {
+            "Republican": ["Charles J. Fleischmann (R)"],
+            "Democratic": ["Derek Hawn (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TN-04",
+          "candidates": {
+            "Republican": ["Scott DesJarlais (R)", "Robert Arnold (R)", "Thomas Davis (R)"],
+            "Democratic": ["Victoria Broderick (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TN-05",
+          "candidates": {
+            "Republican": ["Andy Ogles (R)", "Charlie Hatcher (R)"],
+            "Democratic": ["Mike Cortese (D)", "Chaz Molder (D)", "Joyce Neal (D)", "Diana Onyejiaka (D)", "James Torino (D)"],
+            "Independent": ["Kenneth Brown (I)", "Lowell Reynolds (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TN-06",
+          "candidates": {
+            "Republican": ["Brad Gaines (R)", "Johnny Garrett (R)", "Jon Henry (R)", "William Hilleary (R)", "Joe Reid (R)"],
+            "Democratic": ["Craig Ballin (D)", "Lore Bergman (D)", "Mike Croley (D)"],
+            "Independent": ["Christopher Monday (I)"],
+            "Libertarian": [],
+            "Green": [],
+            "Other": ["Dale Braden (A)"]
+          }
+        },
+        {
+          "district": "TN-07",
+          "candidates": {
+            "Republican": ["Matt Van Epps (R)", "Jason Knight (R)", "Stewart Parks (R)", "Jay Reedy (R)"],
+            "Democratic": ["David Jones (D)"],
+            "Independent": ["Jonathan Thorp (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TN-08",
+          "candidates": {
+            "Republican": ["David Kustoff (R)"],
+            "Democratic": ["William Wicker (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TN-09",
+          "candidates": {
+            "Republican": ["Charlotte Bergmann (R)", "James New (R)"],
+            "Democratic": ["Justin Pearson (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Texas",
+      "abbrev": "TX",
+      "districts": [
+        {
+          "district": "TX-01",
+          "candidates": {
+            "Republican": ["Nathaniel Moran (R)"],
+            "Democratic": ["Dax Alexander (D)", "Tracy Andrus (D)", "Yolanda Prince (D)", "Masika Akilah Ray (D)"],
+            "Independent": ["Sonia Canchola (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-02",
+          "candidates": {
+            "Republican": ["Daniel Crenshaw (R)", "Martin Etwop (R)", "Nicholas Plumb (R)", "Steve Toth (R)"],
+            "Democratic": ["Shaun Finnie (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-03",
+          "candidates": {
+            "Republican": ["Keith Self (R)", "Mark Newgent (R)"],
+            "Democratic": ["Evan Hunt (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-04",
+          "candidates": {
+            "Republican": ["Pat Fallon (R)", "Don Horn (R)"],
+            "Democratic": ["Jason Pearce (D)", "Andrew Rubell (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-05",
+          "candidates": {
+            "Republican": ["Lance Gooden (R)"],
+            "Democratic": ["Chelsey Hockett (D)", "Forrest Lumpkin (D)", "Ruth Torres (D)"],
+            "Independent": ["Dea Foy (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-06",
+          "candidates": {
+            "Republican": ["Jake Ellzey (R)", "James Buford (R)", "Brian Stahl (R)"],
+            "Democratic": ["Danny Minton (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-07",
+          "candidates": {
+            "Republican": ["Tina Blum Cohen (R)", "Alexander Hale (R)", "Alexander Kalai (R)", "Erin Montgomery (R)"],
+            "Democratic": ["Lizzie Pannill Fletcher (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-08",
+          "candidates": {
+            "Republican": ["Jay Fondren (R)", "Brett Jensen (R)", "Stephen Long (R)", "Jessica Steinmann (R)", "Nick Tran (R)", "Deddrick Wilmer (R)"],
+            "Democratic": ["Keith Coleman (D)", "Laura Jones (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-09",
+          "candidates": {
+            "Republican": ["Jaimy Annette Zoboulikos-Blanco (R)", "Briscoe Cain (R)", "Michael Curran (R)", "Alex Mealer (R)", "Dan Mims (R)", "Crystal Sarmiento (R)", "Steve Stockman (R)", "Dwayne Stovall (R)", "Terry Lee Thain (R)"],
+            "Democratic": ["Earnest Clayton (D)", "Peter Filler (D)", "Leticia Gutierrez (D)", "Todd Ivey (D)", "Marty Rocha (D)", "Terry Virts (D)"],
+            "Independent": ["Roy Morales (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-10",
+          "candidates": {
+            "Republican": ["Rob Altman (R)", "Ben Bius (R)", "Robert Brown (R)", "Jenny Garcia Sharon (R)", "Chris Gober (R)", "Brandon Hawbaker (R)", "Jessica Karlsruher (R)", "Kara King (R)", "Scott MacLeod (R)", "Jeremy Story (R)"],
+            "Democratic": ["Dawn Marshall (D)", "Bernie Reyna (D)", "Caitlin Rourk (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-11",
+          "candidates": {
+            "Republican": ["August Pfluger (R)"],
+            "Democratic": ["Claire Reynolds (D)", "Pedro Ruiz (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-12",
+          "candidates": {
+            "Republican": ["Craig Goldman (R)"],
+            "Democratic": ["Kenneth Morgan-Aguilera (D)", "Heli Rodriguez Prilliman (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-13",
+          "candidates": {
+            "Republican": ["Ronny L. Jackson (R)", "Chasity Wedgeworth (R)"],
+            "Democratic": ["Mark Nair (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-14",
+          "candidates": {
+            "Republican": ["Randy Weber (R)", "Jessica Forgy (R)"],
+            "Democratic": ["Thurman Bill Bartie (D)", "Richard Davis (D)", "Konstantinos Vogiatzis (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-15",
+          "candidates": {
+            "Republican": ["Monica De La Cruz (R)"],
+            "Democratic": ["Ada Cuellar (D)", "Bobby Pulido (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-16",
+          "candidates": {
+            "Republican": ["Manuel Barraza (R)", "Adam Bauman (R)", "Hector Cabildo (R)", "Raul Castaneda (R)", "Marisela Chavez (R)", "Deliris Montanez (R)", "Arturo Rios (R)"],
+            "Democratic": ["Veronica Escobar (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-17",
+          "candidates": {
+            "Republican": ["Pete Sessions (R)"],
+            "Democratic": ["Jamilah Flores (D)", "J. Gordon Mitchell (D)", "Casey Shepard (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-18",
+          "candidates": {
+            "Republican": ["Elizabeth Vences (R)", "Ronald Whitfield (R)"],
+            "Democratic": ["Al Green (D)", "Gretchen Brown (D)", "Amanda Edwards (D)", "Christian Menefee (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-19",
+          "candidates": {
+            "Republican": ["James Barbee (R)", "Jason Corley (R)", "Abraham Enriquez (R)", "Donald May (R)", "Tom Sell (R)", "Matthew Smith (R)", "Ryan Zink (R)"],
+            "Democratic": ["Kyle Rable (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-20",
+          "candidates": {
+            "Republican": ["Edgardo Baez (R)"],
+            "Democratic": ["Joaquin Castro (D)", "John Atwood (D)", "Kendra Wilkerson (D)"],
+            "Independent": ["Anthony Tristan (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-21",
+          "candidates": {
+            "Republican": ["Daniel Betts (R)", "Jason Cahill (R)", "Jacques DuBose (R)", "Ezekiel Enriquez (R)", "Weston Martinez (R)", "Paul Rojas (R)", "Kyle Sinclair (R)", "Mark Teixeira (R)", "Heather Tessmer (R)", "Trey Trainor (R)", "Peggy Wardlaw (R)", "Mike Wheeler (R)"],
+            "Democratic": ["Kristin Hook (D)", "Gary Taylor (D)", "Regina Vanburg (D)"],
+            "Independent": ["Dan McQueen (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-22",
+          "candidates": {
+            "Republican": ["Rebecca Clark (R)", "Trever Nehls (R)"],
+            "Democratic": ["Chris Fernandez (D)", "Sterling Gadison (D)", "Marquette Greene-Scott (D)", "Robert Thomas (D)", "Pearl Vuorinen (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": [],
+            "Other": ["Demile James (A)"]
+          }
+        },
+        {
+          "district": "TX-23",
+          "candidates": {
+            "Republican": ["Tony Gonzales (R)", "Keith Barton (R)", "Francisco Canseco (R)", "Brandon Herrera (R)"],
+            "Democratic": ["Gretel Marysdatter Enck (D)", "Santos Limon (D)", "Bruce Richardson (D)", "Katy Padilla Stout (D)"],
+            "Independent": ["Patti Hale Ashe (I)", "Veronica Williams (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-24",
+          "candidates": {
+            "Republican": ["Beth Van Duyne (R)"],
+            "Democratic": ["Jon Buchwald (D)", "Kevin Burge (D)", "TJ Ware (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-25",
+          "candidates": {
+            "Republican": ["Roger Williams (R)"],
+            "Democratic": ["William Marks (D)", "Dione Sims (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-26",
+          "candidates": {
+            "Republican": ["Brandon Gill (R)", "Robert Chick (R)"],
+            "Democratic": ["Ernest Lineberger III (D)", "Steven Shook (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-27",
+          "candidates": {
+            "Republican": ["Michael Cloud (R)", "Chris Hatley (R)"],
+            "Democratic": ["Eustaquio Castro-Mendoza (D)", "Tanya Lloyd (D)", "Wayne Raasch (D)"],
+            "Independent": ["Dan McQueen (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-28",
+          "candidates": {
+            "Republican": ["Eileen Day (R)", "Tano Tijerina (R)"],
+            "Democratic": ["Henry Cuellar (D)", "Andrew Vantine (D)", "Ricardo Villarreal (D)"],
+            "Independent": ["Adriel Ventura Lopez (I)"],
+            "Libertarian": [],
+            "Green": ["Marlon Duran (G)"]
+          }
+        },
+        {
+          "district": "TX-29",
+          "candidates": {
+            "Republican": ["Martha Fierro (R)"],
+            "Democratic": ["Sylvia Garcia (D)", "Jarvis Johnson (D)", "Robert Slater (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-30",
+          "candidates": {
+            "Republican": ["Sholdon Daniels (R)", "Gregor Heise (R)", "Everett Jackson (R)", "Nils Walker (R)"],
+            "Democratic": ["Barbara Mallory Caraway (D)", "Frederick Haynes (D)", "Rodney LaBruce (D)"],
+            "Independent": ["Oxford Nordberg (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-31",
+          "candidates": {
+            "Republican": ["John Carter (R)", "William Abel (R)", "David Berry (R)", "Steven Dowell (R)", "Ed Ewald (R)", "Abhiram Garapati (R)", "Valentina Gomez Noriega (R)", "Raymond Hamden (R)", "Elvis Lossa (R)", "Offer Shlomi (R)"],
+            "Democratic": ["Justin Early (D)", "Stuart Whitlow (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": ["Greg Stoker (G)"]
+          }
+        },
+        {
+          "district": "TX-32",
+          "candidates": {
+            "Republican": ["Ryan Binkley (R)", "Paul Bondar (R)", "Aimee Carrasco (R)", "Darrell Day (R)", "Gordon Heslop (R)", "Monty Montanez (R)", "James Ussery (R)", "Abteen Vaziri (R)", "Jace Yarbrough (R)"],
+            "Democratic": ["Dan Barrios (D)", "Anthony Bridges (D)"],
+            "Independent": ["Charles Harper (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-33",
+          "candidates": {
+            "Republican": ["Patrick Gillespie (R)", "Monte Mitchell (R)", "Kurt L. Schwab (R)", "John Sims (R)"],
+            "Democratic": ["Julie Johnson (D)", "Colin Allred (D)", "Zeeshan Hafeez (D)", "Carlos Quintanilla (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-34",
+          "candidates": {
+            "Republican": ["Keith Allen (R)", "Luis Buentello (R)", "Eric Flores (R)", "Mayra Flores (R)", "Fred Hinojosa (R)", "Gregory Kunkle Jr. (R)", "Jay Nagy (R)"],
+            "Democratic": ["Vicente Gonzalez Jr. (D)", "Etienne Rosas (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": ["Eddie Espinoza (G)"]
+          }
+        },
+        {
+          "district": "TX-35",
+          "candidates": {
+            "Republican": ["Randy Adams (R)", "Joshua Cortez (R)", "Carlos De La Cruz (R)", "Mark Eberwine (R)", "Jay Furman (R)", "Vanessa Hicks-Callaway (R)", "Ryan Krause (R)", "Larry La Rose (R)", "Rod Lingsch (R)", "John Lujan (R)", "Steven Wright (R)"],
+            "Democratic": ["Maureen Galindo (D)", "Johnny Garcia (D)", "John Lira (D)", "Whitney Masterson-Moyes (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-36",
+          "candidates": {
+            "Republican": ["Brian Babin (R)", "Jonathan Mitchell (R)"],
+            "Democratic": ["Rhonda Hart (D)", "Doug Rogers (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-37",
+          "candidates": {
+            "Republican": ["Ge'Nell Gary (R)", "Janet Malzahn (R)", "Lauren Peña (R)"],
+            "Democratic": ["Greg Casar (D)", "Esther Fleharty (D)"],
+            "Independent": ["James Kinney (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "TX-38",
+          "candidates": {
+            "Republican": ["Avery Ayers (R)", "Jon Bonck (R)", "Craig Goralski (R)", "Barrett McNabb (R)", "Carmen Montiel (R)", "Michael Pratt (R)", "Larry Rubin (R)", "Jennifer Sundt (R)", "Jeff Yuna (R)", "Shelly deZevallos (R)"],
+            "Democratic": ["Theresa Courts (D)", "Marvalette Hunter (D)", "Melissa McDonough (D)"],
+            "Independent": ["William Taggart (I)"],
+            "Libertarian": [],
+            "Green": ["Alex McMenemy (G)"]
+          }
+        }
+      ]
+    },
+    {
+      "state": "Utah",
+      "abbrev": "UT",
+      "districts": [
+        {
+          "district": "UT-01",
+          "candidates": {
+            "Republican": ["Blake Moore (R)"],
+            "Democratic": ["Nate Blouin (D)", "Kye Hinckley (D)", "Derek Kitchen (D)", "Eva Lopez Chavez (D)", "Ben McAdams (D)", "Liban Mohamed (D)", "Kathleen Riebe (D)", "Anthony Tomkins (D)", "Luis Villarreal (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "UT-02",
+          "candidates": {
+            "Republican": ["Celeste Maloy (R)"],
+            "Democratic": ["Peter Crosby (D)", "Tyler Farnsworth (D)", "Jarom Gillins (D)"],
+            "Independent": ["Bryan Lamont Arrington (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        },
+        {
+          "district": "UT-03",
+          "candidates": {
+            "Republican": ["Mike Kennedy (R)"],
+            "Democratic": ["Steven Merrill (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": [],
+            "Other": ["Adonis Hooslyn (NP)"]
+          }
+        },
+        {
+          "district": "UT-04",
+          "candidates": {
+            "Republican": ["Burgess Owens (R)", "Ty Jensen (R)"],
+            "Democratic": ["Jonathan Larsen (D)"],
+            "Independent": ["Steven Burt (I)"],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    },
+    {
+      "state": "Vermont",
+      "abbrev": "VT",
+      "districts": [
+        {
+          "district": "VT-AL",
+          "candidates": {
+            "Republican": ["Mark Coester (R)"],
+            "Democratic": ["Becca Balint (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": [],
+            "Other": ["Andrew Giusto (Unity)"]
+          }
+        }
+      ]
+    }
+  ]
+}

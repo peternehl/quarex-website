@@ -4,14 +4,19 @@
     {
       "name": "Republican",
       "topics": [
-        "No candidates declared"
+        "Mark Coester (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
-        "Kesha Ram Hinsdale (D)",
-        "Andrew Straw (D)"
+        "Becca Balint (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Andrew Giusto (Unity)"
       ]
     }
   ]

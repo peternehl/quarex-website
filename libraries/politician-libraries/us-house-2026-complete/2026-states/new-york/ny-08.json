@@ -2,17 +2,10 @@
   "book": "NY-08",
   "chapters": [
     {
-      "name": "Republican",
-      "topics": [
-        "No candidates declared"
-      ]
-    },
-    {
       "name": "Democratic",
       "topics": [
         "Hakeem Jeffries (D)",
-        "Vance Bostic (D)",
-        "Chi Osse (D)"
+        "Vance Bostic (D)"
       ]
     }
   ]

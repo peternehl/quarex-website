@@ -1,0 +1,26 @@
+{
+  "book": "TX-37",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ge'Nell Gary (R)",
+        "Janet Malzahn (R)",
+        "Lauren Peña (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Greg Casar (D)",
+        "Esther Fleharty (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "James Kinney (I)"
+      ]
+    }
+  ]
+}

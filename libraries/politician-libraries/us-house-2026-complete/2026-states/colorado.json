@@ -4,6 +4,7 @@
     {
       "name": "CO-01",
       "topics": [
+        "Gregory Cutlip (R)",
         "Diana DeGette (D)",
         "Carter Hanson (D)",
         "Wanda James (D)",
@@ -11,12 +12,6 @@
         "Christopher Oldfield (D)",
         "Santiago Palomino (D)",
         "Tiffany Rodgers (D)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
       ]
     },
     {
@@ -24,12 +19,6 @@
       "topics": [
         "Joe Neguse (D)",
         "Cinque Mason (D)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
       ]
     },
     {
@@ -39,13 +28,7 @@
         "Hope Scheppelman (R)",
         "Kyle Doster (D)",
         "Alex Kelloff (D)",
-        "Heather Barton (U)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
+        "Heather Barton (I)"
       ]
     },
     {
@@ -57,14 +40,8 @@
         "Eileen Laubacher (D)",
         "John Padora Jr. (D)",
         "Jenna Preston (D)",
-        "Douglas Mangeris (L)",
-        "Wayne Thornton (U)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
+        "Wayne Thornton (I)",
+        "Douglas Mangeris (L)"
       ]
     },
     {
@@ -77,14 +54,9 @@
         "Joe Reagan (D)",
         "Jamey Smith (D)",
         "Michelle Tweed (D)",
-        "Roy Matthewson (U)",
+        "Steven Fuller (I)",
+        "Roy Matthewson (I)",
         "Matt Cavanaugh (I)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
       ]
     },
     {
@@ -92,27 +64,18 @@
       "topics": [
         "Khaleb Dammen (R)",
         "Jason Crow (D)",
+        "Travis Dishon (D)",
         "Dylan Shelby (D)",
-        "Samir Witta (U)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
+        "Edwardo Quinonez (I)",
+        "Samir Witta (I)"
       ]
     },
     {
       "name": "CO-07",
       "topics": [
+        "Timothy Bennett (R)",
         "Amanda Capobianco (R)",
         "Brittany Pettersen (D)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
       ]
     },
     {
@@ -125,14 +88,7 @@
         "Larry Johnson (D)",
         "Evan Munsing (D)",
         "Manny Rutinel (D)",
-        "John Szemler (D)",
-        "Dave Young (D)"
-      ],
-      "tags": [
-        "politics",
-        "elections",
-        "house",
-        "colorado"
+        "John Szemler (D)"
       ]
     }
   ]
