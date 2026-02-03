@@ -1,0 +1,62 @@
+{
+  "name": "Justice Samuel Alito",
+  "slug": "justice-samuel-alito",
+  "tags": ["politics", "governance", "supreme-court", "us-politics"],
+  "chapters": [
+    {
+      "name": "Background and Path to the Court",
+      "slug": "background-and-path-to-the-court",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "What is Samuel Alito's educational and professional background?",
+        "What roles did Alito hold before becoming a judge?",
+        "How was Alito nominated and confirmed to the Supreme Court?",
+        "Why was Alito nominated after Harriet Miers withdrew?"
+      ]
+    },
+    {
+      "name": "Judicial Philosophy",
+      "slug": "judicial-philosophy",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "How would you describe Samuel Alito's judicial philosophy?",
+        "What is Alito's approach to constitutional interpretation?",
+        "How does Alito view executive power?",
+        "What is Alito's position on religious liberty cases?"
+      ]
+    },
+    {
+      "name": "Notable Opinions and Votes",
+      "slug": "notable-opinions-and-votes",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "What are Samuel Alito's most significant majority opinions?",
+        "What was Alito's role in overturning Roe v. Wade?",
+        "How has Alito ruled on religious freedom cases?",
+        "What is Alito's record on gun rights cases?"
+      ]
+    },
+    {
+      "name": "Public Statements and Speeches",
+      "slug": "public-statements-and-speeches",
+      "tags": ["politics", "governance", "supreme-court", "media"],
+      "topics": [
+        "What notable public speeches has Alito given?",
+        "How has Alito responded to criticism of the Court?",
+        "What has Alito said about the Dobbs decision aftermath?",
+        "How do Alito's public comments compare to other justices?"
+      ]
+    },
+    {
+      "name": "Controversies and Ethics",
+      "slug": "controversies-and-ethics",
+      "tags": ["politics", "accountability", "supreme-court", "ethics"],
+      "topics": [
+        "What ethics controversies have involved Samuel Alito?",
+        "What is the controversy over flags at Alito's homes?",
+        "What undisclosed trips has Alito taken with wealthy donors?",
+        "Has Alito recused himself from cases involving donors?"
+      ]
+    }
+  ]
+}

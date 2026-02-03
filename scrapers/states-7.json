@@ -1,6 +1,6 @@
 {
   "batch": 7,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "New Mexico",
@@ -56,7 +56,7 @@
           "district": "NY-02",
           "candidates": {
             "Republican": ["Andrew Garbarino (R)"],
-            "Democratic": ["Patrick Halpin (D)", "Jess Murphy (D)", "Garrett Petersen (D)", "Josh Taveras (D)"],
+            "Democratic": ["Patrick Halpin (D)", "Jess Murphy (D)", "Garrett Petersen (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -86,7 +86,7 @@
           "district": "NY-05",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Gregory W. Meeks (D)", "Salvatore Padellaro (D)"],
+            "Democratic": ["Gregory W. Meeks (D)", "Salvatore Padellaro (D)", "Frank Lozada (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -95,7 +95,7 @@
         {
           "district": "NY-06",
           "candidates": {
-            "Republican": [],
+            "Republican": ["Juan Pagan (R)"],
             "Democratic": ["Grace Meng (D)", "Charles Park (D)", "Yan Xiong (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -105,7 +105,7 @@
         {
           "district": "NY-07",
           "candidates": {
-            "Republican": ["Evan Hutchison (R)"],
+            "Republican": ["Evan Hutchison (R)", "Vichal Kumar (R)"],
             "Democratic": ["Alexander Campagna (D)", "Steven Carbajal (D)", "Sydney Martinez (D)", "Dane-Brandon Noble (D)", "Edwin Osorio (D)", "Paperboy Prince (D)", "Antonio Reynoso (D)", "Miles Shore (D)", "Claire Valdez (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -146,7 +146,7 @@
           "district": "NY-11",
           "candidates": {
             "Republican": ["Nicole Malliotakis (R)"],
-            "Democratic": ["Troy McGhie (D)", "Umar Usman (D)"],
+            "Democratic": ["Troy McGhie (D)", "Umar Usman (D)", "Michael DeCillis (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -156,7 +156,7 @@
           "district": "NY-12",
           "candidates": {
             "Republican": ["Kaley Aldrich (R)", "Amy Jordan (R)", "Gavin Solomon (R)", "Lucian Wintrich (R)", "Massimiliano Zappone (R)"],
-            "Democratic": ["Micah Bergdale (D)", "Alex Bores (D)", "George Conway (D)", "Christopher Diep (D)", "Laura Dunn (D)", "Liam Elkind (D)", "Jami Floyd (D)", "Cameron Kasky (D)", "Micah Lasher (D)", "Alan Pardee (D)", "Jack Schlossberg (D)", "Nina Schwalbe (D)", "Mathew Shurka (D)"],
+            "Democratic": ["Micah Bergdale (D)", "Alex Bores (D)", "George Conway (D)", "Christopher Diep (D)", "Laura Dunn (D)", "Liam Elkind (D)", "Jami Floyd (D)", "Cameron Kasky (D)", "Micah Lasher (D)", "Alan Pardee (D)", "Jack Schlossberg (D)", "Nina Schwalbe (D)", "Mathew Shurka (D)", "Patrick Timmins (D)"],
             "Independent": ["Robb Huhn (I)", "Wilneida Negron (I)", "Karen Ortiz (I)"],
             "Libertarian": [],
             "Green": []
@@ -166,7 +166,7 @@
           "district": "NY-13",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Adriano Espaillat (D)", "Jaliel Amador (D)", "Darializa Avila Chevalier (D)", "Theo Chino-Tavarez (D)", "James Felton Keith (D)", "Matt Miller (D)", "Candace Niles (D)", "Megan Rodriguez (D)", "Oscar Romero (D)"],
+            "Democratic": ["Adriano Espaillat (D)", "Jaliel Amador (D)", "Darializa Avila Chevalier (D)", "Theo Chino-Tavarez (D)", "James Felton Keith (D)", "Matt Miller (D)", "Candace Niles (D)", "Megan Rodriguez (D)", "Oscar Romero (D)", "Michael Hano (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -285,8 +285,8 @@
         {
           "district": "NY-25",
           "candidates": {
-            "Republican": ["Cassandra Lin Leach (R)"],
-            "Democratic": ["Joseph Morelle (D)", "Sherita Traywick (D)"],
+            "Republican": [],
+            "Democratic": ["Joseph Morelle (D)", "Sherita Traywick (D)", "Cassandra Lin Leach (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -458,7 +458,7 @@
           "district": "ND-AL",
           "candidates": {
             "Republican": ["Julie Fedorchak (R)", "Alex Balazs (R)"],
-            "Democratic": [],
+            "Democratic": ["Trygve Hammer (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -514,7 +514,7 @@
           "district": "OH-05",
           "candidates": {
             "Republican": ["Bob Latta (R)", "Erica Kelley (R)"],
-            "Democratic": ["Daniel Burket (D)", "Christopher Maddaluno (D)"],
+            "Democratic": ["Daniel Burket (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []

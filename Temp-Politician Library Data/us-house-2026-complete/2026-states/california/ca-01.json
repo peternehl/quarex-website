@@ -1,0 +1,22 @@
+{
+  "book": "CA-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Angelita Valles (R)",
+        "Doug LaMalfa (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Audrey Denney (D)",
+        "Mike McGuire (D)",
+        "James Salegui (D)",
+        "Casey Stewart (D)",
+        "Kyle Wilson (D)"
+      ]
+    }
+  ]
+}

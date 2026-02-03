@@ -19,5 +19,33 @@
       "modern-history"
     ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "ruth-bader-ginsburg-a-biography",
+    "name": "Ruth Bader Ginsburg: A Biography",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "law",
+      "gender",
+      "civil-rights",
+      "us-politics",
+      "constitutional-law"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "sojourner-truth",
+    "name": "Sojourner Truth",
+    "description": null,
+    "chapterCount": 8,
+    "tags": [
+      "history",
+      "activism",
+      "race",
+      "civil-rights",
+      "gender"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   }
 ]

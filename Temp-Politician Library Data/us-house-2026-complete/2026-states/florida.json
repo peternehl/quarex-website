@@ -1,0 +1,474 @@
+{
+  "book": "Florida",
+  "chapters": [
+    {
+      "name": "FL-01",
+      "topics": [
+        "Jimmy Patronis (R)",
+        "Aaron Dimmock (R)",
+        "Charles Keebaugh (R)",
+        "John Mills (R)",
+        "Bernadette Pittman (R)",
+        "Tayla Plumer (R)",
+        "Gene Valentino (R)",
+        "Gay Valimont (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-02",
+      "topics": [
+        "Neal Dunn (R)",
+        "Yen Bailey (D)",
+        "Amanda Green (D)",
+        "Nicholas Zateslo (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-03",
+      "topics": [
+        "Kat Cammack (R)",
+        "Rock Aboujaoude Jr. (D)",
+        "Troy Albers (D)",
+        "Seth Harp (D)",
+        "Tom Wells (D)",
+        "Anthony Stebbins (L)",
+        "Angela Wiman (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-04",
+      "topics": [
+        "Aaron Bean (R)",
+        "Anthony Valerio (R)",
+        "Michael Kirwan (D)",
+        "Ricky Knoles (D)",
+        "Brittney Robinson (D)",
+        "Ronald Sherard (NPA)",
+        "Todd Schaefer (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-05",
+      "topics": [
+        "John Rutherford (R)",
+        "Mark Kaye (R)",
+        "Donald Muirheid (R)",
+        "Rachel Grage (D)",
+        "Mark Heggestad (D)",
+        "Eli Johnson (D)",
+        "Wyatt Clark (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-06",
+      "topics": [
+        "Randy Fine (R)",
+        "Ernest Audino (R)",
+        "Will Furry (R)",
+        "Charles Gambaro (R)",
+        "Alexandra van Cleef (R)",
+        "Ronnie Murchinson-Rivera (D)",
+        "James Stockton (D)",
+        "Eric Yonce (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-07",
+      "topics": [
+        "Cory Mills (R)",
+        "Michael Johnson (R)",
+        "Sarah Ulrich (R)",
+        "Mike Wilnau (R)",
+        "Jennifer Adams (D)",
+        "George Bock (D)",
+        "Bale Dalton (D)",
+        "Benjamin Ewers (D)",
+        "Marialana Kinter (D)",
+        "Noah Widmann (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-08",
+      "topics": [
+        "Mike Haridopolos (R)",
+        "Paul Dellinger (D)",
+        "Lacey Villareal (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-09",
+      "topics": [
+        "Marcus Carter (R)",
+        "Thomas Chalifoux (R)",
+        "Jorge Malavet (R)",
+        "Howard Steven Rance (R)",
+        "Justin Story (R)",
+        "Darren Soto (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-10",
+      "topics": [
+        "Stuart Farber (R)",
+        "Willie Montague (R)",
+        "Angela Marie Walls-Windhauser (R)",
+        "Vibert White (R)",
+        "Howard Steven Rance (R)",
+        "Maxwell Alejandro Frost (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-11",
+      "topics": [
+        "Daniel Webster (R)",
+        "Mike Wilnau (R)",
+        "Barbie Harden Hall (D)",
+        "Royal Webster (D)",
+        "Dan Williams (D)",
+        "Ralph Groves (L)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-12",
+      "topics": [
+        "Gus M. Bilirakis (R)",
+        "Shay Williams (R)",
+        "Christopher Irizarry (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-13",
+      "topics": [
+        "Anna Paulina Luna (R)",
+        "Nj\u00e4llssen Amaro Lionheart (R)",
+        "Earle Ford (D)",
+        "Susan Leff (D)",
+        "Jeff Moore (D)",
+        "Reggie Paros (D)",
+        "Brandt Robinson (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-14",
+      "topics": [
+        "John Peters (R)",
+        "Robert Rochford (R)",
+        "Gavriel E. Soriano (R)",
+        "John Wick (R)",
+        "Kathy Castor (D)",
+        "Juan Arauz (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-15",
+      "topics": [
+        "Laurel Lee (R)",
+        "Jose Engell (D)",
+        "Darren McAuley (D)",
+        "Kimberly Overman (D)",
+        "Robert People (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-16",
+      "topics": [
+        "Vern Buchanan (R)",
+        "Jonathan Harris (D)",
+        "Glenn Pearson (D)",
+        "Jan Schneider (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-17",
+      "topics": [
+        "Greg Steube (R)",
+        "Matthew Montavon (D)",
+        "Allen Spence (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-18",
+      "topics": [
+        "Scott Franklin (R)",
+        "Curtis Gibson (D)",
+        "Deva Simmons (NPA)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-19",
+      "topics": [
+        "Madison Cawthorn (R)",
+        "Stephen Elliott (R)",
+        "John Fratto (R)",
+        "Ola Hawatmeh (R)",
+        "Catalina Lauf (R)",
+        "Dylan Modarelli (R)",
+        "Jim Oberweis (R)",
+        "Mike Pedersen (R)",
+        "Jim Schwartzel (R)",
+        "John Strand (R)",
+        "Byron Donalds (R)",
+        "Jared Kane (D)",
+        "Howard Sapp (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-20",
+      "topics": [
+        "Sendra Dorce (R)",
+        "Rod Joseph (R)",
+        "Sheila Cherfilus-McCormick (D)",
+        "Mark Douglas (D)",
+        "Dale Holness (D)",
+        "Elijah Manley (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-21",
+      "topics": [
+        "Brian Mast (R)",
+        "Pia Dandiya (D)",
+        "James Martin (D)",
+        "Elizabeth Pandich (D)",
+        "Bernard Taylor (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-22",
+      "topics": [
+        "Deborah Adeimy (R)",
+        "Steven Crowley (R)",
+        "Anna Medvedeva (R)",
+        "Antonio Srado (R)",
+        "Lois Frankel (D)",
+        "Ian Blake (D)",
+        "Victoria Doyle (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-23",
+      "topics": [
+        "Darlene Cerezo Swaffar (R)",
+        "Jared Gurfein (R)",
+        "Raven Harrison (R)",
+        "Joe Kaufman (R)",
+        "George Moraitis (R)",
+        "Rafael Ortiz (R)",
+        "Michaelangelo Hamilton (R)",
+        "Jared Evan Moskowitz (D)",
+        "Oliver Larkin (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-24",
+      "topics": [
+        "Patricia Gonzalez (R)",
+        "Imtiaz Mohammad (R)",
+        "Frederica S. Wilson (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-25",
+      "topics": [
+        "Michael Carbonara (R)",
+        "Claudia Villatoro (R)",
+        "Debbie Wasserman Schultz (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-26",
+      "topics": [
+        "Mario Diaz-Balart (R)",
+        "Yurina Gil (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-27",
+      "topics": [
+        "Maria Elvira Salazar (R)",
+        "Gavin Solomon (R)",
+        "Mike Davey (D)",
+        "Alexander Fornino (D)",
+        "Richard Lamondin (D)",
+        "Robin Peguero (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    },
+    {
+      "name": "FL-28",
+      "topics": [
+        "Carlos Gimenez (R)",
+        "Herrera Macuran (R)",
+        "Phil Ehr (D)",
+        "Eddy Rojas (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "florida"
+      ]
+    }
+  ]
+}

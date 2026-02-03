@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Studies | Free Online Curriculum for Banned University Programs</title>
+    <meta name="description" content="Free, open curriculum for Women's Studies, Black Studies, Ethnic Studies, and more. When universities cut programs, Public Studies keeps the knowledge alive.">
+    <meta name="keywords" content="women's studies online, Black studies curriculum, ethnic studies course, free university courses, DEI alternatives, banned courses, open education, Latino studies, Chicano studies">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/">
+    <meta property="og:title" content="Public Studies | Free Curriculum for Banned University Programs">
+    <meta property="og:description" content="When universities cut programs, Public Studies keeps the knowledge alive. Free, open curriculum powered by AI.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Public Studies | Free Curriculum for Banned University Programs">
+    <meta name="twitter:description" content="Free, open curriculum for Women's Studies, Black Studies, Ethnic Studies, and more.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Public Studies",
+        "url": "https://publicstudies.org/",
+        "description": "Free, open curriculum for university programs that have been cut or defunded. Women's Studies, Black Studies, Ethnic Studies, and more.",
+        "publisher": { "@type": "Organization", "name": "Public Studies", "url": "https://publicstudies.org/" }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #F59E0B;
+            --accent-hover: #D97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 1100px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* ── Header ── */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* ── Hero ── */
+        .hero {
+            text-align: center;
+            padding: 64px 20px 48px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 6vw, 52px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .hero-subtitle {
+            color: var(--muted);
+            font-size: clamp(1rem, 2vw, 1.15rem);
+            max-width: 680px;
+            margin: 0 auto 20px;
+            line-height: 1.7;
+        }
+        .hero-statement {
+            display: inline-block;
+            background: var(--accent-soft);
+            border: 1px solid var(--accent-border);
+            color: var(--accent);
+            padding: 10px 24px;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: 8px;
+        }
+
+        /* ── Discipline Grid ── */
+        .disciplines {
+            padding: 48px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .disciplines-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(24px, 4vw, 36px);
+            color: var(--brand);
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        .section-subtitle {
+            color: var(--muted);
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 36px;
+            font-size: 1rem;
+        }
+
+        .discipline-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 16px;
+        }
+        .discipline-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 28px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--brand);
+            transition: all 0.2s;
+            display: block;
+        }
+        .discipline-card:hover {
+            border-color: var(--accent);
+            background: var(--accent-soft);
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        .discipline-card .card-icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .discipline-card .card-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .discipline-card .card-desc {
+            color: var(--muted);
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        .discipline-card.active {
+            border-color: var(--accent);
+            background: var(--accent-soft);
+        }
+        .discipline-card.coming-soon {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+        .discipline-card.coming-soon .card-title::after {
+            content: ' (Coming Soon)';
+            color: var(--muted);
+            font-weight: 400;
+            font-size: 0.8rem;
+        }
+
+        .discipline-card.spanish {
+            border-color: rgba(239, 68, 68, 0.3);
+        }
+        .discipline-card.spanish:hover {
+            border-color: #ef4444;
+            background: rgba(239, 68, 68, 0.06);
+        }
+        .discipline-card .card-courses {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--accent);
+            background: var(--accent-soft);
+            border: 1px solid var(--accent-border);
+            padding: 2px 10px;
+            border-radius: 999px;
+        }
+
+        /* ── Course Detail Panel ── */
+        .course-detail {
+            display: none;
+            background: var(--card);
+            border: 1px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 24px;
+            margin-top: 20px;
+            grid-column: 1 / -1;
+        }
+        .course-detail.show { display: block; }
+        .course-detail-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        .course-detail-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: var(--accent);
+        }
+        .close-detail {
+            background: none;
+            border: none;
+            color: var(--muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 4px 8px;
+            line-height: 1;
+        }
+        .close-detail:hover { color: var(--ink); }
+        .course-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .course-list li {
+            border-bottom: 1px solid var(--line);
+        }
+        .course-list li:last-child { border-bottom: none; }
+        .course-list a {
+            display: block;
+            padding: 14px 16px;
+            color: var(--ink);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.15s;
+            border-radius: var(--radius-sm);
+        }
+        .course-list a:hover {
+            background: var(--accent-soft);
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .course-list a::after {
+            content: ' \2192';
+            color: var(--muted);
+            font-weight: 400;
+        }
+        .course-list a:hover::after {
+            color: var(--accent);
+        }
+        .course-list li.syllabus-link {
+            border-top: 1px solid var(--accent-border);
+            margin-top: 4px;
+        }
+        .course-list li.syllabus-link a {
+            color: var(--accent);
+            font-size: 0.9rem;
+        }
+        .course-list li.syllabus-link a::after {
+            content: '';
+        }
+
+        /* ── Why Section ── */
+        .why-section {
+            padding: 60px 20px;
+            border-top: 1px solid var(--line);
+        }
+        .why-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 36px;
+        }
+        .why-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 28px 24px;
+        }
+        .why-card h3 {
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        .why-card p {
+            color: var(--muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* ── CTA Section ── */
+        .cta-section {
+            padding: 60px 20px;
+            border-top: 1px solid var(--line);
+            text-align: center;
+        }
+        .cta-inner {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .cta-inner h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--brand);
+            margin-bottom: 16px;
+        }
+        .cta-inner p {
+            color: var(--muted);
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 14px 32px;
+            background: var(--accent);
+            color: var(--bg);
+            font-weight: 700;
+            font-size: 1rem;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            text-decoration: none;
+            transform: translateY(-1px);
+        }
+        .btn-outline {
+            display: inline-block;
+            padding: 14px 32px;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-weight: 600;
+            font-size: 1rem;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            transition: all 0.2s;
+            margin-left: 12px;
+        }
+        .btn-outline:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .hero { padding: 40px 20px 32px; }
+            .discipline-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+            .btn-outline { margin-left: 0; margin-top: 12px; }
+        }
+
+        @media (max-width: 480px) {
+            .hero { padding: 32px 16px 24px; }
+            .discipline-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+            .discipline-card { padding: 20px 14px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="#disciplines">Disciplines</a>
+                <a href="#why">Why This Exists</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://election2026.net/" target="_blank">Election 2026</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>They Cut the Programs.<br><em>We Kept the Knowledge.</em></h1>
+            <p class="hero-subtitle">
+                Universities across the country are eliminating Women's Studies, Black Studies, and Ethnic Studies programs. Public Studies provides free, open curriculum so the learning never stops.
+            </p>
+            <span class="hero-statement">Free forever. No institution required.</span>
+        </section>
+
+        <section class="disciplines" id="disciplines">
+            <div class="disciplines-inner">
+                <h2 class="section-title">Choose a Discipline</h2>
+                <p class="section-subtitle">Each curriculum follows a semester-length syllabus. Click to explore the full course.</p>
+
+                <div class="discipline-grid" id="disciplineGrid">
+                    <!-- Rendered from curriculum-index.json -->
+                </div>
+
+                <div class="course-detail" id="courseDetail">
+                    <div class="course-detail-header">
+                        <h3 id="courseDetailTitle"></h3>
+                        <button class="close-detail" onclick="closeCourseDetail()">&times;</button>
+                    </div>
+                    <ul class="course-list" id="courseList"></ul>
+                </div>
+
+                <script>
+                let activeDiscipline = null;
+
+                function showCourseDetail(d) {
+                    const detail = document.getElementById('courseDetail');
+                    const title = document.getElementById('courseDetailTitle');
+                    const list = document.getElementById('courseList');
+
+                    // Toggle off if clicking same discipline
+                    if (activeDiscipline === d.id) {
+                        closeCourseDetail();
+                        return;
+                    }
+
+                    activeDiscipline = d.id;
+                    title.textContent = d.title;
+
+                    let html = d.courses.map(c =>
+                        `<li><a href="${c.link}" target="_blank">${c.title}</a></li>`
+                    ).join('');
+                    if (d.syllabus) {
+                        html += `<li class="syllabus-link"><a href="${d.syllabus}">View Full Syllabus &rarr;</a></li>`;
+                    }
+                    list.innerHTML = html;
+
+                    // Highlight active card
+                    document.querySelectorAll('.discipline-card').forEach(el => el.classList.remove('active'));
+                    document.querySelector(`.discipline-card[data-id="${d.id}"]`).classList.add('active');
+
+                    detail.classList.add('show');
+                    detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+
+                function closeCourseDetail() {
+                    activeDiscipline = null;
+                    document.getElementById('courseDetail').classList.remove('show');
+                    document.querySelectorAll('.discipline-card').forEach(el => el.classList.remove('active'));
+                }
+
+                fetch('curriculum-index.json')
+                    .then(r => r.json())
+                    .then(data => {
+                        const grid = document.getElementById('disciplineGrid');
+                        data.disciplines.forEach(d => {
+                            const a = document.createElement('a');
+                            a.setAttribute('data-id', d.id);
+
+                            if (d.status === 'live' && d.courses.length === 1 && d.courses[0].link) {
+                                // Single course — link directly
+                                a.href = d.courses[0].link;
+                                a.target = '_blank';
+                            } else if (d.status === 'live' && d.courses.length > 1) {
+                                // Multiple courses — expand detail panel
+                                a.href = '#';
+                                a.addEventListener('click', (e) => {
+                                    e.preventDefault();
+                                    showCourseDetail(d);
+                                });
+                            } else {
+                                a.href = '#';
+                            }
+
+                            a.className = 'discipline-card'
+                                + (d.status === 'coming-soon' ? ' coming-soon' : '')
+                                + (d.lang === 'es' ? ' spanish' : '');
+
+                            const courseCount = d.courses.length;
+                            const courseLabel = courseCount > 0
+                                ? `<span class="card-courses">${courseCount} course${courseCount !== 1 ? 's' : ''}</span>`
+                                : '';
+
+                            a.innerHTML = `
+                                <span class="card-icon">${d.icon}</span>
+                                <span class="card-title">${d.title}</span>
+                                <span class="card-desc">${d.description}</span>
+                                ${courseLabel}
+                            `;
+                            grid.appendChild(a);
+                        });
+                    })
+                    .catch(() => {
+                        document.getElementById('disciplineGrid').innerHTML =
+                            '<p style="color: var(--muted); text-align: center; grid-column: 1/-1;">Curriculum index unavailable. Please try again later.</p>';
+                    });
+                </script>
+            </div>
+        </section>
+
+        <section class="why-section" id="why">
+            <div class="why-inner">
+                <h2 class="section-title">Why Public Studies Exists</h2>
+                <p class="section-subtitle">When public institutions stop teaching, the public still needs to learn.</p>
+
+                <div class="why-grid">
+
+                    <div class="why-card">
+                        <h3>Programs Are Being Cut</h3>
+                        <p>States across the country are eliminating DEI offices, women's studies departments, and ethnic studies programs from public universities. The knowledge they taught didn't become less important &mdash; it became less accessible.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <h3>Can't Defund a Website</h3>
+                        <p>Public Studies is free, open, and runs on the internet. No legislature can vote to close it. No governor can sign an executive order against it. It's available to anyone with a browser, anywhere, permanently.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <h3>AI-Powered Learning</h3>
+                        <p>Each course is built on Quarex Living Books &mdash; structured chapters with AI-generated questions that make you think critically about the material, just like a university seminar. Except it's free and you can access it at 2 AM.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-inner">
+                <h2>Are You a Professor?</h2>
+                <p>If your program was cut, your syllabus doesn't have to disappear with it. We're working with displaced faculty to build real curriculum. Your expertise shapes what students learn here.</p>
+                <a href="mailto:info@publicstudies.org" class="btn-primary">Get in Touch</a>
+                <a href="https://quarex.org/" target="_blank" class="btn-outline">Explore Quarex</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">A Curiosity Engine for the public good.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/">Quarex</a>
+                <a href="https://election2026.net/">Election 2026</a>
+                <a href="https://takeamericabackagain.net/">TABA</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. All content is free and open.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

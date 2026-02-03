@@ -1,0 +1,50 @@
+{
+  "name": "Guam",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Guam's political status as a US unincorporated territory?",
+        "What is Guam's population and who are the Chamorro people?",
+        "What are Guam's main economic activities?",
+        "What languages are spoken in Guam?",
+        "What is Guam's strategic military importance in the Pacific?"
+      ],
+      "tags": ["geography", "identity", "oceania", "security"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "Who were the original Chamorro inhabitants of Guam?",
+        "How did Spain colonize Guam for over 300 years?",
+        "How did the US acquire Guam in 1898?",
+        "What happened during the Japanese occupation in World War II?",
+        "How has Guam's relationship with the US evolved since 1945?"
+      ],
+      "tags": ["history", "colonialism", "world-wars", "asia"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does Guam's government control as an unincorporated territory?",
+        "Why can't Guamanians vote in US presidential elections?",
+        "What are the current debates about Guam's political status?",
+        "How large is the US military presence on Guam?",
+        "How do US federal laws apply in Guam?"
+      ],
+      "tags": ["politics", "governance", "democracy", "us-politics"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do US citizens and foreign visitors need for Guam?",
+        "How do you get to Guam?",
+        "What are the top destinations and attractions in Guam?",
+        "What is the best time of year to visit Guam?",
+        "What should travelers know about typhoon season and logistics?"
+      ],
+      "tags": ["geography", "travel", "oceania", "infrastructure"]
+    }
+  ]
+}

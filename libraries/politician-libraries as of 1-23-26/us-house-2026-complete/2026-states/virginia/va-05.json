@@ -1,0 +1,30 @@
+{
+  "book": "VA-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John McGuire (R)",
+        "Bob Good (R)",
+        "Melanie Lucero (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Suzanne Krzyzanowski (D)",
+        "Tom Perriello (D)",
+        "Mike Pruitt (D)",
+        "Paul Riley (D)",
+        "Robert Tracinski (D)",
+        "Kate Zabriskie (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Chris Register (I)"
+      ]
+    }
+  ]
+}

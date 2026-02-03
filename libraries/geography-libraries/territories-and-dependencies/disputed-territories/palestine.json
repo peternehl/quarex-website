@@ -1,0 +1,50 @@
+{
+  "name": "Palestine",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Palestine's disputed political status?",
+        "What is the population of the Palestinian territories?",
+        "What are the economic conditions in the West Bank and Gaza?",
+        "What language is spoken in Palestine?",
+        "What is distinctive about Palestinian culture and identity?"
+      ],
+      "tags": ["geography", "identity", "middle-east", "israel-palestine"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "What was Palestine like under Ottoman and British rule?",
+        "What happened in 1948 and what is the Nakba?",
+        "How did Israel occupy the West Bank and Gaza in 1967?",
+        "What were the Oslo Accords and what happened to the peace process?",
+        "What major conflicts have affected Gaza and the West Bank?"
+      ],
+      "tags": ["history", "colonialism", "conflict", "israel-palestine"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What is the Palestinian Authority and what areas does it govern?",
+        "How is Gaza governed differently from the West Bank?",
+        "How many countries recognize Palestinian statehood?",
+        "What is the legal status of Israeli settlements?",
+        "What rights do Palestinians have under occupation?"
+      ],
+      "tags": ["politics", "governance", "human-rights", "international-law"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter the Palestinian territories?",
+        "How do you travel to and within the West Bank?",
+        "What are the key historical and cultural sites in Palestine?",
+        "What restrictions affect travel in the Palestinian territories?",
+        "What should travelers know about safety and checkpoints?"
+      ],
+      "tags": ["geography", "travel", "middle-east", "security"]
+    }
+  ]
+}

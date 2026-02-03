@@ -1,6 +1,6 @@
 {
   "batch": 8,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "Oklahoma",
@@ -75,7 +75,7 @@
         {
           "district": "OR-02",
           "candidates": {
-            "Republican": ["Cliff Bentz (R)", "Andrea Carr (R)", "Peter Larson (R)", "Russell McAlmond (R)"],
+            "Republican": ["Cliff Bentz (R)", "Andrea Carr (R)", "Russell McAlmond (R)"],
             "Democratic": ["Peter Black (D)", "Mary Doyle (D)", "Mitchel Knight (D)", "Rebecca Mueller (D)", "Dawn Rasmussen (D)", "Patty Snow (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -106,7 +106,7 @@
           "district": "OR-05",
           "candidates": {
             "Republican": ["Patti Adair (R)", "Jonathan Lockwood (R)", "Jo Rae Perkins (R)"],
-            "Democratic": ["Janelle Bynum (D)"],
+            "Democratic": ["Janelle Bynum (D)", "Zeva Rosenbaum (D)"],
             "Independent": [],
             "Libertarian": ["Joseph Lehman (L)"],
             "Green": []

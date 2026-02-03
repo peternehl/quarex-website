@@ -1,0 +1,137 @@
+{
+  "book": "Wisconsin",
+  "chapters": [
+    {
+      "name": "WI-01",
+      "topics": [
+        "Bryan Steil (R)",
+        "Connor Walleck (R)",
+        "Miguel Aranda (D)",
+        "Travis Beckius (D)",
+        "Mitchell Berman (D)",
+        "Randy Bryce (D)",
+        "Enrique Casiano (D)",
+        "Gage Stills (D)",
+        "Adam Follmer (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    },
+    {
+      "name": "WI-02",
+      "topics": [
+        "Erik Olsen (R)",
+        "Mark Pocan (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    },
+    {
+      "name": "WI-03",
+      "topics": [
+        "Derrick Van Orden (R)",
+        "Emily Berge (D)",
+        "Rebecca Cooke (D)",
+        "Rodney Rave (D)",
+        "Laura Benjamin (D)",
+        "Rustin Provance (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    },
+    {
+      "name": "WI-04",
+      "topics": [
+        "Gwen Moore (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    },
+    {
+      "name": "WI-05",
+      "topics": [
+        "Scott Fitzgerald (R)",
+        "Andrew Beck (D)",
+        "Ben Steinhoff (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    },
+    {
+      "name": "WI-06",
+      "topics": [
+        "Glenn Grothman (R)",
+        "Jonathan Peetz (R)",
+        "Amanda Bell (D)",
+        "Kelly Brown (D)",
+        "Michael Heidenreich (D)",
+        "John Macho (D)",
+        "Joey Marschall (D)",
+        "Kortney Oldham (D)",
+        "Bradley Smith (D)",
+        "Aaron Wojciechowski (D)",
+        "Michael Thurow (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    },
+    {
+      "name": "WI-07",
+      "topics": [
+        "Michael Alfonso (R)",
+        "Jessi Ebben (R)",
+        "Kevin Hermening (R)",
+        "Paul Wassgren (R)",
+        "Chris Armstrong (D)",
+        "Fred Clark (D)",
+        "Ginger Murray (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    },
+    {
+      "name": "WI-08",
+      "topics": [
+        "Tony Wied (R)",
+        "Rick Crosson (D)",
+        "Benjamin Hable (D)",
+        "Mark Scheffler (D)",
+        "Katrina DeVille (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "wisconsin"
+      ]
+    }
+  ]
+}

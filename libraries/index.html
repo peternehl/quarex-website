@@ -1048,6 +1048,11 @@
                                 name: 'Find Your Congressional District',
                                 url: 'https://www.census.gov/mycd/',
                                 description: 'Interactive map to find your federal congressional district'
+                            },
+                            {
+                                name: 'Recent Candidate Changes',
+                                url: '/docs/2026-candidate-changes.html',
+                                description: 'Weekly update: who entered and exited races this week'
                             }
                         ],
                         libraries: []
@@ -1155,6 +1160,7 @@
                             description: lib.description || '',
                             shelfCount: lib.shelfCount || 0,
                             disclaimer: lib.disclaimer || null,
+                            questionFile: lib.questionFile || null,
                             status: 'ready'
                         }));
                     } catch (error) {
@@ -1191,6 +1197,16 @@
                                     bookCount: shelf.bookCount || 0
                                 }))
                             };
+
+                            // Load library-specific questions if defined
+                            if (library.questionFile) {
+                                try {
+                                    const questionsRes = await fetch(BASE_PATH + library.questionFile);
+                                    state.libraryQuestions = await questionsRes.json();
+                                } catch (error) {
+                                    console.error('Failed to load library-specific questions:', error);
+                                }
+                            }
                         } catch (error) {
                             console.error('Failed to load library shelves:', error);
                             state.view = 'libraries';
@@ -1313,13 +1329,18 @@
         function renderSimpleQuestions(questions, source, hasSelection) {
             const questionArray = questions.recommended_questions;
 
+            // Substitute {name} placeholder with current topic if available
+            const substitutedQuestions = questionArray.map(q =>
+                state.currentTopic ? q.replace(/\{name\}/g, state.currentTopic) : q
+            );
+
             // Return HTML for recommended questions
             return `
                 <h4 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.1rem;">
                     ${source === 'library' ? 'Library-Specific' : 'General'} Questions
                 </h4>
                 <div class="question-grid">
-                    ${questionArray.map(question => `
+                    ${substitutedQuestions.map(question => `
                         <div class="question-btn ${!hasSelection ? 'disabled' : ''}"
                              ${hasSelection ? `onclick="askQuestion(\`${escapeHtml(question)}\`)"` : ''}>
                             <div>${escapeHtml(question)}</div>
@@ -1797,6 +1818,7 @@
                     description: lib.description || '',
                     shelfCount: lib.shelfCount || 0,
                     disclaimer: lib.disclaimer || null,
+                    questionFile: lib.questionFile || null,
                     status: 'ready'
                 }));
             } catch (error) {
@@ -1916,6 +1938,25 @@
                     }))
                 };
 
+                // Load library-specific questions if defined, otherwise reload library type default
+                if (library.questionFile) {
+                    try {
+                        const questionsRes = await fetch(BASE_PATH + library.questionFile);
+                        state.libraryQuestions = await questionsRes.json();
+                    } catch (error) {
+                        console.error('Failed to load library-specific questions:', error);
+                        // Keep existing library type questions as fallback
+                    }
+                } else {
+                    // Reset to library type's default questions
+                    try {
+                        const questionsRes = await fetch(BASE_PATH + state.currentLibraryType.questionFile);
+                        state.libraryQuestions = await questionsRes.json();
+                    } catch (error) {
+                        console.error('Failed to reload default questions:', error);
+                    }
+                }
+
                 state.view = 'shelves';
                 updateUrl();
                 render();
@@ -1989,13 +2030,13 @@
         function renderBooks() {
             const content = document.getElementById('content');
 
-            // Check for special index link (Trump Administration cabinet)
+            // Check for special index link (Executive Branch cabinet)
             let indexLinkHtml = '';
-            if (state.currentLibrary && state.currentLibrary.slug === 'trump-administration-2025' &&
+            if (state.currentLibrary && state.currentLibrary.slug === 'executive-branch' &&
                 state.currentShelf && state.currentShelf.slug === 'cabinet-and-senior-officials') {
                 indexLinkHtml = `
                     <div style="margin-bottom: 1.5rem;">
-                        <a href="${BASE_PATH}politician-libraries/trump-administration-2025/index.html"
+                        <a href="${BASE_PATH}politician-libraries/executive-branch/index.html"
                            style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem;
                                   background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
                                   color: white; text-decoration: none; border-radius: 8px;

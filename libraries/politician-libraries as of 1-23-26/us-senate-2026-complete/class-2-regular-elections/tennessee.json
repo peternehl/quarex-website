@@ -1,0 +1,23 @@
+{
+  "book": "Tennessee",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Bill Hagerty (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Diana Onyejiaka (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Andrew Mixon (I)"
+      ]
+    }
+  ]
+}

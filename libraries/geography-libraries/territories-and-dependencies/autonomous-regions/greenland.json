@@ -1,0 +1,50 @@
+{
+  "name": "Greenland",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Greenland's political status within the Kingdom of Denmark?",
+        "How large is Greenland and what percentage is covered by ice?",
+        "What is the population of Greenland and where do most people live?",
+        "What are Greenland's main economic activities and industries?",
+        "What languages are spoken in Greenland?"
+      ],
+      "tags": ["geography", "identity", "europe", "trade"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "Who were the first inhabitants of Greenland?",
+        "What happened to the Norse Viking settlements in Greenland?",
+        "How did Denmark colonize Greenland in the 18th century?",
+        "What role did Greenland play in World War II and the Cold War?",
+        "How did Greenland achieve home rule in 1979 and self-government in 2009?"
+      ],
+      "tags": ["history", "colonialism", "medieval", "cold-war"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does the Greenlandic government control under self-government?",
+        "What decisions does Denmark still make for Greenland?",
+        "How does the Danish block grant work and what does it fund?",
+        "What is the current status of the Greenlandic independence movement?",
+        "How do Greenland's laws differ from Denmark's?"
+      ],
+      "tags": ["politics", "governance", "diplomacy", "nationalism"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Greenland?",
+        "How do you get to Greenland and what are the main airports?",
+        "What is the best time of year to visit Greenland?",
+        "What are the top destinations and attractions in Greenland?",
+        "What should travelers know about costs, safety, and logistics in Greenland?"
+      ],
+      "tags": ["geography", "travel", "infrastructure", "sustainability"]
+    }
+  ]
+}

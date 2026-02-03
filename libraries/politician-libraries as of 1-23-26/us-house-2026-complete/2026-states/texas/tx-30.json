@@ -1,0 +1,28 @@
+{
+  "book": "TX-30",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Sholdon Daniels (R)",
+        "Gregor Heise (R)",
+        "Everett Jackson (R)",
+        "Nils Walker (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Barbara Mallory Caraway (D)",
+        "Frederick Haynes (D)",
+        "Rodney LaBruce (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Oxford Nordberg (I)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "book": "MA-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jake Auchincloss (D)",
+        "Christopher Boyd (D)",
+        "Steve Chasse (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Matthew Cook (I)"
+      ]
+    }
+  ]
+}

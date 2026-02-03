@@ -1,0 +1,211 @@
+
+Certificate #1: EC 256 bits (SHA256withECDSA)
+Server Key and Certificate #1
+Subject 	quarex.org
+Fingerprint SHA256: dd91a028513becb779d8b217a3543685fd31adfa11602e3e8b4778a0a02ddf0c
+Pin SHA256: immzVHg/Rc/8xwngRTKNalQkxlpFLoAND0TRtpnXqlo=
+Common names 	quarex.org
+Alternative names 	quarex.org *.quarex.org
+Serial Number 	74d83de8483864ed13b116b25dd9bccd
+Valid from 	Fri, 19 Dec 2025 12:11:39 UTC
+Valid until 	Thu, 19 Mar 2026 13:09:23 UTC (expires in 1 month and 27 days)
+Key 	EC 256 bits
+Weak key (Debian) 	No
+Issuer 	WE1
+AIA: http://i.pki.goog/we1.crt
+Signature algorithm 	SHA256withECDSA
+Extended Validation 	No
+Certificate Transparency 	Yes (certificate)
+OCSP Must Staple 	No
+Revocation information 	CRL, OCSP
+CRL: http://c.pki.goog/we1/pyeoXlQPF4E.crl
+OCSP: http://o.pki.goog/s/we1/dNg
+Revocation status 	Good (not revoked)
+DNS CAA 	No (more info)
+Trusted 	Yes
+Mozilla  Apple  Android  Java  Windows 
+
+
+Additional Certificates (if supplied)
+Certificates provided 	3 (2502 bytes)
+Chain issues 	None
+#2
+Subject 	WE1
+Fingerprint SHA256: 1dfc1605fbad358d8bc844f76d15203fac9ca5c1a79fd4857ffaf2864fbebf96
+Pin SHA256: kIdp6NNEd8wsugYyyIYFsi1ylMCED3hZbSR8ZFsa/A4=
+Valid until 	Tue, 20 Feb 2029 14:00:00 UTC (expires in 3 years and 1 month)
+Key 	EC 256 bits
+Issuer 	GTS Root R4
+Signature algorithm 	SHA384withECDSA
+#3
+Subject 	GTS Root R4
+Fingerprint SHA256: 76b27b80a58027dc3cf1da68dac17010ed93997d0b603e2fadbe85012493b5a7
+Pin SHA256: mEflZT5enoR1FuXLgYYGqnVEoZvmf9c2bVBpiOjYQ0c=
+Valid until 	Fri, 28 Jan 2028 00:00:42 UTC (expires in 2 years)
+Key 	EC 384 bits
+Issuer 	GlobalSign Root CA
+Signature algorithm 	SHA256withRSA
+
+
+[Show Certification Paths] Certification Paths
+
+Click here to expand
+Configuration
+Protocols
+TLS 1.3 	Yes
+TLS 1.2 	Yes
+TLS 1.1 	Yes
+TLS 1.0 	Yes
+SSL 3 	No
+SSL 2 	No
+
+
+Cipher Suites
+# TLS 1.3 (server has no preference)
+TLS_AES_128_GCM_SHA256 (0x1301)   ECDH x25519 (eq. 3072 bits RSA)   FS 	128
+TLS_AES_256_GCM_SHA384 (0x1302)   ECDH x25519 (eq. 3072 bits RSA)   FS 	256
+TLS_CHACHA20_POLY1305_SHA256 (0x1303)   ECDH x25519 (eq. 3072 bits RSA)   FS 	256
+# TLS 1.2 (suites in server-preferred order)
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xc02b)   ECDH x25519 (eq. 3072 bits RSA)   FS 	128
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xcca9)   ECDH x25519 (eq. 3072 bits RSA)   FS 	256P
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xc009)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK 	128
+TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xc02c)   ECDH x25519 (eq. 3072 bits RSA)   FS 	256
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xc00a)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK 	256
+TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xc023)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK 	128
+TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xc024)   ECDH x25519 (eq. 3072 bits RSA)   FS   WEAK 	256
+# TLS 1.1 (suites in server-preferred order)
+# TLS 1.0 (suites in server-preferred order)
+(P) This server prefers ChaCha20 suites with clients that don't have AES-NI (e.g., Android devices) 	
+
+
+Handshake Simulation
+Android 2.3.7   No SNI 2 	Server sent fatal alert: handshake_failure
+Android 4.0.4 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.1.1 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.2.2 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.3 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Android 4.4.2 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 5.0.0 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 6.0 	EC 256 (SHA256)   	TLS 1.2 > http/1.1   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Android 7.0 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Android 8.0 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Android 8.1 	-   	TLS 1.3 	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Android 9.0 	-   	TLS 1.3 	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Baidu Jan 2015 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+BingPreview Jan 2015 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Chrome 49 / XP SP3 	Server sent fatal alert: handshake_failure
+Chrome 69 / Win 7  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Chrome 70 / Win 10 	-   	TLS 1.3 	TLS_AES_128_GCM_SHA256   ECDH x25519  FS
+Chrome 80 / Win 10  R 	-   	TLS 1.3 	TLS_AES_128_GCM_SHA256   ECDH x25519  FS
+Firefox 31.3.0 ESR / Win 7 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 47 / Win 7  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 49 / XP SP3 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Firefox 62 / Win 7  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Firefox 73 / Win 10  R 	-   	TLS 1.3 	TLS_AES_128_GCM_SHA256   ECDH x25519  FS
+Googlebot Feb 2018 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+IE 7 / Vista 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 8 / XP   No FS 1   No SNI 2 	Server sent fatal alert: handshake_failure
+IE 8-10 / Win 7  R 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 11 / Win 7  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 11 / Win 8.1  R 	EC 256 (SHA256)   	TLS 1.2 > http/1.1   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 10 / Win Phone 8.0 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+IE 11 / Win Phone 8.1  R 	EC 256 (SHA256)   	TLS 1.2 > http/1.1   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 11 / Win Phone 8.1 Update  R 	EC 256 (SHA256)   	TLS 1.2 > http/1.1   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+IE 11 / Win 10  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Edge 15 / Win 10  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Edge 16 / Win 10  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Edge 18 / Win 10  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH x25519  FS
+Edge 13 / Win Phone 10  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Java 6u45   No SNI 2 	Server sent fatal alert: handshake_failure
+Java 7u25 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Java 8u161 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Java 11.0.3 	-   	TLS 1.3 	TLS_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Java 12.0.1 	-   	TLS 1.3 	TLS_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 0.9.8y 	Server sent fatal alert: handshake_failure
+OpenSSL 1.0.1l  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 1.0.2s  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+OpenSSL 1.1.0k  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+OpenSSL 1.1.1c  R 	-   	TLS 1.3 	TLS_AES_256_GCM_SHA384   ECDH x25519  FS
+Safari 5.1.9 / OS X 10.6.8 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 6 / iOS 6.0.1 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 6.0.4 / OS X 10.8.4  R 	EC 256 (SHA256)   	TLS 1.0 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 7 / iOS 7.1  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 7 / OS X 10.9  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 8 / iOS 8.4  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 8 / OS X 10.10  R 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA   ECDH secp256r1  FS
+Safari 9 / iOS 9  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 9 / OS X 10.11  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 10 / iOS 10  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 10 / OS X 10.12  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Safari 12.1.2 / MacOS 10.14.6 Beta  R 	-   	TLS 1.3 	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Safari 12.1.1 / iOS 12.3.1  R 	-   	TLS 1.3 	TLS_CHACHA20_POLY1305_SHA256   ECDH x25519  FS
+Apple ATS 9 / iOS 9  R 	EC 256 (SHA256)   	TLS 1.2 > h2   	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+Yahoo Slurp Jan 2015 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+YandexBot Jan 2015 	EC 256 (SHA256)   	TLS 1.2 	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256   ECDH secp256r1  FS
+# Not simulated clients (Protocol mismatch)
+IE 6 / XP   No FS 1   No SNI 2 	Protocol mismatch (not simulated)
+(1) Clients that do not support Forward Secrecy (FS) are excluded when determining support for it.
+(2) No support for virtual SSL hosting (SNI). Connects to the default site if the server uses SNI.
+(3) Only first connection attempt simulated. Browsers sometimes retry with a lower protocol version.
+(R) Denotes a reference browser or client, with which we expect better effective security.
+(All) We use defaults, but some platforms do not use their best protocols and features (e.g., Java 6 & 7, older IE).
+(All) Certificate trust is not checked in handshake simulation, we only perform TLS handshake.
+
+
+Protocol Details
+Secure Renegotiation 	Supported
+Secure Client-Initiated Renegotiation 	No
+Insecure Client-Initiated Renegotiation 	No
+BEAST attack 	Not mitigated server-side (more info)   TLS 1.0: 0xc009
+POODLE (SSLv3) 	No, SSL 3 not supported (more info)
+POODLE (TLS) 	No (more info)
+Zombie POODLE 	No (more info)   TLS 1.2 : 0xc009
+GOLDENDOODLE 	No (more info)   TLS 1.2 : 0xc009
+OpenSSL 0-Length 	No (more info)   TLS 1.2 : 0xc009
+Sleeping POODLE 	No (more info)   TLS 1.2 : 0xc009
+Downgrade attack prevention 	Yes, TLS_FALLBACK_SCSV supported (more info)
+SSL/TLS compression 	No
+RC4 	No
+Heartbeat (extension) 	No
+Heartbleed (vulnerability) 	No (more info)
+Ticketbleed (vulnerability) 	No (more info)
+OpenSSL CCS vuln. (CVE-2014-0224) 	No (more info)
+OpenSSL Padding Oracle vuln.
+(CVE-2016-2107) 	No (more info)
+ROBOT (vulnerability) 	No (more info)
+Forward Secrecy 	Yes (with most browsers)   ROBUST (more info)
+ALPN 	Yes   h2 http/1.1
+NPN 	Yes   h2 http/1.1
+Session resumption (caching) 	No (IDs assigned but not accepted)
+Session resumption (tickets) 	Yes
+OCSP stapling 	Yes
+Strict Transport Security (HSTS) 	No
+HSTS Preloading 	Not in: Chrome  Edge  Firefox  IE 
+Public Key Pinning (HPKP) 	No (more info)
+Public Key Pinning Report-Only 	No
+Public Key Pinning (Static) 	No (more info)
+Long handshake intolerance 	No
+TLS extension intolerance 	No
+TLS version intolerance 	No
+Incorrect SNI alerts 	No
+Uses common DH primes 	No, DHE suites not supported
+DH public server param (Ys) reuse 	No, DHE suites not supported
+ECDH public server param reuse 	No
+Supported Named Groups 	x25519, secp256r1, secp384r1, secp521r1 (server preferred order)
+SSL 2 handshake compatibility 	No
+0-RTT enabled 	No
+
+
+HTTP Requests
+1 https://quarex.org/  (HTTP/1.1 200 OK)
+
+
+Miscellaneous
+Test date 	Tue, 20 Jan 2026 01:17:17 UTC
+Test duration 	58.472 seconds
+HTTP status code 	200
+HTTP server signature 	cloudflare
+Server hostname 	-
+
+
+SSL Report v2.4.1

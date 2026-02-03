@@ -1,5 +1,6 @@
 Read the JSON from unlimited/Seed Quarex/
-Validate the file and provide your opinion
+Validate the file and 
+Provide a detailed opinion about the file
 Replace existing chapter tags with vocabulary-compliant tags:
    - Use ONLY tags from "Utilities and Info Files/tag-vocabulary.json"
    - Each chapter gets exactly 4 tags forming a specificity gradient:

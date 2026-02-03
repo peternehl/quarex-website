@@ -1,0 +1,50 @@
+{
+  "name": "Faroe Islands",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is the Faroe Islands' political status within the Kingdom of Denmark?",
+        "What is the population of the Faroe Islands and where do people live?",
+        "What are the main economic activities in the Faroe Islands?",
+        "What language do Faroese people speak?",
+        "What is distinctive about Faroese culture and identity?"
+      ],
+      "tags": ["geography", "identity", "europe", "trade"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "When did Norse settlers arrive in the Faroe Islands?",
+        "How did the Faroe Islands become part of Denmark?",
+        "What happened in the Faroe Islands during World War II?",
+        "How did the Faroe Islands achieve home rule in 1948?",
+        "What is the current independence movement in the Faroe Islands?"
+      ],
+      "tags": ["history", "colonialism", "medieval", "world-wars"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does the Faroese government control?",
+        "What decisions does Denmark still make for the Faroe Islands?",
+        "Why are the Faroe Islands not part of the European Union?",
+        "How do Faroese laws differ from Danish laws?",
+        "What is the relationship between Faroese and Greenlandic autonomy?"
+      ],
+      "tags": ["politics", "governance", "diplomacy", "nationalism"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter the Faroe Islands?",
+        "How do you get to the Faroe Islands?",
+        "What are the top destinations and attractions in the Faroe Islands?",
+        "What is the best time of year to visit the Faroe Islands?",
+        "What should travelers know about weather, costs, and logistics?"
+      ],
+      "tags": ["geography", "travel", "europe", "sustainability"]
+    }
+  ]
+}

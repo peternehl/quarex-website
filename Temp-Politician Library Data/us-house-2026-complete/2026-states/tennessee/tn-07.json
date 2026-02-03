@@ -1,0 +1,27 @@
+{
+  "book": "TN-07",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Matt Van Epps (R)",
+        "Jason Knight (R)",
+        "Stewart Parks (R)",
+        "Jay Reedy (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Aftyn Behn (D)",
+        "David Jones (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jonathan Thorp (I)"
+      ]
+    }
+  ]
+}

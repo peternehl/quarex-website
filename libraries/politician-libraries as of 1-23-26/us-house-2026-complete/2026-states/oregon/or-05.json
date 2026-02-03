@@ -1,0 +1,25 @@
+{
+  "book": "OR-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Patti Adair (R)",
+        "Jonathan Lockwood (R)",
+        "Jo Rae Perkins (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Janelle Bynum (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Joseph Lehman (L)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,839 @@
+{
+  "name": "Newspapers",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The New York Times",
+      "topics": [
+        "Who owns The New York Times and how is it structured?",
+        "Based on recent editorial decisions and coverage patterns, where does The New York Times actually fall on the political spectrum?",
+        "Where is The New York Times headquartered and what regions does it cover?",
+        "How is The New York Times rated for accuracy and fairness?",
+        "In what languages is The New York Times available?",
+        "What major journalism awards has The New York Times won?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "The Washington Post",
+      "topics": [
+        "Who owns The Washington Post and how has ownership changed?",
+        "Based on recent editorial decisions and coverage patterns, where does The Washington Post actually fall on the political spectrum?",
+        "Where is The Washington Post based and what is its coverage focus?",
+        "How is The Washington Post rated for accuracy and fairness?",
+        "In what languages is The Washington Post available?",
+        "What role does The Washington Post play in political journalism?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "The Wall Street Journal",
+      "topics": [
+        "Who owns The Wall Street Journal?",
+        "Based on recent editorial decisions and coverage patterns, where does The Wall Street Journal actually fall on the political spectrum?",
+        "Where is The Wall Street Journal headquartered and what does it cover?",
+        "How is The Wall Street Journal rated for accuracy and fairness?",
+        "In what languages is The Wall Street Journal available?",
+        "How does the WSJ's news coverage differ from its opinion section?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Los Angeles Times",
+      "topics": [
+        "Who owns the Los Angeles Times?",
+        "Based on recent editorial decisions and coverage patterns, where does the Los Angeles Times actually fall on the political spectrum?",
+        "Where is the Los Angeles Times based and what regions does it cover?",
+        "How is the Los Angeles Times rated for accuracy and fairness?",
+        "In what languages is the Los Angeles Times available?",
+        "How has the Los Angeles Times evolved under Patrick Soon-Shiong?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "USA Today",
+      "topics": [
+        "Who owns USA Today?",
+        "Based on recent editorial decisions and coverage patterns, where does USA Today actually fall on the political spectrum?",
+        "Where is USA Today headquartered and what is its distribution model?",
+        "How is USA Today rated for accuracy and fairness?",
+        "In what languages is USA Today available?",
+        "What audience does USA Today target?"
+      ],
+      "tags": [
+        "media",
+        "communication",
+        "journalism",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "The Globe and Mail",
+      "topics": [
+        "Who owns The Globe and Mail?",
+        "Based on recent editorial decisions and coverage patterns, where does The Globe and Mail actually fall on the political spectrum?",
+        "Where is The Globe and Mail based and what is its national role?",
+        "How is The Globe and Mail rated for accuracy and fairness?",
+        "In what languages is The Globe and Mail available?",
+        "How does The Globe and Mail compare to other Canadian papers?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "Toronto Star",
+      "topics": [
+        "Who owns the Toronto Star?",
+        "Based on recent editorial decisions and coverage patterns, where does the Toronto Star actually fall on the political spectrum?",
+        "Where is the Toronto Star based and what regions does it cover?",
+        "How is the Toronto Star rated for accuracy and fairness?",
+        "In what languages is the Toronto Star available?",
+        "What is the Toronto Star's history of investigative journalism?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "The Guardian",
+      "topics": [
+        "Who owns The Guardian and how does its trust structure work?",
+        "Based on recent editorial decisions and coverage patterns, where does The Guardian actually fall on the political spectrum?",
+        "Where is The Guardian headquartered and what is its global reach?",
+        "How is The Guardian rated for accuracy and fairness?",
+        "In what languages is The Guardian available?",
+        "How does The Guardian's funding model differ from other newspapers?"
+      ],
+      "tags": [
+        "media",
+        "transparency",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "The Times (London)",
+      "topics": [
+        "Who owns The Times of London?",
+        "Based on recent editorial decisions and coverage patterns, where does The Times actually fall on the political spectrum?",
+        "Where is The Times based and what is its historical significance?",
+        "How is The Times rated for accuracy and fairness?",
+        "In what languages is The Times available?",
+        "How has Murdoch ownership affected The Times?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "The Telegraph",
+      "topics": [
+        "Who owns The Telegraph?",
+        "Based on recent editorial decisions and coverage patterns, where does The Telegraph actually fall on the political spectrum?",
+        "Where is The Telegraph based and who is its target audience?",
+        "How is The Telegraph rated for accuracy and fairness?",
+        "In what languages is The Telegraph available?",
+        "What controversies have surrounded The Telegraph's ownership?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Financial Times",
+      "topics": [
+        "Who owns the Financial Times?",
+        "Based on recent editorial decisions and coverage patterns, where does the Financial Times actually fall on the political spectrum?",
+        "Where is the Financial Times headquartered and what is its global presence?",
+        "How is the Financial Times rated for accuracy and fairness?",
+        "In what languages is the Financial Times available?",
+        "What distinguishes the FT in global business journalism?"
+      ],
+      "tags": [
+        "media",
+        "globalization",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "The Daily Mail",
+      "topics": [
+        "Who owns The Daily Mail?",
+        "Based on recent editorial decisions and coverage patterns, where does The Daily Mail actually fall on the political spectrum?",
+        "Where is The Daily Mail based and what is its readership?",
+        "How is The Daily Mail rated for accuracy and fairness?",
+        "In what languages is The Daily Mail available?",
+        "Why is The Daily Mail controversial among journalists?"
+      ],
+      "tags": [
+        "media",
+        "bias",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Le Monde",
+      "topics": [
+        "Who owns Le Monde?",
+        "Based on recent editorial decisions and coverage patterns, where does Le Monde actually fall on the political spectrum?",
+        "Where is Le Monde headquartered and what is its role in France?",
+        "How is Le Monde rated for accuracy and fairness?",
+        "In what languages is Le Monde available?",
+        "What is Le Monde's international reputation?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Le Figaro",
+      "topics": [
+        "Who owns Le Figaro?",
+        "Based on recent editorial decisions and coverage patterns, where does Le Figaro actually fall on the political spectrum?",
+        "Where is Le Figaro based and what is its history?",
+        "How is Le Figaro rated for accuracy and fairness?",
+        "In what languages is Le Figaro available?",
+        "How does Le Figaro compare to Le Monde politically?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Der Spiegel",
+      "topics": [
+        "Who owns Der Spiegel?",
+        "Based on recent editorial decisions and coverage patterns, where does Der Spiegel actually fall on the political spectrum?",
+        "Where is Der Spiegel headquartered and what is its format?",
+        "How is Der Spiegel rated for accuracy and fairness?",
+        "In what languages is Der Spiegel available?",
+        "What scandals have affected Der Spiegel's credibility?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Frankfurter Allgemeine Zeitung",
+      "topics": [
+        "Who owns Frankfurter Allgemeine Zeitung?",
+        "Based on recent editorial decisions and coverage patterns, where does FAZ actually fall on the political spectrum?",
+        "Where is FAZ headquartered and what audience does it serve?",
+        "How is FAZ rated for accuracy and fairness?",
+        "In what languages is FAZ available?",
+        "What distinguishes FAZ in German journalism?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Süddeutsche Zeitung",
+      "topics": [
+        "Who owns Süddeutsche Zeitung?",
+        "Based on recent editorial decisions and coverage patterns, where does Süddeutsche Zeitung actually fall on the political spectrum?",
+        "Where is Süddeutsche Zeitung based and what is its circulation?",
+        "How is Süddeutsche Zeitung rated for accuracy and fairness?",
+        "In what languages is Süddeutsche Zeitung available?",
+        "What major investigations has Süddeutsche Zeitung broken?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "El País",
+      "topics": [
+        "Who owns El País?",
+        "Based on recent editorial decisions and coverage patterns, where does El País actually fall on the political spectrum?",
+        "Where is El País headquartered and what is its reach?",
+        "How is El País rated for accuracy and fairness?",
+        "In what languages is El País available?",
+        "What is El País's role in Spanish-language journalism globally?"
+      ],
+      "tags": [
+        "media",
+        "globalization",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Corriere della Sera",
+      "topics": [
+        "Who owns Corriere della Sera?",
+        "Based on recent editorial decisions and coverage patterns, where does Corriere della Sera actually fall on the political spectrum?",
+        "Where is Corriere della Sera based and what is its history?",
+        "How is Corriere della Sera rated for accuracy and fairness?",
+        "In what languages is Corriere della Sera available?",
+        "What is Corriere della Sera's standing in Italian media?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "La Repubblica",
+      "topics": [
+        "Who owns La Repubblica?",
+        "Based on recent editorial decisions and coverage patterns, where does La Repubblica actually fall on the political spectrum?",
+        "Where is La Repubblica headquartered?",
+        "How is La Repubblica rated for accuracy and fairness?",
+        "In what languages is La Repubblica available?",
+        "How does La Repubblica compare to Corriere della Sera?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "NRC Handelsblad",
+      "topics": [
+        "Who owns NRC Handelsblad?",
+        "Based on recent editorial decisions and coverage patterns, where does NRC Handelsblad actually fall on the political spectrum?",
+        "Where is NRC Handelsblad based?",
+        "How is NRC Handelsblad rated for accuracy and fairness?",
+        "In what languages is NRC Handelsblad available?",
+        "What audience does NRC Handelsblad serve in the Netherlands?"
+      ],
+      "tags": [
+        "media",
+        "transparency",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "Neue Zürcher Zeitung",
+      "topics": [
+        "Who owns Neue Zürcher Zeitung?",
+        "Based on recent editorial decisions and coverage patterns, where does NZZ actually fall on the political spectrum?",
+        "Where is NZZ headquartered?",
+        "How is NZZ rated for accuracy and fairness?",
+        "In what languages is NZZ available?",
+        "What is NZZ's international reputation?"
+      ],
+      "tags": [
+        "media",
+        "transparency",
+        "journalism",
+        "europe"
+      ]
+    },
+    {
+      "name": "South China Morning Post",
+      "topics": [
+        "Who owns the South China Morning Post?",
+        "Based on recent editorial decisions and coverage patterns, where does SCMP actually fall on the political spectrum?",
+        "Where is SCMP headquartered and what regions does it cover?",
+        "How is SCMP rated for accuracy and fairness?",
+        "In what languages is SCMP available?",
+        "How has Alibaba ownership affected SCMP's coverage of China?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "Yomiuri Shimbun",
+      "topics": [
+        "Who owns Yomiuri Shimbun?",
+        "Based on recent editorial decisions and coverage patterns, where does Yomiuri Shimbun actually fall on the political spectrum?",
+        "Where is Yomiuri Shimbun headquartered and what is its circulation?",
+        "How is Yomiuri Shimbun rated for accuracy and fairness?",
+        "In what languages is Yomiuri Shimbun available?",
+        "What makes Yomiuri Shimbun the world's largest newspaper by circulation?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "Asahi Shimbun",
+      "topics": [
+        "Who owns Asahi Shimbun?",
+        "Based on recent editorial decisions and coverage patterns, where does Asahi Shimbun actually fall on the political spectrum?",
+        "Where is Asahi Shimbun headquartered?",
+        "How is Asahi Shimbun rated for accuracy and fairness?",
+        "In what languages is Asahi Shimbun available?",
+        "How does Asahi Shimbun compare politically to Yomiuri Shimbun?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "Chosun Ilbo",
+      "topics": [
+        "Who owns Chosun Ilbo?",
+        "Based on recent editorial decisions and coverage patterns, where does Chosun Ilbo actually fall on the political spectrum?",
+        "Where is Chosun Ilbo headquartered?",
+        "How is Chosun Ilbo rated for accuracy and fairness?",
+        "In what languages is Chosun Ilbo available?",
+        "What is Chosun Ilbo's role in South Korean politics?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "The Times of India",
+      "topics": [
+        "Who owns The Times of India?",
+        "Based on recent editorial decisions and coverage patterns, where does The Times of India actually fall on the political spectrum?",
+        "Where is The Times of India headquartered and what is its circulation?",
+        "How is The Times of India rated for accuracy and fairness?",
+        "In what languages is The Times of India available?",
+        "What is The Times of India's approach to journalism?"
+      ],
+      "tags": [
+        "media",
+        "communication",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "The Hindu",
+      "topics": [
+        "Who owns The Hindu?",
+        "Based on recent editorial decisions and coverage patterns, where does The Hindu actually fall on the political spectrum?",
+        "Where is The Hindu headquartered?",
+        "How is The Hindu rated for accuracy and fairness?",
+        "In what languages is The Hindu available?",
+        "How does The Hindu differ from The Times of India?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "The Indian Express",
+      "topics": [
+        "Who owns The Indian Express?",
+        "Based on recent editorial decisions and coverage patterns, where does The Indian Express actually fall on the political spectrum?",
+        "Where is The Indian Express headquartered?",
+        "How is The Indian Express rated for accuracy and fairness?",
+        "In what languages is The Indian Express available?",
+        "What is The Indian Express known for in investigative journalism?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "Dawn",
+      "topics": [
+        "Who owns Dawn?",
+        "Based on recent editorial decisions and coverage patterns, where does Dawn actually fall on the political spectrum?",
+        "Where is Dawn headquartered?",
+        "How is Dawn rated for accuracy and fairness?",
+        "In what languages is Dawn available?",
+        "What challenges does Dawn face in Pakistani media?"
+      ],
+      "tags": [
+        "media",
+        "free-speech",
+        "journalism",
+        "asia"
+      ]
+    },
+    {
+      "name": "Haaretz",
+      "topics": [
+        "Who owns Haaretz?",
+        "Based on recent editorial decisions and coverage patterns, where does Haaretz actually fall on the political spectrum?",
+        "Where is Haaretz headquartered?",
+        "How is Haaretz rated for accuracy and fairness?",
+        "In what languages is Haaretz available?",
+        "How does Haaretz differ from other Israeli newspapers?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "middle-east"
+      ]
+    },
+    {
+      "name": "The Jerusalem Post",
+      "topics": [
+        "Who owns The Jerusalem Post?",
+        "Based on recent editorial decisions and coverage patterns, where does The Jerusalem Post actually fall on the political spectrum?",
+        "Where is The Jerusalem Post headquartered?",
+        "How is The Jerusalem Post rated for accuracy and fairness?",
+        "In what languages is The Jerusalem Post available?",
+        "How does The Jerusalem Post compare to Haaretz politically?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "middle-east"
+      ]
+    },
+    {
+      "name": "Israel Hayom",
+      "topics": [
+        "Who owns Israel Hayom?",
+        "Based on recent editorial decisions and coverage patterns, where does Israel Hayom actually fall on the political spectrum?",
+        "Where is Israel Hayom headquartered?",
+        "How is Israel Hayom rated for accuracy and fairness?",
+        "In what languages is Israel Hayom available?",
+        "Why is Israel Hayom called 'Bibiton' by critics?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "middle-east"
+      ]
+    },
+    {
+      "name": "Al-Ahram",
+      "topics": [
+        "Who owns Al-Ahram?",
+        "Based on recent editorial decisions and coverage patterns, where does Al-Ahram actually fall on the political spectrum?",
+        "Where is Al-Ahram headquartered and what is its history?",
+        "How is Al-Ahram rated for accuracy and fairness?",
+        "In what languages is Al-Ahram available?",
+        "What is Al-Ahram's relationship with the Egyptian government?"
+      ],
+      "tags": [
+        "media",
+        "propaganda",
+        "journalism",
+        "middle-east"
+      ]
+    },
+    {
+      "name": "Asharq Al-Awsat",
+      "topics": [
+        "Who owns Asharq Al-Awsat?",
+        "Based on recent editorial decisions and coverage patterns, where does Asharq Al-Awsat actually fall on the political spectrum?",
+        "Where is Asharq Al-Awsat headquartered and printed?",
+        "How is Asharq Al-Awsat rated for accuracy and fairness?",
+        "In what languages is Asharq Al-Awsat available?",
+        "What is Asharq Al-Awsat's role in pan-Arab journalism?"
+      ],
+      "tags": [
+        "media",
+        "globalization",
+        "journalism",
+        "middle-east"
+      ]
+    },
+    {
+      "name": "Hürriyet",
+      "topics": [
+        "Who owns Hürriyet?",
+        "Based on recent editorial decisions and coverage patterns, where does Hürriyet actually fall on the political spectrum?",
+        "Where is Hürriyet headquartered?",
+        "How is Hürriyet rated for accuracy and fairness?",
+        "In what languages is Hürriyet available?",
+        "How has press freedom affected Hürriyet's independence?"
+      ],
+      "tags": [
+        "media",
+        "free-speech",
+        "journalism",
+        "middle-east"
+      ]
+    },
+    {
+      "name": "Folha de S.Paulo",
+      "topics": [
+        "Who owns Folha de S.Paulo?",
+        "Based on recent editorial decisions and coverage patterns, where does Folha de S.Paulo actually fall on the political spectrum?",
+        "Where is Folha de S.Paulo headquartered?",
+        "How is Folha de S.Paulo rated for accuracy and fairness?",
+        "In what languages is Folha de S.Paulo available?",
+        "What is Folha de S.Paulo's role in Brazilian journalism?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "O Globo",
+      "topics": [
+        "Who owns O Globo?",
+        "Based on recent editorial decisions and coverage patterns, where does O Globo actually fall on the political spectrum?",
+        "Where is O Globo headquartered?",
+        "How is O Globo rated for accuracy and fairness?",
+        "In what languages is O Globo available?",
+        "How does O Globo relate to the larger Globo media conglomerate?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "Clarín",
+      "topics": [
+        "Who owns Clarín?",
+        "Based on recent editorial decisions and coverage patterns, where does Clarín actually fall on the political spectrum?",
+        "Where is Clarín headquartered?",
+        "How is Clarín rated for accuracy and fairness?",
+        "In what languages is Clarín available?",
+        "What controversies have surrounded Clarín's political influence?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "La Nación (Argentina)",
+      "topics": [
+        "Who owns La Nación?",
+        "Based on recent editorial decisions and coverage patterns, where does La Nación actually fall on the political spectrum?",
+        "Where is La Nación headquartered?",
+        "How is La Nación rated for accuracy and fairness?",
+        "In what languages is La Nación available?",
+        "How does La Nación compare to Clarín in Argentina?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "El Universal (Mexico)",
+      "topics": [
+        "Who owns El Universal?",
+        "Based on recent editorial decisions and coverage patterns, where does El Universal actually fall on the political spectrum?",
+        "Where is El Universal headquartered?",
+        "How is El Universal rated for accuracy and fairness?",
+        "In what languages is El Universal available?",
+        "What is El Universal's history in Mexican journalism?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "El Mercurio",
+      "topics": [
+        "Who owns El Mercurio?",
+        "Based on recent editorial decisions and coverage patterns, where does El Mercurio actually fall on the political spectrum?",
+        "Where is El Mercurio headquartered?",
+        "How is El Mercurio rated for accuracy and fairness?",
+        "In what languages is El Mercurio available?",
+        "What is El Mercurio's controversial historical role in Chile?"
+      ],
+      "tags": [
+        "media",
+        "controversy",
+        "journalism",
+        "americas"
+      ]
+    },
+    {
+      "name": "The Australian",
+      "topics": [
+        "Who owns The Australian?",
+        "Based on recent editorial decisions and coverage patterns, where does The Australian actually fall on the political spectrum?",
+        "Where is The Australian headquartered?",
+        "How is The Australian rated for accuracy and fairness?",
+        "In what languages is The Australian available?",
+        "What is The Australian's influence in Australian politics?"
+      ],
+      "tags": [
+        "media",
+        "influence",
+        "journalism",
+        "oceania"
+      ]
+    },
+    {
+      "name": "The Sydney Morning Herald",
+      "topics": [
+        "Who owns The Sydney Morning Herald?",
+        "Based on recent editorial decisions and coverage patterns, where does The Sydney Morning Herald actually fall on the political spectrum?",
+        "Where is The Sydney Morning Herald based?",
+        "How is The Sydney Morning Herald rated for accuracy and fairness?",
+        "In what languages is The Sydney Morning Herald available?",
+        "How has Nine Entertainment ownership affected the SMH?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "oceania"
+      ]
+    },
+    {
+      "name": "The Age",
+      "topics": [
+        "Who owns The Age?",
+        "Based on recent editorial decisions and coverage patterns, where does The Age actually fall on the political spectrum?",
+        "Where is The Age headquartered?",
+        "How is The Age rated for accuracy and fairness?",
+        "In what languages is The Age available?",
+        "How does The Age compare to The Sydney Morning Herald?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "oceania"
+      ]
+    },
+    {
+      "name": "The New Zealand Herald",
+      "topics": [
+        "Who owns The New Zealand Herald?",
+        "Based on recent editorial decisions and coverage patterns, where does The New Zealand Herald actually fall on the political spectrum?",
+        "Where is The New Zealand Herald headquartered?",
+        "How is The New Zealand Herald rated for accuracy and fairness?",
+        "In what languages is The New Zealand Herald available?",
+        "What is The New Zealand Herald's role in Kiwi media?"
+      ],
+      "tags": [
+        "media",
+        "communication",
+        "journalism",
+        "oceania"
+      ]
+    },
+    {
+      "name": "Mail & Guardian",
+      "topics": [
+        "Who owns Mail & Guardian?",
+        "Based on recent editorial decisions and coverage patterns, where does Mail & Guardian actually fall on the political spectrum?",
+        "Where is Mail & Guardian headquartered?",
+        "How is Mail & Guardian rated for accuracy and fairness?",
+        "In what languages is Mail & Guardian available?",
+        "What is Mail & Guardian's reputation for investigative journalism?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "africa"
+      ]
+    },
+    {
+      "name": "Daily Maverick",
+      "topics": [
+        "Who owns Daily Maverick?",
+        "Based on recent editorial decisions and coverage patterns, where does Daily Maverick actually fall on the political spectrum?",
+        "Where is Daily Maverick based?",
+        "How is Daily Maverick rated for accuracy and fairness?",
+        "In what languages is Daily Maverick available?",
+        "What distinguishes Daily Maverick in South African journalism?"
+      ],
+      "tags": [
+        "media",
+        "accountability",
+        "journalism",
+        "africa"
+      ]
+    },
+    {
+      "name": "The Daily Nation",
+      "topics": [
+        "Who owns The Daily Nation?",
+        "Based on recent editorial decisions and coverage patterns, where does The Daily Nation actually fall on the political spectrum?",
+        "Where is The Daily Nation headquartered?",
+        "How is The Daily Nation rated for accuracy and fairness?",
+        "In what languages is The Daily Nation available?",
+        "What is The Daily Nation's role in East African media?"
+      ],
+      "tags": [
+        "media",
+        "communication",
+        "journalism",
+        "africa"
+      ]
+    }
+  ]
+}

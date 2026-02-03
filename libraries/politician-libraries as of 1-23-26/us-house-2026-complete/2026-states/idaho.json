@@ -1,0 +1,24 @@
+{
+  "book": "Idaho",
+  "chapters": [
+    {
+      "name": "ID-01",
+      "topics": [
+        "Russ Fulcher (R)",
+        "Ken Brungardt (D)",
+        "Kaylee Peterson (D)",
+        "Sarah Zabel (I)"
+      ]
+    },
+    {
+      "name": "ID-02",
+      "topics": [
+        "Michael K. Simpson (R)",
+        "Sean Higgins (R)",
+        "Perry Shumway (R)",
+        "Julie Wiley (D)",
+        "Tripp Hutchinson (I)"
+      ]
+    }
+  ]
+}

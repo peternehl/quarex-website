@@ -1,0 +1,29 @@
+{
+  "book": "PA-07",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ryan Mackenzie (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Bob Brooks (D)",
+        "Ryan Crosswell (D)",
+        "Aiden Gonzalez (D)",
+        "Lamont McClure (D)",
+        "Carol Obando-Derstine (D)",
+        "Mark Pinsley (D)",
+        "Lewis Shupe (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ramon Granados (I)"
+      ]
+    }
+  ]
+}

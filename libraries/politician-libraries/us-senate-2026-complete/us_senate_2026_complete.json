@@ -2,7 +2,7 @@
   "library": "US Senate 2026 - Complete",
   "library_type": "candidates",
   "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-23",
+  "last_updated": "2026-01-30",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -14,10 +14,12 @@
             {
               "name": "Republican",
               "topics": [
+                "Seth Burton (R)",
                 "Jared Hudson (R)",
                 "Steve Marshall (R)",
                 "Barry Moore (R)",
                 "Morgan Murphy (R)",
+                "Dale Shelton Deas Jr. (R)",
                 "Rodney Walker (R)"
               ]
             },
@@ -27,7 +29,8 @@
                 "Dakarai Larriett (D)",
                 "Lamont Lavender (D)",
                 "Kyle Sweetser (D)",
-                "Mark Wheeler (D)"
+                "Everett Wess (D)",
+                "Mark Wheeler II (D)"
               ]
             }
           ]
@@ -208,6 +211,7 @@
                 "Casey Chlebek (R)",
                 "Jeannie Evans (R)",
                 "Pamela Denise Long (R)",
+                "Max Rice (R)",
                 "Jimmy Lee Tillman II (R)",
                 "Don Tracy (R)",
                 "CaS\u00e1ndra Claiborne (R)"
@@ -220,13 +224,13 @@
                 "Sean Brown (D)",
                 "Awisi Bustos (D)",
                 "Jonathan Dean (D)",
+                "Adam Delgado (D)",
                 "Robin Kelly (D)",
                 "Raja Krishnamoorthi (D)",
                 "Bryan Maxwell (D)",
                 "Kevin Ryan (D)",
                 "Juliana Stratton (D)",
                 "Christopher Swann (D)",
-                "Adam Delgado (D)",
                 "Jump Shepherd (D)",
                 "Anthony Williams (D)"
               ]
@@ -342,7 +346,6 @@
                 "Randall Arrington (R)",
                 "Markeda Cottonham (R)",
                 "Tracy Dendy (R)",
-                "Julie Emerson (R)",
                 "John Fleming (R)",
                 "Chris Holder (R)",
                 "Xan John (R)",
@@ -442,7 +445,7 @@
                 "Frederick Heurtebise (R)",
                 "Andrew Kamal (R)",
                 "Mike Rogers (R)",
-                "Genevieve Scott (R)",
+                "Genevieve Peters Scott (R)",
                 "Bernadette Smith (R)"
               ]
             },
@@ -877,6 +880,8 @@
                 "Camencia Ford (I)",
                 "Jade Simmons (I)",
                 "Hans Truelson (I)",
+                "Ted Brown (I)",
+                "Daniel Mark Sims (I)",
                 "Ronald Evans (I)"
               ]
             }
@@ -890,6 +895,7 @@
               "topics": [
                 "Kim Farington (R)",
                 "Al Mina (R)",
+                "Bert Mizusawa (R)",
                 "Chuck Smith (R)",
                 "David Williams (R)"
               ]
@@ -916,13 +922,16 @@
                 "Derrick Evans (R)",
                 "Alexander Gaaserud (R)",
                 "Bryan McKinney (R)",
+                "Janet McNulty (R)",
+                "David Purkey (R)",
                 "Tom Willis (R)"
               ]
             },
             {
               "name": "Democratic",
               "topics": [
-                "Fetty Anderson (D)",
+                "Thornton Cooper (D)",
+                "Rachel Fetty Anderson (D)",
                 "Rio Phillips (D)",
                 "Zachary Shrewsbury (D)"
               ]

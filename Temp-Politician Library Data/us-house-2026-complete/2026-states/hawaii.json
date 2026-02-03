@@ -1,0 +1,34 @@
+{
+  "book": "Hawaii",
+  "chapters": [
+    {
+      "name": "HI-01",
+      "topics": [
+        "Maxwell Frazier (R)",
+        "Ed Case (D)",
+        "Della Au Belatti (D)",
+        "Perry Gregg (D)",
+        "Jarrett Keohokalole (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "hawaii"
+      ]
+    },
+    {
+      "name": "HI-02",
+      "topics": [
+        "Brenton Awa (R)",
+        "Jill Tokuda (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "hawaii"
+      ]
+    }
+  ]
+}

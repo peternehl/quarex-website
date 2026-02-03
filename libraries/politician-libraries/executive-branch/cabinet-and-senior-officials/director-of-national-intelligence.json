@@ -1,0 +1,44 @@
+{
+  "name": "Director of National Intelligence",
+  "slug": "director-of-national-intelligence",
+  "tags": [
+    "politics",
+    "us-politics",
+    "governance",
+    "security"
+  ],
+  "chapters": [
+    {
+      "name": "Tulsi Gabbard",
+      "slug": "tulsi-gabbard",
+      "topics": [
+        "What is Tulsi Gabbard's background before becoming DNI?",
+        "What was Tulsi Gabbard's military service record?",
+        "What was Tulsi Gabbard's record in Congress?",
+        "Why did Tulsi Gabbard leave the Democratic Party?",
+        "What controversies or concerns surround Tulsi Gabbard's appointment?",
+        "How did Tulsi Gabbard's confirmation process unfold?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "security"
+      ]
+    },
+    {
+      "name": "Previous Director",
+      "slug": "previous-director",
+      "topics": [
+        "Who was the previous (Biden) DNI and what was their tenure like?",
+        "How does Tulsi Gabbard's approach differ from her predecessor?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "security"
+      ]
+    }
+  ]
+}

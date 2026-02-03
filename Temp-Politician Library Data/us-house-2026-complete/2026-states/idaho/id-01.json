@@ -1,0 +1,23 @@
+{
+  "book": "ID-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Russ Fulcher (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ken Brungardt (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Sarah Zabel (I)"
+      ]
+    }
+  ]
+}

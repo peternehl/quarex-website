@@ -1,0 +1,29 @@
+{
+  "book": "AZ-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Juan Ciscomani (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Johnathan Buma (D)",
+        "Chris Donat (D)",
+        "JoAnna Mendoza (D)",
+        "Samantha Severson (D)",
+        "Aiden Swallow (D)",
+        "Carter Weeks (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Trevor Dickerson (I)",
+        "Gary Swing (G)"
+      ]
+    }
+  ]
+}

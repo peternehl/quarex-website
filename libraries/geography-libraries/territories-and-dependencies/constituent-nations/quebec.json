@@ -1,0 +1,50 @@
+{
+  "name": "Quebec",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Quebec's political status within Canada?",
+        "What is Quebec's population and major cities?",
+        "What are Quebec's main economic activities?",
+        "What is the status of the French language in Quebec?",
+        "What is distinctive about Québécois national identity?"
+      ],
+      "tags": ["geography", "identity", "americas", "nationalism"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did New France develop and fall to Britain?",
+        "How did French Canadians maintain their identity under British rule?",
+        "What was the Quiet Revolution of the 1960s?",
+        "What happened in the 1980 and 1995 sovereignty referendums?",
+        "How has Quebec nationalism evolved in the 21st century?"
+      ],
+      "tags": ["history", "colonialism", "nationalism", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does Quebec have under Canadian federalism?",
+        "How do Quebec's civil law traditions differ from common law?",
+        "What is Bill 101 and how does it protect French?",
+        "What is the current status of Quebec sovereignty movement?",
+        "How does Quebec's distinct society status work in practice?"
+      ],
+      "tags": ["politics", "governance", "human-rights", "linguistics"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Quebec?",
+        "How do you get to Quebec and travel within the province?",
+        "What are the top destinations and attractions in Quebec?",
+        "What should travelers know about French language expectations?",
+        "What is the best time of year to visit Quebec?"
+      ],
+      "tags": ["geography", "travel", "americas", "cultural-heritage"]
+    }
+  ]
+}

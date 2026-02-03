@@ -1,0 +1,134 @@
+{
+    "disciplines": [
+        {
+            "id": "womens-studies",
+            "title": "Women's Studies",
+            "icon": "♀",
+            "description": "Gender, power, history, and the movements that changed the world.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "WomensStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "What is Feminism?",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/what-is-feminism"
+                },
+                {
+                    "title": "Women's Rights: Centuries of Struggle",
+                    "link": "https://quarex.org/libraries/k/the-sciences/history-and-anthropology/womens-rights-centuries-of-struggle"
+                },
+                {
+                    "title": "Women in American Politics",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-american-politics"
+                },
+                {
+                    "title": "Eleanor Roosevelt",
+                    "link": "https://quarex.org/libraries/k/biographies/political-biographies/franklin-d-roosevelt-a-biography/eleanor-roosevelt-a-life-of-her-own"
+                },
+                {
+                    "title": "Ruth Bader Ginsburg: A Biography",
+                    "link": "https://quarex.org/libraries/k/biographies/political-biographies/ruth-bader-ginsburg-a-biography"
+                },
+                {
+                    "title": "Intersectionality: Race, Gender, and Power",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/intersectionality-race-gender-and-power"
+                },
+                {
+                    "title": "Queer Feminism and Gender",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/queer-feminism-and-gender"
+                },
+                {
+                    "title": "Women and the Workplace",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-the-workplace"
+                },
+                {
+                    "title": "Women in Science and Technology",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-science-and-technology"
+                },
+                {
+                    "title": "Motherhood, Family, and Gender Roles",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/motherhood-family-and-gender-roles"
+                },
+                {
+                    "title": "Women and Violence",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-violence"
+                },
+                {
+                    "title": "Women's Health and Body Politics",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/womens-health-and-body-politics"
+                },
+                {
+                    "title": "How Abortion Became a Political Wedge",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge"
+                },
+                {
+                    "title": "Gender, Media, and Representation",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation"
+                },
+                {
+                    "title": "Global Women's Rights",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/global-womens-rights"
+                }
+            ]
+        },
+        {
+            "id": "black-studies",
+            "title": "Black Studies",
+            "icon": "⚗",
+            "description": "African American history, culture, politics, and the struggle for justice.",
+            "lang": "en",
+            "status": "live",
+            "courses": [
+                {
+                    "title": "A History of Racism in the Americas",
+                    "link": "https://quarex.org/libraries/k/the-sciences/history-and-anthropology/a-history-of-racism-in-the-americas"
+                },
+                {
+                    "title": "Civil Rights Movement in the US",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/civil-rights-movements/civil-rights-movement-in-the-us"
+                }
+            ]
+        },
+        {
+            "id": "ethnic-studies",
+            "title": "Ethnic Studies",
+            "icon": "🌎",
+            "description": "Race, ethnicity, immigration, and identity in America.",
+            "lang": "en",
+            "status": "live",
+            "courses": [
+                {
+                    "title": "A History of Racism in the Americas",
+                    "link": "https://quarex.org/libraries/k/the-sciences/history-and-anthropology/a-history-of-racism-in-the-americas"
+                }
+            ]
+        },
+        {
+            "id": "labor-studies",
+            "title": "Labor Studies",
+            "icon": "⚒",
+            "description": "Workers' rights, unions, economic justice, and the labor movement.",
+            "lang": "en",
+            "status": "coming-soon",
+            "courses": []
+        },
+        {
+            "id": "estudios-latinos",
+            "title": "Estudios Latinos",
+            "icon": "🇪🇸",
+            "description": "Historia, cultura y política de las comunidades latinas en los Estados Unidos. En español.",
+            "lang": "es",
+            "status": "coming-soon",
+            "courses": []
+        },
+        {
+            "id": "estudios-de-la-mujer",
+            "title": "Estudios de la Mujer",
+            "icon": "♀",
+            "description": "Género, poder, historia y los movimientos que cambiaron el mundo. En español.",
+            "lang": "es",
+            "status": "coming-soon",
+            "courses": []
+        }
+    ]
+}

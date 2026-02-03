@@ -1,0 +1,20 @@
+{
+  "book": "MA-01",
+  "chapters": [
+    {
+      "name": "Democratic",
+      "topics": [
+        "Richard Neal (D)",
+        "Anthony Celata (D)",
+        "Nathan Tracy (D)",
+        "Jeromie Whalen (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Nadia Milleron (I)"
+      ]
+    }
+  ]
+}

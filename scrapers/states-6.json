@@ -1,6 +1,6 @@
 {
   "batch": 6,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "Montana",
@@ -185,7 +185,7 @@
           "candidates": {
             "Republican": ["Chandiha Gajapathy (R)", "Sean Kirrane (R)"],
             "Democratic": ["Josh Gottheimer (D)", "Nick Gebo (D)"],
-            "Independent": [],
+            "Independent": ["Adam Rueda (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -253,8 +253,8 @@
         {
           "district": "NJ-12",
           "candidates": {
-            "Republican": ["Gregg Mele (R)"],
-            "Democratic": ["Brad Cohen (D)", "Elijah Dixon (D)", "Raymond Heck (D)", "Kyle Little (D)", "Adrian Mapp (D)", "Tennille R. McCoy (D)", "Verlina Reynolds-Jackson (D)", "Shanel Robinson (D)", "Squire Servance (D)", "Sujit Singh (D)", "Jay Vaingankar (D)"],
+            "Republican": ["Gregg Mele (R)", "Andrew Zaborney (R)"],
+            "Democratic": ["Matthew Adams (D)", "Brad Cohen (D)", "Elijah Dixon (D)", "Raymond Heck (D)", "Kyle Little (D)", "Adrian Mapp (D)", "Tennille R. McCoy (D)", "Verlina Reynolds-Jackson (D)", "Shanel Robinson (D)", "Squire Servance (D)", "Sujit Singh (D)", "Jay Vaingankar (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []

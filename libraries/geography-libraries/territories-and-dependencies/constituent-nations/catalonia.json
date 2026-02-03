@@ -1,0 +1,50 @@
+{
+  "name": "Catalonia",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Catalonia's political status within Spain?",
+        "What is Catalonia's population and major cities?",
+        "What makes Catalonia one of Spain's wealthiest regions?",
+        "What is the status of the Catalan language?",
+        "What is distinctive about Catalan national identity?"
+      ],
+      "tags": ["geography", "identity", "europe", "nationalism"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Catalonia develop as a distinct nation?",
+        "What happened to Catalan autonomy under Franco's dictatorship?",
+        "How did Catalonia regain autonomy after Franco?",
+        "What sparked the modern independence movement?",
+        "What happened during the 2017 independence crisis?"
+      ],
+      "tags": ["history", "nationalism", "authoritarianism", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does the Generalitat of Catalonia have?",
+        "What happened to the Catalan leaders after the 2017 referendum?",
+        "What is the current status of the independence movement?",
+        "How does Catalan law differ from Spanish law?",
+        "What is the fiscal relationship between Catalonia and Spain?"
+      ],
+      "tags": ["politics", "governance", "democracy", "human-rights"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Catalonia?",
+        "How do you get to Catalonia and travel within the region?",
+        "What are the top destinations beyond Barcelona?",
+        "What should travelers know about Catalan culture and language?",
+        "What is the best time of year to visit Catalonia?"
+      ],
+      "tags": ["geography", "travel", "europe", "cultural-heritage"]
+    }
+  ]
+}

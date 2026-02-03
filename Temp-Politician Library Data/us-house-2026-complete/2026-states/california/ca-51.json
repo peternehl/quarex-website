@@ -1,0 +1,23 @@
+{
+  "book": "CA-51",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John-Samuel Etheridge Williams (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sara Jacobs (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Mike Bucy (I)"
+      ]
+    }
+  ]
+}

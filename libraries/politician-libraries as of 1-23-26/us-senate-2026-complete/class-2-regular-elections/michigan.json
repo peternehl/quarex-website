@@ -1,0 +1,34 @@
+{
+  "book": "Michigan",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Kent Benham (R)",
+        "Frederick Heurtebise (R)",
+        "Andrew Kamal (R)",
+        "Mike Rogers (R)",
+        "Genevieve Scott (R)",
+        "Bernadette Smith (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Abdul El-Sayed (D)",
+        "Rachel Howard (D)",
+        "Mallory McMorrow (D)",
+        "Haley Stevens (D)",
+        "Travis Zollner (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Lydia Christensen (I)",
+        "Craig Henley Johnson (I)",
+        "TJ Stephens (I)"
+      ]
+    }
+  ]
+}

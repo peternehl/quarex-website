@@ -1,0 +1,27 @@
+{
+  "book": "WA-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Antony Barran (R)",
+        "John Braun (R)",
+        "Lawrence Kellogg (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Marie Gluesenkamp Pérez (D)",
+        "Brent Hennrich (D)",
+        "Suzzanna V. Tanner (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Eric Vaughan (I)"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,13 @@
   "book": "NY-07",
   "chapters": [
     {
+      "name": "Republican",
+      "topics": [
+        "Evan Hutchison (R)",
+        "Vichal Kumar (R)"
+      ]
+    },
+    {
       "name": "Democratic",
       "topics": [
         "Alexander Campagna (D)",

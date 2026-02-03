@@ -1,0 +1,23 @@
+{
+  "book": "CA-18",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Zakaria Kortam (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Zoe Lofgren (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Chris Demers (I)"
+      ]
+    }
+  ]
+}

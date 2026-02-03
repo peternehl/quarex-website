@@ -1,0 +1,31 @@
+{
+  "book": "VA-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jennifer Kiggans (R)",
+        "William Matthews (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Nila Devanath (D)",
+        "Elaine Luria (D)",
+        "Patrick Mosolf (D)",
+        "James Osyf (D)",
+        "Nicolaus Sleister (D)",
+        "Matthew Strickler (D)",
+        "John Stringfellow (D)",
+        "Michael Williamson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Bishop Staten (I)"
+      ]
+    }
+  ]
+}

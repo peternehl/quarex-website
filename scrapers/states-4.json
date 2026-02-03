@@ -1,6 +1,6 @@
 {
   "batch": 4,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "Kansas",
@@ -86,7 +86,7 @@
           "district": "KY-04",
           "candidates": {
             "Republican": ["Thomas Massie (R)", "Nicole Lee Ethington (R)", "Ed Gallrein (R)"],
-            "Democratic": ["Jesse Brewer (D)", "Monica Dean (D)", "Elizabeth Mason-Hill (D)", "Melissa Strange (D)"],
+            "Democratic": ["Jesse Brewer (D)", "Elizabeth Mason-Hill (D)", "Melissa Strange (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -161,7 +161,7 @@
         {
           "district": "LA-05",
           "candidates": {
-            "Republican": ["Larry Davis (R)", "Ray Smith (R)"],
+            "Republican": ["Stewart Cathey (R)", "Misti Cordell (R)", "Larry Davis (R)", "Rick Edmonds (R)", "Ray Smith (R)", "Samuel Wyatt (R)"],
             "Democratic": ["Larry Foy (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -233,7 +233,7 @@
         {
           "district": "MD-03",
           "candidates": {
-            "Republican": [],
+            "Republican": ["Bernard Flowers (R)"],
             "Democratic": ["Sarah Elfreth (D)", "Felix Seier (D)"],
             "Independent": [],
             "Libertarian": [],

@@ -2,12 +2,19 @@
   "book": "MA-06",
   "chapters": [
     {
+      "name": "Republican",
+      "topics": [
+        "John Field (R)"
+      ]
+    },
+    {
       "name": "Democratic",
       "topics": [
         "Beth Andres-Beck (D)",
         "John Beccia (D)",
         "Rick Jakious (D)",
         "Dan Koh (D)",
+        "Mariah Lancaster (D)",
         "Tram Nguyen (D)",
         "Jamie Zahlaway Belsito (D)"
       ]

@@ -1,0 +1,269 @@
+{
+  "name": "Women in American Politics",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "women in politics",
+    "gender and power",
+    "political representation",
+    "American democracy",
+    "electoral inequality"
+  ],
+  "chapters": [
+    {
+      "name": "Women in Early American Political Life Before Suffrage",
+      "topics": [
+        "How did women exercise political influence in the United States before they could vote?",
+        "What roles did women play in the American Revolution and early republic that were later erased from the record?",
+        "Why did the Constitution exclude women from political participation without explicitly naming them?",
+        "How did Abigail Adams's 'remember the ladies' letter reflect the gap between revolutionary ideals and political reality?",
+        "What forms of informal power — salons, petitions, moral reform — did women use to shape policy before suffrage?",
+        "How did the exclusion of women from early American politics compare to their status in other democracies at the time?"
+      ],
+      "tags": [
+        "history",
+        "democracy",
+        "us-politics",
+        "gender"
+      ]
+    },
+    {
+      "name": "After the Vote: Why Suffrage Did Not Lead to Political Power",
+      "topics": [
+        "Why did women's suffrage in 1920 not produce a wave of women running for or winning office?",
+        "How did political parties respond to women voters while still excluding women from leadership?",
+        "What structural barriers — from fundraising networks to party nominations — kept women out of office after suffrage?",
+        "Why did it take until 1932 for the first woman to be elected to the Senate, and why was she a widow filling her husband's seat?",
+        "How did the gap between voting rights and political representation reveal the limits of legal equality?",
+        "What lessons does the post-suffrage era hold for understanding why rights on paper do not automatically become power in practice?"
+      ],
+      "tags": [
+        "politics",
+        "inequality",
+        "voting-rights",
+        "gender"
+      ]
+    },
+    {
+      "name": "The First Women Elected to the United States Congress",
+      "topics": [
+        "Who was Jeannette Rankin, and what did her election to Congress in 1916 reveal about the conditions that allowed a woman to win?",
+        "Why were so many of the earliest women in Congress appointed or elected as widows of male incumbents?",
+        "How did Margaret Chase Smith break the pattern by building her own political career independent of her husband's legacy?",
+        "What obstacles did Shirley Chisholm face as the first Black woman in Congress, and how did she respond to them?",
+        "How did the 'Year of the Woman' in 1992 change the composition of Congress, and why did progress stall after it?",
+        "What do the stories of these early women in Congress reveal about which women were allowed to hold power and why?"
+      ],
+      "tags": [
+        "politics",
+        "representation",
+        "congress",
+        "gender"
+      ]
+    },
+    {
+      "name": "How Political Parties Have Controlled Women's Access to Power",
+      "topics": [
+        "How do party nomination processes and recruitment pipelines favor male candidates over equally qualified women?",
+        "Why do both major parties claim to support women candidates while their leadership structures remain disproportionately male?",
+        "What is the role of party gatekeepers in deciding which women get support and which are steered away from competitive races?",
+        "How has the Republican Party's relationship with women candidates shifted from the ERA era to the present?",
+        "How has the Democratic Party balanced promoting women candidates with protecting incumbents who are disproportionately men?",
+        "What would party structures look like if they were intentionally designed to produce gender-balanced slates?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "elections",
+        "gender"
+      ]
+    },
+    {
+      "name": "Campaign Finance and the Gender Gap in Political Fundraising",
+      "topics": [
+        "Why do women candidates consistently raise less money in the early stages of campaigns than men in equivalent races?",
+        "How does the donor class in American politics skew male, and what effect does that have on which candidates get funded?",
+        "What role have organizations like EMILY's List played in closing the fundraising gap for women?",
+        "How does the expectation of financial viability become a self-fulfilling barrier that discourages women from running?",
+        "Why does campaign finance research show that women who do raise competitive funds win at the same rate as men?",
+        "How would public financing of elections change the gender dynamics of who can afford to run for office?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "elections",
+        "gender"
+      ]
+    },
+    {
+      "name": "How the Media Covers Women Running for Office",
+      "topics": [
+        "Why do studies consistently show that media coverage of women candidates focuses more on appearance, family, and personality than policy?",
+        "How did media coverage of Hillary Clinton's 2016 campaign differ from coverage of male candidates with similar experience?",
+        "What is the 'double bind' in political media — where women are criticized for being too tough or too soft but never right?",
+        "How does social media amplify gendered attacks on women candidates in ways traditional media did not?",
+        "Why does reduced or biased media coverage of women candidates affect voter perceptions even when voters are unaware of the bias?",
+        "How did three decades of relentless media demonization of Hillary Clinton shape public perception of her before she ever ran for president?",
+        "What would equitable political journalism look like, and which outlets are closest to achieving it?"
+      ],
+      "tags": [
+        "media",
+        "bias",
+        "journalism",
+        "gender"
+      ]
+    },
+    {
+      "name": "The Likability Trap: Why Women Candidates Are Judged Differently",
+      "topics": [
+        "What research shows that voters apply different standards of 'likability' to women and men seeking the same office?",
+        "Why does ambition — a requirement for political office — trigger negative reactions when displayed by women candidates?",
+        "How do women candidates navigate the impossible expectation of being authoritative enough to lead but warm enough to be liked?",
+        "What role does implicit bias play in voter evaluations of women candidates, even among voters who believe in gender equality?",
+        "How have successful women politicians learned to manage the likability trap, and what does that management cost them?",
+        "Why does the likability standard persist despite decades of awareness, and what would it take to dismantle it?"
+      ],
+      "tags": [
+        "psychology",
+        "bias",
+        "elections",
+        "gender"
+      ]
+    },
+    {
+      "name": "Women of Color and the Double Bind in American Politics",
+      "topics": [
+        "Why have women of color been historically underrepresented in elected office even compared to white women?",
+        "How did Shirley Chisholm's 1972 presidential campaign expose the intersection of racism and sexism in American politics?",
+        "What unique barriers do Black women face in fundraising, media coverage, and voter expectations when running for office?",
+        "How have Latina, Asian American, and Indigenous women navigated the specific challenges of representation in their communities and beyond?",
+        "Why did the 2018 and 2020 elections produce a historic wave of women of color in Congress, and how durable is that progress?",
+        "What does Kamala Harris's path to the vice presidency reveal about both the possibilities and the limits of intersectional political power?"
+      ],
+      "tags": [
+        "politics",
+        "inequality",
+        "race",
+        "gender"
+      ]
+    },
+    {
+      "name": "The Glass Cliff: Why Women Lead When Failure Is Likely",
+      "topics": [
+        "What is the glass cliff, and how does it differ from the more familiar concept of the glass ceiling?",
+        "Why are women disproportionately appointed to leadership positions in organizations and campaigns that are already in crisis?",
+        "How does the glass cliff operate in American politics — from party nominations in unwinnable races to crisis-era appointments?",
+        "What happens to women leaders who are placed on the glass cliff and fail — and how does their failure get attributed to gender rather than circumstance?",
+        "Why does research suggest that the glass cliff is not a conspiracy but a structural pattern rooted in how organizations think about risk and gender?",
+        "How can voters and institutions recognize when a woman's leadership appointment is genuine opportunity versus a setup for blame?"
+      ],
+      "tags": [
+        "politics",
+        "causation",
+        "leadership",
+        "gender"
+      ]
+    },
+    {
+      "name": "Women as Governors and Executives in the United States",
+      "topics": [
+        "Why have so few women served as governors compared to their growing numbers in Congress?",
+        "What makes the path to a governorship structurally different from the path to a congressional seat, and how does that disadvantage women?",
+        "How did governors like Ann Richards, Christine Todd Whitman, and Janet Napolitano navigate gendered expectations of executive leadership?",
+        "Why is executive office often seen as more 'masculine' than legislative office, and how does that perception shape who runs?",
+        "What do the records of women governors reveal about whether women govern differently than men in practice?",
+        "How does the scarcity of women in governor's mansions affect the pipeline to presidential candidacies?"
+      ],
+      "tags": [
+        "politics",
+        "representation",
+        "executive-power",
+        "gender"
+      ]
+    },
+    {
+      "name": "Women on the Supreme Court and the Judiciary",
+      "topics": [
+        "Why did it take until 1981 for the first woman to be appointed to the United States Supreme Court?",
+        "How did Sandra Day O'Connor, Ruth Bader Ginsburg, Sonia Sotomayor, Elena Kagan, Amy Coney Barrett, and Ketanji Brown Jackson each change the Court?",
+        "Why does the presence of women on the bench matter for how cases involving gender are argued and decided?",
+        "How has the federal judiciary's gender composition changed over time, and where do the biggest gaps remain?",
+        "What role did Ruth Bader Ginsburg play in building the legal framework for gender equality before she joined the Court?",
+        "How do confirmation hearings for women nominees differ from those for men, and what does that reveal about institutional bias?"
+      ],
+      "tags": [
+        "law",
+        "representation",
+        "supreme-court",
+        "gender"
+      ]
+    },
+    {
+      "name": "Backlash Politics: Organized Resistance to Women in Power",
+      "topics": [
+        "Why does every significant advance in women's political power produce organized backlash?",
+        "How did Phyllis Schlafly's campaign against the Equal Rights Amendment become a template for anti-feminist political organizing?",
+        "What forms does backlash take in contemporary politics — from policy rollbacks to targeted harassment of women in office?",
+        "How do online threats, doxxing, and coordinated abuse campaigns specifically target women officeholders and candidates?",
+        "Why do some women participate in movements that aim to limit women's political power, and how do scholars explain this?",
+        "What is the relationship between the rise of authoritarian populism and the targeting of women's political gains?"
+      ],
+      "tags": [
+        "politics",
+        "activism",
+        "us-politics",
+        "gender"
+      ]
+    },
+    {
+      "name": "Where Gender Parity Exists in American Politics and Why",
+      "topics": [
+        "Which states, cities, and political institutions have achieved or come closest to gender parity in elected office?",
+        "What specific conditions — term limits, multimember districts, recruitment programs — correlate with higher numbers of women in office?",
+        "Why do some state legislatures have near-parity while others remain overwhelmingly male?",
+        "How do local offices like city councils and school boards serve as pipelines to higher office for women?",
+        "What role do women's political organizations and training programs play in places where parity has been achieved?",
+        "What do the places that have achieved parity teach us about what is possible at the federal level?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "gender"
+      ]
+    },
+    {
+      "name": "How Other Democracies Achieved Political Parity for Women",
+      "topics": [
+        "How did Rwanda become the first country in the world where women hold a majority of parliamentary seats?",
+        "What are gender quota systems, and why have over 100 countries adopted some form of them?",
+        "How do Scandinavian countries maintain consistently high levels of women's political representation without mandatory quotas?",
+        "Why has the United States resisted adopting the structural reforms that have increased women's representation in other democracies?",
+        "What is the difference between legislative quotas, voluntary party quotas, and reserved seats — and which ones work best?",
+        "What trade-offs come with quota systems, and how do countries that use them address concerns about merit and tokenism?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "elections",
+        "gender"
+      ]
+    },
+    {
+      "name": "What Real Political Parity Would Require in the United States",
+      "topics": [
+        "What structural changes to the American electoral system would be necessary to achieve lasting gender parity in office?",
+        "Why is parity in numbers not enough if women in office still face unequal influence, committee assignments, and leadership access?",
+        "How would campaign finance reform, redistricting, and ranked-choice voting each affect women's chances of winning?",
+        "What would it take to build a political culture where women running for office is unremarkable rather than exceptional?",
+        "How do childcare, caregiving responsibilities, and the structure of political work itself discourage women from seeking office?",
+        "Is gender parity in American politics achievable within the current system, or does the system itself need to be redesigned?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "us-politics",
+        "gender"
+      ]
+    }
+  ]
+}

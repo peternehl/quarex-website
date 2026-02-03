@@ -1,0 +1,25 @@
+{
+  "book": "NJ-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Chandiha Gajapathy (R)",
+        "Sean Kirrane (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Josh Gottheimer (D)",
+        "Nick Gebo (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Adam Rueda (I)"
+      ]
+    }
+  ]
+}

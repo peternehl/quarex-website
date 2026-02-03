@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is a Quarex Book? | Knowable Online University</title>
+    <meta name="description" content="A Quarex book is a structured argument about a subject, divided into chapters, each containing 5 questions. See the full structure of Sojourner Truth — 8 chapters, 40 questions.">
+    <meta name="keywords" content="Quarex book, structured knowledge, Sojourner Truth, chapter structure, question-driven, knowledge organization">
+    <link rel="canonical" href="https://knowableonline.org/what-is-a-quarex-book.html">
+
+    <meta property="og:title" content="What is a Quarex Book?">
+    <meta property="og:description" content="A Quarex book is a structured argument about a subject. See the full 8-chapter structure of Sojourner Truth.">
+    <meta property="og:url" content="https://knowableonline.org/what-is-a-quarex-book.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Knowable Online University">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What is a Quarex Book?">
+    <meta name="twitter:description" content="A Quarex book is a structured argument about a subject. See the full 8-chapter structure of Sojourner Truth.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "What is a Quarex Book?",
+        "description": "A Quarex book is a structured argument about a subject, divided into chapters, each containing 5 questions.",
+        "url": "https://knowableonline.org/what-is-a-quarex-book.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Knowable Online University",
+            "url": "https://knowableonline.org"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #0A0A0A;
+            --bg-card: #111111;
+            --bg-elevated: #1A1A1A;
+            --text-primary: #F7F7F7;
+            --text-secondary: #B7BCC2;
+            --text-muted: #6B7280;
+            --accent: #10B981;
+            --accent-dim: rgba(16, 185, 129, 0.15);
+            --accent-hover: #34D399;
+            --border: #2A2A2A;
+            --radius: 8px;
+            --radius-lg: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        header { position: sticky; top: 0; z-index: 100; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); padding: 0 24px; }
+        .header-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; height: 64px; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+        .logo span { color: var(--accent); }
+        nav { display: flex; gap: 28px; align-items: center; }
+        nav a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        nav a:hover { color: var(--accent); }
+        .nav-toggle { display: none; background: none; border: none; color: var(--text-primary); font-size: 24px; cursor: pointer; }
+
+        .article { max-width: 740px; margin: 0 auto; padding: 80px 24px; }
+        .article-label { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+        .article h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 4.5vw, 48px); font-weight: 700; line-height: 1.15; margin-bottom: 20px; }
+        .article .lead { font-size: 18px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 48px; font-weight: 300; }
+        .article h2 { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 600; margin-top: 48px; margin-bottom: 16px; }
+        .article p { font-size: 16px; color: var(--text-secondary); margin-bottom: 20px; line-height: 1.7; }
+        .article p strong { color: var(--text-primary); font-weight: 600; }
+
+        /* Book card */
+        .book-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            margin: 32px 0;
+        }
+
+        .book-header {
+            background: var(--bg-elevated);
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .book-header .book-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .book-header .book-meta {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .book-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--accent-dim);
+            color: var(--accent);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Chapter accordion */
+        .chapter-entry {
+            border-bottom: 1px solid var(--border);
+        }
+
+        .chapter-entry:last-child { border-bottom: none; }
+
+        .chapter-toggle {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 18px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+        .chapter-toggle:hover { background: var(--bg-elevated); }
+
+        .chapter-info {
+            text-align: left;
+        }
+
+        .chapter-number {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+        }
+
+        .chapter-name {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-top: 2px;
+        }
+
+        .chapter-arrow {
+            color: var(--text-muted);
+            font-size: 16px;
+            transition: transform 0.2s;
+            flex-shrink: 0;
+        }
+
+        .chapter-entry.open .chapter-arrow {
+            transform: rotate(90deg);
+        }
+
+        .chapter-questions {
+            display: none;
+            padding: 0 24px 20px;
+        }
+
+        .chapter-entry.open .chapter-questions {
+            display: block;
+        }
+
+        .chapter-q-tags {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .chapter-q-tags .tag {
+            font-size: 10px;
+            padding: 2px 8px;
+        }
+
+        .q-item {
+            padding: 8px 0;
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            border-bottom: 1px solid rgba(42, 42, 42, 0.5);
+            display: flex;
+            gap: 10px;
+        }
+
+        .q-item:last-child { border-bottom: none; }
+
+        .q-num {
+            color: var(--text-muted);
+            font-size: 12px;
+            font-weight: 600;
+            flex-shrink: 0;
+            min-width: 18px;
+        }
+
+        /* Info callouts */
+        .info-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin: 28px 0;
+        }
+
+        .info-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+
+        .info-card p { font-size: 15px; margin-bottom: 0; }
+
+        .anatomy-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .anatomy-list li {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 15px;
+        }
+
+        .anatomy-list li:last-child { border-bottom: none; }
+
+        .anatomy-label {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 14px;
+            min-width: 100px;
+            flex-shrink: 0;
+        }
+
+        .anatomy-desc { color: var(--text-secondary); }
+
+        .nav-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .nav-links a { display: inline-block; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 20px; color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: border-color 0.2s, color 0.2s; }
+        .nav-links a:hover { border-color: var(--accent); color: var(--accent); }
+
+        footer { border-top: 1px solid var(--border); padding: 40px 24px; text-align: center; }
+        .footer-inner { max-width: 1100px; margin: 0 auto; }
+        .footer-links { display: flex; justify-content: center; gap: 32px; margin-bottom: 20px; flex-wrap: wrap; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-note { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 768px) {
+            .nav-toggle { display: block; }
+            nav { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--bg-primary); border-bottom: 1px solid var(--border); flex-direction: column; padding: 20px 24px; gap: 16px; }
+            nav.open { display: flex; }
+            .article { padding: 60px 24px; }
+            .anatomy-list li { flex-direction: column; gap: 4px; }
+            .anatomy-label { min-width: auto; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">Knowable <span>Online</span></a>
+        <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <a href="/">University</a>
+            <a href="/what-is-quarex.html">What is Quarex?</a>
+            <a href="/question-driven-architecture.html">Architecture</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+        </nav>
+    </div>
+</header>
+
+<div class="article">
+    <span class="article-label">School of Knowledge Systems</span>
+    <h1>What is a Quarex Book?</h1>
+    <p class="lead">
+        A Quarex book is a structured argument about a subject. Not a textbook. Not a reference document.
+        A curated sequence of chapters that builds understanding from beginning to end. Each chapter
+        contains exactly five questions. Every book has a narrative arc.
+    </p>
+
+    <h2>Anatomy of a Book</h2>
+
+    <ul class="anatomy-list">
+        <li>
+            <span class="anatomy-label">Name</span>
+            <span class="anatomy-desc">The subject of the book &mdash; always a noun phrase, never a call to action</span>
+        </li>
+        <li>
+            <span class="anatomy-label">Tags</span>
+            <span class="anatomy-desc">Book-level tags that describe the overall domain (e.g., history, activism, race, civil-rights, gender)</span>
+        </li>
+        <li>
+            <span class="anatomy-label">Chapters</span>
+            <span class="anatomy-desc">Typically 4&ndash;16 chapters, each covering a focused aspect of the subject</span>
+        </li>
+        <li>
+            <span class="anatomy-label">Chapter Tags</span>
+            <span class="anatomy-desc">Each chapter gets exactly 4 tags from a controlled vocabulary: Broad &rarr; Medium &rarr; Specific &rarr; Specific</span>
+        </li>
+        <li>
+            <span class="anatomy-label">Questions</span>
+            <span class="anatomy-desc">Each chapter contains questions as topics &mdash; the fundamental units of inquiry</span>
+        </li>
+        <li>
+            <span class="anatomy-label">Created By</span>
+            <span class="anatomy-desc">Human curator working with AI &mdash; always attributed</span>
+        </li>
+    </ul>
+
+    <h2>A Real Book: Sojourner Truth</h2>
+    <p>
+        This is the complete structure of a Quarex book &mdash; the biography of Sojourner Truth,
+        located on the Political Biographies shelf in the Knowledge Libraries. It contains 8 chapters
+        and 40 questions, tracing her life from slavery through abolition, women's rights, and legacy.
+    </p>
+    <p>
+        Click any chapter to see its five questions and tags.
+    </p>
+
+    <div class="book-card">
+        <div class="book-header">
+            <div class="book-title">Sojourner Truth</div>
+            <div class="book-meta">8 chapters &middot; 40 questions &middot; Knowledge Libraries &rarr; Biographies &rarr; Political Biographies</div>
+            <div class="book-tags">
+                <span class="tag">History</span>
+                <span class="tag">Activism</span>
+                <span class="tag">Race</span>
+                <span class="tag">Civil Rights</span>
+                <span class="tag">Gender</span>
+            </div>
+        </div>
+
+        <!-- Chapter 1 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 1</div>
+                    <div class="chapter-name">Early Life in Slavery (1797&ndash;1826)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">History</span>
+                    <span class="tag">Human Rights</span>
+                    <span class="tag">Race</span>
+                    <span class="tag">Americas</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> What was daily life like for enslaved people in Dutch-speaking New York?</div>
+                <div class="q-item"><span class="q-num">2.</span> How did being sold multiple times as a child shape Sojourner Truth's worldview?</div>
+                <div class="q-item"><span class="q-num">3.</span> What role did the Dutch language play in her early identity?</div>
+                <div class="q-item"><span class="q-num">4.</span> How did New York's gradual emancipation laws affect her path to freedom?</div>
+                <div class="q-item"><span class="q-num">5.</span> What happened to her family members who were illegally sold South?</div>
+            </div>
+        </div>
+
+        <!-- Chapter 2 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 2</div>
+                    <div class="chapter-name">Freedom and Legal Battles (1826&ndash;1828)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">Law</span>
+                    <span class="tag">Justice</span>
+                    <span class="tag">Race</span>
+                    <span class="tag">Civil Rights</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> How did she become one of the first Black women to win a court case against a white man?</div>
+                <div class="q-item"><span class="q-num">2.</span> What risks did she take to recover her son Peter from Alabama?</div>
+                <div class="q-item"><span class="q-num">3.</span> Who were the white allies that helped her navigate the legal system?</div>
+                <div class="q-item"><span class="q-num">4.</span> How did her legal victory challenge assumptions about Black personhood?</div>
+                <div class="q-item"><span class="q-num">5.</span> What does her case reveal about the contradictions of Northern slavery?</div>
+            </div>
+        </div>
+
+        <!-- Chapter 3 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 3</div>
+                    <div class="chapter-name">Religious Awakening and the Name Change (1829&ndash;1843)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">Religion</span>
+                    <span class="tag">Identity</span>
+                    <span class="tag">Race</span>
+                    <span class="tag">Sociology</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> Why did Isabella Baumfree choose the name "Sojourner Truth"?</div>
+                <div class="q-item"><span class="q-num">2.</span> What drew her to the utopian Matthias Kingdom community?</div>
+                <div class="q-item"><span class="q-num">3.</span> How did she escape the scandal when that community collapsed?</div>
+                <div class="q-item"><span class="q-num">4.</span> What was her relationship with mainstream Protestant churches?</div>
+                <div class="q-item"><span class="q-num">5.</span> How did her mystical experiences shape her preaching style?</div>
+            </div>
+        </div>
+
+        <!-- Chapter 4 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 4</div>
+                    <div class="chapter-name">The Abolitionist Circuit (1843&ndash;1850)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">Politics</span>
+                    <span class="tag">Activism</span>
+                    <span class="tag">Race</span>
+                    <span class="tag">Civil Rights</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> How did an illiterate formerly enslaved woman become a national speaker?</div>
+                <div class="q-item"><span class="q-num">2.</span> What was her relationship with Frederick Douglass and other Black abolitionists?</div>
+                <div class="q-item"><span class="q-num">3.</span> How did white abolitionists like William Lloyd Garrison promote her?</div>
+                <div class="q-item"><span class="q-num">4.</span> What tensions existed between Black and white abolitionists she worked with?</div>
+                <div class="q-item"><span class="q-num">5.</span> How did her Narrative dictated to Olive Gilbert shape her public image?</div>
+            </div>
+        </div>
+
+        <!-- Chapter 5 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 5</div>
+                    <div class="chapter-name">Ain't I a Woman and Women's Rights (1850&ndash;1860)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">Politics</span>
+                    <span class="tag">Activism</span>
+                    <span class="tag">Gender</span>
+                    <span class="tag">Civil Rights</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> What did she actually say at the 1851 Akron convention?</div>
+                <div class="q-item"><span class="q-num">2.</span> Why do historians debate the famous "Ain't I a Woman?" speech?</div>
+                <div class="q-item"><span class="q-num">3.</span> How did she navigate tensions between abolition and women's suffrage?</div>
+                <div class="q-item"><span class="q-num">4.</span> What conflicts arose between her and white feminist leaders?</div>
+                <div class="q-item"><span class="q-num">5.</span> How did she challenge both racism and sexism simultaneously?</div>
+            </div>
+        </div>
+
+        <!-- Chapter 6 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 6</div>
+                    <div class="chapter-name">Civil War and Meeting Lincoln (1861&ndash;1865)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">Conflict</span>
+                    <span class="tag">Human Rights</span>
+                    <span class="tag">Race</span>
+                    <span class="tag">US Politics</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> What work did she do recruiting Black troops for the Union Army?</div>
+                <div class="q-item"><span class="q-num">2.</span> What was her actual meeting with Abraham Lincoln like?</div>
+                <div class="q-item"><span class="q-num">3.</span> How did she assist freed people in Washington D.C. refugee camps?</div>
+                <div class="q-item"><span class="q-num">4.</span> What dangers did she face traveling through border states during wartime?</div>
+                <div class="q-item"><span class="q-num">5.</span> How did the war change her priorities and message?</div>
+            </div>
+        </div>
+
+        <!-- Chapter 7 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 7</div>
+                    <div class="chapter-name">Reconstruction Activism (1865&ndash;1875)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">Politics</span>
+                    <span class="tag">Activism</span>
+                    <span class="tag">Voting Rights</span>
+                    <span class="tag">Civil Rights</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> Why did she break with former allies over the 15th Amendment?</div>
+                <div class="q-item"><span class="q-num">2.</span> What was her campaign to secure land grants for freed people?</div>
+                <div class="q-item"><span class="q-num">3.</span> How did she challenge segregation on Washington streetcars?</div>
+                <div class="q-item"><span class="q-num">4.</span> What was her vision for Black self-sufficiency after slavery?</div>
+                <div class="q-item"><span class="q-num">5.</span> Why did she petition for a "Negro State" in the West?</div>
+            </div>
+        </div>
+
+        <!-- Chapter 8 -->
+        <div class="chapter-entry">
+            <button class="chapter-toggle" onclick="this.parentElement.classList.toggle('open')">
+                <div class="chapter-info">
+                    <div class="chapter-number">Chapter 8</div>
+                    <div class="chapter-name">Final Years and Legacy (1875&ndash;1883)</div>
+                </div>
+                <span class="chapter-arrow">&rsaquo;</span>
+            </button>
+            <div class="chapter-questions">
+                <div class="chapter-q-tags">
+                    <span class="tag">History</span>
+                    <span class="tag">Legacy</span>
+                    <span class="tag">Race</span>
+                    <span class="tag">Civil Rights</span>
+                </div>
+                <div class="q-item"><span class="q-num">1.</span> How did she spend her final years in Battle Creek, Michigan?</div>
+                <div class="q-item"><span class="q-num">2.</span> What was her involvement with the Battle Creek Sanitarium community?</div>
+                <div class="q-item"><span class="q-num">3.</span> How was she remembered immediately after her death?</div>
+                <div class="q-item"><span class="q-num">4.</span> Why was her legacy largely forgotten for decades?</div>
+                <div class="q-item"><span class="q-num">5.</span> How did 20th-century movements rediscover and reshape her story?</div>
+            </div>
+        </div>
+    </div>
+
+    <h2>The Narrative Arc</h2>
+    <p>
+        Notice the structure. The chapters aren't random &mdash; they form a chronological narrative
+        that moves through Sojourner Truth's life: slavery, freedom, religion, abolition, women's rights,
+        war, reconstruction, and legacy. Each chapter builds on the previous one. The questions within
+        each chapter push deeper into that specific period.
+    </p>
+    <p>
+        This is what makes a Quarex book different from an encyclopedia entry. An encyclopedia gives you
+        facts in no particular order. A Quarex book gives you a <strong>structured path through a subject</strong>,
+        where the sequence itself is an argument about how to understand it.
+    </p>
+
+    <div class="info-card">
+        <h3>Who Creates the Books?</h3>
+        <p>Every Quarex book is created by a human curator working with AI. The curator decides the chapters,
+        their order, and the questions. The AI assists with research and content generation, but the
+        structural decisions &mdash; what matters, what comes first, what questions to ask &mdash; are human.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Where Do Books Live?</h3>
+        <p>Books are placed on shelves within libraries. Sojourner Truth lives at:
+        <strong>Knowledge Libraries &rarr; Biographies &rarr; Political Biographies</strong>.
+        This placement is deliberate &mdash; she sits alongside Ruth Bader Ginsburg, Franklin D. Roosevelt,
+        and Donald Trump. The shelf itself becomes a frame for understanding.</p>
+    </div>
+
+    <a href="https://quarex.org/libraries/k/biographies/political-biographies/sojourner-truth" target="_blank"
+       style="display: inline-block; color: var(--accent); text-decoration: none; font-weight: 500; font-size: 15px; margin-top: 8px; transition: color 0.2s;">
+        Read this book on Quarex &rarr;
+    </a>
+
+    <div class="nav-links">
+        <a href="/question-driven-architecture.html">&larr; Question Architecture</a>
+        <a href="/libraries-shelves-and-books.html">Libraries, Shelves & Books &rarr;</a>
+        <a href="/what-is-a-syllabus.html">What is a Syllabus? &rarr;</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <a href="/">Knowable Online</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+            <a href="https://publicstudies.org" target="_blank">Public Studies</a>
+            <a href="https://election2026.net" target="_blank">Election 2026</a>
+        </div>
+        <p class="footer-note">
+            Knowable Online University &mdash; School of Knowledge Systems<br>
+            Quarex is the engine. The university is the frame. The goal is not more content &mdash; but better knowledge.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

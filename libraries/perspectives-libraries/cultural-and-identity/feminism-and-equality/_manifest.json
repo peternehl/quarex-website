@@ -1,17 +1,155 @@
 [
   {
-    "slug": "womens-rights-centuries-of-struggle",
-    "name": "Women's Rights: Centuries of Struggle",
+    "slug": "what-is-feminism",
+    "name": "What is Feminism?",
     "description": null,
-    "chapterCount": 14,
+    "chapterCount": 15,
     "tags": [
-      "women's rights",
       "feminism",
       "gender equality",
-      "suffrage",
-      "reproductive rights",
-      "workplace equality",
-      "feminist history"
+      "feminist theory",
+      "intersectionality",
+      "women's rights"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "women-in-american-politics",
+    "name": "Women in American Politics",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "women in politics",
+      "gender and power",
+      "political representation",
+      "American democracy",
+      "electoral inequality"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "women-and-the-workplace",
+    "name": "Women and the Workplace",
+    "description": null,
+    "chapterCount": 16,
+    "tags": [
+      "women and work",
+      "gender pay gap",
+      "workplace inequality",
+      "labor history",
+      "economic feminism"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "intersectionality-race-gender-and-power",
+    "name": "Intersectionality: Race, Gender, and Power",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "intersectionality",
+      "race and gender",
+      "feminist theory",
+      "structural inequality",
+      "inclusive feminism"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "women-and-violence",
+    "name": "Women and Violence",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "gender-based violence",
+      "domestic violence",
+      "sexual assault",
+      "structural violence",
+      "survivor justice"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "gender-media-and-representation",
+    "name": "Gender, Media, and Representation",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "media representation",
+      "gender in media",
+      "media bias",
+      "cultural production",
+      "media literacy"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "global-womens-rights",
+    "name": "Global Women's Rights",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "global women's rights",
+      "international feminism",
+      "gender equality",
+      "human rights",
+      "development"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "motherhood-family-and-gender-roles",
+    "name": "Motherhood, Family, and Gender Roles",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "motherhood",
+      "family structures",
+      "gender roles",
+      "caregiving labor",
+      "reproductive politics"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "womens-health-and-body-politics",
+    "name": "Women's Health and Body Politics",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "women's health",
+      "medical bias",
+      "bodily autonomy",
+      "healthcare inequality",
+      "reproductive medicine"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "women-in-science-and-technology",
+    "name": "Women in Science and Technology",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "women in STEM",
+      "science and gender",
+      "technology bias",
+      "knowledge production",
+      "scientific exclusion"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "queer-feminism-and-gender",
+    "name": "Queer Feminism and Gender",
+    "description": null,
+    "chapterCount": 15,
+    "tags": [
+      "society",
+      "identity",
+      "gender",
+      "lgbtq",
+      "civil-rights"
     ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
   }

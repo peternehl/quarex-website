@@ -1,6 +1,6 @@
 {
   "batch": 10,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "Virginia",
@@ -21,7 +21,7 @@
           "candidates": {
             "Republican": ["Jennifer Kiggans (R)", "William Matthews (R)"],
             "Democratic": ["Nila Devanath (D)", "Elaine Luria (D)", "Patrick Mosolf (D)", "James Osyf (D)", "Nicolaus Sleister (D)", "Matthew Strickler (D)", "John Stringfellow (D)", "Michael Williamson (D)"],
-            "Independent": ["Bishop Staten (I)"],
+            "Independent": ["DeVinche Albritton (I)", "Bishop Staten (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -146,7 +146,7 @@
           "district": "WA-03",
           "candidates": {
             "Republican": ["Antony Barran (R)", "John Braun (R)", "Lawrence Kellogg (R)"],
-            "Democratic": ["Marie Gluesenkamp Pérez (D)", "Brent Hennrich (D)", "Suzzanna V. Tanner (D)"],
+            "Democratic": ["Marie Gluesenkamp Perez (D)", "Brent Hennrich (D)", "Suzzanna V. Tanner (D)"],
             "Independent": ["Eric Vaughan (I)"],
             "Libertarian": [],
             "Green": []
@@ -155,7 +155,7 @@
         {
           "district": "WA-04",
           "candidates": {
-            "Republican": ["Amanda McKinney (R)", "Wesley Meier (R)", "Jerrod Sessler (R)"],
+            "Republican": ["Matt Boehnke (R)", "Amanda McKinney (R)", "Wesley Meier (R)", "Jerrod Sessler (R)"],
             "Democratic": ["John Duresky (D)"],
             "Independent": ["Devin Poore (I)"],
             "Libertarian": [],
@@ -166,8 +166,8 @@
           "district": "WA-05",
           "candidates": {
             "Republican": ["Michael Baumgartner (R)", "Anthony Jensen (R)"],
-            "Democratic": ["Carmela Conroy (D)", "Ann Marie Danimus (D)", "Bajun Mavalwalla (D)", "Anthony Whisenhunt (D)", "David Womack (D)"],
-            "Independent": ["Aaron Croft (I)"],
+            "Democratic": ["Carmela Conroy (D)", "Bajun Mavalwalla (D)", "Anthony Whisenhunt (D)", "David Womack (D)"],
+            "Independent": ["Aaron Croft (I)", "Ann Marie Danimus (I)", "Nate Powell (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -232,7 +232,7 @@
           "district": "WV-01",
           "candidates": {
             "Republican": ["Carol Miller (R)", "Abel Clendenen (R)", "Larry Jackson (R)", "David Sartin (R)"],
-            "Democratic": ["Britta Aguirre (D)"],
+            "Democratic": ["Britta Aguirre (D)", "Vince George (D)"],
             "Independent": ["Isaiah Rucker (I)"],
             "Libertarian": [],
             "Green": []
@@ -242,7 +242,7 @@
           "district": "WV-02",
           "candidates": {
             "Republican": ["Riley Moore (R)"],
-            "Democratic": ["Ahsan Parsi (D)", "Steven Wendelin (D)"],
+            "Democratic": ["Ace Parsi (D)", "Steven Wendelin (D)"],
             "Independent": ["Patrick Carney (I)", "Christopher Whitcomb (I)"],
             "Libertarian": [],
             "Green": []

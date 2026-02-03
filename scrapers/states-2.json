@@ -1,6 +1,6 @@
 {
   "batch": 2,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "Colorado",
@@ -61,7 +61,7 @@
           "candidates": {
             "Republican": ["Khaleb Dammen (R)"],
             "Democratic": ["Jason Crow (D)", "Travis Dishon (D)", "Dylan Shelby (D)"],
-            "Independent": ["Edwardo Quinonez (I)", "Samir Witta (I)"],
+            "Independent": ["Samir Witta (I)", "Edwardo Quinonez (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -199,7 +199,7 @@
           "candidates": {
             "Republican": ["Aaron Bean (R)", "Anthony Valerio (R)"],
             "Democratic": ["Michael Kirwan (D)", "Ricky Knoles (D)", "Brittney Robinson (D)"],
-            "Independent": ["Ronald Sherard (I)", "Todd Schaefer (I)"],
+            "Independent": ["Todd Schaefer (I)", "Ronald Sherard (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -218,7 +218,7 @@
           "district": "FL-06",
           "candidates": {
             "Republican": ["Randy Fine (R)", "Ernest Audino (R)", "Will Furry (R)", "Charles Gambaro (R)", "Alexandra van Cleef (R)"],
-            "Democratic": ["Ronnie Murchinson-Rivera (D)", "James Stockton (D)", "Eric Yonce (D)"],
+            "Democratic": ["Robert Cooper II (D)", "Ronnie Murchinson-Rivera (D)", "James Stockton (D)", "Eric Yonce (D)"],
             "Independent": ["Christopher Manuel Alcantara (I)", "Purvi Bangdiwala (I)", "Amr Metwally (I)"],
             "Libertarian": [],
             "Green": []
@@ -247,7 +247,7 @@
         {
           "district": "FL-09",
           "candidates": {
-            "Republican": ["Marcus Carter (R)", "Thomas Chalifoux (R)", "Jorge Malavet (R)", "Howard Steven Rance (R)", "Justin Story (R)"],
+            "Republican": ["Marcus Carter (R)", "Thomas Chalifoux (R)", "Jorge Malavet (R)", "Steve Rance (R)", "Justin Story (R)"],
             "Democratic": ["Darren Soto (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -277,7 +277,7 @@
         {
           "district": "FL-12",
           "candidates": {
-            "Republican": ["Gus M. Bilirakis (R)", "Shay Williams (R)"],
+            "Republican": ["Gus M. Bilirakis (R)"],
             "Democratic": ["Christopher Irizarry (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -287,8 +287,8 @@
         {
           "district": "FL-13",
           "candidates": {
-            "Republican": ["Anna Paulina Luna (R)", "Njällssen Amaro Lionheart (R)"],
-            "Democratic": ["Earle Ford (D)", "Karla Kemp (D)", "Susan Leff (D)", "Jeff Moore (D)", "Reggie Paros (D)", "Brandt Robinson (D)"],
+            "Republican": ["Anna Paulina Luna (R)", "Njallssen Amaro Lionheart (R)"],
+            "Democratic": ["Fatima Aguerjout (D)", "Earle Ford (D)", "Karla Kemp (D)", "Susan Leff (D)", "Jeff Moore (D)", "Reggie Paros (D)", "Brandt Robinson (D)"],
             "Independent": ["Tony D'Arrigo (I)"],
             "Libertarian": [],
             "Green": []
@@ -297,7 +297,7 @@
         {
           "district": "FL-14",
           "candidates": {
-            "Republican": ["John Peters (R)", "Robert Rochford (R)", "Gavriel E. Soriano (R)"],
+            "Republican": ["John Peters (R)", "Robert Rochford (R)", "Gavriel E. Soriano (R)", "Dan Weldon (R)", "Shay Williams (R)"],
             "Democratic": ["Kathy Castor (D)", "Juan Arauz (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -317,7 +317,7 @@
         {
           "district": "FL-16",
           "candidates": {
-            "Republican": ["Vern Buchanan (R)"],
+            "Republican": [],
             "Democratic": ["Jonathan Harris (D)", "Glenn Pearson (D)", "Jan Schneider (D)"],
             "Independent": ["Mark Davis (I)"],
             "Libertarian": [],
@@ -359,7 +359,7 @@
           "candidates": {
             "Republican": ["Sendra Dorce (R)", "Rod Joseph (R)"],
             "Democratic": ["Sheila Cherfilus-McCormick (D)", "Mark Douglas (D)", "Dale Holness (D)", "Elijah Manley (D)"],
-            "Independent": [],
+            "Independent": ["Kevin McClellan (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -455,7 +455,7 @@
           "candidates": {
             "Republican": ["Matt Day (R)", "Patrick Farrell (R)", "James Kingston (R)", "Eugene Monte (R)", "Brian Montgomery (R)", "Krista Penn (R)", "Kandiss Taylor (R)", "Eugene Yu (R)"],
             "Democratic": ["Defonsio Daniels (D)", "Amanda Hollowell (D)", "Michael McCord (D)", "Joseph Palimeno (D)", "Sharon Stokes-Williamson (D)", "Randy Zurcher (D)"],
-            "Independent": [],
+            "Independent": ["Dylan Castillo (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -465,7 +465,7 @@
           "candidates": {
             "Republican": ["Chuck Hand (R)"],
             "Democratic": ["Sanford Bishop Jr. (D)", "Danny Glover (D)"],
-            "Independent": [],
+            "Independent": ["Brandon Daley (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -473,8 +473,8 @@
         {
           "district": "GA-03",
           "candidates": {
-            "Republican": ["Uloma Ekpete Kama (R)"],
-            "Democratic": ["Adrienne Buhacoff (D)"],
+            "Republican": ["Brian Jack (R)", "Uloma Ekpete Kama (R)"],
+            "Democratic": ["Adrienne Buhacoff (D)", "Maura Keller (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -563,7 +563,7 @@
         {
           "district": "GA-12",
           "candidates": {
-            "Republican": ["Tori Branum (R)"],
+            "Republican": ["Rick Allen (R)", "Tori Branum (R)"],
             "Democratic": ["Robert Dixon (D)", "Tracell Peace-Nichols (D)", "Ceretta Smith (D)", "Chris Stephens (D)", "Brianna Woodson (D)"],
             "Independent": [],
             "Libertarian": [],

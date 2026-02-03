@@ -1,0 +1,21 @@
+{
+  "book": "ME-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "James Clark (R)",
+        "Paul LePage (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Matthew Dunlap (D)",
+        "Paige Loud (D)",
+        "Jordan Wood (D)",
+        "Jared Golden (D)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "book": "MS-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Ezell (R)",
+        "John Mills (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Paul Blackman (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Charles Claburn (AIC)"
+      ]
+    }
+  ]
+}

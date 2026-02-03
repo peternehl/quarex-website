@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How Libraries, Shelves, and Books Relate | Knowable Online University</title>
+    <meta name="description" content="Quarex organizes knowledge into 7 library types, each containing shelves and books. See the full hierarchy from library to individual question with real examples.">
+    <meta name="keywords" content="Quarex hierarchy, knowledge organization, libraries, shelves, books, information architecture, structured knowledge">
+    <link rel="canonical" href="https://knowableonline.org/libraries-shelves-and-books.html">
+
+    <meta property="og:title" content="How Libraries, Shelves, and Books Relate">
+    <meta property="og:description" content="Quarex organizes knowledge into 7 library types, each containing shelves and books. See the full hierarchy with real examples.">
+    <meta property="og:url" content="https://knowableonline.org/libraries-shelves-and-books.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Knowable Online University">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How Libraries, Shelves, and Books Relate">
+    <meta name="twitter:description" content="Quarex organizes knowledge into 7 library types, each containing shelves and books.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How Libraries, Shelves, and Books Relate",
+        "description": "Quarex organizes knowledge into 7 library types, each containing shelves and books.",
+        "url": "https://knowableonline.org/libraries-shelves-and-books.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Knowable Online University",
+            "url": "https://knowableonline.org"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #0A0A0A;
+            --bg-card: #111111;
+            --bg-elevated: #1A1A1A;
+            --text-primary: #F7F7F7;
+            --text-secondary: #B7BCC2;
+            --text-muted: #6B7280;
+            --accent: #10B981;
+            --accent-dim: rgba(16, 185, 129, 0.15);
+            --accent-hover: #34D399;
+            --border: #2A2A2A;
+            --radius: 8px;
+            --radius-lg: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        header { position: sticky; top: 0; z-index: 100; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); padding: 0 24px; }
+        .header-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; height: 64px; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+        .logo span { color: var(--accent); }
+        nav { display: flex; gap: 28px; align-items: center; }
+        nav a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        nav a:hover { color: var(--accent); }
+        .nav-toggle { display: none; background: none; border: none; color: var(--text-primary); font-size: 24px; cursor: pointer; }
+
+        .article { max-width: 740px; margin: 0 auto; padding: 80px 24px; }
+        .article-label { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+        .article h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 4.5vw, 48px); font-weight: 700; line-height: 1.15; margin-bottom: 20px; }
+        .article .lead { font-size: 18px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 48px; font-weight: 300; }
+        .article h2 { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 600; margin-top: 48px; margin-bottom: 16px; }
+        .article h3 { font-size: 18px; font-weight: 600; margin-top: 32px; margin-bottom: 12px; }
+        .article p { font-size: 16px; color: var(--text-secondary); margin-bottom: 20px; line-height: 1.7; }
+        .article p strong { color: var(--text-primary); font-weight: 600; }
+
+        /* Hierarchy visualization */
+        .hierarchy {
+            margin: 32px 0;
+        }
+
+        .h-level {
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 2px;
+        }
+
+        .h-indent {
+            width: 32px;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .h-indent::after {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: var(--border);
+        }
+
+        .h-node {
+            flex: 1;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 14px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .h-node.active {
+            border-color: var(--accent);
+        }
+
+        .h-node-name {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .h-node-type {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            padding: 2px 10px;
+            background: var(--bg-elevated);
+            border-radius: 8px;
+        }
+
+        .h-node.active .h-node-type {
+            color: var(--accent);
+            background: var(--accent-dim);
+        }
+
+        /* Library type cards */
+        .lib-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin: 24px 0;
+        }
+
+        .lib-type {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            display: grid;
+            grid-template-columns: 140px 1fr auto;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .lib-type-name {
+            font-weight: 600;
+            font-size: 15px;
+            color: var(--text-primary);
+        }
+
+        .lib-type-desc {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .lib-type-code {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            background: var(--accent-dim);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-family: monospace;
+        }
+
+        /* Shelves list */
+        .shelf-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .shelf-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            margin-bottom: 8px;
+        }
+
+        .shelf-icon {
+            color: var(--accent);
+            font-size: 14px;
+        }
+
+        .shelf-name {
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .shelf-count {
+            margin-left: auto;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Path URL */
+        .path-demo {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            margin: 24px 0;
+            font-family: monospace;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+
+        .path-demo .label {
+            font-family: 'Inter', sans-serif;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .path-segment { color: var(--text-muted); }
+        .path-segment.lit { color: var(--text-secondary); }
+        .path-segment.active { color: var(--accent); font-weight: 600; }
+
+        .info-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px; margin: 28px 0; }
+        .info-card h3 { font-size: 16px; font-weight: 600; color: var(--accent); margin-bottom: 12px; margin-top: 0; }
+        .info-card p { font-size: 15px; margin-bottom: 0; }
+
+        .nav-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .nav-links a { display: inline-block; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 20px; color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: border-color 0.2s, color 0.2s; }
+        .nav-links a:hover { border-color: var(--accent); color: var(--accent); }
+
+        footer { border-top: 1px solid var(--border); padding: 40px 24px; text-align: center; }
+        .footer-inner { max-width: 1100px; margin: 0 auto; }
+        .footer-links { display: flex; justify-content: center; gap: 32px; margin-bottom: 20px; flex-wrap: wrap; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-note { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 768px) {
+            .nav-toggle { display: block; }
+            nav { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--bg-primary); border-bottom: 1px solid var(--border); flex-direction: column; padding: 20px 24px; gap: 16px; }
+            nav.open { display: flex; }
+            .article { padding: 60px 24px; }
+            .lib-type { grid-template-columns: 1fr; gap: 8px; }
+            .lib-type-code { justify-self: start; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">Knowable <span>Online</span></a>
+        <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <a href="/">University</a>
+            <a href="/what-is-quarex.html">What is Quarex?</a>
+            <a href="/question-driven-architecture.html">Architecture</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+        </nav>
+    </div>
+</header>
+
+<div class="article">
+    <span class="article-label">School of Knowledge Systems</span>
+    <h1>How Libraries, Shelves, and Books Relate</h1>
+    <p class="lead">
+        Quarex uses a three-level hierarchy to organize all content: Library &rarr; Shelf &rarr; Book.
+        This structure means every book has a precise location, and that location is part of its meaning.
+        Where a book lives tells you what kind of knowledge it contains.
+    </p>
+
+    <h2>The Hierarchy</h2>
+    <p>
+        Here is the actual path to the Sojourner Truth biography in Quarex, from the broadest category
+        down to the individual book:
+    </p>
+
+    <div class="hierarchy">
+        <div class="h-level">
+            <div class="h-node active">
+                <span class="h-node-name">Knowledge Libraries</span>
+                <span class="h-node-type">Library Type</span>
+            </div>
+        </div>
+        <div class="h-level">
+            <div class="h-indent"></div>
+            <div class="h-node active">
+                <span class="h-node-name">Biographies</span>
+                <span class="h-node-type">Library</span>
+            </div>
+        </div>
+        <div class="h-level">
+            <div class="h-indent"></div>
+            <div class="h-indent"></div>
+            <div class="h-node active">
+                <span class="h-node-name">Political Biographies</span>
+                <span class="h-node-type">Shelf</span>
+            </div>
+        </div>
+        <div class="h-level">
+            <div class="h-indent"></div>
+            <div class="h-indent"></div>
+            <div class="h-indent"></div>
+            <div class="h-node" style="border-color: var(--accent); background: var(--accent-dim);">
+                <span class="h-node-name" style="color: var(--accent);">Sojourner Truth</span>
+                <span class="h-node-type" style="color: var(--accent); background: rgba(16, 185, 129, 0.25);">Book</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="path-demo">
+        <span class="label">URL Path</span>
+        <span class="path-segment">quarex.org/libraries/</span><span class="path-segment active">k</span><span class="path-segment">/</span><span class="path-segment lit">biographies</span><span class="path-segment">/</span><span class="path-segment lit">political-biographies</span><span class="path-segment">/</span><span class="path-segment active">sojourner-truth</span>
+    </div>
+
+    <p>
+        The <strong>k</strong> in the URL stands for Knowledge Libraries. Each library type has a short code:
+    </p>
+
+    <h2>Seven Library Types</h2>
+    <p>
+        Every book in Quarex belongs to exactly one of these seven library types. The library type
+        determines the fundamental character of the knowledge it contains.
+    </p>
+
+    <div class="lib-grid">
+        <div class="lib-type">
+            <span class="lib-type-name">Knowledge</span>
+            <span class="lib-type-desc">Sciences, arts, philosophy, biographies, AI, personal development. Objective knowledge across disciplines.</span>
+            <span class="lib-type-code">/k/</span>
+        </div>
+        <div class="lib-type">
+            <span class="lib-type-name">Perspectives</span>
+            <span class="lib-type-desc">How groups see the world &mdash; ideological, cultural, historical, geopolitical viewpoints. Multiple legitimate views.</span>
+            <span class="lib-type-code">/pe/</span>
+        </div>
+        <div class="lib-type">
+            <span class="lib-type-name">Geography</span>
+            <span class="lib-type-desc">Every country and territory on Earth, organized by continent. What a place is, not what you think about it.</span>
+            <span class="lib-type-code">/g/</span>
+        </div>
+        <div class="lib-type">
+            <span class="lib-type-name">Infrastructure</span>
+            <span class="lib-type-desc">Energy, transportation, communications, social systems. The physical and institutional structures that sustain civilization.</span>
+            <span class="lib-type-code">/i/</span>
+        </div>
+        <div class="lib-type">
+            <span class="lib-type-name">Politician</span>
+            <span class="lib-type-desc">Every US congressperson, senator, and governor. Structured for civic research and accountability.</span>
+            <span class="lib-type-code">/po/</span>
+        </div>
+        <div class="lib-type">
+            <span class="lib-type-name">Practical</span>
+            <span class="lib-type-desc">Real-world skills: cooking, home repair, personal finance, digital safety. Knowledge you use daily.</span>
+            <span class="lib-type-code">/pr/</span>
+        </div>
+        <div class="lib-type">
+            <span class="lib-type-name">Questions</span>
+            <span class="lib-type-desc">Meta-level questions about civic engagement and the system itself. The library that reflects on the library.</span>
+            <span class="lib-type-code">/q/</span>
+        </div>
+    </div>
+
+    <h2>Inside a Library: Knowledge Libraries</h2>
+    <p>
+        Each library type contains multiple libraries, and each library contains shelves. Here is
+        the actual structure of the Knowledge Libraries:
+    </p>
+
+    <ul class="shelf-list">
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9671;</span>
+            <span class="shelf-name">AI Fundamentals</span>
+            <span class="shelf-count">3 shelves</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9671;</span>
+            <span class="shelf-name">Biographies</span>
+            <span class="shelf-count">1 shelf &middot; 4 books</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9671;</span>
+            <span class="shelf-name">Personal And Life</span>
+            <span class="shelf-count">3 shelves</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9671;</span>
+            <span class="shelf-name">Philosophy</span>
+            <span class="shelf-count">1 shelf</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9671;</span>
+            <span class="shelf-name">The Arts</span>
+            <span class="shelf-count">3 shelves</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9671;</span>
+            <span class="shelf-name">The Sciences</span>
+            <span class="shelf-count">4 shelves</span>
+        </li>
+    </ul>
+
+    <h2>Inside a Shelf: Political Biographies</h2>
+    <p>
+        The Political Biographies shelf within the Biographies library currently contains these four books:
+    </p>
+
+    <ul class="shelf-list">
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9670;</span>
+            <span class="shelf-name">Donald Trump: A Biography</span>
+            <span class="shelf-count">12 chapters</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9670;</span>
+            <span class="shelf-name">Franklin D. Roosevelt: A Biography</span>
+            <span class="shelf-count">14 chapters</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9670;</span>
+            <span class="shelf-name">Ruth Bader Ginsburg: A Biography</span>
+            <span class="shelf-count">15 chapters</span>
+        </li>
+        <li class="shelf-item">
+            <span class="shelf-icon">&#9670;</span>
+            <span class="shelf-name">Sojourner Truth</span>
+            <span class="shelf-count">8 chapters</span>
+        </li>
+    </ul>
+
+    <p>
+        The shelf itself becomes meaningful. These four people share a shelf not by accident but by design &mdash;
+        they are all figures whose lives intersect with American political power. The proximity is the argument.
+    </p>
+
+    <h2>Why Placement Matters</h2>
+
+    <div class="info-card">
+        <h3>Location Is Context</h3>
+        <p>A book about racism placed in <strong>Knowledge Libraries &rarr; History and Anthropology</strong>
+        is framed as historical scholarship. The same topic placed in <strong>Perspectives Libraries &rarr;
+        Historical Narratives &rarr; Racism</strong> is framed as one perspective among many. Where a book
+        lives shapes how it is understood.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Geography Is Not Opinion</h3>
+        <p>The Geography Libraries contain a book for every country on Earth. These books describe what a
+        country is &mdash; its geography, demographics, economy, and governance. They do not argue what you
+        should think about it. That distinction is structural: geography goes in Geography Libraries,
+        opinions go in Perspectives Libraries.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>The Hierarchy Is the Curriculum</h3>
+        <p>When a learner navigates from Knowledge Libraries &rarr; Biographies &rarr; Political Biographies
+        &rarr; Sojourner Truth, they have already learned something before opening a single chapter: that
+        this person is categorized as a political figure, that she sits among other political biographies,
+        and that this is knowledge (not perspective or opinion). The hierarchy teaches.</p>
+    </div>
+
+    <a href="https://quarex.org/libraries/" target="_blank"
+       style="display: inline-block; color: var(--accent); text-decoration: none; font-weight: 500; font-size: 15px; margin-top: 8px; transition: color 0.2s;">
+        Browse all libraries on Quarex &rarr;
+    </a>
+
+    <div class="nav-links">
+        <a href="/what-is-a-quarex-book.html">&larr; What is a Quarex Book?</a>
+        <a href="/what-is-a-syllabus.html">What is a Syllabus? &rarr;</a>
+        <a href="/nonpartisan-design.html">Nonpartisan Design &rarr;</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <a href="/">Knowable Online</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+            <a href="https://publicstudies.org" target="_blank">Public Studies</a>
+            <a href="https://election2026.net" target="_blank">Election 2026</a>
+        </div>
+        <p class="footer-note">
+            Knowable Online University &mdash; School of Knowledge Systems<br>
+            Quarex is the engine. The university is the frame. The goal is not more content &mdash; but better knowledge.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

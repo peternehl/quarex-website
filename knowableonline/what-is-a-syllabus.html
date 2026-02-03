@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is a Syllabus? | Knowable Online University</title>
+    <meta name="description" content="A Quarex syllabus is a curated sequence of books that forms a structured argument about how to understand a field. See the Women's Studies syllabus: 15 courses, 215 questions.">
+    <meta name="keywords" content="Quarex syllabus, Women's Studies, structured curriculum, online education, free courses, knowledge architecture">
+    <link rel="canonical" href="https://knowableonline.org/what-is-a-syllabus.html">
+
+    <meta property="og:title" content="What is a Syllabus?">
+    <meta property="og:description" content="A Quarex syllabus is a curated sequence of books forming a structured argument about a field. See the Women's Studies example.">
+    <meta property="og:url" content="https://knowableonline.org/what-is-a-syllabus.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Knowable Online University">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What is a Syllabus?">
+    <meta name="twitter:description" content="A Quarex syllabus is a curated sequence of books forming a structured argument about a field.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "What is a Syllabus?",
+        "description": "A Quarex syllabus is a curated sequence of books that forms a structured argument about how to understand a field.",
+        "url": "https://knowableonline.org/what-is-a-syllabus.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Knowable Online University",
+            "url": "https://knowableonline.org"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #0A0A0A;
+            --bg-card: #111111;
+            --bg-elevated: #1A1A1A;
+            --text-primary: #F7F7F7;
+            --text-secondary: #B7BCC2;
+            --text-muted: #6B7280;
+            --accent: #10B981;
+            --accent-dim: rgba(16, 185, 129, 0.15);
+            --accent-hover: #34D399;
+            --amber: #F59E0B;
+            --amber-dim: rgba(245, 158, 11, 0.15);
+            --border: #2A2A2A;
+            --radius: 8px;
+            --radius-lg: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+        header { position: sticky; top: 0; z-index: 100; background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); padding: 0 24px; }
+        .header-inner { max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; height: 64px; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+        .logo span { color: var(--accent); }
+        nav { display: flex; gap: 28px; align-items: center; }
+        nav a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        nav a:hover { color: var(--accent); }
+        .nav-toggle { display: none; background: none; border: none; color: var(--text-primary); font-size: 24px; cursor: pointer; }
+
+        .article { max-width: 740px; margin: 0 auto; padding: 80px 24px; }
+        .article-label { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+        .article h1 { font-family: 'Playfair Display', serif; font-size: clamp(32px, 4.5vw, 48px); font-weight: 700; line-height: 1.15; margin-bottom: 20px; }
+        .article .lead { font-size: 18px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 48px; font-weight: 300; }
+        .article h2 { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 600; margin-top: 48px; margin-bottom: 16px; }
+        .article p { font-size: 16px; color: var(--text-secondary); margin-bottom: 20px; line-height: 1.7; }
+        .article p strong { color: var(--text-primary); font-weight: 600; }
+
+        /* University hierarchy */
+        .uni-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 32px 0;
+        }
+
+        .uni-step {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 12px 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .uni-step.active {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .uni-arrow { color: var(--text-muted); font-size: 18px; }
+
+        /* Syllabus card */
+        .syllabus-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            margin: 32px 0;
+        }
+
+        .syllabus-header {
+            background: var(--bg-elevated);
+            padding: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .syllabus-school {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--amber);
+            margin-bottom: 4px;
+        }
+
+        .syllabus-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .syllabus-meta {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
+        .course-list {
+            list-style: none;
+            counter-reset: course;
+        }
+
+        .course-item {
+            counter-increment: course;
+            padding: 14px 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: baseline;
+            gap: 14px;
+            font-size: 15px;
+            transition: background 0.15s;
+        }
+
+        .course-item:last-child { border-bottom: none; }
+        .course-item:hover { background: var(--bg-elevated); }
+
+        .course-num {
+            color: var(--amber);
+            font-weight: 600;
+            font-size: 13px;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+
+        .course-num::before {
+            content: counter(course);
+        }
+
+        .course-name {
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .course-chapters {
+            margin-left: auto;
+            font-size: 13px;
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+
+        /* Zoom illustration */
+        .zoom-example {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin: 28px 0;
+        }
+
+        .zoom-row {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(42, 42, 42, 0.5);
+        }
+
+        .zoom-row:last-child { border-bottom: none; }
+
+        .zoom-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            min-width: 80px;
+            flex-shrink: 0;
+        }
+
+        .zoom-value {
+            font-size: 15px;
+            color: var(--text-secondary);
+        }
+
+        .zoom-value.highlight {
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        .info-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 28px; margin: 28px 0; }
+        .info-card h3 { font-size: 16px; font-weight: 600; color: var(--accent); margin-bottom: 12px; }
+        .info-card p { font-size: 15px; margin-bottom: 0; }
+
+        .nav-links { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border); }
+        .nav-links a { display: inline-block; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 20px; color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: border-color 0.2s, color 0.2s; }
+        .nav-links a:hover { border-color: var(--accent); color: var(--accent); }
+
+        footer { border-top: 1px solid var(--border); padding: 40px 24px; text-align: center; }
+        .footer-inner { max-width: 1100px; margin: 0 auto; }
+        .footer-links { display: flex; justify-content: center; gap: 32px; margin-bottom: 20px; flex-wrap: wrap; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-note { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 768px) {
+            .nav-toggle { display: block; }
+            nav { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--bg-primary); border-bottom: 1px solid var(--border); flex-direction: column; padding: 20px 24px; gap: 16px; }
+            nav.open { display: flex; }
+            .article { padding: 60px 24px; }
+            .uni-flow { flex-direction: column; }
+            .uni-arrow { transform: rotate(90deg); }
+            .zoom-row { flex-direction: column; gap: 2px; }
+            .zoom-label { min-width: auto; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">Knowable <span>Online</span></a>
+        <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <a href="/">University</a>
+            <a href="/what-is-quarex.html">What is Quarex?</a>
+            <a href="/question-driven-architecture.html">Architecture</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+        </nav>
+    </div>
+</header>
+
+<div class="article">
+    <span class="article-label">School of Knowledge Systems</span>
+    <h1>What is a Syllabus?</h1>
+    <p class="lead">
+        A syllabus is a curated sequence of Quarex books that forms a structured argument about how to
+        understand a field. The order matters. Each course builds on the previous one. A syllabus is
+        not a collection &mdash; it is a curriculum.
+    </p>
+
+    <h2>Where Syllabi Fit</h2>
+    <p>
+        In the Knowable Online University, a syllabus sits within a larger organizational hierarchy.
+        It connects the university structure to the Quarex knowledge engine:
+    </p>
+
+    <div class="uni-flow">
+        <div class="uni-step">University</div>
+        <span class="uni-arrow">&rarr;</span>
+        <div class="uni-step">School</div>
+        <span class="uni-arrow">&rarr;</span>
+        <div class="uni-step">Program</div>
+        <span class="uni-arrow">&rarr;</span>
+        <div class="uni-step active">Syllabus</div>
+        <span class="uni-arrow">&rarr;</span>
+        <div class="uni-step">Course</div>
+        <span class="uni-arrow">&rarr;</span>
+        <div class="uni-step">Book</div>
+    </div>
+
+    <p>
+        A <strong>School</strong> defines a domain (e.g., School of Public Studies). A <strong>Program</strong>
+        defines a discipline within that school (e.g., Women's Studies). A <strong>Syllabus</strong> is the
+        specific curriculum &mdash; the ordered list of courses a learner follows. Each <strong>Course</strong>
+        corresponds to one Quarex book.
+    </p>
+
+    <h2>A Real Syllabus: Women's Studies</h2>
+    <p>
+        The Women's Studies syllabus is the first curriculum published through the School of Public Studies.
+        It contains 15 courses (each a Quarex book), with a total of 215 chapters. The sequence starts
+        with foundational concepts and progresses through history, law, health, media, work, and global rights.
+    </p>
+
+    <div class="syllabus-card">
+        <div class="syllabus-header">
+            <div class="syllabus-school">School of Public Studies</div>
+            <div class="syllabus-title">Women's Studies Syllabus</div>
+            <div class="syllabus-meta">15 courses &middot; 215 chapters &middot; 1,075 questions</div>
+        </div>
+        <ol class="course-list">
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">What is Feminism?</span> <span class="course-chapters">Foundation</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Women's Rights: Centuries of Struggle</span> <span class="course-chapters">History</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Women in American Politics</span> <span class="course-chapters">Politics</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Eleanor Roosevelt</span> <span class="course-chapters">Biography</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Ruth Bader Ginsburg: A Biography</span> <span class="course-chapters">Biography</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Intersectionality: Race, Gender, and Power</span> <span class="course-chapters">Theory</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Queer Feminism and Gender</span> <span class="course-chapters">Identity</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Women and the Workplace</span> <span class="course-chapters">Economics</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Women in Science and Technology</span> <span class="course-chapters">STEM</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Motherhood, Family, and Gender Roles</span> <span class="course-chapters">Society</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Women and Violence</span> <span class="course-chapters">Justice</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Women's Health and Body Politics</span> <span class="course-chapters">Health</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">How Abortion Became a Political Wedge</span> <span class="course-chapters">Politics</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Gender, Media, and Representation</span> <span class="course-chapters">Media</span></li>
+            <li class="course-item"><span class="course-num"></span> <span class="course-name">Global Women's Rights</span> <span class="course-chapters">Global</span></li>
+        </ol>
+    </div>
+
+    <h3>The Sequence Is the Argument</h3>
+    <p>
+        The order is deliberate. The syllabus opens with <strong>"What is Feminism?"</strong> because you need
+        a definition before you can study history. It moves to centuries of struggle, then into American politics
+        grounded by two biographies &mdash; Eleanor Roosevelt and Ruth Bader Ginsburg. Intersectionality arrives
+        at course 6, reframing everything that came before. Workplace, science, family, violence, and health
+        follow as concrete domains. The curriculum closes with media representation and global rights &mdash;
+        pulling the lens outward to the widest view.
+    </p>
+    <p>
+        This isn't a random reading list. It's a structured argument about how to understand women's studies.
+        A different curator might sequence the courses differently &mdash; and that different sequence would
+        constitute a different argument.
+    </p>
+
+    <h2>The Zoom Path</h2>
+    <p>
+        Here is the complete zoom path from university to individual question, using a real example
+        from the Women's Studies syllabus:
+    </p>
+
+    <div class="zoom-example">
+        <div class="zoom-row">
+            <span class="zoom-label">University</span>
+            <span class="zoom-value">Knowable Online University</span>
+        </div>
+        <div class="zoom-row">
+            <span class="zoom-label">School</span>
+            <span class="zoom-value">School of Public Studies</span>
+        </div>
+        <div class="zoom-row">
+            <span class="zoom-label">Program</span>
+            <span class="zoom-value">Women's Studies</span>
+        </div>
+        <div class="zoom-row">
+            <span class="zoom-label">Syllabus</span>
+            <span class="zoom-value">Women's Studies Syllabus (15 courses)</span>
+        </div>
+        <div class="zoom-row">
+            <span class="zoom-label">Course</span>
+            <span class="zoom-value">Course 6: Intersectionality: Race, Gender, and Power</span>
+        </div>
+        <div class="zoom-row">
+            <span class="zoom-label">Chapter</span>
+            <span class="zoom-value">Chapter 3: Intersectionality in Practice</span>
+        </div>
+        <div class="zoom-row">
+            <span class="zoom-label">Question</span>
+            <span class="zoom-value highlight">How does intersectionality change the way we measure inequality?</span>
+        </div>
+    </div>
+
+    <p>
+        Seven levels of zoom. From the broadest institutional frame to a single question. At no point
+        do you lose orientation. You always know where you are.
+    </p>
+
+    <h2>Syllabi vs. Libraries</h2>
+
+    <div class="info-card">
+        <h3>Libraries Are for Browsing</h3>
+        <p>Quarex libraries organize books by type and subject. You browse them like a library &mdash;
+        by shelf, by tag, by topic. There is no implied order. You pick what interests you.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Syllabi Are for Learning</h3>
+        <p>A syllabus takes books from across the Quarex system and arranges them in a specific order
+        for a specific purpose. The same book can appear in multiple syllabi. Sojourner Truth is a
+        biography in the Knowledge Libraries, but it's also Course 13 in the Women's Studies syllabus.
+        Context changes meaning.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Upcoming Syllabi</h3>
+        <p>The next syllabus in development is <strong>Black Studies</strong>: 18 courses tracing
+        African civilizations through slavery, reconstruction, civil rights, and the contemporary era.
+        Additional syllabi are planned as the university grows.</p>
+    </div>
+
+    <a href="https://publicstudies.org/WomensStudiesSyllabus.html" target="_blank"
+       style="display: inline-block; color: var(--amber); text-decoration: none; font-weight: 500; font-size: 15px; margin-top: 8px; transition: color 0.2s;">
+        View the complete Women's Studies syllabus on Public Studies &rarr;
+    </a>
+
+    <div class="nav-links">
+        <a href="/libraries-shelves-and-books.html">&larr; Libraries, Shelves & Books</a>
+        <a href="/nonpartisan-design.html">Nonpartisan Design &rarr;</a>
+        <a href="/what-is-quarex.html">What is Quarex? &rarr;</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <a href="/">Knowable Online</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+            <a href="https://publicstudies.org" target="_blank">Public Studies</a>
+            <a href="https://election2026.net" target="_blank">Election 2026</a>
+        </div>
+        <p class="footer-note">
+            Knowable Online University &mdash; School of Knowledge Systems<br>
+            Quarex is the engine. The university is the frame. The goal is not more content &mdash; but better knowledge.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

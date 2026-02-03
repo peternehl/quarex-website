@@ -2,7 +2,7 @@
   "library": "us-house-2026-complete",
   "library_type": "candidates",
   "description": "All 435 House districts with declared 2026 candidates. Auto-generated from Ballotpedia.",
-  "last_updated": "2026-01-23",
+  "last_updated": "2026-01-30",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -790,7 +790,8 @@
                 "Melissa Hernandez (D)",
                 "Matt Ortega (D)",
                 "Abrar Qadir (D)",
-                "Eric Swalwell (D)"
+                "Eric Swalwell (D)",
+                "Rakhi Israni (D)"
               ]
             }
           ]
@@ -1052,7 +1053,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "George Whitesides (D)"
+                "George Whitesides (D)",
+                "Roberto Ramos (D)"
               ]
             }
           ]
@@ -1313,10 +1315,10 @@
                 "Eric Peterson (D)",
                 "Lisa Ramirez (D)",
                 "Paula Swift (D)",
-                "Tiffanie Tate (D)",
                 "Esther Kim Varet (D)",
                 "Christina Gagnier (D)",
-                "Perry Meade (D)"
+                "Perry Meade (D)",
+                "Tiffanie Tate (D)"
               ]
             },
             {
@@ -5715,8 +5717,8 @@
                 "Patrick Halpin (D)",
                 "Jess Murphy (D)",
                 "Garrett Petersen (D)",
-                "Josh Taveras (D)",
-                "Edwin Osorio (D)"
+                "Edwin Osorio (D)",
+                "Josh Taveras (D)"
               ]
             }
           ]
@@ -7742,6 +7744,7 @@
             {
               "name": "Independent/Other",
               "topics": [
+                "DeVinche Albritton (I)",
                 "Bishop Staten (I)"
               ]
             }
@@ -7796,13 +7799,15 @@
               "name": "Republican",
               "topics": [
                 "John McGuire (R)",
-                "Bob Good (R)"
+                "Bob Good (R)",
+                "Melanie Lucero (R)"
               ]
             },
             {
               "name": "Democratic",
               "topics": [
                 "Suzanne Krzyzanowski (D)",
+                "Hugh Murray (D)",
                 "Tom Perriello (D)",
                 "Mike Pruitt (D)",
                 "Paul Riley (D)",
@@ -7814,6 +7819,7 @@
             {
               "name": "Independent/Other",
               "topics": [
+                "Cooke Harvey (I)",
                 "Chris Register (I)"
               ]
             }
@@ -7832,6 +7838,7 @@
               "name": "Democratic",
               "topics": [
                 "Pete Barlow (D)",
+                "Wendy Gooditis (D)",
                 "Beth Macy (D)",
                 "Ken Mitchell (D)"
               ]
@@ -7848,7 +7855,6 @@
                 "John Gray (R)",
                 "Darius Mayfield (R)",
                 "Douglas Ollivant (R)",
-                "Alex Thymmons (R)",
                 "Waverly Washington (R)"
               ]
             },
@@ -7856,7 +7862,8 @@
               "name": "Democratic",
               "topics": [
                 "Eugene Vindman (D)",
-                "Matthew Rainforth (D)"
+                "Matthew Rainforth (D)",
+                "Alex Thymmons (D)"
               ]
             }
           ]
@@ -7911,7 +7918,8 @@
             {
               "name": "Republican",
               "topics": [
-                "Julie Perry (R)"
+                "Julie Perry (R)",
+                "Sam Wong (R)"
               ]
             },
             {
@@ -8017,6 +8025,7 @@
             {
               "name": "Republican",
               "topics": [
+                "Matt Boehnke (R)",
                 "Amanda McKinney (R)",
                 "Wesley Meier (R)",
                 "Jerrod Sessler (R)"
@@ -8050,7 +8059,6 @@
               "name": "Democratic",
               "topics": [
                 "Carmela Conroy (D)",
-                "Ann Marie Danimus (D)",
                 "Bajun Mavalwalla (D)",
                 "Anthony Whisenhunt (D)",
                 "David Womack (D)"
@@ -8059,7 +8067,8 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "Aaron Croft (I)"
+                "Aaron Croft (I)",
+                "Ann Marie Danimus (I)"
               ]
             }
           ]
@@ -8299,7 +8308,7 @@
             {
               "name": "Republican",
               "topics": [
-                "No candidates declared"
+                "Purnima Nath (R)"
               ]
             },
             {

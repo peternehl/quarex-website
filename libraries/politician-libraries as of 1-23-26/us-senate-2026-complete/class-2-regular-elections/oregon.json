@@ -1,0 +1,20 @@
+{
+  "book": "Oregon",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Joe Johnson (R)",
+        "Russell McAlmond (R)",
+        "Timothy Skelton (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jeff Merkley (D)",
+        "Jacob Ryan (D)"
+      ]
+    }
+  ]
+}

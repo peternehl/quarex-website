@@ -1,0 +1,3273 @@
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-01.json
+index d36cde3..228efc9 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-01.json
+@@ -8,8 +8,8 @@
+         "James Dees (R)",
+         "Rhett Marques (R)",
+         "Joshua Mckee (R)",
+-        "Austin Sidwell (R)",
+-        "Barry Moore (R)"
++        "James Richardson (R)",
++        "Austin Sidwell (R)"
+       ]
+     },
+     {
+@@ -19,4 +19,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-02.json
+index 009a96d..04f6e48 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-02.json
+@@ -4,7 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Joshua Mckee (R)"
++        "Hampton Harris (R)"
+       ]
+     },
+     {
+@@ -14,4 +14,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-05.json
+index 7e9e14d..13fc6f1 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-05.json
+@@ -4,7 +4,8 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Dale Strong (R)"
++        "Dale Strong (R)",
++        "Joseph Terry (R)"
+       ]
+     },
+     {
+@@ -13,9 +14,8 @@
+         "Jeremy Devito (D)",
+         "Candice Duvieilh (D)",
+         "Greg Howard (D)",
+-        "Andrew Sneed (D)",
+-        "Amanda Pusczek (D)"
++        "Andrew Sneed (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-07.json
+index e836311..7c3fb2d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/alabama/al-07.json
+@@ -1,12 +1,6 @@
+ {
+   "book": "AL-07",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+@@ -14,4 +8,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/alaska/ak-al.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/alaska/ak-al.json
+index cfe87f1..201e274 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/alaska/ak-al.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/alaska/ak-al.json
+@@ -4,38 +4,15 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Nancy Dahlstrom (R)",
+-        "Matthew Salisbury (R)",
+-        "Tara Sweeney (R)",
+-        "Don Young (R)",
+-        "John B. Coghill (R)",
+-        "Shannon Evans (R)",
+-        "Mikel Melander (R)",
+-        "Julio Perez (R)",
+-        "Josh Revak (R)",
+-        "Jesse Sumner (R)",
+-        "Arianna Cocallas (R)"
++        "Nicholas Begich (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Christopher Constant (D)",
+-        "Mike Milligan (D)",
+-        "Adam Wool (D)"
+-      ]
+-    },
+-    {
+-      "name": "Independent/Other",
+-      "topics": [
+-        "Sherry Strizak (I)",
+-        "Tyler Cropley (I)",
+-        "Al Gross (I)",
+-        "William Hibler (I)",
+-        "Jeff Lowenfels (I)",
+-        "Breck Craig (I)",
+-        "Richard Morris (I)"
++        "Matthew Schultz (D)",
++        "John Brendan Williams (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-01.json
+index 4d535bc..ea3a684 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-01.json
+@@ -6,6 +6,7 @@
+       "topics": [
+         "Joseph Chaplik (R)",
+         "Jason Duey (R)",
++        "Jay Feely (R)",
+         "Derrick Gallego (R)",
+         "Kaitlin Purrington (R)",
+         "Paul Reevs (R)",
+@@ -17,16 +18,18 @@
+     {
+       "name": "Democratic",
+       "topics": [
++        "Andres Barraza (D)",
+         "Brian Del Vecchio (D)",
+         "Brandon Donnelly (D)",
+-        "Marlene Gal\u00e1n-Woods (D)",
++        "Marlene Galan-Woods (D)",
+         "Mark Robert Gordon (D)",
+         "Daniel Lucio (D)",
+         "Rick McCartney (D)",
+         "Angie Montoya (D)",
+         "David Redkey (D)",
+         "Amish Shah (D)",
+-        "Jonathan Treble (D)"
++        "Jonathan Treble (D)",
++        "Victor Weintraub (D)"
+       ]
+     },
+     {
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-03.json
+index af07976..26ee30d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-03.json
+@@ -1,12 +1,6 @@
+ {
+   "book": "AZ-03",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+@@ -15,4 +9,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-05.json
+index 5f620c0..c0fc8ec 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-05.json
+@@ -4,8 +4,8 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Thomas Feely (R)",
+         "Travis Grantham (R)",
++        "Mike Gross (R)",
+         "Daniel Keenan (R)",
+         "Mark Lamb (R)"
+       ]
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-06.json
+index b0b82e6..11e8cc6 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/arizona/az-06.json
+@@ -14,7 +14,8 @@
+         "Chris Donat (D)",
+         "JoAnna Mendoza (D)",
+         "Samantha Severson (D)",
+-        "Aiden Swallow (D)"
++        "Aiden Swallow (D)",
++        "Carter Weeks (D)"
+       ]
+     },
+     {
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-02.json
+index 4c66465..de8e548 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-02.json
+@@ -4,14 +4,16 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "French Hill (R)",
++        "Chase McDowell (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Zack Huffman (D)",
++        "Chris Jones (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-04.json
+index 656d3a4..8fda03b 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/arkansas/ar-04.json
+@@ -10,8 +10,9 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Steven O'Donnell (D)",
++        "James Russell (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-01.json
+index f0730bf..2a4df9b 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-01.json
+@@ -4,8 +4,8 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Angelita Valles (R)",
+-        "Doug LaMalfa (R)"
++        "Paul Saulsbury (R)",
++        "Angelita Valles (R)"
+       ]
+     },
+     {
+@@ -19,4 +19,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-02.json
+index 3ef41a1..162334a 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-02.json
+@@ -1,12 +1,6 @@
+ {
+   "book": "CA-02",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+@@ -14,6 +8,12 @@
+         "Kevin Eisele (D)",
+         "Rose Penelope Yee (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Colby Smart (NPP)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-03.json
+index 7bd9a07..e5458f0 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-03.json
+@@ -13,9 +13,8 @@
+         "Ami Bera (D)",
+         "Chris Bennett (D)",
+         "Lyndon Cervantes (D)",
+-        "Heidi Hall (D)",
+-        "Tyler Vandenberg (D)"
++        "Heidi Hall (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-11.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-11.json
+index c34abfa..4c71152 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-11.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-11.json
+@@ -17,9 +17,8 @@
+         "Darren Helton (D)",
+         "Daniel Wheeler (D)",
+         "Scott Wiener (D)",
+-        "Jingchao Xiong (D)",
+-        "Nancy Pelosi (D)"
++        "Jingchao Xiong (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-13.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-13.json
+index aeafd3c..89babed 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-13.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-13.json
+@@ -12,9 +12,14 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Adam Gray (D)",
+-        "Angelina Sigala (D)"
++        "Adam Gray (D)"
++      ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Alberto Escobedo (NPP)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-14.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-14.json
+index 52e7f1c..df61944 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-14.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-14.json
+@@ -12,9 +12,8 @@
+       "topics": [
+         "Melissa Hernandez (D)",
+         "Matt Ortega (D)",
+-        "Abrar Qadir (D)",
+-        "Eric Swalwell (D)"
++        "Abrar Qadir (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-15.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-15.json
+index ed64c1d..ad0a089 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-15.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-15.json
+@@ -1,12 +1,6 @@
+ {
+   "book": "CA-15",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+@@ -16,4 +10,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-16.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-16.json
+index cd4a07c..0915768 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-16.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-16.json
+@@ -2,16 +2,16 @@
+   "book": "CA-16",
+   "chapters": [
+     {
+-      "name": "Republican",
++      "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Sam Liccardo (D)"
+       ]
+     },
+     {
+-      "name": "Democratic",
++      "name": "Independent / Third Party",
+       "topics": [
+-        "Sam Liccardo (D)"
++        "Jotham Stein (NPP)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-18.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-18.json
+index bfbe43d..f8025eb 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-18.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-18.json
+@@ -12,6 +12,12 @@
+       "topics": [
+         "Zoe Lofgren (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Chris Demers (NPP)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-26.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-26.json
+index 65c7861..886322c 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-26.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-26.json
+@@ -5,6 +5,7 @@
+       "name": "Republican",
+       "topics": [
+         "Samuel Gallucci (R)",
++        "Crystal Golden (R)",
+         "Michael Koslow (R)",
+         "William Scott (R)",
+         "Jonathan Wagoner (R)"
+@@ -14,8 +15,9 @@
+       "name": "Democratic",
+       "topics": [
+         "Jacqui Irwin (D)",
+-        "Julia Brownley (D)"
++        "Kyle Langford (D)",
++        "Kyle Rohrbach (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-32.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-32.json
+index 53ba32c..e8c14ab 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-32.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-32.json
+@@ -18,9 +18,8 @@
+         "Marena Lin (D)",
+         "Mia Phillips (D)",
+         "Josh Sautter (D)",
+-        "Anna Wilding (D)",
+-        "Jake Rakov (D)"
++        "Anna Wilding (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-34.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-34.json
+index b0af918..d8b062a 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-34.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-34.json
+@@ -18,10 +18,11 @@
+       ]
+     },
+     {
+-      "name": "Independent/Other",
++      "name": "Independent / Third Party",
+       "topics": [
++        "Loren Colin (NPP)",
+         "Vivian Nguyen (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-35.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-35.json
+index 59c5159..96e9818 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-35.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-35.json
+@@ -11,8 +11,9 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Norma Torres (D)"
++        "Norma Torres (D)",
++        "W.H. Lane (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-37.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-37.json
+index d9cd6e0..92148dc 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-37.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-37.json
+@@ -1,12 +1,6 @@
+ {
+   "book": "CA-37",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+@@ -15,6 +9,12 @@
+         "Todd Lombardo (D)",
+         "Samantha Mota (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Steve Hill (NPP)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-38.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-38.json
+index d3287da..0db7207 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-38.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-38.json
+@@ -1,20 +1,14 @@
+ {
+   "book": "CA-38",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Linda S\u00e1nchez (D)",
++        "Linda Sanchez (D)",
+         "Thomas Adams-Falconer (D)",
+         "Monica Sanchez (D)",
+         "Hilda Solis (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-39.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-39.json
+index f1b24e5..4f4e2c9 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-39.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-39.json
+@@ -1,12 +1,6 @@
+ {
+   "book": "CA-39",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+@@ -14,4 +8,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-40.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-40.json
+index e8740e3..413fe4b 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-40.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-40.json
+@@ -17,16 +17,16 @@
+         "Lisa Ramirez (D)",
+         "Paula Swift (D)",
+         "Tiffanie Tate (D)",
+-        "Esther Kim Varet (D)",
+-        "Christina Gagnier (D)",
+-        "Perry Meade (D)"
++        "Esther Kim Varet (D)"
+       ]
+     },
+     {
+-      "name": "Independent/Other",
++      "name": "Independent / Third Party",
+       "topics": [
++        "Maricar Payad (AIP)",
++        "Christian Ahmed (NPP)",
+         "Nina Linh (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-44.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-44.json
+index f422b90..a03e563 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-44.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-44.json
+@@ -10,8 +10,9 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Nanette Barragán (D)",
++        "Darren Parker (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-45.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-45.json
+index 02da271..b6e794e 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-45.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-45.json
+@@ -7,7 +7,6 @@
+         "Mark Leonard (R)",
+         "Chi Charlie Nguyen (R)",
+         "Amy Phan West (R)",
+-        "Michelle Steel (R)",
+         "Chuong Vo (R)"
+       ]
+     },
+@@ -19,4 +18,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-52.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-52.json
+index fed0f85..2e7cb5c 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-52.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/california/ca-52.json
+@@ -1,12 +1,6 @@
+ {
+   "book": "CA-52",
+   "chapters": [
+-    {
+-      "name": "Republican",
+-      "topics": [
+-        "No candidates declared"
+-      ]
+-    },
+     {
+       "name": "Democratic",
+       "topics": [
+@@ -14,4 +8,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-05.json
+index 777ee94..d0d96cb 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-05.json
+@@ -21,9 +21,10 @@
+     {
+       "name": "Independent/Other",
+       "topics": [
++        "Steven Fuller (U)",
+         "Roy Matthewson (U)",
+         "Matt Cavanaugh (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-06.json
+index c65e722..57bfab5 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-06.json
+@@ -11,14 +11,16 @@
+       "name": "Democratic",
+       "topics": [
+         "Jason Crow (D)",
++        "Travis Dishon (D)",
+         "Dylan Shelby (D)"
+       ]
+     },
+     {
+       "name": "Independent/Other",
+       "topics": [
+-        "Samir Witta (U)"
++        "Samir Witta (U)",
++        "Edwardo Quinonez (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-08.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-08.json
+index 1c03a68..c1f751b 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-08.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/colorado/co-08.json
+@@ -16,9 +16,8 @@
+         "Larry Johnson (D)",
+         "Evan Munsing (D)",
+         "Manny Rutinel (D)",
+-        "John Szemler (D)",
+-        "Dave Young (D)"
++        "John Szemler (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/connecticut/ct-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/connecticut/ct-01.json
+index d177c3e..74e65ab 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/connecticut/ct-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/connecticut/ct-01.json
+@@ -14,9 +14,8 @@
+         "Luke Bronin (D)",
+         "Ruth Fortune (D)",
+         "Jillian Gilchrest (D)",
+-        "Mark Stewart Greenstein (D)",
+-        "Jack Perry (D)"
++        "Mark Stewart Greenstein (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/delaware/de-al.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/delaware/de-al.json
+index 131c6e9..7515458 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/delaware/de-al.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/delaware/de-al.json
+@@ -4,20 +4,16 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Joseph Arminio (R)",
+-        "Christopher Hill (R)"
++        "Earl Cooper (R)",
++        "Donyale Hall (R)",
++        "Lee Murphy (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Lisa Blunt Rochester (D)",
+-        "Curtis Aiken (D)",
+-        "Colleen Davis (D)",
+-        "Alexander Geise (D)",
+-        "Eugene Young (D)",
+-        "Anne Kerner (D)"
++        "Sarah McBride (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-02.json
+index f8d983c..9c5ffa4 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-02.json
+@@ -4,7 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Neal Dunn (R)"
++        "Evan Power (R)"
+       ]
+     },
+     {
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-03.json
+index 534a73b..f85e322 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-03.json
+@@ -15,6 +15,13 @@
+         "Seth Harp (D)",
+         "Tom Wells (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Anthony Stebbins (L)",
++        "Angela Wiman (I)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-04.json
+index 528ed8f..923c33b 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-04.json
+@@ -15,6 +15,13 @@
+         "Ricky Knoles (D)",
+         "Brittney Robinson (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Ronald Sherard (NPA)",
++        "Todd Schaefer (I)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-05.json
+index 90b2a4f..1f31aca 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-05.json
+@@ -12,10 +12,10 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Rachel Grage (D)",
+-        "Mark Heggestad (D)",
++        "Alexander Hazen (D)",
+         "Eli Johnson (D)",
+-        "Wyatt Clark (D)"
++        "Mark Heggestad (D)",
++        "Rachel Grage (D)"
+       ]
+     }
+   ]
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-06.json
+index caa9089..9fceae7 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-06.json
+@@ -18,6 +18,14 @@
+         "James Stockton (D)",
+         "Eric Yonce (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Christopher Manuel Alcantara (NPA)",
++        "Purvi Bangdiwala (NPA)",
++        "Amr Metwally (NPA)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-07.json
+index 84aa6f6..f7cdd1f 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-07.json
+@@ -6,8 +6,7 @@
+       "topics": [
+         "Cory Mills (R)",
+         "Michael Johnson (R)",
+-        "Sarah Ulrich (R)",
+-        "Mike Wilnau (R)"
++        "Sarah Ulrich (R)"
+       ]
+     },
+     {
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-10.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-10.json
+index 9c80766..d154bb6 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-10.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-10.json
+@@ -7,8 +7,7 @@
+         "Stuart Farber (R)",
+         "Willie Montague (R)",
+         "Angela Marie Walls-Windhauser (R)",
+-        "Vibert White (R)",
+-        "Howard Steven Rance (R)"
++        "Vibert White (R)"
+       ]
+     },
+     {
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-11.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-11.json
+index c03e5bd..7f8dc40 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-11.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-11.json
+@@ -15,6 +15,12 @@
+         "Royal Webster (D)",
+         "Dan Williams (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Ralph Groves (L)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-13.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-13.json
+index a3293cc..ef7c3ea 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-13.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-13.json
+@@ -17,6 +17,12 @@
+         "Reggie Paros (D)",
+         "Brandt Robinson (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Tony D'Arrigo (NPA)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-14.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-14.json
+index abb4d86..f75c7a0 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-14.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-14.json
+@@ -6,8 +6,7 @@
+       "topics": [
+         "John Peters (R)",
+         "Robert Rochford (R)",
+-        "Gavriel E. Soriano (R)",
+-        "John Wick (R)"
++        "Gavriel E. Soriano (R)"
+       ]
+     },
+     {
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-16.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-16.json
+index 87b5a07..3036716 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-16.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-16.json
+@@ -14,6 +14,12 @@
+         "Glenn Pearson (D)",
+         "Jan Schneider (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Mark Davis (NPA)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-18.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-18.json
+index 906a744..60de001 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-18.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-18.json
+@@ -12,6 +12,12 @@
+       "topics": [
+         "Curtis Gibson (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Deva Simmons (NPA)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-19.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-19.json
+index 1f48cfb..0ab0e7b 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-19.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-19.json
+@@ -14,8 +14,8 @@
+         "Jim Oberweis (R)",
+         "Mike Pedersen (R)",
+         "Jim Schwartzel (R)",
+-        "John Strand (R)",
+-        "Byron Donalds (R)"
++        "Louis Shenker (R)",
++        "John Strand (R)"
+       ]
+     },
+     {
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-20.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-20.json
+index c128e78..86b2f82 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-20.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-20.json
+@@ -16,6 +16,12 @@
+         "Dale Holness (D)",
+         "Elijah Manley (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Kevin McClellan (NPA)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-21.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-21.json
+index e6c2890..24e3f91 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-21.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-21.json
+@@ -15,6 +15,12 @@
+         "Elizabeth Pandich (D)",
+         "Bernard Taylor (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Robert Ott (NPA)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-22.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-22.json
+index cb96dee..3a6349a 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-22.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-22.json
+@@ -17,6 +17,13 @@
+         "Ian Blake (D)",
+         "Victoria Doyle (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "David Burck (I)",
++        "Dan Franzese (I)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-23.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-23.json
+index ce30a0f..4b15678 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-23.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-23.json
+@@ -9,8 +9,7 @@
+         "Raven Harrison (R)",
+         "Joe Kaufman (R)",
+         "George Moraitis (R)",
+-        "Rafael Ortiz (R)",
+-        "Michaelangelo Hamilton (R)"
++        "Rafael Ortiz (R)"
+       ]
+     },
+     {
+@@ -19,6 +18,12 @@
+         "Jared Evan Moskowitz (D)",
+         "Oliver Larkin (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "Scott Singer (I)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-27.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-27.json
+index caf65b5..a5c9792 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-27.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/florida/fl-27.json
+@@ -16,6 +16,12 @@
+         "Richard Lamondin (D)",
+         "Robin Peguero (D)"
+       ]
++    },
++    {
++      "name": "Independent / Third Party",
++      "topics": [
++        "V. Michael Arias (I)"
++      ]
+     }
+   ]
+ }
+\ No newline at end of file
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-01.json
+index c373aee..a95b732 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-01.json
+@@ -7,6 +7,7 @@
+         "Matt Day (R)",
+         "Patrick Farrell (R)",
+         "James Kingston (R)",
++        "Eugene Monte (R)",
+         "Brian Montgomery (R)",
+         "Krista Penn (R)",
+         "Kandiss Taylor (R)",
+@@ -20,8 +21,15 @@
+         "Amanda Hollowell (D)",
+         "Michael McCord (D)",
+         "Joseph Palimeno (D)",
++        "Sharon Stokes-Williamson (D)",
+         "Randy Zurcher (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Dylan Castillo (SLP)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-02.json
+index 970e7cd..d355ab9 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-02.json
+@@ -13,6 +13,12 @@
+         "Sanford Bishop Jr. (D)",
+         "Danny Glover (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Brandon Daley (CP)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-07.json
+index dffa147..05e7081 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-07.json
+@@ -11,8 +11,9 @@
+     {
+       "name": "Democratic",
+       "topics": [
++        "Larry Long (D)",
+         "Case Norton (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-10.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-10.json
+index 9410f5c..73d6c69 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-10.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-10.json
+@@ -4,8 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Houston Gaines (R)",
+-        "Mike Collins (R)"
++        "Houston Gaines (R)"
+       ]
+     },
+     {
+@@ -15,4 +14,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-14.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-14.json
+index b25d178..840a137 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-14.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/georgia/ga-14.json
+@@ -12,15 +12,18 @@
+         "Benjamin Cope (R)",
+         "Michael Corbin (R)",
+         "Jeff Criswell (R)",
++        "Eric Cunningham (R)",
+         "Clayton Fuller (R)",
+-        "Thomas Gray (R)",
++        "Tom Gray (R)",
++        "Christian Hurd (R)",
+         "Nicky Lama (R)",
+         "Colton Moore (R)",
+         "Linvel Risner (R)",
++        "Brian Stover (R)",
+         "Megahn Strickland (R)",
+-        "Jim Tully (R)",
++        "James Tully (R)",
+         "Jenna Turnipseed (R)",
+-        "Marjorie Taylor Greene (R)"
++        "Jacqueline Wilmer (R)"
+       ]
+     },
+     {
+@@ -37,4 +40,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-01.json
+index b5b0b60..73ecc60 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-01.json
+@@ -10,7 +10,8 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Ken Brungardt (D)"
++        "Ken Brungardt (D)",
++        "Kaylee Peterson (D)"
+       ]
+     },
+     {
+@@ -20,4 +21,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-02.json
+index 1543829..a0abaad 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/idaho/id-02.json
+@@ -12,8 +12,7 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Julie Wiley (D)",
+-        "Keven Lewis (D)"
++        "Julie Wiley (D)"
+       ]
+     },
+     {
+@@ -23,4 +22,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-02.json
+index 1606b73..d0cd9dc 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-02.json
+@@ -4,8 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Mike Noack (R)",
+-        "Ashley Ramos (R)"
++        "Mike Noack (R)"
+       ]
+     },
+     {
+@@ -30,4 +29,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-03.json
+index ed34d21..2b69a0d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-03.json
+@@ -10,9 +10,8 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Delia Ramirez (D)",
+-        "Mark Pasieka Sr. (D)"
++        "Delia Ramirez (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-05.json
+index 14260de..9701ec9 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-05.json
+@@ -13,11 +13,10 @@
+       "name": "Democratic",
+       "topics": [
+         "Mike Quigley (D)",
+-        "Jonathan Bishop (D)",
+         "Matthew Conroy (D)",
+         "Ellen Corley (D)",
+         "Anthony Michael Tamez (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-09.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-09.json
+index 2f20db3..7ff31c2 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-09.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-09.json
+@@ -25,7 +25,6 @@
+         "Mark Fredrickson (D)",
+         "Hoan Huynh (D)",
+         "Bethany Johnson (D)",
+-        "Bruce Leon (D)",
+         "Sam Polan (D)",
+         "Nick Pyati (D)",
+         "Howard Rosenblum (D)",
+@@ -39,4 +38,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-13.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-13.json
+index 4d659c6..55e27cc 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-13.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-13.json
+@@ -12,9 +12,8 @@
+       "name": "Democratic",
+       "topics": [
+         "Nikki Budzinski (D)",
+-        "Dylan Blaha (D)",
+-        "Emily Lux (D)"
++        "Dylan Blaha (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-17.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-17.json
+index 764a5a9..e787aa6 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-17.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/illinois/il-17.json
+@@ -11,9 +11,8 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Eric Sorensen (D)",
+-        "Montez Soliz (D)"
++        "Eric Sorensen (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-01.json
+index 6e6ebf5..4c9efee 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-01.json
+@@ -6,6 +6,7 @@
+       "topics": [
+         "Jennifer-Ruth Green (R)",
+         "Barb Regnitz (R)",
++        "David Ben Ruiz (R)",
+         "James Schenke (R)"
+       ]
+     },
+@@ -16,4 +17,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-04.json
+index 89d6e80..7ef1764 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-04.json
+@@ -15,8 +15,9 @@
+       "topics": [
+         "Drew Cox (D)",
+         "Thomas D. Hall Jr. (D)",
++        "Joe Mackey (D)",
+         "John Whetstone (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-05.json
+index 3f98d64..d0e2799 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-05.json
+@@ -12,9 +12,10 @@
+       "topics": [
+         "Samuel Cooper (D)",
+         "Jackson Franklin (D)",
++        "J.D. Ford (D)",
+         "Deborah A. Pickett (D)",
+         "Todd Shelton (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-06.json
+index cf087e6..cf93a26 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/indiana/in-06.json
+@@ -12,9 +12,10 @@
+       "topics": [
+         "Raymond Alt (D)",
+         "William Kory Amyx (D)",
++        "David Boyd (D)",
+         "Alexander Hardy (D)",
+         "Cynthia Wirth (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-02.json
+index 6c78512..17c448a 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-02.json
+@@ -6,8 +6,7 @@
+       "topics": [
+         "Shannon Lundgren (R)",
+         "Charlie McClintock (R)",
+-        "Joe Mitchell (R)",
+-        "Rodney Blum (R)"
++        "Joe Mitchell (R)"
+       ]
+     },
+     {
+@@ -16,8 +15,7 @@
+         "Kathryn Dolter (D)",
+         "Lindsay James (D)",
+         "Guy Morgan (D)",
+-        "Clint Twedt-Ball (D)",
+-        "Kevin Techau (D)"
++        "Clint Twedt-Ball (D)"
+       ]
+     },
+     {
+@@ -27,4 +25,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-04.json
+index ea7674e..9d9436c 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/iowa/ia-04.json
+@@ -8,9 +8,7 @@
+         "Chris McGowan (R)",
+         "Ryan Rhodes (R)",
+         "Christian Schlaefer (R)",
+-        "Matt Windschitl (R)",
+-        "Douglas Jensen (R)",
+-        "Kyle Larsen (R)"
++        "Matt Windschitl (R)"
+       ]
+     },
+     {
+@@ -18,8 +16,7 @@
+       "topics": [
+         "Dave Dawson (D)",
+         "Stephanie Steiner (D)",
+-        "Ashley WolfTornabane (D)",
+-        "Ryan Melton (D)"
++        "Ashley WolfTornabane (D)"
+       ]
+     },
+     {
+@@ -29,4 +26,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-01.json
+index fdafb99..d64c06a 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-01.json
+@@ -10,8 +10,9 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Colin McRoberts (D)"
++        "Colin McRoberts (D)",
++        "Lauren Reinhold (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-02.json
+index d87e994..5f6228c 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-02.json
+@@ -10,8 +10,9 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Don Coover (D)"
++        "Don Coover (D)",
++        "Braeden Curwick (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-03.json
+index ef7e935..d70839e 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kansas/ks-03.json
+@@ -4,8 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Blake Stanley (R)",
+-        "Chase LaPorte (R)"
++        "Blake Stanley (R)"
+       ]
+     },
+     {
+@@ -15,4 +14,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-01.json
+index 96efb41..d069608 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-01.json
+@@ -5,7 +5,9 @@
+       "name": "Republican",
+       "topics": [
+         "James Comer Jr. (R)",
+-        "David Sims (R)"
++        "Penny Arcos (R)",
++        "David Sims (R)",
++        "Robert James Sutherby (R)"
+       ]
+     },
+     {
+@@ -15,4 +17,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-02.json
+index 2c8638e..cf2f31d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-02.json
+@@ -5,6 +5,7 @@
+       "name": "Republican",
+       "topics": [
+         "Brett Guthrie (R)",
++        "G. Perry Adelmann (R)",
+         "Joshua Ferguson (R)"
+       ]
+     },
+@@ -12,9 +13,10 @@
+       "name": "Democratic",
+       "topics": [
+         "William Compton (D)",
++        "David Hatfield (D)",
+         "Hank Linderman (D)",
+         "Megan Wingfield (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-03.json
+index 34d1b2d..a72c9f3 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-03.json
+@@ -4,7 +4,10 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Daniel Cobble (R)",
++        "David Nichter (R)",
++        "Donald Pay (R)",
++        "Maria Teresa Rodriguez (R)"
+       ]
+     },
+     {
+@@ -20,4 +23,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-04.json
+index f10e00c..7c273d0 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-04.json
+@@ -6,8 +6,7 @@
+       "topics": [
+         "Thomas Massie (R)",
+         "Nicole Lee Ethington (R)",
+-        "Ed Gallrein (R)",
+-        "Robert Wells Jr. (R)"
++        "Ed Gallrein (R)"
+       ]
+     },
+     {
+@@ -20,4 +19,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-05.json
+index 79d6a0d..0826000 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-05.json
+@@ -6,6 +6,9 @@
+       "topics": [
+         "Hal Rogers (R)",
+         "Benjamin Hurley (R)",
++        "Brandon Monhollen (R)",
++        "Jerry Shelton (R)",
++        "Kevin Smith (R)",
+         "Jacob Trimble (R)"
+       ]
+     },
+@@ -14,6 +17,12 @@
+       "topics": [
+         "Ned Pillersdorf (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Billy Ray Wilson (I)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-06.json
+index c7b7864..83765c3 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/kentucky/ky-06.json
+@@ -14,7 +14,10 @@
+     {
+       "name": "Democratic",
+       "topics": [
++        "Jimmy Ausbrooks (D)",
++        "Harvey Carroll Jr. (D)",
+         "Zach Dembo (D)",
++        "Corey Edwards (D)",
+         "David Kloiber (D)",
+         "Erin Petrey (D)",
+         "Cherlynn Stevenson (D)"
+@@ -28,4 +31,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-01.json
+index 2a37db0..8ed553e 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-01.json
+@@ -7,8 +7,7 @@
+         "Joshua James Duprey (R)",
+         "Andrew Piantidosi (R)",
+         "Joshua Pietrowicz (R)",
+-        "Ronald C. Russell (R)",
+-        "Eric Small (R)"
++        "Ronald C. Russell (R)"
+       ]
+     },
+     {
+@@ -19,4 +18,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-02.json
+index 97d6a58..fee759d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/maine/me-02.json
+@@ -11,11 +11,11 @@
+     {
+       "name": "Democratic",
+       "topics": [
++        "Joe Baldacci (D)",
+         "Matthew Dunlap (D)",
+         "Paige Loud (D)",
+-        "Jordan Wood (D)",
+-        "Jared Golden (D)"
++        "Jordan Wood (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-01.json
+index cba987d..b2841b7 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-01.json
+@@ -10,6 +10,7 @@
+     {
+       "name": "Democratic",
+       "topics": [
++        "Victor Guidice (D)",
+         "Terrence Rogers (D)",
+         "Dan Schwartz (D)",
+         "George Walish (D)",
+@@ -17,4 +18,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-05.json
+index f7c1cb4..75e2556 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-05.json
+@@ -10,12 +10,14 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Steny Hoyer (D)",
+         "Quincy Bareebe (D)",
++        "Adrian Boafo (D)",
+         "Terry Jackson (D)",
+         "Harry Jarin (D)",
+-        "Heather Luper (D)"
++        "Walter Kirkland (D)",
++        "Heather Luper (D)",
++        "Alexis Solis (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-07.json
+index 0e4cfe0..7cf8eef 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/maryland/md-07.json
+@@ -12,8 +12,9 @@
+       "topics": [
+         "Kweisi Mfume (D)",
+         "Hadley Anthony (D)",
+-        "Mark Conway (D)"
++        "Mark Conway (D)",
++        "Theo Gillespie (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-01.json
+index 62c619e..9d888c3 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-01.json
+@@ -15,6 +15,12 @@
+         "Nathan Tracy (D)",
+         "Jeromie Whalen (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Nadia Milleron (I)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-06.json
+index b530ee3..c42368d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/massachusetts/ma-06.json
+@@ -15,9 +15,8 @@
+         "Rick Jakious (D)",
+         "Dan Koh (D)",
+         "Tram Nguyen (D)",
+-        "Jamie Zahlaway Belsito (D)",
+-        "Seth Moulton (D)"
++        "Jamie Zahlaway Belsito (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-04.json
+index 55bf8a0..165b9f7 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-04.json
+@@ -12,9 +12,8 @@
+       "topics": [
+         "Richard Aaron (D)",
+         "Diop Harris (D)",
+-        "Sean McCann (D)",
+-        "Jessica Swartz (D)"
++        "Sean McCann (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-07.json
+index 1b7a084..acaef63 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-07.json
+@@ -15,8 +15,9 @@
+         "Josh Cowen (D)",
+         "William Lawrence (D)",
+         "Matt Maasdam (D)",
++        "Alexandra Prieditis (D)",
+         "Muhammad Salman Rais (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-10.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-10.json
+index d85e751..785914d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-10.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-10.json
+@@ -20,9 +20,8 @@
+         "Eric Chung (D)",
+         "Tim Greimel (D)",
+         "Christina Hines (D)",
+-        "Brian Steven Jaye (D)",
+-        "Alex Hawkins (D)"
++        "Brian Steven Jaye (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-11.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-11.json
+index 6aa34f6..376e6a8 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-11.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-11.json
+@@ -16,9 +16,8 @@
+         "Aisha Farooqi (D)",
+         "Jeremy Moss (D)",
+         "John Paul Torres (D)",
+-        "Don Ufford (D)",
+-        "Anil Kumar (D)"
++        "Don Ufford (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-13.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-13.json
+index 3551404..f52fdc6 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-13.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/michigan/mi-13.json
+@@ -15,8 +15,7 @@
+         "Shelby Campbell (D)",
+         "Anthony Carbonaro (D)",
+         "Nazmul Hassan (D)",
+-        "Donavan McKinney (D)",
+-        "Adam Hollier (D)"
++        "Donavan McKinney (D)"
+       ]
+     },
+     {
+@@ -26,4 +25,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-01.json
+index ef8f54e..d07e051 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-01.json
+@@ -10,8 +10,7 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Jake Johnson (D)",
+-        "Andy Smith (D)"
++        "Jake Johnson (D)"
+       ]
+     },
+     {
+@@ -21,4 +20,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-02.json
+index 1935470..84fec0e 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-02.json
+@@ -13,10 +13,8 @@
+       "topics": [
+         "Kaela Berg (D)",
+         "Matt Klein (D)",
+-        "Matt Little (D)",
+-        "Angie Craig (D)",
+-        "Michael Stefanko (D)"
++        "Matt Little (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-08.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-08.json
+index 21912dd..9762d72 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-08.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/minnesota/mn-08.json
+@@ -13,9 +13,8 @@
+         "Emanuel Anastos (D)",
+         "Cyle Cramer (D)",
+         "John-Paul McBride (D)",
+-        "Trina Swanson (D)",
+-        "Chad McKenna (D)"
++        "Trina Swanson (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-02.json
+index deaede3..9593c6d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-02.json
+@@ -12,7 +12,8 @@
+       "name": "Democratic",
+       "topics": [
+         "Bennie Thompson (D)",
+-        "Evan Turnage (D)"
++        "Evan Turnage (D)",
++        "Pertis Williams III (D)"
+       ]
+     },
+     {
+@@ -22,4 +23,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-04.json
+index 9513374..bf9db15 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/mississippi/ms-04.json
+@@ -5,20 +5,23 @@
+       "name": "Republican",
+       "topics": [
+         "Mike Ezell (R)",
+-        "John Mills (R)"
++        "John Mills (R)",
++        "Sawyer Walters (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Paul Blackman (D)"
++        "Paul Blackman (D)",
++        "D. Ryan Grover (D)",
++        "Jeffrey Hulum III (D)"
+       ]
+     },
+     {
+       "name": "Independent/Other",
+       "topics": [
+-        "Charles Claburn (AIC)"
++        "Carl Boyanton (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-05.json
+index 7925fa9..86db604 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-05.json
+@@ -11,9 +11,8 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Emanuel Cleaver (D)",
+-        "Jordan Herrera (D)"
++        "Emanuel Cleaver (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-08.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-08.json
+index 48afadb..3a0dd07 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-08.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/missouri/mo-08.json
+@@ -11,8 +11,10 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Gerald Cass (D)"
++        "Frank Barnitz (D)",
++        "Gerald Cass (D)",
++        "Christopher Reichard (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/montana/mt-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/montana/mt-01.json
+index c0a480a..5824fca 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/montana/mt-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/montana/mt-01.json
+@@ -11,8 +11,10 @@
+       "name": "Democratic",
+       "topics": [
+         "Russell Cleveland (D)",
+-        "Matt Rains (D)"
++        "Samuel Forstag (D)",
++        "Matt Rains (D)",
++        "Ryan Busse (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-02.json
+index c7d8ab7..de32fdf 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-02.json
+@@ -5,8 +5,7 @@
+       "name": "Republican",
+       "topics": [
+         "Brinker Harding (R)",
+-        "Brett Lindstrom (R)",
+-        "Don Bacon (R)"
++        "Brett Lindstrom (R)"
+       ]
+     },
+     {
+@@ -17,9 +16,8 @@
+         "John Cavanaugh (D)",
+         "James Leuschen (D)",
+         "Denise Powell (D)",
+-        "Crystal Rhoades (D)",
+-        "Mark Johnston (D)"
++        "Crystal Rhoades (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-03.json
+index 6763fc8..b43a8e3 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/nebraska/ne-03.json
+@@ -13,6 +13,12 @@
+       "topics": [
+         "Becky Lynn Stille (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Mark Cohen (NP)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/nevada/nv-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/nevada/nv-03.json
+index e541a31..8c0c6f9 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/nevada/nv-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/nevada/nv-03.json
+@@ -12,8 +12,7 @@
+         "Aury Nagy (R)",
+         "Marty O'Donnell (R)",
+         "Lucena Parker (R)",
+-        "Joshua Walters (R)",
+-        "Lydia Dominguez (R)"
++        "Joshua Walters (R)"
+       ]
+     },
+     {
+@@ -26,4 +25,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-hampshire/nh-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-hampshire/nh-02.json
+index 665823a..ec0c09c 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-hampshire/nh-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-hampshire/nh-02.json
+@@ -4,6 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
++        "Victor Orlando (R)",
+         "Lily Williams (R)"
+       ]
+     },
+@@ -17,4 +18,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-01.json
+index e0e6301..639efa2 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-01.json
+@@ -11,9 +11,8 @@
+       "name": "Democratic",
+       "topics": [
+         "Donald Norcross (D)",
+-        "Lonnie Affrime (D)",
+-        "Bill Finn (D)"
++        "Lonnie Affrime (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-02.json
+index 640bba7..22c5822 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-02.json
+@@ -13,9 +13,8 @@
+         "Tim Alexander (D)",
+         "Bill Finn (D)",
+         "Terri Reese (D)",
+-        "Bayly Winder (D)",
+-        "Curtis Green (D)"
++        "Bayly Winder (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-03.json
+index d639929..c5893d4 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-03.json
+@@ -6,8 +6,7 @@
+       "topics": [
+         "Justin Barbera (R)",
+         "Jason Cullen (R)",
+-        "Michael McGuire (R)",
+-        "Linda McMahon (R)"
++        "Michael McGuire (R)"
+       ]
+     },
+     {
+@@ -17,4 +16,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-06.json
+index faf1039..2f6a038 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-06.json
+@@ -14,6 +14,12 @@
+         "Katie Bansil (D)",
+         "John Hsu (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Fahad Akhtar (CSI)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-07.json
+index 2c6a385..3544d6d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-07.json
+@@ -19,9 +19,8 @@
+         "Felipe Santos (D)",
+         "Tina Shah (D)",
+         "Sara Sooy (D)",
+-        "Brian Varela (D)",
+-        "Gregory Vartan (D)"
++        "Brian Varela (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-09.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-09.json
+index e0af087..f106b24 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-09.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-09.json
+@@ -4,7 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Tiffany Burgess (R)",
++        "Tiffany Burress (R)",
+         "Rosemary Pino (R)"
+       ]
+     },
+@@ -16,4 +16,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-12.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-12.json
+index 9c59d36..0829b26 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-12.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-jersey/nj-12.json
+@@ -4,8 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Gregg Mele (R)",
+-        "Darius Mayfield (R)"
++        "Gregg Mele (R)"
+       ]
+     },
+     {
+@@ -21,9 +20,8 @@
+         "Shanel Robinson (D)",
+         "Squire Servance (D)",
+         "Sujit Singh (D)",
+-        "Jay Vaingankar (D)",
+-        "Bonnie Watson Coleman (D)"
++        "Jay Vaingankar (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-mexico/nm-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-mexico/nm-02.json
+index a69c67b..75dbc4c 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-mexico/nm-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-mexico/nm-02.json
+@@ -12,8 +12,9 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Gabriel Vasquez (D)"
++        "Gabriel Vasquez (D)",
++        "Tom Wakely (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-07.json
+index 63aa5b8..b6997c2 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-07.json
+@@ -18,9 +18,8 @@
+         "Paperboy Prince (D)",
+         "Antonio Reynoso (D)",
+         "Miles Shore (D)",
+-        "Claire Valdez (D)",
+-        "Nydia Velazquez (D)"
++        "Claire Valdez (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-12.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-12.json
+index 8ca4704..5b8ac9b 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-12.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-12.json
+@@ -25,8 +25,7 @@
+         "Alan Pardee (D)",
+         "Jack Schlossberg (D)",
+         "Nina Schwalbe (D)",
+-        "Mathew Shurka (D)",
+-        "Erik Bottcher (D)"
++        "Mathew Shurka (D)"
+       ]
+     },
+     {
+@@ -39,4 +38,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-15.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-15.json
+index 8bc081d..1270ea6 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-15.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-15.json
+@@ -13,7 +13,8 @@
+         "Michael Blake (D)",
+         "Jon LaTona (D)",
+         "Dalourny Nemorin (D)",
+-        "Amanda Septimo (D)"
++        "Amanda Septimo (D)",
++        "Jose Vega (D)"
+       ]
+     },
+     {
+@@ -23,4 +24,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-21.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-21.json
+index f91e70d..b23f583 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-21.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/new-york/ny-21.json
+@@ -4,8 +4,7 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Robert Smullen (R)",
+-        "Elise Stefanik (R)"
++        "Robert Smullen (R)"
+       ]
+     },
+     {
+@@ -16,15 +15,14 @@
+         "Blake Gendebien (D)",
+         "Maylon Haller (D)",
+         "Andrew Henson (D)",
+-        "Dylan Hewitt (D)",
+-        "Steven Holden (D)"
++        "Dylan Hewitt (D)"
+       ]
+     },
+     {
+       "name": "Independent/Other",
+       "topics": [
+-        "Chris Schmidt (I)"
++        "Christopher Schmidt (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-01.json
+index 966fc3c..15fca78 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-01.json
+@@ -4,7 +4,11 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Asa Buck (R)",
++        "Laurie Buckhout (R)",
++        "Robert Hanig (R)",
++        "Eric Rouse (R)",
++        "Ashley-Nicole Russell (R)"
+       ]
+     },
+     {
+@@ -12,6 +16,12 @@
+       "topics": [
+         "Donald Davis (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Tom Bailey (L)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-02.json
+index f1a9b3b..ea40db6 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-02.json
+@@ -12,6 +12,12 @@
+       "topics": [
+         "Deborah Ross (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Matthew Laszacs (L)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-03.json
+index 9654089..afbd279 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-03.json
+@@ -10,8 +10,15 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Allison Jaslow (D)",
++        "Raymond Smith Jr. (D)"
++      ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Daniel Cavender (L)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-04.json
+index 96e61c2..c5a2001 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-04.json
+@@ -10,8 +10,16 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Valerie Foushee (D)",
++        "Nida Allam (D)",
++        "Mary Patterson (D)"
++      ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Guy Meilleur (L)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-05.json
+index 56cbb9f..6861203 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-05.json
+@@ -4,20 +4,25 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Virginia Foxx (R)",
++        "Steve Girard (R)",
++        "Joseph Osborne (R)",
++        "Roman Williams II (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Kyah Creekmore (D)",
++        "Chuck Hubbard (D)"
+       ]
+     },
+     {
+       "name": "Independent/Other",
+       "topics": [
+-        "David Clayton (I)"
++        "David Clayton (I)",
++        "Robert Luffman (L)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-06.json
+index d11154b..a3dfdfa 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-06.json
+@@ -10,7 +10,10 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Beau Blair (D)",
++        "Keith Davenport (D)",
++        "Cyril Jefferson (D)",
++        "Alysa Kassay (D)"
+       ]
+     },
+     {
+@@ -20,4 +23,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-07.json
+index 0972545..46e6873 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-07.json
+@@ -4,7 +4,8 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "David Rouzer (R)",
++        "David Buzzard (R)"
+       ]
+     },
+     {
+@@ -12,6 +13,12 @@
+       "topics": [
+         "Kimberly Hardy (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Maad Abu-Ghazalah (L)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-08.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-08.json
+index 61e154d..3577be4 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-08.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-08.json
+@@ -10,8 +10,10 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Kevin Clark (D)",
++        "Jesse Oppenheim (D)",
++        "Colby Watson (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-09.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-09.json
+index c3a0b17..abcbf6e 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-09.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-09.json
+@@ -10,7 +10,10 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Loren Bibler (D)",
++        "Nigel Bristow (D)",
++        "Lent Carr II (D)",
++        "Richard Ojeda (D)"
+       ]
+     },
+     {
+@@ -20,4 +23,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-10.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-10.json
+index 701c570..5ce8732 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-10.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-10.json
+@@ -4,14 +4,26 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Pat Harrigan (R)",
++        "Matthew Sin (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Ashley Bell (D)",
++        "West Caudle (D)",
++        "Harry Morley (D)",
++        "Marcus D. Pearson (D)",
++        "Ralph Scott Jr. (D)",
++        "Mir Yarfitz (D)"
++      ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Steven Feldman (L)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-11.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-11.json
+index 09ec3de..cc6e6a4 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-11.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-11.json
+@@ -4,20 +4,26 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Chuck Edwards (R)",
++        "Adam Smith (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Jamie Ager (D)",
++        "Zelda Briarwood (D)",
++        "Richard Hudspeth (D)",
++        "Paul Maddox (D)",
++        "Lee Whipple (D)"
+       ]
+     },
+     {
+       "name": "Independent/Other",
+       "topics": [
+-        "John Rogers (I)"
++        "John Rogers (I)",
++        "Travis Groo (L)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-12.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-12.json
+index b4d443b..e23ce82 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-12.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-12.json
+@@ -4,14 +4,16 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Addul Ali (R)",
++        "Jack Codiga (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Alma Adams (D)",
++        "Monaca Maye Williamson (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-13.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-13.json
+index c4ddaa6..cadbae2 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-13.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-13.json
+@@ -4,14 +4,24 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Brad Knott (R)",
++        "Sid Sharma (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Paul Barringer (D)",
++        "Alexander Nicholi (D)",
++        "Frank Pierce (D)"
++      ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Steven Swinton (L)",
++        "Anthony Aguilar (G)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-14.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-14.json
+index 6066b6e..56c57f7 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-14.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-carolina/nc-14.json
+@@ -4,14 +4,17 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "No candidates declared"
++        "Timothy K. Moore (R)",
++        "Kate Barr (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Brent Caldwell (D)",
++        "Ahmid Kargbo (D)",
++        "Lakesha Womack (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-dakota/nd-al.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-dakota/nd-al.json
+index 3f99389..7347cf7 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/north-dakota/nd-al.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/north-dakota/nd-al.json
+@@ -4,22 +4,15 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Kelly Armstrong (R)",
+-        "Tom Campbell (R)"
++        "Julie Fedorchak (R)",
++        "Alex Balazs (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Mark Haugen (D)"
+-      ]
+-    },
+-    {
+-      "name": "Independent/Other",
+-      "topics": [
+-        "Richard Grayson (I)",
+-        "Matthew Austin Gullo (I)"
++        "No candidates declared"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/oregon/or-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/oregon/or-05.json
+index 6d6fa1a..39bd9ea 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/oregon/or-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/oregon/or-05.json
+@@ -14,6 +14,12 @@
+       "topics": [
+         "Janelle Bynum (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Joseph Lehman (L)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-03.json
+index 8da3d52..9e4ac64 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-03.json
+@@ -21,9 +21,8 @@
+         "Christopher Rabb (D)",
+         "Ala Stanford (D)",
+         "Sharif Street (D)",
+-        "Robin Toldens (D)",
+-        "Dwight Evans (D)"
++        "Robin Toldens (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-06.json
+index c733111..40dac24 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/pennsylvania/pa-06.json
+@@ -10,9 +10,8 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Chrissy Houlahan (D)",
+-        "Benjamin Popp (D)"
++        "Chrissy Houlahan (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-01.json
+index 143db63..21a352c 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-01.json
+@@ -12,8 +12,7 @@
+         "Sam McCown (R)",
+         "Alex Pelbath (R)",
+         "William Reeside (R)",
+-        "Mark Smith (R)",
+-        "Nancy Mace (R)"
++        "Mark Smith (R)"
+       ]
+     },
+     {
+@@ -27,4 +26,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-05.json
+index 091f61c..ce96f71 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/south-carolina/sc-05.json
+@@ -5,8 +5,7 @@
+       "name": "Republican",
+       "topics": [
+         "Bill Bledsoe (R)",
+-        "Wes Climer (R)",
+-        "Ralph Norman (R)"
++        "Wes Climer (R)"
+       ]
+     },
+     {
+@@ -18,4 +17,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/south-dakota/sd-al.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/south-dakota/sd-al.json
+index bb277d7..a512125 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/south-dakota/sd-al.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/south-dakota/sd-al.json
+@@ -4,20 +4,25 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Justin McNeal (R)",
+-        "Christopher Sanders (R)"
++        "Dusty Johnson (R)",
++        "James Bialota (R)",
++        "Casey Crabtree (R)",
++        "Marty J. Jackley (R)"
+       ]
+     },
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Zach Kovach (D)",
+-        "Bert Olson (D)",
+-        "Ryan Ryder (D)",
+-        "Whitney Raver (D)",
+-        "Ellee Spawn (D)",
+-        "Brian Wirth (D)"
++        "Nicole Gronli (D)",
++        "Billy Mawhiney (D)",
++        "Scott Schlagel (D)"
++      ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Jack Pittman (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-02.json
+index e233a09..ef33713 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-02.json
+@@ -10,8 +10,7 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Michaela Barnett (D)",
+-        "Adam Velk (D)"
++        "Michaela Barnett (D)"
+       ]
+     },
+     {
+@@ -21,4 +20,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-06.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-06.json
+index 136b55d..f1bc067 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-06.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-06.json
+@@ -4,7 +4,6 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Dale Braden (R)",
+         "Brad Gaines (R)",
+         "Johnny Garrett (R)",
+         "Jon Henry (R)",
+@@ -23,8 +22,9 @@
+     {
+       "name": "Independent/Other",
+       "topics": [
++        "Dale Braden (AIC)",
+         "Christopher Monday (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-07.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-07.json
+index 68a3c06..1d38b78 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-07.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/tennessee/tn-07.json
+@@ -13,7 +13,6 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "Aftyn Behn (D)",
+         "David Jones (D)"
+       ]
+     },
+@@ -24,4 +23,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-01.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-01.json
+index 05b558f..ce54c6f 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-01.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-01.json
+@@ -15,11 +15,11 @@
+         "Derek Kitchen (D)",
+         "Eva Lopez Chavez (D)",
+         "Ben McAdams (D)",
++        "Liban Mohamed (D)",
+         "Kathleen Riebe (D)",
+         "Anthony Tomkins (D)",
+-        "Luis Villarreal (D)",
+-        "Peter Crosby (D)"
++        "Luis Villarreal (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-02.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-02.json
+index 5673a39..da06dbe 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-02.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-02.json
+@@ -12,8 +12,7 @@
+       "topics": [
+         "Peter Crosby (D)",
+         "Tyler Farnsworth (D)",
+-        "Jarom Gillins (D)",
+-        "Jonathan Larsen (D)"
++        "Jarom Gillins (D)"
+       ]
+     },
+     {
+@@ -23,4 +22,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-03.json
+index 64035f4..91cf3c5 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-03.json
+@@ -12,6 +12,12 @@
+       "topics": [
+         "Steven Merrill (D)"
+       ]
++    },
++    {
++      "name": "Independent/Other",
++      "topics": [
++        "Adonis Hooslyn (NP)"
++      ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-04.json
+index 83fd40e..30e09e5 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/utah/ut-04.json
+@@ -11,7 +11,7 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "No candidates declared"
++        "Jonathan Larsen (D)"
+       ]
+     },
+     {
+@@ -21,4 +21,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-05.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-05.json
+index 7e566d2..464fa58 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-05.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-05.json
+@@ -5,7 +5,8 @@
+       "name": "Republican",
+       "topics": [
+         "John McGuire (R)",
+-        "Bob Good (R)"
++        "Bob Good (R)",
++        "Melanie Lucero (R)"
+       ]
+     },
+     {
+@@ -16,8 +17,7 @@
+         "Mike Pruitt (D)",
+         "Paul Riley (D)",
+         "Robert Tracinski (D)",
+-        "Kate Zabriskie (D)",
+-        "Adele Stichel (D)"
++        "Kate Zabriskie (D)"
+       ]
+     },
+     {
+@@ -27,4 +27,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-11.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-11.json
+index 85609bc..7ac227d 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-11.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/virginia/va-11.json
+@@ -13,9 +13,8 @@
+       "topics": [
+         "James Walkinshaw (D)",
+         "Stella Pekarsky (D)",
+-        "Amy Roma (D)",
+-        "Gerald Edward Connolly (D)"
++        "Amy Roma (D)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/washington/wa-04.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/washington/wa-04.json
+index 00b8256..4782f55 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/washington/wa-04.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/washington/wa-04.json
+@@ -12,7 +12,7 @@
+     {
+       "name": "Democratic",
+       "topics": [
+-        "John Duresky (D)"
++        "No candidates declared"
+       ]
+     },
+     {
+@@ -22,4 +22,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/wisconsin/wi-03.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/wisconsin/wi-03.json
+index 43283ed..78df96a 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/wisconsin/wi-03.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/wisconsin/wi-03.json
+@@ -12,8 +12,7 @@
+       "topics": [
+         "Emily Berge (D)",
+         "Rebecca Cooke (D)",
+-        "Rodney Rave (D)",
+-        "Laura Benjamin (D)"
++        "Rodney Rave (D)"
+       ]
+     },
+     {
+@@ -24,4 +23,4 @@
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/libraries/politician-libraries/us-house-2026-complete/2026-states/wyoming/wy-al.json b/libraries/politician-libraries/us-house-2026-complete/2026-states/wyoming/wy-al.json
+index b90f3d8..277f08e 100644
+--- a/libraries/politician-libraries/us-house-2026-complete/2026-states/wyoming/wy-al.json
++++ b/libraries/politician-libraries/us-house-2026-complete/2026-states/wyoming/wy-al.json
+@@ -4,14 +4,8 @@
+     {
+       "name": "Republican",
+       "topics": [
+-        "Harriet Hageman (R)",
+-        "Bo Biteman (R)",
+         "Chuck Gray (R)",
+-        "Bryan Keller (R)",
+-        "Bryan Miller (R)",
+-        "Catharine O'Neill (R)",
+-        "Marissa Selvig (R)",
+-        "Darin Smith (R)"
++        "Reid Rasner (R)"
+       ]
+     },
+     {
+@@ -23,8 +17,8 @@
+     {
+       "name": "Independent/Other",
+       "topics": [
+-        "Casey Hardison (I)"
++        "Daniel Workman (I)"
+       ]
+     }
+   ]
+-}
+\ No newline at end of file
++}

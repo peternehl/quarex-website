@@ -1,0 +1,23 @@
+{
+  "book": "MN-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Brad Finstad (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jake Johnson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Oliver Morlan (I)"
+      ]
+    }
+  ]
+}

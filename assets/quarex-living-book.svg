@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 800"
+   width="1200"
+   height="800"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="50%" style="stop-color:#1a2a4a"/>
+      <stop offset="100%" style="stop-color:#0d1f3c"/>
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e0e7ff"/>
+      <stop offset="100%" style="stop-color:#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="questionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7cb9ff"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="contextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#14b8a6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="55" text-anchor="middle" fill="#7cb9ff" font-size="36" font-weight="700" letter-spacing="1">What is a Quarex?</text>
+
+  <!-- Main definition -->
+  <text x="600" y="95" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="500">A quarex is a living book of questions</text>
+
+  <!-- Central Book Icon - Stylized open book -->
+  <g transform="translate(500, 180)">
+    <!-- Book spine/center -->
+    <rect x="95" y="0" width="10" height="140" rx="2" fill="#1e3a8a"/>
+
+    <!-- Left page -->
+    <path d="M95 0 Q50 10 20 20 L20 130 Q50 125 95 140 Z" fill="url(#pageGrad)" stroke="#3b82f6" stroke-width="1"/>
+
+    <!-- Right page -->
+    <path d="M105 0 Q150 10 180 20 L180 130 Q150 125 105 140 Z" fill="url(#pageGrad)" stroke="#3b82f6" stroke-width="1"/>
+
+    <!-- Question marks on pages (representing questions) -->
+    <text x="55" y="50" text-anchor="middle" fill="#3b82f6" font-size="18" font-weight="600">?</text>
+    <text x="45" y="75" text-anchor="middle" fill="#3b82f6" font-size="14" font-weight="500">?</text>
+    <text x="65" y="95" text-anchor="middle" fill="#3b82f6" font-size="16" font-weight="500">?</text>
+    <text x="50" y="115" text-anchor="middle" fill="#3b82f6" font-size="12" font-weight="500">?</text>
+
+    <text x="145" y="50" text-anchor="middle" fill="#3b82f6" font-size="18" font-weight="600">?</text>
+    <text x="155" y="75" text-anchor="middle" fill="#3b82f6" font-size="14" font-weight="500">?</text>
+    <text x="135" y="95" text-anchor="middle" fill="#3b82f6" font-size="16" font-weight="500">?</text>
+    <text x="150" y="115" text-anchor="middle" fill="#3b82f6" font-size="12" font-weight="500">?</text>
+
+    <!-- Pulse rings to show "living" -->
+    <circle cx="100" cy="70" r="90" fill="none" stroke="#7cb9ff" stroke-width="1" opacity="0.3"/>
+    <circle cx="100" cy="70" r="110" fill="none" stroke="#7cb9ff" stroke-width="1" opacity="0.2"/>
+    <circle cx="100" cy="70" r="130" fill="none" stroke="#7cb9ff" stroke-width="1" opacity="0.1"/>
+  </g>
+
+  <!-- Three key attributes with icons -->
+
+  <!-- Attribute 1: Dynamically Generated -->
+  <g transform="translate(100, 400)">
+    <rect x="0" y="0" width="300" height="120" rx="12" fill="#111827" stroke="#3b82f6" stroke-width="2" filter="url(#softGlow)"/>
+
+    <!-- Gear/dynamic icon -->
+    <circle cx="50" cy="60" r="25" fill="none" stroke="#7cb9ff" stroke-width="2"/>
+    <circle cx="50" cy="60" r="10" fill="#7cb9ff"/>
+    <line x1="50" y1="30" x2="50" y2="20" stroke="#7cb9ff" stroke-width="3"/>
+    <line x1="50" y1="90" x2="50" y2="100" stroke="#7cb9ff" stroke-width="3"/>
+    <line x1="25" y1="60" x2="15" y2="60" stroke="#7cb9ff" stroke-width="3"/>
+    <line x1="75" y1="60" x2="85" y2="60" stroke="#7cb9ff" stroke-width="3"/>
+
+    <text x="170" y="45" text-anchor="middle" fill="#7cb9ff" font-size="18" font-weight="600">DYNAMICALLY</text>
+    <text x="170" y="68" text-anchor="middle" fill="#7cb9ff" font-size="18" font-weight="600">GENERATED</text>
+    <text x="170" y="95" text-anchor="middle" fill="#94a3b8" font-size="13">Content created in real-time</text>
+    <text x="170" y="110" text-anchor="middle" fill="#94a3b8" font-size="13">from curated context</text>
+  </g>
+
+  <!-- Attribute 2: Recursively Structured -->
+  <g transform="translate(450, 400)">
+    <rect x="0" y="0" width="300" height="120" rx="12" fill="#111827" stroke="#3b82f6" stroke-width="2" filter="url(#softGlow)"/>
+
+    <!-- Recursive branching icon -->
+    <circle cx="40" cy="40" r="8" fill="#7cb9ff"/>
+    <line x1="48" y1="40" x2="60" y2="30" stroke="#7cb9ff" stroke-width="2"/>
+    <line x1="48" y1="40" x2="60" y2="50" stroke="#7cb9ff" stroke-width="2"/>
+    <circle cx="65" cy="28" r="5" fill="#60a5fa"/>
+    <circle cx="65" cy="52" r="5" fill="#60a5fa"/>
+    <line x1="70" y1="28" x2="80" y2="22" stroke="#60a5fa" stroke-width="1.5"/>
+    <line x1="70" y1="28" x2="80" y2="34" stroke="#60a5fa" stroke-width="1.5"/>
+    <line x1="70" y1="52" x2="80" y2="46" stroke="#60a5fa" stroke-width="1.5"/>
+    <line x1="70" y1="52" x2="80" y2="58" stroke="#60a5fa" stroke-width="1.5"/>
+    <circle cx="83" cy="21" r="3" fill="#3b82f6"/>
+    <circle cx="83" cy="35" r="3" fill="#3b82f6"/>
+    <circle cx="83" cy="45" r="3" fill="#3b82f6"/>
+    <circle cx="83" cy="59" r="3" fill="#3b82f6"/>
+
+    <!-- Infinity loop below -->
+    <text x="60" y="90" text-anchor="middle" fill="#7cb9ff" font-size="24">∞</text>
+
+    <text x="190" y="45" text-anchor="middle" fill="#7cb9ff" font-size="18" font-weight="600">RECURSIVELY</text>
+    <text x="190" y="68" text-anchor="middle" fill="#7cb9ff" font-size="18" font-weight="600">STRUCTURED</text>
+    <text x="190" y="95" text-anchor="middle" fill="#94a3b8" font-size="13">Each answer branches into</text>
+    <text x="190" y="110" text-anchor="middle" fill="#94a3b8" font-size="13">new questions and links</text>
+  </g>
+
+  <!-- Attribute 3: Context-Aware -->
+  <g transform="translate(800, 400)">
+    <rect x="0" y="0" width="300" height="120" rx="12" fill="#111827" stroke="#14b8a6" stroke-width="2" filter="url(#softGlow)"/>
+
+    <!-- Context/library icon -->
+    <rect x="25" y="35" width="15" height="50" rx="2" fill="#14b8a6"/>
+    <rect x="45" y="30" width="15" height="55" rx="2" fill="#0d9488"/>
+    <rect x="65" y="40" width="15" height="45" rx="2" fill="#14b8a6"/>
+    <!-- Connecting line showing context -->
+    <path d="M32 30 Q50 15 68 30" stroke="#5eead4" stroke-width="2" fill="none"/>
+    <circle cx="50" cy="15" r="6" fill="#5eead4"/>
+
+    <text x="190" y="45" text-anchor="middle" fill="#14b8a6" font-size="18" font-weight="600">CONTEXT-AWARE</text>
+    <text x="190" y="68" text-anchor="middle" fill="#14b8a6" font-size="18" font-weight="600">INQUIRY</text>
+    <text x="190" y="95" text-anchor="middle" fill="#94a3b8" font-size="13">Answers draw from a</text>
+    <text x="190" y="110" text-anchor="middle" fill="#94a3b8" font-size="13">curated knowledge library</text>
+  </g>
+
+  <!-- Bottom section: The key insight -->
+  <rect x="200" y="560" width="800" height="100" rx="12" fill="#0f172a" stroke="#7cb9ff" stroke-width="2" filter="url(#glow)"/>
+
+  <text x="600" y="600" text-anchor="middle" fill="#7cb9ff" font-size="22" font-weight="600">EVOLVING THROUGH GUIDED INQUIRY</text>
+  <text x="600" y="635" text-anchor="middle" fill="#ffffff" font-size="17">Not a search engine. Not a chatbot. A structured path through curated knowledge.</text>
+
+  <!-- Visual flow at bottom showing the evolution -->
+  <g transform="translate(250, 700)">
+    <rect x="0" y="0" width="120" height="40" rx="6" fill="url(#questionGrad)" stroke="#3b82f6" stroke-width="1"/>
+    <text x="60" y="25" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="500">Question</text>
+
+    <text x="145" y="25" fill="#7cb9ff" font-size="20">→</text>
+
+    <rect x="170" y="0" width="120" height="40" rx="6" fill="#1e3a5c" stroke="#7cb9ff" stroke-width="1"/>
+    <text x="230" y="25" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="500">Answer</text>
+
+    <text x="315" y="25" fill="#7cb9ff" font-size="20">→</text>
+
+    <rect x="340" y="0" width="120" height="40" rx="6" fill="url(#questionGrad)" stroke="#3b82f6" stroke-width="1"/>
+    <text x="400" y="25" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="500">+ Questions</text>
+
+    <text x="485" y="25" fill="#14b8a6" font-size="20">→</text>
+
+    <rect x="510" y="0" width="120" height="40" rx="6" fill="url(#contextGrad)" stroke="#14b8a6" stroke-width="1"/>
+    <text x="570" y="25" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="500">+ Links</text>
+
+    <text x="655" y="25" fill="#7cb9ff" font-size="20">→</text>
+
+    <text x="700" y="28" fill="#7cb9ff" font-size="24" font-weight="600">∞</text>
+  </g>
+</svg>

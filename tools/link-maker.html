@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Maker</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #2196F3;
+            box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+        }
+        .button-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        button {
+            flex: 1;
+            padding: 12px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-html {
+            background: #2196F3;
+            color: white;
+        }
+        .btn-html:hover {
+            background: #1976D2;
+        }
+        .btn-markdown {
+            background: #4CAF50;
+            color: white;
+        }
+        .btn-markdown:hover {
+            background: #388E3C;
+        }
+        .btn-bbcode {
+            background: #FF9800;
+            color: white;
+        }
+        .btn-bbcode:hover {
+            background: #F57C00;
+        }
+        .output-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .output-label {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        .output {
+            font-family: monospace;
+            font-size: 14px;
+            word-break: break-all;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 4px;
+            min-height: 40px;
+        }
+        .copied {
+            color: #4CAF50;
+            font-size: 14px;
+            margin-top: 10px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .copied.show {
+            opacity: 1;
+        }
+        .preview {
+            margin-top: 15px;
+            padding: 10px;
+            background: #fff;
+            border: 1px dashed #ccc;
+            border-radius: 4px;
+        }
+        .preview-label {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Link Maker</h1>
+
+    <label for="linkText">Link Text</label>
+    <input type="text" id="linkText" placeholder="Enter the text to display" autofocus>
+
+    <label for="linkUrl">URL</label>
+    <input type="text" id="linkUrl" placeholder="Paste your URL here">
+
+    <div class="button-row">
+        <button class="btn-html" onclick="copyLink('html')">Copy HTML</button>
+        <button class="btn-markdown" onclick="copyLink('markdown')">Copy Markdown</button>
+        <button class="btn-bbcode" onclick="copyLink('bbcode')">Copy BBCode</button>
+    </div>
+
+    <div class="output-section">
+        <div class="output-label">Generated Link:</div>
+        <div class="output" id="output"></div>
+        <div class="copied" id="copied">Copied to clipboard!</div>
+    </div>
+
+    <div class="preview">
+        <div class="preview-label">Preview:</div>
+        <div id="preview"></div>
+    </div>
+
+    <script>
+        const linkText = document.getElementById('linkText');
+        const linkUrl = document.getElementById('linkUrl');
+        const output = document.getElementById('output');
+        const preview = document.getElementById('preview');
+        const copied = document.getElementById('copied');
+
+        function generateLink(format) {
+            const text = linkText.value.trim();
+            const url = linkUrl.value.trim();
+
+            if (!text || !url) {
+                return '';
+            }
+
+            switch(format) {
+                case 'html':
+                    return `<a href="${url}">${text}</a>`;
+                case 'markdown':
+                    return `[${text}](${url})`;
+                case 'bbcode':
+                    return `[url=${url}]${text}[/url]`;
+                default:
+                    return '';
+            }
+        }
+
+        function copyLink(format) {
+            const link = generateLink(format);
+
+            if (!link) {
+                output.textContent = 'Please enter both text and URL';
+                return;
+            }
+
+            output.textContent = link;
+            preview.innerHTML = `<a href="${linkUrl.value.trim()}" target="_blank">${linkText.value.trim()}</a>`;
+
+            navigator.clipboard.writeText(link).then(() => {
+                copied.classList.add('show');
+                setTimeout(() => {
+                    copied.classList.remove('show');
+                }, 2000);
+            });
+        }
+
+        // Update preview as you type
+        function updatePreview() {
+            const text = linkText.value.trim();
+            const url = linkUrl.value.trim();
+
+            if (text && url) {
+                preview.innerHTML = `<a href="${url}" target="_blank">${text}</a>`;
+            } else if (text) {
+                preview.textContent = text;
+            } else {
+                preview.innerHTML = '';
+            }
+        }
+
+        linkText.addEventListener('input', updatePreview);
+        linkUrl.addEventListener('input', updatePreview);
+
+        // Allow Enter key to copy HTML (most common)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                copyLink('html');
+            }
+        });
+    </script>
+</body>
+</html>

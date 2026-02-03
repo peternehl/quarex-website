@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Studies Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 15-course Women's Studies syllabus. Free, open curriculum covering feminism, history, law, health, media, global rights, and more. 215 chapters of university-level content.">
+    <meta name="keywords" content="women's studies syllabus, free women's studies course, feminism curriculum, gender studies online, open education">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/WomensStudiesSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/WomensStudiesSyllabus.html">
+    <meta property="og:title" content="Women's Studies Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 15-course Women's Studies syllabus. 215 chapters of free, university-level content.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Women's Studies Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 15-course Women's Studies syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #F59E0B;
+            --accent-hover: #D97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* ── Header ── */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* ── Syllabus Hero ── */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* ── Section Headers ── */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* ── Course Cards ── */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before {
+            transform: rotate(90deg);
+        }
+        .course summary:hover {
+            background: var(--accent-soft);
+        }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .course-note {
+            color: var(--muted);
+            font-size: 0.82rem;
+            font-style: italic;
+            padding: 0 24px 16px 60px;
+            border-top: 1px solid var(--line);
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+            .course-note { padding: 0 16px 12px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://election2026.net/" target="_blank">Election 2026</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>Women's Studies</em> Syllabus</h1>
+            <p class="syllabus-intro">A complete, free curriculum covering the history, theory, law, institutions, culture, and politics of gender. Fifteen courses. Two hundred and fifteen chapters. University-level content, open to everyone.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">15</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">215</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">1,290</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- ═══ FOUNDATIONS ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Foundations</h2>
+                <p class="section-desc">What feminism is, where it came from, and the centuries of struggle that built the movement.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">What is Feminism?</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Foundations and Definitions</li>
+                        <li>The First Wave: Suffrage and Legal Personhood</li>
+                        <li>The Second Wave: Personal Politics and Systemic Change</li>
+                        <li>The Third Wave: Identity, Intersectionality, and Inclusion</li>
+                        <li>The Fourth Wave: Digital Activism and #MeToo</li>
+                        <li>Major Feminist Theories and Frameworks</li>
+                        <li>Feminism and the Body</li>
+                        <li>Feminism, Race, and Intersecting Oppressions</li>
+                        <li>Feminism and Gender Beyond the Binary</li>
+                        <li>Feminism in the Workplace and Economy</li>
+                        <li>Feminism and Family</li>
+                        <li>Global Feminism and Human Rights</li>
+                        <li>Feminism, Media, and Representation</li>
+                        <li>Anti-Feminism and Backlash</li>
+                        <li>The Future of Feminism</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/what-is-feminism" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Women's Rights: Centuries of Struggle</span>
+                    <span class="course-chapters">14 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Before Feminism: Women's Legal Status in Early America</li>
+                        <li>The Birth of Organized Feminism: Seneca Falls and Beyond</li>
+                        <li>The Long Road to Suffrage</li>
+                        <li>Beyond the Vote: First Wave Achievements</li>
+                        <li>The Quiet Years and Seeds of Revival: 1920&ndash;1960</li>
+                        <li>The Second Wave: Women's Liberation</li>
+                        <li>Reproductive Rights: The Battle Over Women's Bodies</li>
+                        <li>Workplace Equality: Breaking the Glass Ceiling</li>
+                        <li>Intersectionality: Race, Class, and Feminism</li>
+                        <li>Third Wave and Beyond: New Generations of Feminism</li>
+                        <li>#MeToo and the Reckoning Over Sexual Violence</li>
+                        <li>Women in Politics: Representation and Power</li>
+                        <li>Global Perspectives: Women's Rights Around the World</li>
+                        <li>The Current Moment: Progress, Backlash, and Unfinished Business</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-sciences/history-and-anthropology/womens-rights-centuries-of-struggle" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ HISTORY AND POLITICAL POWER ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">History and Political Power</h2>
+                <p class="section-desc">How women fought for, won, and were denied political power &mdash; told through movements and individual lives.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Women in American Politics</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Women in Early American Political Life Before Suffrage</li>
+                        <li>After the Vote: Why Suffrage Did Not Lead to Political Power</li>
+                        <li>The First Women Elected to the United States Congress</li>
+                        <li>How Political Parties Have Controlled Women's Access to Power</li>
+                        <li>Campaign Finance and the Gender Gap in Political Fundraising</li>
+                        <li>How the Media Covers Women Running for Office</li>
+                        <li>The Likability Trap: Why Women Candidates Are Judged Differently</li>
+                        <li>Women of Color and the Double Bind in American Politics</li>
+                        <li>The Glass Cliff: Why Women Lead When Failure Is Likely</li>
+                        <li>Women as Governors and Executives in the United States</li>
+                        <li>Women on the Supreme Court and the Judiciary</li>
+                        <li>Backlash Politics: Organized Resistance to Women in Power</li>
+                        <li>Where Gender Parity Exists in American Politics and Why</li>
+                        <li>How Other Democracies Achieved Political Parity for Women</li>
+                        <li>What Real Political Parity Would Require in the United States</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-american-politics" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Eleanor Roosevelt</span>
+                    <span class="course-chapters">1 ch.</span>
+                </summary>
+                <p class="course-note">A standalone biographical chapter within the Franklin D. Roosevelt biography, examining Eleanor Roosevelt's life, activism, and legacy on her own terms.</p>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Eleanor Roosevelt: A Life of Her Own</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/biographies/political-biographies/franklin-d-roosevelt-a-biography/eleanor-roosevelt-a-life-of-her-own" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Ruth Bader Ginsburg: A Biography</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Brooklyn, Class, and the Forces That Shaped a Future Justice</li>
+                        <li>Harvard, Columbia, and What It Meant to Study Law as a Woman in the 1950s</li>
+                        <li>Motherhood, Career, and the Double Burden That Became a Source of Argument</li>
+                        <li>The ACLU Women's Rights Project and the Decision to Change the Law Case by Case</li>
+                        <li>The Thurgood Marshall Model: How Ginsburg Built a Legal Strategy of Incremental Persuasion</li>
+                        <li>The Cases That Changed the Law: Reed, Frontiero, Weinberger, and the Architecture of Equal Protection</li>
+                        <li>From Advocate to Judge: The DC Circuit and the Shift from Arguing to Deciding</li>
+                        <li>The Clinton Appointment and What It Took to Put a Women's Rights Litigator on the Supreme Court</li>
+                        <li>Judicial Philosophy: How Ginsburg Approached the Constitution, Precedent, and the Pace of Change</li>
+                        <li>Majority Opinions That Moved the Law: VMI, Ledbetter, and the Reach of Equal Protection</li>
+                        <li>The Dissents That Became Her Legacy: Shelby County, Hobby Lobby, and Speaking to the Future</li>
+                        <li>One of Nine: Gender Dynamics on the Supreme Court and What Changes When Women Are in the Room</li>
+                        <li>Notorious RBG: How a Legal Strategist Became a Pop Culture Icon and What That Visibility Accomplished and Obscured</li>
+                        <li>Critiques, Limits, and the Cost of Incrementalism: What Ginsburg's Approach Could Not Reach</li>
+                        <li>What Ginsburg Changed, What Remains Vulnerable, and What Her Strategy Teaches About Law as a Tool of Social Change</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/biographies/political-biographies/ruth-bader-ginsburg-a-biography" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ DEEPENING THE FRAMEWORK ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Deepening the Framework</h2>
+                <p class="section-desc">Expanding the analysis beyond gender alone &mdash; how race, class, sexuality, and other identities compound inequality and challenge feminism's own assumptions.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Intersectionality: Race, Gender, and Power</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Single-Axis Feminism Fails to Explain Real Women's Lives</li>
+                        <li>How Kimberl&eacute; Crenshaw and the Combahee River Collective Built Intersectional Theory</li>
+                        <li>Black Women and the Origins of Double Exclusion in America</li>
+                        <li>Latina Feminism and the Politics of Language, Labor, and Citizenship</li>
+                        <li>Indigenous Women, Erasure, and the Feminism That Colonialism Forgot</li>
+                        <li>Asian American Women and the Stereotypes That Render Power Invisible</li>
+                        <li>How Class and Economic Stratification Divide Women Against Each Other</li>
+                        <li>Disability, Gender, and the Body That Feminism Overlooked</li>
+                        <li>Immigration Status as a Tool of Gender Control</li>
+                        <li>How Policing and Criminalization Target Women at the Intersection of Race and Gender</li>
+                        <li>Healthcare Disparities That Exist Only at the Intersections</li>
+                        <li>Media Invisibility and Who Gets to Represent Women's Experience</li>
+                        <li>Why Policy Built on a Single Axis Fails the Women Who Need It Most</li>
+                        <li>How Intersectionality Has Been Co-opted, Diluted, and Weaponized</li>
+                        <li>What Building a Genuinely Inclusive Feminist Movement Would Require</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/intersectionality-race-gender-and-power" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Queer Feminism and Gender</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Sex, Gender, and the Distinction That Changed Everything</li>
+                        <li>Feminism and LGBTQ+ History: Shared Roots, Divergent Paths</li>
+                        <li>Lesbian Feminism: The Movement That Challenged Heterosexual Assumptions Within Feminism Itself</li>
+                        <li>Trans Feminism: What Happens When Feminism Takes Gender Self-Determination Seriously</li>
+                        <li>Queer Theory: Destabilizing the Categories That Organize Power</li>
+                        <li>TERFs, SWERFs, and the Policing of Feminist Boundaries</li>
+                        <li>Identity as Strategy: How Categories That Liberate Can Also Constrain</li>
+                        <li>Legal Recognition: Marriage, Gender Markers, and the Limits of Rights-Based Inclusion</li>
+                        <li>Healthcare Beyond Gatekeeping: Trans Medicine, Reproductive Justice, and Bodily Autonomy</li>
+                        <li>Visibility and Its Discontents: Queer Representation in Media and Culture</li>
+                        <li>Queer Youth, Schools, and the Battle Over Who Children Are Allowed to Be</li>
+                        <li>Global Queer Movements: Solidarity Across Radically Different Legal and Cultural Contexts</li>
+                        <li>Coalition Without Erasure: Building Solidarity Across Difference</li>
+                        <li>The Anti-Gender Movement: How Opposition to Queer and Trans Rights Became a Global Political Strategy</li>
+                        <li>What Feminism Becomes When It Stops Policing Gender</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/queer-feminism-and-gender" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ INSTITUTIONS AND STRUCTURES ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Institutions and Structures</h2>
+                <p class="section-desc">How workplaces, science, technology, and family structures produce and reproduce gender inequality.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Women and the Workplace</span>
+                    <span class="course-chapters">16 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How Women Worked Before Industrialization Changed the Economy</li>
+                        <li>Factories, Exploitation, and the First Women Who Fought Back</li>
+                        <li>How Office Work Became Women's Work and Lost Status Because of It</li>
+                        <li>Women in World War II and the Forced Return to Domesticity</li>
+                        <li>The Myth of Meritocracy in the American Workplace</li>
+                        <li>Occupational Segregation: Why Entire Professions Lose Value When Women Fill Them</li>
+                        <li>The Motherhood Penalty and How It Shapes Women's Careers</li>
+                        <li>The Gender Pay Gap: What the Data Actually Shows and What It Hides</li>
+                        <li>Harassment, Power, and the Structures That Protect Abusers at Work</li>
+                        <li>Care Work and the Invisibility of Labor That Holds Society Together</li>
+                        <li>Corporate Feminism and the Limits of Leaning In</li>
+                        <li>The Manosphere and Organized Backlash Against Women in the Workplace</li>
+                        <li>How the Gig Economy Creates New Forms of Gender Inequality</li>
+                        <li>Remote Work and Whether It Helps or Hurts Women in the Workforce</li>
+                        <li>Why Unionization Has Always Mattered More for Women Workers</li>
+                        <li>What Structural Reform of the American Workplace Would Actually Require</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-the-workplace" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">Women in Science and Technology</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Who Was Allowed to Do Science: How Women Were Systematically Excluded from Knowledge Production</li>
+                        <li>The Women Who Were Erased: Hidden Contributions That Built Modern Science and Technology</li>
+                        <li>How Computing Went from Women's Work to Boys' Club &mdash; and What That Reversal Reveals</li>
+                        <li>The Meritocracy Myth: How Objectivity Rhetoric in STEM Masks Structural Bias</li>
+                        <li>The Pipeline Metaphor and Why It Misdiagnoses the Problem of Women Leaving STEM</li>
+                        <li>How Classrooms Teach Girls They Don't Belong in Science Before They Ever Reach a Lab</li>
+                        <li>Hostile Climates: Sexual Harassment, Isolation, and the Culture That Pushes Women Out of STEM</li>
+                        <li>The Pay Gap, the Patent Gap, and Who Gets Credit for Scientific and Technical Work</li>
+                        <li>Tech Bro Ideology: How Silicon Valley Built a Culture of Exclusion and Called It Disruption</li>
+                        <li>How AI Systems Encode and Automate Gender Bias at Scale</li>
+                        <li>Venture Capital, Startup Culture, and Why Women's Ideas Are Systematically Underfunded</li>
+                        <li>Global STEM Access: Who Gets to Do Science When Education and Resources Are Unequally Distributed</li>
+                        <li>Women Who Built Their Own Networks: Resistance, Mentorship, and Alternative Institutions</li>
+                        <li>What Policy Interventions Actually Work &mdash; and Which Are Performative Gestures</li>
+                        <li>What Science and Technology Would Look Like If the People Building Them Reflected the People Using Them</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-science-and-technology" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Motherhood, Family, and Gender Roles</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Myth of Maternal Instinct and Why Biology Does Not Dictate Who Cares for Children</li>
+                        <li>The Family Has Never Been One Thing: How Households Have Changed Across History and Culture</li>
+                        <li>Marriage as an Economic Contract: What the Institution Was Actually Designed to Do</li>
+                        <li>The Disappearing Self: How Motherhood Is Expected to Replace Rather Than Expand a Woman's Identity</li>
+                        <li>Why Fatherhood Is Optional and Motherhood Is Mandatory: The Asymmetry That Shapes Everything</li>
+                        <li>Single Mothers and the Political Mythology of the Broken Home</li>
+                        <li>Parental Leave, Childcare, and Welfare: How Policy Punishes Mothers While Claiming to Support Families</li>
+                        <li>Why the Work of Raising Children Is Not Valued as Work &mdash; and What That Reveals About Whose Labor Counts</li>
+                        <li>The Invisible Shift: Emotional Labor, Household Management, and the Work That Never Appears on a Resume</li>
+                        <li>The Myth of Choice: How Economic Pressure, Social Expectations, and Policy Failures Make Motherhood Feel Inevitable</li>
+                        <li>The Good Mother Myth: How Media, Religion, and Culture Police What Motherhood Is Supposed to Look Like</li>
+                        <li>Whose Family Is Normal: How Race Has Shaped Which Families Are Supported and Which Are Punished</li>
+                        <li>Queer Families and the Proof That Caregiving Has Never Required a Mother and a Father</li>
+                        <li>The Other End of Caregiving: Why Elder Care Falls on Daughters and What It Costs Them</li>
+                        <li>What Families Could Be If Society Stopped Pretending There Was Only One Right Way</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/motherhood-family-and-gender-roles" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ VIOLENCE AND THE BODY ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Violence and the Body</h2>
+                <p class="section-desc">Gender-based violence, the politics of women's health, and the contested terrain of bodily autonomy.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">Women and Violence</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Gender-Based Violence Is and Why It Must Be Understood as Structural</li>
+                        <li>Domestic Violence: The Myths That Keep the System Failing</li>
+                        <li>Sexual Assault: What the Data Actually Shows Versus What People Believe</li>
+                        <li>Why Sexual Violence Is About Power and Control, Not Desire</li>
+                        <li>How Law Enforcement Fails Victims of Gender-Based Violence</li>
+                        <li>Courts, Credibility, and Why the Legal System Is Built to Doubt Women</li>
+                        <li>Economic Dependency and Why Women Cannot Simply Leave</li>
+                        <li>Trafficking, Exploitation, and the Violence Hidden in Plain Sight</li>
+                        <li>Online Abuse and the Digital Escalation of Gender-Based Violence</li>
+                        <li>Sexual Violence as a Weapon of War and State Control</li>
+                        <li>How Culture Normalizes Violence Against Women Before It Happens</li>
+                        <li>Which Women's Violence Counts: Race, Visibility, and Whose Harm Is Ignored</li>
+                        <li>What Actually Prevents Gender-Based Violence Before It Occurs</li>
+                        <li>Survivor-Centered Justice and Alternatives to the Criminal System</li>
+                        <li>What Real Accountability for Gender-Based Violence Would Require</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-violence" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">Women's Health and Body Politics</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How Medicine Was Built Around the Male Body and Why Women Still Pay the Price</li>
+                        <li>Why Women's Pain Is Dismissed, Undertreated, and Disbelieved by the Medical System</li>
+                        <li>The Bodies They Experimented On: How Medical Progress Was Built on the Exploitation of Women</li>
+                        <li>The Medicalization of Reproduction: How the Healthcare System Took Control of Women's Bodies</li>
+                        <li>Who Controls Childbirth: How the Medicalization of Birth Removed Women from Decisions About Their Own Bodies</li>
+                        <li>Who Controls Contraception: Research, Access, and Why There Is Still No Male Pill</li>
+                        <li>From Hysteria to Overmedication: How Psychiatry Has Pathologized Women's Emotions and Experiences</li>
+                        <li>Why Black Women Die: Maternal Mortality, Pain Dismissal, and the Racial Architecture of American Healthcare</li>
+                        <li>How the Economics of Healthcare &mdash; Insurance, Cost, and Access &mdash; Affect Women Differently Than Men</li>
+                        <li>Disabled Women and the Medical Paternalism That Controls Rather Than Serves</li>
+                        <li>Weight, Eating Disorders, and the Medical System's Role in Policing Women's Bodies</li>
+                        <li>Trans Healthcare and the Politicization of Gender-Affirming Medicine</li>
+                        <li>Bodily Autonomy Beyond Abortion: Forced Cesareans, Pregnancy Policing, and the Law's Claim on Women's Bodies</li>
+                        <li>Menopause, Aging, and the Medical System That Loses Interest in Women After Reproduction</li>
+                        <li>What Healthcare Designed for Women Would Actually Look Like</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/womens-health-and-body-politics" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">13</span>
+                    <span class="course-title">How Abortion Became a Political Wedge</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Before the Partisan Divide</li>
+                        <li>How the Parties Chose Sides</li>
+                        <li>The Courts as Battleground</li>
+                        <li>Single-Issue Voting and Electoral Impact</li>
+                        <li>Money, Mobilization, and Activist Networks</li>
+                        <li>The War of Words: Framing and Messaging</li>
+                        <li>Media Coverage and Public Opinion</li>
+                        <li>How Other Democracies Handle Abortion Politics</li>
+                        <li>The Polarization Feedback Loop</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ CULTURE AND THE GLOBAL FRAME ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Culture and the Global Frame</h2>
+                <p class="section-desc">How media constructs gender, and how women's rights operate across radically different global contexts.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">14</span>
+                    <span class="course-title">Gender, Media, and Representation</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How Media Constructs Gender: The Stories That Shape What Women Are Allowed to Be</li>
+                        <li>The Male Gaze and Who the Camera Has Always Served</li>
+                        <li>Early Film and the Gender Archetypes That Still Define Hollywood</li>
+                        <li>Advertising, Objectification, and the Commercial Value of Women's Bodies</li>
+                        <li>How News Organizations Frame Women as Subjects Rather Than Sources</li>
+                        <li>Why Women Are Rarely Quoted as Experts and What That Absence Teaches the Public</li>
+                        <li>The Sexualization Trap: Why Authority and Attractiveness Are Treated as Opposites for Women</li>
+                        <li>Race, Representation, and Which Women Get to Be Seen in Media</li>
+                        <li>How LGBTQ+ Women Have Been Portrayed, Erased, and Reclaimed in Media</li>
+                        <li>Reality Television and the Gendered Spectacle of Reward and Punishment</li>
+                        <li>Who Controls Production: Ownership, Gatekeeping, and the Business of Representation</li>
+                        <li>Social Media Algorithms and the Automated Reinforcement of Gender Stereotypes</li>
+                        <li>Influencer Culture and the New Economics of Performing Womanhood</li>
+                        <li>Violence Against Women as Entertainment and What Audiences Are Being Taught</li>
+                        <li>What It Would Take to Build a Media-Literate Society That Sees Through Gendered Representation</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">15</span>
+                    <span class="course-title">Global Women's Rights</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Universal Rights Versus Cultural Context: The Central Tension of Global Women's Rights</li>
+                        <li>Why Girls' Access to Education Remains the Most Powerful Predictor of Gender Equality</li>
+                        <li>Child Marriage: Where Poverty, Tradition, and Gender Inequality Converge</li>
+                        <li>Reproductive Autonomy Around the World: Who Controls Women's Bodies and Why</li>
+                        <li>How Global Supply Chains Depend on the Exploitation of Women's Labor</li>
+                        <li>War, Displacement, and What Happens to Women's Rights When States Collapse</li>
+                        <li>Secular, Religious, and Customary Legal Systems and How They Define Women's Legal Personhood</li>
+                        <li>Religion and Women's Rights: Oppression, Liberation, and the Debate Within Every Tradition</li>
+                        <li>Western Feminism's Blind Spots and the Damage of Assuming One Model Fits All</li>
+                        <li>Grassroots Women's Movements That Succeeded Without Western Funding or Permission</li>
+                        <li>NGOs and the Development Industry: When Help Becomes Its Own Form of Control</li>
+                        <li>Migration, Gender, and the Specific Vulnerabilities of Women Who Cross Borders</li>
+                        <li>Climate Change and Why Its Worst Effects Fall Disproportionately on Women</li>
+                        <li>International Law and Whether Legal Frameworks Like CEDAW Actually Protect Women</li>
+                        <li>Solidarity Without Saviorism: What Genuine Global Feminist Partnership Would Require</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/global-womens-rights" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">A Curiosity Engine for the public good.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/">Quarex</a>
+                <a href="https://election2026.net/">Election 2026</a>
+                <a href="https://takeamericabackagain.net/">TABA</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. All content is free and open.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

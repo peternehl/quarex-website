@@ -1,0 +1,28 @@
+{
+  "book": "South Dakota",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Larry Rhoden (R)",
+        "Toby Doeden (R)",
+        "Jon Hansen (R)",
+        "Dusty Johnson (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Robert Arnold (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Terry Gleason (I)",
+        "Scott Morris (I)",
+        "Allison Renville (I)"
+      ]
+    }
+  ]
+}

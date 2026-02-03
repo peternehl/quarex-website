@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- (Optional) Perf hints -->
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+
+  <!-- GA4 tag: put this high in the head -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDC9LXYF5J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZDC9LXYF5J');  <!-- this is the normal line, no debug_mode -->
+ 
+ </script>
+	
+	<title>Take America Back Again – TABA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        /* General Setup & Colors */
+        :root {
+            --color-primary: #1a233b; /* Deep Navy/Dark Blue */
+            --color-secondary: #f0f0f0; /* Off-White/Light Gray */
+            --color-gold: #FFD700; /* Gold Accent */
+            --color-text: #ffffff; /* White Text */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--color-primary);
+            color: var(--color-text);
+            line-height: 1.6;
+        }
+
+        /* Utility Classes */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Buttons & CTAs */
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin-top: 20px;
+            background-color: var(--color-gold);
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #e6c500; /* Darker Gold */
+        }
+
+        /* Header & Navigation */
+        .header {
+            background-color: var(--color-primary);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid var(--color-gold);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-text {
+            color: var(--color-gold);
+            font-size: 1.5em;
+            font-weight: 900;
+            text-decoration: none;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: none; /* Hide by default for mobile */
+        }
+
+        .nav-menu.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background-color: var(--color-primary);
+            border-top: 1px solid var(--color-gold);
+        }
+
+        .nav-menu li a {
+            color: var(--color-text);
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+        .nav-menu li a:hover {
+            color: var(--color-gold);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .hamburger {
+            display: block;
+            cursor: pointer;
+            font-size: 1.5em;
+            color: var(--color-gold);
+        }
+
+        /* Desktop Navigation (larger screens) */
+        @media (min-width: 768px) {
+            .hamburger {
+                display: none;
+            }
+            .nav-menu {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                width: auto;
+                background-color: transparent;
+            }
+            .nav-menu li a {
+                padding: 10px 15px;
+            }
+        }
+
+        /* Main Content Sections */
+        .main-section {
+            padding: 80px 0;
+            min-height: 80vh;
+            display: none; /* Hidden by default, JS handles display */
+        }
+        
+        .main-section.active {
+            display: block;
+        }
+
+        /* Section 1: Hero */
+        #home {
+            text-align: center;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero-banner {
+            position: relative;
+            background: url('TABA in Bold Gold Letters with Boot the Billionaires 1920x1080-cropped.jpg') center/contain no-repeat; /* Replace with your image upload */
+            padding: 100px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-height: 40vh;
+        }
+        
+        .hero-banner::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-placeholder {
+            font-size: 3em;
+            color: var(--color-gold);
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.5em;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        .featured-video {
+            padding: 50px 0;
+            text-align: left;
+        }
+
+        .video-embed {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .video-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .quick-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 40px 0;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .quick-link-item {
+            display: block;
+            background-color: var(--color-primary);
+            border: 2px solid var(--color-gold);
+            color: var(--color-gold);
+            text-align: center;
+            padding: 20px 10px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .quick-link-item:hover {
+            background-color: var(--color-gold);
+            color: var(--color-primary);
+        }
+
+        @media (min-width: 768px) {
+            .quick-links {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .quick-link-item {
+                flex: 1;
+                margin: 0 10px;
+            }
+            .hero-banner {
+                min-height: 60vh;
+            }
+            .logo-placeholder {
+                font-size: 4em;
+            }
+            .tagline {
+                font-size: 2em;
+            }
+        }
+        
+        /* Section 2: Videos */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .video-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .video-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .video-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .video-card a {
+            color: var(--color-text);
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            font-weight: bold;
+        }
+
+        /* Section 3: Store */
+        #store {
+            text-align: center;
+        }
+        
+        .store-pitch {
+            max-width: 600px;
+            margin: 30px auto;
+        }
+
+        .product-mockup {
+            width: 100%;
+            max-width: 400px;
+            height: 400px; /* Placeholder size */
+            background-color: var(--color-secondary);
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-primary);
+            font-weight: bold;
+            border: 5px solid var(--color-gold);
+        }
+
+        /* Section 4: Resources */
+        .resource-category {
+            margin-bottom: 40px;
+        }
+        
+        .resource-category h3 {
+            border-bottom: 2px solid var(--color-gold);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            color: var(--color-gold);
+        }
+
+        .resource-list {
+            list-style: none;
+        }
+
+        .resource-list li {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-left: 5px solid var(--color-gold);
+        }
+
+        .resource-list li a {
+            color: var(--color-gold);
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+        }
+
+        .resource-list li span {
+            display: block;
+            font-size: 0.9em;
+            color: var(--color-secondary);
+        }
+
+        /* Section 5: About */
+        #about p {
+            margin-bottom: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Section 6: Contact */
+        .contact-form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #0d121c;
+            color: var(--color-text);
+            border-radius: 4px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+        }
+        
+        .form-cta {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #0d121c;
+            padding: 30px 0;
+            text-align: center;
+            border-top: 2px solid var(--color-gold);
+        }
+
+        .footer-links a {
+            color: var(--color-gold);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: var(--color-text);
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: var(--color-gold);
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo-text" onclick="showSection('home')">TABA</a>
+            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#videos" onclick="showSection('videos')">Videos</a></li>
+                <li><a href="https://takeamericabackagain.bigcartel.com/" target="_blank">Store <i class="fas fa-external-link-alt"></i></a></li>
+                <li><a href="https://election2026.net/" target="_blank">Election 2026 <i class="fas fa-external-link-alt"></i></a></li>
+                <li><a href="#resources" onclick="showSection('resources')">Resources</a></li>
+                <li><a href="#about" onclick="showSection('about')">About</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="home" class="main-section active">
+            <div class="hero-banner">
+                <div class="hero-content container">
+                    <div class="logo-placeholder">TABA</div>
+                    <h1 class="tagline">“Take America Back Again – One Truth at a Time”</h1>
+                    <a href="#featured-video-anchor" class="cta-button">Watch the Latest Video</a>
+                </div>
+            </div>
+
+            <div class="featured-video container" id="featured-video-anchor">
+                <h2>Featured Video</h2>
+                <div class="video-embed">
+                    <iframe 
+                        src="https://www.youtube-nocookie.com/embed?listType=playlist&list=UU32a2tjey5zQ_JpQnUNBcJw&disablekb=1&rel=0"  
+                        title="YouTube video player" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+						frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                    ></iframe>
+                </div>
+                <p>A short description of the latest video here. This video tackles [Topic] and reveals [Insight].</p>
+                <a href="#videos" onclick="showSection('videos')" class="cta-button" style="background-color: var(--color-primary); border: 1px solid var(--color-gold); color: var(--color-gold);">View Full Video Library →</a>
+            </div>
+
+            <div class="quick-links container">
+                <a href="#videos" onclick="showSection('videos')" class="quick-link-item">🎥 Watch More Videos</a>
+                <a href="https://election2026.net/" target="_blank" class="quick-link-item">🗳️ Know Your 2026 Candidates</a>
+                <a href="https://takeamericabackagain.bigcartel.com/" target="_blank" class="quick-link-item">🧢 Get the TABA Hat</a>
+                <a href="#resources" onclick="showSection('resources')" class="quick-link-item">📚 Learn & Take Action</a>
+            </div>
+        </section>
+
+<section id="videos" class="main-section">
+  <div class="container">
+    <h2>🎥 TABA Video Hub</h2>
+    <p>A hub for all published content — easy to browse and binge. Click any title or thumbnail to watch on YouTube.</p>
+
+    <div class="video-grid">
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=hzTlbo3hVg8" target="_blank" data-yt-id="hzTlbo3hVg8">
+          <img src="https://img.youtube.com/vi/hzTlbo3hVg8/hqdefault.jpg"
+               alt="Social Media Massacre: How the Right is Dominating the Digital War"
+               loading="lazy">
+          Social Media Massacre: How the Right is Dominating the Digital War
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=VH7l-Py9GkY" target="_blank" data-yt-id="VH7l-Py9GkY">
+          <img src="https://img.youtube.com/vi/VH7l-Py9GkY/hqdefault.jpg"
+               alt="MAGA Bots Exposed: The Fake Army Flooding Your Social Media"
+               loading="lazy">
+          MAGA Bots Exposed: The Fake Army Flooding Your Social Media
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=9NDGeVHseW4" target="_blank" data-yt-id="9NDGeVHseW4">
+          <img src="https://img.youtube.com/vi/9NDGeVHseW4/hqdefault.jpg"
+               alt="Charlie Kirk's Murder: How Trump Turned Tragedy into Political Ammunition"
+               loading="lazy">
+          Charlie Kirk's Murder: How Trump Turned Tragedy into Political Ammunition
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=weYGScIfRVU" target="_blank" data-yt-id="weYGScIfRVU">
+          <img src="https://img.youtube.com/vi/weYGScIfRVU/hqdefault.jpg"
+               alt="Dictator Donald: How Donald Trump is Paving the Road to Dictatorship"
+               loading="lazy">
+          Dictator Donald: How Donald Trump is Paving the Road to Dictatorship
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=DbGhiHl2QGU" target="_blank" data-yt-id="DbGhiHl2QGU">
+          <img src="https://img.youtube.com/vi/DbGhiHl2QGU/hqdefault.jpg"
+               alt="Trump Inc: A Billionaire-Run Shadow Government"
+               loading="lazy">
+          Trump Inc: A Billionaire-Run Shadow Government
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=9gVZt4EnHbE" target="_blank" data-yt-id="9gVZt4EnHbE">
+          <img src="https://img.youtube.com/vi/9gVZt4EnHbE/hqdefault.jpg"
+               alt="What is MagaMind? The Shocking Reality Behind the Red Hat"
+               loading="lazy">
+          What is MagaMind? The Shocking Reality Behind the Red Hat
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=hX-AFGD-Z-I" target="_blank" data-yt-id="hX-AFGD-Z-I">
+          <img src="https://img.youtube.com/vi/hX-AFGD-Z-I/hqdefault.jpg"
+               alt="MAGA Mind - America's New Addiction! Revised and Updated!"
+               loading="lazy">
+          MAGA Mind - America's New Addiction! Revised and Updated!
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=i3YwFAxL4jk" target="_blank" data-yt-id="i3YwFAxL4jk">
+          <img src="https://img.youtube.com/vi/i3YwFAxL4jk/hqdefault.jpg"
+               alt="Bought by AIPAC: How U.S. Politicians Are Funding Gaza's Starvation"
+               loading="lazy">
+          Bought by AIPAC: How U.S. Politicians Are Funding Gaza's Starvation
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=QA9lUxu1G0A" target="_blank" data-yt-id="QA9lUxu1G0A">
+          <img src="https://img.youtube.com/vi/QA9lUxu1G0A/hqdefault.jpg"
+               alt="AIPAC's Power Players: Who's Hiding Gaza's Starvation"
+               loading="lazy">
+          AIPAC's Power Players: Who's Hiding Gaza's Starvation
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=9y1YeM7u9aE" target="_blank" data-yt-id="9y1YeM7u9aE">
+          <img src="https://img.youtube.com/vi/9y1YeM7u9aE/hqdefault.jpg"
+               alt="Rupert Murdoch: The Billionaire Who Poisoned America's Media"
+               loading="lazy">
+          Rupert Murdoch: The Billionaire Who Poisoned America's Media
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=c9yMC7RO_vQ" target="_blank" data-yt-id="c9yMC7RO_vQ">
+          <img src="https://img.youtube.com/vi/c9yMC7RO_vQ/hqdefault.jpg"
+               alt="Elon Musk: From Tech Savior to Tyrant | A Bad Billionaires Warning"
+               loading="lazy">
+          Elon Musk: From Tech Savior to Tyrant | A Bad Billionaires Warning
+        </a>
+      </div>
+
+      <div class="video-card">
+        <a href="https://www.youtube.com/watch?v=a23RbAEBCd4" target="_blank" data-yt-id="a23RbAEBCd4">
+          <img src="https://img.youtube.com/vi/a23RbAEBCd4/hqdefault.jpg"
+               alt="Miriam Adelson: From Healer to a Billionaire who starves children!"
+               loading="lazy">
+          Miriam Adelson: From Healer to a Billionaire who starves children!
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+.video-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.video-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+.video-card img:hover { transform: scale(1.03); }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const links = document.querySelectorAll('.video-card a[data-yt-id]');
+  links.forEach(link => {
+    const id = link.getAttribute('data-yt-id');
+    const img = link.querySelector('img');
+    if (!id || !img) return;
+
+    // Try to upgrade to a higher-res thumbnail if it really exists
+    const tryUrls = [
+      `https://i.ytimg.com/vi_webp/${id}/maxresdefault.webp`,
+      `https://img.youtube.com/vi/${id}/maxresdefault.jpg`
+    ];
+    let i = 0;
+    const probe = new Image();
+
+    function next() {
+      if (i >= tryUrls.length) return; // keep hqdefault
+      probe.src = tryUrls[i++];
+    }
+
+    probe.onload = function () {
+      // Guard against YouTube's tiny 120x90 placeholder
+      if (probe.naturalWidth >= 720 && probe.naturalHeight >= 405) {
+        img.src = probe.src;
+      }
+    };
+    probe.onerror = next;
+    next();
+  });
+});
+</script>
+
+
+
+
+
+        <section id="store" class="main-section">
+            <div class="container">
+                <h2>🧢 Get the TABA Hat</h2>
+                
+                <div class="product-mockup">
+                    Product Image / Mockup Placeholder
+                </div>
+                
+                <div class="store-pitch">
+                    <p>Wear it. Share it. Start the conversation.</p>
+                    <p>Every hat purchased helps support the production of more content aimed at taking America back. Show your support and spread the message.</p>
+                    
+                    <a href="https://takeamericabackagain.bigcartel.com/" target="_blank" class="cta-button">
+                        Visit the Store →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="main-section">
+            <div class="container">
+                <h2>📚 Recommended Resources</h2>
+                <p>Trustworthy news and voter information sites. Do your own research and take action.</p>
+
+                <div class="resource-category" style="background: rgba(13, 148, 136, 0.08); border: 2px solid #0d9488; border-radius: 12px; padding: 24px; margin-bottom: 40px;">
+                    <h3 style="color: #14b8a6; border-bottom-color: #14b8a6;">Quarex — AI-Powered Knowledge</h3>
+                    <ul class="resource-list">
+                        <li style="border-left-color: #14b8a6;"><a href="https://election2026.net/" target="_blank" style="color: #14b8a6;">Election 2026 — Know Your Candidates</a><span>Look up your 2026 House, Senate, and Governor candidates by zip code. Powered by Quarex.</span></li>
+                        <li style="border-left-color: #14b8a6;"><a href="https://quarex.org/" target="_blank" style="color: #14b8a6;">Quarex.org — A Curiosity Engine</a><span>Explore complex topics through structured, AI-powered questions. Living Books on politics, infrastructure, media, and more.</span></li>
+                    </ul>
+                </div>
+
+                <div class="resource-category">
+                    <h3>News & Journalism</h3>
+                    <ul class="resource-list">
+                        <li><a href="https://www.theguardian.com/" target="_blank">The Guardian</a><span>Independent, global news coverage.</span></li>
+                        <li><a href="https://apnews.com/" target="_blank">Associated Press</a><span>Non-profit news cooperative providing fast, unbiased global coverage.</span></li>
+                        <li><a href="https://www.reuters.com/" target="_blank">Reuters</a><span>International news agency known for comprehensive financial and global reporting.</span></li>
+                        <li><a href="https://www.propublica.org/" target="_blank">ProPublica</a><span>Independent, non-profit investigative journalism.</span></li>
+                        <li><a href="https://www.npr.org/" target="_blank">NPR</a><span>Public radio offering balanced news and cultural programming.</span></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-category">
+                    <h3>Civic Resources</h3>
+                    <ul class="resource-list">
+                        <li><a href="https://ballotpedia.org/" target="_blank">Ballotpedia</a><span>Free, non-partisan source for election and political information.</span></li>
+                        <li><a href="https://www.vote.org/" target="_blank">Vote.org</a><span>Helps US citizens register to vote, request absentee ballots, and check polling places.</span></li>
+                        <li><a href="https://www.fec.gov/" target="_blank">Federal Election Commission (FEC.gov)</a><span>Official source for campaign finance data and election law.</span></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-category">
+                    <h3>Fact-Checking / Analysis</h3>
+                    <ul class="resource-list">
+                        <li><a href="https://www.politifact.com/" target="_blank">PolitiFact</a><span>Fact-checks political statements using their 'Truth-O-Meter.'</span></li>
+                        <li><a href="https://www.factcheck.org/" target="_blank">FactCheck.org</a><span>Non-partisan consumer advocate for voters that aims to reduce deception and confusion.</span></li>
+                        <li><a href="https://www.info-res.org/" target="_blank">Centre For Information Resilience</a><span>Combats disinformation and works to expose influence operations globally.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="main-section">
+  <div class="container" style="text-align: center;">
+    <h2>About TABA & Our Mission</h2>
+    <p>
+      <strong>Take America Back Again (TABA)</strong> was born from one simple fact:
+      ordinary citizens deserve a voice as powerful as the billionaires shaping our politics.
+    </p>
+    <p>
+      We believe in rebuilding trust in democracy, restoring truth to public discourse,
+      and dismantling entrenched power structures that put profit over people.
+      Our mission is to cut through the noise, challenge the status quo, and empower every citizen
+      with the knowledge needed to reclaim our country’s future.
+    </p>
+    <p>
+      <strong>Join the movement!</strong> Watch and share our videos, explore our resources,
+      and start conversations in your community — because real change starts with us.
+    </p>
+    <a href="#contact" onclick="showSection('contact')" class="cta-button">
+      Send a Message or Subscribe Now
+    </a>
+  </div>
+</section>
+
+<style>
+.cta-button {
+  display: inline-block;
+  background-color: #007BFF; /* Bright Blue */
+  color: white;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #0056cc; /* Darker Blue on hover */
+  transform: translateY(-2px);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+</style>
+
+
+<section id="contact" class="main-section">
+  <div class="container">
+    <h2>Contact & Join Our Movement</h2>
+
+    <div class="contact-form-container">
+
+      <!-- CONTACT FORM -->
+      <h3>Send a Message or Tip</h3>
+      <form
+        action="https://formspree.io/f/xqayedee"
+        method="POST"
+        class="contact-form"
+      >
+        <p>Use this form to send feedback, tips, or express interest in volunteering.</p>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" required>
+
+        <label for="message">Message / Tip / Volunteer Interest</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <!-- Honeypot field to stop spam bots -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <!-- Redirect to thank-you page -->
+        <input type="hidden" name="_redirect" value="/thanks.html">
+
+        <button type="submit" class="cta-button form-cta">Send Message</button>
+      </form>
+
+      <!-- NEWSLETTER SIGNUP -->
+      <h3 style="margin-top: 40px;">Join the TABA Newsletter</h3>
+      <p>Don't miss a single truth. Sign up for exclusive updates and calls to action.</p>
+      <form
+        action="https://formspree.io/f/xyznkdkw"
+        method="POST"
+        class="newsletter-form"
+      >
+        <label for="newsletter-email">Email Address</label>
+        <input type="email" id="newsletter-email" name="_replyto" required>
+
+        <!-- Honeypot -->
+        <input type="text" name="_gotcha" style="display:none">
+
+        <!-- Redirect to thank-you page -->
+        <input type="hidden" name="_redirect" value="/thanks.html">
+
+        <button type="submit" class="cta-button form-cta">Subscribe</button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+
+<style>
+/* Optional form polish */
+.contact-form-container label { display:block; margin:.6rem 0 .25rem; font-weight:600; }
+.contact-form-container input[type="text"],
+.contact-form-container input[type="email"],
+.contact-form-container textarea {
+  width:100%; padding:.7rem .8rem; border:1px solid #d0d7de; border-radius:8px; font-size:1rem;
+}
+.contact-form-container textarea { resize:vertical; }
+.form-cta { margin-top: .9rem; }
+.form-status { margin-top:.6rem; font-size:.95rem; }
+.form-status.success { color:#1a7f37; }   /* green */
+.form-status.error   { color:#b42318; }   /* red  */
+</style>
+
+<script>
+/* Lightweight AJAX submit for Formspree with inline feedback */
+document.addEventListener('DOMContentLoaded', () => {
+  const forms = document.querySelectorAll('form[data-formspree]');
+  forms.forEach(form => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const status = form.querySelector('.form-status');
+      const btn = form.querySelector('button[type="submit"]');
+      status.className = 'form-status';
+      status.textContent = '';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          headers: { 'Accept': 'application/json' },
+          body: new FormData(form)
+        });
+
+        if (res.ok) {
+          form.reset();
+          status.classList.add('success');
+          status.textContent = 'Thanks! Your submission has been received.';
+        } else {
+          const data = await res.json().catch(() => ({}));
+          status.classList.add('error');
+          status.textContent = (data && data.errors && data.errors[0]?.message)
+            ? data.errors[0].message
+            : 'Sorry—there was a problem submitting the form.';
+        }
+      } catch (err) {
+        status.classList.add('error');
+        status.textContent = 'Network error. Please try again in a moment.';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  });
+});
+</script>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://election2026.net/" target="_blank">Election 2026</a>
+                <a href="https://takeamericabackagain.bigcartel.com/" target="_blank">Store</a>
+                <a href="#contact" onclick="showSection('contact')">Contact</a>
+                <a href="#about" onclick="showSection('about')">Mission</a>
+            </div>
+            <div style="margin-top: 12px;">
+                <a href="https://quarex.org/" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: #14b8a6; font-size: 0.85em;">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" width="24" height="24" style="border-radius: 50%;">
+                    <span>Powered by Quarex</span>
+                </a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@takeamericabackagain" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://x.com/TeamTABA" target="_blank" title="X / Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61577724564124" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.8em; color: #888;">&copy; 2026 Take America Back Again. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Function to toggle the mobile menu
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Function to show the selected section and hide others (Single Page App style)
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.main-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show the requested section
+            const activeSection = document.getElementById(sectionId);
+            if (activeSection) {
+                activeSection.classList.add('active');
+            }
+            
+            // Hide the mobile menu after clicking a link (on small screens)
+            const navMenu = document.getElementById('navMenu');
+            if (navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+            }
+            
+            // Scroll to the top of the content area
+            window.scrollTo({
+                top: document.querySelector('.header').offsetHeight,
+                behavior: 'smooth'
+            });
+        }
+
+        // Default to showing the home section on load
+        document.addEventListener('DOMContentLoaded', () => {
+            // Check if a hash is present in the URL (e.g., #videos)
+            const initialHash = window.location.hash.substring(1);
+            const initialSection = initialHash || 'home';
+            showSection(initialSection);
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "book": "FL-16",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Vern Buchanan (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jonathan Harris (D)",
+        "Glenn Pearson (D)",
+        "Jan Schneider (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Mark Davis (NPA)"
+      ]
+    }
+  ]
+}

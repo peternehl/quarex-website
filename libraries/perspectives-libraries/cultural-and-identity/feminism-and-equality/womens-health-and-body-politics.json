@@ -1,0 +1,268 @@
+{
+  "name": "Women's Health and Body Politics",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "women's health",
+    "medical bias",
+    "bodily autonomy",
+    "healthcare inequality",
+    "reproductive medicine"
+  ],
+  "chapters": [
+    {
+      "name": "How Medicine Was Built Around the Male Body and Why Women Still Pay the Price",
+      "topics": [
+        "Why were women systematically excluded from clinical trials, drug testing, and medical research for most of modern medical history — and what did that exclusion produce?",
+        "How does the fact that heart attack symptoms, drug dosages, pain thresholds, and diagnostic criteria were developed using male subjects mean that women receive less accurate diagnoses and less effective treatments?",
+        "What changed when the NIH mandated the inclusion of women in clinical research in 1993 — and why, three decades later, do significant gaps in sex-specific medical knowledge persist?",
+        "How does the assumption that the male body is the default and the female body is a variation produce systematic errors in everything from crash test safety to surgical techniques to pharmaceutical side effects?",
+        "Why does medical education still teach many conditions primarily through their male presentation — and what happens to women whose symptoms don't match the textbook?",
+        "What would medicine look like if it had been built around both bodies from the beginning — and what would it take to rebuild the knowledge base now?"
+      ],
+      "tags": [
+        "health",
+        "bias",
+        "gender",
+        "medicine"
+      ]
+    },
+    {
+      "name": "Why Women's Pain Is Dismissed, Undertreated, and Disbelieved by the Medical System",
+      "topics": [
+        "What does the research show about how long women wait in emergency rooms compared to men with identical symptoms — and why are women consistently less likely to receive pain medication, diagnostic testing, and specialist referrals?",
+        "How does the centuries-old association between women and hysteria continue to shape how doctors interpret women's pain — attributing physical symptoms to anxiety, stress, or emotional instability?",
+        "Why do conditions that disproportionately affect women — endometriosis, fibromyalgia, chronic fatigue syndrome, autoimmune disorders — take an average of seven to ten years to diagnose?",
+        "How does the dismissal of women's pain compound across race, with Black women's pain systematically undertreated due to racist myths about pain tolerance that persist in medical training?",
+        "What do women's accounts of being told their symptoms are 'in their head' reveal about whose testimony the medical system treats as credible — and whose it treats as suspect?",
+        "What structural changes — in medical education, clinical protocols, and accountability systems — would be required to close the gap between how men's and women's pain is treated?"
+      ],
+      "tags": [
+        "health",
+        "bias",
+        "gender",
+        "medicine"
+      ]
+    },
+    {
+      "name": "The Bodies They Experimented On: How Medical Progress Was Built on the Exploitation of Women",
+      "topics": [
+        "How did J. Marion Sims — celebrated as the 'father of modern gynecology' — develop his surgical techniques by operating on enslaved Black women without anesthesia, and what does his legacy reveal about whose bodies medicine has treated as expendable?",
+        "Why were Puerto Rican women used as test subjects for the first oral contraceptive pill — without full informed consent and at doses that caused severe side effects — and what does that history reveal about the intersection of colonialism, race, and reproductive medicine?",
+        "How has the forced sterilization of women — targeting Indigenous, Black, Latina, disabled, and incarcerated women throughout the twentieth century and into the twenty-first — functioned as medical violence disguised as public health?",
+        "What does Henrietta Lacks's story — her cells taken without consent and used to generate billions in medical research — represent about the broader pattern of extracting value from women's bodies without compensation or acknowledgment?",
+        "How do contemporary practices — pharmaceutical testing in developing countries, egg harvesting from low-income women, surrogacy arrangements — continue patterns of using vulnerable women's bodies to serve medical and commercial interests?",
+        "What would genuine informed consent, ethical research practices, and reparative justice look like for communities whose bodies built the foundation of modern medicine?"
+      ],
+      "tags": [
+        "ethics",
+        "human-rights",
+        "gender",
+        "medicine"
+      ]
+    },
+    {
+      "name": "The Medicalization of Reproduction: How the Healthcare System Took Control of Women's Bodies",
+      "topics": [
+        "How did reproduction — a biological process women managed for millennia through midwives, herbalists, and community knowledge — become a medical event controlled by physicians, hospitals, and pharmaceutical companies?",
+        "Why did the professionalization of medicine in the nineteenth and twentieth centuries systematically eliminate midwifery, traditional birth practices, and women's reproductive knowledge — and whose interests did that elimination serve?",
+        "How does the medical framing of pregnancy as a 'condition' requiring constant monitoring, intervention, and expert management transform a natural process into one where women are patients rather than agents?",
+        "What does the medicalization of menstruation — from PMS as a psychiatric diagnosis to period-suppression as a lifestyle choice — reveal about how the medical system pathologizes normal female biology?",
+        "How has the fertility industry medicalized conception — creating a multi-billion-dollar market that offers hope but also exploits women's desperation, bodies, and finances?",
+        "What would reproductive healthcare look like if women's knowledge, autonomy, and decision-making were centered rather than subordinated to medical authority?"
+      ],
+      "tags": [
+        "health",
+        "governance",
+        "gender",
+        "public-health"
+      ]
+    },
+    {
+      "name": "Who Controls Childbirth: How the Medicalization of Birth Removed Women from Decisions About Their Own Bodies",
+      "topics": [
+        "How did childbirth move from homes to hospitals over the twentieth century — and why did that move, while reducing some risks, also transfer control of the birth process from women to physicians?",
+        "Why has the cesarean section rate risen to nearly one-third of all births in the United States — far above what the WHO considers medically necessary — and what role do hospital scheduling, liability fears, and financial incentives play?",
+        "How do routine medical interventions during labor — continuous fetal monitoring, induced labor, episiotomies, restricted movement — often cascade into further interventions that the evidence does not support?",
+        "What does the evidence show about outcomes for midwife-attended births, birth center deliveries, and planned home births compared to standard hospital births — and why is that evidence so fiercely contested?",
+        "How does obstetric violence — performing procedures without consent, ignoring patients' stated wishes, coercing women into interventions — function as a specific form of medical paternalism directed at women during their most vulnerable moments?",
+        "What would a birth system designed around women's autonomy, informed consent, and evidence-based practice look like — and why do countries with midwifery-centered models consistently achieve better outcomes?"
+      ],
+      "tags": [
+        "health",
+        "accountability",
+        "gender",
+        "public-health"
+      ]
+    },
+    {
+      "name": "Who Controls Contraception: Research, Access, and Why There Is Still No Male Pill",
+      "topics": [
+        "Why has the burden of contraception fallen almost entirely on women — from the risks of hormonal birth control to the invasiveness of IUDs to the permanence of sterilization — while male options remain limited to condoms and vasectomy?",
+        "What happened to male hormonal contraceptive trials — and why were side effects that women have tolerated for decades (mood changes, weight gain, reduced libido) considered unacceptable when men experienced them?",
+        "How has access to contraception been used as a tool of both liberation and control — empowering women to plan their lives while also being imposed on marginalized women through coercion, incentive programs, and conditional welfare?",
+        "Why does contraceptive research remain underfunded relative to its global health impact — and how do pharmaceutical industry incentives, religious opposition, and political interference shape which methods get developed?",
+        "How do contraceptive access barriers — insurance coverage gaps, pharmacy refusals, parental consent laws, geographic deserts — disproportionately affect low-income women, rural women, and women of color?",
+        "What would genuinely equitable contraception look like — in terms of who bears the physical burden, who funds the research, and who decides which bodies are controlled?"
+      ],
+      "tags": [
+        "health",
+        "inequality",
+        "gender",
+        "public-health"
+      ]
+    },
+    {
+      "name": "From Hysteria to Overmedication: How Psychiatry Has Pathologized Women's Emotions and Experiences",
+      "topics": [
+        "How did the diagnosis of hysteria — applied to women for centuries to explain everything from seizures to sexual desire to political dissent — establish a template for treating women's emotions as medical problems?",
+        "Why are women diagnosed with depression and anxiety at roughly twice the rate of men — and how much of that disparity reflects actual prevalence versus diagnostic bias, gendered symptom interpretation, and social conditions?",
+        "How has the pharmaceutical industry targeted women as consumers of psychotropic medication — from 'mother's little helper' in the 1960s to the current marketing of antidepressants, anti-anxiety drugs, and sleep aids?",
+        "What does the history of women's involuntary psychiatric commitment — from husbands institutionalizing disobedient wives to mothers losing custody for postpartum mental illness — reveal about how psychiatry has been used as a tool of social control?",
+        "Why are women's rational responses to oppressive conditions — anger, exhaustion, grief, dissatisfaction — so frequently reframed as individual pathology rather than reasonable reactions to unreasonable circumstances?",
+        "What would mental healthcare for women look like if it distinguished between genuine mental illness requiring treatment and normal human responses to structural inequality, trauma, and gendered expectations?"
+      ],
+      "tags": [
+        "psychology",
+        "bias",
+        "gender",
+        "medicine"
+      ]
+    },
+    {
+      "name": "Why Black Women Die: Maternal Mortality, Pain Dismissal, and the Racial Architecture of American Healthcare",
+      "topics": [
+        "Why are Black women in the United States three to four times more likely to die from pregnancy-related causes than white women — and why does that disparity persist even when controlling for income, education, and insurance status?",
+        "How does the concept of 'weathering' — the cumulative physiological toll of living under racism — explain health disparities that cannot be attributed to individual behavior or socioeconomic status alone?",
+        "What do the stories of Serena Williams, Kira Johnson, and Sha-Asia Washington reveal about how even wealth, fame, and access cannot protect Black women from a medical system that does not listen to them?",
+        "How do racist assumptions embedded in medical training — from beliefs about Black patients' pain tolerance to algorithms that adjust treatment recommendations by race — produce systematically worse care for Black women?",
+        "Why has the maternal mortality crisis among Black women persisted despite decades of awareness — and what does that persistence reveal about whose deaths the healthcare system treats as urgent?",
+        "What interventions — community-based doula programs, implicit bias training, Black-led birth centers, Medicaid expansion — have shown measurable results in reducing racial disparities in maternal outcomes?"
+      ],
+      "tags": [
+        "health",
+        "inequality",
+        "race",
+        "gender"
+      ]
+    },
+    {
+      "name": "How the Economics of Healthcare — Insurance, Cost, and Access — Affect Women Differently Than Men",
+      "topics": [
+        "Why do women spend more on healthcare than men across their lifetimes — from reproductive care to longer life expectancy to chronic conditions — while earning less and accumulating less wealth?",
+        "How did the Affordable Care Act's prohibition on gender rating — the practice of charging women higher insurance premiums simply for being female — reveal how explicitly the system had been pricing women's bodies as liabilities?",
+        "Why does employer-based insurance disadvantage women — who are more likely to work part-time, take career breaks for caregiving, and hold jobs without benefits — and what happens to women who fall into coverage gaps?",
+        "How do Medicaid restrictions, particularly in states that refused expansion, create a healthcare cliff for low-income women who lose pregnancy-related coverage sixty days after giving birth?",
+        "Why is the cost of reproductive healthcare — contraception, fertility treatment, prenatal care, childbirth — treated as an optional expense rather than essential healthcare in insurance design and policy debates?",
+        "What would a healthcare financing system that accounted for women's actual health needs and economic realities look like — and why does every universal healthcare proposal disproportionately benefit women?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "gender",
+        "public-health"
+      ]
+    },
+    {
+      "name": "Disabled Women and the Medical Paternalism That Controls Rather Than Serves",
+      "topics": [
+        "How does the intersection of disability and gender produce a specific form of medical paternalism — where disabled women are assumed to be incapable of making decisions about their own bodies, health, and reproduction?",
+        "Why has the forced sterilization of disabled women persisted into the modern era — with court-authorized sterilizations, coerced contraception, and institutional policies that deny disabled women reproductive autonomy?",
+        "How does the medical system's focus on 'fixing' disability rather than supporting disabled people's autonomy create healthcare experiences where disabled women's stated needs and preferences are routinely overridden?",
+        "What barriers do disabled women face in accessing basic healthcare — from inaccessible exam tables and mammography equipment to providers who lack training in disability-competent care?",
+        "How does the infantilization of disabled women — treating adult women as childlike, asexual, or incapable — affect their access to sexual and reproductive healthcare, mental health services, and pain management?",
+        "What would healthcare designed with disabled women as full participants — not as problems to be managed — look like in terms of physical access, communication, decision-making authority, and reproductive rights?"
+      ],
+      "tags": [
+        "health",
+        "human-rights",
+        "disability",
+        "gender"
+      ]
+    },
+    {
+      "name": "Weight, Eating Disorders, and the Medical System's Role in Policing Women's Bodies",
+      "topics": [
+        "How does the medical system's focus on BMI and weight loss as primary health indicators lead to misdiagnosis, delayed treatment, and dismissal of symptoms in women whose bodies don't conform to narrow weight standards?",
+        "Why are eating disorders — which have the highest mortality rate of any mental illness — systematically underdiagnosed in women of color, older women, and women who are not visibly underweight?",
+        "How does the medical profession's complicity in diet culture — prescribing weight loss as treatment for conditions unrelated to weight, promoting bariatric surgery, endorsing restrictive diets — contribute to disordered eating rather than health?",
+        "What does the research actually show about the relationship between weight and health — and why does the 'obesity epidemic' framing obscure evidence that fitness, nutrition, and stress matter more than body size?",
+        "How do weight stigma and fat bias in healthcare settings cause measurable harm — from women avoiding medical care due to humiliation to doctors attributing every symptom to weight rather than investigating underlying conditions?",
+        "What would healthcare that treated women's bodies as worthy of care at every size — rather than as problems to be shrunk — look like in practice?"
+      ],
+      "tags": [
+        "health",
+        "bias",
+        "gender",
+        "public-health"
+      ]
+    },
+    {
+      "name": "Trans Healthcare and the Politicization of Gender-Affirming Medicine",
+      "topics": [
+        "What does the medical evidence show about the safety and efficacy of gender-affirming healthcare — and why has a medical consensus supported by every major medical association become a political battleground?",
+        "How do barriers to trans healthcare — insurance exclusions, provider refusal, geographic scarcity, and gatekeeping requirements — force trans women to navigate a system that was not designed for them and is often hostile to them?",
+        "Why have state legislatures increasingly targeted gender-affirming care for transgender youth — and what do these bans mean for the health and safety of young trans people and their families?",
+        "How does the politicization of trans healthcare mirror historical patterns of using medical authority to control bodies that don't conform to dominant gender norms — from intersex 'corrective' surgery to conversion therapy?",
+        "What happens when trans women seek routine healthcare — cancer screenings, emergency care, reproductive services — in systems where their gender identity creates confusion, refusal, or danger?",
+        "What would a healthcare system that affirmed trans people's bodily autonomy look like — and why is the principle that individuals have the right to make decisions about their own bodies the same principle at stake in every chapter of this book?"
+      ],
+      "tags": [
+        "health",
+        "human-rights",
+        "lgbtq",
+        "gender"
+      ]
+    },
+    {
+      "name": "Bodily Autonomy Beyond Abortion: Forced Cesareans, Pregnancy Policing, and the Law's Claim on Women's Bodies",
+      "topics": [
+        "How have courts ordered forced cesarean sections, blood transfusions, and bed rest on pregnant women — overriding their explicit refusal of treatment in ways that have no parallel in any other area of medicine?",
+        "Why have pregnant women been arrested, prosecuted, and incarcerated for substance use, falls, refused medical advice, and miscarriages — under legal theories that treat the fetus as a person with rights that override the woman carrying it?",
+        "How do fetal personhood laws — which grant legal rights to embryos and fetuses — create a framework where pregnant women's bodily autonomy can be legally subordinated from the moment of conception?",
+        "What does the prosecution of women for pregnancy outcomes — stillbirths, miscarriages, premature births — reveal about how the legal system treats women's bodies as public property during pregnancy?",
+        "How do these legal interventions disproportionately target low-income women, women of color, and women with substance use disorders — revealing that pregnancy policing is as much about race and class as it is about fetal protection?",
+        "What would legal recognition of pregnant women's full bodily autonomy look like — and why does the principle that no person can be forced to undergo medical procedures against their will apparently not apply to pregnant women?"
+      ],
+      "tags": [
+        "law",
+        "human-rights",
+        "gender",
+        "civil-rights"
+      ]
+    },
+    {
+      "name": "Menopause, Aging, and the Medical System That Loses Interest in Women After Reproduction",
+      "topics": [
+        "Why does the medical system's attention to women's health decline sharply after menopause — as though women's bodies are only medically interesting while they can reproduce?",
+        "How has menopause been framed as a 'deficiency disease' requiring treatment rather than a natural biological transition — and how did the hormone replacement therapy controversy reveal the dangers of that framing?",
+        "Why is menopause research so dramatically underfunded compared to other health transitions — and what do women actually need from the medical system during and after this stage of life?",
+        "How does the intersection of ageism and sexism produce a specific form of medical neglect — where older women's symptoms are attributed to aging rather than investigated, and their quality of life is treated as less important?",
+        "What health conditions that disproportionately affect post-menopausal women — osteoporosis, cardiovascular disease, cognitive decline, autoimmune disorders — receive less research funding and clinical attention than conditions affecting men of the same age?",
+        "What would healthcare for aging women look like if it treated post-reproductive life as equally worthy of medical investment, research, and attentive care?"
+      ],
+      "tags": [
+        "health",
+        "bias",
+        "gender",
+        "medicine"
+      ]
+    },
+    {
+      "name": "What Healthcare Designed for Women Would Actually Look Like",
+      "topics": [
+        "What would change if medical research were required to analyze all results by sex and gender — and what conditions, treatments, and diagnostic criteria would need to be revised?",
+        "How would healthcare delivery change if women's reported symptoms were treated with the same urgency and credibility as men's — in emergency rooms, primary care, and specialist settings?",
+        "What would reproductive healthcare look like if it were designed around women's autonomy rather than institutional control — from contraception to childbirth to menopause?",
+        "How would healthcare financing change if women's health needs — including reproductive care, mental health services, and long-term chronic conditions — were treated as essential rather than optional?",
+        "What would medical education look like if it trained physicians to recognize sex-specific symptom presentations, implicit bias in clinical encounters, and the ways race compounds gender disparities?",
+        "Why does building healthcare that works for women require not just better medicine but structural changes in who designs the system, who funds the research, who trains the providers, and who holds them accountable?"
+      ],
+      "tags": [
+        "health",
+        "governance",
+        "gender",
+        "public-health"
+      ]
+    }
+  ]
+}

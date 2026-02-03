@@ -1,0 +1,24 @@
+{
+  "book": "NC-07",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "David Rouzer (R)",
+        "David Buzzard (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Kimberly Hardy (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Maad Abu-Ghazalah (L)"
+      ]
+    }
+  ]
+}

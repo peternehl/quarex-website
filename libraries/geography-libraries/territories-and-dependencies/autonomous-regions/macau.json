@@ -1,0 +1,50 @@
+{
+  "name": "Macau",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Macau's political status as a Special Administrative Region of China?",
+        "What is Macau's population and what makes it the most densely populated region in the world?",
+        "How did Macau become the world's largest gambling center?",
+        "What languages are spoken in Macau?",
+        "What is the unique Portuguese-Chinese cultural heritage of Macau?"
+      ],
+      "tags": ["geography", "identity", "asia", "cultural-heritage"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Portugal establish Macau as a trading post in the 16th century?",
+        "What was Macau's role in East-West trade for over 400 years?",
+        "How was the 1999 handover to China negotiated and executed?",
+        "How has Macau transformed since the gambling liberalization of 2002?",
+        "How does Macau's transition compare to Hong Kong's?"
+      ],
+      "tags": ["history", "colonialism", "modern-history", "europe"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does Macau's government have under its Basic Law?",
+        "How does Beijing's relationship with Macau differ from Hong Kong?",
+        "How is gambling regulated in Macau?",
+        "What civil liberties exist in Macau today?",
+        "How do Macau's laws blend Portuguese and Chinese legal traditions?"
+      ],
+      "tags": ["politics", "governance", "regulation", "asia"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Macau?",
+        "How do you get to Macau from Hong Kong and mainland China?",
+        "What are the top destinations beyond the casinos?",
+        "What UNESCO World Heritage sites are in Macau?",
+        "What should travelers know about costs and logistics in Macau?"
+      ],
+      "tags": ["geography", "travel", "cultural-heritage", "asia"]
+    }
+  ]
+}

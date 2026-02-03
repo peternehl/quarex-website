@@ -1,0 +1,30 @@
+{
+  "book": "SC-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Dan Brown (R)",
+        "Logan Cunningham (R)",
+        "Tyler Dykes (R)",
+        "Jack Ellison (R)",
+        "Jenny Honeycutt (R)",
+        "Sam McCown (R)",
+        "Alex Pelbath (R)",
+        "William Reeside (R)",
+        "Mark Smith (R)",
+        "Nancy Mace (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Robert Beers (D)",
+        "Mac Deford (D)",
+        "Max Diaz (D)",
+        "Matthew Fulmer (D)",
+        "Mayra Rivera-Vazquez (D)"
+      ]
+    }
+  ]
+}

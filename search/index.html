@@ -329,8 +329,12 @@
                     ? book.name.replace(new RegExp(`(${escapeRegex(query)})`, 'gi'), '<mark>$1</mark>')
                     : book.name;
 
+                // Build URL with path segments as query parameters for reliable navigation
+                const pathParts = book.path.split('/');
+                const libraryUrl = `/libraries/index.html?t=${pathParts[0]}&l=${pathParts[1]}&s=${pathParts[2]}&b=${pathParts[3]}`;
+
                 return `
-                    <a href="/libraries/${book.path}" class="result-item">
+                    <a href="${libraryUrl}" class="result-item">
                         <div class="result-name">${highlightedName}</div>
                         <div class="result-meta">
                             <span>📚 ${book.library}</span>

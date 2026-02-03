@@ -1,0 +1,24 @@
+{
+  "book": "CA-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Christine Bish (R)",
+        "Craig DeLuz (R)",
+        "Raymond Riehle (R)",
+        "Michael Stansfield (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Lauren Babb Tomlinson (D)",
+        "Thien Ho (D)",
+        "Richard Pan (D)",
+        "Kindra Pring (D)",
+        "Tyler Vandenberg (D)"
+      ]
+    }
+  ]
+}

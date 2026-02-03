@@ -1,0 +1,28 @@
+{
+  "book": "WA-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Michael Baumgartner (R)",
+        "Anthony Jensen (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Carmela Conroy (D)",
+        "Ann Marie Danimus (D)",
+        "Bajun Mavalwalla (D)",
+        "Anthony Whisenhunt (D)",
+        "David Womack (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Aaron Croft (I)"
+      ]
+    }
+  ]
+}

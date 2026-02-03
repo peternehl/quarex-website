@@ -1,0 +1,827 @@
+{
+  "book": "California",
+  "chapters": [
+    {
+      "name": "CA-01",
+      "topics": [
+        "Angelita Valles (R)",
+        "Audrey Denney (D)",
+        "Mike McGuire (D)",
+        "James Salegui (D)",
+        "Casey Stewart (D)",
+        "Kyle Wilson (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-02",
+      "topics": [
+        "Jared Huffman (D)",
+        "Kevin Eisele (D)",
+        "Rose Penelope Yee (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-03",
+      "topics": [
+        "Kevin Kiley (R)",
+        "Ami Bera (D)",
+        "Chris Bennett (D)",
+        "Lyndon Cervantes (D)",
+        "Heidi Hall (D)",
+        "Tyler Vandenberg (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-04",
+      "topics": [
+        "Sharon Brown (R)",
+        "Heath Fulkerson (R)",
+        "Mandy Ghusar (R)",
+        "Laurie MacKenzie (R)",
+        "Mike Thompson (D)",
+        "Eric Jones (D)",
+        "Trevor Merrell (D)",
+        "John Wesley Tyler (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-05",
+      "topics": [
+        "Tom McClintock (R)",
+        "Jason Weland (R)",
+        "Mike Barkley (D)",
+        "Michael Masuda (D)",
+        "Angelina Sigala (D)",
+        "Kate Sills (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-06",
+      "topics": [
+        "Christine Bish (R)",
+        "Craig DeLuz (R)",
+        "Raymond Riehle (R)",
+        "Michael Stansfield (R)",
+        "Lauren Babb Tomlinson (D)",
+        "Thien Ho (D)",
+        "Richard Pan (D)",
+        "Kindra Pring (D)",
+        "Tyler Vandenberg (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-07",
+      "topics": [
+        "Kathryn Ming (R)",
+        "Doris Matsui (D)",
+        "Erica Lee (D)",
+        "Robert Morin (D)",
+        "Enayat Nazhat (D)",
+        "Mai Vang (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-08",
+      "topics": [
+        "Rudy Recile (R)",
+        "John Garamendi (D)",
+        "Nicolas Carjuzaa (D)",
+        "Harinder Lamba (D)",
+        "Aaron Rowden (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-09",
+      "topics": [
+        "John McBride (R)",
+        "Jim Shoemaker (R)",
+        "Parminder Singh (R)",
+        "Josh Harder (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-10",
+      "topics": [
+        "Jeffrey Frese (R)",
+        "Katherine Piccinini (R)",
+        "Mark DeSaulnier (D)",
+        "Josh Hamilton (D)",
+        "Mitchell Maisler (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-11",
+      "topics": [
+        "David Ganezer (R)",
+        "Cole Bettles (D)",
+        "Saikat Chakrabarti (D)",
+        "Connie Chan (D)",
+        "Omed Hamid (D)",
+        "Darren Helton (D)",
+        "Daniel Wheeler (D)",
+        "Scott Wiener (D)",
+        "Jingchao Xiong (D)",
+        "Nancy Pelosi (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-12",
+      "topics": [
+        "Heath Fulkerson (R)",
+        "Lateefah Simon (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-13",
+      "topics": [
+        "Vin Kruttiventi (R)",
+        "Kevin Lincoln II (R)",
+        "Javier Lopez (R)",
+        "Adam Gray (D)",
+        "Angelina Sigala (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-14",
+      "topics": [
+        "Wendy Huang (R)",
+        "Melissa Hernandez (D)",
+        "Matt Ortega (D)",
+        "Abrar Qadir (D)",
+        "Eric Swalwell (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-15",
+      "topics": [
+        "Kevin Mullin (D)",
+        "Mantosh Kumar (D)",
+        "Brian Tetrud (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-16",
+      "topics": [
+        "Sam Liccardo (D)",
+        "Jotham Stein (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-17",
+      "topics": [
+        "Ha Phan (R)",
+        "Ritesh Tandon (R)",
+        "Ro Khanna (D)",
+        "Nicholas Finan (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-18",
+      "topics": [
+        "Zakaria Kortam (R)",
+        "Zoe Lofgren (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-19",
+      "topics": [
+        "Peter Verbica (R)",
+        "Jimmy Panetta (D)",
+        "Hannah James (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-20",
+      "topics": [
+        "Vince Fong (R)",
+        "Patrick Robb (D)",
+        "Carol Kristina Roper (D)",
+        "Sandra Van Scotter (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-21",
+      "topics": [
+        "Kyle Kirkland (R)",
+        "Lorenzo Rios (R)",
+        "Jim Costa (D)",
+        "Lourin Hubbard (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-22",
+      "topics": [
+        "David G. Valadao (R)",
+        "Jasmeet Bains (D)",
+        "Eric Garcia (D)",
+        "Rudy Salas (D)",
+        "Randy Villegas (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-23",
+      "topics": [
+        "Jay Obernolte (R)",
+        "Edwin Alonzo (D)",
+        "Paul Chakalian (D)",
+        "Alexis Claiborne (D)",
+        "Tessa Lynn Hodge (D)",
+        "David Jones (D)",
+        "Karen Matthews (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-24",
+      "topics": [
+        "Bob Smith (R)",
+        "Salud Carbajal (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-25",
+      "topics": [
+        "Ronald Huffman (R)",
+        "John Kesselmark (R)",
+        "Joe Males (R)",
+        "Raul Ruiz (D)",
+        "Eli Owens (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-26",
+      "topics": [
+        "Samuel Gallucci (R)",
+        "Michael Koslow (R)",
+        "William Scott (R)",
+        "Jonathan Wagoner (R)",
+        "Julia Brownley (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-27",
+      "topics": [
+        "Jason Gibbs (R)",
+        "David Neidhart (R)",
+        "George Whitesides (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-28",
+      "topics": [
+        "April Verlato (R)",
+        "Judy Chu (D)",
+        "Robert Gonzalez (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-29",
+      "topics": [
+        "Margarita Maria Carranza (R)",
+        "Steven Sparrow (R)",
+        "Luz Maria Rivas (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-30",
+      "topics": [
+        "Dennis Feitosa (R)",
+        "Laura Friedman (D)",
+        "Lester Herman (D)",
+        "Darrell Reeves (D)",
+        "Alan Starzinski (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-31",
+      "topics": [
+        "Erskine Levi (R)",
+        "Gil Cisneros (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-32",
+      "topics": [
+        "Larry Thompson (R)",
+        "Christopher Ahuja (D)",
+        "Dory Benami (D)",
+        "Orissa Ishii (D)",
+        "Wyatt Karem (D)",
+        "Jake Levine (D)",
+        "Marena Lin (D)",
+        "Mia Phillips (D)",
+        "Josh Sautter (D)",
+        "Anna Wilding (D)",
+        "Jake Rakov (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-33",
+      "topics": [
+        "Stephanie Vargas (R)",
+        "Pete Aguilar (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-34",
+      "topics": [
+        "Calvin Lee (R)",
+        "Jimmy Gomez (D)",
+        "Arthur Dixon (D)",
+        "David Ferrell (D)",
+        "Angela Gonzales-Torres (D)",
+        "Robert Lucero (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-35",
+      "topics": [
+        "Mike Cargile (R)",
+        "Michael Horvath (R)",
+        "Norma Torres (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-36",
+      "topics": [
+        "Houston Brignano (R)",
+        "Melissa Toomim (R)",
+        "Rustin Knudtson (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-37",
+      "topics": [
+        "Sydney Kamlager-Dove (D)",
+        "Ryan Duckett (D)",
+        "Todd Lombardo (D)",
+        "Samantha Mota (D)",
+        "Steve Hill (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-38",
+      "topics": [
+        "Linda S\u00e1nchez (D)",
+        "Thomas Adams-Falconer (D)",
+        "Monica Sanchez (D)",
+        "Hilda Solis (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-39",
+      "topics": [
+        "Mark Takano (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-40",
+      "topics": [
+        "Ken Calvert (R)",
+        "Young Kim (R)",
+        "Claude Keissieh (D)",
+        "Joe Kerr (D)",
+        "Eric Peterson (D)",
+        "Lisa Ramirez (D)",
+        "Paula Swift (D)",
+        "Tiffanie Tate (D)",
+        "Esther Kim Varet (D)",
+        "Christina Gagnier (D)",
+        "Perry Meade (D)",
+        "Nina Linh (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-41",
+      "topics": [
+        "Katherine Aleman (D)",
+        "Jason Byors (D)",
+        "Hector De La Torre (D)",
+        "David Karson (D)",
+        "Shonique Williams (D)",
+        "Cody Wiebelhaus (R)",
+        "Shaaf Patel (L)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-42",
+      "topics": [
+        "Brian Burley (R)",
+        "Robert Garcia (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-43",
+      "topics": [
+        "Craig Geiger (R)",
+        "Anish Jain (R)",
+        "Maxine Waters (D)",
+        "Eden Cristo (D)",
+        "Christopher Truman (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-44",
+      "topics": [
+        "No candidates declared"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-45",
+      "topics": [
+        "Mark Leonard (R)",
+        "Chi Charlie Nguyen (R)",
+        "Amy Phan West (R)",
+        "Michelle Steel (R)",
+        "Chuong Vo (R)",
+        "Derek Tran (D)",
+        "Brian Forde (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-46",
+      "topics": [
+        "David Pan (R)",
+        "Lou Correa (D)",
+        "Christian Mendez (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-47",
+      "topics": [
+        "Julia Hashemieh (R)",
+        "Sage Lam (R)",
+        "Michael Maxsenti (R)",
+        "Dave Min (D)",
+        "Hunter Miranda (D)",
+        "Eric Troutman (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-48",
+      "topics": [
+        "Darrell Issa (R)",
+        "Ammar Campa-Najjar (D)",
+        "Abel Chavez (D)",
+        "Stephen Clemons (D)",
+        "Corinna Contreras (D)",
+        "Nicholas Davis (D)",
+        "Marc Iannarino (D)",
+        "Curtis Morrison (D)",
+        "Brian Nash (D)",
+        "Ferguson Porter (D)",
+        "Brandon Riker (D)",
+        "Whitney Shanahan (D)",
+        "Marni von Wilpert (D)",
+        "Anuj Dixit (D)",
+        "Suzanne Till (D)",
+        "Mike Bucy (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-49",
+      "topics": [
+        "Mike Levin (D)",
+        "Jim Desmond (R)",
+        "Star Parker (R)",
+        "Eli Stern (R)",
+        "Julian Arellano (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-50",
+      "topics": [
+        "Scott Peters (D)",
+        "Tim Arnous (D)",
+        "Timothy Bilash (D)",
+        "Aishwarya Mitra (D)",
+        "Ernesto Perez (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-51",
+      "topics": [
+        "John-Samuel Etheridge Williams (R)",
+        "Sara Jacobs (D)",
+        "Mike Bucy (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    },
+    {
+      "name": "CA-52",
+      "topics": [
+        "Juan Vargas (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "california"
+      ]
+    }
+  ]
+}

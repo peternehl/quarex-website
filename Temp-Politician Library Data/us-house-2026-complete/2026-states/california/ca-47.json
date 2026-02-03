@@ -1,0 +1,26 @@
+{
+  "book": "CA-47",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Julia Hashemieh (R)",
+        "Sage Lam (R)",
+        "Michael Maxsenti (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Dave Min (D)",
+        "Hunter Miranda (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Eric Troutman (I)"
+      ]
+    }
+  ]
+}

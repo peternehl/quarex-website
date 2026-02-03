@@ -193,94 +193,47 @@
       letter-spacing: 0.1em;
     }
 
-    /* Featured Button */
-    .featured-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      background: linear-gradient(135deg, #1e3a8a, #1e40af);
-      color: var(--accent);
-      padding: 24px 40px;
-      border-radius: 16px;
-      text-decoration: none;
-      font-family: "Playfair Display", serif;
-      font-weight: 700;
-      font-size: clamp(28px, 3.5vw, 42px);
-      letter-spacing: 0.1em;
-      box-shadow: 0 8px 28px rgba(30, 58, 138, 0.5);
-      transition: all 0.3s ease;
-      margin: 0 0 24px 0;
-      border: 2px solid rgba(255, 255, 255, 0.15);
-      text-align: center;
-    }
-    .featured-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 12px 36px rgba(30, 58, 138, 0.6);
-      filter: brightness(1.15);
-      text-decoration: none;
-    }
-    .featured-btn .logo-icon {
-      width: 80px;
-      height: 80px;
-      object-fit: contain;
-      border-radius: 50%;
-      border: 2px solid rgba(255, 255, 255, 0.5);
-    }
-
-    /* Secondary Buttons Row */
-    .secondary-btns {
-      display: flex;
-      justify-content: center;
+    /* Navigation Grid */
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
       gap: 16px;
-      flex-wrap: wrap;
-      margin-bottom: 32px;
+      margin-bottom: 16px;
     }
 
-    .secondary-btn {
+    .nav-btn {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 8px;
+      justify-content: center;
+      gap: 6px;
       background: linear-gradient(135deg, #0f172a, #1e293b);
       color: var(--accent);
-      padding: 20px 32px;
+      padding: 24px 16px;
       border-radius: 16px;
       text-decoration: none;
       font-family: "Playfair Display", serif;
       font-weight: 700;
-      font-size: clamp(18px, 2.5vw, 24px);
+      font-size: clamp(14px, 1.8vw, 18px);
       box-shadow: 0 6px 20px rgba(15, 23, 42, 0.5);
       transition: all 0.3s ease;
       border: 2px solid rgba(255, 255, 255, 0.1);
+      text-align: center;
+      min-height: 90px;
     }
-    .secondary-btn:hover {
+    .nav-btn:hover {
       transform: translateY(-2px);
       box-shadow: 0 10px 28px rgba(15, 23, 42, 0.6);
-      filter: brightness(1.1);
+      filter: brightness(1.15);
       text-decoration: none;
     }
-    .secondary-btn .logo-icon {
-      width: 48px;
-      height: 48px;
-      object-fit: contain;
-      border-radius: 50%;
-    }
 
-    /* Seed Creator */
-    .seed-creator {
-      background: linear-gradient(135deg, #2563eb, #3b82f6);
-      box-shadow: 0 8px 28px rgba(37, 99, 235, 0.4);
-    }
-    .seed-creator:hover {
-      box-shadow: 0 12px 36px rgba(37, 99, 235, 0.5);
-    }
-    .seed-subtitle {
-      font-size: clamp(12px, 1.5vw, 14px);
+    .nav-subtitle {
+      font-size: clamp(11px, 1.2vw, 13px);
       color: #bfdbfe;
       font-family: Inter, sans-serif;
       font-weight: 400;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.02em;
     }
 
     /* Newsletter Box */
@@ -343,23 +296,9 @@
         padding: 40px 16px 32px;
       }
 
-      .featured-btn {
-        flex-direction: column;
-        padding: 20px 24px;
+      .nav-grid {
+        grid-template-columns: repeat(2, 1fr);
         gap: 12px;
-      }
-      .featured-btn .logo-icon {
-        width: 64px;
-        height: 64px;
-      }
-
-      .secondary-btns {
-        flex-direction: column;
-        align-items: center;
-      }
-      .secondary-btn {
-        width: 100%;
-        max-width: 300px;
       }
 
       .manifesto-cta {
@@ -373,13 +312,10 @@
         font-size: clamp(28px, 8vw, 36px);
       }
 
-      .featured-btn {
-        padding: 16px 20px;
-        font-size: clamp(22px, 5vw, 28px);
-      }
-      .featured-btn .logo-icon {
-        width: 56px;
-        height: 56px;
+      .nav-btn {
+        padding: 18px 12px;
+        font-size: clamp(13px, 3.5vw, 16px);
+        min-height: 76px;
       }
     }
   </style>
@@ -427,53 +363,51 @@
       </p>
     </section>
 
-    <!-- Libraries Section -->
+    <!-- Navigation Section -->
     <section class="libraries">
-      <h2>LIBRARIES</h2>
+      <h2>Explore the Quarex ecosystem &mdash; structured knowledge, civic research, and curated curricula.</h2>
 
-      <!-- Quarex Libraries Featured Button -->
-      <a href="libraries/" class="featured-btn">
-        <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
-        <span>Quarex Libraries</span>
-        <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
-      </a>
+      <!-- Row 1: Primary Destinations -->
+      <div class="nav-grid">
+        <a href="https://knowableonline.org" class="nav-btn">
+          <span>Knowable Online</span>
+          <span class="nav-subtitle">The University</span>
+        </a>
+        <a href="libraries/" class="nav-btn">
+          <span>Libraries</span>
+          <span class="nav-subtitle">641 Books</span>
+        </a>
+        <a href="https://publicstudies.org" class="nav-btn">
+          <span>Public Learning</span>
+          <span class="nav-subtitle">Curricula</span>
+        </a>
+        <a href="https://election2026.net" class="nav-btn">
+          <span>2026 Elections</span>
+          <span class="nav-subtitle">Every Race</span>
+        </a>
+      </div>
 
-      <!-- Secondary Buttons -->
-      <div class="secondary-btns">
-        <!-- Search -->
-        <a href="search/" class="secondary-btn">
+      <!-- Row 2: Tools & Utilities -->
+      <div class="nav-grid">
+        <a href="search/" class="nav-btn">
           <span>Search</span>
-          <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
+          <span class="nav-subtitle">Find Topics</span>
         </a>
-
-        <!-- Index -->
-        <a href="libraries/library-tree.html" class="secondary-btn">
-          <span>Index</span>
-          <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
+        <a href="libraries/library-tree.html" class="nav-btn">
+          <span>Library Index</span>
+          <span class="nav-subtitle">Full Tree</span>
         </a>
-
-        <!-- 2026 Candidate Lookup -->
-        <a href="candidates/" class="secondary-btn">
-          <span>2026 Candidate Lookup</span>
-          <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
+        <a href="tools/" class="nav-btn">
+          <span>Creator Tools</span>
+          <span class="nav-subtitle">Build Books</span>
         </a>
-
-        <!-- Newsletter Signup -->
-        <div class="secondary-btn newsletter-box">
-          <span>Stay Updated</span>
+        <div class="nav-btn newsletter-box">
+          <span>Subscribe</span>
           <form action="https://formspree.io/f/xeejwgnp" method="POST" class="newsletter-form">
             <input type="email" name="email" placeholder="your@email.com" required />
-            <button type="submit">Subscribe</button>
+            <button type="submit">Go</button>
           </form>
-          <span class="seed-subtitle">Get notified about new Living Books</span>
         </div>
-
-        <!-- Quarex Tools -->
-        <a href="tools/" class="secondary-btn seed-creator">
-          <span>Creator Tools</span>
-          <span class="seed-subtitle">Build your own Living Books</span>
-          <img src="assets/quarex-hero-round-500pixels.png" alt="Quarex Logo" class="logo-icon" />
-        </a>
       </div>
     </section>
   </main>

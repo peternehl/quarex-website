@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is Quarex? | Knowable Online University</title>
+    <meta name="description" content="Quarex is a structured knowledge system that organizes information into books, chapters, and questions. 641 books, 3,205 chapters, 328 tags across 7 library types.">
+    <meta name="keywords" content="Quarex, structured knowledge, question-driven learning, nonpartisan research, knowledge system, online education">
+    <link rel="canonical" href="https://knowableonline.org/what-is-quarex.html">
+
+    <meta property="og:title" content="What is Quarex?">
+    <meta property="og:description" content="Quarex is a structured knowledge system that organizes information into books, chapters, and questions — designed for exploration, not persuasion.">
+    <meta property="og:url" content="https://knowableonline.org/what-is-quarex.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Knowable Online University">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="What is Quarex?">
+    <meta name="twitter:description" content="Quarex is a structured knowledge system that organizes information into books, chapters, and questions.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "What is Quarex?",
+        "description": "Quarex is a structured knowledge system that organizes information into books, chapters, and questions.",
+        "url": "https://knowableonline.org/what-is-quarex.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Knowable Online University",
+            "url": "https://knowableonline.org"
+        },
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Knowable Online University",
+            "url": "https://knowableonline.org"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #0A0A0A;
+            --bg-card: #111111;
+            --bg-elevated: #1A1A1A;
+            --text-primary: #F7F7F7;
+            --text-secondary: #B7BCC2;
+            --text-muted: #6B7280;
+            --accent: #10B981;
+            --accent-dim: rgba(16, 185, 129, 0.15);
+            --accent-hover: #34D399;
+            --border: #2A2A2A;
+            --radius: 8px;
+            --radius-lg: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 24px;
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .logo span { color: var(--accent); }
+
+        nav { display: flex; gap: 28px; align-items: center; }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 400;
+            transition: color 0.2s;
+        }
+
+        nav a:hover { color: var(--accent); }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--text-primary);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* Article Layout */
+        .article {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        .article-label {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+
+        .article h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 4.5vw, 48px);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .article .lead {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 48px;
+            font-weight: 300;
+        }
+
+        .article h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+
+        .article p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .article p strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .info-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin: 28px 0;
+        }
+
+        .info-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 12px;
+        }
+
+        .info-card p {
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+
+        .example-block {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 var(--radius) var(--radius) 0;
+            padding: 24px;
+            margin: 24px 0;
+            font-family: 'Inter', monospace;
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            overflow-x: auto;
+        }
+
+        .example-block .label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin: 28px 0;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stat-card .number {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-card .label {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .library-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .library-list li {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 15px;
+        }
+
+        .library-list li:last-child { border-bottom: none; }
+
+        .library-list .lib-name {
+            color: var(--text-primary);
+            font-weight: 500;
+            min-width: 180px;
+        }
+
+        .library-list .lib-desc {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .principle-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .principle-row:last-child { border-bottom: none; }
+
+        .principle-icon {
+            color: var(--accent);
+            font-size: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .principle-text {
+            font-size: 15px;
+            color: var(--text-secondary);
+        }
+
+        .principle-text strong {
+            color: var(--text-primary);
+        }
+
+        .cta-link {
+            display: inline-block;
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 15px;
+            margin-top: 8px;
+            transition: color 0.2s;
+        }
+
+        .cta-link:hover { color: var(--accent-hover); }
+
+        .nav-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+        }
+
+        .nav-links a {
+            display: inline-block;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 12px 20px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        .nav-links a:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 40px 24px;
+            text-align: center;
+        }
+
+        .footer-inner { max-width: 1100px; margin: 0 auto; }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover { color: var(--accent); }
+
+        .footer-note {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .nav-toggle { display: block; }
+            nav {
+                display: none;
+                position: absolute;
+                top: 64px;
+                left: 0;
+                right: 0;
+                background: var(--bg-primary);
+                border-bottom: 1px solid var(--border);
+                flex-direction: column;
+                padding: 20px 24px;
+                gap: 16px;
+            }
+            nav.open { display: flex; }
+            .article { padding: 60px 24px; }
+            .stat-grid { grid-template-columns: repeat(2, 1fr); }
+            .library-list li { flex-direction: column; gap: 4px; }
+            .library-list .lib-name { min-width: auto; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">Knowable <span>Online</span></a>
+        <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <a href="/">University</a>
+            <a href="/what-is-quarex.html">What is Quarex?</a>
+            <a href="/question-driven-architecture.html">Architecture</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+        </nav>
+    </div>
+</header>
+
+<div class="article">
+    <span class="article-label">School of Knowledge Systems</span>
+    <h1>What is Quarex?</h1>
+    <p class="lead">
+        Quarex is a structured knowledge system that organizes information into books, chapters,
+        and questions. It is designed for exploration, not persuasion. It does not tell you what
+        to think. It gives you the structure to think clearly.
+    </p>
+
+    <h2>The Core Idea</h2>
+    <p>
+        Most online information is organized by platform, algorithm, or recency. Quarex is organized
+        by <strong>structure</strong>. Every topic is broken into a book. Every book is broken into
+        chapters. Every chapter contains exactly five questions. Those questions are designed to
+        provoke genuine inquiry, not test recall.
+    </p>
+    <p>
+        When you select a question, an AI generates a context-aware answer using the chapter as a
+        lens. That answer generates followup questions. Those followups generate more. This is
+        <strong>recursive discovery</strong> &mdash; a path through knowledge that deepens the more
+        you follow it.
+    </p>
+
+    <h2>What Quarex Contains</h2>
+
+    <div class="stat-grid">
+        <div class="stat-card">
+            <div class="number">641</div>
+            <div class="label">Books</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">3,205</div>
+            <div class="label">Chapters</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">328</div>
+            <div class="label">Tags</div>
+        </div>
+        <div class="stat-card">
+            <div class="number">7</div>
+            <div class="label">Library Types</div>
+        </div>
+    </div>
+
+    <p>
+        Content spans politics, history, science, geography, philosophy, the arts, practical skills,
+        and more. Every book is authored by a human curator working with AI, then placed within a
+        structured hierarchy of libraries and shelves.
+    </p>
+
+    <h2>Seven Library Types</h2>
+    <p>
+        Quarex organizes all knowledge into seven library types, each serving a distinct function:
+    </p>
+
+    <ul class="library-list">
+        <li>
+            <span class="lib-name">Knowledge Libraries</span>
+            <span class="lib-desc">The sciences, the arts, philosophy, biographies, AI fundamentals, and personal development</span>
+        </li>
+        <li>
+            <span class="lib-name">Perspectives Libraries</span>
+            <span class="lib-desc">How different groups see the world &mdash; ideological, cultural, historical, geopolitical viewpoints</span>
+        </li>
+        <li>
+            <span class="lib-name">Geography Libraries</span>
+            <span class="lib-desc">Every country and territory on Earth, organized by continent and region</span>
+        </li>
+        <li>
+            <span class="lib-name">Infrastructure Libraries</span>
+            <span class="lib-desc">Energy, transportation, communications, and the systems that sustain civilization</span>
+        </li>
+        <li>
+            <span class="lib-name">Politician Libraries</span>
+            <span class="lib-desc">Every member of Congress, every governor, every senator &mdash; structured for accountability</span>
+        </li>
+        <li>
+            <span class="lib-name">Practical Libraries</span>
+            <span class="lib-desc">Real-world skills: cooking, home repair, personal finance, digital safety</span>
+        </li>
+        <li>
+            <span class="lib-name">Questions Libraries</span>
+            <span class="lib-desc">Meta-level questions about the system itself and about civic engagement</span>
+        </li>
+    </ul>
+
+    <h2>How It Differs</h2>
+
+    <div class="info-card">
+        <h3>Not a Search Engine</h3>
+        <p>Search engines return links. Quarex returns structured questions. You don't search for answers &mdash; you navigate through questions that reveal the shape of a topic.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Not a Textbook</h3>
+        <p>Textbooks are static. Quarex is dynamic. The structure is fixed (books, chapters, questions), but every answer is generated fresh by AI using the chapter as context. The structure endures. The answers evolve.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Not an AI Chatbot</h3>
+        <p>AI chatbots are open-ended. Quarex is constrained. The AI operates within a human-curated structure of questions and tags. It cannot wander. The structure is the lens. The AI is the explorer.</p>
+    </div>
+
+    <h2>Design Principles</h2>
+
+    <div class="principle-row">
+        <span class="principle-icon">&#9670;</span>
+        <span class="principle-text"><strong>No ads.</strong> The platform is not monetized through attention capture.</span>
+    </div>
+    <div class="principle-row">
+        <span class="principle-icon">&#9670;</span>
+        <span class="principle-text"><strong>No accounts.</strong> No login required. No personal data collected.</span>
+    </div>
+    <div class="principle-row">
+        <span class="principle-icon">&#9670;</span>
+        <span class="principle-text"><strong>No tracking.</strong> No cookies, no analytics, no behavioral profiling.</span>
+    </div>
+    <div class="principle-row">
+        <span class="principle-icon">&#9670;</span>
+        <span class="principle-text"><strong>Nonpartisan by design.</strong> Not trying to be neutral &mdash; structurally built to eliminate editorial bias.</span>
+    </div>
+    <div class="principle-row">
+        <span class="principle-icon">&#9670;</span>
+        <span class="principle-text"><strong>Questions over answers.</strong> The system is built on questions. Answers are generated, temporary, and always secondary to the questions that produce them.</span>
+    </div>
+
+    <h2>Try It</h2>
+    <p>
+        Quarex is live and free to use. Navigate any topic from the broadest system down to a single question.
+    </p>
+    <a href="https://quarex.org" target="_blank" class="cta-link">Visit quarex.org &rarr;</a>
+
+    <div class="nav-links">
+        <a href="/question-driven-architecture.html">How the Question Architecture Works &rarr;</a>
+        <a href="/what-is-a-quarex-book.html">What is a Quarex Book? &rarr;</a>
+        <a href="/libraries-shelves-and-books.html">Libraries, Shelves & Books &rarr;</a>
+        <a href="/nonpartisan-design.html">Nonpartisan Design &rarr;</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <a href="/">Knowable Online</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+            <a href="https://publicstudies.org" target="_blank">Public Studies</a>
+            <a href="https://election2026.net" target="_blank">Election 2026</a>
+        </div>
+        <p class="footer-note">
+            Knowable Online University &mdash; School of Knowledge Systems<br>
+            Quarex is the engine. The university is the frame. The goal is not more content &mdash; but better knowledge.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

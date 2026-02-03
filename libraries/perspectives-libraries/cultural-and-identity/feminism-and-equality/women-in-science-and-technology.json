@@ -1,0 +1,268 @@
+{
+  "name": "Women in Science and Technology",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "women in STEM",
+    "science and gender",
+    "technology bias",
+    "knowledge production",
+    "scientific exclusion"
+  ],
+  "chapters": [
+    {
+      "name": "Who Was Allowed to Do Science: How Women Were Systematically Excluded from Knowledge Production",
+      "topics": [
+        "How did universities, scientific societies, and professional organizations formally exclude women from science for centuries — and what justifications were used to make that exclusion seem rational?",
+        "Why did the Enlightenment's promise of reason and evidence as the basis for knowledge fail to extend to women — and how did scientific arguments about women's inferior intellect become tools of exclusion?",
+        "How did the few women who gained access to scientific work — often through family connections, religious orders, or disguise — manage to contribute despite systematic barriers?",
+        "What happened when women's formal exclusion ended — and why did informal barriers, gatekeeping, and hostile cultures replace legal prohibitions without significantly changing outcomes?",
+        "How does the history of women's exclusion from science shape the knowledge base itself — determining which questions were asked, which bodies were studied, and which problems were considered important?",
+        "Why does understanding the history of exclusion matter for addressing the present — and what does it reveal about claims that science is inherently objective and meritocratic?"
+      ],
+      "tags": [
+        "history",
+        "inequality",
+        "gender",
+        "sociology"
+      ]
+    },
+    {
+      "name": "The Women Who Were Erased: Hidden Contributions That Built Modern Science and Technology",
+      "topics": [
+        "How did Rosalind Franklin's critical X-ray crystallography work lead to the discovery of DNA's structure — while Watson and Crick received the Nobel Prize and Franklin received decades of obscurity?",
+        "Why were the women 'computers' at NASA — Katherine Johnson, Dorothy Vaughan, Mary Jackson — essential to the space program yet invisible in its public narrative until the twenty-first century?",
+        "How did Lise Meitner's theoretical work explain nuclear fission while her collaborator Otto Hahn alone received the Nobel Prize — and what does her erasure reveal about how credit is assigned in science?",
+        "Why did Nettie Stevens's discovery of chromosomal sex determination, Hedy Lamarr's frequency-hopping invention, and Ada Lovelace's foundational computing work all require decades of recovery from historical erasure?",
+        "How does the systematic pattern of women's contributions being attributed to male colleagues, supervisors, or co-authors — the Matilda effect — continue to shape who receives recognition in science?",
+        "What does the recovery of erased women scientists accomplish — and why is visibility necessary but insufficient for changing the structures that produced erasure in the first place?"
+      ],
+      "tags": [
+        "history",
+        "bias",
+        "gender",
+        "sociology"
+      ]
+    },
+    {
+      "name": "How Computing Went from Women's Work to Boys' Club — and What That Reversal Reveals",
+      "topics": [
+        "Why was computer programming originally considered clerical work suitable for women — from the ENIAC programmers to Grace Hopper to the thousands of women who wrote code in the 1950s and 1960s?",
+        "How did the professionalization of computing in the 1970s and 1980s — through credentialing, aptitude tests biased toward male hobbyists, and the marketing of personal computers to boys — systematically push women out?",
+        "What does the fact that women's share of computer science degrees peaked at 37 percent in 1984 and has declined since reveal about whether the gender gap in tech is natural or manufactured?",
+        "How did the culture of early Silicon Valley — garage startups, hacker identity, libertarian ideology — create a founding mythology that coded technical genius as exclusively male?",
+        "Why does the reversal in computing's gender composition matter beyond fairness — and what does research show about how the absence of women shapes what gets built, for whom, and with what assumptions?",
+        "What would it take to reverse the reversal — and why have decades of 'women in tech' initiatives failed to restore women's participation to pre-1980s levels?"
+      ],
+      "tags": [
+        "technology",
+        "inequality",
+        "gender",
+        "computer-science"
+      ]
+    },
+    {
+      "name": "The Meritocracy Myth: How Objectivity Rhetoric in STEM Masks Structural Bias",
+      "topics": [
+        "Why does the belief that science and technology operate as pure meritocracies — where talent rises regardless of identity — make it harder to see and address the structural barriers that prevent that from being true?",
+        "How do studies showing that identical resumes and grant applications receive different evaluations depending on whether the applicant's name is male or female demonstrate that bias operates even when evaluators believe they are objective?",
+        "Why does the framing of STEM as 'objective' and 'apolitical' make discussions of gender, race, and exclusion seem like intrusions rather than necessary corrections?",
+        "How does the myth of the lone genius — from Einstein to Jobs to Musk — erase the collaborative, institutional, and publicly funded nature of scientific and technical work while reinforcing the idea that greatness is individual and male?",
+        "What does research on stereotype threat show about how the meritocracy narrative itself undermines women's performance — by creating environments where failure confirms the stereotype and success is attributed to exception rather than competence?",
+        "What would genuine meritocracy in STEM require — and why is the current system's insistence that it already exists the primary obstacle to achieving it?"
+      ],
+      "tags": [
+        "society",
+        "bias",
+        "gender",
+        "sociology"
+      ]
+    },
+    {
+      "name": "The Pipeline Metaphor and Why It Misdiagnoses the Problem of Women Leaving STEM",
+      "topics": [
+        "Why has the dominant metaphor for women in STEM — a 'leaky pipeline' from education to career — focused attention on recruitment while ignoring the hostile conditions that drive women out at every stage?",
+        "What does the data show about where women leave STEM — and why do attrition rates spike not at the entry point but at mid-career, after women have invested years in education and training?",
+        "How does the pipeline metaphor place the burden on women — who need to be encouraged, trained, and mentored into staying — rather than on the institutions that make staying intolerable?",
+        "What do women who leave STEM careers consistently report as their reasons — and why do workplace culture, harassment, lack of advancement, and caregiving penalties appear far more often than lack of interest or ability?",
+        "Why have billions of dollars spent on pipeline programs — girls' coding camps, STEM scholarships, mentoring initiatives — failed to significantly change the representation of women in STEM careers?",
+        "What would happen if the metaphor shifted from fixing the pipeline to fixing the destination — and what structural changes to STEM workplaces would make retention unnecessary to discuss?"
+      ],
+      "tags": [
+        "society",
+        "analysis",
+        "gender",
+        "labor"
+      ]
+    },
+    {
+      "name": "How Classrooms Teach Girls They Don't Belong in Science Before They Ever Reach a Lab",
+      "topics": [
+        "What does research on teacher behavior show about how girls receive less attention, fewer challenging questions, and more discouraging feedback in math and science classrooms — often from teachers who believe they are treating students equally?",
+        "How do textbooks, curricula, and classroom examples that feature male scientists, male-coded problems, and male-centered narratives signal to girls that science is not for them?",
+        "Why does the gender gap in math and science confidence appear well before any gap in actual performance — and what does that disconnect reveal about the role of environment rather than ability?",
+        "How do standardized testing, tracking systems, and gifted program selection processes contain built-in biases that disproportionately channel boys into advanced STEM pathways?",
+        "What does cross-national data show about how the gender gap in STEM varies dramatically by country — proving that the gap is culturally produced rather than biologically determined?",
+        "What educational interventions — growth mindset frameworks, female scientist visibility, bias-aware pedagogy — have shown measurable effects on girls' STEM participation and confidence?"
+      ],
+      "tags": [
+        "education",
+        "bias",
+        "gender",
+        "sociology"
+      ]
+    },
+    {
+      "name": "Hostile Climates: Sexual Harassment, Isolation, and the Culture That Pushes Women Out of STEM",
+      "topics": [
+        "Why do surveys consistently find that more than half of women in STEM fields have experienced sexual harassment — and why are rates particularly high in male-dominated subfields like engineering, physics, and computer science?",
+        "How does the culture of STEM workplaces — long hours, competitive individualism, informal networking that excludes women, and tolerance of 'brilliant jerks' — create environments where women are isolated even when they are technically included?",
+        "What happens to women who report harassment in academic science and corporate tech — and why do retaliation, career damage, and institutional inaction discourage reporting?",
+        "How does the experience of being the only woman in a lab, a department, or a meeting produce measurable psychological effects — from heightened self-monitoring to reduced risk-taking to decreased sense of belonging?",
+        "Why do institutional responses to hostile climate — diversity statements, optional trainings, reporting hotlines — consistently fail to change the conditions that produce the hostility?",
+        "What structural interventions — accountability for supervisors, transparent promotion criteria, critical mass hiring, zero-tolerance enforcement — have demonstrated the ability to change STEM workplace culture rather than just describe its problems?"
+      ],
+      "tags": [
+        "society",
+        "accountability",
+        "gender",
+        "labor"
+      ]
+    },
+    {
+      "name": "The Pay Gap, the Patent Gap, and Who Gets Credit for Scientific and Technical Work",
+      "topics": [
+        "Why do women in STEM earn less than men at every career stage — from entry-level positions to senior faculty to corporate leadership — even when controlling for field, hours, and qualifications?",
+        "How does the patent gap — women hold roughly 13 percent of patents despite comprising nearly half of the scientific workforce — reveal systemic barriers in whose innovations are recognized and commercialized?",
+        "Why are women's contributions to collaborative scientific work systematically underrecognized — with studies showing women receive less credit on multi-author papers, fewer citations, and less name recognition for shared discoveries?",
+        "How do grant funding disparities, lab resource allocation, and institutional support create compounding disadvantages that widen over a career — turning small initial inequities into large outcome gaps?",
+        "What does the data on women Nobel laureates, National Academy members, and named professorships reveal about whose careers the system of scientific prestige was designed to reward?",
+        "What changes to credit assignment, compensation structures, and recognition systems would close the gaps — and why has the scientific community been slow to implement them?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "gender",
+        "labor"
+      ]
+    },
+    {
+      "name": "Tech Bro Ideology: How Silicon Valley Built a Culture of Exclusion and Called It Disruption",
+      "topics": [
+        "How did Silicon Valley's founding mythology — the dropout genius, the garage startup, the move-fast-and-break-things ethos — create a culture that codes technical authority as young, male, and contemptuous of social norms?",
+        "Why did the Google memo, Uber's harassment culture, and repeated scandals at major tech companies reveal not isolated bad actors but a systematic pattern of gender hostility embedded in tech industry culture?",
+        "How does the libertarian ideology dominant in tech — individual merit, market efficiency, resistance to regulation — provide intellectual cover for ignoring structural inequality?",
+        "Why does the tech industry's definition of 'culture fit' systematically exclude women while appearing to be a neutral assessment of who belongs?",
+        "How do the material conditions of tech work — equity compensation that rewards long hours, relocation demands, on-call expectations — disadvantage women who bear disproportionate caregiving responsibilities?",
+        "What would a tech industry that valued the people affected by its products as much as the people building them look like — and why does that question remain radical?"
+      ],
+      "tags": [
+        "technology",
+        "bias",
+        "gender",
+        "sociology"
+      ]
+    },
+    {
+      "name": "How AI Systems Encode and Automate Gender Bias at Scale",
+      "topics": [
+        "How do AI systems trained on historical data — hiring algorithms, facial recognition, language models, credit scoring — reproduce and amplify the gender biases present in the data they learn from?",
+        "Why did Amazon's AI recruiting tool systematically downgrade resumes that mentioned women's colleges or women's activities — and what does that failure reveal about the assumption that algorithms are objective?",
+        "How does the underrepresentation of women in AI development teams mean that gender bias in systems is less likely to be identified, tested for, or corrected before deployment?",
+        "What does research on large language models show about how they associate women with domestic roles, lower competence, and emotional language — and how those associations shape outputs used by millions?",
+        "How do biased AI systems create feedback loops — where discriminatory outputs produce discriminatory outcomes that then become the training data for the next generation of systems?",
+        "What governance frameworks, audit requirements, and development practices would be necessary to prevent AI from automating gender inequality — and why is the industry resisting them?"
+      ],
+      "tags": [
+        "technology",
+        "bias",
+        "ai-ml",
+        "gender"
+      ]
+    },
+    {
+      "name": "Venture Capital, Startup Culture, and Why Women's Ideas Are Systematically Underfunded",
+      "topics": [
+        "Why do women-founded startups receive approximately 2 percent of venture capital funding — and why has that percentage barely changed despite a decade of attention to the problem?",
+        "How does the venture capital industry's reliance on pattern matching — funding founders who look like previous successes — create a self-reinforcing cycle that excludes women and people of color?",
+        "What do studies on investor behavior show about how identical pitches receive different evaluations depending on the presenter's gender — with men asked promotion questions and women asked prevention questions?",
+        "How does the absence of women in venture capital decision-making roles — as partners, managing directors, and fund managers — determine which ideas get funded and which markets get served?",
+        "Why do women-founded companies consistently outperform male-founded companies on key metrics — revenue per dollar invested, capital efficiency, return on investment — while receiving a fraction of the funding?",
+        "What alternative funding models — revenue-based financing, cooperative structures, public investment, women-focused funds — have emerged to address the venture capital gap, and what are their limits?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "gender",
+        "entrepreneurship"
+      ]
+    },
+    {
+      "name": "Global STEM Access: Who Gets to Do Science When Education and Resources Are Unequally Distributed",
+      "topics": [
+        "How does access to scientific education and careers vary for women across the world — and why do some countries in the Global South have higher rates of women in STEM than the United States or Western Europe?",
+        "What barriers — from lack of internet access to unsafe school travel to early marriage — prevent girls and women in developing countries from pursuing scientific education?",
+        "How do brain drain dynamics affect women scientists in the Global South — where those who overcome local barriers often face immigration obstacles, credential non-recognition, and workplace discrimination in destination countries?",
+        "Why does the global distribution of research funding, laboratory infrastructure, and publication access create a system where women scientists in wealthy countries dominate the production of knowledge while women in the Global South are excluded?",
+        "How have women scientists in countries like Iran, India, Cuba, and Rwanda achieved significant STEM participation despite or because of different cultural and political contexts — and what do those cases reveal about assumptions that Western models are the only path?",
+        "What would genuinely global scientific inclusion require — in terms of funding distribution, knowledge sharing, credential recognition, and dismantling the assumption that legitimate science only happens in wealthy institutions?"
+      ],
+      "tags": [
+        "education",
+        "globalization",
+        "gender",
+        "sociology"
+      ]
+    },
+    {
+      "name": "Women Who Built Their Own Networks: Resistance, Mentorship, and Alternative Institutions",
+      "topics": [
+        "How have women scientists and technologists built alternative networks — from women's colleges and professional associations to online communities and mentorship programs — when mainstream institutions excluded or marginalized them?",
+        "What role did institutions like Bryn Mawr, Mount Holyoke, and Wellesley play in producing generations of women scientists when coeducational universities limited women's access to labs, funding, and faculty positions?",
+        "How do organizations like the Association for Women in Science, Women in Engineering, and Girls Who Code function — and what does their continued necessity reveal about the limits of institutional inclusion?",
+        "Why is mentorship consistently identified as the single most important factor in women's STEM persistence — and why does the burden of mentoring women fall disproportionately on the small number of senior women who made it through?",
+        "How have women scientists used collective organizing — from the MIT gender equity report to the #MeTooSTEM movement — to force institutional accountability for discrimination?",
+        "What do these resistance networks accomplish — and why are they necessary supplements to, rather than replacements for, structural change in mainstream institutions?"
+      ],
+      "tags": [
+        "society",
+        "activism",
+        "gender",
+        "labor"
+      ]
+    },
+    {
+      "name": "What Policy Interventions Actually Work — and Which Are Performative Gestures",
+      "topics": [
+        "Why have diversity statements, unconscious bias trainings, and women-in-STEM awareness campaigns consistently failed to produce measurable changes in representation — and what does that failure reveal about the limits of awareness-based approaches?",
+        "What policy interventions have demonstrated actual effectiveness — including Title IX enforcement in STEM education, mandatory pay transparency, family leave policies, and accountability-based hiring practices?",
+        "How do countries with stronger gender equity policies — parental leave, subsidized childcare, pay equity laws — perform on women's STEM participation compared to countries that rely on voluntary corporate initiatives?",
+        "Why does the distinction between pipeline interventions (getting women in) and climate interventions (keeping women from being pushed out) matter for designing effective policy?",
+        "What role should government funding agencies play in requiring gender equity as a condition of research grants — and why has the scientific community resisted accountability measures it readily accepts in other domains?",
+        "What would a comprehensive policy framework for gender equity in STEM look like — from K-12 education through graduate training through workforce retention through leadership advancement?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "gender",
+        "labor"
+      ]
+    },
+    {
+      "name": "What Science and Technology Would Look Like If the People Building Them Reflected the People Using Them",
+      "topics": [
+        "What research questions, product designs, and technological priorities would change if women were proportionally represented in science and technology — not as a matter of fairness but as a matter of what gets built?",
+        "How do the products of male-dominated tech — from voice recognition that doesn't understand women's voices to seatbelts designed for male bodies to apps that don't track menstruation — demonstrate what exclusion produces?",
+        "What does research on diverse teams show about innovation, problem-solving, and scientific rigor — and why do homogeneous teams consistently produce narrower, more biased results?",
+        "How would artificial intelligence, medical technology, urban planning, and digital infrastructure differ if women's needs, experiences, and perspectives shaped design from the beginning rather than being retrofitted after failure?",
+        "Why is inclusion in science and technology not a concession to political correctness but a requirement for producing knowledge and tools that actually work for the entire population?",
+        "What would the first generation of genuinely inclusive science and technology look like — and what stands between the present system and that outcome?"
+      ],
+      "tags": [
+        "technology",
+        "governance",
+        "gender",
+        "sociology"
+      ]
+    }
+  ]
+}

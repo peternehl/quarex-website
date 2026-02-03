@@ -1,0 +1,50 @@
+{
+  "name": "Hong Kong",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Hong Kong's political status as a Special Administrative Region of China?",
+        "What is Hong Kong's population and population density?",
+        "What makes Hong Kong one of the world's leading financial centers?",
+        "What languages are spoken in Hong Kong?",
+        "What is the 'one country, two systems' framework?"
+      ],
+      "tags": ["geography", "identity", "asia", "finance"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Hong Kong become a British colony after the Opium Wars?",
+        "What was life like in Hong Kong under British colonial rule?",
+        "How was the 1997 handover to China negotiated and executed?",
+        "What were the 2014 Umbrella Movement and 2019 protests about?",
+        "How has Beijing's control over Hong Kong changed since 2020?"
+      ],
+      "tags": ["history", "colonialism", "modern-history", "activism"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does Hong Kong's government have under the Basic Law?",
+        "How has the National Security Law changed Hong Kong's legal system?",
+        "What happened to Hong Kong's democratic institutions and free press?",
+        "How do Hong Kong's laws differ from mainland China's?",
+        "What is the status of civil liberties in Hong Kong today?"
+      ],
+      "tags": ["politics", "governance", "human-rights", "authoritarianism"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Hong Kong?",
+        "How do you get to Hong Kong and navigate its transport system?",
+        "What are the top destinations and attractions in Hong Kong?",
+        "What should travelers know about safety and political sensitivities?",
+        "What is the best time of year to visit Hong Kong?"
+      ],
+      "tags": ["geography", "travel", "infrastructure", "asia"]
+    }
+  ]
+}

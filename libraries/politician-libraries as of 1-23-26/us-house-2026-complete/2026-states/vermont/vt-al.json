@@ -1,0 +1,23 @@
+{
+  "book": "VT-AL",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mark Coester (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Becca Balint (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Andrew Giusto (Unity)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Wales",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Wales's political status within the United Kingdom?",
+        "What is Wales's population and major cities?",
+        "What are Wales's main economic activities?",
+        "What is the status of the Welsh language?",
+        "What is distinctive about Welsh national identity?"
+      ],
+      "tags": ["geography", "identity", "europe", "linguistics"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Wales develop as a distinct nation?",
+        "How was Wales conquered and incorporated into England?",
+        "How did the Welsh language survive centuries of suppression?",
+        "How has Welsh nationalism evolved over the centuries?",
+        "How did Wales achieve devolution in 1999?"
+      ],
+      "tags": ["history", "nationalism", "cultural-heritage", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does the Senedd (Welsh Parliament) have?",
+        "How do Welsh laws differ from English laws?",
+        "What is the status of Welsh independence movement?",
+        "How has Welsh language policy evolved?",
+        "What decisions does Westminster still make for Wales?"
+      ],
+      "tags": ["politics", "governance", "democracy", "human-rights"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Wales?",
+        "How do you get to Wales and travel within the country?",
+        "What are the top destinations and attractions in Wales?",
+        "What is the best time of year to visit Wales?",
+        "What should travelers know about Welsh language and culture?"
+      ],
+      "tags": ["geography", "travel", "europe", "cultural-heritage"]
+    }
+  ]
+}

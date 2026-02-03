@@ -1,0 +1,50 @@
+{
+  "name": "Western Sahara",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Western Sahara's disputed political status?",
+        "What is the population of Western Sahara and where do people live?",
+        "What are Western Sahara's natural resources?",
+        "What language is spoken in Western Sahara?",
+        "Who are the Sahrawi people?"
+      ],
+      "tags": ["geography", "identity", "africa", "nationalism"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Spain colonize Western Sahara?",
+        "What happened during Spain's withdrawal in 1975?",
+        "What was the Green March and Morocco's annexation?",
+        "How did the Polisario Front fight for independence?",
+        "What has happened since the 1991 ceasefire?"
+      ],
+      "tags": ["history", "colonialism", "conflict", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "How does Morocco administer Western Sahara?",
+        "What is the Sahrawi Arab Democratic Republic?",
+        "What is the UN position on Western Sahara?",
+        "Why has the promised referendum never happened?",
+        "Which countries recognize Sahrawi independence?"
+      ],
+      "tags": ["politics", "governance", "diplomacy", "united-nations"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Western Sahara?",
+        "How do you travel to and within Western Sahara?",
+        "What are the main towns and attractions?",
+        "What should travelers know about the Moroccan-Sahrawi situation?",
+        "What are the safety considerations in different areas?"
+      ],
+      "tags": ["geography", "travel", "africa", "security"]
+    }
+  ]
+}

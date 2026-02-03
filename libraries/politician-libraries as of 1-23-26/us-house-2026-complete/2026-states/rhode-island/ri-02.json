@@ -1,0 +1,23 @@
+{
+  "book": "RI-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Victor Mellor (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Seth Magaziner (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Armando Anzoli (I)"
+      ]
+    }
+  ]
+}

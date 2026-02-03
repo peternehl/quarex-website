@@ -1,0 +1,50 @@
+{
+  "name": "Taiwan",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Taiwan's disputed political status?",
+        "What is Taiwan's population and economic importance?",
+        "How did Taiwan become a global semiconductor powerhouse?",
+        "What languages are spoken in Taiwan?",
+        "What is distinctive about Taiwanese identity and culture?"
+      ],
+      "tags": ["geography", "identity", "asia", "technology"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "Who were the indigenous peoples of Taiwan?",
+        "How did the Republic of China relocate to Taiwan in 1949?",
+        "What was Taiwan like under martial law and the White Terror?",
+        "How did Taiwan transition to democracy in the 1990s?",
+        "How have cross-strait relations evolved since 1949?"
+      ],
+      "tags": ["history", "democracy", "authoritarianism", "cold-war"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "How does Taiwan's government function as the Republic of China?",
+        "What is the 'One China' policy and why does it matter?",
+        "How many countries formally recognize Taiwan?",
+        "What is the Taiwan Relations Act and US policy toward Taiwan?",
+        "What is the current military balance across the Taiwan Strait?"
+      ],
+      "tags": ["politics", "governance", "diplomacy", "china-taiwan"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Taiwan?",
+        "How do you get to Taiwan and navigate its transport system?",
+        "What are the top destinations and attractions in Taiwan?",
+        "What is the best time of year to visit Taiwan?",
+        "What should travelers know about the political situation and safety?"
+      ],
+      "tags": ["geography", "travel", "asia", "infrastructure"]
+    }
+  ]
+}

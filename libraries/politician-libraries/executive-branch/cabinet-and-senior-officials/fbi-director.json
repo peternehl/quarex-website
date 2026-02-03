@@ -1,0 +1,44 @@
+{
+  "name": "FBI Director",
+  "slug": "fbi-director",
+  "tags": [
+    "politics",
+    "us-politics",
+    "governance",
+    "law"
+  ],
+  "chapters": [
+    {
+      "name": "Kash Patel",
+      "slug": "kash-patel",
+      "topics": [
+        "What is Kash Patel's background before becoming FBI Director?",
+        "What was Kash Patel's role in the first Trump administration?",
+        "What are Kash Patel's positions on the FBI and law enforcement?",
+        "What is Kash Patel's involvement in Trump's legal defense?",
+        "What controversies or concerns surround Kash Patel's appointment?",
+        "How did Kash Patel's confirmation process unfold?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "law"
+      ]
+    },
+    {
+      "name": "Previous Director",
+      "slug": "previous-director",
+      "topics": [
+        "Who was the previous (Biden) FBI Director and what was their tenure like?",
+        "How does Kash Patel's approach differ from his predecessor?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "law"
+      ]
+    }
+  ]
+}

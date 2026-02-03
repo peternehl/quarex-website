@@ -1,0 +1,28 @@
+{
+  "book": "TX-10",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Rob Altman (R)",
+        "Ben Bius (R)",
+        "Robert Brown (R)",
+        "Jenny Garcia Sharon (R)",
+        "Chris Gober (R)",
+        "Brandon Hawbaker (R)",
+        "Jessica Karlsruher (R)",
+        "Kara King (R)",
+        "Scott MacLeod (R)",
+        "Jeremy Story (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Dawn Marshall (D)",
+        "Bernie Reyna (D)",
+        "Caitlin Rourk (D)"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "batch": 9,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "South Dakota",
@@ -77,10 +77,9 @@
           "candidates": {
             "Republican": ["Brad Gaines (R)", "Johnny Garrett (R)", "Jon Henry (R)", "William Hilleary (R)", "Joe Reid (R)"],
             "Democratic": ["Craig Ballin (D)", "Lore Bergman (D)", "Mike Croley (D)"],
-            "Independent": ["Christopher Monday (I)"],
+            "Independent": ["Dale Braden (I)", "Christopher Monday (I)"],
             "Libertarian": [],
-            "Green": [],
-            "Other": ["Dale Braden (A)"]
+            "Green": []
           }
         },
         {
@@ -186,7 +185,7 @@
             "Democratic": ["Lizzie Pannill Fletcher (D)"],
             "Independent": [],
             "Libertarian": [],
-            "Green": []
+            "Green": ["Espoir Ngabo (G)"]
           }
         },
         {
@@ -334,10 +333,9 @@
           "candidates": {
             "Republican": ["Rebecca Clark (R)", "Trever Nehls (R)"],
             "Democratic": ["Chris Fernandez (D)", "Sterling Gadison (D)", "Marquette Greene-Scott (D)", "Robert Thomas (D)", "Pearl Vuorinen (D)"],
-            "Independent": [],
+            "Independent": ["Demile James (I)"],
             "Libertarian": [],
-            "Green": [],
-            "Other": ["Demile James (A)"]
+            "Green": []
           }
         },
         {
@@ -376,7 +374,7 @@
             "Republican": ["Brandon Gill (R)", "Robert Chick (R)"],
             "Democratic": ["Ernest Lineberger III (D)", "Steven Shook (D)"],
             "Independent": [],
-            "Libertarian": [],
+            "Libertarian": ["Phil Gray (L)"],
             "Green": []
           }
         },
@@ -396,7 +394,7 @@
             "Republican": ["Eileen Day (R)", "Tano Tijerina (R)"],
             "Democratic": ["Henry Cuellar (D)", "Andrew Vantine (D)", "Ricardo Villarreal (D)"],
             "Independent": ["Adriel Ventura Lopez (I)"],
-            "Libertarian": [],
+            "Libertarian": ["John Foddrill (L)"],
             "Green": ["Marlon Duran (G)"]
           }
         },
@@ -453,10 +451,10 @@
         {
           "district": "TX-34",
           "candidates": {
-            "Republican": ["Keith Allen (R)", "Luis Buentello (R)", "Eric Flores (R)", "Mayra Flores (R)", "Fred Hinojosa (R)", "Gregory Kunkle Jr. (R)", "Jay Nagy (R)"],
+            "Republican": ["Keith Allen (R)", "Luis Buentello (R)", "Eric Flores (R)", "Mayra Flores (R)", "Gregory Kunkle Jr. (R)", "Jay Nagy (R)"],
             "Democratic": ["Vicente Gonzalez Jr. (D)", "Etienne Rosas (D)"],
             "Independent": [],
-            "Libertarian": [],
+            "Libertarian": ["Chris Royal (L)"],
             "Green": ["Eddie Espinoza (G)"]
           }
         },
@@ -483,7 +481,7 @@
         {
           "district": "TX-37",
           "candidates": {
-            "Republican": ["Ge'Nell Gary (R)", "Janet Malzahn (R)", "Lauren Peña (R)"],
+            "Republican": ["Ge'Nell Gary (R)", "Janet Malzahn (R)", "Lauren Pena (R)"],
             "Democratic": ["Greg Casar (D)", "Esther Fleharty (D)"],
             "Independent": ["James Kinney (I)"],
             "Libertarian": [],
@@ -531,10 +529,9 @@
           "candidates": {
             "Republican": ["Mike Kennedy (R)"],
             "Democratic": ["Steven Merrill (D)"],
-            "Independent": [],
+            "Independent": ["Adonis Hooslyn (I)"],
             "Libertarian": [],
-            "Green": [],
-            "Other": ["Adonis Hooslyn (NP)"]
+            "Green": []
           }
         },
         {
@@ -558,10 +555,9 @@
           "candidates": {
             "Republican": ["Mark Coester (R)"],
             "Democratic": ["Becca Balint (D)"],
-            "Independent": [],
+            "Independent": ["Andrew Giusto (I)"],
             "Libertarian": [],
-            "Green": [],
-            "Other": ["Andrew Giusto (Unity)"]
+            "Green": []
           }
         }
       ]

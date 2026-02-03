@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Assets | The Quarex Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <style>
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+        .logo-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 24px;
+            text-align: center;
+        }
+        .logo-preview {
+            padding: 20px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 16px;
+            min-height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo-preview.dark-bg {
+            background: #0A0A0A;
+            border: 1px solid var(--line);
+        }
+        .logo-preview.light-bg {
+            background: #ffffff;
+            border: 1px solid #e5e5e5;
+        }
+        .logo-preview.checker-bg {
+            background: repeating-conic-gradient(#e5e5e5 0% 25%, #ffffff 0% 50%) 50% / 20px 20px;
+            border: 1px solid #e5e5e5;
+        }
+        .logo-preview img {
+            max-width: 100%;
+            max-height: 140px;
+            object-fit: contain;
+        }
+        .logo-name {
+            font-weight: 600;
+            color: var(--brand);
+            font-size: 0.95rem;
+            margin-bottom: 4px;
+        }
+        .logo-use {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-bottom: 12px;
+        }
+        .logo-download {
+            display: inline-block;
+            padding: 8px 18px;
+            border: 1px solid var(--accent);
+            border-radius: 999px;
+            color: var(--accent-bright);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .logo-download:hover {
+            background: rgba(13, 148, 136, 0.1);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="../../" class="site-logo">The Quarex Project</a>
+        <nav class="site-nav" id="siteNav">
+            <a href="../../brand/">Brand</a>
+            <a href="../../materials/">Materials</a>
+            <a href="../../audience/">Audience</a>
+            <a href="../../competitive/">Landscape</a>
+            <a href="https://quarex.org/" target="_blank" rel="noopener">Quarex.org</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+</header>
+
+<main class="page-content">
+    <h1>Logo Assets</h1>
+    <p>Download logo files for use in marketing materials, presentations, and campaigns. All logos are PNG format. Right-click and save, or click the download link.</p>
+
+    <div class="logo-grid">
+        <div class="logo-card">
+            <div class="logo-preview dark-bg">
+                <img src="quarex-logo-teal-text.png" alt="Quarex logo with teal text">
+            </div>
+            <div class="logo-name">Full Logo — Teal Text</div>
+            <div class="logo-use">Dark backgrounds, web, social media</div>
+            <a href="quarex-logo-teal-text.png" download class="logo-download">Download PNG</a>
+        </div>
+
+        <div class="logo-card">
+            <div class="logo-preview dark-bg">
+                <img src="quarex-logo-white-text.png" alt="Quarex logo with white text">
+            </div>
+            <div class="logo-name">Full Logo — White Text</div>
+            <div class="logo-use">Dark backgrounds, video overlays, print on dark</div>
+            <a href="quarex-logo-white-text.png" download class="logo-download">Download PNG</a>
+        </div>
+
+        <div class="logo-card">
+            <div class="logo-preview checker-bg">
+                <img src="quarex-logo-mark.png" alt="Quarex logo mark">
+            </div>
+            <div class="logo-name">Logo Mark (No Text)</div>
+            <div class="logo-use">Icons, watermarks, compact placements</div>
+            <a href="quarex-logo-mark.png" download class="logo-download">Download PNG</a>
+        </div>
+
+        <div class="logo-card">
+            <div class="logo-preview dark-bg">
+                <img src="quarex-round-500px.png" alt="Quarex round avatar">
+            </div>
+            <div class="logo-name">Round Avatar — 500px</div>
+            <div class="logo-use">Social profiles, favicons, avatars</div>
+            <a href="quarex-round-500px.png" download class="logo-download">Download PNG</a>
+        </div>
+
+        <div class="logo-card">
+            <div class="logo-preview dark-bg">
+                <img src="quarex-logo-halfsize.png" alt="Quarex logo half size">
+            </div>
+            <div class="logo-name">Logo — Medium Size</div>
+            <div class="logo-use">Web headers, email signatures, smaller placements</div>
+            <a href="quarex-logo-halfsize.png" download class="logo-download">Download PNG</a>
+        </div>
+
+        <div class="logo-card">
+            <div class="logo-preview light-bg">
+                <img src="quarex-logo-1920x1080-white-bg.png" alt="Quarex logo on white background">
+            </div>
+            <div class="logo-name">Presentation Format — 1920x1080</div>
+            <div class="logo-use">Slides, presentations, print materials, white backgrounds</div>
+            <a href="quarex-logo-1920x1080-white-bg.png" download class="logo-download">Download PNG</a>
+        </div>
+    </div>
+
+    <h2 style="margin-top: 48px;">Usage Notes</h2>
+    <ul>
+        <li>Use the teal or white text versions on dark backgrounds</li>
+        <li>Use the 1920x1080 white background version for presentations and print</li>
+        <li>Maintain clear space around the logo — don't crowd it with other elements</li>
+        <li>Do not stretch, recolor, or add effects to the logo</li>
+        <li>See the <a href="../">brand guidelines</a> for color palette and typography</li>
+    </ul>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="powered-badge">
+            <a href="https://quarex.org/" target="_blank" rel="noopener">
+                <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo" width="32" height="32">
+                <span>Powered by Quarex</span>
+            </a>
+        </div>
+        <p class="footer-copy">&copy; 2026 The Quarex Project</p>
+    </div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function() {
+    document.getElementById('siteNav').classList.toggle('open');
+});
+</script>
+
+</body>
+</html>

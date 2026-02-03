@@ -1,0 +1,28 @@
+{
+  "book": "MI-10",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John James (R)",
+        "Casey Armitage (R)",
+        "Michael Bouchard (R)",
+        "Steven Elliott (R)",
+        "Cody Ingram (R)",
+        "Justin Kirk (R)",
+        "Robert Lulgjuraj (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Tripp Adams (D)",
+        "Eric Chung (D)",
+        "Tim Greimel (D)",
+        "Christina Hines (D)",
+        "Brian Steven Jaye (D)",
+        "Alex Hawkins (D)"
+      ]
+    }
+  ]
+}

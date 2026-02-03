@@ -1,0 +1,132 @@
+{
+  "book": "Massachusetts",
+  "chapters": [
+    {
+      "name": "MA-01",
+      "topics": [
+        "Richard Neal (D)",
+        "Anthony Celata (D)",
+        "Nathan Tracy (D)",
+        "Jeromie Whalen (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-02",
+      "topics": [
+        "Jim McGovern (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-03",
+      "topics": [
+        "Lori Trahan (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-04",
+      "topics": [
+        "Jake Auchincloss (D)",
+        "Christopher Boyd (D)",
+        "Steve Chasse (D)",
+        "Matthew Cook (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-05",
+      "topics": [
+        "Katherine Clark (D)",
+        "Jonathan Paz (D)",
+        "Tarik Samman (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-06",
+      "topics": [
+        "Beth Andres-Beck (D)",
+        "John Beccia (D)",
+        "Rick Jakious (D)",
+        "Dan Koh (D)",
+        "Tram Nguyen (D)",
+        "Jamie Zahlaway Belsito (D)",
+        "Seth Moulton (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-07",
+      "topics": [
+        "Ayanna Pressley (D)",
+        "Kelechi Linardon (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-08",
+      "topics": [
+        "Walter Grochowski (R)",
+        "Stephen Lynch (D)",
+        "Patrick Roath (D)",
+        "Andrew Zylberfink (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    },
+    {
+      "name": "MA-09",
+      "topics": [
+        "Robert MacAllister (R)",
+        "Bill Keating (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "massachusetts"
+      ]
+    }
+  ]
+}

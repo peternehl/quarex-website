@@ -1,0 +1,28 @@
+{
+  "book": "KY-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Hal Rogers (R)",
+        "Benjamin Hurley (R)",
+        "Brandon Monhollen (R)",
+        "Jerry Shelton (R)",
+        "Kevin Smith (R)",
+        "Jacob Trimble (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ned Pillersdorf (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Billy Ray Wilson (I)"
+      ]
+    }
+  ]
+}

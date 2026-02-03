@@ -1,0 +1,50 @@
+{
+  "name": "Scotland",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Scotland's political status within the United Kingdom?",
+        "What is Scotland's population and major cities?",
+        "What are Scotland's main economic activities?",
+        "What languages are spoken in Scotland?",
+        "What is distinctive about Scottish national identity?"
+      ],
+      "tags": ["geography", "identity", "europe", "nationalism"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Scotland develop as an independent kingdom?",
+        "What were the Wars of Scottish Independence?",
+        "How did the Acts of Union of 1707 create Great Britain?",
+        "How has Scottish nationalism evolved over the centuries?",
+        "What happened in the 2014 independence referendum?"
+      ],
+      "tags": ["history", "nationalism", "medieval", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does the Scottish Parliament have under devolution?",
+        "How does Scottish law differ from English law?",
+        "What is the current status of the independence movement?",
+        "How has Brexit affected Scotland's relationship with the UK?",
+        "What decisions does Westminster still make for Scotland?"
+      ],
+      "tags": ["politics", "governance", "democracy", "european-union"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Scotland?",
+        "How do you get to Scotland and travel within the country?",
+        "What are the top destinations and attractions in Scotland?",
+        "What is the best time of year to visit Scotland?",
+        "What should travelers know about Scottish culture and customs?"
+      ],
+      "tags": ["geography", "travel", "europe", "cultural-heritage"]
+    }
+  ]
+}

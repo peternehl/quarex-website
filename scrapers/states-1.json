@@ -1,6 +1,6 @@
 {
   "batch": 1,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "Alabama",
@@ -9,7 +9,7 @@
         {
           "district": "AL-01",
           "candidates": {
-            "Republican": ["Jerry Carl (R)", "James Dees (R)", "Rhett Marques (R)", "Joshua McKee (R)", "James Richardson (R)", "Austin Sidwell (R)"],
+            "Republican": ["Jerry Carl (R)", "James Dees (R)", "Rhett Marques (R)", "Joshua McKee (R)", "John Mills (R)", "James Richardson (R)", "Austin Sidwell (R)"],
             "Democratic": ["Clyde Jones (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -87,7 +87,7 @@
           "candidates": {
             "Republican": ["Nicholas Begich (R)"],
             "Democratic": ["Matthew Schultz (D)", "John Brendan Williams (D)"],
-            "Independent": [],
+            "Independent": ["Bill Hill (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -102,7 +102,7 @@
           "district": "AZ-01",
           "candidates": {
             "Republican": ["Joseph Chaplik (R)", "Jason Duey (R)", "Jay Feely (R)", "Derrick Gallego (R)", "Kaitlin Purrington (R)", "Paul Reevs (R)", "Brandon Sowers (R)", "Gina Swoboda (R)", "John Trobough (R)"],
-            "Democratic": ["Andres Barraza (D)", "Brian Del Vecchio (D)", "Brandon Donnelly (D)", "Marlene Galán-Woods (D)", "Mark Robert Gordon (D)", "Daniel Lucio (D)", "Rick McCartney (D)", "Angie Montoya (D)", "David Redkey (D)", "Amish Shah (D)", "Jonathan Treble (D)", "Victor Weintraub (D)"],
+            "Democratic": ["Andres Barraza (D)", "Brian Del Vecchio (D)", "Brandon Donnelly (D)", "Marlene Galan-Woods (D)", "Mark Robert Gordon (D)", "Daniel Lucio (D)", "Rick McCartney (D)", "Angie Montoya (D)", "David Redkey (D)", "Amish Shah (D)", "Jonathan Treble (D)", "Victor Weintraub (D)"],
             "Independent": ["Christopher Ajluni (I)"],
             "Libertarian": [],
             "Green": []
@@ -152,7 +152,7 @@
           "district": "AZ-06",
           "candidates": {
             "Republican": ["Juan Ciscomani (R)"],
-            "Democratic": ["Johnathan Buma (D)", "Chris Donat (D)", "JoAnna Mendoza (D)", "Samantha Severson (D)", "Aiden Swallow (D)", "Carter Weeks (D)"],
+            "Democratic": ["Johnathan Buma (D)", "Chris Donat (D)", "JoAnna Mendoza (D)", "Samantha Severson (D)", "Carter Weeks (D)"],
             "Independent": ["Trevor Dickerson (I)"],
             "Libertarian": [],
             "Green": ["Gary Swing (G)"]
@@ -614,7 +614,7 @@
           "district": "CA-38",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Linda Sánchez (D)", "Thomas Adams-Falconer (D)", "Monica Sanchez (D)", "Hilda Solis (D)"],
+            "Democratic": ["Linda Sanchez (D)", "Thomas Adams-Falconer (D)", "Monica Sanchez (D)", "Hilda Solis (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -634,8 +634,8 @@
           "district": "CA-40",
           "candidates": {
             "Republican": ["Ken Calvert (R)", "Young Kim (R)"],
-            "Democratic": ["Claude Keissieh (D)", "Joe Kerr (D)", "Eric Peterson (D)", "Lisa Ramirez (D)", "Paula Swift (D)", "Tiffanie Tate (D)", "Esther Kim Varet (D)"],
-            "Independent": ["Christian Ahmed (I)", "Nina Linh (I)"],
+            "Democratic": ["Claude Keissieh (D)", "Joe Kerr (D)", "Eric Peterson (D)", "Lisa Ramirez (D)", "Paula Swift (D)", "Esther Kim Varet (D)"],
+            "Independent": ["Christian Ahmed (I)", "Nina Linh (I)", "Maricar Payad (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -674,7 +674,7 @@
           "district": "CA-44",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Nanette Barragán (D)"],
+            "Democratic": ["Nanette Barragan (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []

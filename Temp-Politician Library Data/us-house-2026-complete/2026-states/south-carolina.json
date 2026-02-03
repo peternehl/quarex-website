@@ -1,0 +1,113 @@
+{
+  "book": "South Carolina",
+  "chapters": [
+    {
+      "name": "SC-01",
+      "topics": [
+        "Dan Brown (R)",
+        "Logan Cunningham (R)",
+        "Tyler Dykes (R)",
+        "Jack Ellison (R)",
+        "Jenny Honeycutt (R)",
+        "Sam McCown (R)",
+        "Alex Pelbath (R)",
+        "William Reeside (R)",
+        "Mark Smith (R)",
+        "Nancy Mace (R)",
+        "Robert Beers (D)",
+        "Mac Deford (D)",
+        "Max Diaz (D)",
+        "Matthew Fulmer (D)",
+        "Mayra Rivera-Vazquez (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "south-carolina"
+      ]
+    },
+    {
+      "name": "SC-02",
+      "topics": [
+        "Joe Wilson (R)",
+        "Roger Pruitt (D)",
+        "David Robinson II (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "south-carolina"
+      ]
+    },
+    {
+      "name": "SC-03",
+      "topics": [
+        "Sheri Biggs (R)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "south-carolina"
+      ]
+    },
+    {
+      "name": "SC-04",
+      "topics": [
+        "William Timmons (R)",
+        "David Atchley (R)",
+        "Courtney McClain (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "south-carolina"
+      ]
+    },
+    {
+      "name": "SC-05",
+      "topics": [
+        "Bill Bledsoe (R)",
+        "Wes Climer (R)",
+        "Ralph Norman (R)",
+        "Andrew Clough (D)",
+        "Mallory Dittmer (D)",
+        "Alex Harper (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "south-carolina"
+      ]
+    },
+    {
+      "name": "SC-06",
+      "topics": [
+        "James Clyburn (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "south-carolina"
+      ]
+    },
+    {
+      "name": "SC-07",
+      "topics": [
+        "Russell Fry (R)",
+        "John Vincent (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "south-carolina"
+      ]
+    }
+  ]
+}

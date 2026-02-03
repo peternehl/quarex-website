@@ -1,16 +1,16 @@
 {
   "library_type": "us_candidates",
   "recommended_questions": [
-    "Who is this person?",
-    "Who funds this candidate's campaign, and in what approximate amounts?",
-    "What demonstrably false or materially misleading public claims has this candidate made in the last 30 days?",
-    "What does this candidate's social media history reveal about their priorities, behavior, and public conduct?",
-    "What major controversies, scandals, or ethical concerns have surrounded this candidate?",
-    "Does this candidate have a criminal record, history of bankruptcy, or other significant legal issues that voters should understand?",
-    "What conflicts of interest exist between this candidate's public role and their financial, business, or personal ties?",
-    "What is this candidate's long-term record of truthfulness, accuracy, and public credibility?",
-    "Who materially or politically benefits the most from this candidate's agenda?",
-    "Who is most likely to be harmed, excluded, or disadvantaged by this candidate's agenda?",
-    "What are this candidate's core policy positions explained in plain, non-technical language?"
+    "Who is {name}?",
+    "What are {name}'s core policy positions?",
+    "Who funds {name}'s campaign, and in what approximate amounts?",
+    "What false or misleading public claims has {name} made in the last 30 days?",
+    "What does {name}'s social media history reveal about their behavior and conduct?",
+    "What major controversies, scandals, or ethical concerns have surrounded {name}?",
+    "Does {name} have a criminal record, history of bankruptcy, or any other significant legal issues?",
+    "What conflicts of interest exist between {name}'s public role and their financial, business, or personal ties?",
+    "What is {name}'s long-term record of truthfulness, accuracy, and public credibility?",
+    "Who materially or politically benefits the most from {name}'s agenda?",
+    "Who is most likely to be harmed, excluded, or disadvantaged by {name}'s agenda?"
   ]
 }

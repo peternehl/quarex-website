@@ -2,6 +2,12 @@
   "book": "NY-06",
   "chapters": [
     {
+      "name": "Republican",
+      "topics": [
+        "Juan Pagan (R)"
+      ]
+    },
+    {
       "name": "Democratic",
       "topics": [
         "Grace Meng (D)",

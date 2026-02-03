@@ -1,0 +1,38 @@
+{
+  "book": "Louisiana",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Bill Cassidy (R)",
+        "Randall Arrington (R)",
+        "Markeda Cottonham (R)",
+        "Tracy Dendy (R)",
+        "Julie Emerson (R)",
+        "John Fleming (R)",
+        "Chris Holder (R)",
+        "Xan John (R)",
+        "Julia Letlow (R)",
+        "Blake Miguez (R)",
+        "Joshua Morott (R)",
+        "Kathy Seiden (R)",
+        "Eric Skrmetta (R)",
+        "Samuel Wyatt (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Tracie Burke (D)",
+        "Jamie Davis (D)",
+        "Jabarie Walker (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jamie LaBranche (I)"
+      ]
+    }
+  ]
+}

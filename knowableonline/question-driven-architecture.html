@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How the Question-Driven Architecture Works | Knowable Online University</title>
+    <meta name="description" content="Every Quarex chapter contains exactly 5 questions. Each question generates AI-powered answers and recursive followups. See a real chapter from the Sojourner Truth biography.">
+    <meta name="keywords" content="Quarex architecture, question-driven learning, recursive discovery, AI education, structured knowledge">
+    <link rel="canonical" href="https://knowableonline.org/question-driven-architecture.html">
+
+    <meta property="og:title" content="How the Question-Driven Architecture Works">
+    <meta property="og:description" content="Every Quarex chapter contains exactly 5 questions. Each question generates AI-powered answers and recursive followups.">
+    <meta property="og:url" content="https://knowableonline.org/question-driven-architecture.html">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Knowable Online University">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How the Question-Driven Architecture Works">
+    <meta name="twitter:description" content="Every Quarex chapter contains exactly 5 questions. Each generates AI-powered answers and recursive followups.">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How the Question-Driven Architecture Works",
+        "description": "Every Quarex chapter contains exactly 5 questions. Each question generates AI-powered answers and recursive followups.",
+        "url": "https://knowableonline.org/question-driven-architecture.html",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Knowable Online University",
+            "url": "https://knowableonline.org"
+        }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #0A0A0A;
+            --bg-card: #111111;
+            --bg-elevated: #1A1A1A;
+            --text-primary: #F7F7F7;
+            --text-secondary: #B7BCC2;
+            --text-muted: #6B7280;
+            --accent: #10B981;
+            --accent-dim: rgba(16, 185, 129, 0.15);
+            --accent-hover: #34D399;
+            --border: #2A2A2A;
+            --radius: 8px;
+            --radius-lg: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 24px;
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+
+        .logo span { color: var(--accent); }
+        nav { display: flex; gap: 28px; align-items: center; }
+        nav a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        nav a:hover { color: var(--accent); }
+        .nav-toggle { display: none; background: none; border: none; color: var(--text-primary); font-size: 24px; cursor: pointer; }
+
+        .article {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 80px 24px;
+        }
+
+        .article-label {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+
+        .article h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 4.5vw, 48px);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 20px;
+        }
+
+        .article .lead {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 48px;
+            font-weight: 300;
+        }
+
+        .article h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+
+        .article h3 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        .article p {
+            font-size: 16px;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .article p strong { color: var(--text-primary); font-weight: 600; }
+
+        /* Live Chapter Example */
+        .chapter-demo {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            margin: 32px 0;
+        }
+
+        .chapter-header {
+            background: var(--bg-elevated);
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .chapter-header .book-name {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        .chapter-header .chapter-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .chapter-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--accent-dim);
+            color: var(--accent);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 12px;
+            letter-spacing: 0.5px;
+        }
+
+        .question-list {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .question-item {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: baseline;
+            gap: 14px;
+            transition: background 0.15s;
+        }
+
+        .question-item:last-child { border-bottom: none; }
+
+        .question-item:hover {
+            background: var(--bg-elevated);
+        }
+
+        .q-number {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 14px;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+
+        .q-text {
+            color: var(--text-secondary);
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        /* Flow diagram */
+        .flow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            margin: 32px 0;
+        }
+
+        .flow-step {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px 24px;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .flow-step.active {
+            border-color: var(--accent);
+        }
+
+        .flow-step .step-label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        .flow-step .step-text {
+            font-size: 15px;
+            color: var(--text-secondary);
+        }
+
+        .flow-arrow {
+            color: var(--text-muted);
+            font-size: 20px;
+            padding: 8px 0;
+        }
+
+        /* JSON block */
+        .json-block {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin: 24px 0;
+            overflow-x: auto;
+        }
+
+        .json-block .label {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .json-block pre {
+            font-family: 'JetBrains Mono', 'Consolas', monospace;
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            white-space: pre;
+            margin: 0;
+        }
+
+        .json-block pre .key { color: #93C5FD; }
+        .json-block pre .str { color: #FCA5A5; }
+        .json-block pre .tag-val { color: var(--accent); }
+
+        .info-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin: 28px 0;
+        }
+
+        .info-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 12px;
+            margin-top: 0;
+        }
+
+        .info-card p { font-size: 15px; margin-bottom: 0; }
+
+        .nav-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 48px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+        }
+
+        .nav-links a {
+            display: inline-block;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 12px 20px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        .nav-links a:hover { border-color: var(--accent); color: var(--accent); }
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 40px 24px;
+            text-align: center;
+        }
+
+        .footer-inner { max-width: 1100px; margin: 0 auto; }
+        .footer-links { display: flex; justify-content: center; gap: 32px; margin-bottom: 20px; flex-wrap: wrap; }
+        .footer-links a { color: var(--text-secondary); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-note { font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 768px) {
+            .nav-toggle { display: block; }
+            nav { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--bg-primary); border-bottom: 1px solid var(--border); flex-direction: column; padding: 20px 24px; gap: 16px; }
+            nav.open { display: flex; }
+            .article { padding: 60px 24px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <a href="/" class="logo">Knowable <span>Online</span></a>
+        <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+        <nav>
+            <a href="/">University</a>
+            <a href="/what-is-quarex.html">What is Quarex?</a>
+            <a href="/question-driven-architecture.html">Architecture</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+        </nav>
+    </div>
+</header>
+
+<div class="article">
+    <span class="article-label">School of Knowledge Systems</span>
+    <h1>How the Question-Driven Architecture Works</h1>
+    <p class="lead">
+        Quarex is built on questions, not answers. Every chapter contains questions as topics,
+        each designed to open a line of inquiry rather than test knowledge. When a question is asked,
+        the AI uses the chapter as a contextual lens to generate an answer &mdash; and that answer
+        generates more questions.
+    </p>
+
+    <h2>The Structure</h2>
+    <p>
+        Every piece of content in Quarex exists within a fixed hierarchy:
+    </p>
+
+    <div class="flow">
+        <div class="flow-step">
+            <div class="step-label">Book</div>
+            <div class="step-text">A complete argument about a subject (e.g., "Sojourner Truth")</div>
+        </div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-step">
+            <div class="step-label">Chapter</div>
+            <div class="step-text">A focused aspect of the subject (e.g., "Ain't I a Woman and Women's Rights")</div>
+        </div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-step active">
+            <div class="step-label">Questions</div>
+            <div class="step-text">The fundamental unit of inquiry &mdash; what makes the chapter navigable</div>
+        </div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-step">
+            <div class="step-label">AI-Generated Answer</div>
+            <div class="step-text">Context-aware response using the chapter and its tags as a lens</div>
+        </div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-step">
+            <div class="step-label">Followup Questions</div>
+            <div class="step-text">Recursive discovery &mdash; each answer opens new paths</div>
+        </div>
+    </div>
+
+    <h2>A Real Chapter</h2>
+    <p>
+        This is an actual chapter from the Quarex book <strong>Sojourner Truth</strong>,
+        located on the Political Biographies shelf in the Knowledge Libraries. The chapter covers
+        her famous 1851 speech and the tensions between abolition and women's suffrage.
+    </p>
+
+    <div class="chapter-demo">
+        <div class="chapter-header">
+            <div class="book-name">Sojourner Truth</div>
+            <div class="chapter-name">Ain't I a Woman and Women's Rights (1850&ndash;1860)</div>
+            <div class="chapter-tags">
+                <span class="tag">Politics</span>
+                <span class="tag">Activism</span>
+                <span class="tag">Gender</span>
+                <span class="tag">Civil Rights</span>
+            </div>
+        </div>
+        <ol class="question-list">
+            <li class="question-item">
+                <span class="q-number">1</span>
+                <span class="q-text">What did she actually say at the 1851 Akron convention?</span>
+            </li>
+            <li class="question-item">
+                <span class="q-number">2</span>
+                <span class="q-text">Why do historians debate the famous "Ain't I a Woman?" speech?</span>
+            </li>
+            <li class="question-item">
+                <span class="q-number">3</span>
+                <span class="q-text">How did she navigate tensions between abolition and women's suffrage?</span>
+            </li>
+            <li class="question-item">
+                <span class="q-number">4</span>
+                <span class="q-text">What conflicts arose between her and white feminist leaders?</span>
+            </li>
+            <li class="question-item">
+                <span class="q-number">5</span>
+                <span class="q-text">How did she challenge both racism and sexism simultaneously?</span>
+            </li>
+        </ol>
+    </div>
+
+    <h3>What Happens When You Ask a Question</h3>
+    <p>
+        When a user selects question 2 &mdash; "Why do historians debate the famous 'Ain't I a Woman?' speech?" &mdash;
+        the AI receives the question along with the chapter context (the chapter name, its tags, and the book it belongs to).
+        It generates an answer that explains:
+    </p>
+    <p>
+        The speech exists in two versions. Marius Robinson published a contemporaneous account in 1851 that doesn't include
+        the phrase "Ain't I a Woman?" Frances Dana Gage published a different version twelve years later, in 1863, that
+        includes the famous refrain and renders Truth speaking in a Southern dialect &mdash; despite the fact that Truth
+        grew up speaking Dutch in New York. Historians debate which version is authentic, or whether either is.
+    </p>
+    <p>
+        The AI then generates <strong>followup questions</strong> based on this answer. These might include:
+        "How did Frances Dana Gage's version serve the political needs of 1863?" or "What other historical speeches
+        have been retroactively altered?" Each followup opens a new path. This is recursive discovery.
+    </p>
+
+    <h2>Why Questions, Not Answers?</h2>
+
+    <div class="info-card">
+        <h3>Answers Are Temporary</h3>
+        <p>AI models improve. Facts get updated. Interpretations shift. But a well-structured question &mdash;
+        "Why do historians debate the famous 'Ain't I a Woman?' speech?" &mdash; remains valid regardless of
+        what answer the current model produces. The questions endure. The answers are always regenerated.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Questions Reveal Structure</h3>
+        <p>The questions in a chapter define the boundaries of what that chapter covers. They are not
+        random prompts &mdash; they are a curated argument about what matters in this topic. The questions
+        themselves are the curriculum.</p>
+    </div>
+
+    <div class="info-card">
+        <h3>Questions Are Nonpartisan</h3>
+        <p>A question like "What conflicts arose between her and white feminist leaders?" does not contain
+        a political position. It opens an area of inquiry. The AI may produce different answers over time,
+        but the question itself is neutral by construction.</p>
+    </div>
+
+    <h2>The Raw Structure</h2>
+    <p>
+        Under the hood, every chapter is stored as JSON. Here is the actual data structure for the chapter shown above:
+    </p>
+
+    <div class="json-block">
+        <span class="label">Chapter JSON (from sojourner-truth.json)</span>
+<pre>{
+  <span class="key">"name"</span>: <span class="str">"Ain't I a Woman and Women's Rights (1850-1860)"</span>,
+  <span class="key">"topics"</span>: [
+    <span class="str">"What did she actually say at the 1851 Akron convention?"</span>,
+    <span class="str">"Why do historians debate the famous 'Ain't I a Woman?' speech?"</span>,
+    <span class="str">"How did she navigate tensions between abolition and women's suffrage?"</span>,
+    <span class="str">"What conflicts arose between her and white feminist leaders?"</span>,
+    <span class="str">"How did she challenge both racism and sexism simultaneously?"</span>
+  ],
+  <span class="key">"tags"</span>: [<span class="tag-val">"politics"</span>, <span class="tag-val">"activism"</span>, <span class="tag-val">"gender"</span>, <span class="tag-val">"civil-rights"</span>]
+}</pre>
+    </div>
+
+    <p>
+        The tags &mdash; <strong>politics</strong>, <strong>activism</strong>, <strong>gender</strong>,
+        <strong>civil-rights</strong> &mdash; are drawn from a controlled vocabulary of 328 tags. These tags
+        connect this chapter to every other chapter in the system that shares the same tags, enabling
+        cross-library discovery.
+    </p>
+
+    <a href="https://quarex.org/libraries/k/biographies/political-biographies/sojourner-truth" target="_blank"
+       style="display: inline-block; color: var(--accent); text-decoration: none; font-weight: 500; font-size: 15px; margin-top: 8px; transition: color 0.2s;">
+        Read the full Sojourner Truth book on Quarex &rarr;
+    </a>
+
+    <div class="nav-links">
+        <a href="/what-is-quarex.html">&larr; What is Quarex?</a>
+        <a href="/what-is-a-quarex-book.html">What is a Quarex Book? &rarr;</a>
+        <a href="/nonpartisan-design.html">Nonpartisan Design &rarr;</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <a href="/">Knowable Online</a>
+            <a href="https://quarex.org" target="_blank">Quarex</a>
+            <a href="https://publicstudies.org" target="_blank">Public Studies</a>
+            <a href="https://election2026.net" target="_blank">Election 2026</a>
+        </div>
+        <p class="footer-note">
+            Knowable Online University &mdash; School of Knowledge Systems<br>
+            Quarex is the engine. The university is the frame. The goal is not more content &mdash; but better knowledge.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

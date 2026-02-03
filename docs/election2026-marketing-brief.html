@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election 2026 - Marketing Brief</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font: 16px/1.7 'Inter', system-ui, -apple-system, sans-serif;
+            color: #1a1a1a;
+            background: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #0a0a0a;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e5e5e5;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #0a0a0a;
+            margin: 40px 0 16px;
+            padding-top: 12px;
+        }
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #333;
+            margin: 24px 0 8px;
+        }
+        p { margin-bottom: 14px; color: #333; }
+        ul { margin: 0 0 16px 24px; color: #333; }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #f0f7ff;
+            border-left: 4px solid #3B82F6;
+            padding: 16px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .highlight p { margin-bottom: 0; color: #1a1a1a; font-weight: 500; }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin: 20px 0;
+        }
+        .stat {
+            background: #f8f8f8;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+        }
+        .stat .number { font-size: 28px; font-weight: 700; color: #3B82F6; }
+        .stat .label { font-size: 13px; color: #666; margin-top: 4px; }
+        .section-divider {
+            border: none;
+            border-top: 1px solid #e5e5e5;
+            margin: 32px 0;
+        }
+        .quote {
+            font-size: 20px;
+            font-style: italic;
+            color: #0a0a0a;
+            text-align: center;
+            padding: 32px 20px;
+            margin: 32px 0;
+            border-top: 2px solid #3B82F6;
+            border-bottom: 2px solid #3B82F6;
+            font-weight: 500;
+        }
+        .url {
+            font-family: monospace;
+            background: #f0f0f0;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid #e5e5e5;
+            font-size: 14px;
+        }
+        th { font-weight: 600; color: #666; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 2px solid #e5e5e5;
+            color: #999;
+            font-size: 13px;
+        }
+        @media print {
+            body { padding: 40px 30px; }
+            .highlight { break-inside: avoid; }
+            .stat-grid { break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Election 2026</h1>
+<p class="subtitle">Marketing Brief &mdash; January 2026</p>
+
+<h2>What We Built</h2>
+
+<p><strong>Election 2026</strong> (<span class="url">election2026.net</span>) is a free, nonpartisan website that lets any voter in the United States research their 2026 candidates and races. Users enter a zip code and immediately find their US House, Senate, and Governor races with links to in-depth, AI-powered candidate profiles.</p>
+
+<p>Every candidate profile is built on <strong>Quarex</strong> (<span class="url">quarex.org</span>), a structured knowledge system that delivers sourced, context-aware answers &mdash; not opinions, not spin, not editorial bias.</p>
+
+<div class="stat-grid">
+    <div class="stat">
+        <div class="number">435</div>
+        <div class="label">House Districts</div>
+    </div>
+    <div class="stat">
+        <div class="number">34</div>
+        <div class="label">Senate Races</div>
+    </div>
+    <div class="stat">
+        <div class="number">39</div>
+        <div class="label">Governor Races</div>
+    </div>
+</div>
+
+<p>The site also covers the Executive Branch (26 officials) and Supreme Court (9 justices), providing a complete picture of the U.S. government for voters.</p>
+
+<hr class="section-divider">
+
+<h2>The Problem We Solve</h2>
+
+<p>Today, voters trying to research candidates face four bad options:</p>
+
+<ul>
+    <li><strong>Editorial sites</strong> (news outlets, advocacy groups) &mdash; tell you what to think, filtered through the editorial lens of whoever owns the publication</li>
+    <li><strong>Horse-race coverage</strong> &mdash; the media obsesses over polls, fundraising totals, and who's up or down, while ignoring policy positions, voting records, and candidate character</li>
+    <li><strong>Raw data sites</strong> (Ballotpedia, FEC filings) &mdash; dump information on you without helping you make sense of it</li>
+    <li><strong>Social media</strong> &mdash; algorithmically amplified noise designed to generate engagement, not understanding</li>
+</ul>
+
+<p>Billions of dollars are spent every election cycle to shape what voters believe. The information ecosystem is deliberately polluted by campaign spending, PAC money, and media organizations with financial interests in specific outcomes.</p>
+
+<div class="highlight">
+    <p>Election 2026 is the one resource that lets people ask questions and get structured, sourced answers. No editorial filter. No algorithm deciding what you see. No billionaire's agenda shaping the narrative.</p>
+</div>
+
+<hr class="section-divider">
+
+<h2>How It Works</h2>
+
+<p>Election 2026 is powered by Quarex, a system built on a fundamentally different idea: <strong>the intelligence isn't in the answers &mdash; it's in how the questions are structured.</strong></p>
+
+<h3>The Quarex Architecture</h3>
+
+<p>Every candidate in the system has a structured profile organized like a book:</p>
+
+<ul>
+    <li>The <strong>Library</strong> provides the broadest context (e.g., "US House 2026")</li>
+    <li>The <strong>Shelf</strong> narrows it (e.g., "California")</li>
+    <li>The <strong>Book</strong> is the candidate (e.g., "District 12 &mdash; Nancy Pelosi")</li>
+    <li><strong>Chapters</strong> organize the topics (e.g., "Policy Positions," "Voting Record," "Campaign Finance")</li>
+    <li><strong>Questions</strong> within each chapter are the actual queries a voter might ask</li>
+</ul>
+
+<p>When a user asks a question, the entire structure &mdash; library, shelf, book, chapter &mdash; is combined with the question to form a precise prompt. This contextual layering eliminates AI hallucinations and ensures the answer is relevant, accurate, and bounded to the specific subject.</p>
+
+<h3>Key Differentiators</h3>
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Traditional Sites</th>
+        <th>Election 2026 / Quarex</th>
+    </tr>
+    <tr>
+        <td>Content</td>
+        <td>Static articles, written once</td>
+        <td>Dynamic answers generated in real-time</td>
+    </tr>
+    <tr>
+        <td>Currency</td>
+        <td>Outdated as soon as published</td>
+        <td>Always current &mdash; uses latest available knowledge</td>
+    </tr>
+    <tr>
+        <td>Depth</td>
+        <td>Fixed depth, can't go further</td>
+        <td>Recursive &mdash; every answer generates new questions</td>
+    </tr>
+    <tr>
+        <td>Bias</td>
+        <td>Reflects editorial decisions</td>
+        <td>Structurally nonpartisan by architecture</td>
+    </tr>
+    <tr>
+        <td>Engagement</td>
+        <td>Read and leave</td>
+        <td>Curiosity-driven exploration</td>
+    </tr>
+</table>
+
+<hr class="section-divider">
+
+<h2>What the Site Looks Like Today</h2>
+
+<p>The landing page at <span class="url">election2026.net</span> includes:</p>
+
+<ul>
+    <li><strong>Zip code lookup</strong> &mdash; the primary feature, front and center. Enter any zip code, get your House district, Senate race, and Governor race with links to explore each one.</li>
+    <li><strong>Browse by Branch</strong> &mdash; five cards covering US House, Senate, Governors, Executive Branch, and Supreme Court</li>
+    <li><strong>Browse by State</strong> &mdash; a 50-state grid showing which races are active in each state (House, Senate, Governor) with direct links</li>
+    <li><strong>"Powered by Quarex"</strong> branding in the footer, linking to quarex.org for users who want to explore further</li>
+</ul>
+
+<p>The design is clean, dark-themed, mobile-responsive, and loads fast. No accounts, no paywalls, no ads, no tracking.</p>
+
+<hr class="section-divider">
+
+<h2>Coming Soon: State Proposition Analysis</h2>
+
+<p>The next major feature is <strong>state proposition and ballot measure analysis</strong>. The same Quarex architecture that powers candidate profiles can be applied to ballot measures:</p>
+
+<ul>
+    <li>What the proposition actually does (in plain language)</li>
+    <li>Arguments for and against</li>
+    <li>Fiscal impact analysis</li>
+    <li>Who supports and opposes it, and why</li>
+    <li>Historical context and related prior measures</li>
+</ul>
+
+<p>This is a feature most voter guide sites do poorly. They either editorialize (telling you how to vote) or dump raw legal text. Quarex's question-driven approach lets voters actually understand what they're voting on.</p>
+
+<hr class="section-divider">
+
+<h2>Marketing Opportunity</h2>
+
+<h3>Why This Is Timely</h3>
+
+<ul>
+    <li>The 2026 midterm election cycle is beginning now</li>
+    <li>Public trust in media is at historic lows</li>
+    <li>Voters are actively seeking nonpartisan, non-algorithmic sources of truth</li>
+    <li>No comparable tool exists &mdash; nothing combines structured context, AI-generated answers, and recursive question discovery for elections</li>
+</ul>
+
+<h3>The Core Message</h3>
+
+<div class="quote">
+    They spend billions to confuse you.<br>
+    We built something to help you think clearly.
+</div>
+
+<h3>Target Audience</h3>
+
+<ul>
+    <li><strong>Engaged citizens</strong> who want to research candidates beyond party labels</li>
+    <li><strong>First-time voters</strong> who don't know where to start</li>
+    <li><strong>Frustrated voters</strong> who are tired of spin and want straight answers</li>
+    <li><strong>Civic organizations</strong> looking for nonpartisan voter education tools</li>
+    <li><strong>Educators</strong> teaching civics and media literacy</li>
+</ul>
+
+<h3>What Makes It Marketable</h3>
+
+<ul>
+    <li><strong>Built-in deadline</strong> &mdash; November 2026 creates natural urgency</li>
+    <li><strong>Clear utility</strong> &mdash; "Enter your zip code, find your candidates" is immediately understandable</li>
+    <li><strong>Strong differentiation</strong> &mdash; not editorial, not raw data, not social media</li>
+    <li><strong>Gateway effect</strong> &mdash; every Election 2026 user sees Quarex branding and may explore the broader platform</li>
+    <li><strong>Free and ad-free</strong> &mdash; no ulterior motive, which is itself a marketing message in this environment</li>
+</ul>
+
+<hr class="section-divider">
+
+<h2>Current SEO & Technical Status</h2>
+
+<ul>
+    <li>Domain registered and live: <span class="url">election2026.net</span></li>
+    <li>DNS through Cloudflare (security and performance)</li>
+    <li>Hosted on GoDaddy shared hosting</li>
+    <li>Full SEO meta tags, Open Graph, Twitter Card, JSON-LD structured data</li>
+    <li>Sitemap and robots.txt in place</li>
+    <li>Google Search Console submission pending</li>
+    <li>Mobile-responsive design, fast load time, no external dependencies</li>
+</ul>
+
+<h3>SEO Considerations</h3>
+
+<p>The site has strong technical SEO foundations but faces the typical challenges of a new domain: no backlinks, no domain authority, and thin indexable content (the page is primarily navigational). The strongest organic search angle is the zip code lookup utility &mdash; "find my 2026 candidates by zip code" is a specific query with less competition than generic election terms.</p>
+
+<p>Recommendations for marketing investment: content strategy, backlink building, per-state landing pages, and social media presence are areas where professional marketing guidance would have the most impact.</p>
+
+<hr class="section-divider">
+
+<h2>About Quarex</h2>
+
+<p>Quarex is a structured, question-driven knowledge system that uses layered context to help people explore and understand ideas, rather than just search for information. It was created by Peter Nehl.</p>
+
+<p>Quarex is not a chatbot and not a search engine. It is a <strong>curiosity engine</strong> &mdash; a living book of questions, dynamically generated and recursively structured, that evolves through guided, context-aware inquiry.</p>
+
+<p>For more: <span class="url">quarex.org</span></p>
+
+<div class="footer">
+    <p>Election 2026 Marketing Brief &mdash; Prepared January 29, 2026</p>
+    <p>Contact: Peter Nehl &mdash; Creator, Quarex &amp; Election 2026</p>
+</div>
+
+</body>
+</html>

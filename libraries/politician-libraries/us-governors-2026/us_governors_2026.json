@@ -2,7 +2,7 @@
   "library": "US Governors 2026",
   "library_type": "candidates",
   "description": "All 2026 gubernatorial races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-23",
+  "last_updated": "2026-01-30",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -15,6 +15,7 @@
               "name": "Republican",
               "topics": [
                 "Ken McFeeters (R)",
+                "Will Santivasci (R)",
                 "Tommy Tuberville (R)"
               ]
             },
@@ -23,8 +24,10 @@
               "topics": [
                 "Will Boyd (D)",
                 "Ja'Mel Brown (D)",
+                "Yolanda Flowers (D)",
                 "Doug Jones (D)",
-                "Chad Chig Martin (D)"
+                "Chad Chig Martin (D)",
+                "Nathan Mathis (D)"
               ]
             },
             {
@@ -141,6 +144,7 @@
             {
               "name": "Independent/Other",
               "topics": [
+                "Butch Ware (I)",
                 "Nicholas Thompson (I)",
                 "Jesse Alberti (I)",
                 "Tony Fitzpatrick (I)",
@@ -387,7 +391,8 @@
               "name": "Independent/Other",
               "topics": [
                 "Ammon Bundy (I)",
-                "Maxine Durand (I)"
+                "Maxine Durand (I)",
+                "Melissa Sue Robinson (I)"
               ]
             }
           ]
@@ -605,7 +610,6 @@
                 "Patrick Knight (R)",
                 "Brad Kohler (R)",
                 "Mike Lindell (R)",
-                "Chris Madel (R)",
                 "Phillip Parrish (R)",
                 "Kendall Qualls (R)",
                 "Kristin Robbins (R)"
@@ -614,6 +618,7 @@
             {
               "name": "Democratic",
               "topics": [
+                "Amy Klobuchar (D)",
                 "Christopher Seymore (D)"
               ]
             },
@@ -639,7 +644,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "Lynne Walz (D)"
               ]
             }
           ]
@@ -793,6 +798,7 @@
               "topics": [
                 "Danielle Bethell (R)",
                 "David Burch (R)",
+                "Ed Diehl (R)",
                 "Christine Drazan (R)",
                 "Kyle Duyck (R)",
                 "Caleb Kintz (R)",
@@ -802,6 +808,7 @@
                 "Brad T. Peters (R)",
                 "Matthew Piatt (R)",
                 "Paul Romero (R)",
+                "Wen Waddell (R)",
                 "Martin Ward (R)"
               ]
             },
@@ -1075,7 +1082,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "Gabriel Green (D)"
               ]
             }
           ]

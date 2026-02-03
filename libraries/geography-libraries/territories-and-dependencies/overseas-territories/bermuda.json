@@ -1,0 +1,50 @@
+{
+  "name": "Bermuda",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Bermuda's political status as a British Overseas Territory?",
+        "What is Bermuda's population and geographic makeup?",
+        "How did Bermuda become a major offshore financial center?",
+        "What languages are spoken in Bermuda?",
+        "What is distinctive about Bermudian culture and identity?"
+      ],
+      "tags": ["geography", "identity", "americas", "finance"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How was Bermuda first settled by the English?",
+        "What role did Bermuda play in the Atlantic slave trade?",
+        "How did Bermuda function as a British naval base?",
+        "What was Bermuda's role during World War II?",
+        "How has the independence question evolved in Bermuda?"
+      ],
+      "tags": ["history", "colonialism", "conflict", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does Bermuda's government control?",
+        "Why did the 1995 independence referendum fail?",
+        "How is Bermuda regulated as an offshore financial center?",
+        "What is Bermuda's relationship with the United States?",
+        "How do British and local laws interact in Bermuda?"
+      ],
+      "tags": ["politics", "governance", "finance", "regulation"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Bermuda?",
+        "How do you get to Bermuda?",
+        "What are the top destinations and attractions in Bermuda?",
+        "What is the best time of year to visit Bermuda?",
+        "What should travelers know about costs and getting around the island?"
+      ],
+      "tags": ["geography", "travel", "americas", "infrastructure"]
+    }
+  ]
+}

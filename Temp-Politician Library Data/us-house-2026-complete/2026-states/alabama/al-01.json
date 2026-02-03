@@ -1,0 +1,22 @@
+{
+  "book": "AL-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jerry Carl (R)",
+        "James Dees (R)",
+        "Rhett Marques (R)",
+        "Joshua Mckee (R)",
+        "Austin Sidwell (R)",
+        "Barry Moore (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Clyde Jones (D)"
+      ]
+    }
+  ]
+}

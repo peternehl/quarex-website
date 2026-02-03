@@ -1,0 +1,26 @@
+{
+  "book": "WV-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Carol Miller (R)",
+        "Abel Clendenen (R)",
+        "Larry Jackson (R)",
+        "David Sartin (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Britta Aguirre (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Isaiah Rucker (I)"
+      ]
+    }
+  ]
+}

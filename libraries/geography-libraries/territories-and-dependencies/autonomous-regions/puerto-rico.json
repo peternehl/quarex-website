@@ -1,0 +1,50 @@
+{
+  "name": "Puerto Rico",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Puerto Rico's political status as a US territory?",
+        "What is Puerto Rico's population and why has it been declining?",
+        "What are Puerto Rico's main economic activities and challenges?",
+        "What languages are spoken in Puerto Rico?",
+        "What is Puerto Rican cultural identity and its relationship to the US?"
+      ],
+      "tags": ["geography", "identity", "americas", "us-politics"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Spain colonize Puerto Rico and what was its colonial legacy?",
+        "How did the US acquire Puerto Rico in 1898?",
+        "What was Operation Bootstrap and how did it transform the economy?",
+        "What independence and statehood movements have existed in Puerto Rico?",
+        "How did Hurricane Maria expose Puerto Rico's vulnerabilities?"
+      ],
+      "tags": ["history", "colonialism", "modern-history", "americas"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does Puerto Rico have under commonwealth status?",
+        "Why can't Puerto Ricans vote in US presidential elections?",
+        "What is PROMESA and how does the fiscal control board work?",
+        "What have the statehood referendums shown about public opinion?",
+        "How do US federal laws apply differently in Puerto Rico?"
+      ],
+      "tags": ["politics", "governance", "democracy", "us-politics"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do US citizens and foreign visitors need for Puerto Rico?",
+        "What are the main airports and how do you get around the island?",
+        "What are the top destinations and attractions in Puerto Rico?",
+        "What is the best time of year to visit Puerto Rico?",
+        "What should travelers know about safety and hurricane season?"
+      ],
+      "tags": ["geography", "travel", "americas", "infrastructure"]
+    }
+  ]
+}

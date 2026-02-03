@@ -1,0 +1,23 @@
+{
+  "book": "TX-33",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Patrick Gillespie (R)",
+        "Monte Mitchell (R)",
+        "Kurt L. Schwab (R)",
+        "John Sims (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Julie Johnson (D)",
+        "Colin Allred (D)",
+        "Zeeshan Hafeez (D)",
+        "Carlos Quintanilla (D)"
+      ]
+    }
+  ]
+}

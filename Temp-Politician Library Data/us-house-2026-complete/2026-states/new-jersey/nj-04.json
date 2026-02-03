@@ -1,0 +1,26 @@
+{
+  "book": "NJ-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Chris Smith (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "John Blake (D)",
+        "Julie Flynn (D)",
+        "Peter Linardakis (D)",
+        "Rachel Peace (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Kevin Cupples (I)"
+      ]
+    }
+  ]
+}

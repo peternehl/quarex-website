@@ -1,0 +1,50 @@
+{
+  "name": "French Polynesia",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is French Polynesia's political status as a French overseas collectivity?",
+        "What is French Polynesia's population and how are the islands organized?",
+        "What are French Polynesia's main economic activities?",
+        "What languages are spoken in French Polynesia?",
+        "What is distinctive about Polynesian culture and identity?"
+      ],
+      "tags": ["geography", "identity", "oceania", "cultural-heritage"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "Who were the original Polynesian settlers of these islands?",
+        "How did France establish colonial control over Polynesia?",
+        "What was the impact of French nuclear testing at Moruroa and Fangataufa?",
+        "How did French Polynesia gain increased autonomy?",
+        "What is the current independence movement in French Polynesia?"
+      ],
+      "tags": ["history", "colonialism", "nuclear-weapons", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does French Polynesia's government control?",
+        "What decisions does France still make for French Polynesia?",
+        "What was the French recognition of the nuclear testing harm?",
+        "How does French Polynesia's autonomy compare to New Caledonia's?",
+        "What are the current debates about independence?"
+      ],
+      "tags": ["politics", "governance", "human-rights", "diplomacy"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter French Polynesia?",
+        "How do you get to French Polynesia and travel between islands?",
+        "What are the top destinations beyond Tahiti and Bora Bora?",
+        "What is the best time of year to visit French Polynesia?",
+        "What should travelers know about costs in this expensive destination?"
+      ],
+      "tags": ["geography", "travel", "oceania", "sustainability"]
+    }
+  ]
+}

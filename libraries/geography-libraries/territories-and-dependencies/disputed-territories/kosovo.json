@@ -1,0 +1,50 @@
+{
+  "name": "Kosovo",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Kosovo's disputed political status?",
+        "What is Kosovo's population and ethnic composition?",
+        "What are Kosovo's main economic activities and challenges?",
+        "What languages are spoken in Kosovo?",
+        "What is distinctive about Kosovar Albanian identity?"
+      ],
+      "tags": ["geography", "identity", "europe", "nationalism"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "What is the historical significance of Kosovo to Serbs and Albanians?",
+        "How did Kosovo's status evolve within Yugoslavia?",
+        "What happened during the Kosovo War in 1998-1999?",
+        "How did NATO intervention end the conflict?",
+        "How did Kosovo declare independence in 2008?"
+      ],
+      "tags": ["history", "conflict", "modern-history", "nato"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "How does Kosovo's government function?",
+        "Why does Serbia not recognize Kosovo's independence?",
+        "How many UN member states recognize Kosovo?",
+        "What is the EU-facilitated dialogue between Serbia and Kosovo?",
+        "What is the international presence in Kosovo today?"
+      ],
+      "tags": ["politics", "governance", "diplomacy", "european-union"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Kosovo?",
+        "How do you get to Kosovo and travel within the country?",
+        "What are the top destinations and attractions in Kosovo?",
+        "What should travelers know about the Serbia-Kosovo border situation?",
+        "What is the safety situation in Kosovo today?"
+      ],
+      "tags": ["geography", "travel", "europe", "infrastructure"]
+    }
+  ]
+}

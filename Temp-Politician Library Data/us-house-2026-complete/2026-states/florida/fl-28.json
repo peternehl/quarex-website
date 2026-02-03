@@ -1,0 +1,24 @@
+{
+  "book": "FL-28",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Carlos Gimenez (R)",
+        "Herrera Macuran (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Phil Ehr (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Eddy Rojas (I)"
+      ]
+    }
+  ]
+}

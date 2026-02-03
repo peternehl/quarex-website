@@ -1,0 +1,27 @@
+{
+  "book": "TX-28",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Eileen Day (R)",
+        "Tano Tijerina (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Henry Cuellar (D)",
+        "Andrew Vantine (D)",
+        "Ricardo Villarreal (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Adriel Ventura Lopez (I)",
+        "Marlon Duran (G)"
+      ]
+    }
+  ]
+}

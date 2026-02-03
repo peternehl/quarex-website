@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Guidelines | The Quarex Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="../" class="site-logo">The Quarex Project</a>
+        <nav class="site-nav" id="siteNav">
+            <a href="../brand/">Brand</a>
+            <a href="../materials/">Materials</a>
+            <a href="../audience/">Audience</a>
+            <a href="../competitive/">Landscape</a>
+            <a href="https://quarex.org/" target="_blank" rel="noopener">Quarex.org</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+</header>
+
+<main class="page-content">
+    <h1>Brand Guidelines</h1>
+    <p>Consistent brand presentation across all Quarex marketing materials.</p>
+
+    <h2>Brand Identity</h2>
+    <p>Quarex positions itself as a serious, trustworthy knowledge tool. The brand voice is confident but not flashy, educational but not condescending, and honest above all else.</p>
+
+    <h3>Tagline</h3>
+    <div class="highlight-box">
+        <p>"A curiosity engine for exploring complex ideas"</p>
+    </div>
+
+    <h3>One-Sentence Description</h3>
+    <p>Quarex is a structured, question-driven knowledge system that uses layered context to help people explore and understand ideas, rather than just search for information.</p>
+
+    <h2>Color Palette</h2>
+
+    <h3>Primary Colors</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 16px 0;">
+        <div style="background: #0d9488; padding: 20px; border-radius: 8px; color: white;">
+            <strong>Quarex Teal</strong><br>#0d9488<br>Primary brand color
+        </div>
+        <div style="background: #14b8a6; padding: 20px; border-radius: 8px; color: white;">
+            <strong>Teal Bright</strong><br>#14b8a6<br>Accents and links
+        </div>
+        <div style="background: #0A0A0A; padding: 20px; border-radius: 8px; color: #F7F7F7;">
+            <strong>Dark Background</strong><br>#0A0A0A<br>Primary background
+        </div>
+        <div style="background: #F7F7F7; padding: 20px; border-radius: 8px; color: #333;">
+            <strong>Light Text</strong><br>#F7F7F7<br>Primary text on dark
+        </div>
+    </div>
+
+    <h3>Election 2026 Colors (Campaign-Specific)</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin: 16px 0;">
+        <div style="background: #3B82F6; padding: 20px; border-radius: 8px; color: white;">
+            <strong>Action Blue</strong><br>#3B82F6<br>CTAs and buttons
+        </div>
+        <div style="background: #7CB9FF; padding: 20px; border-radius: 8px; color: #0A0A0A;">
+            <strong>Accent Blue</strong><br>#7CB9FF<br>Links and highlights
+        </div>
+    </div>
+
+    <h2>Typography</h2>
+    <ul>
+        <li><strong>Headlines:</strong> Playfair Display (serif, bold) — conveys authority and timelessness</li>
+        <li><strong>Body text:</strong> Inter (sans-serif) — clean, readable, modern</li>
+        <li><strong>Fallback stack:</strong> system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif</li>
+    </ul>
+
+    <h2>Voice and Tone</h2>
+    <ul>
+        <li><strong>Honest.</strong> Quarex exists to deliver truth. Never oversell, never spin.</li>
+        <li><strong>Clear.</strong> Explain complex ideas simply. If someone can't understand it, rewrite it.</li>
+        <li><strong>Confident but humble.</strong> Quarex is powerful, but it's the questions that matter, not the tool.</li>
+        <li><strong>Non-partisan.</strong> Quarex serves everyone regardless of political affiliation.</li>
+        <li><strong>Educational, not condescending.</strong> Respect the reader's intelligence while making things accessible.</li>
+    </ul>
+
+    <h2>Logo Assets</h2>
+    <p>Logo files in multiple formats and sizes for web, print, presentations, and social media.</p>
+    <p style="margin-top: 16px;"><a href="logos/" class="btn-outline">View &amp; Download Logos &rarr;</a></p>
+
+    <h2>Key Messaging</h2>
+    <h3>What Quarex IS:</h3>
+    <ul>
+        <li>A curiosity engine</li>
+        <li>A living book of questions</li>
+        <li>A structured knowledge system</li>
+        <li>Context-aware, AI-powered inquiry</li>
+    </ul>
+    <h3>What Quarex is NOT:</h3>
+    <ul>
+        <li>Not an AI chatbot</li>
+        <li>Not a search engine</li>
+        <li>Not Wikipedia</li>
+        <li>Not a news aggregator</li>
+    </ul>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="powered-badge">
+            <a href="https://quarex.org/" target="_blank" rel="noopener">
+                <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo" width="32" height="32">
+                <span>Powered by Quarex</span>
+            </a>
+        </div>
+        <p class="footer-copy">&copy; 2026 The Quarex Project</p>
+    </div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function() {
+    document.getElementById('siteNav').classList.toggle('open');
+});
+</script>
+
+</body>
+</html>

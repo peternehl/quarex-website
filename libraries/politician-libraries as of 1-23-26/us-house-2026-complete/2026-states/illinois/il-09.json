@@ -1,0 +1,41 @@
+{
+  "book": "IL-09",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Rocio Cleveland (R)",
+        "John Elleson (R)",
+        "Paul Friedman (R)",
+        "Mark Su (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Kat Abughazaleh (D)",
+        "Bushra Amiwala (D)",
+        "Phil Andrew (D)",
+        "Natalie Angelo (D)",
+        "Daniel K. Biss (D)",
+        "Patricia Brown (D)",
+        "Jeff Cohen (D)",
+        "Laura Fine (D)",
+        "Justin Ford (D)",
+        "Mark Fredrickson (D)",
+        "Hoan Huynh (D)",
+        "Bethany Johnson (D)",
+        "Sam Polan (D)",
+        "Nick Pyati (D)",
+        "Howard Rosenblum (D)",
+        "Mike Simmons (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Delila Barrera (I)"
+      ]
+    }
+  ]
+}

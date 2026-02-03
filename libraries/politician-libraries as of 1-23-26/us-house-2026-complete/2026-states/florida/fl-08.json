@@ -1,0 +1,23 @@
+{
+  "book": "FL-08",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Haridopolos (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Paul Dellinger (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Lacey Villareal (I)"
+      ]
+    }
+  ]
+}

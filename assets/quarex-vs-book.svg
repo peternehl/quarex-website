@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="50%" style="stop-color:#1a2a4a"/>
+      <stop offset="100%" style="stop-color:#0d1f3c"/>
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a5568"/>
+      <stop offset="100%" style="stop-color:#718096"/>
+    </linearGradient>
+    <linearGradient id="quarexGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="chapterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="topicGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#7cb9ff"/>
+    </linearGradient>
+    <linearGradient id="answerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7cb9ff"/>
+      <stop offset="100%" style="stop-color:#bfdbfe"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+      text { font-family: 'Inter', 'Segoe UI', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" fill="#7cb9ff" font-size="28" font-weight="700" letter-spacing="1">Book vs Quarex</text>
+  <text x="600" y="78" text-anchor="middle" fill="#667788" font-size="14">How structured context transforms information into answers</text>
+
+  <!-- Divider line -->
+  <line x1="600" y1="100" x2="600" y2="760" stroke="#3b82f6" stroke-width="1" opacity="0.3" stroke-dasharray="8,4"/>
+
+  <!-- LEFT SIDE: Traditional Book -->
+  <text x="300" y="120" text-anchor="middle" fill="#718096" font-size="18" font-weight="600" letter-spacing="1">TRADITIONAL BOOK</text>
+
+  <!-- Book icon -->
+  <g transform="translate(220, 145)">
+    <rect x="0" y="0" width="160" height="200" rx="4" fill="url(#bookGrad)" stroke="#a0aec0" stroke-width="1"/>
+    <rect x="8" y="8" width="144" height="184" rx="2" fill="#2d3748"/>
+    <line x1="20" y1="30" x2="140" y2="30" stroke="#4a5568" stroke-width="2"/>
+    <line x1="20" y1="50" x2="140" y2="50" stroke="#4a5568" stroke-width="1"/>
+    <line x1="20" y1="65" x2="140" y2="65" stroke="#4a5568" stroke-width="1"/>
+    <line x1="20" y1="80" x2="140" y2="80" stroke="#4a5568" stroke-width="1"/>
+    <line x1="20" y1="95" x2="100" y2="95" stroke="#4a5568" stroke-width="1"/>
+    <line x1="20" y1="120" x2="140" y2="120" stroke="#4a5568" stroke-width="1"/>
+    <line x1="20" y1="135" x2="140" y2="135" stroke="#4a5568" stroke-width="1"/>
+    <line x1="20" y1="150" x2="120" y2="150" stroke="#4a5568" stroke-width="1"/>
+    <line x1="20" y1="175" x2="140" y2="175" stroke="#4a5568" stroke-width="1"/>
+  </g>
+
+  <!-- Book characteristics -->
+  <g transform="translate(70, 380)">
+    <rect x="0" y="0" width="460" height="45" rx="6" fill="#1e293b" stroke="#4a5568" stroke-width="1"/>
+    <text x="20" y="28" fill="#a0aec0" font-size="14" font-weight="500">Linear narrative — read from beginning to end</text>
+  </g>
+  <g transform="translate(70, 435)">
+    <rect x="0" y="0" width="460" height="45" rx="6" fill="#1e293b" stroke="#4a5568" stroke-width="1"/>
+    <text x="20" y="28" fill="#a0aec0" font-size="14" font-weight="500">Fixed content — written once, rarely updated</text>
+  </g>
+  <g transform="translate(70, 490)">
+    <rect x="0" y="0" width="460" height="45" rx="6" fill="#1e293b" stroke="#4a5568" stroke-width="1"/>
+    <text x="20" y="28" fill="#a0aec0" font-size="14" font-weight="500">Author's perspective — single point of view</text>
+  </g>
+  <g transform="translate(70, 545)">
+    <rect x="0" y="0" width="460" height="45" rx="6" fill="#1e293b" stroke="#4a5568" stroke-width="1"/>
+    <text x="20" y="28" fill="#a0aec0" font-size="14" font-weight="500">Index + search — find mentions, not answers</text>
+  </g>
+
+  <!-- Book output -->
+  <polygon points="300,620 308,635 304,635 304,650 296,650 296,635 292,635" fill="#4a5568" opacity="0.6"/>
+  <rect x="120" y="665" width="360" height="70" rx="8" fill="#1e293b" stroke="#4a5568" stroke-width="1"/>
+  <text x="300" y="695" text-anchor="middle" fill="#667788" font-size="12" font-weight="600" letter-spacing="1">OUTPUT</text>
+  <text x="300" y="718" text-anchor="middle" fill="#a0aec0" font-size="14">"Read pages 47-52 for information"</text>
+
+  <!-- RIGHT SIDE: Quarex -->
+  <text x="900" y="120" text-anchor="middle" fill="#7cb9ff" font-size="18" font-weight="600" letter-spacing="1">QUAREX</text>
+
+  <!-- Quarex structure visualization -->
+  <g transform="translate(670, 145)">
+    <!-- Book container -->
+    <rect x="0" y="0" width="460" height="50" rx="6" fill="url(#quarexGrad)" stroke="#3b82f6" stroke-width="1"/>
+    <text x="20" y="20" fill="#7cb9ff" font-size="10" font-weight="600" letter-spacing="1">BOOK</text>
+    <text x="20" y="38" fill="#ffffff" font-size="14" font-weight="500">Zero-Sum Politics</text>
+
+    <!-- Arrow -->
+    <polygon points="230,50 238,58 234,58 234,66 226,66 226,58 222,58" fill="#7cb9ff" opacity="0.5"/>
+
+    <!-- Chapter -->
+    <rect x="30" y="70" width="400" height="50" rx="6" fill="url(#chapterGrad)" stroke="#60a5fa" stroke-width="1"/>
+    <text x="50" y="90" fill="#1e3a8a" font-size="10" font-weight="600" letter-spacing="1">CHAPTER</text>
+    <text x="50" y="108" fill="#0a1628" font-size="14" font-weight="500">What Is Zero-Sum Politics?</text>
+
+    <!-- Arrow -->
+    <polygon points="230,120 238,128 234,128 234,136 226,136 226,128 222,128" fill="#7cb9ff" opacity="0.5"/>
+
+    <!-- Topics (fan out) -->
+    <rect x="60" y="140" width="340" height="36" rx="5" fill="url(#topicGrad)" stroke="#7cb9ff" stroke-width="1"/>
+    <text x="75" y="163" fill="#0a1628" font-size="12" font-weight="500">What does 'zero-sum' mean in political thinking?</text>
+
+    <rect x="60" y="182" width="340" height="36" rx="5" fill="url(#topicGrad)" stroke="#7cb9ff" stroke-width="1"/>
+    <text x="75" y="205" fill="#0a1628" font-size="12" font-weight="500">Why does zero-sum framing turn compromise into betrayal?</text>
+
+    <rect x="60" y="224" width="340" height="36" rx="5" fill="url(#topicGrad)" stroke="#7cb9ff" stroke-width="1"/>
+    <text x="75" y="247" fill="#0a1628" font-size="12" font-weight="500">Is zero-sum thinking a strategy, mindset, or manipulation?</text>
+  </g>
+
+  <!-- Quarex characteristics -->
+  <g transform="translate(670, 435)">
+    <rect x="0" y="0" width="460" height="45" rx="6" fill="#1e3a5c" stroke="#3b82f6" stroke-width="1"/>
+    <text x="20" y="28" fill="#7cb9ff" font-size="14" font-weight="500">Question-driven — jump to any topic directly</text>
+  </g>
+  <g transform="translate(670, 490)">
+    <rect x="0" y="0" width="460" height="45" rx="6" fill="#1e3a5c" stroke="#3b82f6" stroke-width="1"/>
+    <text x="20" y="28" fill="#7cb9ff" font-size="14" font-weight="500">Living context — AI answers with current data</text>
+  </g>
+  <g transform="translate(670, 545)">
+    <rect x="0" y="0" width="460" height="45" rx="6" fill="#1e3a5c" stroke="#3b82f6" stroke-width="1"/>
+    <text x="20" y="28" fill="#7cb9ff" font-size="14" font-weight="500">Structured boundaries — consistent, unbiased framing</text>
+  </g>
+
+  <!-- Quarex output -->
+  <polygon points="900,620 908,635 904,635 904,650 896,650 896,635 892,635" fill="#7cb9ff" opacity="0.7"/>
+  <rect x="720" y="665" width="360" height="70" rx="8" fill="#111111" stroke="#7cb9ff" stroke-width="2" filter="url(#glow)"/>
+  <text x="900" y="695" text-anchor="middle" fill="#7cb9ff" font-size="12" font-weight="600" letter-spacing="1">OUTPUT</text>
+  <text x="900" y="718" text-anchor="middle" fill="#ffffff" font-size="14">"Zero-sum framing treats compromise as betrayal..."</text>
+
+  <!-- Bottom comparison labels -->
+  <text x="300" y="770" text-anchor="middle" fill="#667788" font-size="13" font-style="italic">Points you to information</text>
+  <text x="900" y="770" text-anchor="middle" fill="#7cb9ff" font-size="13" font-style="italic">Delivers the answer</text>
+
+</svg>

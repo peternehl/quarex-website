@@ -1,0 +1,71 @@
+Audio Waveform / Visualizer Commands
+=====================================
+
+FINAL VERSION — Mirrored Magma CQT with True Black Background:
+ffmpeg -y -i "INPUT_AUDIO.wav" -filter_complex "[0:a]showcqt=s=1920x200:sono_h=0:bar_g=2:bar_v=9:tc=0.33:tlength=0.17:axis=0[cqt];[cqt]pseudocolor=p=magma[colored];[colored]lutrgb=r='if(lt(val,20),0,val)':g='if(lt(val,20),0,val)':b='if(lt(val,20),0,val)'[clean];[clean]split[top][bottom];[bottom]vflip[flipped];[top][flipped]vstack[v]" -map "[v]" -map "0:a" -c:v libx264 -pix_fmt yuv420p -c:a aac -b:a 192k "OUTPUT.mp4"
+
+Examples used:
+ffmpeg -y -i "E:/Media/Processed Video/quarex-intro-voice.wav" -filter_complex "[0:a]showcqt=s=1920x200:sono_h=0:bar_g=2:bar_v=9:tc=0.33:tlength=0.17:axis=0[cqt];[cqt]pseudocolor=p=magma[colored];[colored]lutrgb=r='if(lt(val,20),0,val)':g='if(lt(val,20),0,val)':b='if(lt(val,20),0,val)'[clean];[clean]split[top][bottom];[bottom]vflip[flipped];[top][flipped]vstack[v]" -map "[v]" -map "0:a" -c:v libx264 -pix_fmt yuv420p -c:a aac -b:a 192k "E:/Media/Processed Video/quarex-intro-visualizer.mp4"
+
+ffmpeg -y -i "E:/Media/Audio Tracks/Trump Ruined News VO.wav" -filter_complex "[0:a]showcqt=s=1920x200:sono_h=0:bar_g=2:bar_v=9:tc=0.33:tlength=0.17:axis=0[cqt];[cqt]pseudocolor=p=magma[colored];[colored]lutrgb=r='if(lt(val,20),0,val)':g='if(lt(val,20),0,val)':b='if(lt(val,20),0,val)'[clean];[clean]split[top][bottom];[bottom]vflip[flipped];[top][flipped]vstack[v]" -map "[v]" -map "0:a" -c:v libx264 -pix_fmt yuv420p -c:a aac -b:a 192k "E:/Media/Processed Video/trump-news-visualizer.mp4"
+
+
+WHITE BACKGROUND VERSION — Mirrored Magma CQT on White (alpha mask approach):
+ffmpeg -y -i "INPUT_AUDIO.wav" -filter_complex "[0:a]showcqt=s=1920x200:sono_h=0:bar_g=2:bar_v=9:tc=0.33:tlength=0.17:axis=0[cqt];[cqt]split[a][b];[a]pseudocolor=p=magma,format=rgba[colored];[b]format=gray[alpha];[colored][alpha]alphamerge[fg];color=c=white:s=1920x200:r=25[bg];[bg][fg]overlay=shortest=1[clean];[clean]split[top][bottom];[bottom]vflip[flipped];[top][flipped]vstack[v]" -map "[v]" -map "0:a" -c:v libx264 -pix_fmt yuv420p -c:a aac -b:a 192k "OUTPUT-r1.mp4"
+
+
+Other Color Palettes (replace pseudocolor=p=magma with):
+- pseudocolor=p=inferno
+- pseudocolor=p=viridis
+- pseudocolor=p=plasma
+
+
+Audio Extraction Commands
+=========================
+
+Extract audio from MP4 to WAV (44.1kHz):
+ffmpeg -y -i "INPUT.mp4" -vn -acodec pcm_s16le -ar 44100 "OUTPUT.wav"
+
+Extract audio from MP4 to WAV (16kHz for SadTalker):
+ffmpeg -y -i "INPUT.mp4" -vn -acodec pcm_s16le -ar 16000 "OUTPUT.wav"
+
+Trim audio (remove first N seconds):
+ffmpeg -y -i "INPUT.wav" -ss 8.5 -acodec pcm_s16le "OUTPUT.wav"
+
+Clip first N seconds:
+ffmpeg -i "INPUT.wav" -t 8.5 -c:a copy "OUTPUT.wav"
+
+
+SadTalker Commands
+==================
+
+Basic usage (from E:/AI-Tools/SadTalker):
+cd E:/AI-Tools/SadTalker && ./venv/Scripts/python inference.py --driven_audio "AUDIO.wav" --source_image "IMAGE.png" --result_dir ./results --still --preprocess crop --cpu
+
+Options:
+  --preprocess: full | crop | resize
+  --enhancer gfpgan (adds face enhancement, requires GPU)
+  --cpu (forces CPU mode)
+  --still (reduces head movement)
+
+
+Wav2Lip Commands
+================
+
+Basic usage (from E:/AI-Tools/Wav2Lip):
+cd E:/AI-Tools/Wav2Lip && ./venv/Scripts/python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face "IMAGE.png" --audio "AUDIO.wav"
+
+Available models:
+  checkpoints/wav2lip_gan.pth
+  checkpoints/Wav2Lip-SD-GAN.pt
+  checkpoints/Wav2Lip-SD-NOGAN.pt
+
+
+Static Video from Image
+=======================
+
+Create video from image with audio:
+ffmpeg -y -loop 1 -i "IMAGE.webp" -i "AUDIO.wav" -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest "OUTPUT.mp4"
+
+Create static video (no audio, fixed duration):
+ffmpeg -loop 1 -i "IMAGE.webp" -c:v libx264 -t 133 -pix_fmt yuv420p -r 25 "OUTPUT.mp4"

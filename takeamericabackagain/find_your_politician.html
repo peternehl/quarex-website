@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Your Politician</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #1a1f2b;
+      min-height: 100vh;
+    }
+
+    /* Hero section with angel background */
+	.hero {
+	  position: relative;
+	  min-height: 100vh;
+	  display: flex;
+	  justify-content: center;
+	  align-items: flex-end;
+	  padding-bottom: 10vh;
+	  overflow: hidden;
+}
+
+    .hero picture, .hero img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      z-index: 0;
+    }
+
+    /* light overlay for readability */
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 20%, rgba(255,255,255,.35), rgba(255,255,255,0) 70%);
+      z-index: 1;
+    }
+
+    .form-container {
+      position: relative;
+      z-index: 2;
+      background: rgba(255,255,255,0.8);
+      backdrop-filter: blur(5px);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      text-align: center;
+      max-width: 420px;
+      width: 90%;
+    }
+
+    .form-container h1 {
+      color: #5da1de;
+      margin-bottom: 20px;
+      text-shadow: 0 1px 3px rgba(0,0,0,.2);
+    }
+
+    .form-container input, .form-container button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+
+    .form-container button {
+      background: linear-gradient(180deg, #82b7e8, #5da1de);
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: all .2s;
+    }
+
+    .form-container button:hover {
+      filter: brightness(1.05);
+    }
+
+    /* Return link back to main page */
+    .back-link {
+      display: inline-block;
+      margin-top: 15px;
+      color: #5da1de;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <!-- Responsive background images -->
+    <picture>
+      <source srcset="/images/angel-320.jpg 320w, /images/angel-640.jpg 640w, /images/angel-1024.jpg 1024w" sizes="100vw" />
+      <img src="/images/angel-640.jpg" alt="Angel of Truth background" loading="lazy" decoding="async" />
+    </picture>
+
+    <div class="form-container">
+      <h1>Find Your Politician</h1>
+<input type="text" id="politicianName" placeholder="Politician Name" />
+
+<select id="politicianState">
+  <option value="">Select State</option>
+  <option value="AL">Alabama</option>
+  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="DC">District of Columbia</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
+</select>
+
+<button onclick="searchPolitician()">Search</button>
+
+      <div id="result"></div>
+      <a href="/index.html" class="back-link">← Back to Home</a>
+    </div>
+  </section>
+
+<script>
+async function searchPolitician() {
+  const name  = document.getElementById("politicianName").value.trim();
+  const state = document.getElementById("politicianState").value.trim();
+  const result = document.getElementById("result");
+
+  if (!name || !state) {
+    result.innerHTML = "<p>Please enter both name and state.</p>";
+    return;
+  }
+
+  result.innerHTML = `<p>Searching for <b>${name}</b> in <b>${state}</b>…</p>`;
+
+  // Helper to try JSON parse with good error
+  function safeParseJSON(text) {
+    try { return { ok: true, data: JSON.parse(text) }; }
+    catch (e) { return { ok: false, error: e, text }; }
+  }
+
+  // Try JSON POST first; if it fails, fall back to form-encoded
+  async function fetchMatches(useFormEncoded=false) {
+    const url = '/api/find_politician.php';
+    const opts = {
+      method: 'POST',
+      headers: useFormEncoded
+        ? { 'Content-Type': 'application/x-www-form-urlencoded' }
+        : { 'Content-Type': 'application/json' },
+      body: useFormEncoded
+        ? new URLSearchParams({ name, state }).toString()
+        : JSON.stringify({ name, state })
+    };
+    const resp = await fetch(url, opts);
+    const text = await resp.text();
+    console.log('[find_politician raw]', text);
+    const parsed = safeParseJSON(text);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${text.slice(0,200)}`);
+    if (!parsed.ok) throw new Error('Invalid JSON from find_politician.php');
+    return parsed.data;
+  }
+
+  try {
+    let data;
+    try {
+      data = await fetchMatches(false); // JSON body
+    } catch (e1) {
+      console.warn('JSON POST failed, retrying form-encoded…', e1);
+      data = await fetchMatches(true);  // x-www-form-urlencoded fallback
+    }
+
+    // Normalize shape: support {matches:[...]} or a single object { ... }
+    let matches = [];
+    if (Array.isArray(data?.matches)) {
+      matches = data.matches;
+    } else if (data?.best_match) {
+      matches = [data.best_match];
+    } else if (data && typeof data === 'object') {
+      // Heuristic: if it looks like a single match, use it
+      const maybe = data;
+      if (maybe.full_name || maybe.name) matches = [maybe];
+    }
+
+    if (!matches.length) {
+      result.innerHTML = "<p>No clear match. Try a last name only, or check spelling.</p>";
+      return;
+    }
+
+    // Build cards with action buttons
+    const rows = matches.map((m, i) => {
+      const id = `m${i}`;
+      const fullName = m.full_name || m.name || '(Unknown)';
+      return `
+        <div class="match" id="${id}">
+          <div><b>${fullName}</b> — ${m.office || 'Unknown office'}</div>
+          <div>
+            <small>${m.level || ''} • ${m.party || 'Unknown party'} • ${m.state || ''}${m.district ? ' • ' + m.district : ''}</small>
+          </div>
+          <div><small>Confidence: ${m.confidence != null ? Number(m.confidence*100).toFixed(0) : '—'}%</small></div>
+          ${m.notes ? `<div><small>${m.notes}</small></div>` : ''}
+
+          <div class="ta-actions"
+               data-id="${id}"
+               data-name="${(fullName||'').replace(/"/g,'&quot;')}"
+               data-office="${(m.office||'').replace(/"/g,'&quot;')}"
+               data-party="${(m.party||'').replace(/"/g,'&quot;')}"
+               data-state="${(m.state||'').replace(/"/g,'&quot;')}"
+               data-district="${(m.district||'').replace(/"/g,'&quot;')}">
+            <button class="ta-btn" data-key="personal">Personal data</button>
+            <button class="ta-btn" data-key="partyTenure">Party & tenure</button>
+            <button class="ta-btn" data-key="election">Upcoming election</button>
+            <button class="ta-btn" data-key="wikipedia">Wikipedia</button>
+            <button class="ta-btn" data-key="socials">Social media</button>
+            <button class="ta-btn" data-key="website">Candidate website</button>
+            <button class="ta-btn" data-key="print" style="margin-left:auto">Print one-pager</button>
+          </div>
+
+          <div class="ta-detail" id="detail-${id}" style="border:1px solid #ddd; border-radius:8px; padding:12px; display:none"></div>
+        </div>
+      `;
+    }).join('');
+    result.innerHTML = rows;
+
+    // Wire up delegated click handler for all action buttons
+    const taCache = new Map();
+
+    async function taFetchEnriched(person){
+      const body = new URLSearchParams({
+        name: person.name || '',
+        office: person.office || '',
+        state: person.state || '',
+        district: person.district || ''
+      });
+      const r = await fetch('/api/politician_enrich.php', {
+        method: 'POST',
+        headers: {'Content-Type':'application/x-www-form-urlencoded'},
+        body: body.toString()
+      });
+      const text = await r.text();
+      console.log('[enrich raw]', text);
+      const j = safeParseJSON(text);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      if (!j.ok) throw new Error('Invalid JSON from politician_enrich.php');
+      return j.data || j; // support either {data:...} or direct payload
+    }
+
+    function kv(rows){
+      return `<div class="ta-kv">${rows.map(([k,v]) => `<div class="ta-k">${k}</div><div class="ta-v">${v ?? '—'}</div>`).join('')}</div>`;
+    }
+
+    async function ensureData(cardId, person, detailEl){
+      if (taCache.has(cardId)) return taCache.get(cardId);
+      detailEl.style.display = 'block';
+      detailEl.innerHTML = 'Loading…';
+      const data = await taFetchEnriched(person);
+      taCache.set(cardId, data);
+      return data;
+    }
+
+    document.getElementById('result').addEventListener('click', async (e)=>{
+      const btn = e.target.closest('.ta-btn');
+      if (!btn) return;
+      const actions = btn.closest('.ta-actions');
+      const cardId  = actions?.dataset.id;
+      const detail  = document.getElementById(`detail-${cardId}`);
+      const person = {
+        name: actions.dataset.name || '',
+        office: actions.dataset.office || '',
+        party: actions.dataset.party || '',
+        state: actions.dataset.state || '',
+        district: actions.dataset.district || ''
+      };
+      const key = btn.dataset.key;
+
+      if (key === 'print') {
+        const url = `/api/politician_onepager.php?name=${encodeURIComponent(person.name)}&office=${encodeURIComponent(person.office)}&state=${encodeURIComponent(person.state)}&district=${encodeURIComponent(person.district)}`;
+        window.open(url, '_blank');
+        return;
+      }
+
+      const data = await ensureData(cardId, person, detail);
+
+      if (key === 'personal') {
+        detail.innerHTML = `
+          <h4>Personal</h4>
+          ${kv([
+            ['Full name', data.name],
+            ['Age', data.personal?.age ?? '—'],
+            ['Birth date', data.personal?.birth_date ?? '—'],
+            ['Birth place', data.personal?.birth_place ?? '—'],
+            ['Net worth (if known)', data.personal?.net_worth ?? '—']
+          ])}`;
+      } else if (key === 'partyTenure') {
+        detail.innerHTML = `
+          <h4>Party & Tenure</h4>
+          ${kv([
+            ['Party', data.party ?? person.party ?? '—'],
+            ['Current office', data.office ?? person.office ?? '—'],
+            ['State/District', (person.state||'') + (person.district?('-'+person.district):'')],
+            ['In office since', data.tenure?.since ?? '—'],
+            ['Years in current office', data.tenure?.years ?? '—']
+          ])}`;
+      } else if (key === 'election') {
+        detail.innerHTML = `
+          <h4>Upcoming Election</h4>
+          ${kv([
+            ['Next election (approx.)', data.election?.date ?? '—'],
+            ['Notes', data.election?.note ?? '—'],
+            ['Ballotpedia', data.links?.ballotpedia ? `<a href="${data.links.ballotpedia}" target="_blank">Open</a>` : '—']
+          ])}`;
+      } else if (key === 'wikipedia') {
+        detail.innerHTML = `
+          <h4>Wikipedia</h4>
+          ${data.links?.wikipedia ? `<p><a href="${data.links.wikipedia}" target="_blank">${data.links.wikipedia}</a></p>` : '<p>Not found.</p>'}`;
+      } else if (key === 'socials') {
+        const s = data.socials || {};
+        detail.innerHTML = `
+          <h4>Social media</h4>
+          ${kv([
+            ['X (Twitter)', s.twitter ? `<a href="${s.twitter}" target="_blank">${s.twitter}</a>` : '—'],
+            ['Facebook', s.facebook ? `<a href="${s.facebook}" target="_blank">${s.facebook}</a>` : '—'],
+            ['Instagram', s.instagram ? `<a href="${s.instagram}" target="_blank">${s.instagram}</a>` : '—'],
+            ['YouTube', s.youtube ? `<a href="${s.youtube}" target="_blank">${s.youtube}</a>` : '—'],
+            ['TikTok', s.tiktok ? `<a href="${s.tiktok}" target="_blank">${s.tiktok}</a>` : '—']
+          ])}`;
+      } else if (key === 'website') {
+        detail.innerHTML = `
+          <h4>Official website</h4>
+          ${data.links?.official ? `<p><a href="${data.links.official}" target="_blank">${data.links.official}</a></p>` : '<p>Not found.</p>'}`;
+      }
+
+      detail.style.display = 'block';
+    });
+
+  } catch (err) {
+    console.error(err);
+    result.innerHTML = `
+      <div style="padding:10px;border:1px solid #f00;background:#fee;">
+        <p><b>Error:</b> ${err.message}</p>
+        <p>Open DevTools (F12) → Console for details. We logged the raw server response.</p>
+      </div>
+    `;
+  }
+}
+</script>
+		
+	<style>
+	  .ta-btn {
+		padding: 8px 12px;
+		border-radius: 8px;
+		border: 1px solid #82b7e8;
+		background: #f4f9ff;
+		color: #1a1f2b;
+		cursor: pointer;
+		font-weight: 600;
+		transition: all 0.2s ease;
+	  }
+
+	  .ta-btn:hover {
+		background: linear-gradient(180deg, #82b7e8, #5da1de);
+		color: white;
+		border-color: #5da1de;
+		transform: translateY(-2px);
+	  }
+
+	  .ta-detail h4 { margin: .3rem 0 .6rem; }
+	  .ta-kv {
+		display: grid;
+		grid-template-columns: 180px 1fr;
+		gap: 6px 12px;
+	  }
+	  .ta-k { color: #555; }
+	  .ta-v { font-weight: 600; }
+
+	  @media print {
+		.ta-actions { display: none !important; }
+		body { color: #000; }
+	  }
+	</style>
+
+
+</body>
+</html>

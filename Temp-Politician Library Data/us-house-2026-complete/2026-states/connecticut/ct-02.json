@@ -1,0 +1,20 @@
+{
+  "book": "CT-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "George Austin (R)",
+        "Mike France (R)",
+        "Sean Randall (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Joe Courtney (D)",
+        "Kyle Gauck (D)"
+      ]
+    }
+  ]
+}

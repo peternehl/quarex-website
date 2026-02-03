@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "catalonia",
+    "name": "Catalonia",
+    "description": null,
+    "chapterCount": 4,
+    "tags": ["geography", "history", "politics", "travel"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "quebec",
+    "name": "Quebec",
+    "description": null,
+    "chapterCount": 4,
+    "tags": ["geography", "history", "politics", "travel"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "scotland",
+    "name": "Scotland",
+    "description": null,
+    "chapterCount": 4,
+    "tags": ["geography", "history", "politics", "travel"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "wales",
+    "name": "Wales",
+    "description": null,
+    "chapterCount": 4,
+    "tags": ["geography", "history", "politics", "travel"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  }
+]

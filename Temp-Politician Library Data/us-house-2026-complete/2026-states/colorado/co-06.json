@@ -1,0 +1,24 @@
+{
+  "book": "CO-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Khaleb Dammen (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jason Crow (D)",
+        "Dylan Shelby (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Samir Witta (U)"
+      ]
+    }
+  ]
+}

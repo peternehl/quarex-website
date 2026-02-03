@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-20",
-  "count": 603,
+  "generated": "2026-01-28",
+  "count": 641,
   "books": [
     {
       "name": "A Brief History of War",
@@ -11,9 +11,9 @@
     },
     {
       "name": "A History of Racism in the Americas",
-      "path": "pe/historical-narratives/racism/a-history-of-racism-in-the-americas",
-      "library": "Historical Narratives",
-      "shelf": "Racism",
+      "path": "k/the-sciences/history-and-anthropology/a-history-of-racism-in-the-americas",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
       "chapters": 15
     },
     {
@@ -106,6 +106,13 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
+    },
+    {
+      "name": "Åland Islands",
+      "path": "g/territories-and-dependencies/autonomous-regions/aland-islands",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
+      "chapters": 4
     },
     {
       "name": "Alaska",
@@ -291,8 +298,8 @@
     },
     {
       "name": "Attorney General",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/attorney-general",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/attorney-general",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -399,6 +406,13 @@
       "path": "g/africa/countries/benin",
       "library": "Africa",
       "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Bermuda",
+      "path": "g/territories-and-dependencies/overseas-territories/bermuda",
+      "library": "Territories And Dependencies",
+      "shelf": "Overseas Territories",
       "chapters": 4
     },
     {
@@ -542,6 +556,13 @@
       "chapters": 4
     },
     {
+      "name": "Catalonia",
+      "path": "g/territories-and-dependencies/constituent-nations/catalonia",
+      "library": "Territories And Dependencies",
+      "shelf": "Constituent Nations",
+      "chapters": 4
+    },
+    {
       "name": "Central African Republic",
       "path": "g/africa/countries/central-african-republic",
       "library": "Africa",
@@ -578,8 +599,8 @@
     },
     {
       "name": "Chief Justice John Roberts",
-      "path": "c/supreme-court-2025/current-justices/chief-justice-john-roberts",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/chief-justice-john-roberts",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
@@ -606,8 +627,8 @@
     },
     {
       "name": "CIA Director",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/cia-director",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/cia-director",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -715,6 +736,13 @@
       "library": "The Arts",
       "shelf": "Visual Arts",
       "chapters": 10
+    },
+    {
+      "name": "Coping with Frenemies",
+      "path": "pr/practical-skills/personal-development/coping-with-frenemies",
+      "library": "Practical Skills",
+      "shelf": "Personal Development",
+      "chapters": 12
     },
     {
       "name": "Costa Rica",
@@ -836,9 +864,16 @@
       "chapters": 4
     },
     {
+      "name": "Denmark and Greenland: A Shared History",
+      "path": "k/the-sciences/history-and-anthropology/denmark-and-greenland-a-shared-history",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
+    },
+    {
       "name": "Department of Government Efficiency (DOGE)",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/doge-advisory",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/doge-advisory",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 3
     },
@@ -872,15 +907,15 @@
     },
     {
       "name": "Director of National Intelligence",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/director-of-national-intelligence",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/director-of-national-intelligence",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Director of Office of Management and Budget",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/omb-director",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/omb-director",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -928,8 +963,8 @@
     },
     {
       "name": "Donald Trump: A Biography",
-      "path": "c/trump-administration-2025/president-and-vice-president/donald-trump-a-biography",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/president-and-vice-president/donald-trump-a-biography",
+      "library": "Executive Branch",
       "shelf": "President And Vice President",
       "chapters": 12
     },
@@ -960,6 +995,13 @@
       "library": "The Sciences",
       "shelf": "Life Sciences",
       "chapters": 10
+    },
+    {
+      "name": "Economic Coercion in the United States",
+      "path": "pe/ideological/economic-theories/economic-coercion-in-the-united-states",
+      "library": "Ideological",
+      "shelf": "Economic Theories",
+      "chapters": 12
     },
     {
       "name": "Economic Systems Compared",
@@ -998,8 +1040,8 @@
     },
     {
       "name": "EPA Administrator",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/epa-administrator",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/epa-administrator",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -1060,9 +1102,23 @@
       "chapters": 4
     },
     {
+      "name": "Falkland Islands",
+      "path": "g/territories-and-dependencies/overseas-territories/falkland-islands",
+      "library": "Territories And Dependencies",
+      "shelf": "Overseas Territories",
+      "chapters": 4
+    },
+    {
+      "name": "Faroe Islands",
+      "path": "g/territories-and-dependencies/autonomous-regions/faroe-islands",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
+      "chapters": 4
+    },
+    {
       "name": "FBI Director",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/fbi-director",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/fbi-director",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -1137,6 +1193,13 @@
       "chapters": 10
     },
     {
+      "name": "French Polynesia",
+      "path": "g/territories-and-dependencies/overseas-territories/french-polynesia",
+      "library": "Territories And Dependencies",
+      "shelf": "Overseas Territories",
+      "chapters": 4
+    },
+    {
       "name": "Future Power Systems and Energy Transition",
       "path": "i/civil-infrastructures/electrical-power-systems/future-power-systems-and-energy-transition",
       "library": "Civil Infrastructures",
@@ -1163,6 +1226,13 @@
       "library": "Geopolitical",
       "shelf": "Middle East Conflicts",
       "chapters": 17
+    },
+    {
+      "name": "Gender, Media, and Representation",
+      "path": "pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
     },
     {
       "name": "Genetics and Molecular Biology",
@@ -1242,6 +1312,13 @@
       "chapters": 4
     },
     {
+      "name": "Gibraltar",
+      "path": "g/territories-and-dependencies/overseas-territories/gibraltar",
+      "library": "Territories And Dependencies",
+      "shelf": "Overseas Territories",
+      "chapters": 4
+    },
+    {
       "name": "Global Climate & Environment",
       "path": "e/current-events/global-challenges/global-climate-and-environment",
       "library": "Current Events",
@@ -1256,6 +1333,13 @@
       "chapters": 4
     },
     {
+      "name": "Global Women's Rights",
+      "path": "pe/cultural-and-identity/feminism-and-equality/global-womens-rights",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
+    },
+    {
       "name": "Graphic Design: Principles and Applications",
       "path": "k/the-arts/visual-arts/graphic-design-principles-and-applications",
       "library": "The Arts",
@@ -1267,6 +1351,13 @@
       "path": "g/europe/countries/greece",
       "library": "Europe",
       "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Greenland",
+      "path": "g/territories-and-dependencies/autonomous-regions/greenland",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
       "chapters": 4
     },
     {
@@ -1289,6 +1380,13 @@
       "library": "Us Governors 2026",
       "shelf": "2026 Gubernatorial Races",
       "chapters": 2
+    },
+    {
+      "name": "Guam",
+      "path": "g/territories-and-dependencies/overseas-territories/guam",
+      "library": "Territories And Dependencies",
+      "shelf": "Overseas Territories",
+      "chapters": 4
     },
     {
       "name": "Guam",
@@ -1407,6 +1505,13 @@
       "path": "g/north-america/countries/honduras",
       "library": "North America",
       "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Hong Kong",
+      "path": "g/territories-and-dependencies/autonomous-regions/hong-kong",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
       "chapters": 4
     },
     {
@@ -1564,6 +1669,13 @@
       "chapters": 10
     },
     {
+      "name": "Intersectionality: Race, Gender, and Power",
+      "path": "pe/cultural-and-identity/feminism-and-equality/intersectionality-race-gender-and-power",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
+    },
+    {
       "name": "Interviewer and Hiring Manager Tutorial",
       "path": "pr/practical-skills/digital-and-professional-skills/interviewer-hiring-tutorial",
       "library": "Practical Skills",
@@ -1656,8 +1768,8 @@
     },
     {
       "name": "JD Vance: A Biography",
-      "path": "c/trump-administration-2025/president-and-vice-president/jd-vance-a-biography",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/president-and-vice-president/jd-vance-a-biography",
+      "library": "Executive Branch",
       "shelf": "President And Vice President",
       "chapters": 14
     },
@@ -1677,57 +1789,57 @@
     },
     {
       "name": "Justice Amy Coney Barrett",
-      "path": "c/supreme-court-2025/current-justices/justice-amy-coney-barrett",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-amy-coney-barrett",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
     {
       "name": "Justice Brett Kavanaugh",
-      "path": "c/supreme-court-2025/current-justices/justice-brett-kavanaugh",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-brett-kavanaugh",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
     {
       "name": "Justice Clarence Thomas",
-      "path": "c/supreme-court-2025/current-justices/justice-clarence-thomas",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-clarence-thomas",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
     {
       "name": "Justice Elena Kagan",
-      "path": "c/supreme-court-2025/current-justices/justice-elena-kagan",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-elena-kagan",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
     {
       "name": "Justice Ketanji Brown Jackson",
-      "path": "c/supreme-court-2025/current-justices/justice-ketanji-brown-jackson",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-ketanji-brown-jackson",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
     {
       "name": "Justice Neil Gorsuch",
-      "path": "c/supreme-court-2025/current-justices/justice-neil-gorsuch",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-neil-gorsuch",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
     {
       "name": "Justice Samuel Alito",
-      "path": "c/supreme-court-2025/current-justices/justice-samuel-alito",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-samuel-alito",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
     {
       "name": "Justice Sonia Sotomayor",
-      "path": "c/supreme-court-2025/current-justices/justice-sonia-sotomayor",
-      "library": "Supreme Court 2025",
+      "path": "c/judicial-branch/current-justices/justice-sonia-sotomayor",
+      "library": "Judicial Branch",
       "shelf": "Current Justices",
       "chapters": 5
     },
@@ -1785,7 +1897,7 @@
       "path": "c/us-senate-2026-complete/class-2-regular-elections/kentucky",
       "library": "Us Senate 2026 Complete",
       "shelf": "Class 2 Regular Elections",
-      "chapters": 2
+      "chapters": 3
     },
     {
       "name": "Kentucky",
@@ -1820,6 +1932,13 @@
       "path": "g/europe/countries/kosovo",
       "library": "Europe",
       "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Kosovo",
+      "path": "g/territories-and-dependencies/disputed-territories/kosovo",
+      "library": "Territories And Dependencies",
+      "shelf": "Disputed Territories",
       "chapters": 4
     },
     {
@@ -1974,6 +2093,13 @@
       "path": "g/europe/countries/luxembourg",
       "library": "Europe",
       "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Macau",
+      "path": "g/territories-and-dependencies/autonomous-regions/macau",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
       "chapters": 4
     },
     {
@@ -2327,6 +2453,13 @@
       "chapters": 4
     },
     {
+      "name": "Motherhood, Family, and Gender Roles",
+      "path": "pe/cultural-and-identity/feminism-and-equality/motherhood-family-and-gender-roles",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
+    },
+    {
       "name": "Movement, Brand, and Base",
       "path": "e/the-20162024-maga-era-in-us-politics/the-rise-of-maga/movement-brand-and-base",
       "library": "The 20162024 Maga Era In Us Politics",
@@ -2380,7 +2513,7 @@
       "path": "pe/contested-issues/immigration-debates/nation-of-immigrants-land-of-walls",
       "library": "Contested Issues",
       "shelf": "Immigration Debates",
-      "chapters": 22
+      "chapters": 23
     },
     {
       "name": "Nauru",
@@ -2577,6 +2710,13 @@
       "library": "Current Events",
       "shelf": "News Of The Day",
       "chapters": 18
+    },
+    {
+      "name": "Newspapers",
+      "path": "i/social-infrastructures/print-media/newspapers",
+      "library": "Social Infrastructures",
+      "shelf": "Print Media",
+      "chapters": 49
     },
     {
       "name": "Nicaragua",
@@ -2838,6 +2978,13 @@
       "chapters": 4
     },
     {
+      "name": "Palestine",
+      "path": "g/territories-and-dependencies/disputed-territories/palestine",
+      "library": "Territories And Dependencies",
+      "shelf": "Disputed Territories",
+      "chapters": 4
+    },
+    {
       "name": "Panama",
       "path": "g/north-america/countries/panama",
       "library": "North America",
@@ -2857,6 +3004,13 @@
       "library": "South America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Passwords and Identity",
+      "path": "pr/practical-skills/home-and-daily-life/passwords-and-identity",
+      "library": "Practical Skills",
+      "shelf": "Home And Daily Life",
+      "chapters": 12
     },
     {
       "name": "Pennsylvania",
@@ -3028,6 +3182,13 @@
     },
     {
       "name": "Puerto Rico",
+      "path": "g/territories-and-dependencies/autonomous-regions/puerto-rico",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
+      "chapters": 4
+    },
+    {
+      "name": "Puerto Rico",
       "path": "g/us-geography/states-and-territories/puerto-rico",
       "library": "Us Geography",
       "shelf": "States And Territories",
@@ -3046,6 +3207,20 @@
       "library": "The Sciences",
       "shelf": "Physical Sciences",
       "chapters": 10
+    },
+    {
+      "name": "Quebec",
+      "path": "g/territories-and-dependencies/constituent-nations/quebec",
+      "library": "Territories And Dependencies",
+      "shelf": "Constituent Nations",
+      "chapters": 4
+    },
+    {
+      "name": "Queer Feminism and Gender",
+      "path": "pe/cultural-and-identity/feminism-and-equality/queer-feminism-and-gender",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
     },
     {
       "name": "Quick Checks Before You Believe or Share",
@@ -3146,6 +3321,13 @@
       "chapters": 4
     },
     {
+      "name": "Ruth Bader Ginsburg: A Biography",
+      "path": "k/biographies/political-biographies/ruth-bader-ginsburg-a-biography",
+      "library": "Biographies",
+      "shelf": "Political Biographies",
+      "chapters": 15
+    },
+    {
       "name": "Russia–Ukraine War",
       "path": "e/current-events/international-conflicts/russiaukraine-war",
       "library": "Current Events",
@@ -3216,6 +3398,13 @@
       "chapters": 10
     },
     {
+      "name": "Scotland",
+      "path": "g/territories-and-dependencies/constituent-nations/scotland",
+      "library": "Territories And Dependencies",
+      "shelf": "Constituent Nations",
+      "chapters": 4
+    },
+    {
       "name": "Sculpture: A Comprehensive Guide to Forms and Techniques",
       "path": "k/the-arts/visual-arts/sculpture-a-comprehensive-guide-to-forms-and-techniques",
       "library": "The Arts",
@@ -3224,99 +3413,99 @@
     },
     {
       "name": "Secretary of Agriculture",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-agriculture",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-agriculture",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Commerce",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-commerce",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-commerce",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Defense",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-defense",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-defense",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Education",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-education",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-education",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Energy",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-energy",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-energy",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Health and Human Services",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-hhs",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-hhs",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Homeland Security",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-homeland-security",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-homeland-security",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Housing and Urban Development",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-hud",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-hud",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Labor",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-labor",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-labor",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of State",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-state",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-state",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of the Interior",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-interior",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-interior",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of the Treasury",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-treasury",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-treasury",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Transportation",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-transportation",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-transportation",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
     {
       "name": "Secretary of Veterans Affairs",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/secretary-of-veterans-affairs",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/secretary-of-veterans-affairs",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -3371,8 +3560,8 @@
     },
     {
       "name": "Small Business Administration Administrator",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/sba-administrator",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/sba-administrator",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -3382,6 +3571,13 @@
       "library": "Contested Issues",
       "shelf": "Social Equality Debates",
       "chapters": 12
+    },
+    {
+      "name": "Sojourner Truth",
+      "path": "k/biographies/political-biographies/sojourner-truth",
+      "library": "Biographies",
+      "shelf": "Political Biographies",
+      "chapters": 8
     },
     {
       "name": "Solo Builder Funding How-To",
@@ -3573,6 +3769,13 @@
       "chapters": 4
     },
     {
+      "name": "Taiwan",
+      "path": "g/territories-and-dependencies/disputed-territories/taiwan",
+      "library": "Territories And Dependencies",
+      "shelf": "Disputed Territories",
+      "chapters": 4
+    },
+    {
       "name": "Tajikistan",
       "path": "g/asia/countries/tajikistan",
       "library": "Asia",
@@ -3704,6 +3907,13 @@
       "library": "Geopolitical",
       "shelf": "War And Peace",
       "chapters": 12
+    },
+    {
+      "name": "The Philanthropy-Power Divide",
+      "path": "pe/ideological/media-and-information/the-philanthropy-power-divide",
+      "library": "Ideological",
+      "shelf": "Media And Information",
+      "chapters": 10
     },
     {
       "name": "The Richest People in the World (2025)",
@@ -3917,8 +4127,8 @@
     },
     {
       "name": "US Ambassador to the United Nations",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/un-ambassador",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/un-ambassador",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -3938,8 +4148,8 @@
     },
     {
       "name": "US Trade Representative",
-      "path": "c/trump-administration-2025/cabinet-and-senior-officials/us-trade-representative",
-      "library": "Trump Administration 2025",
+      "path": "c/executive-branch/cabinet-and-senior-officials/us-trade-representative",
+      "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
     },
@@ -4042,6 +4252,13 @@
       "chapters": 1
     },
     {
+      "name": "Wales",
+      "path": "g/territories-and-dependencies/constituent-nations/wales",
+      "library": "Territories And Dependencies",
+      "shelf": "Constituent Nations",
+      "chapters": 4
+    },
+    {
       "name": "Washington",
       "path": "c/us-house-2026-complete/2026-states/washington",
       "library": "Us House 2026 Complete",
@@ -4098,11 +4315,53 @@
       "chapters": 1
     },
     {
+      "name": "Western Sahara",
+      "path": "g/territories-and-dependencies/disputed-territories/western-sahara",
+      "library": "Territories And Dependencies",
+      "shelf": "Disputed Territories",
+      "chapters": 4
+    },
+    {
       "name": "What Is AI, Really?",
       "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really",
       "library": "Ai Fundamentals",
       "shelf": "Foundations Of Artificial Intelligence",
       "chapters": 4
+    },
+    {
+      "name": "What is Feminism?",
+      "path": "pe/cultural-and-identity/feminism-and-equality/what-is-feminism",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
+    },
+    {
+      "name": "Women and the Workplace",
+      "path": "pe/cultural-and-identity/feminism-and-equality/women-and-the-workplace",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 16
+    },
+    {
+      "name": "Women and Violence",
+      "path": "pe/cultural-and-identity/feminism-and-equality/women-and-violence",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
+    },
+    {
+      "name": "Women in American Politics",
+      "path": "pe/cultural-and-identity/feminism-and-equality/women-in-american-politics",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
+    },
+    {
+      "name": "Women in Science and Technology",
+      "path": "pe/cultural-and-identity/feminism-and-equality/women-in-science-and-technology",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 15
     },
     {
       "name": "Wisconsin",
@@ -4126,10 +4385,17 @@
       "chapters": 1
     },
     {
-      "name": "Women's Rights: Centuries of Struggle",
-      "path": "pe/cultural-and-identity/feminism-and-equality/womens-rights-centuries-of-struggle",
+      "name": "Women's Health and Body Politics",
+      "path": "pe/cultural-and-identity/feminism-and-equality/womens-health-and-body-politics",
       "library": "Cultural And Identity",
       "shelf": "Feminism And Equality",
+      "chapters": 15
+    },
+    {
+      "name": "Women's Rights: Centuries of Struggle",
+      "path": "k/the-sciences/history-and-anthropology/womens-rights-centuries-of-struggle",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
       "chapters": 14
     },
     {

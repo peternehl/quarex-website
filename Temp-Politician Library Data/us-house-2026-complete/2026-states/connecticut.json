@@ -1,0 +1,83 @@
+{
+  "book": "Connecticut",
+  "chapters": [
+    {
+      "name": "CT-01",
+      "topics": [
+        "Amy Chai (R)",
+        "John Larson (D)",
+        "Luke Bronin (D)",
+        "Ruth Fortune (D)",
+        "Jillian Gilchrest (D)",
+        "Mark Stewart Greenstein (D)",
+        "Jack Perry (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "connecticut"
+      ]
+    },
+    {
+      "name": "CT-02",
+      "topics": [
+        "George Austin (R)",
+        "Mike France (R)",
+        "Sean Randall (R)",
+        "Joe Courtney (D)",
+        "Kyle Gauck (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "connecticut"
+      ]
+    },
+    {
+      "name": "CT-03",
+      "topics": [
+        "Christopher Lancia (R)",
+        "Rosa L. DeLauro (D)",
+        "Damjan DeNoble (D)",
+        "Andrew Rice (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "connecticut"
+      ]
+    },
+    {
+      "name": "CT-04",
+      "topics": [
+        "Jim Himes (D)",
+        "Damon Cerreta (I)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "connecticut"
+      ]
+    },
+    {
+      "name": "CT-05",
+      "topics": [
+        "Michele Botelho (R)",
+        "Jonathan De Barros (R)",
+        "Jahana Hayes (D)",
+        "Winter Solomita (D)",
+        "Jackson Taddeo-Waite (D)"
+      ],
+      "tags": [
+        "politics",
+        "elections",
+        "house",
+        "connecticut"
+      ]
+    }
+  ]
+}

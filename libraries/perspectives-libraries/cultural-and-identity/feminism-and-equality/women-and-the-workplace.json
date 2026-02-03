@@ -1,0 +1,285 @@
+{
+  "name": "Women and the Workplace",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "women and work",
+    "gender pay gap",
+    "workplace inequality",
+    "labor history",
+    "economic feminism"
+  ],
+  "chapters": [
+    {
+      "name": "How Women Worked Before Industrialization Changed the Economy",
+      "topics": [
+        "What kinds of productive labor did women perform in pre-industrial economies, and why was that labor rarely counted as 'work'?",
+        "How did the household economy of colonial and early America depend on women's labor without granting women economic independence?",
+        "Why did the separation of home and workplace during industrialization redefine women's labor as unpaid and invisible?",
+        "What roles did enslaved women, Indigenous women, and immigrant women play in the pre-industrial American economy?",
+        "How did early guilds, trades, and cottage industries include or exclude women from skilled labor?",
+        "What does the pre-industrial period reveal about the claim that women's exclusion from the workforce was ever natural or voluntary?"
+      ],
+      "tags": [
+        "history",
+        "legacy",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Factories, Exploitation, and the First Women Who Fought Back",
+      "topics": [
+        "Why were women and girls among the first workers recruited into American factories, and what conditions did they face?",
+        "What happened at the Lowell mills, and why did the 'mill girl' experience become central to American labor history?",
+        "How did the Triangle Shirtwaist Factory fire of 1911 expose the deadly cost of exploiting women workers?",
+        "What role did women play in organizing early labor strikes and unions despite being excluded from most male-led labor organizations?",
+        "How did race shape which women were allowed into factories and which were confined to domestic and agricultural labor?",
+        "Why are the stories of early women labor organizers like Mother Jones and Clara Lemlich largely absent from standard American history?"
+      ],
+      "tags": [
+        "history",
+        "activism",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "How Office Work Became Women's Work and Lost Status Because of It",
+      "topics": [
+        "How did clerical work transform from a male profession in the 19th century to a female-dominated one by the mid-20th century?",
+        "Why did the pay, prestige, and advancement opportunities of office work decline as women entered the field in large numbers?",
+        "What does the feminization of clerical work reveal about the relationship between who does a job and how much that job is valued?",
+        "How did the typewriter, telephone switchboard, and later the computer each reshape which office jobs were assigned to women?",
+        "Why did the 'secretary' role become culturally coded as feminine, and what expectations about appearance and behavior came with it?",
+        "How does the pattern of clerical feminization repeat across other professions like teaching, nursing, and human resources?"
+      ],
+      "tags": [
+        "society",
+        "causation",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Women in World War II and the Forced Return to Domesticity",
+      "topics": [
+        "How many women entered the American workforce during World War II, and what jobs did they perform?",
+        "Why does the 'Rosie the Riveter' image celebrate women's wartime labor while obscuring how quickly that labor was taken away?",
+        "What government policies and propaganda campaigns were used to push women back into domestic roles after the war ended?",
+        "How did Black women's wartime work experience differ from white women's, and why were they the first pushed out of jobs?",
+        "What psychological and economic toll did the forced return to domesticity take on women who had experienced financial independence?",
+        "Why is the post-war reversal considered one of the most deliberate rollbacks of women's economic progress in American history?"
+      ],
+      "tags": [
+        "history",
+        "inequality",
+        "world-wars",
+        "gender"
+      ]
+    },
+    {
+      "name": "The Myth of Meritocracy in the American Workplace",
+      "topics": [
+        "What does research show about whether hiring, promotion, and pay decisions in American workplaces are actually based on merit?",
+        "How do identical resumes with male and female names produce different callback rates, and what does that reveal about meritocracy?",
+        "Why do people who believe most strongly in workplace meritocracy often have the hardest time recognizing gender-based discrimination?",
+        "How does the myth of meritocracy protect existing power structures by framing inequality as the result of individual choices?",
+        "What role do performance reviews, recommendation letters, and informal networks play in reproducing gender bias under the cover of merit?",
+        "Why is the meritocracy myth especially damaging for women of color, who face compounded assumptions about competence and fit?"
+      ],
+      "tags": [
+        "society",
+        "bias",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Occupational Segregation: Why Entire Professions Lose Value When Women Fill Them",
+      "topics": [
+        "What is occupational segregation, and why do men and women still cluster in different industries and roles despite decades of equality legislation?",
+        "What does the evidence show about professions that lost pay and status as they became female-dominated — and gained both when men entered?",
+        "How does the devaluation of 'women's work' in fields like teaching, nursing, and social work reflect deeper assumptions about gender and skill?",
+        "Why do STEM fields remain disproportionately male, and what happens to women who enter them?",
+        "How does horizontal segregation — men and women in different jobs — combine with vertical segregation — men above women in the same job — to shape career outcomes?",
+        "What would it take to break occupational segregation, and why have most policy interventions so far failed?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "The Motherhood Penalty and How It Shapes Women's Careers",
+      "topics": [
+        "What is the motherhood penalty, and how large is its effect on women's earnings, hiring prospects, and career advancement?",
+        "Why do employers perceive mothers as less competent and less committed than childless women or fathers in identical roles?",
+        "How does the fatherhood bonus — where men with children are seen as more responsible and earn more — reveal that the penalty is about gender, not parenting?",
+        "What role do inadequate parental leave, unaffordable childcare, and inflexible work schedules play in enforcing the motherhood penalty?",
+        "How does the motherhood penalty vary by race, class, and industry — and why are low-wage mothers hit hardest?",
+        "What policies have other countries adopted that significantly reduce the motherhood penalty, and why hasn't the United States followed?"
+      ],
+      "tags": [
+        "economics",
+        "interpersonal-dynamics",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "The Gender Pay Gap: What the Data Actually Shows and What It Hides",
+      "topics": [
+        "What is the current gender pay gap in the United States, and how does it change when controlled for occupation, experience, and hours worked?",
+        "Why is the argument that the pay gap 'disappears' when you control for job choice misleading about the actual causes of inequality?",
+        "How do negotiation dynamics, salary history bans, and pay transparency laws each affect the gap?",
+        "Why is the pay gap significantly larger for Black, Latina, and Indigenous women than for white women?",
+        "How does the 'unexplained' residual gap — the portion that persists after all measurable factors are controlled — point to discrimination?",
+        "What would closing the gender pay gap require in terms of policy, employer practices, and cultural change?"
+      ],
+      "tags": [
+        "economics",
+        "analysis",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Harassment, Power, and the Structures That Protect Abusers at Work",
+      "topics": [
+        "Why has workplace sexual harassment persisted despite decades of legal protections and corporate training programs?",
+        "How do power imbalances between supervisors and subordinates create conditions where harassment is predictable and preventable but rarely prevented?",
+        "What did the #MeToo movement reveal about the institutional structures — NDAs, forced arbitration, HR loyalty — that protect abusers?",
+        "Why do most women who experience workplace harassment never report it, and what happens to those who do?",
+        "How does harassment function differently across industries — from corporate offices to restaurants to agriculture to entertainment?",
+        "What structural changes to workplace governance would actually reduce harassment rather than just managing legal liability?"
+      ],
+      "tags": [
+        "law",
+        "accountability",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Care Work and the Invisibility of Labor That Holds Society Together",
+      "topics": [
+        "What is care work, and why does the labor of raising children, supporting elders, and maintaining households remain economically invisible?",
+        "How much would it cost to replace unpaid domestic labor with paid services, and what does that number reveal about the economy's dependence on women's free labor?",
+        "Why are paid care workers — nannies, home health aides, eldercare staff — among the lowest-paid workers in the economy despite the essential nature of their work?",
+        "How does the devaluation of care work connect to the broader pattern of devaluing any labor associated with women?",
+        "What role does the assumption that care is a natural female instinct play in justifying low pay and poor working conditions for care workers?",
+        "How have movements to recognize and compensate care work challenged the economic framework that treats it as outside the 'real' economy?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Corporate Feminism and the Limits of Leaning In",
+      "topics": [
+        "What is corporate feminism, and how does it reframe systemic workplace inequality as a problem of individual women's confidence and ambition?",
+        "Why did Sheryl Sandberg's 'Lean In' resonate with millions of women while drawing sharp criticism from feminist scholars and labor organizers?",
+        "How do corporate diversity and inclusion programs create the appearance of progress while leaving underlying power structures unchanged?",
+        "Why does the 'women in leadership' narrative focus almost exclusively on elite professional women while ignoring the majority of working women?",
+        "How do companies use feminist branding and 'empowerment' marketing to deflect criticism of their actual labor practices?",
+        "What would a genuinely feminist approach to corporate reform look like compared to the current model of individual advancement?"
+      ],
+      "tags": [
+        "society",
+        "bias",
+        "leadership",
+        "gender"
+      ]
+    },
+    {
+      "name": "The Manosphere and Organized Backlash Against Women in the Workplace",
+      "topics": [
+        "What is the manosphere, and how have online men's rights communities built an ideology that frames women's workplace gains as men's losses?",
+        "How did the backlash against #MeToo produce the argument that men can no longer safely mentor, hire, or work alongside women?",
+        "Why do some men interpret diversity hiring and gender equity policies as direct discrimination against them, and what does research say about those claims?",
+        "How do manosphere narratives about false harassment accusations create a chilling effect on women's willingness to report actual abuse?",
+        "What role do figures like Jordan Peterson and similar commentators play in giving intellectual cover to workplace anti-feminism?",
+        "How does the manosphere workplace backlash connect to broader authoritarian and anti-equality movements in American politics?"
+      ],
+      "tags": [
+        "society",
+        "bias",
+        "social-media",
+        "gender"
+      ]
+    },
+    {
+      "name": "How the Gig Economy Creates New Forms of Gender Inequality",
+      "topics": [
+        "Why do women make up a large share of gig economy workers, and what draws them to platform-based work despite its instability?",
+        "How does the gig economy's lack of benefits — no paid leave, no health insurance, no retirement — disproportionately affect women with caregiving responsibilities?",
+        "Why do studies show that women earn less than men on the same gig platforms, even when algorithmic pricing is supposed to be gender-neutral?",
+        "How does the classification of gig workers as independent contractors strip away the labor protections that women fought decades to win?",
+        "What new forms of harassment and discrimination emerge in platform work where there is no HR department and no clear employer?",
+        "How should labor policy adapt to protect women workers in an economy where traditional employment is being replaced by gig arrangements?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Remote Work and Whether It Helps or Hurts Women in the Workforce",
+      "topics": [
+        "How did the COVID-19 pandemic's shift to remote work affect women's employment, earnings, and career trajectories differently than men's?",
+        "Why did millions of women leave the workforce during the pandemic, and how many have returned?",
+        "Does remote work help women by providing flexibility, or does it hurt them by reinforcing the expectation that they will absorb more domestic labor?",
+        "How does the 'proximity bias' in hybrid workplaces — where in-office workers get more visibility and promotions — create a new gender disadvantage?",
+        "What do studies show about whether women who work remotely are promoted at the same rate as women who work in the office?",
+        "How should companies design remote and hybrid work policies to avoid reproducing the same gender inequalities that existed in traditional offices?"
+      ],
+      "tags": [
+        "economics",
+        "workplace-dynamics",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "Why Unionization Has Always Mattered More for Women Workers",
+      "topics": [
+        "Why does research consistently show that the gender pay gap is smaller in unionized workplaces than in non-union ones?",
+        "How were women historically excluded from or marginalized within male-dominated labor unions?",
+        "What role did women-led unions and labor organizations play in winning protections that benefited all workers?",
+        "Why has the decline of union membership in the United States disproportionately harmed women's wages and working conditions?",
+        "How are women leading the current wave of union organizing in sectors like healthcare, education, retail, and hospitality?",
+        "What would a labor movement that centered women's workplace concerns — childcare, scheduling, harassment, pay equity — look like in practice?"
+      ],
+      "tags": [
+        "politics",
+        "activism",
+        "labor",
+        "gender"
+      ]
+    },
+    {
+      "name": "What Structural Reform of the American Workplace Would Actually Require",
+      "topics": [
+        "Why have decades of anti-discrimination law, corporate diversity programs, and cultural awareness campaigns failed to produce workplace gender equality?",
+        "What would universal paid family leave, affordable childcare, and equal parental leave actually change about women's career trajectories?",
+        "How would pay transparency mandates, salary history bans, and algorithmic pay audits address the gender pay gap at the structural level?",
+        "What can the United States learn from countries that have achieved significantly more workplace gender equality through policy rather than cultural change?",
+        "Why is the structure of the American workday — designed around a worker with no caregiving responsibilities — itself a barrier to women's equality?",
+        "Is genuine workplace equality achievable through reform of the current system, or does the system need to be fundamentally redesigned?"
+      ],
+      "tags": [
+        "politics",
+        "justice",
+        "labor",
+        "gender"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "book": "NY-15",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "No candidates declared"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Michael Blake (D)",
+        "Jon LaTona (D)",
+        "Dalourny Nemorin (D)",
+        "Amanda Septimo (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Andre Easton (I)"
+      ]
+    }
+  ]
+}

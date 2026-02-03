@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Trump’s Biggest Lies – Fact Check & Video Explanations</title>
+  <meta name="description" content="Explore Trump’s 25 biggest lies with fact checks and videos. Share the truth and help fight disinformation.">
+
+  <!-- GA4 tag -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDC9LXYF5J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZDC9LXYF5J');
+  </script>
+
+  <!-- PapaParse -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0b0f14; color: #e8eef8; margin: 0; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    h1 { font-size: 24px; margin: 0; }
+    .card { background: #111722; border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 16px; }
+    select, input[type=url], button { width: 100%; margin-top: 6px; padding: 8px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.12); background: #0d1420; color: #fff; }
+    .row { display:flex; gap:12px; flex-wrap:wrap; }
+    .row > div { flex: 1 1 260px; }
+    .muted { color: #9ab; font-size: 13px; }
+    .analysis { white-space: pre-wrap; background: #0a111c; border: 1px solid rgba(255,255,255,0.12); border-radius: 8px; padding: 12px; margin-top: 8px; }
+    a { color: #66c2ff; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Trump Lies Library</h1>
+      <span id="csvStatus">Loading…</span>
+    </header>
+
+    <section class="card">
+      <label for="lieSelect">Pick a lie</label>
+      <select id="lieSelect" size="10"></select>
+    </section>
+
+    <section class="card" style="margin-top:20px">
+      <div id="selectedClaim"><em>Choose an item from the list.</em></div>
+      <div id="selectedContext" class="muted"></div>
+      <div id="selectedSource"></div>
+
+      <div class="row" style="margin-top:12px">
+        <div>
+          <label for="endpoint">AI analysis endpoint (optional)</label>
+          <input id="endpoint" type="url" value="/api/analyze.php" placeholder="/api/analyze.php" />
+          <div class="muted">Leave empty to use the local mock. Set to your PHP/Node proxy path to call a real LLM.</div>
+        </div>
+        <div style="align-self:flex-end">
+          <button id="analyzeBtn">Analyze with AI</button>
+        </div>
+      </div>
+
+      <div id="analysisOut" class="analysis" style="display:none"></div>
+    </section>
+  </div>
+
+  <script>
+    // ----------------------- Helpers -----------------------
+    function $(id){ return document.getElementById(id); }
+    function norm(s){ return (s ?? '').toString().trim(); }
+    function escapeHtml(s){
+      return (s||'').toString().replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+    }
+
+    // Fallback heuristic rating used ONLY inside analysis if backend doesn't provide one
+    function heuristicRating(r){
+      const v=(r.verdict||'').toLowerCase();
+      if(/pants on fire|fabrication/.test(v)) return 5;
+      if(/\bfalse\b/.test(v)) return 5;
+      if(/mostly false|misleading/.test(v)) return 4;
+      if(/half true|mixed|cherry/.test(v)) return 3;
+      if(/mostly true/.test(v)) return 2;
+      if(/\btrue\b/.test(v)) return 1;
+      return 3; // neutral fallback
+    }
+
+    function heuristicBullets(r){
+      const pts=[];
+      if(r.category) pts.push(`Topic: ${r.category}.`);
+      if(r.context)  pts.push(`Said in context: ${r.context}.`);
+      if(r.notes)    pts.push(`Notes: ${r.notes}.`);
+      if(r.source_url) pts.push('See linked source for fact-check details.');
+      return pts.length ? pts : ['No extra context provided.'];
+    }
+
+    // ----------------------- CSV parsing (robust) -----------------------
+    function parseCsvToRows(txt){
+      // Strip UTF-8 BOM if present
+      if (txt && txt.charCodeAt(0) === 0xFEFF) txt = txt.slice(1);
+
+      const res = Papa.parse(txt, { header:true, skipEmptyLines:'greedy' });
+      const rows = (res.data || []).map((o)=>{
+        const obj = {};
+        Object.keys(o||{}).forEach(k=>{
+          const key = (k||'').trim().toLowerCase();
+          obj[key] = (o[k] ?? '').toString();
+        });
+
+        return {
+          // keep original id if present (not used for selection)
+          id:        norm(obj.id),
+          date:      norm(obj.date || obj.published || obj.time || obj.timestamp),
+          claim:     norm(obj.claim || obj.quote || obj.statement || obj.headline || obj.title || obj.text),
+          context:   norm(obj.context || obj.description || obj.summary),
+          category:  norm(obj.category || obj.topic || obj.tag || obj.section),
+          source_url:norm(obj.source_url || obj.url || obj.link || obj.permalink),
+          verdict:   norm(obj.verdict || obj.rating || obj.label || obj.truth),
+          notes:     norm(obj.notes || obj.comments || obj.remarks)
+        };
+      }).filter(r => r.claim);
+
+      return rows;
+    }
+
+    // ----------------------- State -----------------------
+    const state = { rows: [], selected: null };
+
+    // ----------------------- Rendering -----------------------
+    function renderList(){
+      const sel = $('lieSelect');
+      sel.innerHTML = '';
+      state.rows.forEach((r, i) => {
+        const o = document.createElement('option');
+        o.value = String(i); // use index as the option value (bulletproof)
+        o.textContent = `${r.claim}${r.date ? ` • ${r.date}` : ''}`;
+        sel.appendChild(o);
+      });
+    }
+
+    function selectByIndex(idxStr){
+      const idx = Number(idxStr);
+      const r = state.rows[idx];
+      if (!r) return;
+      state.selected = r;
+
+      $('selectedClaim').textContent   = r.claim;
+      $('selectedContext').textContent = r.context ? `Context: ${r.context}` : '';
+      $('selectedSource').innerHTML    = r.source_url
+        ? `Source: <a href="${r.source_url}" target="_blank" rel="noopener">${escapeHtml(r.source_url)}</a>`
+        : '';
+
+      $('analysisOut').style.display = 'none';
+      $('analysisOut').textContent  = '';
+    }
+
+    $('lieSelect').addEventListener('change', e => selectByIndex(e.target.value));
+
+    // ----------------------- Analysis -----------------------
+    function renderAnalysis(r, a){
+      const rating = (a && a.rating != null) ? a.rating : heuristicRating(r);
+
+      const lines = [];
+      lines.push(`🧠 <b>AI analysis</b> (Deception meter: <b>${escapeHtml(String(rating))}</b>${typeof rating === 'number' ? '/5' : ''})`);
+      lines.push(`• <b>Summary:</b> ${escapeHtml((a && a.summary) || r.claim)}`);
+
+      const pts = (a && Array.isArray(a.points) && a.points.length) ? a.points : heuristicBullets(r);
+      for (const p of pts) lines.push(`• ${escapeHtml(p)}`);
+
+      const sources = (a && Array.isArray(a.sources) && a.sources.length) ? a.sources : (r.source_url ? [r.source_url] : []);
+      if (sources.length) {
+        lines.push('<br><b>Sources:</b>');
+        for (const s of sources) lines.push(`- <a href="${s}" target="_blank" rel="noopener">${escapeHtml(s)}</a>`);
+      }
+
+      // Always append the legend
+      lines.push(`
+        <div style="font-size:18px; line-height:1.2; margin-top:2px; color:red;">
+          <b>Deception Scale:</b><br>
+			5 => 'Completely false or fabricated',
+			4 => 'Mostly false or deceptive',
+			3 => 'Mixed or misleading',
+			2 => 'Mostly true with minor exaggeration',
+			1 => 'Completely truthful'
+        </div>
+      `);
+
+      return lines.join('\n');
+    }
+
+    $('analyzeBtn').addEventListener('click', analyzeCurrent);
+
+    async function analyzeCurrent(){
+      const r = state.selected; if (!r) return;
+      const out = $('analysisOut');
+      out.style.display = 'block';
+      out.textContent = 'Analyzing…';
+
+      const endpoint = norm($('endpoint').value);
+      try{
+        let analysis;
+        if (endpoint){
+          const resp = await fetch(endpoint,{
+            method:'POST',
+            headers:{ 'Content-Type':'application/json' },
+            body: JSON.stringify({
+              claim:r.claim, context:r.context, category:r.category,
+              date:r.date, source_url:r.source_url, verdict:r.verdict, notes:r.notes
+            })
+          });
+          if(!resp.ok) throw new Error(`HTTP ${resp.status}`);
+          const ct = resp.headers.get('content-type')||'';
+          analysis = ct.includes('application/json')
+            ? await resp.json()
+            : { summary: await resp.text(), points: [], rating: null, sources: r.source_url ? [r.source_url] : [] };
+        }else{
+          // Local mock fallback
+          analysis = { summary:r.claim, points:heuristicBullets(r), rating:heuristicRating(r), sources:r.source_url?[r.source_url]:[] };
+        }
+        out.innerHTML = renderAnalysis(r, analysis);
+      }catch(e){
+        console.error(e);
+        out.textContent = `Analysis failed: ${e.message}.`;
+      }
+    }
+
+    // ----------------------- Loading -----------------------
+    async function loadCsv(){
+      try{
+        const path = './data/trump_lies.csv'; // fixed path
+        if (location.protocol === 'file:') throw new Error('Use an HTTP server to load CSV.');
+        const resp = await fetch(path + `?v=${Date.now()}`, { cache:'no-store' });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const txt = await resp.text();
+        const rows = parseCsvToRows(txt);
+        state.rows = rows;
+        $('csvStatus').textContent = `${rows.length} loaded`;
+        renderList();
+        if (rows.length) selectByIndex(0);
+      }catch(err){
+        console.error(err);
+        $('csvStatus').textContent = 'Error loading CSV';
+      }
+    }
+
+    // Boot
+    loadCsv();
+  </script>
+
+</body>
+</html>

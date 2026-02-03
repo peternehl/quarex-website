@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "autonomous-regions",
+    "name": "Autonomous Regions",
+    "description": "Self-governing territories within sovereign states",
+    "bookCount": 6
+  },
+  {
+    "slug": "overseas-territories",
+    "name": "Overseas Territories",
+    "description": "Dependencies and overseas possessions of sovereign states",
+    "bookCount": 5
+  },
+  {
+    "slug": "disputed-territories",
+    "name": "Disputed Territories",
+    "description": "Regions with contested sovereignty or partial recognition",
+    "bookCount": 4
+  },
+  {
+    "slug": "constituent-nations",
+    "name": "Constituent Nations",
+    "description": "Distinct nations within larger political unions",
+    "bookCount": 4
+  }
+]

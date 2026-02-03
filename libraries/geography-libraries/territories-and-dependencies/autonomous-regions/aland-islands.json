@@ -1,0 +1,50 @@
+{
+  "name": "Åland Islands",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is the Åland Islands' political status within Finland?",
+        "What is the population of Åland and where do people live?",
+        "What are the main economic activities in Åland?",
+        "Why is Swedish the only official language of Åland?",
+        "What makes Åland's demilitarized status unique?"
+      ],
+      "tags": ["geography", "identity", "europe", "trade"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Åland become Swedish-speaking in a Finnish nation?",
+        "What was the Åland crisis of 1921 and how was it resolved?",
+        "How did the League of Nations decision shape Åland's autonomy?",
+        "What happened in Åland during World War II?",
+        "How has Åland's autonomy evolved since 1921?"
+      ],
+      "tags": ["history", "diplomacy", "modern-history", "europe"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does the Åland Parliament control?",
+        "How does Åland's autonomy protect Swedish language rights?",
+        "Why is Åland demilitarized and what does that mean?",
+        "How does Åland's relationship with the EU differ from Finland's?",
+        "What is the right of domicile in Åland?"
+      ],
+      "tags": ["politics", "governance", "human-rights", "security"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Åland?",
+        "How do you get to Åland from Finland and Sweden?",
+        "What are the top destinations and attractions in Åland?",
+        "What is the best time of year to visit Åland?",
+        "What should travelers know about the unique duty-free status?"
+      ],
+      "tags": ["geography", "travel", "europe", "infrastructure"]
+    }
+  ]
+}

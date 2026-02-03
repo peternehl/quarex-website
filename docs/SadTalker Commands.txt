@@ -1,0 +1,20 @@
+./venv/Scripts/python inference.py --checkpoint_path "checkpoints/Wav2Lip-SD-GAN.pt" --face "E:\AI-Tools\Wav2Lip\Sources\MatureBlondCropped.png" --audio "E:\AI-Tools\Wav2Lip\Sources\Ep-4-Questions.mp3.wav"
+
+./venv/Scripts/python inference.py --checkpoint_path "checkpoints/Wav2Lip-SD-GAN.pt" --face "E:\AI-Tools\Wav2Lip\Sources\LilyQ-Face.png" --audio "E:\AI-Tools\Wav2Lip\Sources\Ep-4-Questions.mp3.wav"
+
+./venv/Scripts/python inference.py --checkpoint_path "checkpoints/Wav2Lip-SD-GAN.pt" --face "E:\AI-Tools\Wav2Lip\Sources\SemiRealisticFace-straight.png" --audio "E:\AI-Tools\Wav2Lip\Sources\Ep-4-Questions.mp3.wav"
+
+
+ffmpeg -i results/result_voice.mp4 -vf "unsharp=5:5:1.0:5:5:0.5,eq=contrast=1.05:saturation=1.1" -c:a copy results/result_enhanced.mp4
+
+ffmpeg -i "E:/AI-Tools/SadTalker/Sources/SemiRealisticFace-new-version.webp" "E:/AI-Tools/SadTalker/Sources/SemiRealisticFace-new-version.png"
+
+cd "E:/AI-Tools/SadTalker" && ./venv/Scripts/python inference.py --driven_audio "E:\AI-Tools\SadTalker\Sources\Ep-4-Questions.mp3.wav" --source_image "E:\AI-Tools\SadTalker\Sources\SemiRealisticFace-new-version.png" --enhancer gfpgan 2>&1 | tail -30
+
+./venv/Scripts/python inference.py --driven_audio "Sources/Ep-4-Questions.mp3.wav" --source_image "Sources/SemiRealisticFace-new-version.png" --enhancer gfpgan --batch_size 8
+
+./venv/Scripts/python inference.py --driven_audio "Sources/Ep-4-Questions.mp3.wav" --source_image "Sources\SemiRealisticFace-straight.png" --batch_size 8
+
+./venv/Scripts/python inference.py --driven_audio "your_audio.wav" --source_image "Sources/SemiRealisticFace-new-version.png" --batch_size 8
+
+

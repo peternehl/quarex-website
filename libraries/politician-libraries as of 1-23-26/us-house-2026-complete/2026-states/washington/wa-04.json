@@ -1,0 +1,25 @@
+{
+  "book": "WA-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Amanda McKinney (R)",
+        "Wesley Meier (R)",
+        "Jerrod Sessler (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "John Duresky (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Devin Poore (I)"
+      ]
+    }
+  ]
+}

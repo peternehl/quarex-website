@@ -1,0 +1,50 @@
+{
+  "name": "Falkland Islands",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is the Falkland Islands' political status as a British Overseas Territory?",
+        "What is the population of the Falkland Islands and where do people live?",
+        "What are the main economic activities in the Falkland Islands?",
+        "What language is spoken in the Falkland Islands?",
+        "What is the wildlife and natural environment of the Falklands?"
+      ],
+      "tags": ["geography", "identity", "americas", "biodiversity"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "Who first settled the Falkland Islands and when?",
+        "How did Britain establish control over the Falkland Islands?",
+        "What caused the 1982 Falklands War with Argentina?",
+        "How did the Falklands War unfold and end?",
+        "How has the Falklands changed since 1982?"
+      ],
+      "tags": ["history", "colonialism", "conflict", "modern-history"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does the Falkland Islands government control?",
+        "What is Argentina's claim to the Malvinas and how does Britain respond?",
+        "What did the 2013 sovereignty referendum show?",
+        "How are oil and fishing rights managed in Falkland waters?",
+        "What is the British military presence in the Falklands today?"
+      ],
+      "tags": ["politics", "governance", "diplomacy", "security"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter the Falkland Islands?",
+        "How do you get to the Falkland Islands?",
+        "What are the top destinations and wildlife viewing opportunities?",
+        "What is the best time of year to visit the Falkland Islands?",
+        "What should travelers know about costs and logistics in this remote location?"
+      ],
+      "tags": ["geography", "travel", "conservation", "americas"]
+    }
+  ]
+}

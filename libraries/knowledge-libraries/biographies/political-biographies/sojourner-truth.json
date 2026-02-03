@@ -1,0 +1,101 @@
+{
+  "name": "Sojourner Truth",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "history",
+    "activism",
+    "race",
+    "civil-rights",
+    "gender"
+  ],
+  "chapters": [
+    {
+      "name": "Early Life in Slavery (1797-1826)",
+      "topics": [
+        "What was daily life like for enslaved people in Dutch-speaking New York?",
+        "How did being sold multiple times as a child shape Sojourner Truth's worldview?",
+        "What role did the Dutch language play in her early identity?",
+        "How did New York's gradual emancipation laws affect her path to freedom?",
+        "What happened to her family members who were illegally sold South?"
+      ],
+      "tags": ["history", "human-rights", "race", "americas"]
+    },
+    {
+      "name": "Freedom and Legal Battles (1826-1828)",
+      "topics": [
+        "How did she become one of the first Black women to win a court case against a white man?",
+        "What risks did she take to recover her son Peter from Alabama?",
+        "Who were the white allies that helped her navigate the legal system?",
+        "How did her legal victory challenge assumptions about Black personhood?",
+        "What does her case reveal about the contradictions of Northern slavery?"
+      ],
+      "tags": ["law", "justice", "race", "civil-rights"]
+    },
+    {
+      "name": "Religious Awakening and the Name Change (1829-1843)",
+      "topics": [
+        "Why did Isabella Baumfree choose the name 'Sojourner Truth'?",
+        "What drew her to the utopian Matthias Kingdom community?",
+        "How did she escape the scandal when that community collapsed?",
+        "What was her relationship with mainstream Protestant churches?",
+        "How did her mystical experiences shape her preaching style?"
+      ],
+      "tags": ["religion", "identity", "race", "sociology"]
+    },
+    {
+      "name": "The Abolitionist Circuit (1843-1850)",
+      "topics": [
+        "How did an illiterate formerly enslaved woman become a national speaker?",
+        "What was her relationship with Frederick Douglass and other Black abolitionists?",
+        "How did white abolitionists like William Lloyd Garrison promote her?",
+        "What tensions existed between Black and white abolitionists she worked with?",
+        "How did her Narrative dictated to Olive Gilbert shape her public image?"
+      ],
+      "tags": ["politics", "activism", "race", "civil-rights"]
+    },
+    {
+      "name": "Ain't I a Woman and Women's Rights (1850-1860)",
+      "topics": [
+        "What did she actually say at the 1851 Akron convention?",
+        "Why do historians debate the famous 'Ain't I a Woman?' speech?",
+        "How did she navigate tensions between abolition and women's suffrage?",
+        "What conflicts arose between her and white feminist leaders?",
+        "How did she challenge both racism and sexism simultaneously?"
+      ],
+      "tags": ["politics", "activism", "gender", "civil-rights"]
+    },
+    {
+      "name": "Civil War and Meeting Lincoln (1861-1865)",
+      "topics": [
+        "What work did she do recruiting Black troops for the Union Army?",
+        "What was her actual meeting with Abraham Lincoln like?",
+        "How did she assist freed people in Washington D.C. refugee camps?",
+        "What dangers did she face traveling through border states during wartime?",
+        "How did the war change her priorities and message?"
+      ],
+      "tags": ["conflict", "human-rights", "race", "us-politics"]
+    },
+    {
+      "name": "Reconstruction Activism (1865-1875)",
+      "topics": [
+        "Why did she break with former allies over the 15th Amendment?",
+        "What was her campaign to secure land grants for freed people?",
+        "How did she challenge segregation on Washington streetcars?",
+        "What was her vision for Black self-sufficiency after slavery?",
+        "Why did she petition for a 'Negro State' in the West?"
+      ],
+      "tags": ["politics", "activism", "voting-rights", "civil-rights"]
+    },
+    {
+      "name": "Final Years and Legacy (1875-1883)",
+      "topics": [
+        "How did she spend her final years in Battle Creek, Michigan?",
+        "What was her involvement with the Battle Creek Sanitarium community?",
+        "How was she remembered immediately after her death?",
+        "Why was her legacy largely forgotten for decades?",
+        "How did 20th-century movements rediscover and reshape her story?"
+      ],
+      "tags": ["history", "legacy", "race", "civil-rights"]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Gibraltar",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "National Overview",
+      "topics": [
+        "What is Gibraltar's political status as a British Overseas Territory?",
+        "What is Gibraltar's population and geographic size?",
+        "What are Gibraltar's main economic activities?",
+        "What languages are spoken in Gibraltar?",
+        "What is the strategic importance of Gibraltar's location?"
+      ],
+      "tags": ["geography", "identity", "europe", "security"]
+    },
+    {
+      "name": "History",
+      "topics": [
+        "How did Britain acquire Gibraltar in 1704?",
+        "What were the Great Siege and other attempts to retake Gibraltar?",
+        "How did Gibraltar function during World War II?",
+        "What happened in the 1967 and 2002 sovereignty referendums?",
+        "How has Brexit affected Gibraltar's status?"
+      ],
+      "tags": ["history", "colonialism", "conflict", "world-wars"]
+    },
+    {
+      "name": "Government and Laws",
+      "topics": [
+        "What powers does Gibraltar's government control?",
+        "What is Spain's claim to Gibraltar and how does Britain respond?",
+        "How did Brexit change Gibraltar's relationship with Spain and the EU?",
+        "What is Gibraltar's status as a financial center?",
+        "How do British and local laws interact in Gibraltar?"
+      ],
+      "tags": ["politics", "governance", "diplomacy", "european-union"]
+    },
+    {
+      "name": "Travel Guidance",
+      "topics": [
+        "What documents do visitors need to enter Gibraltar?",
+        "How do you get to Gibraltar from Spain and by air?",
+        "What are the top destinations and attractions in Gibraltar?",
+        "What should travelers know about the famous Barbary macaques?",
+        "What are the border crossing procedures between Gibraltar and Spain?"
+      ],
+      "tags": ["geography", "travel", "europe", "infrastructure"]
+    }
+  ]
+}

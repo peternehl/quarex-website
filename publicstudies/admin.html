@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PublicStudies — Curriculum Admin</title>
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --accent: #F59E0B;
+            --accent-hover: #D97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --success: #22c55e;
+            --error: #ef4444;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font: 15px/1.6 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            padding: 32px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 { color: var(--accent); font-size: 1.6rem; margin-bottom: 4px; }
+        .subtitle { color: var(--muted); margin-bottom: 32px; font-size: 0.9rem; }
+        h2 { color: var(--ink); font-size: 1.1rem; margin: 28px 0 12px; }
+
+        /* Discipline list */
+        .discipline-section {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+        .discipline-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+        .discipline-header h3 {
+            font-size: 1.05rem;
+            color: var(--accent);
+        }
+        .discipline-header h3 span {
+            color: var(--muted);
+            font-weight: 400;
+            font-size: 0.85rem;
+            margin-left: 8px;
+        }
+        .badge {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 2px 10px;
+            border-radius: 999px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .badge-live { background: rgba(34,197,94,0.15); color: var(--success); border: 1px solid rgba(34,197,94,0.3); }
+        .badge-soon { background: rgba(183,188,194,0.1); color: var(--muted); border: 1px solid var(--line); }
+
+        /* Course list */
+        .course-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 14px;
+            background: var(--bg);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            margin-bottom: 6px;
+        }
+        .course-item .course-title { font-weight: 600; font-size: 0.9rem; }
+        .course-item .course-link {
+            color: var(--muted);
+            font-size: 0.75rem;
+            word-break: break-all;
+            margin-top: 2px;
+        }
+        .course-item a { color: var(--accent); font-size: 0.8rem; text-decoration: none; }
+        .course-item a:hover { text-decoration: underline; }
+        .btn-remove {
+            background: none;
+            border: 1px solid rgba(239,68,68,0.3);
+            color: var(--error);
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .btn-remove:hover { background: rgba(239,68,68,0.1); }
+        .empty-msg { color: var(--muted); font-size: 0.85rem; font-style: italic; padding: 8px 0; }
+
+        /* Add form */
+        .add-form {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+        .add-form input, .add-form select {
+            padding: 8px 12px;
+            background: var(--bg);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            color: var(--ink);
+            font-size: 0.9rem;
+            font-family: inherit;
+        }
+        .add-form input:focus, .add-form select:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .add-form input[name="title"] { flex: 1; min-width: 200px; }
+        .add-form input[name="link"] { flex: 2; min-width: 300px; }
+        .btn-add {
+            padding: 8px 20px;
+            background: var(--accent);
+            color: var(--bg);
+            border: none;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .btn-add:hover { background: var(--accent-hover); }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 12px 20px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 100;
+        }
+        .toast.show { opacity: 1; }
+        .toast.success { background: rgba(34,197,94,0.15); color: var(--success); border: 1px solid rgba(34,197,94,0.3); }
+        .toast.error { background: rgba(239,68,68,0.15); color: var(--error); border: 1px solid rgba(239,68,68,0.3); }
+
+        /* Export */
+        .export-section {
+            margin-top: 32px;
+            padding: 20px;
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+        }
+        .export-section h2 { margin-top: 0; }
+        .btn-export {
+            padding: 10px 24px;
+            background: var(--accent);
+            color: var(--bg);
+            border: none;
+            border-radius: var(--radius-sm);
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            margin-right: 8px;
+        }
+        .btn-export:hover { background: var(--accent-hover); }
+        .btn-copy {
+            padding: 10px 24px;
+            background: transparent;
+            color: var(--ink);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+        .btn-copy:hover { border-color: var(--accent); color: var(--accent); }
+        textarea.json-output {
+            width: 100%;
+            min-height: 200px;
+            margin-top: 12px;
+            padding: 12px;
+            background: var(--bg);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-sm);
+            color: var(--ink);
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.8rem;
+            resize: vertical;
+            display: none;
+        }
+        textarea.json-output.show { display: block; }
+    </style>
+</head>
+<body>
+
+<h1>PublicStudies Curriculum Admin</h1>
+<p class="subtitle">Add, remove, and manage courses across disciplines. Export and upload curriculum-index.json when done.</p>
+
+<div id="disciplineList"></div>
+
+<h2>Add a Course</h2>
+<div class="add-form">
+    <select id="addDiscipline"></select>
+    <input type="text" name="title" id="addTitle" placeholder="Course title">
+    <input type="text" name="link" id="addLink" placeholder="Quarex URL (https://quarex.org/libraries/?t=...)">
+    <button class="btn-add" onclick="addCourse()">Add</button>
+</div>
+
+<div class="export-section">
+    <h2>Save Changes</h2>
+    <p style="color: var(--muted); font-size: 0.85rem; margin-bottom: 12px;">Save updates directly to your local curriculum-index.json, then upload it to the server.</p>
+    <button class="btn-export" onclick="saveToFile()">Save to curriculum-index.json</button>
+    <button class="btn-copy" onclick="downloadJSON()">Download Copy</button>
+    <button class="btn-copy" onclick="copyJSON()">Copy to Clipboard</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+let data = { disciplines: [] };
+let dirty = false;
+
+async function loadData() {
+    try {
+        const r = await fetch('curriculum-index.json');
+        data = await r.json();
+    } catch (e) {
+        toast('Could not load curriculum-index.json', 'error');
+    }
+    render();
+}
+
+function render() {
+    const list = document.getElementById('disciplineList');
+    const select = document.getElementById('addDiscipline');
+
+    list.innerHTML = '';
+    select.innerHTML = '';
+
+    data.disciplines.forEach((d, di) => {
+        // Dropdown option
+        const opt = document.createElement('option');
+        opt.value = di;
+        opt.textContent = d.title + (d.lang === 'es' ? ' (ES)' : '');
+        select.appendChild(opt);
+
+        // Discipline section
+        const section = document.createElement('div');
+        section.className = 'discipline-section';
+
+        const badgeClass = d.status === 'live' ? 'badge-live' : 'badge-soon';
+        const badgeText = d.status === 'live' ? 'Live' : 'Coming Soon';
+
+        let coursesHTML = '';
+        if (d.courses.length === 0) {
+            coursesHTML = '<p class="empty-msg">No courses yet</p>';
+        } else {
+            const sorted = [...d.courses].sort((a, b) => a.title.localeCompare(b.title));
+            coursesHTML = sorted.map((c, ci) => {
+                const realIndex = d.courses.indexOf(c);
+                return `<div class="course-item">
+                    <div>
+                        <div class="course-title">${c.title}</div>
+                        <div class="course-link">${c.link}</div>
+                    </div>
+                    <button class="btn-remove" onclick="removeCourse(${di}, ${realIndex})">Remove</button>
+                </div>`;
+            }).join('');
+        }
+
+        section.innerHTML = `
+            <div class="discipline-header">
+                <h3>${d.icon} ${d.title}<span>${d.courses.length} course${d.courses.length !== 1 ? 's' : ''}</span></h3>
+                <span class="badge ${badgeClass}">${badgeText}</span>
+            </div>
+            ${coursesHTML}
+        `;
+        list.appendChild(section);
+    });
+}
+
+function addCourse() {
+    const di = parseInt(document.getElementById('addDiscipline').value);
+    const title = document.getElementById('addTitle').value.trim();
+    const link = document.getElementById('addLink').value.trim();
+
+    if (!title || !link) {
+        toast('Please enter both a title and a Quarex URL', 'error');
+        return;
+    }
+
+    if (!link.includes('quarex.org/libraries/')) {
+        toast('URL should be a quarex.org/libraries/ link', 'error');
+        return;
+    }
+
+    const d = data.disciplines[di];
+
+    // Check for duplicates
+    const dup = d.courses.find(c => c.title.toLowerCase() === title.toLowerCase() || c.link === link);
+    if (dup) {
+        toast('This course already exists in ' + d.title, 'error');
+        return;
+    }
+
+    d.courses.push({ title, link });
+    d.courses.sort((a, b) => a.title.localeCompare(b.title));
+
+    if (d.status === 'coming-soon') {
+        d.status = 'live';
+    }
+
+    dirty = true;
+    document.getElementById('addTitle').value = '';
+    document.getElementById('addLink').value = '';
+    render();
+    toast('Added "' + title + '" to ' + d.title, 'success');
+}
+
+function removeCourse(di, ci) {
+    const d = data.disciplines[di];
+    const removed = d.courses.splice(ci, 1)[0];
+
+    if (d.courses.length === 0) {
+        d.status = 'coming-soon';
+    }
+
+    dirty = true;
+    render();
+    toast('Removed "' + removed.title + '"', 'success');
+}
+
+function getJSON() {
+    return JSON.stringify(data, null, 2);
+}
+
+function downloadJSON() {
+    const blob = new Blob([getJSON()], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'curriculum-index.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    toast('Downloaded. Upload to server.', 'success');
+}
+
+function copyJSON() {
+    navigator.clipboard.writeText(getJSON()).then(() => {
+        toast('Copied to clipboard', 'success');
+    });
+}
+
+async function saveToFile() {
+    try {
+        const res = await fetch('save-curriculum.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: getJSON()
+        });
+        const result = await res.json();
+        if (result.success) {
+            dirty = false;
+            toast('Saved to curriculum-index.json. Upload to server when ready.', 'success');
+        } else {
+            toast('Error: ' + (result.error || 'Unknown error'), 'error');
+        }
+    } catch (e) {
+        toast('Could not save. Is Laragon running?', 'error');
+    }
+}
+
+function toast(msg, type) {
+    const el = document.getElementById('toast');
+    el.textContent = msg;
+    el.className = 'toast show ' + type;
+    clearTimeout(el._timer);
+    el._timer = setTimeout(() => el.classList.remove('show'), 3500);
+}
+
+// Warn before leaving with unsaved changes
+window.addEventListener('beforeunload', (e) => {
+    if (dirty) {
+        e.preventDefault();
+        e.returnValue = '';
+    }
+});
+
+loadData();
+</script>
+
+</body>
+</html>

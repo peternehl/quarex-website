@@ -1,0 +1,24 @@
+{
+  "book": "TN-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tim Burchett (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Michaela Barnett (D)",
+        "Adam Velk (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Oliver Freeman Pogue (I)"
+      ]
+    }
+  ]
+}

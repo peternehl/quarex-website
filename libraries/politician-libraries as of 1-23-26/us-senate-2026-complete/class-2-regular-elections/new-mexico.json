@@ -1,0 +1,24 @@
+{
+  "book": "New Mexico",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Benjamin Luna (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ben Ray Luján (D)",
+        "Matt Dodson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Toby Smith (I)"
+      ]
+    }
+  ]
+}

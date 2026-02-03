@@ -1,0 +1,29 @@
+{
+  "book": "Iowa",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John Berman (R)",
+        "Jim Carlin (R)",
+        "Ashley Hinson (R)",
+        "Joshua Smith (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chris Henry (D)",
+        "Nathan Sage (D)",
+        "Josh Turek (D)",
+        "Zach Wahls (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Thomas Laehn (I)"
+      ]
+    }
+  ]
+}

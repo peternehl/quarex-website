@@ -1,6 +1,6 @@
 {
   "batch": 3,
-  "scraped": "2026-01-23",
+  "scraped": "2026-01-30",
   "states": [
     {
       "state": "Hawaii",
@@ -93,7 +93,7 @@
           "candidates": {
             "Republican": ["Lupe Castillo (R)"],
             "Democratic": ["Patty Garcia (D)"],
-            "Independent": [],
+            "Independent": ["Ed Hershey (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -298,7 +298,7 @@
           "district": "IN-07",
           "candidates": {
             "Republican": ["Felipe Rios (R)"],
-            "Democratic": ["André Carson (D)", "George Hornedo (D)", "Trapper Stewart (D)"],
+            "Democratic": ["Andre Carson (D)", "George Hornedo (D)", "Trapper Stewart (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []

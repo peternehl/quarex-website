@@ -1,0 +1,24 @@
+{
+  "book": "UT-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Burgess Owens (R)",
+        "Ty Jensen (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jonathan Larsen (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Steven Burt (I)"
+      ]
+    }
+  ]
+}
