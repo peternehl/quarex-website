@@ -1,45 +1,169 @@
 {
   "name": "What Is AI, Really?",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "artificial intelligence",
+    "machine learning",
+    "computing foundations",
+    "technology literacy",
+    "critical thinking"
+  ],
   "chapters": [
     {
       "name": "Definitions of AI and Why They Matter",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "computer-science"
-      ]
+      "topics": [
+        "What is artificial intelligence — and why is there no single agreed-upon definition?",
+        "How do computer scientists, philosophers, businesses, and journalists each define AI differently — and why does it matter?",
+        "What is the Turing Test — and does passing it actually prove intelligence?",
+        "Why does calling something 'AI' change how people perceive it — even when the underlying technology hasn't changed?",
+        "How do marketing and hype distort public understanding of what AI actually does?",
+        "What is the difference between intelligence, automation, and computation — and where does AI fit?",
+        "Why should a citizen care about the definition of AI — and how does the definition shape regulation, funding, and public debate?"
+      ],
+      "tags": ["technology", "critical-thinking", "ai-ml", "computer-science"]
     },
     {
-      "name": "Strong AI vs Narrow AI",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "computer-science"
-      ]
+      "name": "A Brief History of the Idea of Thinking Machines",
+      "topics": [
+        "Where did the idea of a thinking machine come from — and how far back does it go?",
+        "What happened at the 1956 Dartmouth workshop — and why is it considered the founding moment of AI?",
+        "What were the early promises of AI in the 1960s — and why did they fail to materialize?",
+        "What are AI winters — and what caused the field to lose funding and credibility multiple times?",
+        "How did the rise of the internet and big data in the 2000s reignite AI research?",
+        "What changed in 2012 with deep learning — and why did neural networks suddenly start working?",
+        "How did ChatGPT in 2022 change public awareness of AI — and what did it reveal about what AI can and cannot do?"
+      ],
+      "tags": ["history", "innovation", "ai-ml", "computer-science"]
     },
     {
-      "name": "Symbolic AI, Statistical AI, and Modern ML",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "computer-science"
-      ]
+      "name": "Strong AI vs. Narrow AI",
+      "topics": [
+        "What is the difference between narrow AI (designed for specific tasks) and general AI (able to do anything a human can)?",
+        "Does any general AI exist today — and what would it take to build one?",
+        "Why are today's most impressive AI systems still classified as narrow — even when they seem to 'understand'?",
+        "What is artificial general intelligence (AGI) — and why do some researchers think it's decades away while others say it's imminent?",
+        "What is superintelligence — and is it a realistic concern or a science fiction distraction?",
+        "How does the narrow vs. general distinction affect what AI can be trusted to do in high-stakes situations?",
+        "Why does the public often overestimate what AI can do — and what role do movies and media play in that confusion?"
+      ],
+      "tags": ["technology", "critical-thinking", "ai-ml", "computer-science"]
     },
     {
-      "name": "What AI Can and Cannot Do Today",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "computer-science"
-      ]
+      "name": "Symbolic AI, Statistical AI, and Modern Machine Learning",
+      "topics": [
+        "What is symbolic AI — and how does it try to represent knowledge using rules and logic?",
+        "Why did symbolic AI dominate the field for decades — and what were its limitations?",
+        "What is statistical AI — and how does it learn patterns from data instead of following rules?",
+        "What is machine learning — and how is it different from traditional programming?",
+        "How did the shift from rules-based to data-driven approaches change what AI could accomplish?",
+        "What is deep learning — and why did it overtake older methods?",
+        "Are these approaches competitors or complements — and is there value in combining them?"
+      ],
+      "tags": ["technology", "foundations", "ai-ml", "computer-science"]
+    },
+    {
+      "name": "What AI Can Do Today",
+      "topics": [
+        "What tasks can AI perform at or above human level right now — and in what domains?",
+        "How does AI excel at pattern recognition — in images, audio, text, and data?",
+        "What can AI do in language — translation, summarization, conversation, and writing?",
+        "How is AI used in prediction — weather, markets, disease, and consumer behavior?",
+        "What can AI do in creative fields — generating images, music, video, and code?",
+        "How does AI perform in games, simulations, and strategic reasoning?",
+        "What makes AI particularly powerful when combined with large datasets and fast computation?"
+      ],
+      "tags": ["technology", "innovation", "ai-ml", "data-science"]
+    },
+    {
+      "name": "What AI Cannot Do",
+      "topics": [
+        "What are the fundamental things AI cannot do — and why?",
+        "Why can't AI understand meaning, context, or intent the way humans do?",
+        "What is the difference between pattern matching and genuine comprehension?",
+        "Why does AI fail at common sense reasoning — and why is that so hard to fix?",
+        "How does AI handle novel situations it hasn't been trained on — and why does it often fail?",
+        "Why can't AI make value judgments, set goals, or determine what matters?",
+        "What are hallucinations — and why do AI systems confidently state things that are false?"
+      ],
+      "tags": ["technology", "critical-thinking", "ai-ml", "epistemology"]
+    },
+    {
+      "name": "How AI Learns: Training Data and Its Consequences",
+      "topics": [
+        "Where does AI training data come from — and who decides what goes in?",
+        "How does the quality of training data determine the quality of AI output?",
+        "What happens when training data contains biases — racial, gender, cultural, or economic?",
+        "How does AI learn stereotypes, and can they be removed after training?",
+        "What is data labeling — who does this work, and under what conditions?",
+        "Why does 'garbage in, garbage out' apply to AI more than almost any other technology?",
+        "How do the choices about training data reflect the values and blind spots of the people who build AI?"
+      ],
+      "tags": ["technology", "bias", "ai-ml", "data-science"]
+    },
+    {
+      "name": "The Companies Behind AI",
+      "topics": [
+        "Who are the major companies building AI today — and what are their business models?",
+        "How did Google, Microsoft, Meta, Amazon, and Apple each approach AI — and what do they want from it?",
+        "What are OpenAI, Anthropic, and other AI labs — and how do they differ from big tech?",
+        "Why does building frontier AI require billions of dollars — and what does that mean for who gets to build it?",
+        "How does the concentration of AI development in a few companies affect competition, innovation, and public accountability?",
+        "What is the relationship between open-source AI and proprietary AI — and why does it matter?",
+        "How does the race to build AI shape what gets built, what gets ignored, and who benefits?"
+      ],
+      "tags": ["economics", "governance", "ai-ml", "entrepreneurship"]
+    },
+    {
+      "name": "AI and Jobs: What Changes and What Doesn't",
+      "topics": [
+        "Which jobs are most likely to be affected by AI — and why?",
+        "What is the difference between AI replacing jobs, augmenting jobs, and creating new jobs?",
+        "How have previous waves of automation affected employment — and is AI different this time?",
+        "Why are white-collar and creative jobs now affected in ways they weren't before?",
+        "What skills become more valuable in an AI-augmented workplace?",
+        "How should workers, educators, and policymakers think about AI and the labor market?",
+        "What happens to communities and economies when major employers automate rapidly?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "ai-ml", "labor"]
+    },
+    {
+      "name": "AI and Trust: When Should You Believe It?",
+      "topics": [
+        "When is it safe to trust AI output — and when should you be skeptical?",
+        "What does it mean that AI systems are probabilistic — producing likely answers rather than certain ones?",
+        "How do you evaluate whether an AI response is accurate, biased, or fabricated?",
+        "Why do people tend to trust AI more when it sounds confident — and why is that dangerous?",
+        "What is the difference between AI being useful and AI being correct?",
+        "How should you think about AI-generated information differently from expert human judgment?",
+        "What habits of verification and cross-checking should everyone develop when using AI?"
+      ],
+      "tags": ["psychology", "critical-thinking", "ai-ml", "epistemology"]
+    },
+    {
+      "name": "AI in the News: Separating Hype from Reality",
+      "topics": [
+        "Why is AI covered so poorly in most news media — and what patterns of hype and fear dominate?",
+        "How do you evaluate claims about AI breakthroughs — what questions should you ask?",
+        "What does it mean when a company says its AI 'outperforms humans' — and why is that claim often misleading?",
+        "How do demo videos, cherry-picked examples, and benchmark scores create false impressions of AI capability?",
+        "What is the difference between a research paper, a product announcement, and actual deployment?",
+        "How do you find reliable sources of information about AI — and who should you trust?",
+        "Why does understanding AI require the same fact-checking skills as understanding politics or health claims?"
+      ],
+      "tags": ["media", "misinformation", "ai-ml", "media-literacy"]
+    },
+    {
+      "name": "Why Understanding AI Matters for Everyone",
+      "topics": [
+        "Why is AI literacy as important as financial literacy or media literacy for modern citizens?",
+        "How does AI affect you even if you never use it directly — through hiring, insurance, policing, and credit?",
+        "What decisions about AI are being made right now that will shape the next decade — and who is making them?",
+        "Why does understanding AI help you make better decisions as a voter, consumer, worker, and parent?",
+        "What does it mean to have an informed opinion about AI — without needing to be a programmer?",
+        "How do you stay current on AI developments without being overwhelmed or misled?",
+        "What is the cost of AI ignorance — for individuals and for democratic societies?"
+      ],
+      "tags": ["society", "critical-thinking", "ai-ml", "media-literacy"]
     }
   ]
 }

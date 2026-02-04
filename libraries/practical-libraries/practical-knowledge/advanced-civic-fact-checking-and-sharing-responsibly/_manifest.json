@@ -3,8 +3,15 @@
     "slug": "ai-bots-and-synthetic-media",
     "name": "AI, Bots, and Synthetic Media",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "artificial intelligence",
+      "synthetic media",
+      "misinformation",
+      "digital literacy",
+      "civic fact-checking"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
     "slug": "being-a-responsible-sharer-and-helper",
@@ -17,7 +24,14 @@
     "slug": "checking-political-claims-and-statistics",
     "name": "Checking Political Claims and Statistics",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "political claims",
+      "statistical literacy",
+      "fact-checking",
+      "democracy",
+      "civic engagement"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   }
 ]

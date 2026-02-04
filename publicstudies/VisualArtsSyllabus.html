@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Arts Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 10-course Visual Arts syllabus. Free, open curriculum from art history to digital art, covering drawing, painting, sculpture, printmaking, photography, illustration, graphic design, and contemporary art. 100 chapters of university-level content.">
+    <meta name="keywords" content="visual arts syllabus, art history, drawing, painting, sculpture, photography, graphic design, digital art, free art course, open education">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/VisualArtsSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/VisualArtsSyllabus.html">
+    <meta property="og:title" content="Visual Arts Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 10-course Visual Arts syllabus. 100 chapters of free, university-level content from art history to digital art.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Visual Arts Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 10-course Visual Arts syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #a855f7;
+            --accent-hover: #9333ea;
+            --accent-soft: rgba(168, 85, 247, 0.08);
+            --accent-border: rgba(168, 85, 247, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>Visual Arts</em> Syllabus</h1>
+            <p class="syllabus-intro">A complete, free survey of the visual arts &mdash; from prehistoric cave paintings to AI-generated imagery. Eleven courses covering art history, traditional media, lens-based and applied arts, the contemporary landscape, and the AI revolution reshaping visual culture. All drawn from a single Quarex shelf.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">11</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">110</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">672</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- FOUNDATIONS -->
+            <div class="section-divider">
+                <h2 class="section-label">Foundations</h2>
+                <p class="section-desc">The big picture &mdash; how art evolved over millennia, and the fundamental skill that underlies every visual discipline.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">Art History: From Prehistory to the Present</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Prehistoric Art and Cave Paintings</li>
+                        <li>Ancient Egyptian Art and Architecture</li>
+                        <li>Classical Greek and Roman Art</li>
+                        <li>Medieval Art and Gothic Cathedrals</li>
+                        <li>Renaissance: Italy and Northern Europe</li>
+                        <li>Baroque and Rococo Periods</li>
+                        <li>Romanticism and Realism</li>
+                        <li>Impressionism and Post-Impressionism</li>
+                        <li>Modern Art Movements (1900&ndash;1950)</li>
+                        <li>Contemporary Art (1950&ndash;Present)</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/art-history-from-prehistory-to-the-present/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Drawing: Techniques and Principles</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Drawing Materials and Tools</li>
+                        <li>Line, Form, and Contour</li>
+                        <li>Perspective and Spatial Depth</li>
+                        <li>Light, Shadow, and Value</li>
+                        <li>Texture and Surface Quality</li>
+                        <li>Composition and Design</li>
+                        <li>Figure Drawing and Anatomy</li>
+                        <li>Portrait Drawing</li>
+                        <li>Landscape and Environment</li>
+                        <li>Expressive and Gestural Drawing</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/drawing-techniques-and-principles/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- TRADITIONAL MEDIA -->
+            <div class="section-divider">
+                <h2 class="section-label">Traditional Media</h2>
+                <p class="section-desc">The core disciplines of studio art &mdash; paint, stone, metal, clay, and the printmaker&rsquo;s press.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Painting: Materials, Methods, and Expression</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Painting Media: Oil, Acrylic, Watercolor</li>
+                        <li>Color Theory and Mixing</li>
+                        <li>Brushwork and Application Techniques</li>
+                        <li>Canvas Preparation and Grounds</li>
+                        <li>Underpainting and Layering</li>
+                        <li>Glazing and Scumbling</li>
+                        <li>Palette Knife and Impasto</li>
+                        <li>Watercolor Techniques</li>
+                        <li>Mixed Media Approaches</li>
+                        <li>Varnishing and Preservation</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/painting-materials-methods-and-expression/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Sculpture: A Comprehensive Guide to Forms and Techniques</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Sculpture Materials: Stone, Metal, Clay, Wood</li>
+                        <li>Modeling and Additive Techniques</li>
+                        <li>Carving and Subtractive Methods</li>
+                        <li>Casting: Mold-Making and Bronze</li>
+                        <li>Assemblage and Found Objects</li>
+                        <li>Kinetic and Mobile Sculpture</li>
+                        <li>Installation Art</li>
+                        <li>Relief Sculpture</li>
+                        <li>Public and Monumental Sculpture</li>
+                        <li>Contemporary Sculpture Practices</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/sculpture-a-comprehensive-guide-to-forms-and-techniques/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Printmaking: Processes and Practices</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Relief Printing: Woodcut and Linocut</li>
+                        <li>Intaglio: Etching and Engraving</li>
+                        <li>Aquatint and Drypoint</li>
+                        <li>Lithography Techniques</li>
+                        <li>Screen Printing (Serigraphy)</li>
+                        <li>Monotype and Monoprint</li>
+                        <li>Collagraph and Experimental Methods</li>
+                        <li>Digital Printmaking</li>
+                        <li>Editioning and Print Documentation</li>
+                        <li>Print Studio Safety and Setup</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/printmaking-processes-and-practices/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- LENS, PAGE, AND SCREEN -->
+            <div class="section-divider">
+                <h2 class="section-label">Lens, Page, and Screen</h2>
+                <p class="section-desc">Photography, illustration, and graphic design &mdash; visual arts that communicate, narrate, and solve problems.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Photography: History, Theory, and Practice</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>History of Photography</li>
+                        <li>Camera Fundamentals and Types</li>
+                        <li>Exposure: Aperture, Shutter, ISO</li>
+                        <li>Composition and Visual Language</li>
+                        <li>Lighting Techniques</li>
+                        <li>Black and White Photography</li>
+                        <li>Color Photography Theory</li>
+                        <li>Digital Workflow and Post-Processing</li>
+                        <li>Photographic Genres and Styles</li>
+                        <li>Contemporary Photography Practice</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/photography-history-theory-and-practice/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Illustration: Concepts and Techniques</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>History of Illustration</li>
+                        <li>Editorial Illustration</li>
+                        <li>Book Illustration and Publishing</li>
+                        <li>Children&rsquo;s Book Illustration</li>
+                        <li>Scientific and Technical Illustration</li>
+                        <li>Fashion Illustration</li>
+                        <li>Concept Art for Games and Film</li>
+                        <li>Storyboarding</li>
+                        <li>Character Design</li>
+                        <li>Digital vs Traditional Illustration</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/illustration-concepts-and-techniques/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Graphic Design: Principles and Applications</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Graphic Design History and Movements</li>
+                        <li>Typography Fundamentals</li>
+                        <li>Layout and Grid Systems</li>
+                        <li>Color in Graphic Design</li>
+                        <li>Logo and Identity Design</li>
+                        <li>Print Design: Books, Posters, Packaging</li>
+                        <li>Digital and Web Design</li>
+                        <li>User Interface (UI) Design</li>
+                        <li>Motion Graphics</li>
+                        <li>Design Thinking and Process</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/graphic-design-principles-and-applications/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- THE CONTEMPORARY LANDSCAPE -->
+            <div class="section-divider">
+                <h2 class="section-label">The Contemporary Landscape</h2>
+                <p class="section-desc">Art after 1945 and the digital revolution &mdash; where the field stands now and where it&rsquo;s going.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">Contemporary Art: Themes and Movements Since 1945</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Abstract Expressionism</li>
+                        <li>Pop Art and Consumer Culture</li>
+                        <li>Minimalism and Conceptual Art</li>
+                        <li>Performance and Body Art</li>
+                        <li>Installation and Environmental Art</li>
+                        <li>Postmodernism and Appropriation</li>
+                        <li>Identity Politics and Art</li>
+                        <li>New Media and Digital Art</li>
+                        <li>Globalization and Contemporary Art</li>
+                        <li>Social Practice and Relational Aesthetics</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/contemporary-art-themes-and-movements-since-1945/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Digital Art and Design: Tools and Concepts</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Digital Art History and Evolution</li>
+                        <li>Hardware: Tablets, Displays, Input Devices</li>
+                        <li>Software Overview: Photoshop, Illustrator, Procreate</li>
+                        <li>Digital Drawing and Painting</li>
+                        <li>Vector Graphics and Illustration</li>
+                        <li>3D Modeling and Rendering</li>
+                        <li>Digital Collage and Photo Manipulation</li>
+                        <li>Animation Fundamentals</li>
+                        <li>Generative and Algorithmic Art</li>
+                        <li>NFTs and Digital Art Markets</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/digital-art-and-design-tools-and-concepts/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">AI Art: Generation, Ethics, and Creative Practice</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is AI Art?</li>
+                        <li>How AI Image Generation Works</li>
+                        <li>The Major AI Art Platforms</li>
+                        <li>Prompting and Directing AI</li>
+                        <li>AI as a Creative Collaborator</li>
+                        <li>Copyright, Training Data, and Intellectual Property</li>
+                        <li>Impact on Working Artists</li>
+                        <li>Authenticity, Authorship, and What It Means to Create</li>
+                        <li>Aesthetic Criticism of AI Art</li>
+                        <li>The Future of AI and Visual Culture</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/visual-arts/ai-art-generation-ethics-and-creative-practice/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/images/quarex_logo.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">All content is free, open, and self-hostable.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Content licensed under CC BY-SA 4.0.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

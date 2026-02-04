@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revised Counter-Proposal: Quarex Adoption &amp; Outreach</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+        h1 {
+            font-size: 26px;
+            color: #0f172a;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 12px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #0f172a;
+            margin-top: 35px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 8px;
+        }
+        h3 {
+            font-size: 16px;
+            color: #334155;
+            margin-top: 25px;
+            margin-bottom: 8px;
+        }
+        .callout {
+            background: #f1f5f9;
+            border-left: 4px solid #2563eb;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .callout p {
+            margin: 5px 0;
+        }
+        .callout strong {
+            color: #0f172a;
+        }
+        .option {
+            background: #ffffff;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px 25px;
+            margin: 20px 0;
+        }
+        .option.recommended {
+            border-color: #2563eb;
+        }
+        .option-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+        .option-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0f172a;
+        }
+        .option-price {
+            font-size: 20px;
+            font-weight: 700;
+            color: #2563eb;
+        }
+        .option ul {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        .option li {
+            margin: 6px 0;
+            color: #334155;
+        }
+        .option .best-for {
+            font-style: italic;
+            color: #64748b;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+        .badge {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 2px 10px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .correction {
+            background: #fef2f2;
+            border-left: 4px solid #dc2626;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .correction strong {
+            color: #dc2626;
+        }
+        .done {
+            background: #f0fdf4;
+            border-left: 4px solid #16a34a;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .done strong {
+            color: #16a34a;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            color: #64748b;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .section-label {
+            display: inline-block;
+            background: #f1f5f9;
+            color: #475569;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+        .terms {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .terms li {
+            margin: 6px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e2e8f0;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .site-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin: 16px 0;
+        }
+        .site-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 14px 16px;
+        }
+        .site-card .url {
+            font-weight: 700;
+            color: #0f172a;
+            font-size: 14px;
+        }
+        .site-card .desc {
+            color: #64748b;
+            font-size: 13px;
+            margin-top: 4px;
+        }
+        .curricula-list {
+            margin: 12px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+        .curricula-list li {
+            padding: 10px 14px;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+        .curricula-list .title {
+            font-weight: 700;
+            color: #0f172a;
+        }
+        .curricula-list .stats {
+            color: #64748b;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Revised Counter-Proposal</h1>
+<div class="subtitle">
+    Quarex Ecosystem: Adoption, Outreach &amp; Design Unification<br>
+    Prepared by Peter Nehl, Quarex &mdash; February 2026
+</div>
+
+<h2>What&rsquo;s Changed Since the Original Proposal</h2>
+
+<p>The original counter-proposal asked for help building <strong>knowableonline.org</strong>. That site is now live. In the time since, the Quarex ecosystem has grown substantially and the nature of what&rsquo;s needed has shifted from <em>construction</em> to <em>adoption</em>.</p>
+
+<div class="done">
+    <p><strong>Already built:</strong> Since the original proposal, knowableonline.org has been designed and launched, publicstudies.org has expanded from 1 curriculum to 4, and the book count has grown from 641 to 647 with over 3,369 indexed chapters.</p>
+</div>
+
+<h3>The Ecosystem Today</h3>
+
+<div class="site-grid">
+    <div class="site-card">
+        <div class="url">quarex.org</div>
+        <div class="desc">647 books, 3,369 chapters, 332 tags. Redesigned homepage as ecosystem hub.</div>
+    </div>
+    <div class="site-card">
+        <div class="url">knowableonline.org</div>
+        <div class="desc">Live. Three schools, mission, principles, architecture explained.</div>
+    </div>
+    <div class="site-card">
+        <div class="url">publicstudies.org</div>
+        <div class="desc">4 curricula live, 2 more planned. Full syllabus pages with chapter listings.</div>
+    </div>
+    <div class="site-card">
+        <div class="url">election2026.net</div>
+        <div class="desc">All 435 House, 33 Senate, 36 Governor races. Every state covered.</div>
+    </div>
+</div>
+
+<h3>Live Curricula</h3>
+
+<ul class="curricula-list">
+    <li>
+        <span class="title">Women&rsquo;s Studies</span><br>
+        <span class="stats">15 courses &middot; 215 chapters</span>
+    </li>
+    <li>
+        <span class="title">AI Studies</span><br>
+        <span class="stats">19 courses &middot; 225 chapters &middot; 1,527 topics</span>
+    </li>
+    <li>
+        <span class="title">Media &amp; Information Studies</span><br>
+        <span class="stats">18 courses &middot; 263 chapters &middot; 1,632 topics</span>
+    </li>
+    <li>
+        <span class="title">Visual Arts</span><br>
+        <span class="stats">11 courses &middot; 110 chapters &middot; 672 topics</span>
+    </li>
+</ul>
+
+<h2>What&rsquo;s No Longer Needed</h2>
+
+<p>The original proposal centered on building knowableonline.org, including audience portals for Voters, Educators, Civic Leaders, and Investors. That site now exists with a different architecture &mdash; organized around Schools and Curricula rather than audience personas. The core deliverable of all three original options has been completed independently.</p>
+
+<p>There is no site that needs to be built. What needs to happen is adoption.</p>
+
+<h2>The Problem Now</h2>
+
+<div class="callout">
+    <p>The Quarex ecosystem contains 647 books, 4 complete curricula, and full 2026 election coverage across 5 interconnected sites. <strong>Almost no one knows it exists.</strong></p>
+</div>
+
+<p>The system works. The content is real. But content without distribution is inventory, not impact. The challenge is no longer building &mdash; it&rsquo;s getting the right people and institutions to discover, trust, and use what&rsquo;s been built.</p>
+
+<h2>What We Need</h2>
+
+<span class="section-label">Three things</span>
+
+<h3>1. Messaging That Explains Quarex to Non-Technical Audiences</h3>
+<p>Quarex is easy to explain to technologists. It is harder to explain to a school librarian, a civics teacher, a county elections officer, or a nonprofit director. We need clear, tested language that communicates the value in under 30 seconds for each audience. Not marketing copy &mdash; clarity.</p>
+
+<h3>2. Deployable Materials for Institutional Partners</h3>
+<p>A one-pager for educators. A one-pager for civic organizations. A short pitch for libraries. QR materials that link directly to curricula and election tools. Social media graphics that can be posted without further editing. These materials need to be <em>finished</em> &mdash; ready to hand to someone or drop in an email.</p>
+
+<h3>3. Targeted Outreach to Real Institutions</h3>
+<p>Not mass marketing. Specific outreach to the kinds of organizations most likely to adopt a free, nonpartisan, structured knowledge platform: public libraries, community colleges, voter education nonprofits, civics teachers, journalism programs, and media literacy organizations. The goal is 50 institutional contacts with tailored messaging.</p>
+
+<h2>Design Unification (Optional Add-On)</h2>
+
+<p>The five Quarex sites were built at different times with slightly different design languages. They share a dark theme and the same fonts (Playfair Display + Inter), but accent colors, component styles, and navigation patterns vary. A professional design pass to create a shared design system &mdash; a common header/footer pattern, consistent card styles, unified navigation &mdash; would make the ecosystem feel like one platform rather than five related sites.</p>
+
+<p>This is not essential for adoption, but it would strengthen credibility with institutional partners who evaluate platforms partly on visual coherence.</p>
+
+<h2>Content Corrections (Still Required)</h2>
+
+<div class="correction">
+    <p><strong>Non-negotiable:</strong> Any materials produced for outreach must use accurate data only. The corrections from the original proposal remain in effect:</p>
+</div>
+
+<ul>
+    <li><strong>No fabricated testimonials.</strong> Use aspirational framing or real deployment scenarios, never fake quotes.</li>
+    <li><strong>Accurate statistics only.</strong> The real numbers are strong: 647 books, 3,369 chapters, 4 curricula, all 50 states covered for 2026 elections. Use them.</li>
+    <li><strong>No features that don&rsquo;t exist.</strong> Describe what Quarex actually does. The reality is already more than any competitor offers.</li>
+</ul>
+
+<h2>Engagement Options</h2>
+
+<div class="option">
+    <div class="option-header">
+        <span class="option-title">Option 1: Messaging &amp; Materials Package</span>
+        <span class="option-price">$2,500</span>
+    </div>
+    <ul>
+        <li>Messaging framework for 4 audiences: educators, civic organizations, libraries, and voters</li>
+        <li>One-page explainers for each audience (print-ready PDF + web)</li>
+        <li>Social media graphic templates (5 designs) for X, Bluesky, LinkedIn</li>
+        <li>QR code materials linking to curricula and election tools</li>
+        <li>30-second and 60-second pitch scripts for each audience</li>
+    </ul>
+    <p class="best-for">Best for: Having professional, ready-to-deploy materials you can use yourself.</p>
+</div>
+
+<div class="option recommended">
+    <div class="option-header">
+        <span class="option-title">Option 2: Materials + Outreach Execution <span class="badge">Recommended</span></span>
+        <span class="option-price">$4,500</span>
+    </div>
+    <ul>
+        <li>Everything in Option 1</li>
+        <li>Identification of 50 institutional targets (libraries, schools, nonprofits, journalism programs, civic orgs)</li>
+        <li>Tailored outreach emails drafted for each category</li>
+        <li>Educator deployment kit: classroom applications, lesson prompts, curriculum integration guide</li>
+        <li>Civic organization deployment kit: use cases, talking points, implementation guide</li>
+        <li>45-day social media visibility plan with content calendar</li>
+    </ul>
+    <p class="best-for">Best for: Generating real institutional interest through targeted, trust-based outreach.</p>
+</div>
+
+<div class="option">
+    <div class="option-header">
+        <span class="option-title">Option 3: Full Adoption Campaign + Design Unification</span>
+        <span class="option-price">$7,000</span>
+    </div>
+    <ul>
+        <li>Everything in Option 2</li>
+        <li>Design audit and style guide for the 5-site ecosystem</li>
+        <li>Unified header/footer components, consistent navigation patterns</li>
+        <li>Refined landing pages for publicstudies.org and knowableonline.org</li>
+        <li>Outreach execution: first 50 institutional contacts sent, responses tracked</li>
+        <li>Southern and red-state institutional outreach strategy</li>
+        <li>Iteration on messaging based on early response data</li>
+        <li>60-day social media execution</li>
+    </ul>
+    <p class="best-for">Best for: A complete push to move from &ldquo;built&rdquo; to &ldquo;adopted&rdquo; with professional design cohesion.</p>
+</div>
+
+<h2>Hosting &amp; Infrastructure</h2>
+
+<div class="callout">
+    <p>All Quarex infrastructure is self-hosted. There is no monthly hosting fee. Deliverables should be static HTML/CSS/JS files or print-ready PDFs. We deploy everything ourselves.</p>
+</div>
+
+<h2>Payment Terms</h2>
+
+<div class="terms">
+    <ul>
+        <li>50% upon agreement to proceed</li>
+        <li>50% upon delivery of final materials</li>
+        <li>No monthly hosting or maintenance fees</li>
+        <li>All deliverables are owned by Quarex upon payment</li>
+        <li>For Option 3, outreach execution invoiced upon completion of each 25-contact batch</li>
+    </ul>
+</div>
+
+<h2>Why This Engagement</h2>
+
+<p>Building the Quarex ecosystem is something one person with AI can do. Getting institutions to trust and adopt it is not. Trust is built through relationships, clear messaging, and showing up consistently in the places where educators, librarians, and civic leaders already look. That requires a different kind of work.</p>
+
+<p>The system exists. The content is real. The architecture is sound. What&rsquo;s missing is the bridge between what&rsquo;s been built and the people who would use it if they knew it was there.</p>
+
+<div class="footer">
+    <p>
+        Peter Nehl<br>
+        Quarex &mdash; <a href="https://quarex.org">quarex.org</a><br>
+        Knowable Online University &mdash; <a href="https://knowableonline.org">knowableonline.org</a><br>
+        Public Studies &mdash; <a href="https://publicstudies.org">publicstudies.org</a><br>
+        Election 2026 &mdash; <a href="https://election2026.net">election2026.net</a>
+    </p>
+</div>
+
+</body>
+</html>

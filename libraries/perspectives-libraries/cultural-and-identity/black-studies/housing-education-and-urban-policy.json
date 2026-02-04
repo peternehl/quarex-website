@@ -1,0 +1,183 @@
+{
+  "name": "Housing, Education, and Urban Policy",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "housing policy",
+    "education inequality",
+    "urban policy",
+    "racial segregation",
+    "structural racism"
+  ],
+  "chapters": [
+    {
+      "name": "Redlining and the Federal Architecture of Housing Segregation",
+      "topics": [
+        "What was redlining, and how did the Home Owners' Loan Corporation create color-coded maps that determined which neighborhoods would receive investment?",
+        "How did the Federal Housing Administration's underwriting guidelines explicitly prohibit lending to Black neighborhoods and integrated areas?",
+        "What were restrictive covenants, and how did they legally prevent Black families from buying homes in white neighborhoods?",
+        "How did the GI Bill's housing benefits disproportionately benefit white veterans while excluding Black veterans?",
+        "What was the economic impact of denying Black families access to the single most important wealth-building mechanism in American life?",
+        "Why do historians emphasize that housing segregation was created by government policy — not by private choice or market forces?"
+      ],
+      "tags": [
+        "politics",
+        "inequality",
+        "housing",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Urban Renewal and the Destruction of Black Neighborhoods",
+      "topics": [
+        "What was urban renewal, and why did Black communities call it 'Negro removal'?",
+        "How did federally funded highway construction deliberately route interstates through thriving Black neighborhoods?",
+        "What communities were destroyed — from Rondo in St. Paul to Bronzeville in Chicago to the West End in Boston?",
+        "How did the construction of public housing concentrate poverty and isolate Black communities?",
+        "What role did eminent domain play in displacing Black homeowners and business owners with inadequate compensation?",
+        "What was lost when urban renewal destroyed Black neighborhoods — not just buildings but community networks, businesses, and institutions?"
+      ],
+      "tags": [
+        "society",
+        "inequality",
+        "housing",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "School Segregation: From Jim Crow to Resegregation",
+      "topics": [
+        "How did school segregation function under Jim Crow — separate schools with grossly unequal resources?",
+        "What did Brown v. Board of Education promise, and why was desegregation resisted for decades?",
+        "How did 'massive resistance' — school closures, white flight, private academies — undermine desegregation orders?",
+        "What happened to Black teachers and principals when schools were desegregated — many lost their jobs as white schools refused to hire them?",
+        "How have American schools resegregated since the 1990s, with the Supreme Court limiting desegregation remedies?",
+        "What is the relationship between school segregation and the racial achievement gap?"
+      ],
+      "tags": [
+        "politics",
+        "education",
+        "civil-rights",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "The School-to-Prison Pipeline",
+      "topics": [
+        "What is the school-to-prison pipeline, and how do disciplinary practices in schools funnel Black students into the criminal justice system?",
+        "How are Black students disciplined more harshly than white students for the same behavior — from preschool through high school?",
+        "What role do school resource officers and zero-tolerance policies play in criminalizing normal adolescent behavior?",
+        "How do suspensions, expulsions, and school-based arrests disrupt education and increase the likelihood of incarceration?",
+        "What is the impact of under-resourced schools — outdated textbooks, crumbling facilities, fewer advanced courses — on Black students' outcomes?",
+        "What alternatives to punitive discipline — restorative justice, positive behavior interventions — have shown promise?"
+      ],
+      "tags": [
+        "society",
+        "justice",
+        "education",
+        "race"
+      ]
+    },
+    {
+      "name": "HBCUs and the Tradition of Black Higher Education",
+      "topics": [
+        "How were Historically Black Colleges and Universities founded during and after Reconstruction to provide education denied by white institutions?",
+        "What role have HBCUs played in educating the majority of Black professionals in America — doctors, lawyers, teachers, engineers?",
+        "How do HBCUs provide cultural affirmation and community that predominantly white institutions often fail to offer?",
+        "What financial challenges do HBCUs face — smaller endowments, less public funding, aging infrastructure?",
+        "How has the debate about HBCUs' relevance evolved since desegregation opened white institutions to Black students?",
+        "What do HBCUs contribute to American higher education that would be lost without them?"
+      ],
+      "tags": [
+        "society",
+        "education",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "Public Housing: From Promise to Neglect",
+      "topics": [
+        "How was public housing originally envisioned as decent affordable housing, and what happened to that vision?",
+        "How did racial segregation shape public housing from the beginning — separate projects for white and Black residents?",
+        "What caused the deterioration of public housing — deliberate disinvestment, concentrated poverty, or both?",
+        "How did the demolition of public housing under HOPE VI displace hundreds of thousands of Black families?",
+        "What is the Section 8 voucher program, and how does discrimination by landlords limit its effectiveness for Black families?",
+        "What would an equitable housing policy look like — one that provides stable, affordable housing without concentrating poverty?"
+      ],
+      "tags": [
+        "politics",
+        "inequality",
+        "housing",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Gentrification and Displacement",
+      "topics": [
+        "What is gentrification, and how does it transform historically Black neighborhoods through rising property values and changing demographics?",
+        "How do Black residents experience gentrification — displacement, cultural erasure, and the loss of community institutions?",
+        "What is the irony of neighborhoods that were redlined and disinvested suddenly becoming desirable to wealthier (often white) residents?",
+        "How does gentrification affect Black homeowners differently from Black renters?",
+        "What policies could allow neighborhood investment without displacement — community land trusts, inclusionary zoning, rent stabilization?",
+        "What happens to the social fabric of Black communities when gentrification scatters residents across metropolitan areas?"
+      ],
+      "tags": [
+        "society",
+        "inequality",
+        "housing",
+        "americas"
+      ]
+    },
+    {
+      "name": "Environmental Racism and Black Communities",
+      "topics": [
+        "What is environmental racism, and how are Black communities disproportionately located near polluting industries, toxic waste sites, and environmental hazards?",
+        "How did the Flint water crisis expose the intersection of race, poverty, and government neglect?",
+        "What is Cancer Alley in Louisiana, and how does it illustrate the concentration of environmental harm in Black communities?",
+        "How did Robert Bullard's research establish environmental justice as a field of study and activism?",
+        "What role does zoning policy play in determining which communities bear the burden of pollution?",
+        "How does environmental racism compound other forms of inequality — health disparities, property values, educational outcomes?"
+      ],
+      "tags": [
+        "society",
+        "health",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "The Digital Divide and Technological Inequality",
+      "topics": [
+        "What is the digital divide, and how does unequal access to technology and internet connectivity affect Black communities?",
+        "How does the lack of broadband access in Black neighborhoods limit educational and economic opportunities?",
+        "What role does algorithmic bias play in perpetuating racial inequality in hiring, lending, criminal justice, and advertising?",
+        "How does the underrepresentation of Black people in the tech industry affect the products and platforms that shape daily life?",
+        "What efforts have been made to close the digital divide — public broadband, community technology centers, coding education?",
+        "How has COVID-19 exposed the consequences of digital inequality for remote learning and work?"
+      ],
+      "tags": [
+        "technology",
+        "inequality",
+        "education",
+        "americas"
+      ]
+    },
+    {
+      "name": "Policy Solutions and the Fight for Equitable Cities",
+      "topics": [
+        "What would reparative housing policy look like — addressing the specific harms of redlining, urban renewal, and discriminatory lending?",
+        "How could school funding be restructured to break the link between property wealth and educational resources?",
+        "What community development models — community land trusts, cooperative ownership, participatory budgeting — give residents control?",
+        "How have Black-led organizations fought for equitable urban policy at the local, state, and federal levels?",
+        "What role should the federal government play in remedying housing and educational segregation it helped create?",
+        "What does a truly equitable city look like — one where race does not predict access to safe housing, good schools, and clean environments?"
+      ],
+      "tags": [
+        "politics",
+        "justice",
+        "housing",
+        "us-politics"
+      ]
+    }
+  ]
+}

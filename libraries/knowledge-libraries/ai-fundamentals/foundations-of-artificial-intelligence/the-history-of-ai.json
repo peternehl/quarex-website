@@ -1,0 +1,145 @@
+{
+  "name": "The History of AI",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "artificial intelligence",
+    "technology history",
+    "machine learning",
+    "computing pioneers",
+    "AI winters and breakthroughs"
+  ],
+  "chapters": [
+    {
+      "name": "The Dream of Thinking Machines",
+      "topics": [
+        "Why have humans imagined artificial minds for thousands of years — from the Golem to Frankenstein to Turing?",
+        "What was Alan Turing's 1950 paper really asking, and why does the Turing Test still matter?",
+        "How did wartime code-breaking at Bletchley Park lay the groundwork for computational intelligence?",
+        "What did early cybernetics pioneers like Norbert Wiener and Claude Shannon contribute to the idea of machine intelligence?",
+        "Why is the distinction between 'simulating thought' and 'actually thinking' still unresolved?"
+      ],
+      "tags": ["history", "foundations", "computer-science", "ai-ml"]
+    },
+    {
+      "name": "The Birth of a Field: Dartmouth and the 1950s",
+      "topics": [
+        "What happened at the 1956 Dartmouth Conference, and why is it considered the founding moment of AI?",
+        "Who were John McCarthy, Marvin Minsky, Allen Newell, and Herbert Simon, and what did each contribute?",
+        "What could early AI programs like Logic Theorist and the General Problem Solver actually do?",
+        "Why did the Dartmouth organizers predict that AI would be solved within a generation?",
+        "How did Cold War funding and military interest shape the direction of early AI research?"
+      ],
+      "tags": ["history", "innovation", "ai-ml", "computer-science"]
+    },
+    {
+      "name": "The Golden Years: 1960s Optimism",
+      "topics": [
+        "What breakthroughs in the 1960s made researchers believe general AI was imminent?",
+        "How did ELIZA fool people into thinking a computer could understand language — and what did that reveal?",
+        "What was Shakey the Robot, and why was it a milestone in combining reasoning with physical action?",
+        "How did early machine translation efforts expose fundamental limits in symbolic AI?",
+        "Why did Marvin Minsky predict in 1967 that the problem of AI would be 'substantially solved' within a generation?"
+      ],
+      "tags": ["technology", "discovery", "ai-ml", "linguistics"]
+    },
+    {
+      "name": "The First AI Winter: 1974–1980",
+      "topics": [
+        "What caused governments to slash AI funding in the mid-1970s?",
+        "How did the Lighthill Report in Britain damage AI credibility across the field?",
+        "What fundamental problems did the perceptron limitations exposed by Minsky and Papert reveal?",
+        "Why did early neural network research nearly die after 1969?",
+        "What is an 'AI winter,' and what patterns distinguish it from normal research downturns?"
+      ],
+      "tags": ["history", "controversy", "ai-ml", "computer-science"]
+    },
+    {
+      "name": "Expert Systems and the Knowledge Boom: 1980s",
+      "topics": [
+        "How did expert systems like MYCIN and XCON revive commercial interest in AI?",
+        "What was the Japanese Fifth Generation Computer project, and why did it trigger a global AI arms race?",
+        "Why did corporations invest billions in AI during the 1980s — and what did they get for it?",
+        "How did the shift from 'general intelligence' to 'narrow expertise' change what AI meant?",
+        "What role did LISP machines and specialized hardware play in the expert systems era?"
+      ],
+      "tags": ["technology", "innovation", "ai-ml", "engineering"]
+    },
+    {
+      "name": "The Second AI Winter: Late 1980s–1990s",
+      "topics": [
+        "Why did expert systems fail to scale, and what were their fundamental brittleness problems?",
+        "How did the collapse of the LISP machine market signal the end of the expert systems boom?",
+        "What happened to AI research funding after the commercial bubble burst?",
+        "Why did many researchers stop using the term 'artificial intelligence' during this period?",
+        "How did the two AI winters shape public skepticism about AI promises that persists today?"
+      ],
+      "tags": ["history", "evolution", "ai-ml", "economics-theory"]
+    },
+    {
+      "name": "The Statistical Turn: Machine Learning Rises",
+      "topics": [
+        "How did the shift from hand-coded rules to data-driven learning change AI fundamentally?",
+        "Why did statistical methods and probability become more important than symbolic logic?",
+        "What were support vector machines, random forests, and the other workhorses of 1990s machine learning?",
+        "How did the internet create the massive datasets that machine learning needed to succeed?",
+        "Why did IBM's Deep Blue beating Kasparov in 1997 matter — and why did it also mislead?"
+      ],
+      "tags": ["technology", "methodology", "ai-ml", "statistics"]
+    },
+    {
+      "name": "Deep Learning Breaks Through: 2006–2015",
+      "topics": [
+        "What did Geoffrey Hinton, Yann LeCun, and Yoshua Bengio discover that reignited neural network research?",
+        "Why was the 2012 ImageNet competition a turning point for the entire field?",
+        "How did GPUs — originally designed for video games — become the engine of the deep learning revolution?",
+        "What made deep learning succeed where earlier neural networks had failed?",
+        "How did Google, Facebook, and other tech companies suddenly reorient around AI after 2012?"
+      ],
+      "tags": ["technology", "revolution", "neural-networks", "ai-ml"]
+    },
+    {
+      "name": "The Language Revolution: Attention and Transformers",
+      "topics": [
+        "What problem were researchers trying to solve when they invented the attention mechanism?",
+        "Why was the 2017 'Attention Is All You Need' paper one of the most consequential in computing history?",
+        "How do transformer architectures process language differently from everything that came before?",
+        "What is the relationship between scale — more data, more parameters, more compute — and capability?",
+        "Why did the transformer architecture work for images, audio, and video, not just text?"
+      ],
+      "tags": ["technology", "innovation", "neural-networks", "linguistics"]
+    },
+    {
+      "name": "The LLM Moment: 2020–Present",
+      "topics": [
+        "How did GPT-3's release in 2020 change public understanding of what AI could do?",
+        "Why did ChatGPT become the fastest-growing consumer application in history?",
+        "How do companies like OpenAI, Anthropic, Google, and Meta approach AI development differently?",
+        "What is the difference between an AI lab's public mission and its competitive behavior?",
+        "Why did the LLM moment feel sudden to the public even though it was decades in the making?"
+      ],
+      "tags": ["technology", "frontiers", "llms", "ai-ml"]
+    },
+    {
+      "name": "The Race for AI Dominance",
+      "topics": [
+        "How did AI become the central arena of US-China technological competition?",
+        "Why are governments treating AI capability as a national security priority?",
+        "What role do semiconductor supply chains — especially TSMC and NVIDIA — play in the AI power balance?",
+        "How has the concentration of AI talent in a few companies and countries shaped the field?",
+        "What does the history of nuclear weapons development suggest about the AI arms race?"
+      ],
+      "tags": ["politics", "governance", "ai-ml", "geopolitics"]
+    },
+    {
+      "name": "What History Teaches Us",
+      "topics": [
+        "What patterns recur across AI's boom-and-bust cycles, and are we in another bubble?",
+        "Why have AI timelines been consistently wrong — and what does that mean for current predictions?",
+        "How has the definition of 'artificial intelligence' shifted every time machines achieved a new capability?",
+        "What can the history of other transformative technologies — electricity, the internet — tell us about AI's trajectory?",
+        "If someone in 2035 looks back at this moment, what will they say we got right and what will they say we missed?"
+      ],
+      "tags": ["history", "critical-thinking", "ai-ml", "prediction"]
+    }
+  ]
+}

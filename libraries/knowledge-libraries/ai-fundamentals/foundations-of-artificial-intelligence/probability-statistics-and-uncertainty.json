@@ -1,45 +1,169 @@
 {
   "name": "Probability, Statistics, and Uncertainty",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "probability",
+    "statistics",
+    "uncertainty",
+    "artificial intelligence",
+    "quantitative reasoning"
+  ],
   "chapters": [
     {
       "name": "Why AI Is Built on Probabilities",
-      "topics": [],
-      "tags": [
-        "science",
-        "critical-thinking",
-        "ai-ml",
-        "education"
-      ]
+      "topics": [
+        "Why is probability — not logic — the mathematical foundation of modern AI?",
+        "What does it mean for an AI system to produce a 'most likely' answer rather than a 'correct' answer?",
+        "How does AI use probability to make decisions under uncertainty — just as humans do?",
+        "What is the difference between a deterministic system (same input always gives same output) and a probabilistic one?",
+        "Why does understanding probability help you understand what AI can and cannot guarantee?",
+        "How does probability apply to everyday AI applications — spam filters, recommendations, medical diagnoses?",
+        "Why should a non-mathematician care about probability — and what level of understanding is practical?"
+      ],
+      "tags": ["science", "foundations", "ai-ml", "statistics"]
     },
     {
-      "name": "Noise, Bias, and Variance",
-      "topics": [],
-      "tags": [
-        "technology",
-        "critical-thinking",
-        "ai-ml",
-        "education"
-      ]
+      "name": "Basic Probability: The Language of Uncertainty",
+      "topics": [
+        "What is probability — and what does it mean to say something has a 70% chance of happening?",
+        "What is the difference between frequentist probability (long-run frequency) and Bayesian probability (degree of belief)?",
+        "How do you calculate basic probabilities — and why does intuition about probability often mislead us?",
+        "What are conditional probabilities — how does knowing one thing change the probability of another?",
+        "What is independence — and why does assuming events are independent when they're not lead to major errors?",
+        "How do probabilities combine — addition for 'or' and multiplication for 'and'?",
+        "What are common probability mistakes that affect how people interpret AI results?"
+      ],
+      "tags": ["science", "foundations", "statistics", "mathematics"]
     },
     {
-      "name": "Uncertainty and Confidence in AI Outputs",
-      "topics": [],
-      "tags": [
-        "technology",
-        "critical-thinking",
-        "ai-ml",
-        "uncertainty"
-      ]
+      "name": "Bayes' Theorem: Updating Beliefs with Evidence",
+      "topics": [
+        "What is Bayes' theorem — and why is it one of the most important ideas in AI and statistics?",
+        "How does Bayes' theorem let you update your beliefs when you receive new evidence?",
+        "What are prior probabilities and posterior probabilities — and how do they relate?",
+        "How does a spam filter use Bayesian reasoning to classify email?",
+        "Why is Bayesian thinking relevant to medical testing — false positives, false negatives, and base rates?",
+        "How do AI systems use Bayesian principles — even when they don't explicitly implement Bayes' theorem?",
+        "Why does Bayesian reasoning match how rational people should update their beliefs — and why do humans often fail to do it?"
+      ],
+      "tags": ["science", "methodology", "statistics", "ai-ml"]
+    },
+    {
+      "name": "Distributions: How Data Spreads Out",
+      "topics": [
+        "What is a probability distribution — and why is it the foundation for understanding data?",
+        "What is the normal distribution (bell curve) — and why does it appear so often in nature and statistics?",
+        "What are mean, median, mode, and standard deviation — and what do they tell you about a dataset?",
+        "What happens when data doesn't follow a normal distribution — skewed data, outliers, and heavy tails?",
+        "How do AI systems use distributions to represent uncertainty about their predictions?",
+        "What is the difference between the distribution of the training data and the distribution of real-world data — and why does that gap cause problems?",
+        "How does understanding distributions help you spot misleading statistics and exaggerated AI claims?"
+      ],
+      "tags": ["science", "analysis", "statistics", "mathematics"]
+    },
+    {
+      "name": "Correlation, Causation, and the Stories Data Tells",
+      "topics": [
+        "What is correlation — and why does finding a pattern in data not mean one thing causes another?",
+        "Why is 'correlation does not imply causation' the most important sentence in statistics?",
+        "How do spurious correlations arise — and what are famous examples of absurd but real correlations?",
+        "What is confounding — when a hidden third variable explains a relationship that looks causal?",
+        "How do AI systems trained on correlations make predictions that break down when the underlying relationships change?",
+        "What are randomized controlled trials — and why are they the gold standard for establishing causation?",
+        "Why does AI's inability to distinguish correlation from causation limit its usefulness in policy, medicine, and justice?"
+      ],
+      "tags": ["science", "causation", "statistics", "critical-thinking"]
+    },
+    {
+      "name": "Noise, Signal, and the Limits of Data",
+      "topics": [
+        "What is noise — and how does random variation in data make it harder to find real patterns?",
+        "What is signal — and how do you separate meaningful patterns from random fluctuation?",
+        "What is the signal-to-noise ratio — and why does it determine whether a pattern is real or an artifact?",
+        "How does noise in training data affect AI model performance — and what techniques reduce its impact?",
+        "What is overfitting — and how does a model mistake noise for signal?",
+        "How does sample size affect whether a finding is trustworthy — and why do small samples mislead?",
+        "What is statistical significance — and why does it not mean what most people think it means?"
+      ],
+      "tags": ["science", "uncertainty", "statistics", "data-science"]
+    },
+    {
+      "name": "Bias and Variance: The Fundamental Tradeoff",
+      "topics": [
+        "What is statistical bias — and how does it cause a model to systematically get answers wrong in one direction?",
+        "What is variance — and how does it cause a model to give wildly different answers for similar inputs?",
+        "What is the bias-variance tradeoff — and why can't you minimize both at the same time?",
+        "How does a model with high bias underfit the data — being too simple to capture the real pattern?",
+        "How does a model with high variance overfit the data — being so complex it memorizes noise?",
+        "Why is finding the right balance between bias and variance the central challenge of machine learning?",
+        "How does regularization help manage the tradeoff — and why is simplicity often better?"
+      ],
+      "tags": ["technology", "methodology", "ai-ml", "statistics"]
+    },
+    {
+      "name": "Uncertainty in AI Outputs",
+      "topics": [
+        "How confident is an AI system in its predictions — and how do you measure that confidence?",
+        "What is a confidence interval — and what does it mean to say a prediction is '95% confident'?",
+        "Why do AI systems often report high confidence even when they are wrong?",
+        "What is calibration — and why does a well-calibrated model predict correctly 80% of the time when it says it's 80% confident?",
+        "How do uncertainty estimates help users decide when to trust AI and when to seek human judgment?",
+        "What is the difference between aleatoric uncertainty (randomness in the world) and epistemic uncertainty (gaps in knowledge)?",
+        "Why is communicating uncertainty to non-experts one of the hardest problems in AI deployment?"
+      ],
+      "tags": ["technology", "uncertainty", "ai-ml", "statistics"]
     },
     {
       "name": "Why AI Can Be Wrong but Confident",
-      "topics": [],
-      "tags": [
-        "technology",
-        "critical-thinking",
-        "ai-ml",
-        "epistemology"
-      ]
+      "topics": [
+        "Why does an AI model sometimes produce a completely wrong answer with high confidence?",
+        "What is the softmax function — and how does it convert raw model scores into probabilities that always sum to 100%?",
+        "How does the training process create systems that are overconfident by design?",
+        "What are hallucinations in LLMs — and how does the model's confidence mechanism make them hard to detect?",
+        "What happens when overconfident AI is used in high-stakes domains — medicine, law, finance, and policing?",
+        "How do researchers try to improve calibration and reduce overconfidence?",
+        "What should users do when they can't tell whether an AI system's confidence is justified?"
+      ],
+      "tags": ["technology", "critical-thinking", "ai-ml", "epistemology"]
+    },
+    {
+      "name": "How Statistics Can Mislead",
+      "topics": [
+        "What are the most common ways statistics are used to mislead — in news, politics, and advertising?",
+        "How does cherry-picking data — selecting only favorable examples — distort conclusions?",
+        "What is survivorship bias — and how does focusing on successes hide failures?",
+        "How do misleading graphs — truncated axes, cherry-picked time ranges — create false impressions?",
+        "What is Simpson's paradox — and how can a trend that appears in every subgroup disappear in the combined data?",
+        "How does p-hacking — testing many hypotheses until one is 'significant' — produce false findings?",
+        "What statistical literacy do citizens need to evaluate claims about AI performance, polls, and scientific studies?"
+      ],
+      "tags": ["science", "critical-thinking", "statistics", "logical-fallacies"]
+    },
+    {
+      "name": "Probability in Everyday Decisions",
+      "topics": [
+        "How does probability affect everyday decisions — weather forecasts, medical tests, insurance, and risk assessment?",
+        "What is expected value — and how does it help you make rational decisions under uncertainty?",
+        "Why are humans systematically bad at intuiting probabilities — and what cognitive biases distort our judgment?",
+        "How does the availability heuristic make us overestimate dramatic risks and underestimate common ones?",
+        "What is risk literacy — and why does understanding probability make you a better decision-maker?",
+        "How should you interpret AI-generated probabilities in your daily life — weather apps, health tools, financial advisors?",
+        "Why is 'thinking in probabilities' a skill that improves with practice — and how do you start?"
+      ],
+      "tags": ["psychology", "critical-thinking", "statistics", "cognitive-bias"]
+    },
+    {
+      "name": "Living with Uncertainty in an AI World",
+      "topics": [
+        "Why is accepting uncertainty — rather than demanding certainty — essential for navigating an AI-driven world?",
+        "How does the illusion of precision in AI outputs create false confidence in users?",
+        "What does it mean to make good decisions with imperfect information — and why is that a skill, not a weakness?",
+        "How should institutions — hospitals, courts, governments — communicate the uncertainty in AI-assisted decisions?",
+        "What is the role of human judgment when AI provides probabilistic guidance rather than definitive answers?",
+        "How does understanding uncertainty protect you from manipulation — by marketers, politicians, and AI hype?",
+        "What habits of mind help you live productively with uncertainty rather than being paralyzed by it?"
+      ],
+      "tags": ["psychology", "epistemology", "ai-ml", "critical-thinking"]
     }
   ]
 }

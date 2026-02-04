@@ -1,45 +1,169 @@
 {
   "name": "Risks, Harms, and Governance",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "AI risks",
+    "AI governance",
+    "algorithmic harm",
+    "regulation",
+    "accountability"
+  ],
   "chapters": [
     {
       "name": "Bias, Discrimination, and Unequal Impact",
-      "topics": [],
-      "tags": [
-        "ethics",
-        "human-rights",
-        "bias",
-        "ai-ml"
-      ]
+      "topics": [
+        "How does AI bias arise — through training data, algorithm design, or deployment choices?",
+        "What are documented cases of AI discrimination — in hiring, lending, policing, healthcare, and housing?",
+        "Why do AI systems disproportionately harm marginalized communities — and what makes that pattern so persistent?",
+        "What is the difference between individual bias and structural bias — and how does AI amplify structural bias?",
+        "How does a model trained on historical data reproduce and reinforce historical injustice?",
+        "What techniques exist to detect and mitigate AI bias — and why is none of them a complete solution?",
+        "Who bears the burden when AI systems discriminate — the individuals affected, the companies, or the regulators?"
+      ],
+      "tags": ["ethics", "bias", "ai-ml", "inequality"]
     },
     {
       "name": "Privacy, Surveillance, and Data Exploitation",
-      "topics": [],
-      "tags": [
-        "ethics",
-        "privacy",
-        "human-rights",
-        "ai-ml"
-      ]
+      "topics": [
+        "How does AI enable mass surveillance — facial recognition, behavioral tracking, and predictive monitoring?",
+        "What personal data do AI systems collect and process — and how much of it was gathered without meaningful consent?",
+        "How is facial recognition used by governments and corporations — and what are the civil liberties implications?",
+        "What is the surveillance economy — and how does AI turn personal data into corporate profit?",
+        "How do authoritarian governments use AI surveillance — in China, Russia, and elsewhere?",
+        "What are the privacy risks of AI in the home — smart speakers, cameras, and connected devices?",
+        "What legal protections exist for privacy in an AI world — and where are the gaps?"
+      ],
+      "tags": ["ethics", "privacy", "ai-ml", "surveillance"]
+    },
+    {
+      "name": "AI in Criminal Justice",
+      "topics": [
+        "How is AI used in policing — predictive policing, facial recognition, and risk assessment tools?",
+        "What are risk assessment algorithms — and how do they affect bail, sentencing, and parole decisions?",
+        "What evidence exists that AI in criminal justice reproduces racial disparities — and what does the data show?",
+        "What is the problem with using historical crime data to predict future crime — and who does it target?",
+        "How do defendants challenge AI-based decisions — and what happens when the algorithm is a trade secret?",
+        "What reforms have been proposed or implemented — and which jurisdictions have restricted AI in justice?",
+        "What is the fundamental tension between efficiency and fairness in AI-assisted criminal justice?"
+      ],
+      "tags": ["law", "bias", "ai-ml", "criminal-justice"]
+    },
+    {
+      "name": "AI and Employment Harm",
+      "topics": [
+        "How does AI affect hiring — resume screening, video interview analysis, and automated rejection?",
+        "What are the documented harms of AI hiring tools — filtering out qualified candidates based on protected characteristics?",
+        "How does AI-driven surveillance affect workers — productivity monitoring, keystroke logging, and behavior scoring?",
+        "What happens to workers displaced by AI automation — and what support systems exist?",
+        "How does the gig economy use AI to manage, rate, and deactivate workers?",
+        "What labor protections are needed in an AI-automated economy — and who is advocating for them?",
+        "What is the difference between AI augmenting workers and AI replacing workers — and who decides which happens?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "ai-ml", "labor"]
+    },
+    {
+      "name": "Misinformation, Deepfakes, and Manipulation",
+      "topics": [
+        "How does AI enable the creation and spread of misinformation at unprecedented scale?",
+        "What are the risks of deepfakes — in politics, fraud, harassment, and public trust?",
+        "How do AI-powered bot networks manipulate public discourse — and what can be done about it?",
+        "What is the impact of AI-generated propaganda on elections and democratic processes?",
+        "How does AI-generated content erode the concept of evidence — when anything can be faked?",
+        "What detection tools exist for AI-generated misinformation — and what are their limitations?",
+        "What is the societal cost of a world where no one can trust what they see, hear, or read?"
+      ],
+      "tags": ["media", "misinformation", "ai-ml", "deepfakes"]
     },
     {
       "name": "Safety, Misuse, and Dual-Use Concerns",
-      "topics": [],
-      "tags": [
-        "ethics",
-        "governance",
-        "human-rights",
-        "ai-ml"
-      ]
+      "topics": [
+        "What are dual-use concerns — when AI technology created for beneficial purposes can also be weaponized?",
+        "How can AI be misused for cyberattacks, autonomous weapons, and biological threat design?",
+        "What is the risk of AI systems behaving in unintended ways — and what does 'alignment' mean in this context?",
+        "How do AI capabilities in chemistry and biology create biosafety risks?",
+        "What safeguards exist to prevent AI misuse — and how effective are they?",
+        "What is the debate over open-sourcing powerful AI models — access vs. safety?",
+        "How do AI developers balance making systems useful with preventing harmful applications?"
+      ],
+      "tags": ["ethics", "security", "ai-ml", "risk-assessment"]
     },
     {
-      "name": "Regulation, Standards, and Oversight Efforts",
-      "topics": [],
-      "tags": [
-        "technology",
-        "governance",
-        "regulation",
-        "ai-ml"
-      ]
+      "name": "Environmental Costs of AI",
+      "topics": [
+        "How much energy does AI training and inference consume — and how is that growing?",
+        "What is the carbon footprint of a large language model — and how does it compare to other activities?",
+        "How much water do data centers use for cooling — and where does that water come from?",
+        "What are the mining and manufacturing costs of the hardware that AI requires — GPUs, chips, and servers?",
+        "How does the environmental cost of AI affect climate goals and sustainability commitments?",
+        "What efforts exist to make AI more energy-efficient — smaller models, better hardware, greener data centers?",
+        "Who should bear the environmental costs of AI — the companies, the users, or the public?"
+      ],
+      "tags": ["environment", "sustainability", "ai-ml", "data-centers"]
+    },
+    {
+      "name": "Concentration of Power",
+      "topics": [
+        "How does the enormous cost of building frontier AI concentrate power in a few companies?",
+        "What are the implications when a handful of corporations control the technology that shapes information, employment, and public discourse?",
+        "How does the AI talent pipeline reinforce concentration — top researchers moving between the same few companies?",
+        "What happens to competition when AI creates winner-take-all dynamics in industry after industry?",
+        "How do AI companies influence the regulations meant to govern them — lobbying, revolving doors, and self-regulation?",
+        "What are the geopolitical implications of AI concentration — the US and China as the only frontier AI powers?",
+        "What alternative models exist — public AI, cooperative AI, and distributed development?"
+      ],
+      "tags": ["economics", "governance", "ai-ml", "inequality"]
+    },
+    {
+      "name": "Accountability: Who Is Responsible When AI Causes Harm?",
+      "topics": [
+        "When an AI system causes harm, who is legally responsible — the developer, the deployer, or the user?",
+        "What is the accountability gap — and why is it so hard to hold anyone responsible for AI-caused harm?",
+        "How do existing legal frameworks — tort law, product liability, professional negligence — apply to AI?",
+        "What happens when the AI system is a black box — and no one can explain why it made a harmful decision?",
+        "What are the arguments for strict liability for AI systems — holding developers responsible regardless of fault?",
+        "How do insurance, indemnification, and risk allocation work when AI is involved?",
+        "What new legal frameworks are being proposed to address AI accountability — and where are they being adopted?"
+      ],
+      "tags": ["law", "accountability", "ai-ml", "governance"]
+    },
+    {
+      "name": "Regulation: What Governments Are Doing",
+      "topics": [
+        "What is the EU AI Act — and how does it categorize AI systems by risk level?",
+        "What is the US approach to AI regulation — fragmented, sector-specific, and largely voluntary?",
+        "How does China regulate AI — with a focus on content control and social stability?",
+        "What are other national approaches — the UK, Canada, Brazil, India, and others?",
+        "What are the challenges of regulating technology that changes faster than legislation?",
+        "How do industry self-regulation and voluntary commitments compare to government regulation?",
+        "What would effective AI regulation look like — and what are the risks of getting it wrong?"
+      ],
+      "tags": ["law", "regulation", "ai-policy", "governance"]
+    },
+    {
+      "name": "Standards, Audits, and Transparency",
+      "topics": [
+        "What are AI standards — and what organizations are developing them (ISO, NIST, IEEE)?",
+        "What is an AI audit — and how does it evaluate a system for bias, safety, and compliance?",
+        "What is algorithmic transparency — and what does meaningful transparency actually require?",
+        "How do model cards and data sheets help communicate what an AI system can and cannot do?",
+        "What is the role of third-party testing and red-teaming in identifying AI risks before deployment?",
+        "How do impact assessments work — evaluating the social effects of an AI system before it goes live?",
+        "Why is the gap between transparency commitments and actual transparency one of the biggest problems in AI governance?"
+      ],
+      "tags": ["technology", "transparency", "ai-policy", "governance"]
+    },
+    {
+      "name": "The Future of AI Governance",
+      "topics": [
+        "What are the biggest unresolved questions in AI governance — and why are they so hard?",
+        "How should society balance innovation with precaution — and who gets to decide?",
+        "What role should international cooperation play in AI governance — treaties, standards, and shared norms?",
+        "How do you govern AI in a world where the technology is advancing faster than institutions can respond?",
+        "What can we learn from how other transformative technologies were governed — nuclear, pharmaceutical, financial?",
+        "What is the role of civil society, academia, and the public in shaping AI governance?",
+        "What does good AI governance look like — protecting people, preserving innovation, and maintaining democratic accountability?"
+      ],
+      "tags": ["politics", "governance", "ai-policy", "regulation"]
     }
   ]
 }

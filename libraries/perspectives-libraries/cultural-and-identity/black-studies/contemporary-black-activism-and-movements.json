@@ -1,0 +1,183 @@
+{
+  "name": "Contemporary Black Activism and Movements",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "Black Lives Matter",
+    "contemporary activism",
+    "social movements",
+    "police reform",
+    "racial justice"
+  ],
+  "chapters": [
+    {
+      "name": "From Civil Rights to Mass Incarceration: The Backlash Era",
+      "topics": [
+        "How did the gains of the Civil Rights Movement provoke a backlash that reshaped American politics?",
+        "What was the 'Southern Strategy,' and how did the Republican Party use racial resentment to win white voters?",
+        "How did the War on Drugs, launched under Nixon and escalated under Reagan, disproportionately target Black communities?",
+        "What was the role of the 1994 crime bill in accelerating mass incarceration of Black Americans?",
+        "How did the prison population grow from 300,000 in 1970 to over 2 million by 2000, with Black Americans vastly overrepresented?",
+        "Why do scholars like Michelle Alexander describe mass incarceration as 'the New Jim Crow'?"
+      ],
+      "tags": [
+        "politics",
+        "justice",
+        "civil-rights",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Police Violence and the Fight for Accountability",
+      "topics": [
+        "How has police violence against Black Americans — from Rodney King to George Floyd — driven contemporary activism?",
+        "What patterns do studies reveal about racial disparities in police use of force, stops, searches, and arrests?",
+        "How did the acquittal of Trayvon Martin's killer in 2013 galvanize a new generation of Black activists?",
+        "What role has video evidence — from cell phones to body cameras — played in documenting police violence?",
+        "How have qualified immunity, police unions, and internal review processes shielded officers from accountability?",
+        "What reforms have been proposed — from community oversight boards to ending qualified immunity to police abolition?"
+      ],
+      "tags": [
+        "politics",
+        "justice",
+        "policing",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Black Lives Matter: Origins, Growth, and Impact",
+      "topics": [
+        "How did Alicia Garza, Patrisse Cullors, and Opal Tometi create the #BlackLivesMatter hashtag and movement after Trayvon Martin's death?",
+        "How did the movement grow from a hashtag to a decentralized national network of chapters?",
+        "What were the Ferguson protests of 2014, and how did Michael Brown's killing catalyze mass demonstrations?",
+        "How does Black Lives Matter differ from earlier civil rights organizations in its structure, leadership model, and use of social media?",
+        "What policy changes has the movement achieved at local, state, and national levels?",
+        "What criticisms have been directed at BLM — from both the right and within Black activist communities?"
+      ],
+      "tags": [
+        "politics",
+        "activism",
+        "civil-rights",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "The George Floyd Uprising of 2020",
+      "topics": [
+        "What happened in Minneapolis on May 25, 2020, and how did George Floyd's murder ignite the largest protest movement in American history?",
+        "How did protests spread to all 50 states and cities worldwide, with an estimated 15-26 million participants?",
+        "What demands emerged — defund the police, end qualified immunity, invest in communities?",
+        "How did the movement force a national conversation about systemic racism that extended beyond policing?",
+        "What was the backlash against the 2020 protests — from law enforcement, politicians, and media?",
+        "What lasting changes resulted from the 2020 uprising, and what demands remain unmet?"
+      ],
+      "tags": [
+        "politics",
+        "activism",
+        "civil-rights",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "The Abolition Movement: Prisons, Police, and Radical Imagination",
+      "topics": [
+        "What does the contemporary abolition movement advocate — the elimination of prisons and police as primary responses to harm?",
+        "How does Angela Davis's work connect prison abolition to the broader history of racial domination?",
+        "What are the intellectual foundations of abolition — from Du Bois's 'abolition democracy' to Ruth Wilson Gilmore's analysis of the prison-industrial complex?",
+        "What alternatives to policing and incarceration do abolitionists propose — transformative justice, community accountability, investment in social services?",
+        "How does the abolition framework differ from reform — and why do abolitionists argue that reform is insufficient?",
+        "What does it mean to build a society that doesn't need prisons, and is that vision achievable?"
+      ],
+      "tags": [
+        "politics",
+        "justice",
+        "civil-rights",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Voting Rights and Electoral Organizing",
+      "topics": [
+        "How has the Shelby County v. Holder decision in 2013 — gutting the Voting Rights Act — enabled a new wave of voter suppression?",
+        "What voter suppression tactics are currently used — voter ID laws, purges, polling place closures, gerrymandering?",
+        "How did Stacey Abrams's organizing in Georgia demonstrate the power of Black voter mobilization?",
+        "What role do Black voters play in American electoral politics, and how do both parties engage or ignore them?",
+        "How does felon disenfranchisement disproportionately remove Black citizens from the electorate?",
+        "What is the current state of the fight for voting rights, and what federal legislation has been proposed?"
+      ],
+      "tags": [
+        "politics",
+        "democracy",
+        "voting-rights",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Black Queer and Trans Activism",
+      "topics": [
+        "How have Black queer and trans people been at the forefront of contemporary social justice movements?",
+        "What is the specific violence faced by Black trans women, who experience disproportionate rates of murder and discrimination?",
+        "How did Marsha P. Johnson and other Black and brown trans women play founding roles in the LGBTQ+ rights movement?",
+        "What tensions exist around LGBTQ+ inclusion within Black communities, churches, and political organizations?",
+        "How does intersectional organizing address the overlapping oppressions of race, gender identity, sexuality, and class?",
+        "What movements and organizations center Black queer and trans lives and leadership?"
+      ],
+      "tags": [
+        "society",
+        "activism",
+        "gender",
+        "race"
+      ]
+    },
+    {
+      "name": "Digital Activism and the Role of Social Media",
+      "topics": [
+        "How has social media transformed Black activism — enabling rapid mobilization, documentation of injustice, and narrative control?",
+        "What role did Twitter play in the emergence of Black Lives Matter and other hashtag movements?",
+        "How does 'Black Twitter' function as a public sphere for Black cultural and political expression?",
+        "What are the limitations and dangers of digital activism — surveillance, harassment, slacktivism, platform manipulation?",
+        "How have activists used live streaming, TikTok, and other platforms to document police violence and organize protests?",
+        "What is the relationship between online activism and on-the-ground organizing?"
+      ],
+      "tags": [
+        "technology",
+        "activism",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "Environmental Justice and Climate Activism",
+      "topics": [
+        "How does the environmental justice movement connect racial inequality to environmental harm?",
+        "What role do Black communities play in the climate justice movement — from frontline resistance to policy advocacy?",
+        "How does the concept of 'sacrifice zones' describe communities — often Black and brown — that bear the burden of pollution?",
+        "What Black-led environmental organizations are fighting for clean air, water, and land in their communities?",
+        "How does climate change disproportionately affect Black communities through heat exposure, flooding, and displacement?",
+        "What would a racially equitable climate policy look like?"
+      ],
+      "tags": [
+        "society",
+        "activism",
+        "health",
+        "americas"
+      ]
+    },
+    {
+      "name": "The Future of Black Activism",
+      "topics": [
+        "What generational shifts are reshaping Black activism — younger, more intersectional, more radical?",
+        "How do contemporary movements balance local organizing with national and global solidarity?",
+        "What is the relationship between electoral politics and movement politics in contemporary Black activism?",
+        "How are Black activists in the U.S. connecting with movements in Africa, the Caribbean, Europe, and Latin America?",
+        "What role does mutual aid — direct community support rather than institutional charity — play in contemporary organizing?",
+        "What would it take to achieve the lasting structural change that Black movements have demanded for generations?"
+      ],
+      "tags": [
+        "politics",
+        "activism",
+        "civil-rights",
+        "americas"
+      ]
+    }
+  ]
+}

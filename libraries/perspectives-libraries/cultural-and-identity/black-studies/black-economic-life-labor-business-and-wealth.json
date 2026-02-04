@@ -1,0 +1,166 @@
+{
+  "name": "Black Economic Life: Labor, Business, and Wealth",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "Black economics",
+    "racial wealth gap",
+    "labor history",
+    "economic justice",
+    "Black business"
+  ],
+  "chapters": [
+    {
+      "name": "Slavery as an Economic System",
+      "topics": [
+        "How did enslaved labor generate the wealth that built the American economy — from cotton to finance?",
+        "What was the economic value of enslaved people as property, and how were they used as collateral, traded, and insured?",
+        "How did Northern banks, insurance companies, and textile mills profit directly from Southern slavery?",
+        "What economic argument do historians make when they say slavery was modern capitalism, not a premodern relic?",
+        "How much wealth was extracted from enslaved labor over 250 years, and where did it go?",
+        "Why is understanding slavery as economics — not just morality — essential for understanding the racial wealth gap?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "modern-history",
+        "americas"
+      ]
+    },
+    {
+      "name": "Sharecropping, Debt Peonage, and Economic Subjugation After Slavery",
+      "topics": [
+        "How did sharecropping replace slavery with a system that kept Black farmers in permanent economic dependency?",
+        "What were crop lien laws, and how did they trap sharecroppers in cycles of debt?",
+        "How did convict leasing create a system of forced labor that was in some ways worse than slavery?",
+        "What happened to the promise of land redistribution — '40 acres and a mule' — and how did its failure shape Black economic life?",
+        "How did Black farmers who managed to acquire land face theft through tax sales, fraud, and violence?",
+        "What was the long-term economic impact of denying formerly enslaved people access to land and capital?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "Black Labor and the American Worker",
+      "topics": [
+        "How were Black workers systematically excluded from skilled trades, unions, and industrial employment?",
+        "What was the Brotherhood of Sleeping Car Porters, and how did A. Philip Randolph build the first major Black labor union?",
+        "How did Black workers serve as strikebreakers — often the only jobs available to them — and how did that create racial tensions?",
+        "What role did Black women play in the labor force — as domestic workers, laundresses, and later factory workers?",
+        "How did the Great Migration transform Black workers from agricultural laborers into industrial workers?",
+        "What was the impact of deindustrialization on Black communities that had built their middle class around factory jobs?"
+      ],
+      "tags": [
+        "economics",
+        "labor",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "Black Entrepreneurship and Business Districts",
+      "topics": [
+        "What was Black Wall Street in Tulsa, Oklahoma, and how did its destruction in 1921 reveal the violent enforcement of Black economic subordination?",
+        "How did Black business districts develop in segregated cities — Durham, Atlanta, Chicago, Harlem?",
+        "What role did Black-owned banks, insurance companies, and newspapers play in community economic life?",
+        "How did Madam C.J. Walker become the first self-made female millionaire in America through hair care products?",
+        "What obstacles did Black entrepreneurs face — lack of access to capital, exclusion from markets, white economic violence?",
+        "How did integration both open new opportunities and destroy some Black businesses that had thrived under segregation?"
+      ],
+      "tags": [
+        "economics",
+        "trade",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "Housing Discrimination and the Racial Wealth Gap",
+      "topics": [
+        "How did federal housing policy — redlining, restrictive covenants, discriminatory lending — systematically exclude Black Americans from homeownership?",
+        "What was redlining, and how did the Home Owners' Loan Corporation's maps determine which neighborhoods would receive investment?",
+        "How did the GI Bill, which theoretically benefited all veterans, disproportionately exclude Black veterans from its housing and education benefits?",
+        "What is the racial wealth gap today — the median Black family has roughly one-tenth the wealth of the median white family — and how was it created?",
+        "How did predatory lending target Black homeowners in the lead-up to the 2008 financial crisis?",
+        "Why is housing policy the single most important factor in explaining the racial wealth gap?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "housing",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "The Black Middle Class: Growth, Fragility, and Paradox",
+      "topics": [
+        "How did the Black middle class grow dramatically after the Civil Rights Movement and the opening of professional opportunities?",
+        "Why is the Black middle class more fragile than the white middle class — with less wealth, more debt, and greater vulnerability to economic shocks?",
+        "How do college-educated Black Americans still face a wealth gap compared to white Americans with similar education?",
+        "What role do government employment, the military, and HBCUs play in Black middle-class formation?",
+        "How does residential segregation affect Black middle-class families — who often live in neighborhoods with fewer resources than white families of similar income?",
+        "What does the existence of a Black middle class mean for arguments about systemic racism — does it prove progress or reveal persistent inequality?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "Black Poverty, Mass Incarceration, and Economic Exclusion",
+      "topics": [
+        "What are the structural causes of Black poverty — not individual failure but systemic exclusion from wealth-building opportunities?",
+        "How does mass incarceration function as an economic system that extracts labor and destroys wealth in Black communities?",
+        "What is the economic impact of a criminal record on employment, housing, and civic participation?",
+        "How do food deserts, banking deserts, and transportation barriers create economic isolation in Black neighborhoods?",
+        "What is the school-to-prison pipeline, and how does it divert Black youth from economic opportunity?",
+        "How do payday lending, check cashing, and other predatory financial services extract wealth from Black communities?"
+      ],
+      "tags": [
+        "economics",
+        "inequality",
+        "race",
+        "americas"
+      ]
+    },
+    {
+      "name": "Reparations and Economic Justice",
+      "topics": [
+        "What is the economic case for reparations — that the racial wealth gap is the direct result of centuries of theft?",
+        "How have reparations proposals been structured — from HR 40 to baby bonds to direct payments?",
+        "What do economists estimate as the economic value of unpaid slave labor, stolen land, and denied opportunities?",
+        "How have other reparations programs worked — Japanese American internment compensation, German payments to Holocaust survivors?",
+        "What is the relationship between reparations and broader economic justice — universal programs versus race-specific ones?",
+        "Why has reparations moved from a fringe idea to mainstream political discussion?"
+      ],
+      "tags": [
+        "economics",
+        "justice",
+        "race",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Contemporary Black Economics: Tech, Media, and New Wealth",
+      "topics": [
+        "How has Black entrepreneurship evolved in the tech era — from Silicon Valley's diversity problem to Black-founded startups?",
+        "What role do Black cultural producers — athletes, musicians, entertainers — play in wealth creation and economic influence?",
+        "How has social media enabled new forms of Black economic activity — influencers, direct-to-consumer brands, crowdfunding?",
+        "What is the 'buy Black' movement, and what are its economic possibilities and limitations?",
+        "How do cryptocurrency, decentralized finance, and other financial innovations intersect with Black economic empowerment?",
+        "What would genuine economic equality look like, and what structural changes would be required to achieve it?"
+      ],
+      "tags": [
+        "economics",
+        "technology",
+        "race",
+        "americas"
+      ]
+    }
+  ]
+}

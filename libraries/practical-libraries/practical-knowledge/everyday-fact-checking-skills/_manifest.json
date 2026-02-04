@@ -3,8 +3,15 @@
     "slug": "evaluating-sources-and-expertise",
     "name": "Evaluating Sources and Expertise",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "source evaluation",
+      "media literacy",
+      "critical thinking",
+      "credibility",
+      "expertise"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
     "slug": "quick-checks-before-you-believe-or-share",
@@ -17,7 +24,14 @@
     "slug": "tools-and-techniques-for-verifying-information",
     "name": "Tools and Techniques for Verifying Information",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "verification tools",
+      "fact-checking",
+      "digital investigation",
+      "media literacy",
+      "open source intelligence"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   }
 ]

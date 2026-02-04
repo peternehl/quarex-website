@@ -1,45 +1,169 @@
 {
   "name": "Evaluating Sources and Expertise",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "source evaluation",
+    "media literacy",
+    "critical thinking",
+    "credibility",
+    "expertise"
+  ],
   "chapters": [
     {
-      "name": "Credible Institutions vs Random Accounts",
-      "topics": [],
-      "tags": [
-        "society",
-        "critical-thinking",
-        "misinformation",
-        "propaganda"
-      ]
+      "name": "Why Source Evaluation Matters",
+      "topics": [
+        "Why is it important to evaluate where information comes from — and not just whether it sounds right?",
+        "How does the quality of your sources determine the quality of your beliefs and decisions?",
+        "What happens when people accept information without checking the source — at the personal and societal level?",
+        "How has the internet made source evaluation both more important and more difficult?",
+        "What is the difference between evaluating a source and evaluating a claim — and why do you need both?",
+        "How does source evaluation protect you from manipulation by advertisers, propagandists, and scammers?",
+        "Why is source evaluation a skill that requires practice — not just a checklist?"
+      ],
+      "tags": ["media", "critical-thinking", "source-evaluation", "media-literacy"]
+    },
+    {
+      "name": "Credible Institutions vs. Random Accounts",
+      "topics": [
+        "What makes an institution credible — editorial standards, accountability, track record, and transparency?",
+        "How do you assess whether a news organization, university, or government agency is a reliable source?",
+        "What are the differences between institutional sources, independent journalists, and anonymous social media accounts?",
+        "Why can anonymous accounts sometimes break important stories — and how do you evaluate them when they do?",
+        "What is the difference between a primary source, a secondary source, and an aggregator — and which should you trust most?",
+        "How do you evaluate a website you've never heard of — what signals indicate credibility or the lack of it?",
+        "What role do reputation, corrections policies, and institutional memory play in making a source trustworthy?"
+      ],
+      "tags": ["media", "critical-thinking", "source-evaluation", "journalism"]
     },
     {
       "name": "Signals of Expertise and Peer Review",
-      "topics": [],
-      "tags": [
-        "ethics",
-        "critical-thinking",
-        "misinformation",
-        "democracy"
-      ]
+      "topics": [
+        "What makes someone an expert — education, experience, publication record, or peer recognition?",
+        "How do you distinguish a genuine expert from someone who sounds authoritative but lacks credentials?",
+        "What is peer review — and why is it the gold standard for scientific and academic claims?",
+        "What are the limitations of peer review — and when has it failed to catch errors or fraud?",
+        "How do you evaluate expertise in fields you know nothing about — what shortcuts are reliable?",
+        "What is the difference between an expert giving an opinion within their field and an expert opining outside it?",
+        "How do interest groups, corporations, and governments find or fund experts to support their preferred narratives?"
+      ],
+      "tags": ["ethics", "critical-thinking", "source-evaluation", "research-methods"]
     },
     {
       "name": "Understanding Bias and Editorial Slant",
-      "topics": [],
-      "tags": [
-        "media",
-        "critical-thinking",
-        "bias",
-        "propaganda"
-      ]
+      "topics": [
+        "What is editorial bias — and does every source have some degree of it?",
+        "How do you identify the political leaning of a news source — and what tools and ratings exist?",
+        "What is the difference between bias in story selection, bias in framing, and bias in factual reporting?",
+        "How does ownership affect editorial direction — and why does it matter who owns a news outlet?",
+        "What is the difference between a biased source and an unreliable source — and can a biased source still be factually accurate?",
+        "How do you use biased sources productively — reading across the spectrum rather than avoiding all bias?",
+        "What is false balance — and when does giving 'both sides' actually distort the truth?"
+      ],
+      "tags": ["media", "bias", "journalism", "critical-thinking"]
     },
     {
       "name": "Separating News, Opinion, and Rumor",
-      "topics": [],
-      "tags": [
-        "media",
-        "misinformation",
-        "critical-thinking",
-        "democracy"
-      ]
+      "topics": [
+        "What is the difference between a news report, an opinion column, an editorial, and an analysis piece?",
+        "Why do many people confuse opinion content for news — and how do media outlets blur the line?",
+        "How do you identify whether something you're reading is reporting facts, interpreting facts, or advocating a position?",
+        "What is rumor — and how does it spread differently from verified news?",
+        "How do social media platforms collapse the distinction between news, opinion, satire, and rumor?",
+        "What is the difference between a leak, a rumor, and a sourced report — and how do you evaluate each?",
+        "How do cable news and talk radio blend news and opinion in ways that confuse audiences?"
+      ],
+      "tags": ["media", "misinformation", "journalism", "media-literacy"]
+    },
+    {
+      "name": "Evaluating Scientific and Health Claims",
+      "topics": [
+        "How do you evaluate a scientific claim you encounter in the news or on social media?",
+        "What is the difference between a single study, a review article, and scientific consensus?",
+        "How do you spot cherry-picked science — when someone cites one study while ignoring a hundred others?",
+        "What are preprints — and why should you treat them differently from peer-reviewed publications?",
+        "How do pharmaceutical companies, food companies, and supplement makers use science selectively to market products?",
+        "What are the warning signs of pseudoscience — and how does it mimic the appearance of real science?",
+        "How do you find trustworthy health information — and what sources should you avoid?"
+      ],
+      "tags": ["science", "critical-thinking", "source-evaluation", "public-health"]
+    },
+    {
+      "name": "Evaluating Government and Official Sources",
+      "topics": [
+        "How reliable are government data sources — census data, economic statistics, crime reports?",
+        "When do governments manipulate official statistics — and what are the warning signs?",
+        "How do you evaluate press releases, official statements, and government reports?",
+        "What is the difference between a government agency's data and a politician's interpretation of that data?",
+        "How do you access primary government documents — court filings, legislation, regulatory filings?",
+        "What happens to the credibility of government sources when political leaders undermine their own institutions?",
+        "How do international organizations — WHO, UN, IMF — produce data, and how reliable is it?"
+      ],
+      "tags": ["politics", "transparency", "source-evaluation", "journalism"]
+    },
+    {
+      "name": "Evaluating Social Media as a Source",
+      "topics": [
+        "When is social media a legitimate source of information — eyewitness accounts, breaking news, expert commentary?",
+        "How do you verify a social media post — checking the account, the timing, and the claims?",
+        "What are the signs that a social media account is a bot, a troll, or an astroturfed persona?",
+        "How do viral posts gain credibility through repetition rather than verification?",
+        "Why do screenshots of tweets, texts, and documents spread faster than the original sources — and why is that dangerous?",
+        "How does the algorithmic amplification of engagement distort which voices appear authoritative?",
+        "What questions should you ask before sharing or believing anything you see on social media?"
+      ],
+      "tags": ["media", "misinformation", "social-media", "media-literacy"]
+    },
+    {
+      "name": "Following the Money: Funding and Motivation",
+      "topics": [
+        "Why does knowing who funds a source help you evaluate its credibility?",
+        "How do you find out who owns or funds a news outlet, think tank, or research organization?",
+        "What are dark money organizations — and how do they produce content that looks independent but isn't?",
+        "How do corporate-funded studies, industry-backed think tanks, and sponsored content create the appearance of objectivity?",
+        "What is native advertising — and how does it disguise advertising as journalism?",
+        "How do political donors fund media outlets and information ecosystems to advance their agendas?",
+        "What role does financial transparency play in source credibility?"
+      ],
+      "tags": ["economics", "transparency", "source-evaluation", "journalism"]
+    },
+    {
+      "name": "The Ecosystem of Unreliable Sources",
+      "topics": [
+        "What are the main categories of unreliable sources — partisan propaganda, conspiracy sites, content farms, and scams?",
+        "How do unreliable sources build credibility — professional-looking websites, stolen logos, and fake expert credentials?",
+        "What is a content farm — and how does it produce high-volume, low-quality content for advertising revenue?",
+        "How do conspiracy theories spread through an ecosystem of interconnected unreliable sources that cite each other?",
+        "What is information laundering — how does a false claim move from a fringe source to a mainstream one?",
+        "How do state-sponsored media outlets — RT, Xinhua, Press TV — present propaganda as legitimate journalism?",
+        "Why does the ecosystem of unreliable sources continue to grow — and what economic forces sustain it?"
+      ],
+      "tags": ["media", "misinformation", "propaganda", "media-literacy"]
+    },
+    {
+      "name": "When Experts Disagree",
+      "topics": [
+        "What do you do when credible experts disagree — how do you evaluate competing claims?",
+        "What is the difference between genuine scientific debate and manufactured controversy?",
+        "How do you weigh consensus against dissent — and when should you take a minority view seriously?",
+        "What role do credentials, evidence quality, and conflicts of interest play when experts disagree?",
+        "How has manufactured doubt been used by tobacco, fossil fuel, and pharmaceutical industries to delay action?",
+        "What is the Overton window — and how does it affect which expert views are considered mainstream?",
+        "How do you maintain intellectual humility when the evidence is genuinely uncertain?"
+      ],
+      "tags": ["science", "epistemology", "source-evaluation", "critical-thinking"]
+    },
+    {
+      "name": "Building Your Source Evaluation Habits",
+      "topics": [
+        "What is a practical source evaluation framework you can apply to any piece of information?",
+        "How do you build a mental list of trusted sources — and how do you keep it updated?",
+        "What are the most common mistakes people make when evaluating sources — and how do you avoid them?",
+        "How do you teach source evaluation to others — family, students, community members?",
+        "What tools and browser extensions help with quick source evaluation?",
+        "How do you balance thoroughness with practicality — you can't evaluate every source deeply?",
+        "Why is source evaluation a civic responsibility — not just a personal skill?"
+      ],
+      "tags": ["education", "critical-thinking", "source-evaluation", "media-literacy"]
     }
   ]
 }

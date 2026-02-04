@@ -1,45 +1,169 @@
 {
   "name": "Responsible Use and Human Judgment",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "responsible AI",
+    "human judgment",
+    "critical thinking",
+    "AI literacy",
+    "decision-making"
+  ],
   "chapters": [
     {
       "name": "AI as a Tool, Not an Oracle",
-      "topics": [],
-      "tags": [
-        "technology",
-        "critical-thinking",
-        "ai-ml",
-        "ethics"
-      ]
+      "topics": [
+        "What does it mean to treat AI as a tool rather than an authority — and why does the distinction matter?",
+        "Why do people tend to defer to AI outputs — and what psychological factors drive over-reliance?",
+        "What is automation bias — the tendency to trust automated systems even when they're wrong?",
+        "How does the confidence and fluency of AI output make it harder to question?",
+        "What is the difference between using AI to inform a decision and using AI to make a decision?",
+        "When should AI have the final word — and when should a human always override it?",
+        "What happens when organizations treat AI predictions as facts rather than estimates?"
+      ],
+      "tags": ["technology", "critical-thinking", "ai-ml", "epistemology"]
+    },
+    {
+      "name": "When AI Gets It Right — and When It Doesn't",
+      "topics": [
+        "In what domains does AI perform reliably — and what makes those domains suitable for AI?",
+        "What are the characteristics of problems where AI consistently fails — ambiguity, novelty, ethical nuance?",
+        "How do you assess whether a specific AI application is trustworthy based on its track record?",
+        "What is the difference between AI performing well on average and AI performing well in your specific case?",
+        "What are the consequences of AI errors in different domains — medicine, law, hiring, and navigation?",
+        "How do you calibrate your trust in AI — neither blind faith nor blanket rejection?",
+        "What are real-world case studies of AI successes and failures — and what can we learn from both?"
+      ],
+      "tags": ["technology", "verification", "ai-ml", "critical-thinking"]
     },
     {
       "name": "Verification, Cross-Checking, and Skepticism",
-      "topics": [],
-      "tags": [
-        "ethics",
-        "critical-thinking",
-        "misinformation",
-        "ai-ml"
-      ]
+      "topics": [
+        "How do you verify AI-generated claims — what sources and methods should you use?",
+        "What does cross-checking mean in practice — comparing AI output against multiple independent sources?",
+        "How do you fact-check AI-generated text — especially when it sounds authoritative but may be hallucinated?",
+        "What are the limits of verification — when checking AI output requires expertise you don't have?",
+        "How do professionals — doctors, lawyers, journalists — verify AI output in their work?",
+        "What is healthy skepticism — and how does it differ from paranoia or dismissiveness?",
+        "How do you build verification into your workflow without it becoming so burdensome you abandon it?"
+      ],
+      "tags": ["ethics", "verification", "ai-ml", "fact-checking"]
+    },
+    {
+      "name": "The Human Skills AI Cannot Replace",
+      "topics": [
+        "What cognitive abilities do humans have that current AI fundamentally lacks?",
+        "What is judgment — and why can't AI replicate the contextual, values-based reasoning that humans use?",
+        "What is empathy — and why does it matter in decisions about people's lives?",
+        "What is ethical reasoning — and why does it require more than pattern matching on training data?",
+        "What is creativity in the sense of originality, intentionality, and meaning — and how does it differ from AI generation?",
+        "What is common sense — and why is it still one of AI's most intractable weaknesses?",
+        "How should the existence of AI change what skills humans invest in developing?"
+      ],
+      "tags": ["psychology", "critical-thinking", "ai-ml", "leadership"]
     },
     {
       "name": "Keeping Humans in the Loop",
-      "topics": [],
-      "tags": [
-        "ethics",
-        "human-rights",
-        "innovation",
-        "ai-ml"
-      ]
+      "topics": [
+        "What does 'human in the loop' mean — and what does genuine human oversight look like?",
+        "What is the difference between meaningful human review and rubber-stamping AI decisions?",
+        "How does the speed of AI decision-making create pressure to skip human review?",
+        "What happens when humans are 'in the loop' but lack the time, training, or authority to intervene?",
+        "How do you design systems where human oversight is effective rather than performative?",
+        "What are the high-stakes domains where human oversight is most critical — and where is it most lacking?",
+        "What is the 'out of the loop' problem — when humans become so dependent on AI that they can no longer function without it?"
+      ],
+      "tags": ["ethics", "governance", "ai-ml", "accountability"]
     },
     {
-      "name": "Building Personal AI Literacy Over Time",
-      "topics": [],
-      "tags": [
-        "technology",
-        "critical-thinking",
-        "ai-ml",
-        "digital-life"
-      ]
+      "name": "AI and Professional Responsibility",
+      "topics": [
+        "What is the responsibility of a professional who uses AI in their work — a doctor, lawyer, teacher, or engineer?",
+        "How does AI change the standard of care in professional practice — and who is liable when AI-assisted work goes wrong?",
+        "What are the ethical obligations of disclosure — should professionals tell clients when they use AI?",
+        "How should professional licensing and training adapt to an AI-augmented world?",
+        "What happens to professional expertise when AI handles the routine work — does skill atrophy?",
+        "How do you maintain professional judgment when AI handles more and more of the analysis?",
+        "What is the duty to understand AI's limitations — and is 'the AI told me' ever an acceptable excuse?"
+      ],
+      "tags": ["ethics", "accountability", "ai-ml", "workplace-dynamics"]
+    },
+    {
+      "name": "Teaching Children and Students About AI",
+      "topics": [
+        "What should children understand about AI at different ages — and how do you explain it honestly?",
+        "How do you help young people develop critical thinking about AI without creating fear?",
+        "What is the impact of AI on academic integrity — and how should schools respond?",
+        "How do you teach students to use AI as a learning tool rather than a shortcut that undermines learning?",
+        "What AI literacy skills should be part of every student's education?",
+        "How do parents manage AI use at home — screen time, chatbots, and AI-generated content?",
+        "What does it mean to prepare young people for a world where AI is pervasive — without knowing exactly what that world will look like?"
+      ],
+      "tags": ["education", "critical-thinking", "ai-ml", "media-literacy"]
+    },
+    {
+      "name": "AI and Decision-Making Under Pressure",
+      "topics": [
+        "How does time pressure affect the quality of human oversight over AI systems?",
+        "What happens when AI systems make recommendations in emergencies — military, medical, disaster response?",
+        "How do you maintain the ability to override AI when the stakes are highest and time is shortest?",
+        "What is the role of training and simulation in preparing humans to work with AI under pressure?",
+        "How do cognitive biases — anchoring, confirmation, authority — interact with AI-assisted decisions?",
+        "What design principles help humans make better decisions when working alongside AI?",
+        "What are the lessons from aviation, nuclear power, and military operations about human-machine decision-making?"
+      ],
+      "tags": ["psychology", "critical-thinking", "ai-ml", "risk-assessment"]
+    },
+    {
+      "name": "Building Personal AI Literacy",
+      "topics": [
+        "What does it mean to be AI literate — and what are the key concepts every person should understand?",
+        "How do you evaluate AI tools before using them — questions about accuracy, bias, privacy, and limitations?",
+        "What are the practical signs that AI output is unreliable — hedging language, vague sourcing, internal contradictions?",
+        "How do you stay informed about AI developments without being overwhelmed by hype or fear?",
+        "What are the best resources — books, courses, podcasts, organizations — for ongoing AI education?",
+        "How do you talk about AI with friends, family, and colleagues who have different levels of understanding?",
+        "Why is AI literacy a lifelong practice — not a one-time lesson — and how do you build it into your routine?"
+      ],
+      "tags": ["education", "critical-thinking", "ai-ml", "media-literacy"]
+    },
+    {
+      "name": "AI in Democracy: The Citizen's Responsibility",
+      "topics": [
+        "What responsibility do citizens have to understand AI — and how does ignorance affect democratic governance?",
+        "How does AI affect elections — through micro-targeting, synthetic media, and automated messaging?",
+        "What should voters know about AI to make informed choices about candidates and policies?",
+        "How do you evaluate political claims about AI — job creation, safety, innovation, and threats?",
+        "What questions should citizens ask about AI when it is used in government — policing, benefits, immigration?",
+        "How do you participate in AI governance as a citizen — public comment, advocacy, and civic engagement?",
+        "What is the cost of leaving AI decisions to technologists alone — and why does democracy require informed public participation?"
+      ],
+      "tags": ["politics", "democracy", "ai-ml", "media-literacy"]
+    },
+    {
+      "name": "Organizational Responsibility for AI",
+      "topics": [
+        "What obligations do organizations have when they deploy AI systems that affect people?",
+        "What is an AI impact assessment — and why should it be conducted before deployment?",
+        "How do you create organizational policies for responsible AI use — procurement, deployment, and monitoring?",
+        "What is algorithmic accountability — and how do you hold organizations responsible for AI outcomes?",
+        "What are the best practices for AI governance within companies, nonprofits, and government agencies?",
+        "How do you build a culture where questioning AI decisions is encouraged rather than punished?",
+        "What happens when organizations prioritize efficiency over responsibility in AI deployment?"
+      ],
+      "tags": ["ethics", "accountability", "ai-ml", "governance"]
+    },
+    {
+      "name": "The Judgment That Matters Most",
+      "topics": [
+        "What is the most important judgment a person can make about AI — knowing when to use it and when not to?",
+        "How do you develop the instinct to pause, question, and decide rather than accept AI output automatically?",
+        "What is the role of wisdom — accumulated experience and values — in guiding AI use?",
+        "How do you balance the productivity gains of AI with the integrity of your own thinking?",
+        "What does it mean to be responsible for outcomes even when AI contributed to the process?",
+        "How does maintaining your own expertise protect you in a world of increasingly capable AI?",
+        "What kind of relationship with AI serves humanity — and what kind undermines it?"
+      ],
+      "tags": ["psychology", "critical-thinking", "ai-ml", "leadership"]
     }
   ]
 }

@@ -1,0 +1,142 @@
+{
+  "name": "AI as a Force Multiplier for Knowledge Work",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "artificial intelligence",
+    "knowledge work",
+    "production systems",
+    "editorial judgment",
+    "leverage and scale"
+  ],
+  "chapters": [
+    {
+      "name": "Chatbot vs. Production Tool: Two Ways to Use AI",
+      "topics": [
+        "What is the difference between using AI conversationally and using it as a production system?",
+        "Why do most people treat AI like a search engine with better grammar — and what are they missing?",
+        "What does it mean to use AI to produce artifacts — structured files, databases, documents, code — rather than answers?",
+        "How does the value of AI change when you shift from asking questions to building systems?",
+        "What kinds of work benefit most from AI as a production tool — and which are better left to conversation?",
+        "Why does thinking of AI as a collaborator often lead to worse outcomes than thinking of it as an instrument?"
+      ],
+      "tags": ["technology", "innovation", "ai-ml", "computer-science"]
+    },
+    {
+      "name": "The Architect and the Engine",
+      "topics": [
+        "What is the role of the human when AI can generate content, code, and structure at scale?",
+        "How does the architect-engine model work — human makes strategic decisions, AI handles volume execution?",
+        "What decisions can AI not make — and why are those the ones that matter most?",
+        "How do you maintain editorial control when AI is producing faster than you can review?",
+        "What is the difference between directing AI and supervising AI — and which produces better work?",
+        "How does the quality of the human's judgment determine the quality of the AI's output?",
+        "Why does 'the AI did it' never work as an explanation for bad output?"
+      ],
+      "tags": ["technology", "systems-thinking", "ai-ml", "leadership"]
+    },
+    {
+      "name": "Building Compounding Assets",
+      "topics": [
+        "What is a compounding asset — and how does AI make it possible to build them faster?",
+        "How does each piece of work become more valuable when it connects to a growing system?",
+        "What is the difference between producing isolated outputs and producing assets that interlock?",
+        "How do tagging systems, indexes, and cross-references create network effects in a knowledge base?",
+        "Why is the 500th piece of content in a structured system worth more than the 1st?",
+        "How do you design a system where AI-generated work accumulates value rather than just accumulating volume?",
+        "What is the risk of producing a lot of content that doesn't connect to anything?"
+      ],
+      "tags": ["economics", "systems-thinking", "ai-ml", "data-science"]
+    },
+    {
+      "name": "Systematizing the Workflow",
+      "topics": [
+        "Why should you codify your AI workflow into a repeatable process before you need to repeat it?",
+        "What is a runbook — and how does writing one for your AI workflow make every subsequent iteration faster?",
+        "How do templates, schemas, and structured formats reduce error and increase consistency in AI output?",
+        "What is the relationship between process discipline and creative output — does structure limit or enable creativity?",
+        "How do you know when a workflow is mature enough to systematize vs. when you're still learning?",
+        "What can software engineering's concepts of automation, version control, and continuous integration teach knowledge workers?",
+        "How does systematizing a workflow allow you to delegate parts of it — to other people or to AI?"
+      ],
+      "tags": ["technology", "methodology", "software-engineering", "automation"]
+    },
+    {
+      "name": "The Judgment Layer",
+      "topics": [
+        "What decisions require human judgment that AI cannot replicate — and how do you identify them?",
+        "How do timing, audience awareness, and strategic context shape decisions that AI has no access to?",
+        "What is the role of taste, editorial instinct, and domain expertise in directing AI output?",
+        "Why does knowing when to stop, defer, or change direction matter more than knowing how to prompt?",
+        "How do you develop judgment about AI output — when to trust it, when to verify, when to discard?",
+        "What is the cost of automating decisions that should have been made by a human?",
+        "How does the quality of the questions you ask determine the quality of the system you build?"
+      ],
+      "tags": ["psychology", "critical-thinking", "ai-ml", "leadership"]
+    },
+    {
+      "name": "Quality Control: Using the System to Check the System",
+      "topics": [
+        "What does it mean to use the system you're building to validate the system you're building?",
+        "How do engineers use self-referential testing — and how does that principle apply to AI-assisted knowledge work?",
+        "What are the practical methods for checking AI output: cross-referencing, consistency checks, structural validation?",
+        "How do you catch errors that AI doesn't know it's making — hallucinations, drift, silent failures?",
+        "What is the role of indexes, counts, and checksums in maintaining integrity at scale?",
+        "Why does building in public — where errors are visible — create better quality than building in private?",
+        "How do you design a feedback loop where each correction improves the process, not just the output?"
+      ],
+      "tags": ["technology", "verification", "ai-ml", "research-methods"]
+    },
+    {
+      "name": "Scale Without Loss of Coherence",
+      "topics": [
+        "How do you maintain quality, consistency, and coherence as AI helps you scale from 10 outputs to 1,000?",
+        "What is the role of controlled vocabularies, style guides, and structural rules in preventing drift?",
+        "How do you balance the speed of AI production with the need for each piece to meet a standard?",
+        "What happens when you scale too fast — what are the symptoms of a system that grew beyond its quality controls?",
+        "How do you decide between batching work (doing many at once) and sequencing work (doing one at a time)?",
+        "What is the relationship between the number of things you produce and the usefulness of each one?",
+        "How do you know when to stop growing and start refining?"
+      ],
+      "tags": ["technology", "scale", "ai-ml", "data-analytics"]
+    },
+    {
+      "name": "One Person, Many Outputs: The Solo Builder Model",
+      "topics": [
+        "What becomes possible when one person with AI can produce what previously required a team?",
+        "How does the solo builder model change the economics of knowledge work, publishing, and media?",
+        "What are the actual bottlenecks for a solo builder — and which ones does AI eliminate vs. which remain?",
+        "How do you manage the cognitive load of directing AI across multiple domains simultaneously?",
+        "What is the risk of building something so large that no one person can maintain it?",
+        "How do solo builders decide what to automate, what to delegate to AI, and what to do themselves?",
+        "What does the solo builder model mean for organizations — does it make teams obsolete or does it change what teams do?"
+      ],
+      "tags": ["economics", "innovation", "automation", "entrepreneurship"]
+    },
+    {
+      "name": "Ethics of AI-Assisted Production",
+      "topics": [
+        "When you use AI to produce work, what are your obligations regarding attribution, disclosure, and transparency?",
+        "How do you ensure that AI-generated content meets the same ethical standards as human-generated content?",
+        "What is the difference between using AI to amplify your expertise and using AI to fake expertise you don't have?",
+        "How do you handle the labor displacement implications of work that AI makes possible for one person?",
+        "What responsibility does a system builder have for the accuracy and fairness of AI-generated content at scale?",
+        "How do you maintain intellectual honesty when AI can produce plausible-sounding content on any topic?",
+        "What does it mean to be the author of a system rather than the author of each piece within it?"
+      ],
+      "tags": ["ethics", "accountability", "ai-ml", "labor"]
+    },
+    {
+      "name": "What Comes Next: AI as Infrastructure",
+      "topics": [
+        "How does AI shift from being a tool you use to being infrastructure you build on?",
+        "What happens when the systems you build with AI become platforms that others use?",
+        "How does the force multiplier effect compound when multiple people use AI within a shared system?",
+        "What are the emerging patterns — AI agents, autonomous workflows, self-improving systems — and what do they mean for knowledge work?",
+        "How do you prepare for a world where AI capabilities improve faster than your ability to redesign workflows?",
+        "What is the endgame — does AI make human knowledge work more valuable or less?",
+        "What does it mean to build something that serves humanity, not just efficiency?"
+      ],
+      "tags": ["technology", "frontiers", "ai-ml", "systems-thinking"]
+    }
+  ]
+}

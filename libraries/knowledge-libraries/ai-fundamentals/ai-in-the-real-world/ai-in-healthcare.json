@@ -1,0 +1,166 @@
+{
+  "name": "AI in Healthcare",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "artificial intelligence",
+    "healthcare",
+    "medical technology",
+    "patient safety",
+    "health equity"
+  ],
+  "chapters": [
+    {
+      "name": "Why Healthcare Is an AI Battleground",
+      "topics": [
+        "Why is healthcare one of the highest-stakes domains for AI deployment?",
+        "What makes medical decision-making different from other AI applications — what's unique about the consequences of error?",
+        "How does the volume of medical data — imaging, genomics, clinical notes — create both opportunity and risk?",
+        "What are the competing interests of patients, doctors, hospitals, insurers, and tech companies in healthcare AI?",
+        "How do different countries approach AI in medicine — and what drives those differences?",
+        "What is the difference between AI that assists clinicians and AI that replaces clinical judgment?"
+      ],
+      "tags": ["health", "innovation", "ai-ml", "medicine"]
+    },
+    {
+      "name": "Diagnosis: AI That Reads Images and Scans",
+      "topics": [
+        "How does AI analyze medical images — X-rays, MRIs, CT scans, pathology slides — and how accurate is it?",
+        "In which diagnostic areas has AI matched or exceeded human radiologists?",
+        "What are the failure modes — when does diagnostic AI get it wrong, and why?",
+        "How does AI handle rare conditions that appear infrequently in training data?",
+        "What is the role of the radiologist when AI can flag abnormalities faster and more consistently?",
+        "How do hospitals decide whether to trust an AI diagnosis over a human one?",
+        "What happens in parts of the world where there are too few radiologists but smartphones are everywhere?"
+      ],
+      "tags": ["technology", "application", "medicine", "neural-networks"]
+    },
+    {
+      "name": "Drug Discovery and Development",
+      "topics": [
+        "How is AI accelerating the identification of drug candidates and the prediction of molecular behavior?",
+        "What role did AI play in the rapid development of COVID-19 vaccines and treatments?",
+        "How does AlphaFold's protein structure prediction change the landscape of biological research?",
+        "What are the limitations of AI in drug discovery — why doesn't faster screening automatically mean better drugs?",
+        "How do pharmaceutical companies balance AI-driven efficiency with the irreducible complexity of clinical trials?",
+        "Who benefits when AI shortens the drug development pipeline — patients, companies, or both?",
+        "What happens to drug pricing when AI reduces development costs but patents remain unchanged?"
+      ],
+      "tags": ["science", "discovery", "biotechnology", "ai-ml"]
+    },
+    {
+      "name": "Clinical Decision Support",
+      "topics": [
+        "What are clinical decision support systems, and how do they use AI to assist doctors at the point of care?",
+        "How does AI analyze electronic health records to identify patterns that human clinicians might miss?",
+        "What is the risk of alert fatigue — when AI generates so many warnings that clinicians start ignoring them?",
+        "How do AI systems handle the ambiguity and incompleteness of real-world patient data?",
+        "What is the difference between AI that recommends a treatment and AI that explains why it recommends it?",
+        "How do liability and malpractice frameworks apply when AI contributes to a clinical decision?",
+        "Can AI reduce diagnostic errors, which account for an estimated 10% of patient deaths?"
+      ],
+      "tags": ["technology", "analysis", "medicine", "data-science"]
+    },
+    {
+      "name": "Mental Health and AI",
+      "topics": [
+        "How are AI chatbots and digital therapy tools being used to address the mental health care gap?",
+        "What does the evidence say about the effectiveness of AI-based mental health interventions?",
+        "What are the ethical risks of using AI to detect depression, anxiety, or suicidal ideation from behavioral data?",
+        "How do AI mental health tools handle crisis situations that require immediate human intervention?",
+        "What populations are most likely to use AI mental health tools — and who is excluded?",
+        "Can an AI provide genuine therapeutic benefit, or is it limited to structured coping exercises?",
+        "How does the privacy of mental health data interact with AI systems that learn from patient interactions?"
+      ],
+      "tags": ["health", "mental-health", "ai-ml", "behavioral-psychology"]
+    },
+    {
+      "name": "Bias in Medical AI",
+      "topics": [
+        "How do training datasets that overrepresent certain populations lead to AI that performs worse for others?",
+        "What are documented cases of medical AI performing differently across racial, ethnic, and gender groups?",
+        "How did a widely used hospital algorithm systematically underestimate the health needs of Black patients?",
+        "Why is skin condition AI less accurate on darker skin tones, and what is being done about it?",
+        "How do socioeconomic factors embedded in health data create feedback loops that AI amplifies?",
+        "What does health equity require of AI developers — and how far are they from meeting that standard?",
+        "Can AI be used to reduce health disparities, or does it primarily reinforce them?"
+      ],
+      "tags": ["ethics", "bias", "race", "public-health"]
+    },
+    {
+      "name": "Patient Data, Privacy, and Consent",
+      "topics": [
+        "Who owns the medical data that AI systems are trained on — patients, hospitals, or tech companies?",
+        "How do HIPAA, GDPR, and other regulatory frameworks apply to AI that processes health information?",
+        "What does informed consent mean when a patient's data is used to train a model that benefits future patients?",
+        "How do de-identification and anonymization work — and how easily can they be reversed?",
+        "What are the risks of health data being sold, leaked, or used for purposes patients never agreed to?",
+        "How do patients feel about AI analyzing their medical records — and does anyone ask them?"
+      ],
+      "tags": ["law", "privacy", "surveillance", "public-health"]
+    },
+    {
+      "name": "Surgical Robotics and AI-Assisted Procedures",
+      "topics": [
+        "How do robotic surgery systems like da Vinci and emerging AI-guided tools change the operating room?",
+        "What is the difference between surgeon-controlled robots and AI that makes autonomous surgical decisions?",
+        "How does AI assist in surgical planning — analyzing anatomy, predicting complications, optimizing approaches?",
+        "What are the training challenges for surgeons who must learn to work alongside AI systems?",
+        "How do surgical errors involving AI systems get investigated and attributed?",
+        "What are the cost implications of robotic surgery — does it improve outcomes enough to justify the investment?",
+        "How far away is truly autonomous surgery, and should we want it?"
+      ],
+      "tags": ["technology", "application", "robotics", "medicine"]
+    },
+    {
+      "name": "Public Health and Epidemiology",
+      "topics": [
+        "How is AI used to track disease outbreaks, predict pandemic spread, and model public health interventions?",
+        "What role did AI play during COVID-19 — in tracking, forecasting, vaccine distribution, and misinformation detection?",
+        "How do wastewater surveillance, social media analysis, and syndromic surveillance use AI to detect health threats?",
+        "What are the risks of AI-driven public health recommendations that governments act on before validation?",
+        "How does AI help with resource allocation in overwhelmed healthcare systems?",
+        "Can AI predict the next pandemic — and would we listen if it did?"
+      ],
+      "tags": ["health", "prediction", "public-health", "data-analytics"]
+    },
+    {
+      "name": "Regulation and Approval",
+      "topics": [
+        "How does the FDA regulate AI-based medical devices and diagnostic tools?",
+        "What is the difference between a 'locked' algorithm and a 'continuously learning' one — and why does it matter for regulation?",
+        "How do European, Chinese, and other regulatory bodies approach medical AI differently from the US?",
+        "What happens when an approved AI system degrades in performance after deployment?",
+        "How do regulators balance the speed of AI innovation with the need for patient safety?",
+        "What role should clinicians, patients, and ethicists play in the regulatory process?",
+        "Is the current regulatory framework adequate for AI that evolves faster than the approval process?"
+      ],
+      "tags": ["law", "regulation", "ai-policy", "medicine"]
+    },
+    {
+      "name": "The Economics of Healthcare AI",
+      "topics": [
+        "Who pays for healthcare AI — hospitals, insurers, patients, or governments — and who profits?",
+        "How does AI change the cost structure of healthcare delivery?",
+        "What happens to healthcare workers when AI automates tasks that previously required trained professionals?",
+        "How do insurance companies use AI to assess risk, set premiums, and approve or deny claims?",
+        "Does AI-driven efficiency translate into lower costs for patients, or does it primarily increase margins?",
+        "What are the venture capital and tech industry incentives that shape which healthcare problems AI addresses?",
+        "How does the profit motive in healthcare AI interact with the goal of universal health access?"
+      ],
+      "tags": ["economics", "finance", "automation", "public-health"]
+    },
+    {
+      "name": "The Future of the Doctor-Patient Relationship",
+      "topics": [
+        "How does AI change the dynamic between doctors and patients — does it enhance trust or erode it?",
+        "What happens to clinical empathy when a diagnosis comes from an algorithm rather than a conversation?",
+        "How do patients feel about AI being involved in their care — and does it depend on what the AI is doing?",
+        "What skills will future doctors need that current medical education doesn't teach?",
+        "Is there a version of healthcare AI that makes medicine more human, not less?",
+        "How might AI free clinicians from administrative burden and give them more time with patients?",
+        "What does the ideal relationship between human judgment and machine intelligence look like in medicine?"
+      ],
+      "tags": ["society", "interpersonal-dynamics", "ai-ml", "medicine"]
+    }
+  ]
+}

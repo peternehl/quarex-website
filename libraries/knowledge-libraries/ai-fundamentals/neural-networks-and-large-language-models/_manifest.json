@@ -10,14 +10,28 @@
     "slug": "neural-networks-explained",
     "name": "Neural Networks Explained",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "neural networks",
+      "deep learning",
+      "artificial intelligence",
+      "computational architecture",
+      "pattern recognition"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
     "slug": "transformers-and-llms",
     "name": "Transformers and LLMs",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "large language models",
+      "transformers",
+      "natural language processing",
+      "artificial intelligence",
+      "deep learning"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   }
 ]

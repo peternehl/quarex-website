@@ -1,45 +1,169 @@
 {
   "name": "Key Ideas in Machine Learning",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "machine learning",
+    "artificial intelligence",
+    "data science",
+    "pattern recognition",
+    "computational methods"
+  ],
   "chapters": [
     {
+      "name": "What Is Machine Learning?",
+      "topics": [
+        "What does it mean for a computer to 'learn' — and how is that different from being programmed?",
+        "How does machine learning differ from traditional software — where a programmer writes explicit rules?",
+        "What is the basic cycle of machine learning: data in, pattern found, prediction out?",
+        "Why is machine learning sometimes called 'software 2.0' — and what does that metaphor capture?",
+        "What kinds of problems is machine learning good at solving — and what kinds is it bad at?",
+        "Why has machine learning become dominant now — what changed in data, hardware, and algorithms?",
+        "What does a non-technical person need to understand about machine learning to be an informed citizen?"
+      ],
+      "tags": ["technology", "foundations", "ai-ml", "computer-science"]
+    },
+    {
       "name": "Data, Patterns, and Generalization",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "computer-science"
-      ]
+      "topics": [
+        "What is training data — and why is it the raw material of machine learning?",
+        "How does a machine learning system find patterns in data — and what does 'pattern' mean in this context?",
+        "What is generalization — and why is it the goal of every machine learning system?",
+        "What is the difference between memorizing data and learning from it?",
+        "How does the size of a dataset affect what a model can learn?",
+        "What happens when training data is unrepresentative, biased, or incomplete?",
+        "Why is data cleaning and preparation often the hardest and most important part of machine learning?"
+      ],
+      "tags": ["technology", "foundations", "ai-ml", "data-science"]
     },
     {
-      "name": "Training, Validation, and Overfitting",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "education"
-      ]
+      "name": "Supervised Learning: Learning from Examples",
+      "topics": [
+        "What is supervised learning — and why is it the most common type of machine learning?",
+        "How does a supervised model learn to predict outputs from labeled examples?",
+        "What are classification and regression — the two main types of supervised learning tasks?",
+        "How is spam filtering an example of supervised learning — and what makes it work?",
+        "What are labels — who creates them, how accurate are they, and why do they matter?",
+        "What are the limitations of supervised learning — and when does it break down?",
+        "How does the quality and quantity of labeled examples determine how well a model performs?"
+      ],
+      "tags": ["technology", "methodology", "ai-ml", "data-science"]
     },
     {
-      "name": "Supervised, Unsupervised, and Reinforcement Learning",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "education"
-      ]
+      "name": "Unsupervised Learning: Finding Hidden Structure",
+      "topics": [
+        "What is unsupervised learning — and how does it work without labeled examples?",
+        "How does clustering work — grouping similar data points without being told what the groups should be?",
+        "What is dimensionality reduction — and why is simplifying complex data useful?",
+        "How is unsupervised learning used in customer segmentation, anomaly detection, and recommendation systems?",
+        "What are the challenges of unsupervised learning — how do you know if the patterns it finds are meaningful?",
+        "How does unsupervised learning relate to how humans learn — finding patterns without being taught?",
+        "Why is unsupervised learning important for discovering things that humans haven't thought to look for?"
+      ],
+      "tags": ["technology", "methodology", "ai-ml", "data-science"]
+    },
+    {
+      "name": "Reinforcement Learning: Learning by Doing",
+      "topics": [
+        "What is reinforcement learning — and how does it learn through trial, error, and reward?",
+        "How did reinforcement learning enable AI to master games like chess, Go, and Atari?",
+        "What are rewards and penalties in reinforcement learning — and who defines them?",
+        "How is reinforcement learning used in robotics, autonomous vehicles, and resource management?",
+        "What is RLHF (reinforcement learning from human feedback) — and why is it central to modern chatbots?",
+        "What are the risks of reinforcement learning — what happens when the reward signal is poorly designed?",
+        "Why is reinforcement learning considered the closest analogy to how animals and humans learn?"
+      ],
+      "tags": ["technology", "methodology", "ai-ml", "computer-science"]
+    },
+    {
+      "name": "Training, Testing, and Validation",
+      "topics": [
+        "What is the training process — and how does a model improve over many iterations?",
+        "Why do you split data into training, validation, and test sets — and what does each do?",
+        "What is overfitting — and why is a model that performs perfectly on training data often useless in the real world?",
+        "What is underfitting — and how do you know when a model hasn't learned enough?",
+        "How do you evaluate whether a model is actually good — accuracy, precision, recall, and F1 scores?",
+        "What is cross-validation — and why is it a more reliable way to test model performance?",
+        "Why is the gap between lab performance and real-world performance one of the biggest problems in machine learning?"
+      ],
+      "tags": ["technology", "verification", "ai-ml", "data-science"]
+    },
+    {
+      "name": "Features, Representations, and Embeddings",
+      "topics": [
+        "What are features — and why does choosing the right features determine whether a model succeeds or fails?",
+        "How did traditional machine learning require humans to hand-engineer features — and why was that a bottleneck?",
+        "What is feature engineering — and why was it once considered the most important skill in machine learning?",
+        "How do modern deep learning systems learn their own features — and why was that a breakthrough?",
+        "What are embeddings — and how do they represent words, images, or concepts as numbers?",
+        "Why do word embeddings capture relationships like 'king is to queen as man is to woman'?",
+        "How do representations shape what a model can see and what it's blind to?"
+      ],
+      "tags": ["technology", "foundations", "ai-ml", "neural-networks"]
     },
     {
       "name": "Why More Data Often Beats Clever Algorithms",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "data-centers"
-      ]
+      "topics": [
+        "Why did researchers discover that bigger datasets often matter more than better algorithms?",
+        "What is the 'unreasonable effectiveness of data' — and what does it mean for machine learning?",
+        "How did the explosion of internet data — text, images, video — change what machine learning could accomplish?",
+        "What is the relationship between dataset size and model size — and why do they need to scale together?",
+        "What are the limits of the 'more data' approach — when does more data stop helping?",
+        "How does the availability of data create advantages for large companies — and disadvantages for everyone else?",
+        "What does the data hunger of modern AI mean for privacy, copyright, and consent?"
+      ],
+      "tags": ["technology", "scale", "ai-ml", "data-science"]
+    },
+    {
+      "name": "Bias in Machine Learning",
+      "topics": [
+        "How does bias enter machine learning systems — through data, labels, algorithms, or deployment?",
+        "What are real-world examples of ML bias — in hiring, criminal justice, lending, and healthcare?",
+        "Why can a model be mathematically accurate and still be discriminatory?",
+        "What is the difference between statistical bias and social bias — and why do both matter?",
+        "How do biased datasets reflect and amplify existing inequalities in society?",
+        "What techniques exist to detect and reduce bias — and why is none of them a complete solution?",
+        "Who is responsible for bias in machine learning — the data collectors, the engineers, or the companies that deploy it?"
+      ],
+      "tags": ["ethics", "bias", "ai-ml", "data-science"]
+    },
+    {
+      "name": "The Black Box Problem",
+      "topics": [
+        "What does it mean to call a machine learning model a 'black box' — and why is that a problem?",
+        "Why can't most deep learning models explain how they reached their conclusions?",
+        "What is explainable AI (XAI) — and how does it try to make model decisions interpretable?",
+        "When does the black box problem matter most — in medicine, law, finance, and criminal justice?",
+        "What is the tradeoff between model accuracy and model interpretability?",
+        "How do regulators and courts handle decisions made by systems no one can fully explain?",
+        "Should AI systems be required to explain their reasoning — and who should set that requirement?"
+      ],
+      "tags": ["technology", "accountability", "ai-ml", "computer-science"]
+    },
+    {
+      "name": "How Machine Learning Is Evaluated",
+      "topics": [
+        "What are benchmarks — and how do researchers use them to compare machine learning models?",
+        "Why can a model score well on benchmarks and still fail in real-world applications?",
+        "What is the difference between accuracy, precision, recall, and false positive/false negative rates?",
+        "How do leaderboards and competitions shape what gets built — and what gets ignored?",
+        "What is benchmark gaming — and how do some models optimize for tests rather than real performance?",
+        "How should a non-technical person interpret claims about AI performance?",
+        "Why is measuring what matters harder than measuring what's easy — and how does that distort ML research?"
+      ],
+      "tags": ["technology", "verification", "ai-ml", "research-methods"]
+    },
+    {
+      "name": "Machine Learning in Your Life",
+      "topics": [
+        "Where is machine learning already making decisions that affect you — even if you don't know it?",
+        "How does ML power the content you see on social media, the ads you receive, and the search results you get?",
+        "How is ML used in credit scoring, insurance pricing, and job application screening?",
+        "What does it mean when ML is used in healthcare diagnostics — and should patients know?",
+        "How does ML affect your experience of shopping, streaming, navigation, and communication?",
+        "What questions should you ask when you discover ML is involved in a decision about you?",
+        "Why does understanding machine learning help you navigate the modern world more effectively?"
+      ],
+      "tags": ["society", "digital-life", "ai-ml", "algorithms"]
     }
   ]
 }

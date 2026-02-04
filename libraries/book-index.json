@@ -1,6 +1,6 @@
 {
-  "generated": "2026-01-28",
-  "count": 641,
+  "generated": "2026-02-04",
+  "count": 664,
   "books": [
     {
       "name": "A Brief History of War",
@@ -31,6 +31,20 @@
       "chapters": 4
     },
     {
+      "name": "African American Literature",
+      "path": "pe/cultural-and-identity/black-studies/african-american-literature",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
+      "name": "African Civilizations Before Colonialism",
+      "path": "pe/cultural-and-identity/black-studies/african-civilizations-before-colonialism",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 12
+    },
+    {
       "name": "African Philosophy-Henry Odera Oruka",
       "path": "k/philosophy/world-philosophies/african-philosophy-henry-odera-oruka",
       "library": "Philosophy",
@@ -52,6 +66,13 @@
       "chapters": 10
     },
     {
+      "name": "AI and Creativity",
+      "path": "k/ai-fundamentals/ai-in-the-real-world/ai-and-creativity",
+      "library": "Ai Fundamentals",
+      "shelf": "Ai In The Real World",
+      "chapters": 12
+    },
+    {
       "name": "AI and Your Career: Adaptation Strategies",
       "path": "pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies",
       "library": "Practical Skills",
@@ -59,11 +80,32 @@
       "chapters": 12
     },
     {
+      "name": "AI Art: Generation, Ethics, and Creative Practice",
+      "path": "k/the-arts/visual-arts/ai-art-generation-ethics-and-creative-practice",
+      "library": "The Arts",
+      "shelf": "Visual Arts",
+      "chapters": 10
+    },
+    {
+      "name": "AI as a Force Multiplier for Knowledge Work",
+      "path": "pr/practical-skills/digital-and-professional-skills/ai-as-a-force-multiplier",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 10
+    },
+    {
       "name": "AI in Everyday Life",
       "path": "k/ai-fundamentals/ai-in-the-real-world/ai-in-everyday-life",
       "library": "Ai Fundamentals",
       "shelf": "Ai In The Real World",
-      "chapters": 4
+      "chapters": 12
+    },
+    {
+      "name": "AI in Healthcare",
+      "path": "k/ai-fundamentals/ai-in-the-real-world/ai-in-healthcare",
+      "library": "Ai Fundamentals",
+      "shelf": "Ai In The Real World",
+      "chapters": 12
     },
     {
       "name": "AI Risks: Real vs. Imaginary",
@@ -77,7 +119,7 @@
       "path": "pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media",
       "library": "Practical Knowledge",
       "shelf": "Advanced Civic Fact Checking And Sharing Responsibly",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Alabama",
@@ -106,13 +148,6 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
-    },
-    {
-      "name": "Åland Islands",
-      "path": "g/territories-and-dependencies/autonomous-regions/aland-islands",
-      "library": "Territories And Dependencies",
-      "shelf": "Autonomous Regions",
-      "chapters": 4
     },
     {
       "name": "Alaska",
@@ -437,6 +472,48 @@
       "chapters": 10
     },
     {
+      "name": "Black Economic Life: Labor, Business, and Wealth",
+      "path": "pe/cultural-and-identity/black-studies/black-economic-life-labor-business-and-wealth",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 9
+    },
+    {
+      "name": "Black Media, Representation, and Cultural Power",
+      "path": "pe/cultural-and-identity/black-studies/black-media-representation-and-cultural-power",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
+      "name": "Black Music: From Spirituals to Hip-Hop",
+      "path": "pe/cultural-and-identity/black-studies/black-music-from-spirituals-to-hip-hop",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
+      "name": "Black Political Thought",
+      "path": "pe/cultural-and-identity/black-studies/black-political-thought",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
+      "name": "Black Power, Black Nationalism, and Self-Determination",
+      "path": "pe/cultural-and-identity/black-studies/black-power-black-nationalism-and-self-determination",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
+      "name": "Black Religious Traditions and Theology",
+      "path": "pe/cultural-and-identity/black-studies/black-religious-traditions-and-theology",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
       "name": "Bolivia",
       "path": "g/south-america/countries/bolivia",
       "library": "South America",
@@ -588,7 +665,7 @@
       "path": "pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics",
       "library": "Practical Knowledge",
       "shelf": "Advanced Civic Fact Checking And Sharing Responsibly",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Chemistry and Matter",
@@ -738,6 +815,13 @@
       "chapters": 10
     },
     {
+      "name": "Contemporary Black Activism and Movements",
+      "path": "pe/cultural-and-identity/black-studies/contemporary-black-activism-and-movements",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
       "name": "Coping with Frenemies",
       "path": "pr/practical-skills/personal-development/coping-with-frenemies",
       "library": "Practical Skills",
@@ -748,13 +832,6 @@
       "name": "Costa Rica",
       "path": "g/north-america/countries/costa-rica",
       "library": "North America",
-      "shelf": "Countries",
-      "chapters": 4
-    },
-    {
-      "name": "Côte d'Ivoire",
-      "path": "g/africa/countries/cte-divoire",
-      "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
     },
@@ -818,6 +895,13 @@
       "name": "Czech Republic",
       "path": "g/europe/countries/czech-republic",
       "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "Côte d'Ivoire",
+      "path": "g/africa/countries/cte-divoire",
+      "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
     },
@@ -1092,7 +1176,7 @@
       "path": "pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise",
       "library": "Practical Knowledge",
       "shelf": "Everyday Fact Checking Skills",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Everyday Cooking Skills",
@@ -1319,6 +1403,13 @@
       "chapters": 4
     },
     {
+      "name": "Global AI Policy",
+      "path": "k/ai-fundamentals/ai-in-the-real-world/global-ai-policy",
+      "library": "Ai Fundamentals",
+      "shelf": "Ai In The Real World",
+      "chapters": 12
+    },
+    {
       "name": "Global Climate & Environment",
       "path": "e/current-events/global-challenges/global-climate-and-environment",
       "library": "Current Events",
@@ -1452,6 +1543,13 @@
       "chapters": 1
     },
     {
+      "name": "Health Disparities and Medical Racism",
+      "path": "pe/cultural-and-identity/black-studies/health-disparities-and-medical-racism",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 9
+    },
+    {
       "name": "Health, Disease, and Immunity",
       "path": "k/the-sciences/life-sciences/health-disease-and-immunity",
       "library": "The Sciences",
@@ -1513,6 +1611,13 @@
       "library": "Territories And Dependencies",
       "shelf": "Autonomous Regions",
       "chapters": 4
+    },
+    {
+      "name": "Housing, Education, and Urban Policy",
+      "path": "pe/cultural-and-identity/black-studies/housing-education-and-urban-policy",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
     },
     {
       "name": "How Abortion Became a Political Wedge",
@@ -1774,6 +1879,13 @@
       "chapters": 14
     },
     {
+      "name": "Jim Crow, Segregation, and Black Resistance",
+      "path": "pe/cultural-and-identity/black-studies/jim-crow-segregation-and-black-resistance",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
       "name": "Job Seeker Interviewing Tutorial",
       "path": "pr/practical-skills/digital-and-professional-skills/job-seeker-interviewing-tutorial",
       "library": "Practical Skills",
@@ -1918,7 +2030,7 @@
       "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/key-ideas-in-machine-learning",
       "library": "Ai Fundamentals",
       "shelf": "Foundations Of Artificial Intelligence",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Kiribati",
@@ -2024,6 +2136,13 @@
       "library": "Personal And Life",
       "shelf": "Life Transitions And Growth",
       "chapters": 4
+    },
+    {
+      "name": "Life Under Slavery: The Antebellum Experience",
+      "path": "pe/cultural-and-identity/black-studies/life-under-slavery-the-antebellum-experience",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 11
     },
     {
       "name": "Literary Genres: A Comprehensive Guide",
@@ -2569,7 +2688,7 @@
       "path": "k/ai-fundamentals/neural-networks-and-large-language-models/neural-networks-explained",
       "library": "Ai Fundamentals",
       "shelf": "Neural Networks And Large Language Models",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Neuroscience and the Brain",
@@ -2985,6 +3104,13 @@
       "chapters": 4
     },
     {
+      "name": "Pan-Africanism and the Black Diaspora",
+      "path": "pe/cultural-and-identity/black-studies/pan-africanism-and-the-black-diaspora",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 10
+    },
+    {
       "name": "Panama",
       "path": "g/north-america/countries/panama",
       "library": "North America",
@@ -3178,7 +3304,7 @@
       "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/probability-statistics-and-uncertainty",
       "library": "Ai Fundamentals",
       "shelf": "Foundations Of Artificial Intelligence",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Puerto Rico",
@@ -3244,6 +3370,13 @@
       "chapters": 4
     },
     {
+      "name": "Reconstruction and the Betrayal of Freedom",
+      "path": "pe/cultural-and-identity/black-studies/reconstruction-and-the-betrayal-of-freedom",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 8
+    },
+    {
       "name": "Relationships & Communication",
       "path": "k/personal-and-life/relationships-and-communication/relationships-and-communication",
       "library": "Personal And Life",
@@ -3262,7 +3395,7 @@
       "path": "k/ai-fundamentals/ai-in-the-real-world/responsible-use-and-human-judgment",
       "library": "Ai Fundamentals",
       "shelf": "Ai In The Real World",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Rhetoric and the Art of Persuasion",
@@ -3304,7 +3437,7 @@
       "path": "k/ai-fundamentals/ai-in-the-real-world/risks-harms-and-governance",
       "library": "Ai Fundamentals",
       "shelf": "Ai In The Real World",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Romania",
@@ -3321,18 +3454,18 @@
       "chapters": 4
     },
     {
-      "name": "Ruth Bader Ginsburg: A Biography",
-      "path": "k/biographies/political-biographies/ruth-bader-ginsburg-a-biography",
-      "library": "Biographies",
-      "shelf": "Political Biographies",
-      "chapters": 15
-    },
-    {
       "name": "Russia–Ukraine War",
       "path": "e/current-events/international-conflicts/russiaukraine-war",
       "library": "Current Events",
       "shelf": "International Conflicts",
       "chapters": 4
+    },
+    {
+      "name": "Ruth Bader Ginsburg: A Biography",
+      "path": "k/biographies/political-biographies/ruth-bader-ginsburg-a-biography",
+      "library": "Biographies",
+      "shelf": "Political Biographies",
+      "chapters": 15
     },
     {
       "name": "Rwanda",
@@ -3373,13 +3506,6 @@
       "name": "San Marino",
       "path": "g/europe/countries/san-marino",
       "library": "Europe",
-      "shelf": "Countries",
-      "chapters": 4
-    },
-    {
-      "name": "São Tomé and Príncipe",
-      "path": "g/africa/countries/so-tom-and-prncipe",
-      "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
     },
@@ -3762,6 +3888,13 @@
       "chapters": 4
     },
     {
+      "name": "São Tomé and Príncipe",
+      "path": "g/africa/countries/so-tom-and-prncipe",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
       "name": "Taiwan",
       "path": "g/asia/countries/taiwan",
       "library": "Asia",
@@ -3888,10 +4021,24 @@
       "chapters": 18
     },
     {
+      "name": "The Atlantic Slave Trade",
+      "path": "pe/cultural-and-identity/black-studies/the-atlantic-slave-trade",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
+      "chapters": 12
+    },
+    {
       "name": "The Billionaire-President Problem",
       "path": "pe/cultural-and-identity/billionaires/the-billionaire-president-problem",
       "library": "Cultural And Identity",
       "shelf": "Billionaires",
+      "chapters": 10
+    },
+    {
+      "name": "The Black Experience in the Civil War",
+      "path": "pe/cultural-and-identity/black-studies/the-black-experience-in-the-civil-war",
+      "library": "Cultural And Identity",
+      "shelf": "Black Studies",
       "chapters": 10
     },
     {
@@ -3906,6 +4053,13 @@
       "path": "pe/geopolitical/war-and-peace/the-geopolitics-of-war-in-the-21st-century",
       "library": "Geopolitical",
       "shelf": "War And Peace",
+      "chapters": 12
+    },
+    {
+      "name": "The History of AI",
+      "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/the-history-of-ai",
+      "library": "AI Fundamentals",
+      "shelf": "Foundations Of Artificial Intelligence",
       "chapters": 12
     },
     {
@@ -3976,14 +4130,14 @@
       "path": "pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information",
       "library": "Practical Knowledge",
       "shelf": "Everyday Fact Checking Skills",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Transformers and LLMs",
       "path": "k/ai-fundamentals/neural-networks-and-large-language-models/transformers-and-llms",
       "library": "Ai Fundamentals",
       "shelf": "Neural Networks And Large Language Models",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "Trinidad and Tobago",
@@ -4326,7 +4480,7 @@
       "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really",
       "library": "Ai Fundamentals",
       "shelf": "Foundations Of Artificial Intelligence",
-      "chapters": 4
+      "chapters": 12
     },
     {
       "name": "What is Feminism?",
@@ -4334,6 +4488,27 @@
       "library": "Cultural And Identity",
       "shelf": "Feminism And Equality",
       "chapters": 15
+    },
+    {
+      "name": "Wisconsin",
+      "path": "c/us-governors-2026/2026-gubernatorial-races/wisconsin",
+      "library": "Us Governors 2026",
+      "shelf": "2026 Gubernatorial Races",
+      "chapters": 3
+    },
+    {
+      "name": "Wisconsin",
+      "path": "c/us-house-2026-complete/2026-states/wisconsin",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 8
+    },
+    {
+      "name": "Wisconsin",
+      "path": "g/us-geography/states-and-territories/wisconsin",
+      "library": "Us Geography",
+      "shelf": "States And Territories",
+      "chapters": 1
     },
     {
       "name": "Women and the Workplace",
@@ -4362,27 +4537,6 @@
       "library": "Cultural And Identity",
       "shelf": "Feminism And Equality",
       "chapters": 15
-    },
-    {
-      "name": "Wisconsin",
-      "path": "c/us-governors-2026/2026-gubernatorial-races/wisconsin",
-      "library": "Us Governors 2026",
-      "shelf": "2026 Gubernatorial Races",
-      "chapters": 3
-    },
-    {
-      "name": "Wisconsin",
-      "path": "c/us-house-2026-complete/2026-states/wisconsin",
-      "library": "Us House 2026 Complete",
-      "shelf": "2026 States",
-      "chapters": 8
-    },
-    {
-      "name": "Wisconsin",
-      "path": "g/us-geography/states-and-territories/wisconsin",
-      "library": "Us Geography",
-      "shelf": "States And Territories",
-      "chapters": 1
     },
     {
       "name": "Women's Health and Body Politics",
@@ -4488,6 +4642,13 @@
       "library": "The Sciences",
       "shelf": "Life Sciences",
       "chapters": 10
+    },
+    {
+      "name": "Åland Islands",
+      "path": "g/territories-and-dependencies/autonomous-regions/aland-islands",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
+      "chapters": 4
     }
   ]
 }

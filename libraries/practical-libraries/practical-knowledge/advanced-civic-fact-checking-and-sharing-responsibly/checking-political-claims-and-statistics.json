@@ -1,45 +1,169 @@
 {
   "name": "Checking Political Claims and Statistics",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "political claims",
+    "statistical literacy",
+    "fact-checking",
+    "democracy",
+    "civic engagement"
+  ],
   "chapters": [
     {
       "name": "How Politicians Use Numbers to Persuade",
-      "topics": [],
-      "tags": [
-        "politics",
-        "misinformation",
-        "democracy",
-        "us-politics"
-      ]
+      "topics": [
+        "Why do politicians rely so heavily on statistics — and what makes numbers more persuasive than qualitative arguments?",
+        "What are the most common ways politicians misuse statistics — cherry-picking, misleading baselines, and false precision?",
+        "How does framing change the impact of a number — '3% unemployment' vs. '5 million people without jobs'?",
+        "What is the difference between a statistic that is technically true but deeply misleading and one that is fabricated?",
+        "How do politicians use percentage changes vs. absolute numbers to make things sound bigger or smaller?",
+        "What is the role of context — and why is a number without context almost always misleading?",
+        "How do you develop the instinct to question numbers rather than accept them at face value?"
+      ],
+      "tags": ["politics", "critical-thinking", "statistics", "media-literacy"]
     },
     {
       "name": "Finding Original Data and Reports",
-      "topics": [],
-      "tags": [
-        "politics",
-        "democracy",
-        "critical-thinking",
-        "us-politics"
-      ]
+      "topics": [
+        "Where do the numbers in political claims actually come from — and how do you trace them to the source?",
+        "What are the major government data sources — BLS, Census, CBO, BEA — and what does each track?",
+        "How do you read a government report or data release — and what should you look for?",
+        "What are think tanks — and how do left-leaning and right-leaning think tanks produce different analyses of the same data?",
+        "How do you find the original study behind a news headline — and why is the study often more nuanced than the headline?",
+        "What are the most useful free data sources for checking political claims — and how do you use them?",
+        "What do you do when the original data is behind a paywall, not publicly available, or has been taken down?"
+      ],
+      "tags": ["politics", "verification", "statistics", "research-methods"]
     },
     {
       "name": "Understanding Polls and Margins of Error",
-      "topics": [],
-      "tags": [
-        "politics",
-        "democracy",
-        "elections",
-        "us-politics"
-      ]
+      "topics": [
+        "How do political polls work — sample selection, question design, weighting, and reporting?",
+        "What is a margin of error — and why does a 3-point lead in a poll with a 4-point margin of error mean very little?",
+        "Why have polls become less accurate in recent years — response rates, social desirability bias, and hard-to-reach voters?",
+        "How do you evaluate whether a specific poll is credible — sample size, methodology, and who conducted it?",
+        "What is the difference between a registered voter poll, a likely voter poll, and an adult poll — and which matters most?",
+        "How do poll aggregators like FiveThirtyEight and RealClearPolitics combine polls — and why is that better than any single poll?",
+        "What are push polls — and how are they used to spread misinformation disguised as polling?"
+      ],
+      "tags": ["politics", "critical-thinking", "elections", "statistics"]
     },
     {
       "name": "Recognizing Misleading Graphs and Charts",
-      "topics": [],
-      "tags": [
-        "politics",
-        "misinformation",
-        "critical-thinking",
-        "us-politics"
-      ]
+      "topics": [
+        "How do misleading graphs distort reality — truncated axes, manipulated scales, and cherry-picked time periods?",
+        "What is a truncated y-axis — and how does it make small changes look dramatic?",
+        "How do dual-axis charts create false correlations — and why should you be suspicious of them?",
+        "What are the most common types of misleading visualizations used in political arguments?",
+        "How do pie charts, bar charts, and line graphs each have specific ways they can mislead?",
+        "What should you check first when looking at any graph — axis labels, scale, time period, and data source?",
+        "How do you create accurate mental images of data — and resist the emotional impact of misleading graphics?"
+      ],
+      "tags": ["media", "misinformation", "statistics", "data-analytics"]
+    },
+    {
+      "name": "Economic Claims: Jobs, GDP, and Cost of Living",
+      "topics": [
+        "What do politicians mean when they talk about 'creating jobs' — and how is job creation actually measured?",
+        "What is GDP — and why is it both the most-cited and most-misunderstood economic indicator?",
+        "What is the unemployment rate — and why does the official number exclude many people who can't find work?",
+        "How do politicians use inflation numbers — and why does 'inflation is down' not mean 'prices are down'?",
+        "What is the difference between median income and average income — and why does it matter for evaluating living standards?",
+        "How do politicians take credit for economic trends that started under their predecessors — or blame successors for problems they caused?",
+        "What economic statistics should every voter understand — and where do you find them?"
+      ],
+      "tags": ["economics", "critical-thinking", "statistics", "us-politics"]
+    },
+    {
+      "name": "Crime and Safety Claims",
+      "topics": [
+        "How do politicians use crime statistics — and why is 'crime is up' or 'crime is down' almost always more complicated than it sounds?",
+        "What is the difference between reported crime, surveyed crime, and actual crime — and which data is most reliable?",
+        "How do politicians use anecdotes — individual horrifying cases — to make statistical claims about trends?",
+        "What is the relationship between immigration and crime — and what does the data actually show?",
+        "How do local crime numbers get used in national political arguments — and why is that misleading?",
+        "What are the most reliable sources for crime data — FBI UCR, NCVS, and local police reports — and what are their limitations?",
+        "How does fear of crime differ from actual risk — and how do politicians exploit that gap?"
+      ],
+      "tags": ["politics", "misinformation", "criminal-justice", "statistics"]
+    },
+    {
+      "name": "Immigration Claims",
+      "topics": [
+        "What data exists on immigration — legal entries, undocumented estimates, asylum applications, border encounters?",
+        "How do politicians distort immigration numbers — conflating legal and illegal immigration, using raw numbers vs. rates?",
+        "What is the actual economic impact of immigration — and what does the research show?",
+        "How do claims about immigrants and crime hold up against the data?",
+        "What is the difference between border encounters, apprehensions, and actual entries — and why does the distinction matter?",
+        "How do politicians use immigration statistics selectively to support opposing conclusions?",
+        "What are the most reliable sources for immigration data — and how do you access them?"
+      ],
+      "tags": ["politics", "misinformation", "immigration", "statistics"]
+    },
+    {
+      "name": "Healthcare and Social Program Claims",
+      "topics": [
+        "How do politicians use healthcare statistics — costs, coverage rates, outcomes — and how are they frequently misleading?",
+        "What is the actual cost of Medicare, Medicaid, and Social Security — and how do politicians misrepresent those numbers?",
+        "How do claims about 'government spending' change depending on whether you use total dollars, per capita, or percentage of GDP?",
+        "What are the most common misleading claims about the Affordable Care Act — and what does the data show?",
+        "How do politicians compare US healthcare to other countries — and why are those comparisons often flawed?",
+        "What statistics matter most for evaluating social programs — costs, outcomes, or both?",
+        "How do you check a politician's claim about a specific program — where do you find the numbers?"
+      ],
+      "tags": ["politics", "critical-thinking", "public-health", "statistics"]
+    },
+    {
+      "name": "Climate and Environmental Claims",
+      "topics": [
+        "How do politicians use climate data — and what are the most common ways they misrepresent it?",
+        "What is the difference between weather and climate — and how do politicians exploit the confusion?",
+        "How do claims about the cost of climate action compare to the cost of inaction — and where do the numbers come from?",
+        "What is cherry-picking in climate data — choosing start and end dates to show warming or cooling trends?",
+        "How do energy industry-funded studies differ from independent climate research — and how do you tell the difference?",
+        "What are the most reliable sources for climate data — NASA, NOAA, IPCC — and what do they say?",
+        "How do you evaluate competing claims about renewable energy costs, fossil fuel subsidies, and energy employment?"
+      ],
+      "tags": ["environment", "critical-thinking", "climate-science", "statistics"]
+    },
+    {
+      "name": "Education and Budget Claims",
+      "topics": [
+        "How do politicians claim to support or undermine education — and what do the funding numbers actually show?",
+        "What is the federal vs. state vs. local breakdown of education funding — and why does that matter for evaluating claims?",
+        "How do politicians use standardized test scores, graduation rates, and international rankings to make arguments?",
+        "What are the most common misleading claims about government budgets — debt vs. deficit, discretionary vs. mandatory?",
+        "How do tax proposals get misrepresented — and how do you find independent analyses of tax plans?",
+        "What is the national debt — and how do politicians use it selectively depending on who's in power?",
+        "Where do you find reliable budget analyses — CBO, Tax Foundation, Tax Policy Center — and how do their approaches differ?"
+      ],
+      "tags": ["politics", "critical-thinking", "fiscal-policy", "statistics"]
+    },
+    {
+      "name": "Fact-Checking Organizations and How to Use Them",
+      "topics": [
+        "What are the major fact-checking organizations — PolitiFact, FactCheck.org, Snopes, Washington Post Fact Checker?",
+        "How do fact-checkers evaluate claims — what is their methodology?",
+        "Are fact-checkers biased — and how do you evaluate the fact-checkers themselves?",
+        "What is the difference between a fact-check and an opinion — and how do some people confuse them?",
+        "How do you use fact-checking sites effectively — searching claims, reading methodology, and checking ratings?",
+        "What are the limitations of fact-checking — claims that are technically true but misleading, matters of interpretation?",
+        "How does fact-checking fit into a broader practice of informed citizenship?"
+      ],
+      "tags": ["media", "verification", "fact-checking", "media-literacy"]
+    },
+    {
+      "name": "Building Your Political Fact-Checking Practice",
+      "topics": [
+        "What is a practical workflow for checking a political claim you hear in a debate, speech, or social media post?",
+        "How do you check claims in real time — during a debate, a rally, or a news broadcast?",
+        "What are the most important bookmarks, apps, and tools for political fact-checking?",
+        "How do you avoid confirmation bias — the tendency to fact-check claims you disagree with and accept those you agree with?",
+        "How do you talk about fact-checking with people who distrust fact-checkers?",
+        "What is the responsibility of a citizen in a democracy to verify the claims of their elected officials?",
+        "How do you maintain the habit of fact-checking without becoming cynical about all political speech?"
+      ],
+      "tags": ["politics", "democracy", "fact-checking", "media-literacy"]
     }
   ]
 }

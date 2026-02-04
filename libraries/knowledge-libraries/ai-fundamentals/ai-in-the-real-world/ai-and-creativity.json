@@ -1,0 +1,164 @@
+{
+  "name": "AI and Creativity",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "artificial intelligence",
+    "creativity",
+    "art and technology",
+    "generative AI",
+    "authorship and originality"
+  ],
+  "chapters": [
+    {
+      "name": "What Does It Mean to Create?",
+      "topics": [
+        "How do philosophers and psychologists define creativity — is it process, product, or both?",
+        "What role does intention play in distinguishing creative acts from random output?",
+        "Can something be creative if the creator doesn't understand what it made?",
+        "How do children, outsider artists, and improvising musicians challenge formal definitions of creativity?",
+        "What is the relationship between novelty and value in creative work?",
+        "Does creativity require consciousness, or is that a human bias?"
+      ],
+      "tags": ["philosophy", "cognition", "ai-ml", "behavioral-psychology"]
+    },
+    {
+      "name": "A Brief History of Machines and Art",
+      "topics": [
+        "How did early mechanical automata — music boxes, looms, player pianos — blur the line between craft and automation?",
+        "What was the reaction when photography was invented — was it art or just a machine recording reality?",
+        "How did computer-generated art emerge in the 1960s and 1970s, and who were its pioneers?",
+        "What role did randomness and algorithmic processes play in 20th-century art movements like Fluxus and Oulipo?",
+        "How did synthesizers and drum machines change the debate about authenticity in music?",
+        "What can the history of tools and art tell us about the current AI moment?"
+      ],
+      "tags": ["history", "innovation", "digital-art", "music"]
+    },
+    {
+      "name": "How Generative AI Actually Works",
+      "topics": [
+        "What is a generative model, and how does it differ from a classifier or a search engine?",
+        "How do diffusion models like DALL-E and Stable Diffusion turn noise into images?",
+        "What are large language models doing when they write poetry, code, or dialogue?",
+        "How do music generation tools like Suno or Udio construct melodies, harmonies, and lyrics?",
+        "What does 'training data' actually mean for creative output — and how much does it constrain what the model can produce?",
+        "Why do generative models sometimes produce strikingly original work and other times produce derivative nonsense?",
+        "What is the difference between interpolation within a training set and genuine extrapolation?"
+      ],
+      "tags": ["technology", "foundations", "neural-networks", "llms"]
+    },
+    {
+      "name": "AI in the Visual Arts",
+      "topics": [
+        "How are visual artists using AI as a tool — for sketching, composition, style exploration, or final output?",
+        "What happened when an AI-generated image won the Colorado State Fair art competition in 2022?",
+        "How do artists like Refik Anadol, Holly Herndon, and Trevor Paglen incorporate AI into their practice?",
+        "What are the aesthetic possibilities that AI opens up that traditional tools cannot?",
+        "How does prompt engineering function as a new kind of artistic skill?",
+        "What do traditional painters, illustrators, and photographers think about AI-generated imagery?",
+        "Is there a meaningful distinction between AI-assisted art and AI-generated art?"
+      ],
+      "tags": ["arts", "expression", "digital-art", "visual-arts"]
+    },
+    {
+      "name": "AI in Music and Sound",
+      "topics": [
+        "How are musicians using AI to compose, arrange, produce, and master music?",
+        "What does it mean when an AI can generate a song 'in the style of' a living artist?",
+        "How did the AI-generated Drake and The Weeknd song 'Heart on My Sleeve' change the conversation about synthetic music?",
+        "What are the creative possibilities of AI-assisted sound design and audio manipulation?",
+        "How do AI music tools compare to earlier technological disruptions like sampling, Auto-Tune, and beat-making software?",
+        "Can AI-generated music carry emotional weight, or does it only mimic the surface features of emotion?",
+        "Who owns a melody that no human composed?"
+      ],
+      "tags": ["arts", "technique", "music", "ai-ml"]
+    },
+    {
+      "name": "AI in Writing and Language",
+      "topics": [
+        "How are writers using AI for brainstorming, drafting, editing, and co-writing?",
+        "What does it mean for literary culture when a machine can produce competent prose at scale?",
+        "How do AI-written stories, poems, and essays compare to human-written ones in blind evaluations?",
+        "What is the difference between AI as ghostwriter, AI as collaborator, and AI as author?",
+        "How does AI-generated text affect journalism, advertising, and content marketing?",
+        "What are the risks of flooding the literary ecosystem with machine-generated text?",
+        "Can a language model produce genuine insight, or only the appearance of insight?"
+      ],
+      "tags": ["media", "narrative", "llms", "writing"]
+    },
+    {
+      "name": "AI in Film, Video, and Performance",
+      "topics": [
+        "How is AI being used in visual effects, animation, and post-production?",
+        "What are the implications of AI-generated actors, voices, and performances?",
+        "How did the 2023 Hollywood strikes bring AI and creative labor into direct conflict?",
+        "What does it mean to 'direct' an AI-generated film — and is that a creative act?",
+        "How are independent filmmakers using AI tools to produce work that would have been impossible at their budget level?",
+        "What are deepfakes, and how do they complicate the relationship between AI and visual storytelling?"
+      ],
+      "tags": ["arts", "expression", "film", "deepfakes"]
+    },
+    {
+      "name": "The Authorship Question",
+      "topics": [
+        "If a human writes a prompt and an AI generates the output, who is the author?",
+        "How does copyright law currently handle AI-generated works in different countries?",
+        "What is the difference between using AI as a tool (like Photoshop) and using AI as a creator?",
+        "How do concepts like 'sweat of the brow' and 'creative spark' apply to AI-assisted work?",
+        "Should AI-generated works be labeled or disclosed — and if so, how?",
+        "What happens to the concept of artistic signature and personal style in an age of generative AI?",
+        "How do ghostwriting, studio systems, and collaborative authorship complicate simple notions of who made what?"
+      ],
+      "tags": ["law", "governance", "ai-ml", "literary-arts"]
+    },
+    {
+      "name": "Training Data and the Ethics of Influence",
+      "topics": [
+        "What does it mean that AI models are trained on billions of images, songs, and texts created by human artists?",
+        "How do artists feel about their work being used to train models without consent or compensation?",
+        "What are the major lawsuits — Getty Images, Sarah Andersen, The New York Times — and what do they reveal?",
+        "Is training on copyrighted material fundamentally different from a human artist studying and absorbing influences?",
+        "What are the proposed solutions — opt-out registries, licensing schemes, royalty pools — and do any of them work?",
+        "How does the 'style mimicry' problem differ from the 'direct copying' problem?"
+      ],
+      "tags": ["ethics", "human-rights", "ai-ml", "labor"]
+    },
+    {
+      "name": "The Economic Disruption",
+      "topics": [
+        "Which creative professions are most affected by generative AI — and which are least?",
+        "How has AI changed the market for illustration, stock photography, and commercial writing?",
+        "What happens to entry-level creative jobs when AI can do passable work for free?",
+        "How are creative unions, guilds, and professional organizations responding to AI?",
+        "Does AI lower the barrier to creative expression, or does it devalue creative labor?",
+        "What historical parallels exist — the printing press, recorded music, digital photography — and what do they predict?",
+        "Can AI create new creative jobs even as it eliminates existing ones?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "automation", "labor"]
+    },
+    {
+      "name": "Bias, Representation, and Aesthetic Defaults",
+      "topics": [
+        "What aesthetic biases are embedded in AI training data — whose art, whose beauty standards, whose cultural traditions?",
+        "How do generative models reproduce or amplify stereotypes in visual and textual output?",
+        "Why do AI image generators tend toward certain default styles, skin tones, and body types?",
+        "How does the geographic and cultural composition of training data shape what AI considers 'normal'?",
+        "What efforts are underway to create more diverse and representative AI creative tools?",
+        "Can AI be a tool for amplifying underrepresented voices, or does it primarily serve dominant cultures?"
+      ],
+      "tags": ["society", "bias", "race", "gender"]
+    },
+    {
+      "name": "What Makes Human Creativity Different?",
+      "topics": [
+        "Is there something about human creativity that AI fundamentally cannot replicate — and if so, what is it?",
+        "How do embodiment, mortality, emotion, and lived experience shape creative expression?",
+        "What is the role of struggle, failure, and revision in the creative process — and can AI experience any of these?",
+        "How does the audience's knowledge that something was made by a human (or not) change its meaning?",
+        "What do neuroscientists and cognitive scientists say about the mechanisms of human creativity?",
+        "Is the question 'Can AI be creative?' the right question — or should we be asking something else entirely?",
+        "How might human and AI creativity coexist, complement, or transform each other?"
+      ],
+      "tags": ["philosophy", "cognition", "ai-ml", "behavioral-psychology"]
+    }
+  ]
+}

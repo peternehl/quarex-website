@@ -1,0 +1,145 @@
+{
+  "name": "AI Art: Generation, Ethics, and Creative Practice",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "AI art",
+    "generative AI",
+    "digital art",
+    "creative technology",
+    "visual culture"
+  ],
+  "chapters": [
+    {
+      "name": "What Is AI Art?",
+      "topics": [
+        "What is AI art — and how is it different from digital art made with traditional software?",
+        "What are the main types of AI art — text-to-image generation, neural style transfer, and generative adversarial networks?",
+        "When did artists first start using algorithms and computers to make art — and how does AI art build on that history?",
+        "What is the difference between AI as a tool, AI as a collaborator, and AI as an autonomous creator?",
+        "Who are the notable artists and researchers who pioneered AI art before the current wave?",
+        "Why has AI art exploded in public awareness since 2022 — and what changed?",
+        "What does the art world think of AI art — and why are opinions so divided?"
+      ],
+      "tags": ["arts", "innovation", "digital-art", "ai-ml"]
+    },
+    {
+      "name": "How AI Image Generation Works",
+      "topics": [
+        "What is a diffusion model — and how does it generate images from noise?",
+        "What are generative adversarial networks (GANs) — and how do a generator and discriminator compete to produce images?",
+        "What is neural style transfer — and how does it apply the style of one image to the content of another?",
+        "How are AI image models trained — what data do they learn from and how much do they need?",
+        "What is latent space — and what does it mean to navigate a space of possible images?",
+        "What role do text encoders like CLIP play in connecting words to visual concepts?",
+        "What are the computational requirements for training and running image generation models?"
+      ],
+      "tags": ["technology", "ai-ml", "digital-art", "innovation"]
+    },
+    {
+      "name": "The Major AI Art Platforms",
+      "topics": [
+        "What is Midjourney — and what aesthetic style and capabilities define it?",
+        "What is DALL-E — and how has OpenAI's approach to image generation evolved?",
+        "What is Stable Diffusion — and why does its open-source nature matter?",
+        "What is Adobe Firefly — and how does its approach to training data differ from competitors?",
+        "What other AI art tools exist — Leonardo, Ideogram, Flux — and what distinguishes them?",
+        "How do these platforms differ in their terms of service, commercial rights, and content policies?",
+        "What free versus paid options exist — and what are the tradeoffs?",
+        "How rapidly are AI art tools improving — and what can they do now that they couldn't a year ago?"
+      ],
+      "tags": ["technology", "digital-life", "digital-art", "ai-ml"]
+    },
+    {
+      "name": "Prompting and Directing AI",
+      "topics": [
+        "What is prompt engineering — and why does the way you describe an image matter so much?",
+        "How do artists craft effective prompts — using style references, compositional language, and technical terms?",
+        "What are negative prompts — and how do they help control what the AI does not generate?",
+        "How do parameters like guidance scale, steps, and seed values affect the output?",
+        "What is img2img — and how do artists use existing images as starting points for generation?",
+        "What is ControlNet — and how does it give artists precise control over pose, composition, and structure?",
+        "Is prompt writing a creative skill — and does it deserve to be considered an art form?"
+      ],
+      "tags": ["arts", "digital-life", "digital-art", "ai-ml"]
+    },
+    {
+      "name": "AI as a Creative Collaborator",
+      "topics": [
+        "How are fine artists incorporating AI into their studio practice?",
+        "How do illustrators and concept artists use AI for ideation, reference, and rapid prototyping?",
+        "What hybrid workflows combine AI generation with traditional painting, drawing, or photography?",
+        "How are photographers using AI for compositing, retouching, and conceptual work?",
+        "What new aesthetic possibilities has AI opened that were not practical before?",
+        "How do artists maintain their creative voice when working with generative tools?",
+        "What distinguishes thoughtful AI-assisted art from low-effort AI output?"
+      ],
+      "tags": ["arts", "innovation", "visual-arts", "digital-art"]
+    },
+    {
+      "name": "Copyright, Training Data, and Intellectual Property",
+      "topics": [
+        "How were AI image models trained — and did the artists whose work was used give consent?",
+        "What is the legal status of AI-generated images — can they be copyrighted?",
+        "What major lawsuits have been filed by artists against AI companies — and what are the arguments on each side?",
+        "What is the opt-out versus opt-in debate — and should artists have to actively prevent their work from being used?",
+        "How do different countries and jurisdictions approach AI and copyright law?",
+        "What is the fair use argument — and does it apply to training AI on billions of images?",
+        "How do platforms like Stability AI, Midjourney, and Adobe differ in their approach to training data ethics?",
+        "What technical solutions like Glaze and Nightshade attempt to protect artists' work from AI training?"
+      ],
+      "tags": ["law", "accountability", "digital-art", "ai-ml"]
+    },
+    {
+      "name": "Impact on Working Artists",
+      "topics": [
+        "How has AI image generation affected demand for illustrators, concept artists, and stock photographers?",
+        "What jobs and roles in the visual arts are most vulnerable to AI displacement?",
+        "How are art directors and clients using AI to reduce budgets for commissioned artwork?",
+        "What is the economic argument that AI will create new opportunities for artists — and is it convincing?",
+        "How are professional artists adapting their business models in response to AI?",
+        "What has happened to stock photography and stock illustration markets since AI generation became widespread?",
+        "How do artists' unions and professional organizations respond to the AI threat?"
+      ],
+      "tags": ["economics", "automation", "visual-arts", "ai-ml"]
+    },
+    {
+      "name": "Authenticity, Authorship, and What It Means to Create",
+      "topics": [
+        "If an AI generates an image, who is the artist — the person who wrote the prompt, the team that built the model, or no one?",
+        "What is the philosophical case that AI-generated images are not art — and what are the counterarguments?",
+        "How does AI art challenge traditional notions of skill, craft, and artistic training?",
+        "What is the authenticity problem — and why do people react differently to art when they learn it was AI-generated?",
+        "How do art competitions, galleries, and institutions handle AI-generated submissions?",
+        "What parallels exist between the AI art debate and earlier controversies — photography, readymades, conceptual art?",
+        "Does the intent behind an artwork matter more than the process used to create it?"
+      ],
+      "tags": ["philosophy", "aesthetics", "identity", "digital-art"]
+    },
+    {
+      "name": "Aesthetic Criticism of AI Art",
+      "topics": [
+        "What does AI-generated art tend to look like — and why does so much of it share a recognizable aesthetic?",
+        "What are the visual tells of AI-generated images — hands, text, uncanny smoothness, compositional defaults?",
+        "Why does AI art often default to a hyper-polished, fantasy-illustration style?",
+        "How do critics evaluate AI art — and what criteria apply when the process is fundamentally different?",
+        "What can AI art do well — and what remains beyond its reach?",
+        "How does the sheer volume of AI-generated imagery affect how we value visual culture?",
+        "What happens to artistic taste and visual literacy in a world flooded with generated images?"
+      ],
+      "tags": ["arts", "aesthetics", "critical-thinking", "visual-arts"]
+    },
+    {
+      "name": "The Future of AI and Visual Culture",
+      "topics": [
+        "How will AI art tools continue to improve — and what capabilities are on the horizon?",
+        "What regulatory frameworks are being proposed or enacted to govern AI-generated content?",
+        "How might AI change art education — should students learn to use generative tools?",
+        "What is the role of provenance and content authentication (C2PA) in a world of synthetic images?",
+        "Will AI-generated and human-made art coexist — or will one marginalize the other?",
+        "How might the relationship between human artists and AI tools evolve over the next decade?",
+        "What does the AI art revolution reveal about what we value in art and creativity?"
+      ],
+      "tags": ["technology", "frontiers", "visual-arts", "ai-ml"]
+    }
+  ]
+}

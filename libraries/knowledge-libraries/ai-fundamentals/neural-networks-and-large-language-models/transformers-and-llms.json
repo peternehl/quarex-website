@@ -1,45 +1,170 @@
 {
   "name": "Transformers and LLMs",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "large language models",
+    "transformers",
+    "natural language processing",
+    "artificial intelligence",
+    "deep learning"
+  ],
   "chapters": [
     {
-      "name": "From Word Embeddings to Transformers",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "computer-science"
-      ]
+      "name": "What Is a Language Model?",
+      "topics": [
+        "What is a language model — and what does it mean for a computer to 'model' language?",
+        "How does a language model predict the next word — and why is next-word prediction surprisingly powerful?",
+        "What is the history of language models — from simple n-grams to neural models to today's LLMs?",
+        "How do language models learn grammar, facts, reasoning patterns, and style — all from text prediction?",
+        "What is the difference between understanding language and predicting language — and does the distinction matter?",
+        "Why is language considered one of the hardest problems in AI — and what makes it different from vision or games?",
+        "What does a citizen need to understand about language models to make sense of ChatGPT, Claude, and similar tools?"
+      ],
+      "tags": ["technology", "foundations", "llms", "ai-ml"]
     },
     {
-      "name": "Attention Mechanisms and Context Windows",
-      "topics": [],
-      "tags": [
-        "technology",
-        "ai-ml",
-        "innovation",
-        "education"
-      ]
+      "name": "From Word Embeddings to Transformers",
+      "topics": [
+        "What are word embeddings — and how do they represent words as numbers that capture meaning?",
+        "How did Word2Vec and GloVe show that mathematical relationships between words could capture semantic relationships?",
+        "What were the limitations of earlier approaches like RNNs and LSTMs for processing language?",
+        "What is the Transformer architecture — and why was the 2017 'Attention Is All You Need' paper a breakthrough?",
+        "How did transformers solve the problem of processing long sequences of text efficiently?",
+        "Why did transformers quickly replace RNNs as the dominant architecture for language tasks?",
+        "How did transformers enable a new generation of AI systems that could handle text, images, audio, and code?"
+      ],
+      "tags": ["technology", "evolution", "llms", "neural-networks"]
+    },
+    {
+      "name": "Attention: The Core Mechanism",
+      "topics": [
+        "What is the attention mechanism — and why is it the key innovation that makes transformers work?",
+        "How does attention allow a model to focus on the most relevant parts of the input when making predictions?",
+        "What is self-attention — and how does it let each word in a sentence relate to every other word?",
+        "What are attention heads — and why do transformers use many of them in parallel?",
+        "How do different attention heads learn to track different kinds of relationships — syntactic, semantic, and positional?",
+        "What is a context window — and why does its size determine how much text a model can consider at once?",
+        "Why is attention computationally expensive — and how does that affect the cost and speed of LLMs?"
+      ],
+      "tags": ["technology", "foundations", "llms", "neural-networks"]
     },
     {
       "name": "How Large Language Models Are Trained",
-      "topics": [],
-      "tags": [
-        "technology",
-        "ai-ml",
-        "innovation",
-        "neural-networks"
-      ]
+      "topics": [
+        "What does it take to train a large language model — in data, compute, time, and money?",
+        "What is pre-training — and how does a model learn from trillions of tokens of text?",
+        "Where does the training data come from — books, websites, code, forums — and who decides what's included?",
+        "What is tokenization — how does a model break text into pieces it can process?",
+        "What is the role of GPUs, TPUs, and specialized hardware in making LLM training possible?",
+        "How much does it cost to train a frontier LLM — and how has that cost changed over time?",
+        "What are the environmental costs of LLM training — energy consumption, water use, and carbon footprint?",
+        "Why does the scale of training data matter — and are there diminishing returns?"
+      ],
+      "tags": ["technology", "scale", "llms", "data-centers"]
     },
     {
-      "name": "Why LLMs Predict Text Rather Than 'Think'",
-      "topics": [],
-      "tags": [
-        "technology",
-        "ai-ml",
-        "critical-thinking",
-        "epistemology"
-      ]
+      "name": "Fine-Tuning and RLHF: Making Models Useful",
+      "topics": [
+        "What is fine-tuning — and how does it adapt a general pre-trained model for specific tasks?",
+        "What is instruction tuning — and how does it teach a model to follow directions and be helpful?",
+        "What is RLHF (reinforcement learning from human feedback) — and how does it shape model behavior?",
+        "Who are the human raters that provide feedback — and how do their judgments shape what the model says?",
+        "What is Constitutional AI — and how does it use principles rather than individual ratings to guide behavior?",
+        "How do fine-tuning choices determine a model's personality, safety, and political orientation?",
+        "What are the tradeoffs between helpfulness and harmlessness — and who decides where the line is?"
+      ],
+      "tags": ["technology", "methodology", "llms", "ai-ml"]
+    },
+    {
+      "name": "What LLMs Can Do",
+      "topics": [
+        "What tasks can LLMs perform well — writing, coding, analysis, translation, summarization, and conversation?",
+        "How do LLMs perform on standardized tests — bar exams, medical boards, and academic benchmarks?",
+        "What is few-shot learning — and how can LLMs perform new tasks from just a few examples in the prompt?",
+        "What is chain-of-thought reasoning — and how does prompting LLMs to 'think step by step' improve their answers?",
+        "How are LLMs used in software development — writing code, debugging, explaining code, and documentation?",
+        "How are LLMs being integrated into search engines, office tools, and creative applications?",
+        "What are the emerging capabilities that surprised even the researchers who built these models?"
+      ],
+      "tags": ["technology", "innovation", "llms", "ai-ml"]
+    },
+    {
+      "name": "What LLMs Cannot Do",
+      "topics": [
+        "What are hallucinations — and why do LLMs confidently generate false information?",
+        "Why can't LLMs verify their own claims — and what does that mean for trustworthiness?",
+        "How do LLMs fail at math, logic, and multi-step reasoning — and why?",
+        "Why do LLMs struggle with temporal knowledge — not knowing what happened after their training cutoff?",
+        "What is the difference between producing text that sounds right and producing text that is right?",
+        "Why can't LLMs truly understand context, sarcasm, or nuance the way humans do?",
+        "How do the limitations of LLMs affect where they should and shouldn't be deployed?"
+      ],
+      "tags": ["technology", "critical-thinking", "llms", "epistemology"]
+    },
+    {
+      "name": "The Major LLMs: GPT, Claude, Gemini, Llama, and Others",
+      "topics": [
+        "What are the major LLM families — GPT (OpenAI), Claude (Anthropic), Gemini (Google), Llama (Meta) — and how do they differ?",
+        "What design philosophies distinguish each company's approach — safety, capability, openness, commercialization?",
+        "What are open-source LLMs — Llama, Mistral, and others — and why does open vs. closed matter?",
+        "How do Chinese LLMs like DeepSeek and Qwen compare — and what does their development mean geopolitically?",
+        "What is the competitive landscape — and how does the race between companies shape what gets built?",
+        "How do smaller, specialized models compare to large general-purpose models?",
+        "What should a user consider when choosing which LLM to use — and what are the practical differences?"
+      ],
+      "tags": ["technology", "governance", "llms", "ai-ml"]
+    },
+    {
+      "name": "Prompting: How to Talk to an LLM",
+      "topics": [
+        "What is a prompt — and why does how you ask an LLM a question dramatically affect the quality of the answer?",
+        "What is prompt engineering — and why has it become a skill in its own right?",
+        "What are system prompts — and how do they set the personality, rules, and boundaries for an LLM conversation?",
+        "What techniques improve LLM responses — specificity, examples, step-by-step instructions, and role-playing?",
+        "What are the limits of prompting — when does no amount of clever wording fix a fundamental limitation?",
+        "How do jailbreaks work — and what do they reveal about how LLMs process instructions?",
+        "Why is prompting a temporary skill — and how will the interface between humans and AI evolve?"
+      ],
+      "tags": ["technology", "communication", "llms", "ai-ml"]
+    },
+    {
+      "name": "LLMs and Truth",
+      "topics": [
+        "Do LLMs know what is true — and what does 'knowing' even mean for a statistical system?",
+        "How do LLMs handle contested facts, political disagreements, and value-laden questions?",
+        "What is the difference between an LLM reflecting the consensus of its training data and an LLM telling you the truth?",
+        "How do different LLM providers handle bias, neutrality, and controversial topics — and who decides those policies?",
+        "What happens when LLMs are used as authoritative sources — by students, journalists, or professionals?",
+        "How does the fluency of LLM output make false information more dangerous?",
+        "What is the responsibility of LLM developers to ensure accuracy — and is it even possible at scale?"
+      ],
+      "tags": ["ethics", "epistemology", "llms", "misinformation"]
+    },
+    {
+      "name": "The Economics and Politics of LLMs",
+      "topics": [
+        "Why does building frontier LLMs require billions of dollars — and what does that concentration of investment mean?",
+        "How do LLMs generate revenue — subscriptions, APIs, enterprise licensing, and data advantages?",
+        "What is the relationship between LLM development and the tech industry's power structure?",
+        "How do governments view LLMs — as national security assets, economic engines, or threats to regulate?",
+        "What are the copyright and intellectual property disputes surrounding LLM training data?",
+        "How does the concentration of LLM capability in a few companies affect competition and innovation?",
+        "What is the geopolitical dimension of LLMs — the US-China AI race and global access to language technology?"
+      ],
+      "tags": ["economics", "governance", "llms", "ai-policy"]
+    },
+    {
+      "name": "Where LLMs Are Going",
+      "topics": [
+        "What are multimodal models — and how do they extend LLMs to handle images, audio, and video alongside text?",
+        "What are AI agents — and how do they use LLMs to take actions, browse the web, and use tools?",
+        "What is retrieval-augmented generation (RAG) — and how does it give LLMs access to current, verified information?",
+        "How might LLMs evolve from chatbots into infrastructure — embedded in every application and workflow?",
+        "What are the scaling debates — will making models bigger continue to make them better, or are we hitting limits?",
+        "What would it mean for LLMs to develop reasoning, planning, and genuine understanding — and are we close?",
+        "How will the next generation of LLMs change work, education, creativity, and public discourse?"
+      ],
+      "tags": ["technology", "frontiers", "llms", "ai-ml"]
     }
   ]
 }

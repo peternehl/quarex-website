@@ -3,21 +3,56 @@
     "slug": "key-ideas-in-machine-learning",
     "name": "Key Ideas in Machine Learning",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "machine learning",
+      "artificial intelligence",
+      "data science",
+      "pattern recognition",
+      "computational methods"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
     "slug": "probability-statistics-and-uncertainty",
     "name": "Probability, Statistics, and Uncertainty",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "probability",
+      "statistics",
+      "uncertainty",
+      "artificial intelligence",
+      "quantitative reasoning"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
     "slug": "what-is-ai-really",
     "name": "What Is AI, Really?",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "artificial intelligence",
+      "machine learning",
+      "computing foundations",
+      "technology literacy",
+      "critical thinking"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-history-of-ai",
+    "name": "The History of AI",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "artificial intelligence",
+      "technology history",
+      "machine learning",
+      "computing pioneers",
+      "AI winters and breakthroughs"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   }
 ]

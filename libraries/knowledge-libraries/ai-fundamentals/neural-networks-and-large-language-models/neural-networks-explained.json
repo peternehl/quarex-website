@@ -1,45 +1,170 @@
 {
   "name": "Neural Networks Explained",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "neural networks",
+    "deep learning",
+    "artificial intelligence",
+    "computational architecture",
+    "pattern recognition"
+  ],
   "chapters": [
     {
+      "name": "What Is a Neural Network?",
+      "topics": [
+        "What is an artificial neural network — and why is it called 'neural'?",
+        "How are artificial neurons inspired by biological neurons — and where does the analogy break down?",
+        "What is the basic structure of a neural network — inputs, weights, and outputs?",
+        "Why did neural networks exist as an idea for decades before they became practical?",
+        "What made neural networks suddenly powerful starting around 2012?",
+        "How does a neural network differ from other machine learning approaches?",
+        "Why should a non-technical person understand neural networks — and what level of understanding is enough?"
+      ],
+      "tags": ["technology", "foundations", "neural-networks", "ai-ml"]
+    },
+    {
       "name": "Neurons, Layers, and Activation Functions",
-      "topics": [],
-      "tags": [
-        "technology",
-        "ai-ml",
-        "computer-science",
-        "neural-networks"
-      ]
+      "topics": [
+        "What is an artificial neuron — and what does it actually compute?",
+        "What are weights and biases — and how do they determine what a neuron responds to?",
+        "What are layers — and what does it mean for a network to have input, hidden, and output layers?",
+        "What are activation functions — and why are they necessary for the network to learn complex patterns?",
+        "What is a feedforward network — the simplest type of neural network?",
+        "How does information flow through a neural network from input to prediction?",
+        "What is the relationship between the number of neurons, the number of layers, and what the network can learn?"
+      ],
+      "tags": ["technology", "foundations", "neural-networks", "computer-science"]
     },
     {
-      "name": "How Networks Learn from Data",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "neural-networks"
-      ]
+      "name": "How Neural Networks Learn",
+      "topics": [
+        "What is training — and how does a neural network go from random weights to useful predictions?",
+        "What is a loss function — and how does it measure how wrong the network's predictions are?",
+        "What is backpropagation — and how does it calculate how to adjust each weight to reduce error?",
+        "What is gradient descent — and how does it navigate toward better and better solutions?",
+        "What is a learning rate — and why does choosing the right one matter so much?",
+        "How many training examples does a neural network need — and why is the answer usually 'more than you think'?",
+        "What does it mean for a network to 'converge' — and how do you know when training is done?",
+        "Why is training a neural network more like gardening than engineering — and what does that imply about reproducibility?"
+      ],
+      "tags": ["technology", "methodology", "neural-networks", "ai-ml"]
     },
     {
-      "name": "Image, Speech, and Text Models",
-      "topics": [],
-      "tags": [
-        "technology",
-        "ai-ml",
-        "computer-science",
-        "neural-networks"
-      ]
+      "name": "Convolutional Neural Networks: Seeing",
+      "topics": [
+        "What are convolutional neural networks (CNNs) — and why were they designed for images?",
+        "How does a CNN detect features — edges, textures, shapes — at different levels of abstraction?",
+        "What is a convolutional filter — and how does it scan across an image looking for patterns?",
+        "How do pooling layers reduce the size of the data while preserving important features?",
+        "How did CNNs transform computer vision — from face recognition to medical imaging to self-driving cars?",
+        "What is ImageNet — and why was the 2012 AlexNet result a turning point for the field?",
+        "What can CNNs see that humans miss — and what do they miss that humans see easily?"
+      ],
+      "tags": ["technology", "innovation", "neural-networks", "computer-science"]
     },
     {
-      "name": "Scaling Up: Deep vs Shallow Networks",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "neural-networks"
-      ]
+      "name": "Recurrent Neural Networks: Sequences and Time",
+      "topics": [
+        "What are recurrent neural networks (RNNs) — and why were they designed for sequential data?",
+        "How does an RNN process a sequence — remembering what it saw earlier in order to interpret what comes next?",
+        "What is the vanishing gradient problem — and why did it limit what RNNs could learn?",
+        "What are LSTMs and GRUs — and how did they solve the memory problem in recurrent networks?",
+        "How were RNNs used for language tasks — translation, text generation, and speech recognition?",
+        "Why did transformers largely replace RNNs for language tasks — and what advantages did they offer?",
+        "What does the rise and decline of RNNs teach about how quickly AI architectures evolve?"
+      ],
+      "tags": ["technology", "evolution", "neural-networks", "computer-science"]
+    },
+    {
+      "name": "Deep Networks: Why Depth Matters",
+      "topics": [
+        "What makes a network 'deep' — and what is the difference between deep and shallow networks?",
+        "Why can deep networks learn things that shallow networks cannot?",
+        "How does depth allow networks to build up increasingly abstract representations — from pixels to concepts?",
+        "What are the challenges of training deep networks — vanishing gradients, computational cost, and instability?",
+        "What techniques make deep training possible — batch normalization, skip connections, and residual networks?",
+        "How deep are modern networks — and is there a limit to how deep is useful?",
+        "What is the relationship between depth, width, and the total number of parameters in a network?"
+      ],
+      "tags": ["technology", "scale", "neural-networks", "computer-science"]
+    },
+    {
+      "name": "Training at Scale: GPUs, Data Centers, and Compute",
+      "topics": [
+        "Why do neural networks require so much computational power — and what makes training expensive?",
+        "What are GPUs — and why are they better than CPUs for training neural networks?",
+        "How did NVIDIA's GPUs become the backbone of modern AI — and what are the economic implications?",
+        "What are TPUs and other specialized AI chips — and why are companies racing to build them?",
+        "How do data centers consume energy and water for AI training — and what are the environmental consequences?",
+        "What does it cost to train a frontier AI model — and who can afford it?",
+        "How does the compute requirement shape who gets to build AI and who gets left out?"
+      ],
+      "tags": ["technology", "infrastructure", "neural-networks", "data-centers"]
+    },
+    {
+      "name": "Generative Networks: Creating New Content",
+      "topics": [
+        "What are generative neural networks — and how do they create new images, text, audio, and video?",
+        "What are Generative Adversarial Networks (GANs) — and how do two networks compete to improve each other?",
+        "What are diffusion models — and how do they generate images by learning to remove noise?",
+        "What are variational autoencoders (VAEs) — and how do they learn compressed representations for generation?",
+        "How do generative models produce photorealistic images of people, places, and objects that don't exist?",
+        "What are the creative and artistic applications of generative networks?",
+        "What are the risks — deepfakes, misinformation, and the erosion of trust in visual evidence?"
+      ],
+      "tags": ["technology", "innovation", "neural-networks", "deepfakes"]
+    },
+    {
+      "name": "Transfer Learning and Pre-trained Models",
+      "topics": [
+        "What is transfer learning — and why is it one of the most important ideas in modern AI?",
+        "How can a model trained on one task be adapted to perform well on a completely different task?",
+        "What are pre-trained models — and why do they save enormous amounts of time and compute?",
+        "How does fine-tuning work — taking a general model and specializing it for a specific use case?",
+        "What are foundation models — and why are they changing the economics of AI development?",
+        "How does transfer learning make powerful AI accessible to small organizations with limited data?",
+        "What are the risks of everyone building on the same pre-trained models — monoculture and inherited biases?"
+      ],
+      "tags": ["technology", "methodology", "neural-networks", "ai-ml"]
+    },
+    {
+      "name": "Why Neural Networks Fail",
+      "topics": [
+        "What are adversarial examples — and how can tiny, invisible changes to an image fool a neural network completely?",
+        "What is catastrophic forgetting — and why do neural networks lose old knowledge when learning new things?",
+        "How do neural networks fail on out-of-distribution data — inputs that differ from what they trained on?",
+        "What are failure modes in safety-critical applications — autonomous driving, medical diagnosis, and financial trading?",
+        "Why do neural networks lack common sense — and why is that so hard to fix?",
+        "What is overconfidence — and why do neural networks often assign high probability to wrong answers?",
+        "How should the failure modes of neural networks influence where and how we deploy them?"
+      ],
+      "tags": ["technology", "critical-thinking", "neural-networks", "risk-assessment"]
+    },
+    {
+      "name": "Interpreting Neural Networks",
+      "topics": [
+        "Why is it important to understand what a neural network is doing internally — and not just look at outputs?",
+        "What is mechanistic interpretability — and how do researchers try to reverse-engineer what networks learn?",
+        "What are attention maps and saliency maps — and how do they show what a network is 'looking at'?",
+        "What has been discovered about how neural networks organize knowledge — circuits, features, and representations?",
+        "Why is interpretability harder for larger models — and what does that mean for safety and trust?",
+        "How does the interpretability gap affect regulation, liability, and public accountability?",
+        "What is the tradeoff between a model you can understand and a model that performs better?"
+      ],
+      "tags": ["technology", "transparency", "neural-networks", "ai-ml"]
+    },
+    {
+      "name": "The Future of Neural Networks",
+      "topics": [
+        "What are the current frontiers of neural network research — and what problems remain unsolved?",
+        "What are neuromorphic computing and spiking neural networks — and could they be more efficient than current architectures?",
+        "How might neural networks be combined with symbolic reasoning to overcome current limitations?",
+        "What would it take for neural networks to develop something like common sense or causal reasoning?",
+        "How will advances in hardware — quantum computing, optical chips — affect neural network capabilities?",
+        "What is the debate about whether scaling up current architectures is enough to reach general intelligence?",
+        "What does the trajectory of neural networks mean for society, employment, and human identity?"
+      ],
+      "tags": ["technology", "frontiers", "neural-networks", "ai-ml"]
     }
   ]
 }

@@ -1,45 +1,170 @@
 {
   "name": "AI in Everyday Life",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "artificial intelligence",
+    "consumer technology",
+    "digital life",
+    "automation",
+    "algorithmic society"
+  ],
   "chapters": [
     {
-      "name": "Recommender Systems and Personalization",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "digital-life"
-      ]
+      "name": "AI You Already Use",
+      "topics": [
+        "What AI systems are you already using every day — even if you don't know it?",
+        "How does AI power the autocomplete, autocorrect, and predictive text on your phone?",
+        "How does AI decide what you see on social media — and why does it show you what it shows you?",
+        "How does AI route your navigation, estimate arrival times, and adjust for traffic?",
+        "How does AI filter spam, detect fraud, and protect your accounts?",
+        "Why is most of the AI in your daily life invisible — working behind the scenes without your knowledge?",
+        "What would your digital life look like if all the AI were suddenly turned off?"
+      ],
+      "tags": ["technology", "digital-life", "ai-ml", "algorithms"]
     },
     {
-      "name": "Search, Assistants, and Productivity Tools",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "digital-life",
-        "ai-ml"
-      ]
+      "name": "Recommender Systems and Personalization",
+      "topics": [
+        "How do recommendation engines work — on Netflix, Spotify, Amazon, YouTube, and TikTok?",
+        "What is collaborative filtering — and how does it predict what you'll like based on what similar users liked?",
+        "What is content-based filtering — and how does it match items to your past behavior?",
+        "How does personalization create filter bubbles — showing you more of what you already agree with?",
+        "What is the engagement optimization problem — when recommendation algorithms prioritize what keeps you scrolling over what's good for you?",
+        "How do recommendation systems affect what music you hear, what news you read, and what products you buy?",
+        "What control do you have over recommendations — and what does opting out actually do?",
+        "How do recommender systems shape culture — making some content viral and other content invisible?"
+      ],
+      "tags": ["technology", "digital-life", "ai-ml", "algorithms"]
+    },
+    {
+      "name": "Search Engines and AI Assistants",
+      "topics": [
+        "How do search engines like Google use AI to understand what you're looking for — even when your query is vague?",
+        "What is the difference between traditional search (matching keywords) and AI-powered search (understanding intent)?",
+        "How do AI-generated search summaries work — and what are the risks of presenting AI-generated answers as facts?",
+        "What are voice assistants — Siri, Alexa, Google Assistant — and what can they actually do?",
+        "How do AI assistants understand spoken language — and where do they still fail?",
+        "What data do search engines and voice assistants collect about you — and how is it used?",
+        "How is AI changing the way we look for information — and what does that mean for how we think?"
+      ],
+      "tags": ["technology", "digital-life", "ai-ml", "platforms"]
     },
     {
       "name": "AI in Phones, Cars, and Smart Devices",
-      "topics": [],
-      "tags": [
-        "technology",
-        "innovation",
-        "ai-ml",
-        "digital-life"
-      ]
+      "topics": [
+        "What AI runs on your smartphone — in the camera, battery management, face recognition, and apps?",
+        "How does AI power the computational photography that makes phone photos look professional?",
+        "What AI is in modern cars — adaptive cruise control, lane keeping, parking assistance, and collision avoidance?",
+        "What is the difference between driver assistance systems and self-driving cars — and where are we on that spectrum?",
+        "What are smart home devices — and how does AI enable thermostats, doorbells, and appliances to learn your habits?",
+        "How does edge AI work — running AI directly on your device instead of sending data to the cloud?",
+        "What are the privacy implications of having AI-powered devices listening and watching in your home and car?"
+      ],
+      "tags": ["technology", "innovation", "ai-ml", "digital-life"]
+    },
+    {
+      "name": "AI in Shopping and Commerce",
+      "topics": [
+        "How does AI determine the prices you see — dynamic pricing, personalized pricing, and surge pricing?",
+        "How do online stores use AI to recommend products, predict demand, and manage inventory?",
+        "What is algorithmic pricing — and can AI be used to coordinate prices across competitors?",
+        "How do AI-powered chatbots handle customer service — and when do they help vs. frustrate?",
+        "What is visual search — and how does AI let you find products by taking a photo?",
+        "How does AI detect and prevent online fraud — and how does it sometimes flag legitimate purchases?",
+        "What does it mean that AI knows more about your shopping habits than you do?"
+      ],
+      "tags": ["economics", "digital-life", "ai-ml", "algorithms"]
+    },
+    {
+      "name": "AI in Social Media",
+      "topics": [
+        "How does AI determine the order of your social media feed — and what signals does it optimize for?",
+        "How does AI moderate content — detecting hate speech, violence, and misinformation at scale?",
+        "What are the limitations of AI content moderation — false positives, cultural context, and bias?",
+        "How do AI-generated accounts, comments, and content affect what you see and believe on social media?",
+        "How does AI-driven engagement optimization contribute to addiction, anxiety, and polarization?",
+        "What is the attention economy — and how does AI help platforms capture and monetize your attention?",
+        "How much of what you see on social media is shaped by AI — and how much is organic?"
+      ],
+      "tags": ["media", "digital-life", "social-media", "ai-ml"]
+    },
+    {
+      "name": "AI in Finance and Banking",
+      "topics": [
+        "How does AI affect your credit score, loan approval, and insurance rates?",
+        "What is algorithmic trading — and how does AI execute millions of stock trades per second?",
+        "How do banks use AI to detect fraudulent transactions on your accounts?",
+        "What are robo-advisors — and how does AI manage investment portfolios?",
+        "How does AI determine whether you qualify for a mortgage, credit card, or business loan?",
+        "What happens when AI-based financial decisions are opaque — and you can't find out why you were denied?",
+        "What are the fairness concerns with AI in finance — and who is most likely to be harmed?"
+      ],
+      "tags": ["economics", "digital-life", "ai-ml", "finance"]
+    },
+    {
+      "name": "AI in Entertainment and Media",
+      "topics": [
+        "How does AI select and promote content on streaming platforms — and why does everything seem to look the same?",
+        "How is AI used in music production — composition, mixing, mastering, and discovery?",
+        "How is AI used in video games — enemy behavior, procedural generation, and adaptive difficulty?",
+        "How does AI power the visual effects in movies and television — and how is it changing production?",
+        "What are AI-generated influencers and virtual personalities — and do they disclose their nature?",
+        "How does AI-generated content — articles, summaries, reviews — compete with human-created content?",
+        "What does the rise of AI in entertainment mean for human artists, writers, and musicians?"
+      ],
+      "tags": ["arts", "digital-life", "ai-ml", "algorithms"]
+    },
+    {
+      "name": "AI in Education",
+      "topics": [
+        "How is AI used in educational technology — adaptive learning platforms, tutoring systems, and grading?",
+        "What are the benefits of AI tutors — personalized pace, immediate feedback, and availability?",
+        "How does AI detect plagiarism — and how has AI-generated text made detection harder?",
+        "What is the impact of ChatGPT and similar tools on student learning — aid or crutch?",
+        "How are schools and universities adapting their policies and pedagogy in response to AI?",
+        "What skills become more important in an AI world — and how should education change?",
+        "What are the equity concerns — who has access to AI-powered educational tools and who doesn't?"
+      ],
+      "tags": ["education", "digital-life", "ai-ml", "algorithms"]
     },
     {
       "name": "Invisible AI in Infrastructure and Services",
-      "topics": [],
-      "tags": [
-        "technology",
-        "infrastructure",
-        "ai-ml",
-        "cybersecurity"
-      ]
+      "topics": [
+        "How does AI manage electrical grids — predicting demand, balancing supply, and preventing blackouts?",
+        "How is AI used in logistics and supply chains — routing trucks, managing warehouses, and predicting shortages?",
+        "How does AI help manage water systems, traffic signals, and public transportation?",
+        "What role does AI play in telecommunications — network optimization, call routing, and service quality?",
+        "How does AI affect the speed and reliability of the internet infrastructure you depend on?",
+        "What happens when invisible AI infrastructure fails — and who is responsible?",
+        "Why does the most impactful AI often get the least public attention?"
+      ],
+      "tags": ["technology", "infrastructure", "ai-ml", "automation"]
+    },
+    {
+      "name": "AI and Your Privacy",
+      "topics": [
+        "What personal data do AI systems collect about you — location, behavior, preferences, biometrics?",
+        "How is your data used to train AI models — and did you consent to that use?",
+        "What is facial recognition — where is it used, and what are the privacy implications?",
+        "How does targeted advertising use AI to build profiles of your interests, habits, and vulnerabilities?",
+        "What rights do you have over your data — GDPR, CCPA, and other privacy regulations?",
+        "How do you minimize your AI data footprint — practical steps for managing privacy?",
+        "What is the tradeoff between the convenience of AI services and the privacy costs of using them?"
+      ],
+      "tags": ["technology", "privacy", "ai-ml", "surveillance"]
+    },
+    {
+      "name": "Being an Informed AI User",
+      "topics": [
+        "How do you figure out when a service or product is using AI — and why is it often not disclosed?",
+        "What questions should you ask about any AI system that affects you?",
+        "How do you evaluate whether an AI tool is helping you or manipulating you?",
+        "What does informed consent mean in an AI context — and do you actually have a choice?",
+        "How do you develop healthy skepticism about AI without becoming paranoid or cynical?",
+        "What are your rights when AI makes a decision about you — and how do you exercise them?",
+        "Why is AI literacy a form of self-defense in the modern digital world?"
+      ],
+      "tags": ["society", "critical-thinking", "ai-ml", "media-literacy"]
     }
   ]
 }

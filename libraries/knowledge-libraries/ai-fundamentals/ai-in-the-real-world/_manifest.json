@@ -3,8 +3,15 @@
     "slug": "ai-in-everyday-life",
     "name": "AI in Everyday Life",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "artificial intelligence",
+      "consumer technology",
+      "digital life",
+      "automation",
+      "algorithmic society"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
     "slug": "one-mind-many-machines-how-solo-builders-now-outpace-legacy-platforms",
@@ -17,14 +24,70 @@
     "slug": "responsible-use-and-human-judgment",
     "name": "Responsible Use and Human Judgment",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "responsible AI",
+      "human judgment",
+      "critical thinking",
+      "AI literacy",
+      "decision-making"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
     "slug": "risks-harms-and-governance",
     "name": "Risks, Harms, and Governance",
     "description": null,
-    "chapterCount": 4,
-    "tags": []
+    "chapterCount": 12,
+    "tags": [
+      "AI risks",
+      "AI governance",
+      "algorithmic harm",
+      "regulation",
+      "accountability"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "ai-and-creativity",
+    "name": "AI and Creativity",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "artificial intelligence",
+      "creativity",
+      "art and technology",
+      "generative AI",
+      "authorship and originality"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "ai-in-healthcare",
+    "name": "AI in Healthcare",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "artificial intelligence",
+      "healthcare",
+      "medical technology",
+      "patient safety",
+      "health equity"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "global-ai-policy",
+    "name": "Global AI Policy",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "artificial intelligence",
+      "global governance",
+      "technology regulation",
+      "geopolitics of AI",
+      "democratic oversight"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
   }
 ]

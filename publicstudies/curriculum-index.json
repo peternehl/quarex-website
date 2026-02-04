@@ -72,20 +72,318 @@
             ]
         },
         {
-            "id": "black-studies",
-            "title": "Black Studies",
-            "icon": "⚗",
-            "description": "African American history, culture, politics, and the struggle for justice.",
+            "id": "ai-studies",
+            "title": "AI Studies",
+            "icon": "🤖",
+            "description": "Understanding artificial intelligence as a citizen, worker, and voter.",
             "lang": "en",
             "status": "live",
+            "syllabus": "AIStudiesSyllabus.html",
             "courses": [
+                {
+                    "title": "What Is AI, Really?",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really"
+                },
+                {
+                    "title": "The History of AI",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/the-history-of-ai"
+                },
+                {
+                    "title": "Key Ideas in Machine Learning",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/key-ideas-in-machine-learning"
+                },
+                {
+                    "title": "Neural Networks Explained",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/neural-networks-explained"
+                },
+                {
+                    "title": "Transformers and LLMs",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/transformers-and-llms"
+                },
+                {
+                    "title": "Probability, Statistics, and Uncertainty",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/probability-statistics-and-uncertainty"
+                },
+                {
+                    "title": "AI in Everyday Life",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-everyday-life"
+                },
+                {
+                    "title": "AI and Creativity",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-and-creativity"
+                },
+                {
+                    "title": "AI in Healthcare",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-healthcare"
+                },
+                {
+                    "title": "Responsible Use and Human Judgment",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/responsible-use-and-human-judgment"
+                },
+                {
+                    "title": "Risks, Harms, and Governance",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/risks-harms-and-governance"
+                },
+                {
+                    "title": "Technology's Hidden Tradeoffs",
+                    "link": "https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs"
+                },
+                {
+                    "title": "AI + Billionaires = Hyperagency",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency"
+                },
+                {
+                    "title": "AI Risks: Real vs. Imaginary",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary"
+                },
+                {
+                    "title": "The Ungovernable Economy",
+                    "link": "https://quarex.org/libraries/i/economic-infrastructures/geopolitics/concentration-singularity"
+                },
+                {
+                    "title": "Global AI Policy",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/global-ai-policy"
+                },
+                {
+                    "title": "AI and Your Career: Adaptation Strategies",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies"
+                },
+                {
+                    "title": "AI, Bots, and Synthetic Media",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media"
+                },
+                {
+                    "title": "AI as a Force Multiplier for Knowledge Work",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-as-a-force-multiplier"
+                }
+            ]
+        },
+        {
+            "id": "media-information-studies",
+            "title": "Media & Information Studies",
+            "icon": "📡",
+            "description": "Understanding how information works, who controls it, and how to navigate it.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "MediaStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "Foundations of Critical Thinking",
+                    "link": "https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking"
+                },
+                {
+                    "title": "How Information Shapes What We Believe",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/how-information-shapes-what-we-believe"
+                },
+                {
+                    "title": "Newspapers",
+                    "link": "https://quarex.org/libraries/i/social-infrastructures/print-media/newspapers"
+                },
+                {
+                    "title": "Polarization Pays",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/polarization-pays"
+                },
+                {
+                    "title": "Gender, Media, and Representation",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation"
+                },
+                {
+                    "title": "Political Advertising: Finding the Facts",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/political-advertising-finding-the-facts"
+                },
+                {
+                    "title": "The Trump Effect on the News",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/the-trump-effect-on-the-news"
+                },
+                {
+                    "title": "Trump's Lies: Then and Now",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now"
+                },
+                {
+                    "title": "How History Gets Rewritten: The Revisionism Playbook",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/how-history-gets-rewritten-the-revisionism-playbook"
+                },
+                {
+                    "title": "Technology's Hidden Tradeoffs",
+                    "link": "https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs"
+                },
+                {
+                    "title": "AI, Bots, and Synthetic Media",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media"
+                },
+                {
+                    "title": "Free Speech versus Hate Speech",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/free-speech-debates/free-speech-versus-hate-speech"
+                },
+                {
+                    "title": "AI + Billionaires = Hyperagency",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency"
+                },
+                {
+                    "title": "AI Risks: Real vs. Imaginary",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary"
+                },
+                {
+                    "title": "The Philanthropy-Power Divide",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/the-philanthropy-power-divide"
+                },
+                {
+                    "title": "Evaluating Sources and Expertise",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise"
+                },
+                {
+                    "title": "Checking Political Claims and Statistics",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics"
+                },
+                {
+                    "title": "Tools and Techniques for Verifying Information",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information"
+                }
+            ]
+        },
+        {
+            "id": "visual-arts",
+            "title": "Visual Arts",
+            "icon": "🎨",
+            "description": "A complete survey from art history to digital art, covering every major visual medium.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "VisualArtsSyllabus.html",
+            "courses": [
+                {
+                    "title": "Art History: From Prehistory to the Present",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/art-history-from-prehistory-to-the-present"
+                },
+                {
+                    "title": "Drawing: Techniques and Principles",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/drawing-techniques-and-principles"
+                },
+                {
+                    "title": "Painting: Materials, Methods, and Expression",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/painting-materials-methods-and-expression"
+                },
+                {
+                    "title": "Sculpture: A Comprehensive Guide to Forms and Techniques",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/sculpture-a-comprehensive-guide-to-forms-and-techniques"
+                },
+                {
+                    "title": "Printmaking: Processes and Practices",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/printmaking-processes-and-practices"
+                },
+                {
+                    "title": "Photography: History, Theory, and Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/photography-history-theory-and-practice"
+                },
+                {
+                    "title": "Illustration: Concepts and Techniques",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/illustration-concepts-and-techniques"
+                },
+                {
+                    "title": "Graphic Design: Principles and Applications",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/graphic-design-principles-and-applications"
+                },
+                {
+                    "title": "Contemporary Art: Themes and Movements Since 1945",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/contemporary-art-themes-and-movements-since-1945"
+                },
+                {
+                    "title": "Digital Art and Design: Tools and Concepts",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/digital-art-and-design-tools-and-concepts"
+                },
+                {
+                    "title": "AI Art: Generation, Ethics, and Creative Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/ai-art-generation-ethics-and-creative-practice"
+                }
+            ]
+        },
+        {
+            "id": "black-studies",
+            "title": "Black Studies",
+            "icon": "✊",
+            "description": "African American history, culture, politics, and the ongoing struggle for justice and equality.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "BlackStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "African Civilizations Before Colonialism",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/african-civilizations-before-colonialism"
+                },
+                {
+                    "title": "The Atlantic Slave Trade",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/the-atlantic-slave-trade"
+                },
+                {
+                    "title": "Life Under Slavery: The Antebellum Experience",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/life-under-slavery-the-antebellum-experience"
+                },
+                {
+                    "title": "The Black Experience in the Civil War",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/the-black-experience-in-the-civil-war"
+                },
+                {
+                    "title": "Reconstruction and the Betrayal of Freedom",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/reconstruction-and-the-betrayal-of-freedom"
+                },
+                {
+                    "title": "Jim Crow, Segregation, and Black Resistance",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/jim-crow-segregation-and-black-resistance"
+                },
                 {
                     "title": "A History of Racism in the Americas",
                     "link": "https://quarex.org/libraries/k/the-sciences/history-and-anthropology/a-history-of-racism-in-the-americas"
                 },
                 {
-                    "title": "Civil Rights Movement in the US",
+                    "title": "The Civil Rights Movement in the US",
                     "link": "https://quarex.org/libraries/pe/historical-narratives/civil-rights-movements/civil-rights-movement-in-the-us"
+                },
+                {
+                    "title": "Black Power, Black Nationalism, and Self-Determination",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-power-black-nationalism-and-self-determination"
+                },
+                {
+                    "title": "African American Literature",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/african-american-literature"
+                },
+                {
+                    "title": "Black Music: From Spirituals to Hip-Hop",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-music-from-spirituals-to-hip-hop"
+                },
+                {
+                    "title": "Black Political Thought",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-political-thought"
+                },
+                {
+                    "title": "Black Religious Traditions and Theology",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-religious-traditions-and-theology"
+                },
+                {
+                    "title": "Racial Bias in U.S. Law and Policing",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/criminal-justice-debates/racial-bias-in-u-s-law-and-policing"
+                },
+                {
+                    "title": "Black Economic Life: Labor, Business, and Wealth",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-economic-life-labor-business-and-wealth"
+                },
+                {
+                    "title": "Housing, Education, and Urban Policy",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/housing-education-and-urban-policy"
+                },
+                {
+                    "title": "Health Disparities and Medical Racism",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/health-disparities-and-medical-racism"
+                },
+                {
+                    "title": "Pan-Africanism and the Black Diaspora",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/pan-africanism-and-the-black-diaspora"
+                },
+                {
+                    "title": "Contemporary Black Activism and Movements",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/contemporary-black-activism-and-movements"
+                },
+                {
+                    "title": "Black Media, Representation, and Cultural Power",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-media-representation-and-cultural-power"
                 }
             ]
         },

@@ -1,45 +1,169 @@
 {
   "name": "Tools and Techniques for Verifying Information",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "verification tools",
+    "fact-checking",
+    "digital investigation",
+    "media literacy",
+    "open source intelligence"
+  ],
   "chapters": [
     {
-      "name": "Reverse Image Search and Meme Checking",
-      "topics": [],
-      "tags": [
-        "media",
-        "misinformation",
-        "critical-thinking",
-        "cybersecurity"
-      ]
+      "name": "Reverse Image Search and Visual Verification",
+      "topics": [
+        "What is reverse image search — and how does it help you find where an image originally came from?",
+        "How do you use Google Images, TinEye, and Yandex for reverse image search — and when is each most useful?",
+        "How do you check whether a photo has been used in a different context — attached to a story it doesn't belong to?",
+        "What is EXIF data — and how does image metadata reveal when, where, and with what device a photo was taken?",
+        "How do you detect image manipulation — cropping, photoshopping, and splicing — without specialized tools?",
+        "What are the limitations of reverse image search — screenshots, cropped images, and AI-generated content?",
+        "How do you verify video — and why is video verification harder than image verification?"
+      ],
+      "tags": ["media", "verification", "fact-checking", "media-literacy"]
     },
     {
       "name": "Using Fact-Checking Sites Effectively",
-      "topics": [],
-      "tags": [
-        "media",
-        "misinformation",
-        "critical-thinking",
-        "free-speech"
-      ]
+      "topics": [
+        "What are the major fact-checking sites — PolitiFact, Snopes, FactCheck.org, Full Fact, AFP Fact Check?",
+        "How do you search fact-checking sites for specific claims — and what if the claim hasn't been checked yet?",
+        "What do the rating systems mean — True, False, Mostly True, Pants on Fire, and similar scales?",
+        "How do you read a fact-check article critically — understanding the methodology, evidence, and reasoning?",
+        "What are international fact-checking networks — IFCN — and what standards do member organizations follow?",
+        "How do you handle situations where different fact-checkers rate the same claim differently?",
+        "What are the limitations of fact-checking sites — and what claims do they typically not cover?"
+      ],
+      "tags": ["media", "verification", "fact-checking", "media-literacy"]
     },
     {
-      "name": "Looking Up Claims in Reputable Databases",
-      "topics": [],
-      "tags": [
-        "media",
-        "critical-thinking",
-        "misinformation",
-        "cybersecurity"
-      ]
+      "name": "Looking Up Claims in Official Databases",
+      "topics": [
+        "What government databases are most useful for verifying claims — BLS, Census, CDC, FBI, NOAA?",
+        "How do you use academic databases — Google Scholar, PubMed, JSTOR — to find research behind claims?",
+        "What are the best databases for checking financial claims — SEC filings, IRS data, CBO reports?",
+        "How do you find and read court documents, legislation, and regulatory filings online?",
+        "What international databases exist — World Bank, UN data, WHO — and how do you use them?",
+        "How do you navigate a government data portal when you're not sure exactly what you're looking for?",
+        "What are the most common barriers to accessing data — jargon, paywalls, and buried findings — and how do you get around them?"
+      ],
+      "tags": ["media", "verification", "research-methods", "fact-checking"]
     },
     {
       "name": "Spotting Manipulated Images and Deepfakes",
-      "topics": [],
-      "tags": [
-        "media",
-        "misinformation",
-        "digital-life",
-        "ai-ml"
-      ]
+      "topics": [
+        "What are the visual signs that an image has been manipulated — inconsistent lighting, blurred edges, repeated patterns?",
+        "What are deepfakes — and how do AI-generated faces, voices, and videos differ from traditional manipulation?",
+        "What free tools exist for detecting image manipulation — FotoForensics, InVID, and others?",
+        "How do AI detection tools work — and what are their accuracy rates and limitations?",
+        "What is C2PA content authentication — and how does it aim to prove the provenance of digital media?",
+        "How do you evaluate whether a viral video is authentic — checking source, context, timing, and corroboration?",
+        "Why is the detection of deepfakes an arms race — and what does that mean for the future of visual evidence?"
+      ],
+      "tags": ["technology", "verification", "deepfakes", "ai-ml"]
+    },
+    {
+      "name": "Verifying Social Media Claims",
+      "topics": [
+        "How do you verify a claim that's going viral on social media — what's the step-by-step process?",
+        "How do you check whether a social media account is real, a bot, or an impersonator?",
+        "What is geolocation — and how do you use landmarks, signs, and maps to verify where a photo or video was taken?",
+        "What is chronolocation — and how do you use shadows, weather data, and timestamps to verify when something happened?",
+        "How do you use the Wayback Machine and web archives to check what a webpage said at a specific point in time?",
+        "How do you trace a viral claim back to its origin — finding the first post, article, or account that started it?",
+        "What are the signs that a social media story is manufactured — coordinated posting, identical language, suspicious timing?"
+      ],
+      "tags": ["media", "verification", "social-media", "fact-checking"]
+    },
+    {
+      "name": "Open Source Intelligence (OSINT) Basics",
+      "topics": [
+        "What is OSINT — open source intelligence — and how is it used by journalists, researchers, and citizens?",
+        "What publicly available information can be used for verification — satellite imagery, corporate filings, shipping data, flight tracking?",
+        "How have OSINT techniques been used to verify or debunk major news events — conflicts, protests, and disasters?",
+        "What are the ethical boundaries of OSINT — privacy, harassment, and the difference between investigation and stalking?",
+        "How do you use Google Earth, satellite imagery, and mapping tools for geospatial verification?",
+        "What are the key OSINT communities and resources — Bellingcat, OSINT Framework, and investigative journalism outlets?",
+        "What level of OSINT is appropriate for ordinary citizens — and when should you leave it to professionals?"
+      ],
+      "tags": ["technology", "verification", "journalism", "cybersecurity"]
+    },
+    {
+      "name": "Checking Claims About Science and Health",
+      "topics": [
+        "How do you verify a scientific claim you encounter online — checking the study, the journal, and the reporting?",
+        "What is the difference between a preprint, a peer-reviewed paper, and a press release — and why does it matter?",
+        "How do you use PubMed, Google Scholar, and Retraction Watch to check scientific claims?",
+        "What are the warning signs of a bogus health claim — miracle cures, suppressed knowledge, and conspiracy framing?",
+        "How do you verify claims about vaccines, treatments, and medical procedures?",
+        "What tools help you evaluate the quality of a scientific study — sample size, methodology, conflicts of interest?",
+        "How do you communicate what you find to others without being dismissed or causing alarm?"
+      ],
+      "tags": ["science", "verification", "public-health", "fact-checking"]
+    },
+    {
+      "name": "Verifying News Stories and Sources",
+      "topics": [
+        "How do you verify whether a news story is original reporting or recycled from another source?",
+        "What are the signs that a news article is reliable — bylines, sourcing, editorial standards, and correction policies?",
+        "How do you check whether a quote attributed to a public figure was actually said — and in what context?",
+        "How do you verify breaking news — when initial reports are often incomplete, contradictory, or wrong?",
+        "What is the '48-hour rule' — and why is it wise to wait before sharing breaking news?",
+        "How do you evaluate a source that tells you something you want to believe — overcoming confirmation bias?",
+        "What are the most reliable international news sources — and how do you access them?"
+      ],
+      "tags": ["media", "verification", "journalism", "source-evaluation"]
+    },
+    {
+      "name": "Browser Extensions and Digital Tools",
+      "topics": [
+        "What browser extensions help with fact-checking — NewsGuard, InVID, CrowdTangle, and others?",
+        "How do you use web archives — the Wayback Machine and Archive.today — to check deleted or changed content?",
+        "What mobile apps help with on-the-spot verification — and how do you use them?",
+        "How do you use advanced search operators — in Google, Twitter, and other platforms — to find specific information?",
+        "What tools help you analyze the credibility of a website — domain age, registration data, and traffic patterns?",
+        "How do you set up alerts and monitoring for topics you want to track — Google Alerts, Talkwalker, and RSS?",
+        "What are the privacy and security considerations when using verification tools?"
+      ],
+      "tags": ["technology", "verification", "digital-safety", "media-literacy"]
+    },
+    {
+      "name": "Dealing with Uncertainty and Ambiguity",
+      "topics": [
+        "What do you do when you can't definitively verify or debunk a claim — how do you handle ambiguity?",
+        "What is the difference between 'unverified,' 'unconfirmed,' 'disputed,' and 'false' — and why do the distinctions matter?",
+        "How do you assess the probability that a claim is true when you have incomplete information?",
+        "When is it appropriate to say 'I don't know' — and why is that sometimes the most honest answer?",
+        "How do you communicate uncertainty to others without seeming indecisive or uninformed?",
+        "What is the precautionary principle in information sharing — when in doubt, don't share?",
+        "How do you balance the desire for certainty with the reality that many claims exist in a gray zone?"
+      ],
+      "tags": ["psychology", "uncertainty", "critical-thinking", "epistemology"]
+    },
+    {
+      "name": "Teaching Verification to Others",
+      "topics": [
+        "How do you teach media verification skills to children and teenagers?",
+        "How do you help older adults who may be less familiar with digital tools but more exposed to misinformation?",
+        "What approaches work for teaching verification to people who are suspicious of fact-checkers?",
+        "How do you create a culture of verification in your family, workplace, or community?",
+        "What resources exist for media literacy education — lesson plans, workshops, and online courses?",
+        "How do you model good verification habits without being preachy or condescending?",
+        "Why is teaching verification one of the most important civic contributions an individual can make?"
+      ],
+      "tags": ["education", "critical-thinking", "media-literacy", "fact-checking"]
+    },
+    {
+      "name": "Building Your Verification Workflow",
+      "topics": [
+        "What is a practical, repeatable verification workflow you can use every day?",
+        "How do you triage — deciding which claims are worth verifying and which you can safely ignore?",
+        "What are the first three steps you should always take when you encounter a suspicious claim?",
+        "How do you organize your verification bookmarks, tools, and reference sources for quick access?",
+        "How do you keep your verification skills current as tools, platforms, and techniques evolve?",
+        "How do you balance verification with your daily life — not every claim requires deep investigation?",
+        "What does it mean to be a responsible information citizen — and how does verification fit into that responsibility?"
+      ],
+      "tags": ["media", "critical-thinking", "fact-checking", "media-literacy"]
     }
   ]
 }

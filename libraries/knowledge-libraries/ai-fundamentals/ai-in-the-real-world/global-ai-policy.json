@@ -1,0 +1,168 @@
+{
+  "name": "Global AI Policy",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "artificial intelligence",
+    "global governance",
+    "technology regulation",
+    "geopolitics of AI",
+    "democratic oversight"
+  ],
+  "chapters": [
+    {
+      "name": "Why AI Needs Governance",
+      "topics": [
+        "What makes AI different from previous technologies in terms of governance challenges?",
+        "Why do market forces alone not produce safe, equitable, or transparent AI systems?",
+        "What are the core governance questions — who builds AI, who regulates it, who benefits, and who is harmed?",
+        "How does the speed of AI development outpace the speed of legislative and regulatory response?",
+        "What are the arguments for and against regulating AI before its full impacts are understood?",
+        "How do dual-use capabilities — AI that can be used for both beneficial and harmful purposes — complicate regulation?"
+      ],
+      "tags": ["politics", "governance", "ai-policy", "regulation"]
+    },
+    {
+      "name": "The European Approach: The EU AI Act",
+      "topics": [
+        "What is the EU AI Act, and how does it categorize AI systems by risk level?",
+        "How does the EU's precautionary approach differ from the US and Chinese approaches to AI regulation?",
+        "What obligations does the AI Act place on developers of high-risk AI systems?",
+        "How does the EU define 'unacceptable risk' — and what AI applications does it ban outright?",
+        "What are the enforcement mechanisms, and how will they work across 27 member states?",
+        "How has industry responded — with compliance, resistance, or relocation threats?",
+        "Does the EU's approach protect citizens or slow innovation — or both?"
+      ],
+      "tags": ["law", "regulation", "european-union", "ai-policy"]
+    },
+    {
+      "name": "The American Landscape: Fragmented Regulation",
+      "topics": [
+        "Why does the United States lack a comprehensive federal AI law — and what fills the gap?",
+        "How do executive orders, agency guidance, and state-level legislation create a patchwork of AI governance?",
+        "What role do the FTC, FDA, EEOC, and other agencies play in regulating AI within their existing mandates?",
+        "How do lobbying, campaign contributions, and the revolving door between tech and government shape AI policy?",
+        "What is the debate between innovation-first and safety-first approaches to AI regulation in Congress?",
+        "How do US states like California, Colorado, and Illinois create their own AI rules?",
+        "What are the consequences of regulating AI company by company rather than through systemic law?"
+      ],
+      "tags": ["politics", "governance", "us-politics", "ai-policy"]
+    },
+    {
+      "name": "China's AI Strategy: State Control and Ambition",
+      "topics": [
+        "How does China's national AI strategy integrate industrial policy, military planning, and social governance?",
+        "What AI regulations has China enacted — and how do they differ from Western approaches?",
+        "How does China use AI in social credit systems, surveillance, and population management?",
+        "What is the relationship between China's major AI companies (Baidu, Alibaba, Tencent, ByteDance) and the state?",
+        "How does China's approach to AI ethics differ from liberal democratic frameworks?",
+        "What role does data access — China's massive population and fewer privacy restrictions — play in AI development?",
+        "How does the US-China AI competition shape global governance possibilities?"
+      ],
+      "tags": ["politics", "authoritarianism", "asia", "ai-policy"]
+    },
+    {
+      "name": "The Global South and AI Colonialism",
+      "topics": [
+        "How do developing nations experience AI primarily as consumers of systems designed elsewhere?",
+        "What does 'AI colonialism' mean — and what are concrete examples of extractive AI practices in the Global South?",
+        "How are African, South Asian, and Latin American countries developing their own AI strategies?",
+        "What role do data labeling workers in Kenya, India, and the Philippines play in the AI supply chain?",
+        "How does the concentration of AI infrastructure in wealthy nations create dependency?",
+        "What would equitable global AI development look like — and who is advocating for it?",
+        "How do language barriers, cultural differences, and local contexts get erased by AI systems built in English-speaking countries?"
+      ],
+      "tags": ["politics", "colonialism", "africa", "ai-policy"]
+    },
+    {
+      "name": "Military AI and Autonomous Weapons",
+      "topics": [
+        "What are autonomous weapons systems, and how close are we to AI making life-and-death decisions on the battlefield?",
+        "What is the current state of international negotiations on lethal autonomous weapons?",
+        "How do major military powers — the US, China, Russia, Israel — approach AI in defense?",
+        "What are the ethical arguments for and against removing human decision-making from the use of lethal force?",
+        "How does AI change intelligence gathering, cyber warfare, and information operations?",
+        "What is the 'meaningful human control' standard, and why do some nations resist it?",
+        "Could an AI arms race become as destabilizing as the nuclear arms race?"
+      ],
+      "tags": ["conflict", "security", "ai-ml", "cyber-warfare"]
+    },
+    {
+      "name": "Facial Recognition and Biometric Surveillance",
+      "topics": [
+        "How accurate is facial recognition technology — and how does accuracy vary across demographic groups?",
+        "Which governments and police forces use facial recognition, and under what legal authority?",
+        "What are the documented cases of wrongful arrest and persecution based on facial recognition errors?",
+        "How have cities like San Francisco, and countries like the EU member states, restricted or banned facial recognition?",
+        "What is the difference between using biometrics for security (unlocking a phone) and for surveillance (tracking a crowd)?",
+        "How do facial recognition databases get built — and do the people in them know they're there?",
+        "What is the relationship between facial recognition and broader systems of social control?"
+      ],
+      "tags": ["technology", "privacy", "surveillance", "policing"]
+    },
+    {
+      "name": "Algorithmic Accountability and Transparency",
+      "topics": [
+        "What does algorithmic accountability mean — and who is accountable when an algorithm causes harm?",
+        "How do impact assessments, audits, and transparency reports work for AI systems?",
+        "What is the 'black box' problem — and can explainable AI solve it?",
+        "How do journalists, researchers, and civil society organizations investigate algorithmic harm?",
+        "What are algorithmic impact assessments, and which jurisdictions require them?",
+        "How does the right to explanation interact with trade secret protections for proprietary AI?",
+        "What does meaningful transparency look like for AI systems used in hiring, lending, and criminal justice?"
+      ],
+      "tags": ["ethics", "transparency", "algorithms", "accountability"]
+    },
+    {
+      "name": "AI and Labor Rights",
+      "topics": [
+        "How does AI-driven automation affect workers across industries — from trucking to legal research to creative work?",
+        "What labor protections exist for workers displaced by AI — and are they adequate?",
+        "How are gig economy platforms using AI to manage, surveil, and evaluate workers?",
+        "What is the debate over universal basic income as a response to AI-driven job displacement?",
+        "How did the 2023 Hollywood writers' and actors' strikes establish precedents for AI and creative labor?",
+        "What role should workers have in decisions about how AI is deployed in their industries?",
+        "How do different countries approach retraining, transition support, and social safety nets for AI-affected workers?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "automation", "labor"]
+    },
+    {
+      "name": "International Cooperation and Competition",
+      "topics": [
+        "What international bodies and agreements currently govern AI — and how effective are they?",
+        "How do the G7, OECD, and United Nations approach AI governance differently?",
+        "What is the Bletchley Declaration, and does it represent genuine progress or diplomatic theater?",
+        "How does AI competition between the US and China make global cooperation more difficult?",
+        "What can AI governance learn from international frameworks for nuclear weapons, climate change, or internet governance?",
+        "Is a global AI treaty possible — and would the major AI powers actually comply?",
+        "How do smaller nations and regional blocs assert their interests in a landscape dominated by a few AI superpowers?"
+      ],
+      "tags": ["politics", "diplomacy", "globalization", "ai-policy"]
+    },
+    {
+      "name": "Open Source vs. Closed AI: The Access Debate",
+      "topics": [
+        "What is the difference between open-source AI models (like Llama, Mistral) and closed models (like GPT, Claude)?",
+        "How does the open vs. closed debate affect safety, innovation, and power concentration?",
+        "What are the arguments that open-source AI democratizes access — and the counterarguments about misuse?",
+        "How do governments think about open-source AI — as a public good, a security risk, or both?",
+        "What role do academic researchers play when they can or cannot access the models they study?",
+        "How does the open-source debate intersect with export controls, sanctions, and national security?",
+        "Who benefits most from the current balance between open and closed AI development?"
+      ],
+      "tags": ["technology", "innovation", "ai-ml", "ai-policy"]
+    },
+    {
+      "name": "What Good AI Governance Could Look Like",
+      "topics": [
+        "What principles should guide AI governance — safety, equity, transparency, accountability, human dignity?",
+        "How can regulation be adaptive enough to keep pace with rapidly evolving AI capabilities?",
+        "What role should affected communities — not just technologists and legislators — play in AI governance?",
+        "How do sandbox approaches, regulatory experimentation, and iterative policy-making work in practice?",
+        "What would a genuinely international, democratic, and enforceable AI governance framework require?",
+        "How do we govern AI without stifling the beneficial applications that could address real human needs?",
+        "What can citizens do — individually and collectively — to shape the AI governance that affects their lives?"
+      ],
+      "tags": ["ethics", "governance", "democracy", "ai-policy"]
+    }
+  ]
+}

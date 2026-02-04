@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media &amp; Information Studies Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 18-course Media & Information Studies syllabus. Free, open curriculum covering critical thinking, media theory, misinformation, political manipulation, technology platforms, and practical fact-checking skills. 263 chapters of university-level content.">
+    <meta name="keywords" content="media studies syllabus, media literacy, fact-checking, misinformation, free media course, information studies, journalism education, open education">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/MediaStudiesSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/MediaStudiesSyllabus.html">
+    <meta property="og:title" content="Media & Information Studies Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 18-course Media & Information Studies syllabus. 263 chapters of free, university-level content on understanding media, misinformation, and information power.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Media & Information Studies Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 18-course Media & Information Studies syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #06b6d4;
+            --accent-hover: #0891b2;
+            --accent-soft: rgba(6, 182, 212, 0.08);
+            --accent-border: rgba(6, 182, 212, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>Media &amp; Information Studies</em> Syllabus</h1>
+            <p class="syllabus-intro">A complete, free curriculum for understanding how information works, who controls it, and how to navigate it. How media shapes belief, how misinformation spreads, how platforms concentrate power, and how citizens can fight back with facts. Eighteen courses drawn from five Quarex libraries.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">18</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">263</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">1,632</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- FOUNDATIONS -->
+            <div class="section-divider">
+                <h2 class="section-label">Foundations</h2>
+                <p class="section-desc">Critical thinking, media theory, and the institution of journalism &mdash; the intellectual foundation for everything that follows.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">Foundations of Critical Thinking</span>
+                    <span class="course-chapters">8 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How to Spot a Bad Argument</li>
+                        <li>Why We Fool Ourselves</li>
+                        <li>Evaluating Evidence</li>
+                        <li>The Art of Asking Questions</li>
+                        <li>Numbers Can Lie</li>
+                        <li>Media Literacy Essentials</li>
+                        <li>Separating Correlation from Causation</li>
+                        <li>Thinking About Thinking</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">How Information Shapes What We Believe</span>
+                    <span class="course-chapters">22 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Psychology of Belief Formation</li>
+                        <li>How Media Evolved</li>
+                        <li>The Attention Economy</li>
+                        <li>Algorithms and Filter Bubbles</li>
+                        <li>Social Media Dynamics</li>
+                        <li>Media Bias: Real and Perceived</li>
+                        <li>Propaganda and Persuasion</li>
+                        <li>Misinformation and Disinformation</li>
+                        <li>The Decline of Shared Reality</li>
+                        <li>Trust and Institutional Credibility</li>
+                        <li>Political Communication and Spin</li>
+                        <li>Echo Chambers and Polarization</li>
+                        <li>The Business of News</li>
+                        <li>Information Warfare</li>
+                        <li>Deepfakes and Synthetic Media</li>
+                        <li>Platform Power and Content Moderation</li>
+                        <li>Media Literacy and Critical Thinking</li>
+                        <li>Science Communication and Expertise</li>
+                        <li>Information Access and Inequality</li>
+                        <li>Government, Secrecy, and Transparency</li>
+                        <li>AI and the Future of Information</li>
+                        <li>Possible Futures</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/how-information-shapes-what-we-believe/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Newspapers of the World</span>
+                    <span class="course-chapters">49 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The New York Times</li>
+                        <li>The Washington Post</li>
+                        <li>The Wall Street Journal</li>
+                        <li>Los Angeles Times</li>
+                        <li>USA Today</li>
+                        <li>The Globe and Mail</li>
+                        <li>Toronto Star</li>
+                        <li>The Guardian</li>
+                        <li>The Times (London)</li>
+                        <li>The Telegraph</li>
+                        <li>Financial Times</li>
+                        <li>The Daily Mail</li>
+                        <li>Le Monde</li>
+                        <li>Le Figaro</li>
+                        <li>Der Spiegel</li>
+                        <li>Frankfurter Allgemeine Zeitung</li>
+                        <li>S&uuml;ddeutsche Zeitung</li>
+                        <li>El Pa&iacute;s</li>
+                        <li>Corriere della Sera</li>
+                        <li>La Repubblica</li>
+                        <li>NRC Handelsblad</li>
+                        <li>Neue Z&uuml;rcher Zeitung</li>
+                        <li>South China Morning Post</li>
+                        <li>Yomiuri Shimbun</li>
+                        <li>Asahi Shimbun</li>
+                        <li>Chosun Ilbo</li>
+                        <li>The Times of India</li>
+                        <li>The Hindu</li>
+                        <li>The Indian Express</li>
+                        <li>Dawn</li>
+                        <li>Haaretz</li>
+                        <li>The Jerusalem Post</li>
+                        <li>Israel Hayom</li>
+                        <li>Al-Ahram</li>
+                        <li>Asharq Al-Awsat</li>
+                        <li>H&uuml;rriyet</li>
+                        <li>Folha de S.Paulo</li>
+                        <li>O Globo</li>
+                        <li>Clar&iacute;n</li>
+                        <li>La Naci&oacute;n (Argentina)</li>
+                        <li>El Universal (Mexico)</li>
+                        <li>El Mercurio</li>
+                        <li>The Australian</li>
+                        <li>The Sydney Morning Herald</li>
+                        <li>The Age</li>
+                        <li>The New Zealand Herald</li>
+                        <li>Mail &amp; Guardian</li>
+                        <li>Daily Maverick</li>
+                        <li>The Daily Nation</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/social-infrastructures/print-media/newspapers/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- MEDIA, POWER, AND PERSUASION -->
+            <div class="section-divider">
+                <h2 class="section-label">Media, Power, and Persuasion</h2>
+                <p class="section-desc">How media shapes politics, reinforces inequality, manufactures outrage, and sells you things you didn&rsquo;t ask for.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Polarization Pays</span>
+                    <span class="course-chapters">14 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Polarization, Really?</li>
+                        <li>The Business Incentive Behind Division</li>
+                        <li>Media&rsquo;s Role in Manufacturing Outrage</li>
+                        <li>Social Media Algorithms and the Attention Economy</li>
+                        <li>When Outrage Becomes Entertainment</li>
+                        <li>State Actors and Strategic Polarization</li>
+                        <li>Political Actors Who Exploit Polarization</li>
+                        <li>The Psychology of Polarization</li>
+                        <li>Disinformation, Misinformation, and Manipulation</li>
+                        <li>Polarization Beyond Politics</li>
+                        <li>The Cost to Society</li>
+                        <li>Who Pays the Price?</li>
+                        <li>Can Polarization Be Reversed?</li>
+                        <li>Choosing Curiosity Over Conflict</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/polarization-pays/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Gender, Media, and Representation</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How Media Constructs Gender</li>
+                        <li>The Male Gaze and Who the Camera Has Always Served</li>
+                        <li>Early Film and the Gender Archetypes That Still Define Hollywood</li>
+                        <li>Advertising, Objectification, and the Commercial Value of Women&rsquo;s Bodies</li>
+                        <li>How News Organizations Frame Women as Subjects Rather Than Sources</li>
+                        <li>Why Women Are Rarely Quoted as Experts</li>
+                        <li>The Sexualization Trap</li>
+                        <li>Race, Representation, and Which Women Get to Be Seen in Media</li>
+                        <li>How LGBTQ+ Women Have Been Portrayed, Erased, and Reclaimed in Media</li>
+                        <li>Reality Television and the Gendered Spectacle</li>
+                        <li>Who Controls Production: Ownership, Gatekeeping, and the Business of Representation</li>
+                        <li>Social Media Algorithms and the Automated Reinforcement of Gender Stereotypes</li>
+                        <li>Influencer Culture and the New Economics of Performing Womanhood</li>
+                        <li>Violence Against Women as Entertainment</li>
+                        <li>Building a Media-Literate Society That Sees Through Gendered Representation</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Political Advertising: Finding the Facts</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Evolution of Political Advertising</li>
+                        <li>Anatomy of a Political Ad</li>
+                        <li>Common Deception Techniques</li>
+                        <li>Fact-Checking Political Claims</li>
+                        <li>Digital and Social Media Advertising</li>
+                        <li>The Money Behind Political Ads</li>
+                        <li>Legal Rules and Their Loopholes</li>
+                        <li>Media Literacy for Voters</li>
+                        <li>International Perspectives</li>
+                        <li>The Future of Political Advertising</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/political-advertising-finding-the-facts/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- MISINFORMATION AND MANIPULATION -->
+            <div class="section-divider">
+                <h2 class="section-label">Misinformation and Manipulation</h2>
+                <p class="section-desc">How lies spread, how the press is corrupted, and how history itself gets rewritten when the truth becomes inconvenient.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">The Trump Effect on the News</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The &lsquo;Fake News&rsquo; Revolution</li>
+                        <li>The Cable News Transformation</li>
+                        <li>Twitter, Truth Social, and the Direct Pipeline</li>
+                        <li>The Access vs. Accountability Dilemma</li>
+                        <li>The Business of Trump Coverage</li>
+                        <li>Presidential War on the Press</li>
+                        <li>Polarization and the Two Realities</li>
+                        <li>Journalism&rsquo;s Identity Crisis</li>
+                        <li>International Perspectives</li>
+                        <li>The Legacy and Ongoing Impact</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/the-trump-effect-on-the-news/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Trump&rsquo;s Lies: Then and Now</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Business Years: Building a Brand on Exaggeration</li>
+                        <li>2011&ndash;2016: Birtherism and the Rise of Political Lying</li>
+                        <li>First Term 2017&ndash;2018: Establishing the Pattern</li>
+                        <li>First Term 2019&ndash;2020: Pre-Pandemic Falsehoods</li>
+                        <li>COVID-19: A Pandemic of Misinformation</li>
+                        <li>The Big Lie: 2020 Election Denial</li>
+                        <li>2021&ndash;2024: Exile, Indictments, and Continued Falsehoods</li>
+                        <li>Second Term 2025: The Lies Continue</li>
+                        <li>The Repetition Strategy: Why the Same Lies Persist</li>
+                        <li>Consequences: When Lies Cause Real Harm</li>
+                        <li>Why Do People Believe? The Psychology of Political Lying</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">How History Gets Rewritten: The Revisionism Playbook</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Revisionism?</li>
+                        <li>The Revisionist Playbook</li>
+                        <li>The Infrastructure of Revisionism</li>
+                        <li>Long-Game Tactics</li>
+                        <li>Who Benefits?</li>
+                        <li>Psychology of Belief Persistence</li>
+                        <li>Digital-Age Revisionism</li>
+                        <li>The Primary Source Defense</li>
+                        <li>Engaging Revisionist Believers</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/how-history-gets-rewritten-the-revisionism-playbook/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- TECHNOLOGY, PLATFORMS, AND THE INFORMATION ECOSYSTEM -->
+            <div class="section-divider">
+                <h2 class="section-label">Technology, Platforms, and the Information Ecosystem</h2>
+                <p class="section-desc">How digital platforms, AI, and the architecture of the internet reshape what information reaches you &mdash; and what gets suppressed.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Technology&rsquo;s Hidden Tradeoffs</span>
+                    <span class="course-chapters">25 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Technology Is Never Neutral</li>
+                        <li>The Surveillance Bargain</li>
+                        <li>Algorithmic Decision-Making</li>
+                        <li>Artificial Intelligence: Promise and Peril</li>
+                        <li>Social Media&rsquo;s Psychological Costs</li>
+                        <li>Novel Technologies and Missing Cultural Defenses</li>
+                        <li>Children in the Digital World</li>
+                        <li>The Automation of Work</li>
+                        <li>The Gig Economy&rsquo;s Hidden Costs</li>
+                        <li>Platform Power and Digital Monopolies</li>
+                        <li>Data Ownership and Consent</li>
+                        <li>Technology and Democracy</li>
+                        <li>Facial Recognition and Biometric Surveillance</li>
+                        <li>Autonomous Weapons and Military AI</li>
+                        <li>Biotechnology and Human Enhancement</li>
+                        <li>Environmental Costs of Technology</li>
+                        <li>Digital Divide and Technological Inequality</li>
+                        <li>Smart Cities and Public Space</li>
+                        <li>The Right to Repair</li>
+                        <li>Health Technology and Medical AI</li>
+                        <li>Cryptocurrency and Decentralized Finance</li>
+                        <li>Content Moderation Dilemmas</li>
+                        <li>Technology in Education</li>
+                        <li>Emerging Technologies on the Horizon</li>
+                        <li>Who Gets to Decide?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">AI, Bots, and Synthetic Media</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Synthetic Media?</li>
+                        <li>How AI Generates Text</li>
+                        <li>How AI Generates Images and Video</li>
+                        <li>How AI Generates and Clones Audio</li>
+                        <li>Tell-Tale Signs of AI-Generated Content</li>
+                        <li>Bot Networks and Engagement Farms</li>
+                        <li>Astroturfing and Manufactured Consensus</li>
+                        <li>Political Manipulation and Election Interference</li>
+                        <li>The Trust Crisis: When Nothing Looks Real</li>
+                        <li>Tools and Techniques for Verification</li>
+                        <li>Legal, Regulatory, and Platform Responses</li>
+                        <li>Living in a World of Synthetic Content</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">Free Speech versus Hate Speech</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Does Free Speech Matter?</li>
+                        <li>What Is Hate Speech, and Who Decides?</li>
+                        <li>The First Amendment: America&rsquo;s Exceptional Approach</li>
+                        <li>How Other Democracies Handle Hate Speech</li>
+                        <li>Does Hateful Speech Cause Real Harm?</li>
+                        <li>Campus Speech Battles</li>
+                        <li>Social Media: Private Platforms, Public Squares?</li>
+                        <li>The Slippery Slope Debate</li>
+                        <li>Marginalized Groups: Split Perspectives</li>
+                        <li>Finding Workable Boundaries</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/free-speech-debates/free-speech-versus-hate-speech/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- POWER, WEALTH, AND INFORMATION CONTROL -->
+            <div class="section-divider">
+                <h2 class="section-label">Power, Wealth, and Information Control</h2>
+                <p class="section-desc">Who controls the narrative &mdash; how concentrated wealth, AI, and institutional power shape what you know and what you never hear about.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">13</span>
+                    <span class="course-title">AI + Billionaires = Hyperagency</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Hyperagency?</li>
+                        <li>How AI Amplifies Billionaire Power</li>
+                        <li>Who Has Hyperagency Today?</li>
+                        <li>Platform Control and Algorithmic Manipulation</li>
+                        <li>AI Disinformation and Synthetic Media</li>
+                        <li>The Asymmetry Problem</li>
+                        <li>What We Cannot See</li>
+                        <li>Contested Perspectives</li>
+                        <li>Remedies and Democratic Defenses</li>
+                        <li>The Stakes: What Happens If We Fail?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">14</span>
+                    <span class="course-title">AI Risks: Real vs. Imaginary</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Framing the Debate: What Counts as a Real Risk?</li>
+                        <li>Real Danger: Economic Displacement and Job Loss</li>
+                        <li>Real Danger: Billionaire Control and Platform Manipulation</li>
+                        <li>Real Danger: AI-Powered Disinformation</li>
+                        <li>Real Danger: Surveillance, Bias, and Institutional Harms</li>
+                        <li>Imaginary Danger: Sentient AI and Machine Consciousness</li>
+                        <li>Imaginary Danger: Superintelligence and Extinction</li>
+                        <li>Who Benefits from the Imaginary Risks Narrative?</li>
+                        <li>The Opportunity Cost of Misplaced Fear</li>
+                        <li>Defenses Against AI Risk Misinformation</li>
+                        <li>Contested Perspectives</li>
+                        <li>Focusing on What Matters</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">15</span>
+                    <span class="course-title">The Philanthropy-Power Divide</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Asymmetry Problem</li>
+                        <li>Power vs Philanthropy</li>
+                        <li>Institution Building on the Right</li>
+                        <li>Fragmentation on the Left</li>
+                        <li>Risk, Reputation, and Respectability</li>
+                        <li>Media Economics and Narrative Control</li>
+                        <li>Failed Experiments and False Conclusions</li>
+                        <li>The Class Conflict Within Liberalism</li>
+                        <li>Why Knowledge Infrastructure Is Different</li>
+                        <li>What a Non-Billionaire-Dependent Alternative Looks Like</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/the-philanthropy-power-divide/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- PRACTICAL MEDIA LITERACY -->
+            <div class="section-divider">
+                <h2 class="section-label">Practical Media Literacy</h2>
+                <p class="section-desc">Applied skills &mdash; how to evaluate sources, check political claims, and verify information using real tools and techniques.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">16</span>
+                    <span class="course-title">Evaluating Sources and Expertise</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Source Evaluation Matters</li>
+                        <li>Credible Institutions vs. Random Accounts</li>
+                        <li>Signals of Expertise and Peer Review</li>
+                        <li>Understanding Bias and Editorial Slant</li>
+                        <li>Separating News, Opinion, and Rumor</li>
+                        <li>Evaluating Scientific and Health Claims</li>
+                        <li>Evaluating Government and Official Sources</li>
+                        <li>Evaluating Social Media as a Source</li>
+                        <li>Following the Money: Funding and Motivation</li>
+                        <li>The Ecosystem of Unreliable Sources</li>
+                        <li>When Experts Disagree</li>
+                        <li>Building Your Source Evaluation Habits</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">17</span>
+                    <span class="course-title">Checking Political Claims and Statistics</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How Politicians Use Numbers to Persuade</li>
+                        <li>Finding Original Data and Reports</li>
+                        <li>Understanding Polls and Margins of Error</li>
+                        <li>Recognizing Misleading Graphs and Charts</li>
+                        <li>Economic Claims: Jobs, GDP, and Cost of Living</li>
+                        <li>Crime and Safety Claims</li>
+                        <li>Immigration Claims</li>
+                        <li>Healthcare and Social Program Claims</li>
+                        <li>Climate and Environmental Claims</li>
+                        <li>Education and Budget Claims</li>
+                        <li>Fact-Checking Organizations and How to Use Them</li>
+                        <li>Building Your Political Fact-Checking Practice</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">18</span>
+                    <span class="course-title">Tools and Techniques for Verifying Information</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Reverse Image Search and Visual Verification</li>
+                        <li>Using Fact-Checking Sites Effectively</li>
+                        <li>Looking Up Claims in Official Databases</li>
+                        <li>Spotting Manipulated Images and Deepfakes</li>
+                        <li>Verifying Social Media Claims</li>
+                        <li>Open Source Intelligence (OSINT) Basics</li>
+                        <li>Checking Claims About Science and Health</li>
+                        <li>Verifying News Stories and Sources</li>
+                        <li>Browser Extensions and Digital Tools</li>
+                        <li>Dealing with Uncertainty and Ambiguity</li>
+                        <li>Teaching Verification to Others</li>
+                        <li>Building Your Verification Workflow</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/images/quarex_logo.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">All content is free, open, and self-hostable.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Content licensed under CC BY-SA 4.0.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Studies Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 18-course AI Studies syllabus. Free, open curriculum covering artificial intelligence history, technology, ethics, economics, creativity, healthcare, policy, and practical navigation. 143 chapters of university-level content.">
+    <meta name="keywords" content="AI studies syllabus, free AI course, artificial intelligence curriculum, AI ethics, AI policy, machine learning education, open education">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/AIStudiesSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/AIStudiesSyllabus.html">
+    <meta property="og:title" content="AI Studies Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 18-course AI Studies syllabus. 143 chapters of free, university-level content on understanding AI as a citizen, worker, and voter.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Studies Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 18-course AI Studies syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #F59E0B;
+            --accent-hover: #D97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* ── Header ── */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* ── Syllabus Hero ── */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* ── Section Headers ── */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* ── Course Cards ── */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before {
+            transform: rotate(90deg);
+        }
+        .course summary:hover {
+            background: var(--accent-soft);
+        }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* ── Footer ── */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>AI Studies</em> Syllabus</h1>
+            <p class="syllabus-intro">A complete, free curriculum for understanding artificial intelligence &mdash; not as engineers, but as citizens, workers, and voters. What AI is, how it works, who controls it, what it changes, and how to navigate the world it's building. Eighteen courses drawn from six Quarex libraries.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">19</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">225</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">1,527</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- ═══ FOUNDATIONS ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Foundations</h2>
+                <p class="section-desc">What AI actually is, where it came from, and the core ideas that make it work.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">What Is AI, Really?</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Definitions of AI and Why They Matter</li>
+                        <li>A Brief History of the Idea of Thinking Machines</li>
+                        <li>Strong AI vs. Narrow AI</li>
+                        <li>Symbolic AI, Statistical AI, and Modern Machine Learning</li>
+                        <li>What AI Can Do Today</li>
+                        <li>What AI Cannot Do</li>
+                        <li>How AI Learns: Training Data and Its Consequences</li>
+                        <li>The Companies Behind AI</li>
+                        <li>AI and Jobs: What Changes and What Doesn't</li>
+                        <li>AI and Trust: When Should You Believe It?</li>
+                        <li>AI in the News: Separating Hype from Reality</li>
+                        <li>Why Understanding AI Matters for Everyone</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">The History of AI</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Dream of Thinking Machines</li>
+                        <li>The Birth of a Field: Dartmouth and the 1950s</li>
+                        <li>The Golden Years: 1960s Optimism</li>
+                        <li>The First AI Winter: 1974&ndash;1980</li>
+                        <li>Expert Systems and the Knowledge Boom: 1980s</li>
+                        <li>The Second AI Winter: Late 1980s&ndash;1990s</li>
+                        <li>The Statistical Turn: Machine Learning Rises</li>
+                        <li>Deep Learning Breaks Through: 2006&ndash;2015</li>
+                        <li>The Language Revolution: Attention and Transformers</li>
+                        <li>The LLM Moment: 2020&ndash;Present</li>
+                        <li>The Race for AI Dominance</li>
+                        <li>What History Teaches Us</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/the-history-of-ai/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Key Ideas in Machine Learning</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Machine Learning?</li>
+                        <li>Data, Patterns, and Generalization</li>
+                        <li>Supervised Learning: Learning from Examples</li>
+                        <li>Unsupervised Learning: Finding Hidden Structure</li>
+                        <li>Reinforcement Learning: Learning by Doing</li>
+                        <li>Training, Testing, and Validation</li>
+                        <li>Features, Representations, and Embeddings</li>
+                        <li>Why More Data Often Beats Clever Algorithms</li>
+                        <li>Bias in Machine Learning</li>
+                        <li>The Black Box Problem</li>
+                        <li>How Machine Learning Is Evaluated</li>
+                        <li>Machine Learning in Your Life</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/key-ideas-in-machine-learning/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ HOW IT WORKS ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">How It Works</h2>
+                <p class="section-desc">The technical architecture behind modern AI &mdash; neural networks, transformers, probability &mdash; explained for understanding, not engineering.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Neural Networks Explained</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is a Neural Network?</li>
+                        <li>Neurons, Layers, and Activation Functions</li>
+                        <li>How Neural Networks Learn</li>
+                        <li>Convolutional Neural Networks: Seeing</li>
+                        <li>Recurrent Neural Networks: Sequences and Time</li>
+                        <li>Deep Networks: Why Depth Matters</li>
+                        <li>Training at Scale: GPUs, Data Centers, and Compute</li>
+                        <li>Generative Networks: Creating New Content</li>
+                        <li>Transfer Learning and Pre-trained Models</li>
+                        <li>Why Neural Networks Fail</li>
+                        <li>Interpreting Neural Networks</li>
+                        <li>The Future of Neural Networks</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/neural-networks-explained/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Transformers and LLMs</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is a Language Model?</li>
+                        <li>From Word Embeddings to Transformers</li>
+                        <li>Attention: The Core Mechanism</li>
+                        <li>How Large Language Models Are Trained</li>
+                        <li>Fine-Tuning and RLHF: Making Models Useful</li>
+                        <li>What LLMs Can Do</li>
+                        <li>What LLMs Cannot Do</li>
+                        <li>The Major LLMs: GPT, Claude, Gemini, Llama, and Others</li>
+                        <li>Prompting: How to Talk to an LLM</li>
+                        <li>LLMs and Truth</li>
+                        <li>The Economics and Politics of LLMs</li>
+                        <li>Where LLMs Are Going</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/transformers-and-llms/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Probability, Statistics, and Uncertainty</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why AI Is Built on Probabilities</li>
+                        <li>Basic Probability: The Language of Uncertainty</li>
+                        <li>Bayes&rsquo; Theorem: Updating Beliefs with Evidence</li>
+                        <li>Distributions: How Data Spreads Out</li>
+                        <li>Correlation, Causation, and the Stories Data Tells</li>
+                        <li>Noise, Signal, and the Limits of Data</li>
+                        <li>Bias and Variance: The Fundamental Tradeoff</li>
+                        <li>Uncertainty in AI Outputs</li>
+                        <li>Why AI Can Be Wrong but Confident</li>
+                        <li>How Statistics Can Mislead</li>
+                        <li>Probability in Everyday Decisions</li>
+                        <li>Living with Uncertainty in an AI World</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/probability-statistics-and-uncertainty/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ AI IN THE WORLD ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">AI in the World</h2>
+                <p class="section-desc">Where AI is already deployed &mdash; in daily life, creative work, and healthcare &mdash; and what it changes in each domain.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">AI in Everyday Life</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>AI You Already Use</li>
+                        <li>Recommender Systems and Personalization</li>
+                        <li>Search Engines and AI Assistants</li>
+                        <li>AI in Phones, Cars, and Smart Devices</li>
+                        <li>AI in Shopping and Commerce</li>
+                        <li>AI in Social Media</li>
+                        <li>AI in Finance and Banking</li>
+                        <li>AI in Entertainment and Media</li>
+                        <li>AI in Education</li>
+                        <li>Invisible AI in Infrastructure and Services</li>
+                        <li>AI and Your Privacy</li>
+                        <li>Being an Informed AI User</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-everyday-life/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">AI and Creativity</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Does It Mean to Create?</li>
+                        <li>A Brief History of Machines and Art</li>
+                        <li>How Generative AI Actually Works</li>
+                        <li>AI in the Visual Arts</li>
+                        <li>AI in Music and Sound</li>
+                        <li>AI in Writing and Language</li>
+                        <li>AI in Film, Video, and Performance</li>
+                        <li>The Authorship Question</li>
+                        <li>Training Data and the Ethics of Influence</li>
+                        <li>The Economic Disruption</li>
+                        <li>Bias, Representation, and Aesthetic Defaults</li>
+                        <li>What Makes Human Creativity Different?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-and-creativity/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">AI in Healthcare</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Healthcare Is an AI Battleground</li>
+                        <li>Diagnosis: AI That Reads Images and Scans</li>
+                        <li>Drug Discovery and Development</li>
+                        <li>Clinical Decision Support</li>
+                        <li>Mental Health and AI</li>
+                        <li>Bias in Medical AI</li>
+                        <li>Patient Data, Privacy, and Consent</li>
+                        <li>Surgical Robotics and AI-Assisted Procedures</li>
+                        <li>Public Health and Epidemiology</li>
+                        <li>Regulation and Approval</li>
+                        <li>The Economics of Healthcare AI</li>
+                        <li>The Future of the Doctor-Patient Relationship</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-healthcare/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ ETHICS AND RESPONSIBILITY ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Ethics and Responsibility</h2>
+                <p class="section-desc">The moral dimensions of AI &mdash; bias, harm, governance, and the hidden costs of the technologies we adopt.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Responsible Use and Human Judgment</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>AI as a Tool, Not an Oracle</li>
+                        <li>When AI Gets It Right &mdash; and When It Doesn&rsquo;t</li>
+                        <li>Verification, Cross-Checking, and Skepticism</li>
+                        <li>The Human Skills AI Cannot Replace</li>
+                        <li>Keeping Humans in the Loop</li>
+                        <li>AI and Professional Responsibility</li>
+                        <li>Teaching Children and Students About AI</li>
+                        <li>AI and Decision-Making Under Pressure</li>
+                        <li>Building Personal AI Literacy</li>
+                        <li>AI in Democracy: The Citizen&rsquo;s Responsibility</li>
+                        <li>Organizational Responsibility for AI</li>
+                        <li>The Judgment That Matters Most</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/responsible-use-and-human-judgment/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">Risks, Harms, and Governance</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Bias, Discrimination, and Unequal Impact</li>
+                        <li>Privacy, Surveillance, and Data Exploitation</li>
+                        <li>AI in Criminal Justice</li>
+                        <li>AI and Employment Harm</li>
+                        <li>Misinformation, Deepfakes, and Manipulation</li>
+                        <li>Safety, Misuse, and Dual-Use Concerns</li>
+                        <li>Environmental Costs of AI</li>
+                        <li>Concentration of Power</li>
+                        <li>Accountability: Who Is Responsible When AI Causes Harm?</li>
+                        <li>Regulation: What Governments Are Doing</li>
+                        <li>Standards, Audits, and Transparency</li>
+                        <li>The Future of AI Governance</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/risks-harms-and-governance/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">Technology's Hidden Tradeoffs</span>
+                    <span class="course-chapters">25 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Technology Is Never Neutral</li>
+                        <li>The Surveillance Bargain</li>
+                        <li>Algorithmic Decision-Making</li>
+                        <li>Artificial Intelligence: Promise and Peril</li>
+                        <li>Social Media's Psychological Costs</li>
+                        <li>Novel Technologies and Missing Cultural Defenses</li>
+                        <li>Children in the Digital World</li>
+                        <li>The Automation of Work</li>
+                        <li>The Gig Economy's Hidden Costs</li>
+                        <li>Platform Power and Digital Monopolies</li>
+                        <li>Data Ownership and Consent</li>
+                        <li>Technology and Democracy</li>
+                        <li>Facial Recognition and Biometric Surveillance</li>
+                        <li>Autonomous Weapons and Military AI</li>
+                        <li>Biotechnology and Human Enhancement</li>
+                        <li>Environmental Costs of Technology</li>
+                        <li>Digital Divide and Technological Inequality</li>
+                        <li>Smart Cities and Public Space</li>
+                        <li>The Right to Repair</li>
+                        <li>Health Technology and Medical AI</li>
+                        <li>Cryptocurrency and Decentralized Finance</li>
+                        <li>Content Moderation Dilemmas</li>
+                        <li>Technology in Education</li>
+                        <li>Emerging Technologies on the Horizon</li>
+                        <li>Who Gets to Decide?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ POWER, ECONOMICS, AND POLITICS ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Power, Economics, and Politics</h2>
+                <p class="section-desc">Who controls AI, how it concentrates power, what the real risks are versus the imagined ones, and how nations are racing to govern it.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">13</span>
+                    <span class="course-title">AI + Billionaires = Hyperagency</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Hyperagency?</li>
+                        <li>How AI Amplifies Billionaire Power</li>
+                        <li>Who Has Hyperagency Today?</li>
+                        <li>Platform Control and Algorithmic Manipulation</li>
+                        <li>AI Disinformation and Synthetic Media</li>
+                        <li>The Asymmetry Problem</li>
+                        <li>What We Cannot See</li>
+                        <li>Contested Perspectives</li>
+                        <li>Remedies and Democratic Defenses</li>
+                        <li>The Stakes: What Happens If We Fail?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">14</span>
+                    <span class="course-title">AI Risks: Real vs. Imaginary</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Framing the Debate: What Counts as a Real Risk?</li>
+                        <li>Real Danger: Economic Displacement and Job Loss</li>
+                        <li>Real Danger: Billionaire Control and Platform Manipulation</li>
+                        <li>Real Danger: AI-Powered Disinformation</li>
+                        <li>Real Danger: Surveillance, Bias, and Institutional Harms</li>
+                        <li>Imaginary Danger: Sentient AI and Machine Consciousness</li>
+                        <li>Imaginary Danger: Superintelligence and Extinction</li>
+                        <li>Who Benefits from the Imaginary Risks Narrative?</li>
+                        <li>The Opportunity Cost of Misplaced Fear</li>
+                        <li>Defenses Against AI Risk Misinformation</li>
+                        <li>Contested Perspectives</li>
+                        <li>Focusing on What Matters</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">15</span>
+                    <span class="course-title">The Ungovernable Economy: How Billionaire AI Could Break Global Finance</span>
+                    <span class="course-chapters">16 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The New Gilded Age</li>
+                        <li>Who Owns the AI Infrastructure</li>
+                        <li>AI-Driven Market Dynamics</li>
+                        <li>Pathways to Crisis: Coordination vs Emergence</li>
+                        <li>Historical Precedents</li>
+                        <li>Infrastructure Chokepoints</li>
+                        <li>Regulatory Failure</li>
+                        <li>From Trigger to Cascade</li>
+                        <li>Winners and Losers</li>
+                        <li>The Benign Scenario</li>
+                        <li>Early Warning Signs</li>
+                        <li>Policy Responses</li>
+                        <li>National Defense Strategies</li>
+                        <li>The Normie's Survival Guide</li>
+                        <li>Connection to Dollar Dominance</li>
+                        <li>After the Singularity</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/economic-infrastructures/geopolitics/concentration-singularity/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">16</span>
+                    <span class="course-title">Global AI Policy</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why AI Needs Governance</li>
+                        <li>The European Approach: The EU AI Act</li>
+                        <li>The American Landscape: Fragmented Regulation</li>
+                        <li>China's AI Strategy: State Control and Ambition</li>
+                        <li>The Global South and AI Colonialism</li>
+                        <li>Military AI and Autonomous Weapons</li>
+                        <li>Facial Recognition and Biometric Surveillance</li>
+                        <li>Algorithmic Accountability and Transparency</li>
+                        <li>AI and Labor Rights</li>
+                        <li>International Cooperation and Competition</li>
+                        <li>Open Source vs. Closed AI: The Access Debate</li>
+                        <li>What Good AI Governance Could Look Like</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/global-ai-policy/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ═══ PRACTICAL NAVIGATION ═══ -->
+            <div class="section-divider">
+                <h2 class="section-label">Practical Navigation</h2>
+                <p class="section-desc">How to protect your career, spot synthetic content, and make informed decisions in an AI-saturated world.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">17</span>
+                    <span class="course-title">AI and Your Career: Adaptation Strategies</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Understanding the AI Job Landscape</li>
+                        <li>Assessing Your Own Vulnerability</li>
+                        <li>Skills That Remain Valuable</li>
+                        <li>Working With AI: Augmentation Strategies</li>
+                        <li>Retraining and Education Options</li>
+                        <li>Career Pivots: Where to Go</li>
+                        <li>Entrepreneurship and Self-Employment</li>
+                        <li>Freelancing and the Gig Economy</li>
+                        <li>Financial Survival During Transition</li>
+                        <li>Collective Action and Worker Power</li>
+                        <li>Managing the Emotional and Identity Impact</li>
+                        <li>Long-Term Planning in an Uncertain Economy</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">18</span>
+                    <span class="course-title">AI, Bots, and Synthetic Media</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Synthetic Media?</li>
+                        <li>How AI Generates Text</li>
+                        <li>How AI Generates Images and Video</li>
+                        <li>How AI Generates and Clones Audio</li>
+                        <li>Tell-Tale Signs of AI-Generated Content</li>
+                        <li>Bot Networks and Engagement Farms</li>
+                        <li>Astroturfing and Manufactured Consensus</li>
+                        <li>Political Manipulation and Election Interference</li>
+                        <li>The Trust Crisis: When Nothing Looks Real</li>
+                        <li>Tools and Techniques for Verification</li>
+                        <li>Legal, Regulatory, and Platform Responses</li>
+                        <li>Living in a World of Synthetic Content</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">19</span>
+                    <span class="course-title">AI as a Force Multiplier for Knowledge Work</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Chatbot vs. Production Tool: Two Ways to Use AI</li>
+                        <li>The Architect and the Engine</li>
+                        <li>Building Compounding Assets</li>
+                        <li>Systematizing the Workflow</li>
+                        <li>The Judgment Layer</li>
+                        <li>Quality Control: Using the System to Check the System</li>
+                        <li>Scale Without Loss of Coherence</li>
+                        <li>One Person, Many Outputs: The Solo Builder Model</li>
+                        <li>Ethics of AI-Assisted Production</li>
+                        <li>What Comes Next: AI as Infrastructure</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-as-a-force-multiplier/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">A Curiosity Engine for the public good.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/">Quarex</a>
+                <a href="https://knowableonline.org/">Knowable Online</a>
+                <a href="https://election2026.net/">Election 2026</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. All content is free and open.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
