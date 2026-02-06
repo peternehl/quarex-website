@@ -56,6 +56,23 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Reports -->
+  <url>
+    <loc>https://quarex.org/reports/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/reports/llm-benchmark/report_2026-02-06_CORRECTED_v1.3.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/reports/llm-benchmark/self-transparency-verbatim.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Tools -->
   <url>
     <loc>https://quarex.org/tools/</loc>
