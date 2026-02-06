@@ -1,0 +1,163 @@
+================================================================================
+GOVERNOR CANDIDATE SCRAPING PROCESS
+Last Updated: February 6, 2026
+================================================================================
+
+OVERVIEW
+--------
+This documents the process for scraping U.S. Governor candidate data from
+Ballotpedia and generating the library files for quarex.org.
+
+================================================================================
+STEP 1: RUN THE GOVERNOR SCRAPER
+================================================================================
+
+The scraper automatically fetches all 39 gubernatorial races from Ballotpedia's
+master candidate list page.
+
+COMMAND:
+  cd E:\projects\websites\Quarex\scrapers
+  python governor_scraper.py
+
+SOURCE URL (automatic):
+  https://ballotpedia.org/Gubernatorial_elections,_2026
+
+WHAT IT DOES:
+  1. Fetches the master Ballotpedia page
+  2. Parses the "List of candidates" panel (div id='elections-listofcandidates-2')
+  3. Extracts all candidates by state and party
+  4. Skips withdrawn/lost candidates automatically
+  5. Saves to: libraries/politician-libraries/us-governors-2026/us_governors_2026.json
+
+OUTPUT:
+  - Prints candidate counts per state
+  - Saves complete JSON with all 39 states/territories
+
+================================================================================
+STEP 2: COPY TO BACKUP LOCATION
+================================================================================
+
+COMMAND:
+  cp "E:\projects\websites\Quarex\libraries\politician-libraries\us-governors-2026\us_governors_2026.json" "E:\projects\websites\Quarex\scrapers\us_governors_2026_backup.json"
+
+This ensures the backup file is updated for the library file generator.
+
+================================================================================
+STEP 3: GENERATE LIBRARY FILES FROM BACKUP
+================================================================================
+
+SCRIPT: E:\projects\websites\Quarex\scrapers\generate_governor_books.py
+
+COMMAND:
+  cd E:\projects\websites\Quarex
+  python scrapers/generate_governor_books.py
+
+WHAT IT DOES:
+  1. Reads us_governors_2026_backup.json
+  2. For each state in shelves[0].books:
+     - Creates/updates a file in:
+       libraries/politician-libraries/us-governors-2026/2026-gubernatorial-races/
+     - Filename: state name lowercase with hyphens (e.g., "new-york.json")
+  3. File format:
+     {
+       "book": "State Name",
+       "chapters": [
+         {"name": "Republican", "topics": [...]},
+         {"name": "Democratic", "topics": [...]},
+         {"name": "Independent/Other", "topics": [...]}
+       ]
+     }
+  4. Only updates files that have changed
+
+OUTPUT DIRECTORY:
+  E:\projects\websites\Quarex\libraries\politician-libraries\us-governors-2026\2026-gubernatorial-races\
+
+================================================================================
+STEP 4: COMPARE WITH SERVER (OPTIONAL)
+================================================================================
+
+To compare local updated files with what's currently on the server:
+
+1. Download server files from quarex.org:
+   /libraries/politician-libraries/us-governors-2026/2026-gubernatorial-races/
+
+2. Put them in: C:\Users\peter\Downloads\2026-gubernatorial-races\
+
+3. Run comparison script:
+   cd E:\projects\websites\Quarex
+   python scrapers/compare_governors.py
+
+4. View report: reports/election/governor-results.html
+
+SCRIPT: E:\projects\websites\Quarex\scrapers\compare_governors.py
+
+================================================================================
+STEP 5: UPLOAD TO SERVER
+================================================================================
+
+FILES TO UPLOAD:
+  - All .json files in:
+    libraries/politician-libraries/us-governors-2026/2026-gubernatorial-races/
+
+UPLOAD TO:
+  quarex.org/libraries/politician-libraries/us-governors-2026/2026-gubernatorial-races/
+
+================================================================================
+QUICK REFERENCE - WEEKLY UPDATE PROCESS
+================================================================================
+
+1. SCRAPE:
+   cd E:\projects\websites\Quarex\scrapers
+   python governor_scraper.py
+
+2. COPY BACKUP:
+   cp "libraries/politician-libraries/us-governors-2026/us_governors_2026.json" "scrapers/us_governors_2026_backup.json"
+
+3. GENERATE:
+   python scrapers/generate_governor_books.py
+
+4. COMPARE (optional):
+   - Download current server files to Downloads\2026-gubernatorial-races\
+   - python scrapers/compare_governors.py
+   - Review reports/election/governor-results.html
+
+5. UPLOAD:
+   - Upload changed files to quarex.org
+
+================================================================================
+FILES REFERENCE
+================================================================================
+
+SCRAPER SCRIPT:
+  scrapers/governor_scraper.py
+
+BACKUP DATA:
+  scrapers/us_governors_2026_backup.json
+
+GENERATOR SCRIPT:
+  scrapers/generate_governor_books.py
+
+COMPARISON SCRIPT:
+  scrapers/compare_governors.py
+
+LIBRARY OUTPUT:
+  libraries/politician-libraries/us-governors-2026/2026-gubernatorial-races/*.json
+
+COMPARISON REPORT:
+  reports/election/governor-results.html
+
+================================================================================
+STATES/TERRITORIES COVERED (39 total)
+================================================================================
+
+States (36):
+  Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut,
+  Florida, Georgia, Hawaii, Idaho, Illinois, Iowa, Kansas, Maine, Maryland,
+  Massachusetts, Michigan, Minnesota, Nebraska, Nevada, New Hampshire,
+  New Mexico, New York, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island,
+  South Carolina, South Dakota, Tennessee, Texas, Vermont, Wisconsin, Wyoming
+
+Territories (3):
+  Guam, Northern Mariana Islands, Virgin Islands
+
+================================================================================

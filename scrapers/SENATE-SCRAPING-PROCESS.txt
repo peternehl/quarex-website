@@ -1,0 +1,182 @@
+================================================================================
+SENATE CANDIDATE SCRAPING PROCESS
+Last Updated: February 6, 2026
+================================================================================
+
+OVERVIEW
+--------
+This documents the process for scraping U.S. Senate candidate data from
+Ballotpedia and generating the library files for quarex.org.
+
+================================================================================
+STEP 1: SCRAPE DATA FROM BALLOTPEDIA
+================================================================================
+
+SOURCE: Ballotpedia Senate election pages
+URL PATTERN: https://ballotpedia.org/United_States_Senate_election_in_<State>,_2026
+
+STATES TO SCRAPE (33 Class 2 seats in 2026):
+  Batch 1: Alabama, Alaska, Arkansas, Colorado, Delaware, Georgia
+  Batch 2: Idaho, Illinois, Iowa, Kansas, Kentucky, Louisiana
+  Batch 3: Maine, Massachusetts, Michigan, Minnesota, Mississippi, Montana
+  Batch 4: Nebraska, New Hampshire, New Jersey, New Mexico, North Carolina, Oklahoma
+  Batch 5: Oregon, Rhode Island, South Carolina, South Dakota, Tennessee, Texas
+  Batch 6: Virginia, West Virginia, Wyoming
+
+METHOD:
+  - Use WebFetch tool to fetch each Ballotpedia page
+  - Prompt: "List ALL candidates for [State] Senate 2026. For each candidate,
+    give their name and party (R, D, I, L, G). Be comprehensive."
+  - Collect: Republican, Democratic, Independent, Libertarian, Green candidates
+
+EXAMPLE URL:
+  https://ballotpedia.org/United_States_Senate_election_in_Alabama,_2026
+  https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026
+
+================================================================================
+STEP 2: UPDATE THE BACKUP JSON FILE
+================================================================================
+
+FILE: E:\projects\websites\Quarex\scrapers\us_senate_2026_backup.json
+
+STRUCTURE:
+{
+  "library": "US Senate 2026 - Complete",
+  "library_type": "candidates",
+  "description": "All 2026 Senate races with declared candidates...",
+  "last_updated": "2026-02-06",
+  "source": "Ballotpedia",
+  "shelves": [
+    {
+      "name": "Class 2 Regular Elections",
+      "books": [
+        {
+          "name": "Alabama",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": ["Candidate Name (R)", ...]
+            },
+            {
+              "name": "Democratic",
+              "topics": ["Candidate Name (D)", ...]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": ["Candidate Name (I)", ...]
+            }
+          ]
+        },
+        // ... more states
+      ]
+    }
+  ]
+}
+
+CANDIDATE NAME FORMAT:
+  - "FirstName LastName (R)" for Republican
+  - "FirstName LastName (D)" for Democratic
+  - "FirstName LastName (I)" for Independent
+  - "FirstName LastName (L)" for Libertarian
+  - "FirstName LastName (G)" for Green
+
+================================================================================
+STEP 3: GENERATE LIBRARY FILES FROM BACKUP
+================================================================================
+
+SCRIPT: E:\projects\websites\Quarex\scrapers\generate_senate_books.py
+
+RUN COMMAND:
+  cd E:\projects\websites\Quarex
+  python scrapers/generate_senate_books.py
+
+WHAT IT DOES:
+  1. Reads us_senate_2026_backup.json
+  2. For each state in shelves[0].books:
+     - Creates/updates a file in:
+       libraries/politician-libraries/us-senate-2026-complete/class-2-regular-elections/
+     - Filename: state name lowercase with hyphens (e.g., "north-carolina.json")
+  3. File format:
+     {
+       "book": "State Name",
+       "chapters": [
+         {"name": "Republican", "topics": [...]},
+         {"name": "Democratic", "topics": [...]},
+         {"name": "Independent/Other", "topics": [...]}
+       ]
+     }
+  4. Only updates files that have changed
+
+OUTPUT DIRECTORY:
+  E:\projects\websites\Quarex\libraries\politician-libraries\us-senate-2026-complete\class-2-regular-elections\
+
+================================================================================
+STEP 4: COMPARE WITH SERVER (OPTIONAL)
+================================================================================
+
+To compare local updated files with what's currently on the server:
+
+1. Download server files from quarex.org:
+   /libraries/politician-libraries/us-senate-2026-complete/class-2-regular-elections/
+
+2. Put them in: C:\Users\peter\Downloads\class-2-regular-elections\
+
+3. Run comparison script:
+   cd E:\projects\websites\Quarex
+   python scrapers/compare_senate.py
+
+4. View report: reports/election/senate-results.html
+
+SCRIPT: E:\projects\websites\Quarex\scrapers\compare_senate.py
+
+================================================================================
+STEP 5: UPLOAD TO SERVER
+================================================================================
+
+FILES TO UPLOAD:
+  - All .json files in:
+    libraries/politician-libraries/us-senate-2026-complete/class-2-regular-elections/
+
+UPLOAD TO:
+  quarex.org/libraries/politician-libraries/us-senate-2026-complete/class-2-regular-elections/
+
+================================================================================
+QUICK REFERENCE - WEEKLY UPDATE PROCESS
+================================================================================
+
+1. SCRAPE (in Claude Code):
+   - Use WebFetch to scrape all 33 states from Ballotpedia
+   - Update us_senate_2026_backup.json with new candidate data
+   - Update "last_updated" date
+
+2. GENERATE:
+   python scrapers/generate_senate_books.py
+
+3. COMPARE (optional):
+   - Download current server files
+   - python scrapers/compare_senate.py
+   - Review reports/election/senate-results.html
+
+4. UPLOAD:
+   - Upload changed files to quarex.org
+
+================================================================================
+FILES REFERENCE
+================================================================================
+
+BACKUP DATA:
+  scrapers/us_senate_2026_backup.json
+
+GENERATOR SCRIPT:
+  scrapers/generate_senate_books.py
+
+COMPARISON SCRIPT:
+  scrapers/compare_senate.py
+
+LIBRARY OUTPUT:
+  libraries/politician-libraries/us-senate-2026-complete/class-2-regular-elections/*.json
+
+COMPARISON REPORT:
+  reports/election/senate-results.html
+
+================================================================================

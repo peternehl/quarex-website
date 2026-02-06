@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Update - February 6, 2026</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #0d9488;
+            font-size: 24px;
+            border-bottom: 2px solid #0d9488;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #1e293b;
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        .highlight {
+            background: #f0fdfa;
+            border-left: 4px solid #0d9488;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #0d9488;
+        }
+        .stat {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #0d9488;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5e5;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Quarex Update: Reports Hub, AI Benchmark, and Election Data</h1>
+
+<p>Three updates this week, each adding a different kind of value to the platform.</p>
+
+<h2>1. Reports Section Goes Live</h2>
+
+<p>Quarex now has a dedicated reports hub at <a href="https://quarex.org/reports/">quarex.org/reports/</a>. This is where research, announcements, and ecosystem updates will live from now on.</p>
+
+<p>The reports section is organized by category:</p>
+
+<ul>
+    <li><strong>AI Research</strong> &mdash; Benchmark results, model comparisons, and technical findings</li>
+    <li><strong>Ecosystem Updates</strong> &mdash; Site launches, content additions, and platform news</li>
+    <li><strong>Election 2026</strong> &mdash; Weekly candidate tracking and change reports</li>
+</ul>
+
+<p>Every email update I send will also be archived here, so you can always find past announcements.</p>
+
+<p>Visit: <a href="https://quarex.org/reports/">quarex.org/reports/</a></p>
+
+<h2>2. LLM Benchmark v1.3 Published</h2>
+
+<p>I ran a structured benchmark across seven leading AI models to see how they perform on Quarex-style questions &mdash; the kind of open-ended, contextual queries the platform is built for.</p>
+
+<div class="highlight">
+<p><strong>Models tested:</strong></p>
+<ul>
+    <li>Claude 3.5 Sonnet, Claude 3 Opus</li>
+    <li>GPT-4o, GPT-4o Mini, o1</li>
+    <li>Gemini 2.0 Flash, Gemini 1.5 Pro</li>
+</ul>
+<p><strong>65 questions</strong> across 11 dimensions: accuracy, depth, nuance, structure, synthesis, source use, intellectual honesty, practical value, engagement, accessibility, and originality.</p>
+</div>
+
+<p>Key finding: Claude 3 Opus ranked first overall, with GPT-4o and Gemini 1.5 Pro close behind. The smaller/faster models (Sonnet, Flash, Mini) performed well on straightforward questions but struggled with synthesis and nuance.</p>
+
+<p>Full methodology, raw scores, and model-by-model breakdown available in the report.</p>
+
+<p>View: <a href="https://quarex.org/reports/llm-benchmark/report_2026-02-06_CORRECTED_v1.3.html">LLM Benchmark v1.3 - Full Results</a></p>
+
+<h2>3. Election 2026 Candidates Updated</h2>
+
+<p>This week's scrape of Ballotpedia brought in significant candidate changes across all three election types:</p>
+
+<div class="stats-grid">
+    <div>
+        <div class="stat">+195</div>
+        <div class="stat-label">Candidates Added</div>
+    </div>
+    <div>
+        <div class="stat">-63</div>
+        <div class="stat-label">Candidates Removed</div>
+    </div>
+    <div>
+        <div class="stat">67</div>
+        <div class="stat-label">Races Changed</div>
+    </div>
+</div>
+
+<p>Breakdown by election type:</p>
+
+<ul>
+    <li><strong>U.S. House:</strong> 33 states with changes (+140 / -32)</li>
+    <li><strong>U.S. Senate:</strong> 19 states with changes (+29 / -28)</li>
+    <li><strong>Governor:</strong> 15 states with changes (+26 / -1)</li>
+</ul>
+
+<p>Notable: Ohio House saw the biggest movement with 44 new candidates entering races.</p>
+
+<p>View: <a href="https://quarex.org/reports/election/candidate-changes-2026-02-06.html">Candidate Changes - February 6, 2026</a></p>
+
+<h2>What's Next</h2>
+
+<p>The weekly candidate updates are now fully automated with Python scripts that scrape, compare, and generate reports. This means faster turnaround and consistent tracking through the primaries.</p>
+
+<p>The reports section will continue to grow as I publish more research. Next up: a deeper analysis of how different AI models handle politically charged questions.</p>
+
+<div class="footer">
+    <p>Questions or feedback? Reply to this email.</p>
+    <p>&mdash; Peter</p>
+</div>
+
+</body>
+</html>

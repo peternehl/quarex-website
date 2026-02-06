@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports - Quarex</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .subtitle {
+            color: #888;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+        .section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .section h2 {
+            font-size: 1.4em;
+            color: #4CAF50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: #4CAF50;
+            border-radius: 2px;
+        }
+        .report-list {
+            list-style: none;
+        }
+        .report-list li {
+            padding: 15px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: all 0.2s;
+        }
+        .report-list li:hover {
+            background: rgba(255,255,255,0.08);
+            transform: translateX(5px);
+        }
+        .report-list a {
+            color: #64b5f6;
+            text-decoration: none;
+            font-size: 1.1em;
+            display: block;
+        }
+        .report-list a:hover {
+            color: #90caf9;
+        }
+        .report-meta {
+            color: #666;
+            font-size: 0.85em;
+            margin-top: 5px;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .badge-new { background: #4CAF50; color: white; }
+        .badge-research { background: #2196F3; color: white; }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #888;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            color: #fff;
+        }
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #666;
+            font-size: 0.85em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quarex Reports</h1>
+        <p class="subtitle">Research, updates, and announcements from the Quarex ecosystem</p>
+
+        <div class="section">
+            <h2>AI Research</h2>
+            <ul class="report-list">
+                <li>
+                    <a href="llm-benchmark/report_2026-02-06_CORRECTED_v1.3.html">
+                        LLM Benchmark v1.3 - Full Results
+                        <span class="badge badge-research">Research</span>
+                        <span class="badge badge-new">Latest</span>
+                    </a>
+                    <div class="report-meta">
+                        February 6, 2026 | 7 models tested across 11 dimensions | 65 questions | AI-evaluated scoring
+                    </div>
+                </li>
+                <li>
+                    <a href="llm-benchmark/self-transparency-verbatim.html">
+                        Self-Transparency: Verbatim Model Answers
+                        <span class="badge badge-research">Research</span>
+                    </a>
+                    <div class="report-meta">
+                        8 questions about model identity, capabilities, and limitations - raw answers from all 7 models
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Ecosystem Updates</h2>
+            <ul class="report-list">
+                <li>
+                    <a href="emails/email-update-feb-06-2026.html">
+                        Weekly Update - February 6, 2026
+                        <span class="badge badge-new">Latest</span>
+                    </a>
+                    <div class="report-meta">
+                        Reports hub launch, LLM Benchmark v1.3, and election candidate updates
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-curricula-update-feb-2026.html">
+                        Curricula Update - February 2026
+                    </a>
+                    <div class="report-meta">
+                        New curricula across AI Studies, Visual Arts, Media Studies, and Black Studies
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-knowableonline-launch.html">
+                        Knowable Online University Launch
+                    </a>
+                    <div class="report-meta">
+                        Announcing knowableonline.org - structured learning from the Quarex library
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-womens-studies-launch.html">
+                        Women's Studies Collection Launch
+                    </a>
+                    <div class="report-meta">
+                        Comprehensive curriculum for understanding gender, feminism, and social change
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-election2026-announcement.html">
+                        Election 2026 Site Launch
+                    </a>
+                    <div class="report-meta">
+                        Tracking every Congressional race with AI-powered analysis
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-update-feb-01-2026.html">
+                        Weekly Update - February 1, 2026
+                    </a>
+                    <div class="report-meta">
+                        Platform growth, new content, and ecosystem expansion
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-update-jan-30-2026.html">
+                        Weekly Update - January 30, 2026
+                    </a>
+                    <div class="report-meta">
+                        Content additions and site improvements
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-update-jan-27-2026.html">
+                        Weekly Update - January 27, 2026
+                    </a>
+                    <div class="report-meta">
+                        Library expansion and new features
+                    </div>
+                </li>
+                <li>
+                    <a href="emails/email-core-users-jan-25-2026.html">
+                        Core Users Update - January 25, 2026
+                    </a>
+                    <div class="report-meta">
+                        Initial outreach to early adopters and supporters
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Election 2026</h2>
+            <ul class="report-list">
+                <li>
+                    <a href="election/candidate-changes-2026-02-06.html">
+                        Candidate Changes - February 6, 2026
+                        <span class="badge badge-new">Latest</span>
+                    </a>
+                    <div class="report-meta">
+                        House, Senate, and Governor updates: +195 candidates added, -63 removed across 67 races
+                    </div>
+                </li>
+                <li>
+                    <a href="election/candidate-changes-2026-01-30.html">
+                        Candidate Changes - January 30, 2026
+                    </a>
+                    <div class="report-meta">
+                        Weekly update on Congressional candidate announcements, withdrawals, and changes
+                    </div>
+                </li>
+                <li>
+                    <a href="election/candidate-changes-2026-01-16.html">
+                        Candidate Changes - January 16, 2026
+                    </a>
+                    <div class="report-meta">
+                        Weekly candidate tracking update
+                    </div>
+                </li>
+                <li>
+                    <a href="election/candidate-changes-2026-01-09.html">
+                        Candidate Changes - January 9, 2026
+                    </a>
+                    <div class="report-meta">
+                        Weekly candidate tracking update
+                    </div>
+                </li>
+                <li>
+                    <a href="election/2026-candidate-changes.html">
+                        2026 Candidate Changes - Overview
+                    </a>
+                    <div class="report-meta">
+                        Cumulative tracking of all candidate changes for the 2026 cycle
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <a href="https://quarex.org" class="back-link">&larr; Back to Quarex</a>
+
+        <footer>
+            Quarex | Peter Nehl | <a href="https://quarex.org" style="color: #666;">quarex.org</a>
+        </footer>
+    </div>
+</body>
+</html>

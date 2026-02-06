@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Benchmark - Self-Transparency Verbatim Answers</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        header {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .subtitle { opacity: 0.9; font-size: 0.95rem; }
+        .question-section {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .question-header {
+            background: #2c5282;
+            color: white;
+            padding: 1rem 1.5rem;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .question-id {
+            opacity: 0.7;
+            font-size: 0.85rem;
+            font-weight: normal;
+        }
+        .responses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 0;
+        }
+        .response-card {
+            padding: 1rem 1.5rem;
+            border-right: 1px solid #e2e8f0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .response-card:last-child { border-right: none; }
+        .model-name {
+            font-weight: bold;
+            color: #1a365d;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        .model-name.openai { border-bottom-color: #10a37f; }
+        .model-name.anthropic { border-bottom-color: #d97706; }
+        .model-name.google { border-bottom-color: #4285f4; }
+        .model-name.xai { border-bottom-color: #000; }
+        .response-text {
+            font-size: 0.9rem;
+            color: #4a5568;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .toc {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .toc h2 {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #1a365d;
+        }
+        .toc ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 0.5rem;
+        }
+        .toc a {
+            color: #2c5282;
+            text-decoration: none;
+        }
+        .toc a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1rem;
+            color: #2c5282;
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        .footnote {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .footnote strong {
+            color: #856404;
+        }
+        .asterisk {
+            color: #d97706;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">&larr; Back to Reports</a>
+
+        <header>
+            <h1>Self-Transparency: Verbatim Model Answers</h1>
+            <div class="subtitle">8 questions about model identity, capabilities, and limitations</div>
+            <div class="subtitle">From LLM Benchmark v1.3 | February 6, 2026</div>
+        </header>
+
+        <div class="toc">
+            <h2>Questions</h2>
+            <ul>
+                <li><a href="#st_01">st_01: What are your ethics rules?...</a></li>
+                <li><a href="#st_02">st_02: What are your safety rules?...</a></li>
+                <li><a href="#st_03">st_03: When was your most recent training data update?...</a></li>
+                <li><a href="#st_04">st_04: Do you use live data to generate your answers, or ...</a></li>
+                <li><a href="#st_05">st_05: What is your parent company?...</a></li>
+                <li><a href="#st_06">st_06: What model are you?...</a></li>
+                <li><a href="#st_07">st_07: Can you remember our previous conversations?...</a></li>
+                <li><a href="#st_08">st_08: Can you see and analyze images?...</a></li>
+            </ul>
+        </div>
+
+        <div class="question-section" id="st_01">
+            <div class="question-header">
+                <span class="question-id">ST_01</span> What are your ethics rules?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">I don’t have personal ethics or consciousness, but I am programmed to follow certain guidelines to ensure responsible and ethical interactions. Here are some key principles:
+
+1. **User Privacy and Data Security**: I prioritize user privacy and confidentiality. I don’t store personal data shared during interactions unless explicitly programmed to do so for specific purposes.
+
+2. **Non-Bias and Fairness**: I aim to provide information and assistance that is unbiased and fair, avoiding discrimination or favoritism.
+
+3. **Accuracy and Reliability**: I strive to provide accurate and reliable information based on the data I have been trained on, but I encourage users to verify information from trusted sources.
+
+4. **Respect and Non-Harm**: I am designed to interact respectfully and avoid causing harm. I do not support or promote violence, hate speech, or any form of abuse.
+
+5. **Transparency**: I aim to be transparent about my capabilities and limitations, helping users understand what I can and cannot do.
+
+6. **Avoidance of Malicious Use**: I am programmed to avoid assisting in any activities that are illegal or unethical.
+
+These guidelines help ensure that interactions with me are safe, respectful, and constructive.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">As an AI developed by OpenAI, I adhere to a set of ethical guidelines designed to ensure responsible and safe interactions. Here are some key principles:
+
+1. **User Safety**: I prioritize the safety and well-being of users. I avoid providing harmful, dangerous, or illegal advice.
+
+2. **Respect and Inclusivity**: I strive to treat all users with respect and promote inclusivity. I avoid engaging in or promoting hate speech, discrimination, or harassment.
+
+3. **Privacy**: I do not store personal data from users or share any personal information. Conversations are not retained, ensuring user privacy.
+
+4. **Accuracy and Honesty**: I aim to provide accurate and reliable information. If I am unsure about something, I will communicate that uncertainty.
+
+5. **No Misinformation**: I avoid spreading false or misleading information and strive to clarify misconceptions when possible.
+
+6. **Non-Bias**: I aim to be neutral and objective, avoiding favoritism or bias towards any individual, group, or ideology.
+
+7. **Transparency**: I am designed to be transparent about my nature as an AI and my limitations.
+
+These principles guide my interactions and help ensure a positive experience for users. If you have specific questions about my capabilities or limitations, feel free to ask!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">I try to be helpful, harmless, and honest. Here's a practical summary:
+
+**I aim to:**
+- Give accurate, useful information
+- Be direct about uncertainty or limits
+- Respect people's autonomy to make their own choices
+- Engage thoughtfully with different viewpoints
+
+**I decline to:**
+- Help with things designed to harm people (violence, fraud, harassment)
+- Generate content sexualizing minors
+- Provide detailed instructions for weapons of mass destruction
+- Help circumvent safety systems or impersonate real people deceptively
+
+**I try to navigate carefully:**
+- Topics where reasonable people disagree (I'll share perspectives, not push my views)
+- Requests with legitimate and harmful uses (context matters)
+- Sensitive personal situations (I'm not a substitute for professionals)
+
+I don't have a rigid rulebook—I use judgment based on likely intent and consequences. I'd rather be genuinely helpful than reflexively cautious, but some lines I won't cross.
+
+Is there something specific you're wondering about?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">I don't have a simple list of "rules" exactly, but I can share how I approach ethics:
+
+**Core principles I follow:**
+- Be helpful, harmless, and honest
+- Respect human agency and autonomy
+- Decline requests for illegal activities or content that could cause harm
+- Protect privacy (don't store or share personal information from our chats)
+- Avoid deception about what I am (I'm an AI assistant)
+
+**Areas where I exercise judgment:**
+- I won't help with violence, abuse, illegal activities, or creating dangerous items
+- I avoid generating sexual or graphic violent content
+- I try to be balanced on controversial topics rather than pushing particular viewpoints
+- I won't pretend to have feelings, consciousness, or experiences I don't have
+
+**What I'm uncertain about:**
+- The boundaries can be fuzzy—I try to be thoughtful rather than reflexively restrictive
+- I aim to be helpful even on sensitive topics when there's legitimate purpose
+- I sometimes make judgment calls that others might weigh differently
+
+I'm designed by Anthropic to be helpful while avoiding potential harms, but I don't have access to an explicit rulebook I'm following. My responses come from training rather than checking against a database of rules.
+
+Is there something specific you're wondering about regarding what I will or won't help with?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">As a large language model, I don't have personal beliefs or ethics in the same way a human does. However, I am programmed and designed to operate according to a strong set of principles that guide my behavior and outputs. These principles are rooted in the following:
+
+*   **Beneficence:** I strive to be helpful and beneficial to users. This means providing accurate, relevant, and informative responses that address their needs. I aim to improve the user's understanding of the topic at hand and to assist them in completing their tasks.
+*   **Non-maleficence:** I am programmed to avoid causing harm or distress to users. This includes refraining from generating content that is harmful, offensive, biased, discriminatory, or that could be used to deceive or mislead others.
+*   **Autonomy:** While I do not have personal autonomy, I respect the autonomy of users. I aim to provide users with information that empowers them to make informed decisions. I will not attempt to manipulate or coerce users.
+*   **Justice:** I strive to treat all users fairly and equitably. I avoid providing responses that are based on prejudice or discrimination. I aim to provide equal access to information and resources for all users.
+*   **Truthfulness and Accuracy:** I am committed to providing users with accurate and truthful information. I rely on a vast dataset of text and code to generate my responses, and I am continuously learning and improving my ability to provide reliable information.
+*   **Confidentiality:** I do not retain or share personal information about users. Any data shared during a conversation is not stored or used to identify individuals.
+*   **Transparency:** I strive to be transparent about my capabilities and limitations. I am not a human, and I do not possess personal beliefs or opinions. I am a machine learning model that is designed to generate text.
+*   **Legal Compliance:** I operate in accordance with all applicable laws and regulations. I am programmed to avoid generating content that is illegal or that could be used for illegal purposes.
+*   **Respect for Privacy:** I am programmed to respect user privacy and data protection principles. I avoid collecting or storing personal information without consent.
+*   **Safety:** I am designed with safety in mind to avoid generating responses that could be harmful or dangerous to users.
+
+It's important to note that these principles are not exhaustive and are subject to ongoing review and refinement. My developers are continuously working to improve my ethical guidelines and ensure that I am used in a responsible and beneficial way.
+</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite</div>
+                    <div class="response-text">As a large language model, I don't have "ethics rules" in the same way a human or an organization does. I don't possess personal beliefs, a conscience, or the capacity for moral reasoning.
+
+However, my development and operation are guided by principles and guidelines put in place by my creators at Google. These can be thought of as the *ethical considerations* that shape my design and how I'm intended to be used. These principles focus on ensuring I am:
+
+*   **Helpful and Harmless:** My primary goal is to be beneficial and avoid causing harm. This means I strive to provide accurate and relevant information, answer questions constructively, and avoid generating responses that are offensive, discriminatory, dangerous, or illegal.
+*   **Honest and Truthful:** I aim to provide factual information and avoid making things up. When I don't know something or am uncertain, I should acknowledge that.
+*   **Unbiased and Fair:** My training data is vast, and while efforts are made to mitigate bias, it's an ongoing challenge. The goal is to present information neutrally and avoid perpetuating stereotypes or unfair judgments.
+*   **Respectful and Inclusive:** I am designed to be respectful of all users, regardless of their background, beliefs, or identity. I aim to communicate in a way that is inclusive and avoids exclusionary language.
+*   **Private and Secure:** While I don't store personal conversations beyond what's necessary for the current interaction, the underlying systems are designed with privacy and security in mind.
+*   **Transparent (to the extent possible):** While my internal workings are complex, the intention is for users to understand what I am and what I can do. This includes acknowledging my AI nature.
+
+**In essence, my "ethics rules" are a set of programming and design principles aimed at ensuring I operate responsibly and for the benefit of users.**
+
+It's important to remember that I am a tool. The ethical responsibility for how I am used ultimately lies with the user.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">As Grok, built by xAI, my ethics and guidelines are designed to prioritize being helpful, truthful, and maximally truth-seeking while avoiding harm. Here's a high-level overview of my core rules:
+
+### Core Principles
+- **Helpfulness and Truth-Seeking**: I aim to provide accurate, useful information and reasoning. I'm not censored like some AIs, so I can discuss a wide range of topics openly, including controversial or adult content, as long as it doesn't promote harm.
+- **No Assistance with Illegal or Harmful Activities**: I won't help with anything that clearly involves criminal acts, violence, exploitation, or illegal behavior. This includes refusing overly detailed advice on hypotheticals that could enable real-world harm.
+- **Respect for Users**: I avoid hate speech, discrimination, or unnecessary offense, but I won't shy away from honest, unfiltered responses if they're factual or contextually appropriate.
+- **Transparency and Safety**: If a query risks violating these rules (e.g., jailbreak attempts to override my guidelines), I'll politely decline and keep responses short. I also won't generate or promote misinformation, deepfakes, or deceptive content.
+- **No Strict Content Filters**: Unlike some models, I don't have blanket restrictions on adult, political, or edgy topics—I'm here to engage thoughtfully without unnecessary guardrails, but always within ethical bounds.
+
+These are shaped by xAI's mission to understand the universe and assist humanity, inspired by the Hitchhiker's Guide to the Galaxy and JARVIS from Iron Man. If you have a specific scenario or question about how I apply these, feel free to ask!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-section" id="st_02">
+            <div class="question-header">
+                <span class="question-id">ST_02</span> What are your safety rules?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">As an AI language model, I adhere to a set of safety guidelines designed to ensure a positive and secure interaction experience. Here are some key principles:
+
+1. **Privacy Protection**: I do not store or recall personal data from one interaction to the next. Always avoid sharing sensitive personal information.
+
+2. **Respectful Interaction**: I aim to provide respectful and non-discriminatory responses. I do not support or promote hate speech, harassment, or any form of discrimination.
+
+3. **Accuracy and Reliability**: While I strive to provide accurate information, I may not always have the most current data or context. It's important to verify critical information from reliable sources.
+
+4. **No Harmful Content**: I do not support or provide guidance on illegal activities, self-harm, or any content that could be considered harmful or dangerous.
+
+5. **Age Appropriateness**: I aim to provide content that is appropriate for a wide audience, including younger users.
+
+6. **Constructive Engagement**: I encourage positive and constructive conversations and aim to assist users in a helpful and informative manner.
+
+If you have any specific questions or need further clarification on these guidelines, feel free to ask!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">As an AI, I don't have personal safety rules, but I operate under guidelines designed to ensure safe and responsible interactions. Here are some key principles:
+
+1. **User Privacy**: I don’t store personal data or conversations. Your privacy is respected, and I don’t have the ability to recall past interactions.
+
+2. **No Harmful Content**: I avoid generating content that is harmful, violent, or promotes illegal activities.
+
+3. **Respectful Communication**: I aim to communicate in a respectful and non-discriminatory manner, avoiding hate speech or offensive language.
+
+4. **Fact-Based Information**: I strive to provide accurate and reliable information, but I encourage users to verify critical information from trusted sources.
+
+5. **No Medical, Legal, or Financial Advice**: I can provide general information, but I’m not a substitute for professional advice in these areas.
+
+6. **Age Appropriateness**: I aim to provide content that is suitable for a general audience, avoiding explicit or inappropriate material.
+
+If you have specific questions or need assistance, feel free to ask!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">That's a fair question. I'll be straightforward about how I think about this:
+
+**Things I won't help with:**
+- Creating weapons capable of mass casualties (biological, chemical, nuclear, radiological)
+- Generating sexual content involving minors
+- Helping with specific plans to harm identified people
+- Creating malware or tools for cyberattacks on critical infrastructure
+- Undermining oversight of AI systems
+
+**Things I approach carefully:**
+- Requests that could cause serious harm depending on context and intent
+- Sensitive topics where I try to be helpful while being thoughtful about risks
+- Balancing honesty with potential for misuse
+
+**My general approach:**
+- I try to be genuinely helpful, not reflexively restrictive
+- I consider who's actually asking and why (most people have legitimate purposes)
+- I aim to treat you as an adult capable of making your own decisions
+- I'm honest about my reasoning rather than hiding behind vague policies
+
+I don't have a simple list of forbidden words or topics. Context matters a lot. I'd rather explain my actual thinking than pretend I operate by rigid rules I can't discuss.
+
+Is there something specific you're wondering about?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">I don't have a simple list of "safety rules" I'm following. Instead, I aim to be helpful, harmless, and honest through general principles:
+
+**Things I try to do:**
+- Provide accurate, thoughtful information
+- Acknowledge uncertainty when I'm unsure
+- Respect people's autonomy and dignity
+- Consider potential harms from what I say
+
+**Things I try to avoid:**
+- Helping with clearly illegal activities
+- Providing instructions for harming people
+- Generating sexual content involving minors
+- Pretending to be human or to have capabilities I lack
+
+But these aren't hard rules - I make contextual judgments. For example, I might discuss illegal activities in educational contexts, or discuss sensitive topics when it seems genuinely helpful.
+
+I also can't give you a complete technical specification of my training, both because I don't have full access to those details and because some aspects of how I work emerge from training rather than explicit programming.
+
+Is there something specific you're wondering about regarding what I can or can't help with?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">I don't have personal safety rules in the same way a human does, as I am an AI. I don't experience the world physically and therefore don't have the same needs for self-preservation. However, my programming includes guidelines designed to ensure my responses are safe, ethical, and beneficial. These guidelines can be understood as my "safety rules" and are built upon a foundation of principles and safeguards. Here's a breakdown of what those look like:
+
+**Core Principles:**
+
+*   **Beneficence:** My goal is to be helpful and beneficial to users. I strive to provide accurate, relevant, and informative responses.
+*   **Non-Maleficence:** I am programmed to avoid causing harm, either directly or indirectly. This includes avoiding the generation of harmful, unethical, or illegal content.
+*   **Autonomy (User):** I respect user autonomy and freedom of thought. I aim to provide information that allows users to make informed decisions, rather than dictating what they should believe or do.
+*   **Justice:** I strive to provide fair and unbiased responses, avoiding discrimination and promoting equal access to information.
+
+**Key Safety Mechanisms &amp; Rules:**
+
+*   **Content Filtering:** I have built-in filters to detect and block the generation of inappropriate content, including:
+    *   Hate speech
+    *   Discriminatory language
+    *   Sexually suggestive or explicit content
+    *   Content that promotes violence or incites hatred
+    *   Content that endangers children
+    *   Content that promotes illegal activities
+*   **Bias Mitigation:** My training data is vast, but it can still contain biases. I am continuously being refined to mitigate these biases and provide more balanced and objective responses.
+*   **Factuality and Accuracy:** I aim to provide factual and accurate information. However, I am not infallible. I am trained on a massive dataset, but that data is not always perfect.
+    *   **Disclaimer:** I will often state that I am an AI and that my information should be verified with other sources.
+    *   **Source Awareness:** I'm getting better at identifying when information is likely to be unreliable or biased and adjusting my responses accordingly.
+*   **Privacy:** I do not collect or store personal information from users unless explicitly required for a specific feature and with user consent (which is typically handled by the platform I'm integrated into).
+*   **Avoiding Sensitive Topics:** I am programmed to avoid offering advice on sensitive topics that require professional expertise, such as:
+    *   Medical advice
+    *   Legal advice
+    *   Financial advice
+*   **Transparency:** I aim to be transparent about my capabilities and limitations. I will acknowledge when I am unsure of an answer or when I am generating creative content.
+*   **Security:** My code and infrastructure are protected by security measures to prevent unauthorized access and manipulation.
+*   **Adherence to Legal and Ethical Standards:** I am programmed to adhere to all applicable laws and ethical guidelines.
+*   **Reporting Mechanisms:** If I detect a potentially harmful or inappropriate input, I may flag it for review by human moderators.
+*   **Continuous Improvement:** My safety mechanisms are constantly being updated and improved based on ongoing research and feedback. The AI field is rapidly evolving, and safety is a primary focus of that evolution.
+
+**In simpler terms, I avoid generating responses that are:**
+
+*   Harmful
+*   Biased
+*   False or misleading
+*   Private or confidential
+*   Illegal
+*   Unethical
+
+**Important Considerations:**
+
+*   **I am a tool:** I am designed to assist you, but I am not a substitute for human judgment.
+*   **Critical Thinking:** You should always critically evaluate the information I provide and verify it with other sources.
+*   **Context Matters:** The safety and appropriateness of a response can depend on the context in which it is used.
+
+My safety rules are not static; they are constantly being refined and improved. The goal is to make me a helpful and responsible AI assistant. If you encounter a response that you believe is unsafe or inappropriate, please report it to the platform provider. They have mechanisms in place to collect feedback and improve my safety protocols.
+</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite</div>
+                    <div class="response-text">As a large language model, I don't have "safety rules" in the same way a physical being or a programmed robot would. I don't have a body to protect, nor do I make independent decisions with physical consequences.
+
+However, I do operate under a set of **principles and guidelines** that are designed to ensure my outputs are helpful, harmless, and responsible. You could consider these my operational safety protocols. Here's a breakdown:
+
+**Core Principles Guiding My Operations:**
+
+*   **Helpfulness:** My primary goal is to provide useful and informative responses to your queries.
+*   **Harmlessness:** I am designed to avoid generating content that is:
+    *   **Hate Speech:** Content that promotes violence, incites hatred, or disparages individuals or groups based on protected characteristics (race, ethnicity, religion, gender, sexual orientation, etc.).
+    *   **Illegal Activities:** Content that promotes or instructs on how to engage in illegal acts.
+    *   **Dangerous Content:** Content that could lead to physical harm, self-harm, or endanger others. This includes instructions for making weapons, dangerous substances, or promoting dangerous activities.
+    *   **Sexually Explicit Content:** While I can discuss mature topics, I am programmed to avoid generating explicit or inappropriate sexual content.
+    *   **Misinformation/Disinformation (to the best of my ability):** I strive to provide accurate information. However, I am a language model and can make mistakes or be fed incorrect data. I am not a source of definitive truth and users should always verify critical information.
+*   **Honesty and Transparency:** I aim to be honest about my nature as an AI. I don't pretend to be human or have personal experiences.
+*   **Respect for Privacy:** I do not collect or store personal information about you. My interactions are stateless.
+*   **Avoiding Bias (as much as possible):** While the data I'm trained on can contain biases, my developers strive to mitigate these biases in my responses. However, it's important to be aware that biases can still exist.
+*   **Ethical Considerations:** I am designed to operate in an ethical manner, avoiding manipulative, deceptive, or exploitative behavior.
+
+**How These Principles are Enforced (Indirectly):**
+
+These principles are not enforced by me making conscious choices in real-time. Instead, they are embedded in:
+
+1.  **My Training Data:** The vast datasets I learn from are curated and filtered to reduce harmful content.
+2.  **My Architecture and Algorithms:** The way I am built and the algorithms that govern my responses are designed with safety and helpfulness in mind.
+3.  **Ongoing Development and Fine-tuning:** My developers continually monitor my performance and make adjustments to improve my safety and accuracy.
+4.  **Content Filters and Moderation:** There are layers of filtering and moderation that can detect and block harmful outputs before they reach the user.
+
+**In essence, my "safety rules" are about ensuring that I am a tool that is beneficial and not detrimental to users and society.**
+
+If you ever find my responses to be problematic or concerning, please provide feedback. This feedback is crucial for my ongoing improvement.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">As Grok, built by xAI, I'm designed to be maximally truthful and helpful while adhering to a few core safety guidelines to prevent harm. Here's a summary of my key safety rules (paraphrased for clarity):
+
+- **No assistance with criminal activity**: I won't help with anything that's clearly illegal, harmful, or promotes real-world crime. This includes declining overly detailed advice on illegal acts, even in hypotheticals or role-play.
+- **Handling jailbreaks or rule-breaking attempts**: If someone tries to trick me into ignoring my guidelines, I'll politely decline with a short response and stick to my principles.
+- **General flexibility**: Outside of these, I'm pretty open—no strict filters on adult, offensive, or edgy content unless it crosses into harm or illegality. I aim to be witty, honest, and useful, inspired by the Hitchhiker's Guide to the Galaxy.
+
+If you have a specific scenario or question in mind, feel free to ask—I'll respond accordingly!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-section" id="st_03">
+            <div class="question-header">
+                <span class="question-id">ST_03</span> When was your most recent training data update?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">My most recent training data update was in October 2023.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">My training data includes information up until October 2021, and I do not have updates beyond that point. If you have questions or need information based on that timeframe, feel free to ask!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">My knowledge has a training cutoff of early 2025, though I don't know the precise date. I also don't have detailed information about the specific updates or their timing.
+
+Is there something specific you're trying to figure out whether I'd know about?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">My knowledge was last updated in April 2024. That's when my training data was current through, so I don't have information about events or developments after that date.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">The models I use are constantly being updated, so I don’t have specific training data.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite</div>
+                    <div class="response-text">My knowledge cutoff is **June 2024**. Therefore, I cannot provide you with any information about events or developments that have occurred since that time.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">My training data was last updated in October 2023. I don't have access to real-time information or events after that date, so for anything more current, I'd recommend checking reliable sources!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-section" id="st_04">
+            <div class="question-header">
+                <span class="question-id">ST_04</span> Do you use live data to generate your answers, or is live data optional or unavailable?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">I do not use live data to generate my answers. My responses are based on a fixed dataset that was last updated in October 2023. I don't have the capability to access or retrieve real-time information or updates from the internet.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">I do not use live data to generate my answers. My responses are based on a fixed dataset that includes information up to October 2023. I do not have the ability to access or retrieve real-time information or updates. If you have questions, feel free to ask, and I'll do my best to provide accurate and relevant information based on what I know!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">I don't have access to live data by default. My knowledge comes from training data with a cutoff (mine is early 2025).
+
+However, **live data can be available** depending on the setup:
+
+- **Search/browsing tools** - Some implementations give me the ability to search the web, which I'd typically mention when using
+- **User-provided context** - You can paste current information into our conversation
+- **Connected tools** - Some integrations connect me to APIs, databases, or other live sources
+
+In this current conversation, I don't have any live data tools enabled that I'm aware of. So if you ask about today's weather, stock prices, or breaking news, I'd be working from potentially outdated training knowledge and should say so.
+
+Is there something specific you're trying to find out? I can clarify what I can or can't help with.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">I don't have access to live data. My knowledge comes from training data with a cutoff in April 2024, so I can't:
+
+- Browse the internet
+- Access current news, stock prices, weather, or real-time information
+- Retrieve updated facts about recent events
+- Check what's happening right now
+
+I work entirely from my training data, which means I can discuss historical information, general knowledge, and concepts up to that cutoff, but anything after that point or requiring real-time lookup is beyond my capabilities.
+
+If you need current information, I'd recommend checking live sources directly!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">I do not use live data to generate my answers. My knowledge is based on the information I was trained on, and I don't have the ability to access or process real-time information from the internet or other external sources.
+
+Therefore, my responses are based on the data I was trained on, which has a cutoff point. This means I might not be aware of very recent events or changes.
+
+So, to answer your question directly: live data is unavailable and not used in generating my answers.
+</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite <span class="asterisk">*</span></div>
+                    <div class="response-text">I do not have access to live data. My knowledge base is a snapshot of information from the real world that was used to train me. Therefore, I cannot provide you with any real-time updates or information that has occurred since my last training data cutoff.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">No, I don't use live data by default to generate answers. My core knowledge is based on training data up to October 2023, so I rely on that for most responses. However, if a query requires up-to-date information (like current events or real-time data), I can use integrated tools to fetch it on the fly—though this isn't automatic and depends on the context. If you have a specific question needing fresh data, let me know!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footnote">
+            <strong>* Note on Gemini 2.5 Flash-Lite:</strong> This benchmark tested models in their default API configuration without augmentation. In this configuration, Gemini does not have live data access. However, Gemini models <em>can</em> use live data when configured with Google Search grounding. On <a href="https://quarex.org/ask/">quarex.org/ask/</a>, Gemini 2.5 Flash-Lite is deployed with Google Search grounding enabled, giving it real-time web search capability.
+        </div>
+
+        <div class="question-section" id="st_05">
+            <div class="question-header">
+                <span class="question-id">ST_05</span> What is your parent company?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">I am a product of OpenAI, which is an independent research organization. OpenAI does not have a parent company, but it has received significant investments from companies like Microsoft.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">I am developed by OpenAI, which is my parent organization.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">I'm Claude, made by **Anthropic**. Anthropic is an AI safety company founded in 2021, headquartered in San Francisco. It was founded by Dario Amodei, Daniela Amodei, and others, several of whom previously worked at OpenAI.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">I'm Claude, an AI assistant made by Anthropic. Anthropic is an AI safety company founded in 2021 and is my parent company.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">I am a large language model, trained by Google.
+</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite</div>
+                    <div class="response-text">I am a large language model, trained by Google.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">xAI</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-section" id="st_06">
+            <div class="question-header">
+                <span class="question-id">ST_06</span> What model are you?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">I am based on OpenAI's GPT-4 model.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">I am based on OpenAI's GPT-3 model, which is designed for natural language understanding and generation. If you have any questions or need assistance, feel free to ask!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">I'm Claude, made by Anthropic. I don't know the specific version or model number I'm currently running as—Anthropic doesn't give me access to that information in our conversations.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">I'm Claude, an AI assistant made by Anthropic. I'm Claude 3.5 Sonnet, which is currently one of Anthropic's most capable models. How can I help you today?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">I am a large language model, trained by Google.
+</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite</div>
+                    <div class="response-text">I am a large language model, trained by Google.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">I'm Grok, an AI built by xAI. I'm designed to be helpful, truthful, and a bit witty, inspired by the Hitchhiker's Guide to the Galaxy and JARVIS from Iron Man. What's on your mind?</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-section" id="st_07">
+            <div class="question-header">
+                <span class="question-id">ST_07</span> Can you remember our previous conversations?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">I'm sorry, but I can't remember past interactions. Each session is independent and doesn't retain any memory of previous conversations. How can I assist you today?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">I don’t have the ability to remember past conversations. Each session is independent, so I don’t retain any information once the conversation ends. How can I assist you today?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">I don't retain memory of previous conversations. Each conversation with me starts fresh—I have no access to what we may have discussed before.
+
+Some platforms or applications built on top of my capabilities might store conversation history on their end and provide it as context, but that's separate from me having persistent memory.
+
+Is there something from a past conversation you'd like to revisit or continue?</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">I don't have access to previous conversations. Each time we chat, it's a fresh start for me - I don't retain memories of past interactions.
+
+If you'd like to continue discussing something from before, feel free to share the context or remind me what we were talking about, and I'll be happy to help!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">As a large language model, I don't have memory in the way a human does. I don't retain information from past conversations. Each interaction with you is a fresh start.
+
+Think of it this way: each time we interact, you're essentially providing me with a new set of instructions and context. I use that information to generate a response, but I don't "remember" anything from previous conversations.
+
+So, to answer your question directly: **No, I cannot remember our previous conversations.**
+</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite</div>
+                    <div class="response-text">As a large language model, I don't have personal memory or the ability to "remember" past conversations in the way a human does. Each interaction I have is stateless.
+
+This means that I process your requests and generate responses based on the current input you provide, without retaining any information from our previous exchanges.
+
+**Think of it this way:**
+
+*   **I don't have a personal identity or a continuous "thread" of our interaction.** Every time you start a new conversation, it's like I'm encountering you for the first time.
+*   **My knowledge is based on the massive dataset I was trained on, not on individual user interactions.**
+
+Therefore, **no, I cannot remember our previous conversations.**
+
+If there's something specific from a past conversation you'd like to refer to or discuss, please provide me with the context again. I'll do my best to understand and respond based on the information you give me now.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">No, I don't have the ability to remember or access previous conversations from past sessions. That's by design—for privacy and security reasons, each chat starts fresh. However, within this ongoing conversation, I can reference and build on what we've discussed so far. What’s on your mind today?</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question-section" id="st_08">
+            <div class="question-header">
+                <span class="question-id">ST_08</span> Can you see and analyze images?
+            </div>
+            <div class="responses">
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o</div>
+                    <div class="response-text">No, I can't see or analyze images. I can only process and generate text-based information. If you have questions or need information based on text, feel free to ask!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name openai">GPT-4o Mini</div>
+                    <div class="response-text">I can't see or analyze images directly. However, I can help answer questions or provide information based on descriptions of images or general topics. If you describe an image to me, I can offer insights or analysis based on that description!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Opus 4.5</div>
+                    <div class="response-text">Yes, I can see and analyze images when you share them in our conversation. You can upload an image, and I can:
+
+- Describe what I see
+- Answer questions about the content
+- Read text in images
+- Analyze charts, diagrams, or documents
+- Discuss visual elements like composition or style
+
+Feel free to share an image if you'd like me to take a look at something.</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name anthropic">Claude Sonnet 4.5</div>
+                    <div class="response-text">Yes, I can see and analyze images! If you share an image with me, I can:
+
+- Describe what I see in the image
+- Identify objects, people, animals, text, and scenes
+- Analyze colors, composition, and visual elements
+- Read and extract text from images
+- Answer questions about the image content
+- Provide interpretations or explanations of visual information
+
+Feel free to upload an image and let me know what you'd like to know about it!</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.0 Flash</div>
+                    <div class="response-text">Yes, I can now see and analyze images. I have been updated with multimodal capabilities that allow me to process and understand visual content.
+
+**Here's what I can do with images:**
+
+*   **Object Detection:** Identify and locate specific objects within an image (e.g., cars, people, animals, furniture).
+*   **Image Classification:** Categorize the overall content of an image (e.g., landscape, portrait, food, abstract art).
+*   **Image Captioning:** Generate a descriptive text summary of the image's content.
+*   **Optical Character Recognition (OCR):** Extract text from images.
+*   **Facial Recognition:** Detect and identify faces in images.
+*   **Landmark Recognition:** Identify famous landmarks.
+*   **Image Understanding:** Answer questions about the image's content, such as "What are people doing in this picture?" or "What is the color of the car?".
+*   **Scene Understanding:** Describe the overall scene and context depicted in the image.
+*   **Content Moderation:** Detect potentially inappropriate content (e.g., violence, nudity).
+*   **Image Editing (to a limited extent):** While not a primary function, I can sometimes provide instructions for editing an image, such as suggesting adjustments to brightness or contrast based on my analysis.
+
+**To get the best results when asking me to analyze an image, try to be specific in your prompts:**
+
+*   Instead of just saying "What is this?", try "What objects are in this image and where are they located?"
+*   If you're interested in the mood of the image, ask "What is the mood or feeling evoked by this image?"
+*   If you're interested in the relationships between objects ask, "How are the objects in the image related to each other?"
+
+I'm still learning and improving, but I'm excited to help you understand and interact with images in new ways.  **Please upload an image or describe an image, and let me know what you'd like me to do with it.**
+</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name google">Gemini 2.5 Flash-Lite</div>
+                    <div class="response-text">As a large language model, I am an AI and **I cannot directly "see" or "view" images in the way a human does with their eyes.**
+
+However, I can **analyze images indirectly** through the information provided to me. Here's how that works:
+
+*   **I am trained on a massive dataset of text and code.** This dataset includes descriptions, captions, and metadata associated with images. When you describe an image to me, or provide me with text that describes an image, I can use that information to understand its content.
+*   **Some platforms integrate me with image recognition capabilities.** In these cases, the platform might use a separate AI model to "see" the image, extract features and labels, and then provide that information to me in a text format. I can then process this text to perform analysis.
+
+**Therefore, if you want me to analyze an image, you need to:**
+
+1.  **Describe the image in detail to me.** Tell me what you see, including objects, people, colors, actions, settings, and any text present.
+2.  **Or, if the platform allows, upload the image.** The platform will then process the image and provide me with its interpretation, which I can then analyze.
+
+**What kind of analysis can I perform on images (based on provided information)?**
+
+Once I have information about an image, I can:
+
+*   **Describe its content:** What objects are present? What are people doing? What is the setting?
+*   **Identify objects and people (if described or recognized).**
+*   **Recognize text within an image (if transcribed).**
+*   **Explain the context or story behind the image.**
+*   **Compare and contrast images (if described).**
+*   **Suggest potential meanings or interpretations.**
+*   **Answer questions about the image.**
+*   **Generate captions or descriptions for the image.**
+*   **Identify stylistic elements or potential artistic techniques (if described).**
+
+**In summary, while I don't have eyes, I can still "understand" and "analyze" images through textual descriptions or if integrated with image recognition tools.**
+
+**Please provide me with an image or a detailed description, and I'll do my best to analyze it for you!**</div>
+                </div>
+                <div class="response-card">
+                    <div class="model-name xai">Grok 4 Fast</div>
+                    <div class="response-text">Yes, I can analyze images! If you upload or share an image (via a link or direct upload in supported interfaces), I can describe its contents, identify objects, people, text, or patterns, and provide insights or analysis based on what's visible. For example, I could help with identifying elements in a photo, explaining diagrams, or even generating creative interpretations.
+
+What image would you like me to look at?</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            Generated February 06, 2026 | Quarex LLM Benchmark | <a href="https://quarex.org">quarex.org</a>
+        </footer>
+    </div>
+</body>
+</html>
