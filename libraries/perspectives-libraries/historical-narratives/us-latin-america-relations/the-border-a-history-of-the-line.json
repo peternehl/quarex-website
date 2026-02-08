@@ -1,0 +1,169 @@
+{
+  "name": "The Border: A History of the Line",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "us-mexico-border",
+    "border-history",
+    "border-enforcement",
+    "borderlands",
+    "border-communities"
+  ],
+  "chapters": [
+    {
+      "name": "Drawing the Line: The Border's Creation",
+      "topics": [
+        "How was the U.S.-Mexico border established?",
+        "What did the Treaty of Guadalupe Hidalgo define?",
+        "How did the Gadsden Purchase finalize the boundary?",
+        "What communities were divided by the new border?",
+        "How was the border initially surveyed and marked?",
+        "What was the border like in its early decades?",
+        "How did the border exist more on maps than on the ground?"
+      ],
+      "tags": ["history", "diplomacy", "americas", "treaties"]
+    },
+    {
+      "name": "A Porous Boundary: The Border Before Enforcement",
+      "topics": [
+        "How did people cross the border freely in the late 1800s?",
+        "What economic exchanges flowed across the border?",
+        "How did families maintain connections across the line?",
+        "What labor migration patterns existed before restriction?",
+        "How did border towns develop as paired cities?",
+        "When did the border begin to matter for crossing?",
+        "What changed the open border tradition?"
+      ],
+      "tags": ["society", "migration", "americas", "modern-history"]
+    },
+    {
+      "name": "The Border Patrol: Creating an Enforcement Agency",
+      "topics": [
+        "When and why was the Border Patrol created?",
+        "What was the agency's original mission and scope?",
+        "How did Prohibition shape early border enforcement?",
+        "What methods did early Border Patrol agents use?",
+        "How did the agency treat those it apprehended?",
+        "How did the Border Patrol grow over decades?",
+        "What culture developed within the agency?"
+      ],
+      "tags": ["law", "governance", "americas", "policing"]
+    },
+    {
+      "name": "The Bracero Years: Managed Migration",
+      "topics": [
+        "How did the bracero program affect border crossing?",
+        "What formal crossing points were established?",
+        "How did unauthorized crossing coexist with the program?",
+        "What happened at the border when workers were recruited?",
+        "How did Operation Wetback use the border?",
+        "What infrastructure developed along the border during this era?",
+        "How did the bracero era shape border communities?"
+      ],
+      "tags": ["politics", "migration", "americas", "labor"]
+    },
+    {
+      "name": "Twin Cities: Life on Both Sides",
+      "topics": [
+        "What are the major twin city pairs along the border?",
+        "How do communities like El Paso-Juarez and San Diego-Tijuana function?",
+        "What daily crossing patterns connect border cities?",
+        "How do economies on both sides depend on each other?",
+        "What cultural identity exists in border communities?",
+        "How do border residents view the boundary differently?",
+        "What happens when enforcement disrupts these connections?"
+      ],
+      "tags": ["society", "identity", "americas", "immigration"]
+    },
+    {
+      "name": "Militarization: The Border Hardens",
+      "topics": [
+        "When did the U.S. begin militarizing the border?",
+        "What were Operations Hold the Line and Gatekeeper?",
+        "How did enforcement shift crossing to more dangerous areas?",
+        "What walls and barriers have been built and when?",
+        "How has technology changed border surveillance?",
+        "What military equipment and tactics are used at the border?",
+        "How effective has militarization been at stopping crossings?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Death in the Desert: The Human Cost",
+      "topics": [
+        "How did enforcement push migrants into deadly terrain?",
+        "How many people have died crossing the border?",
+        "What causes of death are most common?",
+        "How are remains discovered and identified?",
+        "What humanitarian efforts try to prevent deaths?",
+        "How do families search for missing loved ones?",
+        "What ethical questions does border death raise?"
+      ],
+      "tags": ["society", "human-rights", "americas", "immigration"]
+    },
+    {
+      "name": "The Wall: Symbol and Reality",
+      "topics": [
+        "What physical barriers exist along the border today?",
+        "How did the border wall become a political symbol?",
+        "What did Trump's wall proposals include?",
+        "How much wall was actually built and at what cost?",
+        "How effective are walls at preventing crossing?",
+        "What environmental and property impacts do walls create?",
+        "How do border communities view the wall?"
+      ],
+      "tags": ["politics", "infrastructure", "americas", "immigration"]
+    },
+    {
+      "name": "Commerce and Contraband: What Crosses the Border",
+      "topics": [
+        "How much legal trade crosses the U.S.-Mexico border?",
+        "What goods flow in each direction?",
+        "How do ports of entry process legitimate commerce?",
+        "What smuggling operations move drugs across the border?",
+        "How do authorities try to interdict contraband?",
+        "What tunnels and other methods do smugglers use?",
+        "How does the volume of legitimate trade affect enforcement?"
+      ],
+      "tags": ["economics", "trade", "americas", "immigration"]
+    },
+    {
+      "name": "Asylum at the Border: A System in Crisis",
+      "topics": [
+        "How does the asylum system work at the border?",
+        "What policies have restricted asylum access?",
+        "What was the Remain in Mexico policy?",
+        "How have family separation and detention affected asylum seekers?",
+        "What conditions exist in border detention facilities?",
+        "How do asylum seekers experience the process?",
+        "What reforms have advocates proposed?"
+      ],
+      "tags": ["law", "human-rights", "americas", "refugees"]
+    },
+    {
+      "name": "Border Culture: Art, Music, and Identity",
+      "topics": [
+        "What distinctive culture has developed in the borderlands?",
+        "How do artists and musicians address border themes?",
+        "What literature captures the border experience?",
+        "How does border identity transcend nationality?",
+        "What foodways and traditions are unique to the border?",
+        "How has border culture influenced American and Mexican culture?",
+        "What does the border mean to those who live there?"
+      ],
+      "tags": ["arts", "identity", "americas", "cultural-heritage"]
+    },
+    {
+      "name": "The Future of the Border",
+      "topics": [
+        "What are current debates about border policy?",
+        "How might climate change affect border regions?",
+        "What economic integration might develop?",
+        "How could technology change border enforcement?",
+        "What would a more open border require?",
+        "How do demographics on both sides affect the future?",
+        "What might the border look like in fifty years?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    }
+  ]
+}

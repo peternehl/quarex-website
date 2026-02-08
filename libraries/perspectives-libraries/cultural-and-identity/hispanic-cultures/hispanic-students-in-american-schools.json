@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic Students in American Schools: K-12 Education",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-education",
+    "k-12",
+    "achievement-gap",
+    "bilingual-education",
+    "school-segregation"
+  ],
+  "chapters": [
+    {
+      "name": "The Largest Minority in Schools",
+      "topics": [
+        "How many Hispanic students are in American public schools?",
+        "What share of the student population is Hispanic?",
+        "How has Hispanic enrollment grown over time?",
+        "Where are Hispanic students concentrated geographically?",
+        "What demographic changes are occurring in school populations?",
+        "What is the projected future of Hispanic school enrollment?"
+      ],
+      "tags": ["education", "demographics", "americas", "k-12"]
+    },
+    {
+      "name": "Early Childhood Education",
+      "topics": [
+        "How many Hispanic children attend preschool?",
+        "What access gaps exist for Hispanic children in early education?",
+        "Why is early childhood education important for Hispanic outcomes?",
+        "What Head Start and Pre-K programs serve Hispanic children?",
+        "How do language issues affect early childhood programs?",
+        "What role do childcare arrangements play for Hispanic families?"
+      ],
+      "tags": ["education", "inequality", "americas", "early-childhood"]
+    },
+    {
+      "name": "English Language Learners",
+      "topics": [
+        "How many Hispanic students are classified as English Language Learners?",
+        "What ELL programs exist in American schools?",
+        "How effective are different approaches to English instruction?",
+        "What happens when ELL programs are inadequate?",
+        "How long do students remain in ELL classification?",
+        "What reclassification challenges exist?"
+      ],
+      "tags": ["education", "language", "americas", "bilingual-education"]
+    },
+    {
+      "name": "Bilingual Education Debates",
+      "topics": [
+        "What is bilingual education and how does it work?",
+        "What are dual-language immersion programs?",
+        "What political battles have been fought over bilingual education?",
+        "How did states restrict bilingual education?",
+        "What does research say about bilingual education effectiveness?",
+        "What is the current state of bilingual programs?"
+      ],
+      "tags": ["education", "language", "americas", "policy"]
+    },
+    {
+      "name": "School Segregation",
+      "topics": [
+        "How segregated are Hispanic students in American schools?",
+        "What causes Hispanic school segregation?",
+        "How do Hispanic and Black segregation patterns compare?",
+        "What are the effects of attending majority-minority schools?",
+        "What desegregation efforts have addressed Hispanic isolation?",
+        "What is the current trajectory of Hispanic school segregation?"
+      ],
+      "tags": ["education", "inequality", "americas", "segregation"]
+    },
+    {
+      "name": "School Funding Inequities",
+      "topics": [
+        "How are schools serving Hispanic students funded?",
+        "What per-pupil spending gaps affect Hispanic students?",
+        "How does local property tax funding create inequities?",
+        "What state funding formulas affect Hispanic schools?",
+        "How do school facilities differ in Hispanic neighborhoods?",
+        "What teacher quality gaps exist?"
+      ],
+      "tags": ["education", "inequality", "americas", "school-finance"]
+    },
+    {
+      "name": "The Achievement Gap",
+      "topics": [
+        "What is the Hispanic-white achievement gap?",
+        "How do Hispanic students perform on standardized tests?",
+        "What factors contribute to the achievement gap?",
+        "Has the achievement gap narrowed over time?",
+        "What successful interventions address the achievement gap?",
+        "How should achievement gaps be measured and understood?"
+      ],
+      "tags": ["education", "inequality", "americas", "academic-achievement"]
+    },
+    {
+      "name": "Hispanic Teachers and School Staff",
+      "topics": [
+        "How many Hispanic teachers are in American schools?",
+        "Why does teacher diversity matter for Hispanic students?",
+        "What barriers exist to Hispanic teacher recruitment?",
+        "How are Hispanic administrators represented?",
+        "What role do Hispanic counselors and staff play?",
+        "What programs increase Hispanic teacher pipelines?"
+      ],
+      "tags": ["education", "representation", "americas", "teachers"]
+    },
+    {
+      "name": "Discipline and the School-to-Prison Pipeline",
+      "topics": [
+        "How are Hispanic students disciplined in schools?",
+        "What suspension and expulsion disparities affect Hispanics?",
+        "What is the school-to-prison pipeline?",
+        "How does immigration enforcement affect school discipline?",
+        "What restorative justice alternatives exist?",
+        "What reforms address discipline disparities?"
+      ],
+      "tags": ["education", "justice", "americas", "school-discipline"]
+    },
+    {
+      "name": "Parent and Family Engagement",
+      "topics": [
+        "How do Hispanic families engage with schools?",
+        "What barriers prevent Hispanic parent involvement?",
+        "How do language and cultural differences affect engagement?",
+        "What successful family engagement programs exist?",
+        "How do schools communicate with non-English-speaking parents?",
+        "What role do parent organizations play in Hispanic communities?"
+      ],
+      "tags": ["education", "family", "americas", "parent-engagement"]
+    },
+    {
+      "name": "High School Graduation and Dropout",
+      "topics": [
+        "What is the Hispanic high school graduation rate?",
+        "How has Hispanic graduation improved over time?",
+        "Why do Hispanic students drop out?",
+        "What programs successfully reduce Hispanic dropout?",
+        "How do immigration status and family needs affect completion?",
+        "What are the consequences of not finishing high school?"
+      ],
+      "tags": ["education", "inequality", "americas", "graduation"]
+    },
+    {
+      "name": "Preparing for College and Career",
+      "topics": [
+        "How prepared are Hispanic high school graduates for college?",
+        "What access do Hispanic students have to college prep courses?",
+        "How do AP and IB course-taking rates differ?",
+        "What career and technical education serves Hispanic students?",
+        "What college counseling do Hispanic students receive?",
+        "What is the pathway from K-12 to higher education for Hispanics?"
+      ],
+      "tags": ["education", "inequality", "americas", "college-prep"]
+    }
+  ]
+}

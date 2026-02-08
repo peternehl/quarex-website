@@ -1,0 +1,169 @@
+{
+  "name": "The Bracero Generation: Mexican Labor and the American Economy",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "bracero-program",
+    "mexican-labor",
+    "guest-workers",
+    "agricultural-labor",
+    "labor-migration"
+  ],
+  "chapters": [
+    {
+      "name": "Origins: War Creates a Labor Shortage",
+      "topics": [
+        "How did World War II create labor shortages in American agriculture?",
+        "What negotiations led to the bracero agreement between the U.S. and Mexico?",
+        "What did each country hope to gain from the program?",
+        "What protections did the original agreement promise Mexican workers?",
+        "How did growers lobby for access to Mexican labor?",
+        "What alternatives to foreign labor were considered?",
+        "How did the program begin in 1942?"
+      ],
+      "tags": ["history", "labor", "americas", "world-wars"]
+    },
+    {
+      "name": "The Journey: Leaving Home for El Norte",
+      "topics": [
+        "Who became braceros and why did they leave Mexico?",
+        "What recruitment centers did workers pass through?",
+        "What medical examinations and processing did workers endure?",
+        "What did workers know about conditions before arriving?",
+        "How did families cope with separation?",
+        "What did workers hope to accomplish through the program?",
+        "How did the journey north shape workers' experiences?"
+      ],
+      "tags": ["society", "migration", "americas", "labor"]
+    },
+    {
+      "name": "In the Fields: Work and Living Conditions",
+      "topics": [
+        "What crops did braceros harvest across the United States?",
+        "What were housing conditions like in labor camps?",
+        "How many hours did workers labor and under what conditions?",
+        "What wages did braceros receive compared to domestic workers?",
+        "How did workers cope with isolation and loneliness?",
+        "What recreational activities and communities formed?",
+        "How did conditions vary across regions and employers?"
+      ],
+      "tags": ["economics", "labor", "americas", "agriculture"]
+    },
+    {
+      "name": "Exploitation: Broken Promises and Stolen Wages",
+      "topics": [
+        "How were the program's worker protections violated?",
+        "What wage theft schemes did employers use?",
+        "How were workers overcharged for food and housing?",
+        "What happened to the 10% savings deducted from wages?",
+        "How did workers face retaliation for complaints?",
+        "What role did corrupt officials play in exploitation?",
+        "How have braceros sought compensation for stolen wages?"
+      ],
+      "tags": ["economics", "justice", "americas", "labor"]
+    },
+    {
+      "name": "Health and Safety: The Physical Toll",
+      "topics": [
+        "What occupational hazards did braceros face?",
+        "How did pesticide exposure affect worker health?",
+        "What accidents occurred in fields and processing facilities?",
+        "How accessible was medical care for injured workers?",
+        "What happened to workers who became sick or injured?",
+        "How did harsh conditions affect workers' long-term health?",
+        "What compensation did injured workers receive?"
+      ],
+      "tags": ["health", "labor", "americas", "agriculture"]
+    },
+    {
+      "name": "Resistance: How Workers Fought Back",
+      "topics": [
+        "How did braceros organize despite restrictions?",
+        "What work stoppages and protests occurred?",
+        "How did workers use the threat of return to Mexico as leverage?",
+        "What role did Mexican consulates play in defending workers?",
+        "How did domestic labor unions relate to braceros?",
+        "What legal challenges did workers pursue?",
+        "How effective were resistance strategies?"
+      ],
+      "tags": ["society", "activism", "americas", "labor"]
+    },
+    {
+      "name": "Families Divided: The Social Cost",
+      "topics": [
+        "How did long separations affect bracero families?",
+        "What role did remittances play in Mexican communities?",
+        "How did children grow up with absent fathers?",
+        "What happened to marriages under strain of separation?",
+        "How did communities change when men left for the north?",
+        "What did return visits mean for family relationships?",
+        "How do descendants remember the family impact?"
+      ],
+      "tags": ["society", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "Operation Wetback: Deportation Alongside the Program",
+      "topics": [
+        "What was Operation Wetback and when did it occur?",
+        "How did mass deportation operate alongside the guest worker program?",
+        "How many people were deported during the operation?",
+        "What abuses occurred during deportation raids?",
+        "How did the operation affect Mexican American communities?",
+        "Why did the government pursue deportation while also recruiting workers?",
+        "What does Operation Wetback reveal about immigration policy?"
+      ],
+      "tags": ["politics", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "The Program Ends: Termination and Aftermath",
+      "topics": [
+        "Why did the bracero program end in 1964?",
+        "What role did labor unions and civil rights groups play in termination?",
+        "How did Edward R. Murrow's 'Harvest of Shame' affect public opinion?",
+        "What happened to workers when the program ended?",
+        "How did growers respond to losing legal access to bracero labor?",
+        "What immigration patterns followed program termination?",
+        "What replaced the bracero program?"
+      ],
+      "tags": ["politics", "labor", "americas", "immigration"]
+    },
+    {
+      "name": "Legacy: What Braceros Built",
+      "topics": [
+        "What infrastructure did bracero labor help build?",
+        "How did the program shape American agriculture?",
+        "What communities did former braceros establish in the U.S.?",
+        "How did the bracero experience affect Mexican development?",
+        "What family networks laid groundwork for later migration?",
+        "How do bracero descendants maintain this history?",
+        "What economic contributions are often overlooked?"
+      ],
+      "tags": ["history", "labor", "americas", "immigration"]
+    },
+    {
+      "name": "Memory and Justice: Honoring the Braceros",
+      "topics": [
+        "How have braceros sought recognition and compensation?",
+        "What legal cases have pursued stolen wages?",
+        "How have oral history projects preserved bracero stories?",
+        "What monuments and museums commemorate the program?",
+        "How do Mexican and American textbooks address this history?",
+        "What has been the response to demands for justice?",
+        "Why does this history matter for current debates?"
+      ],
+      "tags": ["history", "justice", "americas", "civil-rights"]
+    },
+    {
+      "name": "Echoes: Guest Worker Debates Today",
+      "topics": [
+        "How do current guest worker programs compare to the bracero program?",
+        "What protections exist for today's agricultural workers?",
+        "How do H-2A and H-2B visa programs operate?",
+        "What abuses persist in contemporary guest worker programs?",
+        "What reforms do advocates propose?",
+        "How does bracero history inform current policy debates?",
+        "What lessons should shape future labor migration policy?"
+      ],
+      "tags": ["politics", "labor", "americas", "immigration"]
+    }
+  ]
+}

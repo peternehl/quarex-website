@@ -1,0 +1,159 @@
+{
+  "name": "Spanish in America: Language Maintenance, Loss, and Spanglish",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "spanish-language",
+    "bilingualism",
+    "spanglish",
+    "language-shift",
+    "heritage-speakers"
+  ],
+  "chapters": [
+    {
+      "name": "America's Second Language",
+      "topics": [
+        "How many Spanish speakers are there in the United States?",
+        "What makes the U.S. one of the largest Spanish-speaking countries?",
+        "How has Spanish in America grown over time?",
+        "What regional patterns of Spanish use exist?",
+        "How does Spanish in America compare to other heritage languages?",
+        "What is the future of Spanish in America?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "The Pattern of Language Shift",
+      "topics": [
+        "What is the typical pattern of language shift across immigrant generations?",
+        "Why do most heritage languages disappear by the third generation?",
+        "Is Spanish following this pattern or resisting it?",
+        "What factors accelerate or slow language shift?",
+        "How does continuous immigration affect language maintenance?",
+        "What research shows about Spanish language transmission?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "Regional Spanish Varieties",
+      "topics": [
+        "What different varieties of Spanish exist in America?",
+        "How does Mexican American Spanish differ from Caribbean varieties?",
+        "What is distinctive about New Mexican Spanish?",
+        "How do Central and South American Spanishes differ?",
+        "What happens when multiple Spanish varieties mix?",
+        "Are American Spanish varieties developing distinct features?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "Spanglish: Code-Switching and Mixing",
+      "topics": [
+        "What is Spanglish and how does it work?",
+        "Is Spanglish a language, a dialect, or just mixing?",
+        "How do linguists view code-switching and language mixing?",
+        "What attitudes do Spanish speakers have toward Spanglish?",
+        "How has Spanglish appeared in literature and media?",
+        "Is Spanglish the future of Hispanic American language?",
+        "What different forms does Spanglish take in different communities?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "Heritage Speakers",
+      "topics": [
+        "What is a heritage speaker of Spanish?",
+        "What language abilities do heritage speakers typically have?",
+        "How do heritage speakers differ from native and second-language speakers?",
+        "What challenges do heritage speakers face?",
+        "How do heritage speakers relate to their Spanish identity?",
+        "What educational programs serve heritage speakers?"
+      ],
+      "tags": ["education", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "Bilingual Education Battles",
+      "topics": [
+        "What is the history of bilingual education in America?",
+        "What did Proposition 227 do in California and why?",
+        "How have bilingual education policies changed over time?",
+        "What research shows about bilingual education effectiveness?",
+        "How do dual-language immersion programs work?",
+        "What is the current state of bilingual education?",
+        "How do English-only movements affect Spanish speakers?"
+      ],
+      "tags": ["education", "governance", "americas", "linguistics"]
+    },
+    {
+      "name": "Spanish in the Workplace",
+      "topics": [
+        "Where is Spanish used in American workplaces?",
+        "What industries require or value Spanish fluency?",
+        "How do English-only workplace policies affect Spanish speakers?",
+        "What legal protections exist for Spanish use at work?",
+        "How does bilingualism affect employment and earnings?",
+        "What tensions exist around workplace language use?"
+      ],
+      "tags": ["economics", "workplace-dynamics", "americas", "labor"]
+    },
+    {
+      "name": "Spanish Media in America",
+      "topics": [
+        "How big is the Spanish-language media market?",
+        "What role do Univision and Telemundo play?",
+        "How has streaming affected Spanish-language media?",
+        "What Spanish-language radio stations exist?",
+        "How do English-dominant Hispanics consume Spanish media?",
+        "What is the future of Spanish-language media in America?"
+      ],
+      "tags": ["media", "identity", "americas", "journalism"]
+    },
+    {
+      "name": "Language and Identity",
+      "topics": [
+        "How central is Spanish to Hispanic identity?",
+        "Can you be Hispanic without speaking Spanish?",
+        "What 'language shaming' occurs within Hispanic communities?",
+        "How do non-Spanish-speaking Hispanics navigate identity?",
+        "What role does Spanish play in authenticity claims?",
+        "How does language relate to other identity markers?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "Spanish and Politics",
+      "topics": [
+        "How do politicians use Spanish in campaigns?",
+        "What role does Spanish media play in political communication?",
+        "How have Spanish and immigration become linked politically?",
+        "What official English movements have targeted Spanish?",
+        "How do bilingual ballots and voting materials work?",
+        "What political debates exist around language policy?"
+      ],
+      "tags": ["politics", "governance", "americas", "us-politics"]
+    },
+    {
+      "name": "Technology and Spanish",
+      "topics": [
+        "How are apps and social media used in Spanish?",
+        "What role does technology play in language maintenance?",
+        "How do Hispanic Americans consume content in different languages online?",
+        "What language do young Hispanics use on social media?",
+        "How might AI translation affect bilingualism?",
+        "What digital resources exist for Spanish learners and maintainers?"
+      ],
+      "tags": ["technology", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "The Future of Spanish in America",
+      "topics": [
+        "Will Spanish continue to thrive in America?",
+        "What demographic trends affect Spanish language use?",
+        "How will intermarriage affect Spanish transmission?",
+        "What role will immigration play in Spanish maintenance?",
+        "Could Spanish become co-official or widely recognized?",
+        "What vision of multilingual America is emerging?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    }
+  ]
+}

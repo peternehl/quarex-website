@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic Health in America: Paradoxes, Disparities, and Care",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-health",
+    "health-disparities",
+    "hispanic-paradox",
+    "healthcare-access",
+    "chronic-disease"
+  ],
+  "chapters": [
+    {
+      "name": "The Hispanic Health Paradox",
+      "topics": [
+        "What is the Hispanic health paradox?",
+        "Why do Hispanics have better health outcomes than socioeconomics predict?",
+        "What protective factors contribute to the paradox?",
+        "How does the healthy immigrant effect explain some outcomes?",
+        "What health advantages do Hispanics have?",
+        "Is the health paradox weakening over generations?"
+      ],
+      "tags": ["health", "demographics", "americas", "epidemiology"]
+    },
+    {
+      "name": "Health Insurance Coverage",
+      "topics": [
+        "What is the Hispanic uninsured rate?",
+        "Why are Hispanics more likely to be uninsured?",
+        "How does immigration status affect insurance access?",
+        "What impact did the ACA have on Hispanic coverage?",
+        "What barriers remain to Hispanic health insurance?",
+        "How do coverage gaps affect Hispanic health?"
+      ],
+      "tags": ["health", "inequality", "americas", "insurance"]
+    },
+    {
+      "name": "Access to Healthcare",
+      "topics": [
+        "What barriers do Hispanics face in accessing healthcare?",
+        "How do language barriers affect care?",
+        "What role does immigration status play in healthcare access?",
+        "How does lack of transportation affect healthcare?",
+        "What provider shortages exist in Hispanic communities?",
+        "How do community health centers serve Hispanics?"
+      ],
+      "tags": ["health", "inequality", "americas", "healthcare-access"]
+    },
+    {
+      "name": "Diabetes and Hispanic Communities",
+      "topics": [
+        "What is the diabetes rate among Hispanics?",
+        "Why are Hispanics at higher risk for diabetes?",
+        "How does diabetes affect different Hispanic subgroups?",
+        "What diabetes complications are common in Hispanic populations?",
+        "What diabetes prevention and management programs work?",
+        "How does diabetes affect Hispanic quality of life?"
+      ],
+      "tags": ["health", "chronic-disease", "americas", "diabetes"]
+    },
+    {
+      "name": "Heart Disease and Cardiovascular Health",
+      "topics": [
+        "What are cardiovascular disease rates among Hispanics?",
+        "How do heart disease risk factors differ for Hispanics?",
+        "What role does diet and lifestyle play?",
+        "How does acculturation affect cardiovascular health?",
+        "What disparities exist in cardiac care for Hispanics?",
+        "What prevention strategies target Hispanic communities?"
+      ],
+      "tags": ["health", "chronic-disease", "americas", "cardiovascular"]
+    },
+    {
+      "name": "Cancer Disparities",
+      "topics": [
+        "What cancers most affect Hispanic populations?",
+        "Why do Hispanics have lower cancer screening rates?",
+        "What cervical cancer disparities exist?",
+        "How does liver cancer relate to hepatitis in Hispanic communities?",
+        "What barriers affect Hispanic cancer treatment?",
+        "What programs improve Hispanic cancer outcomes?"
+      ],
+      "tags": ["health", "chronic-disease", "americas", "cancer"]
+    },
+    {
+      "name": "Maternal and Infant Health",
+      "topics": [
+        "What are maternal mortality rates for Hispanic women?",
+        "How do pregnancy outcomes differ for Hispanic mothers?",
+        "What is the infant mortality rate for Hispanic babies?",
+        "How does immigration status affect prenatal care?",
+        "What role do midwives and traditional practices play?",
+        "What disparities exist in Hispanic maternal care?"
+      ],
+      "tags": ["health", "gender", "americas", "maternal-health"]
+    },
+    {
+      "name": "Occupational Health Hazards",
+      "topics": [
+        "What workplace health hazards do Hispanic workers face?",
+        "Why are workplace injury rates higher for Hispanic workers?",
+        "What occupational diseases affect Hispanic laborers?",
+        "How does agricultural work affect Hispanic health?",
+        "What barriers exist to workers' compensation?",
+        "How can workplace safety improve for Hispanic workers?"
+      ],
+      "tags": ["health", "labor", "americas", "occupational-health"]
+    },
+    {
+      "name": "Hispanic Healthcare Providers",
+      "topics": [
+        "How many Hispanic doctors, nurses, and providers exist?",
+        "Why does provider diversity matter for Hispanic patients?",
+        "What language concordance affects care quality?",
+        "What barriers exist to Hispanic healthcare careers?",
+        "What programs increase Hispanic health professionals?",
+        "How do Hispanic providers serve their communities?"
+      ],
+      "tags": ["health", "representation", "americas", "workforce"]
+    },
+    {
+      "name": "Cultural Competence in Healthcare",
+      "topics": [
+        "What is cultural competence and why does it matter?",
+        "How do Hispanic cultural beliefs affect healthcare interactions?",
+        "What role does familismo play in health decisions?",
+        "How should providers address language barriers?",
+        "What training helps providers serve Hispanic patients?",
+        "How can healthcare systems become more culturally responsive?"
+      ],
+      "tags": ["health", "culture", "americas", "healthcare-quality"]
+    },
+    {
+      "name": "Traditional and Alternative Medicine",
+      "topics": [
+        "What traditional medicine practices do Hispanics use?",
+        "What role do curanderos and folk healers play?",
+        "How do Hispanics combine traditional and Western medicine?",
+        "What herbal remedies are common in Hispanic communities?",
+        "How should providers engage with traditional practices?",
+        "What research exists on Hispanic traditional medicine?"
+      ],
+      "tags": ["health", "tradition", "americas", "alternative-medicine"]
+    },
+    {
+      "name": "The Future of Hispanic Health",
+      "topics": [
+        "What health trends are emerging in Hispanic communities?",
+        "How will demographics change Hispanic health needs?",
+        "What policies would improve Hispanic health outcomes?",
+        "How might technology improve Hispanic healthcare access?",
+        "What research priorities exist for Hispanic health?",
+        "What is needed to achieve Hispanic health equity?"
+      ],
+      "tags": ["health", "demographics", "americas", "future-trends"]
+    }
+  ]
+}

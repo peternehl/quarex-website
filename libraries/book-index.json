@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-04",
-  "count": 664,
+  "generated": "2026-02-08",
+  "count": 745,
   "books": [
     {
       "name": "A Brief History of War",
@@ -50,6 +50,13 @@
       "library": "Philosophy",
       "shelf": "World Philosophies",
       "chapters": 16
+    },
+    {
+      "name": "Afro-Latino Identity: Race Within the Hispanic Experience",
+      "path": "pe/cultural-and-identity/hispanic-cultures/afro-latino-identity",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Aging, Loss & Personal Growth",
@@ -150,6 +157,13 @@
       "chapters": 1
     },
     {
+      "name": "Åland Islands",
+      "path": "g/territories-and-dependencies/autonomous-regions/aland-islands",
+      "library": "Territories And Dependencies",
+      "shelf": "Autonomous Regions",
+      "chapters": 4
+    },
+    {
       "name": "Alaska",
       "path": "c/us-governors-2026/2026-gubernatorial-races/alaska",
       "library": "Us Governors 2026",
@@ -225,6 +239,13 @@
       "library": "Antarctica",
       "shelf": "Regions",
       "chapters": 4
+    },
+    {
+      "name": "Anti-Hispanic Discrimination: Prejudice, Stereotypes, and Hate",
+      "path": "pe/cultural-and-identity/hispanic-cultures/anti-hispanic-discrimination",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Antigua and Barbuda",
@@ -395,6 +416,13 @@
       "chapters": 4
     },
     {
+      "name": "Banana Republics: United Fruit and the Intervention Era",
+      "path": "pe/historical-narratives/us-latin-america-relations/banana-republics-united-fruit-and-the-intervention-era",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
       "name": "Bangladesh",
       "path": "g/asia/countries/bangladesh",
       "library": "Asia",
@@ -407,6 +435,13 @@
       "library": "North America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Baseball's Latino Revolution",
+      "path": "pe/cultural-and-identity/hispanic-cultures/baseballs-latino-revolution",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Being a Responsible Sharer and Helper",
@@ -519,6 +554,13 @@
       "library": "South America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Boricua: Puerto Rico and the Mainland",
+      "path": "pe/historical-narratives/us-latin-america-relations/boricua-puerto-rico-and-the-mainland",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
     },
     {
       "name": "Bosnia and Herzegovina",
@@ -647,6 +689,20 @@
       "chapters": 4
     },
     {
+      "name": "Central American Wars: Reagan, the Contras, and the Refugees",
+      "path": "pe/historical-narratives/us-latin-america-relations/central-american-wars-reagan-the-contras-and-the-refugees",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "Central Americans in America: Salvadorans, Guatemalans, Hondurans, and Nicaraguans",
+      "path": "pe/cultural-and-identity/hispanic-cultures/central-americans-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Chad",
       "path": "g/africa/countries/chad",
       "library": "Africa",
@@ -696,6 +752,13 @@
       "chapters": 4
     },
     {
+      "name": "Chile 1973: Allende, Pinochet, and American Complicity",
+      "path": "pe/historical-narratives/us-latin-america-relations/chile-1973-allende-pinochet-and-american-complicity",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
       "name": "China",
       "path": "g/asia/countries/china",
       "library": "Asia",
@@ -729,6 +792,13 @@
       "library": "The Sciences",
       "shelf": "Physical Sciences",
       "chapters": 10
+    },
+    {
+      "name": "Cold War Latin America: Coups, Containment, and the CIA",
+      "path": "pe/historical-narratives/us-latin-america-relations/cold-war-latin-america-coups-containment-and-the-cia",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
     },
     {
       "name": "Colombia",
@@ -836,6 +906,13 @@
       "chapters": 4
     },
     {
+      "name": "Côte d'Ivoire",
+      "path": "g/africa/countries/cte-divoire",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
       "name": "Creative Writing: Drama/Playwriting",
       "path": "k/the-arts/literary-arts/creative-writing-dramaplaywriting",
       "library": "The Arts",
@@ -878,6 +955,20 @@
       "chapters": 4
     },
     {
+      "name": "Cuban Americans: Exile, Success, and Political Complexity",
+      "path": "pe/cultural-and-identity/hispanic-cultures/cuban-americans-exile-success-complexity",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Cuban Exiles: Mariel, the Rafters, and the Diaspora",
+      "path": "pe/historical-narratives/us-latin-america-relations/cuban-exiles-mariel-the-rafters-and-the-diaspora",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
       "name": "Cyprus",
       "path": "g/asia/countries/cyprus",
       "library": "Asia",
@@ -899,11 +990,11 @@
       "chapters": 4
     },
     {
-      "name": "Côte d'Ivoire",
-      "path": "g/africa/countries/cte-divoire",
-      "library": "Africa",
-      "shelf": "Countries",
-      "chapters": 4
+      "name": "DACA and the Dreamers: A Generation in Limbo",
+      "path": "pe/cultural-and-identity/hispanic-cultures/daca-and-the-dreamers",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Dance History, Theory, and Choreography",
@@ -1030,6 +1121,13 @@
       "library": "North America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Dominican Americans: From Quisqueya to Washington Heights",
+      "path": "pe/cultural-and-identity/hispanic-cultures/dominican-americans-quisqueya-to-washington-heights",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Dominican Republic",
@@ -1221,6 +1319,13 @@
       "chapters": 4
     },
     {
+      "name": "First-Generation College Students: The Hispanic Experience",
+      "path": "pe/cultural-and-identity/hispanic-cultures/first-generation-college-students",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Florida",
       "path": "c/us-governors-2026/2026-gubernatorial-races/florida",
       "library": "Us Governors 2026",
@@ -1233,6 +1338,13 @@
       "library": "Us House 2026 Complete",
       "shelf": "2026 States",
       "chapters": 28
+    },
+    {
+      "name": "Florida",
+      "path": "c/us-senate-2026-complete/special-elections/florida",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Special Elections",
+      "chapters": 3
     },
     {
       "name": "Florida",
@@ -1571,6 +1683,230 @@
       "chapters": 7
     },
     {
+      "name": "Hispanic American Literary Giants: Writers Who Shaped American Letters",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-american-literary-giants",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Americans and COVID-19: Disproportionate Impact and Response",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-covid-19",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Americans and Criminal Justice: Policing, Courts, and Incarceration",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-criminal-justice",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Americans and the Two Parties: Competition for the Latino Vote",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-the-two-parties",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Americans in Higher Education: Access, Success, and Barriers",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-americans-in-higher-education",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Americans in Space and Aviation",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-americans-in-space-and-aviation",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Architecture in America: Missions to Modern Design",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-architecture-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Athletes in American Sports",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-athletes-in-american-sports",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Business Visionaries",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-business-visionaries",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Chefs and the Transformation of American Cuisine",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-chefs-and-american-cuisine",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Contributions to American Culture: An Overview",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-contributions-to-american-culture",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Dance in America: From Barrio Studios to Broadway",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-dance-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Educators and Academic Leaders",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-educators-and-academic-leaders",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Entrepreneurs: Building Businesses, Building Wealth",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-entrepreneurs",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Florida: The Cuban Foundation and Beyond",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-florida",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Foodways in America: Regional Cuisines, Fusion, and Identity",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-foodways-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Health in America: Paradoxes, Disparities, and Care",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-health-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Influence on American Fashion",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-influence-on-american-fashion",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Journalists and Media Trailblazers",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-journalists-and-media-trailblazers",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Media: Building a Spanish-Language Public Sphere",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-media",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Military Heroes",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-military-heroes",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Music in America: From Mariachi to Reggaeton to Latin Pop",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-music-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic New York: A Century of Diasporas",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-new-york",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Pioneers in American Medicine",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-pioneers-in-medicine",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Political Leaders: From Local Office to National Stage",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-political-leaders",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Religious Life: Faith, Folk Traditions, and Community",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-religious-life",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Scientists and Inventors in America",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-scientists-and-inventors",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Students in American Schools: K-12 Education",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-students-in-american-schools",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Theater and Performance: From Community Stages to Broadway",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-theater-and-performance",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Visual Artists in America: Painters, Sculptors, and Muralists",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-visual-artists-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanic Workers in America: Labor, Industry, and Economic Contribution",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-workers-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Hispanics in Hollywood: Film and Television Pioneers",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanics-in-hollywood",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "History of Literary Criticism and Theory",
       "path": "k/the-arts/literary-arts/history-of-literary-criticism-and-theory",
       "library": "The Arts",
@@ -1730,6 +2066,13 @@
       "library": "The Arts",
       "shelf": "Visual Arts",
       "chapters": 10
+    },
+    {
+      "name": "Immigration Battles: From Amnesty to DACA",
+      "path": "pe/historical-narratives/us-latin-america-relations/immigration-battles-from-amnesty-to-daca",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
     },
     {
       "name": "Impeachments, Investigations, and Norms",
@@ -2075,6 +2418,20 @@
       "chapters": 4
     },
     {
+      "name": "Latin American Independence and the Monroe Doctrine",
+      "path": "pe/historical-narratives/us-latin-america-relations/latin-american-independence-and-the-monroe-doctrine",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "Latino, Latina, Latinx: The Evolving Politics of Self-Identification",
+      "path": "pe/cultural-and-identity/hispanic-cultures/latino-latina-latinx-evolving-identity",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Latvia",
       "path": "g/europe/countries/latvia",
       "library": "Europe",
@@ -2397,6 +2754,20 @@
       "chapters": 4
     },
     {
+      "name": "Mental Health in Hispanic Communities: Stigma, Access, and Healing",
+      "path": "pe/cultural-and-identity/hispanic-cultures/mental-health-in-hispanic-communities",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Mexican Americans: The Largest and Most Diverse Hispanic Community",
+      "path": "pe/cultural-and-identity/hispanic-cultures/mexican-americans-largest-hispanic-community",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Mexico",
       "path": "g/north-america/countries/mexico",
       "library": "North America",
@@ -2516,6 +2887,13 @@
       "chapters": 1
     },
     {
+      "name": "Mixed-Status Families: Citizen Children, Undocumented Parents",
+      "path": "pe/cultural-and-identity/hispanic-cultures/mixed-status-families",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Moldova",
       "path": "g/europe/countries/moldova",
       "library": "Europe",
@@ -2612,6 +2990,13 @@
       "library": "Asia",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "NAFTA and Its Discontents: Free Trade and Migration",
+      "path": "pe/historical-narratives/us-latin-america-relations/nafta-and-its-discontents-free-trade-and-migration",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
     },
     {
       "name": "Namibia",
@@ -2965,6 +3350,13 @@
     },
     {
       "name": "Ohio",
+      "path": "c/us-senate-2026-complete/special-elections/ohio",
+      "library": "Us Senate 2026 Complete",
+      "shelf": "Special Elections",
+      "chapters": 4
+    },
+    {
+      "name": "Ohio",
       "path": "g/us-geography/states-and-territories/ohio",
       "library": "Us Geography",
       "shelf": "States And Territories",
@@ -3018,6 +3410,13 @@
       "library": "The Arts",
       "shelf": "Performing Arts",
       "chapters": 10
+    },
+    {
+      "name": "Operation Condor: State Terror Across the Southern Cone",
+      "path": "pe/historical-narratives/us-latin-america-relations/operation-condor-state-terror-across-the-southern-cone",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
     },
     {
       "name": "Operational Purpose & Mission",
@@ -3251,6 +3650,13 @@
       "chapters": 4
     },
     {
+      "name": "Poverty, Inequality, and the Hispanic Middle Class",
+      "path": "pe/cultural-and-identity/hispanic-cultures/poverty-inequality-and-the-hispanic-middle-class",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Power Generation Systems",
       "path": "i/civil-infrastructures/electrical-power-systems/power-generation-systems",
       "library": "Civil Infrastructures",
@@ -3304,6 +3710,13 @@
       "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/probability-statistics-and-uncertainty",
       "library": "Ai Fundamentals",
       "shelf": "Foundations Of Artificial Intelligence",
+      "chapters": 12
+    },
+    {
+      "name": "Puerto Ricans in America: American Citizens, Caribbean Identity",
+      "path": "pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
       "chapters": 12
     },
     {
@@ -3506,6 +3919,13 @@
       "name": "San Marino",
       "path": "g/europe/countries/san-marino",
       "library": "Europe",
+      "shelf": "Countries",
+      "chapters": 4
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "path": "g/africa/countries/so-tom-and-prncipe",
+      "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
     },
@@ -3741,6 +4161,13 @@
       "chapters": 16
     },
     {
+      "name": "South Americans in America: Colombians, Venezuelans, Peruvians, Ecuadorians, and Argentines",
+      "path": "pe/cultural-and-identity/hispanic-cultures/south-americans-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "South Carolina",
       "path": "c/us-governors-2026/2026-gubernatorial-races/south-carolina",
       "library": "Us Governors 2026",
@@ -3818,6 +4245,27 @@
       "chapters": 4
     },
     {
+      "name": "Spanish in America: Language Maintenance, Loss, and Spanglish",
+      "path": "pe/cultural-and-identity/hispanic-cultures/spanish-in-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Spanish Roots: The Hispanic Southwest Before the U.S.",
+      "path": "pe/historical-narratives/us-latin-america-relations/spanish-roots-the-hispanic-southwest-before-the-us",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "Spanish Words in American English",
+      "path": "pe/cultural-and-identity/hispanic-cultures/spanish-words-in-american-english",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Sri Lanka",
       "path": "g/asia/countries/sri-lanka",
       "library": "Asia",
@@ -3884,13 +4332,6 @@
       "name": "Syria",
       "path": "g/asia/countries/syria",
       "library": "Asia",
-      "shelf": "Countries",
-      "chapters": 4
-    },
-    {
-      "name": "São Tomé and Príncipe",
-      "path": "g/africa/countries/so-tom-and-prncipe",
-      "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
     },
@@ -4021,6 +4462,13 @@
       "chapters": 18
     },
     {
+      "name": "The Asylum System: Refugees at the Border",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-asylum-system-refugees-at-the-border",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "The Atlantic Slave Trade",
       "path": "pe/cultural-and-identity/black-studies/the-atlantic-slave-trade",
       "library": "Cultural And Identity",
@@ -4042,11 +4490,46 @@
       "chapters": 10
     },
     {
+      "name": "The Border: A History of the Line",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-border-a-history-of-the-line",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "The Bracero Generation: Mexican Labor and the American Economy",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-bracero-generation-mexican-labor-and-the-american-economy",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "The Cuban Revolution: From Batista to Bay of Pigs",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-cuban-revolution-from-batista-to-bay-of-pigs",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "The Drug War Era: Narcos, Policy, and Consequences",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-drug-war-era-narcos-policy-and-consequences",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
       "name": "The Fourth Amendment and You!",
       "path": "pe/contested-issues/criminal-justice-debates/the-fourth-amendment-and-you",
       "library": "Contested Issues",
       "shelf": "Criminal Justice Debates",
       "chapters": 8
+    },
+    {
+      "name": "The Future of Hispanic America: Demographics, Power, and Promise",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-future-of-hispanic-america",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "The Geopolitics of War in the 21st Century",
@@ -4056,10 +4539,66 @@
       "chapters": 12
     },
     {
+      "name": "The Good Neighbor Policy: FDR's Latin American Reset",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-good-neighbor-policy-fdrs-latin-american-reset",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "The Hispanic American Calendar: Celebrations and Traditions",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-hispanic-american-calendar",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "The Hispanic Southwest: Tejanos, Nuevomexicanos, and Californios",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-hispanic-southwest",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "The Hispanic Vote: Power, Patterns, and the Path Forward",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-hispanic-vote",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "The History of AI",
       "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/the-history-of-ai",
-      "library": "AI Fundamentals",
+      "library": "Ai Fundamentals",
       "shelf": "Foundations Of Artificial Intelligence",
+      "chapters": 12
+    },
+    {
+      "name": "The Immigration Wedge: How a Policy Became a Political Weapon",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-immigration-wedge-how-a-policy-became-a-political-weapon",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "The Latin Sound in American Music: Influence and Integration",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-latin-sound-in-american-music",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "The Mexican-American War: Conquest and Consequence",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-mexican-american-war-conquest-and-consequence",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 13
+    },
+    {
+      "name": "The New Hispanic Geography: Growth Beyond Traditional Gateways",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-new-hispanic-geography",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
       "chapters": 12
     },
     {
@@ -4070,11 +4609,32 @@
       "chapters": 10
     },
     {
+      "name": "The Remittance Economy: Dollars Sent Home",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-remittance-economy",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "The Richest People in the World (2025)",
       "path": "pe/cultural-and-identity/billionaires/the-richest-people-in-the-world-2025",
       "library": "Cultural And Identity",
       "shelf": "Billionaires",
       "chapters": 21
+    },
+    {
+      "name": "The Second Generation and Beyond: Assimilation, Retention, and Hybrid Identities",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-second-generation-and-beyond",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "The Spanish-American War and American Empire",
+      "path": "pe/historical-narratives/us-latin-america-relations/the-spanish-american-war-and-american-empire",
+      "library": "Historical Narratives",
+      "shelf": "Us Latin America Relations",
+      "chapters": 12
     },
     {
       "name": "The Story of Dogs",
@@ -4089,6 +4649,13 @@
       "library": "Ideological",
       "shelf": "Media And Information",
       "chapters": 10
+    },
+    {
+      "name": "The Undocumented: 11 Million Lives in the Shadows",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-undocumented-11-million-lives-in-the-shadows",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "The Ungovernable Economy: How Billionaire AI Could Break Global Finance",
@@ -4476,6 +5043,13 @@
       "chapters": 4
     },
     {
+      "name": "What Does \"Hispanic\" Mean?",
+      "path": "pe/cultural-and-identity/hispanic-cultures/what-does-hispanic-mean",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "What Is AI, Really?",
       "path": "k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really",
       "library": "Ai Fundamentals",
@@ -4642,13 +5216,6 @@
       "library": "The Sciences",
       "shelf": "Life Sciences",
       "chapters": 10
-    },
-    {
-      "name": "Åland Islands",
-      "path": "g/territories-and-dependencies/autonomous-regions/aland-islands",
-      "library": "Territories And Dependencies",
-      "shelf": "Autonomous Regions",
-      "chapters": 4
     }
   ]
 }

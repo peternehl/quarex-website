@@ -1,0 +1,160 @@
+{
+  "name": "Puerto Ricans in America: American Citizens, Caribbean Identity",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "puerto-ricans",
+    "boricua-identity",
+    "circular-migration",
+    "colonial-status",
+    "nuyorican-culture"
+  ],
+  "chapters": [
+    {
+      "name": "Citizens Without a State",
+      "topics": [
+        "How did Puerto Ricans become U.S. citizens in 1917?",
+        "What does citizenship mean when you can't vote for president from home?",
+        "How does Puerto Rico's territorial status shape mainland Puerto Rican identity?",
+        "What rights do Puerto Ricans have on the island vs. on the mainland?",
+        "How do Puerto Ricans navigate their unique legal status?",
+        "Why hasn't Puerto Rico become a state or gained independence?",
+        "What do mainland Puerto Ricans think about the status question?",
+        "How has the debt crisis affected Puerto Rico's relationship with the U.S.?"
+      ],
+      "tags": ["law", "governance", "americas", "civil-rights"]
+    },
+    {
+      "name": "The Great Migration",
+      "topics": [
+        "What caused the mass migration of Puerto Ricans to the mainland after WWII?",
+        "Why was New York the primary destination for Puerto Rican migrants?",
+        "How did Operation Bootstrap affect migration patterns?",
+        "What role did labor recruitment play in drawing Puerto Ricans to the mainland?",
+        "What conditions did early migrants encounter?"
+      ],
+      "tags": ["history", "migration", "americas", "labor"]
+    },
+    {
+      "name": "Circular Migration: The Airbus Generation",
+      "topics": [
+        "What is circular migration and why is it unique to Puerto Ricans?",
+        "How does cheap airfare between the island and mainland affect migration?",
+        "What do Puerto Ricans mean by 'la guagua aérea'?",
+        "How do families maintain connections across the ocean?",
+        "What happens to children who move back and forth?",
+        "How does circular migration differ from other immigrant patterns?",
+        "What economic factors drive movement back and forth?"
+      ],
+      "tags": ["society", "migration", "americas", "sociology"]
+    },
+    {
+      "name": "Nuyorican Culture",
+      "topics": [
+        "What is Nuyorican identity and how did it emerge?",
+        "How did the Nuyorican Poets Cafe shape Puerto Rican literary culture?",
+        "What role did Nuyoricans play in the development of hip-hop?",
+        "How do island Puerto Ricans view Nuyoricans?",
+        "What tensions exist between island and mainland Puerto Ricans?"
+      ],
+      "tags": ["arts", "identity", "americas", "literary-arts"]
+    },
+    {
+      "name": "Beyond New York: The Diaspora Spreads",
+      "topics": [
+        "How have Puerto Rican communities grown in Florida?",
+        "What draws Puerto Ricans to Central Florida specifically?",
+        "How do Chicago's Puerto Rican communities differ from New York's?",
+        "What Puerto Rican presence exists in other states?",
+        "How has Hurricane Maria redistributed the Puerto Rican population?",
+        "Are New York Puerto Ricans declining as a share of the mainland population?",
+        "What distinct cultures have developed in different mainland cities?",
+        "How connected are Puerto Rican communities across the mainland?"
+      ],
+      "tags": ["geography", "migration", "americas", "sociology"]
+    },
+    {
+      "name": "Race and Puerto Rican Identity",
+      "topics": [
+        "How do Puerto Ricans understand race differently than mainland Americans?",
+        "What does the racial spectrum in Puerto Rico look like?",
+        "How do Afro-Puerto Ricans navigate racial identity on the mainland?",
+        "What racial discrimination have Puerto Ricans faced in America?",
+        "How do Puerto Ricans identify on Census racial categories?"
+      ],
+      "tags": ["society", "identity", "americas", "race"]
+    },
+    {
+      "name": "Language and Belonging",
+      "topics": [
+        "How do Puerto Ricans maintain Spanish across generations?",
+        "What is distinctive about Puerto Rican Spanish?",
+        "How do bilingual Puerto Ricans experience code-switching?",
+        "What language do mainland-born Puerto Ricans actually speak?",
+        "How does language relate to authenticity claims?",
+        "What education battles have Puerto Ricans fought over language?",
+        "How do island and mainland Spanish differ?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "Puerto Rican Politics on the Mainland",
+      "topics": [
+        "How have Puerto Ricans shaped politics in New York and other cities?",
+        "What Puerto Rican politicians have achieved national prominence?",
+        "How do mainland Puerto Ricans engage with island politics?",
+        "What issues mobilize Puerto Rican voters?",
+        "How has the Young Lords and other movements shaped Puerto Rican politics?"
+      ],
+      "tags": ["politics", "representation", "americas", "us-politics"]
+    },
+    {
+      "name": "Economic Conditions and Mobility",
+      "topics": [
+        "How do Puerto Rican economic indicators compare to other Hispanics?",
+        "Why have Puerto Ricans had lower economic mobility than some groups?",
+        "What role did deindustrialization play in Puerto Rican poverty?",
+        "How do Puerto Ricans in different regions fare economically?",
+        "What educational patterns exist among Puerto Ricans?",
+        "How has the second generation's economic status changed?",
+        "What barriers to economic advancement do Puerto Ricans face?",
+        "How do citizenship and mobility relate to economic outcomes?"
+      ],
+      "tags": ["economics", "inequality", "americas", "labor"]
+    },
+    {
+      "name": "Music: From Bomba to Reggaeton",
+      "topics": [
+        "What African and Taíno roots shape Puerto Rican music?",
+        "How did salsa emerge from Puerto Rican and Cuban collaboration?",
+        "What role have Puerto Ricans played in Latin hip-hop?",
+        "How did reggaeton develop and become global?",
+        "What Puerto Rican musicians have shaped American popular music?"
+      ],
+      "tags": ["arts", "cultural-heritage", "americas", "music"]
+    },
+    {
+      "name": "Hurricane Maria and Its Aftermath",
+      "topics": [
+        "How did Hurricane Maria devastate Puerto Rico in 2017?",
+        "What was the federal government's response and why was it controversial?",
+        "How many Puerto Ricans left the island after Maria?",
+        "Where did displaced Puerto Ricans go?",
+        "How did Maria change mainland Puerto Rican political consciousness?",
+        "What long-term effects has Maria had on the community?",
+        "How has the island's recovery affected diaspora connections?"
+      ],
+      "tags": ["environment", "migration", "americas", "humanitarian"]
+    },
+    {
+      "name": "The Future of Puerto Rican Identity",
+      "topics": [
+        "How are young Puerto Ricans on the mainland forming identity?",
+        "What happens to Puerto Rican identity with intermarriage?",
+        "Will circular migration continue or decline?",
+        "How might statehood or independence change diaspora identity?",
+        "What cultural institutions are maintaining Puerto Rican heritage?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    }
+  ]
+}

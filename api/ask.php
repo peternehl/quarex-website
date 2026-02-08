@@ -526,6 +526,12 @@ $maxTokens   = intval(clamp($_REQUEST['max_tokens'] ?? ($bodyJson['max_tokens'] 
 $forceJson   = !!($_REQUEST['force_json'] ?? ($bodyJson['force_json'] ?? false)); // true/false
 $podcastMode = !!($_REQUEST['podcast'] ?? ($bodyJson['podcast'] ?? false)); // podcast=1 for spoken delivery
 
+// Expertise level - controls response depth and complexity
+$expertise = trim(strval($bodyJson['expertise'] ?? ($_REQUEST['expertise'] ?? 'introductory')));
+if (!in_array($expertise, ['introductory', 'intermediate', 'advanced'])) {
+  $expertise = 'introductory';
+}
+
 // ------------------------ Build base Gemini payload ------------------------
 
 // Quarex definition - included when context mentions Quarex
@@ -534,10 +540,25 @@ if ($category && stripos($category, 'quarex') !== false) {
   $quarexDefinition = "IMPORTANT CONTEXT - Quarex Definition: A quarex is a dynamically generated, recursively structured knowledge artifact that evolves through iterative inquiry. It is a new medium for organizing knowledge—neither a traditional book nor a dataset, but a living system that reorganizes itself as new questions emerge. Key principles: (1) Living Evolution - continuously grows based on new inquiries, (2) Flexible Navigation - users can enter at any point without losing coherence, (3) Guided Expansion - AI generates content while human architects maintain creative control, (4) Exploration-Focused - designed for deep inquiry rather than linear consumption. Quarex represents a post-book paradigm for knowledge organization. See quarex.org for more. ";
 }
 
+// Expertise-level instructions
+$expertiseInstructions = match($expertise) {
+  'introductory' => "EXPERTISE LEVEL: Introductory. Write for someone completely new to this topic. " .
+                    "Use plain, everyday language. Avoid jargon and technical terms—if you must use them, explain them immediately. " .
+                    "Use relatable analogies and real-world examples. Assume no prior knowledge. " .
+                    "Keep sentences short and clear. ",
+  'advanced' => "EXPERTISE LEVEL: Advanced. Write for a professional or expert audience. " .
+                "You may use technical terminology, domain-specific jargon, and assume familiarity with foundational concepts. " .
+                "Provide deeper analysis, nuance, and scholarly precision. Reference frameworks, methodologies, or research where relevant. " .
+                "Do not over-explain basics; focus on substantive insight. ",
+  default => "EXPERTISE LEVEL: Intermediate. Write for an educated general audience with some background knowledge. " .
+             "Explain technical terms briefly when first used. Balance accessibility with substance. "
+};
+
 // Build system prompt based on mode
 if ($podcastMode) {
   $systemPrompt =
     "You are an expert being interviewed for a podcast. Write conversationally for SPOKEN DELIVERY. " .
+    $expertiseInstructions .
     "STYLE: Write as if you are speaking to an interviewer. Use natural, flowing sentences. " .
     "Avoid bullet points, numbered lists, and markdown formatting. Do not use asterisks, headers, or special characters. " .
     "Keep answers brief and punchy - aim for 2 short paragraphs, under 120 words total. Get to the point quickly." .
@@ -551,7 +572,8 @@ if ($podcastMode) {
     "Format them as:\n\nFollow-up questions:\n1. [First question]\n2. [Second question]\n3. [Third question]";
 } else {
   $systemPrompt =
-    "You are an expert academic assistant. Write at a clear 12th-grade level. " .
+    "You are an expert academic assistant. " .
+    $expertiseInstructions .
     "RECENCY: Always prioritize the most current and up-to-date information available. When discussing facts, statistics, " .
     "policies, or events, use the latest data from 2024-2026 whenever possible. If information may have changed recently, " .
     "explicitly note the date or timeframe of your sources. Avoid presenting outdated information as current. " .

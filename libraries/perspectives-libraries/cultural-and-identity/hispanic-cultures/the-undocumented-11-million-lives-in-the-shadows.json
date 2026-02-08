@@ -1,0 +1,171 @@
+{
+  "name": "The Undocumented: 11 Million Lives in the Shadows",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "undocumented-immigrants",
+    "immigration-enforcement",
+    "deportation",
+    "immigrant-communities",
+    "living-without-status"
+  ],
+  "chapters": [
+    {
+      "name": "Who Are the Undocumented?",
+      "topics": [
+        "How did 11 million people come to live undocumented in the United States?",
+        "What's the difference between someone who overstayed a visa and someone who crossed without inspection?",
+        "Which countries do most undocumented immigrants come from, and has this changed over time?",
+        "How long have most undocumented people been living in the U.S.?",
+        "Why do we struggle to get accurate counts of the undocumented population?",
+        "What misconceptions do Americans commonly hold about who the undocumented are?"
+      ],
+      "tags": ["society", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "Living Without Status",
+      "topics": [
+        "What does daily life look like for someone without legal immigration status?",
+        "How do undocumented immigrants navigate systems that require identification?",
+        "What happens when an undocumented person needs medical care?",
+        "How do undocumented parents enroll their children in school?",
+        "What creative solutions have undocumented communities developed to meet basic needs?",
+        "How does living without status affect mental health and stress levels?",
+        "Why do some undocumented immigrants live openly while others stay completely hidden?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Working in the Shadows",
+      "topics": [
+        "How do undocumented workers find employment without work authorization?",
+        "What industries rely most heavily on undocumented labor?",
+        "How does being undocumented affect wages and working conditions?",
+        "What happens when an undocumented worker is injured on the job?",
+        "Why do some employers prefer to hire undocumented workers?",
+        "How do false documents and identity fraud work in employment contexts?",
+        "What protections, if any, do undocumented workers have under labor law?",
+        "How much do undocumented immigrants contribute to Social Security they'll never collect?"
+      ],
+      "tags": ["economics", "labor", "americas", "immigration"]
+    },
+    {
+      "name": "The Fear of Deportation",
+      "topics": [
+        "How does constant fear of deportation shape the psychology of undocumented families?",
+        "What triggers an immigration enforcement action against an individual?",
+        "How do undocumented people prepare their families for possible deportation?",
+        "What's it like for children who grow up with parents who might disappear any day?",
+        "How do sanctuary policies affect the daily fear level of undocumented residents?"
+      ],
+      "tags": ["society", "identity", "americas", "immigration"]
+    },
+    {
+      "name": "Community Life and Networks",
+      "topics": [
+        "How do undocumented immigrants build community despite their vulnerable status?",
+        "What role do churches and religious organizations play in supporting the undocumented?",
+        "How do immigrant neighborhoods function as protective enclaves?",
+        "What mutual aid networks exist within undocumented communities?",
+        "How do undocumented immigrants maintain connections to their home countries?",
+        "What happens when community members are deported—how do networks survive?",
+        "How do documented and undocumented Hispanics relate to each other within communities?",
+        "What cultural institutions have undocumented communities created?",
+        "How does the second generation bridge undocumented parents and American society?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Legal Strategies and Remedies",
+      "topics": [
+        "What legal options exist for undocumented immigrants to gain status?",
+        "How does the U-visa protect victims of crimes who cooperate with law enforcement?",
+        "What is cancellation of removal and who qualifies?",
+        "How do immigration attorneys evaluate an undocumented person's options?",
+        "Why do some undocumented people wait decades for a visa that may never come?",
+        "What's the difference between prosecutorial discretion and actual legal status?",
+        "How do notarios and immigration fraud victimize desperate undocumented people?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Enforcement: ICE and CBP",
+      "topics": [
+        "How do Immigration and Customs Enforcement (ICE) and Customs and Border Protection (CBP) differ in their missions?",
+        "What powers do immigration officers have to stop, question, and detain people?",
+        "How has interior enforcement changed across different presidential administrations?",
+        "What's the 100-mile border zone and how does it affect constitutional rights?",
+        "How do cooperation agreements between local police and ICE work?",
+        "What training do ICE officers receive and what oversight exists?",
+        "How do enforcement priorities shift with political changes?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Raids and Arrests",
+      "topics": [
+        "What happens during a workplace immigration raid?",
+        "How do home raids differ from workplace enforcement?",
+        "What rights do people have when ICE comes to their door?",
+        "How do communities respond when raids occur?",
+        "What happened in major raids like those in Postville, Iowa or Mississippi chicken plants?",
+        "How do children experience having parents arrested in raids?",
+        "What legal challenges have been brought against raid tactics?",
+        "How do rapid response networks try to support people during raids?"
+      ],
+      "tags": ["law", "justice", "americas", "civil-rights"]
+    },
+    {
+      "name": "Detention and the Deportation Pipeline",
+      "topics": [
+        "What is immigration detention and how does it differ from criminal incarceration?",
+        "Who runs immigration detention facilities—government or private companies?",
+        "What are conditions like inside immigration detention centers?",
+        "How long can someone be held in immigration detention?",
+        "What medical care is available to detained immigrants?",
+        "How do detained immigrants access legal representation?",
+        "What happens during deportation proceedings?",
+        "How do expedited removal and other fast-track processes work?",
+        "What's life like for someone after they're deported to a country they barely remember?"
+      ],
+      "tags": ["law", "justice", "americas", "immigration"]
+    },
+    {
+      "name": "Family Impacts of Enforcement",
+      "topics": [
+        "What happens to U.S. citizen children when their parents are deported?",
+        "How do families make the impossible choice between staying together abroad or splitting up?",
+        "What's the psychological impact on children who witness a parent's arrest?",
+        "How does deportation affect family finances and stability?",
+        "What services exist for children left behind after a parent's deportation?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Advocacy and the Immigrant Rights Movement",
+      "topics": [
+        "How has the immigrant rights movement organized over the past few decades?",
+        "What strategies have advocates used to push for immigration reform?",
+        "How do undocumented activists balance visibility with personal risk?",
+        "What role have labor unions played in immigrant advocacy?",
+        "How do faith communities engage in immigrant rights work?",
+        "What legal organizations provide representation to undocumented people?",
+        "How has the narrative around undocumented immigrants shifted over time?",
+        "What tensions exist within the immigrant rights movement itself?"
+      ],
+      "tags": ["politics", "activism", "americas", "civil-rights"]
+    },
+    {
+      "name": "Pathways Forward",
+      "topics": [
+        "What would comprehensive immigration reform look like?",
+        "Why has Congress failed to pass major immigration legislation for decades?",
+        "What's the case for and against amnesty or legalization programs?",
+        "How do different proposals handle the 11 million already here?",
+        "What can be done through executive action versus legislation?",
+        "How do undocumented immigrants themselves envision their future in America?",
+        "What would it take politically to break the immigration reform gridlock?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    }
+  ]
+}

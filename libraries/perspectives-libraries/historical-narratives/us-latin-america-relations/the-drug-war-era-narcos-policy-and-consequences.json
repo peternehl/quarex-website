@@ -1,0 +1,169 @@
+{
+  "name": "The Drug War Era: Narcos, Policy, and Consequences",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "war-on-drugs",
+    "drug-cartels",
+    "narco-violence",
+    "drug-policy",
+    "us-mexico-security"
+  ],
+  "chapters": [
+    {
+      "name": "Declaring War: Nixon and the Birth of Drug Policy",
+      "topics": [
+        "How did Nixon declare the 'war on drugs' and why?",
+        "What political motivations shaped early drug policy?",
+        "How did drug enforcement become a tool of social control?",
+        "What agencies and policies emerged from Nixon's declaration?",
+        "How did the war on drugs connect to other Nixon priorities?",
+        "What role did race play in the origins of drug policy?",
+        "How did early policy set patterns for decades to come?"
+      ],
+      "tags": ["politics", "governance", "americas", "us-politics"]
+    },
+    {
+      "name": "The Colombian Cartels: Pablo Escobar's Empire",
+      "topics": [
+        "How did the Medellin and Cali cartels rise to power?",
+        "Who was Pablo Escobar and how did he build his empire?",
+        "How did cocaine flow from Colombia to the United States?",
+        "What violence did the cartels unleash on Colombian society?",
+        "How did the Colombian government respond to cartel power?",
+        "What role did the U.S. play in the fight against Colombian cartels?",
+        "How did the Colombian cartels eventually decline?"
+      ],
+      "tags": ["conflict", "governance", "americas", "criminal-justice"]
+    },
+    {
+      "name": "Reagan Escalates: The 1980s War on Drugs",
+      "topics": [
+        "How did Reagan escalate the war on drugs?",
+        "What role did Nancy Reagan's 'Just Say No' campaign play?",
+        "How did mandatory minimum sentencing transform the justice system?",
+        "What was the crack cocaine epidemic and how was it addressed?",
+        "How did the crack/powder disparity create racial injustice?",
+        "What military resources were directed at drug interdiction?",
+        "How did drug war and Cold War intersect in the 1980s?"
+      ],
+      "tags": ["politics", "governance", "americas", "criminal-justice"]
+    },
+    {
+      "name": "Plan Colombia: Counternarcotics as Foreign Policy",
+      "topics": [
+        "What was Plan Colombia and what did it aim to achieve?",
+        "How much aid did the United States provide?",
+        "What military and police training did the plan include?",
+        "How did aerial fumigation affect coca production and farmers?",
+        "What human rights concerns did the plan raise?",
+        "Did Plan Colombia succeed in reducing drug supply?",
+        "What happened to Colombian drug trafficking after the plan?"
+      ],
+      "tags": ["conflict", "diplomacy", "americas", "geopolitics"]
+    },
+    {
+      "name": "The Rise of Mexican Cartels",
+      "topics": [
+        "How did Mexican organizations become dominant in drug trafficking?",
+        "What happened when Colombian routes were disrupted?",
+        "Who are the major Mexican cartels and how did they develop?",
+        "How do Mexican cartels operate differently than Colombian predecessors?",
+        "What role does corruption play in cartel operations?",
+        "How have cartels diversified beyond drug trafficking?",
+        "What territories do different cartels control?"
+      ],
+      "tags": ["conflict", "governance", "americas", "criminal-justice"]
+    },
+    {
+      "name": "The Merida Initiative: Partnering with Mexico",
+      "topics": [
+        "What is the Merida Initiative and what does it provide?",
+        "How did the U.S. and Mexico agree to cooperate on security?",
+        "What equipment and training has the initiative funded?",
+        "How has the initiative evolved over time?",
+        "What results has the partnership achieved?",
+        "What criticisms have been leveled at the approach?",
+        "How has the initiative affected U.S.-Mexico relations?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "geopolitics"]
+    },
+    {
+      "name": "Calderon's War: Mexico's Catastrophic Escalation",
+      "topics": [
+        "Why did President Calderon deploy the military against cartels?",
+        "How did the military confrontation escalate violence?",
+        "What happened when cartels fragmented and fought each other?",
+        "How many people have been killed in Mexico's drug war?",
+        "What massacres and atrocities have occurred?",
+        "How has violence affected ordinary Mexican communities?",
+        "What has been the political fallout of the strategy?"
+      ],
+      "tags": ["conflict", "governance", "americas", "criminal-justice"]
+    },
+    {
+      "name": "Collateral Damage: Communities Caught in the Crossfire",
+      "topics": [
+        "How has drug violence affected Mexican civilians?",
+        "What has happened to journalists who cover the cartels?",
+        "How have local governments been compromised or destroyed?",
+        "What displacement has drug violence caused?",
+        "How do cartels control territory and extract tribute?",
+        "What happens to young people recruited or coerced into cartel work?",
+        "How do communities survive in cartel-controlled areas?"
+      ],
+      "tags": ["society", "human-rights", "americas", "civil-rights"]
+    },
+    {
+      "name": "Mass Incarceration: The Domestic Cost",
+      "topics": [
+        "How did drug policy drive mass incarceration in the United States?",
+        "What racial disparities exist in drug enforcement?",
+        "How many Americans are incarcerated for drug offenses?",
+        "What are the human costs of drug criminalization?",
+        "How effective is incarceration at reducing drug use?",
+        "What happens to families and communities affected by incarceration?",
+        "What reform movements have challenged these policies?"
+      ],
+      "tags": ["law", "justice", "americas", "criminal-justice"]
+    },
+    {
+      "name": "The Opioid Crisis: When Drugs Come from Pharmacies",
+      "topics": [
+        "How did the opioid epidemic develop in the United States?",
+        "What role did pharmaceutical companies play?",
+        "How did prescription opioids lead to heroin and fentanyl use?",
+        "How does the response to opioids compare to crack?",
+        "What role does Mexico play in fentanyl trafficking?",
+        "How has the crisis affected drug policy debates?",
+        "What does the opioid crisis reveal about the war on drugs?"
+      ],
+      "tags": ["health", "governance", "americas", "public-health"]
+    },
+    {
+      "name": "Alternative Approaches: Decriminalization and Legalization",
+      "topics": [
+        "What alternatives to prohibition have been tried?",
+        "How has marijuana legalization affected drug policy?",
+        "What can be learned from Portugal's decriminalization?",
+        "How do harm reduction approaches work?",
+        "What would treating addiction as a health issue mean?",
+        "How have Latin American leaders called for policy reform?",
+        "What obstacles block fundamental policy change?"
+      ],
+      "tags": ["politics", "governance", "americas", "public-health"]
+    },
+    {
+      "name": "Assessment: Fifty Years of Failure?",
+      "topics": [
+        "What has the war on drugs achieved in fifty years?",
+        "How much money has been spent on drug enforcement?",
+        "Are drugs less available or more expensive than before?",
+        "What have been the costs in lives, freedom, and development?",
+        "How has drug policy affected U.S.-Latin America relations?",
+        "What would ending the war on drugs require?",
+        "What future might drug policy take?"
+      ],
+      "tags": ["politics", "justice", "americas", "modern-history"]
+    }
+  ]
+}

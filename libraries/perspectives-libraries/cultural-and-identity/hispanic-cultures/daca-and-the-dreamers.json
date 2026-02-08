@@ -1,0 +1,167 @@
+{
+  "name": "DACA and the Dreamers: A Generation in Limbo",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "daca",
+    "dreamers",
+    "undocumented-youth",
+    "immigration-policy",
+    "deferred-action"
+  ],
+  "chapters": [
+    {
+      "name": "Who Are the Dreamers?",
+      "topics": [
+        "What does the term 'Dreamer' mean and where did it come from?",
+        "How many young people were brought to the U.S. as children without authorization?",
+        "What ages were Dreamers when they arrived, and how long have they lived here?",
+        "What countries do most Dreamers come from?",
+        "How do Dreamers differ from other undocumented immigrants?",
+        "What makes the Dreamer experience distinct from their parents' experience?"
+      ],
+      "tags": ["society", "identity", "americas", "immigration"]
+    },
+    {
+      "name": "Growing Up Undocumented",
+      "topics": [
+        "What is it like to discover you are undocumented as a child or teenager?",
+        "How do undocumented youth navigate high school without legal status?",
+        "What limitations do Dreamers face that their citizen classmates don't?",
+        "How does undocumented status affect dating, friendships, and social life?",
+        "What psychological impacts come from growing up without status?",
+        "How do families discuss and handle undocumented status with children?",
+        "What coming-of-age experiences are different for undocumented youth?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "The DREAM Act: A Legislative History",
+      "topics": [
+        "What was the original DREAM Act and when was it first introduced?",
+        "How many times has the DREAM Act been proposed in Congress?",
+        "What have been the different versions of the DREAM Act over the years?",
+        "Why has the DREAM Act repeatedly failed to pass?",
+        "Which politicians have championed or opposed the DREAM Act?",
+        "What compromises have been proposed around the DREAM Act?",
+        "How close has the DREAM Act come to becoming law?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "DACA: Obama's Executive Action",
+      "topics": [
+        "What is DACA and what protections does it provide?",
+        "Why did President Obama create DACA through executive action?",
+        "What are the eligibility requirements for DACA?",
+        "How many people have received DACA protection?",
+        "What does DACA allow recipients to do that they couldn't before?",
+        "What does DACA not provide—what limitations remain?",
+        "How did the announcement of DACA change lives overnight?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Living with DACA",
+      "topics": [
+        "What is daily life like for a DACA recipient?",
+        "How does having a work permit change economic opportunities?",
+        "What jobs and careers have DACA recipients pursued?",
+        "How does DACA affect access to higher education?",
+        "Can DACA recipients travel, and what are the restrictions?",
+        "What is the renewal process like for DACA recipients?",
+        "How much does DACA cost and how does that burden recipients?",
+        "What anxiety comes with DACA's temporary and uncertain status?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Legal Battles Over DACA",
+      "topics": [
+        "How did the Trump administration try to end DACA?",
+        "What legal challenges have been brought to protect DACA?",
+        "How did the Supreme Court rule on DACA in 2020?",
+        "What has happened to DACA in the courts since then?",
+        "Why can't new DACA applications be accepted currently?",
+        "What legal uncertainty continues to hang over the program?",
+        "How do court decisions affect the lives of DACA recipients?"
+      ],
+      "tags": ["law", "justice", "americas", "immigration"]
+    },
+    {
+      "name": "DACA and Education",
+      "topics": [
+        "How has DACA affected college enrollment for Dreamers?",
+        "What states allow in-state tuition for DACA recipients?",
+        "Can DACA recipients receive federal financial aid?",
+        "What scholarships specifically support DACA students?",
+        "How have universities supported or failed DACA students?",
+        "What happens to educational investments if DACA ends?"
+      ],
+      "tags": ["education", "inequality", "americas", "higher-education"]
+    },
+    {
+      "name": "DACA in the Workplace",
+      "topics": [
+        "How has work authorization transformed DACA recipients' careers?",
+        "What professional fields have DACA recipients entered?",
+        "How do DACA recipients handle background checks and employer questions?",
+        "What happens when DACA work permits expire?",
+        "How have employers responded to hiring DACA recipients?",
+        "What economic contributions do DACA recipients make?",
+        "What career limitations still exist despite work authorization?",
+        "How does renewal uncertainty affect job security and planning?"
+      ],
+      "tags": ["economics", "labor", "americas", "immigration"]
+    },
+    {
+      "name": "The Dreamer Movement",
+      "topics": [
+        "How did Dreamer activists organize and build a movement?",
+        "What tactics have Dreamer activists used?",
+        "How has 'coming out' as undocumented been a political strategy?",
+        "What risks have Dreamer activists taken in speaking publicly?",
+        "How has the Dreamer movement influenced broader immigration politics?",
+        "What tensions exist between Dreamer advocacy and advocacy for all undocumented people?"
+      ],
+      "tags": ["politics", "activism", "americas", "civil-rights"]
+    },
+    {
+      "name": "Political Football",
+      "topics": [
+        "How have both parties used Dreamers as political leverage?",
+        "Why do Dreamers poll better than other immigration issues?",
+        "How have Dreamers been used as bargaining chips in negotiations?",
+        "What deals have been proposed and rejected around Dreamers?",
+        "How do Dreamers themselves feel about being used politically?",
+        "What does bipartisan support for Dreamers actually mean in practice?",
+        "Why hasn't popular support translated into legislative action?"
+      ],
+      "tags": ["politics", "governance", "americas", "us-politics"]
+    },
+    {
+      "name": "State-Level Policies",
+      "topics": [
+        "How do state policies toward DACA recipients vary across the country?",
+        "Which states offer driver's licenses to DACA recipients?",
+        "What states allow DACA recipients to practice licensed professions?",
+        "How do sanctuary policies affect DACA recipients?",
+        "What states have been hostile to DACA recipients?",
+        "How do state universities treat DACA students differently?"
+      ],
+      "tags": ["law", "governance", "americas", "us-politics"]
+    },
+    {
+      "name": "The Future for Dreamers",
+      "topics": [
+        "What would permanent protection for Dreamers look like?",
+        "What pathways to citizenship have been proposed?",
+        "What happens to aging DACA recipients who've been in limbo for over a decade?",
+        "How has uncertainty affected Dreamers' life planning and decisions?",
+        "What do Dreamers themselves want from reform?",
+        "What is the likely future for DACA and the Dreamer population?",
+        "How has the Dreamer experience shaped a generation's identity?"
+      ],
+      "tags": ["society", "identity", "americas", "immigration"]
+    }
+  ]
+}

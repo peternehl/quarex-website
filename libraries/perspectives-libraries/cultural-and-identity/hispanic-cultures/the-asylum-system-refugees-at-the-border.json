@@ -1,0 +1,164 @@
+{
+  "name": "The Asylum System: Refugees at the Border",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "asylum",
+    "refugees",
+    "border-crisis",
+    "immigration-courts",
+    "humanitarian-protection"
+  ],
+  "chapters": [
+    {
+      "name": "What Is Asylum?",
+      "topics": [
+        "What is asylum and how does it differ from other immigration pathways?",
+        "What international laws and treaties govern asylum?",
+        "What are the legal grounds for seeking asylum in America?",
+        "What is the difference between asylum seekers and refugees?",
+        "How has American asylum law evolved over time?",
+        "What constitutes persecution under asylum law?"
+      ],
+      "tags": ["law", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "Who Seeks Asylum at the Southern Border?",
+      "topics": [
+        "What countries do most asylum seekers at the border come from?",
+        "What conditions drive people to flee Central America?",
+        "How has Venezuelan displacement affected the border?",
+        "What role does gang violence play in asylum claims?",
+        "Why do families with children seek asylum?",
+        "How have asylum demographics changed over time?",
+        "What are the experiences of LGBTQ+ asylum seekers?"
+      ],
+      "tags": ["society", "migration", "americas", "refugee-issues"]
+    },
+    {
+      "name": "The Journey North",
+      "topics": [
+        "What routes do asylum seekers take to reach the U.S. border?",
+        "What dangers do migrants face on the journey through Mexico?",
+        "What role do smugglers and cartels play in migration?",
+        "How do asylum seekers travel with children?",
+        "What happens at the Darién Gap crossing?",
+        "How do transit countries like Mexico treat migrants?",
+        "What humanitarian organizations assist migrants en route?"
+      ],
+      "tags": ["society", "migration", "americas", "refugee-issues"]
+    },
+    {
+      "name": "Arriving at the Border",
+      "topics": [
+        "What happens when asylum seekers arrive at a port of entry?",
+        "What is the difference between ports of entry and crossing between them?",
+        "How has metering and turn-backs affected asylum access?",
+        "What is CBP One and how does the app system work?",
+        "What processing do asylum seekers undergo upon arrival?",
+        "How are families vs. single adults treated differently?",
+        "What role do Title 8 vs. Title 42 play in border policy?"
+      ],
+      "tags": ["law", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "The Credible Fear Process",
+      "topics": [
+        "What is a credible fear interview and who conducts it?",
+        "What questions do asylum officers ask?",
+        "What percentage of applicants pass credible fear screening?",
+        "What happens if you fail a credible fear interview?",
+        "How has the credible fear standard changed over time?",
+        "What are the controversies around credible fear screening?"
+      ],
+      "tags": ["law", "justice", "americas", "immigration"]
+    },
+    {
+      "name": "Immigration Courts and the Backlog",
+      "topics": [
+        "How do immigration courts work?",
+        "Who are immigration judges and how are they appointed?",
+        "How large is the immigration court backlog?",
+        "How long do asylum cases take to be heard?",
+        "What is the right to counsel in immigration court?",
+        "How do asylum seekers navigate court without lawyers?",
+        "What reforms have been proposed to address the backlog?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Detention of Asylum Seekers",
+      "topics": [
+        "What detention facilities hold asylum seekers?",
+        "What are conditions like in immigration detention?",
+        "How do private prison companies profit from detention?",
+        "What alternatives to detention exist?",
+        "How are families detained?",
+        "What mental health impacts does detention cause?",
+        "What oversight exists for detention conditions?"
+      ],
+      "tags": ["law", "justice", "americas", "immigration"]
+    },
+    {
+      "name": "Remain in Mexico and Other Policies",
+      "topics": [
+        "What was the Remain in Mexico (MPP) policy?",
+        "What dangers did asylum seekers face waiting in Mexico?",
+        "What was the Title 42 public health order?",
+        "What other Trump-era policies restricted asylum?",
+        "How did the Biden administration change asylum policies?",
+        "What recent policies affect asylum at the border?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Family Separation",
+      "topics": [
+        "What was the family separation policy?",
+        "How many families were separated at the border?",
+        "What psychological impact did separation have on children?",
+        "How did the public react to family separation?",
+        "What happened to separated families?",
+        "Are families still being separated today?",
+        "What ongoing reunification efforts exist?"
+      ],
+      "tags": ["society", "justice", "americas", "family"]
+    },
+    {
+      "name": "Winning and Losing Asylum Cases",
+      "topics": [
+        "What percentage of asylum cases are granted?",
+        "Why do grant rates vary so much by judge and location?",
+        "What evidence strengthens an asylum case?",
+        "What happens when asylum is denied?",
+        "What appeals are available?",
+        "What happens after deportation orders?",
+        "How do some denied applicants remain in the U.S.?"
+      ],
+      "tags": ["law", "justice", "americas", "immigration"]
+    },
+    {
+      "name": "Asylum Advocacy and Legal Aid",
+      "topics": [
+        "What organizations provide legal aid to asylum seekers?",
+        "How do pro bono lawyers support asylum cases?",
+        "What role do know-your-rights trainings play?",
+        "How do immigrant advocacy groups work for asylum reform?",
+        "What humanitarian organizations support asylum seekers?",
+        "How do faith communities assist asylum seekers?"
+      ],
+      "tags": ["society", "activism", "americas", "civil-rights"]
+    },
+    {
+      "name": "Reforming the Asylum System",
+      "topics": [
+        "What reforms have been proposed to speed asylum processing?",
+        "Should asylum be processed at the border or at embassies abroad?",
+        "What would an ideal asylum system look like?",
+        "How do other countries handle asylum?",
+        "What is the future of asylum policy in America?",
+        "How might climate change affect future asylum flows?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "name": "Hispanic Workers in America: Labor, Industry, and Economic Contribution",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-labor",
+    "workforce",
+    "economic-contribution",
+    "working-class",
+    "employment"
+  ],
+  "chapters": [
+    {
+      "name": "The Hispanic Workforce Today",
+      "topics": [
+        "How large is the Hispanic labor force in America?",
+        "What percentage of the U.S. workforce is Hispanic?",
+        "How has Hispanic labor force participation grown over time?",
+        "What is the age profile of Hispanic workers?",
+        "How does Hispanic workforce participation differ by gender?",
+        "What is the future growth trajectory of Hispanic workers?"
+      ],
+      "tags": ["economics", "labor", "americas", "demographics"]
+    },
+    {
+      "name": "Industries Where Hispanics Work",
+      "topics": [
+        "What industries employ the most Hispanic workers?",
+        "Why is construction so heavily Hispanic?",
+        "What role do Hispanic workers play in agriculture?",
+        "How many Hispanic workers are in food service and hospitality?",
+        "What is Hispanic representation in healthcare?",
+        "Which industries are Hispanics underrepresented in?"
+      ],
+      "tags": ["economics", "labor", "americas", "industry"]
+    },
+    {
+      "name": "Essential Workers",
+      "topics": [
+        "What essential jobs do Hispanic workers disproportionately fill?",
+        "How visible was Hispanic labor during the COVID-19 pandemic?",
+        "What risks do Hispanic essential workers face?",
+        "How are meatpacking and food processing reliant on Hispanic labor?",
+        "What role do Hispanics play in warehouse and logistics work?",
+        "How has 'essential worker' status affected recognition of Hispanic labor?"
+      ],
+      "tags": ["economics", "labor", "americas", "essential-work"]
+    },
+    {
+      "name": "Farm Workers",
+      "topics": [
+        "How central is Hispanic labor to American agriculture?",
+        "What is the history of Mexican farm workers in America?",
+        "What are working conditions like for agricultural laborers?",
+        "What legal protections do farm workers have or lack?",
+        "How does H-2A visa work for agricultural labor?",
+        "What organizing has occurred among farm workers?",
+        "How has climate change affected farm worker conditions?"
+      ],
+      "tags": ["economics", "labor", "americas", "agriculture"]
+    },
+    {
+      "name": "Day Laborers and Informal Work",
+      "topics": [
+        "Who are day laborers and where do they work?",
+        "What informal employment relationships do Hispanic workers enter?",
+        "What risks and exploitation exist in informal labor markets?",
+        "How do worker centers support day laborers?",
+        "What regulations affect day labor hiring sites?",
+        "How does cash payment affect economic security?"
+      ],
+      "tags": ["economics", "labor", "americas", "informal-economy"]
+    },
+    {
+      "name": "Wages and the Pay Gap",
+      "topics": [
+        "What do Hispanic workers earn compared to other groups?",
+        "What causes the Hispanic wage gap?",
+        "How do wages differ for Hispanic men vs. women?",
+        "What is the wage gap for Latinas specifically?",
+        "How does immigration status affect wages?",
+        "What would closing the Hispanic wage gap mean for the economy?"
+      ],
+      "tags": ["economics", "inequality", "americas", "wages"]
+    },
+    {
+      "name": "Workplace Safety and Exploitation",
+      "topics": [
+        "What workplace hazards do Hispanic workers face?",
+        "Why do Hispanics have higher rates of workplace injury and death?",
+        "How does immigration status make workers vulnerable to exploitation?",
+        "What wage theft affects Hispanic workers?",
+        "How do language barriers affect workplace safety?",
+        "What recourse do exploited workers have?"
+      ],
+      "tags": ["economics", "justice", "americas", "labor"]
+    },
+    {
+      "name": "Unions and Labor Organizing",
+      "topics": [
+        "What is the history of Hispanic labor organizing?",
+        "How did César Chávez and Dolores Huerta build the UFW?",
+        "What union representation do Hispanic workers have today?",
+        "What obstacles exist to organizing Hispanic workers?",
+        "How are new labor movements reaching Hispanic workers?",
+        "What role do unions play in immigrant worker protection?"
+      ],
+      "tags": ["politics", "activism", "americas", "labor-organizing"]
+    },
+    {
+      "name": "The Professional Class",
+      "topics": [
+        "What Hispanic professionals work in white-collar fields?",
+        "How are Hispanics represented in law, medicine, and finance?",
+        "What barriers exist to Hispanic professional advancement?",
+        "How do professional Hispanics navigate corporate culture?",
+        "What professional associations serve Hispanic professionals?",
+        "What mentorship and pipeline programs exist?"
+      ],
+      "tags": ["economics", "identity", "americas", "careers"]
+    },
+    {
+      "name": "Government and Military Employment",
+      "topics": [
+        "How are Hispanics represented in federal employment?",
+        "What role do Hispanics play in state and local government?",
+        "How many Hispanics serve in the U.S. military?",
+        "What has military service meant for Hispanic families?",
+        "How does public sector employment provide stability?",
+        "What barriers exist to Hispanic advancement in government?"
+      ],
+      "tags": ["politics", "representation", "americas", "public-sector"]
+    },
+    {
+      "name": "Economic Contributions",
+      "topics": [
+        "How much do Hispanic workers contribute to U.S. GDP?",
+        "What taxes do Hispanic workers pay, including undocumented workers?",
+        "How does Hispanic consumer spending power drive the economy?",
+        "What would the economy look like without Hispanic labor?",
+        "How do Hispanic workers contribute to Social Security?",
+        "What is the net economic impact of Hispanic immigration?"
+      ],
+      "tags": ["economics", "labor", "americas", "economic-impact"]
+    },
+    {
+      "name": "The Future of Hispanic Work",
+      "topics": [
+        "How will automation affect Hispanic workers?",
+        "What training and education will Hispanic workers need?",
+        "How is the Hispanic workforce aging?",
+        "What industries will grow for Hispanic workers?",
+        "How might immigration policy changes affect Hispanic labor?",
+        "What is the outlook for Hispanic economic advancement?"
+      ],
+      "tags": ["economics", "labor", "americas", "future-work"]
+    }
+  ]
+}

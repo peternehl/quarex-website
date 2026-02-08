@@ -1,0 +1,163 @@
+{
+  "name": "What Does \"Hispanic\" Mean?",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-identity",
+    "ethnic-labels",
+    "census-categories",
+    "latino-terminology",
+    "american-demographics"
+  ],
+  "chapters": [
+    {
+      "name": "The Census Creates a Category",
+      "topics": [
+        "How did the U.S. Census Bureau come to create the 'Hispanic' category?",
+        "What political pressures led to the adoption of Hispanic as an official term?",
+        "Who lobbied for and against the Hispanic classification in the 1970s?",
+        "How did the Census distinguish Hispanic from racial categories?",
+        "What were the alternatives to Hispanic that were considered and rejected?",
+        "How has the Census definition of Hispanic changed over time?",
+        "What data collection challenges did the Hispanic category create?"
+      ],
+      "tags": ["history", "identity", "americas", "us-politics"]
+    },
+    {
+      "name": "Spanish Language as the Common Thread",
+      "topics": [
+        "Is Spanish language the defining characteristic of Hispanic identity?",
+        "What about Brazilians, who speak Portuguese — are they Hispanic?",
+        "How do indigenous language speakers from Latin America fit the category?",
+        "What happens to Hispanic identity when Spanish is lost across generations?",
+        "How do monolingual English-speaking Hispanics relate to the label?"
+      ],
+      "tags": ["society", "identity", "americas", "linguistics"]
+    },
+    {
+      "name": "Colonial Origins: What Spain Left Behind",
+      "topics": [
+        "How did Spanish colonialism create the populations we now call Hispanic?",
+        "What role did mestizaje play in forming Hispanic identity?",
+        "How do indigenous and African roots complicate the Hispanic category?",
+        "What cultural institutions did Spain implant across the Americas?",
+        "How does the Hispanic label obscure distinct colonial experiences?",
+        "Why do some reject Hispanic as an imperial imposition?",
+        "What common cultural traits do scholars identify across Hispanic populations?",
+        "How did Catholicism become central to Hispanic cultural identity?"
+      ],
+      "tags": ["history", "colonialism", "americas", "anthropology"]
+    },
+    {
+      "name": "Hispanic vs. Latino: The Great Debate",
+      "topics": [
+        "What is the difference between Hispanic and Latino?",
+        "Why do some prefer Latino while others prefer Hispanic?",
+        "How do regional preferences for these terms vary across the United States?",
+        "What political connotations attach to each term?",
+        "How do government agencies, media, and academics use these terms differently?",
+        "Is there a generational divide in term preference?",
+        "How do Brazilians and Spaniards fit into this debate?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Latinx: A New Term Emerges",
+      "topics": [
+        "Where did the term Latinx come from and who uses it?",
+        "Why was a gender-neutral alternative to Latino/Latina sought?",
+        "How has Latinx been received within Hispanic communities?",
+        "What do polls show about Latinx acceptance across generations?",
+        "How do linguistic traditionalists critique the term?"
+      ],
+      "tags": ["society", "identity", "americas", "gender"]
+    },
+    {
+      "name": "Race and the Hispanic Category",
+      "topics": [
+        "Is Hispanic a race, an ethnicity, or something else entirely?",
+        "How do Hispanic individuals identify racially on census forms?",
+        "What is the phenomenon of 'Some Other Race' among Hispanic respondents?",
+        "How do Afro-Latinos navigate racial categories in America?",
+        "How do white-passing Hispanics experience race differently?",
+        "Why does Latin America have different racial categories than the U.S.?",
+        "How has the Census tried to address Hispanic racial identification?",
+        "What does 'brown' mean in Hispanic racial discourse?",
+        "How do indigenous-identifying Hispanics navigate these categories?"
+      ],
+      "tags": ["society", "identity", "americas", "race"]
+    },
+    {
+      "name": "National Origin vs. Pan-Ethnic Identity",
+      "topics": [
+        "Do Mexican Americans, Cuban Americans, and Puerto Ricans see themselves as one group?",
+        "When does national origin identity trump pan-ethnic Hispanic identity?",
+        "How do first-generation immigrants differ from later generations in identity?",
+        "What circumstances promote pan-ethnic solidarity?",
+        "How do political movements create or reinforce pan-ethnic identity?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "The Politics of Counting",
+      "topics": [
+        "How does the size of the Hispanic population affect political representation?",
+        "What is at stake in census undercounts of Hispanic populations?",
+        "How do citizenship questions affect Hispanic census participation?",
+        "What redistricting implications flow from Hispanic population data?",
+        "How do Hispanic advocacy groups use demographic data?",
+        "What does the growth of the Hispanic population mean for American politics?",
+        "How do projections of a 'majority-minority' future shape debates?"
+      ],
+      "tags": ["politics", "representation", "americas", "elections"]
+    },
+    {
+      "name": "Marketing and the Hispanic Consumer",
+      "topics": [
+        "How did corporate America discover the Hispanic market?",
+        "What assumptions do marketers make about Hispanic consumers?",
+        "How has Spanish-language advertising shaped Hispanic identity?",
+        "What products and brands have become associated with Hispanic culture?",
+        "How do Hispanics respond to being marketed to as a group?"
+      ],
+      "tags": ["economics", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Who Gets to Be Hispanic?",
+      "topics": [
+        "Can non-Spanish-speakers claim Hispanic identity?",
+        "How do Spaniards fit or not fit the American Hispanic category?",
+        "What about Filipinos with Spanish surnames and heritage?",
+        "How do Sephardic Jews with Iberian roots relate to the label?",
+        "What role does self-identification play vs. external classification?",
+        "Who polices the boundaries of Hispanic identity?",
+        "How do adopted children from Latin America experience Hispanic identity?",
+        "What about Americans who move to Latin America and return?"
+      ],
+      "tags": ["society", "identity", "americas", "anthropology"]
+    },
+    {
+      "name": "Critiques of the Category",
+      "topics": [
+        "Why do some scholars argue Hispanic is a meaningless category?",
+        "How does the Hispanic label flatten important differences?",
+        "What political purposes does the category serve?",
+        "How do some activists reject pan-ethnic labels entirely?",
+        "What would be lost if the Hispanic category disappeared?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "The Future of Hispanic Identity",
+      "topics": [
+        "How will intermarriage affect Hispanic identity over time?",
+        "What happens as more Hispanics identify primarily as American?",
+        "Will the category remain meaningful as it grows?",
+        "How might climate migration from Latin America reshape the category?",
+        "What do young Hispanics think about ethnic labels?",
+        "Is Hispanic identity becoming more or less important?",
+        "How might political polarization affect Hispanic identity formation?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    }
+  ]
+}

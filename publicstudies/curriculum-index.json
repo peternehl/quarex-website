@@ -388,9 +388,369 @@
             ]
         },
         {
+            "id": "hispanic-cultures",
+            "title": "Hispanic Cultures & Identity in America",
+            "icon": "🌮",
+            "description": "The rich diversity within the Hispanic/Latino label — distinct communities, immigration patterns, cultural traditions, and the complex question of identity in the United States.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "HispanicCulturesSyllabus.html",
+            "courses": [
+                {
+                    "title": "What Does \"Hispanic\" Mean?",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/what-does-hispanic-mean"
+                },
+                {
+                    "title": "Latino, Latina, Latinx: The Evolving Politics of Self-Identification",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/latino-latina-latinx-evolving-identity"
+                },
+                {
+                    "title": "Mexican Americans: The Largest and Most Diverse Hispanic Community",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/mexican-americans-largest-hispanic-community"
+                },
+                {
+                    "title": "Puerto Ricans in America: American Citizens, Caribbean Identity",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america"
+                },
+                {
+                    "title": "Cuban Americans: Exile, Success, and Political Complexity",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/cuban-americans-exile-success-complexity"
+                },
+                {
+                    "title": "Dominican Americans: From Quisqueya to Washington Heights",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/dominican-americans-quisqueya-to-washington-heights"
+                },
+                {
+                    "title": "Central Americans in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/central-americans-in-america"
+                },
+                {
+                    "title": "South Americans in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/south-americans-in-america"
+                },
+                {
+                    "title": "The Hispanic Southwest: Tejanos, Nuevomexicanos, and Californios",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-southwest"
+                },
+                {
+                    "title": "Hispanic Florida: The Cuban Foundation and Beyond",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-florida"
+                },
+                {
+                    "title": "Hispanic New York: A Century of Diasporas",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-new-york"
+                },
+                {
+                    "title": "The New Hispanic Geography: Growth Beyond Traditional Gateways",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-new-hispanic-geography"
+                },
+                {
+                    "title": "Hispanic Foodways in America: Regional Cuisines, Fusion, and Identity",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-foodways-in-america"
+                },
+                {
+                    "title": "Hispanic Music in America: From Mariachi to Reggaeton to Latin Pop",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-music-in-america"
+                },
+                {
+                    "title": "Hispanic Religious Life: Faith, Folk Traditions, and Community",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-religious-life"
+                },
+                {
+                    "title": "The Hispanic American Calendar: Celebrations and Traditions",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-american-calendar"
+                },
+                {
+                    "title": "Spanish in America: Language Maintenance, Loss, and Spanglish",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/spanish-in-america"
+                },
+                {
+                    "title": "Hispanic Media: Building a Spanish-Language Public Sphere",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-media"
+                },
+                {
+                    "title": "Afro-Latino Identity: Race Within the Hispanic Experience",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/afro-latino-identity"
+                },
+                {
+                    "title": "The Second Generation and Beyond: Assimilation, Retention, and Hybrid Identities",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-second-generation-and-beyond"
+                }
+            ]
+        },
+        {
+            "id": "hispanic-experience-today",
+            "title": "The Hispanic American Experience Today",
+            "icon": "🗽",
+            "description": "Contemporary issues shaping Hispanic American life — immigration policy, economic realities, education, healthcare, political representation, and civil rights.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "HispanicExperienceTodaySyllabus.html",
+            "courses": [
+                {
+                    "title": "The Undocumented: 11 Million Lives in the Shadows",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-undocumented-11-million-lives-in-the-shadows"
+                },
+                {
+                    "title": "DACA and the Dreamers: A Generation in Limbo",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/daca-and-the-dreamers"
+                },
+                {
+                    "title": "The Asylum System: Refugees at the Border",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-asylum-system-refugees-at-the-border"
+                },
+                {
+                    "title": "Mixed-Status Families: Citizen Children, Undocumented Parents",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/mixed-status-families"
+                },
+                {
+                    "title": "Hispanic Workers in America: Labor, Industry, and Economic Contribution",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-workers-in-america"
+                },
+                {
+                    "title": "Hispanic Entrepreneurs: Building Businesses, Building Wealth",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-entrepreneurs"
+                },
+                {
+                    "title": "The Remittance Economy: Dollars Sent Home",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-remittance-economy"
+                },
+                {
+                    "title": "Poverty, Inequality, and the Hispanic Middle Class",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/poverty-inequality-and-the-hispanic-middle-class"
+                },
+                {
+                    "title": "Hispanic Students in American Schools: K-12 Education",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-students-in-american-schools"
+                },
+                {
+                    "title": "Hispanic Americans in Higher Education: Access, Success, and Barriers",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-americans-in-higher-education"
+                },
+                {
+                    "title": "First-Generation College Students: The Hispanic Experience",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/first-generation-college-students"
+                },
+                {
+                    "title": "Hispanic Health in America: Paradoxes, Disparities, and Care",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-health-in-america"
+                },
+                {
+                    "title": "Mental Health in Hispanic Communities: Stigma, Access, and Healing",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/mental-health-in-hispanic-communities"
+                },
+                {
+                    "title": "Hispanic Americans and COVID-19: Disproportionate Impact and Response",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-covid-19"
+                },
+                {
+                    "title": "The Hispanic Vote: Power, Patterns, and the Path Forward",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-vote"
+                },
+                {
+                    "title": "Hispanic Political Leaders: From Local Office to National Stage",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-political-leaders"
+                },
+                {
+                    "title": "Hispanic Americans and the Two Parties: Competition for the Latino Vote",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-the-two-parties"
+                },
+                {
+                    "title": "Hispanic Americans and Criminal Justice: Policing, Courts, and Incarceration",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-criminal-justice"
+                },
+                {
+                    "title": "Anti-Hispanic Discrimination: Prejudice, Stereotypes, and Hate",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/anti-hispanic-discrimination"
+                },
+                {
+                    "title": "The Future of Hispanic America: Demographics, Power, and Promise",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-future-of-hispanic-america"
+                }
+            ]
+        },
+        {
+            "id": "hispanic-contributions",
+            "title": "Hispanic Contributions to American Culture",
+            "icon": "🎭",
+            "description": "The profound contributions of Hispanic Americans to literature, art, music, science, sports, business, and every dimension of American culture.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "HispanicContributionsSyllabus.html",
+            "courses": [
+                {
+                    "title": "Hispanic Contributions to American Culture: An Overview",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-contributions-to-american-culture"
+                },
+                {
+                    "title": "Hispanic American Literary Giants",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-american-literary-giants"
+                },
+                {
+                    "title": "Hispanic Visual Artists in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-visual-artists-in-america"
+                },
+                {
+                    "title": "Hispanics in Hollywood: Film and Television",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanics-in-hollywood"
+                },
+                {
+                    "title": "Hispanic Theater and Performance",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-theater-and-performance"
+                },
+                {
+                    "title": "The Latin Sound in American Music",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-latin-sound-in-american-music"
+                },
+                {
+                    "title": "Hispanic Dance in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-dance-in-america"
+                },
+                {
+                    "title": "Hispanic Chefs and American Cuisine",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-chefs-and-american-cuisine"
+                },
+                {
+                    "title": "Hispanic Architecture in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-architecture-in-america"
+                },
+                {
+                    "title": "Hispanic Influence on American Fashion",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-influence-on-american-fashion"
+                },
+                {
+                    "title": "Hispanic Scientists and Inventors",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-scientists-and-inventors"
+                },
+                {
+                    "title": "Hispanic Pioneers in Medicine",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-pioneers-in-medicine"
+                },
+                {
+                    "title": "Hispanic Americans in Space and Aviation",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-americans-in-space-and-aviation"
+                },
+                {
+                    "title": "Hispanic Athletes in American Sports",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-athletes-in-american-sports"
+                },
+                {
+                    "title": "Baseball's Latino Revolution",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/baseballs-latino-revolution"
+                },
+                {
+                    "title": "Hispanic Business Visionaries",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-business-visionaries"
+                },
+                {
+                    "title": "Hispanic Military Heroes",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-military-heroes"
+                },
+                {
+                    "title": "Hispanic Journalists and Media Trailblazers",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-journalists-and-media-trailblazers"
+                },
+                {
+                    "title": "Hispanic Educators and Academic Leaders",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-educators-and-academic-leaders"
+                },
+                {
+                    "title": "Spanish Words in American English",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/spanish-words-in-american-english"
+                }
+            ]
+        },
+        {
+            "id": "us-latin-america-relations",
+            "title": "U.S.-Latin America Relations & Hispanic American History",
+            "icon": "🌎",
+            "description": "The intertwined history of the United States and Latin America, from colonialism to intervention to migration, and the deep roots of Hispanic communities in America.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "USLatinAmericaRelationsSyllabus.html",
+            "courses": [
+                {
+                    "title": "Spanish Roots: The Hispanic Southwest Before the U.S.",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/spanish-roots-the-hispanic-southwest-before-the-us"
+                },
+                {
+                    "title": "Latin American Independence and the Monroe Doctrine",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/latin-american-independence-and-the-monroe-doctrine"
+                },
+                {
+                    "title": "The Mexican-American War: Conquest and Consequence",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-mexican-american-war-conquest-and-consequence"
+                },
+                {
+                    "title": "The Spanish-American War and American Empire",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-spanish-american-war-and-american-empire"
+                },
+                {
+                    "title": "Banana Republics: United Fruit and the Intervention Era",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/banana-republics-united-fruit-and-the-intervention-era"
+                },
+                {
+                    "title": "The Good Neighbor Policy: FDR's Latin American Reset",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-good-neighbor-policy-fdrs-latin-american-reset"
+                },
+                {
+                    "title": "Cold War Latin America: Coups, Containment, and the CIA",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/cold-war-latin-america-coups-containment-and-the-cia"
+                },
+                {
+                    "title": "The Cuban Revolution: From Batista to Bay of Pigs",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-cuban-revolution-from-batista-to-bay-of-pigs"
+                },
+                {
+                    "title": "Chile 1973: Allende, Pinochet, and American Complicity",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/chile-1973-allende-pinochet-and-american-complicity"
+                },
+                {
+                    "title": "Operation Condor: State Terror Across the Southern Cone",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/operation-condor-state-terror-across-the-southern-cone"
+                },
+                {
+                    "title": "Central American Wars: Reagan, the Contras, and the Refugees",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/central-american-wars-reagan-the-contras-and-the-refugees"
+                },
+                {
+                    "title": "NAFTA and Its Discontents: Free Trade and Migration",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/nafta-and-its-discontents-free-trade-and-migration"
+                },
+                {
+                    "title": "The Bracero Generation: Mexican Labor and the American Economy",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-bracero-generation-mexican-labor-and-the-american-economy"
+                },
+                {
+                    "title": "Boricua: Puerto Rico and the Mainland",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/boricua-puerto-rico-and-the-mainland"
+                },
+                {
+                    "title": "Cuban Exiles: Mariel, the Rafters, and the Diaspora",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/cuban-exiles-mariel-the-rafters-and-the-diaspora"
+                },
+                {
+                    "title": "The Drug War Era: Narcos, Policy, and Consequences",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-drug-war-era-narcos-policy-and-consequences"
+                },
+                {
+                    "title": "The Border: A History of the Line",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-border-a-history-of-the-line"
+                },
+                {
+                    "title": "Immigration Battles: From Amnesty to DACA",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/immigration-battles-from-amnesty-to-daca"
+                },
+                {
+                    "title": "The Immigration Wedge: How a Policy Became a Political Weapon",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-immigration-wedge-how-a-policy-became-a-political-weapon"
+                }
+            ]
+        },
+        {
             "id": "ethnic-studies",
             "title": "Ethnic Studies",
-            "icon": "🌎",
+            "icon": "🌍",
             "description": "Race, ethnicity, immigration, and identity in America.",
             "lang": "en",
             "status": "live",

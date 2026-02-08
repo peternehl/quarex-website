@@ -739,6 +739,8 @@ const governorStates2026 = [
     'RI','SC','SD','TN','TX','VT','WI','WY'
 ];
 
+const senateSpecialStates2026 = ['FL', 'OH'];
+
 // ── Utilities ──
 function toSlug(str) {
     return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -850,6 +852,14 @@ function buildResults(stateAbbr, stateName, stateSlug, districts, zip, isMultiDi
                 <span class="explore-label">Explore on Quarex &rarr;</span>
             </a>
         `;
+    } else if (senateSpecialStates2026.includes(stateAbbr)) {
+        senateResults.innerHTML = `
+            <a href="${QUAREX}?t=c&l=us-senate-2026-complete&s=special-elections&b=${stateSlug}" class="result-link" target="_blank" rel="noopener" style="background: rgba(245, 158, 11, 0.08); border-color: rgba(245, 158, 11, 0.3);">
+                <span class="state">${stateName}</span>
+                <span class="district">Senate Special Election</span>
+                <span class="explore-label">Explore on Quarex &rarr;</span>
+            </a>
+        `;
     } else {
         senateResults.innerHTML = `<p class="no-race">No Senate race in ${stateName} in 2026</p>`;
     }
@@ -873,9 +883,11 @@ function renderStateGrid() {
     const grid = document.getElementById('stateGrid');
     grid.innerHTML = ALL_STATES.map(state => {
         const hasSenate = senateStates2026.includes(state.abbr);
+        const hasSenateSpecial = senateSpecialStates2026.includes(state.abbr);
         const hasGovernor = governorStates2026.includes(state.abbr);
         const badges = ['H'];
         if (hasSenate) badges.push('S');
+        if (hasSenateSpecial) badges.push('SP');
         if (hasGovernor) badges.push('G');
         return `
             <button class="state-btn" data-abbr="${state.abbr}" onclick="showStateDetail('${state.abbr}')">
@@ -903,6 +915,14 @@ function showStateDetail(abbr) {
             <a href="${QUAREX}?t=c&l=us-senate-2026-complete&s=class-2-regular-elections&b=${state.slug}" class="result-link" target="_blank" rel="noopener">
                 <span class="state">US Senate</span>
                 <span class="district">Class 2 Senate Race</span>
+                <span class="explore-label">Explore on Quarex &rarr;</span>
+            </a>
+        `;
+    } else if (senateSpecialStates2026.includes(abbr)) {
+        links += `
+            <a href="${QUAREX}?t=c&l=us-senate-2026-complete&s=special-elections&b=${state.slug}" class="result-link" target="_blank" rel="noopener" style="background: rgba(245, 158, 11, 0.08); border-color: rgba(245, 158, 11, 0.3);">
+                <span class="state">US Senate</span>
+                <span class="district">Special Election</span>
                 <span class="explore-label">Explore on Quarex &rarr;</span>
             </a>
         `;

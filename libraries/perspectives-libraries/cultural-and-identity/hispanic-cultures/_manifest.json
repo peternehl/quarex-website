@@ -1,0 +1,842 @@
+[
+  {
+    "slug": "what-does-hispanic-mean",
+    "name": "What Does \"Hispanic\" Mean?",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-identity",
+      "ethnic-labels",
+      "census-categories",
+      "latino-terminology",
+      "american-demographics"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "latino-latina-latinx-evolving-identity",
+    "name": "Latino, Latina, Latinx: The Evolving Politics of Self-Identification",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "latino-identity",
+      "gender-language",
+      "generational-change",
+      "identity-politics",
+      "hispanic-terminology"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "mexican-americans-largest-hispanic-community",
+    "name": "Mexican Americans: The Largest and Most Diverse Hispanic Community",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "mexican-americans",
+      "chicano-identity",
+      "hispanic-demographics",
+      "immigration-history",
+      "cultural-diversity"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "puerto-ricans-in-america",
+    "name": "Puerto Ricans in America: American Citizens, Caribbean Identity",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "puerto-ricans",
+      "boricua-identity",
+      "circular-migration",
+      "colonial-status",
+      "nuyorican-culture"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "cuban-americans-exile-success-complexity",
+    "name": "Cuban Americans: Exile, Success, and Political Complexity",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "cuban-americans",
+      "exile-community",
+      "miami-cubans",
+      "hispanic-politics",
+      "refugee-success"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "dominican-americans-quisqueya-to-washington-heights",
+    "name": "Dominican Americans: From Quisqueya to Washington Heights",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "dominican-americans",
+      "caribbean-diaspora",
+      "new-york-latinos",
+      "transnational-identity",
+      "washington-heights"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "central-americans-in-america",
+    "name": "Central Americans in America: Salvadorans, Guatemalans, Hondurans, and Nicaraguans",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "central-americans",
+      "salvadoran-americans",
+      "guatemalan-americans",
+      "refugee-communities",
+      "war-migration"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "south-americans-in-america",
+    "name": "South Americans in America: Colombians, Venezuelans, Peruvians, Ecuadorians, and Argentines",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "south-americans",
+      "colombian-americans",
+      "venezuelan-diaspora",
+      "professional-immigrants",
+      "diverse-origins"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-hispanic-southwest",
+    "name": "The Hispanic Southwest: Tejanos, Nuevomexicanos, and Californios",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-southwest",
+      "tejanos",
+      "nuevomexicanos",
+      "californios",
+      "ancestral-lands"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-florida",
+    "name": "Hispanic Florida: The Cuban Foundation and Beyond",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-florida",
+      "miami-latinos",
+      "cuban-dominance",
+      "puerto-rican-florida",
+      "diverse-diaspora"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-new-york",
+    "name": "Hispanic New York: A Century of Diasporas",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-new-york",
+      "nuyorican",
+      "washington-heights",
+      "urban-latinos",
+      "multiple-diasporas"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-new-hispanic-geography",
+    "name": "The New Hispanic Geography: Growth Beyond Traditional Gateways",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-geography",
+      "new-destinations",
+      "southern-growth",
+      "midwest-latinos",
+      "dispersal-patterns"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-foodways-in-america",
+    "name": "Hispanic Foodways in America: Regional Cuisines, Fusion, and Identity",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-food",
+      "latino-cuisine",
+      "food-identity",
+      "culinary-traditions",
+      "fusion-cooking"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-music-in-america",
+    "name": "Hispanic Music in America: From Mariachi to Reggaeton to Latin Pop",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-music",
+      "latin-pop",
+      "reggaeton",
+      "salsa",
+      "musical-identity"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-religious-life",
+    "name": "Hispanic Religious Life: Faith, Folk Traditions, and Community",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-religion",
+      "latino-catholicism",
+      "evangelical-growth",
+      "folk-traditions",
+      "faith-community"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-hispanic-american-calendar",
+    "name": "The Hispanic American Calendar: Celebrations and Traditions",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-celebrations",
+      "latino-holidays",
+      "cultural-traditions",
+      "quinceañera",
+      "dia-de-los-muertos"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "spanish-in-america",
+    "name": "Spanish in America: Language Maintenance, Loss, and Spanglish",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "spanish-language",
+      "bilingualism",
+      "spanglish",
+      "language-shift",
+      "heritage-speakers"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-media",
+    "name": "Hispanic Media: Building a Spanish-Language Public Sphere",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-media",
+      "univision",
+      "spanish-language-tv",
+      "latino-representation",
+      "media-industry"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "afro-latino-identity",
+    "name": "Afro-Latino Identity: Race Within the Hispanic Experience",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "afro-latino",
+      "black-hispanics",
+      "race-ethnicity",
+      "intersectionality",
+      "colorism"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-second-generation-and-beyond",
+    "name": "The Second Generation and Beyond: Assimilation, Retention, and Hybrid Identities",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "second-generation",
+      "assimilation",
+      "hybrid-identity",
+      "generational-change",
+      "latino-youth"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-undocumented-11-million-lives-in-the-shadows",
+    "name": "The Undocumented: 11 Million Lives in the Shadows",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "undocumented-immigrants",
+      "unauthorized-immigration",
+      "immigration-enforcement",
+      "border-policy",
+      "shadow-population"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "daca-and-the-dreamers",
+    "name": "DACA and the Dreamers: A Generation in Limbo",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "daca",
+      "dreamers",
+      "undocumented-youth",
+      "immigration-policy",
+      "deferred-action"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-asylum-system-refugees-at-the-border",
+    "name": "The Asylum System: Refugees at the Border",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "asylum",
+      "refugees",
+      "border-crisis",
+      "immigration-courts",
+      "humanitarian-protection"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "mixed-status-families",
+    "name": "Mixed-Status Families: Citizen Children, Undocumented Parents",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "mixed-status",
+      "family-separation",
+      "citizen-children",
+      "deportation-fear",
+      "immigration-enforcement"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-workers-in-america",
+    "name": "Hispanic Workers in America: Labor, Industry, and Economic Contribution",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-labor",
+      "workforce",
+      "economic-contribution",
+      "working-class",
+      "employment"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-entrepreneurs",
+    "name": "Hispanic Entrepreneurs: Building Businesses, Building Wealth",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-business",
+      "entrepreneurship",
+      "small-business",
+      "economic-mobility",
+      "business-ownership"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-remittance-economy",
+    "name": "The Remittance Economy: Dollars Sent Home",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "remittances",
+      "transnational-finance",
+      "money-transfers",
+      "economic-development",
+      "diaspora-economy"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "poverty-inequality-and-the-hispanic-middle-class",
+    "name": "Poverty, Inequality, and the Hispanic Middle Class",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-poverty",
+      "economic-inequality",
+      "middle-class",
+      "wealth-gap",
+      "economic-mobility"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-students-in-american-schools",
+    "name": "Hispanic Students in American Schools: K-12 Education",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-education",
+      "k-12",
+      "achievement-gap",
+      "bilingual-education",
+      "school-segregation"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-americans-in-higher-education",
+    "name": "Hispanic Americans in Higher Education: Access, Success, and Barriers",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-college",
+      "higher-education",
+      "college-access",
+      "hsi",
+      "student-success"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "first-generation-college-students",
+    "name": "First-Generation College Students: The Hispanic Experience",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "first-generation",
+      "college-access",
+      "family-sacrifice",
+      "educational-mobility",
+      "student-success"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-health-in-america",
+    "name": "Hispanic Health in America: Paradoxes, Disparities, and Care",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-health",
+      "health-disparities",
+      "hispanic-paradox",
+      "healthcare-access",
+      "chronic-disease"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "mental-health-in-hispanic-communities",
+    "name": "Mental Health in Hispanic Communities: Stigma, Access, and Healing",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-mental-health",
+      "stigma",
+      "therapy-access",
+      "immigration-trauma",
+      "cultural-barriers"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-americans-and-covid-19",
+    "name": "Hispanic Americans and COVID-19: Disproportionate Impact and Response",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "covid-19",
+      "pandemic-disparities",
+      "essential-workers",
+      "healthcare-inequity",
+      "hispanic-health"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-hispanic-vote",
+    "name": "The Hispanic Vote: Power, Patterns, and the Path Forward",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-vote",
+      "latino-politics",
+      "electoral-power",
+      "voting-patterns",
+      "political-mobilization"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-political-leaders",
+    "name": "Hispanic Political Leaders: From Local Office to National Stage",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-politicians",
+      "political-representation",
+      "latino-leadership",
+      "elected-officials",
+      "public-service"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-americans-and-the-two-parties",
+    "name": "Hispanic Americans and the Two Parties: Competition for the Latino Vote",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-politics",
+      "partisanship",
+      "democratic-party",
+      "republican-party",
+      "political-alignment"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-americans-and-criminal-justice",
+    "name": "Hispanic Americans and Criminal Justice: Policing, Courts, and Incarceration",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-criminal-justice",
+      "policing",
+      "incarceration",
+      "court-system",
+      "reform"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "anti-hispanic-discrimination",
+    "name": "Anti-Hispanic Discrimination: Prejudice, Stereotypes, and Hate",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "anti-hispanic-discrimination",
+      "prejudice",
+      "stereotypes",
+      "hate-crimes",
+      "civil-rights"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-future-of-hispanic-america",
+    "name": "The Future of Hispanic America: Demographics, Power, and Promise",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-future",
+      "demographics",
+      "political-power",
+      "cultural-influence",
+      "american-identity"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-contributions-to-american-culture",
+    "name": "Hispanic Contributions to American Culture: An Overview",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-contributions",
+      "cultural-influence",
+      "american-culture",
+      "diversity",
+      "heritage"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-american-literary-giants",
+    "name": "Hispanic American Literary Giants",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-literature",
+      "latino-writers",
+      "chicano-literature",
+      "american-authors",
+      "literary-history"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-visual-artists-in-america",
+    "name": "Hispanic Visual Artists in America",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-art",
+      "latino-artists",
+      "visual-arts",
+      "muralism",
+      "american-art"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanics-in-hollywood",
+    "name": "Hispanics in Hollywood: Film and Television",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-actors",
+      "hollywood",
+      "latino-representation",
+      "film-history",
+      "television"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-theater-and-performance",
+    "name": "Hispanic Theater and Performance",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-theater",
+      "broadway",
+      "latino-performance",
+      "el-teatro-campesino",
+      "dramatic-arts"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "the-latin-sound-in-american-music",
+    "name": "The Latin Sound in American Music",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "latin-music",
+      "musical-influence",
+      "latin-jazz",
+      "crossover-artists",
+      "american-music"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-dance-in-america",
+    "name": "Hispanic Dance in America",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-dance",
+      "salsa",
+      "latin-dance",
+      "folkloric-dance",
+      "dance-culture"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-chefs-and-american-cuisine",
+    "name": "Hispanic Chefs and American Cuisine",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-chefs",
+      "culinary-arts",
+      "restaurant-industry",
+      "food-culture",
+      "american-cuisine"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-architecture-in-america",
+    "name": "Hispanic Architecture in America",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-architecture",
+      "spanish-colonial",
+      "mission-style",
+      "urban-design",
+      "american-architecture"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-scientists-and-inventors",
+    "name": "Hispanic Scientists and Inventors",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-scientists",
+      "inventors",
+      "stem",
+      "nobel-laureates",
+      "scientific-discovery"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-pioneers-in-medicine",
+    "name": "Hispanic Pioneers in Medicine",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-medicine",
+      "medical-pioneers",
+      "healthcare-leaders",
+      "medical-research",
+      "physicians"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-americans-in-space-and-aviation",
+    "name": "Hispanic Americans in Space and Aviation",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-astronauts",
+      "latino-aviation",
+      "nasa",
+      "space-exploration",
+      "aerospace"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-athletes-in-american-sports",
+    "name": "Hispanic Athletes in American Sports",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-athletes",
+      "sports-history",
+      "american-sports",
+      "athletic-excellence",
+      "sports-integration"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "baseballs-latino-revolution",
+    "name": "Baseball's Latino Revolution",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "baseball-history",
+      "latino-players",
+      "mlb",
+      "sports-integration",
+      "dominican-baseball"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-business-visionaries",
+    "name": "Hispanic Business Visionaries",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "hispanic-business",
+      "entrepreneurs",
+      "corporate-leadership",
+      "business-history",
+      "economic-impact"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-military-heroes",
+    "name": "Hispanic Military Heroes",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "military-history",
+      "hispanic-veterans",
+      "medal-of-honor",
+      "american-heroes",
+      "military-service"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-influence-on-american-fashion",
+    "name": "Hispanic Influence on American Fashion",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "fashion-history",
+      "hispanic-designers",
+      "american-style",
+      "cultural-fashion",
+      "design-industry"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "spanish-words-in-american-english",
+    "name": "Spanish Words in American English",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "linguistics",
+      "spanish-influence",
+      "american-english",
+      "language-history",
+      "cultural-exchange"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-journalists-and-media-trailblazers",
+    "name": "Hispanic Journalists and Media Trailblazers",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "journalism-history",
+      "hispanic-media",
+      "broadcast-news",
+      "press-freedom",
+      "media-representation"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hispanic-educators-and-academic-leaders",
+    "name": "Hispanic Educators and Academic Leaders",
+    "description": null,
+    "chapterCount": 12,
+    "tags": [
+      "education-history",
+      "hispanic-educators",
+      "academic-leadership",
+      "higher-education",
+      "school-leaders"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  }
+]

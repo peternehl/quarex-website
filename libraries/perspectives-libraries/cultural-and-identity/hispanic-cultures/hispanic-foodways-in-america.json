@@ -1,0 +1,158 @@
+{
+  "name": "Hispanic Foodways in America: Regional Cuisines, Fusion, and Identity",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-food",
+    "latino-cuisine",
+    "food-identity",
+    "culinary-traditions",
+    "fusion-cooking"
+  ],
+  "chapters": [
+    {
+      "name": "Food as Identity Marker",
+      "topics": [
+        "How does food define Hispanic cultural identity?",
+        "What role does cooking play in maintaining heritage across generations?",
+        "How do food traditions connect diaspora communities to homelands?",
+        "What happens to food practices as families assimilate?",
+        "How do holidays and celebrations center on food?",
+        "What debates exist about authentic vs. adapted cuisine?"
+      ],
+      "tags": ["society", "cultural-heritage", "americas", "anthropology"]
+    },
+    {
+      "name": "Mexican and Tex-Mex",
+      "topics": [
+        "How did Mexican food become America's favorite ethnic cuisine?",
+        "What is Tex-Mex and how did it develop?",
+        "How does authentic Mexican cuisine differ from American versions?",
+        "What regional Mexican cuisines exist and how do they differ?",
+        "How have Mexican restaurant chains shaped American tastes?",
+        "What gourmet and fine dining Mexican food has emerged?",
+        "How do Mexican American families cook at home vs. restaurant expectations?"
+      ],
+      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+    },
+    {
+      "name": "Caribbean Hispanic Cuisines",
+      "topics": [
+        "What defines Puerto Rican cuisine?",
+        "How does Cuban food differ from Puerto Rican?",
+        "What is Dominican cuisine and its signature dishes?",
+        "What African, Taíno, and Spanish influences appear in Caribbean food?",
+        "How have Caribbean cuisines adapted in New York, Miami, and elsewhere?",
+        "What role do family recipes play in Caribbean Hispanic identity?"
+      ],
+      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+    },
+    {
+      "name": "Central American Cuisines",
+      "topics": [
+        "What distinguishes Salvadoran cuisine, including pupusas?",
+        "How does Guatemalan food reflect Mayan heritage?",
+        "What are the signature dishes of Honduran and Nicaraguan cooking?",
+        "How available is Central American food in America?",
+        "What restaurants and markets serve Central American communities?",
+        "How do Central Americans maintain food traditions in the diaspora?"
+      ],
+      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+    },
+    {
+      "name": "South American Cuisines",
+      "topics": [
+        "What is Peruvian cuisine and why has it become globally famous?",
+        "How has Colombian food developed in America?",
+        "What are the signature dishes of Venezuelan cuisine?",
+        "How does Argentine food culture differ from other Latin cuisines?",
+        "What role does ceviche play across South American cuisines?",
+        "How are South American restaurants growing in America?"
+      ],
+      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+    },
+    {
+      "name": "The Business of Hispanic Food",
+      "topics": [
+        "How big is the Hispanic food market in America?",
+        "What major Hispanic food companies exist?",
+        "How have supermarket chains adapted to Hispanic consumers?",
+        "What is the tienda or bodega model and how has it evolved?",
+        "How do restaurants range from taquerias to fine dining?",
+        "What food products have crossed over to mainstream America?"
+      ],
+      "tags": ["economics", "cultural-heritage", "americas", "trade"]
+    },
+    {
+      "name": "Home Cooking and Family Traditions",
+      "topics": [
+        "What role does home cooking play in Hispanic families?",
+        "How are recipes passed between generations?",
+        "What are the signature home-cooking dishes across communities?",
+        "How do working-class constraints shape Hispanic home cooking?",
+        "What happens when young people don't learn traditional cooking?",
+        "How do cookbook and media representations affect home cooking?"
+      ],
+      "tags": ["society", "tradition", "americas", "sociology"]
+    },
+    {
+      "name": "Street Food and Informal Economy",
+      "topics": [
+        "What street food traditions exist in Hispanic America?",
+        "How do taco trucks and food carts operate?",
+        "What regulations and conflicts affect Hispanic street vendors?",
+        "How has street food crossed into mainstream foodie culture?",
+        "What role do eloteros, paleteros, and other vendors play?",
+        "How does informal food economy serve immigrant communities?"
+      ],
+      "tags": ["economics", "cultural-heritage", "americas", "labor"]
+    },
+    {
+      "name": "Fusion and Innovation",
+      "topics": [
+        "What Hispanic fusion cuisines have emerged?",
+        "How do second-generation chefs reinterpret traditional dishes?",
+        "What Korean-Mexican and other Asian-Latino fusions exist?",
+        "How does fine dining incorporate Hispanic traditions?",
+        "What celebrity Hispanic chefs have influenced American cuisine?",
+        "What controversies exist around fusion and appropriation?"
+      ],
+      "tags": ["arts", "innovation", "americas", "cooking"]
+    },
+    {
+      "name": "Beverages and Drink Culture",
+      "topics": [
+        "What beverages are central to Hispanic food culture?",
+        "How has horchata, agua fresca, and other drinks spread?",
+        "What is the role of coffee in different Hispanic cultures?",
+        "How do alcoholic beverages like tequila and rum connect to identity?",
+        "What beverage businesses have Hispanic Americans built?"
+      ],
+      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+    },
+    {
+      "name": "Health, Nutrition, and Food Access",
+      "topics": [
+        "What nutrition challenges face Hispanic communities?",
+        "How does the American food environment affect Hispanic diets?",
+        "What food desert issues exist in Hispanic neighborhoods?",
+        "How are traditional diets changing with Americanization?",
+        "What health outcomes relate to changing food practices?",
+        "How are communities addressing food access and health?",
+        "What role do government nutrition programs play?"
+      ],
+      "tags": ["health", "inequality", "americas", "nutrition"]
+    },
+    {
+      "name": "The Future of Hispanic Food in America",
+      "topics": [
+        "How will Hispanic food continue to influence American cuisine?",
+        "What food trends are emerging in Hispanic communities?",
+        "How are young Hispanic Americans relating to food traditions?",
+        "What regional variations are developing in American Hispanic food?",
+        "Will Hispanic food remain distinctive or become fully mainstream?",
+        "How might climate change and immigration policy affect Hispanic food culture?"
+      ],
+      "tags": ["society", "cultural-heritage", "americas", "sociology"]
+    }
+  ]
+}

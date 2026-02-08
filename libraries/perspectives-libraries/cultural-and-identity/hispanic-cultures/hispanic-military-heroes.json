@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic Military Heroes",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "military-history",
+    "hispanic-veterans",
+    "medal-of-honor",
+    "american-heroes",
+    "military-service"
+  ],
+  "chapters": [
+    {
+      "name": "Early Hispanic Military Service",
+      "topics": [
+        "How did Hispanics serve in early American military conflicts?",
+        "What role did Hispanic soldiers play in the Civil War?",
+        "How did Hispanic Americans serve in the Spanish-American War?",
+        "What recognition did early Hispanic soldiers receive?",
+        "What barriers did Hispanic servicemembers face?",
+        "What legacy did early Hispanic military service establish?"
+      ],
+      "tags": ["history", "military", "americas", "pioneers"]
+    },
+    {
+      "name": "World War I Service",
+      "topics": [
+        "How did Hispanic Americans serve in World War I?",
+        "What units included significant Hispanic representation?",
+        "How were Hispanic soldiers treated during WWI?",
+        "What heroism did Hispanic soldiers display?",
+        "How did WWI service affect Hispanic communities at home?",
+        "What recognition did Hispanic WWI veterans receive?"
+      ],
+      "tags": ["history", "military", "americas", "wwi"]
+    },
+    {
+      "name": "World War II: Extraordinary Valor",
+      "topics": [
+        "What role did Hispanic Americans play in World War II?",
+        "Who were the Hispanic Medal of Honor recipients in WWII?",
+        "What was the experience of Hispanic soldiers in combat?",
+        "How did WWII service change Hispanic communities?",
+        "What discrimination did Hispanic veterans face upon return?",
+        "What legacy did WWII Hispanic service create?"
+      ],
+      "tags": ["history", "military", "americas", "wwii"]
+    },
+    {
+      "name": "Korea and Vietnam",
+      "topics": [
+        "How did Hispanic Americans serve in the Korean War?",
+        "What heroism marked Hispanic service in Korea?",
+        "What was Hispanic participation in the Vietnam War?",
+        "Who were the Hispanic heroes of Vietnam?",
+        "How did these wars affect Hispanic communities?",
+        "What recognition have Korean and Vietnam veterans received?"
+      ],
+      "tags": ["history", "military", "americas", "modern-warfare"]
+    },
+    {
+      "name": "Medal of Honor Recipients",
+      "topics": [
+        "How many Hispanic Americans have received the Medal of Honor?",
+        "Who are the most decorated Hispanic military heroes?",
+        "What stories of valor define Hispanic Medal of Honor recipients?",
+        "How have delayed recognitions honored Hispanic heroes?",
+        "What does the Medal of Honor represent for Hispanic Americans?",
+        "How are Medal of Honor recipients honored and remembered?"
+      ],
+      "tags": ["history", "military", "americas", "heroes"]
+    },
+    {
+      "name": "Modern Military Service",
+      "topics": [
+        "How are Hispanics represented in today's military?",
+        "What roles do Hispanic servicemembers fill across branches?",
+        "How have Hispanics served in Iraq and Afghanistan?",
+        "What barriers affect Hispanic advancement in the military?",
+        "How has military service affected Hispanic families?",
+        "What future does Hispanic military service have?"
+      ],
+      "tags": ["society", "military", "americas", "current-events"]
+    },
+    {
+      "name": "Leadership and Officers",
+      "topics": [
+        "Who are the highest-ranking Hispanic military officers?",
+        "How have Hispanic generals and admirals risen in leadership?",
+        "What barriers limit Hispanic advancement to senior ranks?",
+        "How are Hispanic officers serving in command positions?",
+        "What diversity initiatives support Hispanic leadership?",
+        "What would greater Hispanic leadership mean for the military?"
+      ],
+      "tags": ["society", "military-leadership", "americas", "representation"]
+    },
+    {
+      "name": "Women in Uniform",
+      "topics": [
+        "How have Latina women served in the American military?",
+        "What pioneering roles have Latina servicewomen held?",
+        "Who are notable Latina military leaders?",
+        "What barriers have Latina servicemembers faced?",
+        "How has Latina military participation grown?",
+        "What future do Latina women have in military service?"
+      ],
+      "tags": ["society", "women-military", "americas", "gender-equality"]
+    },
+    {
+      "name": "Veterans and the Return Home",
+      "topics": [
+        "What challenges have Hispanic veterans faced returning home?",
+        "How has VA healthcare served Hispanic veterans?",
+        "What mental health issues affect Hispanic veterans?",
+        "How have Hispanic veteran organizations advocated for veterans?",
+        "What educational benefits have Hispanic veterans accessed?",
+        "How are Hispanic veteran communities supporting each other?"
+      ],
+      "tags": ["society", "veterans", "americas", "support-services"]
+    },
+    {
+      "name": "Immigration and Military Service",
+      "topics": [
+        "How have immigrants served in the American military?",
+        "What path to citizenship has military service provided?",
+        "How have DACA recipients and undocumented immigrants served?",
+        "What controversies surround immigrant military service?",
+        "How has policy affected immigrant servicemembers?",
+        "What future will immigrant military service have?"
+      ],
+      "tags": ["society", "migration", "americas", "citizenship"]
+    },
+    {
+      "name": "Memorials and Recognition",
+      "topics": [
+        "What memorials honor Hispanic military service?",
+        "How are Hispanic veterans commemorated on Veterans Day and Memorial Day?",
+        "What museums and monuments preserve Hispanic military history?",
+        "How have communities honored their Hispanic veterans?",
+        "What efforts continue to recognize unheralded Hispanic heroes?",
+        "How can Hispanic military contributions be better remembered?"
+      ],
+      "tags": ["history", "memorials", "americas", "recognition"]
+    },
+    {
+      "name": "The Legacy of Service",
+      "topics": [
+        "What does military service mean to Hispanic communities?",
+        "How has military service advanced Hispanic integration?",
+        "What lessons does Hispanic military history teach?",
+        "How do Hispanic veterans inspire future generations?",
+        "What role does military tradition play in Hispanic families?",
+        "What is the enduring legacy of Hispanic military heroes?"
+      ],
+      "tags": ["society", "heritage", "americas", "legacy"]
+    }
+  ]
+}

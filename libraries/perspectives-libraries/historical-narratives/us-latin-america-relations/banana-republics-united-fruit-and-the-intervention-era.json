@@ -1,0 +1,169 @@
+{
+  "name": "Banana Republics: United Fruit and the Intervention Era",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "united-fruit-company",
+    "dollar-diplomacy",
+    "marine-interventions",
+    "corporate-imperialism",
+    "central-america"
+  ],
+  "chapters": [
+    {
+      "name": "The Rise of United Fruit: Building a Corporate Empire",
+      "topics": [
+        "How did the United Fruit Company come to dominate Central American economies?",
+        "What business practices allowed United Fruit to acquire vast landholdings?",
+        "How did the company control transportation, ports, and communications?",
+        "What was daily life like for workers on United Fruit plantations?",
+        "How did United Fruit manipulate local governments to its advantage?",
+        "What role did racial hierarchies play in company operations?",
+        "How did 'banana republic' become a term of derision?"
+      ],
+      "tags": ["economics", "colonialism", "americas", "trade"]
+    },
+    {
+      "name": "Dollar Diplomacy: Business Interests and Foreign Policy",
+      "topics": [
+        "What was dollar diplomacy and who coined the term?",
+        "How did the Taft administration link financial interests to foreign policy?",
+        "What role did American banks play in Caribbean and Central American nations?",
+        "How did debt become a tool of control over sovereign nations?",
+        "What justified intervention when loans were at risk?",
+        "How did dollar diplomacy differ from Roosevelt's big stick approach?",
+        "What patterns did this era establish for later interventions?"
+      ],
+      "tags": ["economics", "diplomacy", "americas", "geopolitics"]
+    },
+    {
+      "name": "The Marines Land: Occupation of Nicaragua",
+      "topics": [
+        "Why did U.S. Marines occupy Nicaragua repeatedly between 1912 and 1933?",
+        "How did occupation shape Nicaraguan politics and institutions?",
+        "Who was Augusto Sandino and why did he resist American occupation?",
+        "What was the legacy of the National Guard created by Americans?",
+        "How did Nicaraguans experience daily life under occupation?",
+        "What atrocities occurred during counterinsurgency operations?",
+        "How does this history connect to later U.S.-Nicaragua conflicts?"
+      ],
+      "tags": ["conflict", "colonialism", "americas", "modern-history"]
+    },
+    {
+      "name": "Haiti: The Longest Occupation",
+      "topics": [
+        "What triggered the U.S. occupation of Haiti in 1915?",
+        "How long did American forces remain and what did they do?",
+        "What forced labor system did Americans impose on Haitians?",
+        "How did occupation affect Haitian sovereignty and self-governance?",
+        "What resistance movements emerged against American occupation?",
+        "How did racial attitudes shape American rule in Haiti?",
+        "What institutions and debts did occupation leave behind?"
+      ],
+      "tags": ["conflict", "colonialism", "americas", "modern-history"]
+    },
+    {
+      "name": "The Dominican Republic: Intervention and Control",
+      "topics": [
+        "What led to U.S. military intervention in the Dominican Republic?",
+        "How did American occupation from 1916-1924 reshape the country?",
+        "What role did customs receivership play in American control?",
+        "How did occupation create the conditions for Trujillo's dictatorship?",
+        "What infrastructure did Americans build and at what cost?",
+        "How did Dominicans resist occupation?",
+        "What long-term effects did this period have on Dominican development?"
+      ],
+      "tags": ["conflict", "governance", "americas", "modern-history"]
+    },
+    {
+      "name": "Smedley Butler: War Is a Racket",
+      "topics": [
+        "Who was Smedley Butler and what was his military career?",
+        "What led the most decorated Marine to denounce American interventions?",
+        "What did Butler mean when he called himself 'a racketeer for capitalism'?",
+        "How did Butler describe his role in protecting business interests?",
+        "Why was his book 'War Is a Racket' so controversial?",
+        "What corporations specifically benefited from interventions he led?",
+        "How is Butler remembered today?"
+      ],
+      "tags": ["conflict", "accountability", "americas", "modern-history"]
+    },
+    {
+      "name": "Guatemala: The First CIA Coup",
+      "topics": [
+        "What reforms did Jacobo Arbenz attempt in Guatemala?",
+        "How did land reform threaten United Fruit Company interests?",
+        "What role did the CIA play in the 1954 coup?",
+        "How did the Eisenhower administration justify intervention?",
+        "What government replaced Arbenz and with what consequences?",
+        "How did the coup set the stage for decades of civil war?",
+        "What documents have been declassified about the operation?"
+      ],
+      "tags": ["politics", "authoritarianism", "americas", "cold-war"]
+    },
+    {
+      "name": "Honduras: The Ultimate Banana Republic",
+      "topics": [
+        "How did fruit companies come to dominate Honduran politics?",
+        "What made Honduras the archetypal 'banana republic'?",
+        "How did companies play different factions against each other?",
+        "What was life like in company towns and on plantations?",
+        "How did labor organizing challenge company power?",
+        "What role did Honduras play as a staging ground for regional interventions?",
+        "How did this history shape modern Honduran instability?"
+      ],
+      "tags": ["economics", "colonialism", "americas", "labor"]
+    },
+    {
+      "name": "Labor Resistance: Workers Fight Back",
+      "topics": [
+        "How did plantation workers organize despite company repression?",
+        "What were the major strikes against United Fruit and other companies?",
+        "How did companies and governments respond to labor organizing?",
+        "What massacres occurred when workers demanded better conditions?",
+        "How did unions connect to broader political movements?",
+        "What role did Communist and Socialist organizers play?",
+        "How did labor struggles contribute to later revolutionary movements?"
+      ],
+      "tags": ["society", "activism", "americas", "labor"]
+    },
+    {
+      "name": "The Panama Canal: America's Strategic Prize",
+      "topics": [
+        "How did the United States acquire the Panama Canal Zone?",
+        "What role did the U.S. play in Panama's separation from Colombia?",
+        "How did the Canal Zone function as American territory?",
+        "What was life like for Panamanians living alongside the Zone?",
+        "How did the canal shape American strategic interests in the region?",
+        "What tensions built up over decades of American control?",
+        "How and when did Panama regain sovereignty over the canal?"
+      ],
+      "tags": ["politics", "infrastructure", "americas", "geopolitics"]
+    },
+    {
+      "name": "Patterns of Intervention: What the Era Revealed",
+      "topics": [
+        "What common patterns characterized early 20th century interventions?",
+        "How did economic interests drive military action?",
+        "What racial and cultural attitudes justified intervention?",
+        "How did interventions affect democracy and development?",
+        "What institutions did occupations create or destroy?",
+        "How did this era shape Latin American views of the United States?",
+        "What continuities connect this era to later Cold War interventions?"
+      ],
+      "tags": ["history", "colonialism", "americas", "geopolitics"]
+    },
+    {
+      "name": "Legacy: The Roots of Anti-Americanism",
+      "topics": [
+        "How did the intervention era shape Latin American nationalism?",
+        "What resentments built up from decades of occupation and interference?",
+        "How did this history fuel later revolutionary movements?",
+        "What happened to the companies that drove intervention?",
+        "How is this era remembered in Central American and Caribbean countries?",
+        "What reparations or acknowledgments have been made?",
+        "Why does this history matter for understanding current relations?"
+      ],
+      "tags": ["history", "nationalism", "americas", "modern-history"]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Immigration Battles: From Amnesty to DACA",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "immigration-policy",
+    "irca-amnesty",
+    "daca",
+    "immigration-reform",
+    "undocumented-immigrants"
+  ],
+  "chapters": [
+    {
+      "name": "The 1986 Amnesty: Reagan's Immigration Reform",
+      "topics": [
+        "What was the Immigration Reform and Control Act (IRCA)?",
+        "How many undocumented immigrants received amnesty?",
+        "What employer sanctions were included and how did they work?",
+        "Who was eligible for legalization and who was excluded?",
+        "What was the process for obtaining legal status?",
+        "Why did conservatives support the 1986 amnesty?",
+        "What happened to those who legalized under IRCA?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "California's Proposition 187: The Anti-Immigrant Backlash",
+      "topics": [
+        "What did California's Proposition 187 propose?",
+        "What political and economic conditions led to Prop 187?",
+        "How did the campaign frame undocumented immigrants?",
+        "Who supported and opposed the measure?",
+        "What happened when Prop 187 passed?",
+        "How did courts strike down the proposition?",
+        "What political backlash did Prop 187 generate?"
+      ],
+      "tags": ["politics", "nationalism", "americas", "us-politics"]
+    },
+    {
+      "name": "The 1996 Laws: Enforcement Takes Priority",
+      "topics": [
+        "What immigration laws passed in 1996?",
+        "How did IIRIRA change enforcement and deportation?",
+        "What new grounds for deportation were created?",
+        "How did the laws restrict legal immigration options?",
+        "What consequences fell on longtime residents?",
+        "How did the laws affect mixed-status families?",
+        "What did the 1996 laws reveal about the political climate?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "After 9/11: Immigration as Security",
+      "topics": [
+        "How did September 11 change immigration enforcement?",
+        "What role did immigration agencies play in counterterrorism?",
+        "How was DHS created and what happened to INS?",
+        "What special registration programs targeted certain nationalities?",
+        "How did enforcement priorities shift after 9/11?",
+        "What happened to immigrant communities under heightened scrutiny?",
+        "How did security framing reshape immigration debates?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "The Failed Reforms: 2006-2007",
+      "topics": [
+        "What comprehensive immigration reform did Congress consider?",
+        "What did the Sensenbrenner bill propose?",
+        "How did the 2006 immigrant rights marches emerge?",
+        "Why did millions march in spring 2006?",
+        "What happened to the bipartisan reform effort?",
+        "How did the marches affect the political debate?",
+        "Why did comprehensive reform fail?"
+      ],
+      "tags": ["politics", "activism", "americas", "us-politics"]
+    },
+    {
+      "name": "Deportation Nation: Enforcement Under Obama",
+      "topics": [
+        "How did deportation numbers increase under Obama?",
+        "What was Secure Communities and how did it work?",
+        "How did local-federal cooperation expand?",
+        "Why was Obama called the 'deporter in chief'?",
+        "What priorities did enforcement focus on?",
+        "How did immigrant communities experience enforcement?",
+        "What contradictions existed in Obama's approach?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "DACA: Protecting the Dreamers",
+      "topics": [
+        "What is DACA and who does it protect?",
+        "Why did Obama create DACA through executive action?",
+        "What requirements must DACA recipients meet?",
+        "How many people have received DACA?",
+        "What benefits and limitations does DACA provide?",
+        "How has DACA survived legal and political challenges?",
+        "What is the future of DACA recipients?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "The Dreamers: A Generation in Limbo",
+      "topics": [
+        "Who are the Dreamers and how did they come to the U.S.?",
+        "What experiences define growing up undocumented?",
+        "How did Dreamers organize and advocate for themselves?",
+        "What educational and career achievements have Dreamers attained?",
+        "What psychological toll does uncertain status take?",
+        "How do Dreamers relate to their parents' choices?",
+        "What do Dreamers want from immigration policy?"
+      ],
+      "tags": ["society", "identity", "americas", "immigration"]
+    },
+    {
+      "name": "Trump's Crackdown: Enforcement Unchained",
+      "topics": [
+        "How did Trump change immigration enforcement priorities?",
+        "What was the 'zero tolerance' policy?",
+        "How did family separation at the border work?",
+        "What travel bans were implemented?",
+        "How did ICE operations change under Trump?",
+        "What happened to asylum and refugee admissions?",
+        "How did immigrant communities respond to the crackdown?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Sanctuary: Cities and States Push Back",
+      "topics": [
+        "What are sanctuary cities and how do they work?",
+        "Why do some jurisdictions limit cooperation with ICE?",
+        "What legal battles have sanctuary policies faced?",
+        "How do sanctuary policies affect immigrant communities?",
+        "What have been the consequences for non-cooperation?",
+        "How do police chiefs view immigration enforcement?",
+        "What is the future of the sanctuary movement?"
+      ],
+      "tags": ["politics", "activism", "americas", "us-politics"]
+    },
+    {
+      "name": "TPS: Temporary Protection That Became Permanent",
+      "topics": [
+        "What is Temporary Protected Status?",
+        "Which countries have received TPS designation?",
+        "How have TPS holders built lives over decades?",
+        "What happened when the Trump administration ended TPS?",
+        "How have courts intervened in TPS terminations?",
+        "What would happen if TPS holders were deported?",
+        "What should happen to long-term TPS residents?"
+      ],
+      "tags": ["law", "governance", "americas", "refugees"]
+    },
+    {
+      "name": "The Path Forward: What Immigration Reform Might Look Like",
+      "topics": [
+        "What are the main components of comprehensive reform proposals?",
+        "What legalization programs have been proposed?",
+        "How might a points-based system work?",
+        "What enforcement measures might accompany legalization?",
+        "What political obstacles block reform?",
+        "How do different stakeholders view reform priorities?",
+        "Is comprehensive immigration reform still possible?"
+      ],
+      "tags": ["politics", "governance", "americas", "immigration"]
+    }
+  ]
+}

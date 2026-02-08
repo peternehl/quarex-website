@@ -1,0 +1,157 @@
+{
+  "name": "Mental Health in Hispanic Communities: Stigma, Access, and Healing",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-mental-health",
+    "stigma",
+    "therapy-access",
+    "immigration-trauma",
+    "cultural-barriers"
+  ],
+  "chapters": [
+    {
+      "name": "Mental Health in Hispanic Communities",
+      "topics": [
+        "What are the rates of mental health conditions among Hispanics?",
+        "How does Hispanic mental health compare to other groups?",
+        "What unique stressors affect Hispanic mental health?",
+        "How does the Hispanic health paradox apply to mental health?",
+        "What protective factors support Hispanic mental wellness?",
+        "Why is Hispanic mental health understudied?"
+      ],
+      "tags": ["health", "identity", "americas", "mental-health"]
+    },
+    {
+      "name": "Stigma and Cultural Barriers",
+      "topics": [
+        "What stigma surrounds mental illness in Hispanic culture?",
+        "How do machismo and marianismo affect mental health help-seeking?",
+        "What role does privacy and shame play in avoiding treatment?",
+        "How do religious beliefs influence views on mental illness?",
+        "What generational differences exist in mental health attitudes?",
+        "How can stigma be reduced in Hispanic communities?"
+      ],
+      "tags": ["health", "culture", "americas", "mental-health"]
+    },
+    {
+      "name": "Depression and Anxiety",
+      "topics": [
+        "What are depression rates among Hispanic Americans?",
+        "How do anxiety disorders present in Hispanic populations?",
+        "What cultural expressions of distress are common?",
+        "How does acculturation stress contribute to depression?",
+        "What gender differences exist in Hispanic depression and anxiety?",
+        "How are depression and anxiety treated in Hispanic communities?"
+      ],
+      "tags": ["health", "psychology", "americas", "depression"]
+    },
+    {
+      "name": "Immigration and Trauma",
+      "topics": [
+        "What trauma do immigrants experience before, during, and after migration?",
+        "How does crossing the border affect mental health?",
+        "What is the psychological toll of detention?",
+        "How does family separation affect mental health?",
+        "What is post-migration stress syndrome?",
+        "How should providers approach immigration-related trauma?"
+      ],
+      "tags": ["health", "migration", "americas", "trauma"]
+    },
+    {
+      "name": "The Fear of Living Undocumented",
+      "topics": [
+        "What mental health effects come from living undocumented?",
+        "How does constant fear of deportation affect psychology?",
+        "What chronic stress do undocumented people experience?",
+        "How does undocumented status affect children's mental health?",
+        "What coping mechanisms do undocumented people develop?",
+        "How can mental health services reach undocumented individuals?"
+      ],
+      "tags": ["health", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "Youth Mental Health",
+      "topics": [
+        "What mental health challenges do Hispanic youth face?",
+        "Why do Latina teens have elevated suicide attempt rates?",
+        "How does bicultural stress affect adolescent mental health?",
+        "What role does school in addressing Hispanic youth mental health?",
+        "What peer and family pressures affect Hispanic young people?",
+        "What interventions work for Hispanic youth mental health?"
+      ],
+      "tags": ["health", "youth", "americas", "adolescent-health"]
+    },
+    {
+      "name": "Substance Abuse",
+      "topics": [
+        "What are substance abuse rates among Hispanics?",
+        "How do alcohol use patterns differ in Hispanic communities?",
+        "What drug use affects Hispanic populations?",
+        "How does immigration and acculturation affect substance use?",
+        "What treatment barriers exist for Hispanic substance abuse?",
+        "What culturally appropriate treatment programs work?"
+      ],
+      "tags": ["health", "addiction", "americas", "substance-abuse"]
+    },
+    {
+      "name": "Access to Mental Health Services",
+      "topics": [
+        "How many Hispanics receive needed mental health services?",
+        "What barriers prevent Hispanic access to mental healthcare?",
+        "How does insurance coverage affect mental health access?",
+        "What language barriers affect mental health treatment?",
+        "Where do Hispanics seek mental health help?",
+        "How can access to mental health services be improved?"
+      ],
+      "tags": ["health", "inequality", "americas", "healthcare-access"]
+    },
+    {
+      "name": "Culturally Competent Care",
+      "topics": [
+        "What is culturally competent mental health treatment?",
+        "How many Hispanic mental health providers exist?",
+        "What language considerations affect therapy?",
+        "How should providers approach Hispanic clients?",
+        "What therapeutic adaptations work for Hispanic populations?",
+        "What training do mental health providers need?"
+      ],
+      "tags": ["health", "culture", "americas", "therapy"]
+    },
+    {
+      "name": "Family and Community Support",
+      "topics": [
+        "What role does family play in Hispanic mental health?",
+        "How does familismo protect or harm mental wellness?",
+        "What community-based mental health approaches work?",
+        "How do churches and faith communities address mental health?",
+        "What peer support networks exist?",
+        "How can communities reduce mental health stigma?"
+      ],
+      "tags": ["health", "family", "americas", "community-support"]
+    },
+    {
+      "name": "Traditional and Alternative Approaches",
+      "topics": [
+        "What traditional approaches to mental wellness do Hispanics use?",
+        "What role do curanderos and folk healers play in mental health?",
+        "How do spiritual practices support mental wellness?",
+        "What herbal and natural remedies are used?",
+        "How can Western and traditional approaches be integrated?",
+        "What research exists on Hispanic alternative mental health practices?"
+      ],
+      "tags": ["health", "tradition", "americas", "alternative-medicine"]
+    },
+    {
+      "name": "Building Mental Wellness",
+      "topics": [
+        "What promotes mental wellness in Hispanic communities?",
+        "How can prevention programs reach Hispanic populations?",
+        "What school-based mental health programs serve Hispanic youth?",
+        "How can employers support Hispanic employee mental health?",
+        "What policy changes would improve Hispanic mental health?",
+        "What is the future of Hispanic mental health in America?"
+      ],
+      "tags": ["health", "wellness", "americas", "prevention"]
+    }
+  ]
+}

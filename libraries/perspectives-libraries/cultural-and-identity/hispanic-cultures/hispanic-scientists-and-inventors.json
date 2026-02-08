@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic Scientists and Inventors in America",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-scientists",
+    "latino-inventors",
+    "stem",
+    "scientific-contributions",
+    "innovation"
+  ],
+  "chapters": [
+    {
+      "name": "Hispanic Contributions to American Science",
+      "topics": [
+        "What scientific discoveries have Hispanic Americans made?",
+        "How have Hispanic scientists been overlooked in history?",
+        "What fields have seen major Hispanic contributions?",
+        "How does the narrative of American science change when Hispanic contributions are included?",
+        "What barriers have Hispanic scientists faced?",
+        "Why does recognition of Hispanic scientists matter?"
+      ],
+      "tags": ["science", "history", "americas", "recognition"]
+    },
+    {
+      "name": "Physics and Astronomy",
+      "topics": [
+        "What Hispanic physicists have made major contributions?",
+        "Who is Luis Alvarez and what was his Nobel Prize-winning work?",
+        "What Hispanic astronomers have shaped our understanding of space?",
+        "How have Hispanics contributed to particle physics?",
+        "What astrophysics research have Hispanic scientists led?",
+        "Who are the current Hispanic leaders in physics?"
+      ],
+      "tags": ["science", "physics", "americas", "astronomy"]
+    },
+    {
+      "name": "Chemistry and Biochemistry",
+      "topics": [
+        "What Hispanic chemists have made discoveries?",
+        "Who is Mario Molina and how did he discover the ozone hole?",
+        "What biochemistry contributions have Hispanics made?",
+        "How have Hispanic researchers advanced materials science?",
+        "What pharmaceutical discoveries involve Hispanic scientists?",
+        "Who are emerging Hispanic chemists?"
+      ],
+      "tags": ["science", "chemistry", "americas", "biochemistry"]
+    },
+    {
+      "name": "Biology and Life Sciences",
+      "topics": [
+        "What Hispanic biologists have advanced the field?",
+        "How have Hispanics contributed to genetics and genomics?",
+        "What ecological and environmental research have Hispanics led?",
+        "What marine and wildlife biology involves Hispanic researchers?",
+        "How have Hispanic scientists contributed to agriculture?",
+        "What life sciences discoveries have Hispanic origins?"
+      ],
+      "tags": ["science", "biology", "americas", "life-sciences"]
+    },
+    {
+      "name": "Engineering and Technology",
+      "topics": [
+        "What Hispanic engineers have shaped American technology?",
+        "Who is Ellen Ochoa and what was her engineering career?",
+        "What civil and structural engineering contributions have Hispanics made?",
+        "How have Hispanic engineers contributed to computing?",
+        "What telecommunications innovations have Hispanic origins?",
+        "Who are leading Hispanic engineers today?"
+      ],
+      "tags": ["technology", "engineering", "americas", "innovation"]
+    },
+    {
+      "name": "Computer Science and AI",
+      "topics": [
+        "What Hispanic computer scientists have led the field?",
+        "How have Hispanics contributed to artificial intelligence?",
+        "What software and algorithms have Hispanic origins?",
+        "How are Hispanics represented in tech companies?",
+        "What cybersecurity contributions have Hispanics made?",
+        "Who are the Hispanic leaders in technology?"
+      ],
+      "tags": ["technology", "computing", "americas", "ai"]
+    },
+    {
+      "name": "Inventions and Patents",
+      "topics": [
+        "What inventions have Hispanic Americans created?",
+        "What everyday technologies have Hispanic inventors developed?",
+        "How many patents do Hispanic inventors hold?",
+        "What barriers affect Hispanic inventors?",
+        "What commercialization success have Hispanic inventions had?",
+        "What patent system changes would help Hispanic inventors?"
+      ],
+      "tags": ["technology", "innovation", "americas", "patents"]
+    },
+    {
+      "name": "Nobel Laureates and Major Awards",
+      "topics": [
+        "Which Hispanic scientists have won the Nobel Prize?",
+        "What other major scientific awards have Hispanics received?",
+        "How has recognition for Hispanic scientists changed?",
+        "What National Medals of Science have gone to Hispanics?",
+        "How do professional society awards recognize Hispanics?",
+        "What recognition gaps remain?"
+      ],
+      "tags": ["science", "recognition", "americas", "awards"]
+    },
+    {
+      "name": "University Research and Academia",
+      "topics": [
+        "How are Hispanics represented in university research?",
+        "What barriers affect Hispanic STEM faculty?",
+        "How are Hispanic scientists mentoring new researchers?",
+        "What graduate programs support Hispanic scientists?",
+        "What research institutions have Hispanic leaders?",
+        "How is the academic pipeline improving?"
+      ],
+      "tags": ["science", "education", "americas", "academia"]
+    },
+    {
+      "name": "Government and National Labs",
+      "topics": [
+        "How are Hispanics represented at national laboratories?",
+        "What government research have Hispanic scientists led?",
+        "How has NASA benefited from Hispanic scientists?",
+        "What DOE and NIH research involves Hispanic scientists?",
+        "What policy positions have Hispanic scientists held?",
+        "How is federal science becoming more diverse?"
+      ],
+      "tags": ["science", "governance", "americas", "government"]
+    },
+    {
+      "name": "STEM Education and Pipeline",
+      "topics": [
+        "How are Hispanic students being encouraged in STEM?",
+        "What programs support Hispanic STEM education?",
+        "What HSIs contribute to STEM training?",
+        "How can the STEM pipeline be improved?",
+        "What role models inspire Hispanic STEM students?",
+        "What future workforce will emerge?"
+      ],
+      "tags": ["science", "education", "americas", "pipeline"]
+    },
+    {
+      "name": "The Future of Hispanic Science",
+      "topics": [
+        "What emerging scientists are rising in their fields?",
+        "How will demographic changes affect STEM representation?",
+        "What fields will see increased Hispanic contributions?",
+        "How can barriers to Hispanic scientific careers be removed?",
+        "What will American science look like with full Hispanic participation?",
+        "What discoveries await Hispanic scientists?"
+      ],
+      "tags": ["science", "innovation", "americas", "future-trends"]
+    }
+  ]
+}

@@ -54,6 +54,8 @@
     .back{ display:inline-flex; align-items:center; gap:8px; border:1px solid rgba(122,167,255,.35); padding:8px 12px; border-radius:999px; position:fixed; top:20px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px) }
     .lang-select{ position:fixed; top:70px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px); border:1px solid rgba(122,167,255,.35); padding:6px 10px; border-radius:12px; color:var(--ink); font-size:.9rem; cursor:pointer; outline:none }
     .lang-select:focus{ box-shadow:0 0 0 3px var(--ring) }
+    .expertise-select{ position:fixed; top:110px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px); border:1px solid rgba(251,191,36,.35); padding:6px 10px; border-radius:12px; color:var(--ink); font-size:.9rem; cursor:pointer; outline:none }
+    .expertise-select:focus{ box-shadow:0 0 0 3px rgba(251,191,36,.5) }
 
     /* Two-column layout with sidebar */
     .columns{
@@ -313,6 +315,13 @@
         font-size: 0.85rem;
       }
 
+      .expertise-select {
+        top: 100px;
+        right: 16px;
+        padding: 5px 8px;
+        font-size: 0.85rem;
+      }
+
       .chat {
         min-height: calc(100vh - 140px);
       }
@@ -414,6 +423,13 @@
 
       .lang-select {
         top: 55px;
+        right: 12px;
+        padding: 4px 6px;
+        font-size: 0.8rem;
+      }
+
+      .expertise-select {
+        top: 90px;
         right: 12px;
         padding: 4px 6px;
         font-size: 0.8rem;
@@ -747,6 +763,12 @@
       padding: 10px 14px;
     }
 
+    body.tablet-mode-senior .expertise-select {
+      font-size: 1.1rem;
+      padding: 10px 14px;
+      top: 125px;
+    }
+
     /* Senior mode portrait - shorter follow-up buttons */
     body.tablet-mode-senior .followup-btn {
       padding: 10px 14px;
@@ -809,6 +831,12 @@
 	  <option value="ko">한국어</option>
 	</select>
 
+	<select id="expertiseSelect" class="expertise-select" aria-label="Select expertise level">
+	  <option value="introductory" selected>Introductory</option>
+	  <option value="intermediate">Intermediate</option>
+	  <option value="advanced">Advanced</option>
+	</select>
+
 
     <section class="columns">
       <!-- History Sidebar -->
@@ -868,6 +896,7 @@
     const elCopyQA   = document.getElementById('copyQA');
     const elBar      = document.getElementById('contextBar');
     const elLangSelect = document.getElementById('languageSelect');
+    const elExpertiseSelect = document.getElementById('expertiseSelect');
 
     // Track latest Q&A
     let latestQuestion = '';
@@ -901,6 +930,15 @@
     // Save language preference when changed
     elLangSelect.addEventListener('change', () => {
       localStorage.setItem('quarex_language', elLangSelect.value);
+    });
+
+    // Load expertise preference from localStorage
+    const savedExpertise = localStorage.getItem('quarex_expertise') || 'introductory';
+    elExpertiseSelect.value = savedExpertise;
+
+    // Save expertise preference when changed
+    elExpertiseSelect.addEventListener('change', () => {
+      localStorage.setItem('quarex_expertise', elExpertiseSelect.value);
     });
 
     // ---- URL params ----
@@ -1624,7 +1662,8 @@
         const requestBody = {
           q: finalQuestion,
           topic: chapter || context || '',
-          category: book || ''
+          category: book || '',
+          expertise: elExpertiseSelect.value
         };
         // Add podcast flag if in podcast mode
         if (podcastMode) {

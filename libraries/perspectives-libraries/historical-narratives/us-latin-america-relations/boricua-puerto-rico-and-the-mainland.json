@@ -1,0 +1,169 @@
+{
+  "name": "Boricua: Puerto Rico and the Mainland",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "puerto-rico",
+    "boricua-diaspora",
+    "colonial-status",
+    "nuyorican",
+    "puerto-rican-migration"
+  ],
+  "chapters": [
+    {
+      "name": "1898: From Spanish Colony to American Territory",
+      "topics": [
+        "What was Puerto Rico's status before the Spanish-American War?",
+        "How did the U.S. acquire Puerto Rico in 1898?",
+        "What promises were made about Puerto Rico's future?",
+        "How did American military government initially rule the island?",
+        "What happened to Puerto Rico's brief experiment with autonomy?",
+        "How did Puerto Ricans initially respond to American rule?",
+        "What legal framework defined Puerto Rico's new status?"
+      ],
+      "tags": ["history", "colonialism", "americas", "modern-history"]
+    },
+    {
+      "name": "Neither State Nor Nation: The Colonial Arrangement",
+      "topics": [
+        "What did the Foraker Act establish about Puerto Rico's governance?",
+        "How did the Jones Act of 1917 grant citizenship but not statehood?",
+        "What does 'unincorporated territory' mean legally?",
+        "What rights do Puerto Ricans have and lack as U.S. citizens?",
+        "How do the Insular Cases define Puerto Rico's constitutional status?",
+        "What self-governance has Puerto Rico achieved?",
+        "Why has Puerto Rico's status remained unresolved for over a century?"
+      ],
+      "tags": ["law", "governance", "americas", "constitutional-law"]
+    },
+    {
+      "name": "Operation Bootstrap: Industrialization by Invitation",
+      "topics": [
+        "What was Operation Bootstrap and what did it aim to achieve?",
+        "How did tax incentives attract American manufacturers?",
+        "What transformation did Puerto Rico's economy undergo?",
+        "How did industrialization affect traditional agriculture?",
+        "What happened to Puerto Rican workers displaced from farms?",
+        "How did migration become part of the development strategy?",
+        "What were Bootstrap's successes and limitations?"
+      ],
+      "tags": ["economics", "development", "americas", "modern-history"]
+    },
+    {
+      "name": "The Great Migration: Puerto Ricans Come to the Mainland",
+      "topics": [
+        "What drove the massive migration of Puerto Ricans after World War II?",
+        "Why was New York the primary destination?",
+        "How did air travel make migration accessible?",
+        "What labor market niches did Puerto Rican migrants fill?",
+        "How did the migration transform both Puerto Rico and receiving cities?",
+        "What communities formed in New York, Chicago, and other cities?",
+        "How did circular migration patterns develop?"
+      ],
+      "tags": ["society", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "El Barrio: Building Community in New York",
+      "topics": [
+        "How did Puerto Rican neighborhoods develop in New York City?",
+        "What institutions served the growing community?",
+        "How did Puerto Ricans navigate discrimination and exclusion?",
+        "What cultural institutions preserved and created identity?",
+        "How did Puerto Ricans relate to other ethnic communities?",
+        "What political organizations emerged?",
+        "How did the community maintain ties to the island?"
+      ],
+      "tags": ["society", "identity", "americas", "immigration"]
+    },
+    {
+      "name": "Nuyorican: A New Identity Emerges",
+      "topics": [
+        "What does 'Nuyorican' mean and who claimed the identity?",
+        "How did mainland-born Puerto Ricans relate to island culture?",
+        "What was the Nuyorican Poets Cafe and its significance?",
+        "How did writers like Piri Thomas capture the experience?",
+        "What tensions existed between island and mainland Puerto Ricans?",
+        "How did Nuyorican identity evolve across generations?",
+        "What cultural production emerged from the diaspora experience?"
+      ],
+      "tags": ["arts", "identity", "americas", "literary-arts"]
+    },
+    {
+      "name": "Activism and Resistance: The Young Lords and Beyond",
+      "topics": [
+        "Who were the Young Lords and what did they fight for?",
+        "How did Puerto Rican activism connect to broader civil rights movements?",
+        "What community programs did activist organizations create?",
+        "How did activists address issues of health, housing, and education?",
+        "What role did the independence movement play in diaspora politics?",
+        "How did activism change across decades?",
+        "What legacy did Puerto Rican activism leave?"
+      ],
+      "tags": ["politics", "activism", "americas", "civil-rights"]
+    },
+    {
+      "name": "Economic Decline: Puerto Rico in Crisis",
+      "topics": [
+        "What caused Puerto Rico's economic decline in recent decades?",
+        "How did the end of tax incentives affect the economy?",
+        "What is Puerto Rico's debt crisis and how did it develop?",
+        "How did PROMESA and the fiscal control board affect governance?",
+        "What austerity measures have been imposed?",
+        "How has economic crisis driven new migration waves?",
+        "What future does Puerto Rico's economy face?"
+      ],
+      "tags": ["economics", "governance", "americas", "modern-history"]
+    },
+    {
+      "name": "Hurricane Maria: Disaster and Response",
+      "topics": [
+        "What happened when Hurricane Maria struck Puerto Rico in 2017?",
+        "How did the federal government respond to the disaster?",
+        "What was the true death toll and how was it obscured?",
+        "How long did it take to restore power across the island?",
+        "What did the response reveal about Puerto Rico's colonial status?",
+        "How did Puerto Ricans organize mutual aid?",
+        "What migration followed the hurricane?"
+      ],
+      "tags": ["society", "governance", "americas", "humanitarian"]
+    },
+    {
+      "name": "Status Debates: Statehood, Independence, or Something Else?",
+      "topics": [
+        "What are the main options for Puerto Rico's political status?",
+        "Who supports statehood and what arguments do they make?",
+        "Who supports independence and what is their vision?",
+        "What would enhanced commonwealth or free association mean?",
+        "How have plebiscites addressed the status question?",
+        "Why hasn't Congress acted on status referenda?",
+        "What would resolution of the status question require?"
+      ],
+      "tags": ["politics", "governance", "americas", "us-politics"]
+    },
+    {
+      "name": "Diaspora Today: Puerto Ricans Across America",
+      "topics": [
+        "Where do Puerto Ricans live on the mainland today?",
+        "How has Florida become a major destination?",
+        "What economic and social conditions characterize diaspora communities?",
+        "How do mainland Puerto Ricans participate in American politics?",
+        "What connections persist with the island?",
+        "How has the diaspora population compared to island population?",
+        "What does the future hold for Puerto Rican communities?"
+      ],
+      "tags": ["society", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "The Colonial Question: America's Unfinished Business",
+      "topics": [
+        "Why is Puerto Rico called 'America's oldest colony'?",
+        "How does Puerto Rico's status compare to other U.S. territories?",
+        "What do international observers say about Puerto Rico's status?",
+        "How do Puerto Ricans themselves understand their situation?",
+        "What would decolonization look like?",
+        "What obligations does the United States have?",
+        "Why does Puerto Rico's status matter for understanding American democracy?"
+      ],
+      "tags": ["politics", "colonialism", "americas", "civil-rights"]
+    }
+  ]
+}

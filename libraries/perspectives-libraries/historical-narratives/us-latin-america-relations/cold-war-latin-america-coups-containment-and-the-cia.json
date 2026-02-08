@@ -1,0 +1,169 @@
+{
+  "name": "Cold War Latin America: Coups, Containment, and the CIA",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "cold-war",
+    "cia-operations",
+    "containment",
+    "latin-american-coups",
+    "anti-communism"
+  ],
+  "chapters": [
+    {
+      "name": "The Cold War Comes South: A New Framework",
+      "topics": [
+        "How did the Cold War reshape American priorities in Latin America?",
+        "What did containment mean when applied to the Western Hemisphere?",
+        "How did anti-communism become the lens through which all politics was viewed?",
+        "What new institutions emerged to coordinate hemispheric security?",
+        "How did the Rio Treaty formalize collective defense?",
+        "What role did the Organization of American States play?",
+        "How did Latin American nations navigate between superpowers?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "Guatemala 1954: The Template for Intervention",
+      "topics": [
+        "What reforms did President Arbenz pursue that alarmed the U.S.?",
+        "How did the CIA plan and execute Operation PBSUCCESS?",
+        "What role did propaganda and psychological warfare play?",
+        "How did the coup unfold and who replaced Arbenz?",
+        "What happened to Guatemalan democracy after the coup?",
+        "How did the coup establish patterns for future operations?",
+        "What documents have been declassified about the operation?"
+      ],
+      "tags": ["politics", "authoritarianism", "americas", "cold-war"]
+    },
+    {
+      "name": "The National Security Doctrine: Training Repression",
+      "topics": [
+        "What was the National Security Doctrine and where did it originate?",
+        "How did the School of the Americas train Latin American officers?",
+        "What counterinsurgency techniques were taught?",
+        "How did 'internal enemies' become targets alongside external threats?",
+        "What human rights abuses did graduates of these programs commit?",
+        "How did military institutions gain political power throughout the region?",
+        "What role did torture and disappearance play in security doctrine?"
+      ],
+      "tags": ["conflict", "authoritarianism", "americas", "cold-war"]
+    },
+    {
+      "name": "The Alliance for Progress: Reform as Counterinsurgency",
+      "topics": [
+        "What was Kennedy's vision for the Alliance for Progress?",
+        "How did the program attempt to prevent 'another Cuba'?",
+        "What reforms did the Alliance promote: land, tax, education?",
+        "How much aid flowed to Latin America under the program?",
+        "Why did the Alliance largely fail to achieve its goals?",
+        "How did conservative forces resist reform?",
+        "What happened to the Alliance after Kennedy's assassination?"
+      ],
+      "tags": ["politics", "development", "americas", "cold-war"]
+    },
+    {
+      "name": "Brazil 1964: The Military Takes Power",
+      "topics": [
+        "What reforms did President Goulart propose that alarmed elites?",
+        "How did the U.S. support the 1964 military coup?",
+        "What role did Ambassador Lincoln Gordon play?",
+        "How did military rule transform Brazil?",
+        "What repression followed the coup?",
+        "How long did military dictatorship last in Brazil?",
+        "What economic model did the generals impose?"
+      ],
+      "tags": ["politics", "authoritarianism", "americas", "cold-war"]
+    },
+    {
+      "name": "Dominican Republic 1965: Johnson Sends the Marines",
+      "topics": [
+        "What political crisis triggered American intervention?",
+        "How did Johnson justify sending 22,000 troops?",
+        "What was the 'communist threat' that supposedly required intervention?",
+        "How did the intervention violate the OAS charter?",
+        "What government emerged from the intervention?",
+        "How did Latin American nations react to the invasion?",
+        "What precedent did the intervention set for future action?"
+      ],
+      "tags": ["conflict", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "Supporting Dictators: The Anti-Communist Priority",
+      "topics": [
+        "How did Cold War logic justify supporting brutal dictatorships?",
+        "What military regimes received American support?",
+        "How did economic and military aid flow to authoritarian governments?",
+        "What human rights violations did American allies commit?",
+        "How did dictators use anti-communism to eliminate domestic opposition?",
+        "What happened to democratic movements under these regimes?",
+        "How do historians evaluate America's Cold War alliances?"
+      ],
+      "tags": ["politics", "authoritarianism", "americas", "cold-war"]
+    },
+    {
+      "name": "The CIA's Secret Wars: Operations Across the Hemisphere",
+      "topics": [
+        "What covert operations did the CIA conduct beyond major coups?",
+        "How did the agency support paramilitary forces?",
+        "What propaganda operations shaped public opinion?",
+        "How did the CIA work with local intelligence services?",
+        "What assassinations and plots were attempted?",
+        "How did drug trafficking intersect with covert operations?",
+        "What has been revealed through declassified documents?"
+      ],
+      "tags": ["conflict", "governance", "americas", "cold-war"]
+    },
+    {
+      "name": "Reform Movements Crushed: Labor, Peasants, Students",
+      "topics": [
+        "How did Cold War repression affect labor movements?",
+        "What happened to peasant organizing and land reform movements?",
+        "How were student movements suppressed across the region?",
+        "What role did churches play in protecting or opposing dissent?",
+        "How did intellectuals and artists face censorship and exile?",
+        "What generation of activists was killed or silenced?",
+        "How did repression radicalize some movements?"
+      ],
+      "tags": ["society", "human-rights", "americas", "civil-rights"]
+    },
+    {
+      "name": "Guerrilla Movements: Armed Resistance Emerges",
+      "topics": [
+        "What guerrilla movements arose in response to blocked reform?",
+        "How did Che Guevara's foco theory influence armed struggle?",
+        "What was the fate of the FARC, ELN, and other guerrilla groups?",
+        "How did governments respond to armed insurgencies?",
+        "What civilian populations were caught in counterinsurgency campaigns?",
+        "How did rural and urban guerrilla strategies differ?",
+        "What legacy did armed struggle leave for the region?"
+      ],
+      "tags": ["conflict", "revolution", "americas", "cold-war"]
+    },
+    {
+      "name": "The Human Cost: Victims of Cold War Policy",
+      "topics": [
+        "How many people were killed, disappeared, or tortured?",
+        "What happened to families of the disappeared?",
+        "How did exile reshape communities and nations?",
+        "What documentation exists of Cold War era crimes?",
+        "How have truth commissions addressed this history?",
+        "What justice have survivors and families received?",
+        "How do societies remember this period?"
+      ],
+      "tags": ["society", "human-rights", "americas", "civil-rights"]
+    },
+    {
+      "name": "Questioning the Policy: Dissent Within the U.S.",
+      "topics": [
+        "What American voices challenged Cold War interventionism?",
+        "How did congressional investigations expose covert operations?",
+        "What role did journalists play in revealing abuses?",
+        "How did solidarity movements support Latin American victims?",
+        "What reforms did the Church Committee recommend?",
+        "How did human rights become a foreign policy consideration?",
+        "What constraints were placed on covert action?"
+      ],
+      "tags": ["politics", "accountability", "americas", "us-politics"]
+    }
+  ]
+}

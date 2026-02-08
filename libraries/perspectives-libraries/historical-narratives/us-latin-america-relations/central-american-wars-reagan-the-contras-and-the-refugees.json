@@ -1,0 +1,169 @@
+{
+  "name": "Central American Wars: Reagan, the Contras, and the Refugees",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "central-america-wars",
+    "sandinistas",
+    "contras",
+    "iran-contra",
+    "central-american-refugees"
+  ],
+  "chapters": [
+    {
+      "name": "The Roots of Conflict: Inequality and Repression",
+      "topics": [
+        "What conditions made Central America ripe for revolutionary conflict?",
+        "How did land concentration shape rural poverty across the region?",
+        "What role did military governments play in maintaining the status quo?",
+        "How had earlier reform efforts been crushed?",
+        "What role did the Catholic Church's liberation theology play?",
+        "How did peasant and labor movements organize despite repression?",
+        "Why did the late 1970s become a moment of upheaval?"
+      ],
+      "tags": ["society", "inequality", "americas", "modern-history"]
+    },
+    {
+      "name": "Nicaragua: The Sandinista Revolution",
+      "topics": [
+        "Who was the Somoza dynasty and how did they rule Nicaragua?",
+        "How did the FSLN (Sandinistas) organize and fight for power?",
+        "What led to Somoza's fall in 1979?",
+        "What reforms did the Sandinista government pursue?",
+        "How did the revolution affect education, health, and land ownership?",
+        "What tensions existed within the revolutionary coalition?",
+        "How did the U.S. initially respond to the Sandinista victory?"
+      ],
+      "tags": ["politics", "revolution", "americas", "modern-history"]
+    },
+    {
+      "name": "The Reagan Doctrine: Rolling Back Communism",
+      "topics": [
+        "How did Reagan's election change U.S. policy toward Central America?",
+        "What was the Reagan Doctrine and how did it apply to the region?",
+        "Why did Reagan see Central America as a Cold War battleground?",
+        "How did the administration frame the conflicts for the American public?",
+        "What role did anti-communist rhetoric play in policy?",
+        "How did Reagan overcome post-Vietnam reluctance for intervention?",
+        "What officials shaped Central America policy?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "The Contra War: Funding the Counterrevolution",
+      "topics": [
+        "Who were the Contras and how were they organized?",
+        "How did the CIA create, fund, and direct the Contra forces?",
+        "What military operations did the Contras conduct?",
+        "How did Congress debate and restrict Contra funding?",
+        "What human rights abuses did Contra forces commit?",
+        "How effective was the Contra military campaign?",
+        "What impact did the war have on Nicaraguan civilians?"
+      ],
+      "tags": ["conflict", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "Iran-Contra: The Scandal That Nearly Brought Down Reagan",
+      "topics": [
+        "How did the Reagan administration circumvent congressional restrictions?",
+        "What was the Iran-Contra scheme and who orchestrated it?",
+        "How was the illegal operation exposed?",
+        "What did Oliver North's testimony reveal?",
+        "How did Reagan escape impeachment?",
+        "What were the legal consequences for those involved?",
+        "What does Iran-Contra reveal about executive power and accountability?"
+      ],
+      "tags": ["politics", "accountability", "americas", "us-politics"]
+    },
+    {
+      "name": "El Salvador: Civil War and Death Squads",
+      "topics": [
+        "What sparked El Salvador's civil war?",
+        "Who was Archbishop Oscar Romero and why was he assassinated?",
+        "How did death squads terrorize the civilian population?",
+        "What was the El Mozote massacre?",
+        "How much military aid did the U.S. provide to El Salvador?",
+        "What role did the FMLN play in the conflict?",
+        "How many Salvadorans died in the civil war?"
+      ],
+      "tags": ["conflict", "human-rights", "americas", "cold-war"]
+    },
+    {
+      "name": "Guatemala: Genocide Against the Maya",
+      "topics": [
+        "How did Guatemala's civil war intensify in the 1980s?",
+        "What was the Rios Montt regime's scorched earth campaign?",
+        "How did the military target Mayan indigenous communities?",
+        "What constituted genocide in the Guatemalan highlands?",
+        "How many Guatemalans were killed or displaced?",
+        "What role did the U.S. play despite official restrictions on aid?",
+        "How has Guatemala's genocide been documented and prosecuted?"
+      ],
+      "tags": ["conflict", "human-rights", "americas", "civil-rights"]
+    },
+    {
+      "name": "Honduras: The Aircraft Carrier",
+      "topics": [
+        "How did Honduras become a base for U.S. operations in the region?",
+        "What military presence did the U.S. establish in Honduras?",
+        "How did Contra forces operate from Honduran territory?",
+        "What happened to Honduran democracy during this period?",
+        "How did the military and death squads operate in Honduras?",
+        "What was Battalion 316 and what did it do?",
+        "How did the war economy affect Honduran development?"
+      ],
+      "tags": ["conflict", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "American Solidarity: The Movement Against the Wars",
+      "topics": [
+        "How did Americans organize against Reagan's Central America policies?",
+        "What was the Sanctuary Movement and how did it protect refugees?",
+        "What role did religious groups play in opposing the wars?",
+        "How did solidarity delegations witness conditions in Central America?",
+        "What role did veterans and ex-CIA officers play in opposition?",
+        "How did protests and civil disobedience challenge policy?",
+        "What impact did the solidarity movement have?"
+      ],
+      "tags": ["society", "activism", "americas", "us-politics"]
+    },
+    {
+      "name": "The Refugee Crisis Begins: Fleeing North",
+      "topics": [
+        "How many Central Americans fled the wars?",
+        "What dangers did refugees face on the journey north?",
+        "How did the U.S. government treat Central American asylum seekers?",
+        "Why were Salvadorans and Guatemalans denied refugee status?",
+        "How did the Sanctuary Movement challenge immigration policy?",
+        "Where did refugees settle in the United States?",
+        "How did the 1980s exodus lay the groundwork for later migration?"
+      ],
+      "tags": ["society", "migration", "americas", "refugees"]
+    },
+    {
+      "name": "Peace Processes: Ending the Wars",
+      "topics": [
+        "How did the Central American peace process develop?",
+        "What was the role of Costa Rica's Oscar Arias?",
+        "How did the Esquipulas Accords attempt to end the conflicts?",
+        "What led to Nicaragua's 1990 election and Sandinista defeat?",
+        "How did peace accords end El Salvador's civil war?",
+        "What truth commissions documented the conflicts?",
+        "How complete was the transition to peace?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "modern-history"]
+    },
+    {
+      "name": "Legacies: Why Central America Still Sends Refugees",
+      "topics": [
+        "How did the wars leave lasting damage to Central American societies?",
+        "What happened to combatants who were never reintegrated?",
+        "How did gang violence emerge from war's aftermath?",
+        "What economic conditions persist from the war era?",
+        "How does this history connect to contemporary migration?",
+        "What accountability has there been for U.S. policy?",
+        "How do Central Americans remember the war years?"
+      ],
+      "tags": ["society", "migration", "americas", "immigration"]
+    }
+  ]
+}

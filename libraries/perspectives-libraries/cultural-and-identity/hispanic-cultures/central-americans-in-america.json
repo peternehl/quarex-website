@@ -1,0 +1,158 @@
+{
+  "name": "Central Americans in America: Salvadorans, Guatemalans, Hondurans, and Nicaraguans",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "central-americans",
+    "salvadoran-americans",
+    "guatemalan-americans",
+    "refugee-communities",
+    "war-migration"
+  ],
+  "chapters": [
+    {
+      "name": "The Central American Nations: Distinct Histories",
+      "topics": [
+        "How do the histories of El Salvador, Guatemala, Honduras, and Nicaragua differ?",
+        "What indigenous populations exist in each Central American country?",
+        "How did U.S. intervention shape each nation's development?",
+        "What economic and political conditions characterized Central America in the 20th century?",
+        "How do these distinct backgrounds affect diaspora identities?",
+        "What regional identity do Central Americans share, if any?"
+      ],
+      "tags": ["history", "colonialism", "americas", "anthropology"]
+    },
+    {
+      "name": "War Refugees: The 1980s Crisis",
+      "topics": [
+        "How did civil wars in El Salvador and Guatemala drive migration?",
+        "What atrocities did refugees flee from?",
+        "How did U.S. policy toward Central American refugees differ from Cuban policy?",
+        "What was the Sanctuary Movement and how did it help refugees?",
+        "How many Central Americans arrived during the civil war era?",
+        "What trauma did war refugees carry with them?",
+        "How did the Iran-Contra affair connect to Central American migration?"
+      ],
+      "tags": ["history", "migration", "americas", "refugees"]
+    },
+    {
+      "name": "Salvadoran Americans: The Largest Central American Group",
+      "topics": [
+        "How many Salvadoran Americans are there and where do they live?",
+        "What distinguishes Salvadoran migration patterns from other groups?",
+        "How did TPS affect the Salvadoran American community?",
+        "What is the relationship between Salvadorans and MS-13 in popular perception?",
+        "How have Salvadoran Americans built communities in Los Angeles and DC?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Guatemalan Americans: Indigenous and Ladino",
+      "topics": [
+        "How many Guatemalan Americans are there and where do they live?",
+        "How does the Mayan indigenous population shape Guatemalan American identity?",
+        "What distinct Mayan languages and cultures persist in the diaspora?",
+        "How do Ladino and indigenous Guatemalans relate in America?",
+        "What community organizations serve Guatemalan Americans?",
+        "How do Guatemalan Americans maintain connections to villages of origin?",
+        "What role does the genocide of Mayan peoples play in community memory?"
+      ],
+      "tags": ["society", "identity", "americas", "anthropology"]
+    },
+    {
+      "name": "Honduran Americans: A Growing Community",
+      "topics": [
+        "How has Honduran migration increased in recent decades?",
+        "What drives contemporary Honduran emigration?",
+        "Where do Honduran Americans concentrate geographically?",
+        "How do Honduran Americans differ from Salvadorans and Guatemalans?",
+        "What is the Garifuna community within Honduran America?",
+        "How has gang violence and corruption shaped recent migration?"
+      ],
+      "tags": ["society", "migration", "americas", "sociology"]
+    },
+    {
+      "name": "Nicaraguan Americans: Diverse Origins",
+      "topics": [
+        "How did Nicaraguan migration differ from other Central American flows?",
+        "Who were the Nicaraguan exiles fleeing the Sandinistas?",
+        "How do Nicaraguan Americans in Miami differ from those elsewhere?",
+        "What happened to Nicaraguan migration after the Contras?",
+        "How has the recent Ortega crisis affected Nicaraguan emigration?",
+        "Where do Nicaraguan Americans live and what communities have they built?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Legal Limbo: TPS and DACA",
+      "topics": [
+        "What is Temporary Protected Status and how has it affected Central Americans?",
+        "How many Central Americans depend on TPS for legal status?",
+        "What happened when the Trump administration tried to end TPS?",
+        "How do Central American DACA recipients experience their status?",
+        "What is life like for undocumented Central Americans?",
+        "How does legal uncertainty affect family and community life?",
+        "What advocacy efforts support Central American legal status?"
+      ],
+      "tags": ["law", "governance", "americas", "immigration"]
+    },
+    {
+      "name": "Geography of Settlement",
+      "topics": [
+        "How did Los Angeles become the center of Central American America?",
+        "What Central American communities exist in the Washington DC area?",
+        "Where else have significant Central American communities formed?",
+        "How do settlement patterns differ by national origin?",
+        "What role do existing networks play in directing settlement?"
+      ],
+      "tags": ["geography", "migration", "americas", "sociology"]
+    },
+    {
+      "name": "Economic Life and Work",
+      "topics": [
+        "What industries employ Central American workers?",
+        "How does Central American economic status compare to other groups?",
+        "What role do remittances play in Central American economies?",
+        "How have Central American entrepreneurs built businesses?",
+        "What economic mobility have Central Americans experienced?",
+        "How does documentation status affect economic opportunities?",
+        "What labor organizing has occurred in Central American communities?"
+      ],
+      "tags": ["economics", "inequality", "americas", "labor"]
+    },
+    {
+      "name": "Culture and Community",
+      "topics": [
+        "What cultural traditions do Central Americans maintain in America?",
+        "How do Salvadoran, Guatemalan, and other cuisines differ?",
+        "What religious practices characterize Central American communities?",
+        "How do Central American festivals and celebrations work?",
+        "What music and art emerge from Central American American life?"
+      ],
+      "tags": ["arts", "cultural-heritage", "americas", "sociology"]
+    },
+    {
+      "name": "Pan-Central American Identity?",
+      "topics": [
+        "Do Central Americans in America identify as a unified group?",
+        "What brings Central American nationalities together?",
+        "What keeps them distinct?",
+        "How do Central Americans relate to Mexican Americans and other Latinos?",
+        "What organizations span Central American national origins?",
+        "Is a pan-Central American identity emerging?",
+        "How do second-generation Central Americans think about identity?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "The Next Generations",
+      "topics": [
+        "How do American-born Central Americans form identity?",
+        "What happens to national-origin identity in the second generation?",
+        "How connected are young Central Americans to their parents' homelands?",
+        "What educational and economic outcomes are second-generation Central Americans achieving?",
+        "What is the future of Central American American communities?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    }
+  ]
+}

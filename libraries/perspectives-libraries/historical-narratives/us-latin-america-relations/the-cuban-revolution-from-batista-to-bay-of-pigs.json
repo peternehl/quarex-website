@@ -1,0 +1,169 @@
+{
+  "name": "The Cuban Revolution: From Batista to Bay of Pigs",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "cuban-revolution",
+    "fidel-castro",
+    "bay-of-pigs",
+    "cold-war-cuba",
+    "us-cuba-relations"
+  ],
+  "chapters": [
+    {
+      "name": "Cuba Before Castro: The Batista Dictatorship",
+      "topics": [
+        "How did Fulgencio Batista come to power and maintain control?",
+        "What was life like in Cuba under Batista's dictatorship?",
+        "How did American business interests dominate the Cuban economy?",
+        "What role did organized crime play in Havana?",
+        "How did inequality and corruption fuel discontent?",
+        "What happened to political opposition under Batista?",
+        "Why did the U.S. support Batista despite his repression?"
+      ],
+      "tags": ["politics", "authoritarianism", "americas", "modern-history"]
+    },
+    {
+      "name": "The 26th of July Movement: Castro's Revolutionary Path",
+      "topics": [
+        "What was the failed Moncada barracks attack and why does it matter?",
+        "How did Fidel Castro's trial and 'History Will Absolve Me' speech galvanize support?",
+        "What happened during Castro's exile in Mexico?",
+        "How did the Granma landing begin the guerrilla campaign?",
+        "Who were the key figures alongside Castro in the Sierra Maestra?",
+        "What ideology drove the early revolutionary movement?",
+        "How did the movement build popular support?"
+      ],
+      "tags": ["history", "revolution", "americas", "modern-history"]
+    },
+    {
+      "name": "Guerrilla War in the Sierra: The Struggle for Power",
+      "topics": [
+        "How did a small guerrilla band defeat Batista's army?",
+        "What tactics made the Sierra Maestra campaign successful?",
+        "How did media coverage affect the revolution's image?",
+        "What role did urban resistance movements play?",
+        "How did Che Guevara emerge as a key commander?",
+        "What mistakes did Batista's forces make?",
+        "When and why did American support for Batista waver?"
+      ],
+      "tags": ["conflict", "revolution", "americas", "modern-history"]
+    },
+    {
+      "name": "Victory and Transformation: The Revolution Takes Power",
+      "topics": [
+        "How did Batista's regime collapse in late 1958?",
+        "What was the revolutionary government's initial program?",
+        "How did land reform transform Cuban agriculture?",
+        "What happened to American-owned properties and businesses?",
+        "How did trials and executions of Batista officials unfold?",
+        "When did the revolution begin to turn explicitly socialist?",
+        "How did Cuba's relationship with the Soviet Union develop?"
+      ],
+      "tags": ["politics", "revolution", "americas", "modern-history"]
+    },
+    {
+      "name": "The American Response: From Recognition to Hostility",
+      "topics": [
+        "How did the Eisenhower administration initially respond to Castro?",
+        "What actions by Cuba alarmed the United States?",
+        "How did the agrarian reform and nationalizations affect U.S. interests?",
+        "When did the U.S. begin planning to overthrow Castro?",
+        "How did the trade embargo develop?",
+        "What diplomatic breaks occurred between the two nations?",
+        "How did Castro's embrace of the Soviet Union escalate tensions?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "Planning the Invasion: The CIA's Cuban Operation",
+      "topics": [
+        "How did the Eisenhower administration authorize the invasion plan?",
+        "What role did Cuban exiles play in the operation?",
+        "Where were exile forces trained and equipped?",
+        "What assumptions drove the CIA's operational planning?",
+        "How did Kennedy inherit and modify the plan?",
+        "What warning signs were ignored before the invasion?",
+        "How did operational security fail?"
+      ],
+      "tags": ["conflict", "governance", "americas", "cold-war"]
+    },
+    {
+      "name": "The Bay of Pigs: Disaster at Playa Giron",
+      "topics": [
+        "What happened when Brigade 2506 landed at the Bay of Pigs?",
+        "Why did expected popular uprising and air cover not materialize?",
+        "How did Castro's forces quickly defeat the invasion?",
+        "What happened to the captured exile fighters?",
+        "How did Kennedy respond to the failure?",
+        "What immediate consequences followed the invasion?",
+        "How did the failure affect Kennedy's approach to Cuba?"
+      ],
+      "tags": ["conflict", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "The Cuban Missile Crisis: Brink of Nuclear War",
+      "topics": [
+        "Why did the Soviet Union place missiles in Cuba?",
+        "How did the U.S. discover the missile installations?",
+        "What options did Kennedy consider during the crisis?",
+        "How did the naval quarantine unfold?",
+        "What secret negotiations resolved the crisis?",
+        "How close did the world come to nuclear war?",
+        "What were the terms of the final agreement?"
+      ],
+      "tags": ["conflict", "diplomacy", "americas", "nuclear-weapons"]
+    },
+    {
+      "name": "The Embargo: Economic Warfare Begins",
+      "topics": [
+        "How did the U.S. trade embargo against Cuba develop?",
+        "What was the embargo intended to achieve?",
+        "How did the embargo affect the Cuban economy and people?",
+        "What role did the Soviet Union play in sustaining Cuba?",
+        "How has the embargo evolved over decades?",
+        "What international opposition exists to the embargo?",
+        "Why has the embargo failed to achieve its stated goals?"
+      ],
+      "tags": ["economics", "diplomacy", "americas", "sanctions"]
+    },
+    {
+      "name": "Exile Politics: The Cuban American Community Forms",
+      "topics": [
+        "Who left Cuba in the early waves of emigration?",
+        "How did the exile community establish itself in Miami?",
+        "What political organizations emerged among exiles?",
+        "How did exile groups continue efforts against Castro?",
+        "What role did Cuban Americans play in U.S. politics?",
+        "How did generational divides affect exile politics?",
+        "What tensions existed within the Cuban American community?"
+      ],
+      "tags": ["society", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "Cuba's Revolutionary Society: What Castro Built",
+      "topics": [
+        "What social programs did revolutionary Cuba create?",
+        "How did education and healthcare transform under Castro?",
+        "What happened to political opposition and civil liberties?",
+        "How did the revolution affect race relations in Cuba?",
+        "What role did Cuba play in supporting revolutions elsewhere?",
+        "How did the economy function under socialism?",
+        "What contradictions characterized revolutionary Cuba?"
+      ],
+      "tags": ["society", "governance", "americas", "modern-history"]
+    },
+    {
+      "name": "Legacy: Cuba and America's Unfinished Conflict",
+      "topics": [
+        "Why has the U.S.-Cuba conflict persisted for over six decades?",
+        "What attempts at normalization have been made?",
+        "How has Cuba survived the end of Soviet support?",
+        "What has the embargo cost both countries?",
+        "How do younger generations view the conflict?",
+        "What would normalization of relations require?",
+        "What does Cuba's experience reveal about American power in Latin America?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "geopolitics"]
+    }
+  ]
+}

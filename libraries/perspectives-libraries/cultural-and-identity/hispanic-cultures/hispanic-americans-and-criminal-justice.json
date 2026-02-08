@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic Americans and Criminal Justice: Policing, Courts, and Incarceration",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-criminal-justice",
+    "policing",
+    "incarceration",
+    "court-system",
+    "reform"
+  ],
+  "chapters": [
+    {
+      "name": "Hispanics in the Criminal Justice System",
+      "topics": [
+        "What share of arrests, convictions, and incarceration involves Hispanics?",
+        "How are Hispanics represented in criminal justice compared to population?",
+        "What data challenges exist in tracking Hispanic involvement in criminal justice?",
+        "How does Hispanic criminal justice involvement vary by state?",
+        "What trends exist in Hispanic criminal justice contact over time?",
+        "How does the criminal justice burden differ across Hispanic communities?"
+      ],
+      "tags": ["law", "demographics", "americas", "criminal-justice"]
+    },
+    {
+      "name": "Policing in Hispanic Communities",
+      "topics": [
+        "What is the relationship between police and Hispanic communities?",
+        "How common is police contact with Hispanic residents?",
+        "What stop-and-frisk and traffic stop patterns affect Hispanics?",
+        "What use of force do Hispanics experience from police?",
+        "How does immigration enforcement affect policing?",
+        "What trust issues exist between police and Hispanic communities?"
+      ],
+      "tags": ["law", "justice", "americas", "policing"]
+    },
+    {
+      "name": "Racial Profiling and Discrimination",
+      "topics": [
+        "What evidence exists of racial profiling of Hispanics?",
+        "How do skin color and appearance affect police treatment?",
+        "What role does language and accent play in encounters?",
+        "What legal protections exist against profiling?",
+        "How do Hispanics perceive fairness in policing?",
+        "What reforms address discriminatory policing?"
+      ],
+      "tags": ["law", "justice", "americas", "discrimination"]
+    },
+    {
+      "name": "Immigration Enforcement and Local Police",
+      "topics": [
+        "How do local police cooperate with immigration enforcement?",
+        "What is the 287(g) program and how does it affect Hispanics?",
+        "How do sanctuary policies change policing in Hispanic communities?",
+        "What is Secure Communities and how has it been reformed?",
+        "How does immigration enforcement affect crime reporting?",
+        "What is the relationship between ICE and local law enforcement?"
+      ],
+      "tags": ["law", "migration", "americas", "immigration"]
+    },
+    {
+      "name": "Courts and Legal Representation",
+      "topics": [
+        "How do Hispanics fare in the court system?",
+        "What access do Hispanics have to quality legal representation?",
+        "How do language barriers affect court proceedings?",
+        "What interpreter services exist in courts?",
+        "How do plea bargaining practices affect Hispanics?",
+        "What judicial disparities exist in Hispanic cases?"
+      ],
+      "tags": ["law", "justice", "americas", "courts"]
+    },
+    {
+      "name": "Sentencing Disparities",
+      "topics": [
+        "What sentencing differences exist for Hispanic defendants?",
+        "How do Hispanic sentences compare to white defendants for similar crimes?",
+        "What role do federal sentencing guidelines play?",
+        "How does citizenship status affect sentencing?",
+        "What mandatory minimums disproportionately affect Hispanics?",
+        "What reforms could address sentencing disparities?"
+      ],
+      "tags": ["law", "justice", "americas", "sentencing"]
+    },
+    {
+      "name": "Incarceration",
+      "topics": [
+        "What is the Hispanic incarceration rate?",
+        "How many Hispanics are held in federal, state, and local facilities?",
+        "What are conditions like for Hispanic inmates?",
+        "What programming and services do Hispanic prisoners access?",
+        "How does immigration detention differ from criminal incarceration?",
+        "What are outcomes for incarcerated Hispanics?"
+      ],
+      "tags": ["law", "justice", "americas", "prisons"]
+    },
+    {
+      "name": "Reentry and Collateral Consequences",
+      "topics": [
+        "What challenges do Hispanic former inmates face upon release?",
+        "How does criminal record affect Hispanic employment?",
+        "What immigration consequences follow criminal conviction?",
+        "How does conviction affect housing and public benefits?",
+        "What family reunification challenges exist?",
+        "What support systems help Hispanic reentry?"
+      ],
+      "tags": ["law", "society", "americas", "reentry"]
+    },
+    {
+      "name": "Hispanic Youth and Juvenile Justice",
+      "topics": [
+        "How are Hispanic youth represented in the juvenile justice system?",
+        "What school-to-prison pipeline affects Hispanic youth?",
+        "How are Hispanic juveniles treated differently than white youth?",
+        "What immigration consequences affect juvenile offenders?",
+        "What diversion programs serve Hispanic youth?",
+        "What reforms could improve juvenile justice for Hispanics?"
+      ],
+      "tags": ["law", "youth", "americas", "juvenile-justice"]
+    },
+    {
+      "name": "Gangs and Hispanic Communities",
+      "topics": [
+        "What is the reality of gang involvement in Hispanic communities?",
+        "How are gang stereotypes applied to Hispanic youth?",
+        "What anti-gang enforcement affects Hispanic neighborhoods?",
+        "How do gang database practices affect Hispanics?",
+        "What gang prevention programs work?",
+        "How is gang involvement related to immigration enforcement?"
+      ],
+      "tags": ["society", "youth", "americas", "gangs"]
+    },
+    {
+      "name": "Hispanic Law Enforcement Officers",
+      "topics": [
+        "How many Hispanic officers serve in police departments?",
+        "What challenges do Hispanic officers face?",
+        "Does increased Hispanic representation change policing?",
+        "How do Hispanic officers navigate community tensions?",
+        "What recruitment and retention issues affect Hispanic officers?",
+        "What role do Hispanic officers play in reform efforts?"
+      ],
+      "tags": ["law", "representation", "americas", "police-workforce"]
+    },
+    {
+      "name": "Criminal Justice Reform",
+      "topics": [
+        "What criminal justice reforms would benefit Hispanics?",
+        "How do Hispanics view police reform proposals?",
+        "What sentencing reforms are needed?",
+        "How should immigration enforcement change in criminal justice?",
+        "What community-based alternatives exist?",
+        "What is the future of Hispanic criminal justice advocacy?"
+      ],
+      "tags": ["law", "activism", "americas", "reform"]
+    }
+  ]
+}

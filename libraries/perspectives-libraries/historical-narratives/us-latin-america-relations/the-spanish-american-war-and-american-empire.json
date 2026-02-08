@@ -1,0 +1,169 @@
+{
+  "name": "The Spanish-American War and American Empire",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "spanish-american-war",
+    "american-imperialism",
+    "cuba-libre",
+    "puerto-rico",
+    "1898"
+  ],
+  "chapters": [
+    {
+      "name": "Cuba's Long Struggle: The Fight for Independence",
+      "topics": [
+        "How long had Cubans been fighting for independence from Spain?",
+        "Who was Jose Marti and what was his vision for Cuba?",
+        "What conditions under Spanish rule fueled the independence movement?",
+        "How did Cuban exiles in the United States support the revolution?",
+        "What was the Ten Years' War and why did it fail?",
+        "How did Spanish reconcentration policies create humanitarian crisis?",
+        "What role did race play in the Cuban independence movement?"
+      ],
+      "tags": ["history", "revolution", "americas", "modern-history"]
+    },
+    {
+      "name": "Yellow Journalism: Manufacturing War Fever",
+      "topics": [
+        "How did newspapers like Hearst's Journal and Pulitzer's World cover Cuba?",
+        "What techniques did yellow journalism use to inflame public opinion?",
+        "How accurate were American newspaper accounts of Spanish atrocities?",
+        "What role did media play in pushing the country toward war?",
+        "How did sensationalism serve newspaper circulation battles?",
+        "What illustrations and headlines drove war sentiment?",
+        "How does yellow journalism compare to modern media manipulation?"
+      ],
+      "tags": ["media", "propaganda", "americas", "journalism"]
+    },
+    {
+      "name": "Remember the Maine: Explosion and Exploitation",
+      "topics": [
+        "What caused the USS Maine to explode in Havana harbor?",
+        "How did the press and politicians use the Maine disaster?",
+        "What did investigations later reveal about the explosion?",
+        "How does the Maine incident illustrate the power of crisis to drive policy?",
+        "Why was the Maine in Havana harbor in the first place?",
+        "How quickly did 'Remember the Maine' become a war cry?",
+        "What parallels exist with other incidents used to justify war?"
+      ],
+      "tags": ["conflict", "propaganda", "americas", "modern-history"]
+    },
+    {
+      "name": "The Splendid Little War: Military Operations",
+      "topics": [
+        "How did the war unfold in Cuba and the Philippines?",
+        "What role did Theodore Roosevelt and the Rough Riders play?",
+        "How did African American soldiers contribute to the war effort?",
+        "Why was the war so short and so one-sided?",
+        "What was the Battle of San Juan Hill really like?",
+        "How did Filipino forces initially cooperate with Americans?",
+        "What role did the Navy play in American victory?"
+      ],
+      "tags": ["conflict", "nationalism", "americas", "modern-history"]
+    },
+    {
+      "name": "The Treaty of Paris: Spain's Empire Ends, America's Begins",
+      "topics": [
+        "What territories did the United States acquire from Spain?",
+        "How did the treaty transform the United States into a colonial power?",
+        "What debates erupted in Congress over ratifying the treaty?",
+        "How did Spain's defeat reshape its own national identity?",
+        "Why were Cubans and Filipinos excluded from treaty negotiations?",
+        "How much did the U.S. pay Spain for the Philippines?",
+        "What did the treaty reveal about American imperial ambitions?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "treaties"]
+    },
+    {
+      "name": "Cuba: Liberated or Occupied?",
+      "topics": [
+        "What did the United States promise about Cuban independence?",
+        "How did the Platt Amendment limit Cuban sovereignty?",
+        "Why did the U.S. retain Guantanamo Bay?",
+        "How did American intervention shape Cuba's early republic?",
+        "What economic interests drove continued American involvement?",
+        "How many times did the U.S. intervene in Cuba before 1959?",
+        "How do Cubans today view the 1898 intervention?"
+      ],
+      "tags": ["politics", "colonialism", "americas", "geopolitics"]
+    },
+    {
+      "name": "Puerto Rico: Colony by Another Name",
+      "topics": [
+        "What status did Puerto Rico receive after the war?",
+        "How did the Foraker and Jones Acts define Puerto Rican rights?",
+        "What happened to Puerto Rican self-governance under American rule?",
+        "Why does Puerto Rico's status remain unresolved over a century later?",
+        "How did Americanization policies affect Puerto Rican culture?",
+        "What citizenship rights do Puerto Ricans have and lack?",
+        "How did Puerto Ricans respond to American rule?"
+      ],
+      "tags": ["politics", "colonialism", "americas", "civil-rights"]
+    },
+    {
+      "name": "The Philippines: Empire and Insurgency",
+      "topics": [
+        "Why did the United States decide to keep the Philippines?",
+        "Who was Emiliano Aguinaldo and what did Filipino independence fighters want?",
+        "How brutal was the Philippine-American War?",
+        "What does the Philippine experience reveal about American imperialism?",
+        "How many Filipino civilians died during the conflict?",
+        "What counterinsurgency tactics did Americans use?",
+        "How long did the U.S. maintain control of the Philippines?"
+      ],
+      "tags": ["conflict", "colonialism", "asia", "modern-history"]
+    },
+    {
+      "name": "The Anti-Imperialist Movement",
+      "topics": [
+        "Who opposed American empire and on what grounds?",
+        "How did Mark Twain, Andrew Carnegie, and others argue against imperialism?",
+        "What racial and constitutional arguments did anti-imperialists make?",
+        "Why did the anti-imperialist movement ultimately fail?",
+        "What strange bedfellows joined the anti-imperialist coalition?",
+        "How did anti-imperialists view the Philippines conflict?",
+        "What legacy did the movement leave for future debates?"
+      ],
+      "tags": ["politics", "activism", "americas", "us-politics"]
+    },
+    {
+      "name": "Insular Cases: The Constitution Doesn't Follow the Flag",
+      "topics": [
+        "What legal questions arose about governing new territories?",
+        "How did the Supreme Court's Insular Cases define territorial status?",
+        "What rights did residents of territories have versus states?",
+        "How do the Insular Cases continue to affect Puerto Rico and other territories?",
+        "What racial assumptions underlay the Court's reasoning?",
+        "How did the cases create different categories of territory?",
+        "Why are the Insular Cases still binding precedent today?"
+      ],
+      "tags": ["law", "governance", "americas", "constitutional-law"]
+    },
+    {
+      "name": "The Roosevelt Corollary: Monroe Doctrine Weaponized",
+      "topics": [
+        "How did Theodore Roosevelt expand the Monroe Doctrine?",
+        "What did 'international police power' mean in practice?",
+        "How did the Roosevelt Corollary justify repeated interventions?",
+        "Why did Latin Americans view the corollary as a threat, not protection?",
+        "What specific interventions followed from the corollary?",
+        "How did the corollary serve American business interests?",
+        "When and why was the corollary eventually repudiated?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "geopolitics"]
+    },
+    {
+      "name": "1898's Long Shadow: Empire as American Identity",
+      "topics": [
+        "How did 1898 transform American foreign policy and self-image?",
+        "What patterns of intervention did the war establish?",
+        "How did the war affect American attitudes toward race and civilization?",
+        "Why does 1898 matter for understanding U.S.-Latin America relations today?",
+        "How did overseas empire change American politics and institutions?",
+        "What continuities connect 1898 to later American interventions?",
+        "How do Puerto Ricans, Cubans, and Filipinos view 1898 today?"
+      ],
+      "tags": ["history", "nationalism", "americas", "modern-history"]
+    }
+  ]
+}

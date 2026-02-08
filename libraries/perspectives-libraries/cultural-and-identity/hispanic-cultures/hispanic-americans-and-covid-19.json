@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic Americans and COVID-19: Disproportionate Impact and Response",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "covid-19",
+    "pandemic-disparities",
+    "essential-workers",
+    "healthcare-inequity",
+    "hispanic-health"
+  ],
+  "chapters": [
+    {
+      "name": "Disproportionate Impact",
+      "topics": [
+        "How did COVID-19 affect Hispanic Americans compared to other groups?",
+        "What were COVID-19 infection rates among Hispanics?",
+        "What were hospitalization and death rates for Hispanics?",
+        "Why were Hispanics so disproportionately affected?",
+        "How did the pandemic expose health inequities?",
+        "What geographic variations existed in Hispanic COVID impact?"
+      ],
+      "tags": ["health", "inequality", "americas", "pandemic"]
+    },
+    {
+      "name": "Essential Workers on the Front Line",
+      "topics": [
+        "What essential jobs put Hispanic workers at COVID risk?",
+        "How did meatpacking plant outbreaks affect Hispanic workers?",
+        "What happened in agricultural and farm work during COVID?",
+        "How were Hispanic healthcare workers affected?",
+        "What exposure did grocery, restaurant, and delivery workers face?",
+        "Did essential worker policies protect Hispanic workers?"
+      ],
+      "tags": ["health", "labor", "americas", "essential-work"]
+    },
+    {
+      "name": "Living Conditions and Risk",
+      "topics": [
+        "How did housing conditions increase Hispanic COVID risk?",
+        "What role did multigenerational living play?",
+        "How did crowded housing affect infection spread?",
+        "What isolation challenges did Hispanic families face?",
+        "How did neighborhood density affect COVID rates?",
+        "What housing policies could have reduced risk?"
+      ],
+      "tags": ["health", "inequality", "americas", "housing"]
+    },
+    {
+      "name": "Healthcare Access During the Pandemic",
+      "topics": [
+        "How did healthcare access barriers affect Hispanic COVID outcomes?",
+        "What role did insurance coverage gaps play?",
+        "How did language barriers affect COVID care?",
+        "What testing access issues affected Hispanic communities?",
+        "How did fear of immigration enforcement affect care-seeking?",
+        "What telehealth gaps affected Hispanics during COVID?"
+      ],
+      "tags": ["health", "inequality", "americas", "healthcare-access"]
+    },
+    {
+      "name": "Economic Devastation",
+      "topics": [
+        "How did the pandemic affect Hispanic employment?",
+        "What job losses hit Hispanic workers hardest?",
+        "How did business closures affect Hispanic entrepreneurs?",
+        "What income losses did Hispanic families experience?",
+        "How did economic relief programs reach or miss Hispanics?",
+        "What was the economic recovery like for Hispanic Americans?"
+      ],
+      "tags": ["economics", "inequality", "americas", "recession"]
+    },
+    {
+      "name": "School Disruption",
+      "topics": [
+        "How did school closures affect Hispanic students?",
+        "What learning loss did Hispanic children experience?",
+        "How did the digital divide affect remote learning?",
+        "What childcare challenges did Hispanic families face?",
+        "How did language barriers affect remote learning?",
+        "What long-term educational impacts will Hispanic students face?"
+      ],
+      "tags": ["education", "inequality", "americas", "pandemic"]
+    },
+    {
+      "name": "Vaccination and Hesitancy",
+      "topics": [
+        "What were initial Hispanic vaccination rates?",
+        "What factors contributed to Hispanic vaccine hesitancy?",
+        "How did access barriers affect Hispanic vaccination?",
+        "What outreach efforts targeted Hispanic communities?",
+        "How did Hispanic vaccination rates change over time?",
+        "What lessons did Hispanic vaccination efforts teach?"
+      ],
+      "tags": ["health", "inequality", "americas", "vaccination"]
+    },
+    {
+      "name": "Community Response",
+      "topics": [
+        "How did Hispanic community organizations respond to COVID?",
+        "What mutual aid efforts emerged?",
+        "How did churches and faith communities help?",
+        "What grassroots health education occurred?",
+        "How did Hispanic media spread COVID information?",
+        "What community resilience emerged during the pandemic?"
+      ],
+      "tags": ["society", "activism", "americas", "community-organizing"]
+    },
+    {
+      "name": "Immigration Enforcement During COVID",
+      "topics": [
+        "How did immigration enforcement continue during the pandemic?",
+        "What COVID outbreaks occurred in detention facilities?",
+        "How did the public charge rule affect healthcare decisions?",
+        "What deportations occurred during the pandemic?",
+        "How did pandemic policies affect asylum seekers?",
+        "What conflicts emerged between public health and enforcement?"
+      ],
+      "tags": ["politics", "justice", "americas", "immigration"]
+    },
+    {
+      "name": "Mental Health Impact",
+      "topics": [
+        "What mental health effects did the pandemic have on Hispanics?",
+        "How did grief and loss affect Hispanic families?",
+        "What stress did essential workers experience?",
+        "How did isolation affect Hispanic mental health?",
+        "What trauma emerged from the pandemic experience?",
+        "How accessible was mental health support during COVID?"
+      ],
+      "tags": ["health", "psychology", "americas", "mental-health"]
+    },
+    {
+      "name": "Long-Term Consequences",
+      "topics": [
+        "What is long COVID and how does it affect Hispanics?",
+        "What lasting health effects will Hispanic communities face?",
+        "How has the pandemic changed Hispanic healthcare attitudes?",
+        "What wealth and economic effects will persist?",
+        "How has the pandemic affected Hispanic life expectancy?",
+        "What lasting policy changes emerged from the pandemic?"
+      ],
+      "tags": ["health", "inequality", "americas", "long-term-effects"]
+    },
+    {
+      "name": "Lessons for the Future",
+      "topics": [
+        "What did COVID-19 reveal about Hispanic health inequities?",
+        "What policy changes would prevent future disparate impacts?",
+        "How can essential workers be better protected?",
+        "What healthcare infrastructure is needed in Hispanic communities?",
+        "How can emergency preparedness include Hispanic communities?",
+        "What will the next pandemic response need to do differently?"
+      ],
+      "tags": ["health", "governance", "americas", "public-health"]
+    }
+  ]
+}

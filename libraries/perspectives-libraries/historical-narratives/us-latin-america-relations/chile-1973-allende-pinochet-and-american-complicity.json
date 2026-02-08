@@ -1,0 +1,169 @@
+{
+  "name": "Chile 1973: Allende, Pinochet, and American Complicity",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "chile-coup",
+    "salvador-allende",
+    "augusto-pinochet",
+    "cia-chile",
+    "chicago-boys"
+  ],
+  "chapters": [
+    {
+      "name": "Chile's Democratic Tradition: A Unique Path",
+      "topics": [
+        "What made Chile's democratic system distinctive in Latin America?",
+        "How had Chile developed strong political institutions?",
+        "What was the role of leftist parties in Chilean democracy?",
+        "How did Chile's multi-party system function?",
+        "What social reforms had previous governments achieved?",
+        "How did the military traditionally relate to civilian government?",
+        "What economic challenges did Chile face by 1970?"
+      ],
+      "tags": ["politics", "democracy", "americas", "modern-history"]
+    },
+    {
+      "name": "Allende's Election: A Socialist Wins Democratically",
+      "topics": [
+        "How did Salvador Allende win the 1970 presidential election?",
+        "What was Allende's platform and vision for Chile?",
+        "How did the Chilean congress confirm Allende's election?",
+        "What made this the first democratic election of a Marxist president?",
+        "How did different segments of Chilean society react?",
+        "What immediate challenges did Allende face?",
+        "How did the election send shockwaves through Washington?"
+      ],
+      "tags": ["politics", "democracy", "americas", "modern-history"]
+    },
+    {
+      "name": "Nixon and Kissinger: 'Make the Economy Scream'",
+      "topics": [
+        "How did the Nixon administration react to Allende's election?",
+        "What did Nixon mean by making Chile's economy 'scream'?",
+        "What covert actions did the CIA undertake against Allende?",
+        "How did the U.S. work to destabilize Chile economically?",
+        "What role did American corporations play in opposition?",
+        "How did the U.S. support Allende's domestic opponents?",
+        "What declassified documents reveal about American intentions?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "cold-war"]
+    },
+    {
+      "name": "The Chilean Road to Socialism: Allende's Reforms",
+      "topics": [
+        "What nationalizations did Allende pursue?",
+        "How did the copper nationalization affect U.S. interests?",
+        "What agrarian reform did the government implement?",
+        "How did workers' participation in industry expand?",
+        "What social programs did Allende's government create?",
+        "How did opposition forces respond to reforms?",
+        "What economic difficulties emerged during Allende's tenure?"
+      ],
+      "tags": ["economics", "governance", "americas", "modern-history"]
+    },
+    {
+      "name": "Polarization: A Society Comes Apart",
+      "topics": [
+        "How did Chilean society become deeply polarized?",
+        "What role did the truckers' strike play in destabilization?",
+        "How did media and propaganda inflame tensions?",
+        "What violence occurred between left and right?",
+        "How did the middle class turn against Allende?",
+        "What role did women's groups play in opposition?",
+        "How did congressional opposition hamper the government?"
+      ],
+      "tags": ["society", "democracy", "americas", "modern-history"]
+    },
+    {
+      "name": "September 11, 1973: The Coup",
+      "topics": [
+        "How did the military coup unfold on September 11, 1973?",
+        "What happened at La Moneda presidential palace?",
+        "How did Allende die and what were his final words?",
+        "What role did General Pinochet play in the coup?",
+        "How did different branches of the military participate?",
+        "What immediate violence followed the coup?",
+        "How did the junta establish control?"
+      ],
+      "tags": ["conflict", "authoritarianism", "americas", "cold-war"]
+    },
+    {
+      "name": "American Involvement: What Washington Knew and Did",
+      "topics": [
+        "What was the extent of U.S. involvement in the coup?",
+        "How did the CIA support coup plotters?",
+        "What role did Track I and Track II play?",
+        "How did Kissinger respond to news of the coup?",
+        "What immediate recognition did the U.S. provide the junta?",
+        "How have declassified documents revealed American complicity?",
+        "What has the U.S. government acknowledged about its role?"
+      ],
+      "tags": ["politics", "accountability", "americas", "cold-war"]
+    },
+    {
+      "name": "Pinochet's Terror: The Machinery of Repression",
+      "topics": [
+        "How did the military government organize systematic repression?",
+        "What was the role of the National Stadium as a detention center?",
+        "How many people were killed, tortured, or disappeared?",
+        "What was DINA and how did it operate?",
+        "How were bodies disposed of and victims hidden?",
+        "Who were the targets of repression?",
+        "What role did informants and denunciations play?"
+      ],
+      "tags": ["conflict", "human-rights", "americas", "civil-rights"]
+    },
+    {
+      "name": "The Chicago Boys: Neoliberal Experiment",
+      "topics": [
+        "Who were the Chicago Boys and what was their economic philosophy?",
+        "How did Chile become a laboratory for neoliberal economics?",
+        "What privatizations and deregulations did the government implement?",
+        "How did 'shock therapy' affect ordinary Chileans?",
+        "What role did Milton Friedman play in advising the regime?",
+        "What were the economic results of these policies?",
+        "How did economic liberalization coexist with political repression?"
+      ],
+      "tags": ["economics", "governance", "americas", "modern-history"]
+    },
+    {
+      "name": "Exile and Solidarity: Chile's Global Diaspora",
+      "topics": [
+        "How many Chileans went into exile?",
+        "Where did Chilean refugees settle around the world?",
+        "How did exiles organize international solidarity?",
+        "What cultural production emerged from the exile community?",
+        "How did international pressure affect the Pinochet regime?",
+        "What role did human rights organizations play?",
+        "How did exiles eventually return to Chile?"
+      ],
+      "tags": ["society", "migration", "americas", "refugees"]
+    },
+    {
+      "name": "The Transition: From Dictatorship to Democracy",
+      "topics": [
+        "How did opposition to Pinochet gradually organize?",
+        "What was the 1988 plebiscite and why did Pinochet lose?",
+        "How did Chile transition back to democracy?",
+        "What protections did Pinochet secure for himself?",
+        "How did the military maintain influence after the transition?",
+        "What truth and reconciliation efforts occurred?",
+        "How complete was Chile's democratic transition?"
+      ],
+      "tags": ["politics", "democracy", "americas", "modern-history"]
+    },
+    {
+      "name": "Justice and Memory: Reckoning with the Past",
+      "topics": [
+        "How was Pinochet eventually brought to account?",
+        "What role did the Spanish extradition case play?",
+        "How have Chilean courts prosecuted human rights crimes?",
+        "What memorials and museums preserve this history?",
+        "How do different generations of Chileans view this period?",
+        "What unresolved issues remain from the dictatorship era?",
+        "What lessons does Chile's experience offer the world?"
+      ],
+      "tags": ["law", "justice", "americas", "civil-rights"]
+    }
+  ]
+}

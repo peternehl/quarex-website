@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic New York: A Century of Diasporas",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-new-york",
+    "nuyorican",
+    "washington-heights",
+    "urban-latinos",
+    "multiple-diasporas"
+  ],
+  "chapters": [
+    {
+      "name": "The First Hispanics in New York",
+      "topics": [
+        "When did significant Hispanic migration to New York begin?",
+        "What role did Spanish Harlem play in early Hispanic settlement?",
+        "Who were the earliest Puerto Rican migrants to New York?",
+        "What other Hispanic groups arrived before World War II?",
+        "How did the garment industry attract Hispanic labor?",
+        "What community institutions developed in early Hispanic New York?"
+      ],
+      "tags": ["history", "migration", "americas", "sociology"]
+    },
+    {
+      "name": "The Puerto Rican Foundation",
+      "topics": [
+        "How did Puerto Rican migration transform New York after WWII?",
+        "What neighborhoods became Puerto Rican strongholds?",
+        "What was the experience of Puerto Ricans in postwar New York?",
+        "How did West Side Story shape and distort Puerto Rican image?",
+        "What political movements emerged from Puerto Rican New York?",
+        "How did the Young Lords challenge the status quo?",
+        "What is the legacy of Puerto Rican New York today?"
+      ],
+      "tags": ["history", "identity", "americas", "civil-rights"]
+    },
+    {
+      "name": "Nuyorican Culture",
+      "topics": [
+        "What is Nuyorican identity and how did it develop?",
+        "How did the Nuyorican Poets Cafe become a cultural institution?",
+        "What literary and artistic movements emerged from Nuyorican culture?",
+        "How did Nuyoricans shape hip-hop's development?",
+        "What tension exists between island and Nuyorican identity?",
+        "Who are the key Nuyorican artists and writers?"
+      ],
+      "tags": ["arts", "identity", "americas", "literary-arts"]
+    },
+    {
+      "name": "Dominican New York: Washington Heights and Beyond",
+      "topics": [
+        "How did Dominicans transform Washington Heights?",
+        "When did major Dominican migration to New York begin?",
+        "What economic niches have Dominicans filled?",
+        "How do Dominicans interact with Puerto Ricans in New York?",
+        "What political power have Dominicans built?",
+        "How has Dominican New York changed over decades?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Mexican New York: The Newest Major Community",
+      "topics": [
+        "When did Mexican migration to New York accelerate?",
+        "Where have Mexicans settled in New York?",
+        "How do Mexican New Yorkers differ from those in the Southwest?",
+        "What industries employ Mexican New Yorkers?",
+        "How do Mexicans fit into New York's established Hispanic hierarchy?",
+        "What cultural institutions serve Mexican New Yorkers?",
+        "How visible is the Mexican community in diverse New York?"
+      ],
+      "tags": ["society", "migration", "americas", "sociology"]
+    },
+    {
+      "name": "South American New Yorkers",
+      "topics": [
+        "What South American populations have developed in New York?",
+        "Where do Colombians, Ecuadorians, and Peruvians concentrate?",
+        "What is Jackson Heights' role as a South American hub?",
+        "How do South Americans relate to Caribbean-dominated Hispanic New York?",
+        "What businesses and institutions serve South American communities?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "The Bronx: Hispanic Heartland",
+      "topics": [
+        "How did the South Bronx become majority Hispanic?",
+        "What happened during the Bronx's urban crisis of the 1970s-80s?",
+        "How have Puerto Ricans and Dominicans shaped the Bronx?",
+        "What is the hip-hop connection to Hispanic Bronx?",
+        "How is the Bronx changing through gentrification?",
+        "What community resilience has the Bronx shown?"
+      ],
+      "tags": ["geography", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Queens: The Most Diverse Borough",
+      "topics": [
+        "How has Queens become the most ethnically diverse place on Earth?",
+        "What Hispanic communities exist in Queens?",
+        "How do Corona, Jackson Heights, and Elmhurst differ?",
+        "What makes Queens Hispanic experience different from Manhattan or Bronx?",
+        "How do Hispanics interact with other immigrant communities in Queens?"
+      ],
+      "tags": ["geography", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Brooklyn's Hispanic Communities",
+      "topics": [
+        "What Hispanic neighborhoods exist in Brooklyn?",
+        "How have Sunset Park and Bushwick changed?",
+        "What mix of Hispanic nationalities characterizes Brooklyn?",
+        "How has gentrification affected Hispanic Brooklyn?",
+        "What is distinct about Hispanic Brooklyn compared to other boroughs?",
+        "How do Hispanic Brooklynites navigate rapidly changing neighborhoods?"
+      ],
+      "tags": ["geography", "identity", "americas", "sociology"]
+    },
+    {
+      "name": "Economic Life in Hispanic New York",
+      "topics": [
+        "What industries employ Hispanic New Yorkers?",
+        "How does Hispanic economic status vary by national origin?",
+        "What role do bodegas play in Hispanic economic life?",
+        "How have Hispanic entrepreneurs shaped neighborhoods?",
+        "What economic mobility have Hispanics achieved in New York?",
+        "How does the cost of living affect Hispanic New Yorkers?",
+        "What role does the informal economy play?"
+      ],
+      "tags": ["economics", "inequality", "americas", "labor"]
+    },
+    {
+      "name": "Political Power and Representation",
+      "topics": [
+        "How have Hispanic New Yorkers built political power?",
+        "What Hispanic politicians have risen from New York?",
+        "How do different Hispanic groups compete and cooperate politically?",
+        "What issues mobilize Hispanic New York voters?",
+        "How has redistricting affected Hispanic representation?",
+        "What is the future of Hispanic political power in New York?"
+      ],
+      "tags": ["politics", "representation", "americas", "us-politics"]
+    },
+    {
+      "name": "The Future of Hispanic New York",
+      "topics": [
+        "How is Hispanic New York changing demographically?",
+        "What effect will gentrification have on historic Hispanic neighborhoods?",
+        "How are second and third generations forming identity?",
+        "Will New York remain a Hispanic cultural capital?",
+        "How will new migration patterns affect the city's Hispanic character?"
+      ],
+      "tags": ["society", "identity", "americas", "sociology"]
+    }
+  ]
+}

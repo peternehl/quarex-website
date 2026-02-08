@@ -1,0 +1,182 @@
+{
+  "name": "The Mexican-American War: Conquest and Consequence",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "mexican-american-war",
+    "manifest-destiny",
+    "treaty-guadalupe-hidalgo",
+    "territorial-expansion",
+    "borderlands"
+  ],
+  "chapters": [
+    {
+      "name": "Texas: From Mexican Province to Flashpoint",
+      "topics": [
+        "Why did Mexico invite American settlers into Texas?",
+        "How did cultural and political differences lead to Texas independence?",
+        "What was the significance of the Alamo and San Jacinto?",
+        "How did Texas annexation set the stage for war with Mexico?",
+        "What role did slavery play in Texas independence?",
+        "How did Mexico view Texas independence and later annexation?",
+        "What happened to Tejanos during and after the Texas Revolution?"
+      ],
+      "tags": ["history", "colonialism", "americas", "modern-history"]
+    },
+    {
+      "name": "Manifest Destiny: The Ideology of Expansion",
+      "topics": [
+        "What was Manifest Destiny and who promoted it?",
+        "How did racial and religious beliefs justify territorial expansion?",
+        "What role did newspapers and popular culture play in spreading expansionist fever?",
+        "How did Manifest Destiny frame Mexicans as obstacles to progress?",
+        "What economic interests drove the push for expansion?",
+        "How did Manifest Destiny connect to earlier American expansion?",
+        "What critiques of Manifest Destiny emerged at the time?"
+      ],
+      "tags": ["politics", "nationalism", "americas", "us-politics"]
+    },
+    {
+      "name": "Polk's War: Presidential Ambition and Provocation",
+      "topics": [
+        "How did James K. Polk's election make war more likely?",
+        "What was the disputed territory and why did it matter?",
+        "Did Polk deliberately provoke Mexico into firing first?",
+        "How did Congress debate the war declaration?",
+        "What secret diplomatic efforts preceded the war?",
+        "How did Polk manage public opinion about the conflict?",
+        "What were Polk's ultimate territorial objectives?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "executive-power"]
+    },
+    {
+      "name": "The Military Campaign: From the Rio Grande to Mexico City",
+      "topics": [
+        "How did the war unfold on multiple fronts?",
+        "What role did Zachary Taylor and Winfield Scott play?",
+        "How did Mexican forces resist despite being outgunned?",
+        "What was the significance of the U.S. occupation of Mexico City?",
+        "How did guerrilla warfare complicate the American occupation?",
+        "What atrocities occurred during the conflict?",
+        "How did disease affect both armies?"
+      ],
+      "tags": ["conflict", "diplomacy", "americas", "modern-history"]
+    },
+    {
+      "name": "American Dissent: Opposition to Mr. Polk's War",
+      "topics": [
+        "Why did some Americans oppose the war from the start?",
+        "What role did the slavery debate play in war opposition?",
+        "How did Abraham Lincoln's 'spot resolutions' challenge Polk?",
+        "What did Henry David Thoreau's civil disobedience protest?",
+        "How did religious groups oppose the war?",
+        "What Whig politicians spoke against the conflict?",
+        "How did abolitionists frame their opposition?"
+      ],
+      "tags": ["politics", "activism", "americas", "us-politics"]
+    },
+    {
+      "name": "African Americans and the War",
+      "topics": [
+        "How did enslaved people and free Blacks view the war?",
+        "What connection did abolitionists draw between the war and slavery's expansion?",
+        "How did the war affect debates over slavery in new territories?",
+        "What role did African Americans play in the conflict?",
+        "How did Frederick Douglass critique the war?",
+        "What happened to enslaved people in conquered territories?",
+        "How did the war accelerate sectional tensions over slavery?"
+      ],
+      "tags": ["society", "human-rights", "americas", "civil-rights"]
+    },
+    {
+      "name": "The Treaty of Guadalupe Hidalgo: Terms of Surrender",
+      "topics": [
+        "What territory did Mexico cede under the treaty?",
+        "What rights were promised to Mexicans who became Americans overnight?",
+        "How much did the United States pay for the conquered territory?",
+        "Why did some Americans want to take even more of Mexico?",
+        "How was the treaty negotiated and by whom?",
+        "What debates erupted in both countries over ratification?",
+        "What provisions of the treaty were later ignored?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "treaties"]
+    },
+    {
+      "name": "Mexicans Becoming Americans: Promises and Betrayals",
+      "topics": [
+        "How were treaty protections for Mexican citizens honored or violated?",
+        "What happened to Mexican land grants under American courts?",
+        "How did new state governments treat their Mexican-origin populations?",
+        "What legal and social discrimination did Mexican Americans face?",
+        "How did language rights promised in the treaty disappear?",
+        "What violence targeted Mexican communities in the new territories?",
+        "How did Mexican Americans resist dispossession?"
+      ],
+      "tags": ["society", "human-rights", "americas", "civil-rights"]
+    },
+    {
+      "name": "The Gadsden Purchase: Finishing the Border",
+      "topics": [
+        "Why did the United States seek additional Mexican territory in 1853?",
+        "What role did railroad routes play in the Gadsden Purchase?",
+        "How did the purchase finalize the modern U.S.-Mexico border?",
+        "What were Mexican reactions to yet another territorial loss?",
+        "How much was paid and was it a fair price?",
+        "What happened to Mexican citizens in the purchased territory?",
+        "How did the purchase reflect ongoing American expansion?"
+      ],
+      "tags": ["politics", "diplomacy", "americas", "treaties"]
+    },
+    {
+      "name": "The War's Impact on the Slavery Debate",
+      "topics": [
+        "How did the Wilmot Proviso divide Congress?",
+        "Why did the new territories intensify the slavery crisis?",
+        "How did the war accelerate the path to Civil War?",
+        "What irony lay in fighting for 'free soil' that dispossessed Mexicans?",
+        "How did the Compromise of 1850 attempt to resolve territorial disputes?",
+        "What role did popular sovereignty play in the new territories?",
+        "How did the war's veterans later fight in the Civil War?"
+      ],
+      "tags": ["politics", "justice", "americas", "civil-rights"]
+    },
+    {
+      "name": "Mexican Memory: A National Trauma",
+      "topics": [
+        "How did the war reshape Mexican national identity?",
+        "What role do the Ninos Heroes play in Mexican memory?",
+        "How did territorial loss affect Mexican politics and development?",
+        "Why does the war remain a sensitive topic in U.S.-Mexico relations?",
+        "How is the war taught in Mexican schools?",
+        "What monuments and commemorations mark the conflict?",
+        "How did the loss affect Mexican attitudes toward the United States?"
+      ],
+      "tags": ["society", "nationalism", "americas", "modern-history"]
+    },
+    {
+      "name": "American Memory: Forgotten War, Lasting Consequences",
+      "topics": [
+        "Why is the Mexican-American War often overlooked in American history?",
+        "How did the war train the generals who fought the Civil War?",
+        "What myths about the war persist in American culture?",
+        "How has historical interpretation of the war changed over time?",
+        "What role does the war play in Chicano historical consciousness?",
+        "How do textbooks in the U.S. present the conflict?",
+        "Why does understanding this history matter for contemporary debates?"
+      ],
+      "tags": ["history", "nationalism", "americas", "modern-history"]
+    },
+    {
+      "name": "The Border That Crossed Them: Long-Term Legacies",
+      "topics": [
+        "How did the war create the conditions for ongoing border issues?",
+        "What does 'we didn't cross the border, the border crossed us' mean?",
+        "How do the war's legacies shape Hispanic American identity today?",
+        "Why does understanding this history matter for contemporary debates?",
+        "How did the war establish patterns of U.S.-Mexico relations?",
+        "What continuities connect 1848 to current immigration debates?",
+        "How do descendants of those who became American citizens view their history?"
+      ],
+      "tags": ["history", "identity", "americas", "immigration"]
+    }
+  ]
+}

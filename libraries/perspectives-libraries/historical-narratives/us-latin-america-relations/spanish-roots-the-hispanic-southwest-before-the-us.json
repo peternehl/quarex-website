@@ -1,0 +1,166 @@
+{
+  "name": "Spanish Roots: The Hispanic Southwest Before the U.S.",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "colonial-america",
+    "spanish-empire",
+    "indigenous-relations",
+    "southwest-history",
+    "mestizo-culture"
+  ],
+  "chapters": [
+    {
+      "name": "The Spanish Arrive: Conquest and First Contact",
+      "topics": [
+        "What motivated Spanish exploration north of Mexico?",
+        "How did the conquistadors' expectations shape their treatment of indigenous peoples?",
+        "What were the immediate consequences of first contact for native populations?",
+        "How did Spanish colonial practices differ from later English colonization?",
+        "What myths about cities of gold drove early expeditions?",
+        "How did disease precede and enable conquest?"
+      ],
+      "tags": ["history", "colonialism", "americas", "ancient-history"]
+    },
+    {
+      "name": "The Mission System: Faith, Labor, and Control",
+      "topics": [
+        "How did missions function as instruments of both conversion and colonization?",
+        "What was daily life like for indigenous people living in missions?",
+        "Why did some tribes resist the mission system while others adapted?",
+        "What lasting cultural and architectural legacy did the missions leave?",
+        "How did Franciscan and Jesuit approaches differ?",
+        "What happened to indigenous languages and traditions within missions?",
+        "How did the mission economy depend on native labor?"
+      ],
+      "tags": ["society", "colonialism", "americas", "anthropology"]
+    },
+    {
+      "name": "Presidios and Pueblos: Military and Civilian Settlement",
+      "topics": [
+        "How did the presidio system protect Spanish claims to the frontier?",
+        "What role did civilian pueblos play in permanent settlement?",
+        "How did soldiers, settlers, and missionaries interact and conflict?",
+        "Why did some settlements thrive while others failed?",
+        "What was life like for Spanish soldiers on the remote frontier?",
+        "How did women contribute to settlement and community building?"
+      ],
+      "tags": ["history", "governance", "americas", "modern-history"]
+    },
+    {
+      "name": "The Peoples Already Here: Indigenous Nations of the Southwest",
+      "topics": [
+        "What were the major indigenous nations of the Southwest before Spanish arrival?",
+        "How did different tribes respond to Spanish colonization?",
+        "What knowledge and technologies did indigenous peoples contribute to colonial society?",
+        "How did colonial policies reshape indigenous territorial boundaries?",
+        "What sophisticated agricultural and water systems did native peoples develop?",
+        "How did Apache and Comanche resistance shape the frontier?",
+        "What alliances formed between Spanish colonizers and certain tribes?"
+      ],
+      "tags": ["society", "cultural-heritage", "americas", "anthropology"]
+    },
+    {
+      "name": "Mestizo Culture: The Blending of Worlds",
+      "topics": [
+        "How did intermarriage and cultural mixing create a new mestizo identity?",
+        "What elements of Spanish and indigenous culture blended in daily life?",
+        "How did the casta system attempt to categorize and control racial mixing?",
+        "Why is mestizo heritage central to understanding Hispanic identity today?",
+        "What foods, music, and celebrations emerged from cultural blending?",
+        "How did mestizo identity differ across regions of the Spanish borderlands?"
+      ],
+      "tags": ["society", "identity", "americas", "anthropology"]
+    },
+    {
+      "name": "Santa Fe and the Northern Frontier",
+      "topics": [
+        "Why was Santa Fe established and what made it strategically important?",
+        "How did New Mexico develop as Spain's northernmost permanent settlement?",
+        "What was the Pueblo Revolt of 1680 and why did it succeed?",
+        "How did Spanish rule change after reconquest in 1692?",
+        "What made the Santa Fe Trail significant before American traders arrived?",
+        "How did genizaros (captive-turned-colonists) reshape frontier society?",
+        "What unique legal and social traditions developed in New Mexico?"
+      ],
+      "tags": ["history", "colonialism", "americas", "modern-history"]
+    },
+    {
+      "name": "Texas Under Spanish Rule",
+      "topics": [
+        "How did Spanish Texas differ from New Mexico in settlement patterns?",
+        "What threats from French Louisiana shaped Spanish policy in Texas?",
+        "How did missions and presidios develop in the San Antonio region?",
+        "Why did Texas remain sparsely settled under Spanish rule?",
+        "How did Tejano identity form in this frontier environment?",
+        "What role did cattle ranching play in early Texas?",
+        "How did relations with indigenous peoples shape Texas development?"
+      ],
+      "tags": ["history", "governance", "americas", "geopolitics"]
+    },
+    {
+      "name": "Alta California: The Last Frontier",
+      "topics": [
+        "Why did Spain wait until 1769 to colonize California?",
+        "How did the California mission system differ from earlier models?",
+        "What was Father Junipero Serra's legacy and why is it contested?",
+        "How did California's indigenous population fare under Spanish rule?",
+        "What role did Russian and British threats play in colonization timing?",
+        "How did the rancho system develop alongside missions?",
+        "What made California isolation both protective and limiting?"
+      ],
+      "tags": ["history", "colonialism", "americas", "modern-history"]
+    },
+    {
+      "name": "The Rancho Economy: Land, Cattle, and Labor",
+      "topics": [
+        "How did the rancho system organize land and production?",
+        "What role did vaqueros play in developing cattle culture?",
+        "How did land grants shape patterns of wealth and power?",
+        "What elements of rancho culture persist in the American West today?",
+        "How did the hide and tallow trade connect ranchos to global markets?",
+        "What was the daily life of workers on large ranchos?",
+        "How did women manage ranchos and family enterprises?"
+      ],
+      "tags": ["economics", "tradition", "americas", "agriculture"]
+    },
+    {
+      "name": "Trade Routes: The Camino Real and Beyond",
+      "topics": [
+        "How did the Camino Real connect frontier settlements to Mexico City?",
+        "What goods and ideas flowed along Spanish colonial trade routes?",
+        "How did trade shape the development of towns along the routes?",
+        "Why were some communities more connected than others?",
+        "What role did mule trains and caravans play in frontier commerce?",
+        "How dangerous was travel along these routes?",
+        "What news and cultural influences traveled with traders?"
+      ],
+      "tags": ["economics", "infrastructure", "americas", "trade"]
+    },
+    {
+      "name": "Law and Society in the Spanish Borderlands",
+      "topics": [
+        "How did Spanish colonial law differ from later American legal traditions?",
+        "What rights did women have under Spanish law that they lost under American rule?",
+        "How were water rights and communal lands managed?",
+        "What legal concepts from Spanish rule persist in the Southwest today?",
+        "How did community land grants function and who benefited?",
+        "What role did the Catholic Church play in governance?",
+        "How were disputes resolved in remote frontier communities?"
+      ],
+      "tags": ["law", "governance", "americas", "civil-rights"]
+    },
+    {
+      "name": "The End of Spanish Rule: Independence and Transition",
+      "topics": [
+        "How did Mexican independence in 1821 change life in the northern territories?",
+        "What continuities persisted from Spanish to Mexican rule?",
+        "How did the mission system's decline affect indigenous and mestizo communities?",
+        "What was the status of the Hispanic Southwest when Americans began arriving?",
+        "How did secularization redistribute mission lands?",
+        "What tensions emerged between frontier settlers and the new Mexican government?",
+        "How did the arrival of American traders begin transforming the region?"
+      ],
+      "tags": ["history", "revolution", "americas", "modern-history"]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "name": "The Remittance Economy: Dollars Sent Home",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "remittances",
+    "transnational-finance",
+    "money-transfers",
+    "economic-development",
+    "diaspora-economy"
+  ],
+  "chapters": [
+    {
+      "name": "What Are Remittances?",
+      "topics": [
+        "What are remittances and how do they work?",
+        "How much money do immigrants send to Latin America each year?",
+        "What share of income do remittance senders typically send?",
+        "How do remittances compare to foreign aid and investment?",
+        "What is the global scale of remittance flows?",
+        "Why are remittances important to understand?"
+      ],
+      "tags": ["economics", "migration", "americas", "finance"]
+    },
+    {
+      "name": "Who Sends Money Home?",
+      "topics": [
+        "What is the demographic profile of remittance senders?",
+        "How do documented and undocumented immigrants compare as senders?",
+        "What share of Hispanic immigrants send remittances?",
+        "How do sending patterns differ by nationality?",
+        "How long do immigrants continue sending money home?",
+        "What motivates people to send remittances?"
+      ],
+      "tags": ["economics", "migration", "americas", "demographics"]
+    },
+    {
+      "name": "Top Receiving Countries",
+      "topics": [
+        "How much do Mexican families receive in remittances?",
+        "What role do remittances play in Central American economies?",
+        "How dependent are Guatemala, El Salvador, and Honduras on remittances?",
+        "What do remittances mean to the Dominican Republic?",
+        "How have remittances grown to Colombia and other South American nations?",
+        "What percentage of GDP do remittances represent in different countries?"
+      ],
+      "tags": ["economics", "development", "americas", "trade"]
+    },
+    {
+      "name": "How Money Gets Home",
+      "topics": [
+        "What are the main channels for sending remittances?",
+        "How do traditional money transfer operators like Western Union work?",
+        "What digital and mobile remittance options exist?",
+        "How have fintech companies disrupted the remittance industry?",
+        "What informal channels do some immigrants use?",
+        "How has technology changed remittance costs and speed?"
+      ],
+      "tags": ["economics", "innovation", "americas", "financial-services"]
+    },
+    {
+      "name": "Costs and Fees",
+      "topics": [
+        "What does it cost to send remittances to Latin America?",
+        "Why are remittance fees often criticized as too high?",
+        "How do fees vary by corridor and method?",
+        "What efforts exist to reduce remittance costs?",
+        "How do exchange rates affect remittance value?",
+        "What is the UN goal for remittance costs?"
+      ],
+      "tags": ["economics", "inequality", "americas", "finance"]
+    },
+    {
+      "name": "Impact on Receiving Families",
+      "topics": [
+        "How do families use remittance money?",
+        "What role do remittances play in household budgets?",
+        "How do remittances affect children's education?",
+        "What healthcare do remittances enable?",
+        "How do remittances affect housing and property?",
+        "What dependency develops on remittance income?"
+      ],
+      "tags": ["economics", "development", "americas", "household-economics"]
+    },
+    {
+      "name": "Community and National Impact",
+      "topics": [
+        "How do remittances affect local economies in home countries?",
+        "What development do hometown associations fund?",
+        "How do remittances affect poverty rates?",
+        "What macroeconomic effects do remittances have?",
+        "How do governments view and tax remittances?",
+        "What Dutch disease effects might remittances cause?"
+      ],
+      "tags": ["economics", "development", "americas", "economic-impact"]
+    },
+    {
+      "name": "The Cost to Senders",
+      "topics": [
+        "How do remittances affect immigrants' own finances in America?",
+        "What sacrifices do remittance senders make?",
+        "How do remittance obligations affect savings and investment?",
+        "What family dynamics surround remittance expectations?",
+        "How do senders balance American lives with obligations abroad?",
+        "What happens when senders can't keep sending?"
+      ],
+      "tags": ["economics", "migration", "americas", "family"]
+    },
+    {
+      "name": "Remittances and U.S. Policy",
+      "topics": [
+        "How does U.S. policy affect remittance flows?",
+        "What identification requirements affect remittance access?",
+        "How do banking regulations impact undocumented senders?",
+        "What proposals have sought to tax or restrict remittances?",
+        "How did the Trump administration discuss remittance policies?",
+        "What is the current regulatory landscape for remittances?"
+      ],
+      "tags": ["politics", "governance", "americas", "financial-regulation"]
+    },
+    {
+      "name": "Financial Inclusion",
+      "topics": [
+        "How do remittances connect to broader financial access?",
+        "What banking relationships do remittance senders have?",
+        "How can remittances promote financial inclusion?",
+        "What financial products target remittance users?",
+        "How do remittances relate to the unbanked population?",
+        "What credit-building opportunities exist through remittances?"
+      ],
+      "tags": ["economics", "inequality", "americas", "financial-inclusion"]
+    },
+    {
+      "name": "Generational Changes",
+      "topics": [
+        "How do remittance patterns change across generations?",
+        "Do second-generation Hispanic Americans send remittances?",
+        "How do family ties weaken or persist over generations?",
+        "What role do return visits play in maintaining connections?",
+        "How might remittance flows change as immigrant populations age?",
+        "What transnational connections will future generations maintain?"
+      ],
+      "tags": ["society", "migration", "americas", "generational-change"]
+    },
+    {
+      "name": "The Future of Remittances",
+      "topics": [
+        "How will technology continue transforming remittances?",
+        "What role might cryptocurrency play in remittances?",
+        "How will demographic changes affect remittance flows?",
+        "What would immigration reform mean for remittances?",
+        "How sustainable are current remittance levels?",
+        "What is the long-term future of the remittance economy?"
+      ],
+      "tags": ["economics", "innovation", "americas", "future-trends"]
+    }
+  ]
+}

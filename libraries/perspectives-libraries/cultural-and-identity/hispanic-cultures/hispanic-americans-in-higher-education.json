@@ -1,0 +1,157 @@
+{
+  "name": "Hispanic Americans in Higher Education: Access, Success, and Barriers",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "hispanic-college",
+    "higher-education",
+    "college-access",
+    "hsi",
+    "student-success"
+  ],
+  "chapters": [
+    {
+      "name": "Hispanic College Enrollment",
+      "topics": [
+        "How many Hispanic students are enrolled in college?",
+        "What is the Hispanic college-going rate?",
+        "How has Hispanic enrollment grown over time?",
+        "Where do Hispanic students enroll—two-year vs. four-year schools?",
+        "What share of Hispanic students attend full-time vs. part-time?",
+        "How does Hispanic enrollment vary by region and state?"
+      ],
+      "tags": ["education", "demographics", "americas", "higher-education"]
+    },
+    {
+      "name": "Community Colleges",
+      "topics": [
+        "Why do so many Hispanic students start at community colleges?",
+        "What are the advantages of community college for Hispanic students?",
+        "What challenges do Hispanic community college students face?",
+        "How successful is transfer from two-year to four-year schools?",
+        "What workforce programs serve Hispanic community college students?",
+        "How can community colleges better serve Hispanic students?"
+      ],
+      "tags": ["education", "access", "americas", "community-college"]
+    },
+    {
+      "name": "Hispanic-Serving Institutions",
+      "topics": [
+        "What are Hispanic-Serving Institutions and how are they defined?",
+        "How many HSIs exist and where are they located?",
+        "What role do HSIs play in Hispanic higher education?",
+        "How are HSIs funded compared to other institutions?",
+        "What programs and support do HSIs provide?",
+        "What is the future of the HSI designation?"
+      ],
+      "tags": ["education", "representation", "americas", "hsi"]
+    },
+    {
+      "name": "Selective Colleges and Universities",
+      "topics": [
+        "How are Hispanics represented at elite universities?",
+        "What admissions barriers affect Hispanic applicants?",
+        "How do affirmative action policies affect Hispanic admissions?",
+        "What has the Supreme Court's affirmative action ruling meant?",
+        "What Ivy League and flagship university representation exists?",
+        "What efforts increase Hispanic access to selective schools?"
+      ],
+      "tags": ["education", "inequality", "americas", "admissions"]
+    },
+    {
+      "name": "Paying for College",
+      "topics": [
+        "What financial barriers do Hispanic students face?",
+        "How do Hispanic students finance college?",
+        "What federal financial aid do Hispanic students receive?",
+        "How does Expected Family Contribution affect Hispanic families?",
+        "What scholarships specifically support Hispanic students?",
+        "How do undocumented students pay for college?"
+      ],
+      "tags": ["education", "inequality", "americas", "financial-aid"]
+    },
+    {
+      "name": "Student Debt",
+      "topics": [
+        "How much student debt do Hispanic graduates carry?",
+        "How does Hispanic borrowing compare to other groups?",
+        "What debt burdens do Hispanic students who don't graduate face?",
+        "How does student debt affect Hispanic wealth-building?",
+        "What default rates exist among Hispanic borrowers?",
+        "How might loan forgiveness programs affect Hispanics?"
+      ],
+      "tags": ["economics", "inequality", "americas", "student-debt"]
+    },
+    {
+      "name": "Persistence and Completion",
+      "topics": [
+        "What are Hispanic college graduation rates?",
+        "Why do Hispanic students have lower completion rates?",
+        "What factors predict Hispanic student success?",
+        "How do completion rates differ by institution type?",
+        "What interventions improve Hispanic persistence?",
+        "How long does it take Hispanic students to complete degrees?"
+      ],
+      "tags": ["education", "inequality", "americas", "graduation"]
+    },
+    {
+      "name": "Campus Climate and Belonging",
+      "topics": [
+        "What do Hispanic students experience on predominantly white campuses?",
+        "How does campus climate affect Hispanic student success?",
+        "What microaggressions do Hispanic students encounter?",
+        "What support systems help Hispanic students feel belonging?",
+        "What role do Hispanic student organizations play?",
+        "How can institutions create more inclusive environments?"
+      ],
+      "tags": ["education", "identity", "americas", "campus-culture"]
+    },
+    {
+      "name": "Fields of Study",
+      "topics": [
+        "What majors do Hispanic students choose?",
+        "How are Hispanics represented in STEM fields?",
+        "What business and professional degrees do Hispanics pursue?",
+        "How does major choice affect post-graduation outcomes?",
+        "What barriers exist to Hispanic entry in high-demand fields?",
+        "What programs increase Hispanic STEM representation?"
+      ],
+      "tags": ["education", "careers", "americas", "majors"]
+    },
+    {
+      "name": "Graduate and Professional Education",
+      "topics": [
+        "How many Hispanics pursue graduate degrees?",
+        "What representation do Hispanics have in master's programs?",
+        "How are Hispanics represented in medical, law, and MBA programs?",
+        "What barriers exist to Hispanic doctoral education?",
+        "How are Hispanic faculty members represented in academia?",
+        "What pipeline programs support Hispanic graduate students?"
+      ],
+      "tags": ["education", "representation", "americas", "graduate-school"]
+    },
+    {
+      "name": "Support Programs and Interventions",
+      "topics": [
+        "What programs improve Hispanic college success?",
+        "How do mentoring programs help Hispanic students?",
+        "What role do learning communities play?",
+        "How do TRIO and similar programs serve Hispanics?",
+        "What advising models work for Hispanic students?",
+        "What comprehensive support models show the best results?"
+      ],
+      "tags": ["education", "access", "americas", "student-support"]
+    },
+    {
+      "name": "The Future of Hispanic Higher Education",
+      "topics": [
+        "What is the future trajectory of Hispanic college enrollment?",
+        "How will demographic changes affect higher education?",
+        "What reforms would improve Hispanic college outcomes?",
+        "How might technology change Hispanic access to education?",
+        "What role will Hispanic alumni play in shaping institutions?",
+        "What would educational equity look like for Hispanic students?"
+      ],
+      "tags": ["education", "demographics", "americas", "future-trends"]
+    }
+  ]
+}
