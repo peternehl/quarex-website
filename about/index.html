@@ -95,9 +95,10 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            font-size: 16px;
             background: var(--bg);
             color: var(--text);
-            line-height: 1.7;
+            line-height: 1.6;
             min-height: 100vh;
         }
 
@@ -129,21 +130,21 @@
 
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: clamp(4rem, 10vw, 8rem);
+            font-size: clamp(2.5rem, 7vw, 4.5rem);
             font-weight: 700;
             letter-spacing: 0.02em;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             color: var(--accent);
             position: relative;
             z-index: 1;
         }
 
         .hero-image {
-            width: 400px;
-            height: 400px;
+            width: 320px;
+            height: 320px;
             border-radius: 16px;
             object-fit: cover;
-            margin-bottom: 2.5rem;
+            margin-bottom: 2rem;
             border: 3px solid var(--border);
             box-shadow:
                 0 0 60px var(--accent-glow),
@@ -154,10 +155,10 @@
 
         .hero .tagline {
             font-family: 'Playfair Display', serif;
-            font-size: clamp(1.25rem, 3vw, 1.75rem);
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
             font-style: italic;
             color: var(--muted);
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
             position: relative;
             z-index: 1;
         }
@@ -181,25 +182,25 @@
         .section {
             max-width: 900px;
             margin: 0 auto;
-            padding: 6rem 2rem;
+            padding: 4rem 2rem;
         }
 
         .section h2 {
             font-family: 'Playfair Display', serif;
-            font-size: clamp(2rem, 5vw, 3rem);
-            margin-bottom: 2rem;
+            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            margin-bottom: 1.5rem;
             color: var(--text);
         }
 
         .section p {
-            font-size: 1.125rem;
+            font-size: 1rem;
             color: var(--muted);
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         .section p.highlight {
             color: var(--text);
-            font-size: 1.25rem;
+            font-size: 1.1rem;
             font-weight: 500;
         }
 
@@ -214,7 +215,7 @@
         }
 
         .definition-box p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: var(--text);
             margin-bottom: 0;
         }
@@ -242,7 +243,7 @@
 
         .feature-text {
             color: var(--text);
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         /* Architect Section */
@@ -261,7 +262,7 @@
             color: var(--muted);
             padding: 0.75rem 0;
             border-bottom: 1px solid var(--border);
-            font-size: 1.05rem;
+            font-size: 1rem;
         }
 
         .role-list li:last-child {
@@ -275,10 +276,10 @@
 
         .quarex-examples h3 {
             font-family: 'Playfair Display', serif;
-            font-size: 1.75rem;
+            font-size: 1.5rem;
             color: var(--gold);
             text-align: center;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
 
         .examples-grid {
@@ -296,15 +297,15 @@
         }
 
         .example-card .title {
-            font-size: 1.25rem;
+            font-size: 1.1rem;
             color: var(--text);
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
         }
 
         .example-card .meta {
-            font-size: 0.95rem;
+            font-size: 0.875rem;
             color: var(--muted);
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
 
         @media (max-width: 768px) {
@@ -391,16 +392,17 @@
         }
 
         .review-text {
-            font-size: 1.05rem;
+            font-size: 0.95rem;
             color: var(--text);
-            line-height: 1.8;
+            line-height: 1.7;
             margin-bottom: 1.5rem;
             padding-left: 0.5rem;
         }
 
         .review-text p {
             color: var(--text);
-            margin-bottom: 1rem;
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
         }
 
         .review-text p:last-child {
@@ -472,9 +474,9 @@
 
         .citation-section h3 {
             font-family: 'Playfair Display', serif;
-            font-size: 1.25rem;
+            font-size: 1.1rem;
             color: var(--text);
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
         }
 
         .citation-block {
@@ -545,12 +547,12 @@
         /* Responsive */
         @media (max-width: 768px) {
             .hero-image {
-                width: 200px;
-                height: 200px;
+                width: 180px;
+                height: 180px;
             }
 
             .section {
-                padding: 4rem 1.5rem;
+                padding: 3rem 1.5rem;
             }
 
             .definition-box {
