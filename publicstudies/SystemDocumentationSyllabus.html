@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Documentation Practices Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 6-course System Documentation Practices syllabus. Free, open curriculum covering pre-planning, documentation fundamentals, troubleshooting, and domain-specific documentation for hardware, software, and integrated systems.">
+    <meta name="keywords" content="system documentation, technical documentation, systems integration, troubleshooting, documentation best practices, AI documentation, engineering documentation, AV systems, control systems">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/SystemDocumentationSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/SystemDocumentationSyllabus.html">
+    <meta property="og:title" content="System Documentation Practices Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 6-course System Documentation Practices syllabus. 69 chapters of free, practical content for engineers and technical professionals.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="System Documentation Practices Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 6-course System Documentation Practices syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #f59e0b;
+            --accent-hover: #d97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>System Documentation</em> Practices</h1>
+            <p class="syllabus-intro">A practical curriculum for systems integrators, engineers, and technical professionals. From project pre-planning through documentation delivery to troubleshooting &mdash; including domain-specific practices for hardware, software, and integrated systems. Built from decades of real-world experience.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">6</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">69</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">413</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- PRE-PROJECT PLANNING -->
+            <div class="section-divider">
+                <h2 class="section-label">Pre-Project Planning</h2>
+                <p class="section-desc">Before you design anything, you need to understand what you're building, for whom, and under what constraints. This is where documentation begins.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">Pre-Planning and Planning Meetings</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Initial Contact Call (Single)</li>
+                        <li>The Relationship Framework Meeting (Single)</li>
+                        <li>Expectations Alignment Meetings (Multiple)</li>
+                        <li>Requirements Discovery Meetings (Multiple)</li>
+                        <li>Constraints Reality Meetings (Multiple)</li>
+                        <li>Technology Direction Meetings (Multiple)</li>
+                        <li>The Schedule and Milestones Meeting (Single)</li>
+                        <li>Procurement and Logistics Meetings (Multiple)</li>
+                        <li>The Documentation Standards Meeting (Single)</li>
+                        <li>The Progress Review Cadence Meeting (Single)</li>
+                        <li>The Pre-Design Signoff Meeting (Single)</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/systems-planning/pre-planning-and-planning-meetings/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- DOCUMENTATION FUNDAMENTALS -->
+            <div class="section-divider">
+                <h2 class="section-label">Documentation Fundamentals</h2>
+                <p class="section-desc">Core practices for creating, organizing, and maintaining documentation &mdash; including modern AI-assisted approaches that exist right now.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Documentation Fundamentals</span>
+                    <span class="course-chapters">14 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Minimum Viable Document Set</li>
+                        <li>Writing Documentation People Actually Read</li>
+                        <li>Naming, Numbering, and Organizing Documents</li>
+                        <li>Version Control Without the Chaos</li>
+                        <li>Keeping Documentation Current</li>
+                        <li>Templates That Help Instead of Hinder</li>
+                        <li>Handoffs and Deliverables</li>
+                        <li>Common Documentation Mistakes</li>
+                        <li>Documentation Tools and Formats</li>
+                        <li>Using AI to Create and Maintain Documentation</li>
+                        <li>Documentation for Maintenance and Troubleshooting</li>
+                        <li>AI-Assisted Troubleshooting and Support</li>
+                        <li>When Things Go Wrong: Documentation After Incidents</li>
+                        <li>Building a Documentation Culture</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/documentation-fundamentals/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- DOMAIN-SPECIFIC DOCUMENTATION -->
+            <div class="section-divider">
+                <h2 class="section-label">Domain-Specific Documentation</h2>
+                <p class="section-desc">Documentation practices tailored to the specific requirements of hardware systems, software systems, and integrated systems that combine both.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Hardware Systems Documentation</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Equipment Lists and Bill of Materials</li>
+                        <li>Cable Schedules and Wire Documentation</li>
+                        <li>Rack Elevations and Equipment Layouts</li>
+                        <li>Floor Plans and System Layouts</li>
+                        <li>Electrical and Power Documentation</li>
+                        <li>Installation Documentation</li>
+                        <li>As-Built Drawings</li>
+                        <li>Labeling Standards</li>
+                        <li>Spare Parts and Consumables Documentation</li>
+                        <li>Preventive Maintenance Documentation</li>
+                        <li>Test and Commissioning Documentation</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/hardware-systems-documentation/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Software Systems Documentation</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Code Documentation Basics</li>
+                        <li>README Files and Project Documentation</li>
+                        <li>API Documentation</li>
+                        <li>Configuration Documentation</li>
+                        <li>Database Documentation</li>
+                        <li>Deployment Documentation</li>
+                        <li>Version Control Documentation</li>
+                        <li>Architecture Documentation</li>
+                        <li>Runbooks and Operational Documentation</li>
+                        <li>User Documentation for Software</li>
+                        <li>Documentation-as-Code Practices</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/software-systems-documentation/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Integrated Systems Documentation</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>System Block Diagrams and Signal Flow</li>
+                        <li>Control System Documentation</li>
+                        <li>AV System Documentation</li>
+                        <li>Network Documentation for Integrated Systems</li>
+                        <li>Integration Points and Interfaces</li>
+                        <li>Commissioning and System Tuning Documentation</li>
+                        <li>Operations Manuals</li>
+                        <li>Training Documentation and Materials</li>
+                        <li>Warranty and Support Documentation</li>
+                        <li>System Lifecycle Documentation</li>
+                        <li>The Complete Documentation Package</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/integrated-systems-documentation/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- TROUBLESHOOTING -->
+            <div class="section-divider">
+                <h2 class="section-label">Troubleshooting</h2>
+                <p class="section-desc">A practical and cognitive framework for diagnosing, isolating, and resolving problems &mdash; the skill that ties documentation to real-world system support.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Troubleshooting Skills</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Troubleshooting, Really?</li>
+                        <li>Defining the Problem Correctly</li>
+                        <li>Hypothesis-Driven Troubleshooting</li>
+                        <li>Isolation and Elimination Techniques</li>
+                        <li>Stabilization First: Restoring Functionality to Remove Pressure</li>
+                        <li>Human Factors and Cognitive Traps</li>
+                        <li>Documentation, Signals, and Evidence</li>
+                        <li>When Fixes Create New Problems</li>
+                        <li>Becoming a Better Troubleshooter</li>
+                        <li>The Infinite Monkey Theory as a Last Resort</li>
+                        <li>Troubleshooting Across Domains</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/troubleshooting-skills/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/images/quarex_logo.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">All content is free, open, and self-hostable.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Content licensed under CC BY-SA 4.0.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
