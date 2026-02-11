@@ -80,13 +80,9 @@
     body {
       font: 16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       color: var(--ink);
-      background: url('assets/living-book-iceberg.png') center center / cover fixed no-repeat;
+      background: var(--bg);
       -webkit-font-smoothing: antialiased;
-    }
-
-    .page-overlay {
       min-height: 100vh;
-      background: rgba(0, 0, 0, 0.3);
     }
 
     a { color: var(--blue); text-decoration: none; }
@@ -107,7 +103,6 @@
       font-size: clamp(36px, 5vw, 64px);
       color: var(--brand);
       margin-bottom: 0.5rem;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     }
 
     .tagline {
@@ -115,7 +110,6 @@
       color: var(--accent);
       font-style: italic;
       margin-bottom: 1.5rem;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     }
 
     .intro-copy {
@@ -125,10 +119,9 @@
     }
 
     .intro-copy p {
-      color: #FFFFFF;
-      font-size: 1.1rem;
+      color: var(--muted);
+      font-size: 1rem;
       margin-bottom: 1rem;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     }
 
     /* Manifesto Section */
@@ -147,10 +140,9 @@
     }
 
     .manifesto p {
-      color: #FFFFFF;
+      color: var(--muted);
       margin: 12px auto;
       max-width: 700px;
-      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     }
 
     .manifesto-cta {
@@ -322,7 +314,6 @@
 </head>
 <body>
 
-<div class="page-overlay">
   <main>
     <!-- Hero Section -->
     <header class="hero">
@@ -375,7 +366,7 @@
         </a>
         <a href="libraries/" class="nav-btn">
           <span>Libraries</span>
-          <span class="nav-subtitle">745 Books</span>
+          <span class="nav-subtitle">749 Books</span>
         </a>
         <a href="https://publicstudies.org" class="nav-btn">
           <span>Public Learning</span>
@@ -425,7 +416,6 @@
     <a href="privacy.html">Privacy Policy</a> &bull; <a href="ethics/">Ethics</a>
     <span id="pcBtn" style="cursor:pointer;margin-left:16px;opacity:0.3;font-size:0.8rem;" title="Podcast Mode">PC</span>
   </footer>
-</div>
 
 <script>
 (function() {
