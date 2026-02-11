@@ -832,8 +832,8 @@
 	</select>
 
 	<select id="expertiseSelect" class="expertise-select" aria-label="Select expertise level">
-	  <option value="introductory" selected>Introductory</option>
-	  <option value="intermediate">Intermediate</option>
+	  <option value="introductory">Introductory</option>
+	  <option value="intermediate" selected>Intermediate</option>
 	  <option value="advanced">Advanced</option>
 	</select>
 
@@ -874,7 +874,7 @@
           </button>
 
           <button id="send">
-            <img src="../assets/quarex-hero-round-500pixels.png" alt="Quarex">
+            <img src="/assets/quarex-hero-round-500pixels.png" alt="Quarex" style="filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));">
             <span>Ask Quarex</span>
           </button>
         </div>
@@ -922,6 +922,12 @@
       'ja': 'Japanese',
       'ko': 'Korean'
     };
+
+    // Auto-detect Spanish for visitors from elecciones2026.net
+    const referrer = document.referrer || '';
+    if (referrer.includes('elecciones2026.net')) {
+      localStorage.setItem('quarex_language', 'es');
+    }
 
     // Load language preference from localStorage
     const savedLang = localStorage.getItem('quarex_language') || 'en';
