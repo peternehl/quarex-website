@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Hunting & Career Skills | Public Studies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --line: #30363d;
+            --text: #e6edf3;
+            --muted: #8b949e;
+            --accent: #0ea5e9;
+            --accent-soft: rgba(14, 165, 233, 0.1);
+            --brand: #58a6ff;
+            --radius: 8px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Source Sans Pro', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 0;
+        }
+        a { color: var(--brand); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            padding: 16px 24px;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--text);
+            font-weight: 700;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--brand); }
+        .nav-back { font-size: 0.95rem; }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 60px 24px 48px;
+            border-bottom: 1px solid var(--line);
+        }
+        .hero-icon { font-size: 3.5rem; margin-bottom: 16px; }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .hero-subtitle {
+            color: var(--muted);
+            font-size: 1.15rem;
+            max-width: 700px;
+            margin: 0 auto 20px;
+        }
+        .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+        .hero-meta span { display: flex; align-items: center; gap: 6px; }
+
+        /* Main */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 48px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--accent);
+        }
+        .section-number {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+        }
+
+        /* Course Cards */
+        .course-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course-header {
+            padding: 20px 24px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+        .course-header:hover { background: var(--accent-soft); }
+        .course-title-wrap { flex: 1; }
+        .course-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .course-meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .course-toggle {
+            color: var(--muted);
+            font-size: 1.2rem;
+            transition: transform 0.2s;
+        }
+        .course-card.open .course-toggle { transform: rotate(180deg); }
+        .course-chapters {
+            display: none;
+            border-top: 1px solid var(--line);
+            padding: 16px 24px;
+            background: rgba(0,0,0,0.2);
+        }
+        .course-card.open .course-chapters { display: block; }
+        .chapter-list { list-style: none; }
+        .chapter-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-number {
+            color: var(--accent);
+            font-weight: 600;
+            margin-right: 8px;
+        }
+        .quarex-link {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 10px 20px;
+            background: var(--accent);
+            color: #fff;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+        .quarex-link:hover { opacity: 0.9; text-decoration: none; }
+
+        /* Footer */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .footer-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .footer-logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 16px;
+            opacity: 0.85;
+            filter: drop-shadow(0 0 8px rgba(88, 166, 255, 0.3));
+        }
+        .footer-logo:hover { opacity: 1; }
+        .footer-text {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        .footer-text a { color: var(--brand); }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero { padding: 40px 20px 32px; }
+            .course-header { padding: 16px; }
+            .course-chapters { padding: 12px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/publicstudies/" class="site-logo">Public Studies</a>
+            <a href="/publicstudies/" class="nav-back">&larr; All Schools</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-icon">&#128188;</div>
+        <h1>Job Hunting & Career Skills</h1>
+        <p class="hero-subtitle">
+            Everything you need to find work, ace interviews, and navigate career changes in an AI-transformed economy.
+        </p>
+        <div class="hero-meta">
+            <span>&#128218; 5 courses</span>
+            <span>&#128209; 70 chapters</span>
+            <span>&#127968; Home & Work</span>
+        </div>
+    </section>
+
+    <main>
+        <!-- Section 1: Getting Hired -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">I</span>
+                <h2 class="section-title">Getting Hired</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Job Seeker Interviewing Tutorial</div>
+                        <div class="course-meta">17 chapters &bull; From resume to offer letter</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> What Hiring Managers Actually Decide</li>
+                        <li><span class="chapter-number">2.</span> Clarify Your Target: Role, Level, and Story</li>
+                        <li><span class="chapter-number">3.</span> Research Like a Pro</li>
+                        <li><span class="chapter-number">4.</span> Your Materials: Resume, Portfolio, and References</li>
+                        <li><span class="chapter-number">5.</span> Applications and Outreach</li>
+                        <li><span class="chapter-number">6.</span> Screening Calls and First Contact</li>
+                        <li><span class="chapter-number">7.</span> Behavioral Interviews: Stories That Prove You Can Do the Job</li>
+                        <li><span class="chapter-number">8.</span> Technical and Skills Interviews</li>
+                        <li><span class="chapter-number">9.</span> Blue Collar and Trades Interviews</li>
+                        <li><span class="chapter-number">10.</span> Contract and Freelance Interviews</li>
+                        <li><span class="chapter-number">11.</span> Remote, Video, and Panel Interviews</li>
+                        <li><span class="chapter-number">12.</span> Questions to Ask the Interviewer</li>
+                        <li><span class="chapter-number">13.</span> Professional Presence and First Impressions</li>
+                        <li><span class="chapter-number">14.</span> Salary Negotiation and Benefits</li>
+                        <li><span class="chapter-number">15.</span> After the Interview</li>
+                        <li><span class="chapter-number">16.</span> Handling Rejection and Building Confidence</li>
+                        <li><span class="chapter-number">17.</span> Special Circumstances</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/job-seeker-interviewing-tutorial/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: On the Other Side -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">II</span>
+                <h2 class="section-title">On the Other Side of the Table</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Interviewer and Hiring Manager Tutorial</div>
+                        <div class="course-meta">15 chapters &bull; Hire better, faster, fairer</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> What Makes a Good Hire</li>
+                        <li><span class="chapter-number">2.</span> Defining the Role Before You Post</li>
+                        <li><span class="chapter-number">3.</span> Sourcing and Screening Candidates</li>
+                        <li><span class="chapter-number">4.</span> Structuring the Interview Process</li>
+                        <li><span class="chapter-number">5.</span> Conducting Effective Phone Screens</li>
+                        <li><span class="chapter-number">6.</span> Behavioral Interview Questions That Work</li>
+                        <li><span class="chapter-number">7.</span> Technical and Skills Assessments</li>
+                        <li><span class="chapter-number">8.</span> Interviewing for Trades and Blue Collar Roles</li>
+                        <li><span class="chapter-number">9.</span> Hiring Contractors and Freelancers</li>
+                        <li><span class="chapter-number">10.</span> Running Panel and Group Interviews</li>
+                        <li><span class="chapter-number">11.</span> Avoiding Bias and Legal Pitfalls</li>
+                        <li><span class="chapter-number">12.</span> Making the Decision</li>
+                        <li><span class="chapter-number">13.</span> Making Offers and Negotiating</li>
+                        <li><span class="chapter-number">14.</span> Rejecting Candidates Professionally</li>
+                        <li><span class="chapter-number">15.</span> Improving Your Hiring Process</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/interviewer-hiring-tutorial/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Career Transitions -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">III</span>
+                <h2 class="section-title">Career Transitions in the AI Era</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">AI and Your Career: Adaptation Strategies</div>
+                        <div class="course-meta">12 chapters &bull; Survive and thrive as AI changes work</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Understanding the AI Job Landscape</li>
+                        <li><span class="chapter-number">2.</span> Assessing Your Own Vulnerability</li>
+                        <li><span class="chapter-number">3.</span> Skills That Remain Valuable</li>
+                        <li><span class="chapter-number">4.</span> Working With AI: Augmentation Strategies</li>
+                        <li><span class="chapter-number">5.</span> Retraining and Education Options</li>
+                        <li><span class="chapter-number">6.</span> Career Pivots: Where to Go</li>
+                        <li><span class="chapter-number">7.</span> Entrepreneurship and Self-Employment</li>
+                        <li><span class="chapter-number">8.</span> Freelancing and the Gig Economy</li>
+                        <li><span class="chapter-number">9.</span> Financial Survival During Transition</li>
+                        <li><span class="chapter-number">10.</span> Collective Action and Worker Power</li>
+                        <li><span class="chapter-number">11.</span> Managing the Emotional and Identity Impact</li>
+                        <li><span class="chapter-number">12.</span> Long-Term Planning in an Uncertain Economy</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Problem-Solving -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">IV</span>
+                <h2 class="section-title">Problem-Solving Skills</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Troubleshooting Skills</div>
+                        <div class="course-meta">11 chapters &bull; Diagnose problems across any domain</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> What Is Troubleshooting, Really?</li>
+                        <li><span class="chapter-number">2.</span> Defining the Problem Correctly</li>
+                        <li><span class="chapter-number">3.</span> Hypothesis-Driven Troubleshooting</li>
+                        <li><span class="chapter-number">4.</span> Isolation and Elimination Techniques</li>
+                        <li><span class="chapter-number">5.</span> Stabilization First: Restoring Functionality to Remove Pressure</li>
+                        <li><span class="chapter-number">6.</span> Human Factors and Cognitive Traps</li>
+                        <li><span class="chapter-number">7.</span> Documentation, Signals, and Evidence</li>
+                        <li><span class="chapter-number">8.</span> When Fixes Create New Problems</li>
+                        <li><span class="chapter-number">9.</span> Becoming a Better Troubleshooter</li>
+                        <li><span class="chapter-number">10.</span> The Infinite Monkey Theory as a Last Resort</li>
+                        <li><span class="chapter-number">11.</span> Troubleshooting Across Domains</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/troubleshooting-skills/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5: Self-Promotion -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">V</span>
+                <h2 class="section-title">Self-Promotion & Hustle</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Marketing Without a Budget</div>
+                        <div class="course-meta">15 chapters &bull; Guerrilla tactics for small operators</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> What Is Guerrilla Marketing and Why Does It Work?</li>
+                        <li><span class="chapter-number">2.</span> Know Your Audience Before You Spend a Dollar</li>
+                        <li><span class="chapter-number">3.</span> Content That Spreads: The Mechanics of Sharing</li>
+                        <li><span class="chapter-number">4.</span> Building an Audience Before You Have One</li>
+                        <li><span class="chapter-number">5.</span> Earning Media Coverage Without a PR Firm</li>
+                        <li><span class="chapter-number">6.</span> Community Infiltration vs. Community Building</li>
+                        <li><span class="chapter-number">7.</span> The Art of the Stunt</li>
+                        <li><span class="chapter-number">8.</span> Hijacking Attention: Newsjacking and Trend Riding</li>
+                        <li><span class="chapter-number">9.</span> Partnerships and Cross-Promotion</li>
+                        <li><span class="chapter-number">10.</span> Email: The Channel You Own</li>
+                        <li><span class="chapter-number">11.</span> SEO for People Who Hate SEO</li>
+                        <li><span class="chapter-number">12.</span> When Guerrilla Backfires: Failures and Lessons</li>
+                        <li><span class="chapter-number">13.</span> Ethics of Attention: Marketing Without Manipulation</li>
+                        <li><span class="chapter-number">14.</span> Measuring What Matters Without Expensive Tools</li>
+                        <li><span class="chapter-number">15.</span> Putting It Together: Your Zero-Budget Marketing Plan</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/marketing-without-a-budget/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="https://quarex.org" target="_blank">
+                <img src="https://quarex.org/images/quarex-logo.png" alt="Powered by Quarex" class="footer-logo">
+            </a>
+            <p class="footer-text">
+                All content sourced from <a href="https://quarex.org/libraries/" target="_blank">Quarex Knowledge Libraries</a><br>
+                Free forever. No login required.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,303 +1,8 @@
 {
     "disciplines": [
         {
-            "id": "womens-studies",
-            "title": "Women's Studies",
-            "icon": "♀",
-            "description": "Gender, power, history, and the movements that changed the world.",
-            "lang": "en",
-            "status": "live",
-            "syllabus": "WomensStudiesSyllabus.html",
-            "courses": [
-                {
-                    "title": "What is Feminism?",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/what-is-feminism"
-                },
-                {
-                    "title": "Women's Rights: Centuries of Struggle",
-                    "link": "https://quarex.org/libraries/k/the-sciences/history-and-anthropology/womens-rights-centuries-of-struggle"
-                },
-                {
-                    "title": "Women in American Politics",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-american-politics"
-                },
-                {
-                    "title": "Eleanor Roosevelt",
-                    "link": "https://quarex.org/libraries/k/biographies/political-biographies/franklin-d-roosevelt-a-biography/eleanor-roosevelt-a-life-of-her-own"
-                },
-                {
-                    "title": "Ruth Bader Ginsburg: A Biography",
-                    "link": "https://quarex.org/libraries/k/biographies/political-biographies/ruth-bader-ginsburg-a-biography"
-                },
-                {
-                    "title": "Intersectionality: Race, Gender, and Power",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/intersectionality-race-gender-and-power"
-                },
-                {
-                    "title": "Queer Feminism and Gender",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/queer-feminism-and-gender"
-                },
-                {
-                    "title": "Women and the Workplace",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-the-workplace"
-                },
-                {
-                    "title": "Women in Science and Technology",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-science-and-technology"
-                },
-                {
-                    "title": "Motherhood, Family, and Gender Roles",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/motherhood-family-and-gender-roles"
-                },
-                {
-                    "title": "Women and Violence",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-violence"
-                },
-                {
-                    "title": "Women's Health and Body Politics",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/womens-health-and-body-politics"
-                },
-                {
-                    "title": "How Abortion Became a Political Wedge",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge"
-                },
-                {
-                    "title": "Gender, Media, and Representation",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation"
-                },
-                {
-                    "title": "Global Women's Rights",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/global-womens-rights"
-                }
-            ]
-        },
-        {
-            "id": "ai-studies",
-            "title": "AI Studies",
-            "icon": "🤖",
-            "description": "Understanding artificial intelligence as a citizen, worker, and voter.",
-            "lang": "en",
-            "status": "live",
-            "syllabus": "AIStudiesSyllabus.html",
-            "courses": [
-                {
-                    "title": "What Is AI, Really?",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really"
-                },
-                {
-                    "title": "The History of AI",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/the-history-of-ai"
-                },
-                {
-                    "title": "Key Ideas in Machine Learning",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/key-ideas-in-machine-learning"
-                },
-                {
-                    "title": "Neural Networks Explained",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/neural-networks-explained"
-                },
-                {
-                    "title": "Transformers and LLMs",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/transformers-and-llms"
-                },
-                {
-                    "title": "Probability, Statistics, and Uncertainty",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/probability-statistics-and-uncertainty"
-                },
-                {
-                    "title": "AI in Everyday Life",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-everyday-life"
-                },
-                {
-                    "title": "AI and Creativity",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-and-creativity"
-                },
-                {
-                    "title": "AI in Healthcare",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-healthcare"
-                },
-                {
-                    "title": "Responsible Use and Human Judgment",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/responsible-use-and-human-judgment"
-                },
-                {
-                    "title": "Risks, Harms, and Governance",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/risks-harms-and-governance"
-                },
-                {
-                    "title": "Technology's Hidden Tradeoffs",
-                    "link": "https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs"
-                },
-                {
-                    "title": "AI + Billionaires = Hyperagency",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency"
-                },
-                {
-                    "title": "AI Risks: Real vs. Imaginary",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary"
-                },
-                {
-                    "title": "The Ungovernable Economy",
-                    "link": "https://quarex.org/libraries/i/economic-infrastructures/geopolitics/concentration-singularity"
-                },
-                {
-                    "title": "Global AI Policy",
-                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/global-ai-policy"
-                },
-                {
-                    "title": "AI and Your Career: Adaptation Strategies",
-                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies"
-                },
-                {
-                    "title": "AI, Bots, and Synthetic Media",
-                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media"
-                },
-                {
-                    "title": "AI as a Force Multiplier for Knowledge Work",
-                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-as-a-force-multiplier"
-                }
-            ]
-        },
-        {
-            "id": "media-information-studies",
-            "title": "Media & Information Studies",
-            "icon": "📡",
-            "description": "Understanding how information works, who controls it, and how to navigate it.",
-            "lang": "en",
-            "status": "live",
-            "syllabus": "MediaStudiesSyllabus.html",
-            "courses": [
-                {
-                    "title": "Foundations of Critical Thinking",
-                    "link": "https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking"
-                },
-                {
-                    "title": "How Information Shapes What We Believe",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/how-information-shapes-what-we-believe"
-                },
-                {
-                    "title": "Newspapers",
-                    "link": "https://quarex.org/libraries/i/social-infrastructures/print-media/newspapers"
-                },
-                {
-                    "title": "Polarization Pays",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/polarization-pays"
-                },
-                {
-                    "title": "Gender, Media, and Representation",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation"
-                },
-                {
-                    "title": "Political Advertising: Finding the Facts",
-                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/political-advertising-finding-the-facts"
-                },
-                {
-                    "title": "The Trump Effect on the News",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/the-trump-effect-on-the-news"
-                },
-                {
-                    "title": "Trump's Lies: Then and Now",
-                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now"
-                },
-                {
-                    "title": "How History Gets Rewritten: The Revisionism Playbook",
-                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/how-history-gets-rewritten-the-revisionism-playbook"
-                },
-                {
-                    "title": "Technology's Hidden Tradeoffs",
-                    "link": "https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs"
-                },
-                {
-                    "title": "AI, Bots, and Synthetic Media",
-                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media"
-                },
-                {
-                    "title": "Free Speech versus Hate Speech",
-                    "link": "https://quarex.org/libraries/pe/contested-issues/free-speech-debates/free-speech-versus-hate-speech"
-                },
-                {
-                    "title": "AI + Billionaires = Hyperagency",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency"
-                },
-                {
-                    "title": "AI Risks: Real vs. Imaginary",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary"
-                },
-                {
-                    "title": "The Philanthropy-Power Divide",
-                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/the-philanthropy-power-divide"
-                },
-                {
-                    "title": "Evaluating Sources and Expertise",
-                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise"
-                },
-                {
-                    "title": "Checking Political Claims and Statistics",
-                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics"
-                },
-                {
-                    "title": "Tools and Techniques for Verifying Information",
-                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information"
-                }
-            ]
-        },
-        {
-            "id": "visual-arts",
-            "title": "Visual Arts",
-            "icon": "🎨",
-            "description": "A complete survey from art history to digital art, covering every major visual medium.",
-            "lang": "en",
-            "status": "live",
-            "syllabus": "VisualArtsSyllabus.html",
-            "courses": [
-                {
-                    "title": "Art History: From Prehistory to the Present",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/art-history-from-prehistory-to-the-present"
-                },
-                {
-                    "title": "Drawing: Techniques and Principles",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/drawing-techniques-and-principles"
-                },
-                {
-                    "title": "Painting: Materials, Methods, and Expression",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/painting-materials-methods-and-expression"
-                },
-                {
-                    "title": "Sculpture: A Comprehensive Guide to Forms and Techniques",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/sculpture-a-comprehensive-guide-to-forms-and-techniques"
-                },
-                {
-                    "title": "Printmaking: Processes and Practices",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/printmaking-processes-and-practices"
-                },
-                {
-                    "title": "Photography: History, Theory, and Practice",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/photography-history-theory-and-practice"
-                },
-                {
-                    "title": "Illustration: Concepts and Techniques",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/illustration-concepts-and-techniques"
-                },
-                {
-                    "title": "Graphic Design: Principles and Applications",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/graphic-design-principles-and-applications"
-                },
-                {
-                    "title": "Contemporary Art: Themes and Movements Since 1945",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/contemporary-art-themes-and-movements-since-1945"
-                },
-                {
-                    "title": "Digital Art and Design: Tools and Concepts",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/digital-art-and-design-tools-and-concepts"
-                },
-                {
-                    "title": "AI Art: Generation, Ethics, and Creative Practice",
-                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/ai-art-generation-ethics-and-creative-practice"
-                }
-            ]
-        },
-        {
             "id": "black-studies",
+            "school": "Social Studies",
             "title": "Black Studies",
             "icon": "✊",
             "description": "African American history, culture, politics, and the ongoing struggle for justice and equality.",
@@ -388,98 +93,8 @@
             ]
         },
         {
-            "id": "hispanic-cultures",
-            "title": "Hispanic Cultures & Identity in America",
-            "icon": "🌮",
-            "description": "The rich diversity within the Hispanic/Latino label — distinct communities, immigration patterns, cultural traditions, and the complex question of identity in the United States.",
-            "lang": "en",
-            "status": "live",
-            "syllabus": "HispanicCulturesSyllabus.html",
-            "courses": [
-                {
-                    "title": "What Does \"Hispanic\" Mean?",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/what-does-hispanic-mean"
-                },
-                {
-                    "title": "Latino, Latina, Latinx: The Evolving Politics of Self-Identification",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/latino-latina-latinx-evolving-identity"
-                },
-                {
-                    "title": "Mexican Americans: The Largest and Most Diverse Hispanic Community",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/mexican-americans-largest-hispanic-community"
-                },
-                {
-                    "title": "Puerto Ricans in America: American Citizens, Caribbean Identity",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america"
-                },
-                {
-                    "title": "Cuban Americans: Exile, Success, and Political Complexity",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/cuban-americans-exile-success-complexity"
-                },
-                {
-                    "title": "Dominican Americans: From Quisqueya to Washington Heights",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/dominican-americans-quisqueya-to-washington-heights"
-                },
-                {
-                    "title": "Central Americans in America",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/central-americans-in-america"
-                },
-                {
-                    "title": "South Americans in America",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/south-americans-in-america"
-                },
-                {
-                    "title": "The Hispanic Southwest: Tejanos, Nuevomexicanos, and Californios",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-southwest"
-                },
-                {
-                    "title": "Hispanic Florida: The Cuban Foundation and Beyond",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-florida"
-                },
-                {
-                    "title": "Hispanic New York: A Century of Diasporas",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-new-york"
-                },
-                {
-                    "title": "The New Hispanic Geography: Growth Beyond Traditional Gateways",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-new-hispanic-geography"
-                },
-                {
-                    "title": "Hispanic Foodways in America: Regional Cuisines, Fusion, and Identity",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-foodways-in-america"
-                },
-                {
-                    "title": "Hispanic Music in America: From Mariachi to Reggaeton to Latin Pop",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-music-in-america"
-                },
-                {
-                    "title": "Hispanic Religious Life: Faith, Folk Traditions, and Community",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-religious-life"
-                },
-                {
-                    "title": "The Hispanic American Calendar: Celebrations and Traditions",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-american-calendar"
-                },
-                {
-                    "title": "Spanish in America: Language Maintenance, Loss, and Spanglish",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/spanish-in-america"
-                },
-                {
-                    "title": "Hispanic Media: Building a Spanish-Language Public Sphere",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-media"
-                },
-                {
-                    "title": "Afro-Latino Identity: Race Within the Hispanic Experience",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/afro-latino-identity"
-                },
-                {
-                    "title": "The Second Generation and Beyond: Assimilation, Retention, and Hybrid Identities",
-                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-second-generation-and-beyond"
-                }
-            ]
-        },
-        {
             "id": "hispanic-experience-today",
+            "school": "Social Studies",
             "title": "The Hispanic American Experience Today",
             "icon": "🗽",
             "description": "Contemporary issues shaping Hispanic American life — immigration policy, economic realities, education, healthcare, political representation, and civil rights.",
@@ -570,7 +185,452 @@
             ]
         },
         {
+            "id": "hispanic-cultures",
+            "school": "Social Studies",
+            "title": "Hispanic Cultures & Identity in America",
+            "icon": "🌮",
+            "description": "The rich diversity within the Hispanic/Latino label — distinct communities, immigration patterns, cultural traditions, and the complex question of identity in the United States.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "HispanicCulturesSyllabus.html",
+            "courses": [
+                {
+                    "title": "What Does \"Hispanic\" Mean?",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/what-does-hispanic-mean"
+                },
+                {
+                    "title": "Latino, Latina, Latinx: The Evolving Politics of Self-Identification",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/latino-latina-latinx-evolving-identity"
+                },
+                {
+                    "title": "Mexican Americans: The Largest and Most Diverse Hispanic Community",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/mexican-americans-largest-hispanic-community"
+                },
+                {
+                    "title": "Puerto Ricans in America: American Citizens, Caribbean Identity",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america"
+                },
+                {
+                    "title": "Cuban Americans: Exile, Success, and Political Complexity",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/cuban-americans-exile-success-complexity"
+                },
+                {
+                    "title": "Dominican Americans: From Quisqueya to Washington Heights",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/dominican-americans-quisqueya-to-washington-heights"
+                },
+                {
+                    "title": "Central Americans in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/central-americans-in-america"
+                },
+                {
+                    "title": "South Americans in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/south-americans-in-america"
+                },
+                {
+                    "title": "The Hispanic Southwest: Tejanos, Nuevomexicanos, and Californios",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-southwest"
+                },
+                {
+                    "title": "Hispanic Florida: The Cuban Foundation and Beyond",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-florida"
+                },
+                {
+                    "title": "Hispanic New York: A Century of Diasporas",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-new-york"
+                },
+                {
+                    "title": "The New Hispanic Geography: Growth Beyond Traditional Gateways",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-new-hispanic-geography"
+                },
+                {
+                    "title": "Hispanic Foodways in America: Regional Cuisines, Fusion, and Identity",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-foodways-in-america"
+                },
+                {
+                    "title": "Hispanic Music in America: From Mariachi to Reggaeton to Latin Pop",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-music-in-america"
+                },
+                {
+                    "title": "Hispanic Religious Life: Faith, Folk Traditions, and Community",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-religious-life"
+                },
+                {
+                    "title": "The Hispanic American Calendar: Celebrations and Traditions",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-american-calendar"
+                },
+                {
+                    "title": "Spanish in America: Language Maintenance, Loss, and Spanglish",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/spanish-in-america"
+                },
+                {
+                    "title": "Hispanic Media: Building a Spanish-Language Public Sphere",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-media"
+                },
+                {
+                    "title": "Afro-Latino Identity: Race Within the Hispanic Experience",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/afro-latino-identity"
+                },
+                {
+                    "title": "The Second Generation and Beyond: Assimilation, Retention, and Hybrid Identities",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-second-generation-and-beyond"
+                }
+            ]
+        },
+        {
+            "id": "lgbtq-studies",
+            "school": "Social Studies",
+            "title": "LGBTQ+ Studies",
+            "icon": "🏳️‍🌈",
+            "description": "Queer theory, LGBTQ+ history, legal equality, health, culture, and the ongoing fight for rights.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "LGBTQStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "Foundations: What Is LGBTQ+ Studies?",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/foundations-what-is-lgbtq-studies"
+                },
+                {
+                    "title": "Queer Theory: Key Thinkers and Concepts",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/queer-theory-key-thinkers-and-concepts"
+                },
+                {
+                    "title": "Hidden History: LGBTQ+ Lives Before Stonewall",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/hidden-history-lgbtq-lives-before-stonewall"
+                },
+                {
+                    "title": "Stonewall and the Birth of Gay Liberation",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/stonewall-and-gay-liberation"
+                },
+                {
+                    "title": "The AIDS Crisis: Abandonment, Activism, and Survival",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/aids-crisis-abandonment-activism-survival"
+                },
+                {
+                    "title": "The Fight for Legal Equality",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/fight-for-legal-equality"
+                },
+                {
+                    "title": "Transgender Lives, History, and Rights",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/transgender-lives-history-rights"
+                },
+                {
+                    "title": "Intersex: Biology, Medicine, and Rights",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/intersex-biology-medicine-rights"
+                },
+                {
+                    "title": "LGBTQ+ People of Color",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-people-of-color"
+                },
+                {
+                    "title": "LGBTQ+ Families and Relationships",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-families-and-relationships"
+                },
+                {
+                    "title": "LGBTQ+ Aging: Elders, Care, and Legacy",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-aging-elders-care-legacy"
+                },
+                {
+                    "title": "Religion, Spirituality, and Queerness",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/religion-spirituality-queerness"
+                },
+                {
+                    "title": "LGBTQ+ Health and Mental Health",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-health-mental-health"
+                },
+                {
+                    "title": "LGBTQ+ Youth: Schools, Bullying, and Resilience",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-youth-schools-resilience"
+                },
+                {
+                    "title": "Queer Culture: Literature, Art, and Expression",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/queer-culture-literature-art"
+                },
+                {
+                    "title": "LGBTQ+ Music and Performance",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-music-performance"
+                },
+                {
+                    "title": "LGBTQ+ in Media and Popular Culture",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-media-popular-culture"
+                },
+                {
+                    "title": "The Politics of Anti-LGBTQ+ Movements",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/politics-of-anti-lgbtq-movements"
+                },
+                {
+                    "title": "LGBTQ+ Rights as a Global Issue",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-rights-global-issue"
+                },
+                {
+                    "title": "LGBTQ+ Economics: Work, Wages, and Wealth",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-economics-work-wages-wealth"
+                },
+                {
+                    "title": "Lesbian History and Feminism",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lesbian-history-feminism"
+                },
+                {
+                    "title": "Bisexual, Pansexual, and Fluid Identities",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/bisexual-pansexual-fluid-identities"
+                },
+                {
+                    "title": "Asexual, Aromantic, and Emerging Identities",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/asexual-aromantic-emerging-identities"
+                },
+                {
+                    "title": "The Future of LGBTQ+ Rights in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/future-of-lgbtq-rights-america"
+                }
+            ]
+        },
+        {
+            "id": "womens-studies",
+            "school": "Social Studies",
+            "title": "Women's Studies",
+            "icon": "♀",
+            "description": "Gender, power, history, and the movements that changed the world.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "WomensStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "What is Feminism?",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/what-is-feminism"
+                },
+                {
+                    "title": "Women's Rights: Centuries of Struggle",
+                    "link": "https://quarex.org/libraries/k/the-sciences/history-and-anthropology/womens-rights-centuries-of-struggle"
+                },
+                {
+                    "title": "Women in American Politics",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-american-politics"
+                },
+                {
+                    "title": "Eleanor Roosevelt",
+                    "link": "https://quarex.org/libraries/k/biographies/political-biographies/franklin-d-roosevelt-a-biography/eleanor-roosevelt-a-life-of-her-own"
+                },
+                {
+                    "title": "Ruth Bader Ginsburg: A Biography",
+                    "link": "https://quarex.org/libraries/k/biographies/political-biographies/ruth-bader-ginsburg-a-biography"
+                },
+                {
+                    "title": "Intersectionality: Race, Gender, and Power",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/intersectionality-race-gender-and-power"
+                },
+                {
+                    "title": "Queer Feminism and Gender",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/queer-feminism-and-gender"
+                },
+                {
+                    "title": "Women and the Workplace",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-the-workplace"
+                },
+                {
+                    "title": "Women in Science and Technology",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-in-science-and-technology"
+                },
+                {
+                    "title": "Motherhood, Family, and Gender Roles",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/motherhood-family-and-gender-roles"
+                },
+                {
+                    "title": "Women and Violence",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/women-and-violence"
+                },
+                {
+                    "title": "Women's Health and Body Politics",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/womens-health-and-body-politics"
+                },
+                {
+                    "title": "How Abortion Became a Political Wedge",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge"
+                },
+                {
+                    "title": "Gender, Media, and Representation",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation"
+                },
+                {
+                    "title": "Global Women's Rights",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/global-womens-rights"
+                }
+            ]
+        },
+        {
+            "id": "ai-studies",
+            "school": "Technology",
+            "title": "AI Studies",
+            "icon": "🤖",
+            "description": "Understanding artificial intelligence as a citizen, worker, and voter.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "AIStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "What Is AI, Really?",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/what-is-ai-really"
+                },
+                {
+                    "title": "The History of AI",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/the-history-of-ai"
+                },
+                {
+                    "title": "Key Ideas in Machine Learning",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/key-ideas-in-machine-learning"
+                },
+                {
+                    "title": "Neural Networks Explained",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/neural-networks-explained"
+                },
+                {
+                    "title": "Transformers and LLMs",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/neural-networks-and-large-language-models/transformers-and-llms"
+                },
+                {
+                    "title": "Probability, Statistics, and Uncertainty",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence/probability-statistics-and-uncertainty"
+                },
+                {
+                    "title": "AI in Everyday Life",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-everyday-life"
+                },
+                {
+                    "title": "AI and Creativity",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-and-creativity"
+                },
+                {
+                    "title": "AI in Healthcare",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/ai-in-healthcare"
+                },
+                {
+                    "title": "Responsible Use and Human Judgment",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/responsible-use-and-human-judgment"
+                },
+                {
+                    "title": "Risks, Harms, and Governance",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/risks-harms-and-governance"
+                },
+                {
+                    "title": "Technology's Hidden Tradeoffs",
+                    "link": "https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs"
+                },
+                {
+                    "title": "AI + Billionaires = Hyperagency",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency"
+                },
+                {
+                    "title": "AI Risks: Real vs. Imaginary",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary"
+                },
+                {
+                    "title": "The Ungovernable Economy",
+                    "link": "https://quarex.org/libraries/i/economic-infrastructures/geopolitics/concentration-singularity"
+                },
+                {
+                    "title": "Global AI Policy",
+                    "link": "https://quarex.org/libraries/k/ai-fundamentals/ai-in-the-real-world/global-ai-policy"
+                },
+                {
+                    "title": "AI and Your Career: Adaptation Strategies",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies"
+                },
+                {
+                    "title": "AI, Bots, and Synthetic Media",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media"
+                },
+                {
+                    "title": "AI as a Force Multiplier for Knowledge Work",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-as-a-force-multiplier"
+                }
+            ]
+        },
+        {
+            "id": "media-information-studies",
+            "school": "Technology",
+            "title": "Media & Information Studies",
+            "icon": "📡",
+            "description": "Understanding how information works, who controls it, and how to navigate it.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "MediaStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "Foundations of Critical Thinking",
+                    "link": "https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking"
+                },
+                {
+                    "title": "How Information Shapes What We Believe",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/how-information-shapes-what-we-believe"
+                },
+                {
+                    "title": "Newspapers",
+                    "link": "https://quarex.org/libraries/i/social-infrastructures/print-media/newspapers"
+                },
+                {
+                    "title": "Polarization Pays",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/polarization-pays"
+                },
+                {
+                    "title": "Gender, Media, and Representation",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/feminism-and-equality/gender-media-and-representation"
+                },
+                {
+                    "title": "Political Advertising: Finding the Facts",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/political-advertising-finding-the-facts"
+                },
+                {
+                    "title": "The Trump Effect on the News",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/the-trump-effect-on-the-news"
+                },
+                {
+                    "title": "Trump's Lies: Then and Now",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now"
+                },
+                {
+                    "title": "How History Gets Rewritten: The Revisionism Playbook",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/how-history-gets-rewritten-the-revisionism-playbook"
+                },
+                {
+                    "title": "Technology's Hidden Tradeoffs",
+                    "link": "https://quarex.org/libraries/pe/ideological/technology-ethics/technologys-hidden-tradeoffs"
+                },
+                {
+                    "title": "AI, Bots, and Synthetic Media",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media"
+                },
+                {
+                    "title": "Free Speech versus Hate Speech",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/free-speech-debates/free-speech-versus-hate-speech"
+                },
+                {
+                    "title": "AI + Billionaires = Hyperagency",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency"
+                },
+                {
+                    "title": "AI Risks: Real vs. Imaginary",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-risks-real-vs-imaginary"
+                },
+                {
+                    "title": "The Philanthropy-Power Divide",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/the-philanthropy-power-divide"
+                },
+                {
+                    "title": "Evaluating Sources and Expertise",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise"
+                },
+                {
+                    "title": "Checking Political Claims and Statistics",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics"
+                },
+                {
+                    "title": "Tools and Techniques for Verifying Information",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information"
+                }
+            ]
+        },
+        {
             "id": "hispanic-contributions",
+            "school": "History",
             "title": "Hispanic Contributions to American Culture",
             "icon": "🎭",
             "description": "The profound contributions of Hispanic Americans to literature, art, music, science, sports, business, and every dimension of American culture.",
@@ -662,6 +722,7 @@
         },
         {
             "id": "us-latin-america-relations",
+            "school": "History",
             "title": "U.S.-Latin America Relations & Hispanic American History",
             "icon": "🌎",
             "description": "The intertwined history of the United States and Latin America, from colonialism to intervention to migration, and the deep roots of Hispanic communities in America.",
@@ -748,21 +809,628 @@
             ]
         },
         {
-            "id": "ethnic-studies",
-            "title": "Ethnic Studies",
-            "icon": "🌍",
-            "description": "Race, ethnicity, immigration, and identity in America.",
+            "id": "investing-for-regular-people",
+            "school": "Finance",
+            "title": "Investing for Regular People",
+            "icon": "📈",
+            "description": "A practical, no-nonsense guide to investing for ordinary people who want to build wealth without getting ripped off.",
             "lang": "en",
             "status": "live",
+            "syllabus": "InvestingForRegularPeopleSyllabus.html",
             "courses": [
                 {
-                    "title": "A History of Racism in the Americas",
-                    "link": "https://quarex.org/libraries/k/the-sciences/history-and-anthropology/a-history-of-racism-in-the-americas"
+                    "title": "How the Stock Market Works",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/how-the-stock-market-works"
+                },
+                {
+                    "title": "Stocks: What You're Actually Buying",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/stocks-what-youre-actually-buying"
+                },
+                {
+                    "title": "Bonds and Fixed Income: The Steady Side of Investing",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/bonds-and-fixed-income"
+                },
+                {
+                    "title": "Mutual Funds, ETFs, and Index Investing",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/mutual-funds-etfs-and-index-investing"
+                },
+                {
+                    "title": "Retirement Accounts: The Tax-Advantaged Path to Wealth",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/retirement-accounts-the-tax-advantaged-path-to-wealth"
+                },
+                {
+                    "title": "Real Estate Investing for Regular People",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/real-estate-investing-for-regular-people"
+                },
+                {
+                    "title": "Building Your Portfolio",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/building-your-portfolio"
+                },
+                {
+                    "title": "The Psychology of Investing: Your Brain vs. Your Money",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/the-psychology-of-investing"
+                },
+                {
+                    "title": "Investment Risks and How to Manage Them",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/investment-risks-and-how-to-manage-them"
+                },
+                {
+                    "title": "Market History: Booms, Crashes, and Lessons",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/market-history-booms-crashes-and-lessons"
+                },
+                {
+                    "title": "The Investment Industry: Who's Selling What",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/the-investment-industry-whos-selling-what"
+                },
+                {
+                    "title": "Your First Year as an Investor: A Complete Action Plan",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/your-first-year-as-an-investor"
+                }
+            ]
+        },
+        {
+            "id": "money-markets-power",
+            "school": "Finance",
+            "title": "Money, Markets, and Economic Power",
+            "icon": "💰",
+            "description": "Personal finance fundamentals, how markets work, and the forces that shape economic life in America.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "MoneyMarketsPowerSyllabus.html",
+            "courses": [
+                {
+                    "title": "Personal Finance for People Who Were Never Taught",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-finance/personal-finance-for-people-who-were-never-taught"
+                },
+                {
+                    "title": "Recognizing Scams and Phishing",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/recognizing-scams-and-phishing"
+                },
+                {
+                    "title": "Foundations of Critical Thinking",
+                    "link": "https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking"
+                },
+                {
+                    "title": "Economic Systems Compared",
+                    "link": "https://quarex.org/libraries/pe/ideological/economic-theories/economic-systems-compared"
+                },
+                {
+                    "title": "Global Economy Right Now",
+                    "link": "https://quarex.org/libraries/e/current-events/global-challenges/global-economy-right-now"
+                },
+                {
+                    "title": "Dollar Dominance: The Fragile Foundation",
+                    "link": "https://quarex.org/libraries/i/economic-infrastructures/geopolitics/dollar-dominance-the-fragile-foundation"
+                },
+                {
+                    "title": "Economic Coercion in the United States",
+                    "link": "https://quarex.org/libraries/pe/ideological/economic-theories/economic-coercion-in-the-united-states"
+                },
+                {
+                    "title": "Black Economic Life: Labor, Business, and Wealth",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-economic-life-labor-business-and-wealth"
+                },
+                {
+                    "title": "The Philanthropy-Power Divide",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/the-philanthropy-power-divide"
+                },
+                {
+                    "title": "State Oligarchs: The Hidden Wealth of Autocrats",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/billionaires/state-oligarchs-hidden-wealth-of-autocrats"
+                },
+                {
+                    "title": "AI + Billionaires = Hyperagency",
+                    "link": "https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency"
+                },
+                {
+                    "title": "The Ungovernable Economy",
+                    "link": "https://quarex.org/libraries/i/economic-infrastructures/geopolitics/concentration-singularity"
+                }
+            ]
+        },
+        {
+            "id": "visual-arts",
+            "school": "Arts & Science",
+            "title": "Visual Arts",
+            "icon": "🎨",
+            "description": "A complete survey from art history to digital art, covering every major visual medium.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "VisualArtsSyllabus.html",
+            "courses": [
+                {
+                    "title": "Art History: From Prehistory to the Present",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/art-history-from-prehistory-to-the-present"
+                },
+                {
+                    "title": "Drawing: Techniques and Principles",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/drawing-techniques-and-principles"
+                },
+                {
+                    "title": "Painting: Materials, Methods, and Expression",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/painting-materials-methods-and-expression"
+                },
+                {
+                    "title": "Sculpture: A Comprehensive Guide to Forms and Techniques",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/sculpture-a-comprehensive-guide-to-forms-and-techniques"
+                },
+                {
+                    "title": "Printmaking: Processes and Practices",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/printmaking-processes-and-practices"
+                },
+                {
+                    "title": "Photography: History, Theory, and Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/photography-history-theory-and-practice"
+                },
+                {
+                    "title": "Illustration: Concepts and Techniques",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/illustration-concepts-and-techniques"
+                },
+                {
+                    "title": "Graphic Design: Principles and Applications",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/graphic-design-principles-and-applications"
+                },
+                {
+                    "title": "Contemporary Art: Themes and Movements Since 1945",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/contemporary-art-themes-and-movements-since-1945"
+                },
+                {
+                    "title": "Digital Art and Design: Tools and Concepts",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/digital-art-and-design-tools-and-concepts"
+                },
+                {
+                    "title": "AI Art: Generation, Ethics, and Creative Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/visual-arts/ai-art-generation-ethics-and-creative-practice"
+                }
+            ]
+        },
+        {
+            "id": "literary-studies",
+            "school": "Arts & Science",
+            "title": "Literary Studies",
+            "icon": "📖",
+            "description": "Fiction, poetry, drama, rhetoric, and world literature. The written word in all its forms.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "LiteraryStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "World Literature Survey (Anthology & Analysis)",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/world-literature-survey-anthology-and-analysis"
+                },
+                {
+                    "title": "Literary Genres: A Comprehensive Guide",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/literary-genres-a-comprehensive-guide"
+                },
+                {
+                    "title": "Creative Writing: Fiction (Short Story & Novel)",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/creative-writing-fiction-short-story-and-novel"
+                },
+                {
+                    "title": "Creative Writing: Poetry (Forms, Techniques, and History)",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/creative-writing-poetry-forms-techniques-and-history"
+                },
+                {
+                    "title": "Creative Writing: Drama/Playwriting",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/creative-writing-dramaplaywriting"
+                },
+                {
+                    "title": "Rhetoric and the Art of Persuasion",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/rhetoric-and-the-art-of-persuasion"
+                },
+                {
+                    "title": "Narrative Theory and Techniques",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/narrative-theory-and-techniques"
+                },
+                {
+                    "title": "History of Literary Criticism and Theory",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/history-of-literary-criticism-and-theory"
+                },
+                {
+                    "title": "Literary Translation: Theory and Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/literary-translation-theory-and-practice"
+                },
+                {
+                    "title": "Children's Literature: History, Theory, and Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/literary-arts/childrens-literature-history-theory-and-practice"
+                }
+            ]
+        },
+        {
+            "id": "performing-arts",
+            "school": "Arts & Science",
+            "title": "Performing Arts & Theatre",
+            "icon": "🎭",
+            "description": "Theatre history, acting, directing, stagecraft, musical theatre, opera, dance, and performance art.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "PerformingArtsSyllabus.html",
+            "courses": [
+                {
+                    "title": "History of Western Theatre (Ancient Greece to Present)",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/history-of-western-theatre-ancient-greece-to-present"
+                },
+                {
+                    "title": "World Theatre Traditions (Non-Western Performance)",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/world-theatre-traditions-non-western-performance"
+                },
+                {
+                    "title": "Acting Techniques and Performance Theory",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/acting-techniques-and-performance-theory"
+                },
+                {
+                    "title": "Directing for Stage and Screen",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/directing-for-stage-and-screen"
+                },
+                {
+                    "title": "Playwriting and Screenwriting: Craft and Analysis",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/playwriting-and-screenwriting-craft-and-analysis"
+                },
+                {
+                    "title": "Stagecraft and Technical Theatre Production",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/stagecraft-and-technical-theatre-production"
+                },
+                {
+                    "title": "Musical Theatre: History, Theory, and Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/musical-theatre-history-theory-and-practice"
+                },
+                {
+                    "title": "Opera: History, Analysis, and Production",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/opera-history-analysis-and-production"
+                },
+                {
+                    "title": "Dance History, Theory, and Choreography",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/dance-history-theory-and-choreography"
+                },
+                {
+                    "title": "Performance Art: History, Theory, and Practice",
+                    "link": "https://quarex.org/libraries/k/the-arts/performing-arts/performance-art-history-theory-and-practice"
+                }
+            ]
+        },
+        {
+            "id": "infrastructure-engineering",
+            "school": "Technology",
+            "title": "Infrastructure & Engineering",
+            "icon": "⚡",
+            "description": "Power grids, water systems, data centers, and off-grid resilience. The physical systems that keep civilization running.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "InfrastructureEngineeringSyllabus.html",
+            "courses": [
+                {
+                    "title": "Power Generation Systems",
+                    "link": "https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/power-generation-systems"
+                },
+                {
+                    "title": "High-Voltage Transmission Systems",
+                    "link": "https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/high-voltage-transmission-systems"
+                },
+                {
+                    "title": "Distribution Networks and Local Power Delivery",
+                    "link": "https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/distribution-networks-and-local-power-delivery"
+                },
+                {
+                    "title": "Grid Stability, Control and Reliability Engineering",
+                    "link": "https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/grid-stability-control-and-reliability-engineering"
+                },
+                {
+                    "title": "Future Power Systems and Energy Transition",
+                    "link": "https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/future-power-systems-and-energy-transition"
+                },
+                {
+                    "title": "Municipal Water Systems",
+                    "link": "https://quarex.org/libraries/i/civil-infrastructures/water/municipal-water-systems"
+                },
+                {
+                    "title": "Desalinization Strategies for the 21st Century",
+                    "link": "https://quarex.org/libraries/i/civil-infrastructures/water/desalinization-strategies-for-the-21st-century"
+                },
+                {
+                    "title": "Data Centers: Operational Purpose & Mission",
+                    "link": "https://quarex.org/libraries/i/digital-infrastructures/data-centers/operational-purpose-and-mission"
+                },
+                {
+                    "title": "Data Centers: Physical Systems",
+                    "link": "https://quarex.org/libraries/i/digital-infrastructures/data-centers/physical-systems"
+                },
+                {
+                    "title": "Data Centers: Power, Energy & Cooling Systems",
+                    "link": "https://quarex.org/libraries/i/digital-infrastructures/data-centers/power-energy-and-cooling-systems"
+                },
+                {
+                    "title": "Data Centers: Geographic Role & Network Topology",
+                    "link": "https://quarex.org/libraries/i/digital-infrastructures/data-centers/geographic-role-and-network-topology"
+                },
+                {
+                    "title": "Data Centers: Workloads, Compute, Identity & Risk",
+                    "link": "https://quarex.org/libraries/i/digital-infrastructures/data-centers/workloads-compute-identity-and-risk"
+                },
+                {
+                    "title": "Data Centers: Availability & Failure Engineering",
+                    "link": "https://quarex.org/libraries/i/digital-infrastructures/data-centers/availability-and-failure-engineering"
+                },
+                {
+                    "title": "Data Centers: Ownership, Control & Sovereignty",
+                    "link": "https://quarex.org/libraries/i/digital-infrastructures/data-centers/ownership-control-and-sovereignty"
+                },
+                {
+                    "title": "Off Grid Electrical",
+                    "link": "https://quarex.org/libraries/i/environmental-infrastructures/home-autonomy/off-grid-electrical"
+                }
+            ]
+        },
+        {
+            "id": "system-documentation",
+            "school": "Professional",
+            "title": "System Documentation Practices",
+            "icon": "📋",
+            "description": "A practical curriculum for systems integrators, engineers, and technical professionals. From pre-planning through documentation delivery to troubleshooting.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "SystemDocumentationSyllabus.html",
+            "courses": [
+                {
+                    "title": "Pre-Planning and Planning Meetings",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/systems-planning/pre-planning-and-planning-meetings"
+                },
+                {
+                    "title": "Documentation Fundamentals",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/documentation-fundamentals"
+                },
+                {
+                    "title": "Hardware Systems Documentation",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/hardware-systems-documentation"
+                },
+                {
+                    "title": "Software Systems Documentation",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/software-systems-documentation"
+                },
+                {
+                    "title": "Integrated Systems Documentation",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/integrated-systems-documentation"
+                },
+                {
+                    "title": "Troubleshooting Skills",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/troubleshooting-skills"
+                }
+            ]
+        },
+        {
+            "id": "american-political-debates",
+            "school": "Political Science",
+            "title": "American Political Debates",
+            "icon": "⚖️",
+            "description": "The contested issues that divide America: immigration, climate, criminal justice, free speech, equality, and economic systems.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "AmericanPoliticalDebatesSyllabus.html",
+            "courses": [
+                {
+                    "title": "Nation of Immigrants, Land of Walls",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/immigration-debates/nation-of-immigrants-land-of-walls"
+                },
+                {
+                    "title": "How Trump Subverted and Weaponized Immigration Reform",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/immigration-debates/how-trump-subverted-and-weaponized-immigration-reform"
+                },
+                {
+                    "title": "Climate Change",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/climate-debates/the-climate-question"
+                },
+                {
+                    "title": "Racial Bias in U.S. Law and Policing",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/criminal-justice-debates/racial-bias-in-u-s-law-and-policing"
+                },
+                {
+                    "title": "The Fourth Amendment and You!",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/criminal-justice-debates/the-fourth-amendment-and-you"
+                },
+                {
+                    "title": "Free Speech versus Hate Speech",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/free-speech-debates/free-speech-versus-hate-speech"
+                },
+                {
+                    "title": "Social Equality & Civil Rights",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/social-equality-debates/social-equality-and-civil-rights"
+                },
+                {
+                    "title": "Economic Systems Compared",
+                    "link": "https://quarex.org/libraries/pe/ideological/economic-theories/economic-systems-compared"
+                }
+            ]
+        },
+        {
+            "id": "political-accountability",
+            "school": "Political Science",
+            "title": "Political Accountability & Fact-Checking",
+            "icon": "🔍",
+            "description": "Lies, advertising, revisionism, and fact-checking skills. Learn to separate truth from manipulation in political discourse.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "PoliticalAccountabilitySyllabus.html",
+            "courses": [
+                {
+                    "title": "Foundations of Critical Thinking",
+                    "link": "https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking"
+                },
+                {
+                    "title": "Trump's Lies: Then and Now",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now"
+                },
+                {
+                    "title": "Political Advertising: Finding the Facts",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/political-advertising-finding-the-facts"
+                },
+                {
+                    "title": "How History Gets Rewritten: The Revisionism Playbook",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/how-history-gets-rewritten-the-revisionism-playbook"
+                },
+                {
+                    "title": "United States Civil War Revisionism",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/united-states-civil-war-revisionism"
+                },
+                {
+                    "title": "Trump and Epstein: A History",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trump-and-epstein-a-history"
+                },
+                {
+                    "title": "How Abortion Became a Political Wedge",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge"
+                },
+                {
+                    "title": "The Immigration Wedge: How a Policy Became a Political Weapon",
+                    "link": "https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-immigration-wedge-how-a-policy-became-a-political-weapon"
+                }
+            ]
+        },
+        {
+            "id": "the-trump-era",
+            "school": "Political Science",
+            "title": "The Trump Era",
+            "icon": "🇺🇸",
+            "description": "The rise of MAGA, the presidency, January 6, Project 2025, and the transformation of American politics from 2016 to present.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "TheTrumpEraSyllabus.html",
+            "courses": [
+                {
+                    "title": "Pre-2016 Context and Grievances",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/the-rise-of-maga/pre-2016-context-and-grievances"
+                },
+                {
+                    "title": "The 2016 Campaign and Election",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/the-rise-of-maga/the-2016-campaign-and-election"
+                },
+                {
+                    "title": "Movement, Brand, and Base",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/the-rise-of-maga/movement-brand-and-base"
+                },
+                {
+                    "title": "Trump in Office (2017-2020)",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/governing-institutions-and-conflict/trump-in-office-20172020"
+                },
+                {
+                    "title": "Impeachments, Investigations, and Norms",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/governing-institutions-and-conflict/impeachments-investigations-and-norms"
+                },
+                {
+                    "title": "January 6 and Democratic Backsliding",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/governing-institutions-and-conflict/january-6-and-democratic-backsliding"
+                },
+                {
+                    "title": "MAGA After the 2020 Election",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy/maga-after-the-2020-election"
+                },
+                {
+                    "title": "Media, Platforms, and Deplatforming",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy/media-platforms-and-deplatforming"
+                },
+                {
+                    "title": "Long-Term Impacts and Future Scenarios",
+                    "link": "https://quarex.org/libraries/e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy/long-term-impacts-and-future-scenarios"
+                },
+                {
+                    "title": "Project 2025: Overview",
+                    "link": "https://quarex.org/libraries/pe/ideological/project-2025/overview"
+                },
+                {
+                    "title": "Trump's Lies: Then and Now",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now"
+                },
+                {
+                    "title": "Trump and Epstein: A History",
+                    "link": "https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trump-and-epstein-a-history"
+                }
+            ]
+        },
+        {
+            "id": "job-hunting-career-skills",
+            "school": "Home & Work",
+            "title": "Job Hunting & Career Skills",
+            "icon": "💼",
+            "description": "Everything you need to find work, ace interviews, and navigate career changes in an AI-transformed economy.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "JobHuntingCareerSkillsSyllabus.html",
+            "courses": [
+                {
+                    "title": "Job Seeker Interviewing Tutorial",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/job-seeker-interviewing-tutorial"
+                },
+                {
+                    "title": "Interviewer and Hiring Manager Tutorial",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/interviewer-hiring-tutorial"
+                },
+                {
+                    "title": "AI and Your Career: Adaptation Strategies",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/ai-and-your-career-adaptation-strategies"
+                },
+                {
+                    "title": "Troubleshooting Skills",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/troubleshooting-skills"
+                },
+                {
+                    "title": "Marketing Without a Budget",
+                    "link": "https://quarex.org/libraries/pr/practical-skills/digital-and-professional-skills/marketing-without-a-budget"
+                }
+            ]
+        },
+        {
+            "id": "modern-life-skills",
+            "school": "Home & Work",
+            "title": "Modern Life Skills",
+            "icon": "🛡️",
+            "description": "Digital security, fact-checking, and navigating the information landscape. Essential skills for the modern world.",
+            "lang": "en",
+            "status": "live",
+            "syllabus": "ModernLifeSkillsSyllabus.html",
+            "courses": [
+                {
+                    "title": "Recognizing Scams and Phishing",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/recognizing-scams-and-phishing"
+                },
+                {
+                    "title": "Locking Down Your Devices and Accounts",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/locking-down-your-devices-and-accounts"
+                },
+                {
+                    "title": "Privacy and Data Minimization",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/privacy-and-data-minimization"
+                },
+                {
+                    "title": "Quick Checks Before You Believe or Share",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/quick-checks-before-you-believe-or-share"
+                },
+                {
+                    "title": "Evaluating Sources and Expertise",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise"
+                },
+                {
+                    "title": "Tools and Techniques for Verifying Information",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information"
+                },
+                {
+                    "title": "AI, Bots, and Synthetic Media",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media"
+                },
+                {
+                    "title": "Checking Political Claims and Statistics",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics"
+                },
+                {
+                    "title": "Being a Responsible Sharer and Helper",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/being-a-responsible-sharer-and-helper"
+                },
+                {
+                    "title": "Pre-Planning and Planning Meetings",
+                    "link": "https://quarex.org/libraries/pr/practical-knowledge/systems-planning/pre-planning-and-planning-meetings"
                 }
             ]
         },
         {
             "id": "labor-studies",
+            "school": "Social Studies",
             "title": "Labor Studies",
             "icon": "⚒",
             "description": "Workers' rights, unions, economic justice, and the labor movement.",
@@ -772,6 +1440,7 @@
         },
         {
             "id": "estudios-latinos",
+            "school": "Social Studies",
             "title": "Estudios Latinos",
             "icon": "🇪🇸",
             "description": "Historia, cultura y política de las comunidades latinas en los Estados Unidos. En español.",
@@ -781,6 +1450,7 @@
         },
         {
             "id": "estudios-de-la-mujer",
+            "school": "Social Studies",
             "title": "Estudios de la Mujer",
             "icon": "♀",
             "description": "Género, poder, historia y los movimientos que cambiaron el mundo. En español.",

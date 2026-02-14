@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investing for Regular People Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 12-course curriculum on investing for ordinary people. Stocks, bonds, funds, retirement accounts, real estate, and the psychology of building wealth. 122 chapters of free content.">
+    <meta name="keywords" content="investing syllabus, stock market course, retirement investing, personal finance, index funds, investment psychology, free investing course">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/InvestingForRegularPeopleSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/InvestingForRegularPeopleSyllabus.html">
+    <meta property="og:title" content="Investing for Regular People Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 12-course curriculum on investing for ordinary people. 122 chapters of free content.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Investing for Regular People Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 12-course curriculum on investing for regular people. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #10B981;
+            --accent-hover: #059669;
+            --accent-soft: rgba(16, 185, 129, 0.08);
+            --accent-border: rgba(16, 185, 129, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before {
+            transform: rotate(90deg);
+        }
+        .course summary:hover {
+            background: var(--accent-soft);
+        }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>Investing for Regular People</em> Syllabus</h1>
+            <p class="syllabus-intro">A complete, no-nonsense curriculum for ordinary people who want to build wealth without getting ripped off. From understanding stocks and bonds to retirement accounts, real estate, and the psychology that makes investors fail. No jargon, no sales pitch &mdash; just what you need to know.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">12</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">122</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">700+</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- UNDERSTANDING FINANCIAL MARKETS -->
+            <div class="section-divider">
+                <h2 class="section-label">Understanding Financial Markets</h2>
+                <p class="section-desc">What markets are, how they work, and what you're actually buying when you invest.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">How the Stock Market Works</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is a Stock Market?</li>
+                        <li>The Major Exchanges</li>
+                        <li>What Happens When You Click 'Buy'</li>
+                        <li>Stock Indices Explained</li>
+                        <li>Trading Hours, Halts, and Circuit Breakers</li>
+                        <li>Who Else Is Trading?</li>
+                        <li>How Stock Prices Move</li>
+                        <li>Reading Stock Quotes and Charts</li>
+                        <li>Regulation and Investor Protection</li>
+                        <li>Common Misconceptions About the Market</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/how-the-stock-market-works/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Stocks: What You're Actually Buying</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Ownership: What a Share Really Is</li>
+                        <li>How Companies Create Value</li>
+                        <li>Dividends: Getting Paid to Own</li>
+                        <li>Growth vs Value Stocks</li>
+                        <li>Understanding Valuation</li>
+                        <li>Reading a Company's Financials</li>
+                        <li>Stock Splits, Buybacks, and Corporate Actions</li>
+                        <li>Sector and Industry Differences</li>
+                        <li>International Stocks</li>
+                        <li>Individual Stocks vs Funds: The Honest Truth</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/stocks-what-youre-actually-buying/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Bonds and Fixed Income: The Steady Side of Investing</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is a Bond?</li>
+                        <li>Government Bonds: The Safest Investment?</li>
+                        <li>Corporate Bonds</li>
+                        <li>Municipal Bonds and Tax Benefits</li>
+                        <li>How Bond Prices and Yields Work</li>
+                        <li>Duration and Interest Rate Risk</li>
+                        <li>Credit Risk: When Borrowers Don't Pay</li>
+                        <li>Bond Funds vs Individual Bonds</li>
+                        <li>Bonds in Your Portfolio</li>
+                        <li>Other Fixed Income: CDs, Money Markets, and More</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/bonds-and-fixed-income/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- INVESTMENT VEHICLES -->
+            <div class="section-divider">
+                <h2 class="section-label">Investment Vehicles</h2>
+                <p class="section-desc">The tools regular investors actually use &mdash; funds, retirement accounts, and real estate.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Mutual Funds, ETFs, and Index Investing</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is a Fund and Why Use One?</li>
+                        <li>Mutual Funds Explained</li>
+                        <li>Exchange-Traded Funds (ETFs)</li>
+                        <li>Active vs Passive: The Great Debate</li>
+                        <li>Index Funds: The Revolution</li>
+                        <li>Understanding Fund Costs</li>
+                        <li>Types of Stock Funds</li>
+                        <li>Types of Bond Funds</li>
+                        <li>Target-Date Funds: One-Stop Shopping</li>
+                        <li>Choosing Your Funds: A Practical Guide</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/mutual-funds-etfs-and-index-investing/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Retirement Accounts: The Tax-Advantaged Path to Wealth</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Retirement Accounts Matter So Much</li>
+                        <li>Employer 401(k) Plans</li>
+                        <li>Traditional IRAs</li>
+                        <li>Roth IRAs: Tax-Free Forever</li>
+                        <li>Roth 401(k) and Mega Backdoor Roth</li>
+                        <li>HSA: The Triple Tax Advantage</li>
+                        <li>SEP IRAs and Solo 401(k)s for Self-Employed</li>
+                        <li>Rollovers and Conversions</li>
+                        <li>Required Minimum Distributions</li>
+                        <li>Putting It All Together: Account Priority</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/retirement-accounts-the-tax-advantaged-path-to-wealth/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Real Estate Investing for Regular People</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Is Real Estate a Good Investment?</li>
+                        <li>Your Home: Investment or Expense?</li>
+                        <li>Rental Property Investing</li>
+                        <li>Financing Real Estate Investments</li>
+                        <li>The Reality of Being a Landlord</li>
+                        <li>REITs: Real Estate Without the Headaches</li>
+                        <li>Real Estate Crowdfunding and Syndications</li>
+                        <li>Location, Location, Location</li>
+                        <li>Tax Strategies for Real Estate Investors</li>
+                        <li>Real Estate in Your Overall Portfolio</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/real-estate-investing-for-regular-people/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- BUILDING AND PROTECTING YOUR PORTFOLIO -->
+            <div class="section-divider">
+                <h2 class="section-label">Building and Protecting Your Portfolio</h2>
+                <p class="section-desc">How to construct a portfolio, manage risk, and overcome the psychology that makes investors fail.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Building Your Portfolio</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is a Portfolio?</li>
+                        <li>The Major Asset Classes</li>
+                        <li>Risk Tolerance: Know Yourself</li>
+                        <li>Time Horizon: When Do You Need the Money?</li>
+                        <li>Diversification: The Only Free Lunch</li>
+                        <li>Classic Portfolio Models</li>
+                        <li>Rebalancing: Maintaining Your Plan</li>
+                        <li>Tax-Efficient Asset Location</li>
+                        <li>When to Change Your Portfolio</li>
+                        <li>Building Your Actual Portfolio: Step by Step</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/building-your-portfolio/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">The Psychology of Investing: Your Brain vs. Your Money</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Your Brain vs Your Portfolio</li>
+                        <li>Loss Aversion: Why Losses Hurt More</li>
+                        <li>Overconfidence and the Illusion of Control</li>
+                        <li>FOMO and Herd Behavior</li>
+                        <li>Confirmation Bias and Information</li>
+                        <li>Anchoring and Mental Accounting</li>
+                        <li>Recency Bias and Pattern Seeking</li>
+                        <li>The Paralysis Problem</li>
+                        <li>Staying the Course: The Hardest Part</li>
+                        <li>Building Better Investment Habits</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/the-psychology-of-investing/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">Investment Risks and How to Manage Them</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Investment Risk?</li>
+                        <li>Market Risk: The Risk That Affects Everyone</li>
+                        <li>Inflation Risk: The Silent Killer</li>
+                        <li>Interest Rate Risk</li>
+                        <li>Credit Risk: When Borrowers Default</li>
+                        <li>Concentration Risk: Too Many Eggs, One Basket</li>
+                        <li>Sequence-of-Returns Risk</li>
+                        <li>Liquidity Risk</li>
+                        <li>Currency Risk</li>
+                        <li>Behavioral Risk: The Risk You Create</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/investment-risks-and-how-to-manage-them/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- CONTEXT AND PROTECTION -->
+            <div class="section-divider">
+                <h2 class="section-label">Context and Protection</h2>
+                <p class="section-desc">Market history, how the investment industry works, and how to protect yourself from bad actors.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Market History: Booms, Crashes, and Lessons</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why History Matters for Investors</li>
+                        <li>The Great Crash of 1929</li>
+                        <li>Post-War Prosperity and the Go-Go Years</li>
+                        <li>Black Monday: October 1987</li>
+                        <li>The Dot-Com Bubble</li>
+                        <li>The 2008 Financial Crisis</li>
+                        <li>The COVID Crash and Recovery</li>
+                        <li>Bull Markets: How Long Do the Good Times Last?</li>
+                        <li>Bear Markets: Surviving the Downturns</li>
+                        <li>The Long View: 100 Years of Returns</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/market-history-booms-crashes-and-lessons/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">The Investment Industry: Who's Selling What</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How the Investment Industry Makes Money</li>
+                        <li>Brokers vs Fiduciary Advisors</li>
+                        <li>Financial Advisor Business Models</li>
+                        <li>Hidden Fees and How to Find Them</li>
+                        <li>Conflicts of Interest to Watch For</li>
+                        <li>Annuities: Useful Tool or Sales Trap?</li>
+                        <li>Insurance Products Masquerading as Investments</li>
+                        <li>Investment Scams and Fraud</li>
+                        <li>The Good Guys: Low-Cost Providers</li>
+                        <li>Do You Need Professional Help?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/the-investment-industry-whos-selling-what/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- CAPSTONE -->
+            <div class="section-divider">
+                <h2 class="section-label">Capstone</h2>
+                <p class="section-desc">A month-by-month action plan to put everything into practice.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">Your First Year as an Investor: A Complete Action Plan</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Month 1: Getting Your Financial House in Order</li>
+                        <li>Month 2: Setting Your Investment Goals</li>
+                        <li>Month 3: Opening Your Accounts</li>
+                        <li>Month 4: Choosing Your Investment Strategy</li>
+                        <li>Month 5: Making Your First Investments</li>
+                        <li>Month 6: Maximizing Tax-Advantaged Accounts</li>
+                        <li>Month 7: Surviving Your First Market Drop</li>
+                        <li>Month 8: Reviewing and Optimizing</li>
+                        <li>Month 9: Expanding Your Knowledge</li>
+                        <li>Month 10: Protecting Your Plan</li>
+                        <li>Month 11: Planning for Life Changes</li>
+                        <li>Month 12: The Long Road Ahead</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/your-first-year-as-an-investor/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">A Curiosity Engine for the public good.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/">Quarex</a>
+                <a href="https://knowableonline.org/">Knowable Online</a>
+                <a href="https://election2026.net/">Election 2026</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. All content is free and open.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money, Markets, and Economic Power Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 12-course curriculum on personal finance, economic systems, and the forces shaping wealth and power. 129 chapters of free, university-level content.">
+    <meta name="keywords" content="personal finance syllabus, economic literacy, wealth inequality, financial education, free economics course, money management">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/MoneyMarketsPowerSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/MoneyMarketsPowerSyllabus.html">
+    <meta property="og:title" content="Money, Markets, and Economic Power Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 12-course curriculum on personal finance, economic systems, and wealth concentration. 129 chapters of free content.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Money, Markets, and Economic Power Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 12-course curriculum on money, markets, and economic power. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #F59E0B;
+            --accent-hover: #D97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat {
+            text-align: center;
+        }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before {
+            transform: rotate(90deg);
+        }
+        .course summary:hover {
+            background: var(--accent-soft);
+        }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>Money, Markets, and Economic Power</em> Syllabus</h1>
+            <p class="syllabus-intro">A complete, free curriculum for understanding money &mdash; not just how to manage your own, but how the economic system actually works, who controls it, and the forces that shape wealth and poverty. From personal finance basics to global economic power. Twelve courses drawn from five Quarex libraries.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">12</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">129</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">900+</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- PERSONAL FINANCE FOUNDATIONS -->
+            <div class="section-divider">
+                <h2 class="section-label">Personal Finance Foundations</h2>
+                <p class="section-desc">The basics everyone needs &mdash; managing money, avoiding fraud, and thinking clearly about financial decisions.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">Personal Finance for People Who Were Never Taught</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Money Basics</li>
+                        <li>Banking Fundamentals</li>
+                        <li>Budgeting and Cash Flow</li>
+                        <li>Credit, Debt, and Loans</li>
+                        <li>Taxes Made Understandable</li>
+                        <li>Saving and Investing</li>
+                        <li>Retirement Planning</li>
+                        <li>Insurance and Risk Protection</li>
+                        <li>Scams, Fraud, and Financial Predators</li>
+                        <li>Financial Independence and Stability</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-finance/personal-finance-for-people-who-were-never-taught/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Recognizing Scams and Phishing</span>
+                    <span class="course-chapters">4 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Common Red Flags in Emails and Messages</li>
+                        <li>Fake Login Pages and Credential Stealing</li>
+                        <li>Romance, Tech Support, and Investment Scams</li>
+                        <li>What to Do If You Clicked Something Sketchy</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/recognizing-scams-and-phishing/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Foundations of Critical Thinking</span>
+                    <span class="course-chapters">8 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>How to Spot a Bad Argument</li>
+                        <li>Why We Fool Ourselves</li>
+                        <li>Evaluating Evidence</li>
+                        <li>The Art of Asking Questions</li>
+                        <li>Numbers Can Lie</li>
+                        <li>Media Literacy Essentials</li>
+                        <li>Separating Correlation from Causation</li>
+                        <li>Thinking About Thinking</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- UNDERSTANDING ECONOMIC SYSTEMS -->
+            <div class="section-divider">
+                <h2 class="section-label">Understanding Economic Systems</h2>
+                <p class="section-desc">How economies work &mdash; from capitalism versus socialism to what's happening in markets right now.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Economic Systems Compared</span>
+                    <span class="course-chapters">23 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is an Economic System?</li>
+                        <li>Pre-Capitalist Economic Systems</li>
+                        <li>Classical Capitalism</li>
+                        <li>Critiques of Capitalism</li>
+                        <li>Socialism: Core Principles</li>
+                        <li>Communism: Theory and Vision</li>
+                        <li>Central Planning in Practice</li>
+                        <li>Mixed Economies and the Welfare State</li>
+                        <li>Varieties of Capitalism</li>
+                        <li>Market Socialism and Third Ways</li>
+                        <li>Libertarianism and Anarcho-Capitalism</li>
+                        <li>Anarchism and Anti-State Socialism</li>
+                        <li>Property Rights and Ownership</li>
+                        <li>Labor, Wages, and Work</li>
+                        <li>Money, Banking, and Finance</li>
+                        <li>Trade and Globalization</li>
+                        <li>Inequality and Distribution</li>
+                        <li>Economic Growth and Development</li>
+                        <li>Environment and Sustainability</li>
+                        <li>Technology, Automation, and the Future</li>
+                        <li>Measuring Economic Success</li>
+                        <li>Real-World Transitions and Experiments</li>
+                        <li>The Ongoing Debate</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/economic-theories/economic-systems-compared/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Global Economy Right Now</span>
+                    <span class="course-chapters">4 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Inflation, Interest Rates, and Prices</li>
+                        <li>Jobs, Wages, and Labor Markets</li>
+                        <li>Trade, Supply Chains, and Geopolitics</li>
+                        <li>Inequality and Financial Stability</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/e/current-events/global-challenges/global-economy-right-now/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- MONEY, DEBT, AND GLOBAL FINANCE -->
+            <div class="section-divider">
+                <h2 class="section-label">Money, Debt, and Global Finance</h2>
+                <p class="section-desc">The dollar's global role, how debt constrains freedom, and the hidden mechanics of the financial system.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Dollar Dominance: The Fragile Foundation</span>
+                    <span class="course-chapters">14 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Exorbitant Privilege</li>
+                        <li>The Fragility Factors</li>
+                        <li>False Alarm vs Real Signal</li>
+                        <li>The Greenland Catalyst</li>
+                        <li>The Trump Effect: Tariffs, Greenland, and Fed Attacks</li>
+                        <li>Europe's Dollar Alternative</li>
+                        <li>China's Long Game</li>
+                        <li>The BRICS Challenge</li>
+                        <li>Invalidation Thresholds</li>
+                        <li>Historical Precedent</li>
+                        <li>Consequences for Americans</li>
+                        <li>The AI Wild Card</li>
+                        <li>Worst Case Scenario</li>
+                        <li>The Path Forward</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/economic-infrastructures/geopolitics/dollar-dominance-the-fragile-foundation/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Economic Coercion in the United States</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Does Economic Freedom Actually Mean?</li>
+                        <li>Economic Coercion Without Chains</li>
+                        <li>The Minimum Wage and Labor Discipline</li>
+                        <li>Healthcare as an Employment Leash</li>
+                        <li>Housing, Debt, and the Cost of Saying No</li>
+                        <li>Billionaire Influence and Policy Design</li>
+                        <li>Why These Outcomes Are Not Accidental</li>
+                        <li>Cultural Conflict as Economic Distraction</li>
+                        <li>Why Opposition Often Fails</li>
+                        <li>How Other Democracies Limit Economic Coercion</li>
+                        <li>Ethical Limits of Market Power</li>
+                        <li>Paths Toward Genuine Economic Freedom</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/economic-theories/economic-coercion-in-the-united-states/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- WEALTH, POWER, AND INEQUALITY -->
+            <div class="section-divider">
+                <h2 class="section-label">Wealth, Power, and Inequality</h2>
+                <p class="section-desc">How wealth is built, denied, and concentrated &mdash; from racial wealth gaps to oligarch hidden fortunes.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Black Economic Life: Labor, Business, and Wealth</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Slavery as an Economic System</li>
+                        <li>Sharecropping, Debt Peonage, and Economic Subjugation After Slavery</li>
+                        <li>Black Labor and the American Worker</li>
+                        <li>Black Entrepreneurship and Business Districts</li>
+                        <li>Housing Discrimination and the Racial Wealth Gap</li>
+                        <li>The Black Middle Class: Growth, Fragility, and Paradox</li>
+                        <li>Black Poverty, Mass Incarceration, and Economic Exclusion</li>
+                        <li>Reparations and Economic Justice</li>
+                        <li>Contemporary Black Economics: Tech, Media, and New Wealth</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-economic-life-labor-business-and-wealth/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">The Philanthropy-Power Divide</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Asymmetry Problem</li>
+                        <li>Power vs Philanthropy</li>
+                        <li>Institution Building on the Right</li>
+                        <li>Fragmentation on the Left</li>
+                        <li>Risk, Reputation, and Respectability</li>
+                        <li>Media Economics and Narrative Control</li>
+                        <li>Failed Experiments and False Conclusions</li>
+                        <li>The Class Conflict Within Liberalism</li>
+                        <li>Why Knowledge Infrastructure Is Different</li>
+                        <li>What a Non-Billionaire-Dependent Alternative Looks Like</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/the-philanthropy-power-divide/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">State Oligarchs: The Hidden Wealth of Autocrats</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Vladimir Putin (Est. $70-200B+)</li>
+                        <li>Mohammed bin Salman &amp; Saudi Royal Family (Est. $500B+)</li>
+                        <li>Xi Jinping &amp; Chinese Communist Party Elite</li>
+                        <li>UAE Royal Families (Est. $300B+)</li>
+                        <li>Qatar's Al Thani Family (Est. $335B)</li>
+                        <li>Kim Jong Un &amp; North Korean Elite (Est. $5B personal)</li>
+                        <li>Central Asian Dictators</li>
+                        <li>How Autocrat Wealth Is Hidden</li>
+                        <li>Can Illicit Wealth Ever Be Recovered?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/billionaires/state-oligarchs-hidden-wealth-of-autocrats/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- TECHNOLOGY AND ECONOMIC POWER -->
+            <div class="section-divider">
+                <h2 class="section-label">Technology and Economic Power</h2>
+                <p class="section-desc">How AI and tech billionaires are reshaping economic power &mdash; and the risks to financial stability.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">AI + Billionaires = Hyperagency</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Hyperagency?</li>
+                        <li>How AI Amplifies Billionaire Power</li>
+                        <li>Who Has Hyperagency Today?</li>
+                        <li>Platform Control and Algorithmic Manipulation</li>
+                        <li>AI Disinformation and Synthetic Media</li>
+                        <li>The Asymmetry Problem</li>
+                        <li>What We Cannot See</li>
+                        <li>Contested Perspectives</li>
+                        <li>Remedies and Democratic Defenses</li>
+                        <li>The Stakes: What Happens If We Fail?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/media-and-information/ai-billionaires-hyperagency/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">The Ungovernable Economy</span>
+                    <span class="course-chapters">16 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The New Gilded Age</li>
+                        <li>Who Owns the AI Infrastructure</li>
+                        <li>AI-Driven Market Dynamics</li>
+                        <li>Pathways to Crisis: Coordination vs Emergence</li>
+                        <li>Historical Precedents</li>
+                        <li>Infrastructure Chokepoints</li>
+                        <li>Regulatory Failure</li>
+                        <li>From Trigger to Cascade</li>
+                        <li>Winners and Losers</li>
+                        <li>The Benign Scenario</li>
+                        <li>Early Warning Signs</li>
+                        <li>Policy Responses</li>
+                        <li>National Defense Strategies</li>
+                        <li>The Normie's Survival Guide</li>
+                        <li>Connection to Dollar Dominance</li>
+                        <li>After the Singularity</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/economic-infrastructures/geopolitics/concentration-singularity/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">A Curiosity Engine for the public good.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/">Quarex</a>
+                <a href="https://knowableonline.org/">Knowable Online</a>
+                <a href="https://election2026.net/">Election 2026</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. All content is free and open.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

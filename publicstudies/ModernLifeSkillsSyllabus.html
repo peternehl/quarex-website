@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Life Skills | Public Studies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --line: #30363d;
+            --text: #e6edf3;
+            --muted: #8b949e;
+            --accent: #10b981;
+            --accent-soft: rgba(16, 185, 129, 0.1);
+            --brand: #58a6ff;
+            --radius: 8px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Source Sans Pro', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 0;
+        }
+        a { color: var(--brand); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            padding: 16px 24px;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--text);
+            font-weight: 700;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--brand); }
+        .nav-back { font-size: 0.95rem; }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 60px 24px 48px;
+            border-bottom: 1px solid var(--line);
+        }
+        .hero-icon { font-size: 3.5rem; margin-bottom: 16px; }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .hero-subtitle {
+            color: var(--muted);
+            font-size: 1.15rem;
+            max-width: 700px;
+            margin: 0 auto 20px;
+        }
+        .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+        .hero-meta span { display: flex; align-items: center; gap: 6px; }
+
+        /* Main */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 48px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--accent);
+        }
+        .section-number {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+        }
+
+        /* Course Cards */
+        .course-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course-header {
+            padding: 20px 24px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+        .course-header:hover { background: var(--accent-soft); }
+        .course-title-wrap { flex: 1; }
+        .course-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .course-meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .course-toggle {
+            color: var(--muted);
+            font-size: 1.2rem;
+            transition: transform 0.2s;
+        }
+        .course-card.open .course-toggle { transform: rotate(180deg); }
+        .course-chapters {
+            display: none;
+            border-top: 1px solid var(--line);
+            padding: 16px 24px;
+            background: rgba(0,0,0,0.2);
+        }
+        .course-card.open .course-chapters { display: block; }
+        .chapter-list { list-style: none; }
+        .chapter-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-number {
+            color: var(--accent);
+            font-weight: 600;
+            margin-right: 8px;
+        }
+        .quarex-link {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 10px 20px;
+            background: var(--accent);
+            color: #fff;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+        .quarex-link:hover { opacity: 0.9; text-decoration: none; }
+
+        /* Footer */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .footer-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .footer-logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 16px;
+            opacity: 0.85;
+            filter: drop-shadow(0 0 8px rgba(88, 166, 255, 0.3));
+        }
+        .footer-logo:hover { opacity: 1; }
+        .footer-text {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        .footer-text a { color: var(--brand); }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero { padding: 40px 20px 32px; }
+            .course-header { padding: 16px; }
+            .course-chapters { padding: 12px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/publicstudies/" class="site-logo">Public Studies</a>
+            <a href="/publicstudies/" class="nav-back">&larr; All Schools</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-icon">&#128737;</div>
+        <h1>Modern Life Skills</h1>
+        <p class="hero-subtitle">
+            Digital security, fact-checking, and navigating the information landscape. Essential skills for the modern world.
+        </p>
+        <div class="hero-meta">
+            <span>&#128218; 10 courses</span>
+            <span>&#128209; 79 chapters</span>
+            <span>&#127968; Home & Work</span>
+        </div>
+    </section>
+
+    <main>
+        <!-- Section 1: Digital Self-Defense -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">I</span>
+                <h2 class="section-title">Digital Self-Defense</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Recognizing Scams and Phishing</div>
+                        <div class="course-meta">4 chapters &bull; Don't get fooled</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Common Red Flags in Emails and Messages</li>
+                        <li><span class="chapter-number">2.</span> Fake Login Pages and Credential Stealing</li>
+                        <li><span class="chapter-number">3.</span> Romance, Tech Support, and Investment Scams</li>
+                        <li><span class="chapter-number">4.</span> What to Do If You Clicked Something Sketchy</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/recognizing-scams-and-phishing/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Locking Down Your Devices and Accounts</div>
+                        <div class="course-meta">4 chapters &bull; Practical security basics</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Strong Passwords and Password Managers</li>
+                        <li><span class="chapter-number">2.</span> Two-Factor Authentication and Why It Matters</li>
+                        <li><span class="chapter-number">3.</span> Updating Software and Avoiding Unsafe Apps</li>
+                        <li><span class="chapter-number">4.</span> Securing Your Phone, Laptop, and Home Wi-Fi</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/locking-down-your-devices-and-accounts/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Privacy and Data Minimization</div>
+                        <div class="course-meta">4 chapters &bull; Control your digital footprint</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> How Apps and Sites Track You</li>
+                        <li><span class="chapter-number">2.</span> Adjusting Privacy Settings on Major Platforms</li>
+                        <li><span class="chapter-number">3.</span> Using VPNs, Private Browsing, and Ad Blockers</li>
+                        <li><span class="chapter-number">4.</span> Sharing Less: Thinking Before You Post</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/personal-digital-security/privacy-and-data-minimization/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Information Verification Basics -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">II</span>
+                <h2 class="section-title">Information Verification Basics</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Quick Checks Before You Believe or Share</div>
+                        <div class="course-meta">4 chapters &bull; Stop, check, then share</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Pause: Emotional Triggers and Urgency</li>
+                        <li><span class="chapter-number">2.</span> Check the Source: Who Is Behind This?</li>
+                        <li><span class="chapter-number">3.</span> Look for Date, Context, and Original Origin</li>
+                        <li><span class="chapter-number">4.</span> Search for Independent Confirmation</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/quick-checks-before-you-believe-or-share/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Evaluating Sources and Expertise</div>
+                        <div class="course-meta">12 chapters &bull; Who to trust and why</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Why Source Evaluation Matters</li>
+                        <li><span class="chapter-number">2.</span> Credible Institutions vs. Random Accounts</li>
+                        <li><span class="chapter-number">3.</span> Signals of Expertise and Peer Review</li>
+                        <li><span class="chapter-number">4.</span> Understanding Bias and Editorial Slant</li>
+                        <li><span class="chapter-number">5.</span> Separating News, Opinion, and Rumor</li>
+                        <li><span class="chapter-number">6.</span> Evaluating Scientific and Health Claims</li>
+                        <li><span class="chapter-number">7.</span> Evaluating Government and Official Sources</li>
+                        <li><span class="chapter-number">8.</span> Evaluating Social Media as a Source</li>
+                        <li><span class="chapter-number">9.</span> Following the Money: Funding and Motivation</li>
+                        <li><span class="chapter-number">10.</span> The Ecosystem of Unreliable Sources</li>
+                        <li><span class="chapter-number">11.</span> When Experts Disagree</li>
+                        <li><span class="chapter-number">12.</span> Building Your Source Evaluation Habits</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/evaluating-sources-and-expertise/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Tools and Techniques for Verifying Information</div>
+                        <div class="course-meta">12 chapters &bull; Practical fact-checking methods</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Reverse Image Search and Visual Verification</li>
+                        <li><span class="chapter-number">2.</span> Using Fact-Checking Sites Effectively</li>
+                        <li><span class="chapter-number">3.</span> Looking Up Claims in Official Databases</li>
+                        <li><span class="chapter-number">4.</span> Spotting Manipulated Images and Deepfakes</li>
+                        <li><span class="chapter-number">5.</span> Verifying Social Media Claims</li>
+                        <li><span class="chapter-number">6.</span> Open Source Intelligence (OSINT) Basics</li>
+                        <li><span class="chapter-number">7.</span> Checking Claims About Science and Health</li>
+                        <li><span class="chapter-number">8.</span> Verifying News Stories and Sources</li>
+                        <li><span class="chapter-number">9.</span> Browser Extensions and Digital Tools</li>
+                        <li><span class="chapter-number">10.</span> Dealing with Uncertainty and Ambiguity</li>
+                        <li><span class="chapter-number">11.</span> Teaching Verification to Others</li>
+                        <li><span class="chapter-number">12.</span> Building Your Verification Workflow</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/everyday-fact-checking-skills/tools-and-techniques-for-verifying-information/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Fighting Misinformation -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">III</span>
+                <h2 class="section-title">Fighting Misinformation</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">AI, Bots, and Synthetic Media</div>
+                        <div class="course-meta">12 chapters &bull; The new landscape of deception</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> What Is Synthetic Media?</li>
+                        <li><span class="chapter-number">2.</span> How AI Generates Text</li>
+                        <li><span class="chapter-number">3.</span> How AI Generates Images and Video</li>
+                        <li><span class="chapter-number">4.</span> How AI Generates and Clones Audio</li>
+                        <li><span class="chapter-number">5.</span> Tell-Tale Signs of AI-Generated Content</li>
+                        <li><span class="chapter-number">6.</span> Bot Networks and Engagement Farms</li>
+                        <li><span class="chapter-number">7.</span> Astroturfing and Manufactured Consensus</li>
+                        <li><span class="chapter-number">8.</span> Political Manipulation and Election Interference</li>
+                        <li><span class="chapter-number">9.</span> The Trust Crisis: When Nothing Looks Real</li>
+                        <li><span class="chapter-number">10.</span> Tools and Techniques for Verification</li>
+                        <li><span class="chapter-number">11.</span> Legal, Regulatory, and Platform Responses</li>
+                        <li><span class="chapter-number">12.</span> Living in a World of Synthetic Content</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/ai-bots-and-synthetic-media/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Checking Political Claims and Statistics</div>
+                        <div class="course-meta">12 chapters &bull; Numbers can lie</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> How Politicians Use Numbers to Persuade</li>
+                        <li><span class="chapter-number">2.</span> Finding Original Data and Reports</li>
+                        <li><span class="chapter-number">3.</span> Understanding Polls and Margins of Error</li>
+                        <li><span class="chapter-number">4.</span> Recognizing Misleading Graphs and Charts</li>
+                        <li><span class="chapter-number">5.</span> Economic Claims: Jobs, GDP, and Cost of Living</li>
+                        <li><span class="chapter-number">6.</span> Crime and Safety Claims</li>
+                        <li><span class="chapter-number">7.</span> Immigration Claims</li>
+                        <li><span class="chapter-number">8.</span> Healthcare and Social Program Claims</li>
+                        <li><span class="chapter-number">9.</span> Climate and Environmental Claims</li>
+                        <li><span class="chapter-number">10.</span> Education and Budget Claims</li>
+                        <li><span class="chapter-number">11.</span> Fact-Checking Organizations and How to Use Them</li>
+                        <li><span class="chapter-number">12.</span> Building Your Political Fact-Checking Practice</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/checking-political-claims-and-statistics/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Being a Responsible Sharer and Helper</div>
+                        <div class="course-meta">4 chapters &bull; Don't be part of the problem</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Setting Personal Rules Before You Share</li>
+                        <li><span class="chapter-number">2.</span> How to Correct Yourself Gracefully</li>
+                        <li><span class="chapter-number">3.</span> Helping Friends and Family Without Shaming Them</li>
+                        <li><span class="chapter-number">4.</span> Building Your Own Trusted Information Habits</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/advanced-civic-fact-checking-and-sharing-responsibly/being-a-responsible-sharer-and-helper/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Planning Complex Work -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">IV</span>
+                <h2 class="section-title">Planning Complex Work</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Pre-Planning and Planning Meetings</div>
+                        <div class="course-meta">11 chapters &bull; Get projects right from the start</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> The Initial Contact Call</li>
+                        <li><span class="chapter-number">2.</span> The Relationship Framework Meeting</li>
+                        <li><span class="chapter-number">3.</span> Expectations Alignment Meetings</li>
+                        <li><span class="chapter-number">4.</span> Requirements Discovery Meetings</li>
+                        <li><span class="chapter-number">5.</span> Constraints Reality Meetings</li>
+                        <li><span class="chapter-number">6.</span> Technology Direction Meetings</li>
+                        <li><span class="chapter-number">7.</span> The Schedule and Milestones Meeting</li>
+                        <li><span class="chapter-number">8.</span> Procurement and Logistics Meetings</li>
+                        <li><span class="chapter-number">9.</span> The Documentation Standards Meeting</li>
+                        <li><span class="chapter-number">10.</span> The Progress Review Cadence Meeting</li>
+                        <li><span class="chapter-number">11.</span> The Pre-Design Signoff Meeting</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pr/practical-knowledge/systems-planning/pre-planning-and-planning-meetings/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="https://quarex.org" target="_blank">
+                <img src="https://quarex.org/images/quarex-logo.png" alt="Powered by Quarex" class="footer-logo">
+            </a>
+            <p class="footer-text">
+                All content sourced from <a href="https://quarex.org/libraries/" target="_blank">Quarex Knowledge Libraries</a><br>
+                Free forever. No login required.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

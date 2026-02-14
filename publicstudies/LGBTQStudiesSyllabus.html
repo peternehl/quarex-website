@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGBTQ+ Studies Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 24-course LGBTQ+ Studies syllabus. Free, open curriculum covering queer theory, LGBTQ+ history, legal equality, health, culture, and contemporary issues. 254 chapters of university-level content.">
+    <meta name="keywords" content="LGBTQ+ Studies syllabus, queer theory, LGBTQ+ history, gay rights, transgender rights, free education, open curriculum">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/LGBTQStudiesSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/LGBTQStudiesSyllabus.html">
+    <meta property="og:title" content="LGBTQ+ Studies Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 24-course LGBTQ+ Studies syllabus. 254 chapters of free, university-level content spanning queer theory to contemporary activism.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LGBTQ+ Studies Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 24-course LGBTQ+ Studies syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #f59e0b;
+            --accent-hover: #d97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>LGBTQ+ Studies</em> Syllabus</h1>
+            <p class="syllabus-intro">A comprehensive, free curriculum spanning queer theory and the intellectual foundations of the field through contemporary legal battles and cultural expression. Twenty-four courses covering identity, history, law, health, family, religion, economics, culture, and the ongoing fight for equality &mdash; all from multiple perspectives and rooted in scholarly inquiry.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">24</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">254</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">1,524</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- I. FOUNDATIONS & THEORY -->
+            <div class="section-divider">
+                <h2 class="section-label">I. Foundations &amp; Theory</h2>
+                <p class="section-desc">The intellectual foundations of LGBTQ+ Studies &mdash; core concepts, terminology, and the theoretical frameworks that shape the field.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">Foundations: What Is LGBTQ+ Studies?</span>
+                    <span class="course-chapters">8 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Defining LGBTQ+ Studies as a Field</li>
+                        <li>Key Terminology: Identity, Orientation, and Expression</li>
+                        <li>The Difference Between Sex, Gender, and Sexuality</li>
+                        <li>The Asexual and Aromantic Spectrum: An Introduction</li>
+                        <li>Intersectionality: Race, Class, Disability, and Queerness</li>
+                        <li>LGBTQ+ Studies and Disability Studies: Overlapping Frameworks</li>
+                        <li>Why LGBTQ+ Studies Is Under Attack</li>
+                        <li>How This Curriculum Works: AI-Powered Inquiry</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/foundations-what-is-lgbtq-studies/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Queer Theory: Key Thinkers and Concepts</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Queer Theory?</li>
+                        <li>Michel Foucault: Power, Knowledge, and the History of Sexuality</li>
+                        <li>Judith Butler: Gender Performativity and Bodies That Matter</li>
+                        <li>Eve Kosofsky Sedgwick: The Epistemology of the Closet</li>
+                        <li>Jos&eacute; Esteban Mu&ntilde;oz: Queer Futurity and Disidentification</li>
+                        <li>Queer of Color Critique: Roderick Ferguson and Beyond</li>
+                        <li>Crip Theory: Disability and Queerness</li>
+                        <li>Trans Studies as a Distinct Field</li>
+                        <li>Critiques of Queer Theory: Homonormativity and Assimilation</li>
+                        <li>How to Read Queer Theory: Methods and Approaches</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/queer-theory-key-thinkers-and-concepts/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- II. HISTORY -->
+            <div class="section-divider">
+                <h2 class="section-label">II. History</h2>
+                <p class="section-desc">From ancient same-sex love through Stonewall to the AIDS crisis &mdash; the history that was hidden and the movements that changed the world.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Hidden History: LGBTQ+ Lives Before Stonewall</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Same-Sex Love in Ancient Civilizations</li>
+                        <li>Gender Diversity Across Cultures</li>
+                        <li>Medieval and Renaissance Same-Sex Intimacy</li>
+                        <li>The Invention of 'Homosexuality' in the 19th Century</li>
+                        <li>Early LGBTQ+ Subcultures in American Cities</li>
+                        <li>World War II and the 'Discovery' of Gay America</li>
+                        <li>The Lavender Scare: Cold War Persecution</li>
+                        <li>The Mattachine Society: Gay Men Organize</li>
+                        <li>Daughters of Bilitis: Lesbians Find Community</li>
+                        <li>Medical Pathologization and Its Resistance</li>
+                        <li>Police Raids and Bar Culture Before Stonewall</li>
+                        <li>The Eve of Liberation: America in 1969</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/hidden-history-lgbtq-lives-before-stonewall/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Stonewall and the Birth of Gay Liberation</span>
+                    <span class="course-chapters">8 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Stonewall Inn: Setting the Scene</li>
+                        <li>The Raid and the Uprising: June 28, 1969</li>
+                        <li>Marsha P. Johnson and the Transgender Women of Stonewall</li>
+                        <li>Sylvia Rivera: Lifetime of Radical Activism</li>
+                        <li>The Gay Liberation Front: A New Militancy</li>
+                        <li>The Gay Activists Alliance and Single-Issue Politics</li>
+                        <li>The First Pride Marches: Commemorating Stonewall</li>
+                        <li>Gay Liberation Goes National and Global</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/stonewall-and-gay-liberation/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">The AIDS Crisis: Abandonment, Activism, and Survival</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Mysterious Illness: 1981-1983</li>
+                        <li>Government Abandonment: The Reagan Administration's Failure</li>
+                        <li>Stigma, Blame, and the 'Innocent Victims' Narrative</li>
+                        <li>Community Response: When the Government Wouldn't Act</li>
+                        <li>ACT UP: Silence = Death</li>
+                        <li>The NAMES Project AIDS Memorial Quilt</li>
+                        <li>Women and AIDS: The Overlooked Epidemic</li>
+                        <li>AIDS in Communities of Color</li>
+                        <li>The Development of Antiretroviral Treatment</li>
+                        <li>Long-Term Survivors and Survivor's Guilt</li>
+                        <li>AIDS and LGBTQ+ Politics: How Crisis Shaped a Movement</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/aids-crisis-abandonment-activism-survival/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- III. LAW & POLITICS -->
+            <div class="section-divider">
+                <h2 class="section-label">III. Law &amp; Politics</h2>
+                <p class="section-desc">The legal battles for equality, the organized opposition, and the global landscape of LGBTQ+ rights.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">The Fight for Legal Equality</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Sodomy Laws and Their History</li>
+                        <li>Bowers v. Hardwick: A Devastating Setback</li>
+                        <li>Lawrence v. Texas: The Constitution Catches Up</li>
+                        <li>Employment Discrimination: From Firing to Bostock</li>
+                        <li>The Marriage Equality Movement</li>
+                        <li>United States v. Windsor: DOMA Falls</li>
+                        <li>Obergefell v. Hodges: Marriage Equality Nationwide</li>
+                        <li>Religious Liberty vs. LGBTQ+ Rights</li>
+                        <li>Adoption, Foster Care, and Parental Rights</li>
+                        <li>The Equality Act: The Unfinished Fight</li>
+                        <li>LGBTQ+ Rights in the Military</li>
+                        <li>The Supreme Court and the Future of LGBTQ+ Rights</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/fight-for-legal-equality/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">The Politics of Anti-LGBTQ+ Movements</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Origins of Organized Anti-LGBTQ+ Politics</li>
+                        <li>Who Funds Anti-LGBTQ+ Movements?</li>
+                        <li>The Religious Arguments Against LGBTQ+ Rights</li>
+                        <li>The 'Think of the Children' Playbook</li>
+                        <li>Bathroom Bills and the Politics of Fear</li>
+                        <li>Attacks on Gender-Affirming Care</li>
+                        <li>Book Bans and the Control of Information</li>
+                        <li>Anti-Trans Sports Legislation</li>
+                        <li>The International Export of Anti-LGBTQ+ Politics</li>
+                        <li>Anti-LGBTQ+ Rhetoric and Violence</li>
+                        <li>Media and the 'Both Sides' Problem</li>
+                        <li>Responding to Anti-LGBTQ+ Movements</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/politics-of-anti-lgbtq-movements/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">LGBTQ+ Rights as a Global Issue</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Global Landscape of LGBTQ+ Rights</li>
+                        <li>Colonialism and the Criminalization of Homosexuality</li>
+                        <li>LGBTQ+ Rights in Africa</li>
+                        <li>LGBTQ+ Rights in the Middle East and North Africa</li>
+                        <li>Russia and LGBTQ+ Rights in Eastern Europe</li>
+                        <li>LGBTQ+ Rights in Asia and the Pacific</li>
+                        <li>LGBTQ+ Rights in Latin America</li>
+                        <li>LGBTQ+ Asylum and Refugee Status</li>
+                        <li>International Human Rights Law and LGBTQ+ Rights</li>
+                        <li>Global LGBTQ+ Movements and Solidarity</li>
+                        <li>The Future of Global LGBTQ+ Rights</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-rights-global-issue/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">The Future of LGBTQ+ Rights in America</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Where Things Stand: A 2020s Snapshot</li>
+                        <li>The Equality Act: Hope and Obstacles</li>
+                        <li>The Supreme Court After Dobbs</li>
+                        <li>The Anti-Trans Legislative Wave</li>
+                        <li>Generation Z and Shifting Identity</li>
+                        <li>Red State/Blue State Divergence</li>
+                        <li>The Religious Liberty Battleground</li>
+                        <li>LGBTQ+ Community Resilience</li>
+                        <li>Coalition Building and Political Strategy</li>
+                        <li>Global Context: America in Comparative Perspective</li>
+                        <li>Imagining Full Equality: What Would It Look Like?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/future-of-lgbtq-rights-america/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- IV. IDENTITY & COMMUNITY -->
+            <div class="section-divider">
+                <h2 class="section-label">IV. Identity &amp; Community</h2>
+                <p class="section-desc">The distinct experiences, histories, and communities within the LGBTQ+ umbrella &mdash; lesbian, bisexual, transgender, intersex, asexual, and people of color.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Transgender Lives, History, and Rights</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Understanding Transgender Identity</li>
+                        <li>Transgender People Throughout History</li>
+                        <li>The Medical Model: Pathologization and Treatment</li>
+                        <li>Transgender Children and Adolescents</li>
+                        <li>The Transgender Rights Movement</li>
+                        <li>Legal Recognition and Identity Documents</li>
+                        <li>Bathroom Bills and the Politics of Access</li>
+                        <li>Violence Against Transgender People</li>
+                        <li>Transgender Athletes and Sports Policy</li>
+                        <li>Attacks on Gender-Affirming Care</li>
+                        <li>Transmisogyny and Trans Women's Experiences</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/transgender-lives-history-rights/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">Intersex: Biology, Medicine, and Rights</span>
+                    <span class="course-chapters">8 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Intersex? Biology Beyond the Binary</li>
+                        <li>Intersex Variations: Types and Characteristics</li>
+                        <li>The History of Medical Intervention</li>
+                        <li>Intersex Surgery and the Question of Consent</li>
+                        <li>The Intersex Rights Movement</li>
+                        <li>Bodily Autonomy and Informed Consent</li>
+                        <li>Legal Protections and Emerging Policy</li>
+                        <li>Intersex Lives: Identity, Community, and Advocacy</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/intersex-biology-medicine-rights/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">LGBTQ+ People of Color</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Intersectionality: Living at the Crossroads</li>
+                        <li>Black LGBTQ+ History and Leadership</li>
+                        <li>Ballroom Culture: A Black and Latino LGBTQ+ Institution</li>
+                        <li>Latino/a/x LGBTQ+ Experiences</li>
+                        <li>Two-Spirit Identities in Indigenous Communities</li>
+                        <li>Asian American and Pacific Islander LGBTQ+ Experiences</li>
+                        <li>Racism Within LGBTQ+ Spaces</li>
+                        <li>Homophobia and Transphobia in Communities of Color</li>
+                        <li>Health Disparities Facing LGBTQ+ People of Color</li>
+                        <li>Building Multiracial LGBTQ+ Movements</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-people-of-color/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">13</span>
+                    <span class="course-title">Lesbian History and Feminism</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Defining Lesbian Identity Across Time</li>
+                        <li>Early Lesbian Communities and Visibility</li>
+                        <li>Butch/Femme Culture and Its Meanings</li>
+                        <li>The Daughters of Bilitis and Early Organizing</li>
+                        <li>The Lavender Menace: Lesbians and Second-Wave Feminism</li>
+                        <li>Lesbian Feminism and Separatism</li>
+                        <li>Lesbian Writers, Artists, and Cultural Production</li>
+                        <li>The Sex Wars and Lesbian Sexuality</li>
+                        <li>Lesbians of Color: Intersecting Struggles</li>
+                        <li>Contemporary Lesbian Identity and Community</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lesbian-history-feminism/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">14</span>
+                    <span class="course-title">Bisexual, Pansexual, and Fluid Identities</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Understanding Bisexuality</li>
+                        <li>The Kinsey Scale and Beyond</li>
+                        <li>Bisexual Erasure and Invisibility</li>
+                        <li>Biphobia from All Directions</li>
+                        <li>Pansexuality and Emerging Identity Labels</li>
+                        <li>Sexual Fluidity Across the Lifespan</li>
+                        <li>Bisexual Health Disparities</li>
+                        <li>Bisexual Relationships and Community</li>
+                        <li>Bisexual History and Activism</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/bisexual-pansexual-fluid-identities/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">15</span>
+                    <span class="course-title">Asexual, Aromantic, and Emerging Identities</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is Asexuality?</li>
+                        <li>The Asexual Spectrum</li>
+                        <li>Aromanticism: Love Without Romance</li>
+                        <li>Types of Attraction: A Fuller Picture</li>
+                        <li>Asexual and Aromantic Relationships</li>
+                        <li>The History of Asexual Community and Activism</li>
+                        <li>Are Asexual People LGBTQ+?</li>
+                        <li>Health, Pathologization, and Asexuality</li>
+                        <li>Asexual and Aromantic Representation</li>
+                        <li>Emerging and Evolving Identity Terms</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/asexual-aromantic-emerging-identities/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- V. HEALTH, FAMILY & LIFE -->
+            <div class="section-divider">
+                <h2 class="section-label">V. Health, Family &amp; Life</h2>
+                <p class="section-desc">The realities of LGBTQ+ life &mdash; health disparities, family building, youth experiences, aging, religion, and economic life.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">16</span>
+                    <span class="course-title">LGBTQ+ Health and Mental Health</span>
+                    <span class="course-chapters">13 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Legacy of Pathologization</li>
+                        <li>Minority Stress: How Discrimination Gets Under the Skin</li>
+                        <li>Mental Health Disparities in LGBTQ+ Communities</li>
+                        <li>Suicide and LGBTQ+ Youth</li>
+                        <li>Transgender Healthcare: Standards and Access</li>
+                        <li>HIV/AIDS: Ongoing Prevention and Treatment</li>
+                        <li>Sexual Health Beyond HIV</li>
+                        <li>Cancer Disparities and Screening</li>
+                        <li>Finding LGBTQ+-Affirming Healthcare</li>
+                        <li>Disability and LGBTQ+ Identity</li>
+                        <li>LGBTQ+-Affirming Mental Healthcare</li>
+                        <li>Substance Use in LGBTQ+ Communities</li>
+                        <li>Building Community Health</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-health-mental-health/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">17</span>
+                    <span class="course-title">LGBTQ+ Youth: Schools, Bullying, and Resilience</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Growing Up LGBTQ+ in America Today</li>
+                        <li>Coming Out: Young People and Identity Disclosure</li>
+                        <li>Bullying and Harassment in Schools</li>
+                        <li>GSAs and Student-Led Support</li>
+                        <li>Don't Say Gay Laws: Restricting LGBTQ+ Topics in Schools</li>
+                        <li>Book Bans and LGBTQ+ Content in Schools</li>
+                        <li>LGBTQ+ Youth and Family</li>
+                        <li>LGBTQ+ Youth Homelessness</li>
+                        <li>Mental Health Support for LGBTQ+ Youth</li>
+                        <li>Transgender and Gender-Diverse Youth</li>
+                        <li>Building Resilience and Thriving</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-youth-schools-resilience/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">18</span>
+                    <span class="course-title">LGBTQ+ Families and Relationships</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Chosen Family: Queer Kinship Beyond Biology</li>
+                        <li>Same-Sex Couples: Relationship Dynamics</li>
+                        <li>Marriage After Obergefell</li>
+                        <li>LGBTQ+ Parenting: Research and Realities</li>
+                        <li>Paths to Parenthood: Adoption</li>
+                        <li>Paths to Parenthood: Assisted Reproduction</li>
+                        <li>Transgender Parents and Families</li>
+                        <li>Polyamory and Non-Traditional Relationship Structures</li>
+                        <li>Family Rejection and Reconciliation</li>
+                        <li>Legal Protections for LGBTQ+ Families</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-families-and-relationships/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">19</span>
+                    <span class="course-title">LGBTQ+ Aging: Elders, Care, and Legacy</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Stonewall Generation: Elders Who Made History</li>
+                        <li>Unique Challenges of LGBTQ+ Aging</li>
+                        <li>HIV Long-Term Survivors and Aging</li>
+                        <li>Elder Abuse and Discrimination in Care Settings</li>
+                        <li>LGBTQ+-Affirming Elder Care</li>
+                        <li>Transgender Elders: Specific Needs and Experiences</li>
+                        <li>Mental Health and LGBTQ+ Elders</li>
+                        <li>Intergenerational Connections in LGBTQ+ Communities</li>
+                        <li>End of Life: Planning, Care, and Mourning</li>
+                        <li>Preserving LGBTQ+ History: Archives and Memory</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-aging-elders-care-legacy/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">20</span>
+                    <span class="course-title">Religion, Spirituality, and Queerness</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Religious Condemnation: Sources and Interpretations</li>
+                        <li>The Religious Right and Anti-LGBTQ+ Activism</li>
+                        <li>Conversion Therapy: Harm Disguised as Healing</li>
+                        <li>LGBTQ+ Affirming Christianity</li>
+                        <li>LGBTQ+ Lives in Non-Christian Traditions</li>
+                        <li>Queer Theology: Reimagining the Divine</li>
+                        <li>The Closet in the Clergy</li>
+                        <li>Leaving Faith: Religious Trauma and Ex-Religious LGBTQ+ People</li>
+                        <li>Spirituality Beyond Organized Religion</li>
+                        <li>Faith, Family, and Coming Out</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/religion-spirituality-queerness/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">21</span>
+                    <span class="course-title">LGBTQ+ Economics: Work, Wages, and Wealth</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Workplace Discrimination: History and Law</li>
+                        <li>Bostock and the Future of Workplace Rights</li>
+                        <li>The LGBTQ+ Wage Gap</li>
+                        <li>The Closet at Work: Coming Out and Staying In</li>
+                        <li>Transgender Employment: Unique Challenges</li>
+                        <li>LGBTQ+ Entrepreneurship</li>
+                        <li>Rainbow Capitalism: Pride as a Market</li>
+                        <li>LGBTQ+ Poverty and Economic Insecurity</li>
+                        <li>LGBTQ+ Financial Planning and Wealth Building</li>
+                        <li>The Economics of Coming Out of the Closet</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-economics-work-wages-wealth/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- VI. CULTURE & EXPRESSION -->
+            <div class="section-divider">
+                <h2 class="section-label">VI. Culture &amp; Expression</h2>
+                <p class="section-desc">The extraordinary creative legacy of LGBTQ+ people &mdash; literature, art, music, media, and the power of visibility.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">22</span>
+                    <span class="course-title">Queer Culture: Literature, Art, and Expression</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Queer Literature: From Coded to Celebrated</li>
+                        <li>Queer Visual Art: Seeing Ourselves</li>
+                        <li>The Art of Drag</li>
+                        <li>Queer Theater and Performance</li>
+                        <li>Queer Cinema: From Coding to Centering</li>
+                        <li>Camp Aesthetics and Queer Style</li>
+                        <li>LGBTQ+ Archives and Cultural Preservation</li>
+                        <li>Queer Zines, Comics, and DIY Culture</li>
+                        <li>Pride, Festivals, and Cultural Celebration</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/queer-culture-literature-art/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">23</span>
+                    <span class="course-title">LGBTQ+ Music and Performance</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Queer Roots of American Popular Music</li>
+                        <li>Disco: A Queer Revolution on the Dance Floor</li>
+                        <li>The AIDS Crisis and Music as Response</li>
+                        <li>Queercore and LGBTQ+ Punk</li>
+                        <li>Gay Icons: The Divas and Their Devotees</li>
+                        <li>Out and Proud: Openly LGBTQ+ Musicians</li>
+                        <li>LGBTQ+ Representation in Hip-Hop and R&amp;B</li>
+                        <li>Ballroom Music and Voguing</li>
+                        <li>Queer Voices in Classical and Opera</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-music-performance/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">24</span>
+                    <span class="course-title">LGBTQ+ in Media and Popular Culture</span>
+                    <span class="course-chapters">11 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>A History of LGBTQ+ Representation in Media</li>
+                        <li>Stereotypes and Tropes</li>
+                        <li>Queerbaiting: Promise Without Payoff</li>
+                        <li>The Power of Positive Representation</li>
+                        <li>LGBTQ+ Characters in Television's Golden Age</li>
+                        <li>LGBTQ+ Representation in Film</li>
+                        <li>Transgender Representation in Media</li>
+                        <li>LGBTQ+ in Video Games and Digital Media</li>
+                        <li>LGBTQ+ Journalism and News Media</li>
+                        <li>Social Media and LGBTQ+ Community Building</li>
+                        <li>Beyond Representation: LGBTQ+ People Behind the Camera</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-media-popular-culture/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/images/quarex_logo.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">All content is free, open, and self-hostable.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Content licensed under CC BY-SA 4.0.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

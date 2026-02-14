@@ -147,12 +147,12 @@
             margin-top: 8px;
         }
 
-        /* ── Discipline Grid ── */
-        .disciplines {
+        /* ── Schools Section ── */
+        .schools {
             padding: 48px 20px 60px;
             border-top: 1px solid var(--line);
         }
-        .disciplines-inner {
+        .schools-inner {
             max-width: var(--max-width);
             margin: 0 auto;
         }
@@ -171,16 +171,106 @@
             font-size: 1rem;
         }
 
+        /* School Cards */
+        .school-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .school-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            padding: 28px 24px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .school-card:hover {
+            border-color: var(--accent);
+            background: var(--accent-soft);
+            transform: translateY(-2px);
+        }
+        .school-card.active {
+            border-color: var(--accent);
+            background: var(--accent-soft);
+        }
+        .school-card .school-header {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 12px;
+        }
+        .school-card .school-icon {
+            font-size: 2rem;
+        }
+        .school-card .school-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+        }
+        .school-card .school-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        .school-card .school-count {
+            display: inline-block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent);
+            background: var(--accent-soft);
+            border: 1px solid var(--accent-border);
+            padding: 4px 12px;
+            border-radius: 999px;
+        }
+
+        /* School Detail Panel - shows curricula */
+        .school-detail {
+            display: none;
+            background: var(--card);
+            border: 1px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 28px;
+            margin-top: 24px;
+            grid-column: 1 / -1;
+        }
+        .school-detail.show { display: block; }
+        .school-detail-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--line);
+        }
+        .school-detail-header h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--accent);
+        }
+        .close-school {
+            background: none;
+            border: none;
+            color: var(--muted);
+            font-size: 1.8rem;
+            cursor: pointer;
+            padding: 4px 8px;
+            line-height: 1;
+        }
+        .close-school:hover { color: var(--ink); }
+
+        /* Discipline Grid inside school detail */
         .discipline-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
             gap: 16px;
         }
         .discipline-card {
-            background: var(--card);
+            background: rgba(255,255,255,0.02);
             border: 1px solid var(--line);
             border-radius: var(--radius);
-            padding: 28px 20px;
+            padding: 24px 20px;
             text-align: center;
             text-decoration: none;
             color: var(--brand);
@@ -194,24 +284,20 @@
             transform: translateY(-2px);
         }
         .discipline-card .card-icon {
-            font-size: 2rem;
-            margin-bottom: 12px;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
             display: block;
         }
         .discipline-card .card-title {
             font-weight: 700;
-            font-size: 1.1rem;
+            font-size: 1rem;
             margin-bottom: 8px;
             display: block;
         }
         .discipline-card .card-desc {
             color: var(--muted);
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             line-height: 1.5;
-        }
-        .discipline-card.active {
-            border-color: var(--accent);
-            background: var(--accent-soft);
         }
         .discipline-card.coming-soon {
             opacity: 0.5;
@@ -221,9 +307,8 @@
             content: ' (Coming Soon)';
             color: var(--muted);
             font-weight: 400;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
         }
-
         .discipline-card.spanish {
             border-color: rgba(239, 68, 68, 0.3);
         }
@@ -234,7 +319,7 @@
         .discipline-card .card-courses {
             display: inline-block;
             margin-top: 10px;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             font-weight: 600;
             color: var(--accent);
             background: var(--accent-soft);
@@ -243,81 +328,6 @@
             border-radius: 999px;
         }
 
-        /* ── Course Detail Panel ── */
-        .course-detail {
-            display: none;
-            background: var(--card);
-            border: 1px solid var(--accent);
-            border-radius: var(--radius);
-            padding: 24px;
-            margin-top: 20px;
-            grid-column: 1 / -1;
-        }
-        .course-detail.show { display: block; }
-        .course-detail-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 16px;
-        }
-        .course-detail-header h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            color: var(--accent);
-        }
-        .close-detail {
-            background: none;
-            border: none;
-            color: var(--muted);
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 4px 8px;
-            line-height: 1;
-        }
-        .close-detail:hover { color: var(--ink); }
-        .course-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .course-list li {
-            border-bottom: 1px solid var(--line);
-        }
-        .course-list li:last-child { border-bottom: none; }
-        .course-list a {
-            display: block;
-            padding: 14px 16px;
-            color: var(--ink);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: all 0.15s;
-            border-radius: var(--radius-sm);
-        }
-        .course-list a:hover {
-            background: var(--accent-soft);
-            color: var(--accent);
-            text-decoration: none;
-        }
-        .course-list a::after {
-            content: ' \2192';
-            color: var(--muted);
-            font-weight: 400;
-        }
-        .course-list a:hover::after {
-            color: var(--accent);
-        }
-        .course-list li.syllabus-link {
-            border-top: 1px solid var(--accent-border);
-            margin-top: 4px;
-        }
-        .course-list li.syllabus-link a {
-            color: var(--accent);
-            font-size: 0.9rem;
-        }
-        .course-list li.syllabus-link a::after {
-            content: '';
-        }
 
         /* ── Why Section ── */
         .why-section {
@@ -456,14 +466,20 @@
             .site-nav.open { display: flex; }
             .nav-toggle { display: block; }
             .hero { padding: 40px 20px 32px; }
+            .school-grid { grid-template-columns: repeat(2, 1fr); }
             .discipline-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
             .btn-outline { margin-left: 0; margin-top: 12px; }
         }
 
+        @media (max-width: 600px) {
+            .school-grid { grid-template-columns: 1fr; }
+        }
+
         @media (max-width: 480px) {
             .hero { padding: 32px 16px 24px; }
+            .school-card { padding: 20px 16px; }
             .discipline-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-            .discipline-card { padding: 20px 14px; }
+            .discipline-card { padding: 18px 12px; }
         }
     </style>
 </head>
@@ -474,7 +490,7 @@
             <a href="/" class="site-logo">Public Studies</a>
             <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
             <nav class="site-nav">
-                <a href="#disciplines">Disciplines</a>
+                <a href="#schools">Schools</a>
                 <a href="#why">Why This Exists</a>
                 <a href="https://quarex.org/" target="_blank">Quarex</a>
                 <a href="https://election2026.net/" target="_blank">Election 2026</a>
@@ -492,105 +508,165 @@
             <span class="hero-statement">Free forever. No institution required.</span>
         </section>
 
-        <section class="disciplines" id="disciplines">
-            <div class="disciplines-inner">
-                <h2 class="section-title">Choose a Discipline</h2>
-                <p class="section-subtitle">Each curriculum follows a semester-length syllabus. Click to explore the full course.</p>
+        <section class="schools" id="schools">
+            <div class="schools-inner">
+                <h2 class="section-title">Choose a School</h2>
+                <p class="section-subtitle">Each school contains semester-length curricula with full syllabi. Click a school to explore.</p>
 
-                <div class="discipline-grid" id="disciplineGrid">
+                <div class="school-grid" id="schoolGrid">
                     <!-- Rendered from curriculum-index.json -->
                 </div>
 
-                <div class="course-detail" id="courseDetail">
-                    <div class="course-detail-header">
-                        <h3 id="courseDetailTitle"></h3>
-                        <button class="close-detail" onclick="closeCourseDetail()">&times;</button>
+                <div class="school-detail" id="schoolDetail">
+                    <div class="school-detail-header">
+                        <h3 id="schoolDetailTitle"></h3>
+                        <button class="close-school" onclick="closeSchoolDetail()">&times;</button>
                     </div>
-                    <ul class="course-list" id="courseList"></ul>
+                    <div class="discipline-grid" id="disciplineGrid"></div>
                 </div>
 
                 <script>
-                let activeDiscipline = null;
+                const schoolMeta = {
+                    'Social Studies': {
+                        icon: '📚',
+                        desc: 'Identity, culture, and the human experience. Black Studies, Women\'s Studies, Hispanic Studies, LGBTQ+ Studies, and more.'
+                    },
+                    'Political Science': {
+                        icon: '🏛️',
+                        desc: 'The debates that divide America. Immigration, climate, criminal justice, free speech, equality, and economic systems.'
+                    },
+                    'History': {
+                        icon: '📜',
+                        desc: 'The past that shapes the present. U.S.-Latin America relations, cultural contributions, and historical narratives.'
+                    },
+                    'Technology': {
+                        icon: '💻',
+                        desc: 'Understanding AI, media literacy, and the information systems that shape modern life.'
+                    },
+                    'Finance': {
+                        icon: '💰',
+                        desc: 'Personal finance, investing, and understanding economic power structures.'
+                    },
+                    'Arts & Science': {
+                        icon: '🎨',
+                        desc: 'Visual arts, creative practice, and the intersection of art and technology.'
+                    },
+                    'Professional': {
+                        icon: '📋',
+                        desc: 'Practical skills for the workplace. Documentation, systems thinking, and professional development.'
+                    },
+                    'Home & Work': {
+                        icon: '🏠',
+                        desc: 'Skills for daily life and making a living. Home maintenance, cooking, job hunting, and career transitions.'
+                    }
+                };
 
-                function showCourseDetail(d) {
-                    const detail = document.getElementById('courseDetail');
-                    const title = document.getElementById('courseDetailTitle');
-                    const list = document.getElementById('courseList');
+                let activeSchool = null;
+                let curriculumData = null;
 
-                    // Toggle off if clicking same discipline
-                    if (activeDiscipline === d.id) {
-                        closeCourseDetail();
+                function showSchoolDetail(schoolName, disciplines) {
+                    const detail = document.getElementById('schoolDetail');
+                    const title = document.getElementById('schoolDetailTitle');
+                    const grid = document.getElementById('disciplineGrid');
+
+                    // Toggle off if clicking same school
+                    if (activeSchool === schoolName) {
+                        closeSchoolDetail();
                         return;
                     }
 
-                    activeDiscipline = d.id;
-                    title.textContent = d.title;
+                    activeSchool = schoolName;
+                    title.textContent = schoolMeta[schoolName].icon + ' ' + schoolName;
 
-                    let html = d.courses.map(c =>
-                        `<li><a href="${c.link}" target="_blank">${c.title}</a></li>`
-                    ).join('');
-                    if (d.syllabus) {
-                        html += `<li class="syllabus-link"><a href="${d.syllabus}">View Full Syllabus &rarr;</a></li>`;
-                    }
-                    list.innerHTML = html;
+                    // Build discipline cards
+                    grid.innerHTML = '';
+                    disciplines.forEach(d => {
+                        const a = document.createElement('a');
+                        a.setAttribute('data-id', d.id);
 
-                    // Highlight active card
-                    document.querySelectorAll('.discipline-card').forEach(el => el.classList.remove('active'));
-                    document.querySelector(`.discipline-card[data-id="${d.id}"]`).classList.add('active');
+                        if (d.status === 'live' && d.syllabus) {
+                            a.href = d.syllabus;
+                        } else if (d.status === 'live' && d.courses.length === 1 && d.courses[0].link) {
+                            a.href = d.courses[0].link;
+                            a.target = '_blank';
+                        } else {
+                            a.href = '#';
+                        }
+
+                        a.className = 'discipline-card'
+                            + (d.status === 'coming-soon' ? ' coming-soon' : '')
+                            + (d.lang === 'es' ? ' spanish' : '');
+
+                        const courseCount = d.courses.length;
+                        const courseLabel = courseCount > 0
+                            ? `<span class="card-courses">${courseCount} course${courseCount !== 1 ? 's' : ''}</span>`
+                            : '';
+
+                        a.innerHTML = `
+                            <span class="card-icon">${d.icon}</span>
+                            <span class="card-title">${d.title}</span>
+                            <span class="card-desc">${d.description}</span>
+                            ${courseLabel}
+                        `;
+                        grid.appendChild(a);
+                    });
+
+                    // Highlight active school card
+                    document.querySelectorAll('.school-card').forEach(el => el.classList.remove('active'));
+                    document.querySelector(`.school-card[data-school="${schoolName}"]`).classList.add('active');
 
                     detail.classList.add('show');
                     detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                 }
 
-                function closeCourseDetail() {
-                    activeDiscipline = null;
-                    document.getElementById('courseDetail').classList.remove('show');
-                    document.querySelectorAll('.discipline-card').forEach(el => el.classList.remove('active'));
+                function closeSchoolDetail() {
+                    activeSchool = null;
+                    document.getElementById('schoolDetail').classList.remove('show');
+                    document.querySelectorAll('.school-card').forEach(el => el.classList.remove('active'));
                 }
 
                 fetch('curriculum-index.json')
                     .then(r => r.json())
                     .then(data => {
-                        const grid = document.getElementById('disciplineGrid');
+                        curriculumData = data;
+                        const grid = document.getElementById('schoolGrid');
+
+                        // Group disciplines by school
+                        const schools = {};
                         data.disciplines.forEach(d => {
-                            const a = document.createElement('a');
-                            a.setAttribute('data-id', d.id);
+                            const school = d.school || 'Other';
+                            if (!schools[school]) schools[school] = [];
+                            schools[school].push(d);
+                        });
 
-                            if (d.status === 'live' && d.courses.length === 1 && d.courses[0].link) {
-                                // Single course — link directly
-                                a.href = d.courses[0].link;
-                                a.target = '_blank';
-                            } else if (d.status === 'live' && d.courses.length > 1) {
-                                // Multiple courses — expand detail panel
-                                a.href = '#';
-                                a.addEventListener('click', (e) => {
-                                    e.preventDefault();
-                                    showCourseDetail(d);
-                                });
-                            } else {
-                                a.href = '#';
-                            }
+                        // Define school order
+                        const schoolOrder = ['Social Studies', 'Political Science', 'History', 'Technology', 'Finance', 'Arts & Science', 'Professional', 'Home & Work'];
 
-                            a.className = 'discipline-card'
-                                + (d.status === 'coming-soon' ? ' coming-soon' : '')
-                                + (d.lang === 'es' ? ' spanish' : '');
+                        schoolOrder.forEach(schoolName => {
+                            if (!schools[schoolName]) return;
+                            const disciplines = schools[schoolName];
+                            const liveCount = disciplines.filter(d => d.status === 'live').length;
 
-                            const courseCount = d.courses.length;
-                            const courseLabel = courseCount > 0
-                                ? `<span class="card-courses">${courseCount} course${courseCount !== 1 ? 's' : ''}</span>`
-                                : '';
+                            const card = document.createElement('div');
+                            card.className = 'school-card';
+                            card.setAttribute('data-school', schoolName);
+                            card.onclick = () => showSchoolDetail(schoolName, disciplines);
 
-                            a.innerHTML = `
-                                <span class="card-icon">${d.icon}</span>
-                                <span class="card-title">${d.title}</span>
-                                <span class="card-desc">${d.description}</span>
-                                ${courseLabel}
+                            const meta = schoolMeta[schoolName] || { icon: '📁', desc: '' };
+
+                            card.innerHTML = `
+                                <div class="school-header">
+                                    <span class="school-icon">${meta.icon}</span>
+                                    <span class="school-title">${schoolName}</span>
+                                </div>
+                                <p class="school-desc">${meta.desc}</p>
+                                <span class="school-count">${liveCount} curricul${liveCount !== 1 ? 'a' : 'um'}</span>
                             `;
-                            grid.appendChild(a);
+                            grid.appendChild(card);
                         });
                     })
                     .catch(() => {
-                        document.getElementById('disciplineGrid').innerHTML =
+                        document.getElementById('schoolGrid').innerHTML =
                             '<p style="color: var(--muted); text-align: center; grid-column: 1/-1;">Curriculum index unavailable. Please try again later.</p>';
                     });
                 </script>

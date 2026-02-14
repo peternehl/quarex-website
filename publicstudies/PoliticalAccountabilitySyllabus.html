@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political Accountability & Fact-Checking | Public Studies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --line: #30363d;
+            --text: #e6edf3;
+            --muted: #8b949e;
+            --accent: #f97316;
+            --accent-soft: rgba(249, 115, 22, 0.1);
+            --brand: #58a6ff;
+            --radius: 8px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Source Sans Pro', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 0;
+        }
+        a { color: var(--brand); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Header */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            padding: 16px 24px;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--text);
+            font-weight: 700;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--brand); }
+        .nav-back { font-size: 0.95rem; }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 60px 24px 48px;
+            border-bottom: 1px solid var(--line);
+        }
+        .hero-icon { font-size: 3.5rem; margin-bottom: 16px; }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.4rem;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        .hero-subtitle {
+            color: var(--muted);
+            font-size: 1.15rem;
+            max-width: 700px;
+            margin: 0 auto 20px;
+        }
+        .hero-meta {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+        .hero-meta span { display: flex; align-items: center; gap: 6px; }
+
+        /* Main */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 48px;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--accent);
+        }
+        .section-number {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 700;
+            font-size: 0.85rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: var(--text);
+        }
+
+        /* Course Cards */
+        .course-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course-header {
+            padding: 20px 24px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+        .course-header:hover { background: var(--accent-soft); }
+        .course-title-wrap { flex: 1; }
+        .course-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .course-meta {
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        .course-toggle {
+            color: var(--muted);
+            font-size: 1.2rem;
+            transition: transform 0.2s;
+        }
+        .course-card.open .course-toggle { transform: rotate(180deg); }
+        .course-chapters {
+            display: none;
+            border-top: 1px solid var(--line);
+            padding: 16px 24px;
+            background: rgba(0,0,0,0.2);
+        }
+        .course-card.open .course-chapters { display: block; }
+        .chapter-list { list-style: none; }
+        .chapter-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-number {
+            color: var(--accent);
+            font-weight: 600;
+            margin-right: 8px;
+        }
+        .quarex-link {
+            display: inline-block;
+            margin-top: 16px;
+            padding: 10px 20px;
+            background: var(--accent);
+            color: #fff;
+            border-radius: var(--radius);
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+        .quarex-link:hover { opacity: 0.9; text-decoration: none; }
+
+        /* Footer */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .footer-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .footer-logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 16px;
+            opacity: 0.85;
+            filter: drop-shadow(0 0 8px rgba(88, 166, 255, 0.3));
+        }
+        .footer-logo:hover { opacity: 1; }
+        .footer-text {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+        .footer-text a { color: var(--brand); }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero { padding: 40px 20px 32px; }
+            .course-header { padding: 16px; }
+            .course-chapters { padding: 12px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/publicstudies/" class="site-logo">Public Studies</a>
+            <a href="/publicstudies/" class="nav-back">&larr; All Schools</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-icon">&#128269;</div>
+        <h1>Political Accountability & Fact-Checking</h1>
+        <p class="hero-subtitle">
+            Lies, advertising, revisionism, and fact-checking skills. Learn to separate truth from manipulation in political discourse.
+        </p>
+        <div class="hero-meta">
+            <span>&#128218; 8 courses</span>
+            <span>&#128209; 85 chapters</span>
+            <span>&#127891; Political Science</span>
+        </div>
+    </section>
+
+    <main>
+        <!-- Section 1: Critical Thinking Foundations -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">I</span>
+                <h2 class="section-title">Critical Thinking Foundations</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Foundations of Critical Thinking</div>
+                        <div class="course-meta">8 chapters &bull; The skills to see through manipulation</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> How to Spot a Bad Argument</li>
+                        <li><span class="chapter-number">2.</span> Why We Fool Ourselves</li>
+                        <li><span class="chapter-number">3.</span> Evaluating Evidence</li>
+                        <li><span class="chapter-number">4.</span> The Art of Asking Questions</li>
+                        <li><span class="chapter-number">5.</span> Numbers Can Lie</li>
+                        <li><span class="chapter-number">6.</span> Media Literacy Essentials</li>
+                        <li><span class="chapter-number">7.</span> Separating Correlation from Causation</li>
+                        <li><span class="chapter-number">8.</span> Thinking About Thinking</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/ideological/critical-thinking/foundations-of-critical-thinking/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2: Political Lies & Fact-Checking -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">II</span>
+                <h2 class="section-title">Political Lies & Fact-Checking</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Trump's Lies: Then and Now</div>
+                        <div class="course-meta">11 chapters &bull; From business exaggerations to the Big Lie</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> The Business Years: Building a Brand on Exaggeration</li>
+                        <li><span class="chapter-number">2.</span> 2011-2016: Birtherism and the Rise of Political Lying</li>
+                        <li><span class="chapter-number">3.</span> First Term 2017-2018: Establishing the Pattern</li>
+                        <li><span class="chapter-number">4.</span> First Term 2019-2020: Pre-Pandemic Falsehoods</li>
+                        <li><span class="chapter-number">5.</span> COVID-19: A Pandemic of Misinformation</li>
+                        <li><span class="chapter-number">6.</span> The Big Lie: 2020 Election Denial</li>
+                        <li><span class="chapter-number">7.</span> 2021-2024: Exile, Indictments, and Continued Falsehoods</li>
+                        <li><span class="chapter-number">8.</span> Second Term 2025: The Lies Continue</li>
+                        <li><span class="chapter-number">9.</span> The Repetition Strategy: Why the Same Lies Persist</li>
+                        <li><span class="chapter-number">10.</span> Consequences: When Lies Cause Real Harm</li>
+                        <li><span class="chapter-number">11.</span> Why Do People Believe? The Psychology of Political Lying</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trumps-lies-then-and-now/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Political Advertising: Finding the Facts</div>
+                        <div class="course-meta">10 chapters &bull; Deception techniques and media literacy</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> The Evolution of Political Advertising</li>
+                        <li><span class="chapter-number">2.</span> Anatomy of a Political Ad</li>
+                        <li><span class="chapter-number">3.</span> Common Deception Techniques</li>
+                        <li><span class="chapter-number">4.</span> Fact-Checking Political Claims</li>
+                        <li><span class="chapter-number">5.</span> Digital and Social Media Advertising</li>
+                        <li><span class="chapter-number">6.</span> The Money Behind Political Ads</li>
+                        <li><span class="chapter-number">7.</span> Legal Rules and Their Loopholes</li>
+                        <li><span class="chapter-number">8.</span> Media Literacy for Voters</li>
+                        <li><span class="chapter-number">9.</span> International Perspectives</li>
+                        <li><span class="chapter-number">10.</span> The Future of Political Advertising</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/political-advertising-finding-the-facts/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Historical Revisionism -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">III</span>
+                <h2 class="section-title">Historical Revisionism</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">How History Gets Rewritten: The Revisionism Playbook</div>
+                        <div class="course-meta">9 chapters &bull; Tactics, infrastructure, and psychology of revisionism</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> What Is Revisionism?</li>
+                        <li><span class="chapter-number">2.</span> The Revisionist Playbook</li>
+                        <li><span class="chapter-number">3.</span> The Infrastructure of Revisionism</li>
+                        <li><span class="chapter-number">4.</span> Long-Game Tactics</li>
+                        <li><span class="chapter-number">5.</span> Who Benefits?</li>
+                        <li><span class="chapter-number">6.</span> Psychology of Belief Persistence</li>
+                        <li><span class="chapter-number">7.</span> Digital-Age Revisionism</li>
+                        <li><span class="chapter-number">8.</span> The Primary Source Defense</li>
+                        <li><span class="chapter-number">9.</span> Engaging Revisionist Believers</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/how-history-gets-rewritten-the-revisionism-playbook/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">United States Civil War Revisionism</div>
+                        <div class="course-meta">9 chapters &bull; The Lost Cause myth and its modern echoes</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> The Lost Cause: Origins of Civil War Revisionism</li>
+                        <li><span class="chapter-number">2.</span> States' Rights vs. Slavery: What the Documents Say</li>
+                        <li><span class="chapter-number">3.</span> Textbook Wars: How School Curricula Shaped Memory</li>
+                        <li><span class="chapter-number">4.</span> Civil Rights Movement: The Sanitized Version</li>
+                        <li><span class="chapter-number">5.</span> The 'Both Sides' Framing</li>
+                        <li><span class="chapter-number">6.</span> Modern Revisionist Movements</li>
+                        <li><span class="chapter-number">7.</span> The Documentary Record</li>
+                        <li><span class="chapter-number">8.</span> Why Revisionism Persists</li>
+                        <li><span class="chapter-number">9.</span> Countering Revisionism with Evidence</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/fact-vs-fiction/historical-revisionism/united-states-civil-war-revisionism/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Investigating the Record -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">IV</span>
+                <h2 class="section-title">Investigating the Record</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">Trump and Epstein: A History</div>
+                        <div class="course-meta">17 chapters &bull; Separating fact from fiction in a high-profile case</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Why This Topic Attracts Misinformation</li>
+                        <li><span class="chapter-number">2.</span> Jeffrey Epstein in Brief</li>
+                        <li><span class="chapter-number">3.</span> Donald Trump in Brief</li>
+                        <li><span class="chapter-number">4.</span> Primary Sources and Record Types</li>
+                        <li><span class="chapter-number">5.</span> Early Social Connections (1980s-1990s)</li>
+                        <li><span class="chapter-number">6.</span> Mar-a-Lago and Palm Beach</li>
+                        <li><span class="chapter-number">7.</span> Public Statements and Quotes</li>
+                        <li><span class="chapter-number">8.</span> The Falling Out</li>
+                        <li><span class="chapter-number">9.</span> Legal Proceedings and Depositions</li>
+                        <li><span class="chapter-number">10.</span> The Acosta Connection</li>
+                        <li><span class="chapter-number">11.</span> 2019 Arrest and Aftermath</li>
+                        <li><span class="chapter-number">12.</span> Document Releases and Revelations</li>
+                        <li><span class="chapter-number">13.</span> Media Ecosystems: How Narratives Are Built</li>
+                        <li><span class="chapter-number">14.</span> Conspiracy Theories and 'Epstein Files' Claims</li>
+                        <li><span class="chapter-number">15.</span> Evidence Evaluation: A Practical Method</li>
+                        <li><span class="chapter-number">16.</span> Separating Fact from Fiction</li>
+                        <li><span class="chapter-number">17.</span> What Remains Unknown, and Why</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/fact-vs-fiction/political-accountability/trump-and-epstein-a-history/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5: Wedge Issue Politics -->
+        <div class="section">
+            <div class="section-header">
+                <span class="section-number">V</span>
+                <h2 class="section-title">Wedge Issue Politics</h2>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">How Abortion Became a Political Wedge</div>
+                        <div class="course-meta">9 chapters &bull; How parties weaponized a complex issue</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> Before the Partisan Divide</li>
+                        <li><span class="chapter-number">2.</span> How the Parties Chose Sides</li>
+                        <li><span class="chapter-number">3.</span> The Courts as Battleground</li>
+                        <li><span class="chapter-number">4.</span> Single-Issue Voting and Electoral Impact</li>
+                        <li><span class="chapter-number">5.</span> Money, Mobilization, and Activist Networks</li>
+                        <li><span class="chapter-number">6.</span> The War of Words: Framing and Messaging</li>
+                        <li><span class="chapter-number">7.</span> Media Coverage and Public Opinion</li>
+                        <li><span class="chapter-number">8.</span> How Other Democracies Handle Abortion Politics</li>
+                        <li><span class="chapter-number">9.</span> The Polarization Feedback Loop</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="course-title-wrap">
+                        <div class="course-title">The Immigration Wedge: How a Policy Became a Political Weapon</div>
+                        <div class="course-meta">12 chapters &bull; Manufacturing crisis for electoral gain</div>
+                    </div>
+                    <span class="course-toggle">&#9662;</span>
+                </div>
+                <div class="course-chapters">
+                    <ol class="chapter-list">
+                        <li><span class="chapter-number">1.</span> The Wedge Issue Playbook: How Politics Manufactures Division</li>
+                        <li><span class="chapter-number">2.</span> Proposition 187: The Template Is Created</li>
+                        <li><span class="chapter-number">3.</span> From Economic to Cultural: Changing the Frame</li>
+                        <li><span class="chapter-number">4.</span> Talk Radio and Fox News: The Amplification Machine</li>
+                        <li><span class="chapter-number">5.</span> The Caravan: Manufacturing Crisis on Cue</li>
+                        <li><span class="chapter-number">6.</span> Election Cycles: Immigration on Demand</li>
+                        <li><span class="chapter-number">7.</span> The Replacement Theory: From Fringe to Mainstream</li>
+                        <li><span class="chapter-number">8.</span> Why the Problem Is Never Solved</li>
+                        <li><span class="chapter-number">9.</span> Comparing Playbooks: Immigration and Abortion</li>
+                        <li><span class="chapter-number">10.</span> The Real Costs: What Wedge Politics Does to Policy</li>
+                        <li><span class="chapter-number">11.</span> Resistance: How Immigrants and Allies Fight Back</li>
+                        <li><span class="chapter-number">12.</span> Breaking the Cycle: Can Immigration Escape Wedge Politics?</li>
+                    </ol>
+                    <a href="https://quarex.org/libraries/pe/historical-narratives/us-latin-america-relations/the-immigration-wedge-how-a-policy-became-a-political-weapon/" class="quarex-link" target="_blank">Study on Quarex &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="https://quarex.org" target="_blank">
+                <img src="https://quarex.org/images/quarex-logo.png" alt="Powered by Quarex" class="footer-logo">
+            </a>
+            <p class="footer-text">
+                All content sourced from <a href="https://quarex.org/libraries/" target="_blank">Quarex Knowledge Libraries</a><br>
+                Free forever. No login required.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

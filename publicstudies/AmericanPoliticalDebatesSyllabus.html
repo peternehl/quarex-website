@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Political Debates Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 8-course syllabus on American Political Debates. Free, open curriculum covering immigration, climate, criminal justice, free speech, equality, and economic systems. 111 chapters examining the issues that divide America.">
+    <meta name="keywords" content="political debates syllabus, immigration policy, climate debate, criminal justice, free speech, civil rights, economic systems, American politics, free course, open education">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/AmericanPoliticalDebatesSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/AmericanPoliticalDebatesSyllabus.html">
+    <meta property="og:title" content="American Political Debates Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 8-course syllabus examining the contested issues that divide America. 111 chapters on immigration, climate, justice, and more.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="American Political Debates Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 8-course syllabus on American Political Debates. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #8b5cf6;
+            --accent-hover: #7c3aed;
+            --accent-soft: rgba(139, 92, 246, 0.08);
+            --accent-border: rgba(139, 92, 246, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>American Political Debates</em> Syllabus</h1>
+            <p class="syllabus-intro">The contested issues that divide America &mdash; examined from multiple perspectives with evidence and nuance. Eight courses covering immigration, climate change, criminal justice, free speech, civil rights, and economic systems. Understand what Americans actually disagree about and why.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">8</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">111</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">650</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- IMMIGRATION -->
+            <div class="section-divider">
+                <h2 class="section-label">Immigration</h2>
+                <p class="section-desc">America's oldest and most enduring debate &mdash; who belongs, who gets to come, and what we owe each other.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">Nation of Immigrants, Land of Walls</span>
+                    <span class="course-chapters">22 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Before There Were Borders (Pre-1882)</li>
+                        <li>The First Walls—Chinese Exclusion (1882-1943)</li>
+                        <li>Ellis Island and the 'Good' Immigrants (1892-1924)</li>
+                        <li>Closing the Golden Door (1924-1965)</li>
+                        <li>The Bracero Era and Operation Wetback (1942-1964)</li>
+                        <li>The 1965 Revolution (1965-1980)</li>
+                        <li>Refugees and Asylum—Who Deserves Protection?</li>
+                        <li>The Invention of 'Illegal' Immigration</li>
+                        <li>Reagan's Amnesty and Its Aftermath (1986)</li>
+                        <li>Border Militarization (1990s-Present)</li>
+                        <li>ICE—America's Interior Enforcement Agency</li>
+                        <li>The Undocumented Population—Who Are They?</li>
+                        <li>The DREAMers and DACA</li>
+                        <li>The Economic Debate</li>
+                        <li>The Cultural Debate</li>
+                        <li>The Security Debate</li>
+                        <li>Family Separation and Detention (2018-Present)</li>
+                        <li>Trump's First Term—The Hardline Experiment (2017-2021)</li>
+                        <li>The Biden Interlude (2021-2025)</li>
+                        <li>Trump's Second Term—Mass Deportation (2025-Present)</li>
+                        <li>The Legal Immigration Backlog</li>
+                        <li>What Would Real Reform Look Like?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/immigration-debates/nation-of-immigrants-land-of-walls/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">How Trump Subverted and Weaponized Immigration Reform</span>
+                    <span class="course-chapters">15 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Immigration Reform Before Trump: A Bipartisan History</li>
+                        <li>The 2016 Campaign: Immigration as a Weapon</li>
+                        <li>The Muslim Ban: Setting the Tone</li>
+                        <li>Family Separation: Cruelty as Policy</li>
+                        <li>DACA and the Dreamers: Hostages to Politics</li>
+                        <li>The Wall: Symbol Over Substance</li>
+                        <li>Asylum Under Attack</li>
+                        <li>The Invisible Crackdown: Interior Enforcement</li>
+                        <li>The Rhetoric of Invasion</li>
+                        <li>Killing Bipartisan Reform</li>
+                        <li>COVID-19: Exploiting a Crisis</li>
+                        <li>Killing the Deal: Trump Torpedoes the 2024 Border Bill</li>
+                        <li>The Second Term Agenda in Action</li>
+                        <li>ICE as a Tool of Dominance: 2025-2026</li>
+                        <li>What Immigration Reform Could Have Been</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/immigration-debates/how-trump-subverted-and-weaponized-immigration-reform/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- CLIMATE & ENVIRONMENT -->
+            <div class="section-divider">
+                <h2 class="section-label">Climate & Environment</h2>
+                <p class="section-desc">The science, the politics, and the policies &mdash; what we know, what we don't, and why we can't agree on what to do.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Climate Change</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Do We Actually Know?</li>
+                        <li>How Urgent Is the Crisis?</li>
+                        <li>Who Should Pay and How Much?</li>
+                        <li>Carbon Pricing: Solution or Snake Oil?</li>
+                        <li>Nuclear Power: Risks & Rewards</li>
+                        <li>Renewables: Promise and Limits</li>
+                        <li>Should We Engineer the Climate?</li>
+                        <li>Individual Action vs. System Change</li>
+                        <li>The Politics of Climate</li>
+                        <li>Developing World Dilemmas</li>
+                        <li>Adaptation vs. Mitigation</li>
+                        <li>Media, Messaging, and Trust</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/climate-debates/the-climate-question/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- CRIMINAL JUSTICE -->
+            <div class="section-divider">
+                <h2 class="section-label">Criminal Justice & Policing</h2>
+                <p class="section-desc">Race, rights, and reform &mdash; the debates over policing, prosecution, and constitutional protections.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Racial Bias in U.S. Law and Policing</span>
+                    <span class="course-chapters">9 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Historical Roots of Racial Disparities</li>
+                        <li>What the Data Shows—and What It Doesn't</li>
+                        <li>Competing Explanations for Disparities</li>
+                        <li>Policing Practices Under Scrutiny</li>
+                        <li>Courts, Prosecutors, and Sentencing</li>
+                        <li>The Debate Over Police Use of Force</li>
+                        <li>Reform Proposals Across the Spectrum</li>
+                        <li>Lived Experiences and Perception Gaps</li>
+                        <li>What Other Countries Do Differently</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/criminal-justice-debates/racial-bias-in-u-s-law-and-policing/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">The Fourth Amendment and You!</span>
+                    <span class="course-chapters">8 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Does It Actually Say?</li>
+                        <li>Your Body and Physical Space</li>
+                        <li>Your Car and Travel</li>
+                        <li>Your Digital Life</li>
+                        <li>The Exceptions</li>
+                        <li>Remedies When Your Rights Are Violated</li>
+                        <li>Contested Questions</li>
+                        <li>Know Your Rights</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/criminal-justice-debates/the-fourth-amendment-and-you/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- FREE SPEECH -->
+            <div class="section-divider">
+                <h2 class="section-label">Free Speech</h2>
+                <p class="section-desc">Where does free expression end and harmful speech begin? America's unique approach and its critics.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Free Speech versus Hate Speech</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Does Free Speech Matter?</li>
+                        <li>What Is Hate Speech, and Who Decides?</li>
+                        <li>The First Amendment: America's Exceptional Approach</li>
+                        <li>How Other Democracies Handle Hate Speech</li>
+                        <li>Does Hateful Speech Cause Real Harm?</li>
+                        <li>Campus Speech Battles</li>
+                        <li>Social Media: Private Platforms, Public Squares?</li>
+                        <li>The Slippery Slope Debate</li>
+                        <li>Marginalized Groups: Split Perspectives</li>
+                        <li>Finding Workable Boundaries</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/free-speech-debates/free-speech-versus-hate-speech/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- EQUALITY & CIVIL RIGHTS -->
+            <div class="section-divider">
+                <h2 class="section-label">Equality & Civil Rights</h2>
+                <p class="section-desc">What does equality mean? Affirmative action, systemic racism, DEI, and the ongoing struggle for civil rights.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Social Equality & Civil Rights</span>
+                    <span class="course-chapters">12 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Do We Mean by Equality?</li>
+                        <li>The Evolution of Civil Rights in America</li>
+                        <li>Affirmative Action: Remedy or Reverse Discrimination?</li>
+                        <li>Systemic Racism: Concept and Controversy</li>
+                        <li>Gender Equality: Progress and Persistent Gaps</li>
+                        <li>LGBTQ+ Rights: Rapid Change and Ongoing Battles</li>
+                        <li>Religious Freedom vs. Anti-Discrimination</li>
+                        <li>Disability Rights: The Overlooked Movement</li>
+                        <li>Immigration, Citizenship, and Belonging</li>
+                        <li>DEI Programs: Promise and Backlash</li>
+                        <li>Economic Inequality and Civil Rights</li>
+                        <li>Measuring Progress: How Do We Know If We're Succeeding?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/contested-issues/social-equality-debates/social-equality-and-civil-rights/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- ECONOMIC SYSTEMS -->
+            <div class="section-divider">
+                <h2 class="section-label">Economic Systems</h2>
+                <p class="section-desc">Capitalism, socialism, and everything in between &mdash; how different systems answer the fundamental economic questions.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Economic Systems Compared</span>
+                    <span class="course-chapters">23 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>What Is an Economic System?</li>
+                        <li>Pre-Capitalist Economic Systems</li>
+                        <li>Classical Capitalism</li>
+                        <li>Critiques of Capitalism</li>
+                        <li>Socialism: Core Principles</li>
+                        <li>Communism: Theory and Vision</li>
+                        <li>Central Planning in Practice</li>
+                        <li>Mixed Economies and the Welfare State</li>
+                        <li>Varieties of Capitalism</li>
+                        <li>Market Socialism and Third Ways</li>
+                        <li>Libertarianism and Anarcho-Capitalism</li>
+                        <li>Anarchism and Anti-State Socialism</li>
+                        <li>Property Rights and Ownership</li>
+                        <li>Labor, Wages, and Work</li>
+                        <li>Money, Banking, and Finance</li>
+                        <li>Trade and Globalization</li>
+                        <li>Inequality and Distribution</li>
+                        <li>Economic Growth and Development</li>
+                        <li>Environment and Sustainability</li>
+                        <li>Technology, Automation, and the Future</li>
+                        <li>Measuring Economic Success</li>
+                        <li>Real-World Transitions and Experiments</li>
+                        <li>The Ongoing Debate</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/ideological/economic-theories/economic-systems-compared/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">All content is free, open, and self-hostable.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Content licensed under CC BY-SA 4.0.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

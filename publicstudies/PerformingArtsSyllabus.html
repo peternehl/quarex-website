@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performing Arts & Theatre Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 10-course Performing Arts syllabus. Free, open curriculum covering theatre history, acting, directing, stagecraft, musical theatre, opera, dance, and performance art. 100 chapters of university-level content.">
+    <meta name="keywords" content="performing arts syllabus, theatre history, acting techniques, directing, stagecraft, musical theatre, opera, dance, performance art, free theatre course, open education">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/PerformingArtsSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/PerformingArtsSyllabus.html">
+    <meta property="og:title" content="Performing Arts & Theatre Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 10-course Performing Arts syllabus. 100 chapters of free, university-level content on theatre, acting, directing, and more.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Performing Arts & Theatre Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 10-course Performing Arts syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #f43f5e;
+            --accent-hover: #e11d48;
+            --accent-soft: rgba(244, 63, 94, 0.08);
+            --accent-border: rgba(244, 63, 94, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>Performing Arts & Theatre</em> Syllabus</h1>
+            <p class="syllabus-intro">A complete, free survey of live performance &mdash; from ancient Greek tragedy to contemporary performance art. Ten courses covering theatre history around the world, the crafts of acting, directing, and playwriting, technical production, and the musical forms of Broadway, opera, and dance.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">10</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">100</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">600</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- HISTORY AND TRADITIONS -->
+            <div class="section-divider">
+                <h2 class="section-label">History and Traditions</h2>
+                <p class="section-desc">How theatre developed across cultures &mdash; from Dionysian festivals to Noh, from Shakespeare to contemporary global performance.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">History of Western Theatre (Ancient Greece to Present)</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Greek Theatre: Tragedy and Comedy</li>
+                        <li>Roman Theatre and Performance</li>
+                        <li>Medieval Mystery and Morality Plays</li>
+                        <li>Renaissance Theatre: England and Europe</li>
+                        <li>Shakespeare and Elizabethan Drama</li>
+                        <li>Restoration and 18th Century Theatre</li>
+                        <li>Romanticism and Melodrama</li>
+                        <li>Realism and Naturalism</li>
+                        <li>Modernism and Experimental Theatre</li>
+                        <li>Contemporary Theatre Movements</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/history-of-western-theatre-ancient-greece-to-present/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">World Theatre Traditions (Non-Western Performance)</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Sanskrit Drama and Indian Theatre</li>
+                        <li>Noh and Kabuki: Japanese Theatre</li>
+                        <li>Beijing Opera and Chinese Theatre</li>
+                        <li>Indonesian Wayang (Shadow Puppetry)</li>
+                        <li>African Performance Traditions</li>
+                        <li>Latin American Theatre</li>
+                        <li>Middle Eastern Theatre Forms</li>
+                        <li>Indigenous Performance Practices</li>
+                        <li>Ritual and Ceremonial Performance</li>
+                        <li>Intercultural Theatre</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/world-theatre-traditions-non-western-performance/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- CREATING THEATRE -->
+            <div class="section-divider">
+                <h2 class="section-label">Creating Theatre</h2>
+                <p class="section-desc">The core artistic disciplines &mdash; how actors perform, directors shape productions, and playwrights write for the stage.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Acting Techniques and Performance Theory</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Stanislavski System and Method Acting</li>
+                        <li>Meisner Technique</li>
+                        <li>Classical Acting and Text Analysis</li>
+                        <li>Physical Theatre and Movement</li>
+                        <li>Voice and Speech for Actors</li>
+                        <li>Improvisation Techniques</li>
+                        <li>Character Development</li>
+                        <li>Scene Study and Rehearsal</li>
+                        <li>Camera Acting vs Stage Acting</li>
+                        <li>Contemporary Performance Practices</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/acting-techniques-and-performance-theory/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Directing for Stage and Screen</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Director's Vision and Concept</li>
+                        <li>Script Analysis for Directors</li>
+                        <li>Casting and Working with Actors</li>
+                        <li>Blocking and Stage Composition</li>
+                        <li>Rehearsal Techniques and Process</li>
+                        <li>Collaborating with Designers</li>
+                        <li>Film Directing Fundamentals</li>
+                        <li>Camera Placement and Movement</li>
+                        <li>Editing and Post-Production</li>
+                        <li>Contemporary Directing Practices</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/directing-for-stage-and-screen/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Playwriting and Screenwriting: Craft and Analysis</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Dramatic Structure and Plot</li>
+                        <li>Character Development in Drama</li>
+                        <li>Dialogue and Subtext</li>
+                        <li>Theme and Meaning</li>
+                        <li>Genre in Playwriting</li>
+                        <li>Screenplay Format and Structure</li>
+                        <li>Scene Construction</li>
+                        <li>Adaptation: Page to Stage/Screen</li>
+                        <li>Revision and Dramaturgy</li>
+                        <li>New Play Development Process</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/playwriting-and-screenwriting-craft-and-analysis/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- PRODUCTION AND DESIGN -->
+            <div class="section-divider">
+                <h2 class="section-label">Production and Design</h2>
+                <p class="section-desc">Behind the scenes &mdash; how sets, lights, costumes, and sound bring productions to life.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Stagecraft and Technical Theatre Production</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Stage Management Fundamentals</li>
+                        <li>Set Design and Construction</li>
+                        <li>Lighting Design and Technology</li>
+                        <li>Sound Design for Theatre</li>
+                        <li>Costume Design and Construction</li>
+                        <li>Props and Scenic Painting</li>
+                        <li>Rigging and Stage Safety</li>
+                        <li>Technical Direction and Production Management</li>
+                        <li>Theatre Architecture and Spaces</li>
+                        <li>Production Scheduling and Budgeting</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/stagecraft-and-technical-theatre-production/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- MUSICAL FORMS -->
+            <div class="section-divider">
+                <h2 class="section-label">Musical Forms</h2>
+                <p class="section-desc">Performance with music &mdash; from Gilbert and Sullivan to Hamilton, from Mozart to contemporary opera.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Musical Theatre: History, Theory, and Practice</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Origins: Operetta and Vaudeville</li>
+                        <li>Golden Age Musicals (1940s&ndash;1960s)</li>
+                        <li>Concept Musicals and Sondheim</li>
+                        <li>Rock Musicals and Contemporary Forms</li>
+                        <li>Musical Theatre Acting and Performance</li>
+                        <li>Music Direction and Vocal Coaching</li>
+                        <li>Choreography for Musical Theatre</li>
+                        <li>Book, Music, and Lyrics Integration</li>
+                        <li>Production and Design for Musicals</li>
+                        <li>Contemporary Musical Theatre Trends</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/musical-theatre-history-theory-and-practice/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Opera: History, Analysis, and Production</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Baroque Opera and Early Forms</li>
+                        <li>Mozart and Classical Opera</li>
+                        <li>Italian Bel Canto Tradition</li>
+                        <li>Wagner and German Romantic Opera</li>
+                        <li>Verdi and Italian Opera</li>
+                        <li>French Opera Traditions</li>
+                        <li>20th Century Opera</li>
+                        <li>Contemporary Opera and New Works</li>
+                        <li>Opera Production and Staging</li>
+                        <li>Vocal Technique for Opera</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/opera-history-analysis-and-production/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- MOVEMENT AND BODY -->
+            <div class="section-divider">
+                <h2 class="section-label">Movement and Body</h2>
+                <p class="section-desc">Performance through physical presence &mdash; from classical ballet to hip-hop, from Dada happenings to Marina Abramović.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">Dance History, Theory, and Choreography</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Classical Ballet Technique and History</li>
+                        <li>Modern Dance Pioneers</li>
+                        <li>Contemporary Dance Practices</li>
+                        <li>Jazz Dance Evolution</li>
+                        <li>Hip-Hop and Street Dance</li>
+                        <li>World Dance Traditions</li>
+                        <li>Choreographic Process and Composition</li>
+                        <li>Dance Notation and Documentation</li>
+                        <li>Dance and Technology</li>
+                        <li>Somatic Practices and Dance Science</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/dance-history-theory-and-choreography/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Performance Art: History, Theory, and Practice</span>
+                    <span class="course-chapters">10 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Origins in Dada and Futurism</li>
+                        <li>Fluxus and Happenings</li>
+                        <li>Body Art and Endurance Performance</li>
+                        <li>Feminist Performance Art</li>
+                        <li>Identity and Performance</li>
+                        <li>Participatory and Interactive Performance</li>
+                        <li>Performance and Technology</li>
+                        <li>Durational Performance</li>
+                        <li>Documentation and Ephemera</li>
+                        <li>Contemporary Performance Art Practices</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/k/the-arts/performing-arts/performance-art-history-theory-and-practice/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">All content is free, open, and self-hostable.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Content licensed under CC BY-SA 4.0.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

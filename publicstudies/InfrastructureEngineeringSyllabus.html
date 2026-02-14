@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructure & Engineering Syllabus | Public Studies</title>
+    <meta name="description" content="Complete 15-course Infrastructure & Engineering syllabus. Free, open curriculum covering power grids, water systems, data centers, and off-grid resilience. 119 chapters of practical engineering knowledge.">
+    <meta name="keywords" content="infrastructure syllabus, power grid course, water systems, data centers, electrical engineering, civil engineering, free engineering course, open education">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/InfrastructureEngineeringSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/InfrastructureEngineeringSyllabus.html">
+    <meta property="og:title" content="Infrastructure & Engineering Syllabus | Public Studies">
+    <meta property="og:description" content="Complete 15-course Infrastructure & Engineering syllabus. 119 chapters on power grids, water systems, data centers, and off-grid resilience.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Infrastructure & Engineering Syllabus | Public Studies">
+    <meta name="twitter:description" content="Complete 15-course Infrastructure & Engineering syllabus. Free and open to everyone.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+            --accent-soft: rgba(59, 130, 246, 0.08);
+            --accent-border: rgba(59, 130, 246, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* -- Header -- */
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        /* -- Syllabus Hero -- */
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* -- Section Headers -- */
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        /* -- Course Cards -- */
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        /* -- Footer -- */
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        /* -- Responsive -- */
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">All Disciplines</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1><em>Infrastructure & Engineering</em> Syllabus</h1>
+            <p class="syllabus-intro">The physical systems that keep civilization running &mdash; from power generation and transmission to water treatment, from hyperscale data centers to off-grid resilience. Fifteen courses covering how we generate, move, store, and consume the essential resources of modern life.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">15</span><span class="stat-label">Courses</span></div>
+                <div class="stat"><span class="stat-number">119</span><span class="stat-label">Chapters</span></div>
+                <div class="stat"><span class="stat-number">700</span><span class="stat-label">Topics</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- ELECTRICAL POWER GRID -->
+            <div class="section-divider">
+                <h2 class="section-label">Electrical Power Grid</h2>
+                <p class="section-desc">From generation to your outlet &mdash; how electricity is created, transmitted at high voltage, and distributed to every building.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">Power Generation Systems</span>
+                    <span class="course-chapters">7 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Fundamentals of Electricity and Energy Conversion</li>
+                        <li>Fossil Fuel Power Plants</li>
+                        <li>Nuclear Power Generation</li>
+                        <li>Renewable Power Systems</li>
+                        <li>Emerging Generation Technologies</li>
+                        <li>Grid Integration of Diverse Generation Sources</li>
+                        <li>Future of Global Power Generation</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/power-generation-systems/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">High-Voltage Transmission Systems</span>
+                    <span class="course-chapters">7 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Principles of High-Voltage Transmission</li>
+                        <li>Transmission Hardware and Engineering</li>
+                        <li>Grid Interconnection and Regional Coordination</li>
+                        <li>Reliability, Resilience, and Failure Modes</li>
+                        <li>Transmission Planning and Expansion</li>
+                        <li>Environmental and Societal Impacts</li>
+                        <li>Future of Long-Distance Power Movement</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/high-voltage-transmission-systems/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Distribution Networks and Local Power Delivery</span>
+                    <span class="course-chapters">7 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Architecture of Distribution Networks</li>
+                        <li>Local Grid Components</li>
+                        <li>Distributed Energy Resources</li>
+                        <li>Reliability, Outages, and Maintenance</li>
+                        <li>Urban Distribution Grid Challenges</li>
+                        <li>Customer-Side Power Systems</li>
+                        <li>The Future of Distribution Grids</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/distribution-networks-and-local-power-delivery/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Grid Stability, Control and Reliability Engineering</span>
+                    <span class="course-chapters">7 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Frequency and Voltage Fundamentals</li>
+                        <li>Control Rooms and System Operations</li>
+                        <li>Stability Threats and Disturbances</li>
+                        <li>Load Balancing and Dispatch</li>
+                        <li>Failure Modes and Blackout Dynamics</li>
+                        <li>Energy Storage as a Stability Tool</li>
+                        <li>Future Stability Architectures</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/grid-stability-control-and-reliability-engineering/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Future Power Systems and Energy Transition</span>
+                    <span class="course-chapters">7 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Electrification of Everything</li>
+                        <li>Decentralization and Microgrids</li>
+                        <li>AI, Digital Twins and Predictive Energy Systems</li>
+                        <li>Climate Adaptation in Power Systems</li>
+                        <li>Economics, Policy and Global Inequality</li>
+                        <li>Hydrogen, Fusion and Next-Generation Technologies</li>
+                        <li>The Next Century of Electricity</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/civil-infrastructures/electrical-power-systems/future-power-systems-and-energy-transition/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- WATER INFRASTRUCTURE -->
+            <div class="section-divider">
+                <h2 class="section-label">Water Infrastructure</h2>
+                <p class="section-desc">How cities source, treat, and distribute the most essential resource &mdash; plus the technologies turning seawater into freshwater.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Municipal Water Systems</span>
+                    <span class="course-chapters">20 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Water Sources and Collection</li>
+                        <li>Water Treatment Processes</li>
+                        <li>Distribution Infrastructure</li>
+                        <li>Water Quality Standards</li>
+                        <li>Aging Infrastructure Challenges</li>
+                        <li>Lead Service Lines</li>
+                        <li>Water Metering and Billing</li>
+                        <li>Wastewater Collection</li>
+                        <li>Wastewater Treatment</li>
+                        <li>Water Recycling and Reuse</li>
+                        <li>Stormwater Management</li>
+                        <li>Water Conservation Programs</li>
+                        <li>Climate Change Impacts</li>
+                        <li>Desalination Technology</li>
+                        <li>Cybersecurity and System Control</li>
+                        <li>Emergency Preparedness</li>
+                        <li>Financing Water Infrastructure</li>
+                        <li>Water Equity and Access</li>
+                        <li>Smart Water Technology</li>
+                        <li>Future of Municipal Water</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/civil-infrastructures/water/municipal-water-systems/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Desalinization Strategies for the 21st Century</span>
+                    <span class="course-chapters">13 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>The Global Water Crisis</li>
+                        <li>How Desalination Works</li>
+                        <li>Reverse Osmosis Technology</li>
+                        <li>Thermal and Hybrid Methods</li>
+                        <li>Energy Requirements and Solutions</li>
+                        <li>Environmental Impacts and Mitigation</li>
+                        <li>Economics of Desalination</li>
+                        <li>Major Desalination Projects Worldwide</li>
+                        <li>Emerging Technologies</li>
+                        <li>Desalination for Agriculture</li>
+                        <li>Small-Scale and Portable Solutions</li>
+                        <li>Policy, Regulation, and Governance</li>
+                        <li>The Future of Desalination</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/civil-infrastructures/water/desalinization-strategies-for-the-21st-century/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- DATA CENTERS -->
+            <div class="section-divider">
+                <h2 class="section-label">Data Centers</h2>
+                <p class="section-desc">The physical backbone of the digital world &mdash; from hyperscale cloud facilities to edge nodes, power and cooling, and the geopolitics of data sovereignty.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Data Centers: Operational Purpose & Mission</span>
+                    <span class="course-chapters">6 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Enterprise Data Centers</li>
+                        <li>Colocation Facilities</li>
+                        <li>Public Cloud Facilities</li>
+                        <li>Edge & CDN Facilities</li>
+                        <li>AI / HPC / Research Facilities</li>
+                        <li>Disaster Recovery Facilities</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/digital-infrastructures/data-centers/operational-purpose-and-mission/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">Data Centers: Physical Systems</span>
+                    <span class="course-chapters">5 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Micro / Edge Facilities</li>
+                        <li>Small & Medium Facilities</li>
+                        <li>Large & Hyperscale Facilities</li>
+                        <li>Power Density & Cooling Envelopes</li>
+                        <li>Future Power Scaling Curves</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/digital-infrastructures/data-centers/physical-systems/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Data Centers: Power, Energy & Cooling Systems</span>
+                    <span class="course-chapters">6 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Grid Power & Utility Dependency</li>
+                        <li>Backup Power & Emergency Generation</li>
+                        <li>Renewable & Alternative Energy Integration</li>
+                        <li>Cooling Systems & Thermal Engineering</li>
+                        <li>Water Use, Scarcity & Environmental Load</li>
+                        <li>Energy Density, Load Curves & AI Power Shock</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/digital-infrastructures/data-centers/power-energy-and-cooling-systems/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">Data Centers: Geographic Role & Network Topology</span>
+                    <span class="course-chapters">5 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Core Backbone Facilities</li>
+                        <li>Regional Hubs</li>
+                        <li>Edge Nodes</li>
+                        <li>Latency vs Distance Physics</li>
+                        <li>Disaster Isolation Zones</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/digital-infrastructures/data-centers/geographic-role-and-network-topology/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">Data Centers: Workloads, Compute, Identity & Risk</span>
+                    <span class="course-chapters">6 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>General Compute & Web Platforms</li>
+                        <li>Financial, Trading & Transactional Systems</li>
+                        <li>AI Training, Inference & Model Infrastructure</li>
+                        <li>Government, Defense & National Systems</li>
+                        <li>Media, Streaming & Mass Communication</li>
+                        <li>Scientific, Medical & High-Performance Computing</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/digital-infrastructures/data-centers/workloads-compute-identity-and-risk/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">13</span>
+                    <span class="course-title">Data Centers: Availability & Failure Engineering</span>
+                    <span class="course-chapters">5 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Tier I–IV Models</li>
+                        <li>N+1 vs 2N vs Fault-Tolerant</li>
+                        <li>Maintenance vs Failure Modes</li>
+                        <li>Cascading Failure Risk</li>
+                        <li>SLAs vs Physical Reality</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/digital-infrastructures/data-centers/availability-and-failure-engineering/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">14</span>
+                    <span class="course-title">Data Centers: Ownership, Control & Sovereignty</span>
+                    <span class="course-chapters">5 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Private Ownership</li>
+                        <li>Public Cloud Ownership</li>
+                        <li>Foreign vs Domestic Control</li>
+                        <li>Jurisdictional Law Boundaries</li>
+                        <li>National Security Implications</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/digital-infrastructures/data-centers/ownership-control-and-sovereignty/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- OFF-GRID & RESILIENT SYSTEMS -->
+            <div class="section-divider">
+                <h2 class="section-label">Off-Grid & Resilient Systems</h2>
+                <p class="section-desc">Energy independence &mdash; solar, wind, batteries, and backup systems for when the grid isn't enough or isn't there.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">15</span>
+                    <span class="course-title">Off Grid Electrical</span>
+                    <span class="course-chapters">13 ch.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Why Go Off-Grid?</li>
+                        <li>Solar Power Fundamentals</li>
+                        <li>Wind Power Systems</li>
+                        <li>Micro-Hydro Power</li>
+                        <li>Geothermal and Ground-Source Systems</li>
+                        <li>Battery Storage Technologies</li>
+                        <li>Inverters and Power Conversion</li>
+                        <li>Backup Generators and Hybrid Systems</li>
+                        <li>Load Management and Efficiency</li>
+                        <li>System Design and Sizing</li>
+                        <li>Installation and Safety</li>
+                        <li>Monitoring and Maintenance</li>
+                        <li>Economics and Regulations</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/i/environmental-infrastructures/home-autonomy/off-grid-electrical/" target="_blank">Read this course on Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">All content is free, open, and self-hostable.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://knowableonline.org/" target="_blank">Knowable Online</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Content licensed under CC BY-SA 4.0.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
