@@ -15,7 +15,7 @@
     "slug": "feminism-and-equality",
     "name": "Feminism and Equality",
     "description": "Women's rights movements, gender equality debates, and feminist perspectives across history",
-    "bookCount": 11
+    "bookCount": 12
   },
   {
     "slug": "black-studies",
@@ -34,5 +34,17 @@
     "name": "Hispanic Cultures",
     "description": "Hispanic cultures and identity in America, plus contemporary issues, contributions to American culture, and civil rights",
     "bookCount": 60
+  },
+  {
+    "slug": "lgbtq-studies",
+    "name": "LGBTQ+ Studies",
+    "description": "Comprehensive curriculum covering LGBTQ+ history, identity, culture, health, law, and the ongoing fight for equality",
+    "bookCount": 24
+  },
+  {
+    "slug": "estudios-de-la-mujer",
+    "name": "Estudios de la Mujer",
+    "description": "Género, poder, historia y los movimientos que cambiaron el mundo. En español.",
+    "bookCount": 13
   }
 ]

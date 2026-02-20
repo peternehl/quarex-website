@@ -1,7 +1,21 @@
 {
-  "generated": "2026-02-08",
-  "count": 745,
+  "generated": "2026-02-18",
+  "count": 824,
   "books": [
+    {
+      "name": "¿Qué es el Feminismo?",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/que-es-el-feminismo",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 15
+    },
+    {
+      "name": "¿Qué Significa \"Hispano\"?",
+      "path": "pe/cultural-and-identity/hispanic-cultures/what-does-hispanic-mean-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
     {
       "name": "A Brief History of War",
       "path": "pe/historical-narratives/wars-and-conflicts/a-brief-history-of-war",
@@ -339,6 +353,13 @@
       "chapters": 10
     },
     {
+      "name": "Asexual, Aromantic, and Emerging Identities",
+      "path": "pe/cultural-and-identity/lgbtq-studies/asexual-aromantic-emerging-identities",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
+    },
+    {
       "name": "Asian Philosophy-Nagarjuna",
       "path": "k/philosophy/world-philosophies/asian-philosophy-nagarjuna",
       "library": "Philosophy",
@@ -507,6 +528,13 @@
       "chapters": 10
     },
     {
+      "name": "Bisexual, Pansexual, and Fluid Identities",
+      "path": "pe/cultural-and-identity/lgbtq-studies/bisexual-pansexual-fluid-identities",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 9
+    },
+    {
       "name": "Black Economic Life: Labor, Business, and Wealth",
       "path": "pe/cultural-and-identity/black-studies/black-economic-life-labor-business-and-wealth",
       "library": "Cultural And Identity",
@@ -556,6 +584,13 @@
       "chapters": 4
     },
     {
+      "name": "Bonds and Fixed Income",
+      "path": "pr/practical-knowledge/personal-finance/bonds-and-fixed-income",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
+    },
+    {
       "name": "Boricua: Puerto Rico and the Mainland",
       "path": "pe/historical-narratives/us-latin-america-relations/boricua-puerto-rico-and-the-mainland",
       "library": "Historical Narratives",
@@ -596,6 +631,13 @@
       "library": "Asia",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Building Your Portfolio",
+      "path": "pr/practical-knowledge/personal-finance/building-your-portfolio",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
     },
     {
       "name": "Bulgaria",
@@ -703,6 +745,13 @@
       "chapters": 12
     },
     {
+      "name": "Centroamericanos en Estados Unidos: Salvadoreños, Guatemaltecos, Hondureños y Nicaragüenses",
+      "path": "pe/cultural-and-identity/hispanic-cultures/central-americans-in-america-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Chad",
       "path": "g/africa/countries/chad",
       "library": "Africa",
@@ -784,7 +833,7 @@
       "path": "pe/contested-issues/climate-debates/the-climate-question",
       "library": "Contested Issues",
       "shelf": "Climate Debates",
-      "chapters": 12
+      "chapters": 13
     },
     {
       "name": "Climate Systems and Atmosphere",
@@ -843,6 +892,13 @@
       "chapters": 1
     },
     {
+      "name": "Cómo el Aborto se Convirtió en una Cuña Política",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/como-el-aborto-se-convirtio-en-una-cuna-politica",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 9
+    },
+    {
       "name": "Comoros",
       "path": "g/africa/countries/comoros",
       "library": "Africa",
@@ -890,6 +946,13 @@
       "library": "Cultural And Identity",
       "shelf": "Black Studies",
       "chapters": 10
+    },
+    {
+      "name": "Contribuciones Hispanas a la Cultura Estadounidense: Una Visión General",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-contributions-to-american-culture-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Coping with Frenemies",
@@ -966,6 +1029,13 @@
       "path": "pe/historical-narratives/us-latin-america-relations/cuban-exiles-mariel-the-rafters-and-the-diaspora",
       "library": "Historical Narratives",
       "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "Cubanoamericanos: Exilio, Éxito y Complejidad Política",
+      "path": "pe/cultural-and-identity/hispanic-cultures/cuban-americans-exile-success-complexity-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
       "chapters": 12
     },
     {
@@ -1095,6 +1165,13 @@
       "chapters": 2
     },
     {
+      "name": "Discriminación Antihispana: Prejuicio, Estereotipos y Odio",
+      "path": "pe/cultural-and-identity/hispanic-cultures/anti-hispanic-discrimination-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Distribution Networks and Local Power Delivery",
       "path": "i/civil-infrastructures/electrical-power-systems/distribution-networks-and-local-power-delivery",
       "library": "Civil Infrastructures",
@@ -1107,6 +1184,20 @@
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Documentation Fundamentals",
+      "path": "pr/practical-skills/digital-and-professional-skills/documentation-fundamentals",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 14
+    },
+    {
+      "name": "Dog Whistles and Ballot Boxes: Race in Republican Electoral Strategy",
+      "path": "pe/contested-issues/social-equality-debates/dog-whistles-and-ballot-boxes",
+      "library": "Contested Issues",
+      "shelf": "Social Equality Debates",
+      "chapters": 9
     },
     {
       "name": "Dollar Dominance: The Fragile Foundation",
@@ -1207,11 +1298,32 @@
       "chapters": 4
     },
     {
+      "name": "El Futuro de la América Hispana: Demografía, Poder y Promesa",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-future-of-hispanic-america-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "El Movimiento de las Trabajadoras del Hogar",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/el-movimiento-de-las-trabajadoras-del-hogar",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 12
+    },
+    {
       "name": "El Salvador",
       "path": "g/north-america/countries/el-salvador",
       "library": "North America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "El Voto Hispano: Poder, Patrones y el Camino Hacia Adelante",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-hispanic-vote-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Energy Science and Engineering",
@@ -1305,6 +1417,13 @@
       "chapters": 2
     },
     {
+      "name": "Feminismo Latinoamericano: De Sor Juana al Presente",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/feminismo-latinoamericano",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 14
+    },
+    {
       "name": "Fiji",
       "path": "g/oceania/countries/fiji",
       "library": "Oceania",
@@ -1366,6 +1485,13 @@
       "library": "The Sciences",
       "shelf": "Mathematical And Computational Sciences",
       "chapters": 10
+    },
+    {
+      "name": "Foundations: What Is LGBTQ+ Studies?",
+      "path": "pe/cultural-and-identity/lgbtq-studies/foundations-what-is-lgbtq-studies",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 8
     },
     {
       "name": "France",
@@ -1536,6 +1662,13 @@
       "chapters": 4
     },
     {
+      "name": "Global Labor: Supply Chains, Sweatshops, and Solidarity",
+      "path": "pe/contested-issues/labor-and-work/global-labor-supply-chains-sweatshops-and-solidarity",
+      "library": "Contested Issues",
+      "shelf": "Labor And Work",
+      "chapters": 12
+    },
+    {
       "name": "Global Women's Rights",
       "path": "pe/cultural-and-identity/feminism-and-equality/global-womens-rights",
       "library": "Cultural And Identity",
@@ -1634,6 +1767,13 @@
       "chapters": 4
     },
     {
+      "name": "Hardware Systems Documentation",
+      "path": "pr/practical-skills/digital-and-professional-skills/hardware-systems-documentation",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 11
+    },
+    {
       "name": "Hawaii",
       "path": "c/us-governors-2026/2026-gubernatorial-races/hawaii",
       "library": "Us Governors 2026",
@@ -1674,6 +1814,13 @@
       "library": "Personal And Life",
       "shelf": "Health And Wellbeing",
       "chapters": 4
+    },
+    {
+      "name": "Hidden History: LGBTQ+ Lives Before Stonewall",
+      "path": "pe/cultural-and-identity/lgbtq-studies/hidden-history-lgbtq-lives-before-stonewall",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 12
     },
     {
       "name": "High-Voltage Transmission Systems",
@@ -1977,11 +2124,25 @@
       "chapters": 22
     },
     {
+      "name": "How the Stock Market Works",
+      "path": "pr/practical-knowledge/personal-finance/how-the-stock-market-works",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
+    },
+    {
       "name": "How to Build a 3-Camera Studio",
       "path": "pr/practical-skills/digital-and-professional-skills/how-to-build-a-3-camera-studio",
       "library": "Practical Skills",
       "shelf": "Digital And Professional Skills",
       "chapters": 9
+    },
+    {
+      "name": "How Trump Subverted and Weaponized Immigration Reform",
+      "path": "pe/contested-issues/immigration-debates/how-trump-subverted-and-weaponized-immigration-reform",
+      "library": "Contested Issues",
+      "shelf": "Immigration Debates",
+      "chapters": 15
     },
     {
       "name": "Human Anatomy and Physiology",
@@ -2117,6 +2278,20 @@
       "chapters": 10
     },
     {
+      "name": "Integrated Systems Documentation",
+      "path": "pr/practical-skills/digital-and-professional-skills/integrated-systems-documentation",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 11
+    },
+    {
+      "name": "Interseccionalidad: Raza, Género y Poder",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/interseccionalidad-raza-genero-y-poder",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 15
+    },
+    {
       "name": "Intersectionality: Race, Gender, and Power",
       "path": "pe/cultural-and-identity/feminism-and-equality/intersectionality-race-gender-and-power",
       "library": "Cultural And Identity",
@@ -2124,11 +2299,25 @@
       "chapters": 15
     },
     {
+      "name": "Intersex: Biology, Medicine, and Rights",
+      "path": "pe/cultural-and-identity/lgbtq-studies/intersex-biology-medicine-rights",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 8
+    },
+    {
       "name": "Interviewer and Hiring Manager Tutorial",
       "path": "pr/practical-skills/digital-and-professional-skills/interviewer-hiring-tutorial",
       "library": "Practical Skills",
       "shelf": "Digital And Professional Skills",
       "chapters": 15
+    },
+    {
+      "name": "Investment Risks and How to Manage Them",
+      "path": "pr/practical-knowledge/personal-finance/investment-risks-and-how-to-manage-them",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
     },
     {
       "name": "Iowa",
@@ -2411,6 +2600,20 @@
       "chapters": 4
     },
     {
+      "name": "La Crisis de Feminicidio en América Latina",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/la-crisis-de-feminicidio",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 14
+    },
+    {
+      "name": "Labor Law and Workers' Rights",
+      "path": "pe/contested-issues/labor-and-work/labor-law-and-workers-rights",
+      "library": "Contested Issues",
+      "shelf": "Labor And Work",
+      "chapters": 12
+    },
+    {
       "name": "Laos",
       "path": "g/asia/countries/laos",
       "library": "Asia",
@@ -2418,10 +2621,31 @@
       "chapters": 4
     },
     {
+      "name": "Las Madres de Plaza de Mayo y el Activismo de las Madres",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/las-madres-de-plaza-de-mayo",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 12
+    },
+    {
+      "name": "Las Maquiladoras y el Trabajo de la Mujer",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/las-maquiladoras-y-el-trabajo-de-la-mujer",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 12
+    },
+    {
       "name": "Latin American Independence and the Monroe Doctrine",
       "path": "pe/historical-narratives/us-latin-america-relations/latin-american-independence-and-the-monroe-doctrine",
       "library": "Historical Narratives",
       "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "Latino, Latina, Latinx: La Política Evolutiva de la Autoidentificación",
+      "path": "pe/cultural-and-identity/hispanic-cultures/latino-latina-latinx-evolving-identity-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
       "chapters": 12
     },
     {
@@ -2460,11 +2684,81 @@
       "chapters": 4
     },
     {
+      "name": "Lesbian History and Feminism",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lesbian-history-feminism",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
+    },
+    {
       "name": "Lesotho",
       "path": "g/africa/countries/lesotho",
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "LGBTQ+ Aging: Elders, Care, and Legacy",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-aging-elders-care-legacy",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
+    },
+    {
+      "name": "LGBTQ+ Economics: Work, Wages, and Wealth",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-economics-work-wages-wealth",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
+    },
+    {
+      "name": "LGBTQ+ Families and Relationships",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-families-and-relationships",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
+    },
+    {
+      "name": "LGBTQ+ Health and Mental Health",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-health-mental-health",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 13
+    },
+    {
+      "name": "LGBTQ+ in Media and Popular Culture",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-media-popular-culture",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 11
+    },
+    {
+      "name": "LGBTQ+ Music and Performance",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-music-performance",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 9
+    },
+    {
+      "name": "LGBTQ+ People of Color",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-people-of-color",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
+    },
+    {
+      "name": "LGBTQ+ Rights as a Global Issue",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-rights-global-issue",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 11
+    },
+    {
+      "name": "LGBTQ+ Youth: Schools, Bullying, and Resilience",
+      "path": "pe/cultural-and-identity/lgbtq-studies/lgbtq-youth-schools-resilience",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 11
     },
     {
       "name": "Liberia",
@@ -2544,6 +2838,20 @@
       "chapters": 4
     },
     {
+      "name": "Los Hispanoamericanos y los Dos Partidos: La Competencia por el Voto Latino",
+      "path": "pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-the-two-parties-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
+      "name": "Los Indocumentados: 11 Millones de Vidas en las Sombras",
+      "path": "pe/cultural-and-identity/hispanic-cultures/the-undocumented-11-million-lives-in-the-shadows-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
+    },
+    {
       "name": "Louisiana",
       "path": "c/us-house-2026-complete/2026-states/louisiana",
       "library": "Us House 2026 Complete",
@@ -2577,6 +2885,13 @@
       "library": "Territories And Dependencies",
       "shelf": "Autonomous Regions",
       "chapters": 4
+    },
+    {
+      "name": "Machismo y Marianismo: Las Raíces Culturales",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/machismo-y-marianismo",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 12
     },
     {
       "name": "Madagascar",
@@ -2668,6 +2983,20 @@
       "library": "Antarctica",
       "shelf": "Regions",
       "chapters": 4
+    },
+    {
+      "name": "Market History: Booms, Crashes, and Lessons",
+      "path": "pr/practical-knowledge/personal-finance/market-history-booms-crashes-and-lessons",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
+    },
+    {
+      "name": "Marketing Without a Budget",
+      "path": "pr/practical-skills/digital-and-professional-skills/marketing-without-a-budget",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 15
     },
     {
       "name": "Marshall Islands",
@@ -2773,6 +3102,13 @@
       "library": "North America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Mexicoamericanos: La Comunidad Hispana Más Grande y Diversa",
+      "path": "pe/cultural-and-identity/hispanic-cultures/mexican-americans-largest-hispanic-community-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Michigan",
@@ -2971,6 +3307,27 @@
       "chapters": 4
     },
     {
+      "name": "Mujeres Indígenas y Resistencia",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/mujeres-indigenas-y-resistencia",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 12
+    },
+    {
+      "name": "Mujeres Líderes de América Latina",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/mujeres-lideres-de-america-latina",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 12
+    },
+    {
+      "name": "Mujeres Migrantes: Historias de la Frontera",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/mujeres-migrantes",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 12
+    },
+    {
       "name": "Municipal Water Systems",
       "path": "i/civil-infrastructures/water/municipal-water-systems",
       "library": "Civil Infrastructures",
@@ -2982,6 +3339,13 @@
       "path": "k/the-arts/performing-arts/musical-theatre-history-theory-and-practice",
       "library": "The Arts",
       "shelf": "Performing Arts",
+      "chapters": 10
+    },
+    {
+      "name": "Mutual Funds, ETFs, and Index Investing",
+      "path": "pr/practical-knowledge/personal-finance/mutual-funds-etfs-and-index-investing",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
       "chapters": 10
     },
     {
@@ -3461,6 +3825,13 @@
       "chapters": 10
     },
     {
+      "name": "Overview",
+      "path": "pe/ideological/project-2025/overview",
+      "library": "Ideological",
+      "shelf": "Project 2025",
+      "chapters": 12
+    },
+    {
       "name": "Ownership, Control & Sovereignty",
       "path": "i/digital-infrastructures/data-centers/ownership-control-and-sovereignty",
       "library": "Digital Infrastructures",
@@ -3713,6 +4084,13 @@
       "chapters": 12
     },
     {
+      "name": "Public Sector Unions: Teachers, Police, and the State",
+      "path": "pe/contested-issues/labor-and-work/public-sector-unions-teachers-police-and-the-state",
+      "library": "Contested Issues",
+      "shelf": "Labor And Work",
+      "chapters": 12
+    },
+    {
       "name": "Puerto Ricans in America: American Citizens, Caribbean Identity",
       "path": "pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america",
       "library": "Cultural And Identity",
@@ -3732,6 +4110,13 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
+    },
+    {
+      "name": "Puertorriqueños en Estados Unidos: Ciudadanos Americanos, Identidad Caribeña",
+      "path": "pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america-es",
+      "library": "Cultural And Identity",
+      "shelf": "Hispanic Cultures",
+      "chapters": 12
     },
     {
       "name": "Qatar",
@@ -3755,11 +4140,25 @@
       "chapters": 4
     },
     {
+      "name": "Queer Culture: Literature, Art, and Expression",
+      "path": "pe/cultural-and-identity/lgbtq-studies/queer-culture-literature-art",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 9
+    },
+    {
       "name": "Queer Feminism and Gender",
       "path": "pe/cultural-and-identity/feminism-and-equality/queer-feminism-and-gender",
       "library": "Cultural And Identity",
       "shelf": "Feminism And Equality",
       "chapters": 15
+    },
+    {
+      "name": "Queer Theory: Key Thinkers and Concepts",
+      "path": "pe/cultural-and-identity/lgbtq-studies/queer-theory-key-thinkers-and-concepts",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
     },
     {
       "name": "Quick Checks Before You Believe or Share",
@@ -3769,11 +4168,25 @@
       "chapters": 4
     },
     {
+      "name": "Race as a Wedge: How America's Racial Divide Was Manufactured",
+      "path": "pe/historical-narratives/racism/race-as-a-wedge",
+      "library": "Historical Narratives",
+      "shelf": "Racism",
+      "chapters": 10
+    },
+    {
       "name": "Racial Bias in U.S. Law and Policing",
       "path": "pe/contested-issues/criminal-justice-debates/racial-bias-in-u-s-law-and-policing",
       "library": "Contested Issues",
       "shelf": "Criminal Justice Debates",
       "chapters": 9
+    },
+    {
+      "name": "Real Estate Investing for Regular People",
+      "path": "pr/practical-knowledge/personal-finance/real-estate-investing-for-regular-people",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
     },
     {
       "name": "Recognizing Scams and Phishing",
@@ -3797,6 +4210,13 @@
       "chapters": 4
     },
     {
+      "name": "Religion, Spirituality, and Queerness",
+      "path": "pe/cultural-and-identity/lgbtq-studies/religion-spirituality-queerness",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 10
+    },
+    {
       "name": "Republic of the Congo",
       "path": "g/africa/countries/republic-of-the-congo",
       "library": "Africa",
@@ -3804,11 +4224,25 @@
       "chapters": 4
     },
     {
+      "name": "Reproductive Rights and Bodily Autonomy",
+      "path": "pe/cultural-and-identity/feminism-and-equality/reproductive-rights-and-bodily-autonomy",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
+      "chapters": 12
+    },
+    {
       "name": "Responsible Use and Human Judgment",
       "path": "k/ai-fundamentals/ai-in-the-real-world/responsible-use-and-human-judgment",
       "library": "Ai Fundamentals",
       "shelf": "Ai In The Real World",
       "chapters": 12
+    },
+    {
+      "name": "Retirement Accounts: The Tax-Advantaged Path to Wealth",
+      "path": "pr/practical-knowledge/personal-finance/retirement-accounts-the-tax-advantaged-path-to-wealth",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
     },
     {
       "name": "Rhetoric and the Art of Persuasion",
@@ -3907,6 +4341,13 @@
       "library": "North America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Salud Reproductiva en América Latina",
+      "path": "pe/cultural-and-identity/estudios-de-la-mujer/salud-reproductiva-en-america-latina",
+      "library": "Cultural And Identity",
+      "shelf": "Estudios De La Mujer",
+      "chapters": 13
     },
     {
       "name": "Samoa",
@@ -4119,6 +4560,13 @@
       "chapters": 12
     },
     {
+      "name": "Software Systems Documentation",
+      "path": "pr/practical-skills/digital-and-professional-skills/software-systems-documentation",
+      "library": "Practical Skills",
+      "shelf": "Digital And Professional Skills",
+      "chapters": 11
+    },
+    {
       "name": "Sojourner Truth",
       "path": "k/biographies/political-biographies/sojourner-truth",
       "library": "Biographies",
@@ -4301,6 +4749,20 @@
       "chapters": 10
     },
     {
+      "name": "Stocks: What You're Actually Buying",
+      "path": "pr/practical-knowledge/personal-finance/stocks-what-youre-actually-buying",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
+    },
+    {
+      "name": "Stonewall and the Birth of Gay Liberation",
+      "path": "pe/cultural-and-identity/lgbtq-studies/stonewall-and-gay-liberation",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 8
+    },
+    {
       "name": "Sudan",
       "path": "g/africa/countries/sudan",
       "library": "Africa",
@@ -4455,6 +4917,20 @@
       "chapters": 9
     },
     {
+      "name": "The AIDS Crisis: Abandonment, Activism, and Survival",
+      "path": "pe/cultural-and-identity/lgbtq-studies/aids-crisis-abandonment-activism-survival",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 11
+    },
+    {
+      "name": "The American Labor Movement: From Haymarket to Amazon",
+      "path": "pe/contested-issues/labor-and-work/the-american-labor-movement-from-haymarket-to-amazon",
+      "library": "Contested Issues",
+      "shelf": "Labor And Work",
+      "chapters": 13
+    },
+    {
       "name": "The Arrogance That's Destroying American Power",
       "path": "i/economic-infrastructures/geopolitics/the-arrogance-thats-destroying-american-power",
       "library": "Economic Infrastructures",
@@ -4518,6 +4994,13 @@
       "chapters": 12
     },
     {
+      "name": "The Fight for Legal Equality",
+      "path": "pe/cultural-and-identity/lgbtq-studies/fight-for-legal-equality",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 12
+    },
+    {
       "name": "The Fourth Amendment and You!",
       "path": "pe/contested-issues/criminal-justice-debates/the-fourth-amendment-and-you",
       "library": "Contested Issues",
@@ -4532,10 +5015,24 @@
       "chapters": 12
     },
     {
+      "name": "The Future of LGBTQ+ Rights in America",
+      "path": "pe/cultural-and-identity/lgbtq-studies/future-of-lgbtq-rights-america",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 11
+    },
+    {
       "name": "The Geopolitics of War in the 21st Century",
       "path": "pe/geopolitical/war-and-peace/the-geopolitics-of-war-in-the-21st-century",
       "library": "Geopolitical",
       "shelf": "War And Peace",
+      "chapters": 12
+    },
+    {
+      "name": "The Gig Economy and the Future of Work",
+      "path": "pe/contested-issues/labor-and-work/the-gig-economy-and-the-future-of-work",
+      "library": "Contested Issues",
+      "shelf": "Labor And Work",
       "chapters": 12
     },
     {
@@ -4581,6 +5078,13 @@
       "chapters": 12
     },
     {
+      "name": "The Investment Industry: Who's Selling What",
+      "path": "pr/practical-knowledge/personal-finance/the-investment-industry-whos-selling-what",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 10
+    },
+    {
       "name": "The Latin Sound in American Music: Influence and Integration",
       "path": "pe/cultural-and-identity/hispanic-cultures/the-latin-sound-in-american-music",
       "library": "Cultural And Identity",
@@ -4606,6 +5110,20 @@
       "path": "pe/ideological/media-and-information/the-philanthropy-power-divide",
       "library": "Ideological",
       "shelf": "Media And Information",
+      "chapters": 10
+    },
+    {
+      "name": "The Politics of Anti-LGBTQ+ Movements",
+      "path": "pe/cultural-and-identity/lgbtq-studies/politics-of-anti-lgbtq-movements",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 12
+    },
+    {
+      "name": "The Psychology of Investing",
+      "path": "pr/practical-knowledge/personal-finance/the-psychology-of-investing",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
       "chapters": 10
     },
     {
@@ -4707,6 +5225,13 @@
       "chapters": 12
     },
     {
+      "name": "Transgender Lives, History, and Rights",
+      "path": "pe/cultural-and-identity/lgbtq-studies/transgender-lives-history-rights",
+      "library": "Cultural And Identity",
+      "shelf": "Lgbtq Studies",
+      "chapters": 11
+    },
+    {
       "name": "Trinidad and Tobago",
       "path": "g/north-america/countries/trinidad-and-tobago",
       "library": "North America",
@@ -4733,6 +5258,13 @@
       "library": "The 20162024 Maga Era In Us Politics",
       "shelf": "Governing Institutions And Conflict",
       "chapters": 4
+    },
+    {
+      "name": "Trump Seizes Maduro",
+      "path": "e/us-foreign-interventions/latin-america/trump-seizes-maduro",
+      "library": "Us Foreign Interventions",
+      "shelf": "Latin America",
+      "chapters": 10
     },
     {
       "name": "Trump's Lies: Then and Now",
@@ -4973,6 +5505,13 @@
       "chapters": 1
     },
     {
+      "name": "Wage Theft, Exploitation, and Worker Safety",
+      "path": "pe/contested-issues/labor-and-work/wage-theft-exploitation-and-worker-safety",
+      "library": "Contested Issues",
+      "shelf": "Labor And Work",
+      "chapters": 12
+    },
+    {
       "name": "Wales",
       "path": "g/territories-and-dependencies/constituent-nations/wales",
       "library": "Territories And Dependencies",
@@ -5120,6 +5659,13 @@
       "chapters": 15
     },
     {
+      "name": "Women's Labor: Paid, Unpaid, and Undervalued",
+      "path": "pe/contested-issues/labor-and-work/womens-labor-paid-unpaid-and-undervalued",
+      "library": "Contested Issues",
+      "shelf": "Labor And Work",
+      "chapters": 12
+    },
+    {
       "name": "Women's Rights: Centuries of Struggle",
       "path": "k/the-sciences/history-and-anthropology/womens-rights-centuries-of-struggle",
       "library": "The Sciences",
@@ -5188,6 +5734,13 @@
       "library": "Asia",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Your First Year as an Investor: A Complete Action Plan",
+      "path": "pr/practical-knowledge/personal-finance/your-first-year-as-an-investor",
+      "library": "Practical Knowledge",
+      "shelf": "Personal Finance",
+      "chapters": 12
     },
     {
       "name": "Zambia",

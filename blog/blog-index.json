@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "slug": "everybody-counts-racism-in-the-us",
+      "title": "Everybody Counts or Nobody Counts: Race as a Wedge",
+      "date": "2026-02-19",
+      "excerpt": "The racial divide isn't natural—it was manufactured. From Bacon's Rebellion to birtherism, elites have used the same playbook for 350 years: when cross-racial solidarity threatens their power, manufacture division. The wedge isn't a culture war—it's a class war in disguise.",
+      "tags": ["racism", "civil-rights", "politics", "history", "labor"],
+      "quarexLinks": [
+        {
+          "title": "Race as a Wedge: How America's Racial Divide Was Manufactured",
+          "url": "/libraries/pe/historical-narratives/racism/race-as-a-wedge"
+        }
+      ]
+    },
+    {
+      "slug": "abortion-wedge",
+      "title": "Everybody Counts or Nobody Counts: How Republicans Manufactured the Abortion Wedge",
+      "date": "2026-02-18",
+      "excerpt": "In 1972, 68% of Republicans believed abortion was a private matter. Reagan signed liberal abortion laws. Goldwater sat on a Planned Parenthood committee. Then political operatives manufactured a wedge—and now it's backfiring.",
+      "tags": ["abortion", "politics", "history", "civil-rights"],
+      "quarexLinks": [
+        {
+          "title": "How Abortion Became a Political Wedge",
+          "url": "/libraries/pe/cultural-and-identity/abortion/how-abortion-became-a-political-wedge"
+        }
+      ]
+    },
+    {
+      "slug": "gop-trans-war",
+      "title": "Everybody Counts or Nobody Counts: The GOP's War on Trans Americans",
+      "date": "2026-02-18",
+      "excerpt": "Over 850 anti-LGBTQ+ bills filed. A social media targeting machine linked to bomb threats. Trans youth fleeing their home states. Inside the coordinated campaign—and the resistance organizing against it.",
+      "tags": ["lgbtq", "trump", "politics", "civil-rights"],
+      "quarexLinks": [
+        {
+          "title": "Pride and Politics: The Fight for LGBTQ+ Equality",
+          "url": "/libraries/pe/cultural-and-identity/gay-rights/pride-and-politics-the-fight-for-lgbtq-equality"
+        }
+      ]
+    },
+    {
+      "slug": "climate-crisis-five-perspectives",
+      "title": "The Climate Crisis: Five Perspectives on How Urgent It Really Is",
+      "date": "2026-02-18",
+      "excerpt": "How urgent is climate change? Scientists agree on causation but diverge on severity. Here's why — plus the case for optimism as clean energy economics shift irreversibly.",
+      "tags": ["climate", "environment", "science", "policy"],
+      "quarexLinks": [
+        {
+          "title": "The Climate Question",
+          "url": "/libraries/pe/contested-issues/climate-debates/the-climate-question"
+        }
+      ]
+    },
+    {
+      "slug": "trump-weaponized-immigration",
+      "title": "He Never Wanted to Fix It: How Trump Weaponized Immigration",
+      "date": "2026-02-18",
+      "excerpt": "Trump killed the 2024 border bill with a phone call. Not because it was bad policy, but because he needed the issue more than he wanted a solution. The system isn't broken by accident.",
+      "tags": ["immigration", "trump", "policy", "politics"],
+      "quarexLinks": [
+        {
+          "title": "How Trump Subverted and Weaponized Immigration Reform",
+          "url": "/libraries/pe/contested-issues/immigration-debates/how-trump-subverted-and-weaponized-immigration-reform"
+        }
+      ]
+    },
+    {
+      "slug": "claude-ai-and-hispanic-studies",
+      "title": "Claude AI Integration & Hispanic Studies Spotlight",
+      "date": "2026-02-17",
+      "excerpt": "We've added Claude as an alternative AI model for sharper political analysis, and reorganized Public Studies to highlight Hispanic Studies with six curricula in English and Spanish.",
+      "tags": ["quarex", "ai", "hispanic-studies", "updates"],
+      "quarexLinks": [
+        {
+          "title": "Hispanic Cultures & Identity in America",
+          "url": "https://publicstudies.org/HispanicCulturesSyllabus.html"
+        },
+        {
+          "title": "Public Studies",
+          "url": "https://publicstudies.org"
+        }
+      ]
+    }
+  ]
+}
