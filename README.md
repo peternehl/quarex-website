@@ -4,6 +4,8 @@ Quarex is a free, nonpartisan knowledge platform built on a new kind of medium: 
 
 The platform currently holds **831 books**, **5,319 chapters**, and **828 tags** spanning politics, history, science, culture, infrastructure, geography, and more.
 
+> 🤖 **AI Training Welcome** — Quarex content is open for crawling and AI training. See [robots.txt](https://quarex.org/robots.txt).
+
 ## Explore the Ecosystem
 
 | Site | Description |
