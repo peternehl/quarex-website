@@ -1,0 +1,233 @@
+################################################################################
+#                                                                              #
+#   CRITICAL: DO NOT USE A PYTHON SCRAPER FOR THIS TASK!                       #
+#                                                                              #
+#   YOU MUST USE CLAUDE AI TO MANUALLY SCRAPE CANDIDATES FROM BALLOTPEDIA.     #
+#   PYTHON SCRAPERS HAVE PARSING BUGS THAT MISS CANDIDATES.                    #
+#                                                                              #
+#   The house_scraper.py file has been DELETED to prevent accidental use.      #
+#                                                                              #
+################################################################################
+
+## Step-by-Step Update Process
+
+### Step 1: Scrape Data from Ballotpedia (USING AI, NOT PYTHON)
+
+**IMPORTANT: Scrape in batches of 5 states at a time!**
+
+Scraping all 50 states at once will cause context/memory issues. Instead:
+1. Scrape 5 states using Claude AI (WebFetch to Ballotpedia pages)
+2. Save to `states-X.json` immediately
+3. Repeat for next 5 states
+
+This ensures data is preserved even if something fails mid-process.
+
+Scrape each state's House election page. The URL pattern is:
+
+https://ballotpedia.org/United_States_House_of_Representatives_elections_in_<State>,_2026
+
+For each state, extract:
+- All districts
+- All candidates per district, grouped by party
+- Exclude candidates marked "withdrew" or "did not make ballot"
+
+**Save scraped data immediately after each batch** (5 states per batch):
+
+```
+scrapers/states-1.json   # Alabama, Alaska, Arizona, Arkansas, California
+scrapers/states-2.json   # Colorado, Connecticut, Delaware, Florida, Georgia
+scrapers/states-3.json   # Hawaii, Idaho, Illinois, Indiana, Iowa
+scrapers/states-4.json   # Kansas, Kentucky, Louisiana, Maine, Maryland
+scrapers/states-5.json   # Massachusetts, Michigan, Minnesota, Mississippi, Missouri
+scrapers/states-6.json   # Montana, Nebraska, Nevada, New Hampshire, New Jersey
+scrapers/states-7.json   # New Mexico, New York, North Carolina, North Dakota, Ohio
+scrapers/states-8.json   # Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina
+scrapers/states-9.json   # South Dakota, Tennessee, Texas, Utah, Vermont
+scrapers/states-10.json  # Virginia, Washington, West Virginia, Wisconsin, Wyoming
+```
+
+**Why 10 batch files?**
+- Prevents data loss if scraping is interrupted
+- Avoids AI context/memory limits when processing large amounts of data
+- Allows re-scraping individual batches without redoing everything
+- Each batch file serves as checkpoint - save after EVERY 5 states
+
+Batch file format:
+```json
+{
+  "batch": 1,
+  "scraped": "2026-02-07",
+  "states": [
+    {
+      "state": "Alabama",
+      "abbrev": "AL",
+      "districts": [
+        {
+          "district": "AL-01",
+          "candidates": {
+            "Republican": ["Jerry Carl (R)", "James Dees (R)"],
+            "Democratic": ["Clyde Jones (D)"],
+            "Independent": [],
+            "Libertarian": [],
+            "Green": []
+          }
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Step 2: Run the Master Regeneration Script (ONE COMMAND!)
+
+**IMPORTANT: Use this single command to regenerate EVERYTHING:**
+
+```bash
+cd E:\projects\websites\Quarex\scrapers
+node regenerate-house-all.js
+```
+
+This ONE script does everything:
+1. Generates all 435 individual district files
+2. Updates all 50 state manifests
+3. Creates all 50 consolidated state book files (THE ONES THE APP USES!)
+4. Rebuilds the discovery index
+
+**DO NOT run the individual scripts separately** - they will miss files and cause confusion.
+
+### Step 3: Verify Manifests
+
+Ensure these manifests exist and are correct:
+
+**Library manifest** (`us-house-2026-complete/_manifest.json`):
+```json
+[
+  {
+    "slug": "2026-states",
+    "name": "2026 House States",
+    "description": "All House districts with declared 2026 candidates",
+    "bookCount": 50
+  }
+]
+```
+
+**Shelf manifest** (`2026-states/_manifest.json`):
+```json
+[
+  {"slug": "alabama", "name": "Alabama", "chapterCount": 7},
+  {"slug": "alaska", "name": "Alaska", "chapterCount": 1},
+  ...
+]
+```
+
+The `chapterCount` is the number of districts in that state.
+
+### Step 5: Rebuild Discovery Index
+
+```bash
+cd E:\projects\websites\Quarex
+node libraries/_utils/build-discovery-index-v2.js
+```
+
+### Step 6: Upload to Server
+
+Upload these files to quarex.org:
+- `libraries/politician-libraries/us-house-2026-complete/_manifest.json`
+- `libraries/politician-libraries/us-house-2026-complete/2026-states/_manifest.json`
+- `libraries/politician-libraries/us-house-2026-complete/2026-states/*.json` (all 50 state book files)
+- `libraries/discovery-index.json`
+
+Optionally upload district subfolders (`alabama/`, etc.) if you want backup data on server.
+
+## Scripts Reference
+
+### regenerate-house-all.js (USE THIS ONE!)
+
+**Location:** `scrapers/regenerate-house-all.js`
+
+**Usage:** `node regenerate-house-all.js`
+
+**What it does:**
+1. Runs generate-house-districts.js for all 10 batches
+2. Runs generate-state-books.js to create consolidated state files
+3. Rebuilds discovery index
+4. Prints upload checklist when done
+
+**ALWAYS use this script after updating states-*.json files!**
+
+### Individual Scripts (called by regenerate-house-all.js)
+
+**generate-state-books.js** - Creates the 50 state book files the app uses
+**generate-house-districts.js** - Creates individual district files + manifests
+
+You shouldn't need to run these individually - just use regenerate-house-all.js
+
+## Common Issues & Solutions
+
+### Issue: "Failed to load book" error when clicking a state
+**Cause:** The state book file (e.g., `alabama.json`) is missing
+**Solution:** Run `node generate-state-books.js` to create the state book files
+
+### Issue: App shows stale/old data
+**Cause:** State book files weren't regenerated after scraping
+**Solution:** Re-run `node generate-state-books.js`
+
+### Issue: Missing candidates after update
+**Check:**
+1. Verify the source batch file (`states-X.json`) has the candidates
+2. Ensure candidate wasn't marked "withdrew" or "did not make ballot" on Ballotpedia
+3. Re-scrape that state's batch using AI, then re-run `generate-state-books.js`
+
+### Issue: Scraping gets interrupted or AI loses context
+**Solution:** This is why we use 10 batch files!
+1. Always save to `states-X.json` after every 5 states
+2. If interrupted, check which batch files exist
+3. Resume scraping from the next batch
+4. The batch files preserve all progress
+
+## State Batches Quick Reference
+
+| Batch | States |
+|-------|--------|
+| 1 | Alabama, Alaska, Arizona, Arkansas, California |
+| 2 | Colorado, Connecticut, Delaware, Florida, Georgia |
+| 3 | Hawaii, Idaho, Illinois, Indiana, Iowa |
+| 4 | Kansas, Kentucky, Louisiana, Maine, Maryland |
+| 5 | Massachusetts, Michigan, Minnesota, Mississippi, Missouri |
+| 6 | Montana, Nebraska, Nevada, New Hampshire, New Jersey |
+| 7 | New Mexico, New York, North Carolina, North Dakota, Ohio |
+| 8 | Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina |
+| 9 | South Dakota, Tennessee, Texas, Utah, Vermont |
+| 10 | Virginia, Washington, West Virginia, Wisconsin, Wyoming |
+
+## District Counts by State
+
+- 1 district (at-large): AK, DE, ND, SD, VT, WY
+- 2 districts: HI, ID, ME, MT, NH, RI, WV
+- 3 districts: NE, NM
+- 4 districts: AR, IA, KS, LA, NV, UT
+- 5 districts: CT, OK
+- 6 districts: KY, OR
+- 7 districts: AL, SC
+- 8 districts: AZ, CO, MD, MN, MO, WI
+- 9 districts: IN, MA, TN
+- 10 districts: WA
+- 11 districts: VA
+- 12 districts: NJ
+- 13 districts: MI
+- 14 districts: GA, NC
+- 15 districts: OH
+- 17 districts: IL, PA
+- 26 districts: NY
+- 28 districts: FL
+- 38 districts: TX
+- 52 districts: CA
+
+**Total: 435 districts**
+
+## Last Updated
+
+- **Date:** February 13, 2026
+- **Source:** Ballotpedia
+- **Method:** Claude AI manual scraping (NOT Python)
+- **Fixes applied:** 11 candidate corrections (see fixes log in conversation)

@@ -220,6 +220,41 @@
       text-decoration: none;
     }
 
+    /* Split Button for bilingual links */
+    .split-btn {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .split-btn:hover {
+      transform: none;
+      filter: none;
+    }
+    .split-top, .split-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 16px;
+      text-decoration: none;
+      color: var(--accent);
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: clamp(13px, 1.6vw, 16px);
+      transition: all 0.2s;
+    }
+    .split-top {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .split-top:hover, .split-bottom:hover {
+      background: rgba(255, 255, 255, 0.08);
+      text-decoration: none;
+    }
+    .split-top .nav-subtitle, .split-bottom .nav-subtitle {
+      font-size: clamp(10px, 1.1vw, 12px);
+    }
+
     .nav-subtitle {
       font-size: clamp(11px, 1.2vw, 13px);
       color: #bfdbfe;
@@ -360,10 +395,16 @@
 
       <!-- Row 1: Primary Destinations -->
       <div class="nav-grid">
-        <a href="https://knowableonline.org" class="nav-btn">
-          <span>Knowable Online</span>
-          <span class="nav-subtitle">The University</span>
-        </a>
+<div class="nav-btn split-btn">
+          <a href="https://election2026.net" class="split-top">
+            <span>2026 Elections</span>
+            <span class="nav-subtitle">English</span>
+          </a>
+          <a href="https://elecciones2026.net" class="split-bottom">
+            <span>Elecciones 2026</span>
+            <span class="nav-subtitle">Español</span>
+          </a>
+        </div>
         <a href="libraries/" class="nav-btn">
           <span>Libraries</span>
           <span class="nav-subtitle">749 Books</span>
@@ -372,25 +413,25 @@
           <span>Public Learning</span>
           <span class="nav-subtitle">Curricula</span>
         </a>
-        <a href="https://election2026.net" class="nav-btn">
-          <span>2026 Elections</span>
-          <span class="nav-subtitle">Every Race</span>
+        <a href="https://knowableonline.org" class="nav-btn">
+          <span>Knowable Online</span>
+          <span class="nav-subtitle">The University</span>
         </a>
       </div>
 
       <!-- Row 2: Tools & Utilities -->
       <div class="nav-grid">
-        <a href="search/" class="nav-btn">
-          <span>Search</span>
-          <span class="nav-subtitle">Find Topics</span>
+        <a href="libraries/navigator.html" class="nav-btn">
+          <span>Quarex Map</span>
+          <span class="nav-subtitle">Visual Navigator</span>
+        </a>
+        <a href="ecosystem.html" class="nav-btn">
+          <span>Ecosystem</span>
+          <span class="nav-subtitle">Visual Map</span>
         </a>
         <a href="libraries/library-tree.html" class="nav-btn">
           <span>Library Index</span>
           <span class="nav-subtitle">Full Tree</span>
-        </a>
-        <a href="tools/" class="nav-btn">
-          <span>Creator Tools</span>
-          <span class="nav-subtitle">Build Books</span>
         </a>
         <a href="reports/" class="nav-btn">
           <span>Reports</span>
@@ -398,8 +439,12 @@
         </a>
       </div>
 
-      <!-- Row 3: Subscribe (centered) -->
-      <div style="display: flex; justify-content: center; margin-top: 16px;">
+      <!-- Row 3: Blog & Subscribe -->
+      <div style="display: flex; justify-content: center; gap: 16px; margin-top: 16px; flex-wrap: wrap;">
+        <a href="blog/" class="nav-btn" style="width: 160px;">
+          <span>Blog</span>
+          <span class="nav-subtitle">News & Updates</span>
+        </a>
         <div class="nav-btn newsletter-box" style="width: 320px; max-width: 100%;">
           <span>Subscribe</span>
           <form action="https://formspree.io/f/xeejwgnp" method="POST" class="newsletter-form">
@@ -413,7 +458,7 @@
 
   <footer>
     &copy; 2025 Quarex / Peter Nehl. All Rights Reserved.<br>
-    <a href="privacy.html">Privacy Policy</a> &bull; <a href="ethics/">Ethics</a>
+    <a href="privacy.html">Privacy Policy</a> &bull; <a href="ethics/">Ethics</a> &bull; <a href="docs/Founder-Bio/from-maryknoll-to-quarex.html">Founder's Story</a>
     <span id="pcBtn" style="cursor:pointer;margin-left:16px;opacity:0.3;font-size:0.8rem;" title="Podcast Mode">PC</span>
   </footer>
 

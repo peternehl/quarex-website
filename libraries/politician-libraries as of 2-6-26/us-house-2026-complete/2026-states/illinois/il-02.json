@@ -1,0 +1,32 @@
+{
+  "book": "IL-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Noack (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Toni Brown (D)",
+        "Yumeka Brown (D)",
+        "Eric France (D)",
+        "Jesse L. Jackson Jr. (D)",
+        "Patrick Keating (D)",
+        "Donna Miller (D)",
+        "Sidney Moore (D)",
+        "Robert Peters (D)",
+        "Willie Preston (D)",
+        "Adal Regis (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ashley Banks (I)"
+      ]
+    }
+  ]
+}

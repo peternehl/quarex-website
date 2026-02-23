@@ -1,0 +1,35 @@
+{
+  "book": "South Carolina",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Lindsey Graham (R)",
+        "Paul Dans (R)",
+        "Mark Lynch (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Annie Andrews (D)",
+        "Brandon Brown (D)",
+        "Catherine Fleming Bruce (D)",
+        "Kyle Freeman (D)",
+        "Christopher Giracello (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jason Brenkus (L)",
+        "Kasie Whitener (L)",
+        "Jack Ellison (I)",
+        "Cindy Glaser (I)",
+        "Paul Sedletsky (I)",
+        "Edward Strunge (I)",
+        "Reece Wright-McDonald (I)"
+      ]
+    }
+  ]
+}

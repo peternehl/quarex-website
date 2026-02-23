@@ -18,7 +18,12 @@
         "When did Latinx first appear and in what contexts?",
         "How has Latine emerged as a Spanish-compatible alternative?"
       ],
-      "tags": ["history", "identity", "americas", "linguistics"]
+      "tags": [
+        "history",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "The Grammar Wars",
@@ -31,7 +36,12 @@
         "What does the Real Academia Española say about these terms?",
         "How do linguists versus activists view language change differently?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Generational Divides",
@@ -45,7 +55,12 @@
         "How do teens and young adults talk about these terms?",
         "What patterns exist among Latino millennials versus Gen Z?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Academia and Activism",
@@ -56,7 +71,12 @@
         "What activist organizations use which terms and why?",
         "How has Latinx become associated with progressive politics?"
       ],
-      "tags": ["education", "activism", "americas", "sociology"]
+      "tags": [
+        "education",
+        "activism",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Media and Marketing Choices",
@@ -69,7 +89,12 @@
         "What backlash has Latinx usage in media generated?",
         "How have entertainment companies navigated terminology?"
       ],
-      "tags": ["media", "identity", "americas", "journalism"]
+      "tags": [
+        "media",
+        "hispanic-culture",
+        "americas",
+        "journalism"
+      ]
     },
     {
       "name": "LGBTQ+ Latinos and Gender-Inclusive Language",
@@ -80,7 +105,12 @@
         "How do LGBTQ+ organizations within Latino communities use language?",
         "What tensions exist between LGBTQ+ and traditional Latino communities over language?"
       ],
-      "tags": ["society", "identity", "americas", "lgbtq"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "lgbtq"
+      ]
     },
     {
       "name": "The Polling Controversy",
@@ -94,7 +124,12 @@
         "What methodological problems affect terminology polling?",
         "How do pollsters' own biases affect question framing?"
       ],
-      "tags": ["politics", "identity", "americas", "sociology"]
+      "tags": [
+        "politics",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Right-Wing Backlash",
@@ -105,7 +140,12 @@
         "What political ads have targeted Democrats over Latinx usage?",
         "How do Republican-leaning Hispanics view the terminology debate?"
       ],
-      "tags": ["politics", "identity", "americas", "us-politics"]
+      "tags": [
+        "politics",
+        "hispanic-culture",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "Latin America's Perspective",
@@ -118,7 +158,12 @@
         "Is this debate distinctly American?",
         "How do international Spanish media cover the terminology debate?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Beyond the Binary Debate",
@@ -129,7 +174,12 @@
         "When do people reject pan-ethnic labels for national origin terms?",
         "How do mixed-heritage Latinos identify?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Institutional Choices",
@@ -143,7 +193,12 @@
         "What costs and benefits come from changing institutional terminology?",
         "How do employers handle identity terms in the workplace?"
       ],
-      "tags": ["law", "governance", "americas", "sociology"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Where Language Goes from Here",
@@ -154,7 +209,12 @@
         "Can there ever be consensus on identity labels?",
         "What lessons does this debate offer about language and identity?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     }
   ]
 }

@@ -1,0 +1,126 @@
+{
+  "name": "The Psychology of Investing",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Your Brain vs Your Portfolio",
+      "topics": [
+        "Why are humans wired to be bad investors?",
+        "How did survival instincts that helped our ancestors hurt us in markets?",
+        "What is behavioral finance and why does it matter?",
+        "Why do smart people make predictable investment mistakes?",
+        "How do emotions override rational analysis?",
+        "Can you actually learn to overcome your psychological biases?"
+      ],
+      "tags": ["psychology", "cognition", "personal-finance", "behavioral-psychology"]
+    },
+    {
+      "name": "Loss Aversion: Why Losses Hurt More",
+      "topics": [
+        "What is loss aversion and how strong is the effect?",
+        "Why do people hold losing investments too long?",
+        "How does loss aversion lead to panic selling at market bottoms?",
+        "What is the 'disposition effect' in investor behavior?",
+        "How do you recognize when loss aversion is driving your decisions?",
+        "What strategies help overcome the pain of paper losses?"
+      ],
+      "tags": ["psychology", "cognition", "personal-finance", "cognitive-bias"]
+    },
+    {
+      "name": "Overconfidence and the Illusion of Control",
+      "topics": [
+        "Why do most investors think they're above average?",
+        "How does overconfidence lead to excessive trading?",
+        "What is the illusion of control in investment decisions?",
+        "Why do people confuse luck with skill after winning trades?",
+        "How does overconfidence differ between men and women investors?",
+        "What does humility look like in successful long-term investing?"
+      ],
+      "tags": ["psychology", "cognition", "personal-finance", "cognitive-bias"]
+    },
+    {
+      "name": "FOMO and Herd Behavior",
+      "topics": [
+        "What is FOMO (fear of missing out) and how does it affect investors?",
+        "Why do bubbles form and why do people keep buying at the top?",
+        "What is herd behavior and why is it so hard to resist?",
+        "How do social proof and media amplify herding?",
+        "What happened to investors who bought into crypto, meme stocks, or dot-coms late?",
+        "How do you recognize when you're being swept up in crowd behavior?"
+      ],
+      "tags": ["psychology", "cognition", "personal-finance", "behavioral-psychology"]
+    },
+    {
+      "name": "Confirmation Bias and Information",
+      "topics": [
+        "What is confirmation bias and how does it affect investment research?",
+        "Why do people only read news that supports their positions?",
+        "How do social media and algorithms reinforce confirmation bias?",
+        "What is motivated reasoning in financial decisions?",
+        "How do you actively seek out disconfirming evidence?",
+        "What does good investment research actually look like?"
+      ],
+      "tags": ["psychology", "critical-thinking", "personal-finance", "cognitive-bias"]
+    },
+    {
+      "name": "Anchoring and Mental Accounting",
+      "topics": [
+        "What is anchoring and how does it distort investment decisions?",
+        "Why do people fixate on the price they paid for a stock?",
+        "What is mental accounting and why do people treat money differently?",
+        "How does 'house money' thinking lead to excessive risk-taking?",
+        "Why do people treat windfall gains differently from earned money?",
+        "How do you think about all your money as one portfolio?"
+      ],
+      "tags": ["psychology", "cognition", "personal-finance", "cognitive-bias"]
+    },
+    {
+      "name": "Recency Bias and Pattern Seeking",
+      "topics": [
+        "What is recency bias and why do recent events dominate our thinking?",
+        "Why do people assume recent market trends will continue?",
+        "How does the human brain seek patterns even in random data?",
+        "Why do hot funds and hot stocks usually disappoint?",
+        "What is mean reversion and why don't people expect it?",
+        "How do you maintain perspective during both bull and bear markets?"
+      ],
+      "tags": ["psychology", "cognition", "personal-finance", "cognitive-bias"]
+    },
+    {
+      "name": "The Paralysis Problem",
+      "topics": [
+        "Why do many people never start investing at all?",
+        "What is analysis paralysis and how does it prevent action?",
+        "How does the fear of making the 'wrong' choice lead to no choice?",
+        "What is 'good enough' investing and why does it beat perfection?",
+        "How do you overcome the intimidation of getting started?",
+        "What is the real cost of waiting to invest?"
+      ],
+      "tags": ["psychology", "mental-health", "personal-finance", "behavioral-psychology"]
+    },
+    {
+      "name": "Staying the Course: The Hardest Part",
+      "topics": [
+        "Why is doing nothing the hardest thing in investing?",
+        "What makes people abandon good strategies at the worst times?",
+        "How do you build an investment plan you can actually stick to?",
+        "What role does automation play in defeating bad impulses?",
+        "How do you survive a 40% market crash without selling?",
+        "What does the 'behavior gap' cost investors over a lifetime?"
+      ],
+      "tags": ["psychology", "cognition", "personal-finance", "behavioral-psychology"]
+    },
+    {
+      "name": "Building Better Investment Habits",
+      "topics": [
+        "What investment habits distinguish successful long-term investors?",
+        "How do you create systems that protect you from yourself?",
+        "What is the role of checklists and written investment policies?",
+        "How can accountability partners or advisors help with behavior?",
+        "What should you do (and not do) when markets are volatile?",
+        "How do you build the temperament for long-term investing success?"
+      ],
+      "tags": ["psychology", "application", "personal-finance", "behavioral-psychology"]
+    }
+  ]
+}

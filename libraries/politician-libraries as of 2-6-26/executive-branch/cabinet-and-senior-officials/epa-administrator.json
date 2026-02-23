@@ -1,0 +1,44 @@
+{
+  "name": "EPA Administrator",
+  "slug": "epa-administrator",
+  "tags": [
+    "politics",
+    "us-politics",
+    "governance",
+    "environment"
+  ],
+  "chapters": [
+    {
+      "name": "Lee Zeldin",
+      "slug": "lee-zeldin",
+      "topics": [
+        "What is Lee Zeldin's background before becoming EPA Administrator?",
+        "What was Lee Zeldin's record in Congress on environmental issues?",
+        "What was Lee Zeldin's 2022 New York gubernatorial campaign?",
+        "What are Lee Zeldin's positions on environmental regulation?",
+        "What controversies or concerns surround Lee Zeldin's appointment?",
+        "How did Lee Zeldin's confirmation process unfold?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "environment"
+      ]
+    },
+    {
+      "name": "Previous Administrator",
+      "slug": "previous-administrator",
+      "topics": [
+        "Who was the previous (Biden) EPA Administrator and what was their tenure like?",
+        "How does Lee Zeldin's approach differ from his predecessor?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "environment"
+      ]
+    }
+  ]
+}

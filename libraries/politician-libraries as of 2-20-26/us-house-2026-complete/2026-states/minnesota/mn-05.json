@@ -1,0 +1,25 @@
+{
+  "book": "MN-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John Nagel (R)",
+        "Dalia al-Aqidi (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ilhan Omar (D)",
+        "Latonya Reeves (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "DeVelle Jackson (I)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "book": "IL-07",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Patricia Easley (R)",
+        "Chad Koppie (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Richard Boykin (D)",
+        "Kina Collins (D)",
+        "Melissa Conyears-Ervin (D)",
+        "Anthony Driver Jr. (D)",
+        "David Ehrlich (D)",
+        "Thomas Fisher (D)",
+        "La Shawn Ford (D)",
+        "Jason Friedman (D)",
+        "Rory Hoskins (D)",
+        "Anabel Mendoza (D)",
+        "Jazmin Robinson (D)",
+        "Reed Showalter (D)",
+        "Felix Tello (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Nathan Billips (I)",
+        "Anita Rao (I)"
+      ]
+    }
+  ]
+}

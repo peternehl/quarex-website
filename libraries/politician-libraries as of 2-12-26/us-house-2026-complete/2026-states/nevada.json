@@ -1,0 +1,60 @@
+{
+  "book": "Nevada",
+  "chapters": [
+    {
+      "name": "NV-01",
+      "topics": [
+        "Jim Blockey (R)",
+        "Michael Boris (R)",
+        "Carrie Buck (R)",
+        "Roy Gurner (R)",
+        "Keith Hanoff (R)",
+        "Bobby Khan (R)",
+        "Jim Marchant (R)",
+        "Dina Titus (D)",
+        "Gabriel Cornejo (D)",
+        "Alex Pereszlenyi (D)",
+        "J.E. Houston (I)"
+      ]
+    },
+    {
+      "name": "NV-02",
+      "topics": [
+        "Mark Amodei (R)",
+        "Rick Shepherd (R)",
+        "Kathy Durham (D)",
+        "Matthew Fonken (D)",
+        "Mark Jolle (D)",
+        "Morgan Wadsworth (D)",
+        "Samuel White (D)"
+      ]
+    },
+    {
+      "name": "NV-03",
+      "topics": [
+        "Tera Anderson (R)",
+        "Christopher Brandlin (R)",
+        "Jeff Gunter (R)",
+        "Ronda Kennedy (R)",
+        "Steve London (R)",
+        "Aury Nagy (R)",
+        "Marty O'Donnell (R)",
+        "Lucena Parker (R)",
+        "Joshua Walters (R)",
+        "Susie Lee (D)",
+        "Sean Hutchinson (D)",
+        "James Lally (D)",
+        "Terrill Robinson (D)"
+      ]
+    },
+    {
+      "name": "NV-04",
+      "topics": [
+        "David Flippo (R)",
+        "Aaron Hill (R)",
+        "Cody Whipple (R)",
+        "Steven Horsford (D)"
+      ]
+    }
+  ]
+}

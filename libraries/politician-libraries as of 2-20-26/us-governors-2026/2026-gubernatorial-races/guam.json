@@ -1,0 +1,20 @@
+{
+  "book": "Guam",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Vicente Ada (R)",
+        "Frank Blas Jr. (R)",
+        "Marcel Camacho (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Joe S. San Agustin (D)",
+        "Josh Tenorio (D)"
+      ]
+    }
+  ]
+}

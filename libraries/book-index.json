@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-18",
-  "count": 824,
+  "generated": "2026-02-23",
+  "count": 831,
   "books": [
     {
       "name": "¿Qué es el Feminismo?",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Aging, Loss & Personal Growth",
-      "path": "k/personal-and-life/life-transitions-and-growth/aging-loss-and-personal-growth",
+      "path": "pr/personal-and-life/life-transitions-and-growth/aging-loss-and-personal-growth",
       "library": "Personal And Life",
       "shelf": "Life Transitions And Growth",
       "chapters": 4
@@ -225,6 +225,13 @@
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "American Samoa",
+      "path": "c/us-house-2026-complete/2026-states/american-samoa",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
     },
     {
       "name": "American Samoa",
@@ -826,7 +833,7 @@
       "path": "pe/historical-narratives/civil-rights-movements/civil-rights-movement-in-the-us",
       "library": "Historical Narratives",
       "shelf": "Civil Rights Movements",
-      "chapters": 17
+      "chapters": 18
     },
     {
       "name": "Climate Change",
@@ -1177,6 +1184,13 @@
       "library": "Civil Infrastructures",
       "shelf": "Electrical Power Systems",
       "chapters": 7
+    },
+    {
+      "name": "District of Columbia",
+      "path": "c/us-house-2026-complete/2026-states/district-of-columbia",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
     },
     {
       "name": "Djibouti",
@@ -1627,6 +1641,13 @@
       "chapters": 4
     },
     {
+      "name": "Gerrymandering: How Lines on a Map Decide Elections",
+      "path": "e/current-events/domestic-politics/gerrymandering-how-lines-on-a-map-decide-elections",
+      "library": "Current Events",
+      "shelf": "Domestic Politics",
+      "chapters": 11
+    },
+    {
       "name": "Ghana",
       "path": "g/africa/countries/ghana",
       "library": "Africa",
@@ -1716,6 +1737,13 @@
       "library": "Us Governors 2026",
       "shelf": "2026 Gubernatorial Races",
       "chapters": 2
+    },
+    {
+      "name": "Guam",
+      "path": "c/us-house-2026-complete/2026-states/guam",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
     },
     {
       "name": "Guam",
@@ -1810,7 +1838,7 @@
     },
     {
       "name": "Health, Habits & Daily Energy",
-      "path": "k/personal-and-life/health-and-wellbeing/health-habits-and-daily-energy",
+      "path": "pr/personal-and-life/health-and-wellbeing/health-habits-and-daily-energy",
       "library": "Personal And Life",
       "shelf": "Health And Wellbeing",
       "chapters": 4
@@ -2783,7 +2811,7 @@
     },
     {
       "name": "Life Choices & Transitions",
-      "path": "k/personal-and-life/life-transitions-and-growth/life-choices-and-transitions",
+      "path": "pr/personal-and-life/life-transitions-and-growth/life-choices-and-transitions",
       "library": "Personal And Life",
       "shelf": "Life Transitions And Growth",
       "chapters": 4
@@ -3672,6 +3700,13 @@
     },
     {
       "name": "Northern Mariana Islands",
+      "path": "c/us-house-2026-complete/2026-states/northern-mariana-islands",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
+    },
+    {
+      "name": "Northern Mariana Islands",
       "path": "g/us-geography/states-and-territories/northern-mariana-islands",
       "library": "Us Geography",
       "shelf": "States And Territories",
@@ -3819,7 +3854,7 @@
     },
     {
       "name": "Overcoming Loneliness",
-      "path": "k/personal-and-life/health-and-wellbeing/overcoming-loneliness",
+      "path": "pr/personal-and-life/health-and-wellbeing/overcoming-loneliness",
       "library": "Personal And Life",
       "shelf": "Health And Wellbeing",
       "chapters": 10
@@ -4060,7 +4095,7 @@
       "path": "pe/cultural-and-identity/gay-rights/pride-and-politics-the-fight-for-lgbtq-equality",
       "library": "Cultural And Identity",
       "shelf": "Gay Rights",
-      "chapters": 12
+      "chapters": 13
     },
     {
       "name": "Printmaking: Processes and Practices",
@@ -4204,7 +4239,7 @@
     },
     {
       "name": "Relationships & Communication",
-      "path": "k/personal-and-life/relationships-and-communication/relationships-and-communication",
+      "path": "pr/personal-and-life/relationships-and-communication/relationships-and-communication",
       "library": "Personal And Life",
       "shelf": "Relationships And Communication",
       "chapters": 4
@@ -4217,18 +4252,18 @@
       "chapters": 10
     },
     {
-      "name": "Republic of the Congo",
-      "path": "g/africa/countries/republic-of-the-congo",
-      "library": "Africa",
-      "shelf": "Countries",
-      "chapters": 4
-    },
-    {
       "name": "Reproductive Rights and Bodily Autonomy",
       "path": "pe/cultural-and-identity/feminism-and-equality/reproductive-rights-and-bodily-autonomy",
       "library": "Cultural And Identity",
       "shelf": "Feminism And Equality",
       "chapters": 12
+    },
+    {
+      "name": "Republic of the Congo",
+      "path": "g/africa/countries/republic-of-the-congo",
+      "library": "Africa",
+      "shelf": "Countries",
+      "chapters": 4
     },
     {
       "name": "Responsible Use and Human Judgment",
@@ -5183,6 +5218,13 @@
       "chapters": 16
     },
     {
+      "name": "The US Intelligence Community",
+      "path": "i/security-infrastructures/intelligence/the-us-intelligence-community",
+      "library": "Security Infrastructures",
+      "shelf": "Intelligence",
+      "chapters": 10
+    },
+    {
       "name": "Thermodynamics and Heat",
       "path": "k/the-sciences/physical-sciences/thermodynamics-and-heat",
       "library": "The Sciences",
@@ -5405,6 +5447,13 @@
       "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
+    },
+    {
+      "name": "US Virgin Islands",
+      "path": "c/us-house-2026-complete/2026-states/us-virgin-islands",
+      "library": "Us House 2026 Complete",
+      "shelf": "2026 States",
+      "chapters": 1
     },
     {
       "name": "Utah",
@@ -5674,7 +5723,7 @@
     },
     {
       "name": "Work, Purpose & Identity",
-      "path": "k/personal-and-life/life-transitions-and-growth/work-purpose-and-identity",
+      "path": "pr/personal-and-life/life-transitions-and-growth/work-purpose-and-identity",
       "library": "Personal And Life",
       "shelf": "Life Transitions And Growth",
       "chapters": 4

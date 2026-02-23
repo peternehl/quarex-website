@@ -1,0 +1,173 @@
+[
+  {
+    "slug": "que-es-el-feminismo",
+    "name": "¿Qué es el Feminismo?",
+    "description": "Fundamentos, historia y teorías del movimiento feminista — desde la primera ola hasta hoy",
+    "chapterCount": 15,
+    "tags": [
+      "feminismo",
+      "igualdad de género",
+      "teoría feminista",
+      "interseccionalidad",
+      "derechos de la mujer"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "interseccionalidad-raza-genero-y-poder",
+    "name": "Interseccionalidad: Raza, Género y Poder",
+    "description": "Cómo raza, clase, género y otras identidades se cruzan para crear experiencias únicas de opresión y resistencia",
+    "chapterCount": 15,
+    "tags": [
+      "interseccionalidad",
+      "raza y género",
+      "teoría feminista",
+      "desigualdad estructural",
+      "feminismo inclusivo"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "como-el-aborto-se-convirtio-en-una-cuna-politica",
+    "name": "Cómo el Aborto se Convirtió en una Cuña Política",
+    "description": "La historia de cómo el aborto pasó de ser un tema médico a convertirse en una de las divisiones partidistas más profundas",
+    "chapterCount": 9,
+    "tags": [
+      "aborto",
+      "polarización política",
+      "derechos reproductivos",
+      "política estadounidense"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "feminismo-latinoamericano",
+    "name": "El Feminismo Latinoamericano",
+    "description": "Historia y luchas específicas del feminismo en América Latina — desde Sor Juana hasta Ni Una Menos",
+    "chapterCount": 14,
+    "tags": [
+      "feminismo",
+      "América Latina",
+      "movimientos sociales",
+      "derechos de la mujer"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "la-crisis-de-feminicidio",
+    "name": "La Crisis de Feminicidio en América Latina",
+    "description": "El asesinato de mujeres por razones de género — desde Ciudad Juárez hasta las protestas de Ni Una Menos",
+    "chapterCount": 14,
+    "tags": [
+      "feminicidio",
+      "violencia de género",
+      "impunidad",
+      "América Latina"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "las-madres-de-plaza-de-mayo",
+    "name": "Las Madres de Plaza de Mayo",
+    "description": "Cómo madres argentinas desafiaron la dictadura militar buscando a sus hijos desaparecidos",
+    "chapterCount": 12,
+    "tags": [
+      "derechos humanos",
+      "dictadura",
+      "Argentina",
+      "activismo"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "mujeres-lideres-de-america-latina",
+    "name": "Mujeres Líderes de América Latina",
+    "description": "Las mujeres que llegaron al poder político más alto en la región — presidentas, ministras y revolucionarias",
+    "chapterCount": 12,
+    "tags": [
+      "liderazgo político",
+      "mujeres en política",
+      "América Latina",
+      "poder"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "el-movimiento-de-las-trabajadoras-del-hogar",
+    "name": "El Movimiento de las Trabajadoras del Hogar",
+    "description": "La lucha por derechos laborales de las mujeres que trabajan en casas ajenas — invisibilizadas pero organizadas",
+    "chapterCount": 12,
+    "tags": [
+      "trabajo doméstico",
+      "derechos laborales",
+      "organización sindical",
+      "justicia económica"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "machismo-y-marianismo",
+    "name": "Machismo y Marianismo: Las Raíces Culturales",
+    "description": "Los sistemas culturales gemelos que definen los roles de género en América Latina",
+    "chapterCount": 12,
+    "tags": [
+      "machismo",
+      "marianismo",
+      "cultura",
+      "masculinidad"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "mujeres-migrantes",
+    "name": "Mujeres Migrantes: Historias de la Frontera",
+    "description": "Las experiencias específicas de las mujeres que migran — violencia en el camino, trabajo, familia dividida",
+    "chapterCount": 12,
+    "tags": [
+      "migración",
+      "frontera",
+      "derechos humanos",
+      "violencia de género"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "mujeres-indigenas-y-resistencia",
+    "name": "Mujeres Indígenas y Resistencia",
+    "description": "La triple opresión de las mujeres indígenas y su liderazgo en luchas por territorio y derechos",
+    "chapterCount": 12,
+    "tags": [
+      "mujeres indígenas",
+      "pueblos originarios",
+      "resistencia",
+      "derechos territoriales"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "las-maquiladoras-y-el-trabajo-de-la-mujer",
+    "name": "Las Maquiladoras y el Trabajo de la Mujer",
+    "description": "La explotación laboral en las fábricas de la frontera y la lucha de las trabajadoras",
+    "chapterCount": 12,
+    "tags": [
+      "maquiladoras",
+      "globalización",
+      "explotación laboral",
+      "frontera norte"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "salud-reproductiva-en-america-latina",
+    "name": "Salud Reproductiva en América Latina",
+    "description": "Aborto, anticoncepción, mortalidad materna y la lucha por los derechos reproductivos",
+    "chapterCount": 13,
+    "tags": [
+      "salud reproductiva",
+      "derechos reproductivos",
+      "mortalidad materna",
+      "aborto"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  }
+]

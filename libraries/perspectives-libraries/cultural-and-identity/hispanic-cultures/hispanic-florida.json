@@ -19,7 +19,12 @@
         "What other Hispanic populations existed in pre-1959 Florida?",
         "How did Florida's geography shape its Hispanic connections?"
       ],
-      "tags": ["history", "colonialism", "americas", "anthropology"]
+      "tags": [
+        "history",
+        "colonialism",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Cuban Transformation of Miami",
@@ -31,7 +36,12 @@
         "How did Miami become a bilingual, bicultural city?",
         "What non-Hispanic white flight occurred and why?"
       ],
-      "tags": ["history", "migration", "americas", "sociology"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Cuban Dominance and Its Discontents",
@@ -43,7 +53,12 @@
         "Is Cuban dominance in Miami declining?",
         "How do newer Cuban arrivals relate to established Cuban power?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Puerto Rican Florida: The I-4 Corridor",
@@ -56,7 +71,12 @@
         "How do Florida Puerto Ricans differ from New York Puerto Ricans?",
         "What communities have Puerto Ricans built in Central Florida?"
       ],
-      "tags": ["society", "migration", "americas", "sociology"]
+      "tags": [
+        "society",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Venezuelan Florida",
@@ -68,7 +88,12 @@
         "How have Venezuelans affected local economies?",
         "What tensions exist between Venezuelans and Cubans in Florida?"
       ],
-      "tags": ["society", "migration", "americas", "refugees"]
+      "tags": [
+        "hispanic-culture",
+        "migration",
+        "americas",
+        "refugees"
+      ]
     },
     {
       "name": "Colombian, Nicaraguan, and Other South Americans",
@@ -79,7 +104,12 @@
         "How do these communities relate to Cuban-dominated politics?",
         "What distinct cultural institutions serve these populations?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Mexican and Central American Florida",
@@ -90,7 +120,12 @@
         "What differences exist between South Florida and the rest of the state?",
         "How do Mexican and Central American Floridians compare to those elsewhere?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Language in Hispanic Florida",
@@ -102,7 +137,12 @@
         "How do different Hispanic groups' Spanish varieties interact?",
         "Is Miami Spanish developing its own characteristics?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Florida's Hispanic Economy",
@@ -114,7 +154,12 @@
         "What industries employ Hispanic Floridians?",
         "How do Hispanic entrepreneurs shape Florida's economy?"
       ],
-      "tags": ["economics", "development", "americas", "trade"]
+      "tags": [
+        "economics",
+        "development",
+        "americas",
+        "trade"
+      ]
     },
     {
       "name": "Florida's Hispanic Politics",
@@ -127,7 +172,12 @@
         "Why did Hispanic Floridians shift in recent elections?",
         "What issues mobilize different Hispanic groups in Florida?"
       ],
-      "tags": ["politics", "representation", "americas", "elections"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "elections"
+      ]
     },
     {
       "name": "Culture and Community Life",
@@ -138,7 +188,12 @@
         "How does Florida's Hispanic culture differ from other regions?",
         "What food, music, and art characterize Hispanic Florida?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "sociology"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Future of Hispanic Florida",
@@ -150,7 +205,12 @@
         "How are younger Hispanic Floridians forming identity?",
         "What is the future of Hispanic Florida's cultural distinctiveness?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

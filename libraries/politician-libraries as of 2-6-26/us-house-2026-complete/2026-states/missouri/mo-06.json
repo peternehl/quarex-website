@@ -1,0 +1,20 @@
+{
+  "book": "MO-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Sam Graves (R)",
+        "Jim Ingram (R)",
+        "Gena Ross (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Matthew Levine (D)",
+        "Josh Smead (D)"
+      ]
+    }
+  ]
+}

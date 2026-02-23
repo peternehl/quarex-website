@@ -1,0 +1,35 @@
+{
+  "book": "Minnesota",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Peggy Bennett (R)",
+        "Lisa Demuth (R)",
+        "Thomas Evenstad (R)",
+        "Scott Jensen (R)",
+        "Jeff Johnson (R)",
+        "Patrick Knight (R)",
+        "Brad Kohler (R)",
+        "John Krhin (R)",
+        "Mike Lindell (R)",
+        "Phillip Parrish (R)",
+        "Kendall Qualls (R)",
+        "Kristin Robbins (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Amy Klobuchar (D)",
+        "Christopher Seymore (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Mike Newcome (I)"
+      ]
+    }
+  ]
+}

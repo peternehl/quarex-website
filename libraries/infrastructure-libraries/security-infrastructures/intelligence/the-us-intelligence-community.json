@@ -1,0 +1,183 @@
+{
+  "name": "The US Intelligence Community",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "security",
+    "governance",
+    "surveillance",
+    "us-politics",
+    "cybersecurity"
+  ],
+  "chapters": [
+    {
+      "name": "The Intelligence Community Structure",
+      "topics": [
+        "Which 18 agencies make up the US Intelligence Community and when was each established?",
+        "How did the National Security Act of 1947 reshape American intelligence after World War II?",
+        "What specific powers does the Director of National Intelligence have over agency budgets and personnel?",
+        "How much does the US spend annually on intelligence, and how is the $90+ billion black budget divided?",
+        "What are the differences between Top Secret, SCI, and SAP clearances?",
+        "How does CIA recruiting differ from NSA technical hiring pipelines?"
+      ],
+      "tags": [
+        "politics",
+        "security",
+        "governance",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Central Intelligence Agency (CIA)",
+      "topics": [
+        "What specific legal authority does the CIA derive from the National Security Act and Executive Order 12333?",
+        "How do the Directorate of Operations and Directorate of Analysis divide CIA's mission?",
+        "What tradecraft do CIA case officers use to recruit and handle foreign assets?",
+        "Name three CIA covert operations that shaped Cold War history.",
+        "How did the 2004 Intelligence Reform Act reduce CIA's primacy in the Intelligence Community?",
+        "What did the Senate torture report reveal about CIA detention and interrogation after 9/11?"
+      ],
+      "tags": [
+        "politics",
+        "security",
+        "diplomacy",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "National Security Agency (NSA)",
+      "topics": [
+        "How does NSA's signals intelligence mission differ from CIA's human intelligence focus?",
+        "What is the PRISM program and which tech companies participated?",
+        "How did Edward Snowden's 2013 disclosures change public understanding of NSA surveillance?",
+        "What is Section 702 of FISA and why do civil liberties groups oppose its reauthorization?",
+        "How does NSA's Cyber Command dual-hat arrangement work?",
+        "What role does NSA play in protecting classified government communications systems?"
+      ],
+      "tags": [
+        "technology",
+        "security",
+        "surveillance",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Federal Bureau of Investigation (FBI)",
+      "topics": [
+        "How did the FBI transform from a law enforcement agency to an intelligence agency after 9/11?",
+        "What is the FBI's National Security Branch and when was it created?",
+        "How does the FBI use National Security Letters and why are they controversial?",
+        "Name three FBI counterintelligence failures that exposed American secrets to foreign powers.",
+        "What is the FISA Court's role in approving FBI surveillance of Americans?",
+        "How did the FBI's handling of the Trump-Russia investigation damage its credibility?"
+      ],
+      "tags": [
+        "law",
+        "security",
+        "governance",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Military Intelligence Agencies",
+      "topics": [
+        "What unique intelligence does the Defense Intelligence Agency provide that CIA cannot?",
+        "How do the service intelligence agencies (Army G-2, ONI, Air Force A-2) support combat operations?",
+        "What satellite imagery capabilities does the National Geospatial-Intelligence Agency provide?",
+        "How does the National Reconnaissance Office design and operate spy satellites costing billions?",
+        "What tactical signals intelligence do military units collect in combat zones?",
+        "How did intelligence failures contribute to the Iraq WMD debacle?"
+      ],
+      "tags": [
+        "conflict",
+        "security",
+        "governance",
+        "surveillance"
+      ]
+    },
+    {
+      "name": "Intelligence Coordination After 9/11",
+      "topics": [
+        "Why did the 9/11 Commission conclude that agency rivalry prevented connecting the dots before the attacks?",
+        "What specific reforms did the Intelligence Reform and Terrorism Prevention Act of 2004 mandate?",
+        "How does the National Counterterrorism Center coordinate threat information across agencies?",
+        "What is the Terrorist Screening Database and how did the no-fly list grow after 9/11?",
+        "How do state fusion centers share intelligence with federal agencies?",
+        "What barriers still prevent seamless information sharing between CIA and FBI?"
+      ],
+      "tags": [
+        "politics",
+        "governance",
+        "security",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Congressional Oversight",
+      "topics": [
+        "How do the House and Senate Intelligence Committees differ in their oversight approaches?",
+        "What did the Church Committee expose about CIA and FBI abuses in the 1970s?",
+        "Why did Congress fail to detect the CIA torture program for years?",
+        "What whistleblower protections exist for intelligence employees who report wrongdoing?",
+        "How did Senator Feinstein's conflict with CIA over the torture report unfold?",
+        "What budget oversight does Congress actually exercise over classified programs?"
+      ],
+      "tags": [
+        "politics",
+        "accountability",
+        "governance",
+        "us-politics"
+      ]
+    },
+    {
+      "name": "Intelligence and Civil Liberties",
+      "topics": [
+        "How does the Fourth Amendment's warrant requirement apply to foreign intelligence collection?",
+        "What is the incidental collection problem and why does it affect Americans' privacy?",
+        "How did the USA FREEDOM Act change bulk metadata collection after Snowden?",
+        "What role does the Privacy and Civil Liberties Oversight Board play in reviewing surveillance?",
+        "Name three Supreme Court cases that shaped the legal boundaries of intelligence collection.",
+        "What reforms have civil liberties groups proposed for Section 702 reauthorization?"
+      ],
+      "tags": [
+        "law",
+        "privacy",
+        "human-rights",
+        "surveillance"
+      ]
+    },
+    {
+      "name": "Cyber Intelligence and Modern Threats",
+      "topics": [
+        "How did Russian hackers penetrate the DNC and what did the Intelligence Community conclude about 2016 election interference?",
+        "What cyber capabilities did the SolarWinds hack reveal about Russian intelligence?",
+        "How does China's Ministry of State Security conduct cyber espionage against US targets?",
+        "What is the Five Eyes alliance and how do partner nations share signals intelligence?",
+        "How did the Intelligence Community assess the COVID-19 origins and lab leak hypothesis?",
+        "What threats do intelligence agencies identify from AI and emerging technologies?"
+      ],
+      "tags": [
+        "technology",
+        "security",
+        "cyber-warfare",
+        "cybersecurity"
+      ]
+    },
+    {
+      "name": "Intelligence Failures and Accountability",
+      "topics": [
+        "How did the Intelligence Community fail to predict the fall of the Soviet Union?",
+        "What specific analytic failures led to the Iraq WMD intelligence disaster?",
+        "Why did intelligence agencies miss the Arab Spring uprisings?",
+        "How did the CIA's failure to share information contribute to the Benghazi attack?",
+        "What accountability followed the torture program revelations?",
+        "Why do intelligence failures rarely result in firings or structural reform?"
+      ],
+      "tags": [
+        "politics",
+        "accountability",
+        "governance",
+        "us-politics"
+      ]
+    }
+  ]
+}

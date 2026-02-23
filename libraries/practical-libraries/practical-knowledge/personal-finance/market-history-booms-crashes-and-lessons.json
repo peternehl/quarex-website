@@ -1,0 +1,126 @@
+{
+  "name": "Market History: Booms, Crashes, and Lessons",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Why History Matters for Investors",
+      "topics": [
+        "Why should regular investors study market history?",
+        "What patterns repeat across different eras and countries?",
+        "How does knowing history help you survive future crashes?",
+        "What can't history tell us about what will happen next?",
+        "Why does each generation think 'this time is different'?",
+        "What is the long-term track record of stock market returns?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "modern-history"]
+    },
+    {
+      "name": "The Great Crash of 1929",
+      "topics": [
+        "What drove the stock market boom of the 1920s?",
+        "How did margin lending amplify both gains and losses?",
+        "What happened during the crash of October 1929?",
+        "How long did it take the market to recover to 1929 levels?",
+        "What lessons from 1929 are still relevant today?",
+        "How did the crash contribute to the Great Depression?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "modern-history"]
+    },
+    {
+      "name": "Post-War Prosperity and the Go-Go Years",
+      "topics": [
+        "How did America's post-war economy create a new investor class?",
+        "What were the 'go-go years' of the 1960s?",
+        "What was the 'Nifty Fifty' and why did it fail?",
+        "How did the 1970s stagflation devastate stock investors?",
+        "What did 1973-74 teach investors about bear markets?",
+        "How long was the 'lost decade' from 1968 to 1982?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "modern-history"]
+    },
+    {
+      "name": "Black Monday: October 1987",
+      "topics": [
+        "What happened on October 19, 1987?",
+        "How did the market lose 22% in a single day?",
+        "What role did program trading play in the crash?",
+        "Why did the market recover so quickly after 1987?",
+        "What circuit breakers were created after Black Monday?",
+        "What would you have earned if you bought at the bottom?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "algorithms"]
+    },
+    {
+      "name": "The Dot-Com Bubble",
+      "topics": [
+        "What drove the technology stock mania of the late 1990s?",
+        "Why did companies with no profits have billion-dollar valuations?",
+        "What was it like to watch the NASDAQ rise 400% in five years?",
+        "How did the bubble pop in 2000-2002?",
+        "What happened to investors who bought tech stocks at the peak?",
+        "What lessons about speculation came from the dot-com era?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "modern-history"]
+    },
+    {
+      "name": "The 2008 Financial Crisis",
+      "topics": [
+        "What caused the housing bubble and subprime mortgage crisis?",
+        "How did mortgage problems become a global financial crisis?",
+        "What was it like to watch the market fall 50% in 18 months?",
+        "Why did the government bail out banks and AIG?",
+        "How long did it take investors to recover their losses?",
+        "What regulations changed after 2008, and have they prevented another crisis?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "housing"]
+    },
+    {
+      "name": "The COVID Crash and Recovery",
+      "topics": [
+        "How fast did markets fall when COVID hit in March 2020?",
+        "Why did the market recover faster than anyone expected?",
+        "What role did the Federal Reserve and stimulus play in the recovery?",
+        "What happened to meme stocks, crypto, and SPACs in 2020-2021?",
+        "How did the 2022 bear market follow the speculative excess?",
+        "What did COVID teach us about market unpredictability?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "monetary-policy"]
+    },
+    {
+      "name": "Bull Markets: How Long Do the Good Times Last?",
+      "topics": [
+        "What defines a bull market and how long do they typically last?",
+        "What was the great bull market of 1982-2000?",
+        "What was the 2009-2020 bull market like to live through?",
+        "Why do people forget bear markets exist during bull runs?",
+        "What signs suggest a bull market is getting old?",
+        "Should you try to predict when bull markets will end?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "prediction"]
+    },
+    {
+      "name": "Bear Markets: Surviving the Downturns",
+      "topics": [
+        "What defines a bear market and how often do they happen?",
+        "How long do bear markets typically last?",
+        "What does it feel like to lose 30-50% of your portfolio?",
+        "Why do most investors sell at or near the bottom?",
+        "What strategies help you hold through bear markets?",
+        "How much have investors earned by staying invested through every crash?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "The Long View: 100 Years of Returns",
+      "topics": [
+        "What have stocks returned over the past century?",
+        "How does inflation affect those nominal returns?",
+        "What is the equity risk premium and why does it exist?",
+        "Why have stocks beaten bonds, gold, and cash over time?",
+        "What are realistic return expectations going forward?",
+        "What does the historical record tell us about patience?"
+      ],
+      "tags": ["history", "finance", "personal-finance", "data-analytics"]
+    }
+  ]
+}

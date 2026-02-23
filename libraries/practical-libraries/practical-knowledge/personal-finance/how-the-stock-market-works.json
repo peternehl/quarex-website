@@ -1,0 +1,127 @@
+{
+  "name": "How the Stock Market Works",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is a Stock Market?",
+      "topics": [
+        "Why do stock markets exist and what problem do they solve?",
+        "How did stock markets evolve from coffee houses to electronic exchanges?",
+        "What's the difference between primary markets (IPOs) and secondary markets (trading)?",
+        "Why do companies 'go public' and sell shares to strangers?",
+        "What role does the stock market play in the broader economy?",
+        "How big is the US stock market compared to the rest of the world?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "The Major Exchanges",
+      "topics": [
+        "What is the New York Stock Exchange and why does it still matter?",
+        "How does NASDAQ differ from the NYSE?",
+        "What are the major international exchanges—London, Tokyo, Shanghai?",
+        "What does it mean for a company to be 'listed' on an exchange?",
+        "Why do some companies choose one exchange over another?",
+        "What are OTC (over-the-counter) markets and penny stocks?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "globalization"]
+    },
+    {
+      "name": "What Happens When You Click 'Buy'",
+      "topics": [
+        "What is a broker and why do you need one?",
+        "How does your order travel from your phone to the exchange?",
+        "What are market makers and why do they exist?",
+        "What's the difference between a market order and a limit order?",
+        "Why is there a 'bid' price and an 'ask' price?",
+        "What is the 'spread' and why does it cost you money?",
+        "How fast do trades actually execute today?"
+      ],
+      "tags": ["technology", "finance", "personal-finance", "algorithms"]
+    },
+    {
+      "name": "Stock Indices Explained",
+      "topics": [
+        "What is a stock index and why should you care?",
+        "What companies are in the S&P 500 and how are they chosen?",
+        "How is the Dow Jones Industrial Average different from the S&P 500?",
+        "What is the NASDAQ Composite and why is it tech-heavy?",
+        "What do international indices like the FTSE and Nikkei tell us?",
+        "Why do people say 'the market was up today' when they mean an index?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "measurement"]
+    },
+    {
+      "name": "Trading Hours, Halts, and Circuit Breakers",
+      "topics": [
+        "When is the stock market open and why those specific hours?",
+        "What happens to your order if you place it at night or on weekends?",
+        "What is pre-market and after-hours trading?",
+        "Why do exchanges halt trading on individual stocks?",
+        "What are circuit breakers and when do they trigger market-wide halts?",
+        "What happened during famous flash crashes?"
+      ],
+      "tags": ["economics", "regulation", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Who Else Is Trading?",
+      "topics": [
+        "What percentage of trading is done by individual investors vs institutions?",
+        "What are hedge funds and how do they trade differently?",
+        "What is high-frequency trading and should you worry about it?",
+        "How do pension funds and mutual funds affect markets?",
+        "What is algorithmic trading and is it competing against you?",
+        "Does the 'little guy' have any advantages over big players?"
+      ],
+      "tags": ["economics", "inequality", "personal-finance", "algorithms"]
+    },
+    {
+      "name": "How Stock Prices Move",
+      "topics": [
+        "What actually causes a stock price to go up or down?",
+        "How do supply and demand determine prices in real-time?",
+        "Why do stocks often jump or drop on earnings announcements?",
+        "How does news—economic, political, company-specific—affect prices?",
+        "What is 'market sentiment' and can it be measured?",
+        "Why do stocks sometimes move for no apparent reason?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "behavioral-psychology"]
+    },
+    {
+      "name": "Reading Stock Quotes and Charts",
+      "topics": [
+        "How do you read a basic stock quote?",
+        "What do the ticker symbol, price, and volume tell you?",
+        "What is market capitalization and why does it matter?",
+        "How do you read a basic price chart?",
+        "What are candlestick charts and why do traders use them?",
+        "Should regular investors pay attention to charts at all?"
+      ],
+      "tags": ["economics", "analysis", "personal-finance", "data-analytics"]
+    },
+    {
+      "name": "Regulation and Investor Protection",
+      "topics": [
+        "What is the SEC and what does it actually do?",
+        "What is insider trading and why is it illegal?",
+        "How does FINRA regulate brokers?",
+        "What protections does SIPC insurance provide?",
+        "What happened to investor protections after 2008?",
+        "What should you do if you think you've been defrauded?"
+      ],
+      "tags": ["law", "regulation", "personal-finance", "us-politics"]
+    },
+    {
+      "name": "Common Misconceptions About the Market",
+      "topics": [
+        "Is the stock market really a 'casino'?",
+        "Do you need to watch the market constantly to invest?",
+        "Is it true that you can 'time the market' if you're smart enough?",
+        "Does a rising stock market mean the economy is doing well?",
+        "Are stocks only for rich people?",
+        "What does it really mean when people say the market is 'rigged'?"
+      ],
+      "tags": ["economics", "critical-thinking", "personal-finance", "cognitive-bias"]
+    }
+  ]
+}

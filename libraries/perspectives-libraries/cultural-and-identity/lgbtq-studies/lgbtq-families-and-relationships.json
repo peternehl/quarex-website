@@ -1,0 +1,127 @@
+{
+  "name": "LGBTQ+ Families and Relationships",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ families", "chosen family", "adoption", "marriage equality", "parenting"],
+  "chapters": [
+    {
+      "name": "Chosen Family: Queer Kinship Beyond Biology",
+      "topics": [
+        "What is chosen family and why is it so important in LGBTQ+ communities?",
+        "How did chosen family emerge as a survival strategy for rejected LGBTQ+ people?",
+        "How do houses in Ballroom culture function as chosen family?",
+        "What roles do mentors, elders, and community members play as chosen family?",
+        "How does chosen family complement or substitute for biological family?",
+        "What legal recognition exists for chosen family relationships?"
+      ],
+      "tags": ["sociology", "lgbtq", "family", "community"]
+    },
+    {
+      "name": "Same-Sex Couples: Relationship Dynamics",
+      "topics": [
+        "What does research show about same-sex couple relationship quality?",
+        "How do same-sex couples navigate household labor and decision-making?",
+        "What unique strengths do same-sex couples bring to relationships?",
+        "How do same-sex couples handle conflict and communication?",
+        "What challenges do same-sex couples face from external stigma?",
+        "How do long-term same-sex couples maintain their relationships?"
+      ],
+      "tags": ["psychology", "lgbtq", "relationships", "family"]
+    },
+    {
+      "name": "Marriage After Obergefell",
+      "topics": [
+        "How has marriage equality changed life for same-sex couples?",
+        "What legal and financial benefits does marriage provide?",
+        "How have wedding industries and traditions adapted to same-sex couples?",
+        "What debates exist within LGBTQ+ communities about marriage as a goal?",
+        "How do religious same-sex couples find affirming spaces to marry?",
+        "What happens to marriages if Obergefell were ever overturned?"
+      ],
+      "tags": ["law", "lgbtq", "marriage", "civil-rights"]
+    },
+    {
+      "name": "LGBTQ+ Parenting: Research and Realities",
+      "topics": [
+        "What does decades of research say about children of LGBTQ+ parents?",
+        "How do children of same-sex parents fare on developmental measures?",
+        "What unique challenges do children of LGBTQ+ parents face from stigma?",
+        "How do LGBTQ+ parents talk to their children about their families?",
+        "What support networks exist for LGBTQ+ families?",
+        "How are schools becoming more inclusive of children with LGBTQ+ parents?"
+      ],
+      "tags": ["psychology", "lgbtq", "family", "child-development"]
+    },
+    {
+      "name": "Paths to Parenthood: Adoption",
+      "topics": [
+        "How have adoption rights for LGBTQ+ people evolved?",
+        "What barriers still exist for LGBTQ+ people seeking to adopt?",
+        "How does second-parent or co-parent adoption protect LGBTQ+ families?",
+        "What role do religious agencies play in adoption—and what happens when they refuse?",
+        "How do international adoption policies affect LGBTQ+ prospective parents?",
+        "What unique considerations arise in LGBTQ+ foster parenting?"
+      ],
+      "tags": ["law", "lgbtq", "family", "civil-rights"]
+    },
+    {
+      "name": "Paths to Parenthood: Assisted Reproduction",
+      "topics": [
+        "How do lesbian couples use donor insemination to become parents?",
+        "What is reciprocal IVF and why do some couples choose it?",
+        "How do gay men become parents through surrogacy?",
+        "What legal complexities arise in surrogacy arrangements?",
+        "How do LGBTQ+ parents navigate relationships with donors and surrogates?",
+        "What are the costs and accessibility barriers in assisted reproduction?"
+      ],
+      "tags": ["medicine", "lgbtq", "family", "reproduction"]
+    },
+    {
+      "name": "Transgender Parents and Families",
+      "topics": [
+        "How do transgender people navigate existing parent-child relationships during transition?",
+        "What do children of transgender parents experience?",
+        "How do custody disputes affect transgender parents?",
+        "What fertility options exist for transgender people who want biological children?",
+        "How do families adjust when a parent transitions?",
+        "What support resources exist for families with transgender parents?"
+      ],
+      "tags": ["lgbtq", "gender", "family", "psychology"]
+    },
+    {
+      "name": "Polyamory and Non-Traditional Relationship Structures",
+      "topics": [
+        "What is polyamory and how is it practiced?",
+        "How do polyamorous relationships intersect with LGBTQ+ communities?",
+        "What legal recognition exists for relationships with more than two partners?",
+        "How do polyamorous families raise children?",
+        "What challenges do polyamorous people face from stigma?",
+        "How are conversations about ethical non-monogamy evolving?"
+      ],
+      "tags": ["sociology", "lgbtq", "relationships", "ethics"]
+    },
+    {
+      "name": "Family Rejection and Reconciliation",
+      "topics": [
+        "How common is family rejection of LGBTQ+ people?",
+        "What impact does family rejection have on LGBTQ+ youth and adults?",
+        "What leads some families to reject their LGBTQ+ members?",
+        "How do some families move from rejection to acceptance?",
+        "What organizations help families of LGBTQ+ people (like PFLAG)?",
+        "What boundaries and self-protection are appropriate when families don't accept?"
+      ],
+      "tags": ["psychology", "lgbtq", "family", "mental-health"]
+    },
+    {
+      "name": "Legal Protections for LGBTQ+ Families",
+      "topics": [
+        "What legal documents should LGBTQ+ families have in place?",
+        "How do state laws vary in recognizing LGBTQ+ parental rights?",
+        "What happens when LGBTQ+ families cross state lines?",
+        "How do custody laws treat LGBTQ+ parents differently?",
+        "What estate planning considerations affect LGBTQ+ families?",
+        "How are advocacy organizations working to strengthen LGBTQ+ family protections?"
+      ],
+      "tags": ["law", "lgbtq", "family", "civil-rights"]
+    }
+  ]
+}

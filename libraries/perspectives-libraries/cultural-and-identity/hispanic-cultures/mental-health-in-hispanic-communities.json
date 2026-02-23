@@ -19,7 +19,12 @@
         "What protective factors support Hispanic mental wellness?",
         "Why is Hispanic mental health understudied?"
       ],
-      "tags": ["health", "identity", "americas", "mental-health"]
+      "tags": [
+        "health",
+        "hispanic-culture",
+        "americas",
+        "mental-health"
+      ]
     },
     {
       "name": "Stigma and Cultural Barriers",
@@ -31,7 +36,12 @@
         "What generational differences exist in mental health attitudes?",
         "How can stigma be reduced in Hispanic communities?"
       ],
-      "tags": ["health", "culture", "americas", "mental-health"]
+      "tags": [
+        "health",
+        "culture",
+        "americas",
+        "mental-health"
+      ]
     },
     {
       "name": "Depression and Anxiety",
@@ -43,7 +53,12 @@
         "What gender differences exist in Hispanic depression and anxiety?",
         "How are depression and anxiety treated in Hispanic communities?"
       ],
-      "tags": ["health", "psychology", "americas", "depression"]
+      "tags": [
+        "health",
+        "psychology",
+        "americas",
+        "depression"
+      ]
     },
     {
       "name": "Immigration and Trauma",
@@ -55,7 +70,12 @@
         "What is post-migration stress syndrome?",
         "How should providers approach immigration-related trauma?"
       ],
-      "tags": ["health", "migration", "americas", "trauma"]
+      "tags": [
+        "health",
+        "migration",
+        "americas",
+        "trauma"
+      ]
     },
     {
       "name": "The Fear of Living Undocumented",
@@ -67,7 +87,12 @@
         "What coping mechanisms do undocumented people develop?",
         "How can mental health services reach undocumented individuals?"
       ],
-      "tags": ["health", "migration", "americas", "immigration"]
+      "tags": [
+        "health",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Youth Mental Health",
@@ -79,7 +104,12 @@
         "What peer and family pressures affect Hispanic young people?",
         "What interventions work for Hispanic youth mental health?"
       ],
-      "tags": ["health", "youth", "americas", "adolescent-health"]
+      "tags": [
+        "health",
+        "youth",
+        "americas",
+        "adolescent-health"
+      ]
     },
     {
       "name": "Substance Abuse",
@@ -91,7 +121,12 @@
         "What treatment barriers exist for Hispanic substance abuse?",
         "What culturally appropriate treatment programs work?"
       ],
-      "tags": ["health", "addiction", "americas", "substance-abuse"]
+      "tags": [
+        "health",
+        "addiction",
+        "americas",
+        "substance-abuse"
+      ]
     },
     {
       "name": "Access to Mental Health Services",
@@ -103,7 +138,12 @@
         "Where do Hispanics seek mental health help?",
         "How can access to mental health services be improved?"
       ],
-      "tags": ["health", "inequality", "americas", "healthcare-access"]
+      "tags": [
+        "health",
+        "inequality",
+        "americas",
+        "healthcare-access"
+      ]
     },
     {
       "name": "Culturally Competent Care",
@@ -115,7 +155,12 @@
         "What therapeutic adaptations work for Hispanic populations?",
         "What training do mental health providers need?"
       ],
-      "tags": ["health", "culture", "americas", "therapy"]
+      "tags": [
+        "health",
+        "culture",
+        "americas",
+        "therapy"
+      ]
     },
     {
       "name": "Family and Community Support",
@@ -127,7 +172,12 @@
         "What peer support networks exist?",
         "How can communities reduce mental health stigma?"
       ],
-      "tags": ["health", "family", "americas", "community-support"]
+      "tags": [
+        "health",
+        "family",
+        "americas",
+        "community-support"
+      ]
     },
     {
       "name": "Traditional and Alternative Approaches",
@@ -139,7 +189,12 @@
         "How can Western and traditional approaches be integrated?",
         "What research exists on Hispanic alternative mental health practices?"
       ],
-      "tags": ["health", "tradition", "americas", "alternative-medicine"]
+      "tags": [
+        "health",
+        "tradition",
+        "americas",
+        "alternative-medicine"
+      ]
     },
     {
       "name": "Building Mental Wellness",
@@ -151,7 +206,12 @@
         "What policy changes would improve Hispanic mental health?",
         "What is the future of Hispanic mental health in America?"
       ],
-      "tags": ["health", "wellness", "americas", "prevention"]
+      "tags": [
+        "health",
+        "wellness",
+        "americas",
+        "prevention"
+      ]
     }
   ]
 }

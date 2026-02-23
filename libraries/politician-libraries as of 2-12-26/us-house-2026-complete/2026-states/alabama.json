@@ -1,0 +1,70 @@
+{
+  "book": "Alabama",
+  "chapters": [
+    {
+      "name": "AL-01",
+      "topics": [
+        "Jerry Carl (R)",
+        "James Dees (R)",
+        "Rhett Marques (R)",
+        "Joshua McKee (R)",
+        "John Mills (R)",
+        "James Richardson (R)",
+        "Austin Sidwell (R)",
+        "Clyde Jones (D)"
+      ]
+    },
+    {
+      "name": "AL-02",
+      "topics": [
+        "Hampton Harris (R)",
+        "Jarmal Jabbar Sanders (R)",
+        "Shomari Figures (D)"
+      ]
+    },
+    {
+      "name": "AL-03",
+      "topics": [
+        "Mike Rogers (R)",
+        "Draic Coakley (R)",
+        "Terri LaPoint (R)",
+        "Lee McInnis (D)"
+      ]
+    },
+    {
+      "name": "AL-04",
+      "topics": [
+        "Robert Aderholt (R)",
+        "Tommy Barnes (R)",
+        "Amanda Pusczek (D)",
+        "Shane Weaver (D)"
+      ]
+    },
+    {
+      "name": "AL-05",
+      "topics": [
+        "Dale Strong (R)",
+        "Joseph Terry (R)",
+        "Jeremy Devito (D)",
+        "Candice Duvieilh (D)",
+        "Greg Howard (D)",
+        "Andrew Sneed (D)"
+      ]
+    },
+    {
+      "name": "AL-06",
+      "topics": [
+        "Gary Palmer (R)",
+        "Case Dixon (R)",
+        "Elizabeth Anderson (D)",
+        "Keith Pilkington (D)"
+      ]
+    },
+    {
+      "name": "AL-07",
+      "topics": [
+        "Terri Sewell (D)"
+      ]
+    }
+  ]
+}

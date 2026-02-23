@@ -1,0 +1,36 @@
+{
+  "book": "Wisconsin",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Andrew Manske (R)",
+        "Josh Schoemann (R)",
+        "Tom Tiffany (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mandela Barnes (D)",
+        "Joel Brennan (D)",
+        "David Crowley (D)",
+        "Francesca Hong (D)",
+        "Missy Hughes (D)",
+        "Brett Hulsey (D)",
+        "Sara Rodriguez (D)",
+        "Zachary Roper (D)",
+        "Kelda Roys (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Oliver Carranza (I)",
+        "Crystal Harper (I)",
+        "David King (I)",
+        "Mike Kohn (I)"
+      ]
+    }
+  ]
+}

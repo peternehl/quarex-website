@@ -1,0 +1,127 @@
+{
+  "name": "Queer Theory: Key Thinkers and Concepts",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["queer theory", "Judith Butler", "Michel Foucault", "gender performativity", "LGBTQ+"],
+  "chapters": [
+    {
+      "name": "What Is Queer Theory?",
+      "topics": [
+        "How does queer theory differ from gay and lesbian studies?",
+        "What does it mean to 'queer' something—a text, a concept, an institution?",
+        "Why does queer theory challenge categories like 'gay' and 'straight'?",
+        "How did queer theory emerge from poststructuralism and feminist theory?",
+        "What is the relationship between queer theory and political activism?",
+        "Why do some LGBTQ+ people reject queer theory as too academic or abstract?"
+      ],
+      "tags": ["philosophy", "theory", "lgbtq", "postmodernism"]
+    },
+    {
+      "name": "Michel Foucault: Power, Knowledge, and the History of Sexuality",
+      "topics": [
+        "What did Foucault mean by 'the history of sexuality'?",
+        "How did Foucault argue that 'the homosexual' was invented in the 19th century?",
+        "What is the 'repressive hypothesis' and why did Foucault reject it?",
+        "How does Foucault's concept of 'biopower' apply to sexuality?",
+        "What did Foucault mean by saying power is productive, not just repressive?",
+        "How has Foucault's work been both celebrated and criticized in LGBTQ+ studies?"
+      ],
+      "tags": ["philosophy", "theory", "history", "european-philosophy"]
+    },
+    {
+      "name": "Judith Butler: Gender Performativity and Bodies That Matter",
+      "topics": [
+        "What does Butler mean when they say gender is 'performative'?",
+        "How is performativity different from performance or role-playing?",
+        "What is the 'heterosexual matrix' and how does it constrain gender?",
+        "How does Butler's work challenge the sex/gender distinction?",
+        "What does Butler mean by 'bodies that matter' and 'abject bodies'?",
+        "How has Butler's work influenced transgender studies and activism?"
+      ],
+      "tags": ["philosophy", "theory", "gender", "feminism"]
+    },
+    {
+      "name": "Eve Kosofsky Sedgwick: The Epistemology of the Closet",
+      "topics": [
+        "What does Sedgwick mean by 'the epistemology of the closet'?",
+        "How does Sedgwick argue that the closet shapes all knowledge, not just gay identity?",
+        "What is the difference between 'minoritizing' and 'universalizing' views of homosexuality?",
+        "How does Sedgwick analyze the instability of the homo/heterosexual distinction?",
+        "What role does shame play in Sedgwick's understanding of queer experience?",
+        "How did Sedgwick's work reshape the study of literature and culture?"
+      ],
+      "tags": ["philosophy", "theory", "lgbtq", "literary-arts"]
+    },
+    {
+      "name": "José Esteban Muñoz: Queer Futurity and Disidentification",
+      "topics": [
+        "What does Muñoz mean by 'disidentification'?",
+        "How do queer people of color navigate dominant culture through disidentification?",
+        "What is 'queer futurity' and how does it challenge pragmatic gay politics?",
+        "Why did Muñoz argue that 'queerness is not yet here'?",
+        "How does Muñoz's work critique homonormativity and assimilation?",
+        "What role does utopian thinking play in Muñoz's vision of queer politics?"
+      ],
+      "tags": ["philosophy", "theory", "lgbtq", "race"]
+    },
+    {
+      "name": "Queer of Color Critique: Roderick Ferguson and Beyond",
+      "topics": [
+        "What is queer of color critique and how does it challenge mainstream queer theory?",
+        "How does Ferguson's 'Aberrations in Black' connect race, sexuality, and capitalism?",
+        "Why do queer of color scholars argue that race and sexuality cannot be separated?",
+        "How has the LGBTQ+ movement been complicit in white supremacy and nationalism?",
+        "What is 'homonationalism' and how does it operate?",
+        "How do scholars like Cathy Cohen reimagine queer politics around shared marginalization?"
+      ],
+      "tags": ["philosophy", "theory", "lgbtq", "race"]
+    },
+    {
+      "name": "Crip Theory: Disability and Queerness",
+      "topics": [
+        "What is crip theory and how does it 'queer' disability?",
+        "How does Robert McRuer connect 'compulsory heterosexuality' to 'compulsory able-bodiedness'?",
+        "What do disability and queer studies share in their critique of 'normalcy'?",
+        "How have both disabled and queer bodies been treated as 'deviant' by medicine?",
+        "What is 'cripistemology' and how does disability offer unique knowledge?",
+        "How can crip and queer coalitions challenge ableism and heteronormativity together?"
+      ],
+      "tags": ["philosophy", "theory", "lgbtq", "disability"]
+    },
+    {
+      "name": "Trans Studies as a Distinct Field",
+      "topics": [
+        "How did trans studies emerge as separate from queer theory?",
+        "Why do some trans scholars critique queer theory's treatment of transgender identity?",
+        "What does Susan Stryker mean by 'transgender rage'?",
+        "How does trans studies challenge the concept of 'passing'?",
+        "What is 'transmisogyny' and how does it differ from transphobia generally?",
+        "How do trans studies scholars approach embodiment differently than queer theorists?"
+      ],
+      "tags": ["philosophy", "theory", "lgbtq", "gender"]
+    },
+    {
+      "name": "Critiques of Queer Theory: Homonormativity and Assimilation",
+      "topics": [
+        "What is 'homonormativity' and who coined the term?",
+        "How has the mainstream LGBTQ+ movement been criticized for assimilationist politics?",
+        "What does it mean when gay rights become about 'being just like everyone else'?",
+        "How do critiques of marriage equality fit into broader queer theoretical concerns?",
+        "What is lost when radical queer politics gives way to respectability?",
+        "How do queer anarchists and radicals imagine alternatives to reform-based activism?"
+      ],
+      "tags": ["philosophy", "theory", "lgbtq", "activism"]
+    },
+    {
+      "name": "How to Read Queer Theory: Methods and Approaches",
+      "topics": [
+        "Why is queer theory often considered difficult or inaccessible?",
+        "What reading strategies help make dense theoretical texts more approachable?",
+        "How do queer theorists use close reading and textual analysis?",
+        "What is the role of autobiography and personal narrative in queer scholarship?",
+        "How do queer archives and oral histories contribute to the field?",
+        "What makes a research question or approach distinctively 'queer'?"
+      ],
+      "tags": ["philosophy", "methodology", "lgbtq", "research-methods"]
+    }
+  ]
+}

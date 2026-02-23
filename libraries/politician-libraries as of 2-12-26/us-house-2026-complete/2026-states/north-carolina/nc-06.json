@@ -1,0 +1,26 @@
+{
+  "book": "NC-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Addison McDowell (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Beau Blair (D)",
+        "Keith Davenport (D)",
+        "Cyril Jefferson (D)",
+        "Alysa Kassay (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Joshua Hager (I)"
+      ]
+    }
+  ]
+}

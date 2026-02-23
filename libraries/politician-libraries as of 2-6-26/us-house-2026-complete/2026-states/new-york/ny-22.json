@@ -1,0 +1,24 @@
+{
+  "book": "NY-22",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John Lemondes Jr. (R)",
+        "John Salka (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "John Mannion (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "William Staton (I)"
+      ]
+    }
+  ]
+}

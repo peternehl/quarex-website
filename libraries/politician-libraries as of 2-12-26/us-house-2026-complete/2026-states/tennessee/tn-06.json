@@ -1,0 +1,30 @@
+{
+  "book": "TN-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Brad Gaines (R)",
+        "Johnny Garrett (R)",
+        "Jon Henry (R)",
+        "William Hilleary (R)",
+        "Joe Reid (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Craig Ballin (D)",
+        "Lore Bergman (D)",
+        "Mike Croley (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Dale Braden (I)",
+        "Christopher Monday (I)"
+      ]
+    }
+  ]
+}

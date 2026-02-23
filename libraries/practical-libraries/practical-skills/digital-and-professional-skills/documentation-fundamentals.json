@@ -1,0 +1,189 @@
+{
+  "name": "Documentation Fundamentals",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "description": "Best practices for creating, organizing, and maintaining system documentation across hardware, software, and integrated systems. Includes modern AI-assisted approaches.",
+  "tags": [
+    "technology",
+    "communication",
+    "systems-thinking",
+    "engineering",
+    "methodology"
+  ],
+  "chapters": [
+    {
+      "name": "The Minimum Viable Document Set",
+      "topics": [
+        "What documents does every system actually need regardless of size or complexity?",
+        "How do you decide what's worth documenting versus what's obvious?",
+        "What's the smallest documentation package that protects you and serves the client?",
+        "When does 'good enough' documentation become 'not enough'?",
+        "What documents do you wish you had six months after go-live?",
+        "How do you scope documentation effort to match project budget?"
+      ],
+      "tags": ["technology", "systems-thinking", "accountability", "economics"]
+    },
+    {
+      "name": "Writing Documentation People Actually Read",
+      "topics": [
+        "Why do most technical documents go unread and how do you avoid that?",
+        "What makes a procedure followable versus technically correct but useless?",
+        "How do you write for the person at 2am with a system down?",
+        "When do screenshots and diagrams replace words?",
+        "How long should a document be before you split it?",
+        "What formatting practices make documents scannable?"
+      ],
+      "tags": ["technology", "communication", "engineering", "writing"]
+    },
+    {
+      "name": "Naming, Numbering, and Organizing Documents",
+      "topics": [
+        "What naming conventions actually work in practice?",
+        "How do you number documents so the system scales?",
+        "What folder structure survives project growth?",
+        "How do you handle documents that belong in multiple categories?",
+        "What happens when you inherit someone else's disorganized documentation?",
+        "How do you make documents findable without a complex search system?"
+      ],
+      "tags": ["technology", "systems-thinking", "methodology", "engineering"]
+    },
+    {
+      "name": "Version Control Without the Chaos",
+      "topics": [
+        "What version numbering scheme is simple enough to actually use?",
+        "How do you track changes without creating a bureaucratic nightmare?",
+        "When does a change require a new version versus a correction?",
+        "How do you prevent the 'which version is current' problem?",
+        "What do you do when someone edits the wrong version?",
+        "How do you handle documents that multiple people need to edit?"
+      ],
+      "tags": ["technology", "governance", "systems-thinking", "accountability"]
+    },
+    {
+      "name": "Keeping Documentation Current",
+      "topics": [
+        "How do you update documentation when the system changes?",
+        "What triggers a documentation review and who does it?",
+        "How do you catch documentation drift before it causes problems?",
+        "What's the simplest process that keeps documents from going stale?",
+        "How do you handle documentation for systems that change frequently?",
+        "When is it better to delete outdated documentation than update it?"
+      ],
+      "tags": ["technology", "accountability", "governance", "engineering"]
+    },
+    {
+      "name": "Templates That Help Instead of Hinder",
+      "topics": [
+        "What makes a good template versus a form that gets ignored?",
+        "How detailed should a template be?",
+        "When should you deviate from the template?",
+        "How do you create templates for documents you've never written before?",
+        "What fields belong in every document header?",
+        "How do you evolve templates without breaking existing documents?"
+      ],
+      "tags": ["technology", "engineering", "communication", "methodology"]
+    },
+    {
+      "name": "Handoffs and Deliverables",
+      "topics": [
+        "What documentation package should you deliver at project close?",
+        "How do you transfer documentation ownership to the client?",
+        "What format should deliverable documentation be in?",
+        "How do you prove the documentation is complete and accurate?",
+        "What happens when the client doesn't have a system to receive your documentation?",
+        "How do you handle documentation for systems you'll continue to support?"
+      ],
+      "tags": ["technology", "accountability", "communication", "governance"]
+    },
+    {
+      "name": "Common Documentation Mistakes",
+      "topics": [
+        "What are the documentation mistakes you see over and over?",
+        "How do you avoid writing documentation that's technically correct but practically useless?",
+        "What gets left out of documentation that causes problems later?",
+        "When does too much documentation become as bad as too little?",
+        "What assumptions about the reader cause documentation to fail?",
+        "How do you fix documentation that was done wrong from the start?"
+      ],
+      "tags": ["technology", "systems-thinking", "accountability", "communication"]
+    },
+    {
+      "name": "Documentation Tools and Formats",
+      "topics": [
+        "What tools actually work for creating and maintaining technical documentation?",
+        "When is Word good enough and when do you need something else?",
+        "What file formats survive long-term and what becomes unreadable?",
+        "How do you handle documentation that includes drawings, code, and text?",
+        "What's the case for documentation-as-code versus traditional documents?",
+        "How do you choose tools when the client has different tools than you do?"
+      ],
+      "tags": ["technology", "engineering", "systems-thinking", "software-engineering"]
+    },
+    {
+      "name": "Using AI to Create and Maintain Documentation",
+      "topics": [
+        "What documentation tasks can AI handle well and where does it fall short?",
+        "How do you use AI to generate first drafts from specs, code, or meeting notes?",
+        "What prompting strategies produce usable documentation versus generic filler?",
+        "How do you use AI to detect when documentation has drifted from the actual system?",
+        "What's the right workflow for AI-assisted documentation: generate then edit, or outline then expand?",
+        "How do you validate AI-generated documentation before it becomes official?",
+        "What documentation formats work best for AI consumption and generation?"
+      ],
+      "tags": ["technology", "ai-ml", "engineering", "automation"]
+    },
+    {
+      "name": "Documentation for Maintenance and Troubleshooting",
+      "topics": [
+        "What documentation does a maintenance technician actually need?",
+        "How do you write troubleshooting guides that solve problems?",
+        "What information helps someone diagnose an issue they've never seen?",
+        "How do you create cross-referenced documentation where a cable number or signal name finds all its destinations?",
+        "What makes drawings searchable rather than just viewable?",
+        "How do you combine multiple drawing sets into a single troubleshooting resource?",
+        "How do you document tribal knowledge before people leave?",
+        "What's the difference between a maintenance manual and an operations manual?"
+      ],
+      "tags": ["technology", "engineering", "systems-thinking", "communication"]
+    },
+    {
+      "name": "AI-Assisted Troubleshooting and Support",
+      "topics": [
+        "What AI agent tools exist right now that can be pointed at existing documentation without any restructuring?",
+        "How do you give an AI agent access to your documentation folder and useful instructions in a single day?",
+        "What's the minimum setup to get a working AI documentation assistant: access, agent, and a good system prompt?",
+        "How do you structure documentation so AI can use it to answer support questions?",
+        "What makes documentation AI-queryable versus only human-readable?",
+        "How do you build an AI troubleshooting assistant from your existing documentation?",
+        "What context does AI need to give accurate answers about your specific system?",
+        "How do you handle AI giving wrong answers based on outdated or incomplete documentation?",
+        "What's the feedback loop between AI support interactions and documentation improvements?",
+        "How do you capture solutions discovered during AI-assisted troubleshooting back into the documentation?"
+      ],
+      "tags": ["technology", "ai-ml", "systems-thinking", "engineering"]
+    },
+    {
+      "name": "When Things Go Wrong: Documentation After Incidents",
+      "topics": [
+        "How do you document what happened during an incident?",
+        "What belongs in a post-incident report versus what stays verbal?",
+        "How do you update documentation based on lessons learned?",
+        "When does an incident reveal missing documentation?",
+        "How do you document changes made during emergency repairs?",
+        "What documentation practices prevent repeat incidents?"
+      ],
+      "tags": ["technology", "accountability", "systems-thinking", "governance"]
+    },
+    {
+      "name": "Building a Documentation Culture",
+      "topics": [
+        "How do you get people to actually write documentation?",
+        "What incentives work and what doesn't?",
+        "How do you make documentation part of the workflow instead of an afterthought?",
+        "What does good documentation discipline look like on a team?",
+        "How do you handle team members who resist documentation?",
+        "What's the minimum process that keeps documentation happening?"
+      ],
+      "tags": ["technology", "leadership", "accountability", "communication"]
+    }
+  ]
+}

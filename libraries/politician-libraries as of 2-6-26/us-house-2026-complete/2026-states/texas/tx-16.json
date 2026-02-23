@@ -1,0 +1,23 @@
+{
+  "book": "TX-16",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Manuel Barraza (R)",
+        "Adam Bauman (R)",
+        "Hector Cabildo (R)",
+        "Raul Castaneda (R)",
+        "Marisela Chavez (R)",
+        "Deliris Montanez (R)",
+        "Arturo Rios (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Veronica Escobar (D)"
+      ]
+    }
+  ]
+}

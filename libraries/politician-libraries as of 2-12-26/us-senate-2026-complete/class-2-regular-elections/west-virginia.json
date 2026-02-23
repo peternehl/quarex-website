@@ -1,0 +1,27 @@
+{
+  "book": "West Virginia",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Shelley Moore Capito (R)",
+        "Derrick Evans (R)",
+        "Alexander Gaaserud (R)",
+        "Bryan McKinney (R)",
+        "Janet McNulty (R)",
+        "David Purkey (R)",
+        "Tom Willis (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Thornton Cooper (D)",
+        "Rachel Fetty Anderson (D)",
+        "Jeffrey Kessler (D)",
+        "Rio Phillips (D)",
+        "Zachary Shrewsbury (D)"
+      ]
+    }
+  ]
+}

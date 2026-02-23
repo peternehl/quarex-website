@@ -1,0 +1,28 @@
+{
+  "book": "CO-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Lauren Boebert (R)",
+        "Eric San Felipe (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Trisha Calvarese (D)",
+        "Eileen Laubacher (D)",
+        "John Padora Jr. (D)",
+        "Jenna Preston (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Wayne Thornton (I)",
+        "Douglas Mangeris (L)"
+      ]
+    }
+  ]
+}

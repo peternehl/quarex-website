@@ -20,7 +20,12 @@
         "How has Hispanic Catholicism evolved in America?",
         "What tensions exist between Hispanic and Anglo Catholics?"
       ],
-      "tags": ["religion", "tradition", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "tradition",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Our Lady of Guadalupe",
@@ -32,7 +37,12 @@
         "How has Guadalupe been used in political and cultural movements?",
         "What other Marian apparitions are important to different Hispanic groups?"
       ],
-      "tags": ["religion", "cultural-heritage", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "cultural-heritage",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Protestant Turn",
@@ -45,7 +55,12 @@
         "What family tensions arise around religious conversion?",
         "How do Hispanic Protestants vote compared to Catholics?"
       ],
-      "tags": ["religion", "tradition", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "tradition",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Folk Catholicism and Popular Religion",
@@ -57,7 +72,12 @@
         "What syncretism exists between indigenous beliefs and Catholicism?",
         "How does the institutional Church view folk practices?"
       ],
-      "tags": ["religion", "tradition", "americas", "anthropology"]
+      "tags": [
+        "religion",
+        "tradition",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Santería and Afro-Caribbean Religions",
@@ -69,7 +89,12 @@
         "How do Santería practitioners navigate secrecy and openness?",
         "What other Afro-Caribbean religions exist among Hispanics?"
       ],
-      "tags": ["religion", "cultural-heritage", "americas", "anthropology"]
+      "tags": [
+        "religion",
+        "cultural-heritage",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Día de los Muertos and Death Traditions",
@@ -81,7 +106,12 @@
         "What commercialization debates surround the holiday?",
         "How do other Hispanic groups commemorate the dead?"
       ],
-      "tags": ["religion", "cultural-heritage", "americas", "anthropology"]
+      "tags": [
+        "religion",
+        "cultural-heritage",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Churches as Community Centers",
@@ -93,7 +123,12 @@
         "What role do priests and pastors play in community leadership?",
         "How have churches responded to crises in their communities?"
       ],
-      "tags": ["society", "tradition", "americas", "sociology"]
+      "tags": [
+        "society",
+        "tradition",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Religious Life Cycle Events",
@@ -105,7 +140,12 @@
         "How do compadrazgo (godparent) relationships work?",
         "How have these traditions changed in America?"
       ],
-      "tags": ["religion", "tradition", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "tradition",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Generational Change in Religious Practice",
@@ -117,7 +157,12 @@
         "What new religious expressions are young Hispanics creating?",
         "How does intermarriage affect religious transmission?"
       ],
-      "tags": ["religion", "identity", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Hispanic Catholics and Church Politics",
@@ -129,7 +174,12 @@
         "How did Pope Francis's Latino identity affect Hispanic Catholicism?",
         "What is the future of Hispanic influence in the American Church?"
       ],
-      "tags": ["religion", "governance", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "governance",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Religion and Politics",
@@ -141,7 +191,12 @@
         "How do religious leaders engage in political advocacy?",
         "What debates exist about mixing religion and politics?"
       ],
-      "tags": ["religion", "representation", "americas", "us-politics"]
+      "tags": [
+        "religion",
+        "representation",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "The Future of Hispanic Religion",
@@ -153,7 +208,12 @@
         "How will technology change religious practice?",
         "What is the long-term outlook for Hispanic American faith?"
       ],
-      "tags": ["religion", "identity", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

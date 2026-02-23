@@ -1,0 +1,22 @@
+{
+  "book": "IL-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tom Hanson (R)",
+        "Kimball Ladien (R)",
+        "Barry Wicker (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mike Quigley (D)",
+        "Matthew Conroy (D)",
+        "Ellen Corley (D)",
+        "Anthony Michael Tamez (D)"
+      ]
+    }
+  ]
+}

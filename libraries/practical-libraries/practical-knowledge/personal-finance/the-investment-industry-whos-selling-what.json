@@ -1,0 +1,126 @@
+{
+  "name": "The Investment Industry: Who's Selling What",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "How the Investment Industry Makes Money",
+      "topics": [
+        "How big is the investment management industry?",
+        "What are the main ways investment companies make money from you?",
+        "Why does the industry benefit when you trade more and pay more?",
+        "How much of stock market returns go to Wall Street versus investors?",
+        "Why is understanding incentives essential for protecting yourself?",
+        "How has the industry changed with the rise of low-cost investing?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "business-economics"]
+    },
+    {
+      "name": "Brokers vs Fiduciary Advisors",
+      "topics": [
+        "What is the difference between a broker and a fiduciary advisor?",
+        "What does 'suitability standard' versus 'fiduciary standard' mean?",
+        "Why do these legal distinctions matter for your wallet?",
+        "How do you know if someone is legally required to act in your interest?",
+        "What is Regulation Best Interest and does it really protect you?",
+        "How do you find a true fiduciary advisor?"
+      ],
+      "tags": ["law", "finance", "personal-finance", "consumer-protection"]
+    },
+    {
+      "name": "Financial Advisor Business Models",
+      "topics": [
+        "What are fee-only, fee-based, and commission-based advisors?",
+        "How does each model create different incentives?",
+        "What is AUM (assets under management) fee and is 1% reasonable?",
+        "What are flat-fee and hourly advisors?",
+        "What are robo-advisors and when do they make sense?",
+        "How do you evaluate whether you're getting value from an advisor?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "business-economics"]
+    },
+    {
+      "name": "Hidden Fees and How to Find Them",
+      "topics": [
+        "What fees do investors often not realize they're paying?",
+        "What is 'revenue sharing' between fund companies and 401(k) plans?",
+        "What are 12b-1 fees and why do they still exist?",
+        "How do trading costs add up even in 'commission-free' accounts?",
+        "What is the bid-ask spread costing you on ETF trades?",
+        "How do you calculate the total cost of your investment program?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "consumer-protection"]
+    },
+    {
+      "name": "Conflicts of Interest to Watch For",
+      "topics": [
+        "What are the most common conflicts of interest in financial advice?",
+        "Why do advisors push proprietary funds or annuities?",
+        "What is 'pay to play' in the 401(k) industry?",
+        "How do commissions and bonuses affect advice quality?",
+        "What red flags suggest your advisor has conflicted interests?",
+        "How do you ask an advisor about their compensation?"
+      ],
+      "tags": ["ethics", "finance", "personal-finance", "consumer-protection"]
+    },
+    {
+      "name": "Annuities: Useful Tool or Sales Trap?",
+      "topics": [
+        "What is an annuity and how does it work?",
+        "What's the difference between immediate and deferred annuities?",
+        "Why do salespeople push annuities so aggressively?",
+        "What are the fees and surrender charges in typical annuities?",
+        "When might an annuity actually make sense?",
+        "What questions should you ask before ever buying an annuity?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "retirement"]
+    },
+    {
+      "name": "Insurance Products Masquerading as Investments",
+      "topics": [
+        "What is whole life insurance and why is it sold as an investment?",
+        "What are variable universal life and indexed universal life policies?",
+        "Why do insurance agents push these products?",
+        "What are the typical fees in cash-value life insurance?",
+        "When does 'buy term and invest the difference' make more sense?",
+        "Who might actually benefit from permanent life insurance?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "insurance"]
+    },
+    {
+      "name": "Investment Scams and Fraud",
+      "topics": [
+        "What are the most common investment scams targeting regular people?",
+        "How do Ponzi schemes work and why do people fall for them?",
+        "What red flags indicate an investment might be fraudulent?",
+        "Why are 'guaranteed returns' always a warning sign?",
+        "What is affinity fraud and why does it work?",
+        "What should you do if you suspect you've been defrauded?"
+      ],
+      "tags": ["law", "finance", "personal-finance", "fraud"]
+    },
+    {
+      "name": "The Good Guys: Low-Cost Providers",
+      "topics": [
+        "Which investment companies have consistently put investors first?",
+        "How did Vanguard's mutual ownership structure change the industry?",
+        "What are the pros and cons of Vanguard, Fidelity, and Schwab?",
+        "Why has fee competition driven costs to nearly zero?",
+        "What should you look for in a good brokerage or fund company?",
+        "Is there any reason to use a high-cost provider anymore?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "business-economics"]
+    },
+    {
+      "name": "Do You Need Professional Help?",
+      "topics": [
+        "What value can a good financial advisor actually provide?",
+        "What situations truly benefit from professional advice?",
+        "Can you successfully manage your own investments?",
+        "What is the DIY investor checklist?",
+        "How do you know when your situation is too complex for DIY?",
+        "What is the right question: not 'do I need an advisor?' but 'what kind of help do I need?'"
+      ],
+      "tags": ["economics", "critical-thinking", "personal-finance", "decision-making"]
+    }
+  ]
+}

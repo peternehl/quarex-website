@@ -1,0 +1,47 @@
+{
+  "book": "Utah",
+  "chapters": [
+    {
+      "name": "UT-01",
+      "topics": [
+        "Blake Moore (R)",
+        "Nate Blouin (D)",
+        "Kye Hinckley (D)",
+        "Derek Kitchen (D)",
+        "Eva Lopez Chavez (D)",
+        "Ben McAdams (D)",
+        "Liban Mohamed (D)",
+        "Kathleen Riebe (D)",
+        "Anthony Tomkins (D)",
+        "Luis Villarreal (D)"
+      ]
+    },
+    {
+      "name": "UT-02",
+      "topics": [
+        "Celeste Maloy (R)",
+        "Peter Crosby (D)",
+        "Tyler Farnsworth (D)",
+        "Jarom Gillins (D)",
+        "Bryan Lamont Arrington (I)"
+      ]
+    },
+    {
+      "name": "UT-03",
+      "topics": [
+        "Mike Kennedy (R)",
+        "Steven Merrill (D)",
+        "Adonis Hooslyn (I)"
+      ]
+    },
+    {
+      "name": "UT-04",
+      "topics": [
+        "Burgess Owens (R)",
+        "Ty Jensen (R)",
+        "Jonathan Larsen (D)",
+        "Steven Burt (I)"
+      ]
+    }
+  ]
+}

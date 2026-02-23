@@ -1,0 +1,150 @@
+{
+  "name": "Labor Law and Workers' Rights",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The Constitutional Foundations of Labor Law",
+      "topics": [
+        "Why does the Constitution say nothing about labor unions, yet constitutional interpretation has profoundly shaped labor law?",
+        "How did courts use 'liberty of contract' doctrine to strike down worker protections in the Lochner era?",
+        "What was the constitutional revolution of the New Deal, and how did NLRB v. Jones & Laughlin Steel change everything?",
+        "How did Roosevelt's court-packing threat influence the Supreme Court's acceptance of labor regulation?",
+        "Why are recent First Amendment decisions being called a return to constitutionalized anti-labor jurisprudence?",
+        "Could the Constitution once again become a weapon against labor rights through aggressive judicial interpretation?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The National Labor Relations Act: Labor's Magna Carta",
+      "topics": [
+        "What does Section 7 of the Wagner Act actually guarantee, and why is it called labor's 'Magna Carta'?",
+        "What are unfair labor practices, and how were they designed to end the violent anti-unionism of the previous era?",
+        "How does the NLRB election process determine union representation in a workplace?",
+        "Why were agricultural workers and domestic servants—disproportionately African American—explicitly excluded from the NLRA?",
+        "What revolutionary vision did the Wagner Act express about industrial democracy and worker voice?",
+        "How have the NLRA's original limitations shaped its effectiveness for workers today?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The National Labor Relations Board",
+      "topics": [
+        "How does the NLRB conduct union elections, from authorization cards to certification?",
+        "What are 'captive audience' meetings, and why is the period between petition and election so contentious?",
+        "How do unfair labor practice charges work, and why does the process take so long?",
+        "Why does the NLRB's interpretation of labor law swing dramatically depending on which party controls appointments?",
+        "What are the criticisms of the Board from both labor advocates and employer groups?",
+        "How has inadequate funding undermined the NLRB's ability to protect workers' organizing rights?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Taft-Hartley and the Rollback",
+      "topics": [
+        "Why did Truman call the Taft-Hartley Act a 'slave labor bill,' and why did Congress override his veto?",
+        "How did the ban on secondary boycotts atomize labor struggle and weaken union solidarity?",
+        "What does Section 14(b) authorize, and how did it create the right-to-work movement?",
+        "How did the anti-communist affidavits narrow the labor movement's political range?",
+        "Why has organized labor failed to repeal Taft-Hartley despite decades of attempts?",
+        "What long-term effects did Taft-Hartley have on union density and organizing capacity?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Collective Bargaining: How It Works",
+      "topics": [
+        "What is a bargaining unit, and why are disputes over its composition so important?",
+        "How does 'exclusive representation' give unions both power and obligation?",
+        "What is the difference between mandatory and permissive subjects of bargaining?",
+        "When does bargaining reach impasse, and what economic weapons become available?",
+        "What does a typical collective bargaining agreement cover, and how are disputes resolved?",
+        "Why has the 'management rights' doctrine limited union influence over outsourcing and automation?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Strikes, Lockouts, and Economic Weapons",
+      "topics": [
+        "What is the Mackay Radio doctrine, and why does it make the strike so much less effective?",
+        "What is the difference between economic strikers and unfair labor practice strikers?",
+        "How has the lockout evolved from rare to common as an employer offensive weapon?",
+        "Why does the prohibition on secondary activity so significantly limit labor's ability to leverage economic interconnections?",
+        "What explains the dramatic decline in major work stoppages from 470 in 1952 to fewer than 20 today?",
+        "Has the strike become legally protected but practically ineffective?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "At-Will Employment: The American Exception",
+      "topics": [
+        "What does at-will employment mean, and why can American workers be fired for wearing the wrong color shirt?",
+        "How did nineteenth-century courts justify at-will doctrine using rhetoric of freedom and equality?",
+        "What exceptions to at-will employment have courts and legislatures carved out?",
+        "How do union contracts replace at-will employment with 'just cause' protection?",
+        "Why is the United States virtually alone among wealthy democracies in treating workers as disposable at the employer's whim?",
+        "What would statutory protection against unjust dismissal look like in America?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Employment Discrimination Law",
+      "topics": [
+        "What does Title VII of the Civil Rights Act of 1964 prohibit, and how does enforcement work?",
+        "What subsequent statutes extended protection to age, disability, pregnancy, and genetic information?",
+        "Why is proving discrimination so challenging when 'smoking gun' evidence is rare?",
+        "What are the two types of sexual harassment recognized under Title VII?",
+        "What gaps in discrimination law—such as sexual orientation, small employers, and independent contractors—leave workers unprotected?",
+        "How did the #MeToo movement reveal the limits of legal prohibition without structural change?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Wage and Hour Law: The FLSA",
+      "topics": [
+        "What did the Fair Labor Standards Act of 1938 establish, and why has the minimum wage become inadequate?",
+        "How do 'white collar' exemptions exclude workers from overtime protection?",
+        "Why is misclassification so pervasive, and what are its costs for workers, government, and honest employers?",
+        "How weak is enforcement of wage and hour law, and why do violations pay?",
+        "What is wage theft, and why does it cost workers more than all property crimes combined?",
+        "How has the gig economy intensified classification disputes and enforcement challenges?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Workplace Safety: OSHA and Its Limits",
+      "topics": [
+        "What did the Occupational Safety and Health Act of 1970 promise, and why has that promise gone unfulfilled?",
+        "Why could OSHA inspect each workplace only once every 165 years at current staffing levels?",
+        "Why is a willful OSHA violation causing death only a misdemeanor, while harassing a wild burro is a felony?",
+        "What are the limits of workers' right to refuse dangerous work under current law?",
+        "How did the COVID-19 pandemic expose the inadequacy of workplace safety regulation?",
+        "What would effective workplace safety enforcement actually look like?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "International Comparison: Why Is US Labor Law So Weak?",
+      "topics": [
+        "How does Germany's codetermination system give workers voice in corporate governance?",
+        "How do the Nordic countries achieve high collective bargaining coverage through sectoral bargaining?",
+        "What protections against dismissal do French workers have that Americans lack?",
+        "Why is American exceptionalism in labor law a policy failure, not a source of pride?",
+        "What factors—weak labor parties, business influence, racial divisions, constitutional structure—explain American weakness?",
+        "What does international comparison reveal about alternative paths for worker protection?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Labor Law Reform: The PRO Act and Beyond",
+      "topics": [
+        "What does the Protecting the Right to Organize Act propose, and why has it stalled in the Senate?",
+        "How would the PRO Act override state right-to-work laws?",
+        "What is sectoral bargaining, and how would it extend union benefits beyond organized workplaces?",
+        "What role do worker centers and 'alt-labor' organizations play outside traditional collective bargaining?",
+        "How have state and local governments become laboratories for labor law innovation?",
+        "What are the political obstacles to labor law reform, and why is the current system increasingly untenable?"
+      ],
+      "tags": []
+    }
+  ]
+}

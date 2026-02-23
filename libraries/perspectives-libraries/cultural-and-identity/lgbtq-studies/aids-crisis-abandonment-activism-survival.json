@@ -1,0 +1,139 @@
+{
+  "name": "The AIDS Crisis: Abandonment, Activism, and Survival",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["AIDS", "HIV", "ACT UP", "Reagan", "public health", "activism"],
+  "chapters": [
+    {
+      "name": "The Mysterious Illness: 1981-1983",
+      "topics": [
+        "What were the first reported cases of what would become known as AIDS?",
+        "Why was AIDS initially called 'GRID' (Gay-Related Immune Deficiency)?",
+        "How did the early medical mystery unfold as cases accumulated?",
+        "What was the initial reaction in gay communities to reports of the illness?",
+        "How did the media first cover the emerging epidemic?",
+        "When and how was HIV identified as the cause of AIDS?"
+      ],
+      "tags": ["history", "public-health", "lgbtq", "medicine"]
+    },
+    {
+      "name": "Government Abandonment: The Reagan Administration's Failure",
+      "topics": [
+        "How long did it take President Reagan to publicly say the word 'AIDS'?",
+        "What funding decisions did the Reagan administration make regarding AIDS research?",
+        "How did the administration's ties to the Religious Right influence AIDS policy?",
+        "What role did Surgeon General C. Everett Koop play in AIDS education?",
+        "How did Reagan's press secretary joke about AIDS at White House briefings?",
+        "What would adequate federal response have looked like in the early years?"
+      ],
+      "tags": ["history", "government", "public-health", "1980s"]
+    },
+    {
+      "name": "Stigma, Blame, and the 'Innocent Victims' Narrative",
+      "topics": [
+        "How did media coverage distinguish between 'innocent' and implicitly guilty AIDS victims?",
+        "What role did Ryan White's story play in changing public perception?",
+        "How were people with AIDS treated in hospitals, workplaces, and communities?",
+        "What myths about AIDS transmission fueled irrational fears?",
+        "How did religious leaders frame AIDS as divine punishment?",
+        "How did stigma prevent people from getting tested or seeking treatment?"
+      ],
+      "tags": ["history", "media", "public-health", "discrimination"]
+    },
+    {
+      "name": "Community Response: When the Government Wouldn't Act",
+      "topics": [
+        "How did gay communities organize their own response to AIDS?",
+        "What was the role of organizations like Gay Men's Health Crisis?",
+        "How did the 'buddy' system for caring for people with AIDS work?",
+        "What safe sex education did the community develop and distribute?",
+        "How did lesbians contribute to AIDS caregiving and activism?",
+        "What psychological toll did community caregiving take on survivors?"
+      ],
+      "tags": ["history", "activism", "lgbtq", "public-health"]
+    },
+    {
+      "name": "ACT UP: Silence = Death",
+      "topics": [
+        "How and why was ACT UP (AIDS Coalition to Unleash Power) founded?",
+        "What did the 'Silence = Death' slogan and pink triangle symbol mean?",
+        "What direct action tactics did ACT UP employ?",
+        "How did ACT UP target the FDA, pharmaceutical companies, and government?",
+        "What was the relationship between ACT UP's treatment activists and medical researchers?",
+        "How did ACT UP change the way clinical trials and drug approval worked?"
+      ],
+      "tags": ["history", "activism", "public-health", "social-movements"]
+    },
+    {
+      "name": "The NAMES Project AIDS Memorial Quilt",
+      "topics": [
+        "Who created the AIDS Memorial Quilt and what was its purpose?",
+        "How did the quilt humanize the statistics of the epidemic?",
+        "What was the significance of the first display on the National Mall in 1987?",
+        "How did making quilt panels help with grief and memorialization?",
+        "How large has the quilt grown and where is it housed today?",
+        "What role did the quilt play in AIDS activism and public education?"
+      ],
+      "tags": ["history", "lgbtq", "public-health", "art"]
+    },
+    {
+      "name": "Women and AIDS: The Overlooked Epidemic",
+      "topics": [
+        "Why were women initially excluded from CDC definitions of AIDS?",
+        "How did this exclusion affect women's access to treatment and benefits?",
+        "What specific health manifestations of HIV/AIDS affect women?",
+        "How did women organize within the AIDS activist movement?",
+        "What particular challenges did women of color with AIDS face?",
+        "How did mother-to-child HIV transmission become a focus of prevention?"
+      ],
+      "tags": ["history", "public-health", "gender", "lgbtq"]
+    },
+    {
+      "name": "AIDS in Communities of Color",
+      "topics": [
+        "How did AIDS disproportionately affect Black and Latino communities?",
+        "What barriers to treatment and prevention existed in communities of color?",
+        "How did racism within the gay community affect responses to AIDS?",
+        "What role did Black churches play in AIDS response—both positive and negative?",
+        "How did organizations like the National Minority AIDS Council form?",
+        "What is the ongoing legacy of racial disparities in HIV/AIDS?"
+      ],
+      "tags": ["history", "public-health", "race", "health-disparities"]
+    },
+    {
+      "name": "The Development of Antiretroviral Treatment",
+      "topics": [
+        "What was AZT and why was its development controversial?",
+        "How did activists push for faster drug trials and 'parallel track' access?",
+        "What was the 'Lazarus effect' when protease inhibitors became available?",
+        "How did combination therapy (HAART) transform AIDS from death sentence to manageable illness?",
+        "What access barriers prevent people globally from receiving treatment?",
+        "How has the meaning of an HIV diagnosis changed since the 1980s?"
+      ],
+      "tags": ["history", "medicine", "public-health", "pharmacology"]
+    },
+    {
+      "name": "Long-Term Survivors and Survivor's Guilt",
+      "topics": [
+        "What psychological challenges do long-term AIDS survivors face?",
+        "What is survivor's guilt and how has it affected the generation that lived through the crisis?",
+        "How do survivors cope with having outlived so many friends and partners?",
+        "What health challenges do aging people living with HIV face?",
+        "How has trauma from the AIDS crisis affected community mental health?",
+        "What support exists for long-term survivors today?"
+      ],
+      "tags": ["psychology", "lgbtq", "public-health", "trauma"]
+    },
+    {
+      "name": "AIDS and LGBTQ+ Politics: How Crisis Shaped a Movement",
+      "topics": [
+        "How did the AIDS crisis transform LGBTQ+ political organizing?",
+        "What new alliances formed during the AIDS crisis?",
+        "How did AIDS activism create a generation of skilled political organizers?",
+        "What tensions emerged between AIDS-focused and broader LGBTQ+ advocacy?",
+        "How did the crisis accelerate coming out and visibility?",
+        "What would the LGBTQ+ movement look like today without the AIDS crisis?"
+      ],
+      "tags": ["history", "activism", "lgbtq", "political-science"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "book": "UT-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Celeste Maloy (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Peter Crosby (D)",
+        "Tyler Farnsworth (D)",
+        "Jarom Gillins (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Bryan Lamont Arrington (I)"
+      ]
+    }
+  ]
+}

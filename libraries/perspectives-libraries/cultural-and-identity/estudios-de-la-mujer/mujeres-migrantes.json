@@ -1,0 +1,205 @@
+{
+  "name": "Mujeres Migrantes: Historias de la Frontera",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "migración",
+    "mujeres migrantes",
+    "frontera",
+    "derechos humanos",
+    "violencia de género"
+  ],
+  "chapters": [
+    {
+      "name": "¿Por Qué Migran las Mujeres?",
+      "topics": [
+        "¿Qué factores específicos empujan a las mujeres latinoamericanas a migrar — violencia, pobreza, falta de oportunidades?",
+        "¿Cómo difieren las razones de migración de las mujeres de las de los hombres?",
+        "¿Por qué están migrando cada vez más mujeres solas, sin pareja ni familia?",
+        "¿Qué papel juega la violencia de género en la decisión de huir de sus países?",
+        "¿Qué dejan atrás las mujeres cuando deciden migrar — hijos, familia, comunidad?"
+      ],
+      "tags": [
+        "society",
+        "migration",
+        "gender",
+        "poverty"
+      ]
+    },
+    {
+      "name": "La Ruta del Infierno: México",
+      "topics": [
+        "¿Qué peligros específicos enfrentan las mujeres centroamericanas en su paso por México?",
+        "¿Por qué se considera que hasta el 80% de las mujeres migrantes sufren violencia sexual en el camino?",
+        "¿Qué papel juegan el crimen organizado, los coyotes y las autoridades corruptas en la violencia contra las migrantes?",
+        "¿Por qué toman anticonceptivos las mujeres antes de iniciar el viaje, sabiendo lo que les espera?",
+        "¿Qué significa 'La Bestia' para las mujeres que viajan en los trenes de carga?"
+      ],
+      "tags": [
+        "society",
+        "migration",
+        "mexico",
+        "gender-based-violence"
+      ]
+    },
+    {
+      "name": "La Frontera Estados Unidos-México",
+      "topics": [
+        "¿Cómo ha cambiado el cruce de la frontera para las mujeres con las políticas de Trump y después?",
+        "¿Qué pasa con las mujeres y niñas en los centros de detención migratoria estadounidenses?",
+        "¿Por qué mueren tantas mujeres tratando de cruzar el desierto de Arizona o el río Bravo?",
+        "¿Cómo afecta a las mujeres la política de 'tolerancia cero' y la separación de familias?",
+        "¿Qué opciones legales tienen las mujeres para pedir asilo por violencia de género?"
+      ],
+      "tags": [
+        "politics",
+        "migration",
+        "us-mexico-border",
+        "human-rights"
+      ]
+    },
+    {
+      "name": "Madres que Dejan Hijos Atrás",
+      "topics": [
+        "¿Qué significa para una madre dejar a sus hijos en el país de origen para migrar a trabajar?",
+        "¿Cómo funcionan las 'cadenas de cuidado' que dejan a abuelas cuidando nietos mientras las madres trabajan en el Norte?",
+        "¿Qué impacto psicológico tiene en los niños crecer sin sus madres?",
+        "¿Cómo mantienen las madres migrantes la relación con sus hijos a través de remesas y llamadas?",
+        "¿Por qué se juzga tan duramente a las madres que migran pero no a los padres?"
+      ],
+      "tags": [
+        "society",
+        "family",
+        "migration",
+        "childcare"
+      ]
+    },
+    {
+      "name": "Trabajadoras Migrantes en Estados Unidos",
+      "topics": [
+        "¿En qué sectores trabajan principalmente las mujeres migrantes latinoamericanas en Estados Unidos?",
+        "¿Por qué son las migrantes tan vulnerables a la explotación laboral?",
+        "¿Cómo afecta el estatus migratorio la capacidad de las mujeres para denunciar abusos?",
+        "¿Qué derechos laborales tienen las trabajadoras indocumentadas en la práctica?",
+        "¿Cómo se organizan las trabajadoras migrantes para defender sus derechos?"
+      ],
+      "tags": [
+        "economics",
+        "labor",
+        "migration",
+        "united-states"
+      ]
+    },
+    {
+      "name": "Violencia Doméstica y Estatus Migratorio",
+      "topics": [
+        "¿Cómo usan los abusadores el estatus migratorio para controlar a sus parejas?",
+        "¿Qué pasa cuando una mujer indocumentada llama a la policía por violencia doméstica?",
+        "¿Qué es la visa U y cómo puede ayudar a las víctimas de violencia?",
+        "¿Por qué no denuncian tantas mujeres migrantes la violencia que sufren?",
+        "¿Cómo afectan las políticas de deportación a las víctimas de violencia doméstica?"
+      ],
+      "tags": [
+        "law",
+        "gender-based-violence",
+        "migration",
+        "human-rights"
+      ]
+    },
+    {
+      "name": "Trata de Personas y Explotación Sexual",
+      "topics": [
+        "¿Cómo son engañadas las mujeres y niñas latinoamericanas en redes de trata?",
+        "¿Qué conexión existe entre la migración y la trata con fines de explotación sexual?",
+        "¿Por qué es tan difícil para las víctimas de trata escapar y denunciar?",
+        "¿Cómo operan las redes de trata en la frontera México-Estados Unidos?",
+        "¿Qué hacen los gobiernos para combatir la trata — y por qué no es suficiente?"
+      ],
+      "tags": [
+        "law",
+        "human-trafficking",
+        "migration",
+        "organized-crime"
+      ]
+    },
+    {
+      "name": "Las Niñas y Adolescentes Migrantes",
+      "topics": [
+        "¿Por qué hay tantas niñas y adolescentes viajando solas desde Centroamérica?",
+        "¿Qué violencias específicas enfrentan las menores en el camino?",
+        "¿Cómo funciona el sistema de detención de menores en Estados Unidos?",
+        "¿Qué pasa con las niñas que llegan a Estados Unidos — reunificación familiar, deportación, asilo?",
+        "¿Cómo proteger mejor a las menores migrantes no acompañadas?"
+      ],
+      "tags": [
+        "society",
+        "migration",
+        "children",
+        "human-rights"
+      ]
+    },
+    {
+      "name": "Embarazadas en la Frontera",
+      "topics": [
+        "¿Qué riesgos enfrentan las mujeres embarazadas que migran?",
+        "¿Cómo es la atención médica para las embarazadas en centros de detención?",
+        "¿Qué pasa con los bebés nacidos en custodia migratoria?",
+        "¿Por qué han muerto mujeres embarazadas bajo custodia del ICE?",
+        "¿Cómo afecta el estrés de la migración a los embarazos?"
+      ],
+      "tags": [
+        "health",
+        "migration",
+        "reproductive-rights",
+        "human-rights"
+      ]
+    },
+    {
+      "name": "Asilo por Violencia de Género",
+      "topics": [
+        "¿Pueden las mujeres que huyen de violencia doméstica o feminicidio pedir asilo en Estados Unidos?",
+        "¿Cómo cambió el gobierno de Trump las reglas de asilo por violencia de género?",
+        "¿Qué evidencia necesitan las mujeres para probar que merecen asilo?",
+        "¿Por qué rechazan tantos jueces las peticiones de asilo de mujeres que huyen de violencia?",
+        "¿Qué argumentan las defensoras de las solicitantes de asilo por violencia de género?"
+      ],
+      "tags": [
+        "law",
+        "asylum",
+        "gender-based-violence",
+        "united-states"
+      ]
+    },
+    {
+      "name": "Deportación y Retorno",
+      "topics": [
+        "¿Qué pasa con las mujeres cuando son deportadas de vuelta a sus países?",
+        "¿Cómo enfrentan las deportadas el estigma de 'haber fracasado' en su intento migratorio?",
+        "¿Qué pasa cuando una mujer es deportada a un país donde la esperan amenazas de violencia?",
+        "¿Cómo afecta la deportación a las familias con estatus mixto?",
+        "¿Intentan las mujeres deportadas cruzar de nuevo — y qué les pasa cuando lo hacen?"
+      ],
+      "tags": [
+        "society",
+        "migration",
+        "deportation",
+        "americas"
+      ]
+    },
+    {
+      "name": "Solidaridad y Resistencia",
+      "topics": [
+        "¿Qué organizaciones apoyan a las mujeres migrantes en el camino y en sus destinos?",
+        "¿Cómo se organizan las propias mujeres migrantes para defenderse y apoyarse?",
+        "¿Qué papel juegan las caravanas de migrantes en proteger a las mujeres?",
+        "¿Cómo ayudan los albergues y casas de migrantes específicamente a las mujeres?",
+        "¿Qué pueden hacer las ciudadanas para apoyar a las mujeres migrantes?"
+      ],
+      "tags": [
+        "society",
+        "activism",
+        "migration",
+        "solidarity"
+      ]
+    }
+  ]
+}

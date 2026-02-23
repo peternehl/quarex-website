@@ -1,0 +1,103 @@
+{
+  "name": "Foundations: What Is LGBTQ+ Studies?",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+", "identity", "intersectionality", "gender", "sexuality", "academic discipline"],
+  "chapters": [
+    {
+      "name": "Defining LGBTQ+ Studies as a Field",
+      "topics": [
+        "What distinguishes LGBTQ+ Studies from simply studying LGBTQ+ people?",
+        "How did LGBTQ+ Studies emerge from earlier gay and lesbian studies programs?",
+        "What academic disciplines contribute to LGBTQ+ Studies (history, sociology, psychology, literature)?",
+        "Why is LGBTQ+ Studies considered an interdisciplinary field?",
+        "How does LGBTQ+ Studies relate to Women's Studies and Ethnic Studies?",
+        "What are the major journals, conferences, and professional organizations in the field?"
+      ],
+      "tags": ["society", "identity", "lgbtq", "sociology"]
+    },
+    {
+      "name": "Key Terminology: Identity, Orientation, and Expression",
+      "topics": [
+        "What is the difference between sexual orientation and gender identity?",
+        "How have terms like 'gay,' 'queer,' and 'homosexual' evolved over time?",
+        "What does the acronym LGBTQIA+ mean and why does it keep expanding?",
+        "Why do some people embrace the term 'queer' while others reject it?",
+        "What is the difference between being 'out' and being 'closeted'?",
+        "How do labels like 'MSM' (men who have sex with men) differ from identity labels?"
+      ],
+      "tags": ["society", "identity", "lgbtq", "linguistics"]
+    },
+    {
+      "name": "The Difference Between Sex, Gender, and Sexuality",
+      "topics": [
+        "What do scientists mean when they distinguish sex from gender?",
+        "How have understandings of biological sex become more complex?",
+        "What is gender expression and how does it relate to gender identity?",
+        "Why is it incorrect to conflate being transgender with being gay?",
+        "How do different cultures conceptualize gender differently?",
+        "What does research show about the biological and social influences on sexuality?"
+      ],
+      "tags": ["society", "identity", "gender", "biology"]
+    },
+    {
+      "name": "The Asexual and Aromantic Spectrum: An Introduction",
+      "topics": [
+        "What does it mean to be asexual, and how is it different from celibacy?",
+        "What is the difference between sexual and romantic attraction?",
+        "What are demisexuality, graysexuality, and other spectrum identities?",
+        "Why has asexuality been historically overlooked in LGBTQ+ discourse?",
+        "How do asexual people experience relationships and intimacy?",
+        "What challenges do asexual people face in being recognized and understood?"
+      ],
+      "tags": ["society", "identity", "lgbtq", "psychology"]
+    },
+    {
+      "name": "Intersectionality: Race, Class, Disability, and Queerness",
+      "topics": [
+        "What is intersectionality and who developed the concept?",
+        "How do race and sexuality interact to shape different experiences of queerness?",
+        "Why have LGBTQ+ movements been criticized for centering white, middle-class perspectives?",
+        "How does economic class affect LGBTQ+ people's access to rights and resources?",
+        "What unique challenges do LGBTQ+ people with disabilities face?",
+        "How does immigration status intersect with LGBTQ+ identity?"
+      ],
+      "tags": ["society", "inequality", "lgbtq", "race"]
+    },
+    {
+      "name": "LGBTQ+ Studies and Disability Studies: Overlapping Frameworks",
+      "topics": [
+        "What is 'crip theory' and how does it connect to queer theory?",
+        "How have both disabled and LGBTQ+ people been pathologized by medicine?",
+        "What does it mean to 'come out' as disabled versus coming out as LGBTQ+?",
+        "How do ableism and homophobia/transphobia reinforce each other?",
+        "What are the debates about whether deafness or autism are identities rather than disabilities?",
+        "How can LGBTQ+ spaces become more accessible and inclusive of disabled people?"
+      ],
+      "tags": ["society", "identity", "lgbtq", "disability"]
+    },
+    {
+      "name": "Why LGBTQ+ Studies Is Under Attack",
+      "topics": [
+        "What legislative efforts have targeted LGBTQ+ Studies and gender studies programs?",
+        "How do critics characterize LGBTQ+ Studies as 'ideology' rather than scholarship?",
+        "What happened to gender studies programs in countries like Hungary and Brazil?",
+        "How do book bans and curriculum restrictions affect LGBTQ+ education?",
+        "Why do opponents claim LGBTQ+ content is inappropriate for young people?",
+        "How do scholars and educators defend the legitimacy of LGBTQ+ Studies?"
+      ],
+      "tags": ["politics", "free-speech", "lgbtq", "education"]
+    },
+    {
+      "name": "How This Curriculum Works: AI-Powered Inquiry",
+      "topics": [
+        "What are 'Living Books' and how do they differ from traditional textbooks?",
+        "How does AI-guided inquiry encourage deeper exploration of topics?",
+        "Why is question-driven learning effective for complex subjects like LGBTQ+ Studies?",
+        "How can readers navigate this curriculum based on their interests?",
+        "What sources and perspectives inform the content in this curriculum?",
+        "How should readers approach topics where there is genuine scholarly disagreement?"
+      ],
+      "tags": ["education", "methodology", "lgbtq", "ai-ml"]
+    }
+  ]
+}

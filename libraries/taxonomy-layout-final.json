@@ -1,0 +1,518 @@
+[
+  {
+    "id": 0,
+    "name": "QUAREX\nLIBRARIES",
+    "x": 1227.21,
+    "y": 424.06
+  },
+  {
+    "id": 1,
+    "name": "📅 Event Libraries",
+    "x": 1237.98,
+    "y": 188.68
+  },
+  {
+    "id": 2,
+    "name": "Current Events",
+    "x": 1110.12,
+    "y": 29.28
+  },
+  {
+    "id": 3,
+    "name": "Domestic Politics",
+    "x": 971.09,
+    "y": -73.53
+  },
+  {
+    "id": 4,
+    "name": "Global Challenges",
+    "x": 1031.68,
+    "y": -105.82
+  },
+  {
+    "id": 5,
+    "name": "International Conflicts",
+    "x": 1111.37,
+    "y": -131.49
+  },
+  {
+    "id": 6,
+    "name": "News of the Day",
+    "x": 1180.67,
+    "y": -100.49
+  },
+  {
+    "id": 7,
+    "name": "2016-2024 MAGA Era",
+    "x": 1245.27,
+    "y": 30.96
+  },
+  {
+    "id": 8,
+    "name": "Rise of MAGA",
+    "x": 1261.4,
+    "y": -78.11
+  },
+  {
+    "id": 9,
+    "name": "Governing & Conflict",
+    "x": 1379.31,
+    "y": -26.15
+  },
+  {
+    "id": 10,
+    "name": "After 2020",
+    "x": 1314.01,
+    "y": -52.29
+  },
+  {
+    "id": 11,
+    "name": "US Foreign Interventions",
+    "x": 1364.3,
+    "y": 79.74
+  },
+  {
+    "id": 12,
+    "name": "Latin America",
+    "x": 1464.42,
+    "y": 6.08
+  },
+  {
+    "id": 13,
+    "name": "🌍 Geography Libraries",
+    "x": 1414.57,
+    "y": 250.49
+  },
+  {
+    "id": 14,
+    "name": "Africa",
+    "x": 1546.47,
+    "y": 51
+  },
+  {
+    "id": 15,
+    "name": "Asia",
+    "x": 1601.02,
+    "y": 88.86
+  },
+  {
+    "id": 16,
+    "name": "Europe",
+    "x": 1652.54,
+    "y": 123.64
+  },
+  {
+    "id": 17,
+    "name": "North America",
+    "x": 1708.16,
+    "y": 161.61
+  },
+  {
+    "id": 18,
+    "name": "Oceania",
+    "x": 1741.11,
+    "y": 194.66
+  },
+  {
+    "id": 19,
+    "name": "South America",
+    "x": 1765.8,
+    "y": 232.12
+  },
+  {
+    "id": 20,
+    "name": "Antarctica",
+    "x": 1748.51,
+    "y": 303.37
+  },
+  {
+    "id": 21,
+    "name": "Territories",
+    "x": 1774.68,
+    "y": 266.53
+  },
+  {
+    "id": 22,
+    "name": "US Geography",
+    "x": 1723.7,
+    "y": 343.55
+  },
+  {
+    "id": 23,
+    "name": "📚 Knowledge Libraries",
+    "x": 1423.85,
+    "y": 431.39
+  },
+  {
+    "id": 24,
+    "name": "AI Fundamentals",
+    "x": 1622.18,
+    "y": 415.55
+  },
+  {
+    "id": 25,
+    "name": "AI in the Real World",
+    "x": 1808.66,
+    "y": 396.36
+  },
+  {
+    "id": 26,
+    "name": "Foundations of AI",
+    "x": 1823.99,
+    "y": 426.6
+  },
+  {
+    "id": 27,
+    "name": "Neural Networks & LLMs",
+    "x": 1852.61,
+    "y": 457.46
+  },
+  {
+    "id": 28,
+    "name": "The Sciences",
+    "x": 1622.79,
+    "y": 548.72
+  },
+  {
+    "id": 29,
+    "name": "History & Anthropology",
+    "x": 1787.98,
+    "y": 598.81
+  },
+  {
+    "id": 30,
+    "name": "Life Sciences",
+    "x": 1766.7,
+    "y": 632.14
+  },
+  {
+    "id": 31,
+    "name": "Math & Computation",
+    "x": 1723.27,
+    "y": 663.77
+  },
+  {
+    "id": 32,
+    "name": "Physical Sciences",
+    "x": 1665.76,
+    "y": 695.07
+  },
+  {
+    "id": 33,
+    "name": "The Arts",
+    "x": 1634.53,
+    "y": 478.39
+  },
+  {
+    "id": 34,
+    "name": "Literary Arts",
+    "x": 1844.13,
+    "y": 494.94
+  },
+  {
+    "id": 35,
+    "name": "Performing Arts",
+    "x": 1869.45,
+    "y": 527.05
+  },
+  {
+    "id": 36,
+    "name": "Visual Arts",
+    "x": 1837.16,
+    "y": 562.46
+  },
+  {
+    "id": 37,
+    "name": "Philosophy",
+    "x": 1585.86,
+    "y": 614.33
+  },
+  {
+    "id": 38,
+    "name": "Personal & Life",
+    "x": 1520.57,
+    "y": 653.1
+  },
+  {
+    "id": 39,
+    "name": "Biographies",
+    "x": 1460.6,
+    "y": 701.56
+  },
+  {
+    "id": 40,
+    "name": "🏗️ Infrastructure",
+    "x": 1226.35,
+    "y": 615.27
+  },
+  {
+    "id": 41,
+    "name": "Civil",
+    "x": 1401.61,
+    "y": 746.57
+  },
+  {
+    "id": 42,
+    "name": "Digital",
+    "x": 1356.82,
+    "y": 780.37
+  },
+  {
+    "id": 43,
+    "name": "Economic",
+    "x": 1305.21,
+    "y": 812.12
+  },
+  {
+    "id": 44,
+    "name": "Environmental",
+    "x": 1209.01,
+    "y": 809.74
+  },
+  {
+    "id": 45,
+    "name": "Security",
+    "x": 1160.27,
+    "y": 774.41
+  },
+  {
+    "id": 46,
+    "name": "Social",
+    "x": 1093.96,
+    "y": 740.44
+  },
+  {
+    "id": 47,
+    "name": "💭 Perspectives",
+    "x": 1074.98,
+    "y": 531.58
+  },
+  {
+    "id": 48,
+    "name": "Contested Issues",
+    "x": 995.66,
+    "y": 692.86
+  },
+  {
+    "id": 49,
+    "name": "Climate Debates",
+    "x": 1073.5,
+    "y": 857.87
+  },
+  {
+    "id": 50,
+    "name": "Criminal Justice",
+    "x": 1009.73,
+    "y": 887.21
+  },
+  {
+    "id": 51,
+    "name": "Free Speech",
+    "x": 946.03,
+    "y": 863.34
+  },
+  {
+    "id": 52,
+    "name": "Immigration",
+    "x": 885.27,
+    "y": 841.74
+  },
+  {
+    "id": 53,
+    "name": "Labor & Work",
+    "x": 853.92,
+    "y": 812.73
+  },
+  {
+    "id": 54,
+    "name": "Social Equality",
+    "x": 804.76,
+    "y": 785.93
+  },
+  {
+    "id": 55,
+    "name": "Cultural & Identity",
+    "x": 918.19,
+    "y": 650.53
+  },
+  {
+    "id": 56,
+    "name": "Black Studies",
+    "x": 741.17,
+    "y": 755.83
+  },
+  {
+    "id": 57,
+    "name": "Feminism",
+    "x": 714.27,
+    "y": 721.19
+  },
+  {
+    "id": 58,
+    "name": "Hispanic Cultures",
+    "x": 683.82,
+    "y": 672.37
+  },
+  {
+    "id": 59,
+    "name": "LGBTQ Studies",
+    "x": 669.37,
+    "y": 635.21
+  },
+  {
+    "id": 60,
+    "name": "Abortion",
+    "x": 663.39,
+    "y": 599.35
+  },
+  {
+    "id": 61,
+    "name": "Geopolitical",
+    "x": 826.29,
+    "y": 563.86
+  },
+  {
+    "id": 62,
+    "name": "Historical Narratives",
+    "x": 829.86,
+    "y": 525.98
+  },
+  {
+    "id": 63,
+    "name": "Civil Rights",
+    "x": 672.01,
+    "y": 554.87
+  },
+  {
+    "id": 64,
+    "name": "Racism",
+    "x": 676.77,
+    "y": 520.84
+  },
+  {
+    "id": 65,
+    "name": "Colonialism",
+    "x": 679.33,
+    "y": 492.35
+  },
+  {
+    "id": 66,
+    "name": "Ideological",
+    "x": 810.03,
+    "y": 465.12
+  },
+  {
+    "id": 67,
+    "name": "Fact vs Fiction",
+    "x": 860.6,
+    "y": 606.43
+  },
+  {
+    "id": 68,
+    "name": "🏛️ Politicians",
+    "x": 1005.39,
+    "y": 358.59
+  },
+  {
+    "id": 69,
+    "name": "Executive Branch",
+    "x": 816.45,
+    "y": 409.67
+  },
+  {
+    "id": 70,
+    "name": "President & VP",
+    "x": 690.42,
+    "y": 414.21
+  },
+  {
+    "id": 71,
+    "name": "Cabinet",
+    "x": 699.39,
+    "y": 382.69
+  },
+  {
+    "id": 72,
+    "name": "Judicial Branch",
+    "x": 809.6,
+    "y": 347.61
+  },
+  {
+    "id": 73,
+    "name": "US Governors 2026",
+    "x": 822.39,
+    "y": 294.07
+  },
+  {
+    "id": 74,
+    "name": "US House 2026",
+    "x": 829.89,
+    "y": 248.81
+  },
+  {
+    "id": 75,
+    "name": "435 Districts",
+    "x": 703.62,
+    "y": 250.39
+  },
+  {
+    "id": 76,
+    "name": "US Senate 2026",
+    "x": 848.98,
+    "y": 196.18
+  },
+  {
+    "id": 77,
+    "name": "🛠️ Practical",
+    "x": 1037.26,
+    "y": 232.92
+  },
+  {
+    "id": 78,
+    "name": "Practical Knowledge",
+    "x": 899.98,
+    "y": 135.4
+  },
+  {
+    "id": 79,
+    "name": "Fact-Checking",
+    "x": 729.4,
+    "y": 114.11
+  },
+  {
+    "id": 80,
+    "name": "Digital Security",
+    "x": 715.4,
+    "y": 144.83
+  },
+  {
+    "id": 81,
+    "name": "Personal Finance",
+    "x": 761.78,
+    "y": 77.42
+  },
+  {
+    "id": 82,
+    "name": "Practical Skills",
+    "x": 989.45,
+    "y": 58.94
+  },
+  {
+    "id": 83,
+    "name": "Digital Skills",
+    "x": 810.74,
+    "y": 32.89
+  },
+  {
+    "id": 84,
+    "name": "Food & Beverage",
+    "x": 841.48,
+    "y": -2.06
+  },
+  {
+    "id": 85,
+    "name": "Home & Daily Life",
+    "x": 898.65,
+    "y": -32.24
+  }
+]

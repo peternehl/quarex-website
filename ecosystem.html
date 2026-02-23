@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://quarex.org/ecosystem.html" />
+    <title>Quarex Ecosystem Map</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMVLTZ6BB5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TMVLTZ6BB5');
+    </script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            overflow: hidden;
+        }
+        .flower-petal {
+            fill: url(#petalGrad);
+            opacity: 0.18;
+        }
+        .flower-center {
+            fill: url(#petalGrad);
+            opacity: 0.09;
+        }
+        #controls {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 100;
+            background: #111;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            border: 1px solid #333;
+        }
+        #controls h1 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #7CB9FF;
+        }
+        #controls p {
+            margin: 5px 0;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+        .node {
+            cursor: pointer;
+        }
+        .node:hover circle,
+        .node:hover rect {
+            filter: brightness(1.2);
+            stroke-width: 3;
+        }
+        /* Center node - Quarex */
+        .node-center circle {
+            fill: #0d9488;
+            stroke: #14b8a6;
+            stroke-width: 3;
+        }
+        /* Site nodes */
+        .node-site rect {
+            fill: #1e293b;
+            stroke: #7CB9FF;
+            stroke-width: 2;
+            rx: 8;
+        }
+        /* Special styling for Libraries node */
+        .node-libraries rect {
+            fill: #0d3d38;
+            stroke: #0d9488;
+            stroke-width: 2;
+            rx: 8;
+        }
+        /* Purple tool nodes */
+        .node-tool rect {
+            fill: #2d1f3d;
+            stroke: #a855f7;
+            stroke-width: 2;
+            rx: 8;
+        }
+        .link {
+            stroke: #3b82f6;
+            stroke-width: 2;
+            fill: none;
+        }
+        .link-tool {
+            stroke: #a855f7;
+            stroke-width: 2;
+        }
+        text {
+            pointer-events: none;
+        }
+        .label-center {
+            fill: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .label-site {
+            fill: #e2e8f0;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .label-subtitle {
+            fill: #94a3b8;
+            font-size: 10px;
+        }
+        .tooltip {
+            position: fixed;
+            background: #1e293b;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 200;
+            border: 1px solid #3b82f6;
+        }
+    </style>
+</head>
+<body>
+
+<div id="controls">
+    <h1>Quarex Ecosystem</h1>
+    <p>Click any node to navigate</p>
+    <p>Drag to pan, scroll to zoom</p>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<svg id="canvas"></svg>
+
+<script>
+// Manual node positions for custom layout
+// Top row: Libraries, Public Studies, Election 2026
+// Middle row: Blog, QUAREX (center), Elecciones 2026
+// Bottom row: Ethics, What is a Quarex, Specification, Creator Tools (purple)
+
+const nodes = [
+    // Center
+    { id: 0, name: "QUAREX", type: "center", url: "/", x: 0, y: 0 },
+
+    // Top row (aligned with 320°, 0°, 40° petals)
+    { id: 1, name: "Public Studies", subtitle: "Curricula", type: "site", url: "https://publicstudies.org", x: -150, y: -155 },
+    { id: 2, name: "Libraries", subtitle: "800+ Living Books", type: "libraries", url: "/libraries/navigator.html", x: 0, y: -195 },
+    { id: 3, name: "Election 2026", subtitle: "English", type: "site", url: "https://election2026.net", x: 150, y: -155 },
+
+    // Middle row (aligned with 280° and 80° petals)
+    { id: 4, name: "Blog", subtitle: "News & Updates", type: "site", url: "/blog/", x: -197, y: -35 },
+    { id: 5, name: "Elecciones 2026", subtitle: "Español", type: "site", url: "https://elecciones2026.net", x: 197, y: -35 },
+
+    // Bottom row - purple tools (aligned with 240°, 200°, 160°, 120° petals)
+    { id: 6, name: "Ethics", subtitle: "Guidelines", type: "tool", url: "/ethics/", x: -170, y: 95 },
+    { id: 7, name: "What is a Quarex", subtitle: "Concept", type: "tool", url: "/about/", x: -85, y: 175 },
+    { id: 8, name: "Specification", subtitle: "Technical", type: "tool", url: "/spec/", x: 85, y: 175 },
+    { id: 9, name: "Creator Tools", subtitle: "Build", type: "tool", url: "/tools/", x: 170, y: 95 }
+];
+
+const links = [
+    // Top row links
+    { source: 0, target: 1, type: "site" },
+    { source: 0, target: 2, type: "site" },
+    { source: 0, target: 3, type: "site" },
+    // Middle row links
+    { source: 0, target: 4, type: "site" },
+    { source: 0, target: 5, type: "site" },
+    // Bottom row links (purple)
+    { source: 0, target: 6, type: "tool" },
+    { source: 0, target: 7, type: "tool" },
+    { source: 0, target: 8, type: "tool" },
+    { source: 0, target: 9, type: "tool" }
+];
+
+// Set up SVG
+const width = window.innerWidth;
+const height = window.innerHeight;
+
+const svg = d3.select("#canvas")
+    .attr("width", width)
+    .attr("height", height);
+
+const g = svg.append("g");
+
+// Add gradient definition for flower
+const defs = svg.append("defs");
+const gradient = defs.append("radialGradient")
+    .attr("id", "petalGrad")
+    .attr("cx", "50%")
+    .attr("cy", "50%")
+    .attr("r", "70%");
+gradient.append("stop").attr("offset", "0%").attr("stop-color", "#e53935").attr("stop-opacity", 1);
+gradient.append("stop").attr("offset", "100%").attr("stop-color", "#b71c1c").attr("stop-opacity", 0);
+
+// Draw flower background (9 petals)
+const flowerGroup = g.append("g").attr("class", "flower-bg");
+for (let i = 0; i < 9; i++) {
+    flowerGroup.append("ellipse")
+        .attr("class", "flower-petal")
+        .attr("cx", 0)
+        .attr("cy", -120)
+        .attr("rx", 45)
+        .attr("ry", 120)
+        .attr("transform", `rotate(${i * 40})`);
+}
+flowerGroup.append("circle")
+    .attr("class", "flower-center")
+    .attr("cx", 0)
+    .attr("cy", 0)
+    .attr("r", 60);
+
+// Zoom behavior
+const zoom = d3.zoom()
+    .scaleExtent([0.3, 3])
+    .on("zoom", (event) => {
+        g.attr("transform", event.transform);
+    });
+
+svg.call(zoom);
+
+// Center the view
+svg.call(zoom.transform, d3.zoomIdentity.translate(width/2, height/2).scale(0.9));
+
+// Draw links
+const link = g.selectAll(".link")
+    .data(links)
+    .enter()
+    .append("line")
+    .attr("class", d => d.type === "tool" ? "link link-tool" : "link")
+    .attr("x1", d => nodes[d.source].x)
+    .attr("y1", d => nodes[d.source].y)
+    .attr("x2", d => nodes[d.target].x)
+    .attr("y2", d => nodes[d.target].y);
+
+// Draw nodes
+const node = g.selectAll(".node")
+    .data(nodes)
+    .enter()
+    .append("g")
+    .attr("class", d => "node node-" + d.type)
+    .attr("transform", d => `translate(${d.x},${d.y})`)
+    .on("click", (event, d) => {
+        if (d.url) {
+            window.location.href = d.url;
+        }
+    })
+    .on("mouseenter", (event, d) => {
+        const tooltip = document.getElementById("tooltip");
+        if (d.subtitle) {
+            tooltip.textContent = d.subtitle;
+            tooltip.style.opacity = "1";
+            tooltip.style.left = (event.clientX + 15) + "px";
+            tooltip.style.top = (event.clientY - 10) + "px";
+        }
+    })
+    .on("mouseleave", () => {
+        document.getElementById("tooltip").style.opacity = "0";
+    });
+
+// Add shapes based on node type
+node.each(function(d) {
+    const el = d3.select(this);
+
+    if (d.type === "center") {
+        el.append("circle").attr("r", 50);
+    } else {
+        // Site, libraries, or tool - rectangular
+        const textLen = d.name.length * 8;
+        const w = Math.max(textLen, 120);
+        const h = 44;
+        el.append("rect")
+            .attr("width", w)
+            .attr("height", h)
+            .attr("x", -w/2)
+            .attr("y", -h/2)
+            .attr("rx", 8);
+    }
+});
+
+// Add labels
+node.each(function(d) {
+    const el = d3.select(this);
+
+    if (d.type === "center") {
+        el.append("text")
+            .attr("class", "label-center")
+            .attr("text-anchor", "middle")
+            .attr("dy", 5)
+            .text(d.name);
+    } else {
+        // Two-line label for sites
+        const text = el.append("text")
+            .attr("class", "label-site")
+            .attr("text-anchor", "middle");
+
+        text.append("tspan")
+            .attr("x", 0)
+            .attr("dy", d.subtitle ? -2 : 5)
+            .text(d.name);
+
+        if (d.subtitle) {
+            text.append("tspan")
+                .attr("class", "label-subtitle")
+                .attr("x", 0)
+                .attr("dy", 14)
+                .text(d.subtitle);
+        }
+    }
+});
+
+// Handle window resize
+window.addEventListener("resize", () => {
+    svg.attr("width", window.innerWidth)
+       .attr("height", window.innerHeight);
+});
+</script>
+
+</body>
+</html>

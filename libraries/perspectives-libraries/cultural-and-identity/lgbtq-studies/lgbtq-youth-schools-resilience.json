@@ -1,0 +1,139 @@
+{
+  "name": "LGBTQ+ Youth: Schools, Bullying, and Resilience",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ youth", "bullying", "GSA", "Don't Say Gay", "Trevor Project"],
+  "chapters": [
+    {
+      "name": "Growing Up LGBTQ+ in America Today",
+      "topics": [
+        "What is the experience of LGBTQ+ youth in contemporary America?",
+        "At what ages do young people typically recognize their LGBTQ+ identity?",
+        "How has visibility changed the experience of LGBTQ+ youth?",
+        "What generational differences exist in how young people understand identity?",
+        "What role does social media play in LGBTQ+ youth experience?",
+        "What do LGBTQ+ youth say they need from adults and institutions?"
+      ],
+      "tags": ["sociology", "lgbtq", "youth", "identity"]
+    },
+    {
+      "name": "Coming Out: Young People and Identity Disclosure",
+      "topics": [
+        "How do young people decide when and to whom to come out?",
+        "What factors make coming out easier or harder for youth?",
+        "How does coming out typically unfold as a process?",
+        "What support do young people need during the coming out process?",
+        "How has the 'coming out' framework been critiqued?",
+        "What alternatives to traditional coming out exist?"
+      ],
+      "tags": ["psychology", "lgbtq", "youth", "identity"]
+    },
+    {
+      "name": "Bullying and Harassment in Schools",
+      "topics": [
+        "How prevalent is anti-LGBTQ+ bullying in schools?",
+        "What forms does anti-LGBTQ+ bullying take?",
+        "What impact does bullying have on LGBTQ+ students?",
+        "How does bullying affect academic performance and school engagement?",
+        "What do schools often do wrong when addressing LGBTQ+ bullying?",
+        "What effective anti-bullying interventions exist?"
+      ],
+      "tags": ["education", "lgbtq", "youth", "discrimination"]
+    },
+    {
+      "name": "GSAs and Student-Led Support",
+      "topics": [
+        "What are GSAs (Gender-Sexuality Alliances) and how do they work?",
+        "What research shows about the benefits of GSAs for all students?",
+        "How have GSAs evolved from 'Gay-Straight Alliances' to their current form?",
+        "What challenges do students face in starting or maintaining GSAs?",
+        "How have some schools and districts tried to ban or restrict GSAs?",
+        "What legal protections exist for GSAs under the Equal Access Act?"
+      ],
+      "tags": ["education", "lgbtq", "youth", "activism"]
+    },
+    {
+      "name": "Don't Say Gay Laws: Restricting LGBTQ+ Topics in Schools",
+      "topics": [
+        "What do 'Don't Say Gay' laws actually prohibit?",
+        "How has Florida's Parental Rights in Education Act been implemented?",
+        "Which other states have passed similar legislation?",
+        "What impact do these laws have on LGBTQ+ students and staff?",
+        "How do these laws affect LGBTQ+ parents and their children?",
+        "What legal challenges have been mounted against these laws?"
+      ],
+      "tags": ["law", "lgbtq", "education", "politics"]
+    },
+    {
+      "name": "Book Bans and LGBTQ+ Content in Schools",
+      "topics": [
+        "What LGBTQ+-themed books are being targeted for removal?",
+        "What arguments do book ban advocates make?",
+        "How do book bans affect LGBTQ+ students?",
+        "What legal frameworks govern book selection in schools?",
+        "How are librarians, teachers, and parents fighting back?",
+        "What is the broader context of the current wave of book challenges?"
+      ],
+      "tags": ["education", "lgbtq", "censorship", "literature"]
+    },
+    {
+      "name": "LGBTQ+ Youth and Family",
+      "topics": [
+        "How does family acceptance affect LGBTQ+ youth outcomes?",
+        "What does the Family Acceptance Project's research show?",
+        "How can parents support their LGBTQ+ children?",
+        "What resources exist for families of LGBTQ+ youth?",
+        "How does family rejection affect LGBTQ+ youth homelessness?",
+        "What role do extended family members play in LGBTQ+ youth support?"
+      ],
+      "tags": ["psychology", "lgbtq", "youth", "family"]
+    },
+    {
+      "name": "LGBTQ+ Youth Homelessness",
+      "topics": [
+        "What proportion of homeless youth are LGBTQ+?",
+        "What factors lead to LGBTQ+ youth homelessness?",
+        "What dangers do LGBTQ+ homeless youth face?",
+        "What services exist specifically for LGBTQ+ homeless youth?",
+        "How do transgender youth experience homelessness differently?",
+        "What systemic changes would reduce LGBTQ+ youth homelessness?"
+      ],
+      "tags": ["sociology", "lgbtq", "youth", "homelessness"]
+    },
+    {
+      "name": "Mental Health Support for LGBTQ+ Youth",
+      "topics": [
+        "What mental health resources exist specifically for LGBTQ+ youth?",
+        "How does the Trevor Project provide crisis support?",
+        "What does affirming therapy look like for LGBTQ+ young people?",
+        "How can schools better support LGBTQ+ student mental health?",
+        "What peer support models work for LGBTQ+ youth?",
+        "How can adults recognize when LGBTQ+ youth need help?"
+      ],
+      "tags": ["psychology", "lgbtq", "youth", "mental-health"]
+    },
+    {
+      "name": "Transgender and Gender-Diverse Youth",
+      "topics": [
+        "What are the specific experiences of transgender youth?",
+        "What does social transition look like for young people?",
+        "What medical care do transgender adolescents need and want?",
+        "How are schools supporting (or failing) transgender students?",
+        "What impact do state restrictions have on transgender youth?",
+        "What do transgender young people want adults to understand?"
+      ],
+      "tags": ["lgbtq", "gender", "youth", "healthcare"]
+    },
+    {
+      "name": "Building Resilience and Thriving",
+      "topics": [
+        "What factors help LGBTQ+ youth thrive despite challenges?",
+        "How does community connection build resilience?",
+        "What role do LGBTQ+ role models and mentors play?",
+        "How do LGBTQ+ youth develop positive identity and pride?",
+        "What are the elements of truly supportive schools and communities?",
+        "What future do LGBTQ+ youth envision for themselves and their communities?"
+      ],
+      "tags": ["psychology", "lgbtq", "youth", "resilience"]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Software Systems Documentation",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "description": "Practical documentation standards for software systems: code, APIs, configurations, deployments, and the documentation that keeps software maintainable over time.",
+  "tags": [
+    "technology",
+    "software-engineering",
+    "methodology",
+    "engineering"
+  ],
+  "chapters": [
+    {
+      "name": "Code Documentation Basics",
+      "topics": [
+        "What makes code comments useful versus just noise?",
+        "When should you document 'why' versus 'what'?",
+        "How do you write comments that stay accurate as code changes?",
+        "What documentation belongs in code versus external documents?",
+        "How much documentation is enough for someone else to maintain the code?",
+        "What gets left undocumented that causes the most problems later?"
+      ],
+      "tags": ["technology", "software-engineering", "communication", "methodology"]
+    },
+    {
+      "name": "README Files and Project Documentation",
+      "topics": [
+        "What belongs in a README that makes a project usable?",
+        "How do you write setup instructions that actually work?",
+        "What project context helps someone understand the codebase?",
+        "How do you keep README files current as projects evolve?",
+        "What's the minimum documentation for an internal tool versus a public project?",
+        "How do you document dependencies and requirements clearly?"
+      ],
+      "tags": ["technology", "software-engineering", "communication", "methodology"]
+    },
+    {
+      "name": "API Documentation",
+      "topics": [
+        "What makes API documentation usable for developers?",
+        "How do you document request and response formats clearly?",
+        "What authentication and authorization details need to be documented?",
+        "How do you handle versioning in API documentation?",
+        "What error codes and edge cases need to be documented?",
+        "How do you keep API documentation synchronized with actual behavior?"
+      ],
+      "tags": ["technology", "software-engineering", "communication", "data-analytics"]
+    },
+    {
+      "name": "Configuration Documentation",
+      "topics": [
+        "What configuration settings need to be documented and why?",
+        "How do you document environment-specific configurations?",
+        "What default values and acceptable ranges need to be recorded?",
+        "How do you handle sensitive configuration like credentials?",
+        "What happens when configuration documentation drifts from reality?",
+        "How do you document configuration dependencies between systems?"
+      ],
+      "tags": ["technology", "software-engineering", "systems-thinking", "methodology"]
+    },
+    {
+      "name": "Database Documentation",
+      "topics": [
+        "What database schema information needs to be documented?",
+        "How do you document relationships between tables or collections?",
+        "What data dictionary information helps future developers?",
+        "How do you document stored procedures and triggers?",
+        "What migration and versioning information needs to be tracked?",
+        "How do you document data retention and archival policies?"
+      ],
+      "tags": ["technology", "software-engineering", "data-analytics", "methodology"]
+    },
+    {
+      "name": "Deployment Documentation",
+      "topics": [
+        "What deployment information does someone need to push code safely?",
+        "How do you document deployment environments and their differences?",
+        "What rollback procedures need to be documented?",
+        "How do you document deployment dependencies and order of operations?",
+        "What monitoring and verification steps belong in deployment docs?",
+        "How do you handle deployment documentation for multiple environments?"
+      ],
+      "tags": ["technology", "software-engineering", "infrastructure", "methodology"]
+    },
+    {
+      "name": "Version Control Documentation",
+      "topics": [
+        "What branching strategies need to be documented for the team?",
+        "How do you document commit message conventions?",
+        "What release tagging and versioning schemes work in practice?",
+        "How do you document merge and review processes?",
+        "What repository structure decisions should be recorded?",
+        "How do you handle documentation for monorepos versus multi-repo setups?"
+      ],
+      "tags": ["technology", "software-engineering", "methodology", "governance"]
+    },
+    {
+      "name": "Architecture Documentation",
+      "topics": [
+        "What architecture decisions need to be documented and why?",
+        "How do you create architecture diagrams that stay useful?",
+        "What level of detail helps versus overwhelms?",
+        "How do you document system boundaries and integrations?",
+        "What trade-offs and alternatives should be recorded?",
+        "How do you keep architecture documentation current as systems evolve?"
+      ],
+      "tags": ["technology", "software-engineering", "systems-thinking", "engineering"]
+    },
+    {
+      "name": "Runbooks and Operational Documentation",
+      "topics": [
+        "What runbook information helps someone respond to incidents?",
+        "How do you write procedures that work at 2am under pressure?",
+        "What monitoring alerts need documented response procedures?",
+        "How do you document escalation paths and contacts?",
+        "What common problems and their solutions should be documented?",
+        "How do you update runbooks based on incident learnings?"
+      ],
+      "tags": ["technology", "software-engineering", "communication", "accountability"]
+    },
+    {
+      "name": "User Documentation for Software",
+      "topics": [
+        "What user documentation do internal tools need?",
+        "How do you write instructions for non-technical users?",
+        "What screenshots and visuals help versus clutter?",
+        "How do you handle documentation for frequently changing interfaces?",
+        "What training materials complement reference documentation?",
+        "How do you gather feedback to improve user documentation?"
+      ],
+      "tags": ["technology", "communication", "education", "methodology"]
+    },
+    {
+      "name": "Documentation-as-Code Practices",
+      "topics": [
+        "What does documentation-as-code mean in practice?",
+        "How do you keep documentation in the same repository as code?",
+        "What documentation formats work well for version control?",
+        "How do you automate documentation generation from code?",
+        "What review processes work for documentation changes?",
+        "How do you handle documentation that doesn't fit the code repository model?"
+      ],
+      "tags": ["technology", "software-engineering", "methodology", "automation"]
+    }
+  ]
+}

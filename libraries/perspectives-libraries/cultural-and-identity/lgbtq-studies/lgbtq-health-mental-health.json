@@ -1,0 +1,163 @@
+{
+  "name": "LGBTQ+ Health and Mental Health",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ health", "mental health", "minority stress", "transgender healthcare", "HIV"],
+  "chapters": [
+    {
+      "name": "The Legacy of Pathologization",
+      "topics": [
+        "How did psychiatry classify homosexuality as mental illness?",
+        "What was the path to removing homosexuality from the DSM in 1973?",
+        "How long did 'Gender Identity Disorder' remain a diagnosis?",
+        "What lasting effects does the history of pathologization have today?",
+        "How does medical distrust from pathologization affect LGBTQ+ healthcare seeking?",
+        "What forms of pathologization still persist in medical practice?"
+      ],
+      "tags": ["psychology", "lgbtq", "medicine", "history"]
+    },
+    {
+      "name": "Minority Stress: How Discrimination Gets Under the Skin",
+      "topics": [
+        "What is minority stress theory and who developed it?",
+        "How do external stressors like discrimination affect health?",
+        "What internal stressors (internalized stigma, concealment) affect LGBTQ+ people?",
+        "How does minority stress explain health disparities?",
+        "What protective factors buffer against minority stress?",
+        "How does minority stress compound for LGBTQ+ people with other marginalized identities?"
+      ],
+      "tags": ["psychology", "lgbtq", "public-health", "discrimination"]
+    },
+    {
+      "name": "Mental Health Disparities in LGBTQ+ Communities",
+      "topics": [
+        "What mental health disparities affect LGBTQ+ people?",
+        "Why are rates of depression and anxiety higher in LGBTQ+ populations?",
+        "What factors contribute to higher substance use in LGBTQ+ communities?",
+        "How do eating disorders affect LGBTQ+ people, particularly gay men?",
+        "What unique mental health challenges face LGBTQ+ youth?",
+        "How does resilience develop in LGBTQ+ communities despite challenges?"
+      ],
+      "tags": ["psychology", "lgbtq", "mental-health", "health-disparities"]
+    },
+    {
+      "name": "Suicide and LGBTQ+ Youth",
+      "topics": [
+        "What do statistics show about suicide risk among LGBTQ+ youth?",
+        "What factors increase suicide risk for LGBTQ+ young people?",
+        "How does family acceptance or rejection affect suicide risk?",
+        "What role does bullying play in LGBTQ+ youth suicide?",
+        "How do organizations like the Trevor Project provide support?",
+        "What interventions effectively reduce LGBTQ+ youth suicide risk?"
+      ],
+      "tags": ["psychology", "lgbtq", "mental-health", "youth"]
+    },
+    {
+      "name": "Transgender Healthcare: Standards and Access",
+      "topics": [
+        "What are the current standards of care for transgender healthcare?",
+        "What does gender-affirming hormone therapy involve?",
+        "What surgical options exist for transgender people who want them?",
+        "What barriers to care do transgender people face?",
+        "How does insurance coverage affect transgender healthcare access?",
+        "What does informed consent mean in transgender medicine?"
+      ],
+      "tags": ["medicine", "lgbtq", "gender", "healthcare"]
+    },
+    {
+      "name": "HIV/AIDS: Ongoing Prevention and Treatment",
+      "topics": [
+        "What is the current state of the HIV epidemic in the United States?",
+        "What is PrEP and how effective is it at preventing HIV?",
+        "What does 'Undetectable = Untransmittable' (U=U) mean?",
+        "What disparities exist in HIV rates and treatment access?",
+        "How has the stigma around HIV evolved and what stigma remains?",
+        "What would ending the HIV epidemic require?"
+      ],
+      "tags": ["public-health", "lgbtq", "hiv", "medicine"]
+    },
+    {
+      "name": "Sexual Health Beyond HIV",
+      "topics": [
+        "What STIs affect LGBTQ+ communities and what are prevention strategies?",
+        "How did the mpox outbreak affect gay and bisexual men?",
+        "What sexual health resources are designed for LGBTQ+ people?",
+        "What are the specific sexual health needs of lesbian and bisexual women?",
+        "How can healthcare providers take LGBTQ+-inclusive sexual histories?",
+        "What role does pleasure-positive education play in sexual health?"
+      ],
+      "tags": ["public-health", "lgbtq", "sexuality", "medicine"]
+    },
+    {
+      "name": "Cancer Disparities and Screening",
+      "topics": [
+        "What cancer disparities affect LGBTQ+ populations?",
+        "Why are smoking rates higher in LGBTQ+ communities?",
+        "What barriers exist to cancer screening for LGBTQ+ people?",
+        "How should transgender people approach cancer screening?",
+        "What breast and cervical cancer considerations exist for LGBTQ+ women?",
+        "How can oncology care become more LGBTQ+ affirming?"
+      ],
+      "tags": ["medicine", "lgbtq", "cancer", "health-disparities"]
+    },
+    {
+      "name": "Finding LGBTQ+-Affirming Healthcare",
+      "topics": [
+        "What makes healthcare 'LGBTQ+ affirming'?",
+        "How can LGBTQ+ people find affirming providers?",
+        "What should LGBTQ+ patients look for in a healthcare setting?",
+        "How can patients educate providers who are willing but uninformed?",
+        "What rights do LGBTQ+ patients have in healthcare settings?",
+        "How are medical schools improving LGBTQ+ health education?"
+      ],
+      "tags": ["healthcare", "lgbtq", "medicine", "advocacy"]
+    },
+    {
+      "name": "Disability and LGBTQ+ Identity",
+      "topics": [
+        "How do disability and LGBTQ+ identity intersect?",
+        "What unique challenges do LGBTQ+ people with disabilities face?",
+        "How does ableism operate within LGBTQ+ communities?",
+        "What barriers exist in accessing both disability and LGBTQ+ services?",
+        "How do disabled LGBTQ+ people navigate sexuality and relationships?",
+        "What advocacy exists at the intersection of disability and LGBTQ+ rights?"
+      ],
+      "tags": ["lgbtq", "disability", "health-disparities", "identity"]
+    },
+    {
+      "name": "LGBTQ+-Affirming Mental Healthcare",
+      "topics": [
+        "What does LGBTQ+-affirming therapy look like?",
+        "How can LGBTQ+ people find affirming mental health providers?",
+        "What therapeutic approaches work well with LGBTQ+ clients?",
+        "How should therapists approach clients questioning their identity?",
+        "What role do LGBTQ+ support groups play in mental health?",
+        "When is specialized LGBTQ+ mental health treatment necessary?"
+      ],
+      "tags": ["psychology", "lgbtq", "mental-health", "healthcare"]
+    },
+    {
+      "name": "Substance Use in LGBTQ+ Communities",
+      "topics": [
+        "What substance use patterns exist in LGBTQ+ communities?",
+        "How does minority stress contribute to higher substance use?",
+        "What role have bars and clubs played in LGBTQ+ substance use?",
+        "What is 'chemsex' and what are its risks?",
+        "How can substance use treatment be LGBTQ+ affirming?",
+        "What harm reduction approaches serve LGBTQ+ communities?"
+      ],
+      "tags": ["public-health", "lgbtq", "substance-abuse", "psychology"]
+    },
+    {
+      "name": "Building Community Health",
+      "topics": [
+        "How do LGBTQ+ community health centers serve their populations?",
+        "What role do peer support and community programs play in health?",
+        "How can LGBTQ+ communities address health disparities collectively?",
+        "What health promotion approaches work in LGBTQ+ communities?",
+        "How does community connection protect against health risks?",
+        "What would a fully healthy LGBTQ+ community look like?"
+      ],
+      "tags": ["public-health", "lgbtq", "community", "healthcare"]
+    }
+  ]
+}

@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Candidate Changes Report - February 13, 2026</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .subtitle { opacity: 0.9; font-size: 0.95rem; }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-number { font-size: 2rem; font-weight: bold; }
+        .stat-number.green { color: #38a169; }
+        .stat-number.red { color: #c53030; }
+        .stat-number.blue { color: #3182ce; }
+        .stat-label { font-size: 0.8rem; color: #666; margin-top: 0.25rem; }
+        h2 {
+            background: #1a365d;
+            color: white;
+            padding: 1rem 1.5rem;
+            margin: 2rem 0 0 0;
+            border-radius: 8px 8px 0 0;
+            font-size: 1.2rem;
+        }
+        h3 {
+            background: #2c5282;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border-bottom: 1px solid #1a365d;
+        }
+        .section {
+            background: white;
+            border-radius: 0 0 8px 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .state-row {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .state-row:last-child { border-bottom: none; }
+        .state-name {
+            font-weight: 600;
+            color: #1a365d;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .changes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        .change-group {
+            font-size: 0.85rem;
+        }
+        .change-group h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }
+        .added h4 { color: #22543d; }
+        .removed h4 { color: #742a2a; }
+        .candidate-list {
+            padding-left: 1rem;
+        }
+        .candidate-list li {
+            margin: 0.15rem 0;
+        }
+        .party-R { color: #c53030; }
+        .party-D { color: #2b6cb0; }
+        .party-I { color: #805ad5; }
+        .no-changes {
+            color: #718096;
+            font-style: italic;
+            padding: 1rem 1.5rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+        .badge-add { background: #c6f6d5; color: #22543d; }
+        .badge-remove { background: #fed7d7; color: #742a2a; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+        .note {
+            background: #ebf8ff;
+            border-left: 4px solid #3182ce;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>2026 Candidate Changes Report</h1>
+        <div class="subtitle">Comparing: Feb 7, 2026 vs Feb 13, 2026</div>
+        <div class="subtitle">Generated: February 13, 2026</div>
+    </header>
+
+    <div class="summary">
+        <div class="stat-card">
+            <div class="stat-number blue">14</div>
+            <div class="stat-label">House States</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number blue">18</div>
+            <div class="stat-label">Governor States</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number blue">14</div>
+            <div class="stat-label">Senate States</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number green">+71</div>
+            <div class="stat-label">Candidates Added</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number red">-27</div>
+            <div class="stat-label">Candidates Removed</div>
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>Comparison Details:</strong><br>
+        <strong>OLD:</strong> Data scraped Feb 6-7, 2026<br>
+        <strong>NEW:</strong> Data scraped Feb 13, 2026<br><br>
+        This report shows candidate changes in the one-week period. Notable: Several incumbents "did not make the ballot" in NV-02 (Amodei), ME-02 (Golden), WY-AL (Hageman). Senator Amy Klobuchar has entered the Minnesota Governor race.
+    </div>
+
+    <h2>U.S. House Changes</h2>
+    <div class="section">
+        <div class="state-row">
+            <div class="state-name">Illinois
+                <span class="badge badge-add">+1</span>
+                <span class="badge badge-remove">-2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">IL-14: Krystal Dorey (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">IL-01: Jerico Brown (D)</li>
+                        <li class="party-D">IL-02: Bryan Slepicka (D)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Indiana
+                <span class="badge badge-add">+19</span>
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">IN-01: Richard Mayers (R)</li>
+                        <li class="party-D">IN-01: LaVetta Sparks-Wade (D)</li>
+                        <li class="party-D">IN-02: Shaun Maeyens (D)</li>
+                        <li class="party-R">IN-03: Jon Kenworthy (R)</li>
+                        <li class="party-R">IN-04: John Piper (R)</li>
+                        <li class="party-D">IN-04: Roger Day (D)</li>
+                        <li class="party-D">IN-04: Darin Patrick Griesey (D)</li>
+                        <li class="party-D">IN-04: Robert Lovely (D)</li>
+                        <li class="party-D">IN-05: Steven Avit (D)</li>
+                        <li class="party-D">IN-05: Phil Goss (D)</li>
+                        <li class="party-D">IN-05: Dylan McKenna (D)</li>
+                        <li class="party-D">IN-05: Tara Nelson (D)</li>
+                        <li class="party-R">IN-06: Sarah Brown (R)</li>
+                        <li class="party-D">IN-06: Nicholas Baker (D)</li>
+                        <li class="party-D">IN-07: Denise Paul Hatch (D)</li>
+                        <li class="party-D">IN-07: Pierre Quincy Pullins (D)</li>
+                        <li class="party-D">IN-07: Destiny Scott Wells (D)</li>
+                        <li class="party-D">IN-08: Mario Foradori (D)</li>
+                        <li class="party-D">IN-08: Tabitha Zeigler (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">IN-03: Phil Goss (D) - moved to IN-05</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Kentucky
+                <span class="badge badge-add">+0</span>
+                <span class="badge badge-remove">-3</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">KY-04: Nicole Lee Ethington (R)</li>
+                        <li class="party-D">KY-04: Elizabeth Mason-Hill (D)</li>
+                        <li class="party-R">KY-05: Jacob Trimble (R)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Louisiana
+                <span class="badge badge-add">+1</span>
+                <span class="badge badge-remove">-2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">LA-06: Larry Davis (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">LA-05: Larry Davis (R) - moved to LA-06</li>
+                        <li class="party-R">LA-05: Joshua Morott (R)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Minnesota
+                <span class="badge badge-add">+1</span>
+                <span class="badge badge-remove">-0</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">MN-03: Tyler Bass (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Nebraska
+                <span class="badge badge-add">+1</span>
+                <span class="badge badge-remove">-0</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-I">NE-03: Macey Budke (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Nevada
+                <span class="badge badge-add">+2</span>
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">NV-01: Joy Hoover (D)</li>
+                        <li class="party-D">NV-02: Joshua Hebert (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">NV-02: Mark Amodei (R) - did not make ballot</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">New Mexico
+                <span class="badge badge-add">+0</span>
+                <span class="badge badge-remove">-2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">NM-01: Carlton Pennington (R)</li>
+                        <li class="party-D">NM-02: Tom Wakely (D)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">New York
+                <span class="badge badge-add">+4</span>
+                <span class="badge badge-remove">-0</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">NY-03: Michael LiPetri Jr. (R)</li>
+                        <li class="party-D">NY-07: Julie Won (D)</li>
+                        <li class="party-R">NY-21: Anthony Constantino (R)</li>
+                        <li class="party-R">NY-25: Virginia McIntyre (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">North Dakota
+                <span class="badge badge-add">+0</span>
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">ND-AL: Alex Balazs (R) - did not make ballot</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Ohio
+                <span class="badge badge-add">+0</span>
+                <span class="badge badge-remove">-8</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">OH-02: Andrew Gage (D)</li>
+                        <li class="party-D">OH-02: Brian Kenderes (D)</li>
+                        <li class="party-D">OH-04: Tamie Wilson (D)</li>
+                        <li class="party-R">OH-05: Erica Kelley (R)</li>
+                        <li class="party-R">OH-05: Robert Owsiak Jr. (R)</li>
+                        <li class="party-D">OH-05: Charles Brown (D)</li>
+                        <li class="party-R">OH-09: Jacob Frost (R)</li>
+                        <li class="party-R">OH-09: Wayne Kinsel (R)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Pennsylvania
+                <span class="badge badge-add">+1</span>
+                <span class="badge badge-remove">-0</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">PA-01: Michael Zeltakalns (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Texas
+                <span class="badge badge-add">+0</span>
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">TX-21: Kyle Sinclair (R)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Virginia
+                <span class="badge badge-add">+1</span>
+                <span class="badge badge-remove">-0</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">VA-06: Hugh Murray (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>U.S. Senate Changes</h2>
+    <div class="section">
+        <div class="state-row">
+            <div class="state-name">Alabama
+                <span class="badge badge-add">+3</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Seth Burton (R)</li>
+                        <li class="party-R">Dale Shelton Deas Jr. (R)</li>
+                        <li class="party-D">Everett Wess (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Illinois
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Max Rice (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Kansas
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">Patrick Schmidt (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Louisiana
+                <span class="badge badge-remove">-3</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Julie Emerson (R)</li>
+                        <li class="party-R">Blake Miguez (R)</li>
+                        <li class="party-R">Kathy Seiden (R)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Massachusetts
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-I">Shiva Ayyadurai (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Montana
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Trey Gregory (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">New Jersey
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Natalie Rivera (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">New Mexico
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Christopher Vanden Heuvel (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Oklahoma
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Nick Hankins (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">South Carolina
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">Lee Johnson (D)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Tennessee
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-I">Yoshi Matthews (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Texas
+                <span class="badge badge-add">+2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-I">Ted Brown (I)</li>
+                        <li class="party-I">Daniel Mark Sims (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Virginia
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Bert Mizusawa (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">West Virginia
+                <span class="badge badge-add">+4</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Janet McNulty (R)</li>
+                        <li class="party-R">David Purkey (R)</li>
+                        <li class="party-D">Thornton Cooper (D)</li>
+                        <li class="party-D">Jeffrey Kessler (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Governor Race Changes</h2>
+    <div class="section">
+        <div class="state-row">
+            <div class="state-name">Alabama
+                <span class="badge badge-add">+3</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Will Santivasci (R)</li>
+                        <li class="party-D">Yolanda Flowers (D)</li>
+                        <li class="party-D">Nathan Mathis (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Arizona
+                <span class="badge badge-add">+2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Scott Neely (R)</li>
+                        <li class="party-I">Hugh Lytle (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">California
+                <span class="badge badge-add">+2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">Matt Mahan (D)</li>
+                        <li class="party-I">Butch Ware (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Colorado
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-I">Joseph Rodriguez (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Georgia
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Rick Jackson (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Idaho
+                <span class="badge badge-add">+2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-I">Melissa Sue Robinson (I)</li>
+                        <li class="party-I">John Stegner (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Maryland
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Dan Cox (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Michigan
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Perry Johnson (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Minnesota
+                <span class="badge badge-add">+3</span>
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">John Krhin (R)</li>
+                        <li class="party-D">Rick DeVoe (D)</li>
+                        <li class="party-D">Amy Klobuchar (D) - U.S. Senator</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Chris Madel (R)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Nebraska
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">Lynne Walz (D) - first declared Democrat</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">New Mexico
+                <span class="badge badge-add">+2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Doug Turner (R)</li>
+                        <li class="party-R">Belinda Robertson (R)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">New York
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">Antonio Delgado (D)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Ohio
+                <span class="badge badge-add">+2</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Renea Turner (R)</li>
+                        <li class="party-I">Don Kissick (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Oregon
+                <span class="badge badge-add">+4</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Ed Diehl (R)</li>
+                        <li class="party-R">Chris Dudley (R)</li>
+                        <li class="party-R">Wen Waddell (R)</li>
+                        <li class="party-D">Forest Alexander (D)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Tennessee
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-I">Robert Vick (I)</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Wisconsin
+                <span class="badge badge-remove">-1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <ul class="candidate-list">
+                        <li class="party-R">Josh Schoemann (R)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="state-row">
+            <div class="state-name">Wyoming
+                <span class="badge badge-add">+1</span>
+            </div>
+            <div class="changes">
+                <div class="change-group added">
+                    <h4>Added</h4>
+                    <ul class="candidate-list">
+                        <li class="party-D">Gabriel Green (D) - first declared Democrat</li>
+                    </ul>
+                </div>
+                <div class="change-group removed">
+                    <h4>Removed</h4>
+                    <span style="color:#a0aec0;">None</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Notable: Incumbents Not on Ballot</h2>
+    <div class="section">
+        <div class="state-row">
+            <div class="state-name">Incumbents who did not make the 2026 ballot</div>
+            <div class="changes">
+                <div class="change-group">
+                    <ul class="candidate-list">
+                        <li class="party-R"><strong>NV-02:</strong> Mark Amodei (R) - did not make ballot</li>
+                        <li class="party-D"><strong>ME-02:</strong> Jared Golden (D) - did not make ballot</li>
+                        <li class="party-R"><strong>WY-AL:</strong> Harriet Hageman (R) - withdrawn/disqualified</li>
+                        <li class="party-R"><strong>SC-01:</strong> Nancy Mace (R) - withdrawn</li>
+                        <li class="party-R"><strong>SC-05:</strong> Ralph Norman (R) - withdrawn</li>
+                        <li class="party-R"><strong>WA-04:</strong> Dan Newhouse (R) - did not make ballot</li>
+                        <li class="party-R"><strong>NE-02:</strong> Don Bacon (R) - did not make ballot</li>
+                        <li class="party-R"><strong>LA-05:</strong> Julia Letlow (R) - did not make ballot</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Generated by Quarex Election Comparison Tool | quarex.org
+    </footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "book": "Idaho",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Brad Little (R)",
+        "Jordan Chirat (R)",
+        "Scott Hert (R)",
+        "Lisa Marie (R)",
+        "Justin Plante (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Stephen Heidt (D)",
+        "Terri Pickens (D)",
+        "Chanelle Torrez (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ammon Bundy (I)",
+        "Maxine Durand (I)",
+        "Melissa Sue Robinson (I)",
+        "John Stegner (I)"
+      ]
+    }
+  ]
+}

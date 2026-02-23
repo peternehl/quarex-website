@@ -1,0 +1,151 @@
+{
+  "name": "The Fight for Legal Equality",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ rights", "marriage equality", "Obergefell", "Lawrence v. Texas", "civil rights"],
+  "chapters": [
+    {
+      "name": "Sodomy Laws and Their History",
+      "topics": [
+        "What were sodomy laws and how widely were they enforced?",
+        "How did sodomy laws criminalize private consensual behavior?",
+        "Which states maintained sodomy laws through the late 20th century?",
+        "How were sodomy laws used selectively against LGBTQ+ people?",
+        "What was the significance of sodomy laws beyond actual prosecutions?",
+        "How did the existence of sodomy laws justify other forms of discrimination?"
+      ],
+      "tags": ["law", "lgbtq", "civil-rights", "history"]
+    },
+    {
+      "name": "Bowers v. Hardwick: A Devastating Setback",
+      "topics": [
+        "What were the facts of Bowers v. Hardwick (1986)?",
+        "How did the Supreme Court rule and what was its reasoning?",
+        "What did Justice White mean by saying there was no 'fundamental right to engage in homosexual sodomy'?",
+        "How did Justice Blackmun's dissent frame the case differently?",
+        "What impact did the Bowers decision have on LGBTQ+ rights for the next 17 years?",
+        "Why did Justice Powell later say he 'probably made a mistake' in voting with the majority?"
+      ],
+      "tags": ["law", "supreme-court", "lgbtq", "civil-rights"]
+    },
+    {
+      "name": "Lawrence v. Texas: The Constitution Catches Up",
+      "topics": [
+        "What were the circumstances of the Lawrence v. Texas case?",
+        "How did the Supreme Court overturn Bowers in 2003?",
+        "What did Justice Kennedy mean by the 'liberty' protected by the Constitution?",
+        "How did Lawrence change the legal landscape for LGBTQ+ people?",
+        "What did Justice Scalia warn about in his dissent?",
+        "Why is Lawrence considered one of the most important LGBTQ+ rights decisions?"
+      ],
+      "tags": ["law", "supreme-court", "lgbtq", "civil-rights"]
+    },
+    {
+      "name": "Employment Discrimination: From Firing to Bostock",
+      "topics": [
+        "How could employers legally fire workers for being LGBTQ+ before Bostock?",
+        "What patchwork of state and local laws protected LGBTQ+ workers?",
+        "What is Title VII and how did courts initially interpret it?",
+        "What was the Bostock v. Clayton County case about?",
+        "How did the Supreme Court rule that Title VII covers LGBTQ+ workers?",
+        "What employment protections still remain uncertain after Bostock?"
+      ],
+      "tags": ["law", "employment", "lgbtq", "civil-rights"]
+    },
+    {
+      "name": "The Marriage Equality Movement",
+      "topics": [
+        "What early cases attempted to establish same-sex marriage rights?",
+        "Why was Hawaii's 1993 Baehr v. Lewin decision significant?",
+        "What was the Defense of Marriage Act (DOMA) and why was it passed?",
+        "How did state constitutional amendments banning same-sex marriage spread?",
+        "What was Massachusetts' role in advancing marriage equality?",
+        "How did the state-by-state strategy for marriage equality develop?"
+      ],
+      "tags": ["law", "lgbtq", "marriage", "civil-rights"]
+    },
+    {
+      "name": "United States v. Windsor: DOMA Falls",
+      "topics": [
+        "Who was Edith Windsor and what was her case about?",
+        "How did the Supreme Court strike down Section 3 of DOMA?",
+        "What did Justice Kennedy's opinion say about the dignity of same-sex couples?",
+        "How did Windsor create momentum toward full marriage equality?",
+        "What challenges remained for same-sex couples after Windsor?",
+        "How did federal agencies respond to the Windsor decision?"
+      ],
+      "tags": ["law", "supreme-court", "lgbtq", "marriage"]
+    },
+    {
+      "name": "Obergefell v. Hodges: Marriage Equality Nationwide",
+      "topics": [
+        "Who was Jim Obergefell and what was his lawsuit about?",
+        "How did the Supreme Court rule that same-sex couples have a constitutional right to marry?",
+        "What was the significance of Justice Kennedy's language about dignity and love?",
+        "How did the four dissenting justices argue against the decision?",
+        "What was the public reaction to the Obergefell decision?",
+        "What legal and practical changes resulted from nationwide marriage equality?"
+      ],
+      "tags": ["law", "supreme-court", "lgbtq", "marriage"]
+    },
+    {
+      "name": "Religious Liberty vs. LGBTQ+ Rights",
+      "topics": [
+        "What is the 'religious liberty' argument against LGBTQ+ equality?",
+        "What happened in the Masterpiece Cakeshop case?",
+        "How did the Supreme Court rule and what did it leave unresolved?",
+        "What state-level religious exemption laws have been proposed or passed?",
+        "How do courts balance free exercise of religion with anti-discrimination principles?",
+        "What is the 303 Creative case and why does it matter?"
+      ],
+      "tags": ["law", "religion", "lgbtq", "civil-rights"]
+    },
+    {
+      "name": "Adoption, Foster Care, and Parental Rights",
+      "topics": [
+        "What barriers have LGBTQ+ people faced in adoption and foster care?",
+        "How do state laws vary on LGBTQ+ adoption rights?",
+        "What is 'second-parent adoption' and why is it important?",
+        "How has the Fulton v. City of Philadelphia case affected LGBTQ+ foster care?",
+        "What challenges do LGBTQ+ parents face in custody disputes?",
+        "How do international adoption policies affect LGBTQ+ families?"
+      ],
+      "tags": ["law", "lgbtq", "family", "civil-rights"]
+    },
+    {
+      "name": "The Equality Act: The Unfinished Fight",
+      "topics": [
+        "What would the Equality Act do if passed?",
+        "What federal non-discrimination protections do LGBTQ+ people currently lack?",
+        "Why has the Equality Act passed the House but stalled in the Senate?",
+        "What objections do opponents raise to the Equality Act?",
+        "How does the patchwork of state laws create unequal protection?",
+        "What alternative approaches to federal LGBTQ+ protection have been proposed?"
+      ],
+      "tags": ["law", "lgbtq", "legislation", "civil-rights"]
+    },
+    {
+      "name": "LGBTQ+ Rights in the Military",
+      "topics": [
+        "What was the 'Don't Ask, Don't Tell' policy and how did it work?",
+        "How many service members were discharged under DADT?",
+        "How was DADT repealed in 2010?",
+        "What happened to the ban on transgender military service?",
+        "How did the Trump administration reinstate and Biden administration reverse the trans ban?",
+        "What challenges do LGBTQ+ service members still face?"
+      ],
+      "tags": ["law", "military", "lgbtq", "civil-rights"]
+    },
+    {
+      "name": "The Supreme Court and the Future of LGBTQ+ Rights",
+      "topics": [
+        "How has the Supreme Court's composition changed since Obergefell?",
+        "What did Justice Thomas's Dobbs concurrence say about LGBTQ+ precedents?",
+        "What existing LGBTQ+ rights might be vulnerable to reversal?",
+        "How might future challenges to marriage equality reach the Court?",
+        "What role does the 'history and tradition' test play in LGBTQ+ cases?",
+        "How are advocates preparing for potential rollbacks at the Court?"
+      ],
+      "tags": ["law", "supreme-court", "lgbtq", "civil-rights"]
+    }
+  ]
+}

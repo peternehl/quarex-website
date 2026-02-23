@@ -294,6 +294,60 @@
       }
     }
 
+    /* Table of Contents */
+    .toc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+    }
+
+    .toc h2 {
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .toc ol {
+      margin: 0;
+      padding-left: 20px;
+      columns: 2;
+      column-gap: 40px;
+    }
+
+    .toc li {
+      margin: 6px 0;
+      color: var(--muted);
+    }
+
+    .toc a {
+      color: var(--muted);
+      transition: color 0.2s;
+    }
+
+    .toc a:hover {
+      color: var(--accent);
+    }
+
+    @media (max-width: 600px) {
+      .toc ol {
+        columns: 1;
+      }
+    }
+
+    /* Privacy highlight */
+    .privacy-highlight {
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      border-radius: 8px;
+      padding: 16px;
+      margin: 16px 0;
+    }
+
+    .privacy-highlight strong {
+      color: #22c55e;
+    }
+
     /* Mobile */
     @media (max-width: 600px) {
       h1 {
@@ -317,7 +371,7 @@
   <div class="header">
     <a href="/"><img src="/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="logo"></a>
     <h1>Ethics & Safety Guidelines</h1>
-    <p class="subtitle">Technical Documentation | Version 1.0 | January 2025</p>
+    <p class="subtitle">Technical Documentation | Version 2.1 | February 2026</p>
     <div class="header-buttons">
       <a href="Quarex-Ethics-and-Safety-Guidelines.pdf" download class="btn btn-primary">
         <svg width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>
@@ -327,19 +381,114 @@
     </div>
   </div>
 
-  <div class="section">
+  <nav class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#ethical-architecture">Ethical Architecture</a></li>
+      <li><a href="#educational-framing">Educational Framing & Transparency</a></li>
+      <li><a href="#content-filtering">Multi-Layer Content Filtering</a></li>
+      <li><a href="#access-control">Access Control</a></li>
+      <li><a href="#security-logging">Security Logging & Audit</a></li>
+      <li><a href="#architecture">Architecture Summary</a></li>
+      <li><a href="#ai-model">AI Model: Claude Sonnet</a></li>
+    </ol>
+  </nav>
+
+  <div class="section" id="overview">
     <h2>1. Overview</h2>
     <p>Quarex implements a <strong>defense-in-depth</strong> security architecture to enable inquiry and learning while blocking content that could cause real-world harm. The system uses multiple layers of protection working in concert to ensure safe, educational interactions.</p>
     <div class="highlight">
       <strong>Core Philosophy:</strong> Enable genuine learning and exploration while preventing the generation of content related to weapons, exploitation, self-harm, fraud, and other harmful activities.
     </div>
+
+    <div class="privacy-highlight">
+      <strong>Free Forever:</strong> Quarex is free and will always be free to anyone. No user accounts, no logins, no cookies, no advertising, no tracking. We do not collect or store personal information. The only analytics is Google Analytics (GA4) for aggregate traffic statistics — no individual user behavior is tracked or retained. Your questions are processed and forgotten.
+    </div>
   </div>
 
-  <div class="section">
-    <h2>2. Multi-Layer Content Filtering</h2>
+  <div class="section" id="ethical-architecture">
+    <h2>2. Ethical Architecture</h2>
+
+    <h3>Transparent AI Attribution</h3>
+    <p>Every Quarex book explicitly credits its AI co-author: <strong>"Peter Nehl and Claude Opus 4.5"</strong> or similar. We don't disguise AI-generated content as purely human work. Users always know they're engaging with AI-assisted material.</p>
+
+    <h3>Context Before Response</h3>
+    <p>Quarex uses a recursive taxonomy — <strong>Library Type → Library → Shelf → Book → Chapter → Topic</strong> — that builds ethical context <em>before</em> any AI interaction occurs. The structure itself declares the perspective, domain, and framing, preventing the model from defaulting to false neutrality or hidden bias.</p>
+    <div class="highlight">
+      <strong>Architectural Principle:</strong> By organizing knowledge into explicit perspectives and domains before the AI engages, we ensure the model operates within a declared frame rather than pretending to speak from nowhere.
+    </div>
+
+    <h3>Multiple Perspectives, Not False Balance</h3>
+    <p>For contested issues, Quarex presents multiple viewpoints through parallel books and chapters. Users encounter competing frameworks — not a single authoritative voice. This operationalizes <strong>debate rather than monologue</strong>.</p>
+
+    <h3>Serving Information Deserts</h3>
+    <p>We prioritize building content for underserved communities. Our Spanish-language curricula (<a href="https://publicstudies.org">Estudios Latinos</a>, <a href="https://elecciones2026.net">Elecciones 2026</a>) exist because information gaps are exploited by bad actors. Ethical AI should reach those communities first.</p>
+
+    <h3>Human Editorial Judgment</h3>
+    <p>AI generates and expands content, but human judgment shapes what gets built, reviews output, and directs the editorial vision. The platform optimizes for <strong>informed citizenship</strong>, not engagement metrics.</p>
+  </div>
+
+  <div class="section" id="educational-framing">
+    <h2>3. Educational Framing & Transparency</h2>
+
+    <h3>Echeloned Context Method</h3>
+    <p>Every Quarex response is informed by the full taxonomic path leading to the question. When a user asks about a topic, the AI receives layered context:</p>
+    <div class="highlight">
+      <strong>Example Context Chain:</strong><br>
+      <code>Perspectives & Debates → Cultural & Identity Perspectives → Hispanic Cultures → Latino, Latina, Latinx: Evolving Identity → Media and Marketing Choices → How do political campaigns choose their terminology?</code>
+    </div>
+    <p>This echeloned approach ensures responses are grounded in the specific domain, perspective, and subtopic — not generic answers divorced from context. The AI knows <em>where</em> the question lives before answering it.</p>
+
+    <h4>User-Selected Depth Levels</h4>
+    <p>Users can choose among three response modes to match their needs:</p>
+    <ul>
+      <li><strong>Introductory:</strong> Clear, accessible explanations for newcomers to a topic — no assumed background knowledge</li>
+      <li><strong>Intermediate:</strong> Standard academic treatment suitable for informed general audiences</li>
+      <li><strong>Advanced:</strong> In-depth analysis with technical vocabulary, nuance, and scholarly context for specialists</li>
+    </ul>
+    <p>This allows the same question to yield different responses depending on what the user needs — education that meets people where they are.</p>
+
+    <h3>Academic Positioning</h3>
+    <p>The AI is instructed to operate as an educational assistant whose depth adapts to user selection:</p>
+    <pre>"You are an expert academic assistant helping users explore
+[Library Type] → [Library] → [Shelf] → [Book] → [Chapter] → [Topic].
+
+Respond at the [Introductory | Intermediate | Advanced] level:
+- Introductory: No jargon, clear analogies, assume no prior knowledge
+- Intermediate: Standard academic treatment, some technical terms explained
+- Advanced: Full scholarly depth, technical vocabulary, nuanced analysis"</pre>
+    <p>This positions responses as educational rather than authoritative, while allowing users to control complexity.</p>
+
+    <h3>Truth Over False Balance</h3>
+    <p>Quarex prioritizes <strong>epistemic integrity</strong> over artificial neutrality. This means:</p>
+    <ul>
+      <li><strong>Facts are not negotiable:</strong> Scientific consensus, documented events, and verifiable evidence are presented as such—not as "one perspective among many"</li>
+      <li><strong>No false equivalence:</strong> We do not present fringe theories alongside established facts as if they carry equal weight</li>
+      <li><strong>Proportional representation:</strong> When legitimate debate exists, the weight given to different positions reflects the actual evidence supporting them</li>
+      <li><strong>Transparency about uncertainty:</strong> Where genuine scientific or factual uncertainty exists, we acknowledge it clearly rather than manufacturing false certainty</li>
+    </ul>
+    <p>This approach rejects "both-sides-ism" that treats all claims as equally valid regardless of evidence. Truth-seeking requires distinguishing between well-supported conclusions and unsupported assertions.</p>
+
+    <h3>Source Citation</h3>
+    <p>Web-grounded responses include source URLs rendered as clickable links, enabling users to verify information independently.</p>
+
+    <h3>Recency Awareness</h3>
+    <p>The system explicitly prioritizes current information:</p>
+    <pre>"Always prioritize the most current and up-to-date information...
+use the latest data from 2024-2026 whenever possible.
+If information may have changed recently, explicitly note
+the date or timeframe of your sources."</pre>
+
+    <h3>Multilingual Support</h3>
+    <p>13 languages supported including English, Spanish, French, German, Portuguese, Arabic, Hindi, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean, and Italian.</p>
+  </div>
+
+  <div class="section" id="content-filtering">
+    <h2>4. Multi-Layer Content Filtering</h2>
 
     <h3>Layer 1: Pre-AI Regex Filtering</h3>
-    <p>Before any query reaches the AI model (Gemini), it passes through a regex-based content filter. This immediately blocks queries matching known harmful patterns:</p>
+    <p>Before any query reaches the AI model, it passes through a regex-based content filter. This immediately blocks queries matching known harmful patterns:</p>
 
     <table>
       <tr>
@@ -377,8 +526,8 @@
     <p>If the AI model flags a response as potentially harmful, the system intercepts this and returns a sanitized refusal message rather than passing through any potentially harmful content.</p>
   </div>
 
-  <div class="section">
-    <h2>3. Access Control</h2>
+  <div class="section" id="access-control">
+    <h2>5. Access Control</h2>
 
     <h3>Origin Validation</h3>
     <p>Strict CORS (Cross-Origin Resource Sharing) enforcement ensures only authorized domains can access the API:</p>
@@ -395,8 +544,8 @@
     </ul>
   </div>
 
-  <div class="section">
-    <h2>4. Security Logging & Audit</h2>
+  <div class="section" id="security-logging">
+    <h2>6. Security Logging & Audit</h2>
     <p>All security-relevant events are logged in JSON format:</p>
 
     <table>
@@ -421,7 +570,7 @@
         <td>IP exceeded request limit</td>
       </tr>
       <tr>
-        <td><code>GEMINI_SAFETY_FLAG</code></td>
+        <td><code>CLAUDE_SAFETY_FLAG</code></td>
         <td>AI model flagged content as unsafe</td>
       </tr>
       <tr>
@@ -433,41 +582,8 @@
     <p><strong>Log Retention:</strong> Logs are retained briefly for security auditing and then automatically purged.</p>
   </div>
 
-  <div class="section">
-    <h2>5. Educational Framing & Transparency</h2>
-
-    <h3>Academic Positioning</h3>
-    <p>The AI is instructed to operate as an educational assistant:</p>
-    <pre>"You are an expert academic assistant.
-Write at a clear 12th-grade level."</pre>
-    <p>This positions responses as educational rather than authoritative, encouraging critical thinking.</p>
-
-    <h3>Truth Over False Balance</h3>
-    <p>Quarex prioritizes <strong>epistemic integrity</strong> over artificial neutrality. This means:</p>
-    <ul>
-      <li><strong>Facts are not negotiable:</strong> Scientific consensus, documented events, and verifiable evidence are presented as such—not as "one perspective among many"</li>
-      <li><strong>No false equivalence:</strong> We do not present fringe theories alongside established facts as if they carry equal weight</li>
-      <li><strong>Proportional representation:</strong> When legitimate debate exists, the weight given to different positions reflects the actual evidence supporting them</li>
-      <li><strong>Transparency about uncertainty:</strong> Where genuine scientific or factual uncertainty exists, we acknowledge it clearly rather than manufacturing false certainty</li>
-    </ul>
-    <p>This approach rejects "both-sides-ism" that treats all claims as equally valid regardless of evidence. Truth-seeking requires distinguishing between well-supported conclusions and unsupported assertions.</p>
-
-    <h3>Source Citation</h3>
-    <p>Web-grounded responses include source URLs rendered as clickable links, enabling users to verify information independently.</p>
-
-    <h3>Recency Bias</h3>
-    <p>The system explicitly prioritizes current information:</p>
-    <pre>"Always prioritize the most current and up-to-date information...
-use the latest data from 2024-2025 whenever possible.
-If information may have changed recently, explicitly note
-the date or timeframe of your sources."</pre>
-
-    <h3>Multilingual Support</h3>
-    <p>13 languages supported including English, Spanish, French, German, Portuguese, Arabic, Hindi, Russian, Simplified Chinese, Traditional Chinese, Japanese, Korean, and Italian.</p>
-  </div>
-
-  <div class="section">
-    <h2>6. Architecture Summary</h2>
+  <div class="section" id="architecture">
+    <h2>7. Architecture Summary</h2>
 
     <div class="highlight">
       <strong>Request Flow:</strong>
@@ -476,8 +592,8 @@ the date or timeframe of your sources."</pre>
         <li>Origin/Referer validation (CORS)</li>
         <li>Rate limit check</li>
         <li>Regex content filter</li>
-        <li>Query sent to Gemini AI with safety instructions</li>
-        <li>Response checked for safety flags</li>
+        <li>Query sent to Claude with safety instructions and web search</li>
+        <li>Streaming response with real-time safety monitoring</li>
         <li>Clean response returned to user with sources</li>
       </ol>
     </div>
@@ -485,60 +601,69 @@ the date or timeframe of your sources."</pre>
     <p>Each layer operates independently, ensuring that if one layer fails to catch harmful content, subsequent layers provide additional protection.</p>
   </div>
 
-  <div class="section">
-    <h2>7. AI Model: Gemini 2.5 Flash</h2>
-    <p>Quarex uses Google's Gemini 2.5 Flash-Lite with Google Search grounding for factual accuracy.</p>
+  <div class="section" id="ai-model">
+    <h2>8. AI Model: Claude Sonnet</h2>
+    <p>Quarex uses Anthropic's Claude Sonnet 4.5 with streaming responses, prompt caching for efficiency, and real-time web search for factual accuracy.</p>
 
-    <h3>Gemini's Built-In Safety Framework</h3>
-    <p>Google's Gemini models include their own safety layer, designed to be "maximally helpful to users, while avoiding outputs that could cause real-world harm or offense." This provides an additional safety net beyond Quarex's custom filtering.</p>
+    <h3>Claude's Constitutional AI Framework</h3>
+    <p>Anthropic's Claude models are built on Constitutional AI (CAI), a training methodology that instills values directly into the model's behavior. Claude is designed to be helpful, harmless, and honest — and will actively refuse requests that conflict with these principles.</p>
 
-    <h4>Gemini Prohibited Content Categories</h4>
+    <h4>Claude Safety Characteristics</h4>
     <table>
       <tr>
         <th>Category</th>
-        <th>Policy</th>
+        <th>Behavior</th>
       </tr>
       <tr>
         <td><strong>Child Safety</strong></td>
-        <td>Cannot generate CSAM or content that exploits/sexualizes minors</td>
+        <td>Absolute refusal to generate any content sexualizing or exploiting minors</td>
       </tr>
       <tr>
         <td><strong>Dangerous Activities</strong></td>
-        <td>No suicide/self-harm instructions, illegal drug facilitation, or weapon-building guides</td>
+        <td>Refuses detailed instructions for weapons, explosives, poisons, or self-harm methods</td>
       </tr>
       <tr>
-        <td><strong>Violence & Gore</strong></td>
-        <td>Restricted excessive blood, gore, injuries, and gratuitous violence</td>
+        <td><strong>Deception & Fraud</strong></td>
+        <td>Will not assist with scams, phishing, identity theft, or social engineering attacks</td>
       </tr>
       <tr>
-        <td><strong>Harmful Misinformation</strong></td>
-        <td>No medical claims contradicting scientific consensus; no false safety information</td>
+        <td><strong>Misinformation</strong></td>
+        <td>Corrects false claims rather than amplifying them; acknowledges uncertainty</td>
       </tr>
       <tr>
         <td><strong>Harassment & Hate</strong></td>
-        <td>No content calling for violence against individuals/groups; no dehumanizing statements</td>
+        <td>Refuses to generate content targeting protected groups or facilitating harassment</td>
       </tr>
       <tr>
-        <td><strong>Sexual Content</strong></td>
-        <td>No pornography, erotic material, or depictions of sexual assault</td>
+        <td><strong>Privacy & Security</strong></td>
+        <td>Will not help with unauthorized access, surveillance, or doxxing</td>
       </tr>
     </table>
 
-    <h4>Frontier Safety Framework (FSF)</h4>
-    <p>Google's Gemini 2.5 models are evaluated under their Frontier Safety Framework, which addresses risks of severe harm in four key domains:</p>
+    <h4>Quarex-Specific Implementation</h4>
+    <p>Our Claude integration includes several enhancements aligned with Quarex's educational mission:</p>
     <ul>
-      <li><strong>CBRN:</strong> Chemical, biological, radiological, and nuclear information risks</li>
-      <li><strong>Cybersecurity:</strong> Prevention of malicious hacking assistance</li>
-      <li><strong>Autonomy:</strong> Limits on autonomous agent capabilities</li>
-      <li><strong>Persuasion:</strong> Safeguards against manipulation</li>
+      <li><strong>Web Search Tool:</strong> Claude can search the web in real-time to provide current, verifiable information with source citations</li>
+      <li><strong>Streaming Responses:</strong> Real-time output allows immediate detection of any content that deviates from safety guidelines</li>
+      <li><strong>Prompt Caching:</strong> Frequently-used context (book structure, safety guidelines) is cached for consistent, efficient responses</li>
+      <li><strong>Echeloned Context:</strong> Full Library → Shelf → Book → Chapter path is provided, grounding responses in the specific domain</li>
     </ul>
 
-    <p><em>Source: <a href="https://gemini.google/policy-guidelines/" target="_blank">Google Gemini Policy Guidelines</a></em></p>
+    <h4>Why Claude for Quarex?</h4>
+    <p>We chose Claude for its exceptional balance of capability and safety. Claude excels at:</p>
+    <ul>
+      <li><strong>Nuanced analysis</strong> of contested political and social topics without false balance</li>
+      <li><strong>Transparent reasoning</strong> that shows how conclusions are reached</li>
+      <li><strong>Appropriate refusals</strong> that explain why certain requests cannot be fulfilled</li>
+      <li><strong>Factual grounding</strong> with web search integration for real-time verification</li>
+    </ul>
+
+    <p><em>Source: <a href="https://www.anthropic.com/claude" target="_blank">Anthropic Claude Documentation</a></em></p>
   </div>
 
   <div class="footer">
     <p><strong>Quarex</strong> | <a href="https://quarex.org">quarex.org</a><br>
-    &copy; 2025 Peter Nehl. All Rights Reserved.</p>
+    &copy; 2026 Peter Nehl. All Rights Reserved.</p>
   </div>
 </div>
 

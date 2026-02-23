@@ -1,0 +1,20 @@
+{
+  "book": "KS-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ron Estes (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chris Carmichael (D)",
+        "Ryan Gilbert (D)",
+        "Jordan Mitchell (D)",
+        "Daniel Schneider (D)"
+      ]
+    }
+  ]
+}

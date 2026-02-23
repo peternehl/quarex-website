@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /admin.html
+Disallow: /save-curriculum.php
 
 Sitemap: https://publicstudies.org/sitemap.xml

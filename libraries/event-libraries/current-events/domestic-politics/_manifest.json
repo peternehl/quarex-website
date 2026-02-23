@@ -13,5 +13,13 @@
     "description": null,
     "chapterCount": 4,
     "tags": []
+  },
+  {
+    "slug": "gerrymandering-how-lines-on-a-map-decide-elections",
+    "name": "Gerrymandering: How Lines on a Map Decide Elections",
+    "description": "How district boundaries shape elections, representation, and democracy",
+    "chapterCount": 11,
+    "tags": ["elections", "voting-rights", "redistricting", "representation"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
   }
 ]

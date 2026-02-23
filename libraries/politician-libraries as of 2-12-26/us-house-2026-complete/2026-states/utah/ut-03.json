@@ -1,0 +1,23 @@
+{
+  "book": "UT-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Kennedy (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Steven Merrill (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Adonis Hooslyn (I)"
+      ]
+    }
+  ]
+}

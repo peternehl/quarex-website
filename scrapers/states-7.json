@@ -1,6 +1,6 @@
 {
   "batch": 7,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "New Mexico",
@@ -20,7 +20,7 @@
           "district": "NM-02",
           "candidates": {
             "Republican": ["Eddy Aragon (R)", "Greg Cunningham (R)", "Jose Orozco (R)"],
-            "Democratic": ["Gabriel Vasquez (D)", "Tom Wakely (D)"],
+            "Democratic": ["Gabriel Vasquez (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -46,7 +46,7 @@
           "district": "NY-01",
           "candidates": {
             "Republican": ["Nicholas J. LaLota (R)"],
-            "Democratic": ["Christopher Gallant (D)", "Lukas Ventouras (D)"],
+            "Democratic": ["Christopher Gallant (D)", "Luca Nascimbene (D)", "Jonathan Schneider (D)", "Lukas Ventouras (D)"],
             "Independent": ["Thomas Sorensen (I)", "Jordan Maggio (I)"],
             "Libertarian": [],
             "Green": []
@@ -65,7 +65,7 @@
         {
           "district": "NY-03",
           "candidates": {
-            "Republican": ["Gregory Hach (R)", "Michael Lavery (R)"],
+            "Republican": ["Gregory Hach (R)", "Michael Lavery (R)", "Michael LiPetri Jr. (R)"],
             "Democratic": ["Tom Suozzi (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -75,7 +75,7 @@
         {
           "district": "NY-04",
           "candidates": {
-            "Republican": ["Dennis McGrath (R)", "Brian Miller (R)", "Martin Smithmyer (R)"],
+            "Republican": ["Dennis McGrath (R)", "Brian Miller (R)", "Martin Smithmyer (R)", "Marvin Suber Williams (R)"],
             "Democratic": ["Laura Gillen (D)", "Kiana Bierria-Anderson (D)", "Gian Jones (D)", "Nicholas Sciretta (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -86,7 +86,7 @@
           "district": "NY-05",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Gregory W. Meeks (D)", "Salvatore Padellaro (D)", "Frank Lozada (D)"],
+            "Democratic": ["Gregory W. Meeks (D)", "Frank Lozada (D)", "Salvatore Padellaro (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -105,8 +105,8 @@
         {
           "district": "NY-07",
           "candidates": {
-            "Republican": ["Evan Hutchison (R)", "Vichal Kumar (R)"],
-            "Democratic": ["Alexander Campagna (D)", "Steven Carbajal (D)", "Sydney Martinez (D)", "Dane-Brandon Noble (D)", "Edwin Osorio (D)", "Paperboy Prince (D)", "Antonio Reynoso (D)", "Miles Shore (D)", "Claire Valdez (D)"],
+            "Republican": [],
+            "Democratic": ["Alexander Campagna (D)", "Steven Carbajal (D)", "Evan Hutchison (D)", "Vichal Kumar (D)", "Sydney Martinez (D)", "Dane-Brandon Noble (D)", "Edwin Osorio (D)", "Paperboy Prince (D)", "Antonio Reynoso (D)", "Miles Shore (D)", "Claire Valdez (D)", "Julie Won (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -126,7 +126,7 @@
           "district": "NY-09",
           "candidates": {
             "Republican": ["Joel Anabilah-Azumah (R)", "Jean Depalis (R)"],
-            "Democratic": ["Yvette D. Clarke (D)", "Joshua Bristol (D)", "Michael Goldfarb (D)"],
+            "Democratic": ["Yvette D. Clarke (D)", "Joshua Bristol (D)", "Michael Goldfarb (D)", "Joshua Kaitan Lucas (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -146,7 +146,7 @@
           "district": "NY-11",
           "candidates": {
             "Republican": ["Nicole Malliotakis (R)"],
-            "Democratic": ["Troy McGhie (D)", "Umar Usman (D)", "Michael DeCillis (D)"],
+            "Democratic": ["Michael DeCillis (D)", "Troy McGhie (D)", "Umar Usman (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -155,7 +155,7 @@
         {
           "district": "NY-12",
           "candidates": {
-            "Republican": ["Kaley Aldrich (R)", "Amy Jordan (R)", "Gavin Solomon (R)", "Lucian Wintrich (R)", "Massimiliano Zappone (R)"],
+            "Republican": ["Kaley Aldrich (R)", "Amy Jordan (R)", "Caroline Shinkle (R)", "Gavin Solomon (R)", "Lucian Wintrich (R)", "Massimiliano Zappone (R)"],
             "Democratic": ["Micah Bergdale (D)", "Alex Bores (D)", "George Conway (D)", "Christopher Diep (D)", "Laura Dunn (D)", "Liam Elkind (D)", "Jami Floyd (D)", "Cameron Kasky (D)", "Micah Lasher (D)", "Alan Pardee (D)", "Jack Schlossberg (D)", "Nina Schwalbe (D)", "Mathew Shurka (D)", "Patrick Timmins (D)"],
             "Independent": ["Robb Huhn (I)", "Wilneida Negron (I)", "Karen Ortiz (I)"],
             "Libertarian": [],
@@ -166,7 +166,7 @@
           "district": "NY-13",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Adriano Espaillat (D)", "Jaliel Amador (D)", "Darializa Avila Chevalier (D)", "Theo Chino-Tavarez (D)", "James Felton Keith (D)", "Matt Miller (D)", "Candace Niles (D)", "Megan Rodriguez (D)", "Oscar Romero (D)", "Michael Hano (D)"],
+            "Democratic": ["Adriano Espaillat (D)", "Jaliel Amador (D)", "Darializa Avila Chevalier (D)", "Theo Chino-Tavarez (D)", "Michael Hano (D)", "James Felton Keith (D)", "Matt Miller (D)", "Candace Niles (D)", "Megan Rodriguez (D)", "Oscar Romero (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -186,8 +186,8 @@
           "district": "NY-15",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Michael Blake (D)", "Jon LaTona (D)", "Dalourny Nemorin (D)", "Amanda Septimo (D)", "Jose Vega (D)"],
-            "Independent": ["Andre Easton (I)"],
+            "Democratic": ["Michael Blake (D)", "Jon LaTona (D)", "Dalourny Nemorin (D)", "Amanda Septimo (D)"],
+            "Independent": ["Jose Vega (I)", "Gonzalo Duran (I)", "Andre Easton (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -197,7 +197,7 @@
           "candidates": {
             "Republican": [],
             "Democratic": ["George Latimer (D)"],
-            "Independent": [],
+            "Independent": ["John Franklin Wilson IV (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -206,7 +206,7 @@
           "district": "NY-17",
           "candidates": {
             "Republican": ["Michael Lawler (R)"],
-            "Democratic": ["John Cappello (D)", "Peter Chatzky (D)", "Cait Conley (D)", "Beth Davidson (D)", "Effie Phillips-Staley (D)", "Jessica Reinmann (D)", "Mike Sacks (D)", "John Sullivan (D)"],
+            "Democratic": ["John Cappello (D)", "Peter Chatzky (D)", "Cait Conley (D)", "Beth Davidson (D)", "Effie Phillips-Staley (D)", "Jessica Reinmann (D)", "Mike Sacks (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -245,7 +245,7 @@
         {
           "district": "NY-21",
           "candidates": {
-            "Republican": ["Robert Smullen (R)"],
+            "Republican": ["Allen Caruso (R)", "Anthony Constantino (R)", "Robert Smullen (R)"],
             "Democratic": ["Stuart Amoriell (D)", "Paula Collins (D)", "Blake Gendebien (D)", "Maylon Haller (D)", "Andrew Henson (D)", "Dylan Hewitt (D)"],
             "Independent": ["Michael Metzgier (I)", "Christopher Schmidt (I)"],
             "Libertarian": [],
@@ -255,7 +255,7 @@
         {
           "district": "NY-22",
           "candidates": {
-            "Republican": ["John Lemondes Jr. (R)", "John Salka (R)"],
+            "Republican": ["David Hollenbeck (R)", "John Lemondes Jr. (R)", "John Salka (R)"],
             "Democratic": ["John Mannion (D)"],
             "Independent": ["William Staton (I)"],
             "Libertarian": [],
@@ -275,7 +275,7 @@
         {
           "district": "NY-24",
           "candidates": {
-            "Republican": ["Claudia Tenney (R)"],
+            "Republican": ["Claudia Tenney (R)", "John McDairmant (R)"],
             "Democratic": ["Alissa Ellman (D)", "Steven Holden (D)", "Diana Kastenbaum (D)"],
             "Independent": ["Ken Estes (I)"],
             "Libertarian": [],
@@ -285,9 +285,9 @@
         {
           "district": "NY-25",
           "candidates": {
-            "Republican": [],
-            "Democratic": ["Joseph Morelle (D)", "Sherita Traywick (D)", "Cassandra Lin Leach (D)"],
-            "Independent": [],
+            "Republican": ["Virginia McIntyre (R)"],
+            "Democratic": ["Joseph Morelle (D)", "Cassandra Lin Leach (D)", "Sherita Traywick (D)", "Robin Wilt (D)"],
+            "Independent": ["Kloud Walton (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -458,7 +458,7 @@
           "district": "ND-AL",
           "candidates": {
             "Republican": ["Julie Fedorchak (R)", "Alex Balazs (R)"],
-            "Democratic": ["Trygve Hammer (D)"],
+            "Democratic": ["Trygve Hammer (D)", "Vern Thompson (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -473,8 +473,8 @@
         {
           "district": "OH-01",
           "candidates": {
-            "Republican": ["Eric Conroy (R)", "Steven Erbeck (R)", "Rosemary Oglesby-Henry (R)"],
-            "Democratic": ["Greg Landsman (D)", "Lindsey Ferreira (D)"],
+            "Republican": ["Holly Adams (R)", "Eric Conroy (R)", "Steven Erbeck (R)", "Rosemary Oglesby-Henry (R)"],
+            "Democratic": ["Greg Landsman (D)", "Damon Lynch (D)"],
             "Independent": [],
             "Libertarian": ["John Hancock (L)"],
             "Green": []
@@ -483,8 +483,8 @@
         {
           "district": "OH-02",
           "candidates": {
-            "Republican": ["David Taylor (R)"],
-            "Democratic": [],
+            "Republican": ["David Taylor (R)", "Bob Carr (R)"],
+            "Democratic": ["Jen Mazzuckelli (D)", "Todd Wilson (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -493,8 +493,8 @@
         {
           "district": "OH-03",
           "candidates": {
-            "Republican": [],
-            "Democratic": ["Joyce Beatty (D)"],
+            "Republican": ["Cleophus Dulaney (R)"],
+            "Democratic": ["Joyce Beatty (D)", "Joe Gerard (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -504,7 +504,7 @@
           "district": "OH-04",
           "candidates": {
             "Republican": ["Jim Jordan (R)"],
-            "Democratic": ["Joshua Kolasinski (D)", "Tamie Wilson (D)"],
+            "Democratic": ["Joshua Kolasinski (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -513,9 +513,9 @@
         {
           "district": "OH-05",
           "candidates": {
-            "Republican": ["Bob Latta (R)", "Erica Kelley (R)"],
-            "Democratic": ["Daniel Burket (D)"],
-            "Independent": [],
+            "Republican": ["Bob Latta (R)"],
+            "Democratic": ["Daniel Burket (D)", "Martin Heberling III (D)", "Brian Shaver (D)", "Scott Tabor (D)"],
+            "Independent": ["Dalton Franklin (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -523,8 +523,8 @@
         {
           "district": "OH-06",
           "candidates": {
-            "Republican": ["Michael Rulli (R)", "Julia Kelley (R)"],
-            "Democratic": ["Sam Barrick (D)", "Sean Connolly (D)", "Michael Kripchak (D)", "Malcolm Ritchie (D)", "Adrian Vitus (D)"],
+            "Republican": ["Michael Rulli (R)", "Jullie Kelley (R)"],
+            "Democratic": ["Sean Connolly (D)", "Charles DiPalma (D)", "Brent Hanni (D)", "Elizabeth Kirtley (D)", "Malcolm Ritchie (D)", "Adrian Vitus (D)", "Christopher Lafont (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -533,10 +533,10 @@
         {
           "district": "OH-07",
           "candidates": {
-            "Republican": ["Max Miller (R)", "Jonah Schulz (R)"],
-            "Democratic": ["Michael Eisner (D)", "Ed FitzGerald (D)", "Brian Poindexter (D)", "Scott Schulz (D)"],
-            "Independent": [],
-            "Libertarian": [],
+            "Republican": ["Max Miller (R)"],
+            "Democratic": ["John Butchko (D)", "Ann Marie Donegan (D)", "Michael Eisner (D)", "Ed FitzGerald (D)", "Keith Mundy (D)", "Brian Poindexter (D)", "Laura Rodriguez-Carbone (D)", "Scott Schulz (D)"],
+            "Independent": ["Andrey Martinichin (I)"],
+            "Libertarian": ["Brian Duvall-Gambino (L)"],
             "Green": []
           }
         },
@@ -544,7 +544,7 @@
           "district": "OH-08",
           "candidates": {
             "Republican": ["Warren Davidson (R)"],
-            "Democratic": ["Madaris Grant (D)"],
+            "Democratic": ["Vanessa Enoch (D)", "Madaris Grant (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -553,10 +553,10 @@
         {
           "district": "OH-09",
           "candidates": {
-            "Republican": ["Anthony Campbell (R)", "Jacob Frost (R)", "Wayne Kinsel (R)", "Derek Merrin (R)", "Alea Nadeem (R)", "Madison Sheahan (R)", "Josh Williams (R)"],
+            "Republican": ["Anthony Campbell (R)", "Derek Merrin (R)", "Alea Nadeem (R)", "Madison Sheahan (R)", "Josh Williams (R)"],
             "Democratic": ["Marcy Kaptur (D)"],
             "Independent": [],
-            "Libertarian": ["David Gedert (L)"],
+            "Libertarian": ["Matthew Althaus (L)", "David Gedert (L)"],
             "Green": []
           }
         },
@@ -564,18 +564,18 @@
           "district": "OH-10",
           "candidates": {
             "Republican": ["Michael Turner (R)"],
-            "Democratic": ["Kristina Knickerbocker (D)"],
+            "Democratic": ["Janice Beckett (D)", "David Esrati (D)", "Manuel Foggie (D)", "Jan Kinner (D)", "Kristina Knickerbocker (D)", "Tony Pombo (D)"],
             "Independent": [],
-            "Libertarian": [],
+            "Libertarian": ["Thomas McMasters (L)"],
             "Green": []
           }
         },
         {
           "district": "OH-11",
           "candidates": {
-            "Republican": [],
-            "Democratic": ["Shontel Brown (D)", "Ardelia Holmes (D)", "David Light (D)", "Cortney Peterson (D)"],
-            "Independent": [],
+            "Republican": ["James Hemphill (R)", "Mike Kirchner (R)"],
+            "Democratic": ["Shontel Brown (D)", "Sean Freeman (D)", "Ardelia Holmes (D)"],
+            "Independent": ["Cortney Peterson (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -584,7 +584,7 @@
           "district": "OH-12",
           "candidates": {
             "Republican": ["Troy Balderson (R)"],
-            "Democratic": ["Jerrad Christian (D)", "Daniel Crawford (D)"],
+            "Democratic": ["Jerrad Christian (D)", "Daniel Crawford (D)", "Jason Reynard (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -593,7 +593,7 @@
         {
           "district": "OH-13",
           "candidates": {
-            "Republican": ["Margaret Briem (R)", "Carey Coleman (R)", "Neil Patel (R)", "Kevin Siembida (R)"],
+            "Republican": ["Margaret Briem (R)", "Carey Coleman (R)", "Sanjin Drakovac (R)", "Neil Patel (R)", "Kevin Siembida (R)"],
             "Democratic": ["Emilia Sykes (D)"],
             "Independent": ["Sandeep Dixit (I)"],
             "Libertarian": [],
@@ -603,8 +603,8 @@
         {
           "district": "OH-14",
           "candidates": {
-            "Republican": ["David Joyce (R)", "Nicole Frenchko (R)"],
-            "Democratic": ["Bill O'Neill (D)"],
+            "Republican": ["David Joyce (R)", "Nicole Frenchko (R)", "Mark Zetzer (R)"],
+            "Democratic": ["Maria Jukic (D)", "Bill O'Neill (D)", "Carl Setzer (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -613,10 +613,10 @@
         {
           "district": "OH-15",
           "candidates": {
-            "Republican": ["Mike Carey (R)", "Evan Pargeter (R)"],
+            "Republican": ["Mike Carey (R)", "Samuel Ronan (R)"],
             "Democratic": ["Don Leonard (D)", "Adam Miller (D)"],
             "Independent": [],
-            "Libertarian": [],
+            "Libertarian": ["Brennan Barrington (L)"],
             "Green": []
           }
         }

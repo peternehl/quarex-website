@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://quarex.org/libraries/navigator.html" />
+    <title>Quarex Library Navigator</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMVLTZ6BB5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TMVLTZ6BB5');
+    </script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            overflow: hidden;
+        }
+        #controls {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 100;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #controls h1 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #0d9488;
+        }
+        #controls p {
+            margin: 5px 0;
+            font-size: 13px;
+            color: #64748b;
+        }
+        .node {
+            cursor: pointer;
+        }
+        .node:hover rect,
+        .node:hover circle {
+            filter: brightness(0.95);
+            stroke-width: 3;
+        }
+        .node-center circle {
+            fill: #0d9488;
+            stroke: #0d9488;
+            stroke-width: 3;
+        }
+        .node-type rect {
+            fill: #f0fdfa;
+            stroke: #0d9488;
+            stroke-width: 2;
+        }
+        .node-library rect {
+            fill: #f8fafc;
+            stroke: #94a3b8;
+            stroke-width: 1.5;
+        }
+        .node-shelf rect {
+            fill: #ffffff;
+            stroke: #e2e8f0;
+            stroke-width: 1;
+        }
+        .link {
+            stroke: #cbd5e1;
+            stroke-width: 1.5;
+            fill: none;
+        }
+        .link-type {
+            stroke: #0d9488;
+            stroke-width: 2;
+        }
+        text {
+            pointer-events: none;
+            font-size: 12px;
+        }
+        .label-center {
+            fill: white;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        .label-type {
+            fill: #1e293b;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .label-library {
+            fill: #334155;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        .label-shelf {
+            fill: #475569;
+            font-size: 10px;
+        }
+        .tooltip {
+            position: fixed;
+            background: #1e293b;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            pointer-events: none;
+            z-index: 200;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="controls">
+    <h1>📚 Quarex Library Navigator</h1>
+    <p>825 Books • 5,308 Chapters • 827 Tags</p>
+    <p><strong>Click</strong> any box to explore - <strong>Scroll</strong> to zoom - <strong>Drag</strong> to pan</p>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<svg id="graph"></svg>
+
+<script>
+// Quarex taxonomy data with navigation URLs
+// URL format: /libraries/[type]/[library]/[shelf]
+// Type codes: g=Geography, k=Knowledge, e=Event, pr=Practical, pe=Perspectives, c=Politicians, i=Infrastructure
+const taxonomyData = {
+    name: "QUAREX\nECOSYSTEM",
+    type: "center",
+    url: "/ecosystem.html",
+    children: [
+        {
+            name: "📅 Event Libraries",
+            type: "type",
+            url: "/libraries/e",
+            children: [
+                { name: "Current Events", type: "library", url: "/libraries/e/current-events", children: [
+                    { name: "Domestic Politics", type: "shelf", url: "/libraries/e/current-events/domestic-politics" },
+                    { name: "Global Challenges", type: "shelf", url: "/libraries/e/current-events/global-challenges" },
+                    { name: "International Conflicts", type: "shelf", url: "/libraries/e/current-events/international-conflicts" },
+                    { name: "News of the Day", type: "shelf", url: "/libraries/e/current-events/news-of-the-day" }
+                ]},
+                { name: "2016-2024 MAGA Era", type: "library", url: "/libraries/e/the-20162024-maga-era-in-us-politics", children: [
+                    { name: "Rise of MAGA", type: "shelf", url: "/libraries/e/the-20162024-maga-era-in-us-politics/the-rise-of-maga" },
+                    { name: "Governing & Conflict", type: "shelf", url: "/libraries/e/the-20162024-maga-era-in-us-politics/governing-institutions-and-conflict" },
+                    { name: "After 2020", type: "shelf", url: "/libraries/e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy" }
+                ]},
+                { name: "US Foreign Interventions", type: "library", url: "/libraries/e/us-foreign-interventions", children: [
+                    { name: "Latin America", type: "shelf", url: "/libraries/e/us-foreign-interventions/latin-america" }
+                ]}
+            ]
+        },
+        {
+            name: "🌍 Geography Libraries",
+            type: "type",
+            url: "/libraries/g",
+            children: [
+                { name: "Africa", type: "library", url: "/libraries/g/africa" },
+                { name: "Asia", type: "library", url: "/libraries/g/asia" },
+                { name: "Europe", type: "library", url: "/libraries/g/europe" },
+                { name: "North America", type: "library", url: "/libraries/g/north-america" },
+                { name: "Oceania", type: "library", url: "/libraries/g/oceania" },
+                { name: "South America", type: "library", url: "/libraries/g/south-america" },
+                { name: "Antarctica", type: "library", url: "/libraries/g/antarctica" },
+                { name: "Territories", type: "library", url: "/libraries/g/territories-and-dependencies" },
+                { name: "US Geography", type: "library", url: "/libraries/g/us-geography" }
+            ]
+        },
+        {
+            name: "📚 Knowledge Libraries",
+            type: "type",
+            url: "/libraries/k",
+            children: [
+                { name: "AI Fundamentals", type: "library", url: "/libraries/k/ai-fundamentals", children: [
+                    { name: "AI in the Real World", type: "shelf", url: "/libraries/k/ai-fundamentals/ai-in-the-real-world" },
+                    { name: "Foundations of AI", type: "shelf", url: "/libraries/k/ai-fundamentals/foundations-of-artificial-intelligence" },
+                    { name: "Neural Networks & LLMs", type: "shelf", url: "/libraries/k/ai-fundamentals/neural-networks-and-large-language-models" }
+                ]},
+                { name: "The Sciences", type: "library", url: "/libraries/k/the-sciences", children: [
+                    { name: "History & Anthropology", type: "shelf", url: "/libraries/k/the-sciences/history-and-anthropology" },
+                    { name: "Life Sciences", type: "shelf", url: "/libraries/k/the-sciences/life-sciences" },
+                    { name: "Math & Computation", type: "shelf", url: "/libraries/k/the-sciences/mathematical-and-computational-sciences" },
+                    { name: "Physical Sciences", type: "shelf", url: "/libraries/k/the-sciences/physical-sciences" }
+                ]},
+                { name: "The Arts", type: "library", url: "/libraries/k/the-arts", children: [
+                    { name: "Literary Arts", type: "shelf", url: "/libraries/k/the-arts/literary-arts" },
+                    { name: "Performing Arts", type: "shelf", url: "/libraries/k/the-arts/performing-arts" },
+                    { name: "Visual Arts", type: "shelf", url: "/libraries/k/the-arts/visual-arts" }
+                ]},
+                { name: "Philosophy", type: "library", url: "/libraries/k/philosophy" },
+                { name: "Biographies", type: "library", url: "/libraries/k/biographies" }
+            ]
+        },
+        {
+            name: "🏗️ Infrastructure",
+            type: "type",
+            url: "/libraries/i",
+            children: [
+                { name: "Civil", type: "library", url: "/libraries/i/civil-infrastructures", children: [
+                    { name: "Electrical Power", type: "shelf", url: "/libraries/i/civil-infrastructures/electrical-power-systems" },
+                    { name: "Water", type: "shelf", url: "/libraries/i/civil-infrastructures/water" }
+                ]},
+                { name: "Digital", type: "library", url: "/libraries/i/digital-infrastructures", children: [
+                    { name: "Data Centers", type: "shelf", url: "/libraries/i/digital-infrastructures/data-centers" }
+                ]},
+                { name: "Economic", type: "library", url: "/libraries/i/economic-infrastructures", children: [
+                    { name: "Geopolitics", type: "shelf", url: "/libraries/i/economic-infrastructures/geopolitics" }
+                ]},
+                { name: "Environmental", type: "library", url: "/libraries/i/environmental-infrastructures", children: [
+                    { name: "Home Autonomy", type: "shelf", url: "/libraries/i/environmental-infrastructures/home-autonomy" }
+                ]},
+                { name: "Security", type: "library", url: "/libraries/i/security-infrastructures", children: [
+                    { name: "Intelligence", type: "shelf", url: "/libraries/i/security-infrastructures/intelligence" }
+                ]},
+                { name: "Social", type: "library", url: "/libraries/i/social-infrastructures", children: [
+                    { name: "Print Media", type: "shelf", url: "/libraries/i/social-infrastructures/print-media" }
+                ]}
+            ]
+        },
+        {
+            name: "💭 Perspectives",
+            type: "type",
+            url: "/libraries/pe",
+            children: [
+                { name: "Contested Issues", type: "library", url: "/libraries/pe/contested-issues", children: [
+                    { name: "Climate Debates", type: "shelf", url: "/libraries/pe/contested-issues/climate-debates" },
+                    { name: "Criminal Justice", type: "shelf", url: "/libraries/pe/contested-issues/criminal-justice-debates" },
+                    { name: "Free Speech", type: "shelf", url: "/libraries/pe/contested-issues/free-speech-debates" },
+                    { name: "Immigration", type: "shelf", url: "/libraries/pe/contested-issues/immigration-debates" },
+                    { name: "Labor & Work", type: "shelf", url: "/libraries/pe/contested-issues/labor-and-work" },
+                    { name: "Social Equality", type: "shelf", url: "/libraries/pe/contested-issues/social-equality-debates" }
+                ]},
+                { name: "Cultural & Identity", type: "library", url: "/libraries/pe/cultural-and-identity", children: [
+                    { name: "Black Studies", type: "shelf", url: "/libraries/pe/cultural-and-identity/black-studies" },
+                    { name: "Feminism", type: "shelf", url: "/libraries/pe/cultural-and-identity/feminism-and-equality" },
+                    { name: "Hispanic Cultures", type: "shelf", url: "/libraries/pe/cultural-and-identity/hispanic-cultures" },
+                    { name: "LGBTQ Studies", type: "shelf", url: "/libraries/pe/cultural-and-identity/lgbtq-studies" },
+                    { name: "Abortion", type: "shelf", url: "/libraries/pe/cultural-and-identity/abortion" }
+                ]},
+                { name: "Geopolitical", type: "library", url: "/libraries/pe/geopolitical" },
+                { name: "Historical Narratives", type: "library", url: "/libraries/pe/historical-narratives", children: [
+                    { name: "Civil Rights", type: "shelf", url: "/libraries/pe/historical-narratives/civil-rights-movements" },
+                    { name: "Racism", type: "shelf", url: "/libraries/pe/historical-narratives/racism" },
+                    { name: "Colonialism", type: "shelf", url: "/libraries/pe/historical-narratives/colonialism" }
+                ]},
+                { name: "Ideological", type: "library", url: "/libraries/pe/ideological" },
+                { name: "Fact vs Fiction", type: "library", url: "/libraries/pe/fact-vs-fiction" }
+            ]
+        },
+        {
+            name: "🏛️ Politicians",
+            type: "type",
+            url: "/libraries/c",
+            children: [
+                { name: "Executive Branch", type: "library", url: "/libraries/c/executive-branch", children: [
+                    { name: "President & VP", type: "shelf", url: "/libraries/c/executive-branch/president-and-vice-president" },
+                    { name: "Cabinet", type: "shelf", url: "/libraries/c/executive-branch/cabinet-and-senior-officials" }
+                ]},
+                { name: "Judicial Branch", type: "library", url: "/libraries/c/judicial-branch" },
+                { name: "US Governors 2026", type: "library", url: "/libraries/c/us-governors-2026" },
+                { name: "US House 2026", type: "library", url: "/libraries/c/us-house-2026-complete", children: [
+                    { name: "435 Districts", type: "shelf", url: "/libraries/c/us-house-2026-complete/2026-states" }
+                ]},
+                { name: "US Senate 2026", type: "library", url: "/libraries/c/us-senate-2026-complete" }
+            ]
+        },
+        {
+            name: "🛠️ Practical",
+            type: "type",
+            url: "/libraries/pr",
+            children: [
+                { name: "Personal & Life", type: "library", url: "/libraries/pr/personal-and-life" },
+                { name: "Practical Knowledge", type: "library", url: "/libraries/pr/practical-knowledge", children: [
+                    { name: "Fact-Checking", type: "shelf", url: "/libraries/pr/practical-knowledge/everyday-fact-checking-skills" },
+                    { name: "Digital Security", type: "shelf", url: "/libraries/pr/practical-knowledge/personal-digital-security" },
+                    { name: "Personal Finance", type: "shelf", url: "/libraries/pr/practical-knowledge/personal-finance" }
+                ]},
+                { name: "Practical Skills", type: "library", url: "/libraries/pr/practical-skills", children: [
+                    { name: "Digital Skills", type: "shelf", url: "/libraries/pr/practical-skills/digital-and-professional-skills" },
+                    { name: "Food & Beverage", type: "shelf", url: "/libraries/pr/practical-skills/food-beverage-skills" },
+                    { name: "Home & Daily Life", type: "shelf", url: "/libraries/pr/practical-skills/home-and-daily-life" }
+                ]}
+            ]
+        }
+    ]
+};
+
+// Convert hierarchical data to nodes and links
+var nodes = [];
+var links = [];
+var nodeId = 0;
+
+var centerX = window.innerWidth / 2;
+var centerY = window.innerHeight / 2;
+
+function processNode(node, parent, depth, parentAngle, parentX, parentY) {
+    if (parent === undefined) parent = null;
+    if (depth === undefined) depth = 0;
+    if (parentAngle === undefined) parentAngle = 0;
+    if (parentX === undefined) parentX = centerX;
+    if (parentY === undefined) parentY = centerY;
+
+    var id = nodeId++;
+
+    var distanceFromParent = depth === 0 ? 0 : depth === 1 ? 220 : depth === 2 ? 130 : 90;
+
+    var x, y;
+    if (depth === 0) {
+        x = centerX;
+        y = centerY;
+    } else {
+        x = parentX + distanceFromParent * Math.cos(parentAngle);
+        y = parentY + distanceFromParent * Math.sin(parentAngle);
+    }
+
+    var newNode = {
+        id: id,
+        name: node.name,
+        type: node.type,
+        url: node.url,
+        depth: depth,
+        x: x,
+        y: y
+    };
+    nodes.push(newNode);
+
+    if (parent !== null) {
+        links.push({
+            source: parent,
+            target: id,
+            type: depth === 1 ? "type" : "normal"
+        });
+    }
+
+    if (node.children) {
+        var numChildren = node.children.length;
+        var arcSpread = depth === 0 ? Math.PI * 2 : depth === 1 ? Math.PI * 0.55 : Math.PI * 0.45;
+        var startAngle = depth === 0 ? -Math.PI / 2 : parentAngle - arcSpread / 2;
+
+        node.children.forEach(function(child, i) {
+            var childAngle = numChildren === 1
+                ? parentAngle
+                : startAngle + (arcSpread * i / (numChildren - 1));
+            processNode(child, id, depth + 1, childAngle, x, y);
+        });
+    }
+
+    return id;
+}
+
+processNode(taxonomyData);
+
+// Try to load saved layout - supports both old (array) and new (object) formats
+fetch("taxonomy-layout.json")
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        if (Array.isArray(data)) {
+            // Old format: array with name/x/y
+            data.forEach(function(saved) {
+                var node = nodes.find(function(n) { return n.name === saved.name; });
+                if (node) {
+                    node.x = saved.x;
+                    node.y = saved.y;
+                }
+            });
+        } else {
+            // New format: object keyed by name
+            Object.entries(data).forEach(function([name, pos]) {
+                var node = nodes.find(function(n) { return n.name === name; });
+                if (node) {
+                    node.x = pos.x;
+                    node.y = pos.y;
+                }
+            });
+        }
+        updatePositions();
+        centerView();
+    })
+    .catch(function() {
+        console.log("No saved layout found, using default positions");
+    });
+
+// Set up SVG
+var width = window.innerWidth;
+var height = window.innerHeight;
+
+var svg = d3.select("#graph")
+    .attr("width", width)
+    .attr("height", height);
+
+var g = svg.append("g");
+
+// Add zoom/pan behavior (but no drag on nodes)
+var zoom = d3.zoom()
+    .scaleExtent([0.3, 3])
+    .on("zoom", function(event) {
+        g.attr("transform", event.transform);
+    });
+
+svg.call(zoom);
+
+// Create links
+var link = g.append("g")
+    .selectAll("line")
+    .data(links)
+    .join("line")
+    .attr("class", function(d) { return d.type === "type" ? "link link-type" : "link"; });
+
+// Tooltip element
+var tooltip = document.getElementById("tooltip");
+
+// Create node groups
+var node = g.append("g")
+    .selectAll("g")
+    .data(nodes)
+    .join("g")
+    .attr("class", function(d) { return "node node-" + d.type; })
+    .on("click", function(event, d) {
+        if (d.url) {
+            window.open(d.url, "_blank");
+        }
+    })
+    .on("mouseenter", function(event, d) {
+        tooltip.textContent = d.name;
+        tooltip.style.display = "block";
+    })
+    .on("mousemove", function(event) {
+        tooltip.style.left = (event.clientX + 15) + "px";
+        tooltip.style.top = (event.clientY + 15) + "px";
+    })
+    .on("mouseleave", function() {
+        tooltip.style.display = "none";
+    });
+
+// Add shapes based on node type
+node.each(function(d) {
+    var el = d3.select(this);
+
+    if (d.type === "center") {
+        el.append("circle")
+            .attr("r", 60);
+    } else {
+        var textLen = d.name.length * 6.5;
+        var w = Math.max(textLen, 70);
+        var h = d.type === "type" ? 32 : d.type === "library" ? 26 : 20;
+        el.append("rect")
+            .attr("width", w)
+            .attr("height", h)
+            .attr("x", -w/2)
+            .attr("y", -h/2)
+            .attr("rx", d.type === "type" ? 6 : 4);
+    }
+});
+
+// Add labels
+node.each(function(d) {
+    var el = d3.select(this);
+    var text = el.append("text")
+        .attr("class", "label-" + d.type)
+        .attr("text-anchor", "middle");
+
+    if (d.type === "center" && d.name.includes("\n")) {
+        // Multi-line center label
+        var lines = d.name.split("\n");
+        text.append("tspan")
+            .attr("x", 0)
+            .attr("dy", "-0.3em")
+            .text(lines[0]);
+        text.append("tspan")
+            .attr("x", 0)
+            .attr("dy", "1.2em")
+            .text(lines[1]);
+    } else {
+        text.attr("dy", d.type === "center" ? 5 : 4)
+            .text(d.name);
+    }
+});
+
+// Position nodes
+function updatePositions() {
+    link
+        .attr("x1", function(d) { return nodes[d.source].x; })
+        .attr("y1", function(d) { return nodes[d.source].y; })
+        .attr("x2", function(d) { return nodes[d.target].x; })
+        .attr("y2", function(d) { return nodes[d.target].y; });
+
+    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+}
+
+// Center view on the QUAREX center node
+function centerView() {
+    var center = nodes[0]; // Center node is always first
+    var scale = 0.85;
+    var tx = width / 2 - center.x * scale;
+    var ty = height / 2 - center.y * scale;
+    svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
+}
+
+updatePositions();
+centerView();
+
+// Handle window resize
+window.addEventListener("resize", function() {
+    svg.attr("width", window.innerWidth).attr("height", window.innerHeight);
+});
+</script>
+
+</body>
+</html>

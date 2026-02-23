@@ -1,6 +1,6 @@
 {
   "batch": 4,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Kansas",
@@ -11,7 +11,7 @@
           "candidates": {
             "Republican": ["Tracey Mann (R)"],
             "Democratic": ["Colin McRoberts (D)", "Lauren Reinhold (D)"],
-            "Independent": [],
+            "Independent": ["Craig Musser (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -40,7 +40,7 @@
           "district": "KS-04",
           "candidates": {
             "Republican": ["Ron Estes (R)"],
-            "Democratic": ["Chris Carmichael (D)", "Ryan Gilbert (D)", "Jordan Mitchell (D)", "Daniel Schneider (D)"],
+            "Democratic": ["Chris Carmichael (D)", "Cole Epley (D)", "Ryan Gilbert (D)", "Jordan Mitchell (D)", "Daniel Schneider (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -85,8 +85,8 @@
         {
           "district": "KY-04",
           "candidates": {
-            "Republican": ["Thomas Massie (R)", "Nicole Lee Ethington (R)", "Ed Gallrein (R)"],
-            "Democratic": ["Jesse Brewer (D)", "Elizabeth Mason-Hill (D)", "Melissa Strange (D)"],
+            "Republican": ["Thomas Massie (R)", "Ed Gallrein (R)"],
+            "Democratic": ["Jesse Brewer (D)", "Melissa Strange (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -95,9 +95,9 @@
         {
           "district": "KY-05",
           "candidates": {
-            "Republican": ["Hal Rogers (R)", "Benjamin Hurley (R)", "Brandon Monhollen (R)", "Jerry Shelton (R)", "Kevin Smith (R)", "Jacob Trimble (R)"],
+            "Republican": ["Hal Rogers (R)", "Benjamin Hurley (R)", "Brandon Monhollen (R)", "Jerry Shelton (R)", "Kevin Smith (R)"],
             "Democratic": ["Ned Pillersdorf (D)"],
-            "Independent": ["Mikel Wein (I)"],
+            "Independent": ["Mikel Wein (I)", "Billy Ray Wilson (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -121,8 +121,8 @@
         {
           "district": "LA-01",
           "candidates": {
-            "Republican": ["Steve Scalise (R)"],
-            "Democratic": ["Lauren Jewett (D)", "Donna Major (D)", "Candida Pagel (D)"],
+            "Republican": ["Steve Scalise (R)", "Randall Arrington (R)"],
+            "Democratic": ["Lauren Jewett (D)", "Jim Long (D)", "Donna Major (D)", "Candida Pagel (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -132,7 +132,7 @@
           "district": "LA-02",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Troy Carter (D)"],
+            "Democratic": ["Troy Carter (D)", "Renada Collins (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -142,7 +142,7 @@
           "district": "LA-03",
           "candidates": {
             "Republican": ["Clay Higgins (R)"],
-            "Democratic": ["Tia LeBrun (D)"],
+            "Democratic": ["John Day (D)", "Tia LeBrun (D)", "Caleb Walker (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -151,7 +151,7 @@
         {
           "district": "LA-04",
           "candidates": {
-            "Republican": ["Mike Johnson (R)"],
+            "Republican": ["Mike Johnson (R)", "Joshua Morott (R)", "Mike Nichols (R)"],
             "Democratic": ["Conrad Cable (D)", "Matthew Gromlich (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -161,8 +161,8 @@
         {
           "district": "LA-05",
           "candidates": {
-            "Republican": ["Stewart Cathey (R)", "Misti Cordell (R)", "Larry Davis (R)", "Rick Edmonds (R)", "Ray Smith (R)", "Samuel Wyatt (R)"],
-            "Democratic": ["Larry Foy (D)"],
+            "Republican": ["Stewart Cathey (R)", "Misti Cordell (R)", "Michael Echols (R)", "Rick Edmonds (R)", "Austin Magee (R)", "Michael Mebruer (R)", "Blake Miguez (R)", "Ray Smith (R)", "Samuel Wyatt (R)"],
+            "Democratic": ["Jessee Carlton Fleenor (D)", "Larry Foy (D)", "Lindsay Garcia (D)", "Dan McKay (D)", "Tania Nyman (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -171,7 +171,7 @@
         {
           "district": "LA-06",
           "candidates": {
-            "Republican": ["Christian Johnson (R)"],
+            "Republican": ["Monique Appeaning (R)", "Larry Davis (R)", "Christian Johnson (R)", "Peter Williams (R)"],
             "Democratic": ["Cleo Fields (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -187,7 +187,7 @@
         {
           "district": "ME-01",
           "candidates": {
-            "Republican": ["Joshua James Duprey (R)", "Andrew Piantidosi (R)", "Joshua Pietrowicz (R)", "Ronald C. Russell (R)"],
+            "Republican": ["Joshua James Duprey (R)", "Joshua Pietrowicz (R)", "Ronald C. Russell (R)"],
             "Democratic": ["Chellie Pingree (D)", "Tiffany Roberts (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -224,7 +224,7 @@
           "district": "MD-02",
           "candidates": {
             "Republican": ["Kim Klacik (R)"],
-            "Democratic": ["John Olszewski Jr. (D)", "Enrico Bailey (D)"],
+            "Democratic": ["John Olszewski Jr. (D)", "Enrico Bailey (D)", "Clint Spellman Jr. (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -254,7 +254,7 @@
           "district": "MD-05",
           "candidates": {
             "Republican": ["Michelle Talkington (R)"],
-            "Democratic": ["Quincy Bareebe (D)", "Wala Blegay (D)", "Adrian Boafo (D)", "Jennifer Cross (D)", "Terry Jackson (D)", "Harry Jarin (D)", "Walter Kirkland (D)", "Heather Luper (D)", "Alexis Solis (D)", "Tracy Starr (D)", "Nicole Williams (D)"],
+            "Democratic": ["Quincy Bareebe (D)", "Wala Blegay (D)", "Adrian Boafo (D)", "Jennifer Cross (D)", "Harry Dunn (D)", "Arthur Ellis (D)", "Terry Jackson (D)", "Harry Jarin (D)", "Walter Kirkland (D)", "Jerry Lightfoot (D)", "Heather Luper (D)", "Alexis Solis (D)", "Tracy Starr (D)", "Nicole Williams (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -264,7 +264,7 @@
           "district": "MD-06",
           "candidates": {
             "Republican": ["Christopher Burnett (R)", "Chris Hyser (R)", "Neil Parrott (R)"],
-            "Democratic": ["April McClain-Delaney (D)", "David Trone (D)", "Ethan Wechtaluk (D)"],
+            "Democratic": ["April McClain-Delaney (D)", "George Gluck (D)", "David Trone (D)", "Ethan Wechtaluk (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []

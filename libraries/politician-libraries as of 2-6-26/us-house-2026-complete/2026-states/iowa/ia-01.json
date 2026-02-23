@@ -1,0 +1,22 @@
+{
+  "book": "IA-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mariannette Miller-Meeks (R)",
+        "Grant Hill (R)",
+        "David Pautsch (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Christina Bohannan (D)",
+        "Bob Krause (D)",
+        "Travis Terrell (D)",
+        "Taylor Wettach (D)"
+      ]
+    }
+  ]
+}

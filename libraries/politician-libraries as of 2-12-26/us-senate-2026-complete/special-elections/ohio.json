@@ -1,0 +1,38 @@
+{
+  "book": "Ohio",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jon Husted (R)",
+        "Brian Bibler (R)",
+        "Susanna Brewer (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sherrod Brown (D)",
+        "William Farms (D)",
+        "Ron Kincaid (D)",
+        "Lynnea Lau (D)",
+        "Dakota Rose (D)",
+        "Christopher Volpe (D)"
+      ]
+    },
+    {
+      "name": "Libertarian",
+      "topics": [
+        "Jeffrey Kanter (L)",
+        "Bill Redpath (L)"
+      ]
+    },
+    {
+      "name": "Independent",
+      "topics": [
+        "Gregory Levy (I)",
+        "Stephen Faris (I)"
+      ]
+    }
+  ]
+}

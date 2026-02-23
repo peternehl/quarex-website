@@ -1,0 +1,29 @@
+{
+  "book": "Georgia",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Chris Carr (R)",
+        "Clark Dean (R)",
+        "Burt Jones (R)",
+        "Gregg Kirkpatrick (R)",
+        "Leland Olinger II (R)",
+        "Brad Raffensperger (R)",
+        "Kenneth Yasger (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Keisha Bottoms (D)",
+        "Olu Brown (D)",
+        "Geoff Duncan (D)",
+        "Jason Esteves (D)",
+        "Derrick Jackson (D)",
+        "Ruwa Romman (D)",
+        "Michael Thurmond (D)"
+      ]
+    }
+  ]
+}

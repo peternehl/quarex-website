@@ -1,0 +1,28 @@
+{
+  "book": "TX-22",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Rebecca Clark (R)",
+        "Trever Nehls (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chris Fernandez (D)",
+        "Sterling Gadison (D)",
+        "Marquette Greene-Scott (D)",
+        "Robert Thomas (D)",
+        "Pearl Vuorinen (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Demile James (I)"
+      ]
+    }
+  ]
+}

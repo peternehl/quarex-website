@@ -1,0 +1,29 @@
+{
+  "book": "Montana",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Steve Daines (R)",
+        "Charles A. Walking Child (R)",
+        "Trey Gregory (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Michael BlackWolf (D)",
+        "Michael Hummert (D)",
+        "Kathleen McLaughlin (D)",
+        "Reilly Neill (D)",
+        "Alani Bankhead (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Kyle Austin (L)"
+      ]
+    }
+  ]
+}

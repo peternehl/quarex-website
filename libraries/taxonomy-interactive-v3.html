@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Library Taxonomy - Interactive v3</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            overflow: hidden;
+        }
+        #controls {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 100;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        #controls h1 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #0d9488;
+        }
+        #controls p {
+            margin: 5px 0;
+            font-size: 13px;
+            color: #64748b;
+        }
+        button {
+            background: #0d9488;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px 5px 5px 0;
+            font-size: 13px;
+        }
+        button:hover {
+            background: #0f766e;
+        }
+        button.secondary {
+            background: #64748b;
+        }
+        button.secondary:hover {
+            background: #475569;
+        }
+        #status {
+            color: #0d9488;
+            font-size: 11px;
+            margin-top: 8px;
+            min-height: 16px;
+        }
+        .node {
+            cursor: grab;
+        }
+        .node:active {
+            cursor: grabbing;
+        }
+        .node-center circle {
+            fill: #0d9488;
+            stroke: #0d9488;
+            stroke-width: 3;
+        }
+        .node-type rect {
+            fill: #f0fdfa;
+            stroke: #0d9488;
+            stroke-width: 2;
+        }
+        .node-library rect {
+            fill: #f8fafc;
+            stroke: #94a3b8;
+            stroke-width: 1.5;
+        }
+        .node-shelf rect {
+            fill: #ffffff;
+            stroke: #e2e8f0;
+            stroke-width: 1;
+        }
+        .link {
+            stroke: #cbd5e1;
+            stroke-width: 1.5;
+            fill: none;
+        }
+        .link-type {
+            stroke: #0d9488;
+            stroke-width: 2;
+        }
+        text {
+            pointer-events: none;
+            font-size: 12px;
+        }
+        .label-center {
+            fill: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .label-type {
+            fill: #1e293b;
+            font-weight: bold;
+            font-size: 13px;
+        }
+        .label-library {
+            fill: #334155;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        .label-shelf {
+            fill: #475569;
+            font-size: 10px;
+        }
+        #fileInput {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="controls">
+    <h1>📚 Quarex Library Taxonomy v3</h1>
+    <p>825 Books • 5,308 Chapters • 827 Tags</p>
+    <p><strong>Drag nodes</strong> to rearrange • <strong>Scroll</strong> to zoom</p>
+    <div>
+        <button onclick="saveLayout()">💾 Save Layout</button>
+        <button onclick="document.getElementById('fileInput').click()" class="secondary">📂 Load Layout</button>
+        <button onclick="resetLayout()" class="secondary">🔄 Reset</button>
+    </div>
+    <div>
+        <button onclick="exportSVG()">📥 Export SVG</button>
+    </div>
+    <input type="file" id="fileInput" accept=".json" onchange="loadLayout(event)">
+    <p id="status"></p>
+</div>
+
+<svg id="graph"></svg>
+
+<script>
+// Quarex taxonomy data
+const taxonomyData = {
+    name: "QUAREX\nLIBRARIES",
+    type: "center",
+    children: [
+        {
+            name: "📅 Event Libraries",
+            type: "type",
+            children: [
+                { name: "Current Events", type: "library", children: [
+                    { name: "Domestic Politics", type: "shelf" },
+                    { name: "Global Challenges", type: "shelf" },
+                    { name: "International Conflicts", type: "shelf" },
+                    { name: "News of the Day", type: "shelf" }
+                ]},
+                { name: "2016-2024 MAGA Era", type: "library", children: [
+                    { name: "Rise of MAGA", type: "shelf" },
+                    { name: "Governing & Conflict", type: "shelf" },
+                    { name: "After 2020", type: "shelf" }
+                ]},
+                { name: "US Foreign Interventions", type: "library", children: [
+                    { name: "Latin America", type: "shelf" }
+                ]}
+            ]
+        },
+        {
+            name: "🌍 Geography Libraries",
+            type: "type",
+            children: [
+                { name: "Africa", type: "library" },
+                { name: "Asia", type: "library" },
+                { name: "Europe", type: "library" },
+                { name: "North America", type: "library" },
+                { name: "Oceania", type: "library" },
+                { name: "South America", type: "library" },
+                { name: "Antarctica", type: "library" },
+                { name: "Territories", type: "library" },
+                { name: "US Geography", type: "library" }
+            ]
+        },
+        {
+            name: "📚 Knowledge Libraries",
+            type: "type",
+            children: [
+                { name: "AI Fundamentals", type: "library", children: [
+                    { name: "AI in the Real World", type: "shelf" },
+                    { name: "Foundations of AI", type: "shelf" },
+                    { name: "Neural Networks & LLMs", type: "shelf" }
+                ]},
+                { name: "The Sciences", type: "library", children: [
+                    { name: "History & Anthropology", type: "shelf" },
+                    { name: "Life Sciences", type: "shelf" },
+                    { name: "Math & Computation", type: "shelf" },
+                    { name: "Physical Sciences", type: "shelf" }
+                ]},
+                { name: "The Arts", type: "library", children: [
+                    { name: "Literary Arts", type: "shelf" },
+                    { name: "Performing Arts", type: "shelf" },
+                    { name: "Visual Arts", type: "shelf" }
+                ]},
+                { name: "Philosophy", type: "library" },
+                { name: "Biographies", type: "library" }
+            ]
+        },
+        {
+            name: "🏗️ Infrastructure",
+            type: "type",
+            children: [
+                { name: "Civil", type: "library", children: [
+                    { name: "Electrical Power", type: "shelf" },
+                    { name: "Water", type: "shelf" }
+                ]},
+                { name: "Digital", type: "library", children: [
+                    { name: "Data Centers", type: "shelf" }
+                ]},
+                { name: "Economic", type: "library", children: [
+                    { name: "Geopolitics", type: "shelf" }
+                ]},
+                { name: "Environmental", type: "library", children: [
+                    { name: "Home Autonomy", type: "shelf" }
+                ]},
+                { name: "Security", type: "library", children: [
+                    { name: "Intelligence", type: "shelf" }
+                ]},
+                { name: "Social", type: "library", children: [
+                    { name: "Print Media", type: "shelf" }
+                ]}
+            ]
+        },
+        {
+            name: "💭 Perspectives",
+            type: "type",
+            children: [
+                { name: "Contested Issues", type: "library", children: [
+                    { name: "Climate Debates", type: "shelf" },
+                    { name: "Criminal Justice", type: "shelf" },
+                    { name: "Free Speech", type: "shelf" },
+                    { name: "Immigration", type: "shelf" },
+                    { name: "Labor & Work", type: "shelf" },
+                    { name: "Social Equality", type: "shelf" }
+                ]},
+                { name: "Cultural & Identity", type: "library", children: [
+                    { name: "Black Studies", type: "shelf" },
+                    { name: "Feminism", type: "shelf" },
+                    { name: "Hispanic Cultures", type: "shelf" },
+                    { name: "LGBTQ Studies", type: "shelf" },
+                    { name: "Abortion", type: "shelf" }
+                ]},
+                { name: "Geopolitical", type: "library" },
+                { name: "Historical Narratives", type: "library", children: [
+                    { name: "Civil Rights", type: "shelf" },
+                    { name: "Racism", type: "shelf" },
+                    { name: "Colonialism", type: "shelf" }
+                ]},
+                { name: "Ideological", type: "library" },
+                { name: "Fact vs Fiction", type: "library" }
+            ]
+        },
+        {
+            name: "🏛️ Politicians",
+            type: "type",
+            children: [
+                { name: "Executive Branch", type: "library", children: [
+                    { name: "President & VP", type: "shelf" },
+                    { name: "Cabinet", type: "shelf" }
+                ]},
+                { name: "Judicial Branch", type: "library" },
+                { name: "US Governors 2026", type: "library" },
+                { name: "US House 2026", type: "library", children: [
+                    { name: "435 Districts", type: "shelf" }
+                ]},
+                { name: "US Senate 2026", type: "library" }
+            ]
+        },
+        {
+            name: "🛠️ Practical",
+            type: "type",
+            children: [
+                { name: "Personal & Life", type: "library" },
+                { name: "Practical Knowledge", type: "library", children: [
+                    { name: "Fact-Checking", type: "shelf" },
+                    { name: "Digital Security", type: "shelf" },
+                    { name: "Personal Finance", type: "shelf" }
+                ]},
+                { name: "Practical Skills", type: "library", children: [
+                    { name: "Digital Skills", type: "shelf" },
+                    { name: "Food & Beverage", type: "shelf" },
+                    { name: "Home & Daily Life", type: "shelf" }
+                ]}
+            ]
+        }
+    ]
+};
+
+// Convert hierarchical data to nodes and links
+let nodes = [];
+let links = [];
+let nodeId = 0;
+
+const centerX = window.innerWidth / 2;
+const centerY = window.innerHeight / 2;
+
+function processNode(node, parent = null, depth = 0, parentAngle = 0, parentX = centerX, parentY = centerY) {
+    const id = nodeId++;
+    const distanceFromParent = depth === 0 ? 0 : depth === 1 ? 220 : depth === 2 ? 130 : 90;
+
+    let x, y;
+    if (depth === 0) {
+        x = centerX;
+        y = centerY;
+    } else {
+        x = parentX + distanceFromParent * Math.cos(parentAngle);
+        y = parentY + distanceFromParent * Math.sin(parentAngle);
+    }
+
+    const newNode = {
+        id,
+        name: node.name,
+        type: node.type,
+        depth,
+        x,
+        y
+    };
+    nodes.push(newNode);
+
+    if (parent !== null) {
+        links.push({
+            source: parent,
+            target: id,
+            type: depth === 1 ? 'type' : 'normal'
+        });
+    }
+
+    if (node.children) {
+        const numChildren = node.children.length;
+        const arcSpread = depth === 0 ? Math.PI * 2 : depth === 1 ? Math.PI * 0.55 : Math.PI * 0.45;
+        const startAngle = depth === 0 ? -Math.PI / 2 : parentAngle - arcSpread / 2;
+
+        node.children.forEach((child, i) => {
+            const childAngle = numChildren === 1
+                ? parentAngle
+                : startAngle + (arcSpread * i / (numChildren - 1));
+            processNode(child, id, depth + 1, childAngle, x, y);
+        });
+    }
+
+    return id;
+}
+
+processNode(taxonomyData);
+
+// Set up SVG
+const width = window.innerWidth;
+const height = window.innerHeight;
+
+const svg = d3.select("#graph")
+    .attr("width", width)
+    .attr("height", height);
+
+const g = svg.append("g");
+
+const zoom = d3.zoom()
+    .scaleExtent([0.3, 3])
+    .on("zoom", (event) => {
+        g.attr("transform", event.transform);
+    });
+
+svg.call(zoom);
+
+// Create links
+const link = g.append("g")
+    .selectAll("line")
+    .data(links)
+    .join("line")
+    .attr("class", d => d.type === 'type' ? "link link-type" : "link");
+
+// Create node groups
+const node = g.append("g")
+    .selectAll("g")
+    .data(nodes)
+    .join("g")
+    .attr("class", d => `node node-${d.type}`)
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
+// Add shapes
+node.each(function(d) {
+    const el = d3.select(this);
+    if (d.type === 'center') {
+        el.append("circle").attr("r", 60);
+    } else {
+        const textLen = d.name.length * 6.5;
+        const w = Math.max(textLen, 70);
+        const h = d.type === 'type' ? 32 : d.type === 'library' ? 26 : 20;
+        el.append("rect")
+            .attr("width", w)
+            .attr("height", h)
+            .attr("x", -w/2)
+            .attr("y", -h/2)
+            .attr("rx", d.type === 'type' ? 6 : 4);
+    }
+});
+
+// Add labels
+node.append("text")
+    .attr("class", d => `label-${d.type}`)
+    .attr("text-anchor", "middle")
+    .attr("dy", d => d.type === 'center' ? 5 : 4)
+    .text(d => d.name.replace('\n', ' '));
+
+function updatePositions() {
+    link
+        .attr("x1", d => nodes[d.source].x)
+        .attr("y1", d => nodes[d.source].y)
+        .attr("x2", d => nodes[d.target].x)
+        .attr("y2", d => nodes[d.target].y);
+    node.attr("transform", d => `translate(${d.x},${d.y})`);
+}
+
+function dragstarted(event, d) {
+    d3.select(this).raise();
+}
+
+function dragged(event, d) {
+    d.x = event.x;
+    d.y = event.y;
+    updatePositions();
+}
+
+function dragended(event, d) {}
+
+// === SAVE / LOAD FUNCTIONS ===
+
+function showStatus(msg) {
+    document.getElementById('status').textContent = msg;
+    setTimeout(() => document.getElementById('status').textContent = '', 3000);
+}
+
+function saveLayout() {
+    // Use name as key instead of id so layouts survive adding new nodes
+    const data = {};
+    nodes.forEach(n => {
+        data[n.name] = {
+            x: Math.round(n.x * 100) / 100,
+            y: Math.round(n.y * 100) / 100
+        };
+    });
+
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'taxonomy-layout.json';
+    a.click();
+    URL.revokeObjectURL(url);
+
+    showStatus('✓ Layout saved to taxonomy-layout.json');
+}
+
+function loadLayout(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const data = JSON.parse(e.target.result);
+
+            // Apply positions - support both old (array) and new (object) formats
+            if (Array.isArray(data)) {
+                // Old format: array with id/name/x/y
+                data.forEach(saved => {
+                    const node = nodes.find(n => n.name === saved.name);
+                    if (node) {
+                        node.x = saved.x;
+                        node.y = saved.y;
+                    }
+                });
+            } else {
+                // New format: object keyed by name
+                Object.entries(data).forEach(([name, pos]) => {
+                    const node = nodes.find(n => n.name === name);
+                    if (node) {
+                        node.x = pos.x;
+                        node.y = pos.y;
+                    }
+                });
+            }
+
+            updatePositions();
+            showStatus('✓ Layout loaded from ' + file.name);
+        } catch (err) {
+            showStatus('✗ Error loading file: ' + err.message);
+        }
+    };
+    reader.readAsText(file);
+    event.target.value = ''; // Reset so same file can be loaded again
+}
+
+function resetLayout() {
+    nodeId = 0;
+    nodes = [];
+    links = [];
+    processNode(taxonomyData);
+    location.reload();
+}
+
+function exportSVG() {
+    // Clone the SVG
+    const svgEl = document.getElementById('graph');
+    const clone = svgEl.cloneNode(true);
+
+    // Get current transform and apply to content
+    const gEl = clone.querySelector('g');
+
+    // Add styles inline
+    const styles = `
+        .link { stroke: #cbd5e1; stroke-width: 1.5; fill: none; }
+        .link-type { stroke: #0d9488; stroke-width: 2; }
+        .node-center circle { fill: #0d9488; stroke: #0d9488; stroke-width: 3; }
+        .node-type rect { fill: #f0fdfa; stroke: #0d9488; stroke-width: 2; }
+        .node-library rect { fill: #f8fafc; stroke: #94a3b8; stroke-width: 1.5; }
+        .node-shelf rect { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; }
+        text { font-family: sans-serif; font-size: 12px; }
+        .label-center { fill: white; font-weight: bold; font-size: 16px; }
+        .label-type { fill: #1e293b; font-weight: bold; font-size: 13px; }
+        .label-library { fill: #334155; font-weight: bold; font-size: 11px; }
+        .label-shelf { fill: #475569; font-size: 10px; }
+    `;
+    const styleEl = document.createElementNS('http://www.w3.org/2000/svg', 'style');
+    styleEl.textContent = styles;
+    clone.insertBefore(styleEl, clone.firstChild);
+
+    // Add white background
+    const bg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+    bg.setAttribute('width', '100%');
+    bg.setAttribute('height', '100%');
+    bg.setAttribute('fill', 'white');
+    clone.insertBefore(bg, styleEl);
+
+    const svgData = new XMLSerializer().serializeToString(clone);
+    const blob = new Blob([svgData], { type: 'image/svg+xml' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'quarex-taxonomy.svg';
+    a.click();
+    URL.revokeObjectURL(url);
+
+    showStatus('✓ SVG exported');
+}
+
+// Try to auto-load saved layout from same directory
+fetch('taxonomy-layout.json')
+    .then(r => r.json())
+    .then(data => {
+        // Support both old (array) and new (object) formats
+        if (Array.isArray(data)) {
+            data.forEach(saved => {
+                const node = nodes.find(n => n.name === saved.name);
+                if (node) {
+                    node.x = saved.x;
+                    node.y = saved.y;
+                }
+            });
+        } else {
+            Object.entries(data).forEach(([name, pos]) => {
+                const node = nodes.find(n => n.name === name);
+                if (node) {
+                    node.x = pos.x;
+                    node.y = pos.y;
+                }
+            });
+        }
+        updatePositions();
+        showStatus('✓ Auto-loaded taxonomy-layout.json');
+    })
+    .catch(() => {
+        // No saved layout found, use default
+        updatePositions();
+    });
+
+window.addEventListener('resize', () => {
+    svg.attr("width", window.innerWidth).attr("height", window.innerHeight);
+});
+</script>
+
+</body>
+</html>

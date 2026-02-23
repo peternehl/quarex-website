@@ -1,0 +1,25 @@
+{
+  "book": "Alaska",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Daniel S. Sullivan (R)",
+        "Dustin Darden (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ann Diener (D)",
+        "Mary Peltola (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Richard Grayson (G)"
+      ]
+    }
+  ]
+}

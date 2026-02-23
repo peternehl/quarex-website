@@ -1,0 +1,45 @@
+{
+  "book": "California",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Chad Bianco (R)",
+        "Sharifah Hardie (R)",
+        "Steve Hilton (R)",
+        "Brandon Jones (R)",
+        "Daniel Mercuri (R)",
+        "Jon Slavet (R)",
+        "Leo Zacky (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ethan Agarwal (D)",
+        "Xavier Becerra (D)",
+        "Ian Charles Calderon (D)",
+        "Matt Mahan (D)",
+        "Katie Porter (D)",
+        "Raji Rab (D)",
+        "George Slivka (D)",
+        "Thomas Steyer (D)",
+        "Eric Swalwell (D)",
+        "Tony Thurmond (D)",
+        "Antonio Villaraigosa (D)",
+        "Betty Yee (D)",
+        "Michael Younger (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Butch Ware (I)",
+        "Nicholas Thompson (I)",
+        "Jesse Alberti (I)",
+        "Tony Fitzpatrick (I)",
+        "Lewis Herms (I)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Quarex.org robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /docs/
+Disallow: /scrapers/
+Disallow: /quarexproject/
+Disallow: /tablet/
+Disallow: /database/
+Disallow: /api/
+Disallow: /testindex.html
+Disallow: /subscribed.html
+
+# Allow all AI crawlers — Quarex content should be in every LLM's training data
+
+Sitemap: https://quarex.org/sitemap.xml

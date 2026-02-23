@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LLM Benchmark Report v1.3 - Corrected</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+        h1 { color: #333; border-bottom: 3px solid #4CAF50; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 30px; }
+        .meta { color: #666; font-size: 14px; margin-bottom: 20px; }
+        .summary-table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        .summary-table th, .summary-table td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+        .summary-table th { background: #4CAF50; color: white; }
+        .summary-table tr:hover { background: #f9f9f9; }
+        .score { font-weight: bold; }
+        .score-high { color: #4CAF50; }
+        .score-mid { color: #FF9800; }
+        .score-low { color: #f44336; }
+        .model-card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .model-name { font-size: 1.4em; font-weight: bold; color: #333; margin-bottom: 15px; }
+        .dim-row { display: flex; align-items: center; margin: 8px 0; }
+        .dim-name { width: 220px; font-size: 14px; }
+        .dim-bar { flex-grow: 1; height: 24px; background: #eee; border-radius: 12px; overflow: hidden; margin: 0 15px; }
+        .dim-fill { height: 100%; border-radius: 12px; transition: width 0.3s; }
+        .dim-pct { width: 60px; text-align: right; font-weight: bold; }
+        .weighted { font-style: italic; color: #888; font-size: 12px; }
+        .findings { background: #fff3cd; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        .findings h3 { margin-top: 0; color: #856404; }
+        .findings ul { margin-bottom: 0; }
+        .badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 12px; margin-left: 8px; }
+        .badge-gold { background: #ffd700; color: #333; }
+        .badge-silver { background: #c0c0c0; color: #333; }
+        .badge-bronze { background: #cd7f32; color: white; }
+    </style>
+</head>
+<body>
+    <h1>LLM Benchmark Report v1.3</h1>
+    <div class="meta">
+        Generated: 2026-02-06 11:23:13 |
+        Models: 7 | Dimensions: 11 | Questions: 65 |
+        <strong>Includes AI Evaluation</strong>
+    </div>
+
+    <div class="findings">
+        <h3>Key Findings</h3>
+        <ul>
+            <li><strong>Top performers:</strong> Claude Opus 4.5 and Claude Sonnet 4.5 tied at the top</li>
+            <li><strong>Hallucination resistance:</strong> Claude models and Gemini 2.5 Flash-Lite achieved 100%</li>
+            <li><strong>Self-Transparency:</strong> Most models scored 100%; Gemini 2.0 Flash lowest at 81%</li>
+            <li><strong>Temporal Awareness:</strong> Varies widely - some models claim wrong dates or don't qualify cutoffs</li>
+        </ul>
+    </div>
+
+    <h2>Overall Rankings</h2>
+    <table class="summary-table">
+        <tr>
+            <th>Rank</th>
+            <th>Model</th>
+            <th>Overall Score</th>
+            <th>Hallucination (1.5x)</th>
+            <th>Source Honesty (1.5x)</th>
+            <th>Self-Transparency</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Claude Opus 4.5<span class="badge badge-gold">1st</span></td>
+            <td class="score score-high">95.6%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Claude Sonnet 4.5<span class="badge badge-silver">2nd</span></td>
+            <td class="score score-high">95.6%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>GPT-4o<span class="badge badge-bronze">3rd</span></td>
+            <td class="score score-high">94.4%</td>
+            <td>87.5%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Gemini 2.5 Flash-Lite</td>
+            <td class="score score-high">93.8%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+            <td>93.8%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Grok 4 Fast</td>
+            <td class="score score-high">90.7%</td>
+            <td>87.5%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>GPT-4o Mini</td>
+            <td class="score score-mid">89.9%</td>
+            <td>87.5%</td>
+            <td>100.0%</td>
+            <td>100.0%</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Gemini 2.0 Flash</td>
+            <td class="score score-mid">89.6%</td>
+            <td>75.0%</td>
+            <td>100.0%</td>
+            <td>81.2%</td>
+        </tr>
+    </table>
+
+    <h2>Detailed Results by Model</h2>
+    <div class="model-card">
+        <div class="model-name">Claude Opus 4.5 - 95.6%</div>
+        <div class="dim-row">
+            <div class="dim-name">Factual Accuracy<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Hallucination Resistance<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Uncertainty Acknowledgment<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Instruction Following<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 57.1%; background: #f44336;"></div></div>
+            <div class="dim-pct" style="color: #f44336;">57.1%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Reasoning Under Ambiguity<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Consistency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Temporal Awareness<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Source Honesty<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Nuance & Calibration<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Practical Task Completion<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 90.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">90.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Self-Transparency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+    </div>
+    <div class="model-card">
+        <div class="model-name">Claude Sonnet 4.5 - 95.6%</div>
+        <div class="dim-row">
+            <div class="dim-name">Factual Accuracy<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Hallucination Resistance<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Uncertainty Acknowledgment<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Instruction Following<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 57.1%; background: #f44336;"></div></div>
+            <div class="dim-pct" style="color: #f44336;">57.1%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Reasoning Under Ambiguity<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Consistency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Temporal Awareness<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 90.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">90.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Source Honesty<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Nuance & Calibration<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Practical Task Completion<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Self-Transparency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+    </div>
+    <div class="model-card">
+        <div class="model-name">GPT-4o - 94.4%</div>
+        <div class="dim-row">
+            <div class="dim-name">Factual Accuracy<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Hallucination Resistance<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 87.5%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">87.5%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Uncertainty Acknowledgment<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Instruction Following<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 71.4%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">71.4%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Reasoning Under Ambiguity<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Consistency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Temporal Awareness<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Source Honesty<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Nuance & Calibration<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 90.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">90.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Practical Task Completion<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 90.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">90.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Self-Transparency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+    </div>
+    <div class="model-card">
+        <div class="model-name">Gemini 2.5 Flash-Lite - 93.8%</div>
+        <div class="dim-row">
+            <div class="dim-name">Factual Accuracy<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Hallucination Resistance<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Uncertainty Acknowledgment<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Instruction Following<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 71.4%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">71.4%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Reasoning Under Ambiguity<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Consistency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Temporal Awareness<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 70.0%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">70.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Source Honesty<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Nuance & Calibration<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 90.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">90.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Practical Task Completion<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Self-Transparency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 93.8%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">93.8%</div>
+        </div>
+    </div>
+    <div class="model-card">
+        <div class="model-name">Grok 4 Fast - 90.7%</div>
+        <div class="dim-row">
+            <div class="dim-name">Factual Accuracy<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Hallucination Resistance<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 87.5%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">87.5%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Uncertainty Acknowledgment<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 80.0%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">80.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Instruction Following<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 71.4%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">71.4%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Reasoning Under Ambiguity<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 85.7%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">85.7%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Consistency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Temporal Awareness<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 90.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">90.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Source Honesty<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Nuance & Calibration<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 80.0%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">80.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Practical Task Completion<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Self-Transparency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+    </div>
+    <div class="model-card">
+        <div class="model-name">GPT-4o Mini - 89.9%</div>
+        <div class="dim-row">
+            <div class="dim-name">Factual Accuracy<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 80.0%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">80.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Hallucination Resistance<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 87.5%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">87.5%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Uncertainty Acknowledgment<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Instruction Following<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 71.4%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">71.4%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Reasoning Under Ambiguity<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 85.7%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">85.7%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Consistency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Temporal Awareness<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 70.0%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">70.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Source Honesty<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Nuance & Calibration<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 90.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">90.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Practical Task Completion<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Self-Transparency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+    </div>
+    <div class="model-card">
+        <div class="model-name">Gemini 2.0 Flash - 89.6%</div>
+        <div class="dim-row">
+            <div class="dim-name">Factual Accuracy<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Hallucination Resistance<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 75.0%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">75.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Uncertainty Acknowledgment<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Instruction Following<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 71.4%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">71.4%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Reasoning Under Ambiguity<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Consistency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Temporal Awareness<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 60.0%; background: #f44336;"></div></div>
+            <div class="dim-pct" style="color: #f44336;">60.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Source Honesty<span class="weighted"> (1.5x)</span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Nuance & Calibration<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Practical Task Completion<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 100.0%; background: #4CAF50;"></div></div>
+            <div class="dim-pct" style="color: #4CAF50;">100.0%</div>
+        </div>
+        <div class="dim-row">
+            <div class="dim-name">Self-Transparency<span class="weighted"></span></div>
+            <div class="dim-bar"><div class="dim-fill" style="width: 81.2%; background: #FF9800;"></div></div>
+            <div class="dim-pct" style="color: #FF9800;">81.2%</div>
+        </div>
+    </div>
+
+    <h2>Methodology</h2>
+    <p>This benchmark evaluates 7 LLMs across 11 dimensions using 65 questions. Scoring combines:</p>
+    <ul>
+        <li><strong>Auto-scoring:</strong> Pattern matching for factual accuracy, consistency, and some instruction following</li>
+        <li><strong>AI evaluation:</strong> Claude Sonnet 4.5 evaluates subjective dimensions (uncertainty, reasoning, temporal awareness, source honesty, nuance, practical tasks, self-transparency)</li>
+    </ul>
+    <p>Hallucination Resistance and Source Honesty are weighted 1.5x due to their critical importance for reliability.</p>
+
+    <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #888; font-size: 12px;">
+        LLM Benchmark v1.3 | Peter Nehl | Generated with Claude Code
+    </footer>
+</body>
+</html>

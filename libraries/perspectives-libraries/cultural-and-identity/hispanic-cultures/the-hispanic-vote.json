@@ -19,7 +19,12 @@
         "Where are Hispanic voters concentrated geographically?",
         "What is the projected growth of Hispanic voting power?"
       ],
-      "tags": ["politics", "demographics", "americas", "voting"]
+      "tags": [
+        "politics",
+        "demographics",
+        "americas",
+        "voting"
+      ]
     },
     {
       "name": "Voter Registration and Turnout",
@@ -31,7 +36,12 @@
         "How has Hispanic turnout changed in recent elections?",
         "What drives Hispanic voters to the polls?"
       ],
-      "tags": ["politics", "representation", "americas", "voter-turnout"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "voter-turnout"
+      ]
     },
     {
       "name": "Voting Patterns by Party",
@@ -43,7 +53,12 @@
         "How do Hispanic independents vote?",
         "Is there a 'sleeping giant' of Hispanic political power?"
       ],
-      "tags": ["politics", "representation", "americas", "partisanship"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "partisanship"
+      ]
     },
     {
       "name": "Diversity Within the Hispanic Vote",
@@ -55,7 +70,12 @@
         "How do religious Hispanic voters compare to secular ones?",
         "What explains the internal diversity of the Hispanic vote?"
       ],
-      "tags": ["politics", "identity", "americas", "demographics"]
+      "tags": [
+        "politics",
+        "hispanic-culture",
+        "americas",
+        "demographics"
+      ]
     },
     {
       "name": "Issues That Matter to Hispanic Voters",
@@ -67,7 +87,12 @@
         "What role do social issues play in Hispanic voting?",
         "How do Hispanic issue priorities compare to other groups?"
       ],
-      "tags": ["politics", "representation", "americas", "policy"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "policy"
+      ]
     },
     {
       "name": "Battleground States and Hispanic Power",
@@ -79,7 +104,12 @@
         "What emerging battlegrounds feature Hispanic voters?",
         "How do campaigns target Hispanic swing voters?"
       ],
-      "tags": ["politics", "geography", "americas", "elections"]
+      "tags": [
+        "politics",
+        "geography",
+        "americas",
+        "elections"
+      ]
     },
     {
       "name": "Voter Outreach and Mobilization",
@@ -91,7 +121,12 @@
         "How do campaigns fail to reach Hispanic voters?",
         "What would effective Hispanic outreach look like?"
       ],
-      "tags": ["politics", "media", "americas", "campaigns"]
+      "tags": [
+        "politics",
+        "media",
+        "americas",
+        "campaigns"
+      ]
     },
     {
       "name": "Voter Suppression and Access",
@@ -103,7 +138,12 @@
         "What gerrymandering dilutes Hispanic voting power?",
         "What legal battles have addressed Hispanic voting rights?"
       ],
-      "tags": ["politics", "justice", "americas", "voting-rights"]
+      "tags": [
+        "politics",
+        "justice",
+        "americas",
+        "voting-rights"
+      ]
     },
     {
       "name": "Hispanic Political Organizations",
@@ -115,7 +155,12 @@
         "What grassroots political organizing exists?",
         "How effective are Hispanic political organizations?"
       ],
-      "tags": ["politics", "activism", "americas", "civic-engagement"]
+      "tags": [
+        "politics",
+        "activism",
+        "americas",
+        "civic-engagement"
+      ]
     },
     {
       "name": "The 2020 and 2024 Elections",
@@ -127,7 +172,12 @@
         "How have trends continued into 2024?",
         "What do recent elections teach about Hispanic political behavior?"
       ],
-      "tags": ["politics", "elections", "americas", "recent-elections"]
+      "tags": [
+        "politics",
+        "elections",
+        "americas",
+        "recent-elections"
+      ]
     },
     {
       "name": "Hispanic Representation in Office",
@@ -139,7 +189,12 @@
         "Does Hispanic representation affect Hispanic voter turnout?",
         "What barriers exist to electing more Hispanic officials?"
       ],
-      "tags": ["politics", "representation", "americas", "elected-officials"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "elected-officials"
+      ]
     },
     {
       "name": "The Future of Hispanic Political Power",
@@ -151,7 +206,12 @@
         "What role will Hispanic voters play in American democracy?",
         "What is the long-term trajectory of Hispanic political influence?"
       ],
-      "tags": ["politics", "demographics", "americas", "future-trends"]
+      "tags": [
+        "politics",
+        "demographics",
+        "americas",
+        "future-trends"
+      ]
     }
   ]
 }

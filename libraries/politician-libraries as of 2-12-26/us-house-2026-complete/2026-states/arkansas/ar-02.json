@@ -1,0 +1,19 @@
+{
+  "book": "AR-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "French Hill (R)",
+        "Chase McDowell (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Zack Huffman (D)",
+        "Chris Jones (D)"
+      ]
+    }
+  ]
+}

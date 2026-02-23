@@ -1,0 +1,29 @@
+{
+  "book": "NY-21",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Robert Smullen (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Stuart Amoriell (D)",
+        "Paula Collins (D)",
+        "Blake Gendebien (D)",
+        "Maylon Haller (D)",
+        "Andrew Henson (D)",
+        "Dylan Hewitt (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Michael Metzgier (I)",
+        "Christopher Schmidt (I)"
+      ]
+    }
+  ]
+}

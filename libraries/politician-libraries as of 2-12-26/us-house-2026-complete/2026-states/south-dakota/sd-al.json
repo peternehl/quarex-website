@@ -1,0 +1,28 @@
+{
+  "book": "SD-AL",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Dusty Johnson (R)",
+        "James Bialota (R)",
+        "Casey Crabtree (R)",
+        "Marty J. Jackley (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Nicole Gronli (D)",
+        "Billy Mawhiney (D)",
+        "Scott Schlagel (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jack Pittman (I)"
+      ]
+    }
+  ]
+}

@@ -202,6 +202,39 @@
             letter-spacing: 0.01em;
         }
 
+        .hero-navigator {
+            display: block;
+            max-width: 500px;
+            margin: 24px auto 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 20px 28px;
+            border-radius: var(--radius-lg);
+            text-decoration: none;
+            text-align: left;
+            transition: all 0.2s;
+        }
+
+        .hero-navigator:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .navigator-label {
+            display: block;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+
+        .navigator-desc {
+            display: block;
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
         /* Problem Section */
         .problem {
             text-align: center;
@@ -677,6 +710,7 @@
             <a href="#schools">Schools</a>
             <a href="#how-it-works">How It Works</a>
             <a href="#principles">Principles</a>
+            <a href="https://quarex.org/libraries/" target="_blank">Library</a>
             <a href="https://quarex.org" target="_blank">Quarex</a>
         </nav>
     </div>
@@ -693,6 +727,10 @@
     <div class="hero-principle">
         Move from high-level systems to fine-grained detail &mdash; without losing orientation or meaning.
     </div>
+    <a href="https://quarex.org/libraries/" target="_blank" class="hero-navigator">
+        <span class="navigator-label">Browse the Library</span>
+        <span class="navigator-desc">788 books across Knowledge, Perspectives, Practical Skills, Geography, and Politicians.</span>
+    </a>
 </section>
 
 <div class="section-divider"><hr></div>
@@ -785,6 +823,13 @@
                 <div>
                     <a href="https://publicstudies.org/USLatinAmericaRelationsSyllabus.html" target="_blank">U.S.-Latin America Relations</a>
                     <span class="program-meta">&nbsp;&mdash; 19 courses &middot; 229 chapters &middot; 1,500+ topics</span>
+                </div>
+                <span class="school-status status-live" style="font-size: 11px;">Live</span>
+            </div>
+            <div class="program-item">
+                <div>
+                    <a href="https://publicstudies.org/SystemDocumentationSyllabus.html" target="_blank">System Documentation Practices</a>
+                    <span class="program-meta">&nbsp;&mdash; 6 courses &middot; 69 chapters &middot; 413 topics</span>
                 </div>
                 <span class="school-status status-live" style="font-size: 11px;">Live</span>
             </div>

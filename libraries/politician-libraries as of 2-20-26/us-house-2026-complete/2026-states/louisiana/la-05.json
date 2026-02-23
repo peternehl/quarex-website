@@ -1,0 +1,23 @@
+{
+  "book": "LA-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Stewart Cathey (R)",
+        "Misti Cordell (R)",
+        "Rick Edmonds (R)",
+        "Dixon McMakin (R)",
+        "Blake Miguez (R)",
+        "Ray Smith (R)",
+        "Samuel Wyatt (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Larry Foy (D)"
+      ]
+    }
+  ]
+}

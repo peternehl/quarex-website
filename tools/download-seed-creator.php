@@ -607,7 +607,7 @@ $htmlContent = <<<HTML
 
             if (selectedMode === 'llm') {
                 output = {
-                    _instructions: "Please expand this Quarex book seed into a complete book. Create as many chapters as necessary to cover the subject matter thoroughly. \\nWithin chapter: Create 4-8 Topics in form of questions that users can click to explore.\\nEach Topic should be a clear, curiosity-sparking question",
+                    _instructions: "Please expand this Quarex book seed into a complete book. Create as many chapters as necessary to cover the subject matter thoroughly.\\nWithin each chapter: Create 4-8 Topics in form of questions that users can click to explore. The Chapters and Topics should be able to be combined with library type, library, shelf and book to create deep context for the answering LLM.\\nEach Topic should be a clear, curiosity-sparking question",
                     _placement: placement,
                     seed: seed
                 };

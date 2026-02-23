@@ -1,0 +1,20 @@
+{
+  "book": "MO-08",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jason Smith (R)",
+        "Johnathon Tune (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Frank Barnitz (D)",
+        "Gerald Cass (D)",
+        "Christopher Reichard (D)"
+      ]
+    }
+  ]
+}

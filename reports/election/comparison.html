@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library vs Scraped Data Comparison - February 6, 2026</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #553c9a 0%, #805ad5 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .subtitle { opacity: 0.9; font-size: 1rem; }
+        h2 {
+            background: #553c9a;
+            color: white;
+            padding: 1rem 1.5rem;
+            margin: 2rem 0 0 0;
+            border-radius: 8px 8px 0 0;
+        }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-number { font-size: 1.75rem; font-weight: bold; color: #553c9a; }
+        .stat-label { font-size: 0.8rem; color: #666; }
+        .stat-synced .stat-number { color: #38a169; }
+        .stat-outdated .stat-number { color: #c53030; }
+        .section {
+            background: white;
+            border-radius: 0 0 8px 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .section-header {
+            background: #e2e8f0;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            border-bottom: 1px solid #cbd5e0;
+            font-size: 0.9rem;
+        }
+        .section-header.synced { background: #c6f6d5; color: #22543d; }
+        .section-header.outdated { background: #fed7d7; color: #742a2a; }
+        .section-header.additions { background: #bee3f8; color: #2a4365; }
+        .section-header.removals { background: #fefcbf; color: #744210; }
+        .change-list { padding: 1rem 1.5rem; }
+        .change-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        .change-item:last-child { border-bottom: none; }
+        .state-tag {
+            background: #553c9a;
+            color: white;
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            min-width: 80px;
+            text-align: center;
+        }
+        .change-details { flex: 1; }
+        .candidate-name { font-weight: 500; }
+        .party-R { color: #c53030; }
+        .party-D { color: #2b6cb0; }
+        .party-I { color: #805ad5; }
+        .status-tag {
+            font-size: 0.7rem;
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+            margin-left: 0.5rem;
+        }
+        .status-add { background: #c6f6d5; color: #22543d; }
+        .status-remove { background: #fed7d7; color: #742a2a; }
+        .status-synced { background: #c6f6d5; color: #22543d; }
+        .file-path { font-family: monospace; font-size: 0.8rem; color: #718096; }
+        .note {
+            background: #ebf8ff;
+            border-left: 4px solid #3182ce;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th { background: #f7fafc; font-weight: 600; }
+        .synced-row { background: #f0fff4; }
+        .outdated-row { background: #fff5f5; }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Library vs Scraped Data Comparison</h1>
+        <div class="subtitle">Comparing libraries/politician-libraries/ with scrapers/*_backup.json</div>
+        <div class="subtitle">Generated: February 6, 2026</div>
+    </header>
+
+    <div class="summary">
+        <div class="stat-card stat-synced">
+            <div class="stat-number">3</div>
+            <div class="stat-label">Gov Files Synced</div>
+        </div>
+        <div class="stat-card stat-outdated">
+            <div class="stat-number">1</div>
+            <div class="stat-label">Gov Files Outdated</div>
+        </div>
+        <div class="stat-card stat-outdated">
+            <div class="stat-number">33</div>
+            <div class="stat-label">Senate Files Outdated</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">50</div>
+            <div class="stat-label">House State Files</div>
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>Purpose:</strong> This report compares the published library files in <code>libraries/politician-libraries/</code>
+        with the freshly scraped backup data in <code>scrapers/*_backup.json</code> (dated Feb 6, 2026).
+        Files marked "outdated" need to be regenerated from the backup data to sync the live library.
+    </div>
+
+    <!-- GOVERNORS SECTION -->
+    <h2>US Governors 2026</h2>
+    <div class="section">
+        <div class="section-header synced">Synced Files (Library = Scraped Data)</div>
+        <div class="change-list">
+            <div class="change-item">
+                <span class="state-tag">Florida</span>
+                <div class="change-details">
+                    <span class="file-path">us-governors-2026/2026-gubernatorial-races/florida.json</span>
+                    <span class="status-tag status-synced">Synced</span>
+                    <br><span style="color:#718096;font-size:0.85rem;">13 Republicans, 11 Democrats, 17 Independents</span>
+                </div>
+            </div>
+            <div class="change-item">
+                <span class="state-tag">Michigan</span>
+                <div class="change-details">
+                    <span class="file-path">us-governors-2026/2026-gubernatorial-races/michigan.json</span>
+                    <span class="status-tag status-synced">Synced</span>
+                    <br><span style="color:#718096;font-size:0.85rem;">9 Republicans, 4 Democrats, 1 Independent</span>
+                </div>
+            </div>
+            <div class="change-item">
+                <span class="state-tag">Wyoming</span>
+                <div class="change-details">
+                    <span class="file-path">us-governors-2026/2026-gubernatorial-races/wyoming.json</span>
+                    <span class="status-tag status-synced">Synced</span>
+                    <br><span style="color:#718096;font-size:0.85rem;">4 Republicans, 0 Democrats</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header outdated">Outdated Files (Need Update)</div>
+        <div class="change-list">
+            <div class="change-item">
+                <span class="state-tag">Georgia</span>
+                <div class="change-details">
+                    <span class="file-path">us-governors-2026/2026-gubernatorial-races/georgia.json</span>
+                    <span class="status-tag status-remove">Outdated</span>
+                    <br>
+                    <strong>Missing from library:</strong>
+                    <span class="candidate-name party-R">Rick Jackson (R)</span>
+                    <span class="status-tag status-add">+Add</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SENATE SECTION -->
+    <h2>US Senate 2026</h2>
+    <div class="section">
+        <div class="section-header outdated">All 33 Library Files Need Update</div>
+        <div class="change-list">
+            <p style="padding: 0.5rem 0; color: #718096;">
+                The library files in <code>us-senate-2026-complete/class-2-regular-elections/</code>
+                are based on the Jan 9, 2026 scrape. The backup file <code>us_senate_2026_backup.json</code>
+                contains the Feb 6, 2026 data with significant changes.
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header additions">Sample Differences: Alabama</div>
+        <div class="change-list">
+            <table>
+                <tr>
+                    <th>Source</th>
+                    <th>Republicans</th>
+                    <th>Democrats</th>
+                </tr>
+                <tr class="outdated-row">
+                    <td><strong>Library File</strong><br><span class="file-path">alabama.json</span></td>
+                    <td>Jared Hudson, Steve Marshall, Barry Moore, Morgan Murphy, Rodney Walker<br>(5 candidates)</td>
+                    <td>Dakarai Larriett, Lamont Lavender, Kyle Sweetser, Mark Wheeler<br>(4 candidates)</td>
+                </tr>
+                <tr class="synced-row">
+                    <td><strong>Scraped Backup</strong><br><span class="file-path">us_senate_2026_backup.json</span></td>
+                    <td>Seth Burton, Jared Hudson, Steve Marshall, Barry Moore, Morgan Murphy, Dale Shelton Deas Jr., Rodney Walker<br>(7 candidates)</td>
+                    <td>Dakarai Larriett, Lamont Lavender, Kyle Sweetser, Everett Wess, Mark Wheeler II<br>(5 candidates)</td>
+                </tr>
+            </table>
+            <p style="margin-top: 0.5rem;">
+                <strong>Differences:</strong>
+                <span class="candidate-name party-R">Seth Burton (R)</span> <span class="status-tag status-add">+Add</span>
+                <span class="candidate-name party-R">Dale Shelton Deas Jr. (R)</span> <span class="status-tag status-add">+Add</span>
+                <span class="candidate-name party-D">Everett Wess (D)</span> <span class="status-tag status-add">+Add</span>
+                <span class="candidate-name party-D">Mark Wheeler → Mark Wheeler II</span> <span class="status-tag status-add">Correction</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-header additions">Sample Differences: Kentucky</div>
+        <div class="change-list">
+            <p style="padding: 0.5rem 0;">
+                <strong>Key Finding:</strong> Mitch McConnell (R) not seeking re-election — creates open seat.
+            </p>
+            <table>
+                <tr>
+                    <th>Source</th>
+                    <th>Republican Count</th>
+                    <th>Democratic Count</th>
+                    <th>Independent</th>
+                </tr>
+                <tr class="outdated-row">
+                    <td><strong>Library File</strong></td>
+                    <td>12 candidates</td>
+                    <td>7 candidates</td>
+                    <td>1 candidate</td>
+                </tr>
+                <tr class="synced-row">
+                    <td><strong>Scraped Backup</strong></td>
+                    <td>12+ candidates</td>
+                    <td>7+ candidates</td>
+                    <td>1+ candidates</td>
+                </tr>
+            </table>
+            <p style="margin-top: 0.5rem; color: #718096;">
+                Note: Kentucky library file appears relatively current but should be verified against full backup.
+            </p>
+        </div>
+    </div>
+
+    <!-- HOUSE SECTION -->
+    <h2>US House 2026</h2>
+    <div class="section">
+        <div class="section-header">Status Unknown - Requires Full Comparison</div>
+        <div class="change-list">
+            <p style="padding: 0.5rem 0; color: #718096;">
+                The House data is spread across 10 batch files (<code>states-1.json</code> through <code>states-10.json</code>)
+                and the aggregated backup (<code>us_house_2026_backup.json</code>).
+            </p>
+            <p style="padding: 0.5rem 0;">
+                <strong>Library location:</strong> <code>us-house-2026-complete/2026-states/</code><br>
+                <strong>Scraped data:</strong> <code>scrapers/states-*.json</code> (Feb 6, 2026)<br>
+                <strong>Action needed:</strong> Run <code>generate-state-books.js</code> to regenerate all 50 state files
+            </p>
+        </div>
+    </div>
+
+    <!-- RECOMMENDATIONS -->
+    <h2>Recommended Actions</h2>
+    <div class="section">
+        <div class="section-header">Steps to Sync Library with Scraped Data</div>
+        <div class="change-list">
+            <ol style="padding-left: 1.5rem;">
+                <li style="margin: 0.75rem 0;">
+                    <strong>Update Georgia Governor file:</strong><br>
+                    Add <span class="candidate-name party-R">Rick Jackson (R)</span> to georgia.json
+                </li>
+                <li style="margin: 0.75rem 0;">
+                    <strong>Regenerate all Senate library files:</strong><br>
+                    Create script to transform <code>us_senate_2026_backup.json</code> → individual state files
+                </li>
+                <li style="margin: 0.75rem 0;">
+                    <strong>Regenerate all House library files:</strong><br>
+                    Run <code>node scrapers/generate-state-books.js</code>
+                </li>
+                <li style="margin: 0.75rem 0;">
+                    <strong>Rebuild discovery index:</strong><br>
+                    Run <code>node libraries/_utils/build-discovery-index-v2.js</code>
+                </li>
+                <li style="margin: 0.75rem 0;">
+                    <strong>Upload to server:</strong><br>
+                    Sync modified files to quarex.org
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>Data Sources:</strong><br>
+        - Library files: <code>libraries/politician-libraries/</code> (current published state)<br>
+        - Scraped backups: <code>scrapers/*_backup.json</code> (Feb 6, 2026 Ballotpedia scrape)<br>
+        - Batch files: <code>scrapers/states-*.json</code> (Feb 6, 2026)<br><br>
+        <strong>Note:</strong> This is a sample comparison. A full comparison would require programmatic diffing of all files.
+    </div>
+
+    <footer>
+        Generated by Quarex Election Tracker | quarex.org<br>
+        Comparison Date: February 6, 2026
+    </footer>
+</body>
+</html>

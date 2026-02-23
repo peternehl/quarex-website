@@ -1,0 +1,25 @@
+{
+  "book": "Rhode Island",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Raymond McKay (R)",
+        "Allen Waters (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jack Reed (D)",
+        "Connor Burbridge (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jon Lindley (I)"
+      ]
+    }
+  ]
+}

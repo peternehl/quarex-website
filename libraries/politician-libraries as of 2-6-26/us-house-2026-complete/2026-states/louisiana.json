@@ -1,0 +1,54 @@
+{
+  "book": "Louisiana",
+  "chapters": [
+    {
+      "name": "LA-01",
+      "topics": [
+        "Steve Scalise (R)",
+        "Lauren Jewett (D)",
+        "Donna Major (D)",
+        "Candida Pagel (D)"
+      ]
+    },
+    {
+      "name": "LA-02",
+      "topics": [
+        "Troy Carter (D)"
+      ]
+    },
+    {
+      "name": "LA-03",
+      "topics": [
+        "Clay Higgins (R)",
+        "Tia LeBrun (D)"
+      ]
+    },
+    {
+      "name": "LA-04",
+      "topics": [
+        "Mike Johnson (R)",
+        "Conrad Cable (D)",
+        "Matthew Gromlich (D)"
+      ]
+    },
+    {
+      "name": "LA-05",
+      "topics": [
+        "Stewart Cathey (R)",
+        "Misti Cordell (R)",
+        "Larry Davis (R)",
+        "Rick Edmonds (R)",
+        "Ray Smith (R)",
+        "Samuel Wyatt (R)",
+        "Larry Foy (D)"
+      ]
+    },
+    {
+      "name": "LA-06",
+      "topics": [
+        "Christian Johnson (R)",
+        "Cleo Fields (D)"
+      ]
+    }
+  ]
+}

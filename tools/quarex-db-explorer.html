@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarex Database Explorer</title>
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --blue: #3B82F6;
+            --green: #10b981;
+            --purple: #8b5cf6;
+            --orange: #f59e0b;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background: var(--bg);
+            color: var(--ink);
+            font-family: Inter, system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: var(--ink);
+            margin: 0 0 8px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            margin: 0 0 24px;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            gap: 24px;
+            padding: 16px;
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--blue);
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: var(--muted);
+            text-transform: uppercase;
+        }
+
+        /* Filters */
+        .filters {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .filter-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .filter-group label {
+            font-size: 12px;
+            color: var(--muted);
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .filter-group label.broad { color: var(--green); }
+        .filter-group label.medium { color: var(--orange); }
+        .filter-group label.specific { color: var(--purple); }
+
+        select, input[type="text"] {
+            width: 100%;
+            padding: 10px 12px;
+            background: #1a1a1a;
+            border: 1px solid var(--line);
+            border-radius: 6px;
+            color: var(--ink);
+            font-size: 14px;
+            outline: none;
+        }
+
+        select:focus, input:focus {
+            border-color: var(--blue);
+        }
+
+        select.broad { border-left: 3px solid var(--green); }
+        select.medium { border-left: 3px solid var(--orange); }
+        select.specific { border-left: 3px solid var(--purple); }
+
+        .section-label {
+            font-size: 11px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        /* Actions */
+        .actions {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: var(--blue);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .btn:hover {
+            background: #2563eb;
+        }
+
+        .btn-secondary {
+            background: var(--line);
+            color: var(--ink);
+        }
+
+        .btn-secondary:hover {
+            background: #3a3a3a;
+        }
+
+        /* Results */
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .results-count {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .results-table th {
+            text-align: left;
+            padding: 12px 16px;
+            background: #1a1a1a;
+            color: var(--muted);
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 600;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .results-table th.sortable {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .results-table th.sortable:hover {
+            color: var(--ink);
+        }
+
+        .results-table th.sortable::after {
+            content: ' ⇅';
+            opacity: 0.3;
+        }
+
+        .results-table th.sort-asc::after {
+            content: ' ↑';
+            opacity: 1;
+        }
+
+        .results-table th.sort-desc::after {
+            content: ' ↓';
+            opacity: 1;
+        }
+
+        .results-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--line);
+            font-size: 14px;
+        }
+
+        .results-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .results-table tr:hover td {
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        .book-link {
+            color: var(--blue);
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .book-link:hover {
+            text-decoration: underline;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            background: var(--line);
+            border-radius: 4px;
+            font-size: 11px;
+            color: var(--muted);
+        }
+
+        /* Book Detail Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .modal-overlay.show {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            max-width: 800px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 24px;
+        }
+
+        .modal h2 {
+            margin: 0 0 8px;
+            color: var(--ink);
+        }
+
+        .modal-meta {
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .chapter-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .chapter-list li {
+            padding: 12px;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .chapter-list li:last-child {
+            border-bottom: none;
+        }
+
+        .chapter-name {
+            font-weight: 500;
+            margin-bottom: 6px;
+        }
+
+        .chapter-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .chapter-tag {
+            font-size: 11px;
+            padding: 2px 6px;
+            background: var(--line);
+            border-radius: 3px;
+            color: var(--muted);
+        }
+
+        .open-link {
+            color: var(--green);
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .open-link:hover {
+            text-decoration: underline;
+        }
+
+        .btn-open {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 16px;
+            background: var(--green);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .btn-open:hover {
+            background: #059669;
+        }
+
+        .close-btn {
+            float: right;
+            background: none;
+            border: none;
+            color: var(--muted);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: var(--ink);
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--muted);
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: var(--muted);
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quarex Database Explorer</h1>
+        <p class="subtitle">Query and explore the Quarex knowledge library</p>
+
+        <!-- Stats -->
+        <div class="stats-bar">
+            <div class="stat">
+                <div class="stat-number" id="statBooks">-</div>
+                <div class="stat-label">Books</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="statChapters">-</div>
+                <div class="stat-label">Chapters</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="statTags">-</div>
+                <div class="stat-label">Tags</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="statLibraries">-</div>
+                <div class="stat-label">Libraries</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="statCurricula">-</div>
+                <div class="stat-label">Curricula</div>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <!-- Row 1: Search + Library filters -->
+            <div class="section-label">Search & Location</div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label>Search</label>
+                    <input type="text" id="searchInput" placeholder="Search books...">
+                </div>
+                <div class="filter-group">
+                    <label>Library Type</label>
+                    <select id="typeSelect">
+                        <option value="">All Types</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Library</label>
+                    <select id="librarySelect">
+                        <option value="">All Libraries</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Shelf</label>
+                    <select id="shelfSelect">
+                        <option value="">All Shelves</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Row 2: Broad Tag -->
+            <div class="section-label" style="margin-top: 20px;">Broad Tag (high-level domain)</div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label class="broad">Broad</label>
+                    <select id="broadTag" class="broad">
+                        <option value="">Any Broad Tag</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Row 3: Medium Tags (5 dropdowns) -->
+            <div class="section-label" style="margin-top: 20px;">Medium Tags (conceptual lenses - select up to 5)</div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label class="medium">Medium 1</label>
+                    <select id="mediumTag1" class="medium">
+                        <option value="">Any</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="medium">Medium 2</label>
+                    <select id="mediumTag2" class="medium">
+                        <option value="">Any</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="medium">Medium 3</label>
+                    <select id="mediumTag3" class="medium">
+                        <option value="">Any</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="medium">Medium 4</label>
+                    <select id="mediumTag4" class="medium">
+                        <option value="">Any</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="medium">Medium 5</label>
+                    <select id="mediumTag5" class="medium">
+                        <option value="">Any</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Row 4: Specific Tag -->
+            <div class="section-label" style="margin-top: 20px;">Specific Tag (concrete subject)</div>
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label class="specific">Specific</label>
+                    <select id="specificTag" class="specific">
+                        <option value="">Any Specific Tag</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="actions">
+            <button class="btn" id="searchBtn">Search</button>
+            <button class="btn btn-secondary" id="clearBtn">Clear Filters</button>
+        </div>
+
+        <!-- Results -->
+        <div class="results-header">
+            <span class="results-count" id="resultsCount">Enter search criteria above</span>
+        </div>
+
+        <div id="resultsContainer">
+            <table class="results-table" id="resultsTable" style="display: none;">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort="book_name">Book</th>
+                        <th class="sortable" data-sort="library_type">Library Type</th>
+                        <th class="sortable" data-sort="library">Library</th>
+                        <th class="sortable" data-sort="shelf">Shelf</th>
+                        <th class="sortable" data-sort="chapter_count">Chapters</th>
+                        <th class="sortable" data-sort="file_modified">Modified</th>
+                        <th>Open</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Book Detail Modal -->
+    <div class="modal-overlay" id="bookModal">
+        <div class="modal">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <h2 id="modalTitle">Book Title</h2>
+            <div class="modal-meta" id="modalMeta"></div>
+            <ul class="chapter-list" id="chapterList"></ul>
+        </div>
+    </div>
+
+    <script>
+        // State
+        let allTags = [];
+        let currentResults = [];
+        let currentSort = { field: null, direction: 'asc' };
+
+        // Base URL for Quarex (change to https://quarex.org for production)
+        const QUAREX_BASE = 'http://localhost';
+
+        // Convert file_path to Quarex URL
+        function filePathToUrl(filePath) {
+            if (!filePath) return null;
+
+            // Normalize path separators
+            let path = filePath.replace(/\\/g, '/');
+
+            // Remove base path and file extension (handle both absolute and relative paths)
+            path = path.replace(/^.*?libraries\//, '/libraries/');
+            path = path.replace(/\.json$/, '');
+
+            // Shorten library type names (must match Quarex typeAbbreviations)
+            path = path.replace('/perspectives-libraries/', '/pe/');
+            path = path.replace('/knowledge-libraries/', '/k/');
+            path = path.replace('/practical-libraries/', '/pr/');
+            path = path.replace('/event-libraries/', '/e/');
+            path = path.replace('/geography-libraries/', '/g/');
+            path = path.replace('/infrastructure-libraries/', '/i/');
+            path = path.replace('/politician-libraries/', '/c/');
+            path = path.replace('/questions-libraries/', '/q/');
+
+            return QUAREX_BASE + path;
+        }
+
+        // DOM Elements
+        const searchInput = document.getElementById('searchInput');
+        const typeSelect = document.getElementById('typeSelect');
+        const librarySelect = document.getElementById('librarySelect');
+        const shelfSelect = document.getElementById('shelfSelect');
+        const broadTag = document.getElementById('broadTag');
+        const mediumTags = [
+            document.getElementById('mediumTag1'),
+            document.getElementById('mediumTag2'),
+            document.getElementById('mediumTag3'),
+            document.getElementById('mediumTag4'),
+            document.getElementById('mediumTag5')
+        ];
+        const specificTag = document.getElementById('specificTag');
+        const searchBtn = document.getElementById('searchBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const resultsCount = document.getElementById('resultsCount');
+        const resultsTable = document.getElementById('resultsTable');
+        const resultsBody = document.getElementById('resultsBody');
+        const bookModal = document.getElementById('bookModal');
+        const closeModal = document.getElementById('closeModal');
+
+        // Initialize
+        async function init() {
+            await loadStats();
+            await loadLibraryTypes();
+            await loadTags();
+            await search(); // Initial search
+        }
+
+        // API calls
+        async function api(endpoint) {
+            const response = await fetch(endpoint);
+            const text = await response.text();
+            try {
+                return JSON.parse(text);
+            } catch (e) {
+                console.error('JSON parse error for', endpoint);
+                console.error('Response text:', text.substring(0, 500));
+                throw e;
+            }
+        }
+
+        // Load stats
+        async function loadStats() {
+            const stats = await api('/api/stats');
+            document.getElementById('statBooks').textContent = stats.books.toLocaleString();
+            document.getElementById('statChapters').textContent = stats.chapters.toLocaleString();
+            document.getElementById('statTags').textContent = stats.tags.toLocaleString();
+            document.getElementById('statLibraries').textContent = stats.libraries.toLocaleString();
+            document.getElementById('statCurricula').textContent = stats.curricula.toLocaleString();
+        }
+
+        // Load library types
+        async function loadLibraryTypes() {
+            const types = await api('/api/library-types');
+            typeSelect.innerHTML = '<option value="">All Types</option>';
+            types.forEach(t => {
+                const opt = document.createElement('option');
+                opt.value = t.id;
+                opt.textContent = t.name;
+                typeSelect.appendChild(opt);
+            });
+        }
+
+        // Load libraries for selected type
+        async function loadLibraries(typeId) {
+            librarySelect.innerHTML = '<option value="">All Libraries</option>';
+            shelfSelect.innerHTML = '<option value="">All Shelves</option>';
+
+            if (!typeId) return;
+
+            const libraries = await api(`/api/libraries?type=${typeId}`);
+            libraries.forEach(l => {
+                const opt = document.createElement('option');
+                opt.value = l.id;
+                opt.textContent = l.name;
+                librarySelect.appendChild(opt);
+            });
+        }
+
+        // Load shelves for selected library
+        async function loadShelves(libraryId) {
+            shelfSelect.innerHTML = '<option value="">All Shelves</option>';
+
+            if (!libraryId) return;
+
+            const shelves = await api(`/api/shelves?library=${libraryId}`);
+            shelves.forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s.id;
+                opt.textContent = s.name;
+                shelfSelect.appendChild(opt);
+            });
+        }
+
+        // Load tags and populate dropdowns
+        async function loadTags() {
+            allTags = await api('/api/tags');
+            populateTagDropdowns(allTags);
+        }
+
+        // Populate tag dropdowns with given tags
+        function populateTagDropdowns(tags, preserveValues = false) {
+            console.log('populateTagDropdowns called with', tags.length, 'tags, preserveValues:', preserveValues);
+
+            // Save current values if preserving
+            const currentBroad = preserveValues ? broadTag.value : '';
+            const currentMedium = preserveValues ? mediumTags.map(s => s.value) : ['', '', '', '', ''];
+            const currentSpecific = preserveValues ? specificTag.value : '';
+
+            // Separate by tier and sort alphabetically
+            const broad = tags.filter(t => t.tier === 'broad').sort((a, b) => a.label.localeCompare(b.label));
+            const medium = tags.filter(t => t.tier === 'medium').sort((a, b) => a.label.localeCompare(b.label));
+            const specific = tags.filter(t => t.tier === 'specific').sort((a, b) => a.label.localeCompare(b.label));
+
+            console.log('Tiers:', broad.length, 'broad,', medium.length, 'medium,', specific.length, 'specific');
+
+            // Get available slugs for validation
+            const availableBroad = new Set(broad.map(t => t.slug));
+            const availableMedium = new Set(medium.map(t => t.slug));
+            const availableSpecific = new Set(specific.map(t => t.slug));
+
+            // Populate Broad dropdown
+            broadTag.innerHTML = '<option value="">Any Broad Tag</option>';
+            broad.forEach(t => {
+                const opt = document.createElement('option');
+                opt.value = t.slug;
+                opt.textContent = `${t.label} (${t.usage_count})`;
+                broadTag.appendChild(opt);
+            });
+            // Restore value if still available
+            if (currentBroad && availableBroad.has(currentBroad)) {
+                broadTag.value = currentBroad;
+            }
+
+            // Populate Medium dropdowns
+            mediumTags.forEach((select, idx) => {
+                select.innerHTML = '<option value="">Any</option>';
+                medium.forEach(t => {
+                    const opt = document.createElement('option');
+                    opt.value = t.slug;
+                    opt.textContent = `${t.label} (${t.usage_count})`;
+                    select.appendChild(opt);
+                });
+                // Restore value if still available
+                if (currentMedium[idx] && availableMedium.has(currentMedium[idx])) {
+                    select.value = currentMedium[idx];
+                }
+            });
+
+            // Populate Specific dropdown
+            specificTag.innerHTML = '<option value="">Any Specific Tag</option>';
+            specific.forEach(t => {
+                const opt = document.createElement('option');
+                opt.value = t.slug;
+                opt.textContent = `${t.label} (${t.usage_count})`;
+                specificTag.appendChild(opt);
+            });
+            // Restore value if still available
+            if (currentSpecific && availableSpecific.has(currentSpecific)) {
+                specificTag.value = currentSpecific;
+            }
+        }
+
+        // Update available tags based on current selections
+        async function updateAvailableTags() {
+            const selected = getSelectedTags();
+            console.log('Selected tags:', selected);
+
+            if (selected.length === 0) {
+                // No selections - show all tags
+                console.log('No selections, showing all', allTags.length, 'tags');
+                populateTagDropdowns(allTags, true);
+                return;
+            }
+
+            // Fetch available tags for current selection
+            const url = `/api/available-tags?selected=${selected.join(',')}`;
+            console.log('Fetching:', url);
+            const availableTags = await api(url);
+            console.log('Got', availableTags.length, 'available tags:', availableTags);
+            populateTagDropdowns(availableTags, true);
+        }
+
+        // Get selected tags
+        function getSelectedTags() {
+            const tags = [];
+            if (broadTag.value) tags.push(broadTag.value);
+            mediumTags.forEach(select => {
+                if (select.value) tags.push(select.value);
+            });
+            if (specificTag.value) tags.push(specificTag.value);
+            return tags;
+        }
+
+        // Search
+        async function search() {
+            const params = new URLSearchParams();
+
+            const q = searchInput.value.trim();
+            if (q) params.set('q', q);
+
+            if (typeSelect.value) params.set('type', typeSelect.value);
+            if (librarySelect.value) params.set('library', librarySelect.value);
+            if (shelfSelect.value) params.set('shelf', shelfSelect.value);
+
+            const selectedTags = getSelectedTags();
+            if (selectedTags.length > 0) {
+                params.set('tags', selectedTags.join(','));
+            }
+
+            const results = await api(`/api/search?${params.toString()}`);
+            currentResults = results;
+            currentSort = { field: null, direction: 'asc' };
+            updateSortHeaders();
+            renderResults();
+        }
+
+        // Render results (can be called after sorting)
+        function renderResults() {
+            resultsCount.textContent = `${currentResults.length} book${currentResults.length === 1 ? '' : 's'} found`;
+
+            if (currentResults.length === 0) {
+                resultsTable.style.display = 'none';
+                document.getElementById('resultsContainer').innerHTML = '<div class="no-results">No books found matching your criteria</div>';
+                return;
+            }
+
+            document.getElementById('resultsContainer').innerHTML = '';
+            document.getElementById('resultsContainer').appendChild(resultsTable);
+            resultsTable.style.display = 'table';
+
+            resultsBody.innerHTML = '';
+            currentResults.forEach(book => {
+                const tr = document.createElement('tr');
+                const bookUrl = filePathToUrl(book.file_path);
+                const openLink = bookUrl
+                    ? `<a class="open-link" href="${bookUrl}" target="_blank">Open ↗</a>`
+                    : '-';
+                // Format file_modified date
+                const fileDate = book.file_modified
+                    ? new Date(book.file_modified).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+                    : '-';
+                tr.innerHTML = `
+                    <td><a class="book-link" onclick="showBook(${book.id})">${book.book_name}</a></td>
+                    <td><span class="badge">${book.library_type}</span></td>
+                    <td>${book.library}</td>
+                    <td>${book.shelf}</td>
+                    <td>${book.chapter_count}</td>
+                    <td>${fileDate}</td>
+                    <td>${openLink}</td>
+                `;
+                resultsBody.appendChild(tr);
+            });
+        }
+
+        // Sort results by field
+        function sortResults(field) {
+            if (currentSort.field === field) {
+                // Toggle direction
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.field = field;
+                // Default to descending for dates and numbers, ascending for text
+                currentSort.direction = (field === 'file_modified' || field === 'chapter_count') ? 'desc' : 'asc';
+            }
+
+            currentResults.sort((a, b) => {
+                let valA = a[field];
+                let valB = b[field];
+
+                // Handle nulls
+                if (valA == null) valA = '';
+                if (valB == null) valB = '';
+
+                // Compare based on type
+                let comparison;
+                if (field === 'chapter_count') {
+                    comparison = valA - valB;
+                } else if (field === 'file_modified') {
+                    comparison = new Date(valA || 0) - new Date(valB || 0);
+                } else {
+                    comparison = String(valA).localeCompare(String(valB));
+                }
+
+                return currentSort.direction === 'asc' ? comparison : -comparison;
+            });
+
+            updateSortHeaders();
+            renderResults();
+        }
+
+        // Update sort header styling
+        function updateSortHeaders() {
+            document.querySelectorAll('.results-table th.sortable').forEach(th => {
+                th.classList.remove('sort-asc', 'sort-desc');
+                if (th.dataset.sort === currentSort.field) {
+                    th.classList.add(currentSort.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+                }
+            });
+        }
+
+        // Show book detail
+        async function showBook(id) {
+            const book = await api(`/api/book?id=${id}`);
+            if (!book) return;
+
+            document.getElementById('modalTitle').textContent = book.name;
+            const bookUrl = filePathToUrl(book.file_path);
+            const openBtn = bookUrl
+                ? `<a class="btn-open" href="${bookUrl}" target="_blank">Open in Quarex ↗</a>`
+                : '';
+            document.getElementById('modalMeta').innerHTML = `
+                <strong>${book.library_type}</strong> &gt; ${book.library} &gt; ${book.shelf}<br>
+                Created by: ${book.created_by || 'Unknown'}
+                ${openBtn}
+            `;
+
+            const chapterList = document.getElementById('chapterList');
+            chapterList.innerHTML = '';
+            book.chapters.forEach((ch, i) => {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <div class="chapter-name">${i + 1}. ${ch.name}</div>
+                    <div class="chapter-tags">
+                        ${ch.tags.map(t => `<span class="chapter-tag">${t.label}</span>`).join('')}
+                    </div>
+                `;
+                chapterList.appendChild(li);
+            });
+
+            bookModal.classList.add('show');
+        }
+
+        // Clear filters
+        async function clearFilters() {
+            searchInput.value = '';
+            typeSelect.value = '';
+            librarySelect.innerHTML = '<option value="">All Libraries</option>';
+            shelfSelect.innerHTML = '<option value="">All Shelves</option>';
+            broadTag.value = '';
+            mediumTags.forEach(select => select.value = '');
+            specificTag.value = '';
+            // Reset tag dropdowns to show all options
+            populateTagDropdowns(allTags, false);
+            await search();
+        }
+
+        // Event listeners
+        typeSelect.addEventListener('change', () => loadLibraries(typeSelect.value));
+        librarySelect.addEventListener('change', () => loadShelves(librarySelect.value));
+        searchBtn.addEventListener('click', search);
+        clearBtn.addEventListener('click', clearFilters);
+        searchInput.addEventListener('keypress', e => {
+            if (e.key === 'Enter') search();
+        });
+        closeModal.addEventListener('click', () => bookModal.classList.remove('show'));
+        bookModal.addEventListener('click', e => {
+            if (e.target === bookModal) bookModal.classList.remove('show');
+        });
+
+        // Tag change listeners - update available options dynamically
+        broadTag.addEventListener('change', updateAvailableTags);
+        mediumTags.forEach(select => select.addEventListener('change', updateAvailableTags));
+        specificTag.addEventListener('change', updateAvailableTags);
+
+        // Sortable column headers
+        document.querySelectorAll('.results-table th.sortable').forEach(th => {
+            th.addEventListener('click', () => sortResults(th.dataset.sort));
+        });
+
+        // Start
+        init();
+    </script>
+</body>
+</html>

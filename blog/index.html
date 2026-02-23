@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://quarex.org/blog/" />
+  <title>Quarex Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0f1a;
+      --panel: #0f1726;
+      --ink: #e6eefc;
+      --muted: #8a9bb8;
+      --brand: #7aa7ff;
+      --ring: rgba(122,167,255,.5);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      background: radial-gradient(ellipse at top right, rgba(122,167,255,.08), transparent 50%), var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .header {
+      padding: 24px 20px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      background: rgba(15,23,38,.8);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg, rgba(155,232,255,.8), rgba(122,167,255,.9), rgba(155,232,255,.8));
+      box-shadow: 0 0 18px rgba(122,167,255,.6);
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      font-size: 0.95rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .page-title {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .page-subtitle {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+    }
+
+    .post-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .post-card {
+      background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      padding: 24px;
+      transition: all 0.2s;
+    }
+    .post-card:hover {
+      border-color: rgba(122,167,255,.3);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+    .post-date {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .post-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .post-title a {
+      color: var(--ink);
+    }
+    .post-title a:hover {
+      color: var(--brand);
+      text-decoration: none;
+    }
+    .post-excerpt {
+      color: var(--muted);
+      margin-bottom: 16px;
+      line-height: 1.7;
+    }
+    .post-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .tag {
+      background: rgba(122,167,255,.12);
+      border: 1px solid rgba(122,167,255,.25);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      color: var(--brand);
+    }
+    .post-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+    .quarex-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
+      color: var(--brand);
+      background: rgba(122,167,255,.08);
+      padding: 6px 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(122,167,255,.2);
+    }
+    .quarex-link:hover {
+      background: rgba(122,167,255,.15);
+      text-decoration: none;
+    }
+    .quarex-link::before {
+      content: '📚';
+      font-size: 0.85rem;
+    }
+    .read-more {
+      display: inline-block;
+      margin-top: 12px;
+      font-weight: 600;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+
+    @media (max-width: 600px) {
+      .page-title { font-size: 1.5rem; }
+      .post-title { font-size: 1.2rem; }
+      .nav-links { gap: 12px; font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <span class="logo-mark"></span>
+        Quarex Blog
+      </a>
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/libraries/">Libraries</a>
+        <a href="/blog/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Blog</h1>
+    <p class="page-subtitle">Updates, insights, and deep dives from the Quarex project.</p>
+
+    <div id="postList" class="post-list">
+      <div class="empty-state">Loading posts...</div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025-2026 Quarex / Peter Nehl. All Rights Reserved.
+  </footer>
+
+  <script>
+    const postList = document.getElementById('postList');
+
+    async function loadPosts() {
+      try {
+        const resp = await fetch('blog-index.json');
+        if (!resp.ok) throw new Error('Failed to load posts');
+        const data = await resp.json();
+
+        if (!data.posts || data.posts.length === 0) {
+          postList.innerHTML = '<div class="empty-state">No posts yet. Check back soon!</div>';
+          return;
+        }
+
+        // Sort by date descending
+        const sorted = data.posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        postList.innerHTML = sorted.map(post => {
+          const dateStr = new Date(post.date).toLocaleDateString('en-US', {
+            year: 'numeric', month: 'long', day: 'numeric'
+          });
+
+          const tagsHtml = post.tags
+            ? post.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')
+            : '';
+
+          const linksHtml = post.quarexLinks
+            ? post.quarexLinks.map(link =>
+                `<a href="${escapeHtml(link.url)}" class="quarex-link">${escapeHtml(link.title)}</a>`
+              ).join('')
+            : '';
+
+          return `
+            <article class="post-card">
+              <div class="post-date">${dateStr}</div>
+              <h2 class="post-title">
+                <a href="post.html?slug=${escapeHtml(post.slug)}">${escapeHtml(post.title)}</a>
+              </h2>
+              <p class="post-excerpt">${escapeHtml(post.excerpt)}</p>
+              ${tagsHtml ? `<div class="post-tags">${tagsHtml}</div>` : ''}
+              ${linksHtml ? `<div class="post-links">${linksHtml}</div>` : ''}
+              <a href="post.html?slug=${escapeHtml(post.slug)}" class="read-more">Read more &rarr;</a>
+            </article>
+          `;
+        }).join('');
+
+      } catch (err) {
+        console.error('Error loading posts:', err);
+        postList.innerHTML = '<div class="empty-state">Error loading posts. Please try again later.</div>';
+      }
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    loadPosts();
+  </script>
+
+</body>
+</html>

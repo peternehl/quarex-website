@@ -1,6 +1,6 @@
 {
   "batch": 5,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Massachusetts",
@@ -31,7 +31,7 @@
           "candidates": {
             "Republican": [],
             "Democratic": ["Lori Trahan (D)"],
-            "Independent": [],
+            "Independent": ["Kevin Ades (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -40,7 +40,7 @@
           "district": "MA-04",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Jake Auchincloss (D)", "Christopher Boyd (D)", "Steve Chasse (D)"],
+            "Democratic": ["Jake Auchincloss (D)", "Christopher Boyd (D)", "Steve Chasse (D)", "Ihssane Leckey (D)", "Jason Poulos (D)"],
             "Independent": ["Matthew Cook (I)"],
             "Libertarian": [],
             "Green": []
@@ -59,7 +59,7 @@
         {
           "district": "MA-06",
           "candidates": {
-            "Republican": ["John Field (R)"],
+            "Republican": ["John Field (R)", "Micah Jones (R)"],
             "Democratic": ["Beth Andres-Beck (D)", "John Beccia (D)", "Rick Jakious (D)", "Dan Koh (D)", "Mariah Lancaster (D)", "Tram Nguyen (D)", "Jamie Zahlaway Belsito (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -90,7 +90,7 @@
           "district": "MA-09",
           "candidates": {
             "Republican": ["Robert MacAllister (R)"],
-            "Democratic": ["Bill Keating (D)"],
+            "Democratic": ["Bill Keating (D)", "Craig Swallow (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -105,7 +105,7 @@
         {
           "district": "MI-01",
           "candidates": {
-            "Republican": ["Jack Bergman (R)", "Justin Michal (R)"],
+            "Republican": ["Jack Bergman (R)", "Matthew DenOtter (R)", "Justin Michal (R)"],
             "Democratic": ["Callie Barr (D)", "Kyle Blomquist (D)", "Wayne Stiles (D)"],
             "Independent": ["Zebulon Featherly (I)"],
             "Libertarian": [],
@@ -187,7 +187,7 @@
           "candidates": {
             "Republican": ["Lisa McClain (R)", "Daltson Atwell (R)"],
             "Democratic": ["Wyatt Clark (D)", "Ray Pooley (D)"],
-            "Independent": ["Jasen Cartwright (I)"],
+            "Independent": ["Jasen Cartwright (I)", "Fernando Valdez (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -206,7 +206,7 @@
           "district": "MI-11",
           "candidates": {
             "Republican": ["Anthony Paesano (R)", "Tony Prieto (R)", "Michael Steger (R)"],
-            "Democratic": ["Stu Baker (D)", "Aisha Farooqi (D)", "Jeremy Moss (D)", "John Paul Torres (D)", "Don Ufford (D)"],
+            "Democratic": ["Stu Baker (D)", "Aisha Farooqi (D)", "Jeremy Moss (D)", "Michelle Murphy (D)", "John Paul Torres (D)", "Don Ufford (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -216,7 +216,7 @@
           "district": "MI-12",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Rashida Tlaib (D)", "Allen Downer (D)", "Byron Nolen (D)"],
+            "Democratic": ["Rashida Tlaib (D)", "Allen Downer (D)", "Shanelle Jackson (D)", "Byron Nolen (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -252,7 +252,7 @@
           "district": "MN-02",
           "candidates": {
             "Republican": ["Tyler Kistner (R)", "Eric Pratt (R)"],
-            "Democratic": ["Kaela Berg (D)", "Matt Klein (D)", "Matt Little (D)"],
+            "Democratic": ["Abdisallam Abdulle (D)", "Kaela Berg (D)", "Matt Klein (D)", "Matt Little (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -261,7 +261,7 @@
         {
           "district": "MN-03",
           "candidates": {
-            "Republican": ["Jeremy Westby (R)"],
+            "Republican": ["Tyler Bass (R)", "Jeremy Westby (R)"],
             "Democratic": ["Kelly Morrison (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -271,8 +271,8 @@
         {
           "district": "MN-04",
           "candidates": {
-            "Republican": [],
-            "Democratic": ["Betty McCollum (D)"],
+            "Republican": ["Paul Wikstrom (R)"],
+            "Democratic": ["Betty McCollum (D)", "Aswar Rahman (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -292,8 +292,8 @@
           "district": "MN-06",
           "candidates": {
             "Republican": ["Tom Emmer (R)", "Michael Foley (R)"],
-            "Democratic": ["Doug Chapin (D)", "Sierra Grandy (D)"],
-            "Independent": [],
+            "Democratic": ["Anson Amberson (D)", "Doug Chapin (D)", "Sierra Grandy (D)", "Jeremy Wicklund (D)"],
+            "Independent": ["Austin Winkelman (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -383,7 +383,7 @@
         {
           "district": "MO-02",
           "candidates": {
-            "Republican": ["Ann Wagner (R)", "Ryan Sheridan (R)"],
+            "Republican": ["Ann Wagner (R)"],
             "Democratic": ["Timothy Bilash (D)", "Chuck Summers (D)", "Nick Vivio (D)", "Joan VonDras (D)", "Frederick Wellman (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -394,7 +394,7 @@
           "district": "MO-03",
           "candidates": {
             "Republican": ["Bob Onder (R)"],
-            "Democratic": ["Bethany Mann (D)", "Alexander Thurmon (D)"],
+            "Democratic": ["Bethany Mann (D)", "Alexander Thurmon (D)", "Paul Wilson (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -415,7 +415,7 @@
           "candidates": {
             "Republican": ["Robert Foltz (R)", "Brett Hueffmeier (R)"],
             "Democratic": ["Emanuel Cleaver (D)"],
-            "Independent": [],
+            "Independent": ["Todd Becker (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -444,7 +444,7 @@
           "district": "MO-08",
           "candidates": {
             "Republican": ["Jason Smith (R)", "Johnathon Tune (R)"],
-            "Democratic": ["Frank Barnitz (D)", "Gerald Cass (D)", "Christopher Reichard (D)"],
+            "Democratic": ["Frank Barnitz (D)", "Gerald Cass (D)", "Clayton Harbison (D)", "Christopher Reichard (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []

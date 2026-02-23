@@ -1,6 +1,6 @@
 {
   "batch": 10,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Virginia",
@@ -9,7 +9,7 @@
         {
           "district": "VA-01",
           "candidates": {
-            "Republican": ["Robert J. Wittman (R)"],
+            "Republican": ["Rob Wittman (R)"],
             "Democratic": ["Elizabeth Beggs (D)", "Salaam Bhatti (D)", "Tim Cywinski (D)", "Lisa Khanna (D)", "Jason Knapp (D)", "Ericka Kopp (D)", "Lewis Littlepage (D)", "Andrew Lucchetti (D)", "Amanda Pohl (D)", "James Shea (D)", "Sean Sublette (D)", "Shannon Taylor (D)", "Melvin Tull (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -20,7 +20,7 @@
           "district": "VA-02",
           "candidates": {
             "Republican": ["Jennifer Kiggans (R)", "William Matthews (R)"],
-            "Democratic": ["Nila Devanath (D)", "Elaine Luria (D)", "Patrick Mosolf (D)", "James Osyf (D)", "Nicolaus Sleister (D)", "Matthew Strickler (D)", "John Stringfellow (D)", "Michael Williamson (D)"],
+            "Democratic": ["Nila Devanath (D)", "Elaine Luria (D)", "Patrick Mosolf (D)", "James Osyf (D)", "Nicolaus Sleister (D)", "Matt Strickler (D)", "John Stringfellow (D)", "Michael Williamson (D)"],
             "Independent": ["DeVinche Albritton (I)", "Bishop Staten (I)"],
             "Libertarian": [],
             "Green": []
@@ -41,7 +41,7 @@
           "candidates": {
             "Republican": [],
             "Democratic": ["Jennifer McClellan (D)"],
-            "Independent": [],
+            "Independent": ["Jason Brown (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -50,7 +50,7 @@
           "district": "VA-05",
           "candidates": {
             "Republican": ["John McGuire (R)", "Bob Good (R)", "Melanie Lucero (R)"],
-            "Democratic": ["Suzanne Krzyzanowski (D)", "Hugh Murray (D)", "Tom Perriello (D)", "Mike Pruitt (D)", "Paul Riley (D)", "Robert Tracinski (D)", "Kate Zabriskie (D)"],
+            "Democratic": ["Suzanne Krzyzanowski (D)", "Tom Perriello (D)", "Mike Pruitt (D)", "Paul Riley (D)", "Robert Tracinski (D)", "Kate Zabriskie (D)"],
             "Independent": ["Cooke Harvey (I)", "Chris Register (I)"],
             "Libertarian": [],
             "Green": []
@@ -90,8 +90,8 @@
           "district": "VA-09",
           "candidates": {
             "Republican": ["H. Morgan Griffith (R)", "Brandon Cook (R)"],
-            "Democratic": ["Brandi Hall (D)", "Adam Murphy (D)", "Joy Powers (D)"],
-            "Independent": [],
+            "Democratic": ["Douglas Crockett (D)", "Brandi Hall (D)", "Adam Murphy (D)", "Joy Powers (D)"],
+            "Independent": ["Michael Jackson (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -110,7 +110,7 @@
           "district": "VA-11",
           "candidates": {
             "Republican": ["Nathan Headrick (R)", "Michael Van Meter (R)"],
-            "Democratic": ["James Walkinshaw (D)", "Stella Pekarsky (D)", "Amy Roma (D)"],
+            "Democratic": ["James Walkinshaw (D)", "Bree Fram (D)", "Stella Pekarsky (D)", "Amy Roma (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -146,7 +146,7 @@
           "district": "WA-03",
           "candidates": {
             "Republican": ["Antony Barran (R)", "John Braun (R)", "Lawrence Kellogg (R)"],
-            "Democratic": ["Marie Gluesenkamp Perez (D)", "Brent Hennrich (D)", "Suzzanna V. Tanner (D)"],
+            "Democratic": ["Marie Gluesenkamp Perez (D)", "Brent Hennrich (D)"],
             "Independent": ["Eric Vaughan (I)"],
             "Libertarian": [],
             "Green": []
@@ -166,7 +166,7 @@
           "district": "WA-05",
           "candidates": {
             "Republican": ["Michael Baumgartner (R)", "Anthony Jensen (R)"],
-            "Democratic": ["Carmela Conroy (D)", "Bajun Mavalwalla (D)", "Anthony Whisenhunt (D)", "David Womack (D)"],
+            "Democratic": ["Carmela Conroy (D)", "Kevin Fagan (D)", "Bajun Mavalwalla (D)", "Anthony Whisenhunt (D)", "David Womack (D)"],
             "Independent": ["Aaron Croft (I)", "Ann Marie Danimus (I)", "Nate Powell (I)"],
             "Libertarian": [],
             "Green": []
@@ -195,7 +195,7 @@
         {
           "district": "WA-08",
           "candidates": {
-            "Republican": ["Trinh Ha (R)", "Bob Hagglund (R)", "Andres Valleza (R)"],
+            "Republican": ["Trinh Ha (R)", "Bob Hagglund (R)", "Spencer Meline (R)", "Andres Valleza (R)"],
             "Democratic": ["Kim Schrier (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -231,7 +231,7 @@
         {
           "district": "WV-01",
           "candidates": {
-            "Republican": ["Carol Miller (R)", "Abel Clendenen (R)", "Larry Jackson (R)", "David Sartin (R)"],
+            "Republican": ["Carol Miller (R)", "Larry Jackson (R)"],
             "Democratic": ["Britta Aguirre (D)", "Vince George (D)"],
             "Independent": ["Isaiah Rucker (I)"],
             "Libertarian": [],
@@ -242,7 +242,7 @@
           "district": "WV-02",
           "candidates": {
             "Republican": ["Riley Moore (R)"],
-            "Democratic": ["Ace Parsi (D)", "Steven Wendelin (D)"],
+            "Democratic": ["Ace Parsi (D)", "Stephanie Spears Tomana (D)", "Steven Wendelin (D)"],
             "Independent": ["Patrick Carney (I)", "Christopher Whitcomb (I)"],
             "Libertarian": [],
             "Green": []
@@ -288,7 +288,7 @@
           "district": "WI-04",
           "candidates": {
             "Republican": ["Purnima Nath (R)"],
-            "Democratic": ["Gwen Moore (D)"],
+            "Democratic": ["Gwen Moore (D)", "Asher Smale (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -317,7 +317,7 @@
         {
           "district": "WI-07",
           "candidates": {
-            "Republican": ["Michael Alfonso (R)", "Jessi Ebben (R)", "Kevin Hermening (R)", "Paul Wassgren (R)"],
+            "Republican": ["Michael Alfonso (R)", "Jessi Ebben (R)", "Kevin Hermening (R)", "Niina Threlfall-Baum (R)", "Paul Wassgren (R)"],
             "Democratic": ["Chris Armstrong (D)", "Fred Clark (D)", "Ginger Murray (D)"],
             "Independent": [],
             "Libertarian": [],

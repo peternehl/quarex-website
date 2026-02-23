@@ -19,7 +19,12 @@
         "How common are mixed-status families across America?",
         "What does the law say about citizen children of undocumented parents?"
       ],
-      "tags": ["society", "migration", "americas", "family"]
+      "tags": [
+        "hispanic-culture",
+        "migration",
+        "americas",
+        "family"
+      ]
     },
     {
       "name": "Daily Life in a Mixed-Status Home",
@@ -32,7 +37,12 @@
         "What happens when parents can't get driver's licenses?",
         "How do families plan for emergencies and uncertainty?"
       ],
-      "tags": ["society", "inequality", "americas", "family"]
+      "tags": [
+        "hispanic-culture",
+        "inequality",
+        "americas",
+        "family"
+      ]
     },
     {
       "name": "The Deportation Threat",
@@ -44,7 +54,12 @@
         "What custody arrangements happen during deportation proceedings?",
         "Can deportation be stopped to keep families together?"
       ],
-      "tags": ["law", "justice", "americas", "immigration"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Children Left Behind",
@@ -56,7 +71,12 @@
         "What mental health effects do children experience after parental deportation?",
         "How do children maintain relationships across borders?"
       ],
-      "tags": ["society", "migration", "americas", "child-welfare"]
+      "tags": [
+        "hispanic-culture",
+        "migration",
+        "americas",
+        "child-welfare"
+      ]
     },
     {
       "name": "Economic Impacts",
@@ -68,7 +88,12 @@
         "How does parental deportation affect children's economic futures?",
         "What role does the underground economy play for these families?"
       ],
-      "tags": ["economics", "inequality", "americas", "labor"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Health and Healthcare Access",
@@ -80,7 +105,12 @@
         "What mental health services are available to these families?",
         "How do community health centers serve mixed-status families?"
       ],
-      "tags": ["health", "inequality", "americas", "healthcare"]
+      "tags": [
+        "health",
+        "inequality",
+        "americas",
+        "healthcare"
+      ]
     },
     {
       "name": "Education and Schools",
@@ -92,7 +122,12 @@
         "How do schools support students in mixed-status families?",
         "What college access issues exist for children in mixed-status families?"
       ],
-      "tags": ["education", "inequality", "americas", "k-12"]
+      "tags": [
+        "education",
+        "inequality",
+        "americas",
+        "k-12"
+      ]
     },
     {
       "name": "Psychological Toll on Children",
@@ -104,7 +139,12 @@
         "What role does secrecy and hiding play in children's psychology?",
         "What trauma-informed support helps these children?"
       ],
-      "tags": ["health", "identity", "americas", "mental-health"]
+      "tags": [
+        "health",
+        "hispanic-culture",
+        "americas",
+        "mental-health"
+      ]
     },
     {
       "name": "Community and Support Networks",
@@ -116,7 +156,12 @@
         "How do rapid response networks protect families?",
         "What sanctuary policies help mixed-status families?"
       ],
-      "tags": ["society", "activism", "americas", "civil-rights"]
+      "tags": [
+        "hispanic-culture",
+        "activism",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Policy Impacts",
@@ -128,7 +173,12 @@
         "How have courts addressed family unity in immigration cases?",
         "What international human rights frameworks apply?"
       ],
-      "tags": ["politics", "governance", "americas", "immigration"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Pathways to Legal Status",
@@ -140,7 +190,12 @@
         "How do DACA and other programs affect mixed-status families?",
         "What paths forward exist for family legalization?"
       ],
-      "tags": ["law", "governance", "americas", "immigration"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "The Future of Mixed-Status Families",
@@ -152,7 +207,12 @@
         "How might comprehensive immigration reform address these families?",
         "What will be the legacy of growing up in a mixed-status family?"
       ],
-      "tags": ["society", "migration", "americas", "immigration"]
+      "tags": [
+        "hispanic-culture",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     }
   ]
 }

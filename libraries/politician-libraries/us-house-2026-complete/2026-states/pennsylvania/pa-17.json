@@ -2,6 +2,12 @@
   "book": "PA-17",
   "chapters": [
     {
+      "name": "Republican",
+      "topics": [
+        "Tony Guy (R)"
+      ]
+    },
+    {
       "name": "Democratic",
       "topics": [
         "Chris Deluzio (D)",

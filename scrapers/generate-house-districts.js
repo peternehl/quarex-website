@@ -12,9 +12,9 @@ const path = require('path');
 
 const batchNum = process.argv[2];
 
-if (!batchNum || isNaN(batchNum) || batchNum < 1 || batchNum > 10) {
+if (!batchNum || isNaN(batchNum) || batchNum < 1 || batchNum > 11) {
   console.log('Usage: node generate-house-districts.js <batch-number>');
-  console.log('Batch number must be 1-10');
+  console.log('Batch number must be 1-11 (11 = non-voting territories)');
   process.exit(1);
 }
 
@@ -62,7 +62,7 @@ for (const state of data.states) {
     }
 
     // Handle Independent/Other parties
-    const otherParties = ['Independent', 'Libertarian', 'Green', 'Other'];
+    const otherParties = ['Independent', 'Libertarian', 'Green', 'Other', 'Socialist Labor', 'Communist', 'Working Class'];
     const otherCandidates = [];
 
     for (const party of otherParties) {

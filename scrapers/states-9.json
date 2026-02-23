@@ -1,6 +1,6 @@
 {
   "batch": 9,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "South Dakota",
@@ -26,7 +26,7 @@
           "district": "TN-01",
           "candidates": {
             "Republican": ["Diana Harshbarger (R)", "Danny Gibson (R)"],
-            "Democratic": [],
+            "Democratic": ["Kristi Burke (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -76,7 +76,7 @@
           "district": "TN-06",
           "candidates": {
             "Republican": ["Brad Gaines (R)", "Johnny Garrett (R)", "Jon Henry (R)", "William Hilleary (R)", "Joe Reid (R)"],
-            "Democratic": ["Craig Ballin (D)", "Lore Bergman (D)", "Mike Croley (D)"],
+            "Democratic": ["Craig Ballin (D)", "Lore Bergman (D)", "Mike Croley (D)", "Chaney Mosley (D)"],
             "Independent": ["Dale Braden (I)", "Christopher Monday (I)"],
             "Libertarian": [],
             "Green": []
@@ -271,7 +271,7 @@
         {
           "district": "TX-16",
           "candidates": {
-            "Republican": ["Manuel Barraza (R)", "Adam Bauman (R)", "Hector Cabildo (R)", "Raul Castaneda (R)", "Marisela Chavez (R)", "Deliris Montanez (R)", "Arturo Rios (R)"],
+            "Republican": ["Manuel Barraza (R)", "Adam Bauman (R)", "Hector Cabildo (R)", "Raul Castaneda (R)", "Marisela Chavez (R)", "Deliris Montanez (R)", "Ruben Rios (R)"],
             "Democratic": ["Veronica Escobar (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -421,7 +421,7 @@
         {
           "district": "TX-31",
           "candidates": {
-            "Republican": ["John Carter (R)", "William Abel (R)", "David Berry (R)", "Steven Dowell (R)", "Ed Ewald (R)", "Abhiram Garapati (R)", "Valentina Gomez Noriega (R)", "Raymond Hamden (R)", "Elvis Lossa (R)", "Offer Shlomi (R)"],
+            "Republican": ["John Carter (R)", "William Abel (R)", "David Berry (R)", "Steven Dowell (R)", "Ed Ewald (R)", "Abhiram Garapati (R)", "Valentina Gomez Noriega (R)", "Raymond Hamden (R)", "Elvis Lossa (R)", "Offer Vince Shlomi (R)"],
             "Democratic": ["Justin Early (D)", "Stuart Whitlow (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -461,7 +461,7 @@
         {
           "district": "TX-35",
           "candidates": {
-            "Republican": ["Randy Adams (R)", "Joshua Cortez (R)", "Carlos De La Cruz (R)", "Mark Eberwine (R)", "Jay Furman (R)", "Vanessa Hicks-Callaway (R)", "Ryan Krause (R)", "Larry La Rose (R)", "Rod Lingsch (R)", "John Lujan (R)", "Steven Wright (R)"],
+            "Republican": ["Randy Adams (R)", "Joshua Cortez (R)", "Carlos De La Cruz (R)", "Mark Eberwine (R)", "Jay Furman (R)", "Vanessa Hicks-Callaway (R)", "Ryan Krause (R)"],
             "Democratic": ["Maureen Galindo (D)", "Johnny Garcia (D)", "John Lira (D)", "Whitney Masterson-Moyes (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -528,7 +528,7 @@
           "district": "UT-03",
           "candidates": {
             "Republican": ["Mike Kennedy (R)"],
-            "Democratic": ["Steven Merrill (D)"],
+            "Democratic": ["Steven Merrill (D)", "Kent Udell (D)"],
             "Independent": ["Adonis Hooslyn (I)"],
             "Libertarian": [],
             "Green": []

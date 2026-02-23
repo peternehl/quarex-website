@@ -1,0 +1,145 @@
+{
+  "name": "Hardware Systems Documentation",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "description": "Practical documentation standards for physical systems: equipment, wiring, installations, and as-built drawings. Covers the documentation that keeps hardware systems maintainable and serviceable.",
+  "tags": [
+    "technology",
+    "engineering",
+    "infrastructure",
+    "methodology"
+  ],
+  "chapters": [
+    {
+      "name": "Equipment Lists and Bill of Materials",
+      "topics": [
+        "What information belongs in an equipment list versus what's clutter?",
+        "How do you track model numbers, serial numbers, and firmware versions?",
+        "What naming conventions make equipment lists searchable?",
+        "How do you handle equipment substitutions and track what was actually installed?",
+        "What format survives longest: spreadsheet, database, or document?",
+        "How do you link equipment lists to drawings and other documentation?"
+      ],
+      "tags": ["technology", "engineering", "methodology", "data-management"]
+    },
+    {
+      "name": "Cable Schedules and Wire Documentation",
+      "topics": [
+        "What makes a cable schedule actually useful versus just a list?",
+        "How do you number cables so the system scales and labels are readable?",
+        "What information belongs on each end of a cable run?",
+        "How do you document cable paths through a building?",
+        "What does a wire termination schedule need to include?",
+        "How do you handle unlabeled cables you discover in the field?"
+      ],
+      "tags": ["technology", "engineering", "infrastructure", "methodology"]
+    },
+    {
+      "name": "Rack Elevations and Equipment Layouts",
+      "topics": [
+        "What makes a rack elevation drawing useful versus decorative?",
+        "How do you document power distribution and circuit assignments in racks?",
+        "What thermal and airflow information belongs in rack documentation?",
+        "How do you show cable management without making drawings unreadable?",
+        "What level of detail is enough for someone to rebuild a rack?",
+        "How do you handle racks that change frequently?"
+      ],
+      "tags": ["technology", "engineering", "infrastructure", "systems-thinking"]
+    },
+    {
+      "name": "Floor Plans and System Layouts",
+      "topics": [
+        "What system information belongs on a floor plan versus separate drawings?",
+        "How do you layer different systems (AV, network, power) without chaos?",
+        "What scale and level of detail works for installation versus maintenance?",
+        "How do you document equipment locations that aren't obvious?",
+        "What happens when architectural drawings don't match reality?",
+        "How do you create floor plans when you don't have CAD access?"
+      ],
+      "tags": ["technology", "engineering", "infrastructure", "methodology"]
+    },
+    {
+      "name": "Electrical and Power Documentation",
+      "topics": [
+        "What electrical information must be documented for safety?",
+        "How do you document circuit assignments and panel schedules?",
+        "What grounding and bonding information needs to be recorded?",
+        "How do you document UPS systems and backup power?",
+        "What power consumption and heat load data matters?",
+        "How do you handle electrical work done by others?"
+      ],
+      "tags": ["technology", "engineering", "infrastructure", "safety"]
+    },
+    {
+      "name": "Installation Documentation",
+      "topics": [
+        "What documentation do installers need to do the job right?",
+        "How do you create installation instructions that actually get followed?",
+        "What photographs should be taken during installation and why?",
+        "How do you document mounting details and hardware?",
+        "What gets missed when installation documentation is skipped?",
+        "How do you balance detail with practicality for field crews?"
+      ],
+      "tags": ["technology", "engineering", "communication", "methodology"]
+    },
+    {
+      "name": "As-Built Drawings",
+      "topics": [
+        "What's the difference between design drawings and as-builts?",
+        "How do you capture field changes during construction?",
+        "What level of redlining is practical during a busy installation?",
+        "When do as-builts need to be fully redrawn versus marked up?",
+        "How do you verify as-builts are actually accurate?",
+        "What's the minimum as-built package that protects you and serves the client?"
+      ],
+      "tags": ["technology", "engineering", "accountability", "methodology"]
+    },
+    {
+      "name": "Labeling Standards",
+      "topics": [
+        "What labeling conventions survive long-term use?",
+        "How do you label equipment so it matches documentation?",
+        "What label materials last in different environments?",
+        "How do you handle equipment that's hard to access for labeling?",
+        "What labeling mistakes cause the most confusion?",
+        "How do you retrofit labeling on systems built without standards?"
+      ],
+      "tags": ["technology", "engineering", "methodology", "systems-thinking"]
+    },
+    {
+      "name": "Spare Parts and Consumables Documentation",
+      "topics": [
+        "What spare parts information does the client actually need?",
+        "How do you document recommended spare parts quantities?",
+        "What consumables need to be tracked and reordered?",
+        "How do you document part numbers that change over time?",
+        "What vendor and sourcing information belongs in the documentation?",
+        "How do you handle obsolete equipment and discontinued parts?"
+      ],
+      "tags": ["technology", "engineering", "economics", "methodology"]
+    },
+    {
+      "name": "Preventive Maintenance Documentation",
+      "topics": [
+        "What maintenance tasks need to be documented and scheduled?",
+        "How do you create maintenance procedures someone can actually follow?",
+        "What inspection checklists work in practice?",
+        "How do you document manufacturer maintenance requirements?",
+        "What happens when maintenance documentation doesn't exist?",
+        "How do you integrate with client maintenance management systems?"
+      ],
+      "tags": ["technology", "engineering", "methodology", "accountability"]
+    },
+    {
+      "name": "Test and Commissioning Documentation",
+      "topics": [
+        "What test procedures need to be documented before commissioning?",
+        "How do you create test checklists that verify actual functionality?",
+        "What test results need to be recorded and retained?",
+        "How do you document punch list items and their resolution?",
+        "What baseline measurements should be recorded at commissioning?",
+        "How do you document system performance for future comparison?"
+      ],
+      "tags": ["technology", "engineering", "accountability", "methodology"]
+    }
+  ]
+}

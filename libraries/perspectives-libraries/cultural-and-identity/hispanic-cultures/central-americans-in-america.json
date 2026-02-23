@@ -19,7 +19,12 @@
         "How do these distinct backgrounds affect diaspora identities?",
         "What regional identity do Central Americans share, if any?"
       ],
-      "tags": ["history", "colonialism", "americas", "anthropology"]
+      "tags": [
+        "history",
+        "colonialism",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "War Refugees: The 1980s Crisis",
@@ -32,7 +37,12 @@
         "What trauma did war refugees carry with them?",
         "How did the Iran-Contra affair connect to Central American migration?"
       ],
-      "tags": ["history", "migration", "americas", "refugees"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "refugees"
+      ]
     },
     {
       "name": "Salvadoran Americans: The Largest Central American Group",
@@ -43,7 +53,12 @@
         "What is the relationship between Salvadorans and MS-13 in popular perception?",
         "How have Salvadoran Americans built communities in Los Angeles and DC?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Guatemalan Americans: Indigenous and Ladino",
@@ -56,7 +71,12 @@
         "How do Guatemalan Americans maintain connections to villages of origin?",
         "What role does the genocide of Mayan peoples play in community memory?"
       ],
-      "tags": ["society", "identity", "americas", "anthropology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Honduran Americans: A Growing Community",
@@ -68,7 +88,12 @@
         "What is the Garifuna community within Honduran America?",
         "How has gang violence and corruption shaped recent migration?"
       ],
-      "tags": ["society", "migration", "americas", "sociology"]
+      "tags": [
+        "society",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Nicaraguan Americans: Diverse Origins",
@@ -80,7 +105,12 @@
         "How has the recent Ortega crisis affected Nicaraguan emigration?",
         "Where do Nicaraguan Americans live and what communities have they built?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Legal Limbo: TPS and DACA",
@@ -93,7 +123,12 @@
         "How does legal uncertainty affect family and community life?",
         "What advocacy efforts support Central American legal status?"
       ],
-      "tags": ["law", "governance", "americas", "immigration"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Geography of Settlement",
@@ -104,7 +139,12 @@
         "How do settlement patterns differ by national origin?",
         "What role do existing networks play in directing settlement?"
       ],
-      "tags": ["geography", "migration", "americas", "sociology"]
+      "tags": [
+        "geography",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Economic Life and Work",
@@ -117,7 +157,12 @@
         "How does documentation status affect economic opportunities?",
         "What labor organizing has occurred in Central American communities?"
       ],
-      "tags": ["economics", "inequality", "americas", "labor"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Culture and Community",
@@ -128,7 +173,12 @@
         "How do Central American festivals and celebrations work?",
         "What music and art emerge from Central American American life?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "sociology"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Pan-Central American Identity?",
@@ -141,7 +191,12 @@
         "Is a pan-Central American identity emerging?",
         "How do second-generation Central Americans think about identity?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Next Generations",
@@ -152,7 +207,12 @@
         "What educational and economic outcomes are second-generation Central Americans achieving?",
         "What is the future of Central American American communities?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

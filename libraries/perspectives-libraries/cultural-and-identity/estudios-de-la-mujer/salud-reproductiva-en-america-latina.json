@@ -1,0 +1,221 @@
+{
+  "name": "Salud Reproductiva en América Latina",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "salud reproductiva",
+    "derechos reproductivos",
+    "mortalidad materna",
+    "anticoncepción",
+    "América Latina"
+  ],
+  "chapters": [
+    {
+      "name": "El Estado de la Salud Reproductiva",
+      "topics": [
+        "¿Cuántas mujeres mueren cada año en América Latina por causas relacionadas con el embarazo y parto?",
+        "¿Qué países de la región tienen las peores y mejores tasas de mortalidad materna?",
+        "¿Qué porcentaje de estas muertes serían evitables con atención médica adecuada?",
+        "¿Cómo varían los indicadores de salud reproductiva entre zonas urbanas y rurales?",
+        "¿Por qué siguen muriendo mujeres de causas prevenibles en pleno siglo XXI?"
+      ],
+      "tags": [
+        "health",
+        "reproductive-health",
+        "mortality",
+        "americas"
+      ]
+    },
+    {
+      "name": "Acceso a Anticonceptivos",
+      "topics": [
+        "¿Qué porcentaje de mujeres latinoamericanas tiene acceso a métodos anticonceptivos modernos?",
+        "¿Cuántos embarazos no deseados ocurren cada año por falta de acceso a anticoncepción?",
+        "¿Por qué siguen existiendo barreras legales para que las adolescentes accedan a anticonceptivos?",
+        "¿Cómo varía el acceso entre mujeres urbanas de clase media y mujeres rurales pobres?",
+        "¿Qué papel juega la Iglesia Católica en limitar el acceso a anticonceptivos en la región?"
+      ],
+      "tags": [
+        "health",
+        "contraception",
+        "inequality",
+        "religion"
+      ]
+    },
+    {
+      "name": "Embarazo Adolescente",
+      "topics": [
+        "¿Por qué tiene América Latina la segunda tasa más alta de embarazo adolescente del mundo?",
+        "¿Qué países de la región tienen las tasas más alarmantes de madres menores de 15 años?",
+        "¿Cómo se relacionan el embarazo adolescente y la violencia sexual?",
+        "¿Qué consecuencias tiene el embarazo temprano para la educación y el futuro económico de las niñas?",
+        "¿Por qué fracasan tantos programas de prevención del embarazo adolescente?"
+      ],
+      "tags": [
+        "society",
+        "youth",
+        "reproductive-health",
+        "education"
+      ]
+    },
+    {
+      "name": "Educación Sexual",
+      "topics": [
+        "¿Qué países de América Latina tienen programas obligatorios de educación sexual integral?",
+        "¿Por qué se oponen grupos conservadores a la educación sexual en las escuelas?",
+        "¿Qué evidencia existe sobre la efectividad de la educación sexual para prevenir embarazos e ITS?",
+        "¿Cómo difieren los enfoques de educación sexual entre países — abstinencia vs. integral?",
+        "¿Qué papel juegan los padres vs. las escuelas vs. el Estado en la educación sexual?"
+      ],
+      "tags": [
+        "education",
+        "sexuality",
+        "public-policy",
+        "culture-wars"
+      ]
+    },
+    {
+      "name": "El Aborto en América Latina",
+      "topics": [
+        "¿Qué países de América Latina prohíben el aborto totalmente, sin excepciones?",
+        "¿Cuántos abortos clandestinos se realizan cada año en la región?",
+        "¿Cuántas mujeres mueren o quedan con secuelas por abortos inseguros?",
+        "¿Por qué criminalizan algunos países a mujeres que sufren abortos espontáneos?",
+        "¿Cómo llegó Argentina a legalizar el aborto en 2020 y qué cambió?"
+      ],
+      "tags": [
+        "politics",
+        "abortion",
+        "law",
+        "americas"
+      ]
+    },
+    {
+      "name": "La Marea Verde",
+      "topics": [
+        "¿Cómo nació el movimiento de pañuelos verdes en Argentina y qué simboliza?",
+        "¿Qué estrategias usó la Campaña Nacional por el Derecho al Aborto Legal para cambiar la opinión pública?",
+        "¿Cómo se expandió la marea verde a otros países de América Latina?",
+        "¿Qué países han avanzado hacia la despenalización después de Argentina?",
+        "¿Por qué fracasaron los intentos de legalización en Chile y otros países?"
+      ],
+      "tags": [
+        "politics",
+        "activism",
+        "abortion",
+        "social-movements"
+      ]
+    },
+    {
+      "name": "Mortalidad Materna",
+      "topics": [
+        "¿Cuáles son las principales causas de muerte materna en América Latina — hemorragia, eclampsia, aborto inseguro?",
+        "¿Por qué mueren más las mujeres indígenas y afrodescendientes que las mujeres blancas?",
+        "¿Qué diferencia hay en mortalidad materna entre dar a luz en un hospital público vs. privado?",
+        "¿Qué países han logrado reducir dramáticamente la mortalidad materna y cómo?",
+        "¿Qué compromisos internacionales han hecho los gobiernos y por qué no los cumplen?"
+      ],
+      "tags": [
+        "health",
+        "mortality",
+        "inequality",
+        "public-health"
+      ]
+    },
+    {
+      "name": "Violencia Obstétrica",
+      "topics": [
+        "¿Qué es la violencia obstétrica y por qué recién se está nombrando?",
+        "¿Qué prácticas médicas constituyen violencia obstétrica — episiotomías innecesarias, cesáreas forzadas?",
+        "¿Cómo experimentan las mujeres indígenas y pobres mayor violencia obstétrica?",
+        "¿Qué países han legislado contra la violencia obstétrica y con qué resultados?",
+        "¿Por qué es tan difícil denunciar y probar la violencia obstétrica?"
+      ],
+      "tags": [
+        "health",
+        "gender-based-violence",
+        "medicine",
+        "human-rights"
+      ]
+    },
+    {
+      "name": "Parteras y Parto Humanizado",
+      "topics": [
+        "¿Qué papel siguen jugando las parteras tradicionales en zonas rurales de América Latina?",
+        "¿Cómo fueron marginadas las parteras por la medicalización del parto?",
+        "¿Qué es el movimiento por el parto humanizado y qué propone?",
+        "¿Qué evidencia existe sobre la seguridad del parto en casa vs. parto hospitalario?",
+        "¿Cómo están integrando algunos países a las parteras en el sistema de salud oficial?"
+      ],
+      "tags": [
+        "health",
+        "traditional-medicine",
+        "childbirth",
+        "indigenous-knowledge"
+      ]
+    },
+    {
+      "name": "VIH/SIDA y Mujeres",
+      "topics": [
+        "¿Cómo ha cambiado el perfil de la epidemia de VIH en América Latina — más mujeres, más heterosexuales?",
+        "¿Por qué tienen las mujeres menos poder para negociar el uso del condón?",
+        "¿Qué pasa con las mujeres embarazadas que viven con VIH — prevención de transmisión vertical?",
+        "¿Cómo afecta el estigma del VIH específicamente a las mujeres?",
+        "¿Qué acceso tienen las mujeres al tratamiento antirretroviral en diferentes países?"
+      ],
+      "tags": [
+        "health",
+        "hiv-aids",
+        "public-health",
+        "gender"
+      ]
+    },
+    {
+      "name": "Fertilidad y Maternidad Asistida",
+      "topics": [
+        "¿Qué acceso tienen las mujeres latinoamericanas a tratamientos de fertilidad?",
+        "¿Por qué son los tratamientos de fertilidad un privilegio de las clases altas?",
+        "¿Cómo está regulada la gestación subrogada en diferentes países de la región?",
+        "¿Qué debates éticos rodean a la maternidad subrogada — explotación vs. autonomía?",
+        "¿Tienen las mujeres lesbianas y solteras acceso a reproducción asistida?"
+      ],
+      "tags": [
+        "health",
+        "reproductive-technology",
+        "inequality",
+        "bioethics"
+      ]
+    },
+    {
+      "name": "Esterilización Forzada",
+      "topics": [
+        "¿Qué programas de esterilización forzada existieron en América Latina — Perú, México, otros?",
+        "¿Cómo esterilizó el gobierno de Fujimori a 300,000 mujeres indígenas peruanas?",
+        "¿Por qué son las mujeres indígenas, pobres y discapacitadas las principales víctimas?",
+        "¿Qué justificaciones eugenésicas y de control poblacional se usaron?",
+        "¿Han recibido justicia y reparación las víctimas de esterilización forzada?"
+      ],
+      "tags": [
+        "history",
+        "human-rights",
+        "indigenous-peoples",
+        "state-violence"
+      ]
+    },
+    {
+      "name": "El Futuro de los Derechos Reproductivos",
+      "topics": [
+        "¿Qué avances y retrocesos se ven en derechos reproductivos en la región?",
+        "¿Cómo está afectando el ascenso de gobiernos de derecha los derechos reproductivos?",
+        "¿Qué papel juega el movimiento feminista en defender y expandir estos derechos?",
+        "¿Cómo pueden los sistemas de salud garantizar acceso universal a salud reproductiva?",
+        "¿Qué significaría para América Latina que todas las mujeres pudieran decidir libremente sobre su cuerpo?"
+      ],
+      "tags": [
+        "politics",
+        "frontiers",
+        "reproductive-rights",
+        "activism"
+      ]
+    }
+  ]
+}

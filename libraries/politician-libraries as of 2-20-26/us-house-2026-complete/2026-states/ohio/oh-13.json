@@ -1,0 +1,28 @@
+{
+  "book": "OH-13",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Margaret Briem (R)",
+        "Jeremy Caudill (R)",
+        "Carey Coleman (R)",
+        "Sanjin Drakovac (R)",
+        "Neil Patel (R)",
+        "Kevin Siembida (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Emilia Sykes (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Sandeep Dixit (I)"
+      ]
+    }
+  ]
+}

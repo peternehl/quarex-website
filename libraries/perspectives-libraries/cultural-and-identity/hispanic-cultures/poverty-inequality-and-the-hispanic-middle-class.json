@@ -19,7 +19,12 @@
         "Where is Hispanic poverty concentrated geographically?",
         "What are the different faces of Hispanic poverty?"
       ],
-      "tags": ["economics", "inequality", "americas", "poverty"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "poverty"
+      ]
     },
     {
       "name": "Child Poverty",
@@ -31,7 +36,12 @@
         "How do immigration status barriers affect child poverty programs?",
         "What long-term impacts does childhood poverty have?"
       ],
-      "tags": ["economics", "inequality", "americas", "child-welfare"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "child-welfare"
+      ]
     },
     {
       "name": "Working Poor",
@@ -43,7 +53,12 @@
         "What multiple jobs do working poor Hispanics hold?",
         "What prevents work from lifting families out of poverty?"
       ],
-      "tags": ["economics", "labor", "americas", "working-class"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "working-class"
+      ]
     },
     {
       "name": "The Wealth Gap",
@@ -55,7 +70,12 @@
         "How does the wealth gap affect intergenerational mobility?",
         "What would closing the wealth gap require?"
       ],
-      "tags": ["economics", "inequality", "americas", "wealth"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "wealth"
+      ]
     },
     {
       "name": "Homeownership and Housing",
@@ -67,7 +87,12 @@
         "How does housing insecurity affect Hispanic families?",
         "What programs support Hispanic homeownership?"
       ],
-      "tags": ["economics", "inequality", "americas", "housing"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "housing"
+      ]
     },
     {
       "name": "The Growing Hispanic Middle Class",
@@ -79,7 +104,12 @@
         "How stable is Hispanic middle-class status?",
         "What distinguishes the Hispanic middle class from other groups?"
       ],
-      "tags": ["economics", "identity", "americas", "social-class"]
+      "tags": [
+        "economics",
+        "hispanic-culture",
+        "americas",
+        "social-class"
+      ]
     },
     {
       "name": "Economic Mobility",
@@ -91,7 +121,12 @@
         "How does Hispanic mobility compare to other groups?",
         "What barriers limit Hispanic economic mobility?"
       ],
-      "tags": ["economics", "inequality", "americas", "social-mobility"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "social-mobility"
+      ]
     },
     {
       "name": "The Safety Net",
@@ -103,7 +138,12 @@
         "What chilling effects limit benefit uptake?",
         "How effective is the safety net for Hispanic families?"
       ],
-      "tags": ["politics", "inequality", "americas", "social-programs"]
+      "tags": [
+        "politics",
+        "inequality",
+        "americas",
+        "social-programs"
+      ]
     },
     {
       "name": "Debt and Credit",
@@ -115,7 +155,12 @@
         "What credit scores do Hispanic consumers have?",
         "How can Hispanics build credit and manage debt?"
       ],
-      "tags": ["economics", "inequality", "americas", "finance"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "finance"
+      ]
     },
     {
       "name": "Retirement Security",
@@ -127,7 +172,12 @@
         "What poverty exists among elderly Hispanics?",
         "What is the outlook for Hispanic retirement security?"
       ],
-      "tags": ["economics", "aging", "americas", "retirement"]
+      "tags": [
+        "economics",
+        "aging",
+        "americas",
+        "retirement"
+      ]
     },
     {
       "name": "Building Wealth",
@@ -139,7 +189,12 @@
         "What role does entrepreneurship play in wealth-building?",
         "What inheritance patterns exist in Hispanic families?"
       ],
-      "tags": ["economics", "family", "americas", "financial-planning"]
+      "tags": [
+        "economics",
+        "family",
+        "americas",
+        "financial-planning"
+      ]
     },
     {
       "name": "The Future of Hispanic Economic Progress",
@@ -151,7 +206,12 @@
         "How might comprehensive immigration reform affect Hispanic economics?",
         "What economic future awaits the next generation of Hispanics?"
       ],
-      "tags": ["economics", "inequality", "americas", "future-trends"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "future-trends"
+      ]
     }
   ]
 }

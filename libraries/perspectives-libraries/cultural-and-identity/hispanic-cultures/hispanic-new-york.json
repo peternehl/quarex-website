@@ -19,7 +19,12 @@
         "How did the garment industry attract Hispanic labor?",
         "What community institutions developed in early Hispanic New York?"
       ],
-      "tags": ["history", "migration", "americas", "sociology"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Puerto Rican Foundation",
@@ -32,7 +37,12 @@
         "How did the Young Lords challenge the status quo?",
         "What is the legacy of Puerto Rican New York today?"
       ],
-      "tags": ["history", "identity", "americas", "civil-rights"]
+      "tags": [
+        "history",
+        "hispanic-culture",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Nuyorican Culture",
@@ -44,7 +54,12 @@
         "What tension exists between island and Nuyorican identity?",
         "Who are the key Nuyorican artists and writers?"
       ],
-      "tags": ["arts", "identity", "americas", "literary-arts"]
+      "tags": [
+        "arts",
+        "hispanic-culture",
+        "americas",
+        "literary-arts"
+      ]
     },
     {
       "name": "Dominican New York: Washington Heights and Beyond",
@@ -56,7 +71,12 @@
         "What political power have Dominicans built?",
         "How has Dominican New York changed over decades?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Mexican New York: The Newest Major Community",
@@ -69,7 +89,12 @@
         "What cultural institutions serve Mexican New Yorkers?",
         "How visible is the Mexican community in diverse New York?"
       ],
-      "tags": ["society", "migration", "americas", "sociology"]
+      "tags": [
+        "society",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "South American New Yorkers",
@@ -80,7 +105,12 @@
         "How do South Americans relate to Caribbean-dominated Hispanic New York?",
         "What businesses and institutions serve South American communities?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Bronx: Hispanic Heartland",
@@ -92,7 +122,12 @@
         "How is the Bronx changing through gentrification?",
         "What community resilience has the Bronx shown?"
       ],
-      "tags": ["geography", "identity", "americas", "sociology"]
+      "tags": [
+        "geography",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Queens: The Most Diverse Borough",
@@ -103,7 +138,12 @@
         "What makes Queens Hispanic experience different from Manhattan or Bronx?",
         "How do Hispanics interact with other immigrant communities in Queens?"
       ],
-      "tags": ["geography", "identity", "americas", "sociology"]
+      "tags": [
+        "geography",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Brooklyn's Hispanic Communities",
@@ -115,7 +155,12 @@
         "What is distinct about Hispanic Brooklyn compared to other boroughs?",
         "How do Hispanic Brooklynites navigate rapidly changing neighborhoods?"
       ],
-      "tags": ["geography", "identity", "americas", "sociology"]
+      "tags": [
+        "geography",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Economic Life in Hispanic New York",
@@ -128,7 +173,12 @@
         "How does the cost of living affect Hispanic New Yorkers?",
         "What role does the informal economy play?"
       ],
-      "tags": ["economics", "inequality", "americas", "labor"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Political Power and Representation",
@@ -140,7 +190,12 @@
         "How has redistricting affected Hispanic representation?",
         "What is the future of Hispanic political power in New York?"
       ],
-      "tags": ["politics", "representation", "americas", "us-politics"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "The Future of Hispanic New York",
@@ -151,7 +206,12 @@
         "Will New York remain a Hispanic cultural capital?",
         "How will new migration patterns affect the city's Hispanic character?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

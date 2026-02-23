@@ -1,0 +1,28 @@
+{
+  "book": "Arizona",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Andy Biggs (R)",
+        "David Schweikert (R)",
+        "Karrin Taylor Robson (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Katie Hobbs (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Teri Hourihan (I)",
+        "William Pounds (I)",
+        "Hugh Lytle (I)",
+        "Leezah Sun (I)"
+      ]
+    }
+  ]
+}

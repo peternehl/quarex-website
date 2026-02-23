@@ -20,7 +20,12 @@
         "What cities have the largest Mexican American populations?",
         "How do rural and urban Mexican American populations differ?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Those Who Were Here First",
@@ -31,7 +36,12 @@
         "How do Tejano and Nuevomexicano families trace centuries-long presence?",
         "What distinguishes these original Mexican Americans from later immigrants?"
       ],
-      "tags": ["history", "colonialism", "americas", "immigration"]
+      "tags": [
+        "history",
+        "colonialism",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Waves of Migration",
@@ -45,7 +55,12 @@
         "What role did labor recruitment play in each migration wave?",
         "How has the character of the border changed across eras?"
       ],
-      "tags": ["history", "migration", "americas", "immigration"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Regional Diversity Within Mexican America",
@@ -56,7 +71,12 @@
         "What about Mexican Americans in the South and Pacific Northwest?",
         "How do regional Mexican origins affect American communities?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Chicano Identity and the Movement",
@@ -71,7 +91,12 @@
         "How did the Brown Berets and student movements contribute?",
         "What is the legacy of the Chicano Movement today?"
       ],
-      "tags": ["history", "activism", "americas", "civil-rights"]
+      "tags": [
+        "history",
+        "activism",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Language Patterns and Generations",
@@ -82,7 +107,12 @@
         "What role does Spanglish play in Mexican American life?",
         "How do heritage language programs try to maintain Spanish?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Economic Trajectories",
@@ -95,7 +125,12 @@
         "What role do Mexican American entrepreneurs play in the economy?",
         "How do wage gaps affect Mexican American families?"
       ],
-      "tags": ["economics", "inequality", "americas", "labor"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Political Diversity and Engagement",
@@ -106,7 +141,12 @@
         "What issues drive Mexican American political engagement?",
         "How has Mexican American representation in government changed?"
       ],
-      "tags": ["politics", "representation", "americas", "elections"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "elections"
+      ]
     },
     {
       "name": "Religion and Faith",
@@ -120,7 +160,12 @@
         "What role do quinceañeras play in religious and cultural life?",
         "How do Día de los Muertos observances blend faith and tradition?"
       ],
-      "tags": ["religion", "tradition", "americas", "sociology"]
+      "tags": [
+        "religion",
+        "tradition",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Family Structures and Gender",
@@ -131,7 +176,12 @@
         "How do Mexican American women navigate tradition and change?",
         "What role does extended family play in Mexican American life?"
       ],
-      "tags": ["society", "identity", "americas", "gender"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "gender"
+      ]
     },
     {
       "name": "Cultural Production and Influence",
@@ -144,7 +194,12 @@
         "What cultural crossover flows between Mexico and Mexican America?",
         "How has lowrider culture evolved and spread?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "music"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "music"
+      ]
     },
     {
       "name": "The Next Generation",
@@ -155,7 +210,12 @@
         "What does educational achievement look like for young Mexican Americans?",
         "How do social media and technology shape young Mexican American culture?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

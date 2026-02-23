@@ -1,6 +1,6 @@
 {
   "batch": 3,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Hawaii",
@@ -45,7 +45,7 @@
         {
           "district": "ID-02",
           "candidates": {
-            "Republican": ["Michael K. Simpson (R)", "Sean Higgins (R)", "Perry Shumway (R)"],
+            "Republican": ["Michael K. Simpson (R)", "Eric Clarke (R)", "Sean Higgins (R)", "Perry Shumway (R)"],
             "Democratic": ["Julie Wiley (D)"],
             "Independent": ["Tripp Hutchinson (I)"],
             "Libertarian": [],
@@ -93,7 +93,8 @@
           "candidates": {
             "Republican": ["Lupe Castillo (R)"],
             "Democratic": ["Patty Garcia (D)"],
-            "Independent": ["Ed Hershey (I)"],
+            "Independent": [],
+            "Working Class": ["Ed Hershey (WC)"],
             "Libertarian": [],
             "Green": []
           }
@@ -112,7 +113,7 @@
           "district": "IL-06",
           "candidates": {
             "Republican": ["Niki Conforti (R)", "Skylar Duensing (R)"],
-            "Democratic": ["Sean Casten (D)", "Joseph Ruzevich (D)"],
+            "Democratic": ["Sean Casten (D)", "Joey Ruzevich (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -142,7 +143,7 @@
           "district": "IL-09",
           "candidates": {
             "Republican": ["Rocio Cleveland (R)", "John Elleson (R)", "Paul Friedman (R)", "Mark Su (R)"],
-            "Democratic": ["Kat Abughazaleh (D)", "Bushra Amiwala (D)", "Phil Andrew (D)", "Natalie Angelo (D)", "Daniel K. Biss (D)", "Patricia Brown (D)", "Jeff Cohen (D)", "Laura Fine (D)", "Justin Ford (D)", "Mark Fredrickson (D)", "Hoan Huynh (D)", "Bethany Johnson (D)", "Sam Polan (D)", "Nick Pyati (D)", "Howard Rosenblum (D)", "Mike Simmons (D)"],
+            "Democratic": ["Kat Abughazaleh (D)", "Bushra Amiwala (D)", "Phil Andrew (D)", "Daniel K. Biss (D)", "Patricia Brown (D)", "Jeff Cohen (D)", "Laura Fine (D)", "Justin Ford (D)", "Mark Fredrickson (D)", "Hoan Huynh (D)", "Bethany Johnson (D)", "Sam Polan (D)", "Nick Pyati (D)", "Howard Rosenblum (D)", "Mike Simmons (D)"],
             "Independent": ["Delila Barrera (I)"],
             "Libertarian": [],
             "Green": []
@@ -237,8 +238,8 @@
         {
           "district": "IN-01",
           "candidates": {
-            "Republican": ["Jennifer-Ruth Green (R)", "Barb Regnitz (R)", "David Ben Ruiz (R)", "James Schenke (R)"],
-            "Democratic": ["Frank Mrvan (D)"],
+            "Republican": ["Richard Mayers (R)", "Barb Regnitz (R)", "David Ben Ruiz (R)", "James Schenke (R)"],
+            "Democratic": ["Frank Mrvan (D)", "Joshua Coulter (D)", "LaVetta Sparks-Wade (D)", "Aleem Young (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -248,7 +249,7 @@
           "district": "IN-02",
           "candidates": {
             "Republican": ["Rudy Yakym (R)"],
-            "Democratic": ["Jamee Decio (D)"],
+            "Democratic": ["Jamee Decio (D)", "Shaun Maeyens (D)"],
             "Independent": ["Eric Beebe (I)"],
             "Libertarian": [],
             "Green": []
@@ -257,8 +258,8 @@
         {
           "district": "IN-03",
           "candidates": {
-            "Republican": ["Marlin A. Stutzman (R)"],
-            "Democratic": ["Phil Goss (D)", "Kelly Thompson (D)"],
+            "Republican": ["Marlin A. Stutzman (R)", "Jon Kenworthy (R)"],
+            "Democratic": ["Kelly Thompson (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -267,8 +268,8 @@
         {
           "district": "IN-04",
           "candidates": {
-            "Republican": ["Jim Baird (R)", "Chad Elwartowski (R)", "Craig Haggard (R)", "Anthony Hustedt-Mai (R)"],
-            "Democratic": ["Drew Cox (D)", "Thomas D. Hall Jr. (D)", "Joe Mackey (D)", "John Whetstone (D)"],
+            "Republican": ["Jim Baird (R)", "Chad Elwartowski (R)", "Craig Haggard (R)", "Anthony Hustedt-Mai (R)", "John Piper (R)"],
+            "Democratic": ["Drew Cox (D)", "Roger Day (D)", "Darin Patrick Griesey (D)", "Thomas D. Hall Jr. (D)", "Robert Lovely (D)", "Joe Mackey (D)", "Jayden McCash (D)", "Paul McPherson (D)", "John Whetstone (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -277,8 +278,8 @@
         {
           "district": "IN-05",
           "candidates": {
-            "Republican": ["Victoria Spartz (R)"],
-            "Democratic": ["Samuel Cooper (D)", "J.D. Ford (D)", "Jackson Franklin (D)", "Deborah A. Pickett (D)", "Todd Shelton (D)"],
+            "Republican": ["Victoria Spartz (R)", "Scott King (R)"],
+            "Democratic": ["Steven Avit (D)", "Samuel Cooper (D)", "J.D. Ford (D)", "Jackson Franklin (D)", "Phil Goss (D)", "Dylan McKenna (D)", "Tara Nelson (D)", "Deborah A. Pickett (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -287,8 +288,8 @@
         {
           "district": "IN-06",
           "candidates": {
-            "Republican": ["Jefferson Shreve (R)"],
-            "Democratic": ["Raymond Alt (D)", "William Kory Amyx (D)", "David Boyd (D)", "Alexander Hardy (D)", "Cynthia Wirth (D)"],
+            "Republican": ["Jefferson Shreve (R)", "Sarah Brown (R)"],
+            "Democratic": ["Raymond Alt (D)", "William Kory Amyx (D)", "Nicholas Baker (D)", "David Boyd (D)", "Alexander Hardy (D)", "Cynthia Wirth (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -297,8 +298,8 @@
         {
           "district": "IN-07",
           "candidates": {
-            "Republican": ["Felipe Rios (R)"],
-            "Democratic": ["Andre Carson (D)", "George Hornedo (D)", "Trapper Stewart (D)"],
+            "Republican": ["Patrick McAuley (R)", "Felipe Rios (R)"],
+            "Democratic": ["André Carson (D)", "Denise Paul Hatch (D)", "George Hornedo (D)", "Pierre Quincy Pullins (D)", "Destiny Scott Wells (D)", "Trapper Stewart (D)", "Aleem Young (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -308,7 +309,7 @@
           "district": "IN-08",
           "candidates": {
             "Republican": ["Mark Messmer (R)", "Daniel George (R)"],
-            "Democratic": ["Mary Allen (D)", "Christopher Rector (D)", "Aleem Young (D)"],
+            "Democratic": ["Mary Allen (D)", "Mario Foradori (D)", "Christopher Rector (D)", "Tabitha Zeigler (D)"],
             "Independent": ["James Burke (I)"],
             "Libertarian": [],
             "Green": []
@@ -334,7 +335,7 @@
           "district": "IA-01",
           "candidates": {
             "Republican": ["Mariannette Miller-Meeks (R)", "Grant Hill (R)", "David Pautsch (R)"],
-            "Democratic": ["Christina Bohannan (D)", "Bob Krause (D)", "Travis Terrell (D)", "Taylor Wettach (D)"],
+            "Democratic": ["Christina Bohannan (D)", "Bob Krause (D)", "Travis Terrell (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -343,7 +344,7 @@
         {
           "district": "IA-02",
           "candidates": {
-            "Republican": ["Shannon Lundgren (R)", "Charlie McClintock (R)", "Joe Mitchell (R)"],
+            "Republican": ["Charlie McClintock (R)", "Joe Mitchell (R)"],
             "Democratic": ["Kathryn Dolter (D)", "Lindsay James (D)", "Guy Morgan (D)", "Clint Twedt-Ball (D)"],
             "Independent": ["Dave Bushaw (I)"],
             "Libertarian": [],
@@ -354,7 +355,7 @@
           "district": "IA-03",
           "candidates": {
             "Republican": ["Zach Nunn (R)"],
-            "Democratic": ["Xavier Carrigan (D)", "Jennifer Konfrst (D)", "Tracy Limon (D)", "Sarah Trone Garriott (D)", "Easton Wolfe (D)"],
+            "Democratic": ["Xavier Carrigan (D)", "Tracy Limon (D)", "Sarah Trone Garriott (D)", "Easton Wolfe (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -363,7 +364,7 @@
         {
           "district": "IA-04",
           "candidates": {
-            "Republican": ["Randy Feenstra (R)", "Chris McGowan (R)", "Ryan Rhodes (R)", "Christian Schlaefer (R)", "Matt Windschitl (R)"],
+            "Republican": ["Randy Feenstra (R)", "Chris McGowan (R)", "Ryan Rhodes (R)", "Christian Schlaefer (R)"],
             "Democratic": ["Dave Dawson (D)", "Stephanie Steiner (D)", "Ashley WolfTornabane (D)"],
             "Independent": ["Jermaine Decker (I)"],
             "Libertarian": [],

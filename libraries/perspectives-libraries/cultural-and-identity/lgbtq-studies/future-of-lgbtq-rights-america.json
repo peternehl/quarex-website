@@ -1,0 +1,139 @@
+{
+  "name": "The Future of LGBTQ+ Rights in America",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ rights", "Equality Act", "Supreme Court", "Generation Z", "backlash"],
+  "chapters": [
+    {
+      "name": "Where Things Stand: A 2020s Snapshot",
+      "topics": [
+        "What legal protections do LGBTQ+ Americans currently have?",
+        "What gaps remain in LGBTQ+ legal protection?",
+        "How do state-by-state differences create a patchwork of rights?",
+        "What is the current state of public opinion on LGBTQ+ issues?",
+        "How has LGBTQ+ visibility changed in recent decades?",
+        "What gains are under threat from current political movements?"
+      ],
+      "tags": ["law", "lgbtq", "politics", "civil-rights"]
+    },
+    {
+      "name": "The Equality Act: Hope and Obstacles",
+      "topics": [
+        "What would the Equality Act accomplish if passed?",
+        "What federal protections do LGBTQ+ people currently lack?",
+        "Why has the Equality Act passed the House but stalled in the Senate?",
+        "What objections do opponents raise?",
+        "What compromises have been proposed?",
+        "What is the realistic path forward for federal LGBTQ+ protections?"
+      ],
+      "tags": ["law", "lgbtq", "legislation", "civil-rights"]
+    },
+    {
+      "name": "The Supreme Court After Dobbs",
+      "topics": [
+        "How has the Supreme Court's composition changed?",
+        "What did Justice Thomas's Dobbs concurrence signal for LGBTQ+ rights?",
+        "Which LGBTQ+ precedents might be vulnerable?",
+        "How might challenges to marriage equality reach the Court?",
+        "What is the 'history and tradition' test and how might it affect LGBTQ+ cases?",
+        "How are advocates preparing for potential rollbacks?"
+      ],
+      "tags": ["law", "lgbtq", "supreme-court", "civil-rights"]
+    },
+    {
+      "name": "The Anti-Trans Legislative Wave",
+      "topics": [
+        "How many anti-trans bills have been introduced in recent years?",
+        "What categories do these bills fall into?",
+        "What is the strategic purpose of this legislative wave?",
+        "How are transgender people and families affected?",
+        "What legal challenges have been mounted?",
+        "What is the likely trajectory of anti-trans legislation?"
+      ],
+      "tags": ["law", "lgbtq", "gender", "politics"]
+    },
+    {
+      "name": "Generation Z and Shifting Identity",
+      "topics": [
+        "How do younger generations identify in terms of sexual orientation and gender?",
+        "What does research show about Gen Z LGBTQ+ identity?",
+        "How are younger people approaching identity labels differently?",
+        "What political implications does generational change have?",
+        "How might the LGBTQ+ population grow as acceptance increases?",
+        "What new issues and priorities do younger LGBTQ+ people bring?"
+      ],
+      "tags": ["sociology", "lgbtq", "youth", "identity"]
+    },
+    {
+      "name": "Red State/Blue State Divergence",
+      "topics": [
+        "How are state-level LGBTQ+ policies diverging dramatically?",
+        "What does it mean to be LGBTQ+ in a deeply restrictive state?",
+        "Are LGBTQ+ people migrating between states based on policy?",
+        "How do LGBTQ+ people in red states organize and survive?",
+        "What happens to LGBTQ+ rights if federalism continues to fracture?",
+        "What legal and practical challenges does state divergence create?"
+      ],
+      "tags": ["politics", "lgbtq", "federalism", "civil-rights"]
+    },
+    {
+      "name": "The Religious Liberty Battleground",
+      "topics": [
+        "How is 'religious liberty' being used to challenge LGBTQ+ rights?",
+        "What cases are working through the courts?",
+        "What did 303 Creative v. Elenis decide and what does it mean?",
+        "How do religious exemptions interact with anti-discrimination law?",
+        "What is the scope of religious liberty claims expanding to cover?",
+        "How can LGBTQ+ rights and religious liberty be balanced?"
+      ],
+      "tags": ["law", "lgbtq", "religion", "civil-rights"]
+    },
+    {
+      "name": "LGBTQ+ Community Resilience",
+      "topics": [
+        "How have LGBTQ+ communities historically survived backlash?",
+        "What resources and networks support LGBTQ+ people in hostile environments?",
+        "How is mutual aid being organized in response to current attacks?",
+        "What role do LGBTQ+ elders play in modeling resilience?",
+        "How do LGBTQ+ people maintain mental health during political attacks?",
+        "What lessons from AIDS activism apply to current struggles?"
+      ],
+      "tags": ["psychology", "lgbtq", "community", "activism"]
+    },
+    {
+      "name": "Coalition Building and Political Strategy",
+      "topics": [
+        "What alliances strengthen LGBTQ+ political power?",
+        "How does the LGBTQ+ movement connect to other civil rights movements?",
+        "What role do LGBTQ+ people of color play in coalition building?",
+        "How can LGBTQ+ organizations be more effective advocates?",
+        "What political strategies work in the current environment?",
+        "How important is electoral politics versus other forms of activism?"
+      ],
+      "tags": ["politics", "lgbtq", "activism", "strategy"]
+    },
+    {
+      "name": "Global Context: America in Comparative Perspective",
+      "topics": [
+        "How do LGBTQ+ rights in the U.S. compare to other democracies?",
+        "What can the U.S. learn from other countries' approaches?",
+        "How does American policy influence global LGBTQ+ rights?",
+        "What international pressure affects U.S. LGBTQ+ policy?",
+        "How do multinational corporations influence the landscape?",
+        "What role does the U.S. play in global LGBTQ+ movements?"
+      ],
+      "tags": ["politics", "lgbtq", "international-relations", "civil-rights"]
+    },
+    {
+      "name": "Imagining Full Equality: What Would It Look Like?",
+      "topics": [
+        "What would full LGBTQ+ equality in America actually look like?",
+        "What changes in law, culture, and institutions would be needed?",
+        "How would healthcare, education, and family life be different?",
+        "What would LGBTQ+ young people experience in a fully equal society?",
+        "Is full equality achievable or a perpetual aspiration?",
+        "What vision should guide LGBTQ+ advocacy going forward?"
+      ],
+      "tags": ["philosophy", "lgbtq", "civil-rights", "future-studies"]
+    }
+  ]
+}

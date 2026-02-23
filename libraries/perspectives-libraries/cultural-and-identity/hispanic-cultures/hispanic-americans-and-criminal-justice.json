@@ -19,7 +19,12 @@
         "What trends exist in Hispanic criminal justice contact over time?",
         "How does the criminal justice burden differ across Hispanic communities?"
       ],
-      "tags": ["law", "demographics", "americas", "criminal-justice"]
+      "tags": [
+        "law",
+        "demographics",
+        "americas",
+        "criminal-justice"
+      ]
     },
     {
       "name": "Policing in Hispanic Communities",
@@ -31,7 +36,12 @@
         "How does immigration enforcement affect policing?",
         "What trust issues exist between police and Hispanic communities?"
       ],
-      "tags": ["law", "justice", "americas", "policing"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "policing"
+      ]
     },
     {
       "name": "Racial Profiling and Discrimination",
@@ -43,7 +53,12 @@
         "How do Hispanics perceive fairness in policing?",
         "What reforms address discriminatory policing?"
       ],
-      "tags": ["law", "justice", "americas", "discrimination"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "discrimination"
+      ]
     },
     {
       "name": "Immigration Enforcement and Local Police",
@@ -55,7 +70,12 @@
         "How does immigration enforcement affect crime reporting?",
         "What is the relationship between ICE and local law enforcement?"
       ],
-      "tags": ["law", "migration", "americas", "immigration"]
+      "tags": [
+        "law",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Courts and Legal Representation",
@@ -67,7 +87,12 @@
         "How do plea bargaining practices affect Hispanics?",
         "What judicial disparities exist in Hispanic cases?"
       ],
-      "tags": ["law", "justice", "americas", "courts"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "courts"
+      ]
     },
     {
       "name": "Sentencing Disparities",
@@ -79,7 +104,12 @@
         "What mandatory minimums disproportionately affect Hispanics?",
         "What reforms could address sentencing disparities?"
       ],
-      "tags": ["law", "justice", "americas", "sentencing"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "sentencing"
+      ]
     },
     {
       "name": "Incarceration",
@@ -91,7 +121,12 @@
         "How does immigration detention differ from criminal incarceration?",
         "What are outcomes for incarcerated Hispanics?"
       ],
-      "tags": ["law", "justice", "americas", "prisons"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "prisons"
+      ]
     },
     {
       "name": "Reentry and Collateral Consequences",
@@ -103,7 +138,12 @@
         "What family reunification challenges exist?",
         "What support systems help Hispanic reentry?"
       ],
-      "tags": ["law", "society", "americas", "reentry"]
+      "tags": [
+        "law",
+        "hispanic-culture",
+        "americas",
+        "reentry"
+      ]
     },
     {
       "name": "Hispanic Youth and Juvenile Justice",
@@ -115,7 +155,12 @@
         "What diversion programs serve Hispanic youth?",
         "What reforms could improve juvenile justice for Hispanics?"
       ],
-      "tags": ["law", "youth", "americas", "juvenile-justice"]
+      "tags": [
+        "law",
+        "youth",
+        "americas",
+        "juvenile-justice"
+      ]
     },
     {
       "name": "Gangs and Hispanic Communities",
@@ -127,7 +172,12 @@
         "What gang prevention programs work?",
         "How is gang involvement related to immigration enforcement?"
       ],
-      "tags": ["society", "youth", "americas", "gangs"]
+      "tags": [
+        "hispanic-culture",
+        "youth",
+        "americas",
+        "gangs"
+      ]
     },
     {
       "name": "Hispanic Law Enforcement Officers",
@@ -139,7 +189,12 @@
         "What recruitment and retention issues affect Hispanic officers?",
         "What role do Hispanic officers play in reform efforts?"
       ],
-      "tags": ["law", "representation", "americas", "police-workforce"]
+      "tags": [
+        "law",
+        "representation",
+        "americas",
+        "police-workforce"
+      ]
     },
     {
       "name": "Criminal Justice Reform",
@@ -151,7 +206,12 @@
         "What community-based alternatives exist?",
         "What is the future of Hispanic criminal justice advocacy?"
       ],
-      "tags": ["law", "activism", "americas", "reform"]
+      "tags": [
+        "law",
+        "activism",
+        "americas",
+        "reform"
+      ]
     }
   ]
 }

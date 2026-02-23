@@ -1,0 +1,126 @@
+{
+  "name": "Investment Risks and How to Manage Them",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is Investment Risk?",
+      "topics": [
+        "What do we really mean by 'risk' in investing?",
+        "How is risk different from uncertainty?",
+        "Why is risk necessary to earn returns above inflation?",
+        "What does volatility measure and is it the same as risk?",
+        "Why do people think about risk wrong—as loss, not variability?",
+        "What risks can you manage versus what risks do you just accept?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Market Risk: The Risk That Affects Everyone",
+      "topics": [
+        "What is market risk (systematic risk)?",
+        "Why can't you diversify away market risk?",
+        "How big are typical market drawdowns and how long do they last?",
+        "What is beta and how does it measure market sensitivity?",
+        "How much market risk is appropriate for you?",
+        "What is the only real hedge against market risk—other than not investing?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Inflation Risk: The Silent Killer",
+      "topics": [
+        "What is inflation risk and why does it matter for long-term investors?",
+        "How does inflation erode the purchasing power of your savings?",
+        "What assets protect against inflation versus get hurt by it?",
+        "What happened to bond investors in the 1970s inflation?",
+        "How do TIPS and I-Bonds provide inflation protection?",
+        "Is keeping money in cash actually 'safe' if inflation is 4%?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "monetary-policy"]
+    },
+    {
+      "name": "Interest Rate Risk",
+      "topics": [
+        "How do rising interest rates hurt bond prices?",
+        "Why do long-term bonds suffer more than short-term bonds?",
+        "What happened to bonds in 2022 when rates rose rapidly?",
+        "How does interest rate risk affect stocks too?",
+        "What does duration tell you about your bond portfolio's sensitivity?",
+        "How do you manage interest rate risk without avoiding bonds entirely?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "monetary-policy"]
+    },
+    {
+      "name": "Credit Risk: When Borrowers Default",
+      "topics": [
+        "What is credit risk and when does it apply to your investments?",
+        "What is the historical default rate for corporate bonds?",
+        "Why do 'safe' investments sometimes turn out to be risky?",
+        "What happened to investors in Lehman Brothers bonds in 2008?",
+        "How do you evaluate whether higher yield is worth the credit risk?",
+        "What is credit spread and what does widening spreads tell you?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Concentration Risk: Too Many Eggs, One Basket",
+      "topics": [
+        "What is concentration risk and why is it so dangerous?",
+        "Why do people end up concentrated—employer stock, inheritance, winners?",
+        "What happened to Enron employees with 401(k)s full of company stock?",
+        "How concentrated is too concentrated?",
+        "How do you reduce concentration without huge tax bills?",
+        "When might concentration be acceptable or even intentional?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "labor"]
+    },
+    {
+      "name": "Sequence-of-Returns Risk",
+      "topics": [
+        "What is sequence-of-returns risk and why does it matter most near retirement?",
+        "Why does the order of returns affect your ending wealth?",
+        "How can two people with identical average returns have wildly different outcomes?",
+        "What is the 'retirement risk zone' and when does it apply?",
+        "How do you reduce sequence risk as you approach retirement?",
+        "What strategies help protect against early retirement bear markets?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Liquidity Risk",
+      "topics": [
+        "What is liquidity risk and when does it become a problem?",
+        "Which investments are liquid versus illiquid?",
+        "What happened to investors in illiquid assets during 2008?",
+        "Why do some real estate and alternative investments trap your money?",
+        "How do you maintain enough liquidity for emergencies?",
+        "When might illiquidity actually be a benefit?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "housing"]
+    },
+    {
+      "name": "Currency Risk",
+      "topics": [
+        "What is currency risk and when does it affect your investments?",
+        "How does a strong or weak dollar affect your international holdings?",
+        "Should you hedge currency risk or just accept it?",
+        "What happened to US investors in European stocks during various periods?",
+        "Does currency risk add or reduce overall portfolio risk?",
+        "How do you think about currency when investing internationally?"
+      ],
+      "tags": ["economics", "globalization", "personal-finance", "trade"]
+    },
+    {
+      "name": "Behavioral Risk: The Risk You Create",
+      "topics": [
+        "What is behavioral risk and why is it the biggest risk for most investors?",
+        "How much do investors lose to bad timing and panic selling?",
+        "What is the 'behavior gap' between fund returns and investor returns?",
+        "How does chasing performance destroy wealth?",
+        "What structures and habits protect you from yourself?",
+        "Why is the risk of doing something often greater than the risk of doing nothing?"
+      ],
+      "tags": ["psychology", "finance", "personal-finance", "behavioral-psychology"]
+    }
+  ]
+}

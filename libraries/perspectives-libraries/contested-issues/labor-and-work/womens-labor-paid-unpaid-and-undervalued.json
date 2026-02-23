@@ -1,0 +1,150 @@
+{
+  "name": "Women's Labor: Paid, Unpaid, and Undervalued",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "The History of Women's Work",
+      "topics": [
+        "How was women's unpaid household labor in colonial America essential yet invisible in economic accounting?",
+        "What obstacles did the 'Lowell mill girls' face when organizing in the 1830s and 1840s?",
+        "Why did wages fall as teaching and nursing became feminized professions in the late 19th century?",
+        "How did 'Rosie the Riveter' prove women could do 'men's work'—then get pushed out when the war ended?",
+        "What did the women's movement of the 1960s and 1970s demand, and what has changed since?",
+        "Why does the gender pay gap persist despite women becoming the majority of college graduates?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Cult of Domesticity and the 'Working Woman'",
+      "topics": [
+        "What was the 'cult of domesticity' and how did it justify excluding women from education, professions, and politics?",
+        "Why was the domestic ideal always a middle-class standard that poor women and women of color could never attain?",
+        "How did the ideology persist even as women entered the workforce during industrialization?",
+        "What was Betty Friedan's 'problem that has no name' in The Feminine Mystique?",
+        "Why do working mothers today face criticism that working fathers rarely encounter?",
+        "How does the cult of domesticity survive in expectations about who should sacrifice career for family?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Women and the Labor Movement",
+      "topics": [
+        "Why did AFL craft unions typically exclude women or relegate them to auxiliary roles?",
+        "What was the 'Uprising of the 20,000' and what did the 1909 shirtwaist makers' strike achieve?",
+        "How did the Triangle Shirtwaist Factory fire of 1911 galvanize support for workplace safety and unionization?",
+        "Why did women's organizing often take different forms—mutual aid societies, boycotts, community campaigns?",
+        "How did the postwar labor movement become male-dominated and focused on male breadwinners?",
+        "What role does the Coalition of Labor Union Women play in bringing feminist perspectives to labor?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Gender Pay Gap: Causes and Controversies",
+      "topics": [
+        "Why do women earn 82 cents for every dollar men earn, and why is the gap larger for women of color?",
+        "How does occupational segregation explain part of the pay gap—and why do wages decline when women enter a field?",
+        "What portion of the pay gap reflects direct discrimination that economists cannot explain away?",
+        "What is the 'motherhood penalty' and why do mothers' earnings decline while fathers' earnings increase?",
+        "What role do resume studies play in demonstrating bias in hiring and salary offers?",
+        "What policy approaches—pay transparency, family-friendly policies, challenging segregation—could close the gap?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Occupational Segregation: Pink Collar and Blue Collar",
+      "topics": [
+        "Why does nursing remain 87% female, teaching 77% female, while construction is 97% male?",
+        "How did certain jobs become coded as 'women's work' through assumptions about nimble fingers and pleasant voices?",
+        "What research shows that wages decline when occupations shift from male to female—and vice versa?",
+        "Why have nursing wages been historically suppressed despite demanding skills and life-or-death responsibilities?",
+        "What challenges do women face when breaking into male-dominated fields like construction, firefighting, or tech?",
+        "Why is revaluing work that women do as important as integrating male-dominated occupations?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Maternal Penalty",
+      "topics": [
+        "Why is becoming a mother, economically, the worst career decision a woman can make?",
+        "What experimental studies show about discrimination against mothers in hiring and salary offers?",
+        "Why do fathers experience a wage premium while mothers experience a wage penalty?",
+        "How does the penalty vary by class and race, with single mothers particularly disadvantaged?",
+        "What factors beyond reduced hours explain the motherhood penalty?",
+        "What policies—paid leave, affordable childcare, flexible work—could reduce the motherhood penalty?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Unpaid Domestic Labor",
+      "topics": [
+        "How much is unpaid household labor worth annually—and why is it invisible in GDP calculations?",
+        "Why do women do far more housework than men even when both work full-time outside the home?",
+        "What is the 'second shift' and why does the gendered division persist across generations?",
+        "What is the 'mental load'—remembering appointments, planning meals, tracking supplies—and who carries it?",
+        "How does women's disproportionate domestic labor constrain their options in paid work?",
+        "What would it take to change the division of domestic labor beyond individual negotiation?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Care Work: The Crisis Economy",
+      "topics": [
+        "Why do care workers who perform society's most essential labor earn poverty wages of $13-14 per hour?",
+        "How do the demographics of care work—women, women of color, immigrants—reflect broader inequality?",
+        "Why do the economics of care create a structural problem where neither families nor workers can afford it?",
+        "How did the COVID-19 pandemic expose the care crisis through childcare closures and nursing home deaths?",
+        "How do Scandinavian and European countries invest in care as a public good?",
+        "What would it mean to pay care workers what their work is actually worth?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Domestic Workers: Nannies, Housekeepers, and Exclusion",
+      "topics": [
+        "Why were domestic workers explicitly excluded from the NLRA, FLSA, and other New Deal labor protections?",
+        "How did the exclusion reflect the racial composition of domestic work and Southern Democratic demands?",
+        "What consequences of that historical exclusion persist today in lack of protections?",
+        "How does immigration status compound vulnerability to abuse, wage theft, and harassment?",
+        "What has the National Domestic Workers Alliance achieved since its founding in 2007?",
+        "How have state-level 'Domestic Workers' Bills of Rights' extended protections in some jurisdictions?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Sexual Harassment in the Workplace",
+      "topics": [
+        "How did the women's movement first name sexual harassment and develop legal theories against it?",
+        "What are the two forms of sexual harassment—quid pro quo and hostile work environment—under Title VII?",
+        "What did Anita Hill's testimony during the Thomas hearings reveal about how hard it is to be believed?",
+        "What did the #MeToo movement achieve, and what are its limits for non-celebrity workers?",
+        "Why do non-disclosure agreements and mandatory arbitration hide harassment and protect harassers?",
+        "What structural changes beyond individual accountability—unions, transparency, banning NDAs—could end harassment?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Family Leave and Work-Life Policy",
+      "topics": [
+        "Why is the United States alone among wealthy nations in not guaranteeing paid family leave?",
+        "What does the Family and Medical Leave Act of 1993 provide, and why is unpaid leave no leave at all?",
+        "How do Canada, Germany, and Nordic countries provide far more generous paid leave?",
+        "Why is American policy a patchwork where a handful of states have enacted paid leave programs?",
+        "How does the lack of gender-neutral leave policies that encourage fathers intensify the motherhood penalty?",
+        "Why do proposals for federal paid leave repeatedly fail despite the obvious costs of the status quo?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Pandemic and Women's Work",
+      "topics": [
+        "Why was the COVID-19 economic downturn called a 'she-cession' with women's employment falling more sharply?",
+        "How did school closures and childcare disruptions push mothers out of the workforce?",
+        "What risks did essential workers—disproportionately women of color—face for poverty wages?",
+        "What crushing burdens did healthcare workers, especially nurses, face during the pandemic?",
+        "Why has the recovery been uneven, with many women who left not returning to the workforce?",
+        "Will the pandemic's demonstration that the economy cannot function without care translate into lasting policy change?"
+      ],
+      "tags": []
+    }
+  ]
+}

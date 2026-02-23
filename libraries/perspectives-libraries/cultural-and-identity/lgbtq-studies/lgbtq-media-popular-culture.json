@@ -1,0 +1,139 @@
+{
+  "name": "LGBTQ+ in Media and Popular Culture",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ representation", "media", "queerbaiting", "Bury Your Gays", "visibility"],
+  "chapters": [
+    {
+      "name": "A History of LGBTQ+ Representation in Media",
+      "topics": [
+        "How were LGBTQ+ people portrayed in early film and television?",
+        "What was the impact of the Hays Code on LGBTQ+ representation?",
+        "How did LGBTQ+ characters appear as villains and victims?",
+        "When did more sympathetic LGBTQ+ characters begin to appear?",
+        "What breakthrough moments changed LGBTQ+ television representation?",
+        "How has the trajectory of representation differed across media types?"
+      ],
+      "tags": ["media", "lgbtq", "history", "film"]
+    },
+    {
+      "name": "Stereotypes and Tropes",
+      "topics": [
+        "What common stereotypes have defined LGBTQ+ characters?",
+        "How does the 'Bury Your Gays' trope harm LGBTQ+ viewers?",
+        "What is the 'magical gay best friend' stereotype?",
+        "How are bisexual characters stereotyped differently than gay characters?",
+        "What harmful tropes affect transgender representation?",
+        "How can media move beyond stereotypes while still including LGBTQ+ characters?"
+      ],
+      "tags": ["media", "lgbtq", "representation", "criticism"]
+    },
+    {
+      "name": "Queerbaiting: Promise Without Payoff",
+      "topics": [
+        "What is queerbaiting and how does it work?",
+        "What examples of queerbaiting have drawn criticism?",
+        "Why do creators engage in queerbaiting?",
+        "How do fans respond to perceived queerbaiting?",
+        "What distinguishes queerbaiting from legitimate queer subtext?",
+        "Has increased LGBTQ+ representation reduced queerbaiting?"
+      ],
+      "tags": ["media", "lgbtq", "marketing", "criticism"]
+    },
+    {
+      "name": "The Power of Positive Representation",
+      "topics": [
+        "What research shows about the impact of LGBTQ+ media representation?",
+        "How does representation affect LGBTQ+ youth?",
+        "How does representation affect non-LGBTQ+ viewers' attitudes?",
+        "What makes representation 'good' or 'authentic'?",
+        "What responsibilities do creators have when representing LGBTQ+ people?",
+        "How do LGBTQ+ audiences evaluate representation quality?"
+      ],
+      "tags": ["media", "lgbtq", "psychology", "representation"]
+    },
+    {
+      "name": "LGBTQ+ Characters in Television's Golden Age",
+      "topics": [
+        "How has streaming changed LGBTQ+ television representation?",
+        "What shows have featured groundbreaking LGBTQ+ representation?",
+        "How do shows with LGBTQ+ showrunners differ in their representation?",
+        "What genres have been most and least inclusive?",
+        "How has representation of LGBTQ+ people of color evolved?",
+        "What current shows are leading in LGBTQ+ representation?"
+      ],
+      "tags": ["media", "lgbtq", "television", "representation"]
+    },
+    {
+      "name": "LGBTQ+ Representation in Film",
+      "topics": [
+        "How has Hollywood's approach to LGBTQ+ characters changed?",
+        "What films have been milestones in LGBTQ+ representation?",
+        "How does independent film differ from mainstream Hollywood?",
+        "What role do film festivals play in LGBTQ+ cinema?",
+        "How do international films approach LGBTQ+ stories differently?",
+        "What barriers remain to LGBTQ+ representation in film?"
+      ],
+      "tags": ["media", "lgbtq", "film", "representation"]
+    },
+    {
+      "name": "Transgender Representation in Media",
+      "topics": [
+        "How have transgender people been represented in media history?",
+        "What harm have sensationalized or mocking portrayals caused?",
+        "What breakthrough transgender characters have appeared on screen?",
+        "Why does it matter whether transgender roles are played by transgender actors?",
+        "How is transgender representation different from LGB representation?",
+        "What media best represents transgender experience authentically?"
+      ],
+      "tags": ["media", "lgbtq", "gender", "representation"]
+    },
+    {
+      "name": "LGBTQ+ in Video Games and Digital Media",
+      "topics": [
+        "How has LGBTQ+ representation evolved in video games?",
+        "What games have featured notable LGBTQ+ characters or stories?",
+        "How do LGBTQ+ gamers experience gaming communities?",
+        "What role do LGBTQ+ streamers and content creators play?",
+        "How does representation in games differ from other media?",
+        "What challenges remain for LGBTQ+ inclusion in gaming?"
+      ],
+      "tags": ["media", "lgbtq", "gaming", "technology"]
+    },
+    {
+      "name": "LGBTQ+ Journalism and News Media",
+      "topics": [
+        "How has news media historically covered LGBTQ+ people and issues?",
+        "What role has the LGBTQ+ press played in community building?",
+        "How do mainstream news outlets cover LGBTQ+ stories now?",
+        "What guidelines exist for respectful LGBTQ+ journalism?",
+        "How does coverage of transgender issues particularly need improvement?",
+        "What role do LGBTQ+ journalists play in newsrooms?"
+      ],
+      "tags": ["media", "lgbtq", "journalism", "news"]
+    },
+    {
+      "name": "Social Media and LGBTQ+ Community Building",
+      "topics": [
+        "How has social media changed LGBTQ+ community formation?",
+        "What platforms have been important for LGBTQ+ people?",
+        "How do LGBTQ+ youth use social media differently?",
+        "What harassment do LGBTQ+ people face online?",
+        "How have platforms' content policies affected LGBTQ+ users?",
+        "What does the future of LGBTQ+ digital community look like?"
+      ],
+      "tags": ["media", "lgbtq", "technology", "community"]
+    },
+    {
+      "name": "Beyond Representation: LGBTQ+ People Behind the Camera",
+      "topics": [
+        "Why does LGBTQ+ representation behind the scenes matter?",
+        "What LGBTQ+ directors, writers, and producers have shaped media?",
+        "How does having LGBTQ+ creators affect representation quality?",
+        "What barriers do LGBTQ+ people face in media industries?",
+        "How are industry organizations working on LGBTQ+ inclusion?",
+        "What would full LGBTQ+ equality in media industries look like?"
+      ],
+      "tags": ["media", "lgbtq", "industry", "career"]
+    }
+  ]
+}

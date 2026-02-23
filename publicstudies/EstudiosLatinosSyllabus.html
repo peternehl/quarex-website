@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudios Latinos Syllabus | Public Studies</title>
+    <meta name="description" content="Currículo completo de 12 cursos sobre las comunidades latinas en Estados Unidos. Identidad, política, cultura, inmigración y el futuro. 144 capítulos de contenido universitario gratuito. En español.">
+    <meta name="keywords" content="estudios latinos, hispanos en Estados Unidos, identidad hispana, voto hispano, inmigración, educación gratuita">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/EstudiosLatinosSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/EstudiosLatinosSyllabus.html">
+    <meta property="og:title" content="Estudios Latinos Syllabus | Public Studies">
+    <meta property="og:description" content="Currículo completo de 12 cursos sobre las comunidades latinas. 144 capítulos de contenido universitario gratuito.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Estudios Latinos Syllabus | Public Studies">
+    <meta name="twitter:description" content="Currículo completo de 12 cursos sobre las comunidades latinas. Gratuito y abierto para todos.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #F59E0B;
+            --accent-hover: #D97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">Todas las Disciplinas</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://elecciones2026.net/" target="_blank">Elecciones 2026</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1>Programa de <em>Estudios Latinos</em></h1>
+            <p class="syllabus-intro">Historia, cultura y pol&iacute;tica de las comunidades latinas en los Estados Unidos &mdash; desde la identidad y terminolog&iacute;a hasta las comunidades principales, el poder pol&iacute;tico, la discriminaci&oacute;n y el futuro. Doce cursos. Ciento cuarenta y cuatro cap&iacute;tulos. Contenido de nivel universitario, abierto para todos. En espa&ntilde;ol.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">12</span><span class="stat-label">Cursos</span></div>
+                <div class="stat"><span class="stat-number">144</span><span class="stat-label">Cap&iacute;tulos</span></div>
+                <div class="stat"><span class="stat-number">900+</span><span class="stat-label">Temas</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- IDENTIDAD Y TERMINOLOGÍA -->
+            <div class="section-divider">
+                <h2 class="section-label">Identidad y Terminolog&iacute;a</h2>
+                <p class="section-desc">&iquest;Qu&eacute; significan las etiquetas, qui&eacute;n las usa y c&oacute;mo est&aacute;n cambiando?</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">&iquest;Qu&eacute; Significa "Hispano"?</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>El Censo Crea una Categor&iacute;a</li>
+                        <li>El Idioma Espa&ntilde;ol como Hilo Com&uacute;n</li>
+                        <li>Or&iacute;genes Coloniales: Lo que Espa&ntilde;a Dej&oacute; Atr&aacute;s</li>
+                        <li>Hispano vs. Latino: El Gran Debate</li>
+                        <li>Latinx: Un Nuevo T&eacute;rmino Emerge</li>
+                        <li>Raza y la Categor&iacute;a Hispana</li>
+                        <li>Origen Nacional vs. Identidad Pan&eacute;tnica</li>
+                        <li>La Pol&iacute;tica del Conteo</li>
+                        <li>Marketing y el Consumidor Hispano</li>
+                        <li>&iquest;Qui&eacute;n Puede Ser Hispano?</li>
+                        <li>Cr&iacute;ticas a la Categor&iacute;a</li>
+                        <li>El Futuro de la Identidad Hispana</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/what-does-hispanic-mean-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Latino, Latina, Latinx: La Pol&iacute;tica Evolutiva de la Autoidentificaci&oacute;n</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>De Latino a Latinx: Un Viaje Ling&uuml;&iacute;stico</li>
+                        <li>Las Guerras Gramaticales</li>
+                        <li>Divisiones Generacionales</li>
+                        <li>Academia y Activismo</li>
+                        <li>Opciones de Medios y Marketing</li>
+                        <li>Latinos LGBTQ+ y el Lenguaje Inclusivo de G&eacute;nero</li>
+                        <li>La Controversia de las Encuestas</li>
+                        <li>Reacci&oacute;n de la Derecha</li>
+                        <li>La Perspectiva de Am&eacute;rica Latina</li>
+                        <li>M&aacute;s All&aacute; del Debate Binario</li>
+                        <li>Opciones Institucionales</li>
+                        <li>Hacia D&oacute;nde Va el Lenguaje desde Aqu&iacute;</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/latino-latina-latinx-evolving-identity-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- COMUNIDADES HISPANAS PRINCIPALES -->
+            <div class="section-divider">
+                <h2 class="section-label">Comunidades Hispanas Principales</h2>
+                <p class="section-desc">Las historias, culturas y experiencias distintas de las poblaciones hispanas m&aacute;s grandes de Estados Unidos.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">Mexicoamericanos: La Comunidad Hispana M&aacute;s Grande y Diversa</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Los N&uacute;meros: Tama&ntilde;o y Distribuci&oacute;n</li>
+                        <li>Los Que Estuvieron Aqu&iacute; Primero</li>
+                        <li>Olas de Migraci&oacute;n</li>
+                        <li>Diversidad Regional Dentro de la Am&eacute;rica Mexicana</li>
+                        <li>Identidad Chicana y el Movimiento</li>
+                        <li>Patrones Ling&uuml;&iacute;sticos y Generaciones</li>
+                        <li>Trayectorias Econ&oacute;micas</li>
+                        <li>Diversidad Pol&iacute;tica y Participaci&oacute;n</li>
+                        <li>Religi&oacute;n y Fe</li>
+                        <li>Estructuras Familiares y G&eacute;nero</li>
+                        <li>Producci&oacute;n Cultural e Influencia</li>
+                        <li>La Pr&oacute;xima Generaci&oacute;n</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/mexican-americans-largest-hispanic-community-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Puertorrique&ntilde;os en Estados Unidos: Ciudadanos Americanos, Identidad Caribe&ntilde;a</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Ciudadanos Sin un Estado</li>
+                        <li>La Gran Migraci&oacute;n</li>
+                        <li>Migraci&oacute;n Circular: La Generaci&oacute;n del Avi&oacute;n</li>
+                        <li>Cultura Nuyorican</li>
+                        <li>M&aacute;s All&aacute; de Nueva York: La Di&aacute;spora Se Expande</li>
+                        <li>Raza e Identidad Puertorrique&ntilde;a</li>
+                        <li>Idioma y Pertenencia</li>
+                        <li>Pol&iacute;tica Puertorrique&ntilde;a en el Continente</li>
+                        <li>Condiciones Econ&oacute;micas y Movilidad</li>
+                        <li>M&uacute;sica: De la Bomba al Reggaet&oacute;n</li>
+                        <li>El Hurac&aacute;n Mar&iacute;a y Sus Consecuencias</li>
+                        <li>El Futuro de la Identidad Puertorrique&ntilde;a</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">Cubanoamericanos: Exilio, &Eacute;xito y Complejidad Pol&iacute;tica</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Los Exiliados Dorados: La Primera Ola</li>
+                        <li>Mariel y los Marielitos</li>
+                        <li>Balseros: Balsas y Desesperaci&oacute;n</li>
+                        <li>Miami: Capital de la Am&eacute;rica Cubana</li>
+                        <li>La Historia de &Eacute;xito Econ&oacute;mico</li>
+                        <li>El Anticomunismo como Identidad</li>
+                        <li>Lealtades Republicanas y Deserciones Dem&oacute;cratas</li>
+                        <li>Blancura y Raza</li>
+                        <li>Cultura Cubanoamericana</li>
+                        <li>Conexiones con la Isla</li>
+                        <li>Cubanoamericanos Fuera de Florida</li>
+                        <li>La Pr&oacute;xima Generaci&oacute;n</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/cuban-americans-exile-success-complexity-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Centroamericanos en Estados Unidos</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Las Naciones Centroamericanas: Historias Distintas</li>
+                        <li>Refugiados de Guerra: La Crisis de los A&ntilde;os 80</li>
+                        <li>Salvadore&ntilde;os Americanos: El Grupo Centroamericano M&aacute;s Grande</li>
+                        <li>Guatemaltecos Americanos: Ind&iacute;genas y Ladinos</li>
+                        <li>Hondure&ntilde;os Americanos: Una Comunidad en Crecimiento</li>
+                        <li>Nicarag&uuml;enses Americanos: Or&iacute;genes Diversos</li>
+                        <li>Limbo Legal: TPS y DACA</li>
+                        <li>Geograf&iacute;a del Asentamiento</li>
+                        <li>Vida Econ&oacute;mica y Trabajo</li>
+                        <li>Cultura y Comunidad</li>
+                        <li>&iquest;Identidad Pan-Centroamericana?</li>
+                        <li>Las Pr&oacute;ximas Generaciones</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/central-americans-in-america-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- CONTRIBUCIONES Y CULTURA -->
+            <div class="section-divider">
+                <h2 class="section-label">Contribuciones y Cultura</h2>
+                <p class="section-desc">El legado hispano en las artes, ciencias, deportes, comida y m&aacute;s.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Contribuciones Hispanas a la Cultura Estadounidense</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>La Influencia Invisible</li>
+                        <li>Antes de los Estados Unidos</li>
+                        <li>Contribuciones a las Artes</li>
+                        <li>Contribuciones a la Comida y la Cocina</li>
+                        <li>Contribuciones a la Ciencia y la Innovaci&oacute;n</li>
+                        <li>Contribuciones a los Deportes</li>
+                        <li>Contribuciones a los Negocios y la Econom&iacute;a</li>
+                        <li>Servicio Militar y P&uacute;blico</li>
+                        <li>Idioma e Influencia Ling&uuml;&iacute;stica</li>
+                        <li>Arquitectura y Dise&ntilde;o</li>
+                        <li>El Movimiento de Reconocimiento</li>
+                        <li>El Futuro de la Influencia Hispana</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-contributions-to-american-culture-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- PODER POLÍTICO -->
+            <div class="section-divider">
+                <h2 class="section-label">Poder Pol&iacute;tico</h2>
+                <p class="section-desc">El voto hispano, la representaci&oacute;n y la competencia entre los partidos.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">El Voto Hispano: Poder, Patrones y el Camino Hacia Adelante</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>El Electorado Hispano</li>
+                        <li>Registro de Votantes y Participaci&oacute;n</li>
+                        <li>Patrones de Voto por Partido</li>
+                        <li>Diversidad Dentro del Voto Hispano</li>
+                        <li>Temas que Importan a los Votantes Hispanos</li>
+                        <li>Estados Competitivos y el Poder Hispano</li>
+                        <li>Alcance y Movilizaci&oacute;n de Votantes</li>
+                        <li>Supresi&oacute;n de Votantes y Acceso</li>
+                        <li>Organizaciones Pol&iacute;ticas Hispanas</li>
+                        <li>Las Elecciones de 2020 y 2024</li>
+                        <li>Representaci&oacute;n Hispana en Cargos P&uacute;blicos</li>
+                        <li>El Futuro del Poder Pol&iacute;tico Hispano</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-vote-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">Los Hispanoamericanos y los Dos Partidos</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Un Electorado en Disputa</li>
+                        <li>La Coalici&oacute;n Dem&oacute;crata</li>
+                        <li>El Alcance Republicano</li>
+                        <li>La Inmigraci&oacute;n como Tema Divisivo</li>
+                        <li>Propuestas Econ&oacute;micas</li>
+                        <li>Religi&oacute;n y Conservadurismo Social</li>
+                        <li>El Hispano Independiente</li>
+                        <li>Diferencias Pol&iacute;ticas por Subgrupos</li>
+                        <li>Cambios Generacionales</li>
+                        <li>Estrategias de Campa&ntilde;a</li>
+                        <li>El Realineamiento de los A&ntilde;os 2020</li>
+                        <li>El Futuro del Partidismo Hispano</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-the-two-parties-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- DESAFÍOS Y DISCRIMINACIÓN -->
+            <div class="section-divider">
+                <h2 class="section-label">Desaf&iacute;os y Discriminaci&oacute;n</h2>
+                <p class="section-desc">El prejuicio, la vida sin documentos y la lucha por los derechos civiles.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Discriminaci&oacute;n Antihispana: Prejuicio, Estereotipos y Odio</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>La Historia del Prejuicio Antihispano</li>
+                        <li>Estereotipos Comunes</li>
+                        <li>Representaci&oacute;n y Tergiversaci&oacute;n en los Medios</li>
+                        <li>Discriminaci&oacute;n Laboral</li>
+                        <li>Discriminaci&oacute;n en la Vivienda</li>
+                        <li>Discriminaci&oacute;n Educativa</li>
+                        <li>Discriminaci&oacute;n Ling&uuml;&iacute;stica</li>
+                        <li>Discriminaci&oacute;n en la Atenci&oacute;n M&eacute;dica</li>
+                        <li>Cr&iacute;menes de Odio Contra los Hispanos</li>
+                        <li>Pol&iacute;tica Antiinmigrante</li>
+                        <li>Protecciones Legales y Derechos Civiles</li>
+                        <li>Resistiendo y Avanzando</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/anti-hispanic-discrimination-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">Los Indocumentados: 11 Millones de Vidas en las Sombras</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>&iquest;Qui&eacute;nes Son los Indocumentados?</li>
+                        <li>Vivir Sin Estatus</li>
+                        <li>Trabajando en las Sombras</li>
+                        <li>El Miedo a la Deportaci&oacute;n</li>
+                        <li>Vida Comunitaria y Redes</li>
+                        <li>Estrategias Legales y Remedios</li>
+                        <li>Aplicaci&oacute;n de la Ley: ICE y CBP</li>
+                        <li>Redadas y Arrestos</li>
+                        <li>Detenci&oacute;n y el Proceso de Deportaci&oacute;n</li>
+                        <li>Impactos Familiares de la Aplicaci&oacute;n de la Ley</li>
+                        <li>Defensa y el Movimiento de Derechos de los Inmigrantes</li>
+                        <li>Caminos Hacia Adelante</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-undocumented-11-million-lives-in-the-shadows-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- EL FUTURO -->
+            <div class="section-divider">
+                <h2 class="section-label">El Futuro</h2>
+                <p class="section-desc">Demograf&iacute;a, poder y la promesa de la Am&eacute;rica hispana.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">El Futuro de la Am&eacute;rica Hispana: Demograf&iacute;a, Poder y Promesa</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Destino Demogr&aacute;fico</li>
+                        <li>El Futuro Econ&oacute;mico</li>
+                        <li>Avance Educativo</li>
+                        <li>El Poder Pol&iacute;tico en Ascenso</li>
+                        <li>Influencia Cultural</li>
+                        <li>Evoluci&oacute;n Generacional</li>
+                        <li>El Futuro de la Inmigraci&oacute;n</li>
+                        <li>Salud y Longevidad</li>
+                        <li>Cambios Geogr&aacute;ficos</li>
+                        <li>Tecnolog&iacute;a e Innovaci&oacute;n</li>
+                        <li>Desaf&iacute;os por Delante</li>
+                        <li>Una Nueva Historia Estadounidense</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-future-of-hispanic-america-es" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">Un Motor de Curiosidad para el bien p&uacute;blico.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/">Quarex</a>
+                <a href="https://elecciones2026.net/">Elecciones 2026</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Todo el contenido es gratuito y abierto.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

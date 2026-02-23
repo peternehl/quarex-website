@@ -1,0 +1,27 @@
+{
+  "book": "FL-21",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Brian Mast (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Pia Dandiya (D)",
+        "James Martin (D)",
+        "Edward O'Connor (D)",
+        "Elizabeth Pandich (D)",
+        "Bernard Taylor (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Robert Ott (I)"
+      ]
+    }
+  ]
+}

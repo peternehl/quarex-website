@@ -19,7 +19,12 @@
         "How do Dreamers differ from other undocumented immigrants?",
         "What makes the Dreamer experience distinct from their parents' experience?"
       ],
-      "tags": ["society", "identity", "americas", "immigration"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Growing Up Undocumented",
@@ -32,7 +37,12 @@
         "How do families discuss and handle undocumented status with children?",
         "What coming-of-age experiences are different for undocumented youth?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The DREAM Act: A Legislative History",
@@ -45,7 +55,12 @@
         "What compromises have been proposed around the DREAM Act?",
         "How close has the DREAM Act come to becoming law?"
       ],
-      "tags": ["politics", "governance", "americas", "immigration"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "DACA: Obama's Executive Action",
@@ -58,7 +73,12 @@
         "What does DACA not provide—what limitations remain?",
         "How did the announcement of DACA change lives overnight?"
       ],
-      "tags": ["law", "governance", "americas", "immigration"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Living with DACA",
@@ -72,7 +92,12 @@
         "How much does DACA cost and how does that burden recipients?",
         "What anxiety comes with DACA's temporary and uncertain status?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Legal Battles Over DACA",
@@ -85,7 +110,12 @@
         "What legal uncertainty continues to hang over the program?",
         "How do court decisions affect the lives of DACA recipients?"
       ],
-      "tags": ["law", "justice", "americas", "immigration"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "DACA and Education",
@@ -97,7 +127,12 @@
         "How have universities supported or failed DACA students?",
         "What happens to educational investments if DACA ends?"
       ],
-      "tags": ["education", "inequality", "americas", "higher-education"]
+      "tags": [
+        "education",
+        "inequality",
+        "americas",
+        "higher-education"
+      ]
     },
     {
       "name": "DACA in the Workplace",
@@ -111,7 +146,12 @@
         "What career limitations still exist despite work authorization?",
         "How does renewal uncertainty affect job security and planning?"
       ],
-      "tags": ["economics", "labor", "americas", "immigration"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "The Dreamer Movement",
@@ -123,7 +163,12 @@
         "How has the Dreamer movement influenced broader immigration politics?",
         "What tensions exist between Dreamer advocacy and advocacy for all undocumented people?"
       ],
-      "tags": ["politics", "activism", "americas", "civil-rights"]
+      "tags": [
+        "politics",
+        "activism",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Political Football",
@@ -136,7 +181,12 @@
         "What does bipartisan support for Dreamers actually mean in practice?",
         "Why hasn't popular support translated into legislative action?"
       ],
-      "tags": ["politics", "governance", "americas", "us-politics"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "State-Level Policies",
@@ -148,7 +198,12 @@
         "What states have been hostile to DACA recipients?",
         "How do state universities treat DACA students differently?"
       ],
-      "tags": ["law", "governance", "americas", "us-politics"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "The Future for Dreamers",
@@ -161,7 +216,12 @@
         "What is the likely future for DACA and the Dreamer population?",
         "How has the Dreamer experience shaped a generation's identity?"
       ],
-      "tags": ["society", "identity", "americas", "immigration"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "immigration"
+      ]
     }
   ]
 }

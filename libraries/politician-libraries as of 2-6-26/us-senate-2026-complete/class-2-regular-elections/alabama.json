@@ -1,0 +1,24 @@
+{
+  "book": "Alabama",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jared Hudson (R)",
+        "Steve Marshall (R)",
+        "Barry Moore (R)",
+        "Morgan Murphy (R)",
+        "Rodney Walker (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Dakarai Larriett (D)",
+        "Lamont Lavender (D)",
+        "Kyle Sweetser (D)",
+        "Mark Wheeler (D)"
+      ]
+    }
+  ]
+}

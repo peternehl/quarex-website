@@ -1,0 +1,31 @@
+{
+  "book": "Tennessee",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Marsha Blackburn (R)",
+        "Monty Fritts (R)",
+        "Cito Pellegra (R)",
+        "John Rose (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Carnita Atwater (D)",
+        "Tim Cyr (D)",
+        "Jerri Green (D)",
+        "Adam Kurtz (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Stephen Maxwell (I)",
+        "Lauren Pinkston (I)",
+        "Manasa Reddy (I)"
+      ]
+    }
+  ]
+}

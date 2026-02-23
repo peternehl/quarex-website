@@ -1,0 +1,23 @@
+{
+  "book": "MS-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Michael Guest (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Michael Chiaradio (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Erik Kiehle (L)"
+      ]
+    }
+  ]
+}

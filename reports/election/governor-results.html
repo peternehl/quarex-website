@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Governor Candidate Comparison Report</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f5f5f5;
+        }
+        header {
+            background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .subtitle { opacity: 0.9; font-size: 0.95rem; }
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .stat-number { font-size: 2rem; font-weight: bold; }
+        .stat-number.green { color: #38a169; }
+        .stat-number.red { color: #c53030; }
+        .stat-number.blue { color: #3182ce; }
+        .stat-label { font-size: 0.8rem; color: #666; margin-top: 0.25rem; }
+        h2 {
+            background: #2d3748;
+            color: white;
+            padding: 1rem 1.5rem;
+            margin: 2rem 0 0 0;
+            border-radius: 8px 8px 0 0;
+            font-size: 1.1rem;
+        }
+        .section {
+            background: white;
+            border-radius: 0 0 8px 8px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .state-row {
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #e2e8f0;
+            display: grid;
+            grid-template-columns: 120px 1fr 1fr 80px 80px;
+            gap: 1rem;
+            align-items: start;
+        }
+        .state-row:last-child { border-bottom: none; }
+        .state-row.no-change { background: #f7fafc; }
+        .state-row.has-change { background: #fffaf0; }
+        .state-name {
+            font-weight: 600;
+            color: #2d3748;
+        }
+        .candidates {
+            font-size: 0.85rem;
+        }
+        .added { color: #22543d; }
+        .removed { color: #742a2a; }
+        .count {
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.1rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        .badge-add { background: #c6f6d5; color: #22543d; }
+        .badge-remove { background: #fed7d7; color: #742a2a; }
+        .party-R { color: #c53030; }
+        .party-D { color: #2b6cb0; }
+        .party-I { color: #805ad5; }
+        .table-header {
+            background: #edf2f7;
+            padding: 0.75rem 1.5rem;
+            display: grid;
+            grid-template-columns: 120px 1fr 1fr 80px 80px;
+            gap: 1rem;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #4a5568;
+            border-bottom: 2px solid #cbd5e0;
+        }
+        .note {
+            background: #ebf8ff;
+            border-left: 4px solid #3182ce;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+        .legend {
+            display: flex;
+            gap: 2rem;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+        }
+        .legend-item { display: flex; align-items: center; gap: 0.5rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Governor Candidate Comparison Report</h1>
+        <div class="subtitle">Comparing: Server (quarex.org) vs Local (updated Feb 6, 2026)</div>
+        <div class="subtitle">Generated: February 13, 2026 at 10:43</div>
+    </header>
+
+    <div class="summary">
+        <div class="stat-card">
+            <div class="stat-number blue">39</div>
+            <div class="stat-label">Total States/Territories</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" style="color:#805ad5;">15</div>
+            <div class="stat-label">States with Changes</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number green">+25</div>
+            <div class="stat-label">Candidates Added</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number red">-1</div>
+            <div class="stat-label">Candidates Removed</div>
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>Comparison Details:</strong><br>
+        <strong>SERVER:</strong> <code>C:/Users/peter/Downloads/2026-gubernatorial-races/</code> (from quarex.org)<br>
+        <strong>LOCAL:</strong> <code>libraries/politician-libraries/us-governors-2026/2026-gubernatorial-races/</code> (updated Feb 6)
+    </div>
+
+    <div class="legend">
+        <div class="legend-item"><span class="badge badge-add">+Added</span> New candidate in current version</div>
+        <div class="legend-item"><span class="badge badge-remove">-Removed</span> Candidate not in current version</div>
+    </div>
+
+    <h2>All States Comparison</h2>
+    <div class="section">
+        <div class="table-header">
+            <div>State</div>
+            <div>Added (in current)</div>
+            <div>Removed (from old)</div>
+            <div>Old Count</div>
+            <div>New Count</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Alabama</div>
+            <div class="candidates added"><span class="party-D">Nathan Mathis (D)</span>, <span class="party-R">Will Santivasci (R)</span>, <span class="party-D">Yolanda Flowers (D)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">7</div>
+            <div class="count">10</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Alaska</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">11</div>
+            <div class="count">11</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Arizona</div>
+            <div class="candidates added"><span class="party-I">Hugh Lytle (I)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">7</div>
+            <div class="count">8</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Arkansas</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">3</div>
+            <div class="count">3</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">California</div>
+            <div class="candidates added"><span class="party-I">Butch Ware (I)</span>, <span class="party-D">Matt Mahan (D)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">23</div>
+            <div class="count">25</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Colorado</div>
+            <div class="candidates added"><span class="party-I">Joseph Rodriguez (I)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">45</div>
+            <div class="count">46</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Connecticut</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">6</div>
+            <div class="count">6</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Florida</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">41</div>
+            <div class="count">41</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Georgia</div>
+            <div class="candidates added"><span class="party-R">Rick Jackson (R)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">14</div>
+            <div class="count">15</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Guam</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">5</div>
+            <div class="count">5</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Hawaii</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">0</div>
+            <div class="count">0</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Idaho</div>
+            <div class="candidates added"><span class="party-I">John Stegner (I)</span>, <span class="party-I">Melissa Sue Robinson (I)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">10</div>
+            <div class="count">12</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Illinois</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">8</div>
+            <div class="count">8</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Iowa</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">8</div>
+            <div class="count">8</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Kansas</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">9</div>
+            <div class="count">9</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Maine</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">23</div>
+            <div class="count">23</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Maryland</div>
+            <div class="candidates added"><span class="party-R">Dan Cox (R)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">4</div>
+            <div class="count">5</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Massachusetts</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">8</div>
+            <div class="count">8</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Michigan</div>
+            <div class="candidates added"><span class="party-R">Perry Johnson (R)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">14</div>
+            <div class="count">15</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Minnesota</div>
+            <div class="candidates added"><span class="party-D">Amy Klobuchar (D)</span>, <span class="party-R">John Krhin (R)</span></div>
+            <div class="candidates removed"><span class="party-R">Chris Madel (R)</span></div>
+            <div class="count">14</div>
+            <div class="count">15</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Nebraska</div>
+            <div class="candidates added"><span class="party-D">Lynne Walz (D)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">3</div>
+            <div class="count">4</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Nevada</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">4</div>
+            <div class="count">4</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">New Hampshire</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">1</div>
+            <div class="count">1</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">New Mexico</div>
+            <div class="candidates added"><span class="party-R">Belinda Robertson (R)</span>, <span class="party-R">Doug Turner (R)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">7</div>
+            <div class="count">9</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">New York</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">4</div>
+            <div class="count">4</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Northern Mariana Islands</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">0</div>
+            <div class="count">0</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Ohio</div>
+            <div class="candidates added"><span class="party-I">Don Kissick (I)</span>, <span class="party-R">Renea Turner (R)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">5</div>
+            <div class="count">7</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Oklahoma</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">7</div>
+            <div class="count">7</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Oregon</div>
+            <div class="candidates added"><span class="party-R">Chris Dudley (R)</span>, <span class="party-R">Ed Diehl (R)</span>, <span class="party-D">Forest Alexander (D)</span>, <span class="party-R">Wen Waddell (R)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">18</div>
+            <div class="count">22</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Pennsylvania</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">3</div>
+            <div class="count">3</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Rhode Island</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">6</div>
+            <div class="count">6</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">South Carolina</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">8</div>
+            <div class="count">8</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">South Dakota</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">8</div>
+            <div class="count">8</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Tennessee</div>
+            <div class="candidates added"><span class="party-I">Robert Vick (I)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">11</div>
+            <div class="count">12</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Texas</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">21</div>
+            <div class="count">21</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Vermont</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">2</div>
+            <div class="count">2</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Virgin Islands</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">0</div>
+            <div class="count">0</div>
+        </div>
+        <div class="state-row no-change">
+            <div class="state-name">Wisconsin</div>
+            <div class="candidates added"><span style="color:#a0aec0;">—</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">16</div>
+            <div class="count">16</div>
+        </div>
+        <div class="state-row has-change">
+            <div class="state-name">Wyoming</div>
+            <div class="candidates added"><span class="party-D">Gabriel Green (D)</span></div>
+            <div class="candidates removed"><span style="color:#a0aec0;">—</span></div>
+            <div class="count">4</div>
+            <div class="count">5</div>
+        </div>
+    </div>
+
+    <footer>
+        Generated by Quarex Election Comparison Tool | quarex.org
+    </footer>
+</body>
+</html>

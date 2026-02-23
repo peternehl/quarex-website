@@ -1,0 +1,26 @@
+{
+  "book": "New Hampshire",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Scott Brown (R)",
+        "John E. Sununu (R)",
+        "Tejasinha Sivalingam (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chris Pappas (D)",
+        "Karishma Manzur (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Matt Giovonizzi (I)"
+      ]
+    }
+  ]
+}

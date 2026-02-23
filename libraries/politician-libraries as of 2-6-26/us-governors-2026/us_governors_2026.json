@@ -1,0 +1,1093 @@
+{
+  "library": "US Governors 2026",
+  "library_type": "candidates",
+  "description": "All 2026 gubernatorial races with declared candidates. Auto-generated from Ballotpedia master list.",
+  "last_updated": "2026-01-30",
+  "source": "Ballotpedia",
+  "shelves": [
+    {
+      "name": "2026 Gubernatorial Races",
+      "books": [
+        {
+          "name": "Alabama",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Ken McFeeters (R)",
+                "Will Santivasci (R)",
+                "Tommy Tuberville (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Will Boyd (D)",
+                "Ja'Mel Brown (D)",
+                "Yolanda Flowers (D)",
+                "Doug Jones (D)",
+                "Chad Chig Martin (D)",
+                "Nathan Mathis (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Ronald Burnette Jr. (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alaska",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Click Bishop (R)",
+                "David Bronson (R)",
+                "Adam Crum (R)",
+                "Nancy Dahlstrom (R)",
+                "Edna DeVries (R)",
+                "Shelley Hughes (R)",
+                "James Parkin (R)",
+                "Treg Taylor (R)",
+                "Bernadette Wilson (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Tom Begich (D)",
+                "Matt Claman (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arizona",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Andy Biggs (R)",
+                "David Schweikert (R)",
+                "Karrin Taylor Robson (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Katie Hobbs (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Teri Hourihan (I)",
+                "William Pounds (I)",
+                "Leezah Sun (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arkansas",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Sarah Huckabee Sanders (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Fredrick Love (D)",
+                "Supha Xayprasith-Mays (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "California",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Chad Bianco (R)",
+                "Sharifah Hardie (R)",
+                "Steve Hilton (R)",
+                "Brandon Jones (R)",
+                "Daniel Mercuri (R)",
+                "Jon Slavet (R)",
+                "Leo Zacky (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Ethan Agarwal (D)",
+                "Xavier Becerra (D)",
+                "Ian Charles Calderon (D)",
+                "Katie Porter (D)",
+                "Raji Rab (D)",
+                "George Slivka (D)",
+                "Thomas Steyer (D)",
+                "Eric Swalwell (D)",
+                "Tony Thurmond (D)",
+                "Antonio Villaraigosa (D)",
+                "Betty Yee (D)",
+                "Michael Younger (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Butch Ware (I)",
+                "Nicholas Thompson (I)",
+                "Jesse Alberti (I)",
+                "Tony Fitzpatrick (I)",
+                "Lewis Herms (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Colorado",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Scott Bottoms (R)",
+                "Bob Brinkerhoff (R)",
+                "John Brooks (R)",
+                "Jason Ray Clark (R)",
+                "Brycen Garrison (R)",
+                "Stevan Gess (R)",
+                "Jon Gray-Ginsberg (R)",
+                "Joshua Griffin (R)",
+                "Barbara Kirkmeyer (R)",
+                "Greg Lopez (R)",
+                "Rabin Mahanty (R)",
+                "Victor Marx (R)",
+                "Will McBride (R)",
+                "Jason Mikesell (R)",
+                "Robert Moore (R)",
+                "Alex Mugatu (R)",
+                "Joe Oltmann (R)",
+                "Maria Orms (R)",
+                "Katie Pierce (R)",
+                "Jim Rundberg (R)",
+                "Mitchell Runyon (R)",
+                "Daniel Thomas (R)",
+                "Kelvin Wimberly (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Michael Bennet (D)",
+                "Carmen Broesder (D)",
+                "David Hughes (D)",
+                "Anthony Martinez (D)",
+                "William Moses (D)",
+                "Phil Weiser (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Stephen Hamilton (I)",
+                "Kelsey Heikkinen (I)",
+                "Abass Yaya Bamba (I)",
+                "Shawn Bennett (I)",
+                "Willow Collamer (I)",
+                "Charles Evanson (I)",
+                "Marla Fernandez (I)",
+                "Danny Fish (I)",
+                "Justin Ganoe (I)",
+                "Chante Jones (I)",
+                "Christian Komor (I)",
+                "Marcus Marte (I)",
+                "Jarvis Ray (I)",
+                "Gregory Roebuck (I)",
+                "Bradley Wall (I)",
+                "Matthew Yearous (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Connecticut",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Ryan Fazio (R)",
+                "Betsy McCaughey (R)",
+                "Erin Stewart (R)",
+                "Timothy Wilcox (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Ned Lamont (D)",
+                "Joshua Elliott (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Florida",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "William Todd Andros (R)",
+                "Jay Collins (R)",
+                "Shea Cruel (R)",
+                "Byron Donalds (R)",
+                "James Fishback (R)",
+                "Jim Holcomb (R)",
+                "Daniel Imperato (R)",
+                "John Joseph Mercadante (R)",
+                "William Reicherter (R)",
+                "Paul Renner (R)",
+                "Rachel Rodriguez (R)",
+                "Caneste Succe (R)",
+                "Bobby Williams Jr. (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Faith E. Antonio (D)",
+                "Evelyn Castillo-Bach (D)",
+                "Richard Dembinsky (D)",
+                "Jerry Demings (D)",
+                "Thomas E. Fernandez (D)",
+                "Dayna Foster (D)",
+                "Indony Jean Baptiste (D)",
+                "David Jolly (D)",
+                "Charles Lewis I (D)",
+                "Donald Peterson (D)",
+                "Christopher Powell (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Brandon L. McIntyre (I)",
+                "Reginald Strachan (I)",
+                "Scott Jewett (I)",
+                "Surindar Bedi (I)",
+                "James Brown (I)",
+                "Jeffrey Peter Datto (I)",
+                "Moliere Dimanche (I)",
+                "Insley Evans (I)",
+                "Kyle Gibson (I)",
+                "Neil Gillespie (I)",
+                "Rodney Glover (I)",
+                "Mourice Hylton (I)",
+                "Holly Klask (I)",
+                "Andrea Lynn Klink (I)",
+                "Jason Pizzo (I)",
+                "Frank J. Russo (I)",
+                "David Wexler (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Georgia",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Chris Carr (R)",
+                "Clark Dean (R)",
+                "Burt Jones (R)",
+                "Gregg Kirkpatrick (R)",
+                "Leland Olinger II (R)",
+                "Brad Raffensperger (R)",
+                "Kenneth Yasger (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Keisha Bottoms (D)",
+                "Olu Brown (D)",
+                "Geoff Duncan (D)",
+                "Jason Esteves (D)",
+                "Derrick Jackson (D)",
+                "Ruwa Romman (D)",
+                "Michael Thurmond (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Guam",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Vicente Ada (R)",
+                "Frank Blas Jr. (R)",
+                "Marcel Camacho (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Joe S. San Agustin (D)",
+                "Josh Tenorio (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hawaii",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idaho",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Brad Little (R)",
+                "Jordan Chirat (R)",
+                "Scott Hert (R)",
+                "Lisa Marie (R)",
+                "Justin Plante (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Stephen Heidt (D)",
+                "Terri Pickens (D)",
+                "Chanelle Torrez (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Ammon Bundy (I)",
+                "Maxine Durand (I)",
+                "Melissa Sue Robinson (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Illinois",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Darren Bailey (R)",
+                "Ted Dabrowski (R)",
+                "Rick Heidner (R)",
+                "James Mendrick (R)",
+                "Gregg Moore (R)",
+                "Joseph Severino (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "J.B. Pritzker (D)",
+                "Patricia L. Tillman (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Iowa",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Eddie Andrews (R)",
+                "Randy Feenstra (R)",
+                "Zach Lahn (R)",
+                "Brad Sherman (R)",
+                "Adam Steen (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Paul Dahl (D)",
+                "Rob Sand (D)",
+                "Julie Stauch (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kansas",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Doug Billings (R)",
+                "Joy Eakins (R)",
+                "Ty Masterson (R)",
+                "Charlotte O'Hara (R)",
+                "Stacy Rogers (R)",
+                "Vicki Schmidt (R)",
+                "Scott Schwab (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Ethan Corson (D)",
+                "Cindy Holscher (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maine",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Jonathan Bush (R)",
+                "Ken A. Capron (R)",
+                "Bobby Charles (R)",
+                "David Foster (R)",
+                "David Jones (R)",
+                "James Libby (R)",
+                "Garrett Mason (R)",
+                "Owen McCarthy (R)",
+                "Ben Midgley (R)",
+                "Steven Sheppard (R)",
+                "Robert J. Wessels (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Shenna Bellows (D)",
+                "Jason Cherry (D)",
+                "Kenneth Forrest Pinet (D)",
+                "Troy Dale Jackson (D)",
+                "Angus King III (D)",
+                "Hannah Pingree (D)",
+                "Nirav Shah (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Richard Bennett (I)",
+                "W. Edward Crockett (I)",
+                "John Glowa (I)",
+                "Derek Levasseur (I)",
+                "Alexander Murchison (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maryland",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Ed Hale (R)",
+                "John Myrick (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Wes Moore (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Andy Ellis (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Massachusetts",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Mike Kennealy (R)",
+                "Michael Minogue (R)",
+                "Aaron Packard (R)",
+                "Brian Shortsleeve (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Maura Healey (D)",
+                "Matthew Dewar (D)",
+                "Andrea James (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Muhammed Kokonezis-Hanino (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Michigan",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Mike Cox (R)",
+                "Joyce Gipson (R)",
+                "Anthony Hudson (R)",
+                "John James (R)",
+                "Tom Leonard (R)",
+                "Aric Nesbitt (R)",
+                "Ralph Rebandt (R)",
+                "Evan Space (R)",
+                "Karla Wagner (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Jocelyn Benson (D)",
+                "Kevin Hogan (D)",
+                "Marni Sawicki (D)",
+                "Chris Swanson (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Mike Duggan (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Minnesota",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Peggy Bennett (R)",
+                "Lisa Demuth (R)",
+                "Thomas Evenstad (R)",
+                "Scott Jensen (R)",
+                "Jeff Johnson (R)",
+                "Patrick Knight (R)",
+                "Brad Kohler (R)",
+                "Mike Lindell (R)",
+                "Phillip Parrish (R)",
+                "Kendall Qualls (R)",
+                "Kristin Robbins (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Amy Klobuchar (D)",
+                "Christopher Seymore (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Mike Newcome (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nebraska",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Jim Pillen (R)",
+                "Sheila Korth-Focken (R)",
+                "Jacy Todd (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Lynne Walz (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nevada",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Joe Lombardo (R)",
+                "Matthew Winterhawk (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Aaron Ford (D)",
+                "Alexis Hill (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Hampshire",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Jonathan Kiper (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Mexico",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "James Ellison (R)",
+                "Gregg Hull (R)",
+                "Steve D. Lanier (R)",
+                "Duke Rodriguez (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Sam Bregman (D)",
+                "Debra Haaland (D)",
+                "Ken Miyagishima (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New York",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Bruce Blakeman (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Kathy Hochul (D)",
+                "Jean Anglade (D)",
+                "Antonio Delgado (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Northern Mariana Islands",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ohio",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Heather Hill (R)",
+                "Casey Putsch (R)",
+                "Vivek Ramaswamy (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Amy Acton (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Tim Grady (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oklahoma",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Gentner Drummond (R)",
+                "Mike Mazzei (R)",
+                "Charles A. McCall (R)",
+                "Jake Merrick (R)",
+                "Leisa Mitchell Haynes (R)",
+                "Kenneth Sturgell (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Cyndi Munson (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oregon",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Danielle Bethell (R)",
+                "David Burch (R)",
+                "Ed Diehl (R)",
+                "Christine Drazan (R)",
+                "Kyle Duyck (R)",
+                "Caleb Kintz (R)",
+                "Patrick Kopke-Hales (R)",
+                "David Medina (R)",
+                "Robert Neuman (R)",
+                "Brad T. Peters (R)",
+                "Matthew Piatt (R)",
+                "Paul Romero (R)",
+                "Wen Waddell (R)",
+                "Martin Ward (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Tina Kotek (D)",
+                "James Atkinson (D)",
+                "Brittany Jones (D)",
+                "Tristan Sheppard (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Alexander Ziwahatan (I)",
+                "LaNicia Duke (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pennsylvania",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Stacy Garrity (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Josh Shapiro (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Bill Messner (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rhode Island",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Aaron Guckian (R)",
+                "Elaine Pelino (R)",
+                "Robert Raimondo (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Daniel McKee (D)",
+                "Helena Foulkes (D)",
+                "Gregory Stevens (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Carolina",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Pamela Evette (R)",
+                "Josh Kimbrell (R)",
+                "Nancy Mace (R)",
+                "Ralph Norman (R)",
+                "Alan Wilson (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Justin Bennett (D)",
+                "Jermaine Johnson (D)",
+                "Mullins McLeod (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Dakota",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Larry Rhoden (R)",
+                "Toby Doeden (R)",
+                "Jon Hansen (R)",
+                "Dusty Johnson (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Robert Arnold (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Terry Gleason (I)",
+                "Scott Morris (I)",
+                "Allison Renville (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tennessee",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Marsha Blackburn (R)",
+                "Monty Fritts (R)",
+                "Cito Pellegra (R)",
+                "John Rose (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Carnita Atwater (D)",
+                "Tim Cyr (D)",
+                "Jerri Green (D)",
+                "Adam Kurtz (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Stephen Maxwell (I)",
+                "Lauren Pinkston (I)",
+                "Manasa Reddy (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Texas",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Greg Abbott (R)",
+                "R.F. Achgill (R)",
+                "Evelyn Brooks (R)",
+                "Pete Chambers (R)",
+                "Charles Crouch (R)",
+                "Arturo Espinosa (R)",
+                "Mark Goloby (R)",
+                "Kenneth Hyde (R)",
+                "Stephen Samuelson (R)",
+                "Ronnie Tullos (R)",
+                "Nathaniel Welch (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Patricia Abrego (D)",
+                "Chris Bell (D)",
+                "Bobby Cole (D)",
+                "Carlton Hart (D)",
+                "Gina Hinojosa (D)",
+                "Jose Navarro Balbuena (D)",
+                "Zach Vance (D)",
+                "Angela Villescaz (D)",
+                "Andrew White (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Jenn Mack Raphoon (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vermont",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Phil Scott (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Esther Charlestin (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Virgin Islands",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wisconsin",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Andrew Manske (R)",
+                "Josh Schoemann (R)",
+                "Tom Tiffany (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Mandela Barnes (D)",
+                "Joel Brennan (D)",
+                "David Crowley (D)",
+                "Francesca Hong (D)",
+                "Missy Hughes (D)",
+                "Brett Hulsey (D)",
+                "Sara Rodriguez (D)",
+                "Zachary Roper (D)",
+                "Kelda Roys (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Oliver Carranza (I)",
+                "Crystal Harper (I)",
+                "David King (I)",
+                "Mike Kohn (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wyoming",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Eric Barlow (R)",
+                "Brent Bien (R)",
+                "Megan Degenfelder (R)",
+                "Joseph Kibler (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Gabriel Green (D)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

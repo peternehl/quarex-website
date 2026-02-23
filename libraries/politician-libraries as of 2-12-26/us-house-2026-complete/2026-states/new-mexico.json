@@ -1,0 +1,31 @@
+{
+  "book": "New Mexico",
+  "chapters": [
+    {
+      "name": "NM-01",
+      "topics": [
+        "Steve Jones (R)",
+        "Ndidiamaka Okpareke (R)",
+        "Carlton Pennington (R)",
+        "Melanie Ann Stansbury (D)"
+      ]
+    },
+    {
+      "name": "NM-02",
+      "topics": [
+        "Eddy Aragon (R)",
+        "Greg Cunningham (R)",
+        "Jose Orozco (R)",
+        "Gabriel Vasquez (D)",
+        "Tom Wakely (D)"
+      ]
+    },
+    {
+      "name": "NM-03",
+      "topics": [
+        "Martin Ruben Zamora (R)",
+        "Teresa Leger Fernandez (D)"
+      ]
+    }
+  ]
+}

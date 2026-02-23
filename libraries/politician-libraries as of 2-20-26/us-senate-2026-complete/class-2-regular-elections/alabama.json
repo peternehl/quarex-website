@@ -1,0 +1,27 @@
+{
+  "book": "Alabama",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Seth Burton (R)",
+        "Jared Hudson (R)",
+        "Steve Marshall (R)",
+        "Barry Moore (R)",
+        "Morgan Murphy (R)",
+        "Dale Shelton Deas Jr. (R)",
+        "Rodney Walker (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Dakarai Larriett (D)",
+        "Lamont Lavender (D)",
+        "Kyle Sweetser (D)",
+        "Everett Wess (D)",
+        "Mark Wheeler II (D)"
+      ]
+    }
+  ]
+}

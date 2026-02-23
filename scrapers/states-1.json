@@ -1,6 +1,6 @@
 {
   "batch": 1,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Alabama",
@@ -19,7 +19,7 @@
         {
           "district": "AL-02",
           "candidates": {
-            "Republican": ["Hampton Harris (R)"],
+            "Republican": ["Hampton Harris (R)", "Jarmal Jabbar Sanders (R)"],
             "Democratic": ["Shomari Figures (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -29,7 +29,7 @@
         {
           "district": "AL-03",
           "candidates": {
-            "Republican": ["Mike Rogers (R)", "Draic Coakley (R)", "Terri LaPoint (R)"],
+            "Republican": ["Mike Rogers (R)", "Terri LaPoint (R)"],
             "Democratic": ["Lee McInnis (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -60,7 +60,7 @@
           "district": "AL-06",
           "candidates": {
             "Republican": ["Gary Palmer (R)", "Case Dixon (R)"],
-            "Democratic": ["Elizabeth Anderson (D)", "Keith Pilkington (D)"],
+            "Democratic": ["Keith Pilkington (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -101,8 +101,8 @@
         {
           "district": "AZ-01",
           "candidates": {
-            "Republican": ["Joseph Chaplik (R)", "Jason Duey (R)", "Jay Feely (R)", "Derrick Gallego (R)", "Kaitlin Purrington (R)", "Paul Reevs (R)", "Brandon Sowers (R)", "Gina Swoboda (R)", "John Trobough (R)"],
-            "Democratic": ["Andres Barraza (D)", "Brian Del Vecchio (D)", "Brandon Donnelly (D)", "Marlene Galan-Woods (D)", "Mark Robert Gordon (D)", "Daniel Lucio (D)", "Rick McCartney (D)", "Angie Montoya (D)", "David Redkey (D)", "Amish Shah (D)", "Jonathan Treble (D)", "Victor Weintraub (D)"],
+            "Republican": ["Joseph Chaplik (R)", "Jason Duey (R)", "Jay Feely (R)", "Derrick Gallego (R)", "Kaitlin Purrington (R)", "Paul Reevs (R)", "Brandon Sowers (R)", "John Trobough (R)"],
+            "Democratic": ["Andres Barraza (D)", "Brian Del Vecchio (D)", "Brandon Donnelly (D)", "Marlene Galán-Woods (D)", "Mark Robert Gordon (D)", "Daniel Lucio (D)", "Rick McCartney (D)", "Angie Montoya (D)", "David Redkey (D)", "Amish Shah (D)", "Jonathan Treble (D)", "Victor Weintraub (D)"],
             "Independent": ["Christopher Ajluni (I)"],
             "Libertarian": [],
             "Green": []
@@ -121,7 +121,7 @@
         {
           "district": "AZ-03",
           "candidates": {
-            "Republican": [],
+            "Republican": ["Kirt Burgess (R)"],
             "Democratic": ["Yassamin Ansari (D)", "Sandy Cano-Bravo (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -152,7 +152,7 @@
           "district": "AZ-06",
           "candidates": {
             "Republican": ["Juan Ciscomani (R)"],
-            "Democratic": ["Johnathan Buma (D)", "Chris Donat (D)", "JoAnna Mendoza (D)", "Samantha Severson (D)", "Carter Weeks (D)"],
+            "Democratic": ["Iman Bah (D)", "Johnathan Buma (D)", "Chris Donat (D)", "JoAnna Mendoza (D)", "Carter Weeks (D)"],
             "Independent": ["Trevor Dickerson (I)"],
             "Libertarian": [],
             "Green": ["Gary Swing (G)"]
@@ -243,8 +243,8 @@
         {
           "district": "CA-01",
           "candidates": {
-            "Republican": ["Paul Saulsbury (R)", "Angelita Valles (R)"],
-            "Democratic": ["Audrey Denney (D)", "Mike McGuire (D)", "James Salegui (D)", "Casey Stewart (D)", "Kyle Wilson (D)"],
+            "Republican": ["Angelita Valles (R)"],
+            "Democratic": ["James Brock (D)", "Audrey Denney (D)", "Mike McGuire (D)", "James Salegui (D)", "Casey Stewart (D)", "Kyle Wilson (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -253,9 +253,9 @@
         {
           "district": "CA-02",
           "candidates": {
-            "Republican": [],
+            "Republican": ["Paul Saulsbury (R)"],
             "Democratic": ["Jared Huffman (D)", "Kevin Eisele (D)", "Rose Penelope Yee (D)"],
-            "Independent": ["Colby Smart (I)"],
+            "Independent": ["Gregory Burgess (I)", "Colby Smart (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -374,7 +374,7 @@
           "district": "CA-14",
           "candidates": {
             "Republican": ["Wendy Huang (R)"],
-            "Democratic": ["Melissa Hernandez (D)", "Matt Ortega (D)", "Abrar Qadir (D)"],
+            "Democratic": ["Carin Elam (D)", "Melissa Hernandez (D)", "Rakhi Israni (D)", "Matt Ortega (D)", "Abrar Qadir (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -383,7 +383,7 @@
         {
           "district": "CA-15",
           "candidates": {
-            "Republican": [],
+            "Republican": ["Charles Hoelter (R)"],
             "Democratic": ["Kevin Mullin (D)", "Mantosh Kumar (D)", "Brian Tetrud (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -393,7 +393,7 @@
         {
           "district": "CA-16",
           "candidates": {
-            "Republican": [],
+            "Republican": ["Kevin Johnson (R)"],
             "Democratic": ["Sam Liccardo (D)"],
             "Independent": ["Jotham Stein (I)"],
             "Libertarian": [],
@@ -413,7 +413,7 @@
         {
           "district": "CA-18",
           "candidates": {
-            "Republican": ["Zakaria Kortam (R)"],
+            "Republican": ["Zakaria Kortam (R)", "Shane Lewis (R)"],
             "Democratic": ["Zoe Lofgren (D)"],
             "Independent": ["Chris Demers (I)"],
             "Libertarian": [],
@@ -427,7 +427,7 @@
             "Democratic": ["Jimmy Panetta (D)", "Hannah James (D)"],
             "Independent": [],
             "Libertarian": [],
-            "Green": []
+            "Green": ["Sean Dougherty (G)"]
           }
         },
         {
@@ -464,7 +464,7 @@
           "district": "CA-23",
           "candidates": {
             "Republican": ["Jay Obernolte (R)"],
-            "Democratic": ["Edwin Alonzo (D)", "Paul Chakalian (D)", "Alexis Claiborne (D)", "Tessa Lynn Hodge (D)", "David Jones (D)", "Charles Wallis (D)"],
+            "Democratic": ["Edwin Alonzo (D)", "Paul Chakalian (D)", "Alexis Claiborne (D)", "Tessa Lynn Hodge (D)", "David Jones (D)", "Pat Wallis (D)"],
             "Independent": ["Karen Matthews (I)"],
             "Libertarian": [],
             "Green": []
@@ -494,7 +494,7 @@
           "district": "CA-26",
           "candidates": {
             "Republican": ["Samuel Gallucci (R)", "Crystal Golden (R)", "Michael Koslow (R)", "William Scott (R)", "Jonathan Wagoner (R)"],
-            "Democratic": ["Sonia Devgan-Kacker (D)", "Jacqui Irwin (D)", "Kyle Langford (D)", "Kyle Rohrbach (D)"],
+            "Democratic": ["Sonia Devgan-Kacker (D)", "Chris Espinosa (D)", "Jacqui Irwin (D)", "Kyle Langford (D)", "Kyle Rohrbach (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -504,7 +504,7 @@
           "district": "CA-27",
           "candidates": {
             "Republican": ["Jason Gibbs (R)", "David Neidhart (R)"],
-            "Democratic": ["George Whitesides (D)"],
+            "Democratic": ["George Whitesides (D)", "Caleb Norwood (D)", "Roberto Ramos (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -524,7 +524,7 @@
           "district": "CA-29",
           "candidates": {
             "Republican": ["Margarita Maria Carranza (R)", "Steven Sparrow (R)"],
-            "Democratic": ["Luz Maria Rivas (D)"],
+            "Democratic": ["Luz Maria Rivas (D)", "Angélica María Dueñas (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -535,7 +535,7 @@
           "candidates": {
             "Republican": ["Dennis Feitosa (R)"],
             "Democratic": ["Laura Friedman (D)", "Lester Herman (D)", "Darrell Reeves (D)", "Alan Starzinski (D)"],
-            "Independent": [],
+            "Independent": ["John Armenian (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -564,7 +564,7 @@
           "district": "CA-33",
           "candidates": {
             "Republican": ["Stephanie Vargas (R)"],
-            "Democratic": ["Pete Aguilar (D)"],
+            "Democratic": ["Pete Aguilar (D)", "Eugene Weems (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -594,7 +594,7 @@
           "district": "CA-36",
           "candidates": {
             "Republican": ["Houston Brignano (R)", "Melissa Toomim (R)"],
-            "Democratic": ["Rustin Knudtson (D)"],
+            "Democratic": ["Rustin Knudtson (D)", "Ivan Perkins (D)"],
             "Independent": ["Claire Anderson (I)"],
             "Libertarian": [],
             "Green": []
@@ -604,7 +604,7 @@
           "district": "CA-37",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Sydney Kamlager-Dove (D)", "Ryan Duckett (D)", "Todd Lombardo (D)", "Samantha Mota (D)"],
+            "Democratic": ["Sydney Kamlager-Dove (D)", "Ryan Duckett (D)", "Elizabeth Fenner (D)", "Todd Lombardo (D)", "Samantha Mota (D)"],
             "Independent": ["Steve Hill (I)"],
             "Libertarian": [],
             "Green": []
@@ -614,7 +614,7 @@
           "district": "CA-38",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Linda Sanchez (D)", "Thomas Adams-Falconer (D)", "Monica Sanchez (D)", "Hilda Solis (D)"],
+            "Democratic": ["Linda Sánchez (D)", "Thomas Adams-Falconer (D)", "Monica Sanchez (D)", "Hilda Solis (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -653,7 +653,7 @@
         {
           "district": "CA-42",
           "candidates": {
-            "Republican": ["Brian Burley (R)"],
+            "Republican": ["Noah Blom (R)", "Brian Burley (R)", "Philip Turek (R)"],
             "Democratic": ["Robert Garcia (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -664,7 +664,7 @@
           "district": "CA-43",
           "candidates": {
             "Republican": ["Craig Geiger (R)", "Anish Jain (R)"],
-            "Democratic": ["Maxine Waters (D)", "Eden Cristo (D)", "Christopher Truman (D)"],
+            "Democratic": ["Maxine Waters (D)", "Eden Cristo (D)", "Myra Rahman (D)", "Christopher Truman (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -673,8 +673,8 @@
         {
           "district": "CA-44",
           "candidates": {
-            "Republican": [],
-            "Democratic": ["Nanette Barragan (D)"],
+            "Republican": ["Genevieve Angel (R)"],
+            "Democratic": ["Nanette Barragán (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -683,7 +683,7 @@
         {
           "district": "CA-45",
           "candidates": {
-            "Republican": ["Mark Leonard (R)", "Chi Charlie Nguyen (R)", "Amy Phan West (R)", "Michelle Steel (R)", "Chuong Vo (R)"],
+            "Republican": ["Mark Leonard (R)", "Chi Charlie Nguyen (R)", "Amy Phan West (R)", "Michelle Steel (R)", "Chuong Vo (R)", "Thomas Vo (R)"],
             "Democratic": ["Derek Tran (D)", "Brian Forde (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -714,7 +714,7 @@
           "district": "CA-48",
           "candidates": {
             "Republican": ["Darrell Issa (R)"],
-            "Democratic": ["Ammar Campa-Najjar (D)", "Abel Chavez (D)", "Stephen Clemons (D)", "Corinna Contreras (D)", "Nicholas Davis (D)", "Marc Iannarino (D)", "Curtis Morrison (D)", "Brian Nash (D)", "Ferguson Porter (D)", "Brandon Riker (D)", "Whitney Shanahan (D)", "Marni von Wilpert (D)"],
+            "Democratic": ["Ammar Campa-Najjar (D)", "Abel Chavez (D)", "Stephen Clemons (D)", "Corinna Contreras (D)", "Nicholas Davis (D)", "Curtis Morrison (D)", "Brian Nash (D)", "Ferguson Porter (D)", "Brandon Riker (D)", "Whitney Shanahan (D)", "Marni von Wilpert (D)"],
             "Independent": ["Mike Bucy (I)"],
             "Libertarian": [],
             "Green": []

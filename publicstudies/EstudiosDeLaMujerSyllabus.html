@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudios de la Mujer Syllabus | Public Studies</title>
+    <meta name="description" content="Currículo completo de 13 cursos sobre feminismo, género y los movimientos de mujeres en América Latina. 160 capítulos de contenido universitario gratuito. En español.">
+    <meta name="keywords" content="estudios de la mujer, feminismo, género, mujeres latinoamericanas, educación gratuita, violencia de género">
+    <meta name="author" content="Public Studies / Powered by Quarex">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://publicstudies.org/EstudiosDeLaMujerSyllabus.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://publicstudies.org/EstudiosDeLaMujerSyllabus.html">
+    <meta property="og:title" content="Estudios de la Mujer Syllabus | Public Studies">
+    <meta property="og:description" content="Currículo completo de 13 cursos sobre feminismo y género. 160 capítulos de contenido universitario gratuito.">
+    <meta property="og:site_name" content="Public Studies">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Estudios de la Mujer Syllabus | Public Studies">
+    <meta name="twitter:description" content="Currículo completo de 13 cursos sobre feminismo y género. Gratuito y abierto para todos.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #F59E0B;
+            --accent-hover: #D97706;
+            --accent-soft: rgba(245, 158, 11, 0.08);
+            --accent-border: rgba(245, 158, 11, 0.3);
+            --teal: #14b8a6;
+            --max-width: 900px;
+            --radius: 12px;
+            --radius-sm: 8px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.6 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .site-header {
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+        }
+        .site-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .site-logo:hover { text-decoration: none; color: var(--accent-hover); }
+        .site-nav { display: flex; align-items: center; gap: 24px; }
+        .site-nav a {
+            color: var(--muted);
+            font-size: 0.95rem;
+            transition: color 0.2s;
+            text-decoration: none;
+        }
+        .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            font-size: 1.5rem;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+        }
+
+        .syllabus-hero {
+            text-align: center;
+            padding: 56px 20px 40px;
+            max-width: var(--max-width);
+            margin: 0 auto;
+        }
+        .syllabus-hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 5vw, 44px);
+            color: var(--brand);
+            margin-bottom: 16px;
+            line-height: 1.15;
+        }
+        .syllabus-hero h1 em {
+            font-style: normal;
+            color: var(--accent);
+        }
+        .syllabus-intro {
+            color: var(--muted);
+            font-size: 1.05rem;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        .syllabus-stats {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 28px;
+            flex-wrap: wrap;
+        }
+        .stat { text-align: center; }
+        .stat-number {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--accent);
+            display: block;
+        }
+        .stat-label {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .section-group {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .section-divider {
+            border-top: 1px solid var(--line);
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+        .section-label {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            color: var(--brand);
+            margin-bottom: 8px;
+        }
+        .section-desc {
+            color: var(--muted);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+        }
+
+        .course {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            overflow: hidden;
+        }
+        .course summary {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding: 20px 24px;
+            cursor: pointer;
+            list-style: none;
+        }
+        .course summary::-webkit-details-marker { display: none; }
+        .course summary::before {
+            content: '\25B6';
+            font-size: 0.65rem;
+            color: var(--muted);
+            transition: transform 0.2s;
+            flex-shrink: 0;
+            position: relative;
+            top: 1px;
+        }
+        .course[open] summary::before { transform: rotate(90deg); }
+        .course summary:hover { background: var(--accent-soft); }
+        .course-number {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            min-width: 24px;
+        }
+        .course-title {
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--brand);
+        }
+        .course-chapters {
+            color: var(--muted);
+            font-size: 0.8rem;
+            margin-left: auto;
+            flex-shrink: 0;
+            padding-left: 12px;
+        }
+        .chapter-list {
+            padding: 0 24px 20px 60px;
+            border-top: 1px solid var(--line);
+        }
+        .chapter-list ol {
+            padding-left: 0;
+            counter-reset: chapter;
+            list-style: none;
+        }
+        .chapter-list li {
+            counter-increment: chapter;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            font-size: 0.92rem;
+            color: var(--ink);
+            line-height: 1.5;
+        }
+        .chapter-list li:last-child { border-bottom: none; }
+        .chapter-list li::before {
+            content: counter(chapter) ".";
+            color: var(--muted);
+            margin-right: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .course-link {
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .site-footer {
+            border-top: 1px solid var(--line);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 60px;
+        }
+        .footer-inner { max-width: var(--max-width); margin: 0 auto; }
+        .powered-badge a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--teal);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        .powered-badge a:hover { text-decoration: none; color: #0d9488; }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            filter: drop-shadow(0 0 3px rgba(124,185,255,0.5));
+        }
+        .footer-tagline { color: var(--muted); font-size: 0.9rem; margin-top: 8px; }
+        .footer-copy { color: var(--muted); font-size: 0.8rem; margin-top: 16px; opacity: 0.7; }
+        .footer-links { margin-top: 12px; }
+        .footer-links a {
+            color: var(--accent);
+            margin: 0 12px;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 768px) {
+            .site-nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg);
+                border-bottom: 1px solid var(--line);
+                padding: 16px 20px;
+                gap: 12px;
+            }
+            .site-nav.open { display: flex; }
+            .nav-toggle { display: block; }
+            .syllabus-hero { padding: 40px 20px 32px; }
+            .syllabus-stats { gap: 20px; }
+            .chapter-list { padding-left: 40px; }
+        }
+        @media (max-width: 480px) {
+            .course summary { padding: 16px; gap: 8px; }
+            .chapter-list { padding: 0 16px 16px 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="site-logo">Public Studies</a>
+            <button class="nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('open')" aria-label="Toggle navigation">&#9776;</button>
+            <nav class="site-nav">
+                <a href="/">Todas las Disciplinas</a>
+                <a href="https://quarex.org/" target="_blank">Quarex</a>
+                <a href="https://elecciones2026.net/" target="_blank">Elecciones 2026</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="syllabus-hero">
+            <h1>Programa de <em>Estudios de la Mujer</em></h1>
+            <p class="syllabus-intro">G&eacute;nero, poder, historia y los movimientos que cambiaron el mundo &mdash; con un enfoque en Am&eacute;rica Latina. Feminicidio, machismo, trabajadoras dom&eacute;sticas, mujeres ind&iacute;genas, l&iacute;deres pol&iacute;ticas y m&aacute;s. Trece cursos. Ciento sesenta cap&iacute;tulos. Contenido de nivel universitario, abierto para todos. En espa&ntilde;ol.</p>
+            <div class="syllabus-stats">
+                <div class="stat"><span class="stat-number">13</span><span class="stat-label">Cursos</span></div>
+                <div class="stat"><span class="stat-number">160</span><span class="stat-label">Cap&iacute;tulos</span></div>
+                <div class="stat"><span class="stat-number">900+</span><span class="stat-label">Temas</span></div>
+            </div>
+        </div>
+
+        <div class="section-group">
+
+            <!-- FUNDAMENTOS DEL FEMINISMO -->
+            <div class="section-divider">
+                <h2 class="section-label">Fundamentos del Feminismo</h2>
+                <p class="section-desc">Teor&iacute;a feminista, historia de las olas, e interseccionalidad como marco de an&aacute;lisis.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">1</span>
+                    <span class="course-title">&iquest;Qu&eacute; es el Feminismo?</span>
+                    <span class="course-chapters">15 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Fundamentos y Definiciones</li>
+                        <li>La Primera Ola: Sufragio y Personalidad Jur&iacute;dica</li>
+                        <li>La Segunda Ola: Pol&iacute;tica Personal y Cambio Sist&eacute;mico</li>
+                        <li>La Tercera Ola: Identidad, Interseccionalidad e Inclusi&oacute;n</li>
+                        <li>La Cuarta Ola: Activismo Digital y #MeToo</li>
+                        <li>Principales Teor&iacute;as y Marcos Feministas</li>
+                        <li>El Feminismo y el Cuerpo</li>
+                        <li>Feminismo, Raza y Opresiones Intersectantes</li>
+                        <li>Feminismo y G&eacute;nero M&aacute;s All&aacute; del Binarismo</li>
+                        <li>Feminismo en el Trabajo y la Econom&iacute;a</li>
+                        <li>Feminismo y Familia</li>
+                        <li>Feminismo Global y Derechos Humanos</li>
+                        <li>Feminismo, Medios y Representaci&oacute;n</li>
+                        <li>Antifeminismo y Reacci&oacute;n</li>
+                        <li>El Futuro del Feminismo</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/que-es-el-feminismo" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">2</span>
+                    <span class="course-title">Interseccionalidad: Raza, G&eacute;nero y Poder</span>
+                    <span class="course-chapters">15 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Por Qu&eacute; el Feminismo de un Solo Eje No Explica las Vidas Reales de las Mujeres</li>
+                        <li>C&oacute;mo Kimberl&eacute; Crenshaw y el Colectivo del R&iacute;o Combahee Construyeron la Teor&iacute;a Interseccional</li>
+                        <li>Las Mujeres Negras y los Or&iacute;genes de la Doble Exclusi&oacute;n en Estados Unidos</li>
+                        <li>Feminismo Latina y la Pol&iacute;tica del Idioma, el Trabajo y la Ciudadan&iacute;a</li>
+                        <li>Mujeres Ind&iacute;genas, Borrado y el Feminismo que el Colonialismo Olvid&oacute;</li>
+                        <li>Mujeres Asi&aacute;tico-Americanas y los Estereotipos que Hacen Invisible el Poder</li>
+                        <li>C&oacute;mo la Clase y la Estratificaci&oacute;n Econ&oacute;mica Dividen a las Mujeres Entre S&iacute;</li>
+                        <li>Discapacidad, G&eacute;nero y el Cuerpo que el Feminismo Pas&oacute; por Alto</li>
+                        <li>El Estatus Migratorio como Herramienta de Control de G&eacute;nero</li>
+                        <li>C&oacute;mo la Polic&iacute;a y la Criminalizaci&oacute;n Atacan a las Mujeres en la Intersecci&oacute;n de Raza y G&eacute;nero</li>
+                        <li>Disparidades de Salud que Existen Solo en las Intersecciones</li>
+                        <li>Invisibilidad Medi&aacute;tica y Qui&eacute;n Puede Representar la Experiencia de las Mujeres</li>
+                        <li>Por Qu&eacute; las Pol&iacute;ticas Construidas sobre un Solo Eje Fallan a las Mujeres que M&aacute;s las Necesitan</li>
+                        <li>C&oacute;mo la Interseccionalidad Ha Sido Cooptada, Diluida y Convertida en Arma</li>
+                        <li>Qu&eacute; Requerir&iacute;a Construir un Movimiento Feminista Genuinamente Inclusivo</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/interseccionalidad-raza-genero-y-poder" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- FEMINISMO LATINOAMERICANO -->
+            <div class="section-divider">
+                <h2 class="section-label">Feminismo Latinoamericano</h2>
+                <p class="section-desc">Historia, teor&iacute;a y movimientos feministas propios de Am&eacute;rica Latina.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">3</span>
+                    <span class="course-title">El Feminismo Latinoamericano: De Sor Juana al Presente</span>
+                    <span class="course-chapters">14 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Sor Juana In&eacute;s de la Cruz y las Primeras Voces</li>
+                        <li>Las Luchadoras por la Independencia</li>
+                        <li>El Sufragismo en Am&eacute;rica Latina</li>
+                        <li>Feminismo y Revoluci&oacute;n en el Siglo XX</li>
+                        <li>Las Dictaduras y la Resistencia de las Mujeres</li>
+                        <li>Los Encuentros Feministas Latinoamericanos</li>
+                        <li>El Feminismo Popular y Comunitario</li>
+                        <li>Feminismo y Teolog&iacute;a de la Liberaci&oacute;n</li>
+                        <li>La Lucha por los Derechos Reproductivos</li>
+                        <li>Ni Una Menos y la Cuarta Ola</li>
+                        <li>Las Colectivas y el Nuevo Activismo</li>
+                        <li>Feminismo, Estado y Pol&iacute;ticas P&uacute;blicas</li>
+                        <li>Debates Contempor&aacute;neos y Fracturas</li>
+                        <li>El Futuro del Feminismo Latinoamericano</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/feminismo-latinoamericano" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">4</span>
+                    <span class="course-title">Machismo y Marianismo: Las Ra&iacute;ces Culturales</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>&iquest;Qu&eacute; es el Machismo?</li>
+                        <li>Or&iacute;genes Hist&oacute;ricos del Machismo</li>
+                        <li>&iquest;Qu&eacute; es el Marianismo?</li>
+                        <li>La Virgen de Guadalupe y el Ideal Femenino</li>
+                        <li>Machismo y Violencia</li>
+                        <li>Machismo y Sexualidad</li>
+                        <li>Machismo en la Familia</li>
+                        <li>Machismo en el Trabajo</li>
+                        <li>Machismo y Pol&iacute;tica</li>
+                        <li>Nuevas Masculinidades</li>
+                        <li>La Resistencia de las Mujeres</li>
+                        <li>&iquest;Est&aacute; Cambiando el Machismo?</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/machismo-y-marianismo" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- VIOLENCIA DE GÉNERO -->
+            <div class="section-divider">
+                <h2 class="section-label">Violencia de G&eacute;nero</h2>
+                <p class="section-desc">La crisis de feminicidio y la violencia que enfrentan las mujeres migrantes.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">5</span>
+                    <span class="course-title">La Crisis de Feminicidio en Am&eacute;rica Latina</span>
+                    <span class="course-chapters">14 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>&iquest;Qu&eacute; es el Feminicidio?</li>
+                        <li>Ciudad Ju&aacute;rez: El Epicentro de la Crisis</li>
+                        <li>Los N&uacute;meros de la Crisis</li>
+                        <li>Los Perpetradores: Parejas, Conocidos y Desconocidos</li>
+                        <li>La Respuesta del Estado: Leyes y su Fracaso</li>
+                        <li>El Tri&aacute;ngulo Norte: Guatemala, Honduras, El Salvador</li>
+                        <li>Brasil: Feminicidio y Racismo</li>
+                        <li>Argentina y Chile: Ni Una Menos</li>
+                        <li>Las V&iacute;ctimas Olvidadas</li>
+                        <li>Las Familias que Buscan Justicia</li>
+                        <li>Medios de Comunicaci&oacute;n y Feminicidio</li>
+                        <li>Prevenci&oacute;n: &iquest;Qu&eacute; Funciona?</li>
+                        <li>El Costo Econ&oacute;mico y Social</li>
+                        <li>Hacia un Futuro Sin Feminicidio</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/la-crisis-de-feminicidio" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">6</span>
+                    <span class="course-title">Mujeres Migrantes: Historias de la Frontera</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>&iquest;Por Qu&eacute; Migran las Mujeres?</li>
+                        <li>La Ruta del Infierno: M&eacute;xico</li>
+                        <li>La Frontera Estados Unidos-M&eacute;xico</li>
+                        <li>Madres que Dejan Hijos Atr&aacute;s</li>
+                        <li>Trabajadoras Migrantes en Estados Unidos</li>
+                        <li>Violencia Dom&eacute;stica y Estatus Migratorio</li>
+                        <li>Trata de Personas y Explotaci&oacute;n Sexual</li>
+                        <li>Las Ni&ntilde;as y Adolescentes Migrantes</li>
+                        <li>Embarazadas en la Frontera</li>
+                        <li>Asilo por Violencia de G&eacute;nero</li>
+                        <li>Deportaci&oacute;n y Retorno</li>
+                        <li>Solidaridad y Resistencia</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/mujeres-migrantes" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- HISTORIA Y RESISTENCIA -->
+            <div class="section-divider">
+                <h2 class="section-label">Historia y Resistencia</h2>
+                <p class="section-desc">Movimientos de mujeres que cambiaron la historia &mdash; desde las Madres de Plaza de Mayo hasta las defensoras ind&iacute;genas.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">7</span>
+                    <span class="course-title">Las Madres de Plaza de Mayo y el Activismo de las Madres</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>El Nacimiento de las Madres</li>
+                        <li>La Guerra Sucia y los Desaparecidos</li>
+                        <li>De Madres a Movimiento</li>
+                        <li>El Poder de la Maternidad</li>
+                        <li>Las Abuelas de Plaza de Mayo</li>
+                        <li>La Transici&oacute;n Democr&aacute;tica y los Juicios</li>
+                        <li>Divisi&oacute;n y Continuidad</li>
+                        <li>El Modelo que Inspir&oacute; al Mundo</li>
+                        <li>Las Co-Madres de El Salvador</li>
+                        <li>Madres Buscadoras en M&eacute;xico</li>
+                        <li>Memoria, Verdad y Justicia</li>
+                        <li>El Activismo de las Madres Hoy</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/las-madres-de-plaza-de-mayo" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">8</span>
+                    <span class="course-title">Mujeres Ind&iacute;genas y Resistencia</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Antes de la Conquista</li>
+                        <li>Colonialismo y Violencia Sexual</li>
+                        <li>Rigoberta Mench&uacute; y el Testimonio</li>
+                        <li>Comandanta Ramona y las Zapatistas</li>
+                        <li>Mujeres Ind&iacute;genas Desaparecidas y Asesinadas</li>
+                        <li>Defensoras del Territorio</li>
+                        <li>Feminismo Comunitario</li>
+                        <li>Mujeres Mapuche en Chile y Argentina</li>
+                        <li>Parteras, Curanderas y Conocimiento Ancestral</li>
+                        <li>Educaci&oacute;n y Lenguas Originarias</li>
+                        <li>Mujeres Ind&iacute;genas en los Movimientos Pol&iacute;ticos</li>
+                        <li>El Futuro del Feminismo Ind&iacute;gena</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/mujeres-indigenas-y-resistencia" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- MUJERES, TRABAJO Y ECONOMÍA -->
+            <div class="section-divider">
+                <h2 class="section-label">Mujeres, Trabajo y Econom&iacute;a</h2>
+                <p class="section-desc">Explotaci&oacute;n laboral, trabajo dom&eacute;stico y la lucha por derechos econ&oacute;micos.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">9</span>
+                    <span class="course-title">El Movimiento de las Trabajadoras del Hogar</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>El Trabajo Invisible</li>
+                        <li>Las Ra&iacute;ces Coloniales</li>
+                        <li>Las Primeras Organizaciones</li>
+                        <li>Laudelina de Campos Melo y Brasil</li>
+                        <li>La Conquista de Derechos en Brasil</li>
+                        <li>El Convenio 189 de la OIT</li>
+                        <li>Las Condiciones de Trabajo Hoy</li>
+                        <li>Migraci&oacute;n y Trabajo Dom&eacute;stico</li>
+                        <li>El Trabajo Dom&eacute;stico y la Pandemia</li>
+                        <li>Organizaci&oacute;n y Resistencia Hoy</li>
+                        <li>Las Empleadoras y la Responsabilidad</li>
+                        <li>El Futuro del Trabajo Dom&eacute;stico</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/el-movimiento-de-las-trabajadoras-del-hogar" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">10</span>
+                    <span class="course-title">Las Maquiladoras y el Trabajo de la Mujer</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>&iquest;Qu&eacute; Son las Maquiladoras?</li>
+                        <li>Historia del Modelo Maquilador</li>
+                        <li>Ciudad Ju&aacute;rez: Epicentro Maquilador</li>
+                        <li>Condiciones Laborales</li>
+                        <li>Control sobre el Cuerpo de las Trabajadoras</li>
+                        <li>Acoso y Violencia Sexual</li>
+                        <li>Sindicalizaci&oacute;n y Resistencia</li>
+                        <li>La Cadena Global de Suministro</li>
+                        <li>Maquiladoras en Centroam&eacute;rica y el Caribe</li>
+                        <li>Impacto en la Familia y la Comunidad</li>
+                        <li>Salud y Medio Ambiente</li>
+                        <li>Alternativas y Futuro</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/las-maquiladoras-y-el-trabajo-de-la-mujer" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <!-- PODER Y DERECHOS -->
+            <div class="section-divider">
+                <h2 class="section-label">Poder y Derechos</h2>
+                <p class="section-desc">Mujeres en el poder pol&iacute;tico, salud reproductiva y la pol&iacute;tica del aborto.</p>
+            </div>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">11</span>
+                    <span class="course-title">Mujeres L&iacute;deres de Am&eacute;rica Latina</span>
+                    <span class="course-chapters">12 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>El Largo Camino al Poder</li>
+                        <li>Eva Per&oacute;n: El Mito y la Realidad</li>
+                        <li>Michelle Bachelet: Dos Veces Presidenta</li>
+                        <li>Cristina Fern&aacute;ndez de Kirchner</li>
+                        <li>Dilma Rousseff: Ascenso y Ca&iacute;da</li>
+                        <li>Claudia Sheinbaum: La Primera Presidenta de M&eacute;xico</li>
+                        <li>Las Que Casi Llegaron</li>
+                        <li>Gobernadoras, Alcaldesas y el Poder Local</li>
+                        <li>Ministras y el Poder en el Gabinete</li>
+                        <li>El Doble Est&aacute;ndar</li>
+                        <li>&iquest;Gobiernan Diferente las Mujeres?</li>
+                        <li>La Nueva Generaci&oacute;n</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/mujeres-lideres-de-america-latina" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">12</span>
+                    <span class="course-title">Salud Reproductiva en Am&eacute;rica Latina</span>
+                    <span class="course-chapters">13 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>El Estado de la Salud Reproductiva</li>
+                        <li>Acceso a Anticonceptivos</li>
+                        <li>Embarazo Adolescente</li>
+                        <li>Educaci&oacute;n Sexual</li>
+                        <li>El Aborto en Am&eacute;rica Latina</li>
+                        <li>La Marea Verde</li>
+                        <li>Mortalidad Materna</li>
+                        <li>Violencia Obst&eacute;trica</li>
+                        <li>Parteras y Parto Humanizado</li>
+                        <li>VIH/SIDA y Mujeres</li>
+                        <li>Fertilidad y Maternidad Asistida</li>
+                        <li>Esterilizaci&oacute;n Forzada</li>
+                        <li>El Futuro de los Derechos Reproductivos</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/salud-reproductiva-en-america-latina" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+            <details class="course">
+                <summary>
+                    <span class="course-number">13</span>
+                    <span class="course-title">C&oacute;mo el Aborto se Convirti&oacute; en una Cu&ntilde;a Pol&iacute;tica</span>
+                    <span class="course-chapters">9 cap.</span>
+                </summary>
+                <div class="chapter-list">
+                    <ol>
+                        <li>Antes de la Divisi&oacute;n Partidista</li>
+                        <li>C&oacute;mo los Partidos Eligieron Bandos</li>
+                        <li>Los Tribunales como Campo de Batalla</li>
+                        <li>Voto por un Solo Tema e Impacto Electoral</li>
+                        <li>Dinero, Movilizaci&oacute;n y Redes de Activistas</li>
+                        <li>La Guerra de Palabras: Enmarcado y Mensajes</li>
+                        <li>Cobertura Medi&aacute;tica y Opini&oacute;n P&uacute;blica</li>
+                        <li>C&oacute;mo Otras Democracias Manejan la Pol&iacute;tica del Aborto</li>
+                        <li>El Ciclo de Retroalimentaci&oacute;n de la Polarizaci&oacute;n</li>
+                    </ol>
+                    <a class="course-link" href="https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/como-el-aborto-se-convirtio-en-una-cuna-politica" target="_blank">Leer este curso en Quarex &rarr;</a>
+                </div>
+            </details>
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="powered-badge">
+                <a href="https://quarex.org/" target="_blank">
+                    <img src="https://quarex.org/assets/quarex-hero-round-500pixels.png" alt="Quarex" class="footer-logo">
+                    Powered by Quarex
+                </a>
+            </div>
+            <p class="footer-tagline">Un Motor de Curiosidad para el bien p&uacute;blico.</p>
+            <div class="footer-links">
+                <a href="https://quarex.org/">Quarex</a>
+                <a href="https://elecciones2026.net/">Elecciones 2026</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Public Studies. Todo el contenido es gratuito y abierto.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

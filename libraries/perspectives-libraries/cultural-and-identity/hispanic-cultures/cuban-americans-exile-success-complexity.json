@@ -21,7 +21,12 @@
         "How did Operation Pedro Pan bring Cuban children to America?",
         "What role did the CIA and U.S. policy play in facilitating exile?"
       ],
-      "tags": ["history", "migration", "americas", "refugees"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "refugees"
+      ]
     },
     {
       "name": "Mariel and the Marielitos",
@@ -32,7 +37,12 @@
         "How did existing Cuban Americans receive the Marielitos?",
         "What class and racial differences distinguished Marielitos from earlier waves?"
       ],
-      "tags": ["history", "migration", "americas", "refugees"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "refugees"
+      ]
     },
     {
       "name": "Balseros: Rafters and Desperation",
@@ -45,7 +55,12 @@
         "How do recent Cuban arrivals differ from historic waves?",
         "What role has Nicaragua played as a transit route for Cuban migrants?"
       ],
-      "tags": ["history", "migration", "americas", "refugees"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "refugees"
+      ]
     },
     {
       "name": "Miami: Capital of Cuban America",
@@ -56,7 +71,12 @@
         "What political power do Cuban Americans wield in Miami?",
         "How do non-Cuban Latinos experience Cuban-dominated Miami?"
       ],
-      "tags": ["geography", "identity", "americas", "sociology"]
+      "tags": [
+        "geography",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Economic Success Story",
@@ -70,7 +90,12 @@
         "What educational attainment patterns exist among Cuban Americans?",
         "How do Cuban American entrepreneurs compare to other groups?"
       ],
-      "tags": ["economics", "development", "americas", "labor"]
+      "tags": [
+        "economics",
+        "development",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Anti-Communism as Identity",
@@ -81,7 +106,12 @@
         "What happened when Obama normalized relations with Cuba?",
         "How do younger Cuban Americans view the anti-communist legacy?"
       ],
-      "tags": ["politics", "nationalism", "americas", "us-politics"]
+      "tags": [
+        "politics",
+        "nationalism",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "Republican Loyalties and Democratic Defections",
@@ -94,7 +124,12 @@
         "Are Cuban Americans becoming more like other Hispanics politically?",
         "How did Trump's Cuba policy affect Cuban American support?"
       ],
-      "tags": ["politics", "representation", "americas", "elections"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "elections"
+      ]
     },
     {
       "name": "Whiteness and Race",
@@ -105,7 +140,12 @@
         "What racial politics exist within Cuban Miami?",
         "How does racial identification affect Cuban American opportunities?"
       ],
-      "tags": ["society", "identity", "americas", "race"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "race"
+      ]
     },
     {
       "name": "Cuban American Culture",
@@ -119,7 +159,12 @@
         "What literature and film has emerged from Cuban American experience?",
         "How has Calle Ocho become a cultural landmark?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "music"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "music"
+      ]
     },
     {
       "name": "Connections to the Island",
@@ -130,7 +175,12 @@
         "What tensions exist around visiting and sending money?",
         "How do Cuban Americans who've returned view the island?"
       ],
-      "tags": ["society", "migration", "americas", "sociology"]
+      "tags": [
+        "society",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Cuban Americans Outside Florida",
@@ -143,7 +193,12 @@
         "How connected are non-Florida Cubans to Cuban Miami?",
         "What distinct cultures have developed in non-Miami Cuban communities?"
       ],
-      "tags": ["geography", "identity", "americas", "sociology"]
+      "tags": [
+        "geography",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Next Generation",
@@ -154,7 +209,12 @@
         "What political trends are emerging among younger Cuban Americans?",
         "How connected do young Cuban Americans feel to the island?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

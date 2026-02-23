@@ -19,7 +19,12 @@
         "Where is Hispanic representation strongest and weakest?",
         "What representation gap still exists?"
       ],
-      "tags": ["politics", "representation", "americas", "elected-officials"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "elected-officials"
+      ]
     },
     {
       "name": "Pioneers and Trailblazers",
@@ -31,7 +36,12 @@
         "How did civil rights activism create paths to office?",
         "What legacy did Hispanic political pioneers leave?"
       ],
-      "tags": ["politics", "history", "americas", "civil-rights"]
+      "tags": [
+        "politics",
+        "history",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Hispanics in Congress",
@@ -43,7 +53,12 @@
         "How do Democratic and Republican Hispanic members differ?",
         "What power do Hispanic caucus members wield?"
       ],
-      "tags": ["politics", "governance", "americas", "congress"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "congress"
+      ]
     },
     {
       "name": "Hispanic Governors and State Leaders",
@@ -55,7 +70,12 @@
         "What barriers exist to Hispanic statewide office?",
         "What future Hispanic gubernatorial candidates are emerging?"
       ],
-      "tags": ["politics", "governance", "americas", "state-government"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "state-government"
+      ]
     },
     {
       "name": "Mayors and Local Leadership",
@@ -67,7 +87,12 @@
         "What challenges do Hispanic local officials face?",
         "What success stories exist in Hispanic local leadership?"
       ],
-      "tags": ["politics", "governance", "americas", "local-government"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "local-government"
+      ]
     },
     {
       "name": "Cabinet and Executive Branch",
@@ -79,7 +104,12 @@
         "What appointments have recent administrations made?",
         "What executive branch representation gaps remain?"
       ],
-      "tags": ["politics", "governance", "americas", "executive-branch"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "executive-branch"
+      ]
     },
     {
       "name": "Hispanic Judges",
@@ -91,7 +121,12 @@
         "What impact have Hispanic judges had on jurisprudence?",
         "What barriers exist to Hispanic judicial appointments?"
       ],
-      "tags": ["law", "governance", "americas", "judiciary"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "judiciary"
+      ]
     },
     {
       "name": "Hispanic Republicans",
@@ -103,7 +138,12 @@
         "What future does the GOP have with Hispanic voters and leaders?",
         "What tensions exist for Hispanic Republicans?"
       ],
-      "tags": ["politics", "identity", "americas", "republican-party"]
+      "tags": [
+        "politics",
+        "hispanic-culture",
+        "americas",
+        "republican-party"
+      ]
     },
     {
       "name": "Hispanic Democrats",
@@ -115,7 +155,12 @@
         "What challenges do Hispanic Democrats face within the party?",
         "What future leaders are emerging among Hispanic Democrats?"
       ],
-      "tags": ["politics", "identity", "americas", "democratic-party"]
+      "tags": [
+        "politics",
+        "hispanic-culture",
+        "americas",
+        "democratic-party"
+      ]
     },
     {
       "name": "Pathways to Office",
@@ -127,7 +172,12 @@
         "What obstacles discourage Hispanics from running?",
         "How can pathways to office be expanded?"
       ],
-      "tags": ["politics", "activism", "americas", "political-careers"]
+      "tags": [
+        "politics",
+        "activism",
+        "americas",
+        "political-careers"
+      ]
     },
     {
       "name": "Policy Influence and Priorities",
@@ -139,7 +189,12 @@
         "Do Hispanic officials represent all constituents or Hispanic interests?",
         "What policy differences exist among Hispanic politicians?"
       ],
-      "tags": ["politics", "governance", "americas", "policy"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "policy"
+      ]
     },
     {
       "name": "The Next Generation of Hispanic Leaders",
@@ -151,7 +206,12 @@
         "How are demographics changing Hispanic political possibilities?",
         "What does the future hold for Hispanic political leadership?"
       ],
-      "tags": ["politics", "representation", "americas", "future-trends"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "future-trends"
+      ]
     }
   ]
 }

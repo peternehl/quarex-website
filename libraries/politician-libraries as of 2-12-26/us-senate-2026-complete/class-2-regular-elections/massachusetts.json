@@ -1,0 +1,30 @@
+{
+  "book": "Massachusetts",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Nathan Bech (R)",
+        "John Deaton (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Edward J. Markey (D)",
+        "William Gates (D)",
+        "Seth Moulton (D)",
+        "Alexander Rikleen (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Philip Devincentis (I)",
+        "Morgan Dawicki (I)",
+        "Shiva Ayyadurai (I)",
+        "Joseph Tache (I)"
+      ]
+    }
+  ]
+}

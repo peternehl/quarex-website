@@ -19,7 +19,12 @@
         "What are the political stakes of the sex-versus-gender debate — and why has the question of what gender is become one of the most contested issues in contemporary feminism?",
         "Why does this distinction matter beyond theory — shaping law, medicine, education, and daily life in ways that determine who is recognized, who is protected, and who is excluded?"
       ],
-      "tags": ["society", "identity", "gender", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "gender",
+        "feminism"
+      ]
     },
     {
       "name": "Feminism and LGBTQ+ History: Shared Roots, Divergent Paths",
@@ -31,7 +36,12 @@
         "How did the marriage equality movement of the 2000s create tensions within queer communities — with some arguing it represented assimilation into heteronormative structures rather than liberation from them?",
         "What does the shared and divergent history of feminism and LGBTQ+ movements reveal about the recurring tension between seeking inclusion within existing systems and challenging those systems themselves?"
       ],
-      "tags": ["history", "activism", "gender", "lgbtq"]
+      "tags": [
+        "history",
+        "activism",
+        "gender",
+        "lgbtq"
+      ]
     },
     {
       "name": "Lesbian Feminism: The Movement That Challenged Heterosexual Assumptions Within Feminism Itself",
@@ -43,7 +53,12 @@
         "How did lesbian feminism's insights about the political nature of sexuality, the construction of desire, and the relationship between personal life and political structure influence queer theory and later feminist movements?",
         "What remains valuable in the lesbian feminist tradition — and what did its tendency toward separatism, identity policing, and biological essentialism ultimately limit?"
       ],
-      "tags": ["society", "activism", "lgbtq", "gender"]
+      "tags": [
+        "feminism",
+        "activism",
+        "lgbtq",
+        "gender"
+      ]
     },
     {
       "name": "Trans Feminism: What Happens When Feminism Takes Gender Self-Determination Seriously",
@@ -55,7 +70,12 @@
         "What does trans feminism contribute to understanding gender as a system of power rather than a biological fact — and how does that understanding strengthen rather than weaken feminist analysis?",
         "Why has trans feminism faced resistance from within feminism itself — and what does that resistance reveal about whose comfort certain feminist frameworks were designed to protect?"
       ],
-      "tags": ["society", "identity", "lgbtq", "gender"]
+      "tags": [
+        "society",
+        "feminism",
+        "lgbtq",
+        "gender"
+      ]
     },
     {
       "name": "Queer Theory: Destabilizing the Categories That Organize Power",
@@ -67,7 +87,12 @@
         "What are the practical implications of queer theory for law, medicine, education, and social policy — and how does destabilizing categories create both opportunities and difficulties for rights-based advocacy?",
         "What are the limits of queer theory — particularly the critique that academic abstraction can become disconnected from the material conditions of people who face violence, poverty, and legal exclusion based on their gender and sexuality?"
       ],
-      "tags": ["philosophy", "theory", "gender", "lgbtq"]
+      "tags": [
+        "philosophy",
+        "theory",
+        "gender",
+        "lgbtq"
+      ]
     },
     {
       "name": "TERFs, SWERFs, and the Policing of Feminist Boundaries",
@@ -79,7 +104,12 @@
         "How do feminists who oppose exclusionary positions argue that policing the boundaries of womanhood reproduces the very patriarchal logic feminism was supposed to dismantle?",
         "What does the existence of exclusionary feminism reveal about the recurring tension in social movements between protecting a defined group and expanding the analysis to include everyone harmed by the same systems?"
       ],
-      "tags": ["society", "controversy", "gender", "lgbtq"]
+      "tags": [
+        "feminism",
+        "controversy",
+        "gender",
+        "lgbtq"
+      ]
     },
     {
       "name": "Identity as Strategy: How Categories That Liberate Can Also Constrain",
@@ -91,7 +121,12 @@
         "What does the proliferation of gender and sexual identity labels accomplish — and when does the multiplication of categories empower people versus when does it fragment collective action?",
         "How might feminism organize around shared conditions of oppression rather than shared identity — and what would that shift require in terms of political strategy and coalition-building?"
       ],
-      "tags": ["society", "identity", "gender", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "gender",
+        "feminism"
+      ]
     },
     {
       "name": "Legal Recognition: Marriage, Gender Markers, and the Limits of Rights-Based Inclusion",
@@ -103,7 +138,12 @@
         "How do bathroom bills, sports bans, and healthcare restrictions demonstrate that legal recognition can be granted and revoked — making rights-based strategies inherently vulnerable to political reversal?",
         "What would a queer feminist approach to law look like — one that seeks to dismantle the legal enforcement of gender categories rather than simply add more options within the existing framework?"
       ],
-      "tags": ["law", "justice", "lgbtq", "civil-rights"]
+      "tags": [
+        "law",
+        "justice",
+        "lgbtq",
+        "civil-rights"
+      ]
     },
     {
       "name": "Healthcare Beyond Gatekeeping: Trans Medicine, Reproductive Justice, and Bodily Autonomy",
@@ -115,7 +155,12 @@
         "How do intersecting identities — race, class, disability, immigration status — determine which queer and trans people can actually access healthcare, regardless of what the law formally permits?",
         "What would healthcare organized around bodily autonomy rather than diagnostic gatekeeping look like — and why does that vision serve both feminist and trans liberation goals?"
       ],
-      "tags": ["health", "inequality", "lgbtq", "gender"]
+      "tags": [
+        "health",
+        "inequality",
+        "lgbtq",
+        "gender"
+      ]
     },
     {
       "name": "Visibility and Its Discontents: Queer Representation in Media and Culture",
@@ -127,7 +172,12 @@
         "How have queer and trans artists, writers, and filmmakers created alternative cultural production outside mainstream media — and what do those alternative spaces accomplish that representation within mainstream institutions cannot?",
         "What is the relationship between cultural visibility and political power — and why does the history of backlash following periods of increased representation suggest that visibility alone is an insufficient strategy?"
       ],
-      "tags": ["media", "representation", "lgbtq", "gender"]
+      "tags": [
+        "media",
+        "representation",
+        "lgbtq",
+        "gender"
+      ]
     },
     {
       "name": "Queer Youth, Schools, and the Battle Over Who Children Are Allowed to Be",
@@ -139,7 +189,12 @@
         "What does the experience of queer and trans youth of color reveal about how racism, poverty, family rejection, and school exclusion compound to create conditions that single-issue LGBTQ+ advocacy fails to address?",
         "What do effective support systems for queer and trans youth look like — and why do they require structural change in schools and communities rather than simply individual acceptance?"
       ],
-      "tags": ["education", "human-rights", "lgbtq", "gender"]
+      "tags": [
+        "education",
+        "human-rights",
+        "lgbtq",
+        "gender"
+      ]
     },
     {
       "name": "Global Queer Movements: Solidarity Across Radically Different Legal and Cultural Contexts",
@@ -151,7 +206,12 @@
         "How have queer movements in countries like Argentina, South Africa, India, and Taiwan achieved legal advances through strategies rooted in local political and cultural contexts?",
         "What would a genuinely global queer feminism require — one that respects difference, challenges Western universalism, and builds solidarity without demanding conformity to a single model of identity or liberation?"
       ],
-      "tags": ["politics", "globalization", "lgbtq", "civil-rights"]
+      "tags": [
+        "politics",
+        "globalization",
+        "lgbtq",
+        "civil-rights"
+      ]
     },
     {
       "name": "Coalition Without Erasure: Building Solidarity Across Difference",
@@ -163,7 +223,12 @@
         "Why does effective coalition require giving up the idea that one's own oppression is the most important — and how does that requirement challenge the identity-centered politics that many movements are built on?",
         "What examples of successful coalition politics — from reproductive justice organizations to mutual aid networks to cross-movement solidarity campaigns — demonstrate what becomes possible when movements refuse to work in isolation?"
       ],
-      "tags": ["society", "activism", "lgbtq", "civil-rights"]
+      "tags": [
+        "feminism",
+        "activism",
+        "lgbtq",
+        "civil-rights"
+      ]
     },
     {
       "name": "The Anti-Gender Movement: How Opposition to Queer and Trans Rights Became a Global Political Strategy",
@@ -175,7 +240,12 @@
         "What is the relationship between anti-gender politics and other authoritarian projects — including attacks on democracy, press freedom, judicial independence, and academic freedom?",
         "How should queer feminist movements respond to organized opposition — and why does effective resistance require understanding anti-gender politics as a political strategy rather than a moral disagreement?"
       ],
-      "tags": ["politics", "authoritarianism", "lgbtq", "gender"]
+      "tags": [
+        "politics",
+        "authoritarianism",
+        "lgbtq",
+        "gender"
+      ]
     },
     {
       "name": "What Feminism Becomes When It Stops Policing Gender",
@@ -187,7 +257,12 @@
         "Why does the question of whether feminism can survive without a stable category of woman matter — and what do queer feminist thinkers argue is gained rather than lost when the category is opened?",
         "What does queer feminism contribute to the larger project of human liberation — and why does a feminism that stops policing gender become more powerful, not less?"
       ],
-      "tags": ["society", "justice", "gender", "lgbtq"]
+      "tags": [
+        "feminism",
+        "justice",
+        "gender",
+        "lgbtq"
+      ]
     }
   ]
 }

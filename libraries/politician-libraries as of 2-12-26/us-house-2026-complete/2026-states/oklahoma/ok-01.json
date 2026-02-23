@@ -1,0 +1,24 @@
+{
+  "book": "OK-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Kevin Hern (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "John Croisant (D)",
+        "Erica Watkins (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Ryan Parschauer (I)"
+      ]
+    }
+  ]
+}

@@ -19,7 +19,12 @@
         "What makes Hispanic voter loyalty different from other groups?",
         "Why has competition for Hispanic voters intensified?"
       ],
-      "tags": ["politics", "identity", "americas", "elections"]
+      "tags": [
+        "politics",
+        "hispanic-culture",
+        "americas",
+        "elections"
+      ]
     },
     {
       "name": "The Democratic Coalition",
@@ -31,7 +36,12 @@
         "What tensions exist between Hispanics and Democrats?",
         "Are Democrats taking Hispanic voters for granted?"
       ],
-      "tags": ["politics", "representation", "americas", "democratic-party"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "democratic-party"
+      ]
     },
     {
       "name": "Republican Outreach",
@@ -43,7 +53,12 @@
         "What barriers prevent Hispanic-Republican alignment?",
         "What would a Republican Hispanic majority look like?"
       ],
-      "tags": ["politics", "representation", "americas", "republican-party"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "republican-party"
+      ]
     },
     {
       "name": "Immigration as a Wedge Issue",
@@ -55,7 +70,12 @@
         "Is immigration the determining issue for Hispanic voters?",
         "How might immigration reform change partisan dynamics?"
       ],
-      "tags": ["politics", "migration", "americas", "immigration"]
+      "tags": [
+        "politics",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Economic Appeals",
@@ -67,7 +87,12 @@
         "What role do small business and entrepreneurship play?",
         "Do Hispanic economic priorities differ from party platforms?"
       ],
-      "tags": ["economics", "politics", "americas", "policy"]
+      "tags": [
+        "economics",
+        "politics",
+        "americas",
+        "policy"
+      ]
     },
     {
       "name": "Religion and Social Conservatism",
@@ -79,7 +104,12 @@
         "How do abortion and family values issues affect Hispanic voters?",
         "Can Republicans win Hispanics on social issues?"
       ],
-      "tags": ["religion", "politics", "americas", "social-issues"]
+      "tags": [
+        "religion",
+        "politics",
+        "americas",
+        "social-issues"
+      ]
     },
     {
       "name": "The Hispanic Independent",
@@ -91,7 +121,12 @@
         "What would make independents more partisan?",
         "What role do Hispanic independents play in elections?"
       ],
-      "tags": ["politics", "identity", "americas", "independents"]
+      "tags": [
+        "politics",
+        "hispanic-culture",
+        "americas",
+        "independents"
+      ]
     },
     {
       "name": "Subgroup Political Differences",
@@ -103,7 +138,12 @@
         "How do South Americans fit into partisan patterns?",
         "Why do national-origin subgroups vote differently?"
       ],
-      "tags": ["politics", "identity", "americas", "demographics"]
+      "tags": [
+        "politics",
+        "hispanic-culture",
+        "americas",
+        "demographics"
+      ]
     },
     {
       "name": "Generational Shifts",
@@ -115,7 +155,12 @@
         "What issues drive young Hispanic voters?",
         "How will generational change reshape Hispanic politics?"
       ],
-      "tags": ["politics", "demographics", "americas", "youth"]
+      "tags": [
+        "politics",
+        "demographics",
+        "americas",
+        "youth"
+      ]
     },
     {
       "name": "Campaign Strategies",
@@ -127,7 +172,12 @@
         "How do campaigns segment Hispanic voters?",
         "What campaign mistakes alienate Hispanic voters?"
       ],
-      "tags": ["politics", "media", "americas", "campaigns"]
+      "tags": [
+        "politics",
+        "media",
+        "americas",
+        "campaigns"
+      ]
     },
     {
       "name": "The 2020s Realignment",
@@ -139,7 +189,12 @@
         "Are Hispanic political alignments permanently changing?",
         "What do 2022 and 2024 trends show?"
       ],
-      "tags": ["politics", "elections", "americas", "realignment"]
+      "tags": [
+        "politics",
+        "elections",
+        "americas",
+        "realignment"
+      ]
     },
     {
       "name": "The Future of Hispanic Partisanship",
@@ -151,7 +206,12 @@
         "How will issue priorities shape future alignments?",
         "What does the long-term future hold for Hispanic partisanship?"
       ],
-      "tags": ["politics", "demographics", "americas", "future-trends"]
+      "tags": [
+        "politics",
+        "demographics",
+        "americas",
+        "future-trends"
+      ]
     }
   ]
 }

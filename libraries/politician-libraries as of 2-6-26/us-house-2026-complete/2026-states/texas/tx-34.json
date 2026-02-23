@@ -1,0 +1,30 @@
+{
+  "book": "TX-34",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Keith Allen (R)",
+        "Luis Buentello (R)",
+        "Eric Flores (R)",
+        "Mayra Flores (R)",
+        "Gregory Kunkle Jr. (R)",
+        "Jay Nagy (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Vicente Gonzalez Jr. (D)",
+        "Etienne Rosas (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Chris Royal (L)",
+        "Eddie Espinoza (G)"
+      ]
+    }
+  ]
+}

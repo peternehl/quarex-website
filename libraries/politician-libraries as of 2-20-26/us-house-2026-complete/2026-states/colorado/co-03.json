@@ -1,0 +1,25 @@
+{
+  "book": "CO-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jeff Hurd (R)",
+        "Hope Scheppelman (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Kyle Doster (D)",
+        "Alex Kelloff (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Heather Barton (I)"
+      ]
+    }
+  ]
+}

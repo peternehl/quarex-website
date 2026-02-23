@@ -15,8 +15,8 @@ const outputBase = path.join(__dirname, '..', 'libraries', 'politician-libraries
 
 let totalStates = 0;
 
-// Process all 10 batch files
-for (let batchNum = 1; batchNum <= 10; batchNum++) {
+// Process all 11 batch files (1-10 states, 11 territories)
+for (let batchNum = 1; batchNum <= 11; batchNum++) {
   const inputFile = path.join(__dirname, `states-${batchNum}.json`);
 
   if (!fs.existsSync(inputFile)) {
@@ -35,7 +35,7 @@ for (let batchNum = 1; batchNum <= 10; batchNum++) {
     const chapters = state.districts.map(district => {
       // Combine all candidates from all parties into one topics array
       const allCandidates = [];
-      const parties = ['Republican', 'Democratic', 'Independent', 'Libertarian', 'Green', 'Other'];
+      const parties = ['Republican', 'Democratic', 'Independent', 'Libertarian', 'Green', 'Other', 'Socialist Labor', 'Communist', 'Working Class'];
       for (const party of parties) {
         if (district.candidates[party] && district.candidates[party].length > 0) {
           allCandidates.push(...district.candidates[party]);
@@ -58,4 +58,4 @@ for (let batchNum = 1; batchNum <= 10; batchNum++) {
   }
 }
 
-console.log(`\n✓ Complete: ${totalStates} state book files created`);
+console.log(`\n✓ Complete: ${totalStates} state/territory book files created`);

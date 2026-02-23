@@ -1,0 +1,62 @@
+{
+  "name": "Justice Elena Kagan",
+  "slug": "justice-elena-kagan",
+  "tags": ["politics", "governance", "supreme-court", "us-politics"],
+  "chapters": [
+    {
+      "name": "Background and Path to the Court",
+      "slug": "background-and-path-to-the-court",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "What is Elena Kagan's educational and professional background?",
+        "What was Kagan's role as Solicitor General?",
+        "What was Kagan's tenure as Harvard Law School Dean?",
+        "How was Kagan nominated and confirmed to the Supreme Court?"
+      ]
+    },
+    {
+      "name": "Judicial Philosophy",
+      "slug": "judicial-philosophy",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "How would you describe Elena Kagan's judicial philosophy?",
+        "What is Kagan's approach to statutory interpretation?",
+        "How does Kagan view administrative law and agency deference?",
+        "What is Kagan's writing style and its influence?"
+      ]
+    },
+    {
+      "name": "Notable Opinions and Dissents",
+      "slug": "notable-opinions-and-dissents",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "What are Elena Kagan's most significant opinions?",
+        "What notable dissents has Kagan written?",
+        "How has Kagan ruled on First Amendment cases?",
+        "What is Kagan's approach to separation of powers cases?"
+      ]
+    },
+    {
+      "name": "Role on the Current Court",
+      "slug": "role-on-the-current-court",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "How does Kagan work to build coalitions on the Court?",
+        "What is Kagan's relationship with conservative justices?",
+        "How effective is Kagan at narrowing conservative rulings?",
+        "What has Kagan said about the Court's legitimacy crisis?"
+      ]
+    },
+    {
+      "name": "Public Engagement",
+      "slug": "public-engagement",
+      "tags": ["politics", "governance", "supreme-court", "media"],
+      "topics": [
+        "How does Elena Kagan engage with the public?",
+        "What has Kagan said about Supreme Court ethics?",
+        "How does Kagan explain legal concepts to lay audiences?",
+        "What is Kagan's view on cameras in the courtroom?"
+      ]
+    }
+  ]
+}

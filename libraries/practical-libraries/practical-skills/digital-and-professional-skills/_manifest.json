@@ -114,5 +114,72 @@
       "leverage and scale"
     ],
     "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "documentation-fundamentals",
+    "name": "Documentation Fundamentals",
+    "description": "Best practices for creating, organizing, and maintaining system documentation across hardware, software, and integrated systems. Includes modern AI-assisted approaches.",
+    "chapterCount": 14,
+    "tags": [
+      "technology",
+      "communication",
+      "systems-thinking",
+      "engineering",
+      "methodology"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hardware-systems-documentation",
+    "name": "Hardware Systems Documentation",
+    "description": "Practical documentation standards for physical systems: equipment, wiring, installations, and as-built drawings. Covers the documentation that keeps hardware systems maintainable and serviceable.",
+    "chapterCount": 11,
+    "tags": [
+      "technology",
+      "engineering",
+      "infrastructure",
+      "methodology"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "software-systems-documentation",
+    "name": "Software Systems Documentation",
+    "description": "Practical documentation standards for software systems: code, APIs, configurations, deployments, and the documentation that keeps software maintainable over time.",
+    "chapterCount": 11,
+    "tags": [
+      "technology",
+      "software-engineering",
+      "methodology",
+      "engineering"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "integrated-systems-documentation",
+    "name": "Integrated Systems Documentation",
+    "description": "Documentation practices for systems that combine hardware, software, and networks: AV systems, control systems, building automation, and other integrated technology deployments.",
+    "chapterCount": 11,
+    "tags": [
+      "technology",
+      "engineering",
+      "systems-thinking",
+      "infrastructure"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "marketing-without-a-budget",
+    "name": "Marketing Without a Budget",
+    "description": "Guerrilla marketing tactics for small operators: unconventional, low-cost strategies that rely on creativity, community, and hustle rather than advertising spend.",
+    "chapterCount": 15,
+    "tags": [
+      "economics",
+      "communication",
+      "entrepreneurship",
+      "digital-life",
+      "social-media"
+    ],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
   }
 ]

@@ -1,0 +1,194 @@
+[
+  {
+    "slug": "foundations-what-is-lgbtq-studies",
+    "name": "Foundations: What Is LGBTQ+ Studies?",
+    "description": "An introduction to the field — its origins, key concepts, terminology, and why it matters as an academic discipline.",
+    "chapterCount": 8,
+    "tags": ["LGBTQ+", "identity", "intersectionality", "gender", "sexuality", "academic discipline"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "queer-theory-key-thinkers-and-concepts",
+    "name": "Queer Theory: Key Thinkers and Concepts",
+    "description": "The intellectual foundations of LGBTQ+ Studies — the theorists, frameworks, and ideas that shaped the field.",
+    "chapterCount": 10,
+    "tags": ["queer theory", "Judith Butler", "Michel Foucault", "gender performativity", "LGBTQ+"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "hidden-history-lgbtq-lives-before-stonewall",
+    "name": "Hidden History: LGBTQ+ Lives Before Stonewall",
+    "description": "Queer lives have always existed. This course recovers the history that was deliberately erased.",
+    "chapterCount": 12,
+    "tags": ["LGBTQ+ history", "pre-Stonewall", "Lavender Scare", "Mattachine Society", "Daughters of Bilitis"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "stonewall-and-gay-liberation",
+    "name": "Stonewall and the Birth of Gay Liberation",
+    "description": "The 1969 uprising and its aftermath — how a police raid became the catalyst for a global movement.",
+    "chapterCount": 8,
+    "tags": ["Stonewall", "gay liberation", "Pride", "Marsha P. Johnson", "Sylvia Rivera"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "aids-crisis-abandonment-activism-survival",
+    "name": "The AIDS Crisis: Abandonment, Activism, and Survival",
+    "description": "How government inaction turned a health crisis into mass death — and how the community fought back.",
+    "chapterCount": 11,
+    "tags": ["AIDS", "HIV", "ACT UP", "Reagan", "public health", "activism"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "fight-for-legal-equality",
+    "name": "The Fight for Legal Equality",
+    "description": "From criminalization to civil rights — the legal battles that shaped LGBTQ+ life in America.",
+    "chapterCount": 12,
+    "tags": ["LGBTQ+ rights", "marriage equality", "Obergefell", "Lawrence v. Texas", "civil rights"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "transgender-lives-history-rights",
+    "name": "Transgender Lives, History, and Rights",
+    "description": "A dedicated exploration of transgender experience — from historical gender diversity to current political targeting.",
+    "chapterCount": 11,
+    "tags": ["transgender", "trans rights", "gender identity", "gender-affirming care", "trans history"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "intersex-biology-medicine-rights",
+    "name": "Intersex: Biology, Medicine, and Rights",
+    "description": "Understanding intersex variations — the biology, the history of medical intervention, and the fight for bodily autonomy.",
+    "chapterCount": 8,
+    "tags": ["intersex", "bodily autonomy", "medical ethics", "gender", "biology"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-people-of-color",
+    "name": "LGBTQ+ People of Color",
+    "description": "The intersection of race and queerness — distinct histories, unique challenges, and the leaders who shaped both movements.",
+    "chapterCount": 10,
+    "tags": ["LGBTQ+", "intersectionality", "race", "Ballroom", "Two-Spirit", "Audre Lorde"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-families-and-relationships",
+    "name": "LGBTQ+ Families and Relationships",
+    "description": "How queer people build families — adoption, surrogacy, chosen family, and relationship structures.",
+    "chapterCount": 10,
+    "tags": ["LGBTQ+ families", "chosen family", "adoption", "marriage equality", "parenting"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-aging-elders-care-legacy",
+    "name": "LGBTQ+ Aging: Elders, Care, and Legacy",
+    "description": "The unique challenges facing LGBTQ+ older adults — isolation, discrimination in care, and building intergenerational community.",
+    "chapterCount": 10,
+    "tags": ["LGBTQ+ elders", "aging", "elder care", "SAGE", "HIV long-term survivors"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "religion-spirituality-queerness",
+    "name": "Religion, Spirituality, and Queerness",
+    "description": "The complex relationship between LGBTQ+ identity and faith — from condemnation to affirmation.",
+    "chapterCount": 10,
+    "tags": ["LGBTQ+", "religion", "Christianity", "conversion therapy", "queer theology"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-health-mental-health",
+    "name": "LGBTQ+ Health and Mental Health",
+    "description": "Health disparities, the legacy of pathologization, and what affirming healthcare looks like.",
+    "chapterCount": 13,
+    "tags": ["LGBTQ+ health", "mental health", "minority stress", "transgender healthcare", "HIV"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-youth-schools-resilience",
+    "name": "LGBTQ+ Youth: Schools, Bullying, and Resilience",
+    "description": "What it's like to grow up LGBTQ+ in America — the challenges in schools, the role of GSAs, and building resilience.",
+    "chapterCount": 11,
+    "tags": ["LGBTQ+ youth", "bullying", "GSA", "Don't Say Gay", "Trevor Project"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "queer-culture-literature-art",
+    "name": "Queer Culture: Literature, Art, and Expression",
+    "description": "The extraordinary creative legacy of LGBTQ+ people — from underground art to mainstream influence.",
+    "chapterCount": 9,
+    "tags": ["queer art", "LGBTQ+ literature", "drag", "queer cinema", "Keith Haring"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-music-performance",
+    "name": "LGBTQ+ Music and Performance",
+    "description": "How queer artists shaped popular music and performance culture.",
+    "chapterCount": 9,
+    "tags": ["LGBTQ+ music", "disco", "drag", "queercore", "gay icons"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-media-popular-culture",
+    "name": "LGBTQ+ in Media and Popular Culture",
+    "description": "Representation, stereotypes, and the power of visibility — how media shapes perception.",
+    "chapterCount": 11,
+    "tags": ["LGBTQ+ representation", "media", "queerbaiting", "Bury Your Gays", "visibility"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "politics-of-anti-lgbtq-movements",
+    "name": "The Politics of Anti-LGBTQ+ Movements",
+    "description": "Understanding the opposition — who funds it, what motivates it, and the strategies used to roll back rights.",
+    "chapterCount": 12,
+    "tags": ["anti-LGBTQ+", "religious right", "culture wars", "book bans", "groomer narrative"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-rights-global-issue",
+    "name": "LGBTQ+ Rights as a Global Issue",
+    "description": "Queerness around the world — from full equality to death penalty.",
+    "chapterCount": 11,
+    "tags": ["global LGBTQ+ rights", "colonialism", "asylum", "Russia", "Uganda"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lgbtq-economics-work-wages-wealth",
+    "name": "LGBTQ+ Economics: Work, Wages, and Wealth",
+    "description": "The economic realities of LGBTQ+ life — from workplace discrimination to wealth gaps.",
+    "chapterCount": 10,
+    "tags": ["LGBTQ+ economics", "workplace discrimination", "Bostock", "rainbow capitalism", "wage gap"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "lesbian-history-feminism",
+    "name": "Lesbian History and Feminism",
+    "description": "The distinct history of lesbian identity, its relationship with feminism, and the contributions of lesbian women.",
+    "chapterCount": 10,
+    "tags": ["lesbian history", "feminism", "butch/femme", "Lavender Menace", "lesbian separatism"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "bisexual-pansexual-fluid-identities",
+    "name": "Bisexual, Pansexual, and Fluid Identities",
+    "description": "The often-invisible middle of the spectrum — bisexual erasure, emerging identities, and sexual fluidity.",
+    "chapterCount": 9,
+    "tags": ["bisexuality", "pansexuality", "bisexual erasure", "sexual fluidity", "Kinsey scale"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "asexual-aromantic-emerging-identities",
+    "name": "Asexual, Aromantic, and Emerging Identities",
+    "description": "The A in LGBTQIA+ — asexuality, aromanticism, the ace spectrum, and how identity continues to evolve.",
+    "chapterCount": 10,
+    "tags": ["asexuality", "aromantic", "ace spectrum", "demisexuality", "LGBTQIA+"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  },
+  {
+    "slug": "future-of-lgbtq-rights-america",
+    "name": "The Future of LGBTQ+ Rights in America",
+    "description": "Where things stand now and where they're headed — the current legal landscape, emerging threats, and what comes next.",
+    "chapterCount": 11,
+    "tags": ["LGBTQ+ rights", "Equality Act", "Supreme Court", "Generation Z", "backlash"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  }
+]

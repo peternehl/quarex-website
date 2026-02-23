@@ -1,0 +1,127 @@
+{
+  "name": "Religion, Spirituality, and Queerness",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+", "religion", "Christianity", "conversion therapy", "queer theology"],
+  "chapters": [
+    {
+      "name": "Religious Condemnation: Sources and Interpretations",
+      "topics": [
+        "What biblical passages are used to condemn homosexuality?",
+        "How do scholars debate the translation and context of these passages?",
+        "What did 'arsenokoitai' and 'malakoi' actually mean in Greek?",
+        "How does the story of Sodom get interpreted differently?",
+        "What do other religious traditions say about same-sex relationships?",
+        "How have religious interpretations of homosexuality changed over time?"
+      ],
+      "tags": ["religion", "lgbtq", "theology", "biblical-studies"]
+    },
+    {
+      "name": "The Religious Right and Anti-LGBTQ+ Activism",
+      "topics": [
+        "How did the Religious Right emerge as a political force?",
+        "What role did Anita Bryant's 'Save Our Children' campaign play?",
+        "How have organizations like Focus on the Family and Family Research Council operated?",
+        "What tactics do religious anti-LGBTQ+ groups use?",
+        "How has the Religious Right adapted its messaging over time?",
+        "What is the relationship between religious anti-LGBTQ+ groups and conservative politics?"
+      ],
+      "tags": ["religion", "lgbtq", "politics", "activism"]
+    },
+    {
+      "name": "Conversion Therapy: Harm Disguised as Healing",
+      "topics": [
+        "What is conversion therapy and what methods does it use?",
+        "What does research show about the effectiveness and harm of conversion therapy?",
+        "What are survivors of conversion therapy's experiences?",
+        "Which organizations and figures have promoted conversion therapy?",
+        "What laws exist banning conversion therapy for minors?",
+        "How do conversion therapy practices continue despite bans and opposition?"
+      ],
+      "tags": ["psychology", "lgbtq", "religion", "ethics"]
+    },
+    {
+      "name": "LGBTQ+ Affirming Christianity",
+      "topics": [
+        "Which Christian denominations fully affirm LGBTQ+ people?",
+        "How did the Metropolitan Community Church emerge?",
+        "What theological arguments support LGBTQ+ affirmation?",
+        "How do affirming Christians interpret traditionally cited passages?",
+        "What does 'Side A' vs 'Side B' Christianity mean?",
+        "How are LGBTQ+ Christians changing their denominations from within?"
+      ],
+      "tags": ["religion", "lgbtq", "christianity", "theology"]
+    },
+    {
+      "name": "LGBTQ+ Lives in Non-Christian Traditions",
+      "topics": [
+        "How do different Jewish denominations approach LGBTQ+ inclusion?",
+        "What range of views on LGBTQ+ people exists within Islam?",
+        "How do Buddhist teachings relate to sexual orientation and gender identity?",
+        "What Hindu perspectives exist on gender and sexuality diversity?",
+        "How do indigenous and pagan traditions incorporate LGBTQ+ people?",
+        "What challenges face LGBTQ+ people in conservative religious immigrant communities?"
+      ],
+      "tags": ["religion", "lgbtq", "world-religions", "culture"]
+    },
+    {
+      "name": "Queer Theology: Reimagining the Divine",
+      "topics": [
+        "What is queer theology and who are its key thinkers?",
+        "How does queer theology challenge traditional ideas about God?",
+        "What does it mean to 'queer' scripture and tradition?",
+        "How do queer theologians understand sin, salvation, and ethics?",
+        "What insights does queer experience bring to theological reflection?",
+        "How has queer theology influenced broader religious thought?"
+      ],
+      "tags": ["religion", "lgbtq", "theology", "philosophy"]
+    },
+    {
+      "name": "The Closet in the Clergy",
+      "topics": [
+        "How many clergy are estimated to be LGBTQ+ and closeted?",
+        "What pressures keep LGBTQ+ clergy in the closet?",
+        "What happens when clergy come out or are outed?",
+        "How do different denominations handle openly LGBTQ+ clergy?",
+        "What is the experience of LGBTQ+ people in seminary and ministerial training?",
+        "How are some LGBTQ+ clergy changing their traditions from within?"
+      ],
+      "tags": ["religion", "lgbtq", "sociology", "career"]
+    },
+    {
+      "name": "Leaving Faith: Religious Trauma and Ex-Religious LGBTQ+ People",
+      "topics": [
+        "What is religious trauma and how does it affect LGBTQ+ people?",
+        "Why do many LGBTQ+ people leave their childhood religions?",
+        "What grief accompanies leaving a faith community?",
+        "How do ex-religious LGBTQ+ people rebuild meaning and community?",
+        "What resources exist for healing from religious trauma?",
+        "How do some LGBTQ+ people find their way back to faith on their own terms?"
+      ],
+      "tags": ["psychology", "lgbtq", "religion", "mental-health"]
+    },
+    {
+      "name": "Spirituality Beyond Organized Religion",
+      "topics": [
+        "How do LGBTQ+ people find spirituality outside traditional religion?",
+        "What role do earth-based and pagan traditions play in LGBTQ+ spirituality?",
+        "How have LGBTQ+ communities created their own spiritual practices?",
+        "What is the Radical Faeries movement and its spiritual dimensions?",
+        "How do concepts like 'sacred feminine' and 'divine masculine' intersect with queerness?",
+        "What does secular humanism offer LGBTQ+ people seeking meaning?"
+      ],
+      "tags": ["spirituality", "lgbtq", "culture", "philosophy"]
+    },
+    {
+      "name": "Faith, Family, and Coming Out",
+      "topics": [
+        "How does religious family background affect the coming out experience?",
+        "What happens when LGBTQ+ identity and family faith collide?",
+        "How do some religious families reconcile their faith with an LGBTQ+ child?",
+        "What support exists for religious parents of LGBTQ+ children?",
+        "How can LGBTQ+ people maintain family relationships despite religious differences?",
+        "What boundaries might be necessary with religiously anti-LGBTQ+ family members?"
+      ],
+      "tags": ["psychology", "lgbtq", "religion", "family"]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Integrated Systems Documentation",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "description": "Documentation practices for systems that combine hardware, software, and networks: AV systems, control systems, building automation, and other integrated technology deployments. Where all the pieces come together.",
+  "tags": [
+    "technology",
+    "engineering",
+    "systems-thinking",
+    "infrastructure"
+  ],
+  "chapters": [
+    {
+      "name": "System Block Diagrams and Signal Flow",
+      "topics": [
+        "What makes a block diagram useful versus just pretty?",
+        "How do you show signal flow without overwhelming the reader?",
+        "What level of detail belongs on a system diagram versus detail drawings?",
+        "How do you handle diagrams for systems with multiple modes of operation?",
+        "What conventions make diagrams readable to different audiences?",
+        "How do you create diagrams that survive system changes?"
+      ],
+      "tags": ["technology", "engineering", "systems-thinking", "communication"]
+    },
+    {
+      "name": "Control System Documentation",
+      "topics": [
+        "What control system logic needs to be documented beyond the code?",
+        "How do you document control system IP addresses and network settings?",
+        "What user interface documentation helps operators?",
+        "How do you document button functions, macros, and presets?",
+        "What programming decisions should be explained in documentation?",
+        "How do you create documentation someone else can use to modify the system?"
+      ],
+      "tags": ["technology", "engineering", "software-engineering", "systems-thinking"]
+    },
+    {
+      "name": "AV System Documentation",
+      "topics": [
+        "What makes AV documentation useful for troubleshooting versus just archival?",
+        "How do you document video and audio signal paths clearly?",
+        "What switcher and matrix documentation format works best?",
+        "How do you document display settings, audio levels, and calibration?",
+        "What remote monitoring and control access needs to be documented?",
+        "How do you handle documentation for systems with user-configurable features?"
+      ],
+      "tags": ["technology", "engineering", "systems-thinking", "infrastructure"]
+    },
+    {
+      "name": "Network Documentation for Integrated Systems",
+      "topics": [
+        "What network information belongs in system documentation?",
+        "How do you document VLANs, subnets, and network segmentation?",
+        "What IP address documentation format survives growth and changes?",
+        "How do you document network dependencies and single points of failure?",
+        "What firewall rules and port information needs to be recorded?",
+        "How do you handle documentation when you don't control the network?"
+      ],
+      "tags": ["technology", "engineering", "infrastructure", "systems-thinking"]
+    },
+    {
+      "name": "Integration Points and Interfaces",
+      "topics": [
+        "How do you document where systems connect and hand off?",
+        "What interface specifications need to be captured?",
+        "How do you document third-party integrations and their requirements?",
+        "What happens when integration documentation doesn't match reality?",
+        "How do you document API calls between systems?",
+        "What responsibility boundaries need to be recorded?"
+      ],
+      "tags": ["technology", "engineering", "systems-thinking", "software-engineering"]
+    },
+    {
+      "name": "Commissioning and System Tuning Documentation",
+      "topics": [
+        "What commissioning settings need to be recorded for future reference?",
+        "How do you document audio tuning, DSP settings, and calibration?",
+        "What video calibration and display settings should be captured?",
+        "How do you document the 'golden' state of a properly working system?",
+        "What baseline measurements help diagnose future problems?",
+        "How do you document system compromises and their reasons?"
+      ],
+      "tags": ["technology", "engineering", "systems-thinking", "methodology"]
+    },
+    {
+      "name": "Operations Manuals",
+      "topics": [
+        "What does an operator need to know to use the system daily?",
+        "How do you write procedures for non-technical users?",
+        "What troubleshooting guidance belongs in an operations manual?",
+        "How do you handle systems with multiple operating modes?",
+        "What startup and shutdown procedures need to be documented?",
+        "How do you create documentation that operators will actually use?"
+      ],
+      "tags": ["technology", "communication", "education", "engineering"]
+    },
+    {
+      "name": "Training Documentation and Materials",
+      "topics": [
+        "What training documentation should be delivered with a system?",
+        "How do you create training materials for different user levels?",
+        "What hands-on exercises help users learn the system?",
+        "How do you document training that was delivered?",
+        "What reference materials support users after training?",
+        "How do you handle documentation for systems with staff turnover?"
+      ],
+      "tags": ["technology", "education", "communication", "methodology"]
+    },
+    {
+      "name": "Warranty and Support Documentation",
+      "topics": [
+        "What warranty information needs to be documented and tracked?",
+        "How do you document support contacts and escalation procedures?",
+        "What service agreements and SLAs need to be recorded?",
+        "How do you document spare parts coverage and availability?",
+        "What support history should be maintained?",
+        "How do you handle documentation handoff when support contracts change?"
+      ],
+      "tags": ["technology", "economics", "accountability", "governance"]
+    },
+    {
+      "name": "System Lifecycle Documentation",
+      "topics": [
+        "What documentation helps plan for system upgrades?",
+        "How do you document equipment end-of-life dates?",
+        "What capacity and growth information should be recorded?",
+        "How do you document system expansion paths and limitations?",
+        "What refresh planning information belongs in documentation?",
+        "How do you maintain documentation as systems age and change?"
+      ],
+      "tags": ["technology", "systems-thinking", "engineering", "economics"]
+    },
+    {
+      "name": "The Complete Documentation Package",
+      "topics": [
+        "What documentation package should be delivered at project completion?",
+        "How do you organize multiple document types into a coherent package?",
+        "What delivery format serves the client best: paper, digital, both?",
+        "How do you ensure the documentation package is complete before handoff?",
+        "What acceptance criteria verify documentation quality?",
+        "How do you handle clients who don't have systems to receive documentation?"
+      ],
+      "tags": ["technology", "engineering", "accountability", "communication"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Envelope - I.C. System</title>
+    <style>
+        @page {
+            size: 9.5in 4.125in;
+            margin: 0;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 9.5in;
+            height: 4.125in;
+            font-family: Arial, sans-serif;
+            position: relative;
+            background: #fff;
+        }
+        .return-address {
+            position: absolute;
+            top: 0.75in;
+            left: 0.25in;
+            font-size: 10pt;
+            line-height: 1.4;
+        }
+        .recipient-address {
+            position: absolute;
+            top: 2.1in;
+            left: 4in;
+            font-size: 12pt;
+            line-height: 1.5;
+        }
+        .certified {
+            position: absolute;
+            top: 0.75in;
+            left: 3.5in;
+            font-size: 9pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #c00;
+            border: 1px solid #c00;
+            padding: 2px 8px;
+        }
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+        @media screen {
+            body {
+                border: 1px solid #ccc;
+                margin: 20px;
+            }
+            .instructions {
+                position: fixed;
+                bottom: 20px;
+                left: 20px;
+                background: #ffffcc;
+                padding: 12px;
+                border: 1px solid #ccc;
+                font-size: 11px;
+                max-width: 400px;
+            }
+        }
+        @media print {
+            .instructions {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="return-address">
+    Peter Nehl<br>
+    1268 E Ramon Rd., Unit 53<br>
+    Palm Springs, CA 92264
+</div>
+
+<div class="certified">Certified Mail</div>
+
+<div class="recipient-address">
+    I.C. System, Inc.<br>
+    PO Box 64378<br>
+    Saint Paul, MN 55164
+</div>
+
+<div class="instructions">
+    <strong>Print Instructions:</strong><br>
+    1. Load #10 envelope in printer (check your printer's envelope slot)<br>
+    2. Print this page<br>
+    3. Set paper size to 9.5" x 4.125" or "Envelope #10" in print dialog<br>
+    4. Disable "fit to page" scaling
+</div>
+
+</body>
+</html>

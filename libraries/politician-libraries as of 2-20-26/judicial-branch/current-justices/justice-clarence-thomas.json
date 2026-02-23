@@ -1,0 +1,62 @@
+{
+  "name": "Justice Clarence Thomas",
+  "slug": "justice-clarence-thomas",
+  "tags": ["politics", "governance", "supreme-court", "us-politics"],
+  "chapters": [
+    {
+      "name": "Background and Path to the Court",
+      "slug": "background-and-path-to-the-court",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "What is Clarence Thomas' educational and professional background?",
+        "What roles did Thomas hold before becoming a judge?",
+        "How was Thomas nominated and confirmed to the Supreme Court?",
+        "What were the Anita Hill hearings and their significance?"
+      ]
+    },
+    {
+      "name": "Judicial Philosophy",
+      "slug": "judicial-philosophy",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "How would you describe Clarence Thomas' judicial philosophy?",
+        "What is Thomas' approach to originalism?",
+        "How does Thomas view precedent differently from other justices?",
+        "What is Thomas' position on the scope of federal power?"
+      ]
+    },
+    {
+      "name": "Notable Opinions and Votes",
+      "slug": "notable-opinions-and-votes",
+      "tags": ["politics", "governance", "supreme-court", "constitutional-law"],
+      "topics": [
+        "What are Clarence Thomas' most significant opinions?",
+        "How has Thomas voted on Second Amendment cases?",
+        "What is Thomas' record on affirmative action cases?",
+        "How has Thomas approached commerce clause cases?"
+      ]
+    },
+    {
+      "name": "Influence on Conservative Legal Movement",
+      "slug": "influence-on-conservative-legal-movement",
+      "tags": ["politics", "governance", "supreme-court", "us-politics"],
+      "topics": [
+        "How has Thomas influenced the conservative legal movement?",
+        "What formerly 'fringe' Thomas positions have become mainstream?",
+        "How do Thomas' clerks shape the legal profession?",
+        "What is Thomas' legacy after 30+ years on the Court?"
+      ]
+    },
+    {
+      "name": "Controversies and Ethics",
+      "slug": "controversies-and-ethics",
+      "tags": ["politics", "accountability", "supreme-court", "ethics"],
+      "topics": [
+        "What ethics controversies have involved Clarence Thomas?",
+        "What are the concerns about Thomas' relationship with Harlan Crow?",
+        "What undisclosed gifts and travel has Thomas received?",
+        "What is the controversy over Ginni Thomas' political activities?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quarex Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0f1a;
+      --panel: #0f1726;
+      --ink: #e6eefc;
+      --muted: #8a9bb8;
+      --brand: #7aa7ff;
+      --ring: rgba(122,167,255,.5);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      background: radial-gradient(ellipse at top right, rgba(122,167,255,.08), transparent 50%), var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .header {
+      padding: 24px 20px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+      background: rgba(15,23,38,.8);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      font-size: 1.25rem;
+    }
+    .logo-mark {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg, rgba(155,232,255,.8), rgba(122,167,255,.9), rgba(155,232,255,.8));
+      box-shadow: 0 0 18px rgba(122,167,255,.6);
+    }
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      font-size: 0.95rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 24px;
+      font-size: 0.95rem;
+    }
+
+    .post-header {
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .post-date {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .post-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    .post-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .tag {
+      background: rgba(122,167,255,.12);
+      border: 1px solid rgba(122,167,255,.25);
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      color: var(--brand);
+    }
+
+    /* Post content - base styles */
+    .post-content {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      background: #fff;
+      color: #2d3748;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    .post-content a {
+      color: #6b46c1;
+    }
+    .post-content strong {
+      color: #1a202c;
+    }
+    .post-content h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 28px 0 14px;
+    }
+    .post-content h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 20px 0 10px;
+    }
+    .post-content p {
+      margin-bottom: 16px;
+    }
+    .post-content ul, .post-content ol {
+      margin: 12px 0 16px 20px;
+    }
+    .post-content li {
+      margin-bottom: 6px;
+    }
+    .post-content code {
+      background: rgba(255,255,255,.08);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'SF Mono', Monaco, Consolas, monospace;
+      font-size: 0.9em;
+    }
+    .post-content pre {
+      background: rgba(0,0,0,.3);
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 8px;
+      padding: 16px;
+      overflow-x: auto;
+      margin: 20px 0;
+    }
+    .post-content pre code {
+      background: none;
+      padding: 0;
+    }
+    .post-content img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+
+    /* === BUILT-IN POST COMPONENTS === */
+
+    /* Callout boxes */
+    .post-content .callout {
+      background: linear-gradient(135deg, #f8f4ff 0%, #fff8f0 100%);
+      border-left: 4px solid #6b46c1;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      border-radius: 0 8px 8px 0;
+      color: #1a202c;
+    }
+    .post-content .callout p {
+      color: #2d3748;
+      margin: 0;
+    }
+    .post-content .callout a {
+      color: #6b46c1;
+    }
+    .post-content .callout strong {
+      color: #1a202c;
+    }
+    .post-content .callout.green {
+      background: linear-gradient(135deg, #f0fff4 0%, #f8fff8 100%);
+      border-left-color: #38a169;
+    }
+    .post-content .callout.gold {
+      background: linear-gradient(135deg, #fffbeb 0%, #fff8e1 100%);
+      border-left-color: #d69e2e;
+    }
+    .post-content .callout.blue {
+      background: linear-gradient(135deg, #ebf8ff 0%, #f0f9ff 100%);
+      border-left-color: #3182ce;
+    }
+    .post-content .callout.blue a {
+      color: #2b6cb0;
+    }
+
+    /* Cards */
+    .post-content .card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 1rem;
+      color: #2d3748;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .post-content .card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+    .post-content .card h4 {
+      margin: 0 0 0.5rem 0;
+      color: #2d3748;
+      font-size: 1.1rem;
+    }
+    .post-content .card p {
+      font-size: 0.9rem;
+      color: #718096;
+      margin: 0 0 0.75rem 0;
+    }
+    .post-content .card a {
+      color: #6b46c1;
+      font-weight: 500;
+    }
+
+    /* Card grid */
+    .post-content .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+
+    /* Pill links */
+    .post-content .pill-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 1rem 0;
+    }
+    .post-content .pill-links a {
+      background: #edf2f7;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      color: #4a5568;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .post-content .pill-links a:hover {
+      background: #e2e8f0;
+      color: #2d3748;
+    }
+
+    /* Section boxes */
+    .post-content .section-box {
+      background: rgba(255,255,255,0.05);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin: 1.5rem 0;
+    }
+    .post-content .section-box.gold {
+      background: linear-gradient(135deg, #fef3c7 0%, #fff7ed 100%);
+      color: #744210;
+    }
+    .post-content .section-box.gold h3 {
+      color: #92400e;
+      margin-top: 0;
+    }
+    .post-content .section-box.gold .card {
+      background: #fffbeb;
+    }
+
+    .quarex-callout {
+      background: linear-gradient(180deg, rgba(122,167,255,.12), rgba(122,167,255,.06));
+      border: 1px solid rgba(122,167,255,.25);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 28px 0;
+    }
+    .quarex-callout-title {
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .quarex-callout-title::before {
+      content: '📚';
+    }
+    .quarex-callout a {
+      display: block;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .quarex-callout a:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .post-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,.1);
+    }
+    .share-section {
+      margin-bottom: 24px;
+    }
+    .share-section h4 {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .share-buttons {
+      display: flex;
+      gap: 12px;
+    }
+    .share-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.15);
+      font-size: 0.9rem;
+      color: var(--ink);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .share-btn:hover {
+      background: rgba(255,255,255,.12);
+      text-decoration: none;
+    }
+
+    .error-state, .loading-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+
+    @media (max-width: 600px) {
+      .post-title { font-size: 1.6rem; }
+      .post-content { font-size: 1rem; }
+      .nav-links { gap: 12px; font-size: 0.85rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="/blog/" class="logo">
+        <span class="logo-mark"></span>
+        Quarex Blog
+      </a>
+      <nav class="nav-links">
+        <a href="/">Home</a>
+        <a href="/libraries/">Libraries</a>
+        <a href="/blog/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <a href="/blog/" class="back-link">&larr; Back to Blog</a>
+
+    <article id="postContainer">
+      <div class="loading-state">Loading post...</div>
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2025-2026 Quarex / Peter Nehl. All Rights Reserved.
+  </footer>
+
+  <script>
+    const container = document.getElementById('postContainer');
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+
+    async function loadPost() {
+      if (!slug) {
+        container.innerHTML = '<div class="error-state">No post specified. <a href="/blog/">Return to blog</a></div>';
+        return;
+      }
+
+      try {
+        // Load post metadata
+        const indexResp = await fetch('blog-index.json');
+        if (!indexResp.ok) throw new Error('Failed to load blog index');
+        const indexData = await indexResp.json();
+
+        const postMeta = indexData.posts.find(p => p.slug === slug);
+        if (!postMeta) {
+          container.innerHTML = '<div class="error-state">Post not found. <a href="/blog/">Return to blog</a></div>';
+          return;
+        }
+
+        // Load post content
+        const contentResp = await fetch(`posts/${slug}.html`);
+        if (!contentResp.ok) throw new Error('Post content not found');
+        const content = await contentResp.text();
+
+        // Update page title
+        document.title = `${postMeta.title} | Quarex Blog`;
+
+        // Format date
+        const dateStr = new Date(postMeta.date).toLocaleDateString('en-US', {
+          year: 'numeric', month: 'long', day: 'numeric'
+        });
+
+        // Build tags HTML
+        const tagsHtml = postMeta.tags
+          ? postMeta.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')
+          : '';
+
+        // Build Quarex links callout
+        let quarexHtml = '';
+        if (postMeta.quarexLinks && postMeta.quarexLinks.length > 0) {
+          const links = postMeta.quarexLinks.map(link =>
+            `<a href="${escapeHtml(link.url)}">${escapeHtml(link.title)} &rarr;</a>`
+          ).join('');
+          quarexHtml = `
+            <div class="quarex-callout">
+              <div class="quarex-callout-title">Explore deeper on Quarex</div>
+              ${links}
+            </div>
+          `;
+        }
+
+        // Build share URL
+        const shareUrl = encodeURIComponent(window.location.href);
+        const shareTitle = encodeURIComponent(postMeta.title);
+
+        // Render post
+        container.innerHTML = `
+          <header class="post-header">
+            <div class="post-date">${dateStr}</div>
+            <h1 class="post-title">${escapeHtml(postMeta.title)}</h1>
+            ${tagsHtml ? `<div class="post-tags">${tagsHtml}</div>` : ''}
+          </header>
+
+          <div class="post-content">
+            ${content}
+          </div>
+
+          ${quarexHtml}
+
+          <footer class="post-footer">
+            <div class="share-section">
+              <h4>Share this post</h4>
+              <div class="share-buttons">
+                <a href="https://twitter.com/intent/tweet?url=${shareUrl}&text=${shareTitle}" target="_blank" rel="noopener" class="share-btn">Twitter</a>
+                <a href="https://bsky.app/intent/compose?text=${shareTitle}%20${shareUrl}" target="_blank" rel="noopener" class="share-btn">Bluesky</a>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}" target="_blank" rel="noopener" class="share-btn">LinkedIn</a>
+                <button onclick="copyLink()" class="share-btn">Copy Link</button>
+              </div>
+            </div>
+          </footer>
+        `;
+
+      } catch (err) {
+        console.error('Error loading post:', err);
+        container.innerHTML = '<div class="error-state">Error loading post. <a href="/blog/">Return to blog</a></div>';
+      }
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function copyLink() {
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        const btn = document.querySelector('.share-btn:last-child');
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = orig, 2000);
+      });
+    }
+
+    loadPost();
+  </script>
+
+</body>
+</html>

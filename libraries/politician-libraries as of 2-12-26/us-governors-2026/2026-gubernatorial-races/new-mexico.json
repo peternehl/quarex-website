@@ -1,0 +1,24 @@
+{
+  "book": "New Mexico",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "James Ellison (R)",
+        "Gregg Hull (R)",
+        "Steve D. Lanier (R)",
+        "Belinda Robertson (R)",
+        "Duke Rodriguez (R)",
+        "Doug Turner (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sam Bregman (D)",
+        "Debra Haaland (D)",
+        "Ken Miyagishima (D)"
+      ]
+    }
+  ]
+}

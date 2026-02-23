@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de Elecciones 2026</title>
+    <meta name="description" content="Elecciones 2026 es un sitio gratuito y no partidista para investigar a todos los candidatos y carreras de 2026 en Estados Unidos, impulsado por Quarex.">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TMVLTZ6BB5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-TMVLTZ6BB5');
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0A0A0A;
+            --ink: #F7F7F7;
+            --muted: #B7BCC2;
+            --line: #262626;
+            --card: #111111;
+            --brand: #EDEDED;
+            --accent: #7CB9FF;
+            --blue: #3B82F6;
+            --hispanic: #E53935;
+            --max-width: 760px;
+            --radius: 12px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font: 16px/1.7 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--ink);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        a { color: var(--blue); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .page-header {
+            border-bottom: 1px solid var(--line);
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .page-header .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(20px, 3vw, 26px);
+            font-weight: 700;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .page-header .logo:hover { text-decoration: none; }
+        .lang-switch {
+            background: rgba(229, 57, 53, 0.15);
+            border: 1px solid var(--hispanic);
+            color: var(--ink);
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        .lang-switch:hover { background: rgba(229, 57, 53, 0.25); text-decoration: none; }
+
+        .content {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 48px 20px 80px;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(28px, 4vw, 36px);
+            font-weight: 700;
+            margin-bottom: 24px;
+            color: var(--ink);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            color: var(--ink);
+        }
+
+        p {
+            color: var(--muted);
+            margin-bottom: 16px;
+            font-size: 1.05rem;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            color: var(--muted);
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+        }
+
+        li strong {
+            color: var(--ink);
+        }
+
+        .highlight {
+            background: var(--card);
+            border-left: 3px solid var(--accent);
+            padding: 20px 24px;
+            margin: 24px 0;
+            border-radius: 0 var(--radius) var(--radius) 0;
+        }
+
+        .highlight p,
+        .highlight li {
+            color: var(--ink);
+        }
+
+        .hispanic-highlight {
+            background: linear-gradient(135deg, rgba(229, 57, 53, 0.1) 0%, rgba(255, 193, 7, 0.1) 100%);
+            border-left: 3px solid var(--hispanic);
+            padding: 20px 24px;
+            margin: 24px 0;
+            border-radius: 0 var(--radius) var(--radius) 0;
+        }
+
+        .hispanic-highlight p {
+            color: var(--ink);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .page-footer {
+            border-top: 1px solid var(--line);
+            padding: 24px 20px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.85rem;
+        }
+        .page-footer a {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+
+<header class="page-header">
+    <a href="./" class="logo">Elecciones 2026</a>
+    <a href="https://election2026.net/about.html" class="lang-switch">English</a>
+</header>
+
+<div class="content">
+
+<h1>Acerca de Elecciones 2026</h1>
+
+<p><a href="https://elecciones2026.net">Elecciones2026.net</a> es un sitio gratuito y no partidista que permite a cualquier votante en Estados Unidos investigar a sus candidatos y carreras de 2026. Esta construido completamente en <a href="https://quarex.org">Quarex</a>.</p>
+
+<div class="hispanic-highlight">
+<p><strong>Para la Comunidad Latina:</strong> Este sitio fue creado especificamente para servir a los votantes hispanohablantes. Tambien puedes explorar nuestros <a href="https://publicstudies.org/">Estudios Hispanos</a> en Quarex &mdash; curriculos sobre historia, cultura y el impacto latino en Estados Unidos.</p>
+</div>
+
+<h2>Que Hace Este Sitio</h2>
+
+<p>Ingresa tu codigo postal e inmediatamente encuentra tus carreras de la Camara de Representantes, Senado y Gobernador con enlaces a perfiles detallados de candidatos impulsados por IA. Cada perfil es un libro de Quarex &mdash; estructurado, con fuentes, y libre de sesgo editorial.</p>
+
+<div class="highlight">
+<p>El sitio cubre:</p>
+<ul>
+    <li><strong>435 distritos de la Camara</strong> en los 50 estados</li>
+    <li><strong>34 carreras del Senado</strong></li>
+    <li><strong>39 carreras de Gobernador</strong></li>
+    <li><strong>Rama Ejecutiva</strong> &mdash; 26 funcionarios incluyendo gabinete y posiciones senior</li>
+    <li><strong>Corte Suprema</strong> &mdash; los 9 jueces</li>
+</ul>
+</div>
+
+<p>Tambien puedes explorar por estado para ver que carreras estan activas, o explorar por rama del gobierno.</p>
+
+<h2>Por Que Esto Importa</h2>
+
+<p>Los votantes que intentan investigar candidatos enfrentan un panorama de informacion roto:</p>
+
+<ul>
+    <li><strong>Sitios editoriales</strong> te dicen que pensar, filtrado por quienquiera que sea dueno de la publicacion</li>
+    <li><strong>Cobertura de "carrera de caballos"</strong> &mdash; los medios se obsesionan con encuestas y totales de recaudacion mientras ignoran posiciones politicas, historial de votos y caracter del candidato</li>
+    <li><strong>Sitios de datos crudos</strong> vierten informacion sin ayudarte a entenderla</li>
+    <li><strong>Redes sociales</strong> amplifican ruido disenado para generar engagement, no comprension</li>
+</ul>
+
+<p>Miles de millones de dolares se gastan cada ciclo para moldear lo que los votantes creen. Elecciones 2026 es lo opuesto &mdash; sin anuncios, sin cuentas, sin rastreo, sin filtro editorial. Solo preguntas estructuradas y respuestas con fuentes, impulsadas por el sistema de conocimiento Quarex.</p>
+
+<h2>Proximamente: Analisis de Proposiciones Estatales</h2>
+
+<p>La proxima funcion principal sera <strong>analisis de proposiciones y medidas de votacion estatales</strong>. El mismo formato Quarex que impulsa los perfiles de candidatos se aplicara a las medidas de votacion &mdash; que hace realmente una proposicion en lenguaje simple, argumentos a favor y en contra, impacto fiscal, quien la apoya y quien la opone, y contexto historico.</p>
+
+<h2>Como Funciona Quarex</h2>
+
+<p>Cada perfil de candidato en este sitio es un "Libro Vivo" de Quarex. Cada libro contiene capitulos estructurados organizados alrededor de preguntas especificas &mdash; no texto libre, sino un marco deliberado que asegura cobertura consistente y comparable para cada candidato.</p>
+
+<p>Cuando abres un perfil de candidato y usas la busqueda nativa de Quarex o pegas una pregunta en tu IA preferida (Claude, ChatGPT, Perplexity), los datos estructurados le dan a la IA el contexto que necesita para responder con precision, con fuentes, en lugar de adivinar o alucinar.</p>
+
+<p>Quarex no es un motor de opiniones. No te dice por quien votar. Te da la informacion que necesitas para decidir por ti mismo.</p>
+
+<a href="./" class="back-link">&larr; Volver a Elecciones 2026</a>
+
+</div>
+
+<footer class="page-footer">
+    <p>&copy; 2026 Elecciones 2026 &middot; Impulsado por <a href="https://quarex.org">Quarex</a></p>
+</footer>
+
+</body>
+</html>

@@ -19,7 +19,12 @@
         "What share of Hispanic students attend full-time vs. part-time?",
         "How does Hispanic enrollment vary by region and state?"
       ],
-      "tags": ["education", "demographics", "americas", "higher-education"]
+      "tags": [
+        "education",
+        "demographics",
+        "americas",
+        "higher-education"
+      ]
     },
     {
       "name": "Community Colleges",
@@ -31,7 +36,12 @@
         "What workforce programs serve Hispanic community college students?",
         "How can community colleges better serve Hispanic students?"
       ],
-      "tags": ["education", "access", "americas", "community-college"]
+      "tags": [
+        "education",
+        "access",
+        "americas",
+        "community-college"
+      ]
     },
     {
       "name": "Hispanic-Serving Institutions",
@@ -43,7 +53,12 @@
         "What programs and support do HSIs provide?",
         "What is the future of the HSI designation?"
       ],
-      "tags": ["education", "representation", "americas", "hsi"]
+      "tags": [
+        "education",
+        "representation",
+        "americas",
+        "hsi"
+      ]
     },
     {
       "name": "Selective Colleges and Universities",
@@ -55,7 +70,12 @@
         "What Ivy League and flagship university representation exists?",
         "What efforts increase Hispanic access to selective schools?"
       ],
-      "tags": ["education", "inequality", "americas", "admissions"]
+      "tags": [
+        "education",
+        "inequality",
+        "americas",
+        "admissions"
+      ]
     },
     {
       "name": "Paying for College",
@@ -67,7 +87,12 @@
         "What scholarships specifically support Hispanic students?",
         "How do undocumented students pay for college?"
       ],
-      "tags": ["education", "inequality", "americas", "financial-aid"]
+      "tags": [
+        "education",
+        "inequality",
+        "americas",
+        "financial-aid"
+      ]
     },
     {
       "name": "Student Debt",
@@ -79,7 +104,12 @@
         "What default rates exist among Hispanic borrowers?",
         "How might loan forgiveness programs affect Hispanics?"
       ],
-      "tags": ["economics", "inequality", "americas", "student-debt"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "student-debt"
+      ]
     },
     {
       "name": "Persistence and Completion",
@@ -91,7 +121,12 @@
         "What interventions improve Hispanic persistence?",
         "How long does it take Hispanic students to complete degrees?"
       ],
-      "tags": ["education", "inequality", "americas", "graduation"]
+      "tags": [
+        "education",
+        "inequality",
+        "americas",
+        "graduation"
+      ]
     },
     {
       "name": "Campus Climate and Belonging",
@@ -103,7 +138,12 @@
         "What role do Hispanic student organizations play?",
         "How can institutions create more inclusive environments?"
       ],
-      "tags": ["education", "identity", "americas", "campus-culture"]
+      "tags": [
+        "education",
+        "hispanic-culture",
+        "americas",
+        "campus-culture"
+      ]
     },
     {
       "name": "Fields of Study",
@@ -115,7 +155,12 @@
         "What barriers exist to Hispanic entry in high-demand fields?",
         "What programs increase Hispanic STEM representation?"
       ],
-      "tags": ["education", "careers", "americas", "majors"]
+      "tags": [
+        "education",
+        "careers",
+        "americas",
+        "majors"
+      ]
     },
     {
       "name": "Graduate and Professional Education",
@@ -127,7 +172,12 @@
         "How are Hispanic faculty members represented in academia?",
         "What pipeline programs support Hispanic graduate students?"
       ],
-      "tags": ["education", "representation", "americas", "graduate-school"]
+      "tags": [
+        "education",
+        "representation",
+        "americas",
+        "graduate-school"
+      ]
     },
     {
       "name": "Support Programs and Interventions",
@@ -139,7 +189,12 @@
         "What advising models work for Hispanic students?",
         "What comprehensive support models show the best results?"
       ],
-      "tags": ["education", "access", "americas", "student-support"]
+      "tags": [
+        "education",
+        "access",
+        "americas",
+        "student-support"
+      ]
     },
     {
       "name": "The Future of Hispanic Higher Education",
@@ -151,7 +206,12 @@
         "What role will Hispanic alumni play in shaping institutions?",
         "What would educational equity look like for Hispanic students?"
       ],
-      "tags": ["education", "demographics", "americas", "future-trends"]
+      "tags": [
+        "education",
+        "demographics",
+        "americas",
+        "future-trends"
+      ]
     }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "book": "FL-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Randy Fine (R)",
+        "Ernest Audino (R)",
+        "Will Furry (R)",
+        "Charles Gambaro (R)",
+        "Alexandra van Cleef (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Robert Cooper II (D)",
+        "Jennifer Jenkins (D)",
+        "Ronnie Murchinson-Rivera (D)",
+        "James Stockton (D)",
+        "Eric Yonce (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Christopher Manuel Alcantara (I)",
+        "Purvi Bangdiwala (I)",
+        "Amr Metwally (I)"
+      ]
+    }
+  ]
+}

@@ -20,7 +20,12 @@
         "How has the Census definition of Hispanic changed over time?",
         "What data collection challenges did the Hispanic category create?"
       ],
-      "tags": ["history", "identity", "americas", "us-politics"]
+      "tags": [
+        "history",
+        "hispanic-culture",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "Spanish Language as the Common Thread",
@@ -31,7 +36,12 @@
         "What happens to Hispanic identity when Spanish is lost across generations?",
         "How do monolingual English-speaking Hispanics relate to the label?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Colonial Origins: What Spain Left Behind",
@@ -45,7 +55,12 @@
         "What common cultural traits do scholars identify across Hispanic populations?",
         "How did Catholicism become central to Hispanic cultural identity?"
       ],
-      "tags": ["history", "colonialism", "americas", "anthropology"]
+      "tags": [
+        "history",
+        "colonialism",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Hispanic vs. Latino: The Great Debate",
@@ -58,7 +73,12 @@
         "Is there a generational divide in term preference?",
         "How do Brazilians and Spaniards fit into this debate?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Latinx: A New Term Emerges",
@@ -69,7 +89,12 @@
         "What do polls show about Latinx acceptance across generations?",
         "How do linguistic traditionalists critique the term?"
       ],
-      "tags": ["society", "identity", "americas", "gender"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "gender"
+      ]
     },
     {
       "name": "Race and the Hispanic Category",
@@ -84,7 +109,12 @@
         "What does 'brown' mean in Hispanic racial discourse?",
         "How do indigenous-identifying Hispanics navigate these categories?"
       ],
-      "tags": ["society", "identity", "americas", "race"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "race"
+      ]
     },
     {
       "name": "National Origin vs. Pan-Ethnic Identity",
@@ -95,7 +125,12 @@
         "What circumstances promote pan-ethnic solidarity?",
         "How do political movements create or reinforce pan-ethnic identity?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Politics of Counting",
@@ -108,7 +143,12 @@
         "What does the growth of the Hispanic population mean for American politics?",
         "How do projections of a 'majority-minority' future shape debates?"
       ],
-      "tags": ["politics", "representation", "americas", "elections"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "elections"
+      ]
     },
     {
       "name": "Marketing and the Hispanic Consumer",
@@ -119,7 +159,12 @@
         "What products and brands have become associated with Hispanic culture?",
         "How do Hispanics respond to being marketed to as a group?"
       ],
-      "tags": ["economics", "identity", "americas", "sociology"]
+      "tags": [
+        "economics",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Who Gets to Be Hispanic?",
@@ -133,7 +178,12 @@
         "How do adopted children from Latin America experience Hispanic identity?",
         "What about Americans who move to Latin America and return?"
       ],
-      "tags": ["society", "identity", "americas", "anthropology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Critiques of the Category",
@@ -144,7 +194,12 @@
         "How do some activists reject pan-ethnic labels entirely?",
         "What would be lost if the Hispanic category disappeared?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "The Future of Hispanic Identity",
@@ -157,7 +212,12 @@
         "Is Hispanic identity becoming more or less important?",
         "How might political polarization affect Hispanic identity formation?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

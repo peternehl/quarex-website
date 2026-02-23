@@ -1,0 +1,35 @@
+{
+  "book": "Nebraska",
+  "chapters": [
+    {
+      "name": "NE-01",
+      "topics": [
+        "Mike Flood (R)",
+        "Christopher Backemeyer (D)",
+        "Eric Moyer (D)"
+      ]
+    },
+    {
+      "name": "NE-02",
+      "topics": [
+        "Brinker Harding (R)",
+        "Brett Lindstrom (R)",
+        "Evangelos Argyrakis (D)",
+        "Kishla Askins (D)",
+        "John Cavanaugh (D)",
+        "James Leuschen (D)",
+        "Denise Powell (D)",
+        "Crystal Rhoades (D)"
+      ]
+    },
+    {
+      "name": "NE-03",
+      "topics": [
+        "Adrian Smith (R)",
+        "David Huebner (R)",
+        "Becky Lynn Stille (D)",
+        "Mark Cohen (I)"
+      ]
+    }
+  ]
+}

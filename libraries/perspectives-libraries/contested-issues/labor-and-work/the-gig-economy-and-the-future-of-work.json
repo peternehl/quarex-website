@@ -1,0 +1,150 @@
+{
+  "name": "The Gig Economy and the Future of Work",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is the Gig Economy?",
+      "topics": [
+        "Why is the 'gig economy' surprisingly hard to define—and why do different definitions yield different size estimates?",
+        "What is platform work, and why do platforms claim to be marketplaces rather than employers?",
+        "How large is the gig economy really, and how many workers depend on it as primary income?",
+        "What is new about gig work compared to freelancing and contracting that have existed for centuries?",
+        "Why has the gig economy grown from both employer and worker perspectives?",
+        "What fundamental questions does the gig economy raise about what 'work' even means?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Platform Business Model",
+      "topics": [
+        "How do platforms position themselves as technology firms rather than employers—and what does this obscure?",
+        "Why do the economics of platform work heavily favor platforms over workers?",
+        "How has risk been transferred from companies to workers who earn nothing when there are no gigs?",
+        "What network effects create winner-take-all dynamics that reduce competition and worker options?",
+        "Why have platform companies like Uber been remarkably unprofitable despite extracting value from workers?",
+        "What happens to worker earnings when investors demand profits from loss-making platforms?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Employee vs. Contractor: The Classification Battle",
+      "topics": [
+        "Why do billions of dollars—and the viability of the platform model—hang on the employee vs. contractor distinction?",
+        "What are the different legal tests—IRS, economic reality, ABC—and why do they yield different results?",
+        "How does the ABC test work, and why do gig workers typically fail at least prong B?",
+        "What did California's AB5 require, and how did gig companies respond with Proposition 22?",
+        "What hybrid category did Prop 22 create, and what are the limits of its benefits?",
+        "What rules is the Biden administration proposing, and why will the classification battle continue for years?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "California's Prop 22 and the Corporate Playbook",
+      "topics": [
+        "How did Uber, Lyft, DoorDash, and Instacart spend over $200 million on Prop 22—the most expensive ballot measure in California history?",
+        "How was the campaign carefully crafted to frame the issue as worker choice versus lost flexibility?",
+        "What do Prop 22's actual provisions provide—and how do they compare to genuine employment?",
+        "Why does Prop 22 require a seven-eighths supermajority to amend, making it virtually impossible to change?",
+        "How has Prop 22 created a playbook that companies are attempting to replicate in other states?",
+        "What are the long-term effects of benefits determined by corporate negotiation with voters?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Algorithmic Management: Your Boss Is an App",
+      "topics": [
+        "How do algorithms in the gig economy assign work, set pay, evaluate performance, and terminate workers?",
+        "How do work assignment algorithms determine who gets jobs based on factors companies don't fully disclose?",
+        "What is dynamic pricing, and why does its opacity create anxiety and constant app-checking?",
+        "How do ratings systems create constant performance pressure without meaningful appeal?",
+        "What forms does surveillance take—GPS, driving patterns, delivery times—and how does it shape behavior?",
+        "What are the psychological costs of algorithmic management stripped of human connection?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Warehouse Work: Amazon and the New Factory",
+      "topics": [
+        "What is it like to work in an Amazon fulfillment center where productivity is monitored with precision?",
+        "What does 'rate'—the speed target workers must meet—mean in practice for workers?",
+        "Why are Amazon warehouse injury rates roughly twice the industry average?",
+        "What does it mean that Amazon reportedly turns over its entire warehouse workforce within about three years?",
+        "How is automation advancing, and what is the long-term direction for human workers?",
+        "What did the Amazon Labor Union victory in Staten Island show about worker power—and what obstacles remain?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Remote Work: Liberation or Exploitation?",
+      "topics": [
+        "What did the COVID-19 forced experiment in mass remote work reveal about productivity and worker preferences?",
+        "What genuine benefits does remote work offer for commute savings, flexibility, and accessibility?",
+        "How can remote work blur boundaries, create always-on availability, and increase isolation?",
+        "How has surveillance software followed workers home with keystroke tracking and screenshot monitoring?",
+        "Why is remote work not equally available—and how did the pandemic widen class divides?",
+        "How will hybrid arrangements be contested between workers who want flexibility and employers who want control?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "AI and Automation: The Jobs Question",
+      "topics": [
+        "How does AI differ from previous automation by replacing cognitive tasks and learning from data?",
+        "Why do predictions about AI's job impact vary wildly—from a quarter of jobs to minimal disruption?",
+        "Which jobs are most exposed to AI automation, and why do boundaries keep shifting?",
+        "What does history suggest about new jobs emerging—but also painful transitions that leave workers stranded?",
+        "What policy choices around training, social insurance, and regulation shape automation's effects?",
+        "How will society manage the transition to protect those affected by AI-driven change?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Hollowing Out of the Middle",
+      "topics": [
+        "What is job polarization—growth at the top and bottom, decline in the middle—and what caused it?",
+        "How did computers and automation replace the routine tasks that provided middle-wage employment?",
+        "How did globalization reinforce automation's effects by moving manufacturing jobs overseas?",
+        "What happened to the path from high school to middle-class life that manufacturing once provided?",
+        "Why is 'more education' an insufficient prescription for addressing polarization?",
+        "What structural changes—minimum wages, unions, public investment—could address polarization as a policy outcome?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Portable Benefits and the New Social Contract",
+      "topics": [
+        "How was the American safety net built around stable, full-time employment—and why is that assumption crumbling?",
+        "How does employment fragmentation leave gig workers, contractors, and part-time workers unprotected?",
+        "What are portable benefits, and how would they decouple protections from specific employers?",
+        "What implementation challenges do portable benefits face in contributions, administration, and integration?",
+        "What is universal basic income, and what are the arguments for and against it?",
+        "What new social contract must recognize that dignity does not depend on a particular employment relationship?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Organizing the Unorganizable",
+      "topics": [
+        "What fundamental challenges does the gig economy's fragmentation pose for traditional union organizing?",
+        "What real results has informal organizing achieved through driver strikes and social media coordination?",
+        "How do worker centers provide organizing infrastructure for workers excluded from traditional labor law?",
+        "What new model did the Freelancers Union pioneer for providing benefits and advocacy without collective bargaining?",
+        "What legal innovations—sectoral bargaining, portable benefit governance, new legal categories—could expand possibilities?",
+        "Why is building power through organizing, politics, and solidarity essential despite the form organizing takes?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "What Do Workers Want?",
+      "topics": [
+        "What does survey data reveal about the complexity of worker preferences for flexibility, stability, and dignity?",
+        "Why does flexibility genuinely matter to parents, workers with disabilities, and people with multiple commitments?",
+        "Why is flexibility without stability precarious, leaving workers anxious about variable pay and unpredictable hours?",
+        "What does dignity mean to workers—being treated as adults, recognition, voice in decisions?",
+        "Why do benefits matter enormously as the gap between traditional employment and gig work?",
+        "What would a genuinely worker-centered future look like—and is the obstacle feasibility or power?"
+      ],
+      "tags": []
+    }
+  ]
+}

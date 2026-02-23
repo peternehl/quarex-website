@@ -2,12 +2,24 @@
   "book": "OH-11",
   "chapters": [
     {
+      "name": "Republican",
+      "topics": [
+        "James Hemphill (R)",
+        "Mike Kirchner (R)"
+      ]
+    },
+    {
       "name": "Democratic",
       "topics": [
         "Shontel Brown (D)",
-        "Ardelia Holmes (D)",
-        "David Light (D)",
-        "Cortney Peterson (D)"
+        "Sean Freeman (D)",
+        "Ardelia Holmes (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Cortney Peterson (I)"
       ]
     }
   ]

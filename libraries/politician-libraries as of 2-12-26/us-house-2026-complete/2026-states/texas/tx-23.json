@@ -1,0 +1,30 @@
+{
+  "book": "TX-23",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tony Gonzales (R)",
+        "Keith Barton (R)",
+        "Francisco Canseco (R)",
+        "Brandon Herrera (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Gretel Marysdatter Enck (D)",
+        "Santos Limon (D)",
+        "Bruce Richardson (D)",
+        "Katy Padilla Stout (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Patti Hale Ashe (I)",
+        "Veronica Williams (I)"
+      ]
+    }
+  ]
+}

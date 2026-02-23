@@ -1,0 +1,126 @@
+{
+  "name": "Bonds and Fixed Income",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is a Bond?",
+      "topics": [
+        "When you buy a bond, what are you actually doing?",
+        "How is lending money through bonds different from a bank loan?",
+        "What are the basic terms: principal, coupon, maturity?",
+        "Who issues bonds—governments, corporations, municipalities?",
+        "Why would you buy a bond instead of a stock?",
+        "What role do bonds play in most investment portfolios?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "Government Bonds: The Safest Investment?",
+      "topics": [
+        "What are US Treasury bonds, notes, and bills?",
+        "Why are Treasuries considered 'risk-free' (and are they really)?",
+        "How do you buy Treasury bonds directly from the government?",
+        "What are I-Bonds and how do they protect against inflation?",
+        "How do Treasury Inflation-Protected Securities (TIPS) work?",
+        "What are the yields on government bonds right now and why?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "Corporate Bonds",
+      "topics": [
+        "Why do corporations issue bonds instead of just borrowing from banks?",
+        "What's the difference between investment-grade and junk bonds?",
+        "What are bond ratings and who assigns them—Moody's, S&P, Fitch?",
+        "Why do riskier bonds pay higher yields?",
+        "What happens to bondholders if a company goes bankrupt?",
+        "How do you evaluate whether a corporate bond is worth the risk?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Municipal Bonds and Tax Benefits",
+      "topics": [
+        "What are municipal bonds and who issues them?",
+        "Why is muni bond interest often tax-free?",
+        "When do the tax benefits of munis make them worth buying?",
+        "What's the difference between general obligation and revenue bonds?",
+        "How safe are municipal bonds really?",
+        "How do you evaluate whether a muni makes sense for your tax bracket?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "How Bond Prices and Yields Work",
+      "topics": [
+        "Why do bond prices move opposite to interest rates?",
+        "What is yield-to-maturity and why does it matter more than coupon rate?",
+        "How do you read a bond quote?",
+        "What is the yield curve and what does its shape tell us?",
+        "Why does an 'inverted yield curve' worry economists?",
+        "How do you compare bonds with different maturities and coupons?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "monetary-policy"]
+    },
+    {
+      "name": "Duration and Interest Rate Risk",
+      "topics": [
+        "What is bond duration and why should you care?",
+        "How does duration tell you how sensitive your bond is to rate changes?",
+        "Why did long-term bonds lose so much value in 2022?",
+        "How can you reduce interest rate risk in your bond holdings?",
+        "What is a bond ladder and how does it help?",
+        "Should you buy short-term or long-term bonds?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Credit Risk: When Borrowers Don't Pay",
+      "topics": [
+        "What is credit risk and how likely are bonds to default?",
+        "How do defaults actually work—do you lose everything?",
+        "What is recovery rate and what do bondholders typically get back?",
+        "How do credit spreads change during recessions?",
+        "Why did investment-grade bonds become junk bonds during crises?",
+        "How do you balance yield hunting against default risk?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Bond Funds vs Individual Bonds",
+      "topics": [
+        "Why do most regular investors use bond funds instead of individual bonds?",
+        "How does a bond fund work—what's inside it?",
+        "What's the difference between bond mutual funds and bond ETFs?",
+        "Why don't bond funds have a maturity date like individual bonds?",
+        "When does it make sense to buy individual bonds?",
+        "What are target-date bond funds and defined-maturity ETFs?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "Bonds in Your Portfolio",
+      "topics": [
+        "What role should bonds play at different life stages?",
+        "What does '60/40 stocks/bonds' mean and is it still relevant?",
+        "How do bonds reduce portfolio volatility during stock crashes?",
+        "What happened to the stocks/bonds relationship in 2022?",
+        "How much of your portfolio should be in bonds?",
+        "What types of bonds belong in which accounts for tax efficiency?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Other Fixed Income: CDs, Money Markets, and More",
+      "topics": [
+        "What are certificates of deposit (CDs) and how do they compare to bonds?",
+        "What are money market funds and when should you use them?",
+        "What are high-yield savings accounts and are they better than bonds?",
+        "What are bond alternatives like preferred stocks and convertibles?",
+        "Where does cash belong in an investment portfolio?",
+        "How do you decide between all these fixed-income options?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "monetary-policy"]
+    }
+  ]
+}

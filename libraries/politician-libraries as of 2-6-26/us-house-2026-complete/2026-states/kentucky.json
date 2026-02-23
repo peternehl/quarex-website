@@ -1,0 +1,81 @@
+{
+  "book": "Kentucky",
+  "chapters": [
+    {
+      "name": "KY-01",
+      "topics": [
+        "James Comer Jr. (R)",
+        "Penny Arcos (R)",
+        "David Sims (R)",
+        "Robert James Sutherby (R)",
+        "Drew Williams (D)"
+      ]
+    },
+    {
+      "name": "KY-02",
+      "topics": [
+        "Brett Guthrie (R)",
+        "G. Perry Adelmann (R)",
+        "Joshua Ferguson (R)",
+        "William Compton (D)",
+        "David Hatfield (D)",
+        "Hank Linderman (D)",
+        "Megan Wingfield (D)"
+      ]
+    },
+    {
+      "name": "KY-03",
+      "topics": [
+        "Daniel Cobble (R)",
+        "David Nichter (R)",
+        "Donald Pay (R)",
+        "Maria Teresa Rodriguez (R)",
+        "Morgan McGarvey (D)",
+        "Oumou Diallo (I)"
+      ]
+    },
+    {
+      "name": "KY-04",
+      "topics": [
+        "Thomas Massie (R)",
+        "Nicole Lee Ethington (R)",
+        "Ed Gallrein (R)",
+        "Jesse Brewer (D)",
+        "Elizabeth Mason-Hill (D)",
+        "Melissa Strange (D)"
+      ]
+    },
+    {
+      "name": "KY-05",
+      "topics": [
+        "Hal Rogers (R)",
+        "Benjamin Hurley (R)",
+        "Brandon Monhollen (R)",
+        "Jerry Shelton (R)",
+        "Kevin Smith (R)",
+        "Jacob Trimble (R)",
+        "Ned Pillersdorf (D)",
+        "Mikel Wein (I)"
+      ]
+    },
+    {
+      "name": "KY-06",
+      "topics": [
+        "Ralph Alvarado (R)",
+        "Ryan Dotson (R)",
+        "Adam Perez Arquette (R)",
+        "Greg Plucinski (R)",
+        "Steve Shannon (R)",
+        "Jimmy Ausbrooks (D)",
+        "Harvey Carroll Jr. (D)",
+        "Zach Dembo (D)",
+        "Corey Edwards (D)",
+        "David Kloiber (D)",
+        "Erin Petrey (D)",
+        "Cherlynn Stevenson (D)",
+        "Jay Bowman (I)",
+        "Pete Lynch (I)"
+      ]
+    }
+  ]
+}

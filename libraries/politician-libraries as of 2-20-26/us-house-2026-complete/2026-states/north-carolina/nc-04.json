@@ -1,0 +1,25 @@
+{
+  "book": "NC-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mahesh Ganorkar (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Valerie Foushee (D)",
+        "Nida Allam (D)",
+        "Mary Patterson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Guy Meilleur (L)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "book": "SC-04",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "William Timmons (R)",
+        "David Atchley (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Courtney McClain (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jessica Ethridge (L)"
+      ]
+    }
+  ]
+}

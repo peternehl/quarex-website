@@ -1,0 +1,115 @@
+{
+  "name": "Queer Culture: Literature, Art, and Expression",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["queer art", "LGBTQ+ literature", "drag", "queer cinema", "Keith Haring"],
+  "chapters": [
+    {
+      "name": "Queer Literature: From Coded to Celebrated",
+      "topics": [
+        "How did LGBTQ+ writers encode their identities in earlier literature?",
+        "What made the publication of 'Giovanni's Room' or 'The City and the Pillar' significant?",
+        "How did lesbian pulp fiction create community through commercial publishing?",
+        "What role has poetry played in LGBTQ+ expression?",
+        "How has LGBTQ+ young adult literature evolved?",
+        "What contemporary LGBTQ+ authors are shaping literature today?"
+      ],
+      "tags": ["literature", "lgbtq", "culture", "history"]
+    },
+    {
+      "name": "Queer Visual Art: Seeing Ourselves",
+      "topics": [
+        "How have LGBTQ+ artists represented queer life and desire?",
+        "What was Keith Haring's significance as an artist and activist?",
+        "How did artists respond to the AIDS crisis through their work?",
+        "What role did photography play in documenting LGBTQ+ communities?",
+        "How do contemporary queer artists challenge norms and expectations?",
+        "What institutional barriers have LGBTQ+ artists faced in the art world?"
+      ],
+      "tags": ["visual-arts", "lgbtq", "culture", "history"]
+    },
+    {
+      "name": "The Art of Drag",
+      "topics": [
+        "What is drag and what are its historical roots?",
+        "How does drag comment on and play with gender?",
+        "What different styles and traditions of drag exist?",
+        "How has drag moved from underground to mainstream?",
+        "What debates exist about drag within LGBTQ+ communities?",
+        "How have drag performers responded to recent political attacks?"
+      ],
+      "tags": ["performing-arts", "lgbtq", "gender", "culture"]
+    },
+    {
+      "name": "Queer Theater and Performance",
+      "topics": [
+        "How has theater provided space for queer expression?",
+        "What was the significance of plays like 'The Boys in the Band' and 'Torch Song Trilogy'?",
+        "How did 'Angels in America' change American theater?",
+        "What role has Broadway played in LGBTQ+ visibility?",
+        "How do queer performance artists challenge theatrical conventions?",
+        "What contemporary LGBTQ+ theater is pushing boundaries?"
+      ],
+      "tags": ["theater", "lgbtq", "performing-arts", "culture"]
+    },
+    {
+      "name": "Queer Cinema: From Coding to Centering",
+      "topics": [
+        "How did the Hollywood Production Code affect LGBTQ+ representation?",
+        "What was the significance of New Queer Cinema in the 1990s?",
+        "How have independent films given voice to LGBTQ+ stories?",
+        "What documentaries have captured LGBTQ+ history and experience?",
+        "How has mainstream Hollywood evolved in LGBTQ+ representation?",
+        "What international films have contributed to queer cinema?"
+      ],
+      "tags": ["film", "lgbtq", "culture", "media"]
+    },
+    {
+      "name": "Camp Aesthetics and Queer Style",
+      "topics": [
+        "What is 'camp' and how did Susan Sontag define it?",
+        "How has camp been central to queer cultural expression?",
+        "What makes something camp versus just ironic or kitschy?",
+        "How have fashion and style been tools of queer expression?",
+        "What role does camp play in drag and other performance?",
+        "How has camp influenced mainstream culture?"
+      ],
+      "tags": ["aesthetics", "lgbtq", "culture", "fashion"]
+    },
+    {
+      "name": "LGBTQ+ Archives and Cultural Preservation",
+      "topics": [
+        "Why is preserving LGBTQ+ culture urgent and challenging?",
+        "What major LGBTQ+ archives exist and what do they hold?",
+        "How do communities document their own histories?",
+        "What role do museums play in LGBTQ+ cultural preservation?",
+        "What happens to LGBTQ+ cultural materials when people die?",
+        "How are digital archives changing LGBTQ+ preservation?"
+      ],
+      "tags": ["archives", "lgbtq", "history", "culture"]
+    },
+    {
+      "name": "Queer Zines, Comics, and DIY Culture",
+      "topics": [
+        "What role have zines played in LGBTQ+ cultural production?",
+        "How did queer punk and riot grrrl movements use DIY media?",
+        "What LGBTQ+ comic artists have shaped the medium?",
+        "How has self-publishing allowed marginalized voices to emerge?",
+        "What digital platforms continue the DIY tradition?",
+        "How does DIY culture resist commercial co-optation?"
+      ],
+      "tags": ["culture", "lgbtq", "media", "literature"]
+    },
+    {
+      "name": "Pride, Festivals, and Cultural Celebration",
+      "topics": [
+        "How have Pride celebrations evolved from protest to parade?",
+        "What tensions exist between corporate Pride and grassroots celebration?",
+        "What other LGBTQ+ cultural festivals and events exist?",
+        "How do different cities approach Pride differently?",
+        "What role do LGBTQ+ film festivals play in cultural life?",
+        "How can Pride remain meaningful as a political and cultural event?"
+      ],
+      "tags": ["culture", "lgbtq", "community", "activism"]
+    }
+  ]
+}

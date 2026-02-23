@@ -1,0 +1,43 @@
+{
+  "book": "Mississippi",
+  "chapters": [
+    {
+      "name": "MS-01",
+      "topics": [
+        "Trent Kelly (R)",
+        "Kelvin Buck (D)",
+        "Cliff Johnson (D)"
+      ]
+    },
+    {
+      "name": "MS-02",
+      "topics": [
+        "Ron Eller (R)",
+        "Kevin Wilson (R)",
+        "Bennie Thompson (D)",
+        "Evan Turnage (D)",
+        "Pertis Williams III (D)",
+        "Bennie Foster (I)"
+      ]
+    },
+    {
+      "name": "MS-03",
+      "topics": [
+        "Michael Guest (R)",
+        "Michael Chiaradio (D)",
+        "Erik Kiehle (L)"
+      ]
+    },
+    {
+      "name": "MS-04",
+      "topics": [
+        "Mike Ezell (R)",
+        "Sawyer Walters (R)",
+        "Paul Blackman (D)",
+        "D. Ryan Grover (D)",
+        "Jeffrey Hulum III (D)",
+        "Carl Boyanton (I)"
+      ]
+    }
+  ]
+}

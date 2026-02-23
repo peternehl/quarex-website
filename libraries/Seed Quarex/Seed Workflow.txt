@@ -1,21 +1,43 @@
-Read the JSON from unlimited/Seed Quarex/
-Validate the file and 
-Provide a detailed opinion about the file
+QUAREX SEED WORKFLOW
+
+== STEP 1: READ & EXPAND ==
+Read the JSON seed from libraries/Seed Quarex/
+Follow the seed's _instructions field:
+   - Create as many chapters as necessary to cover the subject thoroughly
+   - Each chapter: 4-8 Topics as curiosity-sparking questions
+   - Chapters and Topics combine with library type, library, shelf, and book
+     to create deep context for the answering LLM
+
+== STEP 2: VALIDATE & REVIEW ==
+Validate the JSON structure
+Provide a detailed opinion about the book
+
+== STEP 3: TAG CHAPTERS ==
 Replace existing chapter tags with vocabulary-compliant tags:
-   - Use ONLY tags from "Utilities and Info Files/tag-vocabulary.json"
+   - Use ONLY tags from "libraries/_utils/tag-vocabulary.json"
    - Each chapter gets exactly 4 tags forming a specificity gradient:
-     Tag 1 (Broad): Domain anchor from 18 broad tags (e.g., conflict, ethics, history)
-     Tag 2 (Medium): Conceptual lens from 79 medium tags (e.g., colonialism, revolution)
-     Tag 3-4 (Specific): Concrete subjects from 183 specific tags (e.g., world-wars, nuclear-weapons)
+     Tag 1 (Broad): Domain anchor from broad tags (e.g., conflict, ethics, history)
+     Tag 2 (Medium): Conceptual lens from medium tags (e.g., colonialism, revolution)
+     Tag 3-4 (Specific): Concrete subjects from specific tags (e.g., world-wars, nuclear-weapons)
    - Match keywords from chapter name + topics to tag descriptions
    - Ensure tag diversity (no duplicates within a chapter)
-Place in the correct shelf folder as specified in the seed's _placement field
+
+== STEP 4: PLACE THE BOOK ==
+Place in the correct shelf folder as specified in the seed's _placement field:
+   - library_type, library, shelf
+   - If new_shelf is true, create the shelf and its _manifest.json
+
+== STEP 5: UPDATE MANIFESTS ==
 Update the shelf's _manifest.json with full book metadata:
    - slug, name, description (or null)
    - chapterCount: number of chapters
    - tags: array of key vocabulary tags representing the book
    - created_by: author attribution from the seed
 Update the library's _manifest.json bookCount if this is a new book
-Update libraries/book-index.json if this is a new book
-Rebuild discovery-index.json: node "Utilities and Info Files/build-discovery-index-v2.js"
+
+== STEP 6: REBUILD INDEXES ==
+Rebuild book-index.json: node "libraries/_utils/build-book-index.js"
+Rebuild discovery-index.json: node "libraries/_utils/build-discovery-index-v2.js"
+
+== STEP 7: UPLOAD LIST ==
 Provide a list of files to upload to the server

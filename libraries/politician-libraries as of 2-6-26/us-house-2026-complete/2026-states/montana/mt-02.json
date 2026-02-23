@@ -1,0 +1,24 @@
+{
+  "book": "MT-02",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Troy Downing (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sam Lux (D)",
+        "Brian Miller (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Michael Eisenhauer (I)"
+      ]
+    }
+  ]
+}

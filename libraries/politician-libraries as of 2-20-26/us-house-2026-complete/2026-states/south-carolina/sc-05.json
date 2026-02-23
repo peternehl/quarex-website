@@ -1,0 +1,20 @@
+{
+  "book": "SC-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Bill Bledsoe (R)",
+        "Wes Climer (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Andrew Clough (D)",
+        "Mallory Dittmer (D)",
+        "Alex Harper (D)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "book": "Wyoming",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Eric Barlow (R)",
+        "Brent Bien (R)",
+        "Megan Degenfelder (R)",
+        "Joseph Kibler (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Gabriel Green (D)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "book": "Maine",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Susan Collins (R)",
+        "Carmen Calabrese (R)",
+        "Daniel Smeriglio (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Natasha Alcala (D)",
+        "David Costello (D)",
+        "Tucker Favreau (D)",
+        "Andrea LaFlamme (D)",
+        "Janet T. Mills (D)",
+        "Graham Platner (D)",
+        "Daira Rodriguez (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Timothy Rich (I)",
+        "David Evans (I)"
+      ]
+    }
+  ]
+}

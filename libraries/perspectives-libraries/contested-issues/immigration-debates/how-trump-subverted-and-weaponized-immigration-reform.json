@@ -1,0 +1,211 @@
+{
+  "name": "How Trump Subverted and Weaponized Immigration Reform",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": [
+    "immigration",
+    "us-politics",
+    "trump",
+    "maga",
+    "hispanic-culture"
+  ],
+  "chapters": [
+    {
+      "name": "Immigration Reform Before Trump: A Bipartisan History",
+      "topics": [
+        "How did Reagan's 1986 Immigration Reform and Control Act combine amnesty with enforcement?",
+        "Why did George W. Bush push for comprehensive immigration reform and what killed it?",
+        "What was the Gang of Eight bill and how close did it come to passing?",
+        "Which Republican leaders historically supported paths to citizenship?",
+        "How did the business community and labor unions both advocate for reform?",
+        "What consensus existed on the need for a functional immigration system?"
+      ],
+      "tags": ["history", "politics", "immigration", "us-politics"]
+    },
+    {
+      "name": "The 2016 Campaign: Immigration as a Weapon",
+      "topics": [
+        "How did Trump's announcement speech frame immigration as an existential threat?",
+        "Why did 'build the wall' become a defining rallying cry?",
+        "How did the rhetoric differ from previous Republican candidates?",
+        "What role did media coverage of immigration play in Trump's rise?",
+        "How did Trump outflank other Republican candidates on immigration?",
+        "Why did nativist language resonate with a segment of the electorate?",
+        "How does the weaponization of immigration mirror the Republican playbook on abortion - keeping the issue alive rather than solving it?"
+      ],
+      "tags": ["politics", "rhetoric", "elections", "trump"]
+    },
+    {
+      "name": "The Muslim Ban: Setting the Tone",
+      "topics": [
+        "What did Executive Order 13769 actually do in its first version?",
+        "How did the chaos at airports reveal the lack of planning?",
+        "What legal challenges immediately arose and how did courts respond?",
+        "How did the administration revise the ban to survive legal scrutiny?",
+        "What message did the ban send about who belongs in America?",
+        "How did the Muslim ban preview the administration's approach to immigration?"
+      ],
+      "tags": ["law", "human-rights", "immigration", "trump"]
+    },
+    {
+      "name": "Family Separation: Cruelty as Policy",
+      "topics": [
+        "What was the zero tolerance policy and who designed it?",
+        "How many children were separated from their parents at the border?",
+        "Why was the government unable to reunite families it had separated?",
+        "What was the stated justification and what was the actual purpose?",
+        "How did family separation become public and what was the response?",
+        "What lasting trauma resulted from deliberate family separation?"
+      ],
+      "tags": ["ethics", "human-rights", "immigration", "trump"]
+    },
+    {
+      "name": "DACA and the Dreamers: Hostages to Politics",
+      "topics": [
+        "What was DACA and why did Obama create it through executive action?",
+        "Why did Trump move to end DACA and what did courts say?",
+        "How were Dreamers used as bargaining chips in shutdown negotiations?",
+        "Why has Congress repeatedly failed to pass permanent protection?",
+        "What is life like for DACA recipients living in perpetual uncertainty?",
+        "How did weaponizing Dreamers undermine potential compromise?"
+      ],
+      "tags": ["politics", "law", "immigration", "us-politics"]
+    },
+    {
+      "name": "The Wall: Symbol Over Substance",
+      "topics": [
+        "What border barriers existed before Trump and how effective were they?",
+        "Why did the wall become the central symbol of Trump's immigration policy?",
+        "How much wall was actually built and who paid for it?",
+        "What did the national emergency declaration reveal about priorities?",
+        "How did the focus on the wall distract from other policy changes?",
+        "Why do experts say walls don't address the actual immigration challenges?"
+      ],
+      "tags": ["politics", "infrastructure", "immigration", "trump"]
+    },
+    {
+      "name": "Asylum Under Attack",
+      "topics": [
+        "What is the legal right to seek asylum and where does it come from?",
+        "How did Remain in Mexico force asylum seekers to wait in danger?",
+        "What was metering and how did it create bottlenecks at ports of entry?",
+        "How did safe third country agreements redirect asylum seekers?",
+        "What happened to asylum grant rates under Trump-era policies?",
+        "How did attacking asylum undermine America's refugee tradition?"
+      ],
+      "tags": ["law", "human-rights", "refugees", "immigration"]
+    },
+    {
+      "name": "The Invisible Crackdown: Interior Enforcement",
+      "topics": [
+        "How did ICE priorities shift from criminals to anyone undocumented?",
+        "What happened to enforcement in courthouses, schools, and hospitals?",
+        "How did the public charge rule discourage legal immigration?",
+        "What changes to legal immigration flew under the radar?",
+        "How did processing delays and denials increase for legal applicants?",
+        "Why did the administration reduce refugee admissions to historic lows?"
+      ],
+      "tags": ["law", "governance", "immigration", "us-politics"]
+    },
+    {
+      "name": "The Rhetoric of Invasion",
+      "topics": [
+        "How did language like 'invasion' and 'infestation' dehumanize immigrants?",
+        "What is replacement theory and how did it enter mainstream politics?",
+        "How did caravan coverage amplify fear before the 2018 midterms?",
+        "What connection exists between anti-immigrant rhetoric and violence?",
+        "How did the 2019 El Paso Walmart shooter's manifesto echo Trump's 'invasion' rhetoric?",
+        "Why does word choice matter in shaping public perception of immigration?"
+      ],
+      "tags": ["media", "rhetoric", "propaganda", "immigration"]
+    },
+    {
+      "name": "Killing Bipartisan Reform",
+      "topics": [
+        "What happened to Republican support for comprehensive reform after 2016?",
+        "How did Trump reject deals that included wall funding and DACA protection?",
+        "Why did the administration seem to prefer the issue over a solution?",
+        "How did polarization on immigration affect other policy areas?",
+        "What happened to business community advocacy for reform?",
+        "Why is bipartisan immigration legislation now harder than ever?"
+      ],
+      "tags": ["politics", "democracy", "immigration", "us-politics"]
+    },
+    {
+      "name": "COVID-19: Exploiting a Crisis",
+      "topics": [
+        "How did Title 42 use public health to expel asylum seekers?",
+        "What legal basis existed for closing the border to migration?",
+        "How did the pandemic accelerate existing restrictionist policies?",
+        "What happened to immigration courts and processing during COVID?",
+        "How did essential workers highlight contradictions in immigration policy?",
+        "Why did Title 42 outlast the public health emergency?"
+      ],
+      "tags": ["health", "law", "immigration", "us-politics"]
+    },
+    {
+      "name": "Killing the Deal: Trump Torpedoes the 2024 Border Bill",
+      "topics": [
+        "What was in the bipartisan Lankford-Murphy border security bill?",
+        "How did the bill address Republican demands on asylum and border enforcement?",
+        "Why did Trump publicly demand Republicans kill the bill?",
+        "How did Trump's intervention override Senate Republicans who negotiated it?",
+        "What did killing the bill reveal about whether Trump wants solutions or issues?",
+        "How did Biden and Democrats respond to the collapse of negotiations?",
+        "What precedent does this set for future bipartisan immigration efforts?",
+        "How did border state Republicans react to losing a deal they wanted?"
+      ],
+      "tags": ["politics", "congress", "immigration", "trump"]
+    },
+    {
+      "name": "The Second Term Agenda in Action",
+      "topics": [
+        "How has the Trump administration operationalized mass deportation since January 2025?",
+        "What executive orders on immigration were signed in the first weeks of the second term?",
+        "How is the administration attempting to end birthright citizenship and what do courts say?",
+        "What is 'ideological screening' and how is it being implemented at ports of entry?",
+        "How has the deportation apparatus scaled compared to the first term?",
+        "What industries are experiencing labor shortages as enforcement accelerates?",
+        "How are deportation flights being coordinated with other countries?",
+        "What is the current status of legal challenges to second-term immigration policies?"
+      ],
+      "tags": ["politics", "governance", "immigration", "trump"]
+    },
+    {
+      "name": "ICE as a Tool of Dominance: 2025-2026",
+      "topics": [
+        "How has the Trump administration expanded ICE operations in the second term?",
+        "What is the purpose of high-profile raids designed for media coverage?",
+        "How are sanctuary cities being targeted for political retaliation?",
+        "What role does ICE play in creating a climate of fear in immigrant communities?",
+        "How do mass deportation operations affect mixed-status families?",
+        "What happens to communities when ICE becomes an occupying presence?",
+        "How does using immigration enforcement as political theater differ from actual policy?",
+        "What legal challenges have emerged to second-term enforcement actions?",
+        "What happened in the Newark church raid and why did it spark national outrage?",
+        "How has ICE conducted operations at schools, hospitals, and courthouses despite previous restrictions?",
+        "What role is the military playing in immigration enforcement under the second Trump term?",
+        "How has Tom Homan's return as 'border czar' changed ICE's operational priorities?",
+        "What do the record deportation flight numbers reveal about the administration's strategy?",
+        "How are immigrant communities organizing rapid response networks to document and resist raids?",
+        "What is happening in detention facilities as populations surge beyond capacity?",
+        "How are state and local governments pushing back against federal immigration enforcement?",
+        "What journalists and advocates have been arrested or threatened while documenting ICE operations?",
+        "How does real-time social media coverage of raids change the political dynamics of enforcement?",
+        "What are the most recent news reports on ICE raids, deportations, and community responses?"
+      ],
+      "tags": ["law", "authoritarianism", "immigration", "trump"]
+    },
+    {
+      "name": "What Immigration Reform Could Have Been",
+      "topics": [
+        "What would comprehensive reform have accomplished?",
+        "How do other countries manage immigration more effectively?",
+        "What elements of reform had bipartisan support before polarization?",
+        "How does the current broken system hurt everyone?",
+        "What would it take to rebuild consensus on immigration?",
+        "Is functional immigration policy still possible in America?"
+      ],
+      "tags": ["politics", "democracy", "immigration", "us-politics"]
+    }
+  ]
+}

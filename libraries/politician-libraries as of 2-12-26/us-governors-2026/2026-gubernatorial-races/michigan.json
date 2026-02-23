@@ -1,0 +1,35 @@
+{
+  "book": "Michigan",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Cox (R)",
+        "Joyce Gipson (R)",
+        "Anthony Hudson (R)",
+        "John James (R)",
+        "Perry Johnson (R)",
+        "Tom Leonard (R)",
+        "Aric Nesbitt (R)",
+        "Ralph Rebandt (R)",
+        "Evan Space (R)",
+        "Karla Wagner (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jocelyn Benson (D)",
+        "Kevin Hogan (D)",
+        "Marni Sawicki (D)",
+        "Chris Swanson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Mike Duggan (I)"
+      ]
+    }
+  ]
+}

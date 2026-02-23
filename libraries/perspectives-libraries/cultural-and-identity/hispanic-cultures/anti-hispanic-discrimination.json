@@ -19,7 +19,12 @@
         "What violence and lynching targeted Hispanic Americans?",
         "How has anti-Hispanic prejudice evolved over time?"
       ],
-      "tags": ["history", "justice", "americas", "civil-rights"]
+      "tags": [
+        "history",
+        "justice",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Common Stereotypes",
@@ -31,7 +36,12 @@
         "How do stereotypes affect Hispanic self-perception?",
         "How can stereotypes be challenged and dismantled?"
       ],
-      "tags": ["psychology", "identity", "americas", "prejudice"]
+      "tags": [
+        "psychology",
+        "hispanic-culture",
+        "americas",
+        "prejudice"
+      ]
     },
     {
       "name": "Media Representation and Misrepresentation",
@@ -43,7 +53,12 @@
         "How does underrepresentation affect perceptions?",
         "What impact does social media have on Hispanic stereotypes?"
       ],
-      "tags": ["media", "representation", "americas", "popular-culture"]
+      "tags": [
+        "media",
+        "representation",
+        "americas",
+        "popular-culture"
+      ]
     },
     {
       "name": "Employment Discrimination",
@@ -55,7 +70,12 @@
         "What legal protections exist against employment discrimination?",
         "How can workplace discrimination be addressed?"
       ],
-      "tags": ["economics", "justice", "americas", "employment"]
+      "tags": [
+        "economics",
+        "justice",
+        "americas",
+        "employment"
+      ]
     },
     {
       "name": "Housing Discrimination",
@@ -67,7 +87,12 @@
         "What fair housing laws protect Hispanics?",
         "How can housing discrimination be fought?"
       ],
-      "tags": ["economics", "justice", "americas", "housing"]
+      "tags": [
+        "economics",
+        "justice",
+        "americas",
+        "housing"
+      ]
     },
     {
       "name": "Educational Discrimination",
@@ -79,7 +104,12 @@
         "What discrimination exists in higher education?",
         "What interventions address educational discrimination?"
       ],
-      "tags": ["education", "justice", "americas", "discrimination"]
+      "tags": [
+        "education",
+        "justice",
+        "americas",
+        "discrimination"
+      ]
     },
     {
       "name": "Language Discrimination",
@@ -91,7 +121,12 @@
         "What legal protections exist for language minorities?",
         "How does language discrimination intersect with other biases?"
       ],
-      "tags": ["society", "language", "americas", "discrimination"]
+      "tags": [
+        "hispanic-culture",
+        "language",
+        "americas",
+        "discrimination"
+      ]
     },
     {
       "name": "Healthcare Discrimination",
@@ -103,7 +138,12 @@
         "What disparate treatment do Hispanic patients receive?",
         "How can healthcare discrimination be addressed?"
       ],
-      "tags": ["health", "justice", "americas", "healthcare"]
+      "tags": [
+        "health",
+        "justice",
+        "americas",
+        "healthcare"
+      ]
     },
     {
       "name": "Hate Crimes Against Hispanics",
@@ -115,7 +155,12 @@
         "How are hate crimes prosecuted?",
         "What prevention efforts address anti-Hispanic hate?"
       ],
-      "tags": ["law", "violence", "americas", "hate-crimes"]
+      "tags": [
+        "law",
+        "violence",
+        "americas",
+        "hate-crimes"
+      ]
     },
     {
       "name": "Anti-Immigrant Politics",
@@ -127,7 +172,12 @@
         "How has political discourse changed over time?",
         "What impact does anti-immigrant rhetoric have on all Hispanics?"
       ],
-      "tags": ["politics", "migration", "americas", "immigration"]
+      "tags": [
+        "politics",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Legal Protections and Civil Rights",
@@ -139,7 +189,12 @@
         "How effective are anti-discrimination laws?",
         "What legal gaps remain in Hispanic civil rights?"
       ],
-      "tags": ["law", "activism", "americas", "civil-rights"]
+      "tags": [
+        "law",
+        "activism",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Fighting Back and Moving Forward",
@@ -151,7 +206,12 @@
         "What progress has been made against discrimination?",
         "What is the future of Hispanic civil rights?"
       ],
-      "tags": ["society", "activism", "americas", "social-change"]
+      "tags": [
+        "hispanic-culture",
+        "activism",
+        "americas",
+        "social-change"
+      ]
     }
   ]
 }

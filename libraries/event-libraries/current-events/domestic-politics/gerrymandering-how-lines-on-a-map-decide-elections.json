@@ -1,0 +1,138 @@
+{
+  "name": "Gerrymandering: How Lines on a Map Decide Elections",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "chapters": [
+    {
+      "name": "What Is Gerrymandering?",
+      "topics": [
+        "What is gerrymandering and where does the term come from?",
+        "What is 'cracking' and how does it dilute opposition voters across districts?",
+        "What is 'packing' and how does it waste opposition votes in a single district?",
+        "How did Elbridge Gerry's 1812 Massachusetts redistricting create the original gerrymander?",
+        "What is the difference between gerrymandering and normal redistricting?",
+        "Why do both political parties gerrymander when they control state legislatures?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "us-politics"]
+    },
+    {
+      "name": "How Redistricting Works",
+      "topics": [
+        "How does the US Census trigger redistricting every ten years?",
+        "Which states let their legislatures draw congressional maps and which use independent commissions?",
+        "What legal requirements govern redistricting — equal population, contiguity, compactness?",
+        "What role do governors play in approving or vetoing redistricting maps?",
+        "How do state courts intervene when redistricting plans are challenged?",
+        "What is the timeline from Census data release to final approved maps?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "representation"]
+    },
+    {
+      "name": "Partisan Gerrymandering",
+      "topics": [
+        "How did Ohio Republicans draw maps that gave them 75% of congressional seats with only 53% of the vote?",
+        "How did Maryland Democrats gerrymander the 6th District to eliminate a Republican seat?",
+        "What happened in Wisconsin's Act 43 redistricting and the Gill v. Whitford Supreme Court case?",
+        "How did North Carolina's maps get struck down and redrawn multiple times between 2016 and 2022?",
+        "Has the Supreme Court ruled that partisan gerrymandering is unconstitutional?",
+        "What did the Rucho v. Common Cause decision mean for federal courts and gerrymandering claims?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "elections"]
+    },
+    {
+      "name": "Racial Gerrymandering and the Voting Rights Act",
+      "topics": [
+        "What does Section 2 of the Voting Rights Act require regarding minority representation?",
+        "What are majority-minority districts and why were they created?",
+        "What did the Supreme Court rule in Shaw v. Reno about race-based redistricting?",
+        "How did Shelby County v. Holder gut the Voting Rights Act's preclearance requirement?",
+        "What is the difference between racial gerrymandering and partisan gerrymandering in court?",
+        "How has the Allen v. Milligan (2023) ruling affected redistricting in Alabama and Louisiana?"
+      ],
+      "tags": ["politics", "democracy", "voting-rights", "redistricting"]
+    },
+    {
+      "name": "The Math Behind the Maps",
+      "topics": [
+        "What is the 'efficiency gap' and how does it measure partisan gerrymandering?",
+        "What are 'wasted votes' and why do they matter for representation?",
+        "How do compactness measures like Polsby-Popper and Reock scores evaluate district shapes?",
+        "How do statisticians use ensemble analysis to compare a map against thousands of alternatives?",
+        "What role did mathematician Moon Duchin play in bringing math to gerrymandering litigation?",
+        "Can you prove gerrymandering with data alone, or is intent always required?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "elections"]
+    },
+    {
+      "name": "Technology and Modern Gerrymandering",
+      "topics": [
+        "What was REDMAP and how did Republicans use it to control redistricting after 2010?",
+        "How has precinct-level voter data and GIS software made gerrymandering more precise?",
+        "What software tools like Maptitude and Dave's Redistricting App are used to draw districts?",
+        "How could AI and algorithmic redistricting either eliminate or supercharge gerrymandering?",
+        "What is 'prison gerrymandering' and how does counting inmates distort district populations?",
+        "How did the 2010 Citizens United decision indirectly fuel redistricting battles?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "us-politics"]
+    },
+    {
+      "name": "The 2020 Redistricting Cycle",
+      "topics": [
+        "Which states gained or lost congressional seats after the 2020 Census?",
+        "How did pandemic delays to the Census compress the redistricting timeline?",
+        "Which states produced the most aggressively gerrymandered maps in 2021-2022?",
+        "What court challenges overturned maps in New York, Ohio, Alabama, and Louisiana?",
+        "How did independent commissions perform in states like California, Michigan, and Colorado?",
+        "What was the net partisan effect of the 2020 redistricting cycle nationwide?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "elections"]
+    },
+    {
+      "name": "Alternative Electoral Systems",
+      "topics": [
+        "How does California's top-two 'jungle primary' system work and what are its unintended consequences?",
+        "What is ranked-choice voting and how does it reduce the spoiler effect?",
+        "How does proportional representation work and which democracies use it?",
+        "What are multi-member districts and how would they change American elections?",
+        "What is the Fair Representation Act and how would it reform House elections?",
+        "Why do some reformers argue that ending gerrymandering requires changing the electoral system entirely?"
+      ],
+      "tags": ["politics", "democracy", "elections", "representation"]
+    },
+    {
+      "name": "Reform Efforts",
+      "topics": [
+        "How did California's Citizens Redistricting Commission change the state's maps?",
+        "What happened when Arizona voters created an independent commission and the legislature sued to stop it?",
+        "How did Michigan's Voters Not Politicians campaign pass Proposition 2 in 2018?",
+        "What is the For the People Act and what redistricting reforms does it propose?",
+        "Why have ballot initiative campaigns been more successful at reform than legislative efforts?",
+        "What states are currently considering redistricting reform for the 2030 cycle?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "voting-rights"]
+    },
+    {
+      "name": "Trump's Redistricting Play for 2026",
+      "topics": [
+        "How is the Trump administration pressuring state legislatures to redraw maps before the 2026 midterms?",
+        "What is Texas doing to aggressively gerrymander its congressional districts and how many seats could it swing?",
+        "How are Republicans challenging California's independent redistricting commission?",
+        "What role is the DOJ playing in intervening in or blocking redistricting challenges?",
+        "How did the Trump administration attempt to weaponize the Census with the citizenship question and differential privacy?",
+        "What is the overall Republican strategy to flip the House through map-drawing rather than persuading voters?"
+      ],
+      "tags": ["politics", "us-politics", "redistricting", "elections"]
+    },
+    {
+      "name": "Does Your Vote Count?",
+      "topics": [
+        "How many congressional districts are truly competitive versus safely gerrymandered?",
+        "What is the relationship between gerrymandering and political polarization?",
+        "How do uncompetitive districts drive voter disengagement and lower turnout?",
+        "Why do gerrymandered safe seats incentivize politicians to appeal to primary voters rather than the general electorate?",
+        "What would American politics look like if every district were competitive?",
+        "What can individual citizens do to fight gerrymandering in their state?"
+      ],
+      "tags": ["politics", "democracy", "redistricting", "representation"]
+    }
+  ]
+}

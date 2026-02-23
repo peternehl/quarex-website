@@ -1,0 +1,30 @@
+{
+  "book": "TX-35",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Randy Adams (R)",
+        "Joshua Cortez (R)",
+        "Carlos De La Cruz (R)",
+        "Mark Eberwine (R)",
+        "Jay Furman (R)",
+        "Vanessa Hicks-Callaway (R)",
+        "Ryan Krause (R)",
+        "Larry La Rose (R)",
+        "Rod Lingsch (R)",
+        "John Lujan (R)",
+        "Steven Wright (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Maureen Galindo (D)",
+        "Johnny Garcia (D)",
+        "John Lira (D)",
+        "Whitney Masterson-Moyes (D)"
+      ]
+    }
+  ]
+}

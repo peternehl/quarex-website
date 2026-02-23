@@ -1,6 +1,6 @@
 {
   "batch": 6,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Montana",
@@ -45,7 +45,7 @@
         {
           "district": "NE-02",
           "candidates": {
-            "Republican": ["Brinker Harding (R)", "Brett Lindstrom (R)"],
+            "Republican": ["Brinker Harding (R)"],
             "Democratic": ["Evangelos Argyrakis (D)", "Kishla Askins (D)", "John Cavanaugh (D)", "James Leuschen (D)", "Denise Powell (D)", "Crystal Rhoades (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -57,7 +57,7 @@
           "candidates": {
             "Republican": ["Adrian Smith (R)", "David Huebner (R)"],
             "Democratic": ["Becky Lynn Stille (D)"],
-            "Independent": ["Mark Cohen (I)"],
+            "Independent": ["Macey Budke (I)", "Mark Cohen (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -72,7 +72,7 @@
           "district": "NV-01",
           "candidates": {
             "Republican": ["Jim Blockey (R)", "Michael Boris (R)", "Carrie Buck (R)", "Roy Gurner (R)", "Keith Hanoff (R)", "Bobby Khan (R)", "Jim Marchant (R)"],
-            "Democratic": ["Dina Titus (D)", "Gabriel Cornejo (D)", "Alex Pereszlenyi (D)"],
+            "Democratic": ["Dina Titus (D)", "Gabriel Cornejo (D)", "Joy Hoover (D)", "Alex Pereszlenyi (D)"],
             "Independent": ["J.E. Houston (I)"],
             "Libertarian": [],
             "Green": []
@@ -81,8 +81,8 @@
         {
           "district": "NV-02",
           "candidates": {
-            "Republican": ["Mark Amodei (R)", "Rick Shepherd (R)"],
-            "Democratic": ["Kathy Durham (D)", "Matthew Fonken (D)", "Morgan Wadsworth (D)", "Samuel White (D)"],
+            "Republican": ["Rick Shepherd (R)"],
+            "Democratic": ["Kathy Durham (D)", "Matthew Fonken (D)", "Joshua Hebert (D)", "Mark Jolle (D)", "Morgan Wadsworth (D)", "Samuel White (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -91,7 +91,7 @@
         {
           "district": "NV-03",
           "candidates": {
-            "Republican": ["Tera Anderson (R)", "Christopher Brandlin (R)", "Jeff Gunter (R)", "Ronda Kennedy (R)", "Steve London (R)", "Aury Nagy (R)", "Marty O'Donnell (R)", "Lucena Parker (R)", "Joshua Walters (R)"],
+            "Republican": ["Tera Anderson (R)", "Christopher Brandlin (R)", "Jeff Gunter (R)", "Ronda Kennedy (R)", "Steve London (R)", "Aury Nagy (R)", "Marty O'Donnell (R)", "Lucena Parker (R)", "Elgin Ledesma Shoaf (R)", "Joshua Walters (R)"],
             "Democratic": ["Susie Lee (D)", "Sean Hutchinson (D)", "James Lally (D)", "Terrill Robinson (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -154,7 +154,7 @@
           "district": "NJ-02",
           "candidates": {
             "Republican": ["Jeff Van Drew (R)"],
-            "Democratic": ["Tim Alexander (D)", "Bill Finn (D)", "Terri Reese (D)", "Bayly Winder (D)"],
+            "Democratic": ["Tim Alexander (D)", "Bill Finn (D)", "Zack Mullock (D)", "Terri Reese (D)", "Bayly Winder (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -165,7 +165,7 @@
           "candidates": {
             "Republican": ["Justin Barbera (R)", "Jason Cullen (R)", "Michael McGuire (R)"],
             "Democratic": ["Herbert C. Conaway Jr. (D)"],
-            "Independent": [],
+            "Independent": ["Ryan Kelly (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -174,7 +174,7 @@
           "district": "NJ-04",
           "candidates": {
             "Republican": ["Chris Smith (R)"],
-            "Democratic": ["John Blake (D)", "Julie Flynn (D)", "Peter Linardakis (D)", "Rachel Peace (D)"],
+            "Democratic": ["John Blake (D)", "Robert English (D)", "Julie Flynn (D)", "Peter Linardakis (D)", "Rachel Peace (D)"],
             "Independent": ["Kevin Cupples (I)"],
             "Libertarian": [],
             "Green": []
@@ -204,7 +204,7 @@
           "district": "NJ-07",
           "candidates": {
             "Republican": ["Thomas Kean Jr. (R)"],
-            "Democratic": ["Beth Ellen Adubato (D)", "Rebecca Bennett (D)", "Michael Garth (D)", "Valentina Mendoza (D)", "Megan O'Rourke (D)", "Michael Roth (D)", "Felipe Santos (D)", "Tina Shah (D)", "Sara Sooy (D)", "Brian Varela (D)"],
+            "Democratic": ["Beth Ellen Adubato (D)", "Rebecca Bennett (D)", "Michael Garth (D)", "Megan O'Rourke (D)", "Michael Roth (D)", "Felipe Santos (D)", "Tina Shah (D)", "Brian Varela (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -214,7 +214,7 @@
           "district": "NJ-08",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Robert Menendez Jr. (D)"],
+            "Democratic": ["Robert Menendez Jr. (D)", "Mussab Ali (D)"],
             "Independent": ["Richard Barilla (I)"],
             "Libertarian": [],
             "Green": []
@@ -254,7 +254,7 @@
           "district": "NJ-12",
           "candidates": {
             "Republican": ["Gregg Mele (R)", "Andrew Zaborney (R)"],
-            "Democratic": ["Matthew Adams (D)", "Brad Cohen (D)", "Elijah Dixon (D)", "Raymond Heck (D)", "Kyle Little (D)", "Adrian Mapp (D)", "Tennille R. McCoy (D)", "Verlina Reynolds-Jackson (D)", "Shanel Robinson (D)", "Squire Servance (D)", "Sujit Singh (D)", "Jay Vaingankar (D)"],
+            "Democratic": ["Matthew Adams (D)", "Susan Altman (D)", "Michael Anderson (D)", "Brad Cohen (D)", "Elijah Dixon (D)", "Adam Hamawy (D)", "Raymond Heck (D)", "Kyle Little (D)", "Adrian Mapp (D)", "Tennille R. McCoy (D)", "Rick Morales (D)", "Verlina Reynolds-Jackson (D)", "Shanel Robinson (D)", "Squire Servance (D)", "Sujit Singh (D)", "Iziah Thompson (D)", "Jay Vaingankar (D)", "Samuel Wang (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []

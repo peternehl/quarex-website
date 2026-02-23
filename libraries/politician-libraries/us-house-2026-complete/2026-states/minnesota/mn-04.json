@@ -2,9 +2,16 @@
   "book": "MN-04",
   "chapters": [
     {
+      "name": "Republican",
+      "topics": [
+        "Paul Wikstrom (R)"
+      ]
+    },
+    {
       "name": "Democratic",
       "topics": [
-        "Betty McCollum (D)"
+        "Betty McCollum (D)",
+        "Aswar Rahman (D)"
       ]
     }
   ]

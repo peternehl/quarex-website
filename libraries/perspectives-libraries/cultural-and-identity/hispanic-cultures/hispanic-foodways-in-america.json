@@ -19,7 +19,12 @@
         "How do holidays and celebrations center on food?",
         "What debates exist about authentic vs. adapted cuisine?"
       ],
-      "tags": ["society", "cultural-heritage", "americas", "anthropology"]
+      "tags": [
+        "society",
+        "cultural-heritage",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Mexican and Tex-Mex",
@@ -32,7 +37,12 @@
         "What gourmet and fine dining Mexican food has emerged?",
         "How do Mexican American families cook at home vs. restaurant expectations?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "cooking"
+      ]
     },
     {
       "name": "Caribbean Hispanic Cuisines",
@@ -44,7 +54,12 @@
         "How have Caribbean cuisines adapted in New York, Miami, and elsewhere?",
         "What role do family recipes play in Caribbean Hispanic identity?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "cooking"
+      ]
     },
     {
       "name": "Central American Cuisines",
@@ -56,7 +71,12 @@
         "What restaurants and markets serve Central American communities?",
         "How do Central Americans maintain food traditions in the diaspora?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "cooking"
+      ]
     },
     {
       "name": "South American Cuisines",
@@ -68,7 +88,12 @@
         "What role does ceviche play across South American cuisines?",
         "How are South American restaurants growing in America?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "cooking"
+      ]
     },
     {
       "name": "The Business of Hispanic Food",
@@ -80,7 +105,12 @@
         "How do restaurants range from taquerias to fine dining?",
         "What food products have crossed over to mainstream America?"
       ],
-      "tags": ["economics", "cultural-heritage", "americas", "trade"]
+      "tags": [
+        "economics",
+        "cultural-heritage",
+        "americas",
+        "trade"
+      ]
     },
     {
       "name": "Home Cooking and Family Traditions",
@@ -92,7 +122,12 @@
         "What happens when young people don't learn traditional cooking?",
         "How do cookbook and media representations affect home cooking?"
       ],
-      "tags": ["society", "tradition", "americas", "sociology"]
+      "tags": [
+        "society",
+        "tradition",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Street Food and Informal Economy",
@@ -104,7 +139,12 @@
         "What role do eloteros, paleteros, and other vendors play?",
         "How does informal food economy serve immigrant communities?"
       ],
-      "tags": ["economics", "cultural-heritage", "americas", "labor"]
+      "tags": [
+        "economics",
+        "cultural-heritage",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Fusion and Innovation",
@@ -116,7 +156,12 @@
         "What celebrity Hispanic chefs have influenced American cuisine?",
         "What controversies exist around fusion and appropriation?"
       ],
-      "tags": ["arts", "innovation", "americas", "cooking"]
+      "tags": [
+        "arts",
+        "innovation",
+        "americas",
+        "cooking"
+      ]
     },
     {
       "name": "Beverages and Drink Culture",
@@ -127,7 +172,12 @@
         "How do alcoholic beverages like tequila and rum connect to identity?",
         "What beverage businesses have Hispanic Americans built?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "cooking"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "cooking"
+      ]
     },
     {
       "name": "Health, Nutrition, and Food Access",
@@ -140,7 +190,12 @@
         "How are communities addressing food access and health?",
         "What role do government nutrition programs play?"
       ],
-      "tags": ["health", "inequality", "americas", "nutrition"]
+      "tags": [
+        "health",
+        "inequality",
+        "americas",
+        "nutrition"
+      ]
     },
     {
       "name": "The Future of Hispanic Food in America",
@@ -152,7 +207,12 @@
         "Will Hispanic food remain distinctive or become fully mainstream?",
         "How might climate change and immigration policy affect Hispanic food culture?"
       ],
-      "tags": ["society", "cultural-heritage", "americas", "sociology"]
+      "tags": [
+        "society",
+        "cultural-heritage",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "book": "NY-14",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Aurelio Arcabascio (R)",
+        "Tina Forte (R)",
+        "Diamant Hysenaj (R)",
+        "Ariel Rivera-Diaz (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Alexandria Ocasio-Cortez (D)"
+      ]
+    }
+  ]
+}

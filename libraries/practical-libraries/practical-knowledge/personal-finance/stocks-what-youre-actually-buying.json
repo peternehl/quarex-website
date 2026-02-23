@@ -1,0 +1,126 @@
+{
+  "name": "Stocks: What You're Actually Buying",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Ownership: What a Share Really Is",
+      "topics": [
+        "When you buy a stock, what do you actually own?",
+        "What rights do shareholders have—voting, dividends, claims on assets?",
+        "What's the difference between common stock and preferred stock?",
+        "How many shares does a typical company have outstanding?",
+        "Why does share count matter for understanding your ownership stake?",
+        "What happens to your shares if a company goes bankrupt?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "How Companies Create Value",
+      "topics": [
+        "What makes a company worth more over time?",
+        "How do revenue, profit, and cash flow relate to stock value?",
+        "What is a company's 'competitive advantage' or 'moat'?",
+        "Why do some companies grow faster than others?",
+        "How does management quality affect stock performance?",
+        "What external factors help or hurt a company's value?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "entrepreneurship"]
+    },
+    {
+      "name": "Dividends: Getting Paid to Own",
+      "topics": [
+        "What is a dividend and how do you receive one?",
+        "Why do some companies pay dividends and others don't?",
+        "What is dividend yield and how do you calculate it?",
+        "What are 'dividend aristocrats' and why do people like them?",
+        "How do you build a dividend income stream?",
+        "What's the difference between qualified and ordinary dividends for taxes?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "Growth vs Value Stocks",
+      "topics": [
+        "What is a 'growth stock' and what are you betting on?",
+        "What is a 'value stock' and why might it be underpriced?",
+        "How do growth and value stocks perform differently over time?",
+        "Why do growth and value take turns outperforming each other?",
+        "Should you invest in growth, value, or both?",
+        "What are the risks specific to each style?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "economics-theory"]
+    },
+    {
+      "name": "Understanding Valuation",
+      "topics": [
+        "How do you know if a stock is 'expensive' or 'cheap'?",
+        "What is the P/E ratio and what does it tell you?",
+        "What are other valuation metrics—P/S, P/B, PEG?",
+        "Why can two companies in the same industry have very different P/Es?",
+        "What does it mean when a stock has 'no earnings' but still has value?",
+        "Can you really value a stock or is it all guesswork?"
+      ],
+      "tags": ["economics", "analysis", "personal-finance", "data-analytics"]
+    },
+    {
+      "name": "Reading a Company's Financials",
+      "topics": [
+        "What are the three main financial statements?",
+        "How do you read an income statement for the basics?",
+        "What does the balance sheet tell you about a company's health?",
+        "Why is the cash flow statement often more important than profit?",
+        "Where do you find a company's financial statements?",
+        "What red flags should you look for in financial reports?"
+      ],
+      "tags": ["economics", "analysis", "personal-finance", "data-analytics"]
+    },
+    {
+      "name": "Stock Splits, Buybacks, and Corporate Actions",
+      "topics": [
+        "What is a stock split and does it make you richer?",
+        "What is a reverse stock split and why do companies do them?",
+        "What are share buybacks and how do they affect you?",
+        "What happens when a company you own gets acquired?",
+        "What is a spin-off and how do you end up with new shares?",
+        "How do rights offerings and secondary offerings work?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "Sector and Industry Differences",
+      "topics": [
+        "What are the major stock market sectors?",
+        "How do tech stocks behave differently from utility stocks?",
+        "Why are financial stocks sensitive to interest rates?",
+        "What makes healthcare and pharma stocks unique?",
+        "How do cyclical stocks differ from defensive stocks?",
+        "Should you own stocks across all sectors?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "International Stocks",
+      "topics": [
+        "Why would you invest in stocks outside the US?",
+        "What are ADRs and how do they let you buy foreign stocks?",
+        "What is currency risk and how does it affect returns?",
+        "What are emerging markets and are they worth the risk?",
+        "How do you research a company in a country you don't know?",
+        "What percentage of your portfolio should be international?"
+      ],
+      "tags": ["economics", "globalization", "personal-finance", "trade"]
+    },
+    {
+      "name": "Individual Stocks vs Funds: The Honest Truth",
+      "topics": [
+        "What are the real odds of beating the market by picking stocks?",
+        "How much time and skill does successful stock picking require?",
+        "What do the studies say about individual investor performance?",
+        "When does it make sense to own individual stocks?",
+        "How many individual stocks do you need to be diversified?",
+        "Is stock picking a hobby, a strategy, or a trap?"
+      ],
+      "tags": ["economics", "critical-thinking", "personal-finance", "behavioral-psychology"]
+    }
+  ]
+}

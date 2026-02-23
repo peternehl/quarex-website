@@ -1,0 +1,28 @@
+{
+  "book": "MI-13",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Articia Bomer (R)",
+        "Andrew Lorenz (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Shri Thanedar (D)",
+        "Shelby Campbell (D)",
+        "Anthony Carbonaro (D)",
+        "Nazmul Hassan (D)",
+        "Donavan McKinney (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Maurice Morton (I)"
+      ]
+    }
+  ]
+}

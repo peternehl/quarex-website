@@ -1,0 +1,22 @@
+{
+  "book": "CA-45",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mark Leonard (R)",
+        "Chi Charlie Nguyen (R)",
+        "Amy Phan West (R)",
+        "Michelle Steel (R)",
+        "Chuong Vo (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Derek Tran (D)",
+        "Brian Forde (D)"
+      ]
+    }
+  ]
+}

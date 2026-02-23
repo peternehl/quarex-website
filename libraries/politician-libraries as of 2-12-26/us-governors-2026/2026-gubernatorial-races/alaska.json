@@ -1,0 +1,26 @@
+{
+  "book": "Alaska",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Click Bishop (R)",
+        "David Bronson (R)",
+        "Adam Crum (R)",
+        "Nancy Dahlstrom (R)",
+        "Edna DeVries (R)",
+        "Shelley Hughes (R)",
+        "James Parkin (R)",
+        "Treg Taylor (R)",
+        "Bernadette Wilson (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Tom Begich (D)",
+        "Matt Claman (D)"
+      ]
+    }
+  ]
+}

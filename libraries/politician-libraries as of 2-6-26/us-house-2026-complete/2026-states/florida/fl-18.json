@@ -1,0 +1,23 @@
+{
+  "book": "FL-18",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Scott Franklin (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Curtis Gibson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Deva Simmons (I)"
+      ]
+    }
+  ]
+}

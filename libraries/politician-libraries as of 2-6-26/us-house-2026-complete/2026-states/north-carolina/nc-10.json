@@ -1,0 +1,29 @@
+{
+  "book": "NC-10",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Pat Harrigan (R)",
+        "Matthew Sin (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Ashley Bell (D)",
+        "West Caudle (D)",
+        "Harry Morley (D)",
+        "Marcus D. Pearson (D)",
+        "Ralph Scott Jr. (D)",
+        "Mir Yarfitz (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Steven Feldman (L)"
+      ]
+    }
+  ]
+}

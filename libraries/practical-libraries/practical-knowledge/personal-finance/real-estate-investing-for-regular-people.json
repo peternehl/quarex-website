@@ -1,0 +1,126 @@
+{
+  "name": "Real Estate Investing for Regular People",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Is Real Estate a Good Investment?",
+      "topics": [
+        "What are the historical returns of real estate compared to stocks and bonds?",
+        "Why do people believe real estate is a guaranteed path to wealth?",
+        "What are the actual risks of real estate investing?",
+        "How does leverage amplify both gains and losses in real estate?",
+        "What costs do people forget when calculating real estate returns?",
+        "Is real estate really 'they're not making more of it'?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "housing"]
+    },
+    {
+      "name": "Your Home: Investment or Expense?",
+      "topics": [
+        "Is your primary residence actually an investment?",
+        "What does the historical data show about home price appreciation?",
+        "What are the true costs of homeownership versus renting?",
+        "How do property taxes, maintenance, and insurance affect returns?",
+        "When does buying a home make financial sense versus renting?",
+        "What is the rent-versus-buy calculation and how do you run it?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "housing"]
+    },
+    {
+      "name": "Rental Property Investing",
+      "topics": [
+        "What does it actually mean to be a landlord?",
+        "How do you evaluate whether a rental property will be profitable?",
+        "What is cash flow and why is it more important than appreciation?",
+        "What are the 1% rule and the 50% rule for evaluating rentals?",
+        "What expenses eat into your rental income?",
+        "What are the tax advantages of rental property ownership?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "housing"]
+    },
+    {
+      "name": "Financing Real Estate Investments",
+      "topics": [
+        "How do investment property mortgages differ from primary residence loans?",
+        "What down payment do you need for an investment property?",
+        "What are the interest rates and terms for investment properties?",
+        "How does house hacking with FHA loans work?",
+        "What is a HELOC and how do investors use it?",
+        "When does leverage help versus when does it hurt?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "debt"]
+    },
+    {
+      "name": "The Reality of Being a Landlord",
+      "topics": [
+        "What does a typical day, month, and year look like for a landlord?",
+        "How do you find and screen tenants?",
+        "What happens when tenants don't pay rent?",
+        "What are the legal responsibilities and liabilities of landlords?",
+        "How do you handle maintenance, repairs, and emergencies?",
+        "Is self-management or property management right for you?"
+      ],
+      "tags": ["economics", "labor", "personal-finance", "housing"]
+    },
+    {
+      "name": "REITs: Real Estate Without the Headaches",
+      "topics": [
+        "What is a REIT and how does it work?",
+        "What types of REITs exist—residential, commercial, specialized?",
+        "How do REIT returns compare to direct property ownership?",
+        "What are the advantages of REITs over owning property directly?",
+        "How do you invest in REITs through index funds?",
+        "What role should REITs play in a diversified portfolio?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "housing"]
+    },
+    {
+      "name": "Real Estate Crowdfunding and Syndications",
+      "topics": [
+        "What is real estate crowdfunding and how does it work?",
+        "What are real estate syndications for accredited investors?",
+        "What are the fees, lockups, and risks of these investments?",
+        "How do you evaluate a crowdfunding platform or deal?",
+        "What happened to investors in failed real estate crowdfunding deals?",
+        "When might these alternatives make sense versus REITs?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "investing"]
+    },
+    {
+      "name": "Location, Location, Location",
+      "topics": [
+        "Why does location matter so much in real estate?",
+        "What economic and demographic factors drive property values?",
+        "How do you research a neighborhood or market?",
+        "What are the warning signs of a declining area?",
+        "Should you invest locally or in distant markets?",
+        "How do you think about appreciation markets versus cash flow markets?"
+      ],
+      "tags": ["economics", "geography", "personal-finance", "housing"]
+    },
+    {
+      "name": "Tax Strategies for Real Estate Investors",
+      "topics": [
+        "How does depreciation create tax benefits for rental property owners?",
+        "What is a 1031 exchange and how does it defer capital gains?",
+        "What expenses can landlords deduct?",
+        "How does real estate professional status provide additional benefits?",
+        "What are the tax implications when you sell?",
+        "How do REITs differ in their tax treatment?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "taxation"]
+    },
+    {
+      "name": "Real Estate in Your Overall Portfolio",
+      "topics": [
+        "How much of your portfolio should be in real estate?",
+        "How do you count your home equity in your net worth and allocation?",
+        "Does direct real estate ownership diversify a stock portfolio?",
+        "How do you balance real estate with stocks, bonds, and other assets?",
+        "What is the right order of operations: max 401(k), then real estate?",
+        "When does real estate investing not make sense for you?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    }
+  ]
+}

@@ -19,7 +19,12 @@
         "How does Spanish in America compare to other heritage languages?",
         "What is the future of Spanish in America?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "The Pattern of Language Shift",
@@ -31,7 +36,12 @@
         "How does continuous immigration affect language maintenance?",
         "What research shows about Spanish language transmission?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Regional Spanish Varieties",
@@ -43,7 +53,12 @@
         "What happens when multiple Spanish varieties mix?",
         "Are American Spanish varieties developing distinct features?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Spanglish: Code-Switching and Mixing",
@@ -56,7 +71,12 @@
         "Is Spanglish the future of Hispanic American language?",
         "What different forms does Spanglish take in different communities?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Heritage Speakers",
@@ -68,7 +88,12 @@
         "How do heritage speakers relate to their Spanish identity?",
         "What educational programs serve heritage speakers?"
       ],
-      "tags": ["education", "identity", "americas", "linguistics"]
+      "tags": [
+        "education",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Bilingual Education Battles",
@@ -81,7 +106,12 @@
         "What is the current state of bilingual education?",
         "How do English-only movements affect Spanish speakers?"
       ],
-      "tags": ["education", "governance", "americas", "linguistics"]
+      "tags": [
+        "education",
+        "governance",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Spanish in the Workplace",
@@ -93,7 +123,12 @@
         "How does bilingualism affect employment and earnings?",
         "What tensions exist around workplace language use?"
       ],
-      "tags": ["economics", "workplace-dynamics", "americas", "labor"]
+      "tags": [
+        "economics",
+        "workplace-dynamics",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Spanish Media in America",
@@ -105,7 +140,12 @@
         "How do English-dominant Hispanics consume Spanish media?",
         "What is the future of Spanish-language media in America?"
       ],
-      "tags": ["media", "identity", "americas", "journalism"]
+      "tags": [
+        "media",
+        "hispanic-culture",
+        "americas",
+        "journalism"
+      ]
     },
     {
       "name": "Language and Identity",
@@ -117,7 +157,12 @@
         "What role does Spanish play in authenticity claims?",
         "How does language relate to other identity markers?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Spanish and Politics",
@@ -129,7 +174,12 @@
         "How do bilingual ballots and voting materials work?",
         "What political debates exist around language policy?"
       ],
-      "tags": ["politics", "governance", "americas", "us-politics"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "Technology and Spanish",
@@ -141,7 +191,12 @@
         "How might AI translation affect bilingualism?",
         "What digital resources exist for Spanish learners and maintainers?"
       ],
-      "tags": ["technology", "identity", "americas", "linguistics"]
+      "tags": [
+        "technology",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "The Future of Spanish in America",
@@ -153,7 +208,12 @@
         "Could Spanish become co-official or widely recognized?",
         "What vision of multilingual America is emerging?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     }
   ]
 }

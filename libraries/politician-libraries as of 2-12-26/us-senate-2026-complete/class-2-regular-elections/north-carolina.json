@@ -1,0 +1,35 @@
+{
+  "book": "North Carolina",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Don Brown (R)",
+        "Richard Dansie (R)",
+        "Thomas Johnson (R)",
+        "Michele Morrow (R)",
+        "Elizabeth Anne Temple (R)",
+        "Michael Whatley (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Robert Colon (D)",
+        "Roy Cooper (D)",
+        "Justin Dues (D)",
+        "Daryl Farrow (D)",
+        "Orrick Quick (D)",
+        "Marcus Williams (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Brian McGinnis (G)",
+        "Shannon Bray (L)",
+        "Shaunesi Deberry (I)"
+      ]
+    }
+  ]
+}

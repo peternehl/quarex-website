@@ -1,0 +1,87 @@
+{
+  "book": "Maryland",
+  "chapters": [
+    {
+      "name": "MD-01",
+      "topics": [
+        "Andrew Harris (R)",
+        "Victor Guidice (D)",
+        "Terrence Rogers (D)",
+        "Dan Schwartz (D)",
+        "George Walish (D)",
+        "Randi White (D)"
+      ]
+    },
+    {
+      "name": "MD-02",
+      "topics": [
+        "Kim Klacik (R)",
+        "John Olszewski Jr. (D)",
+        "Enrico Bailey (D)"
+      ]
+    },
+    {
+      "name": "MD-03",
+      "topics": [
+        "Bernard Flowers (R)",
+        "Sarah Elfreth (D)",
+        "Felix Seier (D)"
+      ]
+    },
+    {
+      "name": "MD-04",
+      "topics": [
+        "Glenn Ivey (D)",
+        "Khyre Edwards (D)",
+        "Anthony Field (D)",
+        "Jakeya Johnson (D)",
+        "Jonathan White (D)"
+      ]
+    },
+    {
+      "name": "MD-05",
+      "topics": [
+        "Michelle Talkington (R)",
+        "Quincy Bareebe (D)",
+        "Wala Blegay (D)",
+        "Adrian Boafo (D)",
+        "Jennifer Cross (D)",
+        "Terry Jackson (D)",
+        "Harry Jarin (D)",
+        "Walter Kirkland (D)",
+        "Heather Luper (D)",
+        "Alexis Solis (D)",
+        "Tracy Starr (D)",
+        "Nicole Williams (D)"
+      ]
+    },
+    {
+      "name": "MD-06",
+      "topics": [
+        "Christopher Burnett (R)",
+        "Chris Hyser (R)",
+        "Neil Parrott (R)",
+        "April McClain-Delaney (D)",
+        "David Trone (D)",
+        "Ethan Wechtaluk (D)"
+      ]
+    },
+    {
+      "name": "MD-07",
+      "topics": [
+        "Kweisi Mfume (D)",
+        "Hadley Anthony (D)",
+        "Mark Conway (D)",
+        "Theo Gillespie (D)"
+      ]
+    },
+    {
+      "name": "MD-08",
+      "topics": [
+        "Cheryl Riley (R)",
+        "Jamie Raskin (D)",
+        "Stephen Leon (D)"
+      ]
+    }
+  ]
+}

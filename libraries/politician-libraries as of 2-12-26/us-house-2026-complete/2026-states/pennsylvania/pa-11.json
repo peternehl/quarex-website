@@ -1,0 +1,24 @@
+{
+  "book": "PA-11",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Lloyd Smucker (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sarah Klimm (D)",
+        "Nancy Mannion (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jeffrey Wilder (I)"
+      ]
+    }
+  ]
+}

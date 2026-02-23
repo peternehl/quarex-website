@@ -1,6 +1,6 @@
 {
   "batch": 8,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Oklahoma",
@@ -50,7 +50,7 @@
           "district": "OK-05",
           "candidates": {
             "Republican": ["Stephanie Bice (R)"],
-            "Democratic": [],
+            "Democratic": ["Jena Nelson (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -75,7 +75,7 @@
         {
           "district": "OR-02",
           "candidates": {
-            "Republican": ["Cliff Bentz (R)", "Andrea Carr (R)", "Russell McAlmond (R)"],
+            "Republican": ["Cliff Bentz (R)", "Andrea Carr (R)", "Peter Larson (R)", "Russell McAlmond (R)"],
             "Democratic": ["Peter Black (D)", "Mary Doyle (D)", "Mitchel Knight (D)", "Rebecca Mueller (D)", "Dawn Rasmussen (D)", "Patty Snow (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -117,7 +117,7 @@
           "candidates": {
             "Republican": ["David Russ (R)"],
             "Democratic": ["Andrea Salinas (D)"],
-            "Independent": [],
+            "Independent": ["Jason Faler (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -132,7 +132,7 @@
           "district": "PA-01",
           "candidates": {
             "Republican": ["Brian Fitzpatrick (R)"],
-            "Democratic": ["Bob Harvie (D)", "Tracy Hunt (D)", "Lucia Simonelli (D)", "Rob Strickler (D)"],
+            "Democratic": ["Bob Harvie (D)", "Tracy Hunt (D)", "Lucia Simonelli (D)", "Rob Strickler (D)", "William Wagner (D)", "Michael Zeltakalns (D)"],
             "Independent": ["John Hoban (I)"],
             "Libertarian": [],
             "Green": []
@@ -151,8 +151,8 @@
         {
           "district": "PA-03",
           "candidates": {
-            "Republican": ["Sheila Armstrong (R)"],
-            "Democratic": ["Gabriel Caceres (D)", "Cole Carter (D)", "Morgan Cephas (D)", "Shaun Griffith (D)", "Jahmiel Jackson (D)", "Isaiah Martin (D)", "Pablo McConnie-Saad (D)", "Karl Morris (D)", "David Oxman (D)", "Christopher Rabb (D)", "Ala Stanford (D)", "Sharif Street (D)", "Robin Toldens (D)"],
+            "Republican": ["Sheila Armstrong (R)", "Alexander Schnell (R)"],
+            "Democratic": ["Gabriel Caceres (D)", "Cole Carter (D)", "Morgan Cephas (D)", "Thomas Cook (D)", "Naderah Griffin (D)", "Shaun Griffith (D)", "Jahmiel Jackson (D)", "Isaiah Martin (D)", "Pablo McConnie-Saad (D)", "Karl Morris (D)", "David Oxman (D)", "Christopher Rabb (D)", "Ala Stanford (D)", "Sharif Street (D)", "Robin Toldens (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -171,8 +171,8 @@
         {
           "district": "PA-05",
           "candidates": {
-            "Republican": ["Melvin Prince Johnakin (R)"],
-            "Democratic": ["Mary Gay Scanlon (D)", "Melvin Campbell (D)"],
+            "Republican": ["Joshua Brown (R)"],
+            "Democratic": ["Mary Gay Scanlon (D)", "Melvin Campbell (D)", "Melvin Prince Johnakin (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -193,7 +193,7 @@
           "candidates": {
             "Republican": ["Ryan Mackenzie (R)"],
             "Democratic": ["Bob Brooks (D)", "Ryan Crosswell (D)", "Aiden Gonzalez (D)", "Lamont McClure (D)", "Carol Obando-Derstine (D)", "Mark Pinsley (D)", "Lewis Shupe (D)"],
-            "Independent": ["Ramon Granados (I)"],
+            "Independent": ["Frank Golden (I)", "Ramon Granados (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -242,7 +242,7 @@
           "district": "PA-12",
           "candidates": {
             "Republican": ["Benson Fechter (R)", "James Hayes (R)", "Arnold Santos (R)"],
-            "Democratic": ["Summer Lee (D)", "Adam Forgie (D)"],
+            "Democratic": ["Summer Lee (D)", "Adam Forgie (D)", "William Parker (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -291,7 +291,7 @@
         {
           "district": "PA-17",
           "candidates": {
-            "Republican": [],
+            "Republican": ["Tony Guy (R)"],
             "Democratic": ["Chris Deluzio (D)", "Alec Barlock (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -334,7 +334,7 @@
           "district": "SC-01",
           "candidates": {
             "Republican": ["Dan Brown (R)", "Logan Cunningham (R)", "Tyler Dykes (R)", "Jack Ellison (R)", "Jenny Honeycutt (R)", "Sam McCown (R)", "Alex Pelbath (R)", "Mark Smith (R)"],
-            "Democratic": ["Robert Beers (D)", "Mac Deford (D)", "Max Diaz (D)", "Matthew Fulmer (D)", "Mayra Rivera-Vazquez (D)"],
+            "Democratic": ["K.J. Atwood (D)", "Robert Beers (D)", "Mac Deford (D)", "Max Diaz (D)", "Matthew Fulmer (D)", "Nancy Lacore (D)", "Mayra Rivera-Vazquez (D)"],
             "Independent": [],
             "Libertarian": ["William Reeside (L)"],
             "Green": []
@@ -354,7 +354,7 @@
           "district": "SC-03",
           "candidates": {
             "Republican": ["Sheri Biggs (R)"],
-            "Democratic": [],
+            "Democratic": ["Eunice Lehmacher (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -363,10 +363,10 @@
         {
           "district": "SC-04",
           "candidates": {
-            "Republican": ["William Timmons (R)", "David Atchley (R)"],
+            "Republican": ["William Timmons (R)", "David Atchley (R)", "Robert Lee (R)"],
             "Democratic": ["Courtney McClain (D)"],
             "Independent": [],
-            "Libertarian": [],
+            "Libertarian": ["Jessica Ethridge (L)"],
             "Green": []
           }
         },

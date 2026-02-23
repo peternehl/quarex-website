@@ -1,0 +1,31 @@
+{
+  "book": "CA-40",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ken Calvert (R)",
+        "Young Kim (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Claude Keissieh (D)",
+        "Joe Kerr (D)",
+        "Eric Peterson (D)",
+        "Lisa Ramirez (D)",
+        "Paula Swift (D)",
+        "Esther Kim Varet (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Christian Ahmed (I)",
+        "Nina Linh (I)",
+        "Maricar Payad (I)"
+      ]
+    }
+  ]
+}

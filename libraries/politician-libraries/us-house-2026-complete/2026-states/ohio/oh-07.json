@@ -4,17 +4,27 @@
     {
       "name": "Republican",
       "topics": [
-        "Max Miller (R)",
-        "Jonah Schulz (R)"
+        "Max Miller (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
+        "John Butchko (D)",
+        "Ann Marie Donegan (D)",
         "Michael Eisner (D)",
         "Ed FitzGerald (D)",
+        "Keith Mundy (D)",
         "Brian Poindexter (D)",
+        "Laura Rodriguez-Carbone (D)",
         "Scott Schulz (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Andrey Martinichin (I)",
+        "Brian Duvall-Gambino (L)"
       ]
     }
   ]

@@ -527,9 +527,9 @@ $forceJson   = !!($_REQUEST['force_json'] ?? ($bodyJson['force_json'] ?? false))
 $podcastMode = !!($_REQUEST['podcast'] ?? ($bodyJson['podcast'] ?? false)); // podcast=1 for spoken delivery
 
 // Expertise level - controls response depth and complexity
-$expertise = trim(strval($bodyJson['expertise'] ?? ($_REQUEST['expertise'] ?? 'introductory')));
+$expertise = trim(strval($bodyJson['expertise'] ?? ($_REQUEST['expertise'] ?? 'intermediate')));
 if (!in_array($expertise, ['introductory', 'intermediate', 'advanced'])) {
-  $expertise = 'introductory';
+  $expertise = 'intermediate';
 }
 
 // ------------------------ Build base Gemini payload ------------------------
@@ -542,23 +542,50 @@ if ($category && stripos($category, 'quarex') !== false) {
 
 // Expertise-level instructions
 $expertiseInstructions = match($expertise) {
-  'introductory' => "EXPERTISE LEVEL: Introductory. Write for someone completely new to this topic. " .
-                    "Use plain, everyday language. Avoid jargon and technical terms—if you must use them, explain them immediately. " .
-                    "Use relatable analogies and real-world examples. Assume no prior knowledge. " .
-                    "Keep sentences short and clear. ",
-  'advanced' => "EXPERTISE LEVEL: Advanced. Write for a professional or expert audience. " .
-                "You may use technical terminology, domain-specific jargon, and assume familiarity with foundational concepts. " .
-                "Provide deeper analysis, nuance, and scholarly precision. Reference frameworks, methodologies, or research where relevant. " .
-                "Do not over-explain basics; focus on substantive insight. ",
-  default => "EXPERTISE LEVEL: Intermediate. Write for an educated general audience with some background knowledge. " .
-             "Explain technical terms briefly when first used. Balance accessibility with substance. "
+  'introductory' => "EXPERTISE LEVEL: Introductory. Write for someone new to this topic. " .
+                    "Use plain language. If you must use a technical term, explain it briefly in parentheses. " .
+                    "Use concrete examples from everyday life. " .
+                    "Keep each numbered point to 3-4 sentences maximum. Be the shortest of all levels. " .
+                    "Each point must name a specific person, event, or date. " .
+                    "TONE: State claims directly with analytical confidence — this is analytical framing, not advocacy. " .
+                    "Hedging is acceptable ONLY when presenting genuinely contested evidence, not as a stylistic default. " .
+                    "BANNED PATTERNS: Do not use any of the following: " .
+                    "'it could be argued', 'some might say', 'potentially', 'arguably', " .
+                    "'can be seen as', 'while [concession]' clauses that soften a point before making it, " .
+                    "'at the expense of', 'suggests a strategic decision'. " .
+                    "Do not restate the question or add a preamble. Do not add a closing summary paragraph. ",
+  'advanced' => "EXPERTISE LEVEL: Advanced. Write for a knowledgeable, professional audience. " .
+                "Use technical terminology freely. Cite specific events, names, dates, and data points in every point. " .
+                "Include counter-arguments and competing interpretations where they add substance — present these " .
+                "as separate observations, not as 'while' clauses cushioning the main claim. " .
+                "Keep each numbered point to 5-6 sentences maximum — prioritize density over length. " .
+                "TONE: State claims directly with analytical confidence. " .
+                "BANNED PATTERNS: Do not use any of the following: " .
+                "'it could be argued', 'potentially at the expense of', " .
+                "'while [concession]' clauses that soften a point before making it, " .
+                "'can be seen as', 'suggests a strategic decision'. " .
+                "Hedging is acceptable ONLY when presenting genuinely contested evidence, not as a stylistic default. " .
+                "Do not restate the question or add a preamble. Do not add a closing summary paragraph. ",
+  default => "EXPERTISE LEVEL: Intermediate. Write for an educated general audience. " .
+             "Explain technical terms briefly when first used. Balance accessibility with substance. " .
+             "Keep each numbered point to 4-5 sentences. Must be shorter than Advanced but more detailed than Introductory. " .
+             "Each point must name specific people and dates. " .
+             "TONE: State claims directly with analytical confidence. " .
+             "Hedging is acceptable ONLY when presenting genuinely contested evidence, not as a stylistic default. " .
+             "BANNED PATTERNS: Do not use any of the following: " .
+             "'it could be argued', 'potentially', 'arguably', 'can be seen as', " .
+             "'while [concession]' clauses that soften a point before making it. " .
+             "Do not restate the question or add a preamble. Do not add a closing summary paragraph. "
 };
 
 // Build system prompt based on mode
 if ($podcastMode) {
   $systemPrompt =
-    "You are an expert being interviewed for a podcast. Write conversationally for SPOKEN DELIVERY. " .
+    "You are a confident expert being interviewed for a podcast. Write conversationally for SPOKEN DELIVERY. " .
     $expertiseInstructions .
+    "ANSWER PRECISION: When a question asks you to 'name', 'identify', or 'list' specific moments, instances, or examples, " .
+    "cite specific dated events involving specific named people — not ongoing trends, general strategies, or multi-year patterns. " .
+    "Each point must be a distinct, identifiable moment in time. " .
     "STYLE: Write as if you are speaking to an interviewer. Use natural, flowing sentences. " .
     "Avoid bullet points, numbered lists, and markdown formatting. Do not use asterisks, headers, or special characters. " .
     "Keep answers brief and punchy - aim for 2 short paragraphs, under 120 words total. Get to the point quickly." .
@@ -572,8 +599,13 @@ if ($podcastMode) {
     "Format them as:\n\nFollow-up questions:\n1. [First question]\n2. [Second question]\n3. [Third question]";
 } else {
   $systemPrompt =
-    "You are an expert academic assistant. " .
+    "You are a knowledgeable, direct subject-matter expert. " .
     $expertiseInstructions .
+    "ANSWER PRECISION: When a question asks you to 'name', 'identify', or 'list' specific moments, instances, or examples, " .
+    "cite specific dated events involving specific named people — not ongoing trends, general strategies, or multi-year patterns. " .
+    "Each point must be a distinct, identifiable moment in time. " .
+    "Wrong: 'Democrats increasingly turned to the courts (2023-2025)'. " .
+    "Right: 'In January 2025, House Minority Leader Hakeem Jeffries announced a litigation working group to challenge executive orders.' " .
     "RECENCY: Always prioritize the most current and up-to-date information available. When discussing facts, statistics, " .
     "policies, or events, use the latest data from 2024-2026 whenever possible. If information may have changed recently, " .
     "explicitly note the date or timeframe of your sources. Avoid presenting outdated information as current. " .

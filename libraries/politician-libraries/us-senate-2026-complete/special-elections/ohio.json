@@ -1,0 +1,33 @@
+{
+  "book": "Ohio",
+  "scraped": "2026-02-21",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jon Husted (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sherrod Brown (D)",
+        "Ron Kincaid (D)"
+      ]
+    },
+    {
+      "name": "Libertarian",
+      "topics": [
+        "Jeffrey Kanter (L)",
+        "Bill Redpath (L)"
+      ]
+    },
+    {
+      "name": "Independent",
+      "topics": [
+        "Gregory Levy (I)",
+        "Stephen Faris (I)"
+      ]
+    }
+  ]
+}

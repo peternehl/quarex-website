@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "3.0",
+    "version": "3.1",
     "description": "Comprehensive tag vocabulary for Quarex cross-library discovery",
-    "generated": "2024-12-05",
-    "total_tags": 280,
+    "generated": "2026-02-11",
+    "total_tags": 297,
     "tiers": {
       "broad": "High-level universal knowledge domains (max 25)",
       "medium": "Cross-domain conceptual lenses and analytical frameworks (max 100)",
@@ -110,7 +110,10 @@
       {"id": "legacy", "label": "Legacy", "description": "Lasting impact, inheritance, and what endures."},
       {"id": "controversy", "label": "Controversy", "description": "Disputed topics, debate, and contested claims."},
       {"id": "evolution", "label": "Evolution", "description": "Gradual change, development over time, and adaptation."},
-      {"id": "revolution", "label": "Revolution", "description": "Rapid transformation, paradigm shifts, and radical change."}
+      {"id": "revolution", "label": "Revolution", "description": "Rapid transformation, paradigm shifts, and radical change."},
+      {"id": "feminism", "label": "Feminism", "description": "Feminist theory, movements, and gender equality advocacy."},
+      {"id": "civic-engagement", "label": "Civic Engagement", "description": "Citizen participation, community involvement, and public action."},
+      {"id": "deregulation", "label": "Deregulation", "description": "Removing government regulations and reducing oversight."}
     ],
     "specific": [
       {"id": "physics", "label": "Physics", "description": "Study of matter, energy, motion, and fundamental forces."},
@@ -356,7 +359,21 @@
       {"id": "european-philosophy", "label": "European Philosophy", "description": "European philosophical traditions and thinkers."},
       {"id": "latin-american-philosophy", "label": "Latin American Philosophy", "description": "Latin American philosophical traditions and thinkers."},
       {"id": "north-american-philosophy", "label": "North American Philosophy", "description": "North American philosophical traditions and thinkers."},
-      {"id": "oceania-philosophy", "label": "Oceania Philosophy", "description": "Oceania and Pacific philosophical traditions and thinkers."}
+      {"id": "oceania-philosophy", "label": "Oceania Philosophy", "description": "Oceania and Pacific philosophical traditions and thinkers."},
+      {"id": "hispanic-culture", "label": "Hispanic Culture", "description": "Hispanic and Latino cultural traditions, identity, and community."},
+      {"id": "latin-america", "label": "Latin America", "description": "Latin American region, nations, and regional issues."},
+      {"id": "chicano", "label": "Chicano Studies", "description": "Mexican-American identity, history, and cultural expression."},
+      {"id": "spanish-language", "label": "Spanish Language", "description": "Spanish linguistics, bilingualism, and language access."},
+      {"id": "african-diaspora", "label": "African Diaspora", "description": "Global dispersal of African peoples and diasporic identity."},
+      {"id": "black-history", "label": "Black History", "description": "African American and Black historical experience."},
+      {"id": "womens-history", "label": "Women's History", "description": "Historical experience and contributions of women."},
+      {"id": "reproductive-rights", "label": "Reproductive Rights", "description": "Abortion access, bodily autonomy, and reproductive healthcare."},
+      {"id": "primaries", "label": "Primaries", "description": "Primary elections, party nominations, and candidate selection."},
+      {"id": "ballot-measures", "label": "Ballot Measures", "description": "Referendums, initiatives, and voter propositions."},
+      {"id": "campaign-finance", "label": "Campaign Finance", "description": "Political donations, PACs, and money in politics."},
+      {"id": "redistricting", "label": "Redistricting", "description": "Drawing district boundaries, gerrymandering, and representation."},
+      {"id": "voter-suppression", "label": "Voter Suppression", "description": "Barriers to voting, disenfranchisement, and access restrictions."},
+      {"id": "executive-orders", "label": "Executive Orders", "description": "Presidential directives and executive branch actions."}
     ]
   }
 }

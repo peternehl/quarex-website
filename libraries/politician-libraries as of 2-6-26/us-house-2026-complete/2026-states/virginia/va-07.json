@@ -1,0 +1,23 @@
+{
+  "book": "VA-07",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Tara Durant (R)",
+        "John Gray (R)",
+        "Darius Mayfield (R)",
+        "Douglas Ollivant (R)",
+        "Waverly Washington (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Eugene Vindman (D)",
+        "Matthew Rainforth (D)",
+        "Alex Thymmons (D)"
+      ]
+    }
+  ]
+}

@@ -19,7 +19,12 @@
         "Why do we struggle to get accurate counts of the undocumented population?",
         "What misconceptions do Americans commonly hold about who the undocumented are?"
       ],
-      "tags": ["society", "migration", "americas", "immigration"]
+      "tags": [
+        "hispanic-culture",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Living Without Status",
@@ -32,7 +37,12 @@
         "How does living without status affect mental health and stress levels?",
         "Why do some undocumented immigrants live openly while others stay completely hidden?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Working in the Shadows",
@@ -46,7 +56,12 @@
         "What protections, if any, do undocumented workers have under labor law?",
         "How much do undocumented immigrants contribute to Social Security they'll never collect?"
       ],
-      "tags": ["economics", "labor", "americas", "immigration"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "The Fear of Deportation",
@@ -57,7 +72,12 @@
         "What's it like for children who grow up with parents who might disappear any day?",
         "How do sanctuary policies affect the daily fear level of undocumented residents?"
       ],
-      "tags": ["society", "identity", "americas", "immigration"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Community Life and Networks",
@@ -72,7 +92,12 @@
         "What cultural institutions have undocumented communities created?",
         "How does the second generation bridge undocumented parents and American society?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Legal Strategies and Remedies",
@@ -85,7 +110,12 @@
         "What's the difference between prosecutorial discretion and actual legal status?",
         "How do notarios and immigration fraud victimize desperate undocumented people?"
       ],
-      "tags": ["law", "governance", "americas", "immigration"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Enforcement: ICE and CBP",
@@ -98,7 +128,12 @@
         "What training do ICE officers receive and what oversight exists?",
         "How do enforcement priorities shift with political changes?"
       ],
-      "tags": ["law", "governance", "americas", "immigration"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Raids and Arrests",
@@ -112,7 +147,12 @@
         "What legal challenges have been brought against raid tactics?",
         "How do rapid response networks try to support people during raids?"
       ],
-      "tags": ["law", "justice", "americas", "civil-rights"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Detention and the Deportation Pipeline",
@@ -127,7 +167,12 @@
         "How do expedited removal and other fast-track processes work?",
         "What's life like for someone after they're deported to a country they barely remember?"
       ],
-      "tags": ["law", "justice", "americas", "immigration"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Family Impacts of Enforcement",
@@ -138,7 +183,12 @@
         "How does deportation affect family finances and stability?",
         "What services exist for children left behind after a parent's deportation?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Advocacy and the Immigrant Rights Movement",
@@ -152,7 +202,12 @@
         "How has the narrative around undocumented immigrants shifted over time?",
         "What tensions exist within the immigrant rights movement itself?"
       ],
-      "tags": ["politics", "activism", "americas", "civil-rights"]
+      "tags": [
+        "politics",
+        "activism",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Pathways Forward",
@@ -165,7 +220,12 @@
         "How do undocumented immigrants themselves envision their future in America?",
         "What would it take politically to break the immigration reform gridlock?"
       ],
-      "tags": ["politics", "governance", "americas", "immigration"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     }
   ]
 }

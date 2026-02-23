@@ -1,0 +1,23 @@
+{
+  "book": "PA-16",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Kelly (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Justin Wagner (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Nick Singelis (I)"
+      ]
+    }
+  ]
+}

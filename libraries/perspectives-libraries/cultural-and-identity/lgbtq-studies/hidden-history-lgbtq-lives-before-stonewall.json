@@ -1,0 +1,151 @@
+{
+  "name": "Hidden History: LGBTQ+ Lives Before Stonewall",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ history", "pre-Stonewall", "Lavender Scare", "Mattachine Society", "Daughters of Bilitis"],
+  "chapters": [
+    {
+      "name": "Same-Sex Love in Ancient Civilizations",
+      "topics": [
+        "What evidence exists for same-sex relationships in ancient Mesopotamia and Egypt?",
+        "How did ancient Greek concepts of sexuality differ from modern categories?",
+        "What was the role of same-sex love in Spartan military culture?",
+        "How did Roman attitudes toward same-sex behavior vary by class and gender?",
+        "What do we know about same-sex relationships in ancient China and Japan?",
+        "Why is it problematic to project modern identity categories onto ancient peoples?"
+      ],
+      "tags": ["history", "classical-antiquity", "lgbtq", "sexuality"]
+    },
+    {
+      "name": "Gender Diversity Across Cultures",
+      "topics": [
+        "What are Two-Spirit identities in Indigenous North American cultures?",
+        "How did colonialism suppress Indigenous gender diversity?",
+        "What are the hijra of South Asia and what roles have they historically played?",
+        "How do the fa'afafine of Samoa challenge Western gender binaries?",
+        "What gender-diverse roles existed in pre-colonial African societies?",
+        "Why do anthropologists caution against using Western LGBTQ+ terms for these identities?"
+      ],
+      "tags": ["anthropology", "gender", "indigenous-peoples", "colonialism"]
+    },
+    {
+      "name": "Medieval and Renaissance Same-Sex Intimacy",
+      "topics": [
+        "How did the medieval Christian church view same-sex behavior?",
+        "What were 'particular friendships' in medieval monasteries and convents?",
+        "How do historians interpret the relationship between Richard I and Philip II?",
+        "What was the significance of Michelangelo's sonnets to Tommaso dei Cavalieri?",
+        "How did Renaissance Florence's culture tolerate same-sex behavior among men?",
+        "What punishments existed for sodomy in medieval and Renaissance Europe?"
+      ],
+      "tags": ["history", "medieval-history", "lgbtq", "religion"]
+    },
+    {
+      "name": "The Invention of 'Homosexuality' in the 19th Century",
+      "topics": [
+        "Who coined the term 'homosexuality' and why does that history matter?",
+        "How did 19th-century sexologists like Karl Heinrich Ulrichs categorize same-sex desire?",
+        "What was Magnus Hirschfeld's contribution to early LGBTQ+ advocacy?",
+        "How did the concept of 'sexual inversion' shape early understandings of queerness?",
+        "What role did criminal law play in creating the modern 'homosexual' identity?",
+        "How did Oscar Wilde's trials in 1895 shape public perception of homosexuality?"
+      ],
+      "tags": ["history", "19th-century", "lgbtq", "sexuality"]
+    },
+    {
+      "name": "Early LGBTQ+ Subcultures in American Cities",
+      "topics": [
+        "What was the 'Pansy Craze' of 1920s-30s New York and why did it end?",
+        "How did Harlem's drag balls create space for Black queer expression?",
+        "What roles did bars and speakeasies play in early LGBTQ+ community formation?",
+        "How did working-class queer communities differ from middle-class ones?",
+        "What was life like for lesbians in early 20th century American cities?",
+        "How did police enforcement shape where and how LGBTQ+ people could gather?"
+      ],
+      "tags": ["history", "20th-century", "lgbtq", "urban-studies"]
+    },
+    {
+      "name": "World War II and the 'Discovery' of Gay America",
+      "topics": [
+        "How did military mobilization bring together LGBTQ+ people who had been isolated?",
+        "What was the military's policy on homosexuality during World War II?",
+        "How did port cities become centers of gay and lesbian life during the war?",
+        "What was the 'blue discharge' and how did it affect LGBTQ+ veterans?",
+        "How did women's wartime roles create opportunities for lesbian community?",
+        "Why do historians call World War II a turning point for American LGBTQ+ life?"
+      ],
+      "tags": ["history", "world-war-ii", "lgbtq", "military"]
+    },
+    {
+      "name": "The Lavender Scare: Cold War Persecution",
+      "topics": [
+        "What was the Lavender Scare and how did it parallel McCarthyism?",
+        "Why were gay and lesbian federal employees considered 'security risks'?",
+        "How many people lost their jobs during the Lavender Scare?",
+        "What was Executive Order 10450 and when was it finally rescinded?",
+        "How did the State Department become a particular target of anti-gay purges?",
+        "What long-term effects did the Lavender Scare have on LGBTQ+ political consciousness?"
+      ],
+      "tags": ["history", "cold-war", "lgbtq", "government"]
+    },
+    {
+      "name": "The Mattachine Society: Gay Men Organize",
+      "topics": [
+        "Who founded the Mattachine Society and what were their backgrounds?",
+        "How did the Mattachine Society's early radical politics shift toward respectability?",
+        "What was the significance of the Dale Jennings case in 1952?",
+        "How did ONE Magazine contribute to early gay political discourse?",
+        "Why did the Mattachine Society emphasize that gay people were 'just like everyone else'?",
+        "What internal conflicts shaped the Mattachine Society's evolution?"
+      ],
+      "tags": ["history", "activism", "lgbtq", "social-movements"]
+    },
+    {
+      "name": "Daughters of Bilitis: Lesbians Find Community",
+      "topics": [
+        "Who founded the Daughters of Bilitis and what was its original purpose?",
+        "How did The Ladder magazine serve the lesbian community?",
+        "What was the relationship between DOB and the Mattachine Society?",
+        "How did DOB balance social support with political advocacy?",
+        "What tensions existed between DOB's assimilationist approach and more radical lesbians?",
+        "Why did DOB ultimately dissolve and what came after?"
+      ],
+      "tags": ["history", "activism", "lgbtq", "feminism"]
+    },
+    {
+      "name": "Medical Pathologization and Its Resistance",
+      "topics": [
+        "How did psychiatry classify homosexuality as a mental illness?",
+        "What 'treatments' were used to 'cure' homosexuality in mid-century America?",
+        "How did Evelyn Hooker's research challenge psychiatric assumptions?",
+        "What role did LGBTQ+ activists play in getting homosexuality removed from the DSM?",
+        "How did the experience of pathologization shape LGBTQ+ community identity?",
+        "What forms of conversion therapy persisted after the DSM change?"
+      ],
+      "tags": ["history", "psychology", "lgbtq", "medicine"]
+    },
+    {
+      "name": "Police Raids and Bar Culture Before Stonewall",
+      "topics": [
+        "Why were gay bars constantly subject to police raids?",
+        "What was the role of the Mafia in operating gay bars?",
+        "How did the 1966 'Sip-In' at Julius' Bar challenge discriminatory practices?",
+        "What happened at Compton's Cafeteria in San Francisco in 1966?",
+        "How did different cities' police policies affect local LGBTQ+ communities?",
+        "What survival strategies did LGBTQ+ people develop to navigate bar raids?"
+      ],
+      "tags": ["history", "law-enforcement", "lgbtq", "civil-rights"]
+    },
+    {
+      "name": "The Eve of Liberation: America in 1969",
+      "topics": [
+        "What was the state of LGBTQ+ rights and visibility on the eve of Stonewall?",
+        "How had the counterculture movements of the 1960s influenced LGBTQ+ people?",
+        "What other uprisings and protests preceded Stonewall?",
+        "How did the Civil Rights Movement and anti-war movement inspire gay activists?",
+        "What tensions existed between older 'homophile' activists and younger radicals?",
+        "Why was Greenwich Village's Stonewall Inn a particularly significant location?"
+      ],
+      "tags": ["history", "1960s", "lgbtq", "social-movements"]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Mutual Funds, ETFs, and Index Investing",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is a Fund and Why Use One?",
+      "topics": [
+        "What problem do mutual funds and ETFs solve for regular investors?",
+        "How does a fund give you instant diversification?",
+        "What does it mean to own shares of a fund versus shares of companies?",
+        "What is a fund's Net Asset Value (NAV)?",
+        "Who manages funds and how are decisions made?",
+        "Why have funds become the default way regular people invest?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "Mutual Funds Explained",
+      "topics": [
+        "How do mutual funds work mechanically?",
+        "What's the difference between open-end and closed-end funds?",
+        "How do you buy and sell mutual fund shares?",
+        "What are the different share classes (A, B, C, institutional)?",
+        "What is a fund's prospectus and what should you look for?",
+        "What are the pros and cons of mutual funds versus other options?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "Exchange-Traded Funds (ETFs)",
+      "topics": [
+        "How are ETFs different from mutual funds?",
+        "Why can you trade ETFs throughout the day like stocks?",
+        "What is the creation/redemption mechanism that makes ETFs work?",
+        "Why are ETFs often more tax-efficient than mutual funds?",
+        "What are the downsides of ETFs?",
+        "When should you choose an ETF versus a mutual fund?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "Active vs Passive: The Great Debate",
+      "topics": [
+        "What's the difference between active and passive fund management?",
+        "What does the research say about active managers beating the market?",
+        "Why do most active funds underperform their benchmarks over time?",
+        "What is survivorship bias and how does it hide poor performance?",
+        "When might active management be worth paying for?",
+        "How has the shift to passive investing changed markets?"
+      ],
+      "tags": ["economics", "critical-thinking", "personal-finance", "economics-theory"]
+    },
+    {
+      "name": "Index Funds: The Revolution",
+      "topics": [
+        "What is an index fund and what index does it track?",
+        "How did John Bogle and Vanguard change investing forever?",
+        "Why is 'owning the whole market' such a powerful idea?",
+        "What are the most popular index funds and ETFs?",
+        "How cheap can index fund fees get and why does it matter?",
+        "What are the criticisms of index investing?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "modern-history"]
+    },
+    {
+      "name": "Understanding Fund Costs",
+      "topics": [
+        "What is an expense ratio and how do you find it?",
+        "How much do fees really cost you over 30 years of investing?",
+        "What are loads, 12b-1 fees, and other hidden costs?",
+        "Why do similar funds have such different fees?",
+        "What is a 'reasonable' expense ratio in 2025?",
+        "How do you compare the true cost of different funds?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "data-analytics"]
+    },
+    {
+      "name": "Types of Stock Funds",
+      "topics": [
+        "What are total market funds and why are they popular?",
+        "What are large-cap, mid-cap, and small-cap funds?",
+        "What are growth funds versus value funds?",
+        "What are sector funds and when might you use them?",
+        "What are international and emerging market funds?",
+        "How do you choose among all these options?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "trade"]
+    },
+    {
+      "name": "Types of Bond Funds",
+      "topics": [
+        "What are total bond market funds?",
+        "What are Treasury funds, corporate bond funds, and muni funds?",
+        "What are short-term, intermediate, and long-term bond funds?",
+        "What are high-yield (junk) bond funds and are they worth the risk?",
+        "What are inflation-protected bond funds (TIPS funds)?",
+        "How do you build a bond fund allocation?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Target-Date Funds: One-Stop Shopping",
+      "topics": [
+        "What is a target-date fund and how does it work?",
+        "How does the 'glide path' shift your allocation over time?",
+        "What are the advantages of extreme simplicity?",
+        "What are the criticisms of target-date funds?",
+        "How do target-date funds from different companies differ?",
+        "Are target-date funds good enough for most people?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "application"]
+    },
+    {
+      "name": "Choosing Your Funds: A Practical Guide",
+      "topics": [
+        "What is a 'three-fund portfolio' and why is it so popular?",
+        "What specific funds should you consider at Vanguard, Fidelity, Schwab?",
+        "How do you evaluate a fund using Morningstar or other tools?",
+        "What is tracking error and why does it matter for index funds?",
+        "Should you use your 401(k) funds or open a separate IRA?",
+        "How do you actually implement a simple fund portfolio?"
+      ],
+      "tags": ["economics", "application", "personal-finance", "data-analytics"]
+    }
+  ]
+}

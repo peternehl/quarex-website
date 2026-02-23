@@ -1,0 +1,42 @@
+{
+  "book": "NY-12",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Kaley Aldrich (R)",
+        "Amy Jordan (R)",
+        "Gavin Solomon (R)",
+        "Lucian Wintrich (R)",
+        "Massimiliano Zappone (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Micah Bergdale (D)",
+        "Alex Bores (D)",
+        "George Conway (D)",
+        "Christopher Diep (D)",
+        "Laura Dunn (D)",
+        "Liam Elkind (D)",
+        "Jami Floyd (D)",
+        "Cameron Kasky (D)",
+        "Micah Lasher (D)",
+        "Alan Pardee (D)",
+        "Jack Schlossberg (D)",
+        "Nina Schwalbe (D)",
+        "Mathew Shurka (D)",
+        "Patrick Timmins (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Robb Huhn (I)",
+        "Wilneida Negron (I)",
+        "Karen Ortiz (I)"
+      ]
+    }
+  ]
+}

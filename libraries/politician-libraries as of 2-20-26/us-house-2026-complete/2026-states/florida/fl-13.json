@@ -1,0 +1,31 @@
+{
+  "book": "FL-13",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Anna Paulina Luna (R)",
+        "Njällssen Amaro Lionheart (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Fatima Aguerjout (D)",
+        "Earle Ford (D)",
+        "Karla Kemp (D)",
+        "Susan Leff (D)",
+        "John Liccione (D)",
+        "Jeff Moore (D)",
+        "Reggie Paros (D)",
+        "Brandt Robinson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Tony D'Arrigo (I)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "US Ambassador to the United Nations",
+  "slug": "un-ambassador",
+  "tags": [
+    "politics",
+    "us-politics",
+    "governance",
+    "diplomacy"
+  ],
+  "chapters": [
+    {
+      "name": "Elise Stefanik",
+      "slug": "elise-stefanik",
+      "topics": [
+        "What is Elise Stefanik's background before becoming UN Ambassador?",
+        "What was Elise Stefanik's record in Congress?",
+        "What are Elise Stefanik's positions on the United Nations?",
+        "What was Elise Stefanik's role in House Republican leadership?",
+        "What controversies or concerns surround Elise Stefanik's appointment?",
+        "How did Elise Stefanik's confirmation process unfold?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "diplomacy"
+      ]
+    },
+    {
+      "name": "Previous Ambassador",
+      "slug": "previous-ambassador",
+      "topics": [
+        "Who was the previous (Biden) UN Ambassador and what was their tenure like?",
+        "How does Elise Stefanik's approach differ from her predecessor?"
+      ],
+      "tags": [
+        "politics",
+        "us-politics",
+        "governance",
+        "diplomacy"
+      ]
+    }
+  ]
+}

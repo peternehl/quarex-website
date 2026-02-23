@@ -2,9 +2,17 @@
   "book": "FL-16",
   "chapters": [
     {
+      "name": "Republican",
+      "topics": [
+        "John Peters (R)",
+        "Eddie Speir (R)"
+      ]
+    },
+    {
       "name": "Democratic",
       "topics": [
         "Jonathan Harris (D)",
+        "Tamika Lyles (D)",
         "Glenn Pearson (D)",
         "Jan Schneider (D)"
       ]

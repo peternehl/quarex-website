@@ -1,0 +1,39 @@
+{
+  "book": "Kansas",
+  "chapters": [
+    {
+      "name": "KS-01",
+      "topics": [
+        "Tracey Mann (R)",
+        "Colin McRoberts (D)",
+        "Lauren Reinhold (D)"
+      ]
+    },
+    {
+      "name": "KS-02",
+      "topics": [
+        "Derek Schmidt (R)",
+        "Don Coover (D)",
+        "Braeden Curwick (D)"
+      ]
+    },
+    {
+      "name": "KS-03",
+      "topics": [
+        "Blake Stanley (R)",
+        "Sharice Davids (D)"
+      ]
+    },
+    {
+      "name": "KS-04",
+      "topics": [
+        "Ron Estes (R)",
+        "Chris Carmichael (D)",
+        "Cole Epley (D)",
+        "Ryan Gilbert (D)",
+        "Jordan Mitchell (D)",
+        "Daniel Schneider (D)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "book": "OH-09",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Anthony Campbell (R)",
+        "Jacob Frost (R)",
+        "Wayne Kinsel (R)",
+        "Derek Merrin (R)",
+        "Alea Nadeem (R)",
+        "Madison Sheahan (R)",
+        "Josh Williams (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Marcy Kaptur (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "David Gedert (L)"
+      ]
+    }
+  ]
+}

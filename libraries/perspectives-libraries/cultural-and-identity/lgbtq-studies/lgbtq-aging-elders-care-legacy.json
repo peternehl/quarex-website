@@ -1,0 +1,127 @@
+{
+  "name": "LGBTQ+ Aging: Elders, Care, and Legacy",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ elders", "aging", "elder care", "SAGE", "HIV long-term survivors"],
+  "chapters": [
+    {
+      "name": "The Stonewall Generation: Elders Who Made History",
+      "topics": [
+        "Who are the LGBTQ+ elders who were at Stonewall and its aftermath?",
+        "What experiences shaped this generation's relationship to identity and visibility?",
+        "How did surviving the AIDS crisis affect this generation?",
+        "What stories and wisdom do LGBTQ+ elders carry?",
+        "How are oral history projects preserving LGBTQ+ elder stories?",
+        "What does this generation want younger LGBTQ+ people to know?"
+      ],
+      "tags": ["history", "lgbtq", "aging", "biography"]
+    },
+    {
+      "name": "Unique Challenges of LGBTQ+ Aging",
+      "topics": [
+        "Why are LGBTQ+ elders more likely to live alone?",
+        "How does the lack of biological children affect LGBTQ+ aging?",
+        "What financial disparities affect LGBTQ+ elders?",
+        "How does a lifetime of discrimination compound in old age?",
+        "What social isolation issues affect LGBTQ+ elders?",
+        "How do LGBTQ+ elders experience higher rates of chronic health conditions?"
+      ],
+      "tags": ["sociology", "lgbtq", "aging", "health-disparities"]
+    },
+    {
+      "name": "HIV Long-Term Survivors and Aging",
+      "topics": [
+        "Who are HIV long-term survivors and what are their experiences?",
+        "What physical health challenges do aging people with HIV face?",
+        "How does survivor's guilt affect long-term survivors' mental health?",
+        "What particular healthcare needs do aging people with HIV have?",
+        "How are long-term survivors organizing and advocating for themselves?",
+        "What research is being done on aging with HIV?"
+      ],
+      "tags": ["public-health", "lgbtq", "aging", "hiv"]
+    },
+    {
+      "name": "Elder Abuse and Discrimination in Care Settings",
+      "topics": [
+        "What discrimination do LGBTQ+ elders face in nursing homes and assisted living?",
+        "How do some LGBTQ+ elders feel forced back into the closet in care settings?",
+        "What forms of elder abuse specifically target LGBTQ+ people?",
+        "How do staff attitudes affect LGBTQ+ elders' quality of care?",
+        "What legal protections exist against discrimination in elder care?",
+        "How are advocates working to make care settings more LGBTQ+ affirming?"
+      ],
+      "tags": ["law", "lgbtq", "aging", "discrimination"]
+    },
+    {
+      "name": "LGBTQ+-Affirming Elder Care",
+      "topics": [
+        "What does LGBTQ+-affirming elder care look like?",
+        "What training helps care workers serve LGBTQ+ elders?",
+        "Are there LGBTQ+-specific senior living communities?",
+        "How can mainstream care facilities become more inclusive?",
+        "What role does SAGE (Services and Advocacy for GLBT Elders) play?",
+        "How can families and friends advocate for LGBTQ+ elders in care?"
+      ],
+      "tags": ["healthcare", "lgbtq", "aging", "social-services"]
+    },
+    {
+      "name": "Transgender Elders: Specific Needs and Experiences",
+      "topics": [
+        "What unique challenges do transgender elders face?",
+        "How do long-term hormone therapy and aging interact?",
+        "What barriers do transgender elders face in healthcare?",
+        "How do transgender elders experience nursing homes and assisted living?",
+        "What support resources exist specifically for transgender elders?",
+        "How are healthcare systems adapting to serve transgender elders?"
+      ],
+      "tags": ["lgbtq", "gender", "aging", "healthcare"]
+    },
+    {
+      "name": "Mental Health and LGBTQ+ Elders",
+      "topics": [
+        "What mental health challenges disproportionately affect LGBTQ+ elders?",
+        "How does a lifetime of minority stress accumulate?",
+        "What particular depression and anxiety issues affect this population?",
+        "How does grief from the AIDS generation affect elders today?",
+        "What barriers exist to LGBTQ+ elders accessing mental healthcare?",
+        "What affirming mental health resources exist for LGBTQ+ elders?"
+      ],
+      "tags": ["psychology", "lgbtq", "aging", "mental-health"]
+    },
+    {
+      "name": "Intergenerational Connections in LGBTQ+ Communities",
+      "topics": [
+        "Why are intergenerational connections important in LGBTQ+ communities?",
+        "What programs bring LGBTQ+ elders and youth together?",
+        "How do LGBTQ+ elders serve as mentors and role models?",
+        "What barriers exist to intergenerational LGBTQ+ connection?",
+        "How can younger LGBTQ+ people better support elders?",
+        "What do LGBTQ+ communities lose when generations are disconnected?"
+      ],
+      "tags": ["sociology", "lgbtq", "aging", "community"]
+    },
+    {
+      "name": "End of Life: Planning, Care, and Mourning",
+      "topics": [
+        "What end-of-life planning considerations affect LGBTQ+ elders?",
+        "How can LGBTQ+ people ensure their wishes are honored?",
+        "What role does chosen family play in end-of-life care?",
+        "How do hospice and palliative care serve LGBTQ+ patients?",
+        "What happens when biological families contest LGBTQ+ relationships at death?",
+        "How do LGBTQ+ communities mourn and memorialize their elders?"
+      ],
+      "tags": ["law", "lgbtq", "aging", "ethics"]
+    },
+    {
+      "name": "Preserving LGBTQ+ History: Archives and Memory",
+      "topics": [
+        "Why is preserving LGBTQ+ history urgent?",
+        "What LGBTQ+ archives and history projects exist?",
+        "How can LGBTQ+ elders contribute to historical preservation?",
+        "What happens to personal archives when LGBTQ+ people die?",
+        "How do oral history projects capture LGBTQ+ elder stories?",
+        "What role do museums and cultural institutions play in LGBTQ+ memory?"
+      ],
+      "tags": ["history", "lgbtq", "archives", "culture"]
+    }
+  ]
+}

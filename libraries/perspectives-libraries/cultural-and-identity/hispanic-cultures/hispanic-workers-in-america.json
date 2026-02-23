@@ -19,7 +19,12 @@
         "How does Hispanic workforce participation differ by gender?",
         "What is the future growth trajectory of Hispanic workers?"
       ],
-      "tags": ["economics", "labor", "americas", "demographics"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "demographics"
+      ]
     },
     {
       "name": "Industries Where Hispanics Work",
@@ -31,7 +36,12 @@
         "What is Hispanic representation in healthcare?",
         "Which industries are Hispanics underrepresented in?"
       ],
-      "tags": ["economics", "labor", "americas", "industry"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "industry"
+      ]
     },
     {
       "name": "Essential Workers",
@@ -43,7 +53,12 @@
         "What role do Hispanics play in warehouse and logistics work?",
         "How has 'essential worker' status affected recognition of Hispanic labor?"
       ],
-      "tags": ["economics", "labor", "americas", "essential-work"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "essential-work"
+      ]
     },
     {
       "name": "Farm Workers",
@@ -56,7 +71,12 @@
         "What organizing has occurred among farm workers?",
         "How has climate change affected farm worker conditions?"
       ],
-      "tags": ["economics", "labor", "americas", "agriculture"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "agriculture"
+      ]
     },
     {
       "name": "Day Laborers and Informal Work",
@@ -68,7 +88,12 @@
         "What regulations affect day labor hiring sites?",
         "How does cash payment affect economic security?"
       ],
-      "tags": ["economics", "labor", "americas", "informal-economy"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "informal-economy"
+      ]
     },
     {
       "name": "Wages and the Pay Gap",
@@ -80,7 +105,12 @@
         "How does immigration status affect wages?",
         "What would closing the Hispanic wage gap mean for the economy?"
       ],
-      "tags": ["economics", "inequality", "americas", "wages"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "wages"
+      ]
     },
     {
       "name": "Workplace Safety and Exploitation",
@@ -92,7 +122,12 @@
         "How do language barriers affect workplace safety?",
         "What recourse do exploited workers have?"
       ],
-      "tags": ["economics", "justice", "americas", "labor"]
+      "tags": [
+        "economics",
+        "justice",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Unions and Labor Organizing",
@@ -104,7 +139,12 @@
         "How are new labor movements reaching Hispanic workers?",
         "What role do unions play in immigrant worker protection?"
       ],
-      "tags": ["politics", "activism", "americas", "labor-organizing"]
+      "tags": [
+        "politics",
+        "activism",
+        "americas",
+        "labor-organizing"
+      ]
     },
     {
       "name": "The Professional Class",
@@ -116,7 +156,12 @@
         "What professional associations serve Hispanic professionals?",
         "What mentorship and pipeline programs exist?"
       ],
-      "tags": ["economics", "identity", "americas", "careers"]
+      "tags": [
+        "economics",
+        "hispanic-culture",
+        "americas",
+        "careers"
+      ]
     },
     {
       "name": "Government and Military Employment",
@@ -128,7 +173,12 @@
         "How does public sector employment provide stability?",
         "What barriers exist to Hispanic advancement in government?"
       ],
-      "tags": ["politics", "representation", "americas", "public-sector"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "public-sector"
+      ]
     },
     {
       "name": "Economic Contributions",
@@ -140,7 +190,12 @@
         "How do Hispanic workers contribute to Social Security?",
         "What is the net economic impact of Hispanic immigration?"
       ],
-      "tags": ["economics", "labor", "americas", "economic-impact"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "economic-impact"
+      ]
     },
     {
       "name": "The Future of Hispanic Work",
@@ -152,7 +207,12 @@
         "How might immigration policy changes affect Hispanic labor?",
         "What is the outlook for Hispanic economic advancement?"
       ],
-      "tags": ["economics", "labor", "americas", "future-work"]
+      "tags": [
+        "economics",
+        "labor",
+        "americas",
+        "future-work"
+      ]
     }
   ]
 }

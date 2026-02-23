@@ -1,0 +1,22 @@
+{
+  "book": "Oklahoma",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Gentner Drummond (R)",
+        "Mike Mazzei (R)",
+        "Charles A. McCall (R)",
+        "Jake Merrick (R)",
+        "Leisa Mitchell Haynes (R)",
+        "Kenneth Sturgell (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Cyndi Munson (D)"
+      ]
+    }
+  ]
+}

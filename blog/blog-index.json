@@ -1,6 +1,57 @@
 {
   "posts": [
     {
+      "slug": "california-jungle-primary",
+      "title": "California's Top-Two Trap: How the Golden State Could Accidentally Elect a Republican Governor",
+      "date": "2026-02-22",
+      "excerpt": "California hasn't had a Republican governor since 2011. Democrats outnumber Republicans 2:1. And yet the top-two primary system could send two Republicans to the general election. It's not a partisan problem — it's a design flaw.",
+      "tags": ["california", "elections", "voting-systems", "politics", "2026"],
+      "quarexLinks": [
+        {
+          "title": "2026 California Governor's Race",
+          "url": "/libraries/c/us-governors-2026/2026-gubernatorial-races/california"
+        },
+        {
+          "title": "Gerrymandering: How Lines on a Map Decide Elections",
+          "url": "/libraries/e/current-events/domestic-politics/gerrymandering-how-lines-on-a-map-decide-elections"
+        }
+      ]
+    },
+    {
+      "slug": "free-gift-of-knowledge",
+      "title": "A Free Gift of Knowledge",
+      "date": "2026-02-22",
+      "excerpt": "I built something I want to share with you. No catch, no subscription, no paywall. Over 830 living books, free curricula, complete election coverage, and AI-powered Q&A — all free, forever.",
+      "tags": ["quarex", "announcement", "knowledge", "education"],
+      "quarexLinks": [
+        {
+          "title": "Quarex Ecosystem",
+          "url": "/ecosystem.html"
+        },
+        {
+          "title": "Quarex Library Navigator",
+          "url": "/libraries/navigator.html"
+        }
+      ]
+    },
+    {
+      "slug": "visual-navigation",
+      "title": "See the Whole Thing: New Visual Navigation for Quarex",
+      "date": "2026-02-20",
+      "excerpt": "With 825 books across dozens of shelves, Quarex had a discovery problem. Now two new visual tools let you see the entire ecosystem and library taxonomy at a glance—and navigate anywhere with a click.",
+      "tags": ["quarex", "navigation", "updates", "d3js"],
+      "quarexLinks": [
+        {
+          "title": "Quarex Library Navigator",
+          "url": "/libraries/navigator.html"
+        },
+        {
+          "title": "Quarex Ecosystem Navigator",
+          "url": "/ecosystem.html"
+        }
+      ]
+    },
+    {
       "slug": "everybody-counts-racism-in-the-us",
       "title": "Everybody Counts or Nobody Counts: Race as a Wedge",
       "date": "2026-02-19",

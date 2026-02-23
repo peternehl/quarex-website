@@ -1,0 +1,19 @@
+{
+  "book": "Nevada",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Joe Lombardo (R)",
+        "Matthew Winterhawk (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Aaron Ford (D)",
+        "Alexis Hill (D)"
+      ]
+    }
+  ]
+}

@@ -11,6 +11,7 @@
     gtag('config', 'G-TMVLTZ6BB5');
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://quarex.org/ask/ask.html" />
   <title>Quarex • Ask the Living Book</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,6 +57,10 @@
     .lang-select:focus{ box-shadow:0 0 0 3px var(--ring) }
     .expertise-select{ position:fixed; top:110px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px); border:1px solid rgba(251,191,36,.35); padding:6px 10px; border-radius:12px; color:var(--ink); font-size:.9rem; cursor:pointer; outline:none }
     .expertise-select:focus{ box-shadow:0 0 0 3px rgba(251,191,36,.5) }
+    .llm-select{ position:fixed; top:150px; right:20px; z-index:1000; background:rgba(15,23,38,.95); backdrop-filter:blur(8px); border:1px solid rgba(147,51,234,.35); padding:6px 10px; border-radius:12px; color:var(--ink); font-size:.9rem; cursor:pointer; outline:none }
+    .llm-select:focus{ box-shadow:0 0 0 3px rgba(147,51,234,.5) }
+    .llm-select option.claude{ color:#a855f7 }
+    .llm-select option.gemini{ color:#10b981 }
 
     /* Two-column layout with sidebar */
     .columns{
@@ -189,6 +194,8 @@
     .me{ align-self:flex-end; background:linear-gradient(180deg, rgba(155,232,255,.22), rgba(122,167,255,.18)); border:1px solid rgba(122,167,255,.35) }
     .ai{ align-self:flex-start; background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.10) }
     .bubble.thinking{ opacity:.85; font-style:italic }
+    .streaming-text::after{ content:'▋'; animation:blink 1s infinite; color:var(--brand); }
+    @keyframes blink{ 0%,50%{opacity:1} 51%,100%{opacity:0} }
 
     /* Composer */
     .composer{
@@ -322,6 +329,13 @@
         font-size: 0.85rem;
       }
 
+      .llm-select {
+        top: 140px;
+        right: 16px;
+        padding: 5px 8px;
+        font-size: 0.85rem;
+      }
+
       .chat {
         min-height: calc(100vh - 140px);
       }
@@ -430,6 +444,13 @@
 
       .expertise-select {
         top: 90px;
+        right: 12px;
+        padding: 4px 6px;
+        font-size: 0.8rem;
+      }
+
+      .llm-select {
+        top: 125px;
         right: 12px;
         padding: 4px 6px;
         font-size: 0.8rem;
@@ -769,6 +790,12 @@
       top: 125px;
     }
 
+    body.tablet-mode-senior .llm-select {
+      font-size: 1.1rem;
+      padding: 10px 14px;
+      top: 170px;
+    }
+
     /* Senior mode portrait - shorter follow-up buttons */
     body.tablet-mode-senior .followup-btn {
       padding: 10px 14px;
@@ -837,6 +864,10 @@
 	  <option value="advanced">Advanced</option>
 	</select>
 
+	<!-- LLM selector removed - Claude only -->
+	<select id="llmSelect" class="llm-select" aria-label="Select AI model" hidden>
+	  <option value="claude" class="claude" selected>Claude</option>
+	</select>
 
     <section class="columns">
       <!-- History Sidebar -->
@@ -897,6 +928,7 @@
     const elBar      = document.getElementById('contextBar');
     const elLangSelect = document.getElementById('languageSelect');
     const elExpertiseSelect = document.getElementById('expertiseSelect');
+    const elLlmSelect = document.getElementById('llmSelect');
 
     // Track latest Q&A
     let latestQuestion = '';
@@ -939,13 +971,16 @@
     });
 
     // Load expertise preference from localStorage
-    const savedExpertise = localStorage.getItem('quarex_expertise') || 'introductory';
+    const savedExpertise = localStorage.getItem('quarex_expertise') || 'intermediate';
     elExpertiseSelect.value = savedExpertise;
 
     // Save expertise preference when changed
     elExpertiseSelect.addEventListener('change', () => {
       localStorage.setItem('quarex_expertise', elExpertiseSelect.value);
     });
+
+    // Claude is now the only LLM option
+    elLlmSelect.value = 'claude';
 
     // ---- URL params ----
     const p        = new URLSearchParams(location.search);
@@ -1653,87 +1688,182 @@
       const mainQuestion = questionLines[0]; // First line is the actual question
 
       addBubble(escapeHtml(q), 'me');
-      const finish = thinking();
       elSend.disabled = true;
 
-      // Prepare question with language instruction if non-English
+      // Always send language instruction to ensure user selection overrides book language
       const selectedLang = elLangSelect.value;
-      let finalQuestion = q;
-      if (selectedLang !== 'en') {
-        const langName = languages[selectedLang];
-        finalQuestion = `Please respond in ${langName}.\n\n${q}`;
+      const langName = languages[selectedLang];
+      const finalQuestion = `Please respond in ${langName}.\n\n${q}`;
+
+      const requestBody = {
+        q: finalQuestion,
+        topic: chapter || context || '',
+        category: book || '',
+        expertise: elExpertiseSelect.value
+      };
+      if (podcastMode) {
+        requestBody.podcast = true;
       }
 
-      try{
-        const requestBody = {
-          q: finalQuestion,
-          topic: chapter || context || '',
-          category: book || '',
-          expertise: elExpertiseSelect.value
-        };
-        // Add podcast flag if in podcast mode
-        if (podcastMode) {
-          requestBody.podcast = true;
+      // Choose endpoint based on LLM selection
+      const useClaude = elLlmSelect.value === 'claude';
+      const llmEndpoint = useClaude
+        ? SITE_PREFIX + '/api/ask-claude.php'
+        : SITE_PREFIX + '/api/ask.php';
+
+      // Handle streaming for Claude, regular fetch for Gemini
+      if (useClaude) {
+        // --- STREAMING MODE (Claude) ---
+        const streamBubble = document.createElement('div');
+        streamBubble.className = 'bubble ai';
+        streamBubble.innerHTML = '<span class="streaming-text"></span>';
+        elMessages.appendChild(streamBubble);
+        elMessages.scrollTop = elMessages.scrollHeight;
+
+        const textSpan = streamBubble.querySelector('.streaming-text');
+        let fullText = '';
+        let metadata = null;
+
+        try {
+          const resp = await fetch(llmEndpoint, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(requestBody)
+          });
+
+          if (!resp.ok) {
+            textSpan.textContent = 'Error: ' + resp.status;
+            throw new Error('HTTP ' + resp.status);
+          }
+
+          const reader = resp.body.getReader();
+          const decoder = new TextDecoder();
+          let buffer = '';
+
+          while (true) {
+            const {done, value} = await reader.read();
+            if (done) break;
+
+            buffer += decoder.decode(value, {stream: true});
+            const lines = buffer.split('\n');
+            buffer = lines.pop(); // Keep incomplete line in buffer
+
+            for (const line of lines) {
+              if (line.startsWith('data: ')) {
+                const jsonStr = line.slice(6);
+                if (jsonStr === '[DONE]') continue;
+
+                try {
+                  const event = JSON.parse(jsonStr);
+
+                  if (event.type === 'text') {
+                    fullText += event.text;
+                    // Update display with HTML-escaped text and line breaks
+                    textSpan.innerHTML = fullText
+                      .replace(/&/g, '&amp;')
+                      .replace(/</g, '&lt;')
+                      .replace(/>/g, '&gt;')
+                      .replace(/\n/g, '<br>');
+                    elMessages.scrollTop = elMessages.scrollHeight;
+                  }
+
+                  if (event.type === 'done') {
+                    metadata = event;
+                  }
+
+                  if (event.type === 'error') {
+                    textSpan.innerHTML += '<br><br><em>Error: ' + escapeHtml(event.error) + '</em>';
+                  }
+                } catch (e) {
+                  console.warn('Failed to parse SSE event:', jsonStr);
+                }
+              }
+            }
+          }
+
+          // Finalize with sources
+          if (metadata) {
+            const sourcesHtml = renderSources(metadata.markdown_links || []);
+            streamBubble.innerHTML = textSpan.innerHTML + sourcesHtml;
+
+            // Store Q&A
+            latestQuestion = mainQuestion;
+            latestAnswer = fullText;
+            elCopyQA.disabled = false;
+
+            // Handle follow-ups and history
+            if (seqMode && seqTopics.length > 0) {
+              advanceToNextTopic();
+            } else if (!seqMode) {
+              const followups = metadata.followup_questions || [];
+              addToHistory(mainQuestion, followups);
+              const currentHistoryIndex = explorationHistory.length - 1;
+              if (followups.length > 0) {
+                addFollowupButtons(followups, currentHistoryIndex);
+              }
+              const dynamicTags = await extractTagsFromResponse(fullText);
+              showRelatedTopics(dynamicTags.length > 0 ? dynamicTags : null);
+            }
+          }
+
+        } catch (err) {
+          console.error('Streaming error:', err);
+          if (!fullText) {
+            textSpan.textContent = 'Network error. Please try again.';
+          }
+        } finally {
+          elSend.disabled = false;
+          if (!seqMode) elPrompt.value = '';
+          elPrompt.focus();
         }
 
-        const resp = await fetch(SITE_PREFIX + '/api/ask.php', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify(requestBody)
-        });
-        const data = await resp.json();
+      } else {
+        // --- NON-STREAMING MODE (Gemini) ---
+        const finish = thinking();
 
-        if (!resp.ok || data.error) {
-          finish('Error: ' + escapeHtml(data?.error || (resp.status + ' request failed')));
-        } else {
-          // Build answer HTML
-          let bodyHtml = data.html
-            ? data.html
-            : `<pre>${escapeHtml(data.text || 'No answer')}</pre>`;
+        try {
+          const resp = await fetch(llmEndpoint, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(requestBody)
+          });
+          const data = await resp.json();
 
-          // Add sources section if we have markdown_links
-          const sourcesHtml = renderSources(data.markdown_links || []);
+          if (!resp.ok || data.error) {
+            finish('Error: ' + escapeHtml(data?.error || (resp.status + ' request failed')));
+          } else {
+            let bodyHtml = data.html
+              ? data.html
+              : `<pre>${escapeHtml(data.text || 'No answer')}</pre>`;
+            const sourcesHtml = renderSources(data.markdown_links || []);
+            finish(bodyHtml + sourcesHtml);
 
-          finish(bodyHtml + sourcesHtml);
+            latestQuestion = mainQuestion;
+            latestAnswer = data.text || 'No answer';
+            elCopyQA.disabled = false;
 
-			// Store latest Q&A (plain text versions)
-			latestQuestion = mainQuestion;
-			latestAnswer = data.text || 'No answer';
-			elCopyQA.disabled = false; // Enable the Copy Q&A button
-
-			// Handle mode-specific behavior
-			console.log('Response complete. seqMode:', seqMode, 'seqTopics.length:', seqTopics.length, 'seqIndex:', seqIndex);
-			if (seqMode && seqTopics.length > 0) {
-			  // Sequential mode: advance to next topic (don't show follow-ups)
-			  console.log('Advancing to next topic...');
-			  advanceToNextTopic();
-			} else if (!seqMode) {
-			  // Add to exploration history
-			  const followups = data.followup_questions || [];
-			  addToHistory(mainQuestion, followups);
-			  const currentHistoryIndex = explorationHistory.length - 1;
-
-			  // Follow-up mode: show follow-up questions if available
-			  if (followups.length > 0) {
-			    addFollowupButtons(followups, currentHistoryIndex);
-			  }
-			  // Show related topics - try dynamic extraction from response, fall back to URL tags
-			  const responseText = data.text || '';
-			  const dynamicTags = await extractTagsFromResponse(responseText);
-			  console.log('Dynamic tags extracted:', dynamicTags);
-			  showRelatedTopics(dynamicTags.length > 0 ? dynamicTags : null);
-			}
+            if (seqMode && seqTopics.length > 0) {
+              advanceToNextTopic();
+            } else if (!seqMode) {
+              const followups = data.followup_questions || [];
+              addToHistory(mainQuestion, followups);
+              const currentHistoryIndex = explorationHistory.length - 1;
+              if (followups.length > 0) {
+                addFollowupButtons(followups, currentHistoryIndex);
+              }
+              const responseText = data.text || '';
+              const dynamicTags = await extractTagsFromResponse(responseText);
+              showRelatedTopics(dynamicTags.length > 0 ? dynamicTags : null);
+            }
+          }
+        } catch (err) {
+          console.error(err);
+          finish('Network error. Please try again.');
+        } finally {
+          elSend.disabled = false;
+          if (!seqMode) elPrompt.value = '';
+          elPrompt.focus();
         }
-      } catch (err){
-        console.error(err);
-        finish('Network error. Please try again.');
-      } finally {
-        elSend.disabled = false;
-        // Don't clear prompt in sequential mode - we just loaded the next topic
-        if (!seqMode) {
-          elPrompt.value = '';
-        }
-        elPrompt.focus();
       }
     });
 

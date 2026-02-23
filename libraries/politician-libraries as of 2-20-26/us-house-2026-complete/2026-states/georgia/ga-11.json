@@ -1,0 +1,27 @@
+{
+  "book": "GA-11",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Chris Mora (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Chris Harden (D)",
+        "Chase Laminack (D)",
+        "Iris Medina-Elston (D)",
+        "Christopher Dale Vines (D)",
+        "Barry Wolfert (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Natalie Richoz (I)"
+      ]
+    }
+  ]
+}

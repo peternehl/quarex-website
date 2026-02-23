@@ -1,0 +1,55 @@
+{
+  "book": "Iowa",
+  "chapters": [
+    {
+      "name": "IA-01",
+      "topics": [
+        "Mariannette Miller-Meeks (R)",
+        "Grant Hill (R)",
+        "David Pautsch (R)",
+        "Christina Bohannan (D)",
+        "Bob Krause (D)",
+        "Travis Terrell (D)",
+        "Taylor Wettach (D)"
+      ]
+    },
+    {
+      "name": "IA-02",
+      "topics": [
+        "Shannon Lundgren (R)",
+        "Charlie McClintock (R)",
+        "Joe Mitchell (R)",
+        "Kathryn Dolter (D)",
+        "Lindsay James (D)",
+        "Guy Morgan (D)",
+        "Clint Twedt-Ball (D)",
+        "Dave Bushaw (I)"
+      ]
+    },
+    {
+      "name": "IA-03",
+      "topics": [
+        "Zach Nunn (R)",
+        "Xavier Carrigan (D)",
+        "Jennifer Konfrst (D)",
+        "Tracy Limon (D)",
+        "Sarah Trone Garriott (D)",
+        "Easton Wolfe (D)"
+      ]
+    },
+    {
+      "name": "IA-04",
+      "topics": [
+        "Randy Feenstra (R)",
+        "Chris McGowan (R)",
+        "Ryan Rhodes (R)",
+        "Christian Schlaefer (R)",
+        "Matt Windschitl (R)",
+        "Dave Dawson (D)",
+        "Stephanie Steiner (D)",
+        "Ashley WolfTornabane (D)",
+        "Jermaine Decker (I)"
+      ]
+    }
+  ]
+}

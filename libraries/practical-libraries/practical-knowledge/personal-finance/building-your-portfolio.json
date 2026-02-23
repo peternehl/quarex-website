@@ -1,0 +1,126 @@
+{
+  "name": "Building Your Portfolio",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "What Is a Portfolio?",
+      "topics": [
+        "What does it mean to have an investment portfolio?",
+        "Why does the mix of investments matter more than individual picks?",
+        "What is asset allocation and why is it the most important decision?",
+        "How do different assets work together in a portfolio?",
+        "What does 'the whole is greater than the sum of its parts' mean for investing?",
+        "Why do portfolios need to be designed, not just accumulated?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "systems-thinking"]
+    },
+    {
+      "name": "The Major Asset Classes",
+      "topics": [
+        "What are the main asset classes and how do they behave differently?",
+        "How have stocks, bonds, and cash performed historically?",
+        "What about real estate, commodities, and alternatives?",
+        "How do different asset classes respond to inflation, recession, and growth?",
+        "What is correlation between assets and why does it matter?",
+        "Which asset classes belong in most regular investors' portfolios?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "economics-theory"]
+    },
+    {
+      "name": "Risk Tolerance: Know Yourself",
+      "topics": [
+        "What is risk tolerance and how do you figure out yours?",
+        "Why do people overestimate their risk tolerance in good times?",
+        "What questionnaires and tools help assess risk tolerance?",
+        "How does risk tolerance differ from risk capacity?",
+        "What is your 'sleep at night' test for portfolio risk?",
+        "How should risk tolerance change as you get older?"
+      ],
+      "tags": ["psychology", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Time Horizon: When Do You Need the Money?",
+      "topics": [
+        "Why is time horizon the most important factor in portfolio design?",
+        "How does a 30-year horizon change what risks you can take?",
+        "What if you have multiple goals with different time horizons?",
+        "Why can young investors afford to be aggressive?",
+        "What is sequence-of-returns risk for near-retirees?",
+        "How do you invest for money you'll need in 5 years versus 25 years?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "risk-assessment"]
+    },
+    {
+      "name": "Diversification: The Only Free Lunch",
+      "topics": [
+        "What did Harry Markowitz mean by 'the only free lunch in investing'?",
+        "How does diversification reduce risk without reducing expected return?",
+        "What does true diversification actually look like?",
+        "How many stocks do you need to be diversified?",
+        "Why isn't owning 10 tech stocks diversification?",
+        "What are the limits of diversification—what risks can't it eliminate?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "economics-theory"]
+    },
+    {
+      "name": "Classic Portfolio Models",
+      "topics": [
+        "What is the 60/40 portfolio and why was it the default for decades?",
+        "What is the three-fund portfolio and why is it so popular?",
+        "What are 'lazy portfolios' and why do they work?",
+        "How do target-date fund glide paths work?",
+        "What is the 'Permanent Portfolio' and other alternative models?",
+        "Do you need to get fancy or do simple portfolios work just as well?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "application"]
+    },
+    {
+      "name": "Rebalancing: Maintaining Your Plan",
+      "topics": [
+        "What is rebalancing and why is it necessary?",
+        "How does rebalancing force you to 'sell high and buy low'?",
+        "How often should you rebalance—annually, quarterly, by threshold?",
+        "What is tax-efficient rebalancing using new contributions?",
+        "Does rebalancing actually improve returns or just reduce risk?",
+        "How do you rebalance across multiple accounts?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "application"]
+    },
+    {
+      "name": "Tax-Efficient Asset Location",
+      "topics": [
+        "What is asset location versus asset allocation?",
+        "Which investments are most tax-efficient in taxable accounts?",
+        "Why should bonds often go in tax-advantaged accounts?",
+        "Where do international stocks and REITs belong?",
+        "How do you think about your entire portfolio across all accounts?",
+        "How much does tax-efficient asset location actually save you?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "When to Change Your Portfolio",
+      "topics": [
+        "When is it appropriate to change your investment strategy?",
+        "How do life changes—job, marriage, kids—affect your portfolio?",
+        "Should you change your portfolio based on market conditions?",
+        "What is tactical asset allocation and does it work?",
+        "How do you avoid tinkering for tinkering's sake?",
+        "What should trigger a portfolio review versus a portfolio change?"
+      ],
+      "tags": ["economics", "critical-thinking", "personal-finance", "application"]
+    },
+    {
+      "name": "Building Your Actual Portfolio: Step by Step",
+      "topics": [
+        "How do you actually implement a portfolio from scratch?",
+        "What decisions do you need to make in what order?",
+        "How do you choose specific funds for your plan?",
+        "Should you invest all at once or dollar-cost average in?",
+        "How do you document your investment policy?",
+        "What does a complete, implemented portfolio look like for different situations?"
+      ],
+      "tags": ["economics", "application", "personal-finance", "data-analytics"]
+    }
+  ]
+}

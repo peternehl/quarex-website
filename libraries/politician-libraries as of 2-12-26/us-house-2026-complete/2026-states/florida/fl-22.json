@@ -1,0 +1,24 @@
+{
+  "book": "FL-22",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Deborah Adeimy (R)",
+        "David Burck (R)",
+        "Steven Crowley (R)",
+        "Dan Franzese (R)",
+        "Anna Medvedeva (R)",
+        "Antonio Srado (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Lois Frankel (D)",
+        "Ian Blake (D)",
+        "Victoria Doyle (D)"
+      ]
+    }
+  ]
+}

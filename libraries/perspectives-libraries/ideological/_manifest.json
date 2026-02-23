@@ -15,7 +15,13 @@
     "slug": "media-and-information",
     "name": "Media and Information",
     "description": "Competing perspectives on media bias, information ecosystems, and how information is created, curated, and consumed",
-    "bookCount": 6
+    "bookCount": 8
+  },
+  {
+    "slug": "project-2025",
+    "name": "Project 2025",
+    "description": "Analysis and documentation of the Heritage Foundation's Project 2025 transition plan and its implementation",
+    "bookCount": 1
   },
   {
     "slug": "technology-ethics",

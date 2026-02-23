@@ -1,6 +1,6 @@
 {
   "batch": 2,
-  "scraped": "2026-01-30",
+  "scraped": "2026-02-21",
   "states": [
     {
       "state": "Colorado",
@@ -39,9 +39,9 @@
         {
           "district": "CO-04",
           "candidates": {
-            "Republican": ["Lauren Boebert (R)", "Eric San Felipe (R)"],
+            "Republican": ["Lauren Boebert (R)", "Eric Phelan (R)", "Eric San Felipe (R)"],
             "Democratic": ["Trisha Calvarese (D)", "Eileen Laubacher (D)", "John Padora Jr. (D)", "Jenna Preston (D)"],
-            "Independent": ["Wayne Thornton (I)"],
+            "Independent": ["Wayne Thornton (I)", "Tim Veldhuizen (I)"],
             "Libertarian": ["Douglas Mangeris (L)"],
             "Green": []
           }
@@ -115,7 +115,7 @@
         {
           "district": "CT-03",
           "candidates": {
-            "Republican": ["Christopher Lancia (R)"],
+            "Republican": ["Rafael Irizarry (R)", "Christopher Lancia (R)"],
             "Democratic": ["Rosa L. DeLauro (D)", "Damjan DeNoble (D)", "Andrew Rice (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -167,7 +167,7 @@
         {
           "district": "FL-01",
           "candidates": {
-            "Republican": ["Jimmy Patronis (R)", "Aaron Dimmock (R)", "Charles Keebaugh (R)", "John Mills (R)", "Bernadette Pittman (R)", "Tayla Plumer (R)", "Gene Valentino (R)"],
+            "Republican": ["Jimmy Patronis (R)", "Douglas Chico (R)", "Aaron Dimmock (R)", "Charles Keebaugh (R)", "John Mills (R)", "Bernadette Pittman (R)", "Tayla Plumer (R)", "Gene Valentino (R)"],
             "Democratic": ["Gay Valimont (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -177,7 +177,7 @@
         {
           "district": "FL-02",
           "candidates": {
-            "Republican": ["Keith Gross (R)", "George Hensarling (R)", "Nicholas Lewis (R)", "Evan Power (R)"],
+            "Republican": ["Keith Gross (R)", "George Hensarling (R)", "Nicholas Lewis (R)", "Nick Lewis (R)", "Luke Murphy (R)", "Jim Norton (R)", "Evan Power (R)", "Austin Rogers (R)", "Audie Rowell (R)"],
             "Democratic": ["Yen Bailey (D)", "Amanda Green (D)", "Nicholas Zateslo (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -188,7 +188,7 @@
           "district": "FL-03",
           "candidates": {
             "Republican": ["Kat Cammack (R)"],
-            "Democratic": ["Rock Aboujaoude Jr. (D)", "Troy Albers (D)", "Seth Harp (D)", "Tom Wells (D)"],
+            "Democratic": ["Rock Aboujaoude Jr. (D)", "Troy Albers (D)", "Seth Harp (D)", "George Hubac (D)", "Tom Wells (D)"],
             "Independent": ["Angela Wiman (I)"],
             "Libertarian": ["Anthony Stebbins (L)"],
             "Green": []
@@ -199,7 +199,7 @@
           "candidates": {
             "Republican": ["Aaron Bean (R)", "Anthony Valerio (R)"],
             "Democratic": ["Michael Kirwan (D)", "Ricky Knoles (D)", "Brittney Robinson (D)"],
-            "Independent": ["Todd Schaefer (I)", "Ronald Sherard (I)"],
+            "Independent": ["Ronald Sherard (I)", "Todd Schaefer (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -217,8 +217,8 @@
         {
           "district": "FL-06",
           "candidates": {
-            "Republican": ["Randy Fine (R)", "Ernest Audino (R)", "Will Furry (R)", "Charles Gambaro (R)", "Alexandra van Cleef (R)"],
-            "Democratic": ["Robert Cooper II (D)", "Ronnie Murchinson-Rivera (D)", "James Stockton (D)", "Eric Yonce (D)"],
+            "Republican": ["Randy Fine (R)", "Ernest Audino (R)", "Charles Gambaro (R)", "Alexandra van Cleef (R)"],
+            "Democratic": ["Robert Cooper II (D)", "Jennifer Jenkins (D)", "Ronnie Murchinson-Rivera (D)", "James Stockton (D)", "Eric Yonce (D)"],
             "Independent": ["Christopher Manuel Alcantara (I)", "Purvi Bangdiwala (I)", "Amr Metwally (I)"],
             "Libertarian": [],
             "Green": []
@@ -247,7 +247,7 @@
         {
           "district": "FL-09",
           "candidates": {
-            "Republican": ["Marcus Carter (R)", "Thomas Chalifoux (R)", "Jorge Malavet (R)", "Steve Rance (R)", "Justin Story (R)"],
+            "Republican": ["Marcus Carter (R)", "Thomas Chalifoux (R)", "Jorge Malavet (R)", "Howard Steven Rance (R)", "Justin Story (R)"],
             "Democratic": ["Darren Soto (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -267,7 +267,7 @@
         {
           "district": "FL-11",
           "candidates": {
-            "Republican": ["Daniel Webster (R)", "Mike Wilnau (R)"],
+            "Republican": ["Daniel Webster (R)", "Ivette Palomo (R)", "Mike Wilnau (R)"],
             "Democratic": ["Barbie Harden Hall (D)", "Royal Webster (D)", "Dan Williams (D)"],
             "Independent": [],
             "Libertarian": ["Ralph Groves (L)"],
@@ -279,7 +279,7 @@
           "candidates": {
             "Republican": ["Gus M. Bilirakis (R)"],
             "Democratic": ["Christopher Irizarry (D)"],
-            "Independent": [],
+            "Independent": ["Branden Scrivener (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -287,8 +287,8 @@
         {
           "district": "FL-13",
           "candidates": {
-            "Republican": ["Anna Paulina Luna (R)", "Njallssen Amaro Lionheart (R)"],
-            "Democratic": ["Fatima Aguerjout (D)", "Earle Ford (D)", "Karla Kemp (D)", "Susan Leff (D)", "Jeff Moore (D)", "Reggie Paros (D)", "Brandt Robinson (D)"],
+            "Republican": ["Anna Paulina Luna (R)", "Njällssen Amaro Lionheart (R)"],
+            "Democratic": ["Fatima Aguerjout (D)", "John Fay (D)", "Earle Ford (D)", "Karla Kemp (D)", "Susan Leff (D)", "John Liccione (D)", "Jeff Moore (D)", "Reggie Paros (D)", "Brandt Robinson (D)"],
             "Independent": ["Tony D'Arrigo (I)"],
             "Libertarian": [],
             "Green": []
@@ -297,7 +297,7 @@
         {
           "district": "FL-14",
           "candidates": {
-            "Republican": ["John Peters (R)", "Robert Rochford (R)", "Gavriel E. Soriano (R)", "Dan Weldon (R)", "Shay Williams (R)"],
+            "Republican": ["Erik Mishiyev (R)", "Robert Rochford (R)", "Gavriel E. Soriano (R)", "Dan Weldon (R)", "Shay Williams (R)"],
             "Democratic": ["Kathy Castor (D)", "Juan Arauz (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -317,8 +317,8 @@
         {
           "district": "FL-16",
           "candidates": {
-            "Republican": [],
-            "Democratic": ["Jonathan Harris (D)", "Glenn Pearson (D)", "Jan Schneider (D)"],
+            "Republican": ["John Peters (R)", "Eddie Speir (R)"],
+            "Democratic": ["Jonathan Harris (D)", "Tamika Lyles (D)", "Glenn Pearson (D)", "Jan Schneider (D)"],
             "Independent": ["Mark Davis (I)"],
             "Libertarian": [],
             "Green": []
@@ -338,7 +338,7 @@
           "district": "FL-18",
           "candidates": {
             "Republican": ["Scott Franklin (R)"],
-            "Democratic": ["Curtis Gibson (D)"],
+            "Democratic": ["Curtis Gibson (D)", "Tiffanie Luong (D)"],
             "Independent": ["Deva Simmons (I)"],
             "Libertarian": [],
             "Green": []
@@ -347,7 +347,7 @@
         {
           "district": "FL-19",
           "candidates": {
-            "Republican": ["Madison Cawthorn (R)", "Chris Collins (R)", "Stephen Elliott (R)", "John Fratto (R)", "Ola Hawatmeh (R)", "Catalina Lauf (R)", "Dylan Modarelli (R)", "Jim Oberweis (R)", "Mike Pedersen (R)", "Jim Schwartzel (R)", "Louis Shenker (R)", "John Strand (R)"],
+            "Republican": ["Madison Cawthorn (R)", "Chris Collins (R)", "Stephen Elliott (R)", "John Fratto (R)", "Ola Hawatmeh (R)", "Catalina Lauf (R)", "Dylan Modarelli (R)", "Jim Oberweis (R)", "Mike Pedersen (R)", "Jim Schwartzel (R)", "Louis Shenker (R)", "John Strand (R)", "Richard Youschak (R)"],
             "Democratic": ["Victor Arias (D)", "Jared Kane (D)", "Howard Sapp (D)"],
             "Independent": [],
             "Libertarian": [],
@@ -359,7 +359,7 @@
           "candidates": {
             "Republican": ["Sendra Dorce (R)", "Rod Joseph (R)"],
             "Democratic": ["Sheila Cherfilus-McCormick (D)", "Mark Douglas (D)", "Dale Holness (D)", "Elijah Manley (D)"],
-            "Independent": ["Kevin McClellan (I)"],
+            "Independent": ["Kedner Maxime (I)", "Kevin McClellan (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -454,10 +454,11 @@
           "district": "GA-01",
           "candidates": {
             "Republican": ["Matt Day (R)", "Patrick Farrell (R)", "James Kingston (R)", "Eugene Monte (R)", "Brian Montgomery (R)", "Krista Penn (R)", "Kandiss Taylor (R)", "Eugene Yu (R)"],
-            "Democratic": ["Defonsio Daniels (D)", "Amanda Hollowell (D)", "Michael McCord (D)", "Joseph Palimeno (D)", "Sharon Stokes-Williamson (D)", "Randy Zurcher (D)"],
-            "Independent": ["Dylan Castillo (I)"],
+            "Democratic": ["Defonsio Daniels (D)", "Joyce Marie Griggs (D)", "Amanda Hollowell (D)", "Michael McCord (D)", "Joseph Palimeno (D)", "Sharon Stokes-Williamson (D)", "Randy Zurcher (D)"],
+            "Independent": [],
             "Libertarian": [],
-            "Green": []
+            "Green": [],
+            "Socialist Labor": ["Dylan Castillo (SLP)"]
           }
         },
         {
@@ -465,9 +466,10 @@
           "candidates": {
             "Republican": ["Chuck Hand (R)"],
             "Democratic": ["Sanford Bishop Jr. (D)", "Danny Glover (D)"],
-            "Independent": ["Brandon Daley (I)"],
+            "Independent": [],
             "Libertarian": [],
-            "Green": []
+            "Green": [],
+            "Communist": ["Brandon Daley (CP)"]
           }
         },
         {
@@ -484,8 +486,8 @@
           "district": "GA-04",
           "candidates": {
             "Republican": [],
-            "Democratic": ["Hank Johnson (D)", "Alexander Robson (D)", "Benedict Truman (D)"],
-            "Independent": [],
+            "Democratic": ["Hank Johnson (D)", "Tania Booth (D)", "Alexander Robson (D)", "Benedict Truman (D)"],
+            "Independent": ["Ansel Postell (I)"],
             "Libertarian": [],
             "Green": []
           }
@@ -534,7 +536,7 @@
           "district": "GA-09",
           "candidates": {
             "Republican": ["Andrew Clyde (R)", "Sam Couvillon (R)", "Gregg Poole (R)"],
-            "Democratic": ["Nick Alex (D)"],
+            "Democratic": ["Nick Alex (D)", "Caitlyn Gegen (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -544,7 +546,7 @@
           "district": "GA-10",
           "candidates": {
             "Republican": ["Houston Gaines (R)"],
-            "Democratic": ["Pamela DeLancy (D)"],
+            "Democratic": ["Pamela DeLancy (D)", "Lexy Doherty (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -553,8 +555,8 @@
         {
           "district": "GA-11",
           "candidates": {
-            "Republican": ["Barry Loudermilk (R)", "Chris Mora (R)"],
-            "Democratic": ["Chris Harden (D)", "Chase Laminack (D)", "Christopher Dale Vines (D)", "Barry Wolfert (D)"],
+            "Republican": ["Ellis Bachman (R)", "John Cowan (R)", "Chris Mora (R)"],
+            "Democratic": ["Chris Harden (D)", "Chase Laminack (D)", "Iris Medina-Elston (D)", "Christopher Dale Vines (D)", "Barry Wolfert (D)"],
             "Independent": ["Natalie Richoz (I)"],
             "Libertarian": [],
             "Green": []
@@ -564,7 +566,7 @@
           "district": "GA-12",
           "candidates": {
             "Republican": ["Rick Allen (R)", "Tori Branum (R)"],
-            "Democratic": ["Robert Dixon (D)", "Tracell Peace-Nichols (D)", "Ceretta Smith (D)", "Chris Stephens (D)", "Brianna Woodson (D)"],
+            "Democratic": ["Robert Dixon (D)", "Traci George (D)", "Tracell Peace-Nichols (D)", "Ceretta Smith (D)", "Chris Stephens (D)", "Brianna Woodson (D)"],
             "Independent": [],
             "Libertarian": [],
             "Green": []
@@ -584,7 +586,7 @@
           "district": "GA-14",
           "candidates": {
             "Republican": ["Star Black (R)", "Reagan Box (R)", "Beau Brown (R)", "James Brown (R)", "Elvis Casely (R)", "Benjamin Cope (R)", "Michael Corbin (R)", "Jeff Criswell (R)", "Eric Cunningham (R)", "Clayton Fuller (R)", "Tom Gray (R)", "Christian Hurd (R)", "Nicky Lama (R)", "Colton Moore (R)", "Linvel Risner (R)", "Brian Stover (R)", "Megahn Strickland (R)", "James Tully (R)", "Jenna Turnipseed (R)", "Jacqueline Wilmer (R)"],
-            "Democratic": ["Clarence Blalock (D)", "Shawn Harris (D)"],
+            "Democratic": ["Shawn Harris (D)"],
             "Independent": ["Rob Ruszkowski (I)"],
             "Libertarian": [],
             "Green": []

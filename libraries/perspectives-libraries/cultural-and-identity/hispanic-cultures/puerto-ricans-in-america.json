@@ -21,7 +21,12 @@
         "What do mainland Puerto Ricans think about the status question?",
         "How has the debt crisis affected Puerto Rico's relationship with the U.S.?"
       ],
-      "tags": ["law", "governance", "americas", "civil-rights"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "The Great Migration",
@@ -32,7 +37,12 @@
         "What role did labor recruitment play in drawing Puerto Ricans to the mainland?",
         "What conditions did early migrants encounter?"
       ],
-      "tags": ["history", "migration", "americas", "labor"]
+      "tags": [
+        "history",
+        "migration",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Circular Migration: The Airbus Generation",
@@ -45,7 +55,12 @@
         "How does circular migration differ from other immigrant patterns?",
         "What economic factors drive movement back and forth?"
       ],
-      "tags": ["society", "migration", "americas", "sociology"]
+      "tags": [
+        "society",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Nuyorican Culture",
@@ -56,7 +71,12 @@
         "How do island Puerto Ricans view Nuyoricans?",
         "What tensions exist between island and mainland Puerto Ricans?"
       ],
-      "tags": ["arts", "identity", "americas", "literary-arts"]
+      "tags": [
+        "arts",
+        "hispanic-culture",
+        "americas",
+        "literary-arts"
+      ]
     },
     {
       "name": "Beyond New York: The Diaspora Spreads",
@@ -70,7 +90,12 @@
         "What distinct cultures have developed in different mainland cities?",
         "How connected are Puerto Rican communities across the mainland?"
       ],
-      "tags": ["geography", "migration", "americas", "sociology"]
+      "tags": [
+        "geography",
+        "migration",
+        "americas",
+        "hispanic-culture"
+      ]
     },
     {
       "name": "Race and Puerto Rican Identity",
@@ -81,7 +106,12 @@
         "What racial discrimination have Puerto Ricans faced in America?",
         "How do Puerto Ricans identify on Census racial categories?"
       ],
-      "tags": ["society", "identity", "americas", "race"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "race"
+      ]
     },
     {
       "name": "Language and Belonging",
@@ -94,7 +124,12 @@
         "What education battles have Puerto Ricans fought over language?",
         "How do island and mainland Spanish differ?"
       ],
-      "tags": ["society", "identity", "americas", "linguistics"]
+      "tags": [
+        "society",
+        "hispanic-culture",
+        "americas",
+        "linguistics"
+      ]
     },
     {
       "name": "Puerto Rican Politics on the Mainland",
@@ -105,7 +140,12 @@
         "What issues mobilize Puerto Rican voters?",
         "How has the Young Lords and other movements shaped Puerto Rican politics?"
       ],
-      "tags": ["politics", "representation", "americas", "us-politics"]
+      "tags": [
+        "politics",
+        "representation",
+        "americas",
+        "us-politics"
+      ]
     },
     {
       "name": "Economic Conditions and Mobility",
@@ -119,7 +159,12 @@
         "What barriers to economic advancement do Puerto Ricans face?",
         "How do citizenship and mobility relate to economic outcomes?"
       ],
-      "tags": ["economics", "inequality", "americas", "labor"]
+      "tags": [
+        "economics",
+        "inequality",
+        "americas",
+        "labor"
+      ]
     },
     {
       "name": "Music: From Bomba to Reggaeton",
@@ -130,7 +175,12 @@
         "How did reggaeton develop and become global?",
         "What Puerto Rican musicians have shaped American popular music?"
       ],
-      "tags": ["arts", "cultural-heritage", "americas", "music"]
+      "tags": [
+        "arts",
+        "cultural-heritage",
+        "americas",
+        "music"
+      ]
     },
     {
       "name": "Hurricane Maria and Its Aftermath",
@@ -143,7 +193,12 @@
         "What long-term effects has Maria had on the community?",
         "How has the island's recovery affected diaspora connections?"
       ],
-      "tags": ["environment", "migration", "americas", "humanitarian"]
+      "tags": [
+        "environment",
+        "migration",
+        "americas",
+        "humanitarian"
+      ]
     },
     {
       "name": "The Future of Puerto Rican Identity",
@@ -154,7 +209,12 @@
         "How might statehood or independence change diaspora identity?",
         "What cultural institutions are maintaining Puerto Rican heritage?"
       ],
-      "tags": ["society", "identity", "americas", "sociology"]
+      "tags": [
+        "society",
+        "identity",
+        "americas",
+        "hispanic-culture"
+      ]
     }
   ]
 }

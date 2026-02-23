@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "executive-branch",
+    "name": "Executive Branch",
+    "description": "President, Vice President, Cabinet secretaries, and senior officials of the executive branch",
+    "shelfCount": 2,
+    "questionFile": "questions-libraries/executive-questions.json"
+  },
+  {
+    "slug": "judicial-branch",
+    "name": "Judicial Branch",
+    "description": "Supreme Court justices - backgrounds, judicial philosophies, notable opinions, and controversies",
+    "shelfCount": 1,
+    "questionFile": "questions-libraries/judicial-questions.json"
+  },
+  {
+    "slug": "us-governors-2026",
+    "name": "US Governors 2026",
+    "description": "All 2026 gubernatorial races with declared candidates. Auto-generated from Ballotpedia master list.",
+    "shelfCount": 1,
+    "disclaimer": "⚠️ Beware: Name Confusion Possible. 📅 Content Updated Every Friday"
+  },
+  {
+    "slug": "us-house-2026-complete",
+    "name": "US House 2026",
+    "description": "All 50 states included, even those pending redistricting",
+    "shelfCount": 1,
+    "disclaimer": "⚠️ Beware: Name Confusion Possible. 📅 Content Updated Every Friday"
+  },
+  {
+    "slug": "us-senate-2026-complete",
+    "name": "US Senate 2026 - Complete",
+    "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
+    "shelfCount": 2,
+    "disclaimer": "⚠️ Beware: Name Confusion Possible. 📅 Content Updated Every Friday"
+  }
+]

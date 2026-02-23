@@ -2,7 +2,7 @@
   "library": "US Governors 2026",
   "library_type": "candidates",
   "description": "All 2026 gubernatorial races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-30",
+  "last_updated": "2026-02-21",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -71,8 +71,8 @@
               "name": "Republican",
               "topics": [
                 "Andy Biggs (R)",
-                "David Schweikert (R)",
-                "Karrin Taylor Robson (R)"
+                "Scott Neely (R)",
+                "David Schweikert (R)"
               ]
             },
             {
@@ -86,6 +86,7 @@
               "topics": [
                 "Teri Hourihan (I)",
                 "William Pounds (I)",
+                "Hugh Lytle (I)",
                 "Leezah Sun (I)"
               ]
             }
@@ -130,6 +131,7 @@
                 "Ethan Agarwal (D)",
                 "Xavier Becerra (D)",
                 "Ian Charles Calderon (D)",
+                "Matt Mahan (D)",
                 "Katie Porter (D)",
                 "Raji Rab (D)",
                 "George Slivka (D)",
@@ -211,7 +213,9 @@
                 "Christian Komor (I)",
                 "Marcus Marte (I)",
                 "Jarvis Ray (I)",
+                "Joseph Rodriguez (I)",
                 "Gregory Roebuck (I)",
+                "Rachel Suh (I)",
                 "Bradley Wall (I)",
                 "Matthew Yearous (I)"
               ]
@@ -273,7 +277,8 @@
                 "David Jolly (D)",
                 "Charles Lewis I (D)",
                 "Donald Peterson (D)",
-                "Christopher Powell (D)"
+                "Christopher Powell (D)",
+                "Jessica Vernekar (D)"
               ]
             },
             {
@@ -308,6 +313,7 @@
               "topics": [
                 "Chris Carr (R)",
                 "Clark Dean (R)",
+                "Rick Jackson (R)",
                 "Burt Jones (R)",
                 "Gregg Kirkpatrick (R)",
                 "Leland Olinger II (R)",
@@ -374,7 +380,9 @@
               "topics": [
                 "Brad Little (R)",
                 "Jordan Chirat (R)",
+                "Mark Fitzpatrick (R)",
                 "Scott Hert (R)",
+                "Jill Kirkham (R)",
                 "Lisa Marie (R)",
                 "Justin Plante (R)"
               ]
@@ -390,9 +398,11 @@
             {
               "name": "Independent/Other",
               "topics": [
+                "Tanner Basye (I)",
                 "Ammon Bundy (I)",
                 "Maxine Durand (I)",
-                "Melissa Sue Robinson (I)"
+                "Melissa Sue Robinson (I)",
+                "John Stegner (I)"
               ]
             }
           ]
@@ -516,6 +526,7 @@
             {
               "name": "Republican",
               "topics": [
+                "Dan Cox (R)",
                 "Ed Hale (R)",
                 "John Myrick (R)"
               ]
@@ -572,6 +583,7 @@
                 "Joyce Gipson (R)",
                 "Anthony Hudson (R)",
                 "John James (R)",
+                "Perry Johnson (R)",
                 "Tom Leonard (R)",
                 "Aric Nesbitt (R)",
                 "Ralph Rebandt (R)",
@@ -605,10 +617,9 @@
                 "Peggy Bennett (R)",
                 "Lisa Demuth (R)",
                 "Thomas Evenstad (R)",
-                "Scott Jensen (R)",
-                "Jeff Johnson (R)",
                 "Patrick Knight (R)",
                 "Brad Kohler (R)",
+                "John Krhin (R)",
                 "Mike Lindell (R)",
                 "Phillip Parrish (R)",
                 "Kendall Qualls (R)",
@@ -618,6 +629,7 @@
             {
               "name": "Democratic",
               "topics": [
+                "Rick DeVoe (D)",
                 "Amy Klobuchar (D)",
                 "Christopher Seymore (D)"
               ]
@@ -680,7 +692,8 @@
             {
               "name": "Democratic",
               "topics": [
-                "Jonathan Kiper (D)"
+                "Jonathan Kiper (D)",
+                "Cinde Warmington (D)"
               ]
             }
           ]
@@ -694,7 +707,9 @@
                 "James Ellison (R)",
                 "Gregg Hull (R)",
                 "Steve D. Lanier (R)",
-                "Duke Rodriguez (R)"
+                "Duke Rodriguez (R)",
+                "Doug Turner (R)",
+                "Belinda Robertson (R)"
               ]
             },
             {
@@ -720,8 +735,13 @@
               "name": "Democratic",
               "topics": [
                 "Kathy Hochul (D)",
-                "Jean Anglade (D)",
-                "Antonio Delgado (D)"
+                "Jean Anglade (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Larry Sharpe (I)"
               ]
             }
           ]
@@ -751,7 +771,8 @@
               "topics": [
                 "Heather Hill (R)",
                 "Casey Putsch (R)",
-                "Vivek Ramaswamy (R)"
+                "Vivek Ramaswamy (R)",
+                "Renea Turner (R)"
               ]
             },
             {
@@ -763,6 +784,7 @@
             {
               "name": "Independent/Other",
               "topics": [
+                "Don Kissick (I)",
                 "Tim Grady (I)"
               ]
             }
@@ -800,6 +822,7 @@
                 "David Burch (R)",
                 "Ed Diehl (R)",
                 "Christine Drazan (R)",
+                "Chris Dudley (R)",
                 "Kyle Duyck (R)",
                 "Caleb Kintz (R)",
                 "Patrick Kopke-Hales (R)",
@@ -816,6 +839,7 @@
               "name": "Democratic",
               "topics": [
                 "Tina Kotek (D)",
+                "Forest Alexander (D)",
                 "James Atkinson (D)",
                 "Brittany Jones (D)",
                 "Tristan Sheppard (D)"
@@ -912,6 +936,7 @@
             {
               "name": "Democratic",
               "topics": [
+                "Dan Ahlers (D)",
                 "Robert Arnold (D)"
               ]
             },
@@ -951,7 +976,8 @@
               "topics": [
                 "Stephen Maxwell (I)",
                 "Lauren Pinkston (I)",
-                "Manasa Reddy (I)"
+                "Manasa Reddy (I)",
+                "Robert Vick (I)"
               ]
             }
           ]
@@ -1038,7 +1064,6 @@
               "name": "Republican",
               "topics": [
                 "Andrew Manske (R)",
-                "Josh Schoemann (R)",
                 "Tom Tiffany (R)"
               ]
             },

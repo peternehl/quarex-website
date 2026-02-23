@@ -1,0 +1,103 @@
+{
+  "name": "Intersex: Biology, Medicine, and Rights",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["intersex", "bodily autonomy", "medical ethics", "gender", "biology"],
+  "chapters": [
+    {
+      "name": "What Is Intersex? Biology Beyond the Binary",
+      "topics": [
+        "What does intersex mean and how common is it?",
+        "What biological variations fall under the intersex umbrella?",
+        "How do chromosomal variations like XXY or XO affect development?",
+        "What are differences in sex development (DSD) and why is terminology contested?",
+        "Why do some people discover they are intersex only later in life?",
+        "How does intersex differ from being transgender?"
+      ],
+      "tags": ["biology", "gender", "lgbtq", "science"]
+    },
+    {
+      "name": "Intersex Variations: Types and Characteristics",
+      "topics": [
+        "What is Congenital Adrenal Hyperplasia (CAH)?",
+        "What is Androgen Insensitivity Syndrome (AIS)?",
+        "What is Klinefelter Syndrome (XXY)?",
+        "What is Turner Syndrome (XO)?",
+        "What are variations in gonadal development?",
+        "How do different intersex variations affect health and development differently?"
+      ],
+      "tags": ["biology", "medicine", "gender", "genetics"]
+    },
+    {
+      "name": "The History of Medical Intervention",
+      "topics": [
+        "How did John Money's theories shape intersex medical treatment?",
+        "What was the 'optimal gender policy' and how was it implemented?",
+        "What happened in the David Reimer case and what did it reveal?",
+        "Why did doctors perform surgeries on intersex infants without long-term follow-up?",
+        "How have medical approaches to intersex varied across time and cultures?",
+        "What role did parents' distress play in driving early surgical intervention?"
+      ],
+      "tags": ["medicine", "history", "gender", "ethics"]
+    },
+    {
+      "name": "Intersex Surgery and the Question of Consent",
+      "topics": [
+        "What surgeries are performed on intersex children and at what ages?",
+        "What are the stated medical justifications for early surgery?",
+        "What evidence exists about outcomes for people who had childhood surgery?",
+        "What do intersex adults say about surgeries performed on them as children?",
+        "How does surgery without consent violate bodily autonomy?",
+        "What is the difference between surgery for health necessity and for appearance?"
+      ],
+      "tags": ["medicine", "ethics", "gender", "civil-rights"]
+    },
+    {
+      "name": "The Intersex Rights Movement",
+      "topics": [
+        "How did the intersex rights movement begin and who were its founders?",
+        "What are the key demands of intersex activists?",
+        "How did organizations like ISNA (Intersex Society of North America) form?",
+        "What is interACT and what work do they do?",
+        "How do intersex advocates work to change medical practice?",
+        "What relationships exist between intersex and LGBTQ+ movements?"
+      ],
+      "tags": ["activism", "lgbtq", "civil-rights", "medicine"]
+    },
+    {
+      "name": "Bodily Autonomy and Informed Consent",
+      "topics": [
+        "What does bodily autonomy mean in the intersex context?",
+        "What would informed consent look like for intersex medical decisions?",
+        "At what age can children participate in decisions about their bodies?",
+        "How should medical teams counsel parents of intersex newborns?",
+        "What support do intersex people and their families need?",
+        "How do some intersex adults choose to pursue surgery as informed adults?"
+      ],
+      "tags": ["ethics", "medicine", "civil-rights", "gender"]
+    },
+    {
+      "name": "Legal Protections and Emerging Policy",
+      "topics": [
+        "What legal protections exist for intersex people worldwide?",
+        "How have some countries banned or restricted intersex surgeries on minors?",
+        "What U.S. states have considered intersex protection legislation?",
+        "How do human rights organizations classify non-consensual intersex surgery?",
+        "What medical guidelines have been updated to address intersex concerns?",
+        "How does insurance coverage affect intersex healthcare decisions?"
+      ],
+      "tags": ["law", "civil-rights", "medicine", "gender"]
+    },
+    {
+      "name": "Intersex Lives: Identity, Community, and Advocacy",
+      "topics": [
+        "How do intersex people describe their experiences of identity?",
+        "What role does community play for intersex individuals?",
+        "How do intersex people navigate disclosure and visibility?",
+        "What challenges do intersex people face in relationships and intimacy?",
+        "How are intersex voices becoming more present in media and culture?",
+        "What would a world that fully accepted intersex people look like?"
+      ],
+      "tags": ["lgbtq", "identity", "gender", "community"]
+    }
+  ]
+}

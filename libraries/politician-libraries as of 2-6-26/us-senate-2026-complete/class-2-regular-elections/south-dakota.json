@@ -1,0 +1,24 @@
+{
+  "book": "South Dakota",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Mike Rounds (R)",
+        "Justin McNeal (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Julian Beaudion (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Brian Bengs (I)"
+      ]
+    }
+  ]
+}

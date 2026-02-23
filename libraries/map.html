@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map Viewer — Quarex</title>
+  <style>
+    :root {
+      --bg: #0A0A0A;
+      --ink: #F7F7F7;
+      --muted: #B7BCC2;
+      --accent: #7CB9FF;
+      --card: #111111;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 16px 24px;
+      background: var(--card);
+      border-bottom: 1px solid #262626;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: #1e293b;
+      color: var(--accent);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .back-btn:hover {
+      background: #334155;
+    }
+    h1 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      flex: 1;
+    }
+
+    /* Language Toggle Switch */
+    .lang-toggle {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #1e293b;
+      padding: 6px 12px;
+      border-radius: 8px;
+    }
+    .lang-label {
+      font-size: 13px;
+      color: var(--muted);
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+    .lang-label.active {
+      color: var(--accent);
+      font-weight: 600;
+    }
+    .toggle-switch {
+      position: relative;
+      width: 44px;
+      height: 24px;
+      background: #334155;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .toggle-switch.local {
+      background: var(--accent);
+    }
+    .toggle-knob {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 18px;
+      height: 18px;
+      background: white;
+      border-radius: 50%;
+      transition: transform 0.2s;
+    }
+    .toggle-switch.local .toggle-knob {
+      transform: translateX(20px);
+    }
+
+    .map-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      transition: opacity 0.3s;
+    }
+    iframe.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .error {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      color: var(--muted);
+    }
+    .error h2 {
+      color: var(--ink);
+    }
+    .loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: var(--muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="back-btn" id="backBtn">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M19 12H5M12 19l-7-7 7-7"/>
+      </svg>
+      Back
+    </a>
+    <h1 id="title">Map</h1>
+    <div class="lang-toggle" id="langToggle" style="display: none;">
+      <span class="lang-label active" id="labelEn">English</span>
+      <div class="toggle-switch" id="toggleSwitch">
+        <div class="toggle-knob"></div>
+      </div>
+      <span class="lang-label" id="labelLocal">Local</span>
+    </div>
+  </header>
+
+  <div class="map-container" id="mapContainer">
+    <div class="loading" id="loading">Loading map...</div>
+    <div class="error" id="errorMsg" style="display: none;">
+      <h2>No location specified</h2>
+      <p>Use ?country=CountryName to view a map</p>
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const country = params.get('country');
+    const backUrl = params.get('back');
+
+    const backBtn = document.getElementById('backBtn');
+    const title = document.getElementById('title');
+    const container = document.getElementById('mapContainer');
+    const errorMsg = document.getElementById('errorMsg');
+    const loading = document.getElementById('loading');
+    const langToggle = document.getElementById('langToggle');
+    const toggleSwitch = document.getElementById('toggleSwitch');
+    const labelEn = document.getElementById('labelEn');
+    const labelLocal = document.getElementById('labelLocal');
+
+    let iframeEn = null;
+    let iframeLocal = null;
+    let isLocalView = false;
+
+    // Set back button
+    if (backUrl) {
+      backBtn.href = decodeURIComponent(backUrl);
+    } else {
+      backBtn.href = '/libraries/g';
+    }
+
+    function toggleLanguage() {
+      isLocalView = !isLocalView;
+      toggleSwitch.classList.toggle('local', isLocalView);
+      labelEn.classList.toggle('active', !isLocalView);
+      labelLocal.classList.toggle('active', isLocalView);
+
+      if (iframeEn && iframeLocal) {
+        iframeEn.classList.toggle('hidden', isLocalView);
+        iframeLocal.classList.toggle('hidden', !isLocalView);
+      }
+    }
+
+    toggleSwitch.addEventListener('click', toggleLanguage);
+    labelEn.addEventListener('click', () => { if (isLocalView) toggleLanguage(); });
+    labelLocal.addEventListener('click', () => { if (!isLocalView) toggleLanguage(); });
+
+    if (country) {
+      title.textContent = `Map: ${country}`;
+      document.title = `${country} Map — Quarex`;
+      langToggle.style.display = 'flex';
+
+      // Create two iframes - Google Maps (English) and OpenStreetMap (Local)
+      iframeEn = document.createElement('iframe');
+      iframeLocal = document.createElement('iframe');
+      iframeLocal.classList.add('hidden');
+
+      // Allow fullscreen for both
+      iframeEn.setAttribute('allowfullscreen', '');
+      iframeEn.setAttribute('loading', 'lazy');
+      iframeEn.setAttribute('referrerpolicy', 'no-referrer-when-downgrade');
+      iframeLocal.setAttribute('allowfullscreen', '');
+      iframeLocal.setAttribute('loading', 'lazy');
+
+      const query = encodeURIComponent(country);
+
+      // Google Maps embed (English labels) - free embed format
+      iframeEn.src = `https://maps.google.com/maps?q=${query}&hl=en&t=m&z=6&output=embed`;
+
+      // Use Nominatim to get coordinates for OpenStreetMap (local language)
+      fetch(`https://nominatim.openstreetmap.org/search?q=${query}&format=json&limit=1`)
+        .then(r => r.json())
+        .then(data => {
+          loading.style.display = 'none';
+
+          if (data && data[0]) {
+            const place = data[0];
+            const bbox = place.boundingbox; // [south, north, west, east]
+            const bboxStr = `${bbox[2]},${bbox[0]},${bbox[3]},${bbox[1]}`;
+
+            // OpenStreetMap shows local/native language names by default
+            iframeLocal.src = `https://www.openstreetmap.org/export/embed.html?bbox=${bboxStr}&layer=mapnik`;
+          } else {
+            // Fallback: world view
+            iframeLocal.src = `https://www.openstreetmap.org/export/embed.html?bbox=-180,-90,180,90&layer=mapnik`;
+          }
+        })
+        .catch(() => {
+          loading.style.display = 'none';
+          // On error, show world map
+          iframeLocal.src = `https://www.openstreetmap.org/export/embed.html?bbox=-180,-90,180,90&layer=mapnik`;
+        });
+
+      container.appendChild(iframeEn);
+      container.appendChild(iframeLocal);
+    } else {
+      loading.style.display = 'none';
+      errorMsg.style.display = 'flex';
+    }
+  </script>
+</body>
+</html>

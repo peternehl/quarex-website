@@ -1,0 +1,23 @@
+{
+  "book": "Kansas",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Roger Marshall (R)",
+        "Chase LaPorte (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Christy Davis (D)",
+        "Erik Murray (D)",
+        "Sandy Spidel Neumann (D)",
+        "Anne Parelkar (D)",
+        "Patrick Schmidt (D)",
+        "Michael Soetaert (D)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "book": "Oregon",
+  "chapters": [
+    {
+      "name": "OR-01",
+      "topics": [
+        "Suzanne Bonamici (D)"
+      ]
+    },
+    {
+      "name": "OR-02",
+      "topics": [
+        "Cliff Bentz (R)",
+        "Andrea Carr (R)",
+        "Peter Larson (R)",
+        "Russell McAlmond (R)",
+        "Peter Black (D)",
+        "Mary Doyle (D)",
+        "Mitchel Knight (D)",
+        "Rebecca Mueller (D)",
+        "Dawn Rasmussen (D)",
+        "Patty Snow (D)"
+      ]
+    },
+    {
+      "name": "OR-03",
+      "topics": [
+        "Maxine Dexter (D)",
+        "Jessica Salas (D)"
+      ]
+    },
+    {
+      "name": "OR-04",
+      "topics": [
+        "Monique DeSpain (R)",
+        "Raiph Huber (R)",
+        "Val Hoyle (D)",
+        "Melissa Bird (D)",
+        "William King (D)"
+      ]
+    },
+    {
+      "name": "OR-05",
+      "topics": [
+        "Patti Adair (R)",
+        "Jonathan Lockwood (R)",
+        "Jo Rae Perkins (R)",
+        "Janelle Bynum (D)",
+        "Zeva Rosenbaum (D)",
+        "Joseph Lehman (L)"
+      ]
+    },
+    {
+      "name": "OR-06",
+      "topics": [
+        "David Russ (R)",
+        "Andrea Salinas (D)"
+      ]
+    }
+  ]
+}

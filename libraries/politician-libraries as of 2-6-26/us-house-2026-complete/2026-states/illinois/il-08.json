@@ -1,0 +1,27 @@
+{
+  "book": "IL-08",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Kevin Ake (R)",
+        "Jennifer Davis (R)",
+        "Herbert Hebein (R)",
+        "Mark Rice (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Junaid Ahmed (D)",
+        "Yasmeen Bankole (D)",
+        "Melissa Bean (D)",
+        "Sanjyot Dunung (D)",
+        "Neil Khot (D)",
+        "Kevin Morrison (D)",
+        "Dan Tully (D)",
+        "Ryan Vetticad (D)"
+      ]
+    }
+  ]
+}

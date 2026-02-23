@@ -1,0 +1,25 @@
+{
+  "book": "CA-49",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jim Desmond (R)",
+        "Star Parker (R)",
+        "Eli Stern (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mike Levin (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Julian Arellano (I)"
+      ]
+    }
+  ]
+}

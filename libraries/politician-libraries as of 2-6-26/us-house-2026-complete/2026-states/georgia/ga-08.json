@@ -1,0 +1,27 @@
+{
+  "book": "GA-08",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Austin Scott (R)",
+        "Vinson Watkins (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "James Cooper III (D)",
+        "Kelly Esti (D)",
+        "Justin Laster (D)",
+        "Justin Lucas (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Roman Coley Davis (I)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "name": "LGBTQ+ People of Color",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+", "intersectionality", "race", "Ballroom", "Two-Spirit", "Audre Lorde"],
+  "chapters": [
+    {
+      "name": "Intersectionality: Living at the Crossroads",
+      "topics": [
+        "What does it mean to experience racism and homophobia simultaneously?",
+        "How did Kimberlé Crenshaw develop the concept of intersectionality?",
+        "Why can't LGBTQ+ people of color simply 'choose' which identity matters more?",
+        "How do LGBTQ+ people of color experience marginalization within both communities?",
+        "What unique strengths come from navigating multiple identities?",
+        "How does intersectionality reshape our understanding of oppression and liberation?"
+      ],
+      "tags": ["sociology", "race", "lgbtq", "identity"]
+    },
+    {
+      "name": "Black LGBTQ+ History and Leadership",
+      "topics": [
+        "Who was Bayard Rustin and why was his story hidden for so long?",
+        "How did Black LGBTQ+ people participate in the Civil Rights Movement?",
+        "Who was Audre Lorde and what were her contributions to feminism and queer thought?",
+        "How did James Baldwin write about race and sexuality?",
+        "What role did Black transgender women play in LGBTQ+ liberation?",
+        "How do contemporary Black LGBTQ+ leaders continue this legacy?"
+      ],
+      "tags": ["history", "race", "lgbtq", "biography"]
+    },
+    {
+      "name": "Ballroom Culture: A Black and Latino LGBTQ+ Institution",
+      "topics": [
+        "What is Ballroom culture and where did it originate?",
+        "How do houses function as chosen family in Ballroom?",
+        "What are the categories and forms of competition in Ballroom?",
+        "How did 'Paris Is Burning' bring Ballroom to mainstream attention?",
+        "What concerns exist about mainstream appropriation of Ballroom culture?",
+        "How does Ballroom continue to evolve and serve its communities?"
+      ],
+      "tags": ["culture", "race", "lgbtq", "performing-arts"]
+    },
+    {
+      "name": "Latino/a/x LGBTQ+ Experiences",
+      "topics": [
+        "How do concepts of machismo and marianismo affect LGBTQ+ Latino/a/x people?",
+        "What role does family play in Latino/a/x LGBTQ+ experiences?",
+        "How do immigration status and LGBTQ+ identity intersect?",
+        "What unique health challenges affect LGBTQ+ Latino/a/x communities?",
+        "How have Latino/a/x LGBTQ+ activists contributed to the movement?",
+        "What resources exist specifically for LGBTQ+ Latino/a/x people?"
+      ],
+      "tags": ["culture", "race", "lgbtq", "hispanic-cultures"]
+    },
+    {
+      "name": "Two-Spirit Identities in Indigenous Communities",
+      "topics": [
+        "What does Two-Spirit mean and what are its origins?",
+        "How did colonialism suppress Indigenous gender and sexual diversity?",
+        "What traditional roles did Two-Spirit people play in their communities?",
+        "How are Indigenous communities reclaiming Two-Spirit identities today?",
+        "Why is Two-Spirit not simply the 'Native American version' of gay or trans?",
+        "What sovereignty issues affect Two-Spirit people's rights and recognition?"
+      ],
+      "tags": ["culture", "indigenous-peoples", "lgbtq", "colonialism"]
+    },
+    {
+      "name": "Asian American and Pacific Islander LGBTQ+ Experiences",
+      "topics": [
+        "How do family expectations and 'model minority' myths affect AAPI LGBTQ+ people?",
+        "What challenges around coming out exist in Asian American communities?",
+        "How have AAPI LGBTQ+ activists contributed to the movement?",
+        "What representation issues exist for AAPI LGBTQ+ people in media?",
+        "How do immigration histories shape AAPI LGBTQ+ communities?",
+        "What resources exist specifically for AAPI LGBTQ+ people?"
+      ],
+      "tags": ["culture", "race", "lgbtq", "asian-cultures"]
+    },
+    {
+      "name": "Racism Within LGBTQ+ Spaces",
+      "topics": [
+        "How does racism manifest in predominantly white LGBTQ+ spaces?",
+        "What does 'no Blacks, no Asians' on dating apps reveal about the community?",
+        "How have mainstream LGBTQ+ organizations excluded people of color?",
+        "What role has gentrification played in displacing LGBTQ+ communities of color?",
+        "How do drag and other LGBTQ+ cultural forms appropriate from communities of color?",
+        "What efforts exist to make LGBTQ+ spaces more racially inclusive?"
+      ],
+      "tags": ["sociology", "race", "lgbtq", "discrimination"]
+    },
+    {
+      "name": "Homophobia and Transphobia in Communities of Color",
+      "topics": [
+        "How do stereotypes about communities of color and homophobia compare to reality?",
+        "What role do Black churches play—both positive and negative—for LGBTQ+ members?",
+        "How do LGBTQ+ people of color navigate family and community expectations?",
+        "What generational differences exist in attitudes toward LGBTQ+ people?",
+        "How are communities of color becoming more LGBTQ+ affirming?",
+        "What leadership by LGBTQ+ people of color is changing their communities?"
+      ],
+      "tags": ["sociology", "race", "lgbtq", "religion"]
+    },
+    {
+      "name": "Health Disparities Facing LGBTQ+ People of Color",
+      "topics": [
+        "What HIV/AIDS disparities affect Black and Latino gay and bisexual men?",
+        "How do transgender women of color experience compounded health inequities?",
+        "What barriers to healthcare access affect LGBTQ+ people of color?",
+        "How does minority stress from multiple identities affect mental health?",
+        "What culturally competent healthcare approaches are being developed?",
+        "How are LGBTQ+ people of color leading health advocacy in their communities?"
+      ],
+      "tags": ["public-health", "race", "lgbtq", "health-disparities"]
+    },
+    {
+      "name": "Building Multiracial LGBTQ+ Movements",
+      "topics": [
+        "How can LGBTQ+ movements center racial justice?",
+        "What does solidarity between racial justice and LGBTQ+ movements look like?",
+        "How did Black Lives Matter include LGBTQ+ perspectives from the start?",
+        "What leadership by LGBTQ+ people of color is reshaping the movement?",
+        "How can white LGBTQ+ people be better allies in racial justice work?",
+        "What would a truly intersectional LGBTQ+ movement achieve?"
+      ],
+      "tags": ["activism", "race", "lgbtq", "social-movements"]
+    }
+  ]
+}

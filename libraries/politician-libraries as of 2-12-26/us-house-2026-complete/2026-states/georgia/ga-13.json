@@ -1,0 +1,29 @@
+{
+  "book": "GA-13",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Peter Bourne (R)",
+        "Jonathan Chavez (R)",
+        "Simeon Nunnally (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "David Scott (D)",
+        "Everton Blair Jr. (D)",
+        "Jonathan Bonner (D)",
+        "Jasmine Clark (D)",
+        "Jeffree Fauntleroy Sr. (D)",
+        "Emanuel Jones (D)",
+        "Heavenly Kimes (D)",
+        "Joe Lester (D)",
+        "Ronald McKenzie (D)",
+        "Carlos Moore (D)",
+        "Pierre Whatley (D)"
+      ]
+    }
+  ]
+}

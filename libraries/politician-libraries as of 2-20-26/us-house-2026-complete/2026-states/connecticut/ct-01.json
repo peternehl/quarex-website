@@ -1,0 +1,21 @@
+{
+  "book": "CT-01",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Amy Chai (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "John Larson (D)",
+        "Luke Bronin (D)",
+        "Ruth Fortune (D)",
+        "Jillian Gilchrest (D)",
+        "Mark Stewart Greenstein (D)"
+      ]
+    }
+  ]
+}

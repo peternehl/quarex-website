@@ -1,0 +1,23 @@
+{
+  "book": "TX-08",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jay Fondren (R)",
+        "Brett Jensen (R)",
+        "Stephen Long (R)",
+        "Jessica Steinmann (R)",
+        "Nick Tran (R)",
+        "Deddrick Wilmer (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Keith Coleman (D)",
+        "Laura Jones (D)"
+      ]
+    }
+  ]
+}

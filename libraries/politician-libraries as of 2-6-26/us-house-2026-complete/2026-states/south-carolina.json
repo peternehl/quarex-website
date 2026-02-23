@@ -1,0 +1,70 @@
+{
+  "book": "South Carolina",
+  "chapters": [
+    {
+      "name": "SC-01",
+      "topics": [
+        "Dan Brown (R)",
+        "Logan Cunningham (R)",
+        "Tyler Dykes (R)",
+        "Jack Ellison (R)",
+        "Jenny Honeycutt (R)",
+        "Sam McCown (R)",
+        "Alex Pelbath (R)",
+        "Mark Smith (R)",
+        "Robert Beers (D)",
+        "Mac Deford (D)",
+        "Max Diaz (D)",
+        "Matthew Fulmer (D)",
+        "Mayra Rivera-Vazquez (D)",
+        "William Reeside (L)"
+      ]
+    },
+    {
+      "name": "SC-02",
+      "topics": [
+        "Joe Wilson (R)",
+        "Roger Pruitt (D)",
+        "David Robinson II (D)"
+      ]
+    },
+    {
+      "name": "SC-03",
+      "topics": [
+        "Sheri Biggs (R)"
+      ]
+    },
+    {
+      "name": "SC-04",
+      "topics": [
+        "William Timmons (R)",
+        "David Atchley (R)",
+        "Courtney McClain (D)"
+      ]
+    },
+    {
+      "name": "SC-05",
+      "topics": [
+        "Bill Bledsoe (R)",
+        "Wes Climer (R)",
+        "Andrew Clough (D)",
+        "Mallory Dittmer (D)",
+        "Alex Harper (D)"
+      ]
+    },
+    {
+      "name": "SC-06",
+      "topics": [
+        "James Clyburn (D)"
+      ]
+    },
+    {
+      "name": "SC-07",
+      "topics": [
+        "Russell Fry (R)",
+        "Adam Moye (R)",
+        "John Vincent (D)"
+      ]
+    }
+  ]
+}

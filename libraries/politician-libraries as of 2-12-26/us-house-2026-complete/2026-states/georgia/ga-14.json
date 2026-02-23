@@ -1,0 +1,43 @@
+{
+  "book": "GA-14",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Star Black (R)",
+        "Reagan Box (R)",
+        "Beau Brown (R)",
+        "James Brown (R)",
+        "Elvis Casely (R)",
+        "Benjamin Cope (R)",
+        "Michael Corbin (R)",
+        "Jeff Criswell (R)",
+        "Eric Cunningham (R)",
+        "Clayton Fuller (R)",
+        "Tom Gray (R)",
+        "Christian Hurd (R)",
+        "Nicky Lama (R)",
+        "Colton Moore (R)",
+        "Linvel Risner (R)",
+        "Brian Stover (R)",
+        "Megahn Strickland (R)",
+        "James Tully (R)",
+        "Jenna Turnipseed (R)",
+        "Jacqueline Wilmer (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Clarence Blalock (D)",
+        "Shawn Harris (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Rob Ruszkowski (I)"
+      ]
+    }
+  ]
+}

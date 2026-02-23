@@ -1,0 +1,34 @@
+{
+  "book": "KY-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ralph Alvarado (R)",
+        "Ryan Dotson (R)",
+        "Adam Perez Arquette (R)",
+        "Greg Plucinski (R)",
+        "Steve Shannon (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jimmy Ausbrooks (D)",
+        "Harvey Carroll Jr. (D)",
+        "Zach Dembo (D)",
+        "Corey Edwards (D)",
+        "David Kloiber (D)",
+        "Erin Petrey (D)",
+        "Cherlynn Stevenson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jay Bowman (I)",
+        "Pete Lynch (I)"
+      ]
+    }
+  ]
+}

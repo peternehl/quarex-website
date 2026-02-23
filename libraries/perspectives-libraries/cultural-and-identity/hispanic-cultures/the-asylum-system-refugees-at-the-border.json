@@ -19,7 +19,12 @@
         "How has American asylum law evolved over time?",
         "What constitutes persecution under asylum law?"
       ],
-      "tags": ["law", "migration", "americas", "immigration"]
+      "tags": [
+        "law",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Who Seeks Asylum at the Southern Border?",
@@ -32,7 +37,12 @@
         "How have asylum demographics changed over time?",
         "What are the experiences of LGBTQ+ asylum seekers?"
       ],
-      "tags": ["society", "migration", "americas", "refugee-issues"]
+      "tags": [
+        "hispanic-culture",
+        "migration",
+        "americas",
+        "refugee-issues"
+      ]
     },
     {
       "name": "The Journey North",
@@ -45,7 +55,12 @@
         "How do transit countries like Mexico treat migrants?",
         "What humanitarian organizations assist migrants en route?"
       ],
-      "tags": ["society", "migration", "americas", "refugee-issues"]
+      "tags": [
+        "hispanic-culture",
+        "migration",
+        "americas",
+        "refugee-issues"
+      ]
     },
     {
       "name": "Arriving at the Border",
@@ -58,7 +73,12 @@
         "How are families vs. single adults treated differently?",
         "What role do Title 8 vs. Title 42 play in border policy?"
       ],
-      "tags": ["law", "migration", "americas", "immigration"]
+      "tags": [
+        "law",
+        "migration",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "The Credible Fear Process",
@@ -70,7 +90,12 @@
         "How has the credible fear standard changed over time?",
         "What are the controversies around credible fear screening?"
       ],
-      "tags": ["law", "justice", "americas", "immigration"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Immigration Courts and the Backlog",
@@ -83,7 +108,12 @@
         "How do asylum seekers navigate court without lawyers?",
         "What reforms have been proposed to address the backlog?"
       ],
-      "tags": ["law", "governance", "americas", "immigration"]
+      "tags": [
+        "law",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Detention of Asylum Seekers",
@@ -96,7 +126,12 @@
         "What mental health impacts does detention cause?",
         "What oversight exists for detention conditions?"
       ],
-      "tags": ["law", "justice", "americas", "immigration"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Remain in Mexico and Other Policies",
@@ -108,7 +143,12 @@
         "How did the Biden administration change asylum policies?",
         "What recent policies affect asylum at the border?"
       ],
-      "tags": ["politics", "governance", "americas", "immigration"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Family Separation",
@@ -121,7 +161,12 @@
         "Are families still being separated today?",
         "What ongoing reunification efforts exist?"
       ],
-      "tags": ["society", "justice", "americas", "family"]
+      "tags": [
+        "hispanic-culture",
+        "justice",
+        "americas",
+        "family"
+      ]
     },
     {
       "name": "Winning and Losing Asylum Cases",
@@ -134,7 +179,12 @@
         "What happens after deportation orders?",
         "How do some denied applicants remain in the U.S.?"
       ],
-      "tags": ["law", "justice", "americas", "immigration"]
+      "tags": [
+        "law",
+        "justice",
+        "americas",
+        "immigration"
+      ]
     },
     {
       "name": "Asylum Advocacy and Legal Aid",
@@ -146,7 +196,12 @@
         "What humanitarian organizations support asylum seekers?",
         "How do faith communities assist asylum seekers?"
       ],
-      "tags": ["society", "activism", "americas", "civil-rights"]
+      "tags": [
+        "hispanic-culture",
+        "activism",
+        "americas",
+        "civil-rights"
+      ]
     },
     {
       "name": "Reforming the Asylum System",
@@ -158,7 +213,12 @@
         "What is the future of asylum policy in America?",
         "How might climate change affect future asylum flows?"
       ],
-      "tags": ["politics", "governance", "americas", "immigration"]
+      "tags": [
+        "politics",
+        "governance",
+        "americas",
+        "immigration"
+      ]
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "book": "Ohio",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Heather Hill (R)",
+        "Casey Putsch (R)",
+        "Vivek Ramaswamy (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Amy Acton (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Tim Grady (I)"
+      ]
+    }
+  ]
+}

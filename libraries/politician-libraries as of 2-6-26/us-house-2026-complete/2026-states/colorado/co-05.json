@@ -1,0 +1,30 @@
+{
+  "book": "CO-05",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jeff Crank (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Zurit Horowitz (D)",
+        "Jessica Killin (D)",
+        "Justice Lord (D)",
+        "Joe Reagan (D)",
+        "Jamey Smith (D)",
+        "Michelle Tweed (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Steven Fuller (I)",
+        "Roy Matthewson (I)",
+        "Matt Cavanaugh (I)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "library": "US Senate 2026 - Complete",
+  "library_type": "candidates",
+  "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
+  "last_updated": "2026-01-30",
+  "source": "Ballotpedia",
+  "shelves": [
+    {
+      "name": "Class 2 Regular Elections",
+      "books": [
+        {
+          "name": "Alabama",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Seth Burton (R)",
+                "Jared Hudson (R)",
+                "Steve Marshall (R)",
+                "Barry Moore (R)",
+                "Morgan Murphy (R)",
+                "Dale Shelton Deas Jr. (R)",
+                "Rodney Walker (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Dakarai Larriett (D)",
+                "Lamont Lavender (D)",
+                "Kyle Sweetser (D)",
+                "Everett Wess (D)",
+                "Mark Wheeler II (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alaska",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Daniel S. Sullivan (R)",
+                "Dustin Darden (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Ann Diener (D)",
+                "Mary Peltola (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Richard Grayson (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Arkansas",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Tom Cotton (R)",
+                "Micah Ashby (R)",
+                "Jeb Little (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Ethan Dunbar (D)",
+                "Hallie Shoffner (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Colorado",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Mark Baisley (R)",
+                "Amanda Calderon (R)",
+                "Dathan Jones (R)",
+                "Janak Joshi (R)",
+                "George Washington Markert (R)",
+                "Sean Pond (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "John Hickenlooper (D)",
+                "Karen Breslin (D)",
+                "Julie Gonzales (D)",
+                "Brashad Hasley (D)",
+                "Anthony Zimpfer (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Matthew Wood (I)",
+                "Clinton Dale (I)",
+                "Joshua Kuebler (I)",
+                "Robert Wolfe (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delaware",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Michael Katz (R)",
+                "John Shulli (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Chris Coons (D)",
+                "Christopher Beardsley (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Dexter Bland (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Georgia",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Reagan Box (R)",
+                "Earl Carter (R)",
+                "Christina Loren Clement (R)",
+                "Mike Collins (R)",
+                "Derek Dooley (R)",
+                "Christoph La'Flare Chapman (R)",
+                "Jonathan McColumn (R)",
+                "Chelsae Pile (R)",
+                "Rick Temple (R)",
+                "Vinson Watkins (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Jon Ossoff (D)",
+                "Kia Legette (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Elbert Bartell (I)",
+                "Chris Capparell (I)",
+                "DeVelle Jackson (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Idaho",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Jim Risch (R)",
+                "Joe Evans (R)",
+                "Josh Roy (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "David Roth (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Todd Achilles (I)",
+                "Natalie Fleming (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Illinois",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "R. Cary Capparelli (R)",
+                "Casey Chlebek (R)",
+                "Jeannie Evans (R)",
+                "Pamela Denise Long (R)",
+                "Max Rice (R)",
+                "Jimmy Lee Tillman II (R)",
+                "Don Tracy (R)",
+                "CaS\u00e1ndra Claiborne (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Steve Botsford Jr. (D)",
+                "Sean Brown (D)",
+                "Awisi Bustos (D)",
+                "Jonathan Dean (D)",
+                "Adam Delgado (D)",
+                "Robin Kelly (D)",
+                "Raja Krishnamoorthi (D)",
+                "Bryan Maxwell (D)",
+                "Kevin Ryan (D)",
+                "Juliana Stratton (D)",
+                "Christopher Swann (D)",
+                "Jump Shepherd (D)",
+                "Anthony Williams (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Austin Mink (I)",
+                "Tyrone Muhammad (I)",
+                "Anthony Smith (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Iowa",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "John Berman (R)",
+                "Jim Carlin (R)",
+                "Ashley Hinson (R)",
+                "Joshua Smith (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Chris Henry (D)",
+                "Nathan Sage (D)",
+                "Josh Turek (D)",
+                "Zach Wahls (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Thomas Laehn (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kansas",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Roger Marshall (R)",
+                "Chase LaPorte (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Christy Davis (D)",
+                "Erik Murray (D)",
+                "Sandy Spidel Neumann (D)",
+                "Anne Parelkar (D)",
+                "Michael Soetaert (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kentucky",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Andy Barr (R)",
+                "Daniel Cameron (R)",
+                "Anissa Catlett (R)",
+                "James Duncan (R)",
+                "Mike Faris (R)",
+                "Val Fredrick (R)",
+                "Jonathan Holliday (R)",
+                "Jimmy Leon (R)",
+                "Nate Morris (R)",
+                "Andrew Shelley (R)",
+                "George Washington (R)",
+                "Donald Wenzel (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Joshua Blanton Sr. (D)",
+                "Charles Booker (D)",
+                "Logan Forsythe (D)",
+                "Amy McGrath (D)",
+                "Dale Romans (D)",
+                "Pamela Stevenson (D)",
+                "Vincent Thompson (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Christopher Campbell (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Louisiana",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Bill Cassidy (R)",
+                "Randall Arrington (R)",
+                "Markeda Cottonham (R)",
+                "Tracy Dendy (R)",
+                "John Fleming (R)",
+                "Chris Holder (R)",
+                "Xan John (R)",
+                "Julia Letlow (R)",
+                "Blake Miguez (R)",
+                "Joshua Morott (R)",
+                "Kathy Seiden (R)",
+                "Eric Skrmetta (R)",
+                "Samuel Wyatt (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Tracie Burke (D)",
+                "Jamie Davis (D)",
+                "Jabarie Walker (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Jamie LaBranche (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maine",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Susan Collins (R)",
+                "Carmen Calabrese (R)",
+                "Bill Clarke (R)",
+                "Daniel Smeriglio (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Natasha Alcala (D)",
+                "David Costello (D)",
+                "Tucker Favreau (D)",
+                "Andrea LaFlamme (D)",
+                "Janet T. Mills (D)",
+                "Graham Platner (D)",
+                "Daira Rodriguez (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "David Evans (I)",
+                "Timothy Rich (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Massachusetts",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Nathan Bech (R)",
+                "John Deaton (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Edward J. Markey (D)",
+                "William Gates (D)",
+                "Seth Moulton (D)",
+                "Alexander Rikleen (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Philip Devincentis (I)",
+                "Morgan Dawicki (I)",
+                "Joseph Tache (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Michigan",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Kent Benham (R)",
+                "Frederick Heurtebise (R)",
+                "Andrew Kamal (R)",
+                "Mike Rogers (R)",
+                "Genevieve Peters Scott (R)",
+                "Bernadette Smith (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Abdul El-Sayed (D)",
+                "Rachel Howard (D)",
+                "Mallory McMorrow (D)",
+                "Haley Stevens (D)",
+                "Travis Zollner (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Lydia Christensen (I)",
+                "Craig Henley Johnson (I)",
+                "TJ Stephens (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Minnesota",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Christopher Brooks (R)",
+                "Alycia Gruenhagen (R)",
+                "David Hann (R)",
+                "Raymond Petersen (R)",
+                "Mike Ruoho (R)",
+                "Adam Schwarze (R)",
+                "Michele Tafoya (R)",
+                "Tom Weiler (R)",
+                "Royce White (R)",
+                "Mark York (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Angie Craig (D)",
+                "Peggy Flanagan (D)",
+                "Billy Nord (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Marisa Simonetti (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mississippi",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Cindy Hyde-Smith (R)",
+                "Sarah Adlakha (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Scott Colom (D)",
+                "Albert Littell (D)",
+                "Priscilla W. Till (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Ty Pinkins (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Montana",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Steve Daines (R)",
+                "Charles A. Walking Child (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Alani Bankhead (D)",
+                "Michael BlackWolf (D)",
+                "Michael Hummert (D)",
+                "Kathleen McLaughlin (D)",
+                "Reilly Neill (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Kyle Austin (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nebraska",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Pete Ricketts (R)",
+                "Edward Dunn (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Dan Osborn (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Hampshire",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Scott Brown (R)",
+                "Tejasinha Sivalingam (R)",
+                "John Sununu (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Karishma Manzur (D)",
+                "Chris Pappas (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Matt Giovonizzi (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Jersey",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Justin Murphy (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Cory Booker (D)",
+                "Saxon Callahan (D)",
+                "Lisa McCormick (D)",
+                "Gregory Tomaini (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Michael Misseri (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "New Mexico",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Benjamin Luna (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Ben Ray Luj\u00e1n (D)",
+                "Matt Dodson (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Toby Smith (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "North Carolina",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Don Brown (R)",
+                "Richard Dansie (R)",
+                "Margot Dupre (R)",
+                "Thomas Johnson (R)",
+                "Michele Morrow (R)",
+                "Elizabeth Anne Temple (R)",
+                "Michael Whatley (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Robert Colon (D)",
+                "Roy Cooper (D)",
+                "Justin Dues (D)",
+                "Daryl Farrow (D)",
+                "Orrick Quick (D)",
+                "Marcus Williams (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Shannon Bray (I)",
+                "Brian McGinnis (I)",
+                "Shaunesi Deberry (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oklahoma",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Markwayne Mullin (R)",
+                "Tammy Swearengin (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Troy W. Green (D)",
+                "Rebekah LaVann (D)",
+                "Jim Priest (D)",
+                "N'Kiyla Thomas (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oregon",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Joe Johnson (R)",
+                "Russell McAlmond (R)",
+                "Timothy Skelton (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Jeff Merkley (D)",
+                "Jacob Ryan (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rhode Island",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Raymond McKay (R)",
+                "Allen Waters (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Jack Reed (D)",
+                "Connor Burbridge (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Jon Lindley (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Carolina",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Lindsey Graham (R)",
+                "Paul Dans (R)",
+                "Mark Lynch (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Annie Andrews (D)",
+                "Brandon Brown (D)",
+                "Catherine Fleming Bruce (D)",
+                "Kyle Freeman (D)",
+                "Christopher Giracello (D)",
+                "Lee Johnson (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Jack Ellison (I)",
+                "Cindy Glaser (I)",
+                "Paul Sedletsky (I)",
+                "Edward Strunge (I)",
+                "Reece Wright-McDonald (I)",
+                "Jason Brenkus (I)",
+                "Kasie Whitener (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "South Dakota",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Mike Rounds (R)",
+                "Justin McNeal (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Julian Beaudion (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Brian Bengs (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tennessee",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Bill Hagerty (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Diana Onyejiaka (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Andrew Mixon (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Texas",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "John Cornyn (R)",
+                "John Adefope (R)",
+                "Anna Bender (R)",
+                "Virgil Bierschwale (R)",
+                "Sara Canady (R)",
+                "Wesley Hunt (R)",
+                "Gulrez Khan (R)",
+                "Ken Paxton (R)",
+                "Matthew Elliot Kelley (R)",
+                "Tony Schmoker (R)",
+                "Andrew Trakas (R)",
+                "Leo Wyatt (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Jasmine Crockett (D)",
+                "Ahmad Hassan (D)",
+                "James Talarico (D)",
+                "Emily Morgul (D)",
+                "Michael Swanson (D)",
+                "Paula Williams (D)"
+              ]
+            },
+            {
+              "name": "Independent/Other",
+              "topics": [
+                "Joshua Cain (I)",
+                "Camencia Ford (I)",
+                "Jade Simmons (I)",
+                "Hans Truelson (I)",
+                "Ted Brown (I)",
+                "Daniel Mark Sims (I)",
+                "Ronald Evans (I)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Virginia",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Kim Farington (R)",
+                "Al Mina (R)",
+                "Bert Mizusawa (R)",
+                "Chuck Smith (R)",
+                "David Williams (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Mark Warner (D)",
+                "Lorita Daniels (D)",
+                "Gregory Eichelberger (D)",
+                "Mark Moran (D)",
+                "Jason Reynolds (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "West Virginia",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Shelley Moore Capito (R)",
+                "Derrick Evans (R)",
+                "Alexander Gaaserud (R)",
+                "Bryan McKinney (R)",
+                "Janet McNulty (R)",
+                "David Purkey (R)",
+                "Tom Willis (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "Thornton Cooper (D)",
+                "Rachel Fetty Anderson (D)",
+                "Rio Phillips (D)",
+                "Zachary Shrewsbury (D)"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Wyoming",
+          "chapters": [
+            {
+              "name": "Republican",
+              "topics": [
+                "Harriet Hageman (R)",
+                "Jimmy Skovgard (R)"
+              ]
+            },
+            {
+              "name": "Democratic",
+              "topics": [
+                "No candidates declared"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Special Elections",
+      "books": []
+    }
+  ]
+}

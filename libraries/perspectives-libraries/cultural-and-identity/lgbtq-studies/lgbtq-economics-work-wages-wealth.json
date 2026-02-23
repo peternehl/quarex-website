@@ -1,0 +1,127 @@
+{
+  "name": "LGBTQ+ Economics: Work, Wages, and Wealth",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["LGBTQ+ economics", "workplace discrimination", "Bostock", "rainbow capitalism", "wage gap"],
+  "chapters": [
+    {
+      "name": "Workplace Discrimination: History and Law",
+      "topics": [
+        "How have LGBTQ+ workers historically faced employment discrimination?",
+        "What legal protections existed before Bostock v. Clayton County?",
+        "How did the patchwork of state and local protections leave many workers vulnerable?",
+        "What forms does workplace discrimination against LGBTQ+ people take?",
+        "How do hiring, firing, and promotion discrimination affect LGBTQ+ workers?",
+        "What is the impact of a hostile work environment on LGBTQ+ employees?"
+      ],
+      "tags": ["economics", "lgbtq", "employment", "law"]
+    },
+    {
+      "name": "Bostock and the Future of Workplace Rights",
+      "topics": [
+        "What did the Supreme Court decide in Bostock v. Clayton County?",
+        "How did the Court interpret Title VII to cover LGBTQ+ workers?",
+        "What workplace discrimination is now prohibited under Bostock?",
+        "What forms of discrimination might still be legal despite Bostock?",
+        "How are religious exemptions being invoked to limit Bostock?",
+        "What workplace protections still need to be enacted?"
+      ],
+      "tags": ["law", "lgbtq", "employment", "civil-rights"]
+    },
+    {
+      "name": "The LGBTQ+ Wage Gap",
+      "topics": [
+        "What does research show about earnings differences for LGBTQ+ workers?",
+        "How do gay men's earnings compare to heterosexual men's?",
+        "What is the earnings pattern for lesbian women?",
+        "How do bisexual workers' earnings differ from gay and lesbian workers?",
+        "What severe wage penalty do transgender workers face?",
+        "How do race and gender compound LGBTQ+ earnings disparities?"
+      ],
+      "tags": ["economics", "lgbtq", "employment", "income-inequality"]
+    },
+    {
+      "name": "The Closet at Work: Coming Out and Staying In",
+      "topics": [
+        "What decisions do LGBTQ+ workers face about disclosure at work?",
+        "What research shows about the costs and benefits of being out at work?",
+        "How does industry and region affect coming out decisions?",
+        "What is the psychological toll of concealment?",
+        "How do workplace climate and policies affect coming out?",
+        "What should employers do to create welcoming environments?"
+      ],
+      "tags": ["psychology", "lgbtq", "employment", "identity"]
+    },
+    {
+      "name": "Transgender Employment: Unique Challenges",
+      "topics": [
+        "What specific employment challenges do transgender workers face?",
+        "How does transitioning on the job affect employment?",
+        "What discrimination do transgender people face in hiring?",
+        "How do bathroom and dress code policies affect transgender workers?",
+        "What industries are more or less welcoming to transgender employees?",
+        "What resources exist for transgender job seekers?"
+      ],
+      "tags": ["economics", "lgbtq", "gender", "employment"]
+    },
+    {
+      "name": "LGBTQ+ Entrepreneurship",
+      "topics": [
+        "Why do LGBTQ+ people start businesses at higher rates?",
+        "What barriers do LGBTQ+ entrepreneurs face?",
+        "How do LGBTQ+ business owners build community through their businesses?",
+        "What role do LGBTQ+ business districts and chambers of commerce play?",
+        "How has LGBTQ+ entrepreneurship evolved over time?",
+        "What opportunities and challenges exist in marketing to LGBTQ+ consumers?"
+      ],
+      "tags": ["economics", "lgbtq", "entrepreneurship", "business"]
+    },
+    {
+      "name": "Rainbow Capitalism: Pride as a Market",
+      "topics": [
+        "What is 'rainbow capitalism' or 'pink capitalism'?",
+        "How do corporations market to LGBTQ+ consumers during Pride?",
+        "What critiques exist of corporate Pride engagement?",
+        "How can consumers evaluate which companies genuinely support LGBTQ+ people?",
+        "What is 'pinkwashing' and how does it operate?",
+        "Can corporate engagement advance LGBTQ+ equality or does it co-opt movements?"
+      ],
+      "tags": ["economics", "lgbtq", "marketing", "culture"]
+    },
+    {
+      "name": "LGBTQ+ Poverty and Economic Insecurity",
+      "topics": [
+        "What does data show about LGBTQ+ poverty rates?",
+        "Why are certain LGBTQ+ populations at higher risk of poverty?",
+        "How does family rejection contribute to LGBTQ+ economic insecurity?",
+        "What barriers do LGBTQ+ people face in accessing public benefits?",
+        "How does housing discrimination affect LGBTQ+ economic stability?",
+        "What interventions address LGBTQ+ poverty effectively?"
+      ],
+      "tags": ["economics", "lgbtq", "poverty", "social-services"]
+    },
+    {
+      "name": "LGBTQ+ Financial Planning and Wealth Building",
+      "topics": [
+        "What unique financial planning considerations affect LGBTQ+ people?",
+        "How do marriage equality and its absence affect financial planning?",
+        "What retirement planning issues are specific to LGBTQ+ people?",
+        "How should LGBTQ+ couples approach estate planning?",
+        "What insurance considerations affect LGBTQ+ families?",
+        "How can LGBTQ+ people find affirming financial advisors?"
+      ],
+      "tags": ["economics", "lgbtq", "personal-finance", "planning"]
+    },
+    {
+      "name": "The Economics of Coming Out of the Closet",
+      "topics": [
+        "How do economists measure the aggregate economic impact of discrimination?",
+        "What would full LGBTQ+ workplace equality mean for the economy?",
+        "How does inclusion benefit companies that practice it?",
+        "What is the business case for LGBTQ+ workplace equality?",
+        "How do countries' LGBTQ+ policies affect their economic competitiveness?",
+        "What would a fully equal economy look like for LGBTQ+ people?"
+      ],
+      "tags": ["economics", "lgbtq", "policy", "civil-rights"]
+    }
+  ]
+}

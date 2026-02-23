@@ -1,0 +1,139 @@
+{
+  "name": "Transgender Lives, History, and Rights",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["transgender", "trans rights", "gender identity", "gender-affirming care", "trans history"],
+  "chapters": [
+    {
+      "name": "Understanding Transgender Identity",
+      "topics": [
+        "What does it mean to be transgender?",
+        "How does gender identity differ from sexual orientation?",
+        "What is gender dysphoria and how is it experienced?",
+        "What is the difference between being transgender and being non-binary?",
+        "How do transgender people describe recognizing their gender identity?",
+        "Why is it important to use correct names and pronouns?"
+      ],
+      "tags": ["gender", "lgbtq", "identity", "psychology"]
+    },
+    {
+      "name": "Transgender People Throughout History",
+      "topics": [
+        "How have gender-diverse people existed across cultures and time periods?",
+        "What is the history of the term 'transgender' itself?",
+        "Who were some notable transgender figures before the modern era?",
+        "How did the Institute for Sexual Science in Weimar Germany serve trans people?",
+        "What happened to trans research and communities under Nazi persecution?",
+        "How did Christine Jorgensen become famous in 1950s America?"
+      ],
+      "tags": ["history", "lgbtq", "gender", "biography"]
+    },
+    {
+      "name": "The Medical Model: Pathologization and Treatment",
+      "topics": [
+        "How did medicine come to define and diagnose transgender identity?",
+        "What were the 'Standards of Care' developed by WPATH and how have they evolved?",
+        "What is gender-affirming hormone therapy and what does it do?",
+        "What surgical options exist for transgender people who want them?",
+        "How has 'gender identity disorder' been reconceptualized as 'gender dysphoria'?",
+        "What does informed consent mean in transgender healthcare?"
+      ],
+      "tags": ["medicine", "lgbtq", "gender", "healthcare"]
+    },
+    {
+      "name": "Transgender Children and Adolescents",
+      "topics": [
+        "When do children typically become aware of their gender identity?",
+        "What is social transition and what does it involve for children?",
+        "What are puberty blockers and what do they do?",
+        "What does the research say about outcomes for transgender youth who receive support?",
+        "How do parents navigate having a transgender child?",
+        "What debates exist about medical treatment for transgender minors?"
+      ],
+      "tags": ["gender", "lgbtq", "child-development", "medicine"]
+    },
+    {
+      "name": "The Transgender Rights Movement",
+      "topics": [
+        "How did transgender activism develop separately from gay and lesbian movements?",
+        "What role did Sylvia Rivera and Marsha P. Johnson play in trans activism?",
+        "What were key moments in the transgender rights movement?",
+        "How has the relationship between trans and LGB movements evolved?",
+        "What tensions exist between different approaches to trans advocacy?",
+        "Who are some contemporary transgender activists and what are their contributions?"
+      ],
+      "tags": ["activism", "lgbtq", "gender", "social-movements"]
+    },
+    {
+      "name": "Legal Recognition and Identity Documents",
+      "topics": [
+        "Why do identity documents matter so much for transgender people?",
+        "How do requirements for changing gender markers on IDs vary by state?",
+        "What is the significance of the 'X' gender marker option?",
+        "How do passport and federal ID policies affect transgender people?",
+        "What happens when different documents have different gender markers?",
+        "How do name change requirements create barriers for transgender people?"
+      ],
+      "tags": ["law", "lgbtq", "gender", "civil-rights"]
+    },
+    {
+      "name": "Bathroom Bills and the Politics of Access",
+      "topics": [
+        "What are 'bathroom bills' and what do they actually require?",
+        "What happened with North Carolina's HB2?",
+        "What evidence exists about transgender people and bathroom safety?",
+        "How have businesses and sports organizations responded to bathroom policies?",
+        "What other public accommodations issues affect transgender people?",
+        "How do these debates compare to historical arguments about segregation?"
+      ],
+      "tags": ["law", "lgbtq", "gender", "civil-rights"]
+    },
+    {
+      "name": "Violence Against Transgender People",
+      "topics": [
+        "What do statistics show about violence against transgender people?",
+        "Why are transgender women of color at particular risk?",
+        "What is the Transgender Day of Remembrance?",
+        "How does the 'trans panic' defense work and where has it been banned?",
+        "What systemic factors contribute to violence against trans people?",
+        "How are advocates working to reduce anti-transgender violence?"
+      ],
+      "tags": ["lgbtq", "gender", "violence", "civil-rights"]
+    },
+    {
+      "name": "Transgender Athletes and Sports Policy",
+      "topics": [
+        "What policies govern transgender participation in sports?",
+        "What does research say about athletic performance and transition?",
+        "How have different sports organizations approached transgender inclusion?",
+        "What state laws have been passed restricting transgender athletes?",
+        "How do these debates affect actual transgender students and athletes?",
+        "What approaches to transgender sports inclusion have been proposed?"
+      ],
+      "tags": ["lgbtq", "gender", "sports", "law"]
+    },
+    {
+      "name": "Attacks on Gender-Affirming Care",
+      "topics": [
+        "What state laws have been passed to restrict gender-affirming care?",
+        "How do these laws affect transgender youth and their families?",
+        "What medical organizations have responded to these restrictions?",
+        "How are families in restrictive states navigating access to care?",
+        "What legal challenges have been mounted against these laws?",
+        "How do international approaches to transgender healthcare compare?"
+      ],
+      "tags": ["medicine", "lgbtq", "gender", "law"]
+    },
+    {
+      "name": "Transmisogyny and Trans Women's Experiences",
+      "topics": [
+        "What is transmisogyny and how does it operate?",
+        "How do transgender women experience the intersection of transphobia and sexism?",
+        "Why are transgender women often the focus of anti-trans rhetoric?",
+        "How does transmisogyny affect trans women in the workplace and public spaces?",
+        "What unique challenges do trans women face in dating and relationships?",
+        "How have trans women organized and advocated for their communities?"
+      ],
+      "tags": ["gender", "lgbtq", "feminism", "discrimination"]
+    }
+  ]
+}

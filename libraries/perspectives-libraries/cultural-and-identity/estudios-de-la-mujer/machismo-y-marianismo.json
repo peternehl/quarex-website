@@ -1,0 +1,205 @@
+{
+  "name": "Machismo y Marianismo: Las Raíces Culturales",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": [
+    "machismo",
+    "marianismo",
+    "género",
+    "cultura latinoamericana",
+    "masculinidad"
+  ],
+  "chapters": [
+    {
+      "name": "¿Qué es el Machismo?",
+      "topics": [
+        "¿Cómo definen los académicos el machismo y en qué se diferencia del sexismo general?",
+        "¿Es el machismo exclusivo de América Latina o existe en todas las culturas con diferentes nombres?",
+        "¿Qué comportamientos específicos caracterizan al machismo — desde la violencia hasta el control sutil?",
+        "¿Por qué algunos hombres latinoamericanos defienden el machismo como parte de su identidad cultural?",
+        "¿Cómo se transmite el machismo de generación en generación a través de la familia y la socialización?"
+      ],
+      "tags": [
+        "society",
+        "gender",
+        "culture",
+        "masculinity"
+      ]
+    },
+    {
+      "name": "Orígenes Históricos del Machismo",
+      "topics": [
+        "¿Cómo contribuyó la conquista española a establecer patrones de dominación masculina en América Latina?",
+        "¿Qué papel jugó la figura del conquistador — violento, dominante, sexualmente agresivo — en formar el ideal masculino?",
+        "¿Cómo mezclaron el colonialismo español las ideas de honor mediterráneas con las realidades americanas?",
+        "¿Existían formas de machismo en las sociedades precolombinas o fue una importación colonial?",
+        "¿Por qué la hacienda y el latifundio reforzaron el poder patriarcal del patrón sobre mujeres y trabajadores?"
+      ],
+      "tags": [
+        "history",
+        "colonialism",
+        "gender",
+        "americas"
+      ]
+    },
+    {
+      "name": "¿Qué es el Marianismo?",
+      "topics": [
+        "¿Cómo definió Evelyn Stevens el marianismo como el complemento femenino del machismo?",
+        "¿Por qué se espera que las mujeres latinoamericanas sean como la Virgen María — puras, sacrificadas, sufrientes?",
+        "¿Cómo premia el marianismo a las mujeres que se conforman y castiga a las que no?",
+        "¿Es el marianismo una fuente de poder para las mujeres o solo una forma sofisticada de opresión?",
+        "¿Cómo coexisten el culto a la madre y la violencia contra las mujeres en la misma cultura?"
+      ],
+      "tags": [
+        "society",
+        "gender",
+        "religion",
+        "identity"
+      ]
+    },
+    {
+      "name": "La Virgen de Guadalupe y el Ideal Femenino",
+      "topics": [
+        "¿Cómo se convirtió la Virgen de Guadalupe en el modelo de feminidad para millones de mujeres mexicanas?",
+        "¿Qué características de la Guadalupana — sumisión, intercesión, sacrificio — se esperan de las mujeres?",
+        "¿Cómo usan las feministas chicanas la figura de Guadalupe de maneras subversivas?",
+        "¿Qué pasa cuando una mujer latinoamericana no encaja en el molde mariano — es 'puta' o 'loca'?",
+        "¿Cómo varía el modelo mariano en diferentes países y clases sociales?"
+      ],
+      "tags": [
+        "religion",
+        "identity",
+        "mexico",
+        "gender"
+      ]
+    },
+    {
+      "name": "Machismo y Violencia",
+      "topics": [
+        "¿Por qué está el machismo tan estrechamente vinculado a la violencia contra las mujeres?",
+        "¿Cómo justifica la cultura machista la violencia de los hombres — celos, honor, provocación?",
+        "¿Qué papel juega el alcohol en la violencia machista, y por qué no es una excusa?",
+        "¿Cómo aprenden los niños que la violencia es una forma legítima de expresar masculinidad?",
+        "¿Por qué toleran tantas comunidades la violencia doméstica como un 'asunto privado'?"
+      ],
+      "tags": [
+        "society",
+        "gender-based-violence",
+        "masculinity",
+        "psychology"
+      ]
+    },
+    {
+      "name": "Machismo y Sexualidad",
+      "topics": [
+        "¿Por qué exige el machismo que los hombres demuestren su masculinidad a través de conquistas sexuales?",
+        "¿Cómo opera el doble estándar que celebra la promiscuidad masculina y condena la femenina?",
+        "¿Qué papel juega el machismo en la epidemia de VIH/SIDA en América Latina?",
+        "¿Por qué es la homosexualidad masculina tan amenazante para el sistema machista?",
+        "¿Cómo afecta el machismo la salud sexual y reproductiva de hombres y mujeres?"
+      ],
+      "tags": [
+        "society",
+        "sexuality",
+        "public-health",
+        "gender"
+      ]
+    },
+    {
+      "name": "Machismo en la Familia",
+      "topics": [
+        "¿Cómo estructura el machismo las relaciones de poder dentro de la familia latinoamericana?",
+        "¿Qué significa que el hombre sea 'el jefe del hogar' en la práctica cotidiana?",
+        "¿Cómo se reparten las tareas domésticas y de cuidado en las familias machistas?",
+        "¿Por qué son las madres a menudo las que más refuerzan el machismo en sus hijos varones?",
+        "¿Qué pasa con los hombres que no quieren ser patriarcas de sus familias?"
+      ],
+      "tags": [
+        "society",
+        "family",
+        "gender",
+        "interpersonal-dynamics"
+      ]
+    },
+    {
+      "name": "Machismo en el Trabajo",
+      "topics": [
+        "¿Cómo se manifiesta el machismo en los lugares de trabajo latinoamericanos?",
+        "¿Por qué ganan las mujeres menos que los hombres por el mismo trabajo en toda la región?",
+        "¿Cómo limita el acoso sexual las oportunidades laborales de las mujeres?",
+        "¿Qué trabajos se consideran 'de hombres' y 'de mujeres' y por qué?",
+        "¿Cómo usan los hombres el poder laboral para controlar a las mujeres económicamente?"
+      ],
+      "tags": [
+        "economics",
+        "labor",
+        "gender",
+        "inequality"
+      ]
+    },
+    {
+      "name": "Machismo y Política",
+      "topics": [
+        "¿Cómo se expresa el machismo en la cultura política latinoamericana?",
+        "¿Por qué son tan pocos los líderes políticos hombres que defienden públicamente los derechos de las mujeres?",
+        "¿Cómo usan los políticos populistas las imágenes de masculinidad fuerte para ganar apoyo?",
+        "¿Qué ataques machistas sufren las mujeres políticas de todos los partidos?",
+        "¿Por qué el machismo trasciende las divisiones políticas de izquierda y derecha?"
+      ],
+      "tags": [
+        "politics",
+        "leadership",
+        "gender",
+        "populism"
+      ]
+    },
+    {
+      "name": "Nuevas Masculinidades",
+      "topics": [
+        "¿Qué son los movimientos de 'nuevas masculinidades' en América Latina?",
+        "¿Qué hombres están cuestionando el machismo y cómo lo hacen?",
+        "¿Funcionan los programas de reeducación de hombres violentos?",
+        "¿Cómo pueden los hombres ser aliados del feminismo sin apropiarse del movimiento?",
+        "¿Es posible ser hombre en América Latina sin ser machista?"
+      ],
+      "tags": [
+        "society",
+        "masculinity",
+        "activism",
+        "psychology"
+      ]
+    },
+    {
+      "name": "La Resistencia de las Mujeres",
+      "topics": [
+        "¿Cómo han resistido las mujeres latinoamericanas el machismo a lo largo de la historia?",
+        "¿Qué estrategias usan las mujeres para sobrevivir y negociar dentro de sistemas machistas?",
+        "¿Cómo desafía el feminismo latinoamericano tanto al machismo como al feminismo eurocéntrico?",
+        "¿Por qué algunas mujeres defienden el machismo y atacan al feminismo?",
+        "¿Qué victorias concretas han logrado las mujeres contra el sistema machista?"
+      ],
+      "tags": [
+        "society",
+        "activism",
+        "feminism",
+        "resistance"
+      ]
+    },
+    {
+      "name": "¿Está Cambiando el Machismo?",
+      "topics": [
+        "¿Hay evidencia de que el machismo está disminuyendo en las nuevas generaciones?",
+        "¿Cómo afectan la urbanización, la educación y la globalización a las actitudes machistas?",
+        "¿Por qué parece haber una reacción violenta contra los avances de las mujeres?",
+        "¿Qué diferencias existen entre países, clases y generaciones en niveles de machismo?",
+        "¿Puede desaparecer el machismo, o solo transformarse en formas más sutiles?"
+      ],
+      "tags": [
+        "society",
+        "frontiers",
+        "gender",
+        "culture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "book": "OH-06",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Michael Rulli (R)",
+        "Jullie Kelley (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Sam Barrick (D)",
+        "Sean Connolly (D)",
+        "Charles DiPalma (D)",
+        "Brent Hanni (D)",
+        "Elizabeth Kirtley (D)",
+        "Michael Kripchak (D)",
+        "Malcolm Ritchie (D)",
+        "Adrian Vitus (D)",
+        "Christopher Lafont (D)"
+      ]
+    }
+  ]
+}

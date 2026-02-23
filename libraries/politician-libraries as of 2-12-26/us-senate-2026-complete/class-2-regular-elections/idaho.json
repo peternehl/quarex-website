@@ -1,0 +1,26 @@
+{
+  "book": "Idaho",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jim Risch (R)",
+        "Joe Evans (R)",
+        "Josh Roy (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "David Roth (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Todd Achilles (I)",
+        "Natalie Fleming (I)"
+      ]
+    }
+  ]
+}

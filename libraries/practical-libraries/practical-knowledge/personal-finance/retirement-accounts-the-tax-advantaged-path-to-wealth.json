@@ -1,0 +1,126 @@
+{
+  "name": "Retirement Accounts: The Tax-Advantaged Path to Wealth",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Why Retirement Accounts Matter So Much",
+      "topics": [
+        "What makes tax-advantaged accounts so powerful for building wealth?",
+        "How much does tax-free growth really add up to over 30 years?",
+        "Why do financial planners say 'max out your retirement accounts first'?",
+        "What's the difference between tax-deferred and tax-free accounts?",
+        "How do contribution limits affect your strategy?",
+        "What happens if you don't use retirement accounts at all?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "Employer 401(k) Plans",
+      "topics": [
+        "How does a 401(k) work and where does your money go?",
+        "What is an employer match and why is it 'free money'?",
+        "What are 401(k) contribution limits for 2025?",
+        "What investment options are typically available in a 401(k)?",
+        "What if your 401(k) has terrible, high-fee funds?",
+        "What happens to your 401(k) when you leave a job?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "labor"]
+    },
+    {
+      "name": "Traditional IRAs",
+      "topics": [
+        "What is a Traditional IRA and who can contribute?",
+        "How do income limits and deductibility rules work?",
+        "What are the contribution limits and catch-up contributions?",
+        "What can you invest in inside an IRA versus a 401(k)?",
+        "When and how do you pay taxes on Traditional IRA money?",
+        "What are the rules about early withdrawals and penalties?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "Roth IRAs: Tax-Free Forever",
+      "topics": [
+        "What makes Roth IRAs different from Traditional IRAs?",
+        "Why is tax-free growth in retirement so valuable?",
+        "What are the income limits for Roth IRA contributions?",
+        "What is the 'backdoor Roth' and how does it work?",
+        "Can you withdraw Roth contributions early without penalty?",
+        "Roth vs Traditional: how do you decide which is better for you?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "Roth 401(k) and Mega Backdoor Roth",
+      "topics": [
+        "What is a Roth 401(k) and how is it different from a Roth IRA?",
+        "Why might you contribute to both Roth and Traditional 401(k)?",
+        "What is the mega backdoor Roth strategy?",
+        "How do you know if your employer plan allows mega backdoor contributions?",
+        "What are the mechanics of after-tax 401(k) contributions?",
+        "Is the mega backdoor Roth worth the complexity?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "HSA: The Triple Tax Advantage",
+      "topics": [
+        "What is a Health Savings Account and why do investors love it?",
+        "What is the 'triple tax advantage' of HSAs?",
+        "What are the requirements to open and contribute to an HSA?",
+        "How can you use your HSA as a stealth retirement account?",
+        "What can HSA money be spent on tax-free?",
+        "What happens to your HSA when you turn 65?"
+      ],
+      "tags": ["health", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "SEP IRAs and Solo 401(k)s for Self-Employed",
+      "topics": [
+        "What retirement options exist for freelancers and business owners?",
+        "How does a SEP IRA work and what are its contribution limits?",
+        "What is a Solo 401(k) and when is it better than a SEP?",
+        "How do you calculate your maximum contribution as self-employed?",
+        "Can you have a SEP or Solo 401(k) plus a regular 401(k)?",
+        "What are SIMPLE IRAs and when do they make sense?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "entrepreneurship"]
+    },
+    {
+      "name": "Rollovers and Conversions",
+      "topics": [
+        "What is a 401(k) rollover and when should you do one?",
+        "How do you roll over a 401(k) to an IRA without tax consequences?",
+        "What is a Roth conversion and why would you convert?",
+        "How does the pro-rata rule complicate backdoor Roths?",
+        "What is a 'Roth conversion ladder' for early retirees?",
+        "What are the common rollover mistakes to avoid?"
+      ],
+      "tags": ["economics", "finance", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "Required Minimum Distributions",
+      "topics": [
+        "What are RMDs and when do they start?",
+        "How do you calculate your required minimum distribution?",
+        "What happens if you miss an RMD?",
+        "Why don't Roth IRAs have RMDs during your lifetime?",
+        "How do RMDs affect your retirement income planning?",
+        "What strategies exist to minimize RMD impact?"
+      ],
+      "tags": ["economics", "regulation", "personal-finance", "fiscal-policy"]
+    },
+    {
+      "name": "Putting It All Together: Account Priority",
+      "topics": [
+        "In what order should you fund different retirement accounts?",
+        "How do you balance 401(k), IRA, HSA, and taxable accounts?",
+        "What if you can only afford to save a limited amount?",
+        "How does your tax bracket affect Roth vs Traditional decisions?",
+        "How do you coordinate accounts with a spouse?",
+        "What does an optimal retirement account strategy look like at different income levels?"
+      ],
+      "tags": ["economics", "application", "personal-finance", "fiscal-policy"]
+    }
+  ]
+}

@@ -5,13 +5,20 @@
       "name": "Republican",
       "topics": [
         "William Timmons (R)",
-        "David Atchley (R)"
+        "David Atchley (R)",
+        "Robert Lee (R)"
       ]
     },
     {
       "name": "Democratic",
       "topics": [
         "Courtney McClain (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Jessica Ethridge (L)"
       ]
     }
   ]

@@ -9,6 +9,8 @@
     <meta name="author" content="Election 2026 / Powered by Quarex">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://election2026.net/">
+    <link rel="alternate" hreflang="en" href="https://election2026.net/">
+    <link rel="alternate" hreflang="es" href="https://elecciones2026.net/">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://election2026.net/">
@@ -109,6 +111,15 @@
             text-decoration: none;
         }
         .site-nav a:hover { color: var(--ink); text-decoration: none; }
+        .lang-switch {
+            background: rgba(229, 57, 53, 0.15);
+            border: 1px solid #E53935;
+            color: var(--ink) !important;
+            padding: 6px 12px;
+            border-radius: 999px;
+            font-size: 0.85rem !important;
+        }
+        .lang-switch:hover { background: rgba(229, 57, 53, 0.25); }
 
         .nav-toggle {
             display: none;
@@ -488,6 +499,24 @@
         }
         .close-detail:hover { color: var(--ink); }
 
+        /* ── Territories ── */
+        .browse-territories {
+            padding: 60px 20px;
+            border-top: 1px solid var(--line);
+        }
+        .territory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .territory-note {
+            text-align: center;
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 24px;
+            font-style: italic;
+        }
+
         /* ── Footer ── */
         .site-footer {
             border-top: 1px solid var(--line);
@@ -549,7 +578,9 @@
         <nav class="site-nav" id="siteNav">
             <a href="#browse-states">Browse States</a>
             <a href="#browse-branches">Browse by Branch</a>
+            <a href="#browse-territories">Territories</a>
             <a href="https://quarex.org/" target="_blank" rel="noopener">Quarex.org</a>
+            <a href="https://elecciones2026.net/" class="lang-switch">Espanol</a>
         </nav>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
     </div>
@@ -671,6 +702,47 @@
             </div>
             <div id="stateDetailLinks"></div>
         </div>
+    </div>
+</section>
+
+<!-- US Territories (Non-Voting Delegates) -->
+<section class="browse-territories" id="browse-territories">
+    <div class="section-inner">
+        <h2 class="section-title">US Territories</h2>
+        <p class="section-subtitle">Non-voting delegates to the US House of Representatives</p>
+        <div class="territory-grid">
+            <a href="https://quarex.org/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=district-of-columbia" class="branch-card" target="_blank" rel="noopener">
+                <h3>District of Columbia</h3>
+                <p class="branch-stat">DC-AL &middot; Delegate</p>
+                <p class="branch-desc">18 declared candidates</p>
+                <span class="explore-arrow">Explore on Quarex &rarr;</span>
+            </a>
+            <a href="https://quarex.org/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=guam" class="branch-card" target="_blank" rel="noopener">
+                <h3>Guam</h3>
+                <p class="branch-stat">GU-AL &middot; Delegate</p>
+                <p class="branch-desc">James Moylan (R) incumbent</p>
+                <span class="explore-arrow">Explore on Quarex &rarr;</span>
+            </a>
+            <a href="https://quarex.org/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=american-samoa" class="branch-card" target="_blank" rel="noopener">
+                <h3>American Samoa</h3>
+                <p class="branch-stat">AS-AL &middot; Delegate</p>
+                <p class="branch-desc">Aumua Amata (R) incumbent</p>
+                <span class="explore-arrow">Explore on Quarex &rarr;</span>
+            </a>
+            <a href="https://quarex.org/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=us-virgin-islands" class="branch-card" target="_blank" rel="noopener">
+                <h3>US Virgin Islands</h3>
+                <p class="branch-stat">VI-AL &middot; Delegate</p>
+                <p class="branch-desc">3 declared candidates</p>
+                <span class="explore-arrow">Explore on Quarex &rarr;</span>
+            </a>
+            <a href="https://quarex.org/libraries/?t=c&l=us-house-2026-complete&s=2026-states&b=northern-mariana-islands" class="branch-card" target="_blank" rel="noopener">
+                <h3>Northern Mariana Islands</h3>
+                <p class="branch-stat">MP-AL &middot; Delegate</p>
+                <p class="branch-desc">Kimberlyn King-Hinds (R) incumbent</p>
+                <span class="explore-arrow">Explore on Quarex &rarr;</span>
+            </a>
+        </div>
+        <p class="territory-note">Note: Puerto Rico's Resident Commissioner serves a 4-year term (elected 2024, next election 2028)</p>
     </div>
 </section>
 

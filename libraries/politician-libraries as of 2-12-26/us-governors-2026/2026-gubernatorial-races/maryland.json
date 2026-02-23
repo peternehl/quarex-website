@@ -1,0 +1,25 @@
+{
+  "book": "Maryland",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Dan Cox (R)",
+        "Ed Hale (R)",
+        "John Myrick (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Wes Moore (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Andy Ellis (I)"
+      ]
+    }
+  ]
+}

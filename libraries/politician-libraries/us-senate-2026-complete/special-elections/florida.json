@@ -1,0 +1,39 @@
+{
+  "book": "Florida",
+  "scraped": "2026-02-21",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ashley B. Moody (R)",
+        "Ashley Baptiste (R)",
+        "Chris Gleason (R)",
+        "Michaelangelo Hamilton (R)",
+        "Jake Lang (R)",
+        "A.C. Toulme (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Joey Mendoza Atkins (D)",
+        "Paul Ron Cruz (D)",
+        "Frank DiMola (D)",
+        "Charles Gould (D)",
+        "Alan Grayson (D)",
+        "Tamika Lyles (D)",
+        "Evelyn McBride (D)",
+        "Hector Mujica (D)",
+        "Angela Nixon (D)",
+        "Dennis Stevens (D)",
+        "Alex Vindman (D)"
+      ]
+    },
+    {
+      "name": "Independent",
+      "topics": [
+        "Neelam Perry (NPA)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "book": "Texas",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "John Cornyn (R)",
+        "Wesley Hunt (R)",
+        "Ken Paxton (R)",
+        "John Adefope (R)",
+        "Anna Bender (R)",
+        "Virgil Bierschwale (R)",
+        "Sara Canady (R)",
+        "Gulrez Khan (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jasmine Crockett (D)",
+        "James Talarico (D)",
+        "Ahmad Hassan (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Joshua Cain (I)",
+        "Camencia Ford (I)",
+        "Jade Simmons (I)",
+        "Hans Truelson (I)",
+        "Ted Brown (L)",
+        "Daniel Mark Sims (L)"
+      ]
+    }
+  ]
+}

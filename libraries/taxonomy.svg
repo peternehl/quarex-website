@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2800 2800" width="2800" height="2800">
+  <style>
+    .title { font: bold 28px sans-serif; fill: #0d9488; }
+    .subtitle { font: 16px sans-serif; fill: #64748b; }
+    .library-type { font: bold 16px sans-serif; fill: #1e293b; }
+    .library { font: bold 13px sans-serif; fill: #334155; }
+    .shelf { font: 11px sans-serif; fill: #475569; }
+    .connector { stroke: #cbd5e1; stroke-width: 1.5; fill: none; }
+    .connector-type { stroke: #0d9488; stroke-width: 2; fill: none; }
+    .box-center { fill: #0d9488; stroke: #0d9488; stroke-width: 3; rx: 12; }
+    .box-type { fill: #f0fdfa; stroke: #0d9488; stroke-width: 2; rx: 8; }
+    .box-library { fill: #f8fafc; stroke: #94a3b8; stroke-width: 1.5; rx: 6; }
+    .box-shelf { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; rx: 4; }
+    .center-text { font: bold 24px sans-serif; fill: #ffffff; }
+    .stat-text { font: 14px sans-serif; fill: #ffffff; }
+  </style>
+
+  <!-- Background -->
+  <rect width="2800" height="2800" fill="#ffffff"/>
+
+  <!-- Central Hub -->
+  <g id="center" transform="translate(1400, 1400)">
+    <circle cx="0" cy="0" r="120" fill="#0d9488"/>
+    <text x="0" y="-15" text-anchor="middle" class="center-text">QUAREX</text>
+    <text x="0" y="15" text-anchor="middle" class="center-text">LIBRARIES</text>
+    <text x="0" y="50" text-anchor="middle" class="stat-text">824 Books</text>
+    <text x="0" y="70" text-anchor="middle" class="stat-text">5,298 Chapters</text>
+  </g>
+
+  <!-- ==================== EVENT LIBRARIES (Top, 0°) ==================== -->
+  <g id="event-libraries" transform="translate(1400, 1400)">
+    <!-- Connector from center -->
+    <line x1="0" y1="-120" x2="0" y2="-280" class="connector-type"/>
+
+    <!-- Type box -->
+    <rect x="-100" y="-340" width="200" height="50" class="box-type"/>
+    <text x="0" y="-308" text-anchor="middle" class="library-type">📅 EVENT LIBRARIES</text>
+
+    <!-- Libraries arcing outward -->
+    <line x1="0" y1="-340" x2="-180" y2="-450" class="connector"/>
+    <rect x="-280" y="-480" width="200" height="35" class="box-library"/>
+    <text x="-180" y="-457" text-anchor="middle" class="library">Current Events</text>
+    <!-- Shelves -->
+    <rect x="-340" y="-530" width="130" height="22" class="box-shelf"/>
+    <text x="-275" y="-515" text-anchor="middle" class="shelf">Domestic Politics</text>
+    <rect x="-340" y="-555" width="130" height="22" class="box-shelf"/>
+    <text x="-275" y="-540" text-anchor="middle" class="shelf">Global Challenges</text>
+    <rect x="-200" y="-530" width="130" height="22" class="box-shelf"/>
+    <text x="-135" y="-515" text-anchor="middle" class="shelf">Int'l Conflicts</text>
+    <rect x="-200" y="-555" width="130" height="22" class="box-shelf"/>
+    <text x="-135" y="-540" text-anchor="middle" class="shelf">News of the Day</text>
+
+    <line x1="0" y1="-340" x2="0" y2="-450" class="connector"/>
+    <rect x="-100" y="-480" width="200" height="35" class="box-library"/>
+    <text x="0" y="-457" text-anchor="middle" class="library">2016-2024 MAGA Era</text>
+    <rect x="-90" y="-530" width="180" height="22" class="box-shelf"/>
+    <text x="0" y="-515" text-anchor="middle" class="shelf">Rise / Governing / After 2020</text>
+
+    <line x1="0" y1="-340" x2="180" y2="-450" class="connector"/>
+    <rect x="80" y="-480" width="200" height="35" class="box-library"/>
+    <text x="180" y="-457" text-anchor="middle" class="library">US Foreign Interventions</text>
+    <rect x="105" y="-530" width="150" height="22" class="box-shelf"/>
+    <text x="180" y="-515" text-anchor="middle" class="shelf">Latin America</text>
+  </g>
+
+  <!-- ==================== GEOGRAPHY LIBRARIES (51.4°) ==================== -->
+  <g id="geography-libraries" transform="translate(1400, 1400)">
+    <!-- Connector from center (rotating ~51 degrees) -->
+    <line x1="94" y1="-75" x2="219" y2="-175" class="connector-type"/>
+
+    <!-- Type box -->
+    <rect x="170" y="-290" width="220" height="50" class="box-type"/>
+    <text x="280" y="-258" text-anchor="middle" class="library-type">🌍 GEOGRAPHY LIBRARIES</text>
+
+    <!-- Libraries -->
+    <line x1="280" y1="-290" x2="380" y2="-380" class="connector"/>
+    <rect x="310" y="-410" width="140" height="30" class="box-library"/>
+    <text x="380" y="-390" text-anchor="middle" class="library">Africa</text>
+
+    <line x1="280" y1="-290" x2="480" y2="-350" class="connector"/>
+    <rect x="410" y="-375" width="140" height="30" class="box-library"/>
+    <text x="480" y="-355" text-anchor="middle" class="library">Asia</text>
+
+    <line x1="280" y1="-290" x2="560" y2="-300" class="connector"/>
+    <rect x="490" y="-325" width="140" height="30" class="box-library"/>
+    <text x="560" y="-305" text-anchor="middle" class="library">Europe</text>
+
+    <line x1="280" y1="-240" x2="380" y2="-180" class="connector"/>
+    <rect x="300" y="-200" width="160" height="30" class="box-library"/>
+    <text x="380" y="-180" text-anchor="middle" class="library">North America</text>
+
+    <line x1="280" y1="-240" x2="480" y2="-200" class="connector"/>
+    <rect x="410" y="-220" width="140" height="30" class="box-library"/>
+    <text x="480" y="-200" text-anchor="middle" class="library">Oceania</text>
+
+    <line x1="280" y1="-240" x2="560" y2="-220" class="connector"/>
+    <rect x="480" y="-240" width="160" height="30" class="box-library"/>
+    <text x="560" y="-220" text-anchor="middle" class="library">South America</text>
+
+    <line x1="280" y1="-240" x2="500" y2="-130" class="connector"/>
+    <rect x="400" y="-150" width="200" height="30" class="box-library"/>
+    <text x="500" y="-130" text-anchor="middle" class="library">Territories &amp; Dependencies</text>
+
+    <line x1="280" y1="-240" x2="380" y2="-100" class="connector"/>
+    <rect x="300" y="-120" width="160" height="30" class="box-library"/>
+    <text x="380" y="-100" text-anchor="middle" class="library">US Geography</text>
+  </g>
+
+  <!-- ==================== KNOWLEDGE LIBRARIES (102.8°) ==================== -->
+  <g id="knowledge-libraries" transform="translate(1400, 1400)">
+    <line x1="117" y1="27" x2="273" y2="63" class="connector-type"/>
+
+    <rect x="230" y="30" width="220" height="50" class="box-type"/>
+    <text x="340" y="62" text-anchor="middle" class="library-type">📚 KNOWLEDGE LIBRARIES</text>
+
+    <!-- Libraries arcing outward -->
+    <line x1="340" y1="80" x2="450" y2="140" class="connector"/>
+    <rect x="380" y="125" width="160" height="30" class="box-library"/>
+    <text x="460" y="145" text-anchor="middle" class="library">AI Fundamentals</text>
+    <rect x="440" y="165" width="160" height="20" class="box-shelf"/>
+    <text x="520" y="180" text-anchor="middle" class="shelf">AI in Real World</text>
+    <rect x="440" y="190" width="160" height="20" class="box-shelf"/>
+    <text x="520" y="205" text-anchor="middle" class="shelf">Foundations of AI</text>
+    <rect x="440" y="215" width="160" height="20" class="box-shelf"/>
+    <text x="520" y="230" text-anchor="middle" class="shelf">Neural Networks &amp; LLMs</text>
+
+    <line x1="340" y1="80" x2="530" y2="80" class="connector"/>
+    <rect x="470" y="55" width="150" height="30" class="box-library"/>
+    <text x="545" y="75" text-anchor="middle" class="library">The Sciences</text>
+    <rect x="530" y="95" width="150" height="20" class="box-shelf"/>
+    <text x="605" y="110" text-anchor="middle" class="shelf">History &amp; Anthro</text>
+    <rect x="530" y="120" width="150" height="20" class="box-shelf"/>
+    <text x="605" y="135" text-anchor="middle" class="shelf">Life Sciences</text>
+    <rect x="530" y="145" width="150" height="20" class="box-shelf"/>
+    <text x="605" y="160" text-anchor="middle" class="shelf">Physical Sciences</text>
+
+    <line x1="340" y1="80" x2="450" y2="270" class="connector"/>
+    <rect x="380" y="260" width="140" height="30" class="box-library"/>
+    <text x="450" y="280" text-anchor="middle" class="library">The Arts</text>
+
+    <line x1="340" y1="80" x2="530" y2="250" class="connector"/>
+    <rect x="460" y="235" width="140" height="30" class="box-library"/>
+    <text x="530" y="255" text-anchor="middle" class="library">Philosophy</text>
+
+    <line x1="340" y1="80" x2="400" y2="330" class="connector"/>
+    <rect x="320" y="320" width="160" height="30" class="box-library"/>
+    <text x="400" y="340" text-anchor="middle" class="library">Personal &amp; Life</text>
+
+    <line x1="340" y1="80" x2="500" y2="320" class="connector"/>
+    <rect x="430" y="305" width="140" height="30" class="box-library"/>
+    <text x="500" y="325" text-anchor="middle" class="library">Biographies</text>
+  </g>
+
+  <!-- ==================== INFRASTRUCTURE LIBRARIES (154.2°) ==================== -->
+  <g id="infrastructure-libraries" transform="translate(1400, 1400)">
+    <line x1="75" y1="94" x2="175" y2="219" class="connector-type"/>
+
+    <rect x="100" y="210" width="250" height="50" class="box-type"/>
+    <text x="225" y="242" text-anchor="middle" class="library-type">🏗️ INFRASTRUCTURE LIBRARIES</text>
+
+    <line x1="225" y1="260" x2="280" y2="350" class="connector"/>
+    <rect x="190" y="340" width="180" height="28" class="box-library"/>
+    <text x="280" y="360" text-anchor="middle" class="library">Civil Infrastructures</text>
+
+    <line x1="225" y1="260" x2="380" y2="340" class="connector"/>
+    <rect x="290" y="330" width="180" height="28" class="box-library"/>
+    <text x="380" y="350" text-anchor="middle" class="library">Digital Infrastructures</text>
+
+    <line x1="225" y1="260" x2="200" y2="420" class="connector"/>
+    <rect x="100" y="410" width="200" height="28" class="box-library"/>
+    <text x="200" y="430" text-anchor="middle" class="library">Economic Infrastructures</text>
+
+    <line x1="225" y1="260" x2="350" y2="420" class="connector"/>
+    <rect x="230" y="410" width="240" height="28" class="box-library"/>
+    <text x="350" y="430" text-anchor="middle" class="library">Environmental Infrastructures</text>
+
+    <line x1="225" y1="260" x2="150" y2="480" class="connector"/>
+    <rect x="50" y="470" width="200" height="28" class="box-library"/>
+    <text x="150" y="490" text-anchor="middle" class="library">Security Infrastructures</text>
+
+    <line x1="225" y1="260" x2="300" y2="480" class="connector"/>
+    <rect x="200" y="470" width="200" height="28" class="box-library"/>
+    <text x="300" y="490" text-anchor="middle" class="library">Social Infrastructures</text>
+  </g>
+
+  <!-- ==================== PERSPECTIVES LIBRARIES (205.6°) ==================== -->
+  <g id="perspectives-libraries" transform="translate(1400, 1400)">
+    <line x1="-27" y1="117" x2="-63" y2="273" class="connector-type"/>
+
+    <rect x="-175" y="270" width="250" height="50" class="box-type"/>
+    <text x="-50" y="302" text-anchor="middle" class="library-type">💭 PERSPECTIVES LIBRARIES</text>
+
+    <!-- Contested Issues -->
+    <line x1="-50" y1="320" x2="-180" y2="400" class="connector"/>
+    <rect x="-280" y="385" width="200" height="28" class="box-library"/>
+    <text x="-180" y="405" text-anchor="middle" class="library">Contested Issues</text>
+    <rect x="-350" y="420" width="140" height="18" class="box-shelf"/>
+    <text x="-280" y="433" text-anchor="middle" class="shelf">Climate Debates</text>
+    <rect x="-350" y="442" width="140" height="18" class="box-shelf"/>
+    <text x="-280" y="455" text-anchor="middle" class="shelf">Criminal Justice</text>
+    <rect x="-350" y="464" width="140" height="18" class="box-shelf"/>
+    <text x="-280" y="477" text-anchor="middle" class="shelf">Immigration</text>
+    <rect x="-200" y="420" width="140" height="18" class="box-shelf"/>
+    <text x="-130" y="433" text-anchor="middle" class="shelf">Free Speech</text>
+    <rect x="-200" y="442" width="140" height="18" class="box-shelf"/>
+    <text x="-130" y="455" text-anchor="middle" class="shelf">Labor &amp; Work</text>
+    <rect x="-200" y="464" width="140" height="18" class="box-shelf"/>
+    <text x="-130" y="477" text-anchor="middle" class="shelf">Social Equality</text>
+
+    <!-- Cultural & Identity -->
+    <line x1="-50" y1="320" x2="80" y2="400" class="connector"/>
+    <rect x="-10" y="385" width="180" height="28" class="box-library"/>
+    <text x="80" y="405" text-anchor="middle" class="library">Cultural &amp; Identity</text>
+    <rect x="-40" y="420" width="120" height="18" class="box-shelf"/>
+    <text x="20" y="433" text-anchor="middle" class="shelf">Black Studies</text>
+    <rect x="-40" y="442" width="120" height="18" class="box-shelf"/>
+    <text x="20" y="455" text-anchor="middle" class="shelf">Feminism</text>
+    <rect x="-40" y="464" width="120" height="18" class="box-shelf"/>
+    <text x="20" y="477" text-anchor="middle" class="shelf">Hispanic Cultures</text>
+    <rect x="90" y="420" width="120" height="18" class="box-shelf"/>
+    <text x="150" y="433" text-anchor="middle" class="shelf">LGBTQ Studies</text>
+    <rect x="90" y="442" width="120" height="18" class="box-shelf"/>
+    <text x="150" y="455" text-anchor="middle" class="shelf">Abortion</text>
+    <rect x="90" y="464" width="120" height="18" class="box-shelf"/>
+    <text x="150" y="477" text-anchor="middle" class="shelf">Billionaires</text>
+
+    <!-- Geopolitical -->
+    <line x1="-50" y1="320" x2="-180" y2="520" class="connector"/>
+    <rect x="-260" y="510" width="160" height="28" class="box-library"/>
+    <text x="-180" y="530" text-anchor="middle" class="library">Geopolitical</text>
+
+    <!-- Historical Narratives -->
+    <line x1="-50" y1="320" x2="50" y2="520" class="connector"/>
+    <rect x="-50" y="510" width="200" height="28" class="box-library"/>
+    <text x="50" y="530" text-anchor="middle" class="library">Historical Narratives</text>
+    <rect x="-80" y="545" width="130" height="18" class="box-shelf"/>
+    <text x="-15" y="558" text-anchor="middle" class="shelf">Civil Rights</text>
+    <rect x="60" y="545" width="130" height="18" class="box-shelf"/>
+    <text x="125" y="558" text-anchor="middle" class="shelf">Racism</text>
+
+    <!-- Ideological -->
+    <line x1="-50" y1="320" x2="-100" y2="600" class="connector"/>
+    <rect x="-180" y="590" width="160" height="28" class="box-library"/>
+    <text x="-100" y="610" text-anchor="middle" class="library">Ideological</text>
+
+    <!-- Fact vs Fiction -->
+    <line x1="-50" y1="320" x2="80" y2="600" class="connector"/>
+    <rect x="0" y="590" width="160" height="28" class="box-library"/>
+    <text x="80" y="610" text-anchor="middle" class="library">Fact vs Fiction</text>
+  </g>
+
+  <!-- ==================== POLITICIAN LIBRARIES (257°) ==================== -->
+  <g id="politician-libraries" transform="translate(1400, 1400)">
+    <line x1="-94" y1="75" x2="-219" y2="175" class="connector-type"/>
+
+    <rect x="-400" y="150" width="250" height="50" class="box-type"/>
+    <text x="-275" y="182" text-anchor="middle" class="library-type">🏛️ POLITICIAN LIBRARIES</text>
+
+    <line x1="-275" y1="200" x2="-380" y2="280" class="connector"/>
+    <rect x="-480" y="270" width="200" height="28" class="box-library"/>
+    <text x="-380" y="290" text-anchor="middle" class="library">Executive Branch</text>
+    <rect x="-500" y="305" width="130" height="18" class="box-shelf"/>
+    <text x="-435" y="318" text-anchor="middle" class="shelf">President &amp; VP</text>
+    <rect x="-500" y="328" width="130" height="18" class="box-shelf"/>
+    <text x="-435" y="341" text-anchor="middle" class="shelf">Cabinet</text>
+
+    <line x1="-275" y1="200" x2="-180" y2="280" class="connector"/>
+    <rect x="-270" y="270" width="180" height="28" class="box-library"/>
+    <text x="-180" y="290" text-anchor="middle" class="library">Judicial Branch</text>
+    <rect x="-260" y="305" width="160" height="18" class="box-shelf"/>
+    <text x="-180" y="318" text-anchor="middle" class="shelf">Current Justices</text>
+
+    <line x1="-275" y1="200" x2="-420" y2="380" class="connector"/>
+    <rect x="-520" y="370" width="200" height="28" class="box-library"/>
+    <text x="-420" y="390" text-anchor="middle" class="library">US Governors 2026</text>
+
+    <line x1="-275" y1="200" x2="-300" y2="380" class="connector"/>
+    <rect x="-400" y="370" width="200" height="28" class="box-library"/>
+    <text x="-300" y="390" text-anchor="middle" class="library">US House 2026</text>
+    <rect x="-390" y="405" width="180" height="18" class="box-shelf"/>
+    <text x="-300" y="418" text-anchor="middle" class="shelf">435 Districts (50 States)</text>
+
+    <line x1="-275" y1="200" x2="-180" y2="380" class="connector"/>
+    <rect x="-280" y="370" width="200" height="28" class="box-library"/>
+    <text x="-180" y="390" text-anchor="middle" class="library">US Senate 2026</text>
+    <rect x="-270" y="405" width="180" height="18" class="box-shelf"/>
+    <text x="-180" y="418" text-anchor="middle" class="shelf">Class 2 + Special Elections</text>
+  </g>
+
+  <!-- ==================== PRACTICAL LIBRARIES (308.4°) ==================== -->
+  <g id="practical-libraries" transform="translate(1400, 1400)">
+    <line x1="-75" y1="-94" x2="-175" y2="-219" class="connector-type"/>
+
+    <rect x="-400" y="-290" width="250" height="50" class="box-type"/>
+    <text x="-275" y="-258" text-anchor="middle" class="library-type">🛠️ PRACTICAL LIBRARIES</text>
+
+    <line x1="-275" y1="-290" x2="-380" y2="-380" class="connector"/>
+    <rect x="-500" y="-410" width="240" height="30" class="box-library"/>
+    <text x="-380" y="-390" text-anchor="middle" class="library">Practical Knowledge</text>
+    <rect x="-530" y="-370" width="150" height="18" class="box-shelf"/>
+    <text x="-455" y="-357" text-anchor="middle" class="shelf">Fact-Checking</text>
+    <rect x="-530" y="-348" width="150" height="18" class="box-shelf"/>
+    <text x="-455" y="-335" text-anchor="middle" class="shelf">Digital Security</text>
+    <rect x="-370" y="-370" width="150" height="18" class="box-shelf"/>
+    <text x="-295" y="-357" text-anchor="middle" class="shelf">Personal Finance</text>
+    <rect x="-370" y="-348" width="150" height="18" class="box-shelf"/>
+    <text x="-295" y="-335" text-anchor="middle" class="shelf">Systems Planning</text>
+
+    <line x1="-275" y1="-290" x2="-180" y2="-380" class="connector"/>
+    <rect x="-290" y="-410" width="220" height="30" class="box-library"/>
+    <text x="-180" y="-390" text-anchor="middle" class="library">Practical Skills</text>
+    <rect x="-310" y="-370" width="140" height="18" class="box-shelf"/>
+    <text x="-240" y="-357" text-anchor="middle" class="shelf">Digital Skills</text>
+    <rect x="-310" y="-348" width="140" height="18" class="box-shelf"/>
+    <text x="-240" y="-335" text-anchor="middle" class="shelf">Food &amp; Beverage</text>
+    <rect x="-160" y="-370" width="140" height="18" class="box-shelf"/>
+    <text x="-90" y="-357" text-anchor="middle" class="shelf">Home &amp; Daily Life</text>
+    <rect x="-160" y="-348" width="140" height="18" class="box-shelf"/>
+    <text x="-90" y="-335" text-anchor="middle" class="shelf">Personal Dev</text>
+  </g>
+
+  <!-- Title at top -->
+  <text x="1400" y="50" text-anchor="middle" class="title">QUAREX LIBRARY TAXONOMY</text>
+  <text x="1400" y="80" text-anchor="middle" class="subtitle">7 Library Types • 40+ Libraries • 100+ Shelves</text>
+
+  <!-- Date at bottom -->
+  <text x="1400" y="2760" text-anchor="middle" class="subtitle">Generated February 20, 2026 • quarex.org</text>
+
+</svg>

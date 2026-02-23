@@ -1,0 +1,139 @@
+{
+  "name": "LGBTQ+ Rights as a Global Issue",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "tags": ["global LGBTQ+ rights", "colonialism", "asylum", "Russia", "Uganda"],
+  "chapters": [
+    {
+      "name": "The Global Landscape of LGBTQ+ Rights",
+      "topics": [
+        "How do LGBTQ+ rights vary across the world?",
+        "Which countries have the strongest LGBTQ+ protections?",
+        "Where is homosexuality still criminalized?",
+        "What countries impose the death penalty for same-sex relations?",
+        "How do global indexes measure LGBTQ+ rights and safety?",
+        "What regional patterns exist in LGBTQ+ rights?"
+      ],
+      "tags": ["international-relations", "lgbtq", "civil-rights", "law"]
+    },
+    {
+      "name": "Colonialism and the Criminalization of Homosexuality",
+      "topics": [
+        "How did European colonialism impose anti-sodomy laws worldwide?",
+        "What were indigenous attitudes toward gender and sexuality before colonization?",
+        "How many countries' anti-gay laws trace directly to colonial-era legislation?",
+        "What arguments do anti-colonial LGBTQ+ activists make?",
+        "How has the legacy of colonial law been challenged?",
+        "What is the relationship between decolonization and LGBTQ+ rights?"
+      ],
+      "tags": ["history", "lgbtq", "colonialism", "law"]
+    },
+    {
+      "name": "LGBTQ+ Rights in Africa",
+      "topics": [
+        "What is the range of LGBTQ+ rights across African countries?",
+        "What happened with Uganda's Anti-Homosexuality Act?",
+        "How have American evangelical groups influenced African anti-LGBTQ+ politics?",
+        "What LGBTQ+ activism exists within African countries?",
+        "How do African LGBTQ+ people navigate hostile legal environments?",
+        "Which African countries are moving toward greater inclusion?"
+      ],
+      "tags": ["international-relations", "lgbtq", "africa", "civil-rights"]
+    },
+    {
+      "name": "LGBTQ+ Rights in the Middle East and North Africa",
+      "topics": [
+        "How do laws and social attitudes toward LGBTQ+ people vary in MENA?",
+        "What is life like for LGBTQ+ people in countries like Iran and Saudi Arabia?",
+        "How do LGBTQ+ people survive in highly repressive environments?",
+        "What underground LGBTQ+ communities exist in the region?",
+        "How has Israel's 'pinkwashing' been critiqued?",
+        "What paths forward exist for LGBTQ+ rights in MENA?"
+      ],
+      "tags": ["international-relations", "lgbtq", "middle-east", "civil-rights"]
+    },
+    {
+      "name": "Russia and LGBTQ+ Rights in Eastern Europe",
+      "topics": [
+        "How has Russia's 'gay propaganda' law operated?",
+        "What is life like for LGBTQ+ people in Russia?",
+        "How do LGBTQ+ rights vary across Eastern European countries?",
+        "What role has the EU played in LGBTQ+ rights in member and candidate states?",
+        "What happened in Chechnya's anti-gay purges?",
+        "How have LGBTQ+ activists organized in hostile Eastern European contexts?"
+      ],
+      "tags": ["international-relations", "lgbtq", "russia", "civil-rights"]
+    },
+    {
+      "name": "LGBTQ+ Rights in Asia and the Pacific",
+      "topics": [
+        "What is the range of LGBTQ+ rights across Asia?",
+        "How did Taiwan become the first Asian country to legalize same-sex marriage?",
+        "What progress has been made in countries like Thailand and Vietnam?",
+        "What challenges face LGBTQ+ people in countries like Indonesia and Malaysia?",
+        "How do cultural concepts of family affect LGBTQ+ acceptance in Asia?",
+        "What role have courts played in advancing LGBTQ+ rights in the region?"
+      ],
+      "tags": ["international-relations", "lgbtq", "asia", "civil-rights"]
+    },
+    {
+      "name": "LGBTQ+ Rights in Latin America",
+      "topics": [
+        "How has Latin America become a leader in LGBTQ+ rights?",
+        "What factors enabled marriage equality across much of the region?",
+        "How does anti-LGBTQ+ violence persist despite legal progress?",
+        "What role has the Inter-American Court of Human Rights played?",
+        "How do different countries in the region compare?",
+        "What challenges remain for LGBTQ+ rights in Latin America?"
+      ],
+      "tags": ["international-relations", "lgbtq", "latin-america", "civil-rights"]
+    },
+    {
+      "name": "LGBTQ+ Asylum and Refugee Status",
+      "topics": [
+        "How can LGBTQ+ persecution qualify someone for asylum?",
+        "What challenges face LGBTQ+ asylum seekers?",
+        "How do asylum seekers prove their LGBTQ+ identity?",
+        "What happens to LGBTQ+ people in refugee camps?",
+        "Which countries have strong LGBTQ+ asylum protections?",
+        "What organizations support LGBTQ+ asylum seekers?"
+      ],
+      "tags": ["law", "lgbtq", "immigration", "civil-rights"]
+    },
+    {
+      "name": "International Human Rights Law and LGBTQ+ Rights",
+      "topics": [
+        "How do UN human rights mechanisms address LGBTQ+ rights?",
+        "What is the UN Independent Expert on Sexual Orientation and Gender Identity?",
+        "How have international human rights bodies ruled on LGBTQ+ issues?",
+        "What treaties protect LGBTQ+ people's rights?",
+        "How do countries resist international pressure on LGBTQ+ rights?",
+        "What is the Yogyakarta Principles and why do they matter?"
+      ],
+      "tags": ["international-relations", "lgbtq", "law", "human-rights"]
+    },
+    {
+      "name": "Global LGBTQ+ Movements and Solidarity",
+      "topics": [
+        "How do LGBTQ+ activists organize across borders?",
+        "What international LGBTQ+ organizations exist?",
+        "How do activists in restrictive countries connect with global movements?",
+        "What tensions exist between 'Western' and local approaches to LGBTQ+ rights?",
+        "How can international support help without imposing?",
+        "What does effective global LGBTQ+ solidarity look like?"
+      ],
+      "tags": ["activism", "lgbtq", "international-relations", "social-movements"]
+    },
+    {
+      "name": "The Future of Global LGBTQ+ Rights",
+      "topics": [
+        "What trajectory are global LGBTQ+ rights on?",
+        "Which regions or countries are likely to see progress?",
+        "What threats exist to current LGBTQ+ rights globally?",
+        "How might climate change and migration affect LGBTQ+ communities?",
+        "What role will international pressure play going forward?",
+        "What would a world with full LGBTQ+ equality look like?"
+      ],
+      "tags": ["international-relations", "lgbtq", "civil-rights", "future-studies"]
+    }
+  ]
+}

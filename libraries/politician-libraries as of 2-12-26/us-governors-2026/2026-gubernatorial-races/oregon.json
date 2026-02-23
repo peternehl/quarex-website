@@ -1,0 +1,42 @@
+{
+  "book": "Oregon",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Danielle Bethell (R)",
+        "David Burch (R)",
+        "Ed Diehl (R)",
+        "Christine Drazan (R)",
+        "Chris Dudley (R)",
+        "Kyle Duyck (R)",
+        "Caleb Kintz (R)",
+        "Patrick Kopke-Hales (R)",
+        "David Medina (R)",
+        "Robert Neuman (R)",
+        "Brad T. Peters (R)",
+        "Matthew Piatt (R)",
+        "Paul Romero (R)",
+        "Wen Waddell (R)",
+        "Martin Ward (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Tina Kotek (D)",
+        "Forest Alexander (D)",
+        "James Atkinson (D)",
+        "Brittany Jones (D)",
+        "Tristan Sheppard (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Alexander Ziwahatan (I)",
+        "LaNicia Duke (I)"
+      ]
+    }
+  ]
+}

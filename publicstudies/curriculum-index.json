@@ -94,7 +94,7 @@
         },
         {
             "id": "hispanic-experience-today",
-            "school": "Social Studies",
+            "school": "Hispanic Studies",
             "title": "The Hispanic American Experience Today",
             "icon": "🗽",
             "description": "Contemporary issues shaping Hispanic American life — immigration policy, economic realities, education, healthcare, political representation, and civil rights.",
@@ -186,7 +186,7 @@
         },
         {
             "id": "hispanic-cultures",
-            "school": "Social Studies",
+            "school": "Hispanic Studies",
             "title": "Hispanic Cultures & Identity in America",
             "icon": "🌮",
             "description": "The rich diversity within the Hispanic/Latino label — distinct communities, immigration patterns, cultural traditions, and the complex question of identity in the United States.",
@@ -630,7 +630,7 @@
         },
         {
             "id": "hispanic-contributions",
-            "school": "History",
+            "school": "Hispanic Studies",
             "title": "Hispanic Contributions to American Culture",
             "icon": "🎭",
             "description": "The profound contributions of Hispanic Americans to literature, art, music, science, sports, business, and every dimension of American culture.",
@@ -722,7 +722,7 @@
         },
         {
             "id": "us-latin-america-relations",
-            "school": "History",
+            "school": "Hispanic Studies",
             "title": "U.S.-Latin America Relations & Hispanic American History",
             "icon": "🌎",
             "description": "The intertwined history of the United States and Latin America, from colonialism to intervention to migration, and the deep roots of Hispanic communities in America.",
@@ -1433,30 +1433,184 @@
             "school": "Social Studies",
             "title": "Labor Studies",
             "icon": "⚒",
-            "description": "Workers' rights, unions, economic justice, and the labor movement.",
+            "description": "Workers' rights, unions, economic justice, and the labor movement from Haymarket to Amazon.",
             "lang": "en",
-            "status": "coming-soon",
-            "courses": []
+            "status": "live",
+            "syllabus": "LaborStudiesSyllabus.html",
+            "courses": [
+                {
+                    "title": "The American Labor Movement: From Haymarket to Amazon",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/labor-and-work/the-american-labor-movement-from-haymarket-to-amazon"
+                },
+                {
+                    "title": "Labor Law and Workers' Rights",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/labor-and-work/labor-law-and-workers-rights"
+                },
+                {
+                    "title": "Economic Coercion in the United States",
+                    "link": "https://quarex.org/libraries/pe/ideological/economic-theories/economic-coercion-in-the-united-states"
+                },
+                {
+                    "title": "Public Sector Unions: Teachers, Police, and the State",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/labor-and-work/public-sector-unions-teachers-police-and-the-state"
+                },
+                {
+                    "title": "Women's Labor: Paid, Unpaid, and Undervalued",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/labor-and-work/womens-labor-paid-unpaid-and-undervalued"
+                },
+                {
+                    "title": "Global Labor: Supply Chains, Sweatshops, and Solidarity",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/labor-and-work/global-labor-supply-chains-sweatshops-and-solidarity"
+                },
+                {
+                    "title": "Wage Theft, Exploitation, and Worker Safety",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/labor-and-work/wage-theft-exploitation-and-worker-safety"
+                },
+                {
+                    "title": "The Gig Economy and the Future of Work",
+                    "link": "https://quarex.org/libraries/pe/contested-issues/labor-and-work/the-gig-economy-and-the-future-of-work"
+                },
+                {
+                    "title": "The Ungovernable Economy",
+                    "link": "https://quarex.org/libraries/i/economic-infrastructures/geopolitics/concentration-singularity"
+                },
+                {
+                    "title": "LGBTQ+ Economics: Work, Wages, and Wealth",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/lgbtq-studies/lgbtq-economics-work-wages-wealth"
+                },
+                {
+                    "title": "Black Economic Life: Labor, Business, and Wealth",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/black-studies/black-economic-life-labor-business-and-wealth"
+                },
+                {
+                    "title": "Hispanic Workers in America",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-workers-in-america"
+                }
+            ]
         },
         {
             "id": "estudios-latinos",
-            "school": "Social Studies",
-            "title": "Estudios Latinos",
+            "school": "Hispanic Studies",
+            "title": "Programa de Estudios Latinos",
             "icon": "🇪🇸",
             "description": "Historia, cultura y política de las comunidades latinas en los Estados Unidos. En español.",
             "lang": "es",
-            "status": "coming-soon",
-            "courses": []
+            "status": "live",
+            "syllabus": "EstudiosLatinosSyllabus.html",
+            "courses": [
+                {
+                    "title": "¿Qué Significa \"Hispano\"?",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/what-does-hispanic-mean-es"
+                },
+                {
+                    "title": "Latino, Latina, Latinx: La Política Evolutiva de la Autoidentificación",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/latino-latina-latinx-evolving-identity-es"
+                },
+                {
+                    "title": "Mexicoamericanos: La Comunidad Hispana Más Grande y Diversa",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/mexican-americans-largest-hispanic-community-es"
+                },
+                {
+                    "title": "Puertorriqueños en Estados Unidos: Ciudadanos Americanos, Identidad Caribeña",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/puerto-ricans-in-america-es"
+                },
+                {
+                    "title": "Cubanoamericanos: Exilio, Éxito y Complejidad Política",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/cuban-americans-exile-success-complexity-es"
+                },
+                {
+                    "title": "Centroamericanos en Estados Unidos",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/central-americans-in-america-es"
+                },
+                {
+                    "title": "Contribuciones Hispanas a la Cultura Estadounidense",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-contributions-to-american-culture-es"
+                },
+                {
+                    "title": "El Voto Hispano: Poder, Patrones y el Camino Hacia Adelante",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-hispanic-vote-es"
+                },
+                {
+                    "title": "Los Hispanoamericanos y los Dos Partidos: La Competencia por el Voto Latino",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/hispanic-americans-and-the-two-parties-es"
+                },
+                {
+                    "title": "Discriminación Antihispana: Prejuicio, Estereotipos y Odio",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/anti-hispanic-discrimination-es"
+                },
+                {
+                    "title": "Los Indocumentados: 11 Millones de Vidas en las Sombras",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-undocumented-11-million-lives-in-the-shadows-es"
+                },
+                {
+                    "title": "El Futuro de la América Hispana: Demografía, Poder y Promesa",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/hispanic-cultures/the-future-of-hispanic-america-es"
+                }
+            ]
         },
         {
             "id": "estudios-de-la-mujer",
-            "school": "Social Studies",
-            "title": "Estudios de la Mujer",
+            "school": "Hispanic Studies",
+            "title": "Programa de Estudios de la Mujer",
             "icon": "♀",
-            "description": "Género, poder, historia y los movimientos que cambiaron el mundo. En español.",
+            "description": "Género, poder, historia y los movimientos que cambiaron el mundo — con un enfoque en América Latina. En español.",
             "lang": "es",
-            "status": "coming-soon",
-            "courses": []
+            "status": "live",
+            "syllabus": "EstudiosDeLaMujerSyllabus.html",
+            "courses": [
+                {
+                    "title": "¿Qué es el Feminismo?",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/que-es-el-feminismo"
+                },
+                {
+                    "title": "Interseccionalidad: Raza, Género y Poder",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/interseccionalidad-raza-genero-y-poder"
+                },
+                {
+                    "title": "El Feminismo Latinoamericano: De Sor Juana al Presente",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/feminismo-latinoamericano"
+                },
+                {
+                    "title": "Machismo y Marianismo: Las Raíces Culturales",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/machismo-y-marianismo"
+                },
+                {
+                    "title": "La Crisis de Feminicidio en América Latina",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/la-crisis-de-feminicidio"
+                },
+                {
+                    "title": "Mujeres Migrantes: Historias de la Frontera",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/mujeres-migrantes"
+                },
+                {
+                    "title": "Las Madres de Plaza de Mayo y el Activismo de las Madres",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/las-madres-de-plaza-de-mayo"
+                },
+                {
+                    "title": "Mujeres Indígenas y Resistencia",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/mujeres-indigenas-y-resistencia"
+                },
+                {
+                    "title": "El Movimiento de las Trabajadoras del Hogar",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/el-movimiento-de-las-trabajadoras-del-hogar"
+                },
+                {
+                    "title": "Las Maquiladoras y el Trabajo de la Mujer",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/las-maquiladoras-y-el-trabajo-de-la-mujer"
+                },
+                {
+                    "title": "Mujeres Líderes de América Latina",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/mujeres-lideres-de-america-latina"
+                },
+                {
+                    "title": "Salud Reproductiva en América Latina",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/salud-reproductiva-en-america-latina"
+                },
+                {
+                    "title": "Cómo el Aborto se Convirtió en una Cuña Política",
+                    "link": "https://quarex.org/libraries/pe/cultural-and-identity/estudios-de-la-mujer/como-el-aborto-se-convirtio-en-una-cuna-politica"
+                }
+            ]
         }
     ]
 }

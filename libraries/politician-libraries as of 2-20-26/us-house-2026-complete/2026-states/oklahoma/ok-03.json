@@ -1,0 +1,23 @@
+{
+  "book": "OK-03",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Frank Lucas (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Jules Roberson (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Rebekah LaVann (I)"
+      ]
+    }
+  ]
+}

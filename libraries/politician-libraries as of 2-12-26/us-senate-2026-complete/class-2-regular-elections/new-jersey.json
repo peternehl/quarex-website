@@ -1,0 +1,27 @@
+{
+  "book": "New Jersey",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Justin Murphy (R)",
+        "Natalie Rivera (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Cory Booker (D)",
+        "Saxon Callahan (D)",
+        "Lisa McCormick (D)",
+        "Gregory Tomaini (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Michael Misseri (I)"
+      ]
+    }
+  ]
+}

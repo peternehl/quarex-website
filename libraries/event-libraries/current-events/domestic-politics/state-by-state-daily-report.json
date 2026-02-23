@@ -4,7 +4,7 @@
   "mode": "followup",
   "chapters": [
     {
-      "name": "Washington DC",
+      "name": "Washington DC and Federal Government",
       "topics": [
         "What major actions has the Executive Branch taken this week?",
         "What legislation is moving through Congress right now?",
@@ -22,29 +22,29 @@
       ]
     },
     {
-      "name": "Northeast",
+      "name": "Northeast States (ME, NH, VT, MA, RI, CT, NY, NJ, PA, DE, MD)",
       "topics": [
-        "What's the biggest story in this region today?",
-        "Which state here faces a developing situation?",
-        "What local policy could have national implications?",
-        "What economic shift is affecting this region?",
-        "What's the most underreported story here?"
+        "What's the biggest political story in the Northeast states today — Maine, New Hampshire, Vermont, Massachusetts, Rhode Island, Connecticut, New York, New Jersey, Pennsylvania, Delaware, or Maryland?",
+        "What state legislation is moving in Northeast statehouses this week?",
+        "What's happening with housing, transit, or infrastructure in the New York and Boston metro areas?",
+        "What education or healthcare policy changes are Northeast states pursuing?",
+        "What's the most underreported story in the Northeast right now?"
       ],
       "tags": [
         "politics",
         "democracy",
         "us-politics",
-        "elections"
+        "governance"
       ]
     },
     {
-      "name": "Southeast",
+      "name": "Southeast States (VA, WV, NC, SC, GA, FL, AL, MS, TN, KY, LA, AR)",
       "topics": [
-        "What's the biggest story in this region today?",
-        "Which state here faces a developing situation?",
-        "What local policy could have national implications?",
-        "What economic shift is affecting this region?",
-        "What's the most underreported story here?"
+        "What's the biggest political story in the Southeast states today — Virginia, West Virginia, North Carolina, South Carolina, Georgia, Florida, Alabama, Mississippi, Tennessee, Kentucky, Louisiana, or Arkansas?",
+        "What voting rights or election law changes are Southeast states pursuing?",
+        "What's happening with hurricane recovery, climate adaptation, or coastal development in the Southeast?",
+        "What labor, economic, or industrial shifts are affecting the Southeast?",
+        "What's the most underreported story in the Southeast right now?"
       ],
       "tags": [
         "politics",
@@ -54,45 +54,45 @@
       ]
     },
     {
-      "name": "Midwest",
+      "name": "Midwest States (OH, IN, IL, MI, WI, MN, IA, MO, ND, SD, NE, KS)",
       "topics": [
-        "What's the biggest story in this region today?",
-        "Which state here faces a developing situation?",
-        "What local policy could have national implications?",
-        "What economic shift is affecting this region?",
-        "What's the most underreported story here?"
+        "What's the biggest political story in the Midwest states today — Ohio, Indiana, Illinois, Michigan, Wisconsin, Minnesota, Iowa, Missouri, North Dakota, South Dakota, Nebraska, or Kansas?",
+        "What manufacturing, agriculture, or trade policy is affecting the Midwest?",
+        "What state-level political fights are reshaping Midwest legislatures?",
+        "What's happening with rural communities, healthcare access, or opioid response in the Midwest?",
+        "What's the most underreported story in the Midwest right now?"
       ],
       "tags": [
         "politics",
         "governance",
         "us-politics",
-        "history"
+        "economics"
       ]
     },
     {
-      "name": "Southwest",
+      "name": "Southwest States (TX, NM, AZ, OK)",
       "topics": [
-        "What's the biggest story in this region today?",
-        "Which state here faces a developing situation?",
-        "What local policy could have national implications?",
-        "What economic shift is affecting this region?",
-        "What's the most underreported story here?"
+        "What's the biggest political story in the Southwest states today — Texas, New Mexico, Arizona, or Oklahoma?",
+        "What immigration or border enforcement actions are affecting the Southwest?",
+        "What energy, water, or land-use policy is being debated in the Southwest?",
+        "What population growth or demographic shifts are reshaping Southwest politics?",
+        "What's the most underreported story in the Southwest right now?"
       ],
       "tags": [
         "politics",
         "governance",
         "us-politics",
-        "history"
+        "migration"
       ]
     },
     {
-      "name": "Mountain West",
+      "name": "Mountain West States (MT, WY, CO, UT, ID, NV)",
       "topics": [
-        "What's the biggest story in this region today?",
-        "Which state here faces a developing situation?",
-        "What local policy could have national implications?",
-        "What economic shift is affecting this region?",
-        "What's the most underreported story here?"
+        "What's the biggest political story in the Mountain West states today — Montana, Wyoming, Colorado, Utah, Idaho, or Nevada?",
+        "What public lands, energy, or environmental policy is being debated in the Mountain West?",
+        "What population growth or housing pressure is affecting Mountain West communities?",
+        "What state-level political shifts or ballot measures are developing in the Mountain West?",
+        "What's the most underreported story in the Mountain West right now?"
       ],
       "tags": [
         "politics",
@@ -102,30 +102,30 @@
       ]
     },
     {
-      "name": "Pacific",
+      "name": "Pacific States (WA, OR, CA, HI, AK)",
       "topics": [
-        "What's the biggest story in this region today?",
-        "Which state here faces a developing situation?",
-        "What local policy could have national implications?",
-        "What economic shift is affecting this region?",
-        "What's the most underreported story here?"
+        "What's the biggest political story in the Pacific states today — Washington, Oregon, California, Hawaii, or Alaska?",
+        "What tech industry, labor, or economic policy is moving in the Pacific states?",
+        "What wildfire, climate, or environmental developments are affecting the Pacific coast?",
+        "What housing, homelessness, or cost-of-living policy is being debated in Pacific states?",
+        "What's the most underreported story in the Pacific states right now?"
       ],
       "tags": [
         "politics",
         "democracy",
         "us-politics",
-        "history"
+        "economics"
       ]
     },
     {
-      "name": "Swing States",
+      "name": "Swing States (AZ, GA, MI, NV, NC, PA, WI)",
       "topics": [
-        "How have battleground polls shifted this week?",
-        "What voter registration trends are emerging?",
+        "How have battleground polls shifted this week in Arizona, Georgia, Michigan, Nevada, North Carolina, Pennsylvania, or Wisconsin?",
+        "What voter registration or election administration changes are underway in swing states?",
         "Which swing state legislatures are passing controversial laws?",
-        "What ground-game activity is happening now?",
+        "What ground-game activity or campaign spending is happening in swing states now?",
         "What demographic changes are reshaping swing state politics?",
-        "Which swing state races are attracting the most money?"
+        "Which swing state races are attracting the most outside money?"
       ],
       "tags": [
         "politics",
@@ -135,30 +135,30 @@
       ]
     },
     {
-      "name": "Border States",
+      "name": "Border States (TX, AZ, NM, CA)",
       "topics": [
-        "What immigration enforcement actions are underway?",
+        "What immigration enforcement actions are underway in Texas, Arizona, New Mexico, or California border regions?",
         "How are border communities responding to federal policy?",
         "What's the economic impact of border activity this week?",
-        "What legal challenges involve border state policies?",
+        "What legal challenges involve border state policies — including Texas SB 4, Arizona's border measures, or California's sanctuary laws?",
         "How are border governors coordinating or conflicting with Washington?",
-        "What humanitarian situations are developing at the border?"
+        "What humanitarian situations are developing at the US-Mexico border?"
       ],
       "tags": [
         "politics",
         "migration",
         "us-politics",
-        "history"
+        "governance"
       ]
     },
     {
-      "name": "Red States",
+      "name": "Republican-Led States",
       "topics": [
-        "What conservative policies are being implemented this week?",
-        "Which red state is testing new restrictions or reforms?",
-        "What economic or demographic shifts could change the political landscape?",
-        "What intra-party conflicts are emerging among Republicans?",
-        "How are red states responding to federal policy?",
+        "What conservative policies are being implemented in Republican-led states this week?",
+        "Which Republican-controlled state is testing new restrictions on abortion, voting, education, or transgender rights?",
+        "What economic or demographic shifts could change the political landscape in red states?",
+        "What intra-party conflicts are emerging among Republicans at the state level?",
+        "How are Republican-led states responding to or resisting federal policy?",
         "What red state policies are being challenged in court?"
       ],
       "tags": [
@@ -169,13 +169,13 @@
       ]
     },
     {
-      "name": "Blue States",
+      "name": "Democratic-Led States",
       "topics": [
-        "What progressive policies are being implemented this week?",
-        "Which blue state is expanding social programs or regulations?",
+        "What progressive policies are being implemented in Democratic-led states this week?",
+        "Which Democratic-controlled state is expanding social programs, climate regulations, or worker protections?",
         "What fiscal or governance challenges are blue states facing?",
-        "What intra-party conflicts are emerging among Democrats?",
-        "How are blue states responding to federal policy?",
+        "What intra-party conflicts are emerging among Democrats at the state level?",
+        "How are Democratic-led states responding to or resisting federal policy?",
         "What blue state policies are being challenged in court?"
       ],
       "tags": [

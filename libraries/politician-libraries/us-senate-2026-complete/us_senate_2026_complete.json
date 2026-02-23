@@ -2,7 +2,7 @@
   "library": "US Senate 2026 - Complete",
   "library_type": "candidates",
   "description": "All 2026 Senate races with declared candidates. Auto-generated from Ballotpedia master list.",
-  "last_updated": "2026-01-30",
+  "last_updated": "2026-02-21",
   "source": "Ballotpedia",
   "shelves": [
     {
@@ -261,7 +261,6 @@
               "name": "Democratic",
               "topics": [
                 "Chris Henry (D)",
-                "Nathan Sage (D)",
                 "Josh Turek (D)",
                 "Zach Wahls (D)"
               ]
@@ -291,6 +290,7 @@
                 "Erik Murray (D)",
                 "Sandy Spidel Neumann (D)",
                 "Anne Parelkar (D)",
+                "Patrick Schmidt (D)",
                 "Michael Soetaert (D)"
               ]
             }
@@ -350,17 +350,17 @@
                 "Chris Holder (R)",
                 "Xan John (R)",
                 "Julia Letlow (R)",
-                "Blake Miguez (R)",
                 "Joshua Morott (R)",
-                "Kathy Seiden (R)",
                 "Eric Skrmetta (R)",
-                "Samuel Wyatt (R)"
+                "Mark Spencer (R)"
               ]
             },
             {
               "name": "Democratic",
               "topics": [
+                "Nick Albares (D)",
                 "Tracie Burke (D)",
+                "Gary Crockett (D)",
                 "Jamie Davis (D)",
                 "Jabarie Walker (D)"
               ]
@@ -429,6 +429,7 @@
               "name": "Independent/Other",
               "topics": [
                 "Philip Devincentis (I)",
+                "Shiva Ayyadurai (I)",
                 "Morgan Dawicki (I)",
                 "Joseph Tache (I)"
               ]
@@ -536,6 +537,7 @@
               "name": "Republican",
               "topics": [
                 "Steve Daines (R)",
+                "Trey Gregory (R)",
                 "Charles A. Walking Child (R)"
               ]
             },
@@ -613,7 +615,10 @@
             {
               "name": "Republican",
               "topics": [
-                "Justin Murphy (R)"
+                "Justin Murphy (R)",
+                "Natalie Rivera (R)",
+                "Richard Tabor (R)",
+                "Alex Zdan (R)"
               ]
             },
             {
@@ -621,8 +626,9 @@
               "topics": [
                 "Cory Booker (D)",
                 "Saxon Callahan (D)",
+                "Chris Fields (D)",
                 "Lisa McCormick (D)",
-                "Gregory Tomaini (D)"
+                "Gregory Richard Tomaini (D)"
               ]
             },
             {
@@ -639,7 +645,8 @@
             {
               "name": "Republican",
               "topics": [
-                "Benjamin Luna (R)"
+                "Benjamin Luna (R)",
+                "Christopher Vanden Heuvel (R)"
               ]
             },
             {
@@ -665,11 +672,11 @@
               "topics": [
                 "Don Brown (R)",
                 "Richard Dansie (R)",
-                "Margot Dupre (R)",
                 "Thomas Johnson (R)",
                 "Michele Morrow (R)",
                 "Elizabeth Anne Temple (R)",
-                "Michael Whatley (R)"
+                "Michael Whatley (R)",
+                "Margot Dupre (R)"
               ]
             },
             {
@@ -700,6 +707,8 @@
               "name": "Republican",
               "topics": [
                 "Markwayne Mullin (R)",
+                "Nick Hankins (R)",
+                "Ron Meinhardt (R)",
                 "Tammy Swearengin (R)"
               ]
             },
@@ -777,8 +786,7 @@
                 "Brandon Brown (D)",
                 "Catherine Fleming Bruce (D)",
                 "Kyle Freeman (D)",
-                "Christopher Giracello (D)",
-                "Lee Johnson (D)"
+                "Christopher Giracello (D)"
               ]
             },
             {
@@ -837,7 +845,8 @@
             {
               "name": "Independent/Other",
               "topics": [
-                "Andrew Mixon (I)"
+                "Andrew Mixon (I)",
+                "Yoshi Matthews (I)"
               ]
             }
           ]
@@ -919,7 +928,6 @@
               "name": "Republican",
               "topics": [
                 "Shelley Moore Capito (R)",
-                "Derrick Evans (R)",
                 "Alexander Gaaserud (R)",
                 "Bryan McKinney (R)",
                 "Janet McNulty (R)",
@@ -932,6 +940,7 @@
               "topics": [
                 "Thornton Cooper (D)",
                 "Rachel Fetty Anderson (D)",
+                "Jeffrey Kessler (D)",
                 "Rio Phillips (D)",
                 "Zachary Shrewsbury (D)"
               ]
@@ -951,7 +960,7 @@
             {
               "name": "Democratic",
               "topics": [
-                "No candidates declared"
+                "James Byrd (D)"
               ]
             }
           ]

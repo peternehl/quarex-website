@@ -1,0 +1,25 @@
+{
+  "book": "CA-25",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Ronald Huffman (R)",
+        "John Kesselmark (R)",
+        "Joe Males (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Raul Ruiz (D)"
+      ]
+    },
+    {
+      "name": "Independent/Other",
+      "topics": [
+        "Eli Owens (I)"
+      ]
+    }
+  ]
+}

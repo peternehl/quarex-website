@@ -1,0 +1,162 @@
+{
+  "name": "The American Labor Movement: From Haymarket to Amazon",
+  "created_by": "Peter Nehl and Claude Opus 4.5",
+  "chapters": [
+    {
+      "name": "Before the Movement: Labor in Early America",
+      "topics": [
+        "How did colonial America rely on coerced labor—slavery, indentured servitude, and bound apprenticeship?",
+        "What were the first stirrings of worker resistance before there were unions?",
+        "Why did early American courts treat worker combinations as criminal conspiracies?",
+        "How did the Philadelphia shoemakers' strike of 1806 establish patterns that would shape American labor law?",
+        "What demands did the Workingmen's Parties of the 1830s-1840s make, and why did they matter?",
+        "How did the Lowell mill girls' walkouts establish themes that would recur throughout labor history?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Industrial Revolution and the Birth of the Working Class",
+      "topics": [
+        "How did industrialization after the Civil War create a permanent wage-earning class dependent on employers?",
+        "What were working conditions like in Gilded Age factories—hours, safety, and employer liability?",
+        "How widespread was child labor in 1900, and why did the law offer so little protection?",
+        "What particular forms of exploitation did women workers face in industrial America?",
+        "How did the 'fellow servant rule' and 'assumption of risk' doctrines benefit employers?",
+        "Why did factory concentration and railroads create the conditions for mass labor organizing?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Haymarket, Homestead, and Pullman: The Violent Birth of Labor Rights",
+      "topics": [
+        "What was the Great Railroad Strike of 1877, and why did the government respond with military force?",
+        "What happened at Haymarket in 1886, and why were anarchist leaders executed for a bomb they didn't throw?",
+        "How did the Homestead Strike pit steelworkers against Pinkerton agents and the state militia?",
+        "Why did the Pullman Strike of 1894 shut down national rail traffic, and how was it crushed?",
+        "What role did injunctions play in criminalizing strikes during the Gilded Age?",
+        "What lessons did the labor movement learn from these brutal defeats?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Rise of the AFL and Craft Unionism",
+      "topics": [
+        "What was Samuel Gompers' strategy of 'pure and simple' unionism, and why did he reject radicalism?",
+        "How did craft unions control the supply of skilled labor to win concessions from employers?",
+        "Why did the AFL organize only skilled workers and exclude factory workers, women, and minorities?",
+        "What were the advantages and limitations of the craft union model?",
+        "How did many AFL affiliates maintain explicit racial barriers, including whites-only clauses?",
+        "Why did the AFL's model become inadequate as mass production industries grew?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The IWW and Radical Alternatives",
+      "topics": [
+        "What was the Industrial Workers of the World, and why did they advocate 'One Big Union'?",
+        "How did the IWW organize workers the AFL wouldn't touch—immigrants, women, African Americans?",
+        "What was the Lawrence textile strike of 1912, and what did 'Bread and Roses' mean?",
+        "Who was Eugene Debs, and why did he receive nearly a million votes for president from prison?",
+        "How did World War I and the Red Scare enable the government to destroy the IWW?",
+        "What was the IWW's lasting legacy for industrial unionism?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The New Deal and Labor's Golden Age",
+      "topics": [
+        "What did the Wagner Act of 1935 guarantee, and why was it called labor's Magna Carta?",
+        "How did the CIO break from the AFL to organize mass production workers by industry?",
+        "What were the sit-down strikes, and why did occupying factories prove so effective?",
+        "How did the Flint sit-down strike force General Motors to recognize the UAW?",
+        "Why did union membership soar from 3 million to 14 million between 1933 and 1945?",
+        "How did the unionized factory worker of the postwar era achieve a middle-class life?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Post-War Compact: Labor, Capital, and the Cold War",
+      "topics": [
+        "What did the Taft-Hartley Act of 1947 change, and why did Truman call it a 'slave labor law'?",
+        "How did Taft-Hartley enable right-to-work laws and constrain future union growth?",
+        "What was the grand bargain of the postwar era between labor and management?",
+        "How did Cold War anticommunism lead unions to purge their most militant organizers?",
+        "Why was the postwar compact limited mainly to white men in heavy industry?",
+        "What gains did the AFL-CIO merger of 1955 represent, and what accommodations did it require?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Civil Rights and Labor: An Uneasy Alliance",
+      "topics": [
+        "Why was the 1963 March on Washington officially for 'Jobs and Freedom'?",
+        "Who was A. Philip Randolph, and how did he connect civil rights to labor rights?",
+        "How did the AFL's craft unions maintain racial barriers while the CIO organized Black workers?",
+        "What was the Memphis sanitation workers' strike, and why did Martin Luther King support it?",
+        "How did deindustrialization hit Black workers especially hard after the Civil Rights Act?",
+        "Why did the alliance between labor and civil rights become strained in the 1970s?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Reagan Revolution and the Breaking of PATCO",
+      "topics": [
+        "Why was Reagan's firing of the air traffic controllers in 1981 a turning point for labor?",
+        "How did PATCO's destruction signal to private employers that they could use permanent replacements?",
+        "What role did deregulation and the strong dollar play in accelerating deindustrialization?",
+        "How did the steel industry collapse exemplify manufacturing decline in the 1980s?",
+        "What union avoidance strategies did corporations develop after PATCO?",
+        "Why did many white working-class voters support Reagan despite his anti-labor policies?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The Decline: 1980-2010",
+      "topics": [
+        "How did union membership fall from 23% in 1980 to under 12% by 2010?",
+        "How did globalization and the threat of relocation undermine union bargaining power?",
+        "What tactics did employers use to defeat organizing drives, and why were penalties so weak?",
+        "How did right-to-work laws spread beyond the South after 2010?",
+        "Why was the labor movement's response to decline often inadequate?",
+        "What is the connection between union decline and the hollowing out of the middle class?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "Right-to-Work and the War on Unions",
+      "topics": [
+        "Who funds the anti-union movement, and what is their strategic goal?",
+        "How do right-to-work laws create a free-rider problem that weakens unions over time?",
+        "What did the Supreme Court decide in Janus v. AFSCME, and why did it matter?",
+        "How did Wisconsin's Act 10 strip public employees of bargaining rights?",
+        "Why is the attack on unions fundamentally about political power?",
+        "Why has public support for unions increased even as union membership has declined?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "The New Labor Movement: Starbucks, Amazon, and Beyond",
+      "topics": [
+        "What changed in the 2020s that led young workers to organize in industries considered impossible to unionize?",
+        "How did the Starbucks unionization campaign spread to over 400 stores in two years?",
+        "How did the Amazon Labor Union defeat the world's second-largest employer at JFK8?",
+        "What was the Fight for $15, and how did it shift the political landscape on minimum wage?",
+        "What common features do these new campaigns share—social media, young workers, demands for dignity?",
+        "Why does winning a union election remain only the first step, with contracts far harder to achieve?"
+      ],
+      "tags": []
+    },
+    {
+      "name": "What Unions Do: The Evidence",
+      "topics": [
+        "What is the union wage premium, and how large is it according to economic research?",
+        "How do unions affect non-union workers through 'threat effects'?",
+        "What does research show about the relationship between unions and productivity?",
+        "How do unions provide workers with voice, dignity, and democratic participation?",
+        "What is the connection between union decline and rising inequality since the 1970s?",
+        "How do countries with stronger unions compare to the US on inequality and economic performance?"
+      ],
+      "tags": []
+    }
+  ]
+}

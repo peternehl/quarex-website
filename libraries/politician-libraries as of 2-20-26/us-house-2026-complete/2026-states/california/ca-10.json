@@ -1,0 +1,20 @@
+{
+  "book": "CA-10",
+  "chapters": [
+    {
+      "name": "Republican",
+      "topics": [
+        "Jeffrey Frese (R)",
+        "Katherine Piccinini (R)"
+      ]
+    },
+    {
+      "name": "Democratic",
+      "topics": [
+        "Mark DeSaulnier (D)",
+        "Josh Hamilton (D)",
+        "Mitchell Maisler (D)"
+      ]
+    }
+  ]
+}
