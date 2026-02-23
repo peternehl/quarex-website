@@ -9,8 +9,9 @@ node_modules/
 # API keys and secrets
 **/api-keys.json
 **/credentials.json
-api/config.php
-api/.htaccess
+**/.htaccess
+**/config.php
+api/.htaccess-old
 
 # OS files
 .DS_Store
