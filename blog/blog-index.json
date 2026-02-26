@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "how-to-cope-with-aging",
+      "title": "How to Cope with Aging",
+      "date": "2026-02-26",
+      "excerpt": "Aging is inevitable. Suffering through it is not. From brain science to loneliness research to longevity breakthroughs, here's what actually works — and what the medical system gets wrong.",
+      "tags": ["aging", "health", "neuroscience", "longevity", "women"],
+      "quarexLinks": [
+        {
+          "title": "Neuroscience and the Brain",
+          "url": "/libraries/?t=k&lib=the-sciences&s=life-sciences&b=neuroscience-and-the-brain"
+        },
+        {
+          "title": "Overcoming Loneliness",
+          "url": "/libraries/?t=k&lib=personal-and-life&s=health-and-wellbeing&b=overcoming-loneliness"
+        },
+        {
+          "title": "Women's Health and Body Politics",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=feminism-and-equality&b=women-s-health-and-body-politics"
+        }
+      ]
+    },
+    {
       "slug": "california-jungle-primary",
       "title": "California's Top-Two Trap: How the Golden State Could Accidentally Elect a Republican Governor",
       "date": "2026-02-22",
