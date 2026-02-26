@@ -1,6 +1,31 @@
 {
   "posts": [
     {
+      "slug": "job-seeking-and-job-interviewing",
+      "title": "Job Seeking and Job Interviewing in 2026",
+      "date": "2026-02-26",
+      "excerpt": "The job market doesn't care about your feelings. It cares about what you can prove, who you know, and whether an algorithm decides you're worth a human's attention. Here's what the data actually says — and how to use it.",
+      "tags": ["jobs", "career", "AI", "interviews", "labor-market"],
+      "quarexLinks": [
+        {
+          "title": "AI and Your Career: Adaptation Strategies",
+          "url": "/libraries/?t=k&lib=practical-skills&s=digital-and-professional-skills&b=ai-and-your-career-adaptation-strategies"
+        },
+        {
+          "title": "Work, Purpose & Identity",
+          "url": "/libraries/?t=k&lib=personal-and-life&s=life-transitions-and-growth&b=work-purpose-identity"
+        },
+        {
+          "title": "Global Economy Right Now",
+          "url": "/libraries/?t=e&lib=current-events&s=global-challenges&b=global-economy-right-now"
+        },
+        {
+          "title": "Checking Political Claims and Statistics",
+          "url": "/libraries/?t=k&lib=practical-knowledge&s=advanced-civic-fact-checking-and-sharing-responsibly&b=checking-political-claims-and-statistics"
+        }
+      ]
+    },
+    {
       "slug": "how-to-cope-with-aging",
       "title": "How to Cope with Aging",
       "date": "2026-02-26",
