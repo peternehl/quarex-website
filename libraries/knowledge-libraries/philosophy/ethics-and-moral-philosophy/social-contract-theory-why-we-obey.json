@@ -1,0 +1,95 @@
+{
+  "name": "Social Contract Theory: Why We Obey",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "governance", "democracy", "human-rights", "critical-thinking"],
+  "chapters": [
+    {
+      "name": "The State of Nature: What Are Humans Without Government?",
+      "topics": [
+        "Why did social contract theorists begin with a 'state of nature' — a thought experiment about life without government — and why do their radically different assumptions about human nature (Hobbes: selfish and violent; Locke: rational and cooperative; Rousseau: innocent and corrupted) produce radically different political conclusions?",
+        "How did Hobbes's description of life without government — 'solitary, poor, nasty, brutish, and short' — reflect the English Civil War (1642-1651) he had just lived through, and did he describe human nature or merely project wartime trauma onto philosophy?",
+        "Why did Rousseau claim that 'man is born free, and everywhere he is in chains' — arguing that the state of nature was peaceful and that civilization itself created inequality, competition, and misery — directly contradicting Hobbes?",
+        "How do anthropological findings about actual stateless societies — hunter-gatherer bands, acephalous communities, Indigenous governance systems — challenge all three philosophers' armchair speculations about 'the state of nature'?",
+        "What did feminist critics (Carole Pateman, Charles Mills) expose about the state of nature — that it imagined only white male property owners as the contracting parties, rendering women, slaves, and colonized peoples invisible from the start?"
+      ],
+      "tags": ["philosophy", "governance", "society", "early-modern-history"]
+    },
+    {
+      "name": "Hobbes's Leviathan: Absolute Power from Rational Fear",
+      "topics": [
+        "Why did Hobbes argue in 'Leviathan' (1651) that rational self-interest — not divine right or tradition — requires surrendering nearly all freedom to an absolute sovereign, and how did this make him simultaneously the most conservative and most radical political thinker of his era?",
+        "How did Hobbes derive political obligation from a single premise — that people fear violent death above all else — and why did he insist that even a tyrannical sovereign is preferable to the 'war of all against all'?",
+        "What rights did Hobbes say cannot be surrendered to the sovereign — the right to self-defense, the right to resist being killed — and why does this single exception undermine his entire argument for absolute authority?",
+        "How did Hobbes's materialism shock his contemporaries — arguing that even the mind is matter in motion, that there is no soul, that the Church has no authority independent of the state — and why was 'Leviathan' burned at Oxford?",
+        "Name three modern states that approximate Hobbes's Leviathan — where citizens accept authoritarian rule in exchange for security — and what do cases like Singapore, China, and post-invasion Iraq reveal about the trade-off between freedom and order?"
+      ],
+      "tags": ["philosophy", "governance", "authoritarianism", "early-modern-history"]
+    },
+    {
+      "name": "Locke's Two Treatises: Natural Rights and the Right to Revolt",
+      "topics": [
+        "How did Locke's 'Two Treatises of Government' (1689) — written to justify the Glorious Revolution — argue that government exists solely to protect natural rights to life, liberty, and property, and that any government violating these rights may be overthrown?",
+        "Why did Locke ground property rights in labor — 'whatsoever then he removes out of the state that nature hath provided and left it in, he hath mixed his labour with, and thereby makes it his property' — and how did colonists use this theory to justify seizing Indigenous lands?",
+        "How did Locke's theory directly shape the American Revolution — Jefferson's 'life, liberty, and the pursuit of happiness' echoing Locke's 'life, liberty, and property' — and why did Jefferson change 'property' to 'pursuit of happiness'?",
+        "What was Locke's theory of tacit consent — that by living in a society and using its roads, you implicitly consent to its government — and why have critics from Hume to Rawls argued that this makes consent meaningless?",
+        "How did Locke simultaneously defend natural rights and own stock in the Royal African Company (a slave-trading enterprise) — and what does this contradiction reveal about the limits of Enlightenment universalism?"
+      ],
+      "tags": ["philosophy", "governance", "democracy", "early-modern-history"]
+    },
+    {
+      "name": "Rousseau's General Will: Democracy as Collective Freedom",
+      "topics": [
+        "How did Rousseau's 'Social Contract' (1762) propose a radically different model — citizens surrendering their rights not to a sovereign but to the community as a whole, creating a 'general will' that represents the common good — and why did this inspire both democratic revolutions and totalitarian regimes?",
+        "What did Rousseau mean by the general will being 'always right' — not that majority votes are always correct, but that the authentic common interest (as opposed to the aggregation of private interests) is always in the community's true benefit — and who decides what the 'authentic' common interest is?",
+        "How did Robespierre invoke Rousseau's general will to justify the Terror (1793-1794) — executing thousands as 'enemies of the people' who deviated from the general will — and did Rousseau's philosophy enable this or was it a grotesque distortion?",
+        "Why did Rousseau argue that representative democracy is a contradiction — 'the moment a people allows itself to be represented, it is no longer free' — insisting on direct democracy, and why is this vision impractical for any state larger than Geneva?",
+        "How did Rousseau's 'Discourse on Inequality' (1755) argue that private property was the origin of all social evil — 'the first person who, having enclosed a piece of ground, said this is mine, and found people simple enough to believe him, was the real founder of civil society' — and how did Marx build on this?"
+      ],
+      "tags": ["philosophy", "governance", "democracy", "early-modern-history"]
+    },
+    {
+      "name": "Rawls: Justice as Fairness",
+      "topics": [
+        "How did John Rawls's 'A Theory of Justice' (1971) reinvent social contract theory — using a hypothetical 'original position' behind a 'veil of ignorance' (where no one knows their race, sex, class, or talents) to derive principles of justice that rational people would choose?",
+        "What are Rawls's two principles of justice — first, equal basic liberties for all; second, economic inequalities are only justified if they benefit the worst-off members of society (the 'difference principle') — and why did he insist that liberty always takes priority over economic equality?",
+        "How did Robert Nozick challenge Rawls in 'Anarchy, State, and Utopia' (1974) — arguing that taxation for redistribution is morally equivalent to forced labor, that the only legitimate state is a minimal 'night-watchman' state — and why did this libertarian counter-argument shape Reagan-era conservatism?",
+        "Why did Amartya Sen criticize Rawls's focus on 'primary goods' (income, rights, opportunities) — arguing that what matters is not what people have but what they can do and be (capabilities) — and how did this critique reshape international development policy?",
+        "How does Rawls's theory handle global justice — did he intend his principles to apply only within nations (as he argued in 'The Law of Peoples') or should the veil of ignorance extend to which country you're born in, demanding global redistribution?"
+      ],
+      "tags": ["philosophy", "governance", "economics", "modern-history"]
+    },
+    {
+      "name": "The Consent Problem: Did Anyone Actually Agree?",
+      "topics": [
+        "Why is the consent problem the oldest and most devastating objection to social contract theory — David Hume pointed out in 1748 that no one actually consented to the social contract, that most people are born into political systems they never chose — and has any social contract theorist successfully answered this?",
+        "How did hypothetical consent theories attempt to rescue the social contract — arguing that what matters is not actual agreement but what rational people would agree to under ideal conditions — and why do critics say that hypothetical consent is not consent at all?",
+        "What is the problem of political obligation — why should I obey laws I never agreed to, especially unjust laws? — and do alternatives to social contract theory (natural duty, fair play, gratitude, associative obligation) do any better?",
+        "How does immigration expose the consent fiction — immigrants who take citizenship oaths arguably consent, but native-born citizens never chose their country, their constitution, or their obligations — and what follows from this asymmetry?",
+        "Why did anarchists from William Godwin to David Graeber reject social contract theory entirely — arguing that no contract, real or hypothetical, can legitimize the state's monopoly on violence — and what do functioning anarchist communities (Rojava, Zapatistas) reveal about life without a Leviathan?"
+      ],
+      "tags": ["philosophy", "governance", "democracy", "modern-history"]
+    },
+    {
+      "name": "The Racial and Sexual Contracts",
+      "topics": [
+        "How did Charles Mills argue in 'The Racial Contract' (1997) that the actual social contract underlying Western democracies is a racial contract — an agreement among white people to exploit non-white people while pretending the system is universal and colorblind?",
+        "How did Carole Pateman argue in 'The Sexual Contract' (1988) that the original social contract was simultaneously a sexual contract — establishing men's political right over women, converting patriarchal power from paternal to fraternal — and that marriage was its enforcement mechanism?",
+        "Why did Mills and Pateman argue that mainstream social contract theory is not merely incomplete but actively deceptive — presenting as universal a system that was designed from the start to exclude the majority of humanity?",
+        "How do reparations debates rest on competing versions of the social contract — did Black Americans consent to a constitution that counted them as three-fifths of a person, and does the ongoing breach of the contract's promises create an enforceable debt?",
+        "What would a genuinely inclusive social contract look like — one that begins from the perspectives of those historically excluded (women, people of color, Indigenous peoples, the disabled) — and can social contract theory survive this decolonization, or must it be replaced?"
+      ],
+      "tags": ["philosophy", "human-rights", "identity", "modern-history"]
+    },
+    {
+      "name": "The Social Contract in the 21st Century",
+      "topics": [
+        "How has the digital revolution created a new 'social contract' problem — users 'consenting' to terms of service they never read, surrendering data to corporations with more power than most governments — and do platform terms of service function as Hobbesian contracts of submission?",
+        "Why did the 2008 financial crisis and COVID-19 pandemic expose the fraying social contract — governments bailing out banks while foreclosing on homeowners, essential workers risking their lives for minimum wage — and what happens when citizens conclude the contract is broken?",
+        "How does climate change demand a new social contract — one that includes future generations, other species, and the planet itself as parties — and why is the existing framework, built for rational adults bargaining in the present, inadequate?",
+        "What do populist movements (Trump, Brexit, Bolsonaro, Modi) reveal about the social contract — that millions of citizens feel the deal has been broken, that elites have captured the state, that the consent of the governed has been withdrawn — and is populism a renewal or a destruction of the contract?",
+        "Can social contract theory survive the 21st century — when the nation-state it was designed to legitimize is challenged by globalization, when consent is manufactured by algorithms, when the contracting parties can no longer be limited to adult male property owners — or does political philosophy need an entirely new foundation?"
+      ],
+      "tags": ["philosophy", "governance", "democracy", "modern-history"]
+    }
+  ]
+}

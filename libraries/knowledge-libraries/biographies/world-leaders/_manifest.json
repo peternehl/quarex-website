@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "alexander-the-great-a-biography",
+    "name": "Alexander the Great: A Biography",
+    "description": "Conqueror of Persia, founder of cities, dead at 32 — the man who remade the ancient world and left chaos in his wake",
+    "chapterCount": 9,
+    "tags": ["history", "leadership", "conflict", "governance", "ancient-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "adolf-hitler-a-biography",
+    "name": "Adolf Hitler: A Biography",
+    "description": "From failed artist to history's greatest monster — how a democracy died and a continent burned",
+    "chapterCount": 8,
+    "tags": ["history", "authoritarianism", "world-wars", "conflict", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "winston-churchill-a-biography",
+    "name": "Winston Churchill: A Biography",
+    "description": "Wartime savior, imperial defender, flawed genius — the man who held Britain together and the empire he refused to release",
+    "chapterCount": 7,
+    "tags": ["history", "leadership", "world-wars", "governance", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "mahatma-gandhi-a-biography",
+    "name": "Mahatma Gandhi: A Biography",
+    "description": "Nonviolent revolutionary who broke the British Empire — and the contradictions that complicate his sainthood",
+    "chapterCount": 6,
+    "tags": ["history", "activism", "leadership", "spirituality", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "nelson-mandela-a-biography",
+    "name": "Nelson Mandela: A Biography",
+    "description": "27 years in prison, then the presidency — how one man's forgiveness held a nation together",
+    "chapterCount": 6,
+    "tags": ["history", "activism", "leadership", "human-rights", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "otto-von-bismarck-a-biography",
+    "name": "Otto von Bismarck: A Biography",
+    "description": "Blood and iron — the statesman who unified Germany, invented the welfare state, and planted the seeds of two world wars",
+    "chapterCount": 5,
+    "tags": ["history", "diplomacy", "governance", "conflict", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "catherine-the-great-a-biography",
+    "name": "Catherine the Great: A Biography",
+    "description": "A German princess who seized the Russian throne, expanded an empire, and debated philosophy with Voltaire",
+    "chapterCount": 5,
+    "tags": ["history", "governance", "leadership", "culture", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "mao-zedong-a-biography",
+    "name": "Mao Zedong: A Biography",
+    "description": "Revolutionary, nation-builder, mass murderer — the man who remade China at the cost of tens of millions of lives",
+    "chapterCount": 6,
+    "tags": ["history", "authoritarianism", "revolution", "governance", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "simon-bolivar-a-biography",
+    "name": "Simón Bolívar: A Biography",
+    "description": "The Liberator who freed six nations from Spain — then watched his dream of continental unity die",
+    "chapterCount": 5,
+    "tags": ["history", "revolution", "leadership", "governance", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "mustafa-kemal-ataturk-a-biography",
+    "name": "Mustafa Kemal Atatürk: A Biography",
+    "description": "The soldier who saved Turkey from partition and dragged it into modernity — by force if necessary",
+    "chapterCount": 5,
+    "tags": ["history", "governance", "nationalism", "leadership", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "franklin-d-roosevelt-a-biography",
+    "name": "Franklin D. Roosevelt: A Biography",
+    "description": "Four terms, a Depression, a World War — the president who remade American government and redefined what leadership means in a crisis",
+    "chapterCount": 14,
+    "tags": ["history", "us-politics", "governance", "leadership", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.5"
+  }
+]

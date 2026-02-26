@@ -1,0 +1,127 @@
+{
+  "name": "The History of Law and Justice",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["law", "history", "human-rights", "governance", "ethics", "constitutional-law", "modern-history"],
+  "chapters": [
+    {
+      "name": "The Origins of Law: From Hammurabi to Roman Jurisprudence",
+      "topics": [
+        "What was the Code of Hammurabi (c. 1754 BCE) — 282 laws carved on a stone stele in ancient Babylon — and why does its principle of proportional punishment ('an eye for an eye') represent an advance over unlimited vengeance?",
+        "How did ancient legal systems differ in their sources of authority — Mesopotamian codes claiming divine mandate, Athenian law claiming democratic consent, Confucian law emphasizing moral education — and why do these different foundations still shape legal traditions today?",
+        "What was Roman law's greatest contribution — the Corpus Juris Civilis compiled under Justinian (529-534 CE) — and why did its systematic organization of legal principles, contracts, property rights, and civil procedure become the foundation of legal systems across continental Europe and Latin America?",
+        "How did ancient Athenian law courts function — with juries of 501 citizens, no lawyers, and verdicts decided by majority vote — and what were the consequences of a system where rhetoric mattered more than evidence?",
+        "What was the distinction between natural law (universal moral principles discoverable by reason) and positive law (rules enacted by human authority), and why has this 2,500-year-old philosophical debate — from Aristotle through Aquinas to modern human rights — never been resolved?",
+        "How did religious law — Jewish halakha, Islamic sharia, Hindu dharmashastra, Christian canon law — develop parallel legal systems that governed daily life, family relations, and commercial transactions alongside or in competition with secular law?"
+      ],
+      "tags": ["law", "governance", "history", "ancient-history"]
+    },
+    {
+      "name": "Common Law vs. Civil Law: Two Legal Families",
+      "topics": [
+        "What is common law — the system originating in medieval England where judges create law through decisions that become binding precedent — and why does it now govern nearly a third of the world's population?",
+        "How did the Magna Carta (1215) — extracted from King John by rebellious barons — establish principles (no taxation without consent, no imprisonment without trial, the king is subject to law) that became foundational to constitutional government?",
+        "What is civil law — the system derived from Roman law and Napoleonic codification where comprehensive legal codes, not judicial precedent, are the primary source of law — and why does it govern most of continental Europe, Latin America, and parts of Asia and Africa?",
+        "How did Napoleon's Civil Code (1804) — a systematic codification of French law covering persons, property, and obligations — spread across Europe through conquest and influence, becoming the model for legal systems from Louisiana to Japan?",
+        "What are the practical consequences of the common law/civil law divide — different roles for judges and lawyers, different approaches to precedent, different trial procedures — and why has this 800-year-old split proven remarkably durable?",
+        "How have mixed legal systems — Louisiana combining French civil law with American common law, South Africa blending Roman-Dutch law with English common law, Japan grafting German codes onto Confucian traditions — adapted to legal pluralism?"
+      ],
+      "tags": ["law", "governance", "history", "modern-history"]
+    },
+    {
+      "name": "Criminal Justice: Punishment, Prisons, and the Death Penalty",
+      "topics": [
+        "How did punishment evolve from public spectacles of pain — branding, mutilation, drawing and quartering, burning at the stake — to imprisonment as the default punishment, and was this shift driven by humanitarian concern or new techniques of social control?",
+        "What was the invention of the modern prison — from the Quaker penitentiary model (Eastern State, 1829) based on solitary reflection to the Auburn system based on congregate labor and silence — and why did both produce psychological devastation rather than reform?",
+        "How did Cesare Beccaria's On Crimes and Punishments (1764) — arguing against torture, for proportional punishment, and for the prevention of crime over its punishment — influence the legal reforms of the Enlightenment?",
+        "Why does the United States incarcerate more people than any country in history — 2.3 million people, disproportionately Black and Latino — and how did the War on Drugs, mandatory minimums, and three-strikes laws produce mass incarceration?",
+        "What is the global trajectory of the death penalty — from universal practice to abolition in 106 countries — and why do the United States, China, Iran, Saudi Arabia, and Egypt continue to execute prisoners while most democracies have abandoned it?",
+        "How has restorative justice — which brings offenders face-to-face with victims to acknowledge harm and agree on reparation — challenged the retributive model, and what evidence exists that it reduces recidivism?"
+      ],
+      "tags": ["law", "criminal-justice", "human-rights", "modern-history"]
+    },
+    {
+      "name": "Constitutional Law: Limiting Power and Protecting Rights",
+      "topics": [
+        "How did the US Constitution (1787) and Bill of Rights (1791) create the template for constitutional governance — separation of powers, federalism, judicial review, enumerated rights — that has been adapted by over 150 countries?",
+        "What was Marbury v. Madison (1803) — the Supreme Court case where Chief Justice John Marshall established the principle that courts can declare laws unconstitutional — and why is judicial review now the most powerful tool for protecting individual rights?",
+        "How did the French Declaration of the Rights of Man and Citizen (1789) — proclaiming liberty, property, security, and resistance to oppression as natural rights — establish a different constitutional tradition focused on positive rights and state obligations?",
+        "What was the significance of Brown v. Board of Education (1954) — the Supreme Court ruling that racial segregation in public schools is unconstitutional — and why did implementation require a decade of federal intervention, court orders, and armed enforcement?",
+        "How do constitutions fail — from the Weimar Republic's collapse into Nazi dictatorship to the erosion of democratic constitutions in Hungary, Turkey, and Venezuela through legal means — and what structural features make constitutions resilient or fragile?",
+        "Why has the concept of 'constitutional identity' — the idea that certain constitutional principles (human dignity, secularism, federalism) are so fundamental they cannot be amended — emerged as a response to democratic backsliding?"
+      ],
+      "tags": ["law", "constitutional-law", "democracy", "modern-history"]
+    },
+    {
+      "name": "International Law: From Westphalia to the ICC",
+      "topics": [
+        "How did the Peace of Westphalia (1648) establish the principle of state sovereignty — that each nation has exclusive authority within its borders — creating the foundation of international law while also making it nearly impossible to prevent atrocities within sovereign states?",
+        "What was Hugo Grotius's contribution — his Law of War and Peace (1625) arguing that even in war, certain rules apply — and why is he called the 'father of international law' even though states routinely ignore his principles?",
+        "How did the Geneva Conventions (1864-1949) and their Additional Protocols establish the laws of war — protecting prisoners, civilians, and the wounded — and why does compliance remain selective, with powerful states often claiming exceptions?",
+        "What was the Nuremberg Tribunal (1945-1946), how did it establish the principle that 'following orders' is not a defense for war crimes, and why was it criticized as 'victors' justice' while simultaneously creating the legal foundation for international criminal law?",
+        "How does the International Criminal Court (established 2002) function — prosecuting genocide, war crimes, crimes against humanity, and aggression — and why have the US, Russia, China, India, and Israel refused to join?",
+        "Why is international law described as 'law without enforcement' — with no global police force, no binding jurisdiction over unwilling states, and no mechanism to compel compliance — and what makes states comply when they do?"
+      ],
+      "tags": ["law", "diplomacy", "human-rights", "modern-history"]
+    },
+    {
+      "name": "Human Rights Law: The Unfinished Revolution",
+      "topics": [
+        "How did the Universal Declaration of Human Rights (1948) — drafted by Eleanor Roosevelt's committee representing diverse legal traditions — establish the aspiration that all human beings are 'born free and equal in dignity and rights'?",
+        "What is the difference between civil and political rights (freedom of speech, fair trial, voting) and economic and social rights (food, housing, education, healthcare) — and why did the Cold War split these into two separate treaties that the US still hasn't fully ratified?",
+        "How did the European Convention on Human Rights (1950) and its Court create the world's most effective human rights enforcement mechanism — where individuals can sue their own governments and court judgments are binding?",
+        "What was the significance of the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW, 1979) and why is it the most-reserved human rights treaty — with dozens of countries accepting it in principle while exempting themselves from its key provisions?",
+        "How have truth and reconciliation commissions — from South Africa's TRC (1996) to similar bodies in Argentina, Chile, and Canada — attempted to address mass human rights violations through testimony and acknowledgment rather than prosecution?",
+        "Why do critics argue that human rights law serves Western hegemony — imposing individualistic liberal values on societies with communitarian traditions — while defenders counter that torture, arbitrary detention, and discrimination are wrong everywhere?"
+      ],
+      "tags": ["law", "human-rights", "diplomacy", "modern-history"]
+    },
+    {
+      "name": "Law and Inequality: Race, Gender, and Class in the Courtroom",
+      "topics": [
+        "How did law enforce racial hierarchy — from the Black Codes and Jim Crow laws in the US to apartheid legislation in South Africa to the Nuremberg Race Laws in Nazi Germany — demonstrating that law can be an instrument of oppression as easily as justice?",
+        "What was the legal status of women throughout most of history — coverture (married women's legal identity absorbed by husbands), exclusion from property ownership, disenfranchisement, and legal tolerance of domestic violence — and how long did reform take?",
+        "How did the civil rights movement use litigation as a strategy — from Thurgood Marshall's NAACP cases to the Civil Rights Act (1964) and Voting Rights Act (1965) — demonstrating that courts can be engines of social change?",
+        "What is critical legal studies — the academic movement arguing that law is not neutral but reflects and reinforces existing power structures — and how has it influenced debates about criminal justice reform, environmental law, and corporate regulation?",
+        "How does access to legal representation determine outcomes — with studies showing that the quality of your lawyer matters more than the facts of your case — and what does this mean for the 80% of Americans who cannot afford legal help?",
+        "Why do indigenous peoples face unique legal challenges — from the doctrine of discovery (which justified European seizure of indigenous lands) to ongoing battles over land rights, treaty obligations, and self-governance?"
+      ],
+      "tags": ["law", "inequality", "civil-rights", "modern-history"]
+    },
+    {
+      "name": "Law and Technology: From the Printing Press to AI",
+      "topics": [
+        "How did the printing press create new legal challenges — copyright (Statute of Anne, 1710), censorship, libel — that established principles still governing information technology today?",
+        "What is intellectual property law — patents, copyrights, trademarks, and trade secrets — and why has the digital revolution (where copying is free and instantaneous) created a crisis for legal frameworks designed for physical objects?",
+        "How has surveillance technology — from wiretapping to CCTV to smartphone location tracking to facial recognition — continuously outpaced the legal frameworks designed to protect privacy?",
+        "What legal questions does artificial intelligence raise — liability when autonomous vehicles crash, bias in algorithmic sentencing, copyright ownership of AI-generated content, the use of deepfakes as evidence?",
+        "How has social media challenged defamation, harassment, and free speech law — with platforms operating across jurisdictions, content moderation decisions affecting billions of users, and the legal status of online speech still unresolved?",
+        "Why does the history of law and technology show a persistent pattern — new technologies creating harms faster than legal systems can respond — and what institutional reforms might close this gap?"
+      ],
+      "tags": ["law", "technology", "governance", "modern-history"]
+    },
+    {
+      "name": "Environmental Law and Climate Justice",
+      "topics": [
+        "How did modern environmental law emerge — from the first national parks (Yellowstone, 1872) through Rachel Carson's Silent Spring (1962) to the Clean Air Act (1970) and Clean Water Act (1972) — in response to visible environmental destruction?",
+        "What was the significance of the Stockholm Declaration (1972) — the first international agreement recognizing the right to a healthy environment — and why has the gap between environmental law on paper and environmental protection in practice remained so wide?",
+        "How have environmental justice movements demonstrated that pollution disproportionately affects poor and minority communities — from Cancer Alley in Louisiana to e-waste dumping in Ghana to industrial contamination on Native American reservations?",
+        "What are the legal tools for addressing climate change — the Paris Agreement (2015), carbon pricing mechanisms, climate litigation against fossil fuel companies — and why has enforcement remained weak relative to the scale of the crisis?",
+        "How have courts become a battleground for climate policy — with cases like Urgenda v. Netherlands (2019) successfully ordering governments to reduce emissions, while other cases challenging fossil fuel companies remain unresolved?",
+        "Why has the concept of 'rights of nature' — granting legal personhood to rivers (New Zealand's Whanganui, 2017), ecosystems (Ecuador's constitution, 2008), and natural features — emerged as a radical alternative to human-centered environmental law?"
+      ],
+      "tags": ["law", "sustainability", "governance", "modern-history"]
+    },
+    {
+      "name": "The Future of Law: Global Challenges and Unresolved Questions",
+      "topics": [
+        "How is the rule of law eroding globally — with authoritarian leaders using legal mechanisms (emergency powers, judicial appointments, media regulation) to consolidate power while maintaining the appearance of legality?",
+        "What is the future of privacy law — with biometric data, genetic information, brain-computer interfaces, and ubiquitous surveillance creating categories of personal information that existing legal frameworks were never designed to protect?",
+        "How should law govern autonomous weapons, gene editing, and artificial general intelligence — technologies that could fundamentally alter human warfare, biology, and cognition — and why do existing legal frameworks fail?",
+        "What would global justice actually require — with international law still built on state sovereignty, corporate accountability still limited by jurisdictional boundaries, and climate justice still unenforceable against the largest emitters?",
+        "How has the legal profession itself changed — from the rise of corporate mega-firms to the access-to-justice crisis to the potential of legal AI to democratize (or further concentrate) legal knowledge?",
+        "Why does the fundamental tension in law remain unresolved — between law as a tool for protecting the powerful (property rights, corporate law, immigration enforcement) and law as a tool for constraining power (constitutional rights, labor law, human rights) — and which function has historically prevailed?"
+      ],
+      "tags": ["law", "governance", "ethics", "modern-history"]
+    }
+  ]
+}

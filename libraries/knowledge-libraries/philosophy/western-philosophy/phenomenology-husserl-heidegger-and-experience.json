@@ -1,0 +1,95 @@
+{
+  "name": "Phenomenology: Husserl, Heidegger, and the Study of Experience",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "epistemology", "psychology", "science", "critical-thinking"],
+  "chapters": [
+    {
+      "name": "Husserl's Project: Philosophy as Rigorous Science",
+      "topics": [
+        "How did Edmund Husserl (1859-1938) — a mathematician turned philosopher — launch phenomenology with the battle cry 'back to the things themselves,' insisting that philosophy must describe the structures of experience as they actually appear rather than theorizing about a world behind appearances?",
+        "What is the 'phenomenological reduction' (epoché) — Husserl's method of 'bracketing' the natural attitude (the assumption that the external world exists as we perceive it) to focus purely on how objects appear to consciousness — and why did he consider this methodological move revolutionary?",
+        "What did Husserl mean by intentionality — that consciousness is always consciousness of something, that the mind is not a container but an arrow directed at objects — and why did this insight, borrowed from Brentano, become the foundation of 20th-century philosophy of mind?",
+        "How did Husserl distinguish between noesis (the act of consciousness — perceiving, imagining, remembering) and noema (the object as it appears in that act) — and why did this distinction matter for understanding how the same object can appear differently from different perspectives?",
+        "Why did Husserl spend his final decades developing the concept of the 'lifeworld' (Lebenswelt) — the pre-scientific world of everyday experience that science presupposes but never examines — and how did this late work influence Heidegger, Merleau-Ponty, and Habermas?"
+      ],
+      "tags": ["philosophy", "epistemology", "science", "modern-history"]
+    },
+    {
+      "name": "Heidegger's Being and Time: The Question of Existence",
+      "topics": [
+        "Why did Martin Heidegger (1889-1976) insist that the fundamental question of philosophy is 'what is Being?' — a question Western philosophy has forgotten since the pre-Socratics — and why did he believe answering it required analyzing human existence (Dasein) first?",
+        "What did Heidegger mean by Dasein ('being-there') — that human existence is not a thing with properties but a way of being, always already 'thrown' into a world it didn't choose, engaged with tools and projects rather than contemplating objects from a distance?",
+        "How did Heidegger analyze everydayness — 'das Man' (the They), idle talk, curiosity, ambiguity — arguing that we normally lose ourselves in public anonymity, doing what 'one does,' thinking what 'one thinks,' rather than confronting our own existence?",
+        "What is being-toward-death — Heidegger's claim that death is not an event at the end of life but a structural feature of existence, that authentic living requires owning your mortality rather than covering it up with euphemisms and distractions?",
+        "How did 'Being and Time' (1927) remain unfinished — Heidegger published only two-thirds of the planned work, never completing the crucial third division on 'Time and Being' — and did this incompleteness reflect a philosophical failure or an honest recognition that the question of Being resists systematic answers?"
+      ],
+      "tags": ["philosophy", "epistemology", "psychology", "modern-history"]
+    },
+    {
+      "name": "Heidegger's Nazism: Can Great Philosophy Come from a Moral Monster?",
+      "topics": [
+        "How did Heidegger enthusiastically support Hitler — joining the Nazi Party in 1933, serving as rector of Freiburg University, delivering a rectoral address calling for the 'self-assertion of the German university' under National Socialist leadership — and how long did his active support last?",
+        "How did Heidegger treat his Jewish teacher Husserl — banning him from the university library, failing to visit him before his death, deleting the dedication to Husserl from 'Being and Time' — and what does this personal betrayal reveal about his character?",
+        "What did the 'Black Notebooks' (published 2014) reveal — Heidegger's anti-Semitic remarks about 'world Jewry,' his belief that Nazism represented a genuine philosophical revolution — and did these private writings confirm that his philosophy is contaminated by his politics?",
+        "How have defenders of Heidegger responded — arguing that his philosophy transcends his politics, that his later work criticizes the essence of technology (including Nazi technology), that ad hominem attacks don't refute philosophical arguments — and are these defenses adequate?",
+        "Why does the Heidegger case matter beyond biography — it raises the question of whether philosophical truth can emerge from moral corruption, whether we should read tainted thinkers, and whether 'separating the art from the artist' is possible or even desirable in philosophy?"
+      ],
+      "tags": ["philosophy", "ethics", "politics", "modern-history"]
+    },
+    {
+      "name": "Merleau-Ponty: The Phenomenology of the Body",
+      "topics": [
+        "How did Maurice Merleau-Ponty (1908-1961) develop a phenomenology of embodiment — arguing in 'Phenomenology of Perception' (1945) that the body is not an object we have but the way we exist in the world, that perception is bodily engagement rather than mental representation?",
+        "What is the 'lived body' (corps vécu) — neither pure mind (Descartes) nor pure mechanism (behaviorism) but a subject-body that knows the world through touching, moving, and inhabiting it — and why did this concept challenge 300 years of mind-body dualism?",
+        "How did the phantom limb phenomenon prove Merleau-Ponty's point — amputees feeling sensations in absent limbs, demonstrating that the 'body schema' is not a representation of the physical body but an existential orientation toward the world?",
+        "What did Merleau-Ponty contribute to the understanding of perception — challenging the idea that we first receive raw sense data and then interpret it, arguing instead that perception is already meaningful, that we see chairs and faces, not patches of color?",
+        "How did Merleau-Ponty's work influence cognitive science — the 'embodied cognition' movement rejecting the computer model of mind, arguing that thinking requires a body, that robots without bodies cannot truly understand the world — and why has AI research increasingly confirmed this?"
+      ],
+      "tags": ["philosophy", "psychology", "science", "modern-history"]
+    },
+    {
+      "name": "Hermeneutics: The Art of Interpretation",
+      "topics": [
+        "How did Hans-Georg Gadamer (1900-2002) transform phenomenology into hermeneutics — arguing in 'Truth and Method' (1960) that all understanding involves interpretation, that we always approach texts and situations with 'prejudices' (pre-judgments) that enable rather than block understanding?",
+        "What is the 'fusion of horizons' — Gadamer's concept that understanding occurs when the interpreter's horizon (their historical situation, assumptions, questions) merges with the horizon of what is being interpreted — and why does this mean understanding is always different from what the original author intended?",
+        "How did Gadamer challenge Enlightenment prejudice against prejudice — arguing that tradition, authority, and pre-understanding are not obstacles to truth but necessary conditions for it, that the dream of 'objective' interpretation free from all presuppositions is impossible and undesirable?",
+        "What was the Gadamer-Habermas debate — Habermas arguing that Gadamer's rehabilitation of tradition and authority is politically conservative, that critical reason must be able to challenge tradition, not just understand it — and who won?",
+        "How has hermeneutics influenced fields beyond philosophy — legal interpretation (should judges follow original intent or adapt to new contexts?), biblical scholarship, psychoanalysis, anthropology, and literary criticism — making interpretation itself a philosophical problem?"
+      ],
+      "tags": ["philosophy", "epistemology", "culture", "modern-history"]
+    },
+    {
+      "name": "The Later Heidegger: Technology, Language, and the Earth",
+      "topics": [
+        "How did Heidegger's thinking shift after the 1930s — from the analysis of Dasein to the 'question of Being' itself, from human existence to the history of how Being has been understood (and misunderstood) throughout Western history?",
+        "What did Heidegger mean by 'the essence of technology is nothing technological' — that modern technology is not just a collection of tools but a way of revealing the world as raw material (Bestand, standing-reserve) to be exploited — and why did he consider this the greatest danger of the modern age?",
+        "Why did Heidegger argue that 'language is the house of Being' — that reality is not something we discover through language but something that reveals itself in language, that poets (Hölderlin, Rilke, Trakl) are closer to truth than scientists?",
+        "What did Heidegger mean by 'dwelling' — that modern humanity has become homeless, unable to genuinely inhabit the earth, treating nature as resource rather than home — and why did this ecological thinking influence deep ecology, architecture, and environmental philosophy?",
+        "How did Heidegger's concept of Gelassenheit ('releasement,' 'letting be') — a receptive openness to Being that contrasts with the controlling, calculating attitude of modern technology — offer an alternative to both mastery and resignation?"
+      ],
+      "tags": ["philosophy", "technology", "environment", "modern-history"]
+    },
+    {
+      "name": "Phenomenology in Practice: Medicine, Architecture, and AI",
+      "topics": [
+        "How has phenomenology transformed medical practice — understanding illness from the patient's perspective (the 'lived experience' of disease), challenging the biomedical reduction of patients to diagnoses, influencing nursing theory and medical humanities?",
+        "How did phenomenological architecture — Juhani Pallasmaa's 'Eyes of the Skin,' Peter Zumthor's 'Atmospheres,' Christopher Alexander's 'Pattern Language' — argue that buildings should be designed for embodied human experience rather than visual spectacle?",
+        "Why has phenomenology become relevant to artificial intelligence — the argument that consciousness cannot be reduced to computation, that embodiment is necessary for understanding, that Heidegger's analysis of tool-use challenges the symbol-processing model of mind?",
+        "How has phenomenology influenced qualitative research methods — in sociology (Alfred Schutz), psychology (Amedeo Giorgi), education (Max van Manen) — providing rigorous methods for studying subjective experience without reducing it to quantitative data?",
+        "Why did phenomenology split into two streams — the transcendental phenomenology of Husserl (seeking universal structures of consciousness) and the existential phenomenology of Heidegger and Merleau-Ponty (grounded in particular, embodied, historical existence) — and which stream has proven more productive?"
+      ],
+      "tags": ["philosophy", "science", "technology", "modern-history"]
+    },
+    {
+      "name": "The Continental-Analytic Divide and Phenomenology's Future",
+      "topics": [
+        "How did phenomenology become the foundation of 'continental philosophy' — a tradition emphasizing history, interpretation, embodiment, and existential concern — while analytic philosophy pursued logic, language, and science, creating the deepest divide in contemporary philosophy?",
+        "Why did analytic philosophers dismiss phenomenology — Carnap's attack on Heidegger as 'pseudo-statements,' Russell's contempt for continental obscurantism, the logical positivists' demand that all meaningful statements be empirically verifiable — and were these criticisms fair?",
+        "How have recent philosophers bridged the divide — Hubert Dreyfus bringing Heidegger into AI debates, Dan Zahavi connecting Husserl with analytic philosophy of mind, Shaun Gallagher integrating phenomenology with cognitive science?",
+        "What did Emmanuel Levinas add to phenomenology — the argument that ethics, not ontology, is 'first philosophy,' that the encounter with the face of the Other creates an infinite responsibility that precedes all philosophical systems — and why did this Lithuanian-French-Jewish thinker, who lost his family in the Holocaust, insist that philosophy must begin with the vulnerability of the human face?",
+        "Why does phenomenology remain relevant — in an age of virtual reality, AI-generated content, and screen-mediated existence — as the philosophical tradition most committed to understanding what direct, embodied, first-person experience actually is?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "modern-history"]
+    }
+  ]
+}

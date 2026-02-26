@@ -1,0 +1,62 @@
+{
+  "name": "Cesar Chavez: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "activism", "labor", "civil-rights", "modern-history"],
+  "chapters": [
+    {
+      "name": "From the Fields: Growing Up Migrant (1927-1952)",
+      "topics": [
+        "Who was the young Cesar Chavez — born on a small farm near Yuma, Arizona, to a Mexican American family that lost their land during the Depression and became migrant farmworkers — and how did the experience of childhood poverty, discrimination, and backbreaking labor shape a future union leader?",
+        "What was the life of a migrant farmworker in mid-century California — following crops from field to field, living in labor camps, children working alongside parents, wages of pennies per hour, no bathroom breaks, exposure to pesticides, and zero legal protections?",
+        "How did Chavez's family experience American racism — segregated schools, movie theaters, and restaurants; signs reading 'No Dogs or Mexicans Allowed'; teachers punishing children for speaking Spanish — in a state that had taken the land from Mexico barely a century earlier?",
+        "What was Chavez's experience in the Navy (1946-1948) — the worst two years of his life by his own account, encountering rigid segregation — and how did military service sharpen his awareness of racial injustice?",
+        "How did Chavez's meeting with organizer Fred Ross in 1952 — through the Community Service Organization (CSO), founded by Saul Alinsky — transform a shy, self-educated farmworker into a community organizer who registered thousands of Latino voters?"
+      ],
+      "tags": ["history", "activism", "labor", "modern-history"]
+    },
+    {
+      "name": "Building the Union: The Grape Strike and Boycott (1962-1970)",
+      "topics": [
+        "Why did Chavez leave the CSO in 1962 to found the National Farm Workers Association (later the United Farm Workers, UFW) — the audacious idea that the most exploited, powerless workers in America could be organized into a union — when every previous attempt had failed?",
+        "How did the Delano Grape Strike begin in September 1965 — Filipino workers led by Larry Itliong walking off the fields, Chavez's organization joining them — creating a multiracial alliance that challenged both the growers and the racial divisions within the labor movement?",
+        "What was the 300-mile march from Delano to Sacramento (March-April 1966) — modeled on Gandhi's Salt March, with marchers carrying the Virgin of Guadalupe and the American flag — and how did it transform a labor dispute into a moral crusade?",
+        "How did Chavez's 25-day fast in February 1968 — undertaken to recommit the movement to nonviolence when some members wanted to use sabotage — echo Gandhi's methods and attract Robert F. Kennedy to Delano to break bread with Chavez?",
+        "What did the nationwide grape boycott achieve — an estimated 17 million Americans refusing to buy table grapes, union contracts signed with major growers by 1970 — demonstrating that consumer pressure could succeed where strikes in isolated fields could not?"
+      ],
+      "tags": ["activism", "labor", "civil-rights", "modern-history"]
+    },
+    {
+      "name": "La Causa: Pesticides, Politics, and the Chicano Movement",
+      "topics": [
+        "How did Chavez connect farmworker rights to pesticide exposure — documenting cancer clusters in farming communities, exposing workers sprayed while in the fields, demanding the ban of DDT and other chemicals — years before mainstream environmentalism took up these causes?",
+        "What was the UFW's political influence — registering hundreds of thousands of Latino voters, building alliances with Democrats, supporting Jerry Brown's election as California governor (1974), and winning the California Agricultural Labor Relations Act (1975)?",
+        "How did Chavez's movement inspire the broader Chicano movement — from the East LA student walkouts (1968) to the formation of La Raza Unida Party to the muralist movement — creating a new political consciousness among Mexican Americans?",
+        "What was the relationship between Chavez and other civil rights leaders — his correspondence with Martin Luther King Jr., the support from Robert Kennedy, alliances with the NAACP and Filipino labor organizers — and how did he place farmworker rights within the broader civil rights struggle?",
+        "How did the UFW's use of Catholic symbols and rituals — the Virgin of Guadalupe on march banners, fasting as political action, the spiritual language of sacrifice and redemption — build a movement that was simultaneously political and religious?"
+      ],
+      "tags": ["activism", "labor", "politics", "modern-history"]
+    },
+    {
+      "name": "Decline and Contradictions (1975-1993)",
+      "topics": [
+        "What challenges did the UFW face after its early victories — Teamsters Union raiding their contracts, grower violence against picketers, the election of Ronald Reagan (who opposed farmworker protections), and the difficulty of organizing a mobile, often undocumented workforce?",
+        "How did Chavez's personal leadership style evolve — from collaborative organizer to increasingly autocratic leader, purging staff, demanding loyalty tests, experimenting with communal living (La Paz), inviting controversial figures like Synanon's Chuck Dederich — and what does this reveal about charismatic leadership?",
+        "Why did the UFW decline from its peak of 70,000 members in the 1970s to fewer than 10,000 by the late 1980s — internal purges, strategic mistakes, changing political climate, the shift from grapes to other crops — and was Chavez responsible or were the structural forces too powerful?",
+        "How did Chavez's final fast in 1988 — 36 days without food, at age 61, protesting pesticide exposure — demonstrate both his continued commitment and his increasingly symbolic rather than strategic approach to activism?",
+        "What was Chavez's relationship with immigration — initially supporting restrictions on undocumented workers (fearing they would break strikes), later embracing immigrant rights — and how does this evolution reflect the broader tensions within the Latino labor movement?"
+      ],
+      "tags": ["activism", "labor", "leadership", "modern-history"]
+    },
+    {
+      "name": "Legacy: Si Se Puede",
+      "topics": [
+        "How did Chavez die on April 23, 1993 — at age 66, exhausted by decades of fasting, organizing, and personal sacrifice — and why did 50,000 people march behind his casket in the largest funeral of a labor leader in American history?",
+        "What did Chavez accomplish — the first successful farmworker union in American history, contracts covering 70,000 workers at its peak, the ban of dangerous pesticides, the politicization of millions of Latino Americans — and what remains unfinished?",
+        "Why is Chavez's legacy contested — celebrated as a civil rights icon (a federal holiday in his name, schools and parks named for him) while criticized for the UFW's decline, his authoritarian tendencies, and the movement's failure to achieve lasting structural change?",
+        "How do today's 2.4 million farmworkers live — still among the lowest-paid workers in America, largely undocumented, still exposed to pesticides, still lacking many labor protections — and what does this reality say about the limits of Chavez's victories?",
+        "Why does 'Si se puede' ('Yes, it can be done') — the slogan Chavez coined during a 1972 fast — remain one of the most powerful phrases in American activism, adopted by movements from immigration reform to Obama's presidential campaign?"
+      ],
+      "tags": ["history", "activism", "labor", "modern-history"]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Utilitarianism: The Greatest Good",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "ethics", "governance", "economics", "critical-thinking"],
+  "chapters": [
+    {
+      "name": "Bentham and the Invention of the Greatest Happiness Principle",
+      "topics": [
+        "Why did Jeremy Bentham (1748-1832) reject natural law, divine command, and social contract theory in favor of a single metric — the greatest happiness for the greatest number — and how did this make him the most radical reformer in British legal history?",
+        "How did Bentham's felicific calculus — measuring pleasure by intensity, duration, certainty, propinquity, fecundity, purity, and extent — lay the groundwork for modern cost-benefit analysis, even though no one has ever successfully quantified happiness?",
+        "What legal reforms did Bentham's utilitarianism produce — abolishing usury laws, reforming prisons, advocating animal welfare, decriminalizing homosexuality (in 1785, nearly 200 years before Britain did it) — and why were his ideas too radical for his own time?",
+        "Why did Bentham request that his body be preserved as an 'auto-icon' — still displayed at University College London — and what does this eccentric final act reveal about a philosopher who believed sentiment should never override rational calculation?",
+        "How did Bentham's utilitarianism challenge the British class system — insisting that a peasant's pleasure counts equally with a king's, that tradition and privilege have no moral weight — and why did conservatives see this as more dangerous than revolution?"
+      ],
+      "tags": ["philosophy", "ethics", "governance", "modern-history"]
+    },
+    {
+      "name": "Mill's Refinement: Higher Pleasures and Liberty",
+      "topics": [
+        "How did John Stuart Mill's childhood — educated by his father James Mill and Bentham himself, reading Greek at three, suffering a mental breakdown at twenty — shape his conviction that Bentham's crude hedonism missed something essential about human happiness?",
+        "Why did Mill distinguish between higher and lower pleasures — 'it is better to be Socrates dissatisfied than a fool satisfied' — and how did this hierarchy address the objection that utilitarianism is a 'philosophy of swine'?",
+        "How did Mill's 'On Liberty' (1859) argue that individual freedom maximizes aggregate happiness — through the marketplace of ideas, experiments in living, and protection of eccentric minorities — and why is this the most influential defense of free speech ever written?",
+        "What did Harriet Taylor contribute to Mill's philosophy — co-authoring 'The Subjection of Women' (1869), shaping his views on liberty and equality — and why has history systematically erased her intellectual partnership?",
+        "Where did Mill break from Bentham — on the quality of pleasures, on the importance of justice, on the role of moral rules — and did these refinements save utilitarianism or smuggle in non-utilitarian values through the back door?"
+      ],
+      "tags": ["philosophy", "ethics", "democracy", "modern-history"]
+    },
+    {
+      "name": "Act vs. Rule: The Torture Question",
+      "topics": [
+        "Why does act utilitarianism — judging each individual action by its consequences — lead to morally repugnant conclusions like justifying torture, framing an innocent person, or harvesting one patient's organs to save five?",
+        "How does rule utilitarianism — following rules that generally maximize happiness rather than calculating each case — avoid these repugnant conclusions, and does it actually remain utilitarian or secretly become a form of Kantian rule-following?",
+        "What did the 'ticking time bomb' scenario reveal after September 11 — when lawyers, politicians, and philosophers debated whether torturing a suspect to locate a bomb was morally permissible — about how easily utilitarian reasoning can justify atrocities?",
+        "How did R.M. Hare attempt to resolve the act/rule debate with two-level utilitarianism — everyday moral rules for ordinary decisions, act-utilitarian calculation for extraordinary cases — and why did critics call this 'the worst of both worlds'?",
+        "Name three real-world cases where act-utilitarian reasoning produced outcomes that most people consider monstrous — the Tuskegee syphilis experiment, forced sterilization programs, nuclear targeting of civilians — and what do these cases reveal about utilitarianism's blind spots?"
+      ],
+      "tags": ["philosophy", "ethics", "human-rights", "modern-history"]
+    },
+    {
+      "name": "The Trolley Problem and Moral Intuitions",
+      "topics": [
+        "Why did Philippa Foot's trolley problem (1967) — divert a trolley to kill one person instead of five — become the most famous thought experiment in modern philosophy, and what does the near-universal willingness to pull the switch reveal about human moral intuitions?",
+        "Why do most people refuse to push the fat man off the bridge to stop the trolley — even though the utilitarian calculus is identical to pulling the switch — and what does this inconsistency reveal about the difference between impersonal and personal harm?",
+        "How did Joshua Greene's fMRI studies show that trolley dilemmas activate different brain regions — impersonal dilemmas engage rational calculation, personal dilemmas trigger emotional responses — and does neuroscience support or undermine utilitarian ethics?",
+        "How have self-driving car algorithms turned the trolley problem from a classroom exercise into an engineering decision — should a car swerve to kill one pedestrian rather than five? — and why did MIT's Moral Machine experiment reveal massive cultural variation in moral intuitions?",
+        "What did Bernard Williams mean when he called utilitarianism's demand to always maximize happiness an attack on 'integrity' — that it requires you to abandon your deepest commitments whenever the numbers dictate — and is this a fatal objection or exactly the point?"
+      ],
+      "tags": ["philosophy", "ethics", "psychology", "modern-history"]
+    },
+    {
+      "name": "Singer, Preference Utilitarianism, and Animal Liberation",
+      "topics": [
+        "How did Peter Singer's 'Animal Liberation' (1975) extend utilitarian logic to non-human animals — arguing that the capacity to suffer, not species membership, determines moral status — and why did he call ignoring animal suffering 'speciesism,' comparable to racism or sexism?",
+        "What is preference utilitarianism — measuring welfare by the satisfaction of preferences rather than the subjective experience of pleasure — and how did this version address the problem of comparing different kinds of happiness across different beings?",
+        "Why did Singer argue that affluent people who don't donate to famine relief are morally comparable to someone who walks past a drowning child — and how did the 'shallow pond' thought experiment challenge the distinction between killing and letting die?",
+        "How did Singer's arguments about severely disabled infants — that some cases of infanticide might be morally permissible if the infant cannot have preferences — provoke death threats, cancelled lectures, and the accusation that utilitarianism leads inevitably to eugenics?",
+        "What separates Singer's utilitarianism from Bentham's — the shift from hedonic states to preference satisfaction, the greater attention to animal welfare, the global scope of moral obligation — and has Singer pushed utilitarianism to its logical conclusion or past its breaking point?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "modern-history"]
+    },
+    {
+      "name": "Utilitarianism in Public Policy and Economics",
+      "topics": [
+        "How did cost-benefit analysis — a direct descendant of Bentham's felicific calculus — become the standard tool for evaluating government regulation, and what happens when regulators assign dollar values to human lives ($7.4 million per life in the US as of 2024)?",
+        "What are QALYs (quality-adjusted life years) — the utilitarian metric used by Britain's NICE and other health agencies to decide which treatments to fund — and why did the decision to value one QALY at £20,000-£30,000 effectively put a price on human life?",
+        "How did the COVID-19 pandemic force explicitly utilitarian trade-offs — lockdowns that saved lives but destroyed livelihoods, ventilator triage protocols, vaccine distribution priorities — and why did different countries reach radically different conclusions using the same utilitarian framework?",
+        "Why did economists from Pigou to Nordhaus use utilitarian discount rates to argue that future generations' welfare counts less than present welfare — effectively saying a life in 2100 is worth less than a life today — and how does this calculation shape climate change policy?",
+        "How did the 'value of a statistical life' methodology — derived from workers' willingness to accept risk for higher wages — embed utilitarian reasoning into workplace safety, environmental regulation, and transportation policy without most citizens knowing it?"
+      ],
+      "tags": ["philosophy", "economics", "governance", "modern-history"]
+    },
+    {
+      "name": "Effective Altruism: Utilitarianism Goes Viral",
+      "topics": [
+        "How did the effective altruism movement — founded by philosophers William MacAskill and Toby Ord around 2011 — turn utilitarian calculation into a social movement, pledging billions in donations and recruiting thousands of young people to 'do the most good'?",
+        "Why did effective altruists prioritize deworming children in Kenya over building schools in their own communities — because the cost-per-DALY-averted was dramatically lower — and what does this prioritization reveal about the tension between utilitarian optimization and common moral intuitions?",
+        "How did the Sam Bankman-Fried scandal (2022) — an effective altruist who allegedly defrauded FTX customers to fund charitable giving — expose the movement's vulnerability to 'earning to give' logic taken to criminal extremes?",
+        "Why do effective altruists focused on 'longtermism' — the idea that reducing existential risk to future trillions of humans is the most important cause — face criticism for diverting resources from present suffering toward speculative future scenarios?",
+        "What did the effective altruism movement get right — demanding evidence for charitable claims, exposing ineffective charities, normalizing large-scale giving — and what did it get wrong about treating moral life as an optimization problem?"
+      ],
+      "tags": ["philosophy", "ethics", "economics", "modern-history"]
+    },
+    {
+      "name": "Critics and Alternatives: What Utilitarianism Cannot See",
+      "topics": [
+        "How did John Rawls challenge utilitarianism in 'A Theory of Justice' (1971) — arguing that no rational person behind a 'veil of ignorance' would choose a society that maximizes aggregate happiness at the expense of the worst-off — and why did this shift political philosophy away from utilitarian foundations?",
+        "Why did Amartya Sen argue that utilitarianism's focus on subjective welfare ignores 'capabilities' — that a person adapted to oppression might report high satisfaction while lacking real freedom — and how did this critique reshape international development policy?",
+        "What did Robert Nozick's 'experience machine' thought experiment prove — that most people would refuse to plug into a machine providing permanent bliss, suggesting happiness is not the only thing humans value — and does this refute hedonistic utilitarianism?",
+        "How do feminist critics (including Virginia Held and Nel Noddings) argue that utilitarianism's impartial, calculating framework ignores relationships, care, and the particular obligations we owe to specific people — and can a theory that treats everyone's suffering as interchangeable capture what matters in a parent-child bond?",
+        "Why has utilitarianism survived 250 years of devastating criticism — from Williams, Rawls, Nozick, Sen, and feminist ethics — remaining the default framework for policy analysis, and what does its persistence reveal about the poverty of alternatives?"
+      ],
+      "tags": ["philosophy", "ethics", "critical-thinking", "modern-history"]
+    }
+  ]
+}

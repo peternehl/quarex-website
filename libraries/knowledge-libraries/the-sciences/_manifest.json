@@ -1,26 +1,26 @@
 [
   {
     "slug": "history-and-anthropology",
-    "name": "History And Anthropology",
-    "description": null,
-    "bookCount": 4
+    "name": "History & Anthropology",
+    "description": "Human civilizations from prehistory to the present — empires, revolutions, cultures, and the forces that shaped the modern world.",
+    "bookCount": 26
   },
   {
     "slug": "life-sciences",
     "name": "Life Sciences",
-    "description": null,
+    "description": "Biology, neuroscience, genetics, and ecology — how living systems work, from cells to ecosystems to the human brain.",
     "bookCount": 10
   },
   {
     "slug": "mathematical-and-computational-sciences",
-    "name": "Mathematical And Computational Sciences",
-    "description": null,
+    "name": "Mathematical & Computational Sciences",
+    "description": "Mathematics, logic, statistics, and computer science — the abstract foundations that underpin technology and scientific reasoning.",
     "bookCount": 10
   },
   {
     "slug": "physical-sciences",
     "name": "Physical Sciences",
-    "description": null,
+    "description": "Physics, chemistry, astronomy, and earth science — the fundamental laws governing matter, energy, and the universe.",
     "bookCount": 10
   }
 ]

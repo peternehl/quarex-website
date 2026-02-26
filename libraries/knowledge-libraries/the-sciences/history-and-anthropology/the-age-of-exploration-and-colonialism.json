@@ -1,0 +1,151 @@
+{
+  "name": "The Age of Exploration and Colonialism",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "colonialism", "geopolitics", "trade", "americas", "africa", "asia"],
+  "chapters": [
+    {
+      "name": "The Portuguese Push South: Prince Henry and the African Coast",
+      "topics": [
+        "Why did Prince Henry the Navigator fund decades of expeditions down the African coast starting in 1415, and what specific economic and religious motives drove him?",
+        "How did the Portuguese capture of Ceuta in 1415 set the template for European colonial violence for the next five centuries?",
+        "What navigational technologies — the caravel, the astrolabe, the volta do mar technique — gave Portugal an edge over every other European power?",
+        "How did Bartolomeu Dias rounding the Cape of Good Hope in 1488 change European understanding of world geography overnight?",
+        "Why did Portugal establish fortified trading posts (feitorias) rather than territorial colonies in West Africa, and how did this model shape the early slave trade?",
+        "What role did the papal bulls Dum Diversas (1452) and Romanus Pontifex (1455) play in giving Portugal a religious license to enslave non-Christians?"
+      ],
+      "tags": ["history", "colonialism", "modern-history", "africa"]
+    },
+    {
+      "name": "Columbus, the Taino, and the Spanish Claim to the New World",
+      "topics": [
+        "What specific miscalculations about the Earth's circumference led Columbus to believe he could reach Asia by sailing west, and why did most educated Europeans know he was wrong?",
+        "How did Columbus describe the Taino people in his journal on October 12, 1492, and how did those first impressions predict the genocide that followed?",
+        "What were the terms of the Capitulations of Santa Fe, and how did they make Columbus both an explorer and a potential colonial overlord?",
+        "How did the Treaty of Tordesillas in 1494 divide the entire non-Christian world between Spain and Portugal with a line on a map?",
+        "Why did the Taino population of Hispaniola collapse from an estimated 250,000 to fewer than 500 within fifty years of Columbus's arrival?",
+        "How did the encomienda system function as legal forced labor, and why did Bartolome de Las Casas call it worse than outright slavery?"
+      ],
+      "tags": ["history", "colonialism", "modern-history", "americas"]
+    },
+    {
+      "name": "The Conquest of the Aztec and Inca Empires",
+      "topics": [
+        "How did Hernan Cortes conquer the Aztec Empire with fewer than 600 soldiers, and what role did indigenous allies like the Tlaxcalans play in Tenochtitlan's fall in 1521?",
+        "What was the Noche Triste of June 30, 1520, and how close did the Aztecs come to destroying Cortes's entire expedition?",
+        "How did Francisco Pizarro exploit the Inca civil war between Atahualpa and Huascar to capture an emperor and ransom him for a room filled with gold?",
+        "Why did European diseases — smallpox, measles, typhus — kill an estimated 90% of indigenous Americans, and how did this demographic catastrophe enable conquest?",
+        "What happened to the vast gold and silver wealth seized from the Aztec and Inca, and how did it fuel inflation across Europe (the 'Price Revolution')?",
+        "How did the destruction of Tenochtitlan's aqueducts, temples, and libraries represent a deliberate erasure of indigenous knowledge and civilization?"
+      ],
+      "tags": ["conflict", "colonialism", "modern-history", "americas"]
+    },
+    {
+      "name": "The Atlantic Slave Trade: Scale, Mechanism, and Human Cost",
+      "topics": [
+        "How many Africans were forcibly transported across the Atlantic between 1500 and 1870, and why do estimates range from 10 to 15 million survivors with millions more dying en route?",
+        "How did the 'triangular trade' work — what specific goods moved on each leg between Europe, Africa, and the Americas?",
+        "What were conditions like during the Middle Passage, and why did mortality rates on slave ships average 15-20% even when slavers had financial incentives to keep captives alive?",
+        "How did African kingdoms like Dahomey and Asante become active participants in the slave trade, and what internal political pressures drove their involvement?",
+        "Why did sugar plantations in the Caribbean and Brazil consume enslaved laborers at such catastrophic rates that they required constant new imports?",
+        "How did the Zong massacre of 1781 — where 132 enslaved people were thrown overboard for insurance money — expose the legal framework that treated human beings as cargo?"
+      ],
+      "tags": ["ethics", "human-rights", "modern-history", "africa"]
+    },
+    {
+      "name": "Spain's American Empire: Silver, Missions, and the Caste System",
+      "topics": [
+        "How did the silver mines of Potosi (modern Bolivia) become the engine of the global economy, producing an estimated 60% of the world's silver by 1600?",
+        "What was the mita labor system, and how did the Spanish adapt Inca forced-labor practices to work thousands of indigenous miners to death?",
+        "How did the sistema de castas classify people by racial mixture (mestizo, mulato, zambo), and what legal rights and restrictions attached to each category?",
+        "Why did Spanish missionaries destroy thousands of indigenous codices, quipus, and sacred sites while simultaneously recording indigenous languages and customs?",
+        "How did the Manila Galleon trade route (1565-1815) connect Spanish America to China, creating the first truly global trading network?",
+        "What drove the series of indigenous revolts — from the Mixtion War (1540) to the Tupac Amaru II rebellion (1780) — and why did Spain suppress each one with extreme violence?"
+      ],
+      "tags": ["history", "colonialism", "americas", "latin-america"]
+    },
+    {
+      "name": "The Portuguese Seaborne Empire: From Brazil to Macau",
+      "topics": [
+        "How did Portugal — a country of barely one million people — build a trading empire spanning four continents by 1550?",
+        "What was the Estado da India, and how did Afonso de Albuquerque's capture of Goa (1510), Malacca (1511), and Hormuz (1515) give Portugal control of Indian Ocean trade routes?",
+        "Why did Portugal import an estimated 4.9 million enslaved Africans to Brazil — more than any other colony in the Americas — and how did sugar drive that demand?",
+        "How did Portuguese Jesuits gain access to the Chinese and Japanese courts, and why did Japan eventually expel all Europeans in 1639?",
+        "What was the Treaty of Madrid (1750) and how did it reshape the border between Spanish and Portuguese territory in South America?",
+        "Why did Portugal's empire decline so rapidly after 1600, and how did the Dutch systematically seize Portuguese trading posts across Asia?"
+      ],
+      "tags": ["history", "colonialism", "trade", "asia"]
+    },
+    {
+      "name": "The Dutch Golden Age and Commercial Colonialism",
+      "topics": [
+        "How did the Dutch East India Company (VOC), founded in 1602, become the world's first multinational corporation with the power to wage war, negotiate treaties, and mint coins?",
+        "What was the Banda Islands massacre of 1621, where the Dutch killed or deported virtually the entire population to monopolize the nutmeg trade?",
+        "How did the Dutch West India Company's operations differ from the VOC, and why did its control of the Atlantic slave trade become its most profitable business?",
+        "Why did the Dutch Republic — a nation built on religious tolerance — become one of the most ruthless colonial powers in Southeast Asia?",
+        "How did the Dutch create the Cape Colony in 1652 as a supply station, and how did this foothold eventually lead to apartheid South Africa?",
+        "What was the 'tulip mania' of 1637, and what does it reveal about the speculative financial culture that colonialism created in the Netherlands?"
+      ],
+      "tags": ["economics", "colonialism", "trade", "europe"]
+    },
+    {
+      "name": "The British and French Struggle for North America",
+      "topics": [
+        "How did the Jamestown colony of 1607 nearly fail completely, and what role did John Rolfe's tobacco cultivation play in making Virginia profitable through enslaved labor?",
+        "Why did the French pursue a fundamentally different colonial model in North America — fur trading and indigenous alliances rather than mass settlement?",
+        "How did the Seven Years' War (1756-1763) become the first true 'world war,' fought on five continents, and why did Britain's victory doom French North America?",
+        "What was the impact of the 1763 Royal Proclamation that drew a line along the Appalachian Mountains and forbade colonial settlement westward — and why did colonists ignore it?",
+        "How did diseases introduced by European settlers devastate the Haudenosaunee, Algonquin, and other First Nations, with some communities losing 75-90% of their populations?",
+        "Why did Benjamin Franklin's Albany Plan of Union (1754) fail, and what does its failure reveal about colonial rivalries that would later complicate the American Revolution?"
+      ],
+      "tags": ["conflict", "colonialism", "modern-history", "americas"]
+    },
+    {
+      "name": "The East India Companies: When Corporations Ruled Nations",
+      "topics": [
+        "How did the British East India Company go from a trading firm chartered in 1600 to governing 200 million people across the Indian subcontinent by the 1850s?",
+        "What was the Battle of Plassey (1757), and how did Robert Clive's bribery of Mir Jafar transform the EIC from merchant to sovereign power in Bengal?",
+        "How did the EIC's forced cultivation of opium in India and its sale to China lead directly to the Opium Wars of 1839-1842 and 1856-1860?",
+        "Why did the Bengal famine of 1770 kill an estimated 10 million people, and what role did EIC taxation and crop diversion policies play?",
+        "How did the Dutch VOC's 'spice monopoly' strategy — including destroying crops to keep prices high — devastate the economies of Indonesia's Maluku Islands?",
+        "What finally ended corporate colonial rule, and why did the British government take direct control of India only after the 1857 Sepoy Mutiny?"
+      ],
+      "tags": ["economics", "colonialism", "modern-history", "asia"]
+    },
+    {
+      "name": "Mercantilism: The Economic Engine of Empire",
+      "topics": [
+        "What was mercantilism, and why did European governments believe that colonies existed solely to enrich the mother country?",
+        "How did Britain's Navigation Acts (1651-1696) force American colonists to trade exclusively with England, and why did widespread smuggling undermine the system?",
+        "What was the asiento system, and how did the British South Sea Company win the contract to supply enslaved Africans to Spanish America?",
+        "How did plantation monocultures — sugar in the Caribbean, tobacco in Virginia, cotton in the Deep South — create wealth for Europe while destroying colonial ecosystems and enslaved populations?",
+        "Why did Adam Smith's The Wealth of Nations (1776) argue that mercantilism was economically irrational, and how did his ideas eventually undermine the justification for colonial monopolies?",
+        "How did mercantilist competition between Britain, France, and the Netherlands trigger colonial wars that reshaped the global map between 1600 and 1800?"
+      ],
+      "tags": ["economics", "colonialism", "trade", "europe"]
+    },
+    {
+      "name": "Resistance, Rebellion, and the Haitian Revolution",
+      "topics": [
+        "How did the Haitian Revolution (1791-1804) become the only successful large-scale slave revolt in history, and why did Toussaint Louverture's army defeat both French and British forces?",
+        "What was the Maroon resistance model, and how did escaped enslaved communities in Jamaica, Suriname, and Brazil sustain independent societies for generations?",
+        "Why did Tupac Amaru II's 1780 rebellion in Peru mobilize 60,000 indigenous people, and how did Spain's brutal suppression include banning indigenous clothing and language?",
+        "How did the Stono Rebellion of 1739 in South Carolina lead to harsher slave codes rather than any reconsideration of the institution?",
+        "What role did Queen Nzinga of Ndongo play in resisting Portuguese slave raids in Angola for over 30 years in the 1600s?",
+        "Why did the Haitian Revolution terrify slaveholding societies across the Americas, and how did it directly influence both the abolition movement and the tightening of slave laws?"
+      ],
+      "tags": ["conflict", "human-rights", "modern-history", "americas"]
+    },
+    {
+      "name": "The Legacy: How Colonialism Shaped the Modern World",
+      "topics": [
+        "How did the colonial extraction of wealth from Asia, Africa, and the Americas finance the Industrial Revolution in Europe?",
+        "Why do the borders drawn by European colonizers — often ignoring ethnic, linguistic, and geographic realities — continue to cause conflict in Africa and the Middle East today?",
+        "What is the 'development of underdevelopment' thesis, and how does it explain why former colonies remain among the world's poorest nations?",
+        "How did colonial racial hierarchies — the sistema de castas, South African racial classifications, the 'one-drop rule' in the US — create social structures that persist centuries later?",
+        "Why have calls for colonial reparations intensified in the 21st century, and what specific calculations have been proposed (such as India's demand for British reparations)?",
+        "How did the colonial encounter permanently alter global ecology through the 'Columbian Exchange' of plants, animals, and diseases between the Old and New Worlds?"
+      ],
+      "tags": ["society", "colonialism", "modern-history", "anthropology"]
+    }
+  ]
+}

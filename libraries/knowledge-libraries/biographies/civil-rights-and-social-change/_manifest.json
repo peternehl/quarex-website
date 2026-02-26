@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "jesus-of-nazareth-a-biography",
+    "name": "Jesus of Nazareth: A Biography",
+    "description": "Itinerant preacher who challenged Rome and the Temple — the social revolutionary whose movement outlived every empire that tried to claim him",
+    "chapterCount": 6,
+    "tags": ["history", "activism", "society", "spirituality", "ancient-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "martin-luther-king-jr-a-biography",
+    "name": "Martin Luther King Jr.: A Biography",
+    "description": "From Montgomery to Memphis — the preacher who weaponized nonviolence, moved a nation, and was murdered for it",
+    "chapterCount": 6,
+    "tags": ["history", "activism", "civil-rights", "leadership", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "frederick-douglass-a-biography",
+    "name": "Frederick Douglass: A Biography",
+    "description": "Born enslaved, self-educated, became the most powerful abolitionist voice in America — the man who made the nation confront its founding lie",
+    "chapterCount": 5,
+    "tags": ["history", "activism", "civil-rights", "literature", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "cesar-chavez-a-biography",
+    "name": "Cesar Chavez: A Biography",
+    "description": "Farmworker turned labor organizer who proved that the poorest workers could take on the most powerful industry — through strikes, boycotts, and sheer endurance",
+    "chapterCount": 5,
+    "tags": ["history", "activism", "labor", "civil-rights", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "rosa-parks-a-biography",
+    "name": "Rosa Parks: A Biography",
+    "description": "Not a tired seamstress but a trained activist — the woman whose calculated refusal to stand launched 381 days of collective resistance",
+    "chapterCount": 5,
+    "tags": ["history", "activism", "civil-rights", "leadership", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "harvey-milk-a-biography",
+    "name": "Harvey Milk: A Biography",
+    "description": "From closeted Wall Street analyst to America's first openly gay elected official — the man who proved that visibility is power",
+    "chapterCount": 5,
+    "tags": ["history", "activism", "civil-rights", "identity", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "emmeline-pankhurst-a-biography",
+    "name": "Emmeline Pankhurst: A Biography",
+    "description": "Deeds not words — the woman who decided that polite petitions were useless and that windows needed breaking",
+    "chapterCount": 5,
+    "tags": ["history", "activism", "gender", "civil-rights", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "desmond-tutu-a-biography",
+    "name": "Desmond Tutu: A Biography",
+    "description": "Archbishop against apartheid — the moral voice who wept with victims, confronted mobs, and asked a nation to choose truth over vengeance",
+    "chapterCount": 5,
+    "tags": ["history", "activism", "human-rights", "leadership", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "malala-yousafzai-a-biography",
+    "name": "Malala Yousafzai: A Biography",
+    "description": "Shot in the head at 15 for wanting to go to school — the girl who told the Taliban that bullets cannot silence ideas",
+    "chapterCount": 5,
+    "tags": ["activism", "gender", "human-rights", "education", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  }
+]

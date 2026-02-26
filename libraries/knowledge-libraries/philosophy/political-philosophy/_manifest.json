@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "marxism-from-theory-to-revolution",
+    "name": "Marxism: From Theory to Revolution",
+    "description": "From the Communist Manifesto to the fall of the Berlin Wall — how Marx's critique of capitalism inspired revolutions, produced tyrannies, and refuses to die",
+    "chapterCount": 8,
+    "tags": ["philosophy", "economics", "politics", "history", "revolution"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "liberalism-freedom-and-its-discontents",
+    "name": "Liberalism: Freedom and Its Discontents",
+    "description": "From Locke's natural rights to Rawls's veil of ignorance — the political philosophy that built the modern world and now struggles to defend it",
+    "chapterCount": 8,
+    "tags": ["philosophy", "governance", "democracy", "economics", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "conservatism-tradition-order-and-change",
+    "name": "Conservatism: Tradition, Order, and Change",
+    "description": "From Burke's defense of tradition to Trump's populist nationalism — the philosophy that insists human societies are fragile and radical change destroys more than it creates",
+    "chapterCount": 8,
+    "tags": ["philosophy", "politics", "governance", "democracy", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "anarchism-the-politics-of-no-rulers",
+    "name": "Anarchism: The Politics of No Rulers",
+    "description": "From Proudhon's 'property is theft' to Rojava's democratic confederalism — the tradition that demands every hierarchy justify itself or be dismantled",
+    "chapterCount": 8,
+    "tags": ["philosophy", "politics", "activism", "economics", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "fascism-and-authoritarianism-the-anatomy-of-tyranny",
+    "name": "Fascism and Authoritarianism: The Anatomy of Tyranny",
+    "description": "From Mussolini's March on Rome to Putin's digital autocracy — how tyranny works, why people accept it, and what stops it",
+    "chapterCount": 8,
+    "tags": ["philosophy", "politics", "authoritarianism", "conflict", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "postcolonial-political-thought",
+    "name": "Postcolonial Political Thought: Power, Identity, and Liberation",
+    "description": "From Fanon's decolonization to Spivak's subaltern — the thinkers who exposed how Western political philosophy was built on the exclusion of most of humanity",
+    "chapterCount": 8,
+    "tags": ["philosophy", "politics", "colonialism", "human-rights", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "democracy-theory-practice-and-crisis",
+    "name": "Democracy: Theory, Practice, and Crisis",
+    "description": "From the Athenian Assembly to January 6 — the radical experiment in self-government that keeps almost failing and keeps being the best option we have",
+    "chapterCount": 8,
+    "tags": ["philosophy", "politics", "democracy", "governance", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  }
+]

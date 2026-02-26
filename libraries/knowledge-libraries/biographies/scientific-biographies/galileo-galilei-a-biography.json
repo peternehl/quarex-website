@@ -1,0 +1,62 @@
+{
+  "name": "Galileo Galilei: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "innovation", "physics", "governance", "early-modern-history"],
+  "chapters": [
+    {
+      "name": "The Young Mathematician (1564-1609)",
+      "topics": [
+        "Who was Galileo Galilei — born in Pisa in 1564 (the same year Shakespeare was born), the son of Vincenzo Galilei (a musician and music theorist), a medical school dropout who turned to mathematics, a brilliant lecturer who challenged Aristotelian physics with observation and experiment?",
+        "How did Galileo's early experiments on motion — timing balls rolling down inclined planes with water clocks, discovering that falling bodies accelerate uniformly regardless of weight, measuring pendulum periods — create the foundations of experimental physics and overthrow 2,000 years of Aristotelian assumptions?",
+        "What was Galileo's time at the University of Padua (1592-1610) — 18 years of productive research, lectures to packed halls, invention of a military compass, financial struggles supporting his family — and why did he later call these 'the best years of my life'?",
+        "How did Galileo's father influence his scientific method — Vincenzo Galilei had challenged musical theory through experiment, proving that the ancients were wrong about the mathematical ratios of musical harmony — and did Galileo learn from his father that authority must yield to evidence?",
+        "What was the state of astronomy before Galileo's telescope — the Ptolemaic system (Earth-centered) dominant in universities and the Church, the Copernican system (Sun-centered) published in 1543 but treated as a mathematical hypothesis rather than physical reality, Tycho Brahe's compromise model?"
+      ],
+      "tags": ["science", "physics", "education", "early-modern-history"]
+    },
+    {
+      "name": "The Telescope Revelations (1609-1616)",
+      "topics": [
+        "How did Galileo hear about the Dutch telescope in 1609 — and immediately build his own improved version, increasing magnification from 3x to 20x, turning what was a novelty toy into the most revolutionary scientific instrument in history?",
+        "What did Galileo discover when he pointed his telescope at the sky in 1609-1610 — the moons of Jupiter (proving not everything orbited Earth), the phases of Venus (proving it orbited the Sun), the craters of the Moon (disproving celestial perfection), the individual stars of the Milky Way?",
+        "How did 'Sidereus Nuncius' (The Starry Messenger, 1610) change astronomy overnight — published within weeks of his discoveries, dedicated to the Medici (he named Jupiter's moons the 'Medicean Stars'), making Galileo the most famous scientist in Europe?",
+        "How did Galileo navigate the politics of the Counter-Reformation — his friendships with cardinals and popes (especially Cardinal Maffeo Barberini, later Pope Urban VIII), his Jesuit rivals who disputed his discoveries, the Inquisition's growing suspicion of Copernicanism?",
+        "What was the 1616 injunction — the Church declaring heliocentrism 'formally heretical,' ordering Galileo to stop teaching the Copernican system as physical truth, Copernicus's book placed on the Index of Forbidden Books — and did Galileo promise to comply or merely to be more careful?"
+      ],
+      "tags": ["science", "physics", "innovation", "early-modern-history"]
+    },
+    {
+      "name": "The Dialogue and the Trial (1623-1633)",
+      "topics": [
+        "Why did Galileo believe he could publish again — his friend Barberini became Pope Urban VIII in 1623, gave Galileo six audiences, seemingly encouraged a book comparing the two world systems — and was this a genuine green light or a misunderstanding that would prove fatal?",
+        "What was the 'Dialogue Concerning the Two Chief World Systems' (1632) — Galileo's masterpiece comparing the Ptolemaic and Copernican systems through three characters: Salviati (the Copernican), Sagredo (the intelligent layman), and Simplicio (the Aristotelian) — and did Galileo deliberately insult the Pope by putting his arguments in the fool's mouth?",
+        "How was Galileo tried by the Inquisition in 1633 — summoned to Rome at age 69 and in poor health, charged with violating the 1616 injunction, interrogated over several sessions, threatened with torture — and what was the political context that turned a scientific dispute into a trial?",
+        "What was Galileo forced to do — kneel before the Inquisition, read a prepared recantation of heliocentrism ('I abjure, curse, and detest the aforesaid errors'), accept his sentence of imprisonment (commuted to house arrest) — and did he actually whisper 'eppur si muove' (and yet it moves)?",
+        "What does the trial mean for the relationship between science and authority — was it about astronomy, politics, papal ego, or the larger question of who gets to determine truth — and why has it become the defining parable of what happens when power decides what reality is allowed to be?"
+      ],
+      "tags": ["science", "governance", "physics", "early-modern-history"]
+    },
+    {
+      "name": "House Arrest and Final Works (1633-1642)",
+      "topics": [
+        "How did Galileo spend his house arrest at Arcetri — confined to his villa near Florence, forbidden to publish, visited by scholars who came to pay tribute (including the young John Milton) — and how did he turn imprisonment into his most productive scientific period?",
+        "What was 'Two New Sciences' (1638) — Galileo's most important scientific work, the foundation of modern physics, covering the strength of materials and the science of motion — and how was it smuggled out of Italy and published by Elsevier in the Netherlands?",
+        "How did Galileo go blind in 1638 — the man who showed humanity the moons of Jupiter spending his last four years in darkness, dictating his final work, his petition to the Inquisition for medical treatment in Florence denied?",
+        "What was Galileo's personal life — his three children (two daughters placed in a convent, his son Vincenzo a disappointment), his beloved daughter Sister Maria Celeste (Virginia) whose letters reveal deep affection and who died in 1634 devastating him, his relationship with his students Castelli, Torricelli, and Viviani?",
+        "How did Galileo die on January 8, 1642 — at Arcetri, attended by his student Viviani and his son, the Church initially blocking a public funeral and monument — and why did it take until 1737 for his body to be moved to a proper tomb in Santa Croce, Florence?"
+      ],
+      "tags": ["science", "physics", "identity", "early-modern-history"]
+    },
+    {
+      "name": "Legacy: The Father of Modern Science",
+      "topics": [
+        "Why is Galileo called the father of modern science — not for any single discovery but for establishing the method: systematic observation, controlled experiment, mathematical description, the insistence that nature must be read in the language of mathematics?",
+        "How long did it take the Catholic Church to rehabilitate Galileo — the ban on the Dialogue lifted in 1822, a papal commission studying the case from 1979 to 1992, Pope John Paul II finally acknowledging the Church's error (while many felt the 'apology' was inadequate)?",
+        "How has Galileo become a symbol in culture wars — invoked by everyone from secularists attacking religious authority to climate-change deniers claiming they're 'modern Galileos' being persecuted by scientific consensus — and what is actually legitimate about these analogies?",
+        "What was Galileo's influence on Newton — Galileo died in 1642, the year Newton was born; Newton's first law of motion extends Galileo's principle of inertia; the 'Principia' builds directly on Galileo's kinematics — and is it fair to say that without Galileo there is no Newton?",
+        "What does Galileo's story teach the 21st century — about the relationship between evidence and authority, the courage required to publish unpopular truths, the institutional resistance to paradigm change — and why does his conflict with the Church remain the most instructive case study in the history of science?"
+      ],
+      "tags": ["science", "governance", "critical-thinking", "early-modern-history"]
+    }
+  ]
+}

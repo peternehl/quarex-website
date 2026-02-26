@@ -1,0 +1,151 @@
+{
+  "name": "The Industrial Revolution",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "economics", "industrial-revolution", "labor", "europe", "modern-history", "engineering"],
+  "chapters": [
+    {
+      "name": "Why Britain First: Coal, Capital, and the Conditions for Transformation",
+      "topics": [
+        "Why did the Industrial Revolution begin in Britain in the 1760s rather than in China, which had comparable technology, or the Netherlands, which had more capital?",
+        "How did Britain's unique combination of cheap coal, expensive labor, and accessible waterways create the economic incentive to mechanize production?",
+        "What role did the Enclosure Acts play in driving millions of rural farmers off common land and into factory towns between 1750 and 1850?",
+        "How did Britain's patent system — specifically the Statute of Monopolies (1624) — create financial incentives for invention that other countries lacked?",
+        "Why was the Agricultural Revolution of the 18th century (Jethro Tull's seed drill, crop rotation, selective breeding) a necessary precondition for industrialization?",
+        "How did Britain's colonial empire provide both the raw materials (cotton from India, sugar from the Caribbean) and the captive markets that fueled early industrialization?"
+      ],
+      "tags": ["history", "innovation", "industrial-revolution", "europe"]
+    },
+    {
+      "name": "Steam Power: James Watt and the Engine That Changed Everything",
+      "topics": [
+        "What specific problem was Thomas Newcomen trying to solve with his 1712 atmospheric engine, and why was it too inefficient for anything beyond pumping water from mines?",
+        "How did James Watt's separate condenser (patented 1769) improve the Newcomen engine's fuel efficiency by 75%, and why was Matthew Boulton's business partnership essential to commercializing it?",
+        "Why did Watt's patent monopoly (extended to 1800 by Act of Parliament) simultaneously accelerate and retard industrial progress?",
+        "How did Richard Trevithick's high-pressure steam engine (1801) make Watt's design obsolete and open the door to locomotives and steamships?",
+        "What was the human cost of early steam power — how many boiler explosions, scaldings, and factory deaths occurred before safety regulations existed?",
+        "How did steam power transform the geography of production by freeing factories from dependence on water-powered mills along rivers?"
+      ],
+      "tags": ["technology", "innovation", "industrial-revolution", "engineering"]
+    },
+    {
+      "name": "The Textile Revolution: Cotton, Spinning, and the Factory System",
+      "topics": [
+        "How did John Kay's flying shuttle (1733), James Hargreaves's spinning jenny (1764), and Richard Arkwright's water frame (1769) each solve a specific bottleneck in textile production?",
+        "Why did Richard Arkwright's Cromford Mill (1771) become the prototype for the modern factory — and what new forms of labor discipline did it impose on workers?",
+        "How did the demand for raw cotton from Lancashire mills drive the expansion of slavery in the American South, with cotton production rising from 3,000 bales in 1790 to 4.5 million by 1860?",
+        "What happened to the handloom weavers of Britain, whose numbers peaked at 250,000 in 1820 and collapsed to near zero by 1850 as power looms replaced them?",
+        "How did Eli Whitney's cotton gin (1793) make short-staple cotton profitable and directly cause the westward expansion of American slavery into Alabama, Mississippi, and Louisiana?",
+        "Why did textile workers destroy machinery during the Luddite uprisings of 1811-1816, and what does Parliament's response — making machine-breaking a capital offense — reveal about state priorities?"
+      ],
+      "tags": ["economics", "revolution", "industrial-revolution", "labor"]
+    },
+    {
+      "name": "Iron and Steel: Building the Industrial World",
+      "topics": [
+        "How did Abraham Darby's discovery of coke smelting at Coalbrookdale in 1709 solve the charcoal shortage that had limited iron production for centuries?",
+        "Why was Henry Cort's puddling and rolling process (1784) called the most important metallurgical advance since the Bronze Age?",
+        "How did Henry Bessemer's converter (1856) reduce the cost of steel production by 80%, making steel bridges, railways, and skyscrapers economically feasible?",
+        "What were working conditions like inside a 19th-century ironworks, where temperatures exceeded 1,500 degrees Fahrenheit and workers routinely suffered burns, blindness, and lung disease?",
+        "How did cheap iron and steel enable the construction of the Crystal Palace (1851), the Eiffel Tower (1889), and the Brooklyn Bridge (1883) — structures that would have been impossible a generation earlier?",
+        "Why did Britain produce more iron in 1850 than the rest of the world combined, and how did this industrial dominance translate into military and imperial power?"
+      ],
+      "tags": ["technology", "innovation", "materials-science", "engineering"]
+    },
+    {
+      "name": "Railways: Shrinking Distance, Expanding Markets",
+      "topics": [
+        "How did George Stephenson's Rocket win the Rainhill Trials in 1829, and why did this competition determine the future of land transportation for the next century?",
+        "What was 'railway mania' in Britain during the 1840s, when investors poured 250 million pounds into railway stocks and thousands lost everything when the bubble burst?",
+        "How did railways create standardized time zones — why did Britain adopt Greenwich Mean Time in 1847 specifically because trains required coordinated schedules?",
+        "What was the human cost of building railways, from the 32 navvies killed constructing the Woodhead Tunnel (1839-1852) to the thousands of Chinese laborers who died building America's Transcontinental Railroad?",
+        "How did railways transform warfare, as demonstrated by the Prussian mobilization system that defeated France in just six weeks during the Franco-Prussian War of 1870-1871?",
+        "Why did the arrival of railways in India and Africa primarily serve colonial extraction — moving raw materials to ports — rather than connecting indigenous communities to each other?"
+      ],
+      "tags": ["technology", "infrastructure", "transportation", "engineering"]
+    },
+    {
+      "name": "Urbanization: The Rise of the Industrial City",
+      "topics": [
+        "How did Manchester grow from a town of 25,000 in 1772 to a city of 300,000 by 1850, and what did Friedrich Engels document about living conditions in The Condition of the Working Class in England (1845)?",
+        "Why did life expectancy in industrial Liverpool drop to 26 years in the 1840s — lower than in most pre-industrial societies — while rural England averaged 41?",
+        "What were the 'back-to-back' houses of industrial Britain, and why did entire families live, sleep, and often die in single rooms without sanitation or clean water?",
+        "How did the cholera epidemics of 1831, 1848, and 1854 force governments to accept that public health was a state responsibility, culminating in John Snow's mapping of the Broad Street pump outbreak?",
+        "Why did the 'Great Stink' of London in 1858 — when the Thames became an open sewer — finally compel Parliament to fund Joseph Bazalgette's revolutionary sewage system?",
+        "How did industrial cities create entirely new social classes — the factory-owning bourgeoisie and the urban proletariat — that reshaped politics for the next two centuries?"
+      ],
+      "tags": ["society", "inequality", "modern-history", "public-health"]
+    },
+    {
+      "name": "Child Labor and the Fight for Workers' Rights",
+      "topics": [
+        "Why did children as young as five work 16-hour shifts in Manchester cotton mills while Parliament debated reform for decades?",
+        "What did the Sadler Committee (1832) discover when it interviewed child workers, including testimony from children who had been beaten, chained to machines, and permanently deformed by factory work?",
+        "How did the Factory Acts of 1833, 1844, and 1847 gradually restrict child labor and reduce working hours — and why did factory owners fight every single reform?",
+        "What were the specific dangers faced by 'climbing boys' (chimney sweeps), 'trappers' (mine ventilation children), and 'scavengers' (children who crawled under moving machinery to collect cotton waste)?",
+        "How did Robert Owen's New Lanark mill (1800-1825) prove that decent working conditions, education, and shorter hours could be more profitable than exploitation?",
+        "Why did the Chartist movement of 1838-1857 — with its six demands including universal male suffrage — represent the first mass working-class political movement in history?"
+      ],
+      "tags": ["ethics", "human-rights", "labor", "civil-rights"]
+    },
+    {
+      "name": "The Second Industrial Revolution: Electricity, Chemistry, and Steel",
+      "topics": [
+        "Why do historians distinguish a 'Second Industrial Revolution' beginning around 1870, and what made electricity, chemicals, and steel fundamentally different from steam and iron?",
+        "How did Thomas Edison's Pearl Street Station (1882) in New York demonstrate that centralized electrical power generation could transform entire cities?",
+        "What was the 'War of Currents' between Edison's direct current and Tesla/Westinghouse's alternating current, and why did AC win — including through Edison's public electrocution of animals?",
+        "How did the German chemical industry — led by BASF, Bayer, and Hoechst — surpass Britain by applying systematic scientific research to industrial production of dyes, fertilizers, and pharmaceuticals?",
+        "What was the Bessemer-Thomas process, and how did Andrew Carnegie use it to produce steel so cheaply that US steel output surpassed Britain's by 1890?",
+        "How did the internal combustion engine — developed by Nikolaus Otto (1876), Karl Benz (1886), and Rudolf Diesel (1893) — set the stage for the automobile and petroleum age?"
+      ],
+      "tags": ["technology", "innovation", "industrial-revolution", "engineering"]
+    },
+    {
+      "name": "Labor Movements and the Birth of Socialism",
+      "topics": [
+        "What specific conditions in factories and mines drove workers to organize despite laws like the Combination Acts (1799-1800) that made unions illegal in Britain?",
+        "How did the Tolpuddle Martyrs of 1834 — six farm laborers transported to Australia for swearing a union oath — become symbols of the labor movement?",
+        "What did Karl Marx and Friedrich Engels argue in The Communist Manifesto (1848), and why did their analysis of industrial capitalism resonate with millions of workers?",
+        "How did the Paris Commune of 1871 — a 72-day workers' government in Paris — terrify European elites and inspire socialist movements for the next century?",
+        "Why did Bismarck introduce state pensions, health insurance, and accident insurance in Germany in the 1880s — not out of sympathy for workers, but to undercut the appeal of socialism?",
+        "How did the Haymarket affair of 1886 in Chicago — where a bomb killed seven police officers at a labor rally — lead to both the international May Day holiday and a backlash against organized labor in America?"
+      ],
+      "tags": ["politics", "activism", "labor", "sociology"]
+    },
+    {
+      "name": "Women and the Industrial Revolution",
+      "topics": [
+        "How did industrialization simultaneously pull women into factory work (40% of textile workers were women by 1840) while creating the middle-class ideology of 'separate spheres' that confined women to the home?",
+        "What were conditions like for women in the Lowell mills of Massachusetts (1820s-1840s), where factory owners recruited farm girls with promises of education and instead imposed 14-hour days?",
+        "Why did the 'match girls' strike of 1888 at the Bryant and May factory in London — led by 1,400 women protesting phossy jaw (phosphorus poisoning) and starvation wages — succeed against all expectations?",
+        "How did the pit brow lasses of Lancashire coal mines fight to keep their jobs when the Mines Act of 1842 banned women from underground work — and what does their resistance reveal about 'protective' legislation?",
+        "What role did women play in early labor organizing, from the Female Reform Society of Manchester (1819) to the Women's Trade Union League (1874)?",
+        "How did industrialization create the economic conditions that eventually fueled the suffrage movement — by proving women could work, earn, and organize independently of men?"
+      ],
+      "tags": ["society", "feminism", "labor", "womens-history"]
+    },
+    {
+      "name": "Global Spread: Industrialization Beyond Britain",
+      "topics": [
+        "Why did Belgium industrialize first among Continental European nations (by the 1830s), and how did its coal deposits and British expertise accelerate the process?",
+        "How did Friedrich List's 'infant industry' argument convince Germany to use protective tariffs to build industrial capacity, directly contradicting Britain's free-trade gospel?",
+        "What was the Meiji Restoration's approach to industrialization in Japan after 1868, and how did Japan go from feudal isolation to defeating Russia militarily in just 37 years?",
+        "Why did the American system of manufacturing — interchangeable parts, assembly lines, mass production — eventually surpass British craft-based methods?",
+        "How did Russia's attempt at rapid industrialization under Sergei Witte in the 1890s (including the Trans-Siberian Railway) create the social tensions that would explode in the 1905 and 1917 revolutions?",
+        "Why did industrialization in colonial territories like India and China primarily benefit European powers, as Britain deliberately destroyed India's textile industry to create a market for Manchester cotton?"
+      ],
+      "tags": ["economics", "globalization", "industrial-revolution", "modern-history"]
+    },
+    {
+      "name": "The Environmental and Social Legacy of Industrialization",
+      "topics": [
+        "How did the Industrial Revolution initiate the large-scale burning of fossil fuels that has driven atmospheric CO2 from 280 parts per million in 1750 to over 420 ppm today?",
+        "Why did the 'Great Smog' of London in 1952 — which killed an estimated 12,000 people — represent the culmination of 200 years of industrial air pollution?",
+        "How did industrialization create the concept of 'economic growth' as a permanent expectation, and what happens when that expectation meets planetary resource limits?",
+        "What is the relationship between the factory system's demand for clock-disciplined labor and the modern experience of time, work-life balance, and burnout?",
+        "How did the Industrial Revolution create the wealth gap between the Global North and Global South that persists today, with industrialized nations consuming resources at rates the planet cannot sustain?",
+        "Why do some historians argue that the Industrial Revolution was the most consequential event in human history since the invention of agriculture 10,000 years ago?"
+      ],
+      "tags": ["environment", "sustainability", "industrial-revolution", "modern-history"]
+    }
+  ]
+}

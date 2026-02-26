@@ -1,0 +1,115 @@
+{
+  "name": "Russian History: Tsars, Revolution, and Empire",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "europe", "asia", "politics", "revolution", "authoritarianism", "modern-history"],
+  "chapters": [
+    {
+      "name": "Kievan Rus, the Mongol Yoke, and the Rise of Moscow",
+      "topics": [
+        "How did Kievan Rus (c. 882-1240) — a loose federation of Slavic principalities centered on Kiev — adopt Byzantine Christianity in 988, an event that oriented Russia toward the Eastern Orthodox world and away from Catholic Western Europe?",
+        "What was the impact of the Mongol invasion of 1237-1240, when Batu Khan's armies destroyed every major Russian city and established the 'Mongol Yoke' that lasted 240 years — and how did this experience shape Russia's political culture of centralized autocracy?",
+        "How did the Principality of Moscow rise from an insignificant backwater to the dominant Russian state between 1300 and 1480 — through strategic marriages, collaboration with the Mongols, and the gradual subjugation of rival principalities?",
+        "What was Ivan III's 'gathering of the Russian lands' (1462-1505), and how did his rejection of Mongol authority, marriage to the Byzantine princess Sophia Palaiologina, and adoption of the double-headed eagle transform Moscow's rulers into the self-proclaimed successors of the Roman Empire?",
+        "How did Ivan IV ('the Terrible') earn his reputation through the oprichnina (1565-1572) — a reign of terror that destroyed the old boyar aristocracy, killed an estimated 12,000 people, and established the pattern of autocratic violence that would recur throughout Russian history?",
+        "Why did the 'Time of Troubles' (1598-1613) — featuring famine, civil war, Polish occupation of Moscow, and multiple false pretenders to the throne — nearly destroy the Russian state before the Romanov dynasty's election restored order?"
+      ],
+      "tags": ["history", "governance", "ancient-history", "europe"]
+    },
+    {
+      "name": "Peter the Great and the Westernization of Russia",
+      "topics": [
+        "How did Peter the Great (r. 1682-1725) force Russia's modernization — personally cutting boyars' beards, building a navy from scratch, sending nobles to study in Europe, and founding St. Petersburg on a swamp as Russia's 'window to Europe'?",
+        "What was the Great Northern War (1700-1721), and how did Peter's victory over Sweden at Poltava (1709) transform Russia from a landlocked backwater into a major European power with Baltic Sea access?",
+        "Why did Peter build St. Petersburg at the cost of an estimated 30,000-100,000 workers' lives — constructing a European-style capital on marshland where nothing had stood before — and what did this act of creation by fiat reveal about Russian state power?",
+        "How did Peter's reforms — the Table of Ranks (creating a merit-based bureaucracy), the reorganization of the army, and the subordination of the Orthodox Church — create a modernized state while strengthening rather than limiting autocratic power?",
+        "What was the cost of Peter's Westernization — the forced conscription of peasants, crushing taxation, the destruction of traditional culture — and why did Russia's peasant population bear the price of imperial ambitions?",
+        "How did Peter's legacy — modernization imposed from above by an autocratic state — establish the template that Catherine the Great, Alexander II, Stalin, and Putin would each follow in their own ways?"
+      ],
+      "tags": ["history", "governance", "modern-history", "europe"]
+    },
+    {
+      "name": "Catherine the Great, Serfdom, and Imperial Expansion",
+      "topics": [
+        "How did Catherine the Great (r. 1762-1796) — a German princess who seized power by overthrowing her husband — expand the Russian Empire to include Crimea, Ukraine, parts of Poland, and Alaska while corresponding with Voltaire about Enlightenment ideals?",
+        "Why did Catherine's Nakaz (1767) — a legislative document inspired by Montesquieu and Beccaria that proposed legal reform and questioned serfdom — remain largely unimplemented, revealing the gap between enlightened rhetoric and autocratic reality?",
+        "What was the Pugachev Rebellion of 1773-1775 — when a Cossack claiming to be the murdered Tsar Peter III led hundreds of thousands of serfs, Cossacks, and ethnic minorities in the largest peasant revolt in Russian history before the 1917 revolution?",
+        "How did Russian serfdom function — what were the legal rights (virtually none) and daily conditions of the 23 million serfs who constituted roughly half the population and could be bought, sold, punished, and conscripted at their owner's will?",
+        "Why did Russia's territorial expansion into the Caucasus, Central Asia, and Siberia create an empire spanning eleven time zones — and how did colonial violence against Chechens, Circassians, and Central Asian peoples create conflicts that persist today?",
+        "What was the 'Eastern Question,' and how did Russia's ambition to control the Ottoman Empire's Slavic and Orthodox Christian populations — particularly access to Constantinople and the Black Sea — drive European great power rivalries throughout the 19th century?"
+      ],
+      "tags": ["history", "colonialism", "modern-history", "europe"]
+    },
+    {
+      "name": "Reform, Reaction, and the Road to Revolution",
+      "topics": [
+        "How did Alexander II's emancipation of the serfs in 1861 — freeing 23 million people — represent the most significant social reform in Russian history while leaving freed serfs burdened with 'redemption payments' and inadequate land?",
+        "Why did the Decembrist Revolt of 1825 — when reform-minded military officers attempted a coup — fail, and how did Nicholas I's brutal suppression establish a cycle of revolutionary conspiracy and state repression that defined the 19th century?",
+        "What were the revolutionary movements that emerged in the 1860s-1900s — from the Narodniks ('going to the people') to the Social Revolutionaries to the Social Democrats (Bolsheviks and Mensheviks) — and why did each attempt at reform through existing channels fail?",
+        "How did the assassination of Alexander II in 1881 by a bomb-throwing revolutionary — the 'Tsar Liberator' killed by the very forces his reforms had energized — convince his successors that reform was more dangerous than repression?",
+        "What was the Revolution of 1905 — triggered by Bloody Sunday (January 22, when troops fired on peaceful petitioners at the Winter Palace) — and how did Nicholas II's concessions (the October Manifesto, the Duma) buy time without addressing fundamental problems?",
+        "Why did Russia's entry into World War I in 1914 seal the tsarist system's fate — with 3.3 million dead, economic collapse, and a government that proved incapable of managing modern industrial warfare?"
+      ],
+      "tags": ["politics", "revolution", "modern-history", "europe"]
+    },
+    {
+      "name": "1917: The Year That Shook the World",
+      "topics": [
+        "How did the February Revolution of 1917 begin — with bread riots in Petrograd, soldiers refusing to fire on crowds, and the 300-year Romanov dynasty collapsing in just one week?",
+        "What was the 'dual power' arrangement between the Provisional Government and the Petrograd Soviet, and why did this inherently unstable situation — with two competing authorities claiming legitimacy — create the opening Lenin exploited?",
+        "How did Lenin — returning from exile in a sealed train provided by Germany — transform the Bolsheviks from a minority faction into the rulers of Russia within seven months, using the simple slogan 'Peace, Land, and Bread'?",
+        "What happened during the October Revolution of November 7, 1917 — was it a popular uprising or a coup by a small, disciplined party that seized power from a government too weak to resist?",
+        "How did the Russian Civil War (1917-1922) pit the Red Army against the White armies, foreign interventionists, and independence movements — killing an estimated 7-12 million people through combat, famine, disease, and the Red Terror?",
+        "What was the fate of the Romanov family — shot in a basement in Yekaterinburg on July 17, 1918 — and why did the Soviet government conceal the details for 70 years?"
+      ],
+      "tags": ["politics", "revolution", "modern-history", "europe"]
+    },
+    {
+      "name": "Stalin: Industrialization, Terror, and the Gulag",
+      "topics": [
+        "How did Stalin outmaneuver Trotsky, Bukharin, Zinoviev, and every other rival to achieve total power by 1929 — and why did Lenin's 'Testament' warning against Stalin's accumulation of power go unheeded?",
+        "What was the forced collectivization of agriculture (1929-1933), and how did Stalin's campaign against kulaks ('wealthy' peasants) and the resulting Holodomor famine kill an estimated 3.5-7.5 million Ukrainians and millions more across the Soviet Union?",
+        "How did the Five-Year Plans transform the Soviet Union from an agricultural society into an industrial power — building entire cities from scratch, tripling steel production, and achieving in a decade what took Western nations a century — at the cost of millions of lives?",
+        "What was the Great Terror of 1936-1938, when Stalin purged an estimated 750,000-1.2 million people through show trials, mass executions, and the Gulag — including 3 of 5 marshals, 13 of 15 army commanders, and most of the Old Bolsheviks?",
+        "How did the Gulag system function — with an estimated 18 million people passing through labor camps between 1930 and 1953, building canals, mining gold, and logging forests in conditions designed to extract labor until death?",
+        "Why do debates about Stalin persist — with surveys showing 70% of Russians in 2019 viewing his role positively — and what does this ambivalence reveal about how societies process the legacy of leaders who achieved modernization through mass murder?"
+      ],
+      "tags": ["politics", "authoritarianism", "modern-history", "europe"]
+    },
+    {
+      "name": "The Soviet Union: Superpower, Stagnation, and Collapse",
+      "topics": [
+        "How did the Soviet Union emerge from World War II — having lost 27 million people and sustained catastrophic destruction — as one of only two superpowers, and what did this victory cost in human and social terms?",
+        "What was Khrushchev's 'Secret Speech' of February 1956 — denouncing Stalin's cult of personality and crimes to a stunned Communist Party Congress — and how did this moment of truth create expectations for reform that the system couldn't fulfill?",
+        "How did the Brezhnev era (1964-1982) produce both the Soviet Union's peak of global power and the 'period of stagnation' — with military parity with the US coexisting with declining economic growth, environmental catastrophe, and cynical corruption?",
+        "What was Gorbachev's dilemma — that the Soviet system could not be reformed without destroying it — and how did glasnost (openness) and perestroika (restructuring) unleash forces that dissolved the union in four years?",
+        "How did the Soviet Union collapse on December 25, 1991, and what happened to the 15 successor states — from the Baltic democracies to Central Asian dictatorships to the chaos of 1990s Russia?",
+        "What was the human cost of the Soviet experiment — from the estimated 20 million who died under Stalin to the environmental devastation (the Aral Sea, Chernobyl) to the social pathologies (alcoholism, declining life expectancy) that persist in post-Soviet states?"
+      ],
+      "tags": ["politics", "authoritarianism", "cold-war", "europe"]
+    },
+    {
+      "name": "Putin's Russia: From Chaos to Authoritarianism",
+      "topics": [
+        "How did the 1990s under Yeltsin — with GDP dropping 40%, oligarchs looting state assets, life expectancy falling to 57 for men, and the war in Chechnya — create the desperation and humiliation that made Putin's authoritarian stability appealing?",
+        "How did Vladimir Putin — a mid-level KGB officer who became president on New Year's Eve 1999 — systematically dismantle Russian democracy by neutralizing independent media, jailing or exiling oligarchs who challenged him, and subordinating the judiciary?",
+        "What was Putin's strategy in Chechnya (1999-2009), where the Second Chechen War killed an estimated 25,000-50,000 civilians, and how did its brutality establish Putin's domestic reputation while previewing tactics later used in Syria and Ukraine?",
+        "How did the annexation of Crimea in 2014 and the full-scale invasion of Ukraine in 2022 represent Putin's attempt to reverse the Soviet collapse — and why has the war produced the opposite of its intended effect, strengthening NATO and Ukrainian national identity?",
+        "What is the role of Russian nuclear weapons in Putin's strategy — maintaining an arsenal of roughly 6,000 warheads while using nuclear threats to deter Western intervention — and how has this 'escalation dominance' shaped the international response to Ukraine?",
+        "Why does Russian history keep producing autocrats — from Ivan the Terrible to Peter the Great to Stalin to Putin — and what structural features of Russian geography, institutions, and political culture perpetuate authoritarian rule?"
+      ],
+      "tags": ["politics", "authoritarianism", "geopolitics", "europe"]
+    },
+    {
+      "name": "Russian Culture: Literature, Music, and the Russian Soul",
+      "topics": [
+        "How did 19th-century Russian literature — Pushkin, Gogol, Dostoevsky, Tolstoy, Chekhov — achieve a depth of psychological and moral insight that made it arguably the richest national literary tradition in the world?",
+        "What is the concept of the 'Russian soul' (russkaya dusha) — the idea of a uniquely Russian spiritual depth, capacity for suffering, and communal identity — and how has this self-image been used to explain everything from Russian literature to Russian politics?",
+        "How did Russian composers — Tchaikovsky, Mussorgsky, Stravinsky, Shostakovich, Prokofiev — create a musical tradition that combined European technique with distinctly Russian themes, and how did the Soviet system both support and control artistic production?",
+        "What was the experience of artists under the Soviet system — from Mayakovsky's revolutionary enthusiasm to Mandelstam's death in the Gulag to Shostakovich's ambiguous relationship with Stalinist power — and what does it reveal about art under totalitarianism?",
+        "How did the Russian Orthodox Church function throughout Russian history — as an instrument of state power under the tsars, a target of Soviet persecution, and a pillar of Putin's nationalism — and what role does religion play in Russian identity?",
+        "Why does Russia's cultural achievement — in literature, music, ballet, mathematics, and science — coexist so persistently with political autocracy, and what does this paradox reveal about the relationship between artistic freedom and political freedom?"
+      ],
+      "tags": ["society", "cultural-heritage", "modern-history", "europe"]
+    }
+  ]
+}

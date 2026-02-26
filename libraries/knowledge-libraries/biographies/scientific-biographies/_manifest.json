@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "albert-einstein-a-biography",
+    "name": "Albert Einstein: A Biography",
+    "description": "Patent clerk who bent spacetime — the refugee genius whose equation E=mc² unlocked the atom and whose fame made him the universal symbol of brilliance",
+    "chapterCount": 5,
+    "tags": ["science", "innovation", "physics", "activism", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "charles-darwin-a-biography",
+    "name": "Charles Darwin: A Biography",
+    "description": "The man who waited 20 years to publish the most dangerous idea in science — that all life on Earth shares a common ancestor shaped by natural selection",
+    "chapterCount": 5,
+    "tags": ["science", "innovation", "biology", "society", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "marie-curie-a-biography",
+    "name": "Marie Curie: A Biography",
+    "description": "Two Nobel Prizes, no vote — the woman who discovered radioactivity, drove X-ray trucks to the front lines, and died from the radiation she spent her life studying",
+    "chapterCount": 5,
+    "tags": ["science", "gender", "physics", "innovation", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "alan-turing-a-biography",
+    "name": "Alan Turing: A Biography",
+    "description": "Codebreaker who shortened the war by two years, inventor of the computer, chemically castrated by the country he saved — because he was gay",
+    "chapterCount": 5,
+    "tags": ["science", "innovation", "technology", "human-rights", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "isaac-newton-a-biography",
+    "name": "Isaac Newton: A Biography",
+    "description": "Gravity, calculus, and optics — the vindictive genius who remade physics, ran the Royal Mint, and spent more time on alchemy than on science",
+    "chapterCount": 5,
+    "tags": ["science", "innovation", "physics", "leadership", "early-modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "galileo-galilei-a-biography",
+    "name": "Galileo Galilei: A Biography",
+    "description": "The man who pointed a telescope at Jupiter and proved the Church wrong — then spent the rest of his life under house arrest for saying so",
+    "chapterCount": 5,
+    "tags": ["science", "innovation", "physics", "governance", "early-modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "nikola-tesla-a-biography",
+    "name": "Nikola Tesla: A Biography",
+    "description": "The man who invented the electrical grid, lost the credit, and died alone feeding pigeons — while the world ran on his alternating current",
+    "chapterCount": 5,
+    "tags": ["science", "innovation", "technology", "economics", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "rachel-carson-a-biography",
+    "name": "Rachel Carson: A Biography",
+    "description": "One book, one scientist, one industry trying to silence her — the marine biologist whose 'Silent Spring' launched the environmental movement",
+    "chapterCount": 5,
+    "tags": ["science", "activism", "environment", "gender", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  }
+]

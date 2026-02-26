@@ -1,0 +1,95 @@
+{
+  "name": "Descartes and the Birth of Modern Philosophy",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "epistemology", "science", "critical-thinking", "early-modern-history"],
+  "chapters": [
+    {
+      "name": "The Method of Doubt: Destroying Everything to Start Over",
+      "topics": [
+        "Why did René Descartes (1596-1650) — a French mathematician hiding in the Netherlands to escape censorship — decide that the only way to find certain knowledge was to doubt everything that could possibly be doubted?",
+        "How did Descartes' dream of November 10, 1619 — three vivid dreams in a single night that he interpreted as a divine calling — convince him that he was destined to unify all knowledge through a single method?",
+        "What did Descartes' method of radical doubt actually destroy — the reliability of the senses (optical illusions), the certainty of mathematics (an evil demon could be deceiving you), the existence of the external world — leaving what as the only thing that survives?",
+        "How did 'cogito ergo sum' (I think, therefore I am) function not as a logical argument but as an act of discovery — the realization that the act of doubting proves the existence of a doubter — and why did Descartes consider this the foundation stone of all knowledge?",
+        "Why did Descartes write the 'Meditations on First Philosophy' (1641) as a journey from total doubt to certain knowledge — structuring it as six days of private reflection — and how did this literary form shape the way philosophy would be written for centuries?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "early-modern-history"]
+    },
+    {
+      "name": "Mind and Body: The Problem Descartes Created",
+      "topics": [
+        "How did Descartes arrive at substance dualism — the claim that mind (res cogitans, thinking substance) and body (res extensa, extended substance) are fundamentally different kinds of stuff — and why did this seemingly intuitive distinction create a problem philosophy still cannot solve?",
+        "Why is the mind-body interaction problem so devastating — if mind is immaterial and body is material, how can a thought (immaterial) cause your arm to move (material), and how can a pin in your finger (material) cause pain (immaterial)?",
+        "How did Descartes' proposal that mind and body interact through the pineal gland — a tiny structure at the center of the brain — satisfy no one, and why did Princess Elisabeth of Bohemia's objection (how can something non-physical push something physical?) remain unanswered?",
+        "What alternative solutions emerged — occasionalism (God coordinates mind and body), Spinoza's parallelism (mind and body are two aspects of one substance), Leibniz's pre-established harmony (synchronized clocks) — and why did none of them work?",
+        "How does Descartes' mind-body split persist in modern life — the medical separation of mental and physical health, the 'ghost in the machine' concept of consciousness, the assumption that AI could be conscious if it processes information the right way — and is dualism an error or an insight we cannot escape?"
+      ],
+      "tags": ["philosophy", "epistemology", "science", "early-modern-history"]
+    },
+    {
+      "name": "The Rationalist Tradition: Descartes, Spinoza, Leibniz",
+      "topics": [
+        "How did rationalism — the view that reason, not sensory experience, is the primary source of knowledge — unite Descartes, Spinoza, and Leibniz despite their radically different conclusions about God, nature, and freedom?",
+        "Why did Spinoza (1632-1677) take Descartes' method to its logical extreme — concluding that there is only one substance (God or Nature), that mind and body are not separate, that free will is an illusion — and getting excommunicated from his synagogue for it?",
+        "How did Leibniz (1646-1716) argue that reality consists of infinite 'monads' — simple, windowless substances reflecting the entire universe from their own perspective — and why did Voltaire mock this optimistic metaphysics in 'Candide'?",
+        "What are innate ideas — Descartes' claim that certain concepts (God, infinity, mathematical truths) are born into the mind rather than learned from experience — and why did Locke's devastating critique of innate ideas launch the empiricist counter-revolution?",
+        "Why did the rationalist-empiricist debate dominate philosophy for 150 years — until Kant claimed to have resolved it — and what was at stake beyond academic argument: the authority of reason versus the authority of experience in all areas of human life?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "early-modern-history"]
+    },
+    {
+      "name": "The Empiricist Response: Locke, Berkeley, Hume",
+      "topics": [
+        "How did John Locke's 'Essay Concerning Human Understanding' (1689) argue that the mind begins as a blank slate (tabula rasa) — that all knowledge comes from experience, that there are no innate ideas — directly contradicting Descartes?",
+        "Why did George Berkeley (1685-1753) take empiricism to its absurd conclusion — arguing that material objects only exist when perceived ('to be is to be perceived'), that reality is ideas in the mind of God — and was this brilliant logic or insanity?",
+        "How did David Hume (1711-1776) deliver the most devastating blow to both rationalism and empiricism — arguing that we cannot prove causation (we only see constant conjunction), that the self is a 'bundle of perceptions,' that reason is the 'slave of the passions'?",
+        "What did Hume's 'Problem of Induction' prove — that no number of observed sunrises logically guarantees tomorrow's sunrise, that all scientific reasoning rests on an unjustifiable assumption — and why has this remained unsolved for 275 years?",
+        "Why did Kant say that Hume 'awakened him from his dogmatic slumber' — forcing him to develop the Critical Philosophy that attempted to rescue knowledge from Hume's radical skepticism — and did Kant succeed or merely postpone the reckoning?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "early-modern-history"]
+    },
+    {
+      "name": "Descartes and Science: The Mechanical Universe",
+      "topics": [
+        "How did Descartes' vision of the universe as a machine — matter in motion governed by mathematical laws, no teleology, no final causes — provide the philosophical framework for the Scientific Revolution?",
+        "Why did Descartes suppress 'Le Monde' (The World, 1633) — his comprehensive physics treatise — after learning that Galileo had been condemned by the Inquisition for defending heliocentrism, and how did this self-censorship shape the rest of his career?",
+        "How did Descartes invent analytic geometry — the Cartesian coordinate system (x,y axes) that unified algebra and geometry — and why was this mathematical achievement arguably more important than his philosophy?",
+        "Why did Descartes claim that animals are automata — machines without consciousness, incapable of suffering — and how did this philosophical position license vivisection without anesthesia and shape Western attitudes toward animal exploitation for centuries?",
+        "How did Descartes' mechanistic worldview create the modern separation of science and values — if the universe is a machine, then questions of meaning, purpose, and morality fall outside science's domain — and has this separation been liberating or catastrophic?"
+      ],
+      "tags": ["philosophy", "science", "innovation", "early-modern-history"]
+    },
+    {
+      "name": "Princess Elisabeth and the Women Descartes Erased",
+      "topics": [
+        "How did Princess Elisabeth of Bohemia (1618-1680) pose the question that Descartes could not answer — 'how can the mind, being only a thinking substance, determine the body to perform voluntary actions?' — and why was her objection philosophically superior to anything his male critics produced?",
+        "What was the Descartes-Elisabeth correspondence (1643-1649) — over 50 letters discussing mind-body interaction, emotions, ethics, and politics — and why did Descartes dedicate his 'Passions of the Soul' to her while scholars ignored her contribution for 300 years?",
+        "How did Queen Christina of Sweden invite Descartes to Stockholm in 1649 — requiring him to give philosophy lessons at 5 AM in a freezing palace library — and did the cold kill him (pneumonia, February 1650) or was he poisoned by a Catholic priest?",
+        "Why did Margaret Cavendish (1623-1673) reject Descartes' mechanism — arguing for a vitalist philosophy where all matter is self-moving and sentient — and why was she dismissed as 'Mad Madge' for ideas that contemporary philosophers now take seriously?",
+        "How did the erasure of women from Cartesian philosophy — Elisabeth's objections ignored, Christina's patronage reduced to anecdote, Cavendish's alternative philosophy mocked — reflect a systematic pattern in the history of philosophy that feminist scholars have only recently begun to correct?"
+      ],
+      "tags": ["philosophy", "gender", "epistemology", "early-modern-history"]
+    },
+    {
+      "name": "Descartes' God: Proof, Circularity, and Bad Faith",
+      "topics": [
+        "Why did Descartes need God — not for salvation but for epistemology, to guarantee that clear and distinct ideas are reliable, to bridge the gap between mind and world — and how did this make God load-bearing for the entire Cartesian system?",
+        "How did Descartes' ontological argument work — that the idea of a perfect being requires that being's existence (perfection without existence would be imperfect) — and why did Kant's objection ('existence is not a predicate') demolish this proof?",
+        "What is the Cartesian Circle — Descartes uses clear and distinct ideas to prove God exists, then uses God's existence to guarantee that clear and distinct ideas are reliable — and did Descartes recognize this circularity or was he genuinely blind to it?",
+        "How did Descartes' critics (Gassendi, Hobbes, Arnauld) attack his proofs of God in the Objections and Replies — published alongside the Meditations — and why did Descartes respond with increasing irritation rather than better arguments?",
+        "Why did later philosophers (Spinoza, Hume, Nietzsche) strip God from Cartesian philosophy — keeping the method of doubt and the focus on subjective experience while abandoning the divine guarantee — and what happens to Descartes' system when God is removed?"
+      ],
+      "tags": ["philosophy", "epistemology", "spirituality", "early-modern-history"]
+    },
+    {
+      "name": "Descartes' Legacy: Why Modern Philosophy Starts Here",
+      "topics": [
+        "Why do philosophers say 'modern philosophy begins with Descartes' — the turn to the subject (starting from the individual mind rather than the world), the demand for certainty, the method of systematic doubt — and did this turn liberate philosophy or trap it inside the skull?",
+        "How did Descartes' legacy split into two traditions — continental rationalism (Spinoza, Leibniz, Hegel) and British empiricism (Locke, Berkeley, Hume) — that Kant attempted to reunify, creating a division that persists in the analytic/continental split today?",
+        "Why did Gilbert Ryle call Descartes' mind-body dualism 'the ghost in the machine' (1949) — arguing that the entire framework is a 'category mistake' — and why has this criticism not prevented dualism from dominating popular thinking about consciousness?",
+        "How does Descartes' thought experiment about the evil demon — a being powerful enough to deceive you about everything — reappear in modern philosophy of mind, in the simulation hypothesis, in 'The Matrix,' and in skepticism about AI-generated reality?",
+        "What is Descartes' ultimate legacy — the insistence that philosophy must start from scratch rather than accepting authority, the privileging of individual reason over tradition, the demand that every belief justify itself — and why is this both the greatest strength and the most dangerous tendency of modern Western thought?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "modern-history"]
+    }
+  ]
+}

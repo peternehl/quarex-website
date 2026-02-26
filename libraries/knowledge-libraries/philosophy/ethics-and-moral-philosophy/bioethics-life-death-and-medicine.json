@@ -1,0 +1,95 @@
+{
+  "name": "Bioethics: Life, Death, and Medicine",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "ethics", "health", "science", "human-rights"],
+  "chapters": [
+    {
+      "name": "The Birth of Bioethics: Why Medicine Needed Philosophy",
+      "topics": [
+        "Why did bioethics emerge as a distinct field in the 1960s-1970s — triggered by scandals like the Tuskegee syphilis experiment (1932-1972), the thalidomide disaster (1957-1961), and Henry Beecher's exposé of unethical research — and why had medicine gone so long without ethical oversight?",
+        "How did the Nuremberg Code (1947) — written in response to Nazi medical experiments — establish informed consent as the foundation of research ethics, and why did American researchers ignore it for decades?",
+        "What are the four principles of biomedical ethics — autonomy (patients decide), beneficence (do good), non-maleficence (do no harm), and justice (distribute fairly) — developed by Beauchamp and Childress in 1979, and why do these principles conflict in almost every difficult case?",
+        "How did the Karen Ann Quinlan case (1975-1976) — a 21-year-old woman in a persistent vegetative state whose parents fought to remove her ventilator — force American courts to grapple with the right to die for the first time?",
+        "Why did the Tuskegee syphilis study — in which the US Public Health Service deliberately withheld treatment from 399 Black men with syphilis for 40 years to observe the disease's natural course — remain the foundational scandal of bioethics and the source of enduring Black mistrust of medical institutions?"
+      ],
+      "tags": ["philosophy", "ethics", "health", "modern-history"]
+    },
+    {
+      "name": "Informed Consent: Who Decides?",
+      "topics": [
+        "How did the doctrine of informed consent evolve — from the paternalistic model where doctors decided ('doctor knows best') to the autonomy model where patients decide — and what triggered this shift in the 1960s and 1970s?",
+        "When does informed consent fail — patients who don't understand medical information, cultural contexts where family or community decides, emergency situations where consent is impossible, children who cannot consent — and how do bioethicists handle these exceptions?",
+        "How did the Henrietta Lacks case — HeLa cells taken without consent in 1951, generating billions in research profits while her family remained in poverty — expose the gap between legal consent and genuine justice?",
+        "What is the problem of therapeutic misconception — research subjects who believe experimental treatments are designed to help them personally rather than generate scientific knowledge — and how do clinical trial consent forms fail to dispel this confusion?",
+        "How does genetic testing challenge informed consent — when a patient's DNA reveals risks affecting blood relatives who never consented to be informed, when insurance companies demand genetic data, when prenatal testing creates pressure to terminate — and who owns your genetic information?"
+      ],
+      "tags": ["philosophy", "ethics", "health", "modern-history"]
+    },
+    {
+      "name": "The Abortion Debate: Personhood, Autonomy, and Rights",
+      "topics": [
+        "Why has philosophy failed to resolve the abortion debate — with reasonable people disagreeing about when personhood begins (conception, viability, birth, self-awareness) — and what does this failure reveal about the limits of philosophical argument on contested moral questions?",
+        "How did Judith Jarvis Thomson's violinist analogy (1971) — if you woke up connected to a famous violinist who would die if disconnected, are you obligated to stay connected for nine months? — shift the debate from fetal personhood to bodily autonomy?",
+        "Why did Don Marquis argue that abortion is wrong because it deprives the fetus of 'a future like ours' — the same reason killing an adult is wrong — and how did critics respond that this argument proves too much (making contraception also wrong)?",
+        "How did the disability rights critique complicate the abortion debate — arguing that selective abortion of fetuses with Down syndrome or other disabilities sends the message that disabled lives are not worth living — and how do feminists committed to both reproductive rights and disability rights navigate this tension?",
+        "What did the Dobbs decision (2022) — overturning Roe v. Wade after 49 years — reveal about the relationship between philosophical arguments and political power, and why did the strongest philosophical arguments for abortion rights fail to prevent their legal erosion?"
+      ],
+      "tags": ["philosophy", "ethics", "gender", "modern-history"]
+    },
+    {
+      "name": "End of Life: Euthanasia, Assisted Dying, and the Right to Die",
+      "topics": [
+        "Why is the distinction between 'killing' and 'letting die' — withdrawing a ventilator (legal everywhere) versus administering a lethal injection (legal in a few jurisdictions) — morally significant to some philosophers and morally meaningless to others?",
+        "How did Oregon's Death with Dignity Act (1997) — the first US law allowing physician-assisted suicide for terminally ill patients — challenge the medical profession's traditional commitment to preserving life, and what has 25 years of data revealed about who uses it and why?",
+        "Why did the Netherlands legalize euthanasia in 2002 — including for patients experiencing 'unbearable suffering with no prospect of improvement' — and has the Dutch experience confirmed the 'slippery slope' fear that voluntary euthanasia leads to involuntary killing?",
+        "How did the case of Terri Schiavo (1998-2005) — 15 years in a persistent vegetative state, her husband and parents fighting in court over whether to remove her feeding tube — become a national political battle and what did it expose about American attitudes toward death?",
+        "What is the philosophical case against assisted dying — the sanctity of life argument, the slippery slope to involuntary euthanasia, the concern that economic pressure will push the poor and disabled toward 'choosing' death, the risk of undermining trust in doctors — and how strong are these objections?"
+      ],
+      "tags": ["philosophy", "ethics", "health", "modern-history"]
+    },
+    {
+      "name": "Research Ethics: From Nazi Doctors to Clinical Trials",
+      "topics": [
+        "What did the Nazi medical experiments — hypothermia, high-altitude, malaria, mustard gas, performed on concentration camp prisoners — reveal about what happens when science operates without ethical constraints, and why did the Nuremberg trials define these acts as crimes against humanity rather than bad science?",
+        "How does the placebo-controlled trial create an ethical dilemma — randomly assigning some patients to receive no treatment (or a sugar pill) when an effective treatment exists — and when is it ethical to give a sick person a placebo?",
+        "Why did the Declaration of Helsinki (1964, revised multiple times) — the World Medical Association's ethical code for human experimentation — fail to prevent scandals like the testing of contraceptives on Puerto Rican women (1950s) and AZT trials in Africa (1990s)?",
+        "How do pharmaceutical companies exploit regulatory differences between countries — conducting clinical trials in India, Africa, and Eastern Europe where oversight is weaker and subjects are poorer — and what does this reveal about global bioethical inequality?",
+        "What ethical frameworks govern animal experimentation — the 3Rs (Replace, Reduce, Refine), the utilitarian argument that animal suffering is justified by human medical benefit, the rights-based argument that it is never justified — and how many of the 100 million animals used in research annually actually contribute to medical advances?"
+      ],
+      "tags": ["philosophy", "ethics", "health", "modern-history"]
+    },
+    {
+      "name": "Genetic Engineering: CRISPR, Designer Babies, and Human Enhancement",
+      "topics": [
+        "How did CRISPR-Cas9 — a gene-editing tool discovered in 2012 that allows precise modification of DNA — transform genetic engineering from a theoretical possibility into a practical reality, and why did Jennifer Doudna (who won the Nobel Prize for it) publicly express 'dread' about its implications?",
+        "Why did He Jiankui's creation of gene-edited babies in China (2018) — editing the CCR5 gene to confer HIV resistance in twin girls — provoke universal condemnation, a three-year prison sentence, and calls for an international moratorium on germline editing?",
+        "Where is the line between therapy and enhancement — curing sickle cell disease (widely accepted) versus selecting for intelligence or height (widely rejected) — and why does this distinction, which seems obvious intuitively, collapse under philosophical scrutiny?",
+        "How does genetic engineering raise justice concerns — if enhancement is expensive, will it create a genetic overclass? — and why did the film 'Gattaca' (1997) become shorthand for the dystopia of genetic discrimination?",
+        "What did the eugenics movement of the early 20th century — forced sterilization of 60,000+ Americans, Nazi racial hygiene programs — reveal about the danger of combining genetic knowledge with political power, and are modern genetic technologies repeating this history with better technology?"
+      ],
+      "tags": ["philosophy", "ethics", "science", "modern-history"]
+    },
+    {
+      "name": "Organ Transplantation: Scarcity, Markets, and Death",
+      "topics": [
+        "Why do over 100,000 Americans wait on organ transplant lists — with 17 dying each day — and why has the prohibition on buying and selling organs (the National Organ Transplant Act, 1984) created a permanent shortage?",
+        "Should organ markets be legal — economists argue that allowing payment would increase supply and save lives, while critics argue that only the poor would sell and only the rich would buy, creating 'bodies for sale' — and what do the experiences of Iran (the only legal organ market) reveal?",
+        "How did the definition of 'brain death' (1968) — declaring a person dead when brain function ceases even if the heart still beats — emerge specifically to enable organ transplantation, and why do some philosophers and neurologists argue this definition is a convenient fiction?",
+        "What is the opt-in versus opt-out debate — countries with presumed consent (Spain, Austria) have higher donation rates than countries requiring explicit consent (US, Germany) — and does presumed consent violate autonomy or simply overcome inertia?",
+        "How did China's use of executed prisoners' organs — documented for decades, denied by the government, condemned by international medical organizations — represent the most extreme violation of bioethical principles in organ transplantation?"
+      ],
+      "tags": ["philosophy", "ethics", "health", "modern-history"]
+    },
+    {
+      "name": "AI, Algorithms, and the Future of Bioethics",
+      "topics": [
+        "How does AI-assisted diagnosis challenge the doctor-patient relationship — when an algorithm detects cancer more accurately than a radiologist, who is responsible for errors, and can a patient meaningfully consent to treatment recommended by a system no one fully understands?",
+        "What ethical problems arise from health data collection — fitness trackers, genetic databases, electronic health records — when insurance companies, employers, and law enforcement can access information patients shared for medical purposes?",
+        "How should society allocate scarce medical resources during pandemics — the utilitarian approach (save the most lives), the egalitarian approach (first come first served), the social utility approach (prioritize healthcare workers) — and what did COVID-19 triage protocols reveal about whose lives we actually value?",
+        "What are the ethics of brain-computer interfaces — Neuralink and similar technologies that promise to restore function to paralyzed patients but also enable cognitive enhancement, surveillance, and manipulation — and does connecting brains to computers change what it means to be human?",
+        "Why will bioethics become more important, not less — as genetic engineering, AI diagnosis, life extension technologies, synthetic biology, and neurotechnology advance faster than moral frameworks can adapt — and is the four-principles approach adequate for dilemmas its creators never imagined?"
+      ],
+      "tags": ["philosophy", "ethics", "technology", "modern-history"]
+    }
+  ]
+}

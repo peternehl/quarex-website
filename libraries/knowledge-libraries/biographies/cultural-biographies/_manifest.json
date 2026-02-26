@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "william-shakespeare-a-biography",
+    "name": "William Shakespeare: A Biography",
+    "description": "A glove-maker's son who invented the modern human — 37 plays, 154 sonnets, and four centuries of arguments about who he really was",
+    "chapterCount": 5,
+    "tags": ["arts", "literature", "culture", "identity", "early-modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "frida-kahlo-a-biography",
+    "name": "Frida Kahlo: A Biography",
+    "description": "Shattered spine, shattered marriage, unflinching self-portraits — the woman who turned agony into art and became the most recognized female artist in history",
+    "chapterCount": 5,
+    "tags": ["arts", "identity", "gender", "activism", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "wolfgang-amadeus-mozart-a-biography",
+    "name": "Wolfgang Amadeus Mozart: A Biography",
+    "description": "Child prodigy, freelance genius, pauper's grave — 600 compositions in 35 years and the question of what he might have written if he had lived",
+    "chapterCount": 5,
+    "tags": ["arts", "music", "culture", "innovation", "early-modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "toni-morrison-a-biography",
+    "name": "Toni Morrison: A Biography",
+    "description": "The novelist who refused to explain Black life to white readers — and won the Nobel Prize for writing the stories America had never told",
+    "chapterCount": 5,
+    "tags": ["arts", "literature", "identity", "race", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "pablo-picasso-a-biography",
+    "name": "Pablo Picasso: A Biography",
+    "description": "The man who broke art and rebuilt it — Cubism, Guernica, 50,000 works, and a personal life that the feminist era has not forgiven",
+    "chapterCount": 5,
+    "tags": ["arts", "culture", "innovation", "identity", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "charlie-chaplin-a-biography",
+    "name": "Charlie Chaplin: A Biography",
+    "description": "Born in a workhouse, became the most famous face on Earth, exiled by the country that made him — the Tramp who laughed at power",
+    "chapterCount": 5,
+    "tags": ["arts", "culture", "media", "politics", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "bob-marley-a-biography",
+    "name": "Bob Marley: A Biography",
+    "description": "From Trenchtown to the world — the only Third World artist to achieve global superstardom, shot and still performing, dead at 36 and immortal",
+    "chapterCount": 5,
+    "tags": ["arts", "music", "activism", "spirituality", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "maya-angelou-a-biography",
+    "name": "Maya Angelou: A Biography",
+    "description": "Silenced by trauma at seven, speaking for the nation at Clinton's inauguration — the caged bird who sang until the whole country listened",
+    "chapterCount": 5,
+    "tags": ["arts", "literature", "identity", "civil-rights", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  }
+]

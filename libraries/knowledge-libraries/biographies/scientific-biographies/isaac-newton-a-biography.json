@@ -1,0 +1,62 @@
+{
+  "name": "Isaac Newton: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "innovation", "physics", "leadership", "early-modern-history"],
+  "chapters": [
+    {
+      "name": "The Solitary Genius (1642-1669)",
+      "topics": [
+        "Who was Isaac Newton — born prematurely on Christmas Day 1642 in Woolsthorpe, Lincolnshire, three months after his father's death, abandoned by his mother when she remarried, raised by grandparents he resented — and how did this childhood of rejection shape the most powerful and paranoid scientific mind in history?",
+        "What did Newton accomplish during the 'Annus Mirabilis' of 1665-1666 — sent home from Cambridge by the plague, he developed calculus, discovered the composition of white light using prisms, and began formulating the law of universal gravitation — all before age 25?",
+        "How did Newton become Lucasian Professor of Mathematics at Cambridge in 1669 — at age 26, succeeding Isaac Barrow, holding the chair for 33 years — while spending more time on alchemy and biblical interpretation than on the mathematics and physics that made him famous?",
+        "What was Newton's method of working — intense, solitary concentration lasting days or weeks, forgetting to eat, rarely leaving his rooms, communicating his discoveries reluctantly and only under pressure — and how did this reclusive temperament produce breakthroughs that more sociable minds could not?",
+        "What was the scientific world Newton entered — Descartes' mechanical philosophy, Kepler's laws of planetary motion, Galileo's kinematics, Hooke's experiments on elasticity, the newly founded Royal Society — and how did Newton synthesize all of this into a single unified framework?"
+      ],
+      "tags": ["science", "physics", "innovation", "early-modern-history"]
+    },
+    {
+      "name": "Optics, Calculus, and the Feuds (1669-1684)",
+      "topics": [
+        "How did Newton's work on optics — splitting white light through a prism to reveal the color spectrum, building the first reflecting telescope (1668), presenting his findings to the Royal Society (1672) — challenge the established Cartesian theory that light was a modification of pressure in the ether?",
+        "How did Newton's feud with Robert Hooke begin — Hooke criticizing Newton's optical theory, Newton responding with fury, withdrawing from publication for over a decade — and why did this rivalry become one of the most toxic in the history of science?",
+        "What was Newton's development of calculus — his 'method of fluxions' invented in 1665-1666, circulated privately but not published until decades later — and how did his secretive nature set the stage for the devastating priority dispute with Leibniz?",
+        "What was Newton's secret intellectual life during the 1670s and early 1680s — his decades of alchemical experiments (he wrote more on alchemy than physics), his study of biblical chronology, his Arian theology that rejected the Trinity (heresy in Anglican England)?",
+        "Why did Newton suffer what appears to have been a nervous breakdown in 1693 — sending bizarre letters to Pepys and Locke, possible mercury poisoning from alchemy experiments — and how did he recover to enter the most powerful phase of his public career?"
+      ],
+      "tags": ["science", "physics", "innovation", "early-modern-history"]
+    },
+    {
+      "name": "The Principia: The Most Important Book in Science (1684-1687)",
+      "topics": [
+        "How did Edmond Halley's visit in 1684 — asking Newton what shape a planet's orbit would take under an inverse-square force — trigger the writing of the 'Principia,' when Newton casually replied 'an ellipse' and said he had proved it years ago but lost the paper?",
+        "What did the 'Principia Mathematica' (1687) accomplish — the three laws of motion, the law of universal gravitation, the mathematics of celestial mechanics, the proof that the same force governs falling apples and orbiting planets — and why is it the most important scientific work ever published?",
+        "How did Halley make the Principia possible — financing publication out of his own pocket after the Royal Society ran out of funds, editing the manuscript, mediating between Newton and Hooke over priority claims — and would this masterpiece have been published without Halley's intervention?",
+        "What was the Principia's reception — immediate recognition across Europe that Newton had achieved something unprecedented, Voltaire popularizing his ideas in France, the Leibniz camp attacking his concept of 'action at a distance' as occult — and how did the book make Newton the most famous intellectual in Europe?",
+        "How did the Principia change humanity's understanding of the universe — demonstrating that nature operates by mathematical laws discoverable by human reason, laying the foundation for the Enlightenment belief in progress through science, and creating the mechanistic worldview that dominated physics until Einstein?"
+      ],
+      "tags": ["science", "physics", "innovation", "early-modern-history"]
+    },
+    {
+      "name": "Power and Vengeance: London (1696-1727)",
+      "topics": [
+        "How did Newton transition from reclusive scientist to public figure — elected to Parliament (1689-1690), appointed Warden of the Royal Mint (1696), then Master of the Mint (1699) — and why did he pursue counterfeiters with the same intensity he applied to physics, personally interrogating suspects and sending them to the gallows?",
+        "What was the calculus priority dispute with Leibniz — both men independently developing calculus in the 1670s, Newton claiming priority but publishing decades later, the Royal Society investigation (stacked with Newton's allies) ruling in Newton's favor (1713) — a feud that poisoned mathematics for a century?",
+        "How did Newton use the presidency of the Royal Society (1703-1727) — ruling as a tyrant, suppressing rival theories, using institutional power to settle personal scores — and what does this say about the myth of the dispassionate scientist?",
+        "What was Newton's relationship with religion and power — his secret Arianism never discovered during his lifetime, his friendship with Locke, his role in the Glorious Revolution, his knighthood from Queen Anne (1705) — and how did he balance heretical private beliefs with public orthodoxy?",
+        "How did Newton die on March 31, 1727 — at age 84, one of the wealthiest and most powerful men in England, given a state funeral at Westminster Abbey attended by dukes and lords — the largest funeral ever given to a scientist?"
+      ],
+      "tags": ["science", "leadership", "governance", "early-modern-history"]
+    },
+    {
+      "name": "Legacy: Standing on the Shoulders of Giants",
+      "topics": [
+        "What is Newton's scientific legacy — the creator of classical mechanics that governed physics for over 200 years, the co-inventor of calculus, the man who showed that nature obeys mathematical laws — and why did he say 'if I have seen further, it is by standing on the shoulders of giants' (possibly a dig at the short Robert Hooke)?",
+        "How did Einstein surpass Newton — general relativity replacing Newtonian gravity for extreme conditions, quantum mechanics revealing a world Newton's physics couldn't describe — while Newton's laws remain perfectly accurate for everyday engineering, space flight, and everything that isn't near light speed or subatomic?",
+        "How did Newton's personality — vindictive, paranoid, secretive, unable to tolerate disagreement, willing to destroy rivals — coexist with his genius, and what does this say about the dangerous myth that great minds must be great people?",
+        "What was Newton's secret life — his alchemical experiments (producing more writing than his physics), his biblical chronology attempting to date Creation and the apocalypse, his lifelong celibacy — and why were these pursuits hidden for centuries until John Maynard Keynes purchased his papers?",
+        "Why did Alexander Pope write 'Nature and Nature's laws lay hid in night: God said, Let Newton be! and all was light' — and why does Newton remain, three centuries later, the standard by which scientific achievement is measured?"
+      ],
+      "tags": ["science", "physics", "innovation", "early-modern-history"]
+    }
+  ]
+}

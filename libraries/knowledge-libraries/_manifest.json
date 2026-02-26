@@ -8,25 +8,25 @@
   {
     "slug": "biographies",
     "name": "Biographies",
-    "description": null,
-    "shelfCount": 1
+    "description": "The lives that shaped history — world leaders, scientists, civil rights pioneers, and cultural icons who changed what was possible.",
+    "shelfCount": 5
   },
   {
     "slug": "philosophy",
     "name": "Philosophy",
     "description": "Exploring fundamental questions about existence, knowledge, ethics, and meaning across world philosophical traditions.",
-    "shelfCount": 1
+    "shelfCount": 4
   },
   {
     "slug": "the-arts",
     "name": "The Arts",
-    "description": null,
+    "description": "Literature, music, theater, visual arts, and film — the creative traditions that express and shape human experience.",
     "shelfCount": 3
   },
   {
     "slug": "the-sciences",
     "name": "The Sciences",
-    "description": null,
+    "description": "From physics to biology, mathematics to history — the disciplines that explain how the natural and human worlds work.",
     "shelfCount": 4
   }
 ]

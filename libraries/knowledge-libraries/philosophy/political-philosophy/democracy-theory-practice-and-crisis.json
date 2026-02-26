@@ -1,0 +1,95 @@
+{
+  "name": "Democracy: Theory, Practice, and Crisis",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "politics", "democracy", "governance", "modern-history"],
+  "chapters": [
+    {
+      "name": "Athens: The Invention of Democracy",
+      "topics": [
+        "How did Athenian democracy work — the Assembly (ekklesia) of all male citizens voting directly on laws and war, selection of officials by lottery (sortition), the right of any citizen to speak (isegoria) — and why was this the most radical political experiment in the ancient world?",
+        "What were the limits of Athenian democracy — women, slaves (roughly a third of the population), and foreigners excluded, the empire extracting tribute from subject cities to fund Athenian magnificence — and does this mean Athens was a democracy only for the few?",
+        "Why did Plato and Aristotle oppose democracy — Plato arguing in 'The Republic' that the masses are ignorant and democracy degenerates into tyranny, Aristotle calling it 'rule by the poor' in their own interest — and why did their arguments against democracy dominate Western political thought for 2,000 years?",
+        "What was Thucydides' warning about democratic imperialism — his account of the Athenian Assembly voting to massacre the men of Melos for the crime of neutrality ('the strong do what they can and the weak suffer what they must') — and does democracy inherently produce better foreign policy?",
+        "Why did Athens execute Socrates (399 BCE) — a democratic jury of 501 citizens condemning the city's greatest philosopher for 'corrupting the youth' and 'impiety' — and what does this reveal about democracy's relationship to dissent, free thought, and the tyranny of the majority?"
+      ],
+      "tags": ["philosophy", "democracy", "ancient-greece", "ancient-history"]
+    },
+    {
+      "name": "From Republic to Revolution: The Modern Democratic Idea",
+      "topics": [
+        "How did the English Civil War (1642-1651) produce the first modern arguments for popular sovereignty — the Levellers demanding universal male suffrage, the Putney Debates (1647) where common soldiers argued 'the poorest he that is in England has a life to live as the greatest he' — before Cromwell crushed them?",
+        "What did Rousseau mean by the 'general will' — that true freedom is obedience to laws you give yourself, that the sovereign people can 'force men to be free' — and why did this concept inspire both democratic revolutions and totalitarian dictatorships?",
+        "How did the American Revolution (1776) create a democratic republic — representative government, separation of powers, federalism, the Bill of Rights — while deliberately limiting democracy through the Electoral College, the Senate, property requirements for voting, and the exclusion of women, slaves, and indigenous peoples?",
+        "How did the French Revolution (1789-1799) demonstrate democracy's potential and danger — the Declaration of the Rights of Man, the abolition of feudalism, universal male suffrage — followed by the Terror, Napoleon, and the restoration of monarchy, all within a decade?",
+        "What did Tocqueville's 'Democracy in America' (1835-1840) identify as democracy's strengths and weaknesses — the energy of voluntary associations, the danger of 'soft despotism' (a paternalistic state that keeps citizens comfortable but infantilized), the 'tyranny of the majority' over thought and culture?"
+      ],
+      "tags": ["history", "democracy", "europe", "modern-history"]
+    },
+    {
+      "name": "Suffrage: Who Gets to Vote?",
+      "topics": [
+        "How was the right to vote expanded in stages — from property-owning white men to all white men (Jacksonian democracy, 1830s), to Black men (15th Amendment, 1870, then systematically denied until 1965), to women (19th Amendment, 1920), to 18-year-olds (26th Amendment, 1971) — and why did each expansion require a political struggle against those who benefited from exclusion?",
+        "What strategies were used to suppress the vote after it was formally granted — literacy tests, poll taxes, grandfather clauses, white primaries, gerrymandering, felon disenfranchisement, voter ID laws — and why has voter suppression been a constant feature of American democracy rather than an aberration?",
+        "How did the Chartist movement in Britain (1838-1857) — demanding universal male suffrage, secret ballot, annual elections, equal constituencies — demonstrate that the expansion of democracy required sustained working-class organization, and why were they dismissed as dangerous radicals for demands we now consider basic?",
+        "What was the global suffrage movement — New Zealand granting women's suffrage first (1893), the suffragettes in Britain and America, the struggle for universal suffrage in the decolonizing world — and why did the idea that every adult should vote, obvious to us, seem revolutionary for most of human history?",
+        "Does universal suffrage guarantee democracy — when elections can be manipulated (gerrymandering, voter suppression, media control), when money dominates campaigns (Citizens United), when voters choose authoritarians (Hitler won a plurality in 1932) — and is voting necessary but not sufficient for genuine democracy?"
+      ],
+      "tags": ["politics", "democracy", "voting-rights", "modern-history"]
+    },
+    {
+      "name": "Democratic Theory: Deliberation, Participation, and Representation",
+      "topics": [
+        "What is deliberative democracy — Jürgen Habermas arguing that legitimate laws must result from rational public deliberation among free and equal citizens, that democracy is not just voting but reasoning together — and is this ideal achievable when political debate is dominated by propaganda, money, and tribal identity?",
+        "How does participatory democracy differ from representative democracy — direct citizen involvement in decision-making (participatory budgeting in Porto Alegre, citizens' assemblies in Ireland, New England town meetings) versus electing representatives who decide for you — and which produces better outcomes?",
+        "What is the 'principal-agent problem' of representation — that elected officials (agents) inevitably develop interests different from the voters (principals) who elected them, that lobbying, party discipline, and career incentives distort representation — and can any institutional design solve this?",
+        "How do different electoral systems shape democracy — first-past-the-post (producing two parties and 'wasted' votes), proportional representation (producing coalition government), ranked-choice voting, mixed systems — and why do Americans rarely question their own system despite its well-documented failures?",
+        "What is the case for sortition — selecting political decision-makers by lottery (as Athens did), as proposed by political theorists like Hélène Landemore and practiced in citizens' assemblies — and would random selection produce better governance than elections corrupted by money and demagoguery?"
+      ],
+      "tags": ["philosophy", "democracy", "governance", "modern-history"]
+    },
+    {
+      "name": "The Third Wave and Democratic Transitions",
+      "topics": [
+        "What was Samuel Huntington's 'third wave of democratization' (1974-present) — the fall of dictatorships in Southern Europe (Portugal, Spain, Greece), Latin America (Argentina, Brazil, Chile), East Asia (South Korea, Taiwan, Philippines), Eastern Europe (1989), and parts of Africa — and what caused this wave?",
+        "How did the transitions work — negotiated pacts between old regime and opposition (Spain, Poland), popular revolution (Romania, Philippines), collapse (East Germany, USSR) — and why did the method of transition shape the quality of democracy that followed?",
+        "What is 'transitional justice' — truth commissions (South Africa), lustration (Czech Republic), war crimes tribunals (Yugoslavia, Rwanda) — and how do societies emerging from dictatorship balance the demand for justice with the need for reconciliation?",
+        "Why did the 'Arab Spring' (2010-2012) — mass uprisings in Tunisia, Egypt, Libya, Syria, Bahrain, Yemen — produce democracy in only one country (Tunisia, which later backslid), civil war in three, and restored authoritarianism in the rest?",
+        "What conditions make democracy durable — economic development (Lipset's modernization theory), a strong middle class, the rule of law, civil society, political culture, external support — and why do some countries with all these conditions still fail while others without them succeed?"
+      ],
+      "tags": ["politics", "democracy", "geopolitics", "modern-history"]
+    },
+    {
+      "name": "Money, Media, and the Corruption of Democracy",
+      "topics": [
+        "How does money corrupt democracy — campaign financing that gives donors disproportionate influence, lobbying that writes legislation, the revolving door between government and industry, the finding by political scientists Martin Gilens and Benjamin Page (2014) that US policy responds to the preferences of economic elites, not average citizens?",
+        "What did Citizens United v. FEC (2010) do — declaring that corporations have First Amendment rights to spend unlimited money on elections, that 'independent expenditures' cannot corrupt — and why did Justice Stevens's dissent warn that this would 'undermine the integrity of elected institutions across the Nation'?",
+        "How has social media changed democratic politics — enabling grassroots organizing (Obama 2008, Arab Spring) but also enabling disinformation, polarization, algorithmic radicalization, foreign interference (Russia's 2016 operations), and the fragmentation of shared reality?",
+        "What is the relationship between media ownership and democracy — when six corporations control most American media, when Rupert Murdoch's empire shapes politics across three continents, when local journalism collapses into 'news deserts' — and can democracy function without independent journalism?",
+        "How do populist leaders weaponize media against democracy — Trump's 'fake news,' Bolsonaro's WhatsApp networks, Orbán's media capture, Modi's troll armies — using democratic tools (free speech, free press, social media) to undermine democratic institutions?"
+      ],
+      "tags": ["politics", "democracy", "media-literacy", "modern-history"]
+    },
+    {
+      "name": "Democratic Backsliding and the Crisis of the 2020s",
+      "topics": [
+        "What is 'democratic recession' — Freedom House documenting 18 consecutive years of democratic decline worldwide (2006-2024), fewer countries becoming democratic, more existing democracies eroding — and what is driving this global trend?",
+        "How does democratic backsliding work in practice — the 'autocratization playbook' identified by political scientists: attack the press, pack the courts, weaponize corruption investigations, change electoral rules, scapegoat minorities, claim that opposition is illegitimate — as seen in Hungary, Turkey, Poland, India, and the United States?",
+        "What happened to American democracy — the January 6 insurrection (2021), election denial becoming mainstream Republican politics, the erosion of norms (filibuster abuse, Supreme Court manipulation, gerrymandering extremes) — and is the US experiencing democratic backsliding or democratic failure?",
+        "How does economic inequality threaten democracy — when the richest 1% own more than the bottom 50%, when billionaires fund political movements, when austerity destroys public services — and does extreme inequality make democracy impossible regardless of formal institutions?",
+        "What is the 'polycrisis' facing democracies — climate change requiring rapid collective action, pandemic response revealing institutional failures, AI threatening jobs and truth itself, migration straining social cohesion — and are democratic institutions capable of responding to crises that require speed, sacrifice, and long-term planning?"
+      ],
+      "tags": ["politics", "democracy", "governance", "modern-history"]
+    },
+    {
+      "name": "Reinventing Democracy: What Would Real Democracy Look Like?",
+      "topics": [
+        "What is 'workplace democracy' — the argument that you cannot have political democracy without economic democracy, that spending eight hours a day under authoritarian management contradicts democratic citizenship, that cooperatives and co-determination (workers on boards, as in Germany) should replace shareholder capitalism?",
+        "How are citizens' assemblies reinventing democratic practice — Ireland's Citizens' Assembly recommending abortion legalization (approved by referendum), France's Citizens' Convention on Climate, the growing evidence that randomly selected citizens make better decisions than elected politicians on complex policy questions?",
+        "What is 'democratic innovation' — digital democracy (Taiwan's vTaiwan platform for crowdsourcing policy), liquid democracy (delegating your vote to trusted experts on specific issues), quadratic voting (expressing intensity of preference) — and can technology save democracy or just create new forms of manipulation?",
+        "How do feminists and critical race theorists reimagine democracy — Iris Marion Young's 'politics of difference,' the argument that genuine democracy requires not just formal equality but the active inclusion of marginalized voices, that 'neutral' democratic procedures reproduce existing hierarchies?",
+        "Why did Winston Churchill say democracy is 'the worst form of Government except for all those other forms that have been tried' — and does this minimalist defense (democracy prevents the worst outcomes even if it doesn't produce the best ones) remain the strongest argument, or should we expect democracy to do more than merely avoid catastrophe?"
+      ],
+      "tags": ["philosophy", "democracy", "governance", "modern-history"]
+    }
+  ]
+}

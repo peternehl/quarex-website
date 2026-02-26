@@ -1,0 +1,62 @@
+{
+  "name": "Marie Curie: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "gender", "physics", "innovation", "modern-history"],
+  "chapters": [
+    {
+      "name": "Maria Skłodowska: From Warsaw to Paris (1867-1895)",
+      "topics": [
+        "Who was Maria Skłodowska before she became Marie Curie — born in Russian-occupied Poland, the daughter of teachers, educated in underground 'floating universities' banned by the Tsar, working as a governess to fund her sister Bronya's medical education before she could afford to study in Paris?",
+        "What was Russian-occupied Poland like for the Skłodowski family — the ban on teaching Polish in schools, Maria's father losing his teaching position due to Russian political pressure, the death of her mother from tuberculosis and her sister Zofia from typhus — and how did this childhood of loss and oppression forge her determination?",
+        "How did Marie arrive at the Sorbonne in 1891 — one of 23 women among 1,825 science students, living in an unheated garret, surviving on bread and chocolate, sometimes fainting from hunger — and what drove her to finish first in her physics degree (1893) and second in mathematics (1894)?",
+        "How did Marie meet Pierre Curie — introduced in 1894, drawn together by shared scientific passion, married in 1895 in a ceremony so modest that Marie wore a dark blue dress she could use afterward in the laboratory — and why was this intellectual partnership one of the most productive in scientific history?",
+        "What was the position of women in science in the 1890s — barred from most universities, excluded from scientific societies, denied laboratory space, their work attributed to husbands or supervisors — and how did Marie navigate these barriers while insisting that her work speak for itself?"
+      ],
+      "tags": ["science", "gender", "education", "modern-history"]
+    },
+    {
+      "name": "The Discovery of Radioactivity (1896-1903)",
+      "topics": [
+        "How did Marie choose her dissertation topic — investigating Henri Becquerel's newly discovered 'uranium rays' (1896), a subject so obscure that no one else wanted it — and why did this overlooked corner of physics turn out to contain the most revolutionary discovery of the era?",
+        "How did Marie and Pierre discover that radioactivity was an atomic property — Marie's systematic testing of every known element, her finding that thorium was also radioactive, her realization that pitchblende ore was more radioactive than pure uranium (meaning it contained unknown radioactive elements)?",
+        "What was the physical labor of isolating radium — processing tons of pitchblende ore by hand in a leaking shed with no ventilation, stirring boiling mixite in iron cauldrons, four years of backbreaking work to isolate one-tenth of a gram of radium — and why was this endurance as remarkable as the intellectual discovery?",
+        "How were Marie and Pierre nearly excluded from the 1903 Nobel Prize in Physics — the committee initially nominating only Pierre and Becquerel, until Pierre insisted that Marie be included — and what does this near-erasure reveal about the treatment of women in science?",
+        "What was the cost of this work — handling radioactive materials without protection, chronic illness that both Curies dismissed, the radiation burns on Marie's hands that she carried for life — in an era when no one understood that the glow they found beautiful was killing them?"
+      ],
+      "tags": ["science", "physics", "innovation", "modern-history"]
+    },
+    {
+      "name": "Widowhood, Scandal, and the Second Nobel (1906-1914)",
+      "topics": [
+        "How did Pierre Curie's death on April 19, 1906 — killed instantly by a horse-drawn cart on a rain-slicked Paris street — leave Marie shattered, alone with two daughters, and determined to continue the work they had begun together?",
+        "How did Marie become the first woman to hold a professorship at the Sorbonne — taking Pierre's chair, her first lecture beginning at the exact sentence where his last lecture had ended — in a moment that combined grief, defiance, and scientific continuity?",
+        "What was the Langevin affair of 1911 — Marie's relationship with married physicist Paul Langevin, the stolen letters published by the press, the xenophobic mob outside her house, the French Academy refusing her membership by two votes — and how did gender and nationality combine to nearly destroy her?",
+        "How did Marie win the Nobel Prize in Chemistry in 1911 — for isolating pure radium and determining its atomic weight — becoming the first person to win Nobels in two different sciences, while the Nobel committee privately urged her not to attend the ceremony due to the scandal?",
+        "How did Marie respond to the scandal — attending the Nobel ceremony despite pressure, refusing to apologize, telling the committee that her private life had nothing to do with her science — and why was this defiance remarkable in an era when women were expected to be above reproach?"
+      ],
+      "tags": ["science", "gender", "innovation", "modern-history"]
+    },
+    {
+      "name": "War, Radium, and the Radioactive Legacy (1914-1934)",
+      "topics": [
+        "What did Marie Curie do during World War I — designing mobile X-ray units ('petites Curies'), driving them to the front lines herself, training 150 women as X-ray operators, performing over a million X-ray examinations of wounded soldiers — and why is this wartime heroism largely forgotten?",
+        "How did Marie's daughter Irène Joliot-Curie continue the family legacy — assisting her mother with wartime X-rays at age 17, later discovering artificial radioactivity with her husband Frédéric, winning her own Nobel Prize in Chemistry (1935) — creating the only mother-daughter Nobel dynasty?",
+        "What was the Radium Institute — the laboratory Marie built in Paris, a world center for radioactive research, training a generation of scientists — and how did she use her fame to fundraise, including two trips to the United States where President Harding presented her with a gram of radium?",
+        "How did the commercial radium industry — radium paint on watch dials, radium tonics, radium beauty products — exploit the element Marie had discovered, and what happened to the 'Radium Girls' (factory workers who licked their radium-tipped brushes and died of radiation poisoning)?",
+        "How did Marie Curie die on July 4, 1934 — of aplastic anemia caused by decades of radiation exposure, her personal belongings still so radioactive they are kept in lead-lined boxes at the Bibliothèque nationale — and what does her death reveal about the price that pioneers pay for knowledge?"
+      ],
+      "tags": ["science", "gender", "conflict", "modern-history"]
+    },
+    {
+      "name": "Legacy: The Woman Who Changed Science",
+      "topics": [
+        "How was Marie Curie honored after death — her remains transferred to the Panthéon in 1995 (the first woman honored for her own achievements), her face on Polish and French currency, the element curium named for both Curies — and why did official recognition come so late?",
+        "What is Marie Curie's significance for women in science — the first woman to win a Nobel Prize, the first person to win two, the proof that women could do physics at the highest level — and why does the gender gap in physics persist more than a century after her discoveries?",
+        "How has Marie Curie become a cultural icon — biographies, films (including the 2019 'Radioactive'), children's books, a symbol invoked whenever women's capabilities in science are questioned — and how much of this iconography simplifies a complex and difficult woman?",
+        "What did Curie's discoveries lead to — nuclear energy, radiation therapy for cancer, nuclear weapons, medical imaging, industrial radiography — and how does her legacy encompass both healing and destruction?",
+        "Why did Einstein say of Marie Curie that she was 'the only person to be uncorrupted by fame' — and what does her life demonstrate about the relationship between scientific genius, personal sacrifice, institutional sexism, and the relentless pursuit of knowledge?"
+      ],
+      "tags": ["science", "gender", "leadership", "modern-history"]
+    }
+  ]
+}

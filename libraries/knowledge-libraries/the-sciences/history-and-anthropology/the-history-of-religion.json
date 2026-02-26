@@ -1,0 +1,115 @@
+{
+  "name": "The History of Religion",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "religion", "spirituality", "philosophy", "society", "cultural-heritage", "anthropology"],
+  "chapters": [
+    {
+      "name": "Before the Gods: Prehistoric Religion and Ritual",
+      "topics": [
+        "What do the cave paintings of Lascaux (c. 17,000 BCE) and Chauvet (c. 36,000 BCE) — depicting animals, handprints, and possibly shamanic figures — tell us about the earliest forms of human religious expression?",
+        "How did Gobekli Tepe (c. 9600 BCE) — a massive stone monument complex built by hunter-gatherers before agriculture, pottery, or permanent settlements — overturn the assumption that religion was a product of civilization rather than its catalyst?",
+        "What was ancestor worship, and why did virtually every early human society develop rituals around death — from Neanderthal flower burials (c. 60,000 BCE) to Egyptian mummification — suggesting that confronting mortality is the origin of religious thought?",
+        "How did shamanism — the practice of achieving altered states of consciousness to communicate with spirits, heal illness, and predict the future — function across Siberian, African, Australian, and American indigenous cultures?",
+        "Why did the transition from hunting-gathering to agriculture (c. 10,000 BCE) transform religious practice — shifting from animal spirits and nature gods to fertility cults, harvest rituals, and the emergence of organized priesthoods?",
+        "What do comparative studies of prehistoric religion reveal about universal human patterns — the burial of the dead, the marking of sacred spaces, the use of psychoactive substances, and the belief in an unseen world — that transcend any single culture?"
+      ],
+      "tags": ["religion", "cultural-heritage", "prehistoric", "anthropology"]
+    },
+    {
+      "name": "Polytheism: The Gods of Egypt, Mesopotamia, Greece, and Rome",
+      "topics": [
+        "Why did polytheism dominate human religious experience for millennia, and what specific social functions did having multiple gods — of war, fertility, harvest, death, justice — serve that a single deity could not?",
+        "How did ancient Egyptian religion — with its elaborate afterlife beliefs, the weighing of the heart, 2,000 deities, and temple complexes employing thousands of priests — sustain a civilization for 3,000 years?",
+        "What was the relationship between Mesopotamian religion and power — how did kings claim divine mandate, temples function as economic centers, and priests control access to the gods through ritual and divination?",
+        "How did Greek mythology function as both entertainment and philosophical inquiry — with stories about Zeus, Prometheus, Odysseus, and Oedipus exploring questions of fate, justice, and the human condition?",
+        "Why did the Roman Empire adopt and adapt the religions of conquered peoples — syncretizing Greek gods, Egyptian Isis, Persian Mithras, and eventually Christianity — rather than imposing a single faith?",
+        "How did polytheistic religions decline — was it the intellectual critique of philosophers (Xenophanes, Epicurus), the appeal of mystery religions offering personal salvation, or the political triumph of Christianity and Islam?"
+      ],
+      "tags": ["religion", "spirituality", "ancient-history", "anthropology"]
+    },
+    {
+      "name": "Judaism: The Invention of Monotheism",
+      "topics": [
+        "How did ancient Israelite religion evolve from henotheism ('our god is the most powerful') to strict monotheism ('there is only one God') — a transition that occurred over centuries and represented a radical break from every surrounding culture?",
+        "What was the significance of the Babylonian Exile (586-538 BCE) — when the destruction of the Temple and deportation to Babylon forced Judaism to reinvent itself as a religion centered on scripture, law, and community rather than a temple cult?",
+        "How did the Hebrew Bible (Tanakh) come to be assembled, edited, and canonized — a process spanning centuries — and what does textual analysis reveal about its multiple authors, contradictions, and layers of revision?",
+        "Why did the destruction of the Second Temple by Rome in 70 CE transform Judaism permanently — ending the priesthood and sacrificial system and establishing rabbinic Judaism, centered on Torah study and synagogue worship, as the surviving form?",
+        "How did Jewish communities survive 2,000 years of diaspora, persecution, and pressure to convert — from the Roman Empire through medieval expulsions to the Holocaust — while maintaining a continuous religious and cultural identity?",
+        "What is the relationship between Judaism and its 'daughter religions' — Christianity and Islam — and how have theological similarities (monotheism, prophetic tradition, ethical commandments) coexisted with centuries of conflict?"
+      ],
+      "tags": ["religion", "spirituality", "ancient-history", "middle-east"]
+    },
+    {
+      "name": "Christianity: From Jewish Sect to World Religion",
+      "topics": [
+        "How did a Jewish apocalyptic movement centered on a crucified preacher in Roman Palestine become the world's largest religion within three centuries — and what social, political, and theological factors drove this extraordinary expansion?",
+        "What role did Paul of Tarsus play in transforming Christianity from a Jewish sect into a universal religion — opening it to Gentiles, developing its theology of salvation through faith, and establishing churches across the Roman Empire?",
+        "How did the Council of Nicaea (325 CE) and subsequent ecumenical councils define Christian orthodoxy — deciding that Jesus was fully God and fully human, that the Trinity was one God in three persons — while condemning alternative interpretations as heresy?",
+        "What caused the Great Schism of 1054 between the Roman Catholic Church and Eastern Orthodoxy, and why have these two branches of Christianity — differing on papal authority, the Filioque clause, and clerical celibacy — remained separate for nearly a millennium?",
+        "How did the Protestant Reformation — triggered by Luther's 95 Theses (1517), sustained by the printing press, and diversified by Calvin, Zwingli, and the Anabaptists — shatter Western Christian unity and reshape European politics, economics, and culture?",
+        "Why did Christianity spread globally through colonialism — with missionaries accompanying conquistadors, slave traders, and colonial administrators — and how have post-colonial churches in Africa, Asia, and Latin America reinterpreted the faith on their own terms?"
+      ],
+      "tags": ["religion", "spirituality", "modern-history", "europe"]
+    },
+    {
+      "name": "Islam: Revelation, Empire, and Civilization",
+      "topics": [
+        "How did Muhammad's revelations (610-632 CE) — received in a cave near Mecca and compiled into the Quran — create a religion that within a century governed territory from Spain to Central Asia?",
+        "What are the Five Pillars of Islam (shahada, salat, zakat, sawm, hajj), and how do they create a framework of practice that unifies 1.8 billion Muslims across vastly different cultures?",
+        "How did Islamic law (Sharia) develop from Quranic verses and the Prophet's example (hadith) into a comprehensive legal system — and why do the four Sunni schools of jurisprudence (Hanafi, Maliki, Shafi'i, Hanbali) offer different interpretations of the same sources?",
+        "What was Sufism, and how did the mystical tradition within Islam — from Rumi's ecstatic poetry to the Sufi orders (tariqas) that spread Islam across Africa, Central Asia, and Southeast Asia — offer an experiential alternative to legalistic orthodoxy?",
+        "How did the decline of the Ottoman Caliphate and European colonialism produce modernist movements (Muhammad Abduh), revivalist movements (the Muslim Brotherhood, Wahhabism), and secularist experiments (Ataturk's Turkey, Nasser's Egypt)?",
+        "Why does Islam remain the fastest-growing religion in the world (projected to match Christianity's numbers by 2060), and what internal debates — about women's rights, democratic governance, and the role of religion in public life — are shaping its future?"
+      ],
+      "tags": ["religion", "spirituality", "ancient-history", "middle-east"]
+    },
+    {
+      "name": "Hinduism and Buddhism: Asian Religious Traditions",
+      "topics": [
+        "How did Hinduism evolve from Vedic ritual religion (c. 1500 BCE) through the philosophical revolutions of the Upanishads (c. 800-200 BCE) to the devotional traditions (bhakti) that define modern Hindu practice — without a single founder, a single scripture, or a single creed?",
+        "What was the Buddha's core teaching — the Four Noble Truths and the Eightfold Path — and how did this radical rejection of caste, ritual, and divine authority represent a revolution within the Indian religious tradition?",
+        "How did Buddhism spread from India across Asia — Theravada to Southeast Asia, Mahayana to China and Korea, Vajrayana to Tibet — adapting to local cultures so thoroughly that its forms in Thailand, Japan, and Tibet are barely recognizable as the same religion?",
+        "What was the Hindu-Buddhist synthesis in Southeast Asia — visible in Angkor Wat, Borobudur, and Balinese culture — and how did these traditions coexist and blend in ways that defied the exclusivism of Abrahamic religions?",
+        "How did Confucianism and Daoism in China, and Shinto in Japan, function as complementary religious systems — addressing social ethics, cosmic harmony, and nature worship respectively — in contrast to the Western pattern of competing exclusive truth claims?",
+        "Why has Buddhism experienced a revival in the modern West — from the Beat Generation to mindfulness meditation to neuroscience research — while declining in several of its Asian homelands?"
+      ],
+      "tags": ["religion", "spirituality", "ancient-history", "asia"]
+    },
+    {
+      "name": "Religion, Science, and the Secular Challenge",
+      "topics": [
+        "How did the Scientific Revolution challenge religious authority — from Galileo's confrontation with the Church to Darwin's theory of evolution to the Big Bang's implications for creation — and was the 'warfare thesis' between science and religion accurate or oversimplified?",
+        "What was the Enlightenment critique of religion — from Voltaire's satire to Hume's skepticism to Kant's 'religion within the limits of reason alone' — and how did it produce the concept of secularism that now governs most Western democracies?",
+        "How did the 'death of God' thesis — articulated by Nietzsche (1882) and elaborated by mid-20th-century secularization theorists — predict religion's decline, and why has the prediction proven spectacularly wrong globally even as it holds in Western Europe?",
+        "What was the relationship between religion and totalitarianism — how did Nazi Germany co-opt Christianity, how did the Soviet Union attempt to destroy religion, and how did Maoist China's Cultural Revolution target Buddhist temples, Confucian traditions, and Christian churches?",
+        "How has the 'New Atheism' of Dawkins, Hitchens, Harris, and Dennett (2004-2010) differed from earlier secular critiques — and why did their aggressive approach alienate some secularists while energizing religious conservatives?",
+        "Why do 84% of the world's 8 billion people identify with a religious tradition — and what does the persistence of religious belief, despite scientific advances and secularization, reveal about the human need for meaning, community, and transcendence?"
+      ],
+      "tags": ["religion", "epistemology", "modern-history", "anthropology"]
+    },
+    {
+      "name": "Religion and Politics: Theocracy, Secularism, and the Culture Wars",
+      "topics": [
+        "How did the principle of separation of church and state — from the Treaty of Westphalia (1648) to Jefferson's 'wall of separation' (1802) to the French laicite law (1905) — develop as a solution to centuries of religious warfare?",
+        "What was the relationship between religion and American politics — from the Puritan founding through the Social Gospel, the civil rights movement's Black churches, the Religious Right of the 1980s, and Christian nationalism today?",
+        "How did the Iranian Revolution of 1979 demonstrate that the 'secularization thesis' was wrong — that modernization does not inevitably produce secular societies — and inspire Islamist movements from Egypt to Afghanistan?",
+        "What is Hindu nationalism (Hindutva) in India, Buddhist nationalism in Myanmar and Sri Lanka, and Jewish religious nationalism in Israel — and why have religious nationalist movements surged globally in the 21st century?",
+        "How do religious freedom and secular governance conflict in practice — from the French headscarf ban to US debates over contraception mandates to blasphemy laws in Pakistan — and what principles should govern the boundary?",
+        "Why has religious polarization intensified in the 21st century — with evangelical Christianity aligning with right-wing populism, Islam being weaponized by both jihadists and Islamophobes, and secular progressives dismissing religion as backward?"
+      ],
+      "tags": ["religion", "democracy", "modern-history", "sociology"]
+    },
+    {
+      "name": "The Legacy: What Religion Has Built and What It Has Destroyed",
+      "topics": [
+        "How has religion inspired humanity's greatest artistic achievements — from the Sistine Chapel to the Alhambra to Angkor Wat to the cathedrals of Europe — creating beauty that transcends the beliefs that produced it?",
+        "What is the historical relationship between religion and violence — from the Crusades to the Inquisition to the Thirty Years' War to modern terrorism — and is religious violence different in kind from secular political violence, or just another form of it?",
+        "How has religion shaped moral progress — abolition movements led by Quakers and evangelicals, the civil rights movement led by Black churches, liberation theology in Latin America — alongside its role in justifying slavery, colonialism, and oppression?",
+        "What happens to societies that lose religion — does secular humanism provide adequate answers to questions of meaning, death, community, and moral obligation, or does the absence of shared sacred narratives create a vacuum that politics cannot fill?",
+        "How are religions adapting to the modern world — from Pope Francis's engagement with climate change to progressive Islam to Buddhist mindfulness in corporate wellness programs — and what do these adaptations gain and lose?",
+        "Why does the question 'Is religion a net positive or negative for humanity?' resist a simple answer — and what does the attempt to weigh cathedrals against crusades, hospitals against inquisitions, and community against tribalism reveal about the complexity of religious experience?"
+      ],
+      "tags": ["religion", "legacy", "modern-history", "anthropology"]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Animal Rights and Moral Status",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "ethics", "environment", "science", "human-rights"],
+  "chapters": [
+    {
+      "name": "The Philosophical History of Animal Moral Status",
+      "topics": [
+        "Why did Aristotle place animals in a natural hierarchy below humans — arguing that nature makes nothing in vain and that animals exist to serve human purposes — and how did this teleological view dominate Western thought for two millennia?",
+        "How did Descartes' mechanism go further than Aristotle — declaring animals literal machines (bête-machines) without consciousness, incapable of suffering — and how did this view license vivisection without anesthesia in 17th-century laboratories?",
+        "Why was Bentham's question revolutionary — 'the question is not, can they reason? nor, can they talk? but, can they suffer?' (1789) — shifting the basis of moral consideration from rationality to sentience?",
+        "How did Darwin's theory of evolution undermine the philosophical basis for human-animal separation — showing that differences between species are differences of degree, not kind — and why did Victorian society resist the moral implications of this insight?",
+        "What did the great ape language experiments (Washoe, Koko, Kanzi) reveal about the cognitive capacities of non-human primates — tool use, deception, grief, cultural transmission — and why did these findings intensify the philosophical debate about moral status?"
+      ],
+      "tags": ["philosophy", "ethics", "science", "ancient-history"]
+    },
+    {
+      "name": "Singer's Utilitarian Case: Animal Liberation",
+      "topics": [
+        "How did Peter Singer's 'Animal Liberation' (1975) define speciesism — giving greater moral weight to the interests of one's own species for no reason other than species membership — and why did he argue this prejudice is as arbitrary as racism or sexism?",
+        "Why did Singer argue that equal consideration of interests does not mean equal treatment — a dog has no interest in voting, but it does have an interest in not suffering — and how does this interest-based framework determine which human practices are morally permissible?",
+        "How did Singer's argument against factory farming use utilitarian calculation — the trivial human interest in the taste of meat versus the intense suffering of billions of animals confined, mutilated, and slaughtered annually — and why did he call factory farming 'the greatest ethical blind spot of our time'?",
+        "Why did Singer's position on animal experimentation provoke more controversy than his arguments about farming — because some experiments produce genuine medical benefits, forcing a direct utilitarian trade-off between human and animal suffering?",
+        "How did Singer's utilitarian framework lead him to controversial conclusions about severely disabled humans — arguing that a healthy chimpanzee has stronger interests than a human in a permanent vegetative state — and why did disability rights advocates accuse him of reviving eugenics?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "modern-history"]
+    },
+    {
+      "name": "Regan's Rights-Based Argument: The Case for Animal Rights",
+      "topics": [
+        "How did Tom Regan's 'The Case for Animal Rights' (1983) differ from Singer — arguing that animals are not just sentient but 'subjects of a life' with inherent value, and that this value generates rights that cannot be overridden by utilitarian calculation?",
+        "What did Regan mean by 'inherent value' — that animals, like humans, are owed respect as individuals, not mere receptacles of pleasure and pain — and why did he argue that Singer's utilitarian approach would still permit sacrificing animals if the aggregate benefit were large enough?",
+        "How did Regan's abolitionist position — that all commercial animal agriculture, all animal experimentation, all hunting and trapping must end, with no exceptions — differ from the welfarist position (reduce suffering within existing systems)?",
+        "What is the 'lifeboat' problem for animal rights — if a lifeboat can hold four humans or one human and a dog, and Regan says throw the dog overboard, does this undermine the claim that animals have equal inherent value?",
+        "How did the tension between Singer (utilitarian) and Regan (rights-based) split the animal advocacy movement — some pursuing welfare reforms (larger cages, humane slaughter), others demanding abolition (no use of animals at all) — and which approach has achieved more for animals?"
+      ],
+      "tags": ["philosophy", "ethics", "human-rights", "modern-history"]
+    },
+    {
+      "name": "Factory Farming: The Scale of the Problem",
+      "topics": [
+        "How many animals does industrial agriculture kill annually — over 80 billion land animals and 1-2 trillion fish worldwide — and why does the sheer scale of this system make it, by any utilitarian measure, the largest source of suffering on Earth?",
+        "What are the specific practices of factory farming that raise ethical objections — battery cages for hens (67 square inches per bird), gestation crates for sows (unable to turn around for four years), debeaking, tail docking, castration without anesthesia — and how did these become industry standard?",
+        "How did the documentary 'Earthlings' (2005) and subsequent undercover investigations — filming inside slaughterhouses, documenting systematic abuse — change public attitudes, and why do 'ag-gag' laws in multiple US states criminalize the act of filming inside animal agriculture facilities?",
+        "What are the environmental consequences of factory farming — responsible for 14.5% of global greenhouse gas emissions, the leading cause of deforestation, antibiotic resistance, water pollution, and zoonotic disease emergence (including likely origins of COVID-19) — and why do these consequences strengthen the ethical case beyond animal welfare alone?",
+        "How has the rise of plant-based and cultivated meat — Impossible Foods, Beyond Meat, lab-grown meat — offered a technological path to reducing animal suffering, and can innovation succeed where ethical arguments have not?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "modern-history"]
+    },
+    {
+      "name": "Animal Experimentation: The Hardest Cases",
+      "topics": [
+        "How does the 3Rs framework — Replace (use alternatives where possible), Reduce (minimize animal numbers), Refine (minimize suffering) — attempt to regulate animal experimentation, and why do abolitionists argue that reform within the system legitimizes it?",
+        "What did the Silver Spring monkeys case (1981) — Alex Pacheco's undercover investigation of Edward Taub's deafferentation experiments on macaques — accomplish as the first animal cruelty case to reach the US Supreme Court and the founding moment of PETA?",
+        "How do cosmetics testing bans — adopted by the EU (2013), India (2014), and other countries — demonstrate that some animal experiments can be eliminated entirely, and why has the pharmaceutical industry resisted similar bans for drug testing?",
+        "What is the 'moral schizophrenia' of animal research — scientists who genuinely care about their animal subjects while performing procedures that cause severe suffering, citing the Institutional Animal Care and Use Committee approval — and how do researchers reconcile this contradiction?",
+        "Why did the Cambridge Declaration on Consciousness (2012) — signed by prominent neuroscientists, stating that non-human animals possess the neurological substrates of conscious experience — strengthen the philosophical case against animal experimentation while changing almost nothing in practice?"
+      ],
+      "tags": ["philosophy", "ethics", "science", "modern-history"]
+    },
+    {
+      "name": "The Cognitive Revolution in Animal Science",
+      "topics": [
+        "How did Frans de Waal's research on chimpanzee empathy, consolation, and conflict resolution — documented in 'Chimpanzee Politics' (1982) and subsequent work — demolish the assumption that morality is uniquely human?",
+        "What do corvid intelligence studies reveal — crows using tools, planning for the future, recognizing human faces, holding 'funerals' for dead companions — and why does avian intelligence, evolved independently from primate intelligence, challenge the assumption that complex cognition requires a primate brain?",
+        "How did the discovery of octopus sentience — problem-solving, play, individual personality, apparent experience of pain — lead to the UK's Animal Welfare (Sentience) Act (2022) recognizing cephalopods and decapod crustaceans as sentient beings?",
+        "What do elephant grief behaviors — standing vigil over dead companions, returning to burial sites, touching bones of deceased relatives — suggest about non-human emotional complexity, and why do these observations matter for questions of moral status?",
+        "How has the accumulating evidence of animal cognition and emotion made the philosophical case for animal moral status stronger over the past 50 years — while the number of animals killed by humans has simultaneously increased — and what does this gap between knowledge and action reveal?"
+      ],
+      "tags": ["philosophy", "science", "environment", "modern-history"]
+    },
+    {
+      "name": "Legal Personhood and the Rights of Nature",
+      "topics": [
+        "How did the Nonhuman Rights Project — founded by attorney Steven Wise — attempt to win legal personhood for chimpanzees, elephants, and dolphins through habeas corpus petitions, and why have US courts consistently rejected these claims?",
+        "What precedent did the 2014 Argentine court decision set — recognizing Sandra the orangutan as a 'non-human person' with rights — and how did this ruling draw on the philosophical arguments of Singer and Regan?",
+        "How does the granting of legal rights to rivers, forests, and ecosystems — New Zealand's Whanganui River, Ecuador's constitutional rights of nature, Bolivia's Law of Mother Earth — represent a different approach than individual animal rights?",
+        "What are the practical consequences of legal personhood for animals — would pets be emancipated? would zoos close? would wildlife management change? — and why do critics argue that extending legal personhood dilutes its meaning?",
+        "Why has the animal rights movement achieved more through consumer pressure and corporate policy (cage-free eggs, fur-free fashion, cruelty-free cosmetics) than through philosophical argument or legislation — and what does this reveal about the relationship between ethics, economics, and political change?"
+      ],
+      "tags": ["philosophy", "ethics", "governance", "modern-history"]
+    },
+    {
+      "name": "Objections, Responses, and the Future of Animal Ethics",
+      "topics": [
+        "How do contractarian philosophers (Peter Carruthers, Roger Scruton) argue that animals cannot have rights because they cannot participate in the social contract — they cannot make promises, bear obligations, or reciprocate duties — and why do rights theorists consider this objection question-begging?",
+        "What is the 'marginal cases' argument — that if cognitive capacity determines moral status, then severely disabled humans and infants have less moral status than some animals — and why does this reductio ad absurdum force defenders of human exceptionalism to find a non-cognitive basis for human rights?",
+        "How do cultural and religious perspectives complicate the animal rights debate — Jain non-violence (ahimsa) extending to insects, Islamic and Jewish ritual slaughter (halal, kosher), Indigenous hunting traditions, Hindu cow veneration — and should animal ethics respect cultural practices that cause animal suffering?",
+        "What did COVID-19 reveal about the relationship between animal exploitation and human health — wet markets, factory farms as breeding grounds for zoonotic disease, deforestation pushing wildlife into human contact — and did the pandemic strengthen the case for radically changing our relationship with animals?",
+        "Why has the philosophical case for animal rights grown steadily stronger since Singer's 'Animal Liberation' in 1975 — while global meat consumption has doubled and the number of animals in factory farms has tripled — and what does this gap between ethical argument and human behavior reveal about the limits of philosophy?"
+      ],
+      "tags": ["philosophy", "ethics", "society", "modern-history"]
+    }
+  ]
+}

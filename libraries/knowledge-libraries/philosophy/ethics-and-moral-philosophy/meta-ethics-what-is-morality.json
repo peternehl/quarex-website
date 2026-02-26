@@ -1,0 +1,95 @@
+{
+  "name": "Meta-Ethics: What Is Morality?",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "ethics", "epistemology", "psychology", "critical-thinking"],
+  "chapters": [
+    {
+      "name": "Moral Realism: Do Moral Facts Exist?",
+      "topics": [
+        "How do moral realists defend the claim that 'torture is wrong' is objectively true — as true as 'water is H₂O' — independent of what any person, culture, or society believes, and where do these moral facts come from if not from God, nature, or human agreement?",
+        "What is Cornell realism (Richard Boyd, Nicholas Sturgeon) — the view that moral properties are natural properties, that 'goodness' is as real as 'redness,' discoverable through observation — and why did critics object that this collapses the distinction between facts and values?",
+        "How did Derek Parfit defend moral realism in 'On What Matters' (2011) — arguing that Kantians, consequentialists, and contractualists are 'climbing the same mountain from different sides' and converge on the same objective truths — and why did some philosophers find this convergence thesis too convenient?",
+        "What is the Euthyphro dilemma — does God command something because it is good, or is it good because God commands it? — and why has this 2,400-year-old puzzle shown that divine command theory cannot ground moral realism?",
+        "How does the argument from disagreement challenge moral realism — if moral facts exist, why do cultures disagree about female circumcision, capital punishment, and eating meat? — and how do realists respond (moral disagreement no more disproves moral facts than scientific disagreement disproves scientific facts)?"
+      ],
+      "tags": ["philosophy", "ethics", "epistemology", "modern-history"]
+    },
+    {
+      "name": "Moral Anti-Realism: Error Theory and Expressivism",
+      "topics": [
+        "What is J.L. Mackie's error theory — argued in 'Ethics: Inventing Right and Wrong' (1977), that all moral statements are literally false because there are no moral facts, that morality is a useful fiction humanity invented — and how did this unflinching nihilism force philosophers to either refute it or accept its consequences?",
+        "How does expressivism (A.J. Ayer, Simon Blackburn) offer a different anti-realist position — arguing that moral statements don't describe facts but express attitudes ('murder is wrong' means 'boo to murder!') — and why did the 'Frege-Geach problem' nearly destroy this theory before Blackburn's quasi-realism rescued it?",
+        "What is moral fictionalism — the view that moral language is literally false (like error theory says) but useful to maintain (like Santa Claus for children) — and can a society function on moral beliefs its smartest members know to be fictions?",
+        "How did Nietzsche anticipate anti-realism — arguing that moral values are human creations reflecting power relations, that 'there are no moral facts' — and why did his genealogical approach (asking where moral beliefs come from rather than whether they're true) become the dominant method of anti-realist ethics?",
+        "What practical difference does the realism/anti-realism debate make — if morality is invented rather than discovered, does that mean anything goes, or can constructed moral systems be better or worse without being objectively true?"
+      ],
+      "tags": ["philosophy", "ethics", "epistemology", "modern-history"]
+    },
+    {
+      "name": "The Is-Ought Problem: Hume's Guillotine",
+      "topics": [
+        "What did Hume observe in 'A Treatise of Human Nature' (1739) — that moral philosophers constantly slide from 'is' statements (descriptions of how things are) to 'ought' statements (prescriptions for how things should be) without justifying the transition — and why has this 'guillotine' resisted every attempt to bridge it?",
+        "How did G.E. Moore's 'naturalistic fallacy' (1903) reinforce the is-ought gap — arguing that 'good' cannot be defined in terms of any natural property (pleasure, evolutionary fitness, social harmony) because we can always meaningfully ask 'but is that really good?' — and is Moore's 'open question argument' still persuasive?",
+        "How have evolutionary ethicists attempted to derive ought from is — arguing that moral instincts evolved because they promoted survival, that cooperation, fairness, and empathy are naturally selected behaviors — and why did philosophers from Moore to Kitcher argue this commits the naturalistic fallacy?",
+        "What did Philippa Foot argue in 'Natural Goodness' (2001) — that virtues are natural excellences of the human species the way sharp claws are natural excellences of a tiger — and why does this neo-Aristotelian naturalism claim to bridge the is-ought gap without committing the naturalistic fallacy?",
+        "Why has Sam Harris's 'The Moral Landscape' (2010) — arguing that science can determine moral values because well-being is objectively measurable — been rejected by virtually every professional philosopher, and what does this rejection reveal about the enduring power of Hume's guillotine?"
+      ],
+      "tags": ["philosophy", "ethics", "epistemology", "modern-history"]
+    },
+    {
+      "name": "Moral Relativism: Is Morality Just Culture?",
+      "topics": [
+        "Why does moral relativism — the view that moral truths vary between cultures and that no universal standard exists — appeal to most ordinary people while being rejected by most professional philosophers?",
+        "How did anthropologists like Franz Boas and Ruth Benedict document radical moral diversity across cultures — infanticide, cannibalism, polygamy, honor killing — and why did they argue that judging other cultures by Western standards is ethnocentric imperialism?",
+        "What is the strongest argument against relativism — that it makes it impossible to criticize practices like slavery, genocide, or female genital cutting, because if morality is culturally determined, then Nazi Germany's morality was 'right for them' — and can relativists escape this conclusion?",
+        "How does Gilbert Harman's moral relativism differ from cultural relativism — arguing that moral judgments are relative not to cultures but to agreements among individuals, creating a more sophisticated position that still faces the 'no criticism' problem?",
+        "Why did the Universal Declaration of Human Rights (1948) implicitly reject moral relativism — asserting that certain rights are universal regardless of cultural context — and how do Asian values debates, Islamic critiques, and postcolonial theory challenge this claim to universality?"
+      ],
+      "tags": ["philosophy", "ethics", "culture", "modern-history"]
+    },
+    {
+      "name": "Moral Psychology: Why Do Humans Have Morality at All?",
+      "topics": [
+        "How did Jonathan Haidt's moral foundations theory identify six innate moral intuitions — care/harm, fairness/cheating, loyalty/betrayal, authority/subversion, sanctity/degradation, liberty/oppression — and why did this research show that liberals and conservatives emphasize different foundations?",
+        "What did the trolley problem reveal under fMRI scanning — Joshua Greene's finding that impersonal dilemmas activate utilitarian reasoning (prefrontal cortex) while personal dilemmas activate emotional responses (amygdala) — and does neuroscience support utilitarianism, deontology, or neither?",
+        "How did Frans de Waal's research on primate morality — chimpanzees showing empathy, fairness, and reciprocity — challenge the assumption that morality requires language, culture, or divine gift, and what did the capuchin 'unfairness' experiment (rejecting unequal cucumber-versus-grape payments) demonstrate?",
+        "What is the psychopath problem for moral philosophy — psychopaths understand moral rules but feel no emotional motivation to follow them — and what does this reveal about whether morality is grounded in reason (Kant) or sentiment (Hume)?",
+        "How did Lawrence Kohlberg's stages of moral development — from obedience (stage 1) through social conformity (stages 3-4) to universal principles (stage 6) — attempt to show that moral reasoning progresses toward objectivity, and why did Carol Gilligan criticize his framework as biased toward male moral reasoning?"
+      ],
+      "tags": ["philosophy", "ethics", "psychology", "modern-history"]
+    },
+    {
+      "name": "Evolution and Morality: Can Darwin Explain Ethics?",
+      "topics": [
+        "How did Darwin himself address the evolution of morality — arguing in 'The Descent of Man' (1871) that social instincts, sympathy, and the capacity for moral judgment evolved because they promoted group survival — and why was this one of his most controversial claims?",
+        "What is the problem of altruism for evolutionary theory — if natural selection favors self-interested behavior, why do humans (and other animals) sacrifice for others? — and how did kin selection (Hamilton), reciprocal altruism (Trivers), and group selection (Sober and Wilson) attempt to solve it?",
+        "How did evolutionary debunking arguments (Sharon Street, Richard Joyce) use Darwin against moral realism — arguing that if our moral beliefs evolved to promote survival rather than track truth, we have no reason to trust them — and how did moral realists respond?",
+        "What is the 'moral sense' hypothesis — that evolution equipped humans with emotional responses (guilt, shame, indignation, empathy) that function as a moral compass — and why did Jesse Prinz argue that these emotions are too culturally variable to count as a universal moral sense?",
+        "Can evolutionary ethics avoid the naturalistic fallacy — deriving what we ought to do from what evolution has programmed us to feel — or does every attempt to ground morality in biology commit the same error that Hume identified in 1739?"
+      ],
+      "tags": ["philosophy", "ethics", "science", "modern-history"]
+    },
+    {
+      "name": "Moral Language: What Do Moral Words Mean?",
+      "topics": [
+        "What did A.J. Ayer's emotivism claim — that 'stealing is wrong' has no factual content but merely expresses disapproval, like saying 'stealing — boo!' — and why did the logical positivists consider moral language literally meaningless?",
+        "How did R.M. Hare's prescriptivism improve on emotivism — arguing that moral statements are not just expressions of emotion but universal prescriptions ('no one should steal') — and why did this make moral language more like commanding than describing?",
+        "What is the 'thick concepts' problem — words like 'cruel,' 'courageous,' and 'generous' that seem simultaneously descriptive and evaluative — and why did Bernard Williams argue that these concepts show the fact/value distinction is not as clean as philosophers assumed?",
+        "How did John Searle attempt to derive an 'ought' from an 'is' using the concept of promising — if I promise to pay you, I ought to pay you, deriving obligation from the social institution of promising — and why did most philosophers remain unconvinced?",
+        "What does the persistence of moral disagreement reveal about moral language — do we disagree because we mean different things by 'good' (semantic problem), because we have different evidence (epistemic problem), or because there are no moral facts to agree about (ontological problem)?"
+      ],
+      "tags": ["philosophy", "ethics", "epistemology", "modern-history"]
+    },
+    {
+      "name": "Meta-Ethics in Practice: Why These Questions Matter",
+      "topics": [
+        "How does the meta-ethical debate affect real-world moral arguments — if moral realism is true, then human rights are discovered; if anti-realism is true, they are invented — and does it matter for practice whether rights are 'real' or just extremely useful fictions?",
+        "Why did moral constructivism (Christine Korsgaard, T.M. Scanlon) offer a middle path — arguing that morality is neither discovered in nature nor merely expressed as emotion, but constructed through practical reasoning — and can constructed morality be genuinely binding?",
+        "How does meta-ethics inform debates about AI alignment — if we want artificial intelligence to be 'moral,' we first need to know what morality is: a set of facts to program, a set of preferences to optimize, or a set of practices to learn?",
+        "What did Derek Parfit mean when he said meta-ethics is 'the most important issue in philosophy' — because if there are no objective moral truths, then nothing really matters, and the entire enterprise of ethics is a sophisticated game — and did his lifelong attempt to prove moral realism succeed?",
+        "Why has meta-ethics failed to produce consensus after 2,500 years of argument — moral realism, anti-realism, relativism, constructivism, and naturalism all retain serious defenders — and does this persistent disagreement itself constitute evidence for or against the existence of moral truth?"
+      ],
+      "tags": ["philosophy", "ethics", "critical-thinking", "modern-history"]
+    }
+  ]
+}

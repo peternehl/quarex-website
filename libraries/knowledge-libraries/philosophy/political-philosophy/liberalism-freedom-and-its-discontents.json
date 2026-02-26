@@ -1,0 +1,95 @@
+{
+  "name": "Liberalism: Freedom and Its Discontents",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "governance", "democracy", "economics", "modern-history"],
+  "chapters": [
+    {
+      "name": "Locke, Property, and the Social Contract",
+      "topics": [
+        "How did John Locke's 'Two Treatises of Government' (1689) establish liberalism's founding principles — natural rights to life, liberty, and property; government by consent; the right of revolution against tyranny — and why did these ideas, radical in 1689, become the common sense of Western politics?",
+        "What did Locke mean by property as a natural right — that mixing your labor with nature creates a property claim, that government exists primarily to protect property — and why has this argument been used to justify both democracy and capitalism, sometimes against each other?",
+        "How did Locke's 'Letter Concerning Toleration' (1689) argue for religious freedom — that the state has no business saving souls, that persecution produces hypocrisy rather than belief — while excluding Catholics and atheists from toleration, revealing liberalism's selective universalism from the start?",
+        "What was Locke's influence on the American founding — Jefferson's Declaration of Independence ('life, liberty, and the pursuit of happiness'), Madison's Constitution, the Bill of Rights — and how did the slaveholder founders reconcile Lockean liberty with chattel slavery?",
+        "Why did Locke's proviso — that appropriation of property is justified only when 'there is enough and as good left in common for others' — become liberalism's unresolved problem: what happens when there isn't enough left, when some have everything and others nothing?"
+      ],
+      "tags": ["philosophy", "governance", "democracy", "early-modern-history"]
+    },
+    {
+      "name": "Mill: Liberty, Utility, and the Marketplace of Ideas",
+      "topics": [
+        "How did John Stuart Mill's 'On Liberty' (1859) define the 'harm principle' — that the only justification for limiting individual freedom is to prevent harm to others, that society has no right to interfere with self-regarding actions — and why is this the most cited principle in liberal political philosophy?",
+        "What did Mill mean by the 'tyranny of the majority' — that democratic societies can oppress dissenters through social pressure as effectively as any despot — and why did he consider this threat more dangerous than government tyranny?",
+        "How did Mill's defense of free speech — 'if all mankind minus one were of one opinion, mankind would be no more justified in silencing that one person than he, if he had the power, would be justified in silencing mankind' — create the 'marketplace of ideas' concept, and does this marketplace actually produce truth?",
+        "How did Mill reconcile liberalism with utilitarianism — arguing that liberty maximizes happiness in the long run, that 'higher pleasures' (intellectual, moral) are qualitatively better than 'lower pleasures' (physical) — and was this reconciliation coherent or did it smuggle in elitism?",
+        "What did Mill contribute to feminism — 'The Subjection of Women' (1869), arguing that women's subordination was wrong and inefficient, shaped by his partnership with Harriet Taylor Mill — making him the first major liberal philosopher to extend liberty explicitly to women?"
+      ],
+      "tags": ["philosophy", "governance", "ethics", "modern-history"]
+    },
+    {
+      "name": "Isaiah Berlin: Two Concepts of Liberty",
+      "topics": [
+        "What is the distinction between negative liberty (freedom from interference — 'leave me alone') and positive liberty (freedom to achieve one's potential — 'help me flourish') — and why did Isaiah Berlin's 1958 lecture argue that confusing the two has produced some of history's worst tyrannies?",
+        "Why did Berlin warn that positive liberty is dangerous — that the claim to know what people 'really' want (Marx's false consciousness, Rousseau's 'forced to be free') justifies coercion in the name of liberation — and was this a Cold War argument against communism disguised as philosophy?",
+        "What is Berlin's 'value pluralism' — the argument that ultimate human values (liberty, equality, justice, mercy) genuinely conflict, that there is no way to rank them, that politics is the art of tragic choice between incommensurable goods?",
+        "How did Berlin's biography — born in Riga, witnessed the Russian Revolution as a child, Jewish refugee, Oxford philosopher, friend of world leaders — shape a philosophy that distrusted grand systems and defended messy, imperfect freedom?",
+        "Why do contemporary debates about free speech, hate speech, and 'cancel culture' replay Berlin's distinction — the negative-liberty camp defending the right to offend versus the positive-liberty camp arguing that oppressive speech prevents marginalized people from flourishing?"
+      ],
+      "tags": ["philosophy", "governance", "critical-thinking", "modern-history"]
+    },
+    {
+      "name": "Rawls: Justice as Fairness",
+      "topics": [
+        "How did John Rawls's 'A Theory of Justice' (1971) use the 'veil of ignorance' — choose principles of justice without knowing your place in society (rich or poor, male or female, Black or white) — to derive two principles: equal basic liberties for all, and inequality only if it benefits the least advantaged?",
+        "What is the 'difference principle' — that economic inequality is justified only when it improves the condition of the worst-off members of society — and why did this make Rawls the philosophical foundation of the welfare state while infuriating both libertarians and Marxists?",
+        "How did Rawls's 'Political Liberalism' (1993) respond to the problem of pluralism — that people hold fundamentally different conceptions of the good life, that a just society cannot impose any single vision, that politics should seek 'overlapping consensus' among reasonable doctrines?",
+        "How did Robert Nozick's 'Anarchy, State, and Utopia' (1974) challenge Rawls — arguing that any redistribution of justly acquired property violates individual rights, that a minimal 'night-watchman state' is the only just arrangement — and why did this create the Rawls-Nozick axis that still structures political philosophy?",
+        "What did communitarians (MacIntyre, Sandel, Taylor, Walzer) criticize about Rawls — that his 'original position' assumes an impossible atomistic self, that justice requires community and tradition, that liberalism hollows out the moral life it claims to protect?"
+      ],
+      "tags": ["philosophy", "governance", "ethics", "modern-history"]
+    },
+    {
+      "name": "Neoliberalism: From Hayek to Thatcher",
+      "topics": [
+        "How did Friedrich Hayek's 'The Road to Serfdom' (1944) argue that any government planning inevitably leads to totalitarianism — that the welfare state is the first step toward the Gulag — and why did this book, dismissed by mainstream economists at publication, become the bible of the free-market right?",
+        "What was the Mont Pelerin Society (founded 1947) — Hayek, Milton Friedman, and others organizing to promote free-market ideas during the Keynesian consensus — and how did this intellectual project, patient and decades-long, eventually reshape the world?",
+        "How did Friedman's 'Capitalism and Freedom' (1962) extend Hayek — arguing for deregulation, privatization, school vouchers, flat taxes, and the elimination of the welfare state — and why did Friedman insist that economic freedom is the precondition for political freedom?",
+        "How did Thatcher and Reagan implement neoliberalism — breaking unions, privatizing state industries, deregulating finance, cutting taxes on the wealthy — and did the results (economic growth alongside rising inequality) vindicate or discredit the theory?",
+        "What is the critique of neoliberalism — that it commodifies everything (health, education, housing), that it produces inequality that undermines democracy, that 'there is no alternative' (Thatcher's TINA) is itself an ideological claim — and has any alternative emerged?"
+      ],
+      "tags": ["philosophy", "economics", "governance", "modern-history"]
+    },
+    {
+      "name": "Liberal Democracy Under Pressure",
+      "topics": [
+        "Why did liberal democracy seem triumphant after 1989 — the fall of the Berlin Wall, Fukuyama's 'end of history,' democratic transitions in Eastern Europe, Latin America, and Africa — and why did this triumph prove so fragile?",
+        "How did the 2008 financial crisis undermine liberal legitimacy — bailouts for banks but austerity for citizens, the sense that the system was rigged, the rise of populism on both left (Occupy, Podemos) and right (Tea Party, UKIP, Trump)?",
+        "What is 'illiberal democracy' — Viktor Orbán's term for Hungary's model: elections without genuine opposition, independent judiciary dismantled, media controlled, minorities scapegoated — and why do Orbán, Erdoğan, and Modi claim democratic legitimacy while gutting liberal institutions?",
+        "How has China challenged the liberal assumption that economic development produces political liberalization — delivering growth, stability, and national pride without elections, press freedom, or human rights — and does the 'China model' prove that liberalism is a Western preference, not a universal truth?",
+        "What do defenders of liberalism say — that its failures are failures of implementation not principle, that no alternative has produced more freedom or prosperity, that reforming liberalism is possible while abandoning it is catastrophic — and is this defense persuasive?"
+      ],
+      "tags": ["philosophy", "democracy", "governance", "modern-history"]
+    },
+    {
+      "name": "Critics of Liberalism: Left, Right, and Postcolonial",
+      "topics": [
+        "How do Marxists critique liberalism — that formal equality (everyone has the right to sleep under bridges) disguises material inequality, that property rights protect the rich, that liberal democracy is a mask for bourgeois rule — and has the welfare state answered or merely delayed this critique?",
+        "How do conservatives critique liberalism — that it dissolves tradition, community, and meaning, that radical individualism produces loneliness and nihilism, that 'the autonomous self' is a fiction that ignores how people actually live — and why has Patrick Deneen's 'Why Liberalism Failed' (2018) resonated across the political spectrum?",
+        "How do postcolonial thinkers critique liberalism — that it was built on the exclusion of colonized peoples, that Locke's property theory justified the seizure of indigenous lands, that 'universal human rights' universalize a particular Western experience — and can liberalism survive this reckoning with its own history?",
+        "How do feminists critique liberalism — that the public/private distinction protects domestic violence, that formal equality ignores structural disadvantage, that the 'rational autonomous individual' is implicitly male — while most feminist progress has been achieved through liberal institutions?",
+        "Is liberalism reformable — can it address inequality, climate change, identity, and meaning within its own framework, or has it exhausted itself — and what would come after it?"
+      ],
+      "tags": ["philosophy", "critical-thinking", "governance", "modern-history"]
+    },
+    {
+      "name": "The Future of Liberalism",
+      "topics": [
+        "How are contemporary liberals reformulating the tradition — Amartya Sen's 'capability approach' (freedom means having real options, not just formal rights), Martha Nussbaum's 'political emotions' (liberal societies need love, not just justice), Philip Pettit's 'republicanism' (freedom as non-domination)?",
+        "What is the relationship between liberalism and identity politics — liberalism's promise of individual rights versus group demands for recognition, the tension between 'treating everyone the same' and addressing historical injustice — and can liberal universalism accommodate difference without erasing it?",
+        "How does liberalism address the climate crisis — can individual rights and market mechanisms solve a collective action problem that requires limiting consumption, or does climate change prove that liberalism's atomistic individualism is ecologically suicidal?",
+        "What does liberalism say about AI, surveillance, and digital rights — the extension of liberal principles (privacy, autonomy, due process) to algorithmic governance — and is the liberal framework adequate for technologies that can manipulate preferences themselves?",
+        "Why did Judith Shklar define liberalism as 'the political theory of people who have been cruelly treated' — and does this minimalist definition (liberalism as the avoidance of cruelty rather than the pursuit of perfection) offer the tradition its best chance of survival?"
+      ],
+      "tags": ["philosophy", "governance", "society", "modern-history"]
+    }
+  ]
+}

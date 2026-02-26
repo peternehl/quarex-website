@@ -1,6 +1,243 @@
 {
   "posts": [
     {
+      "slug": "empires-aftershocks-colonial-borders-modern-conflicts",
+      "title": "Empire's Aftershocks: How Colonial Borders Created Modern Conflicts",
+      "date": "2026-02-26",
+      "excerpt": "In 1916, two diplomats drew lines on a map of the Ottoman Empire. A century later, people are still dying along them. From Sykes-Picot to the Radcliffe Line, from Catherine the Great's conquests to Congo's cobalt wars \u2014 the borders that define today's flashpoints were drawn by colonial powers who prioritized oil, minerals, and strategy over people.",
+      "tags": ["colonialism", "geopolitics", "conflict", "borders", "history", "resources"],
+      "quarexLinks": [
+        {
+          "title": "Middle East Conflicts",
+          "url": "/libraries/?t=e&lib=current-events&s=international-conflicts&b=middle-east-conflicts"
+        },
+        {
+          "title": "Indian History: Empires, Colonialism, and Independence",
+          "url": "/libraries/?t=k&lib=the-sciences&s=history-and-anthropology&b=indian-history-empires-colonialism-and-independence"
+        },
+        {
+          "title": "The Age of Exploration and Colonialism",
+          "url": "/libraries/?t=k&lib=the-sciences&s=history-and-anthropology&b=the-age-of-exploration-and-colonialism"
+        },
+        {
+          "title": "Decolonization and the Post-Colonial World",
+          "url": "/libraries/?t=k&lib=the-sciences&s=history-and-anthropology&b=decolonization-and-the-post-colonial-world"
+        },
+        {
+          "title": "African Civilizations Before Colonialism",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=black-studies&b=african-civilizations-before-colonialism"
+        },
+        {
+          "title": "Catherine the Great: A Biography",
+          "url": "/libraries/?t=k&lib=biographies&s=world-leaders&b=catherine-the-great-a-biography"
+        },
+        {
+          "title": "The Geopolitics of War in the 21st Century",
+          "url": "/libraries/?t=pe&lib=geopolitical&s=war-and-peace&b=the-geopolitics-of-war-in-the-21st-century"
+        },
+        {
+          "title": "World War I",
+          "url": "/libraries/?t=k&lib=the-sciences&s=history-and-anthropology&b=world-war-i"
+        }
+      ]
+    },
+    {
+      "slug": "job-seeking-and-job-interviewing",
+      "title": "Job Seeking and Job Interviewing in 2026: What the Data Actually Says",
+      "date": "2026-02-26",
+      "excerpt": "Only 0.1-2% of cold applications result in a job offer. Ghost jobs make up 18-22% of listings. Referrals are 4-10x more effective than applications. AI skills command a 56% wage premium. The 2026 job market rewards preparation over panic \u2014 here's the research-backed playbook.",
+      "tags": ["jobs", "career", "ai", "interviewing", "negotiation", "economics"],
+      "quarexLinks": [
+        {
+          "title": "AI and Your Career: Adaptation Strategies",
+          "url": "/libraries/?t=pr&lib=practical-skills&s=digital-and-professional-skills&b=ai-and-your-career-adaptation-strategies"
+        },
+        {
+          "title": "Work, Purpose & Identity",
+          "url": "/libraries/?t=pr&lib=personal-and-life&s=life-transitions-and-growth&b=work-purpose-and-identity"
+        },
+        {
+          "title": "Global Economy Right Now",
+          "url": "/libraries/?t=e&lib=current-events&s=global-challenges&b=global-economy-right-now"
+        },
+        {
+          "title": "Checking Political Claims and Statistics",
+          "url": "/libraries/?t=pr&lib=practical-knowledge&s=advanced-civic-fact-checking-and-sharing-responsibly&b=checking-political-claims-and-statistics"
+        }
+      ]
+    },
+    {
+      "slug": "how-to-cope-with-aging",
+      "title": "How to Cope with Aging: What the Science Actually Says",
+      "date": "2026-02-26",
+      "excerpt": "Aging is inevitable. Suffering through it is not. From brain scans showing five major turning points to the 45% dementia risk reduction from exercise, the evidence converges on a handful of fundamentals \u2014 and the medical system is failing older women along the way.",
+      "tags": ["aging", "health", "neuroscience", "longevity", "loneliness", "womens-health"],
+      "quarexLinks": [
+        {
+          "title": "Neuroscience and the Brain",
+          "url": "/libraries/?t=k&lib=the-sciences&s=life-sciences&b=neuroscience-and-the-brain"
+        },
+        {
+          "title": "Overcoming Loneliness",
+          "url": "/libraries/?t=pr&lib=personal-and-life&s=health-and-wellbeing&b=overcoming-loneliness"
+        },
+        {
+          "title": "Women's Health and Body Politics",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=feminism-and-equality&b=women-s-health-and-body-politics"
+        },
+        {
+          "title": "Motherhood, Family, and Gender Roles",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=feminism-and-equality&b=motherhood-family-and-gender-roles"
+        }
+      ]
+    },
+    {
+      "slug": "current-status-of-israel-palestine-and-the-gaza-war",
+      "title": "Current Status of Israel, Palestine and the Gaza War: A Research Assessment",
+      "date": "2026-02-26",
+      "excerpt": "As of February 2026, more than 72,000 confirmed dead, 81 percent of structures damaged, 2.1 million displaced, a documented famine, 1,620 ceasefire violations, and ICC arrest warrants for Israeli leadership. A research assessment of the Gaza war from October 7, 2023 to the present.",
+      "tags": ["israel", "palestine", "gaza", "war", "humanitarian", "geopolitics"],
+      "quarexLinks": [
+        {
+          "title": "Middle East Conflicts",
+          "url": "/libraries/?t=e&lib=current-events&s=international-conflicts&b=middle-east-conflicts"
+        },
+        {
+          "title": "Gaza: How Did We Get Here?",
+          "url": "/libraries/?t=pe&lib=geopolitical&s=middle-east-conflicts&b=gaza-how-did-we-get-here"
+        }
+      ]
+    },
+    {
+      "slug": "why-abortion-feminism-discrimination-same-fight",
+      "title": "Why Abortion, Feminism, and Discrimination Are the Same Fight",
+      "date": "2026-02-25",
+      "excerpt": "Abortion bans impose a requirement that exists nowhere else in American law. You can't be forced to donate blood to save your child's life — but you can be forced to carry a pregnancy to term. That's not healthcare policy. That's discrimination. And it connects directly to feminism, racial inequality, and the broader war on bodily autonomy.",
+      "tags": ["feminism", "abortion", "discrimination", "civil-rights", "healthcare", "politics"],
+      "quarexLinks": [
+        {
+          "title": "Reproductive Rights and Bodily Autonomy",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=feminism-and-equality&b=reproductive-rights-and-bodily-autonomy"
+        },
+        {
+          "title": "What is Feminism?",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=feminism-and-equality&b=what-is-feminism"
+        },
+        {
+          "title": "Anti-Hispanic Discrimination: Prejudice, Stereotypes, and Hate",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=hispanic-cultures&b=anti-hispanic-discrimination-prejudice-stereotypes-and-hate"
+        },
+        {
+          "title": "Zero Sum Politics",
+          "url": "/libraries/?t=pe&lib=ideological&s=media-and-information&b=zero-sum-politics"
+        },
+        {
+          "title": "US Politics 2024-2025",
+          "url": "/libraries/?t=e&lib=current-events&s=domestic-politics&b=us-politics-2024-2025"
+        }
+      ]
+    },
+    {
+      "slug": "how-ai-can-improve-your-life",
+      "title": "How Artificial Intelligence Can Improve Your Life",
+      "date": "2026-02-25",
+      "excerpt": "AI isn't just a corporate tool — it's a personal one. From 56% wage premiums for AI-skilled workers to OSINT techniques that let citizens investigate like intelligence agencies, here are six concrete ways AI can improve your decisions, your work, your creativity, and your civic participation.",
+      "tags": ["ai", "technology", "osint", "governance", "economics", "creativity"],
+      "quarexLinks": [
+        {
+          "title": "Economic Systems Compared",
+          "url": "/libraries/?t=pe&lib=ideological&s=economic-theories&b=economic-systems-compared"
+        },
+        {
+          "title": "Technologies That Made Us Human",
+          "url": "/libraries/?t=k&lib=the-sciences&s=history-and-anthropology&b=technologies-that-made-us-human"
+        },
+        {
+          "title": "Logic and Proof",
+          "url": "/libraries/?t=k&lib=the-sciences&s=mathematical-and-computational-sciences&b=logic-and-proof"
+        },
+        {
+          "title": "Global AI Policy",
+          "url": "/libraries/?t=k&lib=ai-fundamentals&s=ai-in-the-real-world&b=global-ai-policy"
+        },
+        {
+          "title": "Tools and Techniques for Verifying Information",
+          "url": "/libraries/?t=k&lib=practical-knowledge&s=everyday-fact-checking-skills&b=tools-and-techniques-for-verifying-information"
+        },
+        {
+          "title": "Overcoming Loneliness",
+          "url": "/libraries/?t=pr&lib=personal-and-life&s=health-and-wellbeing&b=overcoming-loneliness"
+        }
+      ]
+    },
+    {
+      "slug": "trump-wedge-issues-zero-sum-politics",
+      "title": "How Trump Uses Wedge Issues and Zero-Sum Politics to Get Elected",
+      "date": "2026-02-25",
+      "excerpt": "Trump didn't invent wedge politics — but he perfected it. From birtherism to immigration to abortion, his playbook transforms policy debates into existential identity conflicts, activating tribal loyalties while making compromise politically toxic. Understanding the mechanics reveals how division became a winning electoral strategy.",
+      "tags": ["trump", "politics", "wedge-issues", "immigration", "polarization", "elections"],
+      "quarexLinks": [
+        {
+          "title": "The Immigration Wedge: How a Policy Became a Political Weapon",
+          "url": "/libraries/?t=pe&lib=historical-narratives&s=us-latin-america-relations&b=the-immigration-wedge-how-a-policy-became-a-political-weapon"
+        },
+        {
+          "title": "Zero Sum Politics",
+          "url": "/libraries/?t=pe&lib=ideological&s=media-and-information&b=zero-sum-politics"
+        }
+      ]
+    },
+    {
+      "slug": "racism-in-the-us-from-prejudice-to-structure",
+      "title": "Racism in the US: From Individual Prejudice to Structural Systems",
+      "date": "2026-02-25",
+      "excerpt": "Racism in America isn't just personal bigotry — it's a three-layered system. Strategic racism weaponizes racial fear for political gain. Structural racism embeds inequality into institutions that produce disparate outcomes regardless of intent. And contemporary adaptations like colorblindness make it all invisible.",
+      "tags": ["racism", "civil-rights", "health", "environment", "politics", "structural-racism"],
+      "quarexLinks": [
+        {
+          "title": "Dog Whistles and Ballot Boxes: Race in Republican Electoral Strategy",
+          "url": "/libraries/?t=pe&lib=contested-issues&s=social-equality-debates&b=dog-whistles-and-ballot-boxes-race-in-republican-electoral-strategy"
+        },
+        {
+          "title": "Social Equality & Civil Rights",
+          "url": "/libraries/?t=pe&lib=contested-issues&s=social-equality-debates&b=social-equality-civil-rights"
+        },
+        {
+          "title": "A History of Racism in the Americas",
+          "url": "/libraries/?t=pe&lib=historical-narratives&s=racism&b=a-history-of-racism-in-the-americas"
+        },
+        {
+          "title": "Racial Bias in U.S. Law and Policing",
+          "url": "/libraries/?t=pe&lib=contested-issues&s=criminal-justice-debates&b=racial-bias-in-u-s-law-and-policing"
+        },
+        {
+          "title": "Housing, Education, and Urban Policy",
+          "url": "/libraries/?t=pe&lib=cultural-and-identity&s=black-studies&b=housing-education-and-urban-policy"
+        },
+        {
+          "title": "Oceania Philosophy-Sir Mason Durie",
+          "url": "/libraries/?t=k&lib=philosophy&s=world-philosophies&b=oceania-philosophy-sir-mason-durie"
+        }
+      ]
+    },
+    {
+      "slug": "the-day-the-chips-stop",
+      "title": "The Day the Chips Stop: Taiwan, China, and the Most Dangerous Economic Threat on Earth",
+      "date": "2026-02-24",
+      "excerpt": "China announces a naval blockade of Taiwan. TSMC's fabs go dark. No new iPhones, no new cars, no AI training runs. The global economy loses trillions within weeks. This isn't science fiction — it's the most dangerous economic vulnerability on Earth.",
+      "tags": ["geopolitics", "semiconductors", "china", "taiwan", "economics", "national-security"],
+      "quarexLinks": [
+        {
+          "title": "The Chip War: Semiconductors and Global Power",
+          "url": "/libraries/pe/geopolitical/asia-pacific-tensions/the-chip-war-semiconductors-and-global-power"
+        },
+        {
+          "title": "Cross-Strait Crisis: China, Taiwan, and the World",
+          "url": "/libraries/pe/geopolitical/asia-pacific-tensions/cross-strait-crisis-china-taiwan-and-the-world"
+        }
+      ]
+    },
+    {
       "slug": "california-jungle-primary",
       "title": "California's Top-Two Trap: How the Golden State Could Accidentally Elect a Republican Governor",
       "date": "2026-02-22",

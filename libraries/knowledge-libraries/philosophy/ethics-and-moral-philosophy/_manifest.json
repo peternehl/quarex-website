@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "utilitarianism-the-greatest-good",
+    "name": "Utilitarianism: The Greatest Good",
+    "description": "From Bentham's felicific calculus to effective altruism — 250 years of trying to maximize happiness and the bodies left in the calculation",
+    "chapterCount": 8,
+    "tags": ["philosophy", "ethics", "governance", "economics"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "virtue-ethics-character-and-the-good-life",
+    "name": "Virtue Ethics: Character and the Good Life",
+    "description": "Not what should I do, but who should I be — Aristotle's question, abandoned for two centuries, revived because the alternatives kept failing",
+    "chapterCount": 8,
+    "tags": ["philosophy", "ethics", "psychology", "education"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "social-contract-theory-why-we-obey",
+    "name": "Social Contract Theory: Why We Obey",
+    "description": "Hobbes, Locke, Rousseau, and Rawls — the fiction that we agreed to be governed, and why the fiction matters even though nobody actually signed",
+    "chapterCount": 8,
+    "tags": ["philosophy", "governance", "democracy", "human-rights"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "bioethics-life-death-and-medicine",
+    "name": "Bioethics: Life, Death, and Medicine",
+    "description": "From Tuskegee to CRISPR — the field that exists because scientists kept doing things before asking whether they should",
+    "chapterCount": 8,
+    "tags": ["philosophy", "ethics", "health", "science"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "environmental-ethics-nature-and-obligation",
+    "name": "Environmental Ethics: Nature and Obligation",
+    "description": "Does a river have rights? Does a forest have value without humans to walk in it? The questions that determine whether civilization survives the century",
+    "chapterCount": 8,
+    "tags": ["philosophy", "ethics", "environment", "science"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "animal-rights-and-moral-status",
+    "name": "Animal Rights and Moral Status",
+    "description": "80 billion land animals killed annually — the philosophical case for why this matters, and why knowing it matters has changed almost nothing",
+    "chapterCount": 8,
+    "tags": ["philosophy", "ethics", "environment", "science"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "meta-ethics-what-is-morality",
+    "name": "Meta-Ethics: What Is Morality?",
+    "description": "The philosophy behind the philosophy — is morality discovered, invented, or expressed? 2,500 years of argument and still no consensus",
+    "chapterCount": 8,
+    "tags": ["philosophy", "ethics", "epistemology", "psychology"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  }
+]

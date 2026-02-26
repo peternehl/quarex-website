@@ -1,0 +1,127 @@
+{
+  "name": "Economic History: Trade, Capital, and Inequality",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["economics", "history", "trade", "labor", "inequality", "globalization", "modern-history"],
+  "chapters": [
+    {
+      "name": "Ancient Economies: From Barter to Bronze",
+      "topics": [
+        "Did barter economies ever actually exist — or was Adam Smith's story of primitive barter giving way to money a myth, as David Graeber argued in Debt: The First 5,000 Years, showing that credit and debt preceded coinage by millennia?",
+        "How did Mesopotamian temple economies function — with priests managing agricultural surplus, distributing rations, recording transactions on clay tablets — creating the world's first accounting systems?",
+        "What was the Bronze Age trade network that connected Egypt, Mesopotamia, the Indus Valley, and the Mediterranean — with tin, copper, gold, lapis lazuli, and textiles moving across thousands of miles — and why did its collapse around 1200 BCE devastate every civilization it connected?",
+        "How did ancient Rome build an economy that sustained a million-person city — with grain imported from Egypt, olive oil from Spain, wine from Gaul, and slaves from every border — and what happened when the supply chains broke?",
+        "What role did the Silk Road play in global economic history — connecting China to Rome through Central Asia — and why was it not just a trade route but a transmission network for technologies, religions, and diseases?",
+        "How did ancient China develop paper money, joint-stock companies, and sophisticated financial instruments centuries before Europe — and why did the Chinese economy not produce an industrial revolution?"
+      ],
+      "tags": ["economics", "trade", "anthropology", "ancient-history"]
+    },
+    {
+      "name": "Medieval Commerce: Guilds, Fairs, and the Rise of Banking",
+      "topics": [
+        "How did the medieval European economy recover from the collapse of Rome — with monasteries preserving agricultural knowledge, trade fairs creating commercial networks, and towns winning economic autonomy from feudal lords?",
+        "What were guilds, and how did they simultaneously protect workers (setting wages, ensuring quality, providing social insurance) and restrict competition (limiting entry, fixing prices, excluding women and minorities)?",
+        "How did the Champagne Fairs, the Hanseatic League, and the Italian maritime republics (Venice, Genoa, Amalfi) create the commercial infrastructure — credit instruments, insurance, double-entry bookkeeping — that made modern capitalism possible?",
+        "What was the Medici Bank (1397-1494), how did it pioneer branch banking, foreign exchange, and lending to sovereigns — and why did its eventual collapse demonstrate the risks of mixing banking with politics?",
+        "How did the Islamic world develop sophisticated financial practices — mudaraba (profit-sharing partnerships), hawala (transfer systems), and prohibitions on usury — that facilitated trade from Spain to Indonesia?",
+        "Why did the Black Death (1347-1351) paradoxically improve economic conditions for surviving European workers — creating labor shortages that raised wages, broke serfdom, and accelerated the transition from feudalism to capitalism?"
+      ],
+      "tags": ["economics", "trade", "history", "modern-history"]
+    },
+    {
+      "name": "The Atlantic Economy: Sugar, Slaves, and Silver",
+      "topics": [
+        "How did the Spanish conquest of the Americas and the extraction of silver from Potosi and Zacatecas (producing an estimated 150,000 tons of silver by 1800) create the first truly global economy — connecting Europe, Africa, Asia, and the Americas?",
+        "What was the 'triangle trade' — European manufactured goods to Africa, enslaved Africans to the Americas, sugar and cotton to Europe — and how did the profits from slavery finance Europe's industrial takeoff?",
+        "How did sugar transform the world economy — from a rare luxury in 1400 to the most traded commodity on Earth by 1750 — with Caribbean plantations consuming millions of enslaved lives to satisfy European demand?",
+        "What was Eric Williams's thesis in Capitalism and Slavery (1944) — that profits from the slave trade funded the Industrial Revolution — and why does this argument remain both influential and contested?",
+        "How did mercantilist policies — colonies forced to trade exclusively with their mother countries, protective tariffs, state-chartered monopoly companies — shape economic development and create dependencies that outlasted colonialism?",
+        "Why did the 'Great Divergence' begin around 1500 — with Western European economies pulling ahead of China, India, and the Islamic world in per capita income — and was it caused by geography, institutions, colonialism, or luck?"
+      ],
+      "tags": ["economics", "colonialism", "trade", "modern-history"]
+    },
+    {
+      "name": "The Industrial Revolution and the Birth of Modern Capitalism",
+      "topics": [
+        "Why did the Industrial Revolution begin in Britain rather than in China (which had coal and iron), the Netherlands (which had capital and commerce), or France (which had a larger economy) — and does any single explanation suffice?",
+        "How did the factory system transform labor — replacing skilled artisans with machine-tending workers, imposing clock discipline and 14-hour days, employing children as young as five, and concentrating workers in conditions that appalled even contemporary observers?",
+        "What was Karl Marx's analysis of capitalism — surplus value extraction, the tendency of the rate of profit to fall, alienation, and the prediction of inevitable revolution — and why did his predictions prove wrong in detail but influential in diagnosis?",
+        "How did railways transform national and global economies — reducing transport costs by 90%, creating the first national markets, enabling mass migration, and requiring capital investments so large they created modern stock markets and corporate structures?",
+        "What was the 'Second Industrial Revolution' (1870-1914) — electricity, chemicals, steel, and petroleum — and why did the US and Germany overtake Britain by applying science systematically to industrial production?",
+        "How did the gold standard (1870s-1914) create the first integrated global financial system — with fixed exchange rates, free capital flows, and London as the world's financial center — and why did World War I destroy it?"
+      ],
+      "tags": ["economics", "labor", "history", "modern-history"]
+    },
+    {
+      "name": "The Great Depression and the Reinvention of Capitalism",
+      "topics": [
+        "What caused the Great Depression — was it the stock market crash of October 1929, Federal Reserve policy errors, the gold standard's rigidity, structural overproduction, or the Smoot-Hawley tariff — and why do economists still disagree?",
+        "How did the Depression spread globally — from the US to Europe to Latin America to colonial economies — demonstrating that the interconnected world economy meant that no country could insulate itself from financial contagion?",
+        "What was Keynes's revolution — his argument in The General Theory (1936) that free markets do not automatically return to full employment and that government spending is necessary to rescue economies from depression?",
+        "How did the New Deal transform the American economy — Social Security, bank regulation, labor rights, public works — creating a social safety net that didn't exist before and establishing the principle that government has economic responsibilities?",
+        "What was the Bretton Woods system (1944) — fixed exchange rates, the IMF, the World Bank, and the dollar as reserve currency — and how did it create the institutional framework for the postwar economic boom?",
+        "Why did the postwar period (1945-1973) produce the fastest sustained economic growth in human history — with real incomes doubling, poverty rates plummeting, and a middle class emerging across the developed world — and was this golden age a historical anomaly?"
+      ],
+      "tags": ["economics", "governance", "history", "modern-history"]
+    },
+    {
+      "name": "Globalization: The World Economy Since 1945",
+      "topics": [
+        "How did the collapse of the Bretton Woods system in 1971 — when Nixon ended the dollar's convertibility to gold — usher in the era of floating exchange rates, financial deregulation, and the explosion of global capital flows?",
+        "What was the 'Washington Consensus' — the package of free-market reforms (privatization, deregulation, trade liberalization) pushed by the IMF and World Bank on developing countries in the 1980s-1990s — and why did it produce growth in some countries and devastation in others?",
+        "How did China's economic transformation since 1978 — from a closed, planned economy to the world's largest manufacturer and second-largest economy — represent the most dramatic economic change in human history, lifting 800 million people out of poverty?",
+        "What was the Asian financial crisis of 1997, how did it spread from Thailand to Indonesia, South Korea, and Russia, and what did it reveal about the dangers of rapid financial liberalization and short-term capital flows?",
+        "How has global trade reshaped the world economy — with container shipping reducing transport costs by 90%, supply chains spanning dozens of countries, and the share of trade in global GDP rising from 25% in 1960 to 60% by 2020?",
+        "Why has the 2008 financial crisis been called 'the end of an era' — with the failure of Lehman Brothers, the near-collapse of the global banking system, and the taxpayer bailouts that followed discrediting the deregulatory model that had dominated since Reagan and Thatcher?"
+      ],
+      "tags": ["economics", "globalization", "trade", "modern-history"]
+    },
+    {
+      "name": "Inequality: The Central Problem of Economic History",
+      "topics": [
+        "What did Thomas Piketty demonstrate in Capital in the Twenty-First Century (2014) — that when the rate of return on capital exceeds the rate of economic growth (r > g), inequality increases automatically — and why did this finding reshape economic debate?",
+        "How has wealth inequality changed over time — from relatively egalitarian hunter-gatherer societies to extreme concentration under agriculture and empire to the compression of the mid-20th century and the re-concentration since 1980?",
+        "What was the 'Great Compression' (1930s-1970s) — when progressive taxation, strong unions, social programs, and regulated finance reduced inequality across the developed world — and why did it reverse?",
+        "How does racial inequality intersect with economic inequality — from the wealth gap between Black and white Americans (rooted in slavery, Jim Crow, and redlining) to the economic legacies of colonialism that keep former colonies poor?",
+        "What is the 'resource curse' — why do countries rich in oil, diamonds, and minerals (Nigeria, Congo, Venezuela) often remain poor while resource-poor countries (Japan, South Korea, Singapore) prosper — and what institutional factors explain the difference?",
+        "Why do the world's 26 richest people now own as much wealth as the poorest 3.8 billion — and what historical forces produced a level of concentration that even the Gilded Age industrialists would find remarkable?"
+      ],
+      "tags": ["economics", "inequality", "history", "modern-history"]
+    },
+    {
+      "name": "Money, Banking, and Financial Crises",
+      "topics": [
+        "How did money evolve from commodity money (shells, salt, cattle, gold) to representative money (gold-backed notes) to fiat money (government-issued currency backed by nothing but trust) — and what does each transition reveal about the social nature of money?",
+        "What was the South Sea Bubble (1720) and the Tulip Mania (1637), and why do speculative manias — driven by herd behavior, leverage, and the belief that prices can only go up — recur with remarkable regularity across centuries?",
+        "How did central banking develop — from the Bank of England (1694) through the creation of the Federal Reserve (1913) to the European Central Bank (1998) — and why is the central bank now the most powerful economic institution in most countries?",
+        "What caused the 2008 financial crisis — was it subprime mortgages, securitization, credit rating agency failures, regulatory capture, or the inherent instability of financial systems, as Hyman Minsky predicted?",
+        "How has cryptocurrency — from Bitcoin (2009) to thousands of altcoins and stablecoins — challenged the state monopoly on money, and does it represent financial innovation or speculative mania?",
+        "Why did Walter Bagehot write in 1873 that 'the natural state of banking is one of panic' — and why does the history of finance show that crises are not aberrations but structural features of capitalist economies?"
+      ],
+      "tags": ["economics", "governance", "trade", "modern-history"]
+    },
+    {
+      "name": "Labor: Workers, Unions, and the Fight for Dignity",
+      "topics": [
+        "How did the transition from agricultural to industrial labor transform the human experience of work — from seasonal rhythms to factory discipline, from family production to wage dependence, from village to city?",
+        "What was the labor movement's greatest achievement — the establishment of the eight-hour day, weekends, workplace safety regulations, child labor bans, and minimum wages — and why did each of these victories require decades of struggle?",
+        "How did unions reach their peak power in the mid-20th century — with one-third of US workers unionized, strong labor parties governing in Europe, and collective bargaining raising wages across entire industries — and what caused their decline?",
+        "What is the 'gig economy,' how does the classification of workers as independent contractors (Uber, DoorDash, Amazon Flex) roll back a century of labor protections, and is this the future of work?",
+        "How has automation transformed labor markets throughout history — from the Luddites smashing textile machines to AI replacing white-collar workers — and is the current wave of automation different in kind or just the latest cycle?",
+        "Why does global labor arbitrage — companies moving production to wherever wages are lowest — persist despite decades of free trade agreements, and what are the human consequences when a factory closes in Ohio and opens in Vietnam?"
+      ],
+      "tags": ["economics", "labor", "human-rights", "modern-history"]
+    },
+    {
+      "name": "The Future of the Global Economy",
+      "topics": [
+        "How is the rise of China reshaping the global economic order — from the Belt and Road Initiative to the RCEP trade agreement to the challenge to dollar hegemony — and is the era of Western economic dominance ending?",
+        "What would 'deglobalization' actually look like — and are rising tariffs, reshoring of manufacturing, sanctions regimes, and technology decoupling reversing the integration that defined the post-1990 era?",
+        "How does climate change threaten economic stability — with estimates of 10-23% GDP loss by 2100 under high-warming scenarios — and why does the economic cost of inaction now exceed the cost of transition?",
+        "What is Modern Monetary Theory (MMT) — the argument that governments with sovereign currencies cannot 'run out of money' and that the real constraint is inflation, not debt — and why has it become the most contentious idea in economics?",
+        "How might artificial intelligence transform the economy — with estimates that 300 million jobs could be affected — and is this an opportunity for productivity growth and reduced drudgery, or a catastrophe for workers?",
+        "Why does the fundamental question of economic history remain unresolved — whether free markets naturally produce shared prosperity or whether they naturally produce inequality that only politics can correct?"
+      ],
+      "tags": ["economics", "globalization", "trade", "modern-history"]
+    }
+  ]
+}

@@ -1,20 +1,20 @@
 [
   {
     "slug": "ai-in-the-real-world",
-    "name": "Ai In The Real World",
-    "description": null,
+    "name": "AI in the Real World",
+    "description": "How AI is transforming industries, governance, and daily life — from global policy to autonomous systems to the future of work.",
     "bookCount": 7
   },
   {
     "slug": "foundations-of-artificial-intelligence",
-    "name": "Foundations Of Artificial Intelligence",
-    "description": null,
+    "name": "Foundations of Artificial Intelligence",
+    "description": "The core concepts behind AI — machine learning, training data, model architectures, and the principles that make intelligent systems work.",
     "bookCount": 4
   },
   {
     "slug": "neural-networks-and-large-language-models",
-    "name": "Neural Networks And Large Language Models",
-    "description": null,
+    "name": "Neural Networks & Large Language Models",
+    "description": "Deep learning, transformers, and the technology behind ChatGPT and Claude — how neural networks learn language and generate text.",
     "bookCount": 3
   }
 ]

@@ -1,0 +1,62 @@
+{
+  "name": "Catherine the Great: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "governance", "leadership", "culture", "modern-history"],
+  "chapters": [
+    {
+      "name": "A German Princess in Russia (1729-1762)",
+      "topics": [
+        "Who was Sophie of Anhalt-Zerbst — a minor German princess from an impoverished family — and how did the dynastic marriage market of 18th-century Europe bring her to Russia at age 14, where she would reinvent herself as Catherine and eventually seize the throne?",
+        "How did Catherine survive the dangerous years as Grand Duchess — married to the erratic and possibly impotent Peter III, navigating the lethal politics of the Russian court, learning Russian, converting to Orthodoxy, and cultivating allies among the military and nobility?",
+        "What was the coup of June 28, 1762 — when Catherine, backed by the Preobrazhensky Guards, overthrew her own husband Peter III, who was murdered days later — and how did she manage the transition from usurper to legitimate ruler?",
+        "How did Catherine's voracious intellectual life — corresponding with Voltaire, Diderot, and d'Alembert, collecting art that formed the basis of the Hermitage Museum, reading extensively in philosophy, law, and history — shape her vision of enlightened absolutism?",
+        "What was Russia in 1762 — a vast empire stretching from Poland to the Pacific, with a feudal economy based on serfdom, a nobility dependent on the crown, and a population overwhelmingly illiterate — and what did Catherine inherit when she seized power?"
+      ],
+      "tags": ["history", "governance", "leadership", "modern-history"]
+    },
+    {
+      "name": "Enlightened Despot: Reform and Its Limits",
+      "topics": [
+        "What was Catherine's Nakaz (Instruction, 1767) — a 526-article document drawing on Montesquieu and Beccaria to propose legal reform, religious tolerance, and the abolition of torture — and why did this remarkable Enlightenment manifesto lead to almost no practical reform?",
+        "How did Catherine reform Russian governance — reorganizing provincial administration, reforming the court system, establishing the Free Economic Society, and expanding education — while leaving the fundamental structure of serfdom and autocracy intact?",
+        "Why did Pugachev's Rebellion (1773-1775) — a massive Cossack and peasant uprising that nearly toppled Catherine's government — convince her that the serfs were too dangerous to free and that reform must come from above, never from below?",
+        "How did Catherine patronize the arts and sciences — founding the Hermitage collection, commissioning architectural masterpieces, supporting the Russian Academy of Sciences, and making St. Petersburg a European cultural capital — while presiding over one of the most repressive social systems in Europe?",
+        "What was the tension between Catherine's Enlightenment ideals and Russian reality — she corresponded with philosophes about liberty while expanding serfdom, championed education while censoring dissent, and wrote about the rights of man while ruling as an absolute monarch?"
+      ],
+      "tags": ["history", "governance", "society", "modern-history"]
+    },
+    {
+      "name": "Empire Builder: Wars and Expansion",
+      "topics": [
+        "How did Catherine's wars against the Ottoman Empire (1768-1774, 1787-1792) — winning decisive victories, annexing Crimea (1783), and establishing Russia as a Black Sea power — fundamentally reshape the geopolitics of southeastern Europe?",
+        "What were the Partitions of Poland (1772, 1793, 1795) — in which Catherine, Frederick the Great, and the Habsburg emperor divided Poland among themselves, erasing an independent state from the map — and how does this act of great-power predation resonate in Polish and European memory?",
+        "How did Catherine's 'Greek Project' — the grand scheme to destroy the Ottoman Empire, restore a Christian Byzantine state, and place her grandson Constantine on its throne — reflect both her imperial ambition and the limits of Russian power?",
+        "What was Potemkin's role — Prince Grigory Potemkin as Catherine's lover, partner, and co-ruler of the expanding Russian south — and was the legend of 'Potemkin villages' (fake facades to impress Catherine during her Crimean tour) true, exaggerated, or invented by jealous courtiers?",
+        "How did Catherine's territorial expansion — adding 200,000 square miles to the Russian Empire, including modern Ukraine, Belarus, Lithuania, and Crimea — create a multi-ethnic empire whose borders and tensions persist into the 21st century?"
+      ],
+      "tags": ["history", "conflict", "diplomacy", "modern-history"]
+    },
+    {
+      "name": "The Personal Catherine: Lovers, Power, and Reputation",
+      "topics": [
+        "What was Catherine's famous love life — at least 12 documented lovers, lavishly rewarded with estates and titles — and why have salacious legends (none of them true) so thoroughly eclipsed her political achievements in popular memory?",
+        "How did Catherine use her personal relationships politically — selecting lovers who were also administrators, generals, and diplomats, blurring the line between the personal and political in ways that would be unthinkable for a male monarch?",
+        "Why was Catherine subjected to sexual slander that no male ruler has ever faced — the infamous horse legend, the exaggeration of her lovers' numbers, the reduction of a brilliant ruler to a sexual caricature — and what does this reveal about how history treats powerful women?",
+        "How did Catherine manage the succession — her complex relationship with her son Paul (whom she considered incompetent and may have considered bypassing for her grandson Alexander) — and how did her failure to resolve the succession destabilize Russia after her death?",
+        "What was Catherine's daily life — her disciplined work schedule (rising at 5 AM), her vast correspondence, her beloved dogs, her sense of humor, her management of courtiers — and how did she maintain power for 34 years through intelligence, charm, and ruthlessness?"
+      ],
+      "tags": ["history", "leadership", "governance", "modern-history"]
+    },
+    {
+      "name": "Legacy: Russia's Greatest Ruler?",
+      "topics": [
+        "Why do many historians consider Catherine Russia's greatest ruler — expanding the empire more than any other monarch, modernizing governance, making Russia a European great power, and presiding over a cultural golden age — while others see her as a tyrant who deepened serfdom?",
+        "How has Catherine's reputation changed over time — celebrated by the Russian Enlightenment, dismissed by Soviet historians as a feudal oppressor, rehabilitated by feminist scholars as a woman who mastered a man's world, and reclaimed by Putin-era Russia as a justification for Crimean annexation?",
+        "What does Catherine reveal about enlightened absolutism — the idea that strong rulers could implement Enlightenment reforms from above — and why did this model fail to produce lasting democratic reform in Russia, Prussia, or Austria?",
+        "How does Catherine compare to other female rulers — Elizabeth I, Maria Theresa, Wu Zetian, Victoria — and what patterns emerge about how women exercise power when they reach the top of patriarchal systems?",
+        "Why does Catherine's legacy remain politically relevant — her annexation of Crimea invoked by Russia in 2014, her expansion of the Russian Empire referenced in debates about Russian identity and borders — demonstrating that the 18th century still shapes 21st-century geopolitics?"
+      ],
+      "tags": ["history", "leadership", "governance", "modern-history"]
+    }
+  ]
+}

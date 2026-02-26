@@ -1,0 +1,62 @@
+{
+  "name": "Nikola Tesla: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "innovation", "technology", "economics", "modern-history"],
+  "chapters": [
+    {
+      "name": "The Inventor's Mind: Serbia to New York (1856-1888)",
+      "topics": [
+        "Who was Nikola Tesla — born in Smiljan in the Austrian Empire (modern Croatia) in 1856, the son of a Serbian Orthodox priest, a man who claimed to visualize his inventions complete in his mind before building them, and who experienced sensory phenomena (flashes of light, vivid visions) that may have been a form of synesthesia?",
+        "How did Tesla's education shape his inventive genius — studying at the Austrian Polytechnic in Graz (where he first conceived the alternating current motor), dropping out before graduating, working as a telephone company engineer in Budapest, experiencing a creative breakthrough while walking in a park in 1882?",
+        "How did Tesla arrive in America in 1884 — with four cents in his pocket and a letter of introduction to Thomas Edison — and what happened when these two men's incompatible personalities (Edison: empirical trial-and-error; Tesla: theoretical mathematical modeling) made them rivals?",
+        "Why did Tesla leave Edison's company after less than a year — the disputed promise of $50,000 for improving Edison's DC generators, Tesla's claim that Edison reneged, his brief period digging ditches for survival — and how did this betrayal shape Tesla's lifelong distrust of corporate power?",
+        "How did Tesla's partnership with George Westinghouse begin in 1888 — Westinghouse licensing Tesla's AC patents for $60,000 plus royalties, recognizing that alternating current was the future of electrical power — launching the battle that would determine how the world was electrified?"
+      ],
+      "tags": ["science", "technology", "innovation", "modern-history"]
+    },
+    {
+      "name": "The War of Currents (1888-1893)",
+      "topics": [
+        "What was the War of Currents — Edison's direct current (DC) versus Tesla and Westinghouse's alternating current (AC) — a battle over which system would electrify America that combined genuine engineering debate with ruthless propaganda and public electrocution of animals?",
+        "How did Edison fight dirty — publicly electrocuting dogs, horses, and an elephant named Topsy using AC current, lobbying for AC-powered electric chairs, hiring Harold Brown to smear AC as deadly — in a campaign that prioritized his financial investment over scientific truth?",
+        "Why was AC technically superior — Tesla's polyphase system could transmit electricity over long distances with minimal power loss, transformers could step voltage up or down, AC motors were simpler and more reliable — while DC was limited to a one-mile radius from the power station?",
+        "How did the 1893 World's Columbian Exposition in Chicago settle the debate — Westinghouse and Tesla lighting the entire fair with AC power, dazzling millions of visitors, demonstrating that AC could safely and efficiently power a modern city — at half the cost Edison had quoted?",
+        "How did the electrification of Niagara Falls (1895) prove AC's dominance — Tesla's polyphase AC system generating hydroelectric power and transmitting it 26 miles to Buffalo — demonstrating that AC could harness nature's energy and deliver it across distances that made DC obsolete?"
+      ],
+      "tags": ["science", "technology", "economics", "modern-history"]
+    },
+    {
+      "name": "Wireless Dreams and Wardenclyffe (1893-1906)",
+      "topics": [
+        "What was Tesla's vision for wireless power — transmitting electricity through the Earth's atmosphere without wires, providing free energy to the entire planet — and was this scientifically sound or a beautiful impossibility that confused wireless communication (achievable) with wireless power transmission (impractical at scale)?",
+        "How did Tesla demonstrate wireless transmission — his experiments at Colorado Springs (1899), producing artificial lightning bolts 135 feet long, claiming to receive signals from Mars, accidentally blacking out the city's power supply — in demonstrations that mixed genuine science with showmanship?",
+        "What was the Wardenclyffe Tower project (1901-1906) — a 187-foot tower on Long Island designed to transmit electricity and information wirelessly around the world, funded by J.P. Morgan, abandoned when Morgan realized Tesla wanted to give power away for free rather than meter it?",
+        "Why did Morgan pull funding — Tesla's shifting goals (from wireless communication to wireless power), Marconi's successful transatlantic radio transmission (1901) using simpler technology, Morgan's famous question 'If anyone can draw on the power, where do I put the meter?' — and did capitalism kill Tesla's greatest vision?",
+        "How did the failure of Wardenclyffe mark the turning point in Tesla's career — the tower demolished for scrap in 1917, Tesla's patents expiring without adequate income, the beginning of his long decline from celebrated inventor to eccentric recluse?"
+      ],
+      "tags": ["science", "technology", "economics", "modern-history"]
+    },
+    {
+      "name": "The Forgotten Inventor: Decline and Eccentricity (1906-1943)",
+      "topics": [
+        "How did Tesla's later claims grow increasingly grandiose — death rays ('teleforce' weapon), earthquake machines, communication with extraterrestrials, limitless free energy — and where is the line between genuine visionary thinking and the decline of a brilliant mind?",
+        "What was Tesla's personal life — never married, claimed that celibacy enhanced his scientific abilities, obsessive-compulsive behaviors (divisibility by three, counting steps, phobia of pearls and round objects), his deep attachment to the pigeons he fed in Bryant Park?",
+        "How did Tesla lose credit for his inventions — Marconi awarded the Nobel Prize for radio (1909) using Tesla's patents, the U.S. Supreme Court eventually ruling in Tesla's favor (1943, months after his death), Edison's publicity machine overshadowing Tesla's contributions?",
+        "What was Tesla's relationship with the press — his ability to generate headlines with dramatic demonstrations and audacious claims, his birthday interviews announcing ever-more-fantastic inventions, the fine line between public scientist and showman?",
+        "How did Tesla die on January 7, 1943 — alone in room 3327 of the New Yorker Hotel, feeding pigeons, his hotel bills quietly paid by Westinghouse as charity — while the AC electrical system he invented powered the city around him, and why did the FBI seize his papers within hours of his death?"
+      ],
+      "tags": ["science", "technology", "identity", "modern-history"]
+    },
+    {
+      "name": "Legacy: The Folk Hero of Invention",
+      "topics": [
+        "What is Tesla's actual scientific legacy — the AC induction motor, the polyphase power system that electrified the world, the Tesla coil, foundational radio technology, innovations in robotics and remote control, rotating magnetic fields — contributions that shaped modern civilization?",
+        "How has Tesla become a folk hero — lionized on the internet, the subject of conspiracy theories about suppressed inventions, a symbol of the lone genius crushed by corporate power (Edison, Morgan, Marconi), the namesake of Elon Musk's car company — and how much of this mythology is accurate?",
+        "How does Tesla compare to Edison — the visionary theorist versus the practical businessman, the mathematician versus the empiricist, the man who died in poverty versus the man who died rich — and why did Tesla's approach to invention (mathematical modeling before building) ultimately prove more powerful?",
+        "What was suppressed or lost from Tesla's work — the FBI's seizure of his papers after death, decades of classified review, the return of some papers to Yugoslavia (1952), persistent conspiracy theories about death rays and free energy devices — and how much of this is genuine mystery versus wishful thinking?",
+        "Why did history initially credit Edison and Marconi for achievements that were substantially Tesla's — the role of corporate publicity, patent litigation, national chauvinism, and the simple fact that Tesla died forgotten while Edison died famous — and has the 21st-century rehabilitation gone too far in the other direction?"
+      ],
+      "tags": ["science", "technology", "innovation", "modern-history"]
+    }
+  ]
+}

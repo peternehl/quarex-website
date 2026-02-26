@@ -16,35 +16,195 @@
     "created_by": "Peter Nehl and Claude Opus 4.5"
   },
   {
-    "slug": "womens-rights-centuries-of-struggle",
-    "name": "Women's Rights: Centuries of Struggle",
-    "description": null,
-    "chapterCount": 14,
-    "tags": [
-      "women's rights",
-      "feminism",
-      "gender equality",
-      "suffrage",
-      "reproductive rights",
-      "workplace equality",
-      "feminist history"
-    ],
-    "created_by": "Peter Nehl and Claude Opus 4.5"
+    "slug": "ancient-civilizations",
+    "name": "Ancient Civilizations",
+    "description": "From Mesopotamia to Mesoamerica, the rise of the world's first cities, empires, and knowledge systems",
+    "chapterCount": 12,
+    "tags": ["history", "ancient-history", "anthropology", "archaeology", "africa", "asia", "americas"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
   },
   {
-    "slug": "a-history-of-racism-in-the-americas",
-    "name": "A History of Racism in the Americas",
-    "description": null,
-    "chapterCount": 13,
-    "tags": [
-      "racism history",
-      "Americas",
-      "slavery",
-      "colonialism",
-      "civil rights",
-      "Indigenous peoples",
-      "racial inequality"
-    ],
-    "created_by": "Peter Nehl and Claude Opus 4.5"
+    "slug": "classical-antiquity-greece-and-rome",
+    "name": "Classical Antiquity: Greece and Rome",
+    "description": "Democracy, empire, philosophy, and law from Athens and Sparta through Rome's rise and fall",
+    "chapterCount": 12,
+    "tags": ["history", "ancient-greece", "ancient-rome", "democracy", "philosophy", "ancient-history", "europe"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-middle-ages-and-the-islamic-golden-age",
+    "name": "The Middle Ages and the Islamic Golden Age",
+    "description": "Feudalism, the Crusades, the Mongols, and the Islamic world's scientific and cultural revolution",
+    "chapterCount": 11,
+    "tags": ["history", "medieval", "religion", "colonialism", "europe", "middle-east", "ancient-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-age-of-exploration-and-colonialism",
+    "name": "The Age of Exploration and Colonialism",
+    "description": "European expansion, the Atlantic slave trade, the conquest of the Americas, and the colonial world order",
+    "chapterCount": 12,
+    "tags": ["history", "colonialism", "geopolitics", "trade", "americas", "africa", "asia"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-industrial-revolution",
+    "name": "The Industrial Revolution",
+    "description": "Steam, steel, and factories: how mechanization transformed economies, cities, and human life",
+    "chapterCount": 12,
+    "tags": ["history", "economics", "industrial-revolution", "labor", "europe", "modern-history", "engineering"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "world-war-i",
+    "name": "World War I",
+    "description": "Alliances, trenches, and 20 million dead: the war that destroyed empires and made the modern world",
+    "chapterCount": 12,
+    "tags": ["history", "conflict", "world-wars", "diplomacy", "europe", "modern-history", "treaties"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "world-war-ii-and-the-holocaust",
+    "name": "World War II and the Holocaust",
+    "description": "Fascism, total war, industrialized genocide, and the atomic bomb: 1939-1945",
+    "chapterCount": 12,
+    "tags": ["history", "conflict", "world-wars", "human-rights", "europe", "asia", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-cold-war",
+    "name": "The Cold War",
+    "description": "Nuclear standoff, proxy wars, and ideological rivalry from Berlin to Vietnam to the fall of the Wall",
+    "chapterCount": 11,
+    "tags": ["history", "conflict", "cold-war", "nuclear-weapons", "diplomacy", "geopolitics", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "decolonization-and-the-post-colonial-world",
+    "name": "Decolonization and the Post-Colonial World",
+    "description": "Independence movements, neo-colonialism, and the unfinished struggle for sovereignty across Africa, Asia, and the Middle East",
+    "chapterCount": 12,
+    "tags": ["history", "colonialism", "human-rights", "activism", "africa", "asia", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-american-revolution-and-the-founding-era",
+    "name": "The American Revolution and the Founding Era",
+    "description": "From taxation without representation to the Constitution: how 13 colonies built a republic and embedded contradictions that persist today",
+    "chapterCount": 10,
+    "tags": ["history", "democracy", "americas", "modern-history", "constitutional-law", "politics", "enlightenment"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-french-revolution-and-the-napoleonic-wars",
+    "name": "The French Revolution and the Napoleonic Wars",
+    "description": "Liberty, equality, fraternity — and the Terror, Napoleon, and the reshaping of Europe from 1789 to 1815",
+    "chapterCount": 10,
+    "tags": ["history", "politics", "revolution", "europe", "modern-history", "democracy", "conflict"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "chinese-history-dynasties-to-the-peoples-republic",
+    "name": "Chinese History: Dynasties to the People's Republic",
+    "description": "4,000 years of imperial rule, revolution, and reinvention — from the Qin unification to Xi Jinping's China",
+    "chapterCount": 10,
+    "tags": ["history", "asia", "governance", "colonialism", "revolution", "modern-history", "ancient-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "japanese-history-shoguns-to-superpower",
+    "name": "Japanese History: Shoguns to Superpower",
+    "description": "Samurai, isolation, rapid modernization, imperial conquest, and economic miracle — Japan's extraordinary trajectory",
+    "chapterCount": 9,
+    "tags": ["history", "asia", "governance", "conflict", "economics", "modern-history", "cultural-heritage"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "indian-history-empires-colonialism-and-independence",
+    "name": "Indian History: Empires, Colonialism, and Independence",
+    "description": "From the Maurya Empire to Modi's India — conquest, British rule, partition, and the world's largest democracy",
+    "chapterCount": 8,
+    "tags": ["history", "asia", "colonialism", "democracy", "religion", "modern-history", "ancient-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "russian-history-tsars-revolution-and-empire",
+    "name": "Russian History: Tsars, Revolution, and Empire",
+    "description": "Autocracy, revolution, Soviet power, and Putin — the forces that shaped the world's largest country",
+    "chapterCount": 9,
+    "tags": ["history", "europe", "asia", "politics", "revolution", "authoritarianism", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-history-of-science-galileo-to-crispr",
+    "name": "The History of Science: Galileo to CRISPR",
+    "description": "From the telescope to gene editing — how scientific revolutions reshaped what we know and who we are",
+    "chapterCount": 10,
+    "tags": ["history", "science", "innovation", "technology", "discovery", "modern-history", "methodology"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-history-of-the-middle-east",
+    "name": "The History of the Middle East",
+    "description": "Cradle of civilization, birthplace of religions, and arena of empire — from Mesopotamia to the modern conflicts",
+    "chapterCount": 8,
+    "tags": ["history", "middle-east", "religion", "colonialism", "conflict", "geopolitics", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-history-of-religion",
+    "name": "The History of Religion",
+    "description": "From cave paintings to cathedrals to culture wars — how faith shaped civilizations and continues to divide them",
+    "chapterCount": 9,
+    "tags": ["history", "religion", "spirituality", "philosophy", "society", "cultural-heritage", "anthropology"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "cultural-anthropology",
+    "name": "Cultural Anthropology",
+    "description": "Kinship, ritual, race, gender, and the study of human cultures — from Boas and Mead to globalization and digital ethnography",
+    "chapterCount": 11,
+    "tags": ["anthropology", "society", "identity", "cultural-heritage", "migration", "religion", "methodology"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "human-evolution-and-migration",
+    "name": "Human Evolution and Migration",
+    "description": "From bipedal apes in Africa to every continent on Earth — 7 million years of human evolution, migration, and adaptation",
+    "chapterCount": 10,
+    "tags": ["evolution", "anthropology", "biology", "migration", "science", "ancient-history", "discovery"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "archaeological-methods-and-great-discoveries",
+    "name": "Archaeological Methods and Great Discoveries",
+    "description": "How we dig up the past — from radiocarbon dating to LiDAR, and the discoveries that rewrote human history",
+    "chapterCount": 10,
+    "tags": ["history", "anthropology", "science", "methodology", "discovery", "ancient-history", "cultural-heritage"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "economic-history-trade-capital-and-inequality",
+    "name": "Economic History: Trade, Capital, and Inequality",
+    "description": "From Mesopotamian grain accounts to cryptocurrency — how trade, money, and markets built and divided the modern world",
+    "chapterCount": 10,
+    "tags": ["economics", "history", "trade", "labor", "inequality", "globalization", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-history-of-medicine",
+    "name": "The History of Medicine",
+    "description": "From Hippocrates to CRISPR — plague, germ theory, antibiotics, vaccines, and the politics of who gets healed",
+    "chapterCount": 10,
+    "tags": ["health", "medicine", "science", "history", "discovery", "ethics", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
+  },
+  {
+    "slug": "the-history-of-law-and-justice",
+    "name": "The History of Law and Justice",
+    "description": "From Hammurabi's code to the ICC — how legal systems create, enforce, and sometimes obstruct justice",
+    "chapterCount": 10,
+    "tags": ["law", "history", "human-rights", "governance", "ethics", "constitutional-law", "modern-history"],
+    "created_by": "Peter Nehl and Claude Opus 4.6"
   }
 ]

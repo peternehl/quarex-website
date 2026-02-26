@@ -43,6 +43,7 @@ stats = {
     "shelves": 0,
     "books": 0,
     "chapters": 0,
+    "topics": 0,
     "tags": 0,
     "chapter_tags": 0,
     "curricula": 0,
@@ -55,7 +56,7 @@ def create_database(conn):
     cursor = conn.cursor()
 
     # Drop existing tables (for clean rebuild)
-    tables = ['chapter_tags', 'chapters', 'books', 'shelves', 'libraries',
+    tables = ['chapter_tags', 'topics', 'chapters', 'books', 'shelves', 'libraries',
               'library_types', 'tags', 'curricula', 'curriculum_courses']
     for table in tables:
         cursor.execute(f"DROP TABLE IF EXISTS {table}")
@@ -125,6 +126,16 @@ def create_database(conn):
     """)
 
     cursor.execute("""
+        CREATE TABLE topics (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            chapter_id INTEGER NOT NULL,
+            question TEXT NOT NULL,
+            sort_order INTEGER NOT NULL,
+            FOREIGN KEY (chapter_id) REFERENCES chapters(id)
+        )
+    """)
+
+    cursor.execute("""
         CREATE TABLE chapter_tags (
             chapter_id INTEGER NOT NULL,
             tag_id INTEGER NOT NULL,
@@ -165,6 +176,7 @@ def create_database(conn):
     cursor.execute("CREATE INDEX idx_chapter_tags_tag ON chapter_tags(tag_id)")
     cursor.execute("CREATE INDEX idx_books_shelf ON books(shelf_id)")
     cursor.execute("CREATE INDEX idx_chapters_book ON chapters(book_id)")
+    cursor.execute("CREATE INDEX idx_topics_chapter ON topics(chapter_id)")
     cursor.execute("CREATE INDEX idx_libraries_type ON libraries(library_type_id)")
     cursor.execute("CREATE INDEX idx_shelves_library ON shelves(library_id)")
 
@@ -172,16 +184,23 @@ def create_database(conn):
     cursor.execute("""
         CREATE VIRTUAL TABLE IF NOT EXISTS books_fts USING fts5(
             name,
-            content='books',
-            content_rowid='id'
+            content=''
         )
     """)
 
     cursor.execute("""
         CREATE VIRTUAL TABLE IF NOT EXISTS chapters_fts USING fts5(
             name,
-            content='chapters',
-            content_rowid='id'
+            content=''
+        )
+    """)
+
+    cursor.execute("""
+        CREATE VIRTUAL TABLE IF NOT EXISTS topics_fts USING fts5(
+            question,
+            book_name,
+            chapter_name,
+            content=''
         )
     """)
 
@@ -214,6 +233,29 @@ def create_database(conn):
         LEFT JOIN chapter_tags ct ON t.id = ct.tag_id
         GROUP BY t.id
         ORDER BY usage_count DESC
+    """)
+
+    cursor.execute("""
+        CREATE VIEW v_topic_detail AS
+        SELECT
+            tp.id as topic_id,
+            tp.question,
+            tp.sort_order as topic_order,
+            c.name as chapter_name,
+            c.id as chapter_id,
+            b.name as book_name,
+            b.id as book_id,
+            s.name as shelf,
+            s.slug as shelf_slug,
+            l.name as library,
+            l.slug as library_slug,
+            lt.name as library_type
+        FROM topics tp
+        JOIN chapters c ON tp.chapter_id = c.id
+        JOIN books b ON c.book_id = b.id
+        JOIN shelves s ON b.shelf_id = s.id
+        JOIN libraries l ON s.library_id = l.id
+        JOIN library_types lt ON l.library_type_id = lt.id
     """)
 
     cursor.execute("""
@@ -412,6 +454,20 @@ def process_book_file(conn, file_path, library_type_name, library_name, shelf_na
         cursor.execute("INSERT INTO chapters_fts (rowid, name) VALUES (?, ?)",
                       (chapter_id, chapter_name))
 
+        # Insert topics
+        if isinstance(chapter, dict):
+            chapter_topics = chapter.get('topics', [])
+            for j, topic in enumerate(chapter_topics):
+                if isinstance(topic, str) and topic.strip():
+                    cursor.execute("""
+                        INSERT INTO topics (chapter_id, question, sort_order)
+                        VALUES (?, ?, ?)
+                    """, (chapter_id, topic.strip(), j))
+                    topic_id = cursor.lastrowid
+                    cursor.execute("INSERT INTO topics_fts (rowid, question, book_name, chapter_name) VALUES (?, ?, ?, ?)",
+                                  (topic_id, topic.strip(), book_name, chapter_name))
+                    stats["topics"] += 1
+
         # Insert chapter tags
         for tag_slug in chapter_tags:
             tag_slug_normalized = tag_slug.lower().replace(' ', '-')
@@ -546,6 +602,7 @@ def print_summary():
     print(f"Shelves:          {stats['shelves']}")
     print(f"Books:            {stats['books']}")
     print(f"Chapters:         {stats['chapters']}")
+    print(f"Topics:           {stats['topics']}")
     print(f"Tags:             {stats['tags']}")
     print(f"Chapter-tag links:{stats['chapter_tags']}")
     print(f"Curricula:        {stats['curricula']}")

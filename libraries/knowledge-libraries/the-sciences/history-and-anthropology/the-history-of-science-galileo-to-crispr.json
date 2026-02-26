@@ -1,0 +1,127 @@
+{
+  "name": "The History of Science: Galileo to CRISPR",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "science", "innovation", "technology", "discovery", "modern-history", "methodology"],
+  "chapters": [
+    {
+      "name": "The Scientific Revolution: Breaking with Aristotle",
+      "topics": [
+        "Why did the Scientific Revolution begin in Europe in the 16th-17th centuries rather than in the Islamic world (which had preserved and advanced Greek science) or China (which had invented the compass, gunpowder, and printing)?",
+        "How did Copernicus's heliocentric theory (1543) challenge not just astronomy but the entire medieval worldview — and why did the Church initially tolerate it for 70 years before condemning Galileo in 1633?",
+        "What did Galileo actually demonstrate with his telescope in 1609-1610 — Jupiter's moons, Venus's phases, sunspots — and why did this observational evidence matter more than two millennia of philosophical argument?",
+        "How did Francis Bacon's Novum Organum (1620) and Rene Descartes's Discourse on Method (1637) establish competing visions of scientific method — empiricism versus rationalism — that scientists still navigate today?",
+        "What was Isaac Newton's achievement in the Principia (1687) — unifying terrestrial and celestial mechanics with three laws and universal gravitation — and why did Alexander Pope write 'Nature and Nature's laws lay hid in night; God said, Let Newton be! and all was light'?",
+        "How did the founding of scientific societies — the Royal Society (1660), the Academie des Sciences (1666) — create institutions for sharing, verifying, and debating discoveries that transformed science from individual genius to collective enterprise?"
+      ],
+      "tags": ["science", "discovery", "modern-history", "europe"]
+    },
+    {
+      "name": "The Enlightenment and the Ambition to Know Everything",
+      "topics": [
+        "How did the Encyclopedie of Diderot and d'Alembert (1751-1772) — 72,000 articles organizing all human knowledge — represent the Enlightenment's belief that reason could comprehend and improve every aspect of human life?",
+        "What was Linnaeus's classification system (1735), and how did naming and categorizing every living species create the framework for biology — while also embedding European racial hierarchies into 'scientific' taxonomy?",
+        "How did Benjamin Franklin's experiments with electricity (1752) and Antoine Lavoisier's discovery of oxygen and the law of conservation of mass (1770s-1780s) transform chemistry from alchemy into a modern science?",
+        "Why was Lavoisier — one of the greatest scientists in history — guillotined during the French Revolution in 1794, and what did the judge's reported comment ('The Republic has no need of savants') reveal about the relationship between science and political power?",
+        "How did the development of precision instruments — the microscope, telescope, barometer, thermometer, and chronometer — make previously invisible phenomena measurable and transform science from qualitative observation to quantitative measurement?",
+        "What was the Enlightenment's blind spot — the assumption that European science proved European superiority — and how did this equation of scientific progress with racial hierarchy justify colonialism, eugenics, and the dismissal of non-European knowledge systems?"
+      ],
+      "tags": ["science", "epistemology", "enlightenment", "europe"]
+    },
+    {
+      "name": "Darwin and the Theory of Evolution",
+      "topics": [
+        "How did Darwin's voyage on HMS Beagle (1831-1836) — particularly his observations of finches, tortoises, and fossils in the Galapagos — lead him to a theory so controversial he delayed publishing it for 20 years?",
+        "What did On the Origin of Species (1859) actually argue — natural selection acting on variation over deep time — and why did it provoke a reaction more intense than any scientific publication before or since?",
+        "How did the debate between Thomas Huxley ('Darwin's Bulldog') and Bishop Samuel Wilberforce at Oxford in 1860 become a founding myth of the science-versus-religion conflict — even though the actual exchange was more nuanced than the legend suggests?",
+        "What was 'Social Darwinism' — Herbert Spencer's misapplication of natural selection to justify laissez-faire capitalism, imperialism, and racial hierarchy — and why did Darwin himself reject these interpretations of his work?",
+        "How did the rediscovery of Mendel's genetics in 1900 initially seem to contradict Darwin, and why did the 'Modern Synthesis' of the 1930s-1940s (combining natural selection with genetics) resolve the conflict and establish the framework of modern biology?",
+        "Why does evolution remain the most politically contested scientific theory — with 40% of Americans rejecting it in surveys — despite being supported by evidence from genetics, paleontology, biogeography, and molecular biology that no other theory can explain?"
+      ],
+      "tags": ["science", "discovery", "evolution-biology", "modern-history"]
+    },
+    {
+      "name": "The Physics Revolution: Relativity and Quantum Mechanics",
+      "topics": [
+        "How did Einstein's special relativity (1905) and general relativity (1915) overthrow Newton's 200-year framework by showing that space and time are relative, mass and energy are equivalent (E=mc2), and gravity is the curvature of spacetime?",
+        "What was the 'miracle year' of 1905, when a 26-year-old patent clerk published four papers that revolutionized physics — the photoelectric effect, Brownian motion, special relativity, and mass-energy equivalence?",
+        "How did quantum mechanics emerge from Planck's quantum hypothesis (1900), Bohr's atomic model (1913), and Heisenberg's uncertainty principle (1927) to describe a subatomic world where particles can be in two places at once and observation affects reality?",
+        "What was the Bohr-Einstein debate, and why did Einstein's insistence that 'God does not play dice' — his rejection of quantum mechanics' inherent randomness — put him on the losing side of 20th-century physics?",
+        "How did the Manhattan Project demonstrate both the awesome power and the terrible responsibility of modern physics — transforming E=mc2 from an equation into weapons that killed 200,000 people and threatened human extinction?",
+        "Why have physicists spent 80 years trying to unify general relativity (which describes the very large) with quantum mechanics (which describes the very small) — and what would a 'Theory of Everything' actually explain?"
+      ],
+      "tags": ["science", "discovery", "physics", "modern-history"]
+    },
+    {
+      "name": "The Discovery of DNA and the Molecular Revolution",
+      "topics": [
+        "How did Watson and Crick's discovery of DNA's double helix structure in 1953 — built on Rosalind Franklin's X-ray crystallography data, which she was denied credit for during her lifetime — open the door to molecular biology?",
+        "What was Rosalind Franklin's actual contribution to the DNA discovery, how did Watson and Crick use her data without her knowledge, and why has the erasure of her role become a landmark case in the history of women in science?",
+        "How did the cracking of the genetic code in the 1960s — revealing that triplets of DNA bases specify amino acids — demonstrate that all life on Earth shares a common molecular language?",
+        "What was the Human Genome Project (1990-2003), how did the $2.7 billion effort to sequence 3 billion base pairs of human DNA deliver on its promises — and where did the expected medical revolution fail to materialize as quickly as predicted?",
+        "How did CRISPR-Cas9 gene editing (developed 2012) transform biology by making it possible to edit DNA with unprecedented precision — and what are the ethical implications of editing human embryos, as He Jiankui did controversially in China in 2018?",
+        "Why does the history of genetics carry the shadow of eugenics — from forced sterilization programs in 32 US states to Nazi racial science — and how do modern genetics debates about designer babies and genetic enhancement echo these earlier horrors?"
+      ],
+      "tags": ["science", "discovery", "genetics", "modern-history"]
+    },
+    {
+      "name": "Medicine: From Leeches to Antibiotics to Genomics",
+      "topics": [
+        "How did Edward Jenner's smallpox vaccine (1796) — testing his theory by deliberately infecting an eight-year-old boy — begin the eradication of a disease that had killed an estimated 500 million people in the 20th century alone?",
+        "What was the germ theory revolution, and how did Pasteur, Koch, and Lister's demonstration that microorganisms cause disease — against the fierce resistance of the medical establishment — transform surgery from butchery to science?",
+        "How did Alexander Fleming's accidental discovery of penicillin (1928) and its mass production during World War II begin the antibiotic era that has saved an estimated 200 million lives — and why is antibiotic resistance now threatening to end it?",
+        "What was the polio vaccine's impact — Jonas Salk's killed-virus vaccine (1955) and Albert Sabin's oral vaccine (1961) — and why did Salk refuse to patent it, saying 'Could you patent the sun?'",
+        "How did the COVID-19 pandemic accelerate vaccine technology — with mRNA vaccines (Pfizer, Moderna) developed in record time using a platform decades in the making — and what does this success suggest about future pandemic preparedness?",
+        "Why does the history of medicine include systematic abuses — the Tuskegee syphilis study (1932-1972), Nazi medical experiments, thalidomide, the opioid crisis — that demonstrate how science without ethics produces harm at scale?"
+      ],
+      "tags": ["health", "discovery", "medicine", "modern-history"]
+    },
+    {
+      "name": "The Computer Revolution and the Information Age",
+      "topics": [
+        "How did Alan Turing's theoretical 'universal machine' (1936) and his World War II codebreaking at Bletchley Park lay the intellectual foundation for every computer that exists today?",
+        "What was ENIAC (1945) — the first general-purpose electronic computer, weighing 30 tons and using 18,000 vacuum tubes — and how did it evolve into devices billions of times more powerful that fit in a pocket?",
+        "How did the invention of the transistor at Bell Labs (1947), the integrated circuit (1958), and Moore's Law (transistor density doubling every two years) drive an exponential acceleration of computing power that sustained itself for 50 years?",
+        "What was the ARPANET (1969) and how did a Cold War military communication project evolve into the internet and then the World Wide Web (Tim Berners-Lee, 1989), transforming every aspect of human communication, commerce, and culture?",
+        "How did artificial intelligence evolve from Turing's original question ('Can machines think?') through expert systems, machine learning, and deep learning to the large language models (GPT, Claude) that have disrupted industries and raised existential questions?",
+        "Why does the digital revolution raise unprecedented questions about privacy, democracy, employment, and human identity — and are these questions fundamentally different from those raised by previous technological revolutions, or just faster?"
+      ],
+      "tags": ["technology", "innovation", "computer-science", "modern-history"]
+    },
+    {
+      "name": "Climate Science and the Anthropocene",
+      "topics": [
+        "How did Svante Arrhenius calculate in 1896 that doubling atmospheric CO2 would raise global temperatures by 5-6 degrees Celsius — a remarkably accurate prediction made 130 years before its consequences became undeniable?",
+        "What was Charles David Keeling's contribution — the continuous measurement of atmospheric CO2 at Mauna Loa beginning in 1958 — and why does the 'Keeling Curve' showing relentless CO2 increase remain the most important graph in climate science?",
+        "How did the IPCC (Intergovernmental Panel on Climate Change, established 1988) synthesize thousands of studies to produce increasingly alarming conclusions — and why did the fossil fuel industry fund campaigns to manufacture doubt about the science?",
+        "What is the Anthropocene — the proposed geological epoch defined by human impact on Earth's systems — and when did it begin (the agricultural revolution? the Industrial Revolution? the nuclear age?)?",
+        "How has climate science been attacked, politicized, and deliberately misrepresented — from the 'Climategate' email hack (2009) to Congressional hearings designed to intimidate scientists — and what does this reveal about the relationship between science, economics, and power?",
+        "Why do scientists now warn that Earth may be approaching tipping points — ice sheet collapse, permafrost methane release, Amazon dieback — that could trigger irreversible changes, and what historical precedents exist for civilizations that failed to respond to environmental warnings?"
+      ],
+      "tags": ["science", "sustainability", "climate-science", "modern-history"]
+    },
+    {
+      "name": "Women in Science: Invisible Contributions and Structural Barriers",
+      "topics": [
+        "How did Marie Curie become the only person to win Nobel Prizes in two different sciences (Physics 1903, Chemistry 1911) while facing sexism so intense that the French Academy of Sciences refused to elect her as a member?",
+        "What was the 'Matilda Effect' — the systematic pattern of women's scientific contributions being attributed to male colleagues — and how did cases like Rosalind Franklin (DNA), Jocelyn Bell Burnell (pulsars), and Lise Meitner (nuclear fission) demonstrate it?",
+        "How did the 'hidden figures' of NASA — Katherine Johnson, Dorothy Vaughan, Mary Jackson — perform calculations essential to the space program while working in segregated facilities and receiving no public recognition for decades?",
+        "Why did women constitute fewer than 3% of physics faculty, 15% of engineering students, and 25% of computer science graduates in the early 2000s — and what structural factors beyond 'pipeline' arguments explain these persistent gaps?",
+        "How did Emmanuelle Charpentier and Jennifer Doudna's development of CRISPR gene editing (Nobel Prize 2020) represent both a breakthrough for women in science and evidence of how much talent previous generations of exclusion had wasted?",
+        "What specific institutional changes — blind review, parental leave policies, mentorship programs, harassment accountability — have been shown to increase women's participation in science, and why has progress remained frustratingly slow?"
+      ],
+      "tags": ["science", "inequality", "feminism", "modern-history"]
+    },
+    {
+      "name": "The Legacy: Science, Power, and Responsibility",
+      "topics": [
+        "How did the atomic bomb create the template for science's moral dilemma — the knowledge that pure research can produce weapons of mass destruction — and why did Oppenheimer quote the Bhagavad Gita ('Now I am become Death, the destroyer of worlds')?",
+        "What is the 'replication crisis' — the discovery that a significant percentage of published scientific findings cannot be reproduced — and what does it reveal about publication bias, career incentives, and the limits of peer review?",
+        "How has corporate funding of science — from tobacco companies concealing cancer evidence to pharmaceutical companies suppressing unfavorable drug trials to tech companies resisting AI safety research — corrupted the integrity of scientific inquiry?",
+        "Why does public trust in science vary so dramatically by country and political affiliation — with vaccine hesitancy, climate denial, and anti-evolution sentiment clustering in specific populations — and what communication failures contribute to this gap?",
+        "How do emerging technologies — artificial intelligence, gene editing, synthetic biology, autonomous weapons — pose governance challenges that outpace society's ability to develop ethical frameworks and regulatory systems?",
+        "What would a genuinely global science look like — one that incorporated indigenous knowledge systems, addressed Global South priorities, and distributed the benefits of discovery more equitably — and what structural changes would it require?"
+      ],
+      "tags": ["science", "ethics", "methodology", "modern-history"]
+    }
+  ]
+}

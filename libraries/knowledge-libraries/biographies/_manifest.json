@@ -2,7 +2,31 @@
   {
     "slug": "political-biographies",
     "name": "Political Biographies",
-    "description": null,
-    "bookCount": 4
+    "description": "Activists, revolutionaries, and political figures who challenged power and changed the rules of the game.",
+    "bookCount": 3
+  },
+  {
+    "slug": "world-leaders",
+    "name": "World Leaders",
+    "description": "From Alexander the Great to FDR — the rulers, generals, and statesmen who built empires, won wars, and reshaped civilizations.",
+    "bookCount": 11
+  },
+  {
+    "slug": "civil-rights-and-social-change",
+    "name": "Civil Rights & Social Change",
+    "description": "The people who fought for equality — from Frederick Douglass to Malala Yousafzai, nonviolence to direct action.",
+    "bookCount": 9
+  },
+  {
+    "slug": "scientific-biographies",
+    "name": "Scientific Biographies",
+    "description": "The scientists who changed how we understand the universe — from Newton's laws to Turing's machines to Carson's silent spring.",
+    "bookCount": 8
+  },
+  {
+    "slug": "cultural-biographies",
+    "name": "Cultural Biographies",
+    "description": "The artists, writers, and musicians who defined their eras — Shakespeare to Morrison, Mozart to Marley.",
+    "bookCount": 8
   }
 ]

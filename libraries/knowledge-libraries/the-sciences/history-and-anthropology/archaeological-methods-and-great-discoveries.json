@@ -1,0 +1,127 @@
+{
+  "name": "Archaeological Methods and Great Discoveries",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "anthropology", "science", "methodology", "discovery", "ancient-history", "cultural-heritage"],
+  "chapters": [
+    {
+      "name": "What Is Archaeology? Digging Up the Human Past",
+      "topics": [
+        "How did archaeology evolve from antiquarian treasure hunting — aristocrats collecting Greek vases and Egyptian mummies — into a rigorous scientific discipline with standardized methods for excavation, recording, and interpretation?",
+        "What is stratigraphy — the principle that deeper layers of soil are older than those above — and why did this simple insight, borrowed from geology, provide the foundational method for dating archaeological sites?",
+        "How do archaeologists decide where to dig — using survey techniques from surface collection and aerial photography to ground-penetrating radar and satellite imagery — before ever putting a trowel in the ground?",
+        "What is the archaeological record actually made of — why do stone, ceramics, and bone survive for millennia while wood, textiles, leather, and food usually disappear — and how does this survival bias distort our understanding of the past?",
+        "How did the concept of 'context' revolutionize archaeology — why does a potsherd found in situ (in its original position) tell archaeologists far more than the same piece in a museum display case without provenance?",
+        "Why is archaeology fundamentally destructive — once you excavate a site, you cannot re-excavate it — and how does this irreversibility create ethical obligations around documentation, preservation, and the decision of whether to dig at all?"
+      ],
+      "tags": ["history", "methodology", "anthropology", "discovery"]
+    },
+    {
+      "name": "Dating the Past: How Do We Know How Old Things Are?",
+      "topics": [
+        "How does radiocarbon dating work — measuring the decay of carbon-14 in organic materials to determine age up to roughly 50,000 years — and why did Willard Libby's invention of this technique (Nobel Prize 1960) transform archaeology overnight?",
+        "What are the limitations of radiocarbon dating — the calibration problem, contamination, the 'old wood effect,' and the plateau periods where the calibration curve flattens — and how do archaeologists work around them?",
+        "How do archaeologists date sites beyond the radiocarbon range — using potassium-argon dating (for volcanic rocks millions of years old), uranium-series dating (for cave formations), and luminescence dating (for heated sediments)?",
+        "What is dendrochronology — dating by counting tree rings — and how has the construction of continuous tree-ring sequences extending back over 12,000 years provided both an independent dating method and a calibration tool for radiocarbon?",
+        "How does seriation — the principle that artifact styles change over time in predictable ways — allow archaeologists to establish relative chronologies even without absolute dates?",
+        "Why has the development of Bayesian statistical methods for combining multiple dating techniques revolutionized archaeological chronology — allowing far more precise timelines than any single method provides?"
+      ],
+      "tags": ["science", "methodology", "anthropology", "discovery"]
+    },
+    {
+      "name": "Ancient Egypt: Tombs, Temples, and the Rosetta Stone",
+      "topics": [
+        "How did Napoleon's expedition to Egypt (1798-1801) — which brought 167 scholars alongside 40,000 soldiers — launch modern Egyptology and produce the Description de l'Egypte that revealed ancient Egypt to Europe?",
+        "What was the Rosetta Stone, and how did Jean-Francois Champollion's decipherment of hieroglyphics in 1822 — unlocking a writing system that had been unreadable for 1,400 years — open Egyptian civilization to historical analysis?",
+        "How did Howard Carter's discovery of Tutankhamun's tomb in 1922 — virtually intact after 3,300 years — capture worldwide imagination and demonstrate what systematic archaeology could reveal about daily life, religion, and politics in ancient Egypt?",
+        "What has modern technology revealed about the construction of the pyramids — demolishing theories about alien builders or slave labor and showing organized workforces, supply logistics, and engineering solutions?",
+        "How did the rescue archaeology campaign at Abu Simbel (1964-1968) — cutting apart and relocating two massive temples before the Aswan Dam flooded their original site — establish the principle that development projects must protect archaeological heritage?",
+        "Why does the debate over repatriation of Egyptian artifacts — the Rosetta Stone in London, the bust of Nefertiti in Berlin, thousands of mummies in collections worldwide — remain one of archaeology's most contentious ethical issues?"
+      ],
+      "tags": ["history", "discovery", "anthropology", "ancient-history"]
+    },
+    {
+      "name": "Mesopotamia, Troy, and the Birth of Near Eastern Archaeology",
+      "topics": [
+        "How did Austen Henry Layard's excavation of Nineveh (1845-1851) — uncovering the palace of the Assyrian king Sennacherib with its massive winged bull sculptures — prove that the civilizations described in the Bible were historically real?",
+        "What was the significance of George Smith's discovery and translation of the Epic of Gilgamesh (1872) — including a flood narrative that predated and closely paralleled the biblical story of Noah — and how did it shock Victorian England?",
+        "How did Heinrich Schliemann's controversial excavation of Troy (1870s) and Mycenae validate Homer's Iliad as containing genuine historical memory — while his destructive methods destroyed much of the evidence he was seeking?",
+        "What did Leonard Woolley's excavation of the Royal Tombs of Ur (1920s-1930s) reveal about Mesopotamian civilization — including mass human sacrifice accompanying royal burials and spectacular gold artifacts from 4,500 years ago?",
+        "How did the decipherment of cuneiform — from Henry Rawlinson's work on the Behistun inscription to the reading of Sumerian, Akkadian, and Hittite texts — provide direct access to the world's oldest written records?",
+        "Why has archaeology in Iraq, Syria, and the broader Middle East been devastated by modern conflict — from the looting of the Iraq Museum in 2003 to ISIS's destruction of Palmyra and Nimrud — and what does the deliberate destruction of heritage reveal about the politics of the past?"
+      ],
+      "tags": ["history", "discovery", "anthropology", "ancient-history"]
+    },
+    {
+      "name": "Pompeii, Rome, and Classical Archaeology",
+      "topics": [
+        "How did the eruption of Mount Vesuvius in 79 CE preserve Pompeii and Herculaneum in volcanic ash — creating a time capsule of Roman daily life that includes graffiti, food, furniture, and the casts of people who died in the eruption?",
+        "What has Pompeii revealed about ordinary Roman life that literary sources do not — the layout of houses, the contents of shops, sexual imagery in public spaces, electoral campaign slogans painted on walls, and the diet of working-class Romans?",
+        "How did underwater archaeology — beginning with the excavation of ancient shipwrecks in the Mediterranean — reveal the scale of Roman maritime trade, with cargoes of wine, olive oil, pottery, and building materials crisscrossing the sea?",
+        "What have excavations at the Colosseum, Roman Forum, and Palatine Hill revealed about how imperial power was performed through architecture — with spaces designed to awe, intimidate, and entertain populations of over a million people?",
+        "How did the discovery and excavation of Vindolanda on Hadrian's Wall — producing thousands of preserved wooden writing tablets — provide an intimate record of Roman military life, from soldiers requesting socks to birthday party invitations?",
+        "Why does Classical archaeology face charges of bias — privileging Greek and Roman sites over contemporary civilizations in Africa, Asia, and the Americas — and how has the field begun to address this Eurocentric legacy?"
+      ],
+      "tags": ["history", "discovery", "anthropology", "ancient-history"]
+    },
+    {
+      "name": "The Americas: Civilizations Without Iron or Wheels",
+      "topics": [
+        "How did the rediscovery of Maya cities — from John Lloyd Stephens and Frederick Catherwood's expeditions in the 1840s to the decipherment of Maya hieroglyphics in the 1970s-1980s — reveal a civilization of sophisticated astronomy, mathematics, and political complexity?",
+        "What has LiDAR (light detection and ranging) technology revealed about Maya civilization since 2018 — showing that the jungle conceals interconnected cities, road systems, and agricultural infrastructure housing millions more people than previously estimated?",
+        "How did the excavation of Teotihuacan — the enormous city near modern Mexico City that housed 125,000 people at its peak around 450 CE — challenge the assumption that complex urban planning required Old World technology?",
+        "What have excavations at Caral in Peru (c. 3000 BCE) — one of the oldest urban centers in the Americas — revealed about the independent invention of civilization in South America, predating Maya and Aztec cultures by millennia?",
+        "How did Cahokia — a city near modern St. Louis with a population of 20,000 and a pyramid larger at its base than the Great Pyramid of Giza — challenge the myth that pre-Columbian North America had no urban civilizations?",
+        "Why has the archaeological record of the Americas been systematically undervalued — with European explorers dismissing indigenous monuments as natural formations or attributing them to lost white civilizations — and how has decolonized archaeology corrected this?"
+      ],
+      "tags": ["history", "discovery", "anthropology", "ancient-history"]
+    },
+    {
+      "name": "Forensic Archaeology and the Science of Human Remains",
+      "topics": [
+        "What can human bones tell archaeologists — age at death, sex, height, diet, disease, occupation, cause of death, and migration history — and how do bioarchaeologists extract this information from skeletal remains?",
+        "How has ancient DNA analysis transformed archaeology — allowing researchers to determine ancestry, track migrations, identify family relationships in burials, and even diagnose diseases like plague and tuberculosis in skeletons thousands of years old?",
+        "What is isotope analysis, and how do measurements of strontium, oxygen, carbon, and nitrogen in bones and teeth reveal where a person grew up, what they ate, and whether they migrated during their lifetime?",
+        "How has forensic archaeology been applied to modern atrocities — from identifying victims of the Srebrenica massacre to excavating mass graves in Guatemala, Argentina, and Iraq — using the same techniques developed for ancient sites?",
+        "What ethical issues surround the study of human remains — from the repatriation battles over Kennewick Man/The Ancient One to the ongoing presence of indigenous remains in museum collections — and who has the right to decide?",
+        "How has the study of ancient diseases — plague DNA from Black Death victims, tuberculosis in pre-Columbian mummies, smallpox in Viking graves — rewritten the history of epidemics and their impact on civilizations?"
+      ],
+      "tags": ["science", "methodology", "anthropology", "discovery"]
+    },
+    {
+      "name": "Underwater and Environmental Archaeology",
+      "topics": [
+        "How did the invention of SCUBA diving in the 1940s open the ocean floor to archaeological investigation — revealing that shipwrecks, submerged cities, and flooded landscapes contain some of the best-preserved sites in the world?",
+        "What did the excavation of the Mary Rose (Henry VIII's warship, sunk 1545, raised 1982) and the Vasa (Swedish warship, sunk 1628, raised 1961) reveal about Tudor and early modern maritime technology, warfare, and daily life aboard ship?",
+        "How has the discovery of submerged Neolithic villages in the Mediterranean and submerged Ice Age landscapes in the North Sea shown that rising sea levels since the last Ice Age drowned vast areas of human habitation?",
+        "What is environmental archaeology — the study of past landscapes, climates, and ecosystems through pollen analysis, sediment cores, animal bones, and plant remains — and how does it reconstruct the environments in which ancient people lived?",
+        "How have studies of ancient agriculture — through soil chemistry, charred seeds, irrigation systems, and terracing — revealed how past civilizations both adapted to and transformed their environments?",
+        "Why do some archaeologists argue that climate change is the most important variable in human history — with droughts collapsing civilizations (Maya, Akkadian Empire, Ancestral Puebloans) and favorable conditions enabling their rise?"
+      ],
+      "tags": ["science", "methodology", "anthropology", "discovery"]
+    },
+    {
+      "name": "Looting, Ethics, and the Politics of the Past",
+      "topics": [
+        "How does the global antiquities market — worth billions of dollars annually — drive the destruction of archaeological sites, with looters destroying context to extract saleable objects from tombs, temples, and underwater sites?",
+        "What was the controversy over the Getty Museum's acquisition of looted Greek and Roman antiquities — culminating in the return of dozens of objects to Italy and Greece — and what does it reveal about museum complicity in the antiquities trade?",
+        "How did the 1970 UNESCO Convention on cultural property attempt to stop the international traffic in stolen antiquities — and why has enforcement remained weak despite growing consensus that looting is destroying irreplaceable knowledge?",
+        "What is the NAGPRA law (Native American Graves Protection and Repatriation Act, 1990), how has it required US museums to return indigenous remains and sacred objects to tribal nations, and why was it both groundbreaking and insufficient?",
+        "How do conflict and political instability enable archaeological destruction — from the Taliban's demolition of the Bamiyan Buddhas (2001) to the looting of Syrian sites during the civil war to ISIS's systematic destruction of Assyrian monuments?",
+        "Why is the question 'Who owns the past?' fundamentally political — with nations, ethnic groups, indigenous peoples, and universal museums all making competing claims to archaeological heritage?"
+      ],
+      "tags": ["ethics", "cultural-heritage", "anthropology", "modern-history"]
+    },
+    {
+      "name": "The Digital Revolution in Archaeology",
+      "topics": [
+        "How has Geographic Information Systems (GIS) technology transformed archaeological survey and analysis — allowing researchers to map sites, model ancient landscapes, and identify patterns invisible to the naked eye?",
+        "What has LiDAR revealed about ancient civilizations — from the vast urban landscape of Angkor to previously unknown Maya cities to medieval field systems hidden under European forests — by 'seeing through' vegetation to the ground surface?",
+        "How does 3D scanning and photogrammetry allow archaeologists to create precise digital replicas of artifacts, buildings, and entire sites — preserving them virtually even as the originals deteriorate or are destroyed?",
+        "What role has citizen science played in archaeology — from satellite imagery analysis (GlobalXplorer) to metal detecting to community excavation projects — and how does public participation change the relationship between professionals and the past?",
+        "How has machine learning begun to transform archaeological analysis — identifying pottery types, translating damaged inscriptions, detecting sites from satellite imagery, and finding patterns in datasets too large for human analysis?",
+        "Why does the 'digital divide' in archaeology matter — with well-funded projects in Europe and North America using cutting-edge technology while archaeologists in Africa, South America, and South Asia often lack basic equipment?"
+      ],
+      "tags": ["technology", "methodology", "anthropology", "innovation"]
+    }
+  ]
+}

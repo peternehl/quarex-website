@@ -1,0 +1,73 @@
+{
+  "name": "Mao Zedong: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "authoritarianism", "revolution", "governance", "modern-history"],
+  "chapters": [
+    {
+      "name": "Peasant Son to Revolutionary (1893-1935)",
+      "topics": [
+        "Who was the young Mao Zedong — born to a prosperous peasant family in Hunan Province, a rebellious student, an avid reader of Chinese and Western philosophy — and how did the collapse of China's last dynasty (1912) and the humiliations of foreign imperialism radicalize a generation?",
+        "How did Mao become a communist — attending the founding meeting of the Chinese Communist Party in Shanghai (1921), studying Marxism, but increasingly convinced that China's revolution would be made by peasants, not urban workers as orthodox Marxism taught?",
+        "What was Mao's 'Report on the Peasant Movement in Hunan' (1927) — declaring that peasant revolution was 'a colossal event' that no force could suppress — and how did this document establish Mao's distinctive contribution to Marxist theory: revolution from the countryside?",
+        "How did Mao survive the near-destruction of the Communist Party — the Shanghai Massacre of 1927, Chiang Kai-shek's extermination campaigns, the retreat to the Jiangxi Soviet — through guerrilla tactics, ruthless discipline, and the elimination of rivals?",
+        "What was the Long March (1934-1935) — a 6,000-mile retreat by 80,000 Communist soldiers, of whom fewer than 8,000 survived — and how did this catastrophic retreat become a founding myth that cemented Mao's leadership and the Party's identity?"
+      ],
+      "tags": ["history", "revolution", "politics", "modern-history"]
+    },
+    {
+      "name": "Yan'an, War, and Victory (1935-1949)",
+      "topics": [
+        "How did Mao consolidate power during the Yan'an period (1935-1947) — establishing a revolutionary base, developing his political philosophy, launching 'rectification campaigns' that purged rivals, and creating the cult of personality that would define Chinese communism?",
+        "What was Mao's role in the war against Japan (1937-1945) — the uneasy alliance with Chiang Kai-shek's Nationalists, the guerrilla strategy that expanded Communist territory while the Nationalists bore the brunt of fighting, and the political gains Mao made from the Japanese invasion?",
+        "How did the Chinese Civil War (1946-1949) end with Communist victory — Mao's peasant armies defeating the American-equipped Nationalists through superior strategy, greater popular support in the countryside, and Chiang Kai-shek's corruption and incompetence?",
+        "What did Mao mean when he declared on October 1, 1949, 'The Chinese people have stood up' — proclaiming the People's Republic of China from Tiananmen Gate — and why did this moment represent the end of a 'century of humiliation' for China?",
+        "How many people died in the Chinese Civil War and the revolution that preceded it — estimates range from 6 to 10 million — and how did Mao justify this cost as the necessary price of liberating China?"
+      ],
+      "tags": ["history", "revolution", "conflict", "modern-history"]
+    },
+    {
+      "name": "Building the People's Republic (1949-1957)",
+      "topics": [
+        "How did Mao transform China in the early years of the People's Republic — land reform that redistributed property from landlords to peasants (killing an estimated 1-2 million in the process), the suppression of 'counter-revolutionaries,' and the nationalization of industry?",
+        "What was China's intervention in the Korean War (1950-1953) — sending 3 million 'volunteers' to fight American forces, losing perhaps 400,000 dead including Mao's own son — and how did this decision shape the Cold War and establish China as a military power?",
+        "How did the Hundred Flowers Campaign (1956-1957) — Mao's invitation to intellectuals to 'let a hundred flowers bloom, let a hundred schools of thought contend' — become a trap when he used the resulting criticism to identify and purge over 500,000 'rightists'?",
+        "What was Mao's relationship with the Soviet Union — initially dependent on Stalin for economic and military support, then increasingly hostile over ideology, leadership, and national interest — leading to the Sino-Soviet split that reshaped the Cold War?",
+        "How did Mao's political philosophy work in practice — the 'mass line' (learning from the people to lead the people), self-criticism sessions, thought reform, and the constant identification of class enemies — creating a system of total political control?"
+      ],
+      "tags": ["history", "governance", "authoritarianism", "modern-history"]
+    },
+    {
+      "name": "The Great Leap Forward: Man-Made Famine (1958-1962)",
+      "topics": [
+        "What was the Great Leap Forward (1958-1962) — Mao's campaign to transform China from an agrarian society into a communist industrial power in just a few years — through the collectivization of agriculture, backyard steel furnaces, and the abolition of private farming?",
+        "How did the Great Leap Forward cause the deadliest famine in human history — an estimated 15-55 million people starved to death between 1959 and 1961 as agricultural production collapsed, grain was confiscated from starving peasants, and local officials falsified production reports to please Beijing?",
+        "Why did no one stop the famine — how did the system of terror, loyalty, and information control that Mao built ensure that bad news never reached the top, or was ignored when it did, with officials who told the truth about starvation punished as 'rightists'?",
+        "What was Mao's personal responsibility for the famine — he designed the policies, he dismissed warnings, he punished those who reported the truth, and when confronted with the scale of death, he responded by purging the messenger (Defense Minister Peng Dehuai) rather than changing course?",
+        "How did the Great Leap Forward affect Mao's power — forcing him to retreat from day-to-day governance, cede economic management to Liu Shaoqi and Deng Xiaoping, and nurse a resentment that would explode in the Cultural Revolution?"
+      ],
+      "tags": ["history", "authoritarianism", "governance", "modern-history"]
+    },
+    {
+      "name": "The Cultural Revolution: Chaos and Destruction (1966-1976)",
+      "topics": [
+        "What was the Cultural Revolution (1966-1976) — Mao's campaign to regain supreme power by mobilizing millions of young Red Guards to attack 'capitalist roaders' within the Communist Party, destroy traditional Chinese culture, and create permanent revolution?",
+        "How did the Red Guards terrorize China — beating, humiliating, and killing teachers, intellectuals, and 'class enemies,' destroying temples, libraries, and cultural artifacts, and creating an atmosphere of fear in which children denounced parents and students murdered professors?",
+        "What happened to Mao's rivals during the Cultural Revolution — Liu Shaoqi (China's president, tortured and denied medical care, died in prison), Deng Xiaoping (purged twice, sent to work in a factory), and millions of party officials, intellectuals, and ordinary citizens persecuted?",
+        "How did the Cultural Revolution devastate Chinese education, culture, and science — closing universities for years, sending intellectuals to the countryside for 're-education through labor,' destroying irreplaceable historical and artistic treasures — setting China back a generation?",
+        "What was the human toll of the Cultural Revolution — estimates of deaths range from 500,000 to 2 million, with millions more imprisoned, tortured, driven to suicide, or permanently scarred — making it one of the worst self-inflicted catastrophes in human history?"
+      ],
+      "tags": ["history", "authoritarianism", "human-rights", "modern-history"]
+    },
+    {
+      "name": "Death and the Question of Legacy",
+      "topics": [
+        "How did Mao's final years play out — the fall of Lin Biao (his designated successor, killed in a plane crash while allegedly fleeing after a failed coup in 1971), the opening to Nixon (1972), declining health, and the power struggle between the Gang of Four and pragmatists?",
+        "How did Mao die on September 9, 1976 — and how did the immediate arrest of the Gang of Four (including Mao's wife Jiang Qing) and Deng Xiaoping's return to power signal that China would abandon Mao's revolutionary path?",
+        "What is the Chinese Communist Party's official verdict on Mao — '70 percent correct, 30 percent wrong' — and how does this carefully calibrated assessment allow China to honor its founder while pursuing policies he would have condemned?",
+        "How many people did Mao kill — with estimates of total deaths attributable to his policies ranging from 40 to 80 million (Great Leap Forward famine, Cultural Revolution, political campaigns, civil war) — making him responsible for more deaths than any other individual in human history?",
+        "Why does Mao's portrait still hang over Tiananmen Gate — in a country that has embraced capitalism, abandoned class struggle, and imprisoned Mao's wife — and what does this paradox reveal about the relationship between revolutionary founding myths and modern authoritarian legitimacy?"
+      ],
+      "tags": ["history", "authoritarianism", "governance", "modern-history"]
+    }
+  ]
+}

@@ -2,7 +2,25 @@
   {
     "slug": "world-philosophies",
     "name": "World Philosophies",
-    "description": null,
+    "description": "Philosophical traditions from across the globe — Eastern, Western, African, and Indigenous thought",
+    "bookCount": 7
+  },
+  {
+    "slug": "western-philosophy",
+    "name": "Western Philosophy",
+    "description": "From Descartes to Butler — the major movements and thinkers that shaped modern Western thought",
+    "bookCount": 9
+  },
+  {
+    "slug": "ethics-and-moral-philosophy",
+    "name": "Ethics & Moral Philosophy",
+    "description": "How should we live? — utilitarianism, virtue ethics, bioethics, environmental ethics, and the foundations of morality",
+    "bookCount": 7
+  },
+  {
+    "slug": "political-philosophy",
+    "name": "Political Philosophy",
+    "description": "Power, justice, and the state — from Marxism to liberalism, democracy to authoritarianism, and the ideas that shape political life",
     "bookCount": 7
   }
 ]

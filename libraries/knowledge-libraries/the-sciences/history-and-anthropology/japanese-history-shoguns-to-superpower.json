@@ -1,0 +1,115 @@
+{
+  "name": "Japanese History: Shoguns to Superpower",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "asia", "governance", "conflict", "economics", "modern-history", "cultural-heritage"],
+  "chapters": [
+    {
+      "name": "Classical Japan: From Yamato to Heian",
+      "topics": [
+        "How did Japan's geography — an archipelago of 6,852 islands separated from the Asian mainland by 120 miles of open sea — shape a civilization that borrowed extensively from China while remaining fiercely distinct?",
+        "What was the Taika Reform of 645 CE, and how did Japan's attempt to replicate the Chinese imperial bureaucracy produce a hybrid system where aristocratic clans retained power behind a nominally centralized state?",
+        "How did the Heian period (794-1185) produce some of the world's greatest literature — including Murasaki Shikibu's Tale of Genji (c. 1010), considered the world's first novel — while political power drained from the emperor to the Fujiwara clan?",
+        "Why did Japan develop a unique writing system that combined Chinese characters (kanji) with two syllabic scripts (hiragana and katakana), and how did this hybrid system reflect Japan's broader relationship with Chinese culture?",
+        "What was the role of Shinto — Japan's indigenous religion of nature spirits and ancestral worship — and how did its coexistence with imported Buddhism create a uniquely Japanese religious synthesis?",
+        "How did the Heian court's obsession with aesthetics, poetry, and ritual create a culture of extraordinary refinement while the provinces descended into lawlessness that only warriors could control?"
+      ],
+      "tags": ["history", "cultural-heritage", "ancient-history", "asia"]
+    },
+    {
+      "name": "The Age of the Samurai: Kamakura and Muromachi",
+      "topics": [
+        "How did the Genpei War (1180-1185) and the establishment of the Kamakura Shogunate create Japan's distinctive dual government — an emperor with spiritual authority and a shogun with military and political power?",
+        "What was bushido ('the way of the warrior'), and how much of the samurai code of loyalty, honor, and martial skill was actual medieval practice versus Edo-period idealization and modern myth?",
+        "How did Japan repel two Mongol invasions (1274 and 1281) — the second destroyed by a typhoon the Japanese called kamikaze ('divine wind') — and why did this near-miss convince Japan of its divine protection?",
+        "What was the Onin War (1467-1477), and how did this succession dispute in Kyoto trigger the Sengoku period (1467-1615) — 150 years of civil war where hundreds of rival warlords fought for dominance?",
+        "How did Zen Buddhism — introduced from China in the 12th-13th centuries — transform Japanese culture, producing the tea ceremony, rock gardens, ikebana (flower arranging), and an aesthetic of disciplined simplicity?",
+        "Why did the Muromachi period (1336-1573) produce both extreme political violence and extraordinary cultural achievement — including Noh theater, ink wash painting, and the architectural style that defines the traditional Japanese aesthetic?"
+      ],
+      "tags": ["history", "cultural-heritage", "medieval", "asia"]
+    },
+    {
+      "name": "Unification: Nobunaga, Hideyoshi, and Tokugawa",
+      "topics": [
+        "How did Oda Nobunaga — a minor warlord who used firearms (introduced by Portuguese traders in 1543) more aggressively than any other commander — begin Japan's reunification before his betrayal and death in 1582?",
+        "What was Toyotomi Hideyoshi's path from barefoot peasant soldier to ruler of all Japan, and how did his invasions of Korea (1592, 1597) — deploying 160,000 troops — devastate the Korean peninsula while failing to reach China?",
+        "How did Tokugawa Ieyasu win the Battle of Sekigahara (October 1600) — the decisive conflict of Japanese history — and establish the Tokugawa Shogunate that would rule for 265 years?",
+        "Why did the Tokugawa Shogunate expel all Europeans (except a handful of Dutch traders confined to Dejima island), ban Christianity on pain of death, and prohibit Japanese citizens from leaving the country after 1639?",
+        "How did the sankin-kotai system — requiring feudal lords (daimyo) to spend alternate years in Edo (Tokyo) — simultaneously drain their wealth, prevent rebellion, and create one of the world's largest cities (population over one million by 1700)?",
+        "What was the significance of the 47 Ronin incident of 1703 — samurai who avenged their master's death and were then ordered to commit ritual suicide — and why does this story remain central to Japanese cultural identity?"
+      ],
+      "tags": ["conflict", "governance", "modern-history", "asia"]
+    },
+    {
+      "name": "Edo Period: Peace, Culture, and the Closed Country",
+      "topics": [
+        "How did 265 years of peace under the Tokugawa (1600-1868) transform the samurai from warriors into bureaucrats and scholars — creating a paradox of a military class with no wars to fight?",
+        "What was the 'floating world' (ukiyo) of Edo-period culture — kabuki theater, woodblock prints (ukiyo-e) by artists like Hokusai and Hiroshige, geisha entertainment, and the pleasure quarters — and how did merchant wealth drive cultural innovation?",
+        "How did Japan's population stabilize at roughly 30 million for 150 years (1700-1850) through a combination of infanticide, family planning, and sustainable agriculture — was this demographic stability a choice or a constraint?",
+        "What was the role of the merchant class (chonin) in Edo-period Japan, and how did their growing wealth undermine the Confucian social hierarchy that placed merchants at the bottom — below samurai, farmers, and artisans?",
+        "How did the 'Dutch Studies' (rangaku) movement — scholars learning Western science through the tiny Dutch trading post at Dejima — keep Japan connected to European knowledge of medicine, astronomy, and military technology during isolation?",
+        "Why did Commodore Matthew Perry's arrival with four American warships in July 1853 — threatening bombardment unless Japan opened to trade — expose the Tokugawa system's inability to defend Japan against Western military technology?"
+      ],
+      "tags": ["society", "cultural-heritage", "modern-history", "asia"]
+    },
+    {
+      "name": "The Meiji Restoration: Asia's First Modern Revolution",
+      "topics": [
+        "How did the Meiji Restoration of 1868 — which 'restored' the emperor while actually creating an entirely new oligarchic government — transform Japan from a feudal society to an industrial power in a single generation?",
+        "What was the Meiji government's strategy of selective modernization — sending missions to study Western institutions (the Iwakura Mission, 1871-1873), adopting a Prussian-style constitution, and building railways and factories — while maintaining Japanese cultural identity?",
+        "How did Japan abolish the samurai class, create a conscript army, and establish universal education within 20 years — and why did the Satsuma Rebellion of 1877 (the 'Last Samurai' uprising) represent the old order's final stand?",
+        "Why did Japan's victory over China in the First Sino-Japanese War (1894-1895) — seizing Taiwan and influence over Korea — shock the Western world by demonstrating that an Asian nation could defeat a European-style army?",
+        "How did Japan's stunning victory over Russia in the Russo-Japanese War (1904-1905) — the first time a modern Asian power defeated a European empire — inspire anti-colonial movements from India to the Ottoman Empire?",
+        "What was the cost of Meiji modernization — the destruction of traditional crafts, forced industrialization, the exploitation of female textile workers, and the creation of a militaristic nationalism that would lead to imperial expansion?"
+      ],
+      "tags": ["history", "revolution", "modern-history", "asia"]
+    },
+    {
+      "name": "Imperial Japan: Empire, Militarism, and War",
+      "topics": [
+        "How did Japan acquire an empire — annexing Taiwan (1895), Korea (1910), and Manchuria (1931) — while justifying expansion as liberating Asia from Western colonialism through the 'Greater East Asia Co-Prosperity Sphere'?",
+        "What was Japan's colonization of Korea (1910-1945), and how did policies including forced labor, 'comfort women' (an estimated 200,000 sexual slaves), cultural suppression, and name-changing create wounds that remain unhealed?",
+        "How did the military gradually seize control of Japanese politics during the 1930s — through assassinations of moderate politicians, manufactured incidents (the Mukden Incident, 1931), and intimidation of the civilian government?",
+        "What drove Japan to attack Pearl Harbor on December 7, 1941 — was it resource desperation (the US oil embargo), strategic calculation, or the ideology of a 'decisive battle' that would force American withdrawal from the Pacific?",
+        "How did Japan's wartime atrocities — the Nanjing Massacre, the Bataan Death March, POW forced labor (including the Burma Railway), and Unit 731's biological experiments — coexist with the bushido code that claimed to value honor?",
+        "Why did Japan fight to the very end — with kamikaze pilots, civilian mass suicides on Okinawa and Saipan, and plans to arm the entire population with bamboo spears — before the atomic bombs and Soviet invasion forced surrender on August 15, 1945?"
+      ],
+      "tags": ["conflict", "colonialism", "world-wars", "asia"]
+    },
+    {
+      "name": "Occupation, Democracy, and the Economic Miracle",
+      "topics": [
+        "How did the American occupation under General MacArthur (1945-1952) transform Japan from a militarist empire to a pacifist democracy — writing a constitution that renounced war (Article 9), redistributing land, and breaking up industrial conglomerates?",
+        "Why did Emperor Hirohito remain on the throne despite his wartime role — and how did MacArthur's decision to shield him from prosecution shape Japan's incomplete reckoning with its wartime past?",
+        "What was the Japanese 'economic miracle' (1950s-1980s), and how did a war-devastated nation with no natural resources grow at 10% annually to become the world's second-largest economy?",
+        "How did Japan's Ministry of International Trade and Industry (MITI) guide industrial policy — selecting strategic industries, coordinating corporate investment, and protecting domestic markets — in a model that other Asian nations copied?",
+        "What was the social contract of postwar Japan — lifetime employment, company loyalty, education-driven meritocracy, and suppression of individual ambition for group harmony — and how did it sustain rapid growth while creating intense social pressure?",
+        "How did Japan's export-driven economy — dominating automobiles (Toyota, Honda), electronics (Sony, Panasonic), and semiconductors by the 1980s — provoke American trade friction and fears of Japanese economic supremacy?"
+      ],
+      "tags": ["economics", "governance", "modern-history", "asia"]
+    },
+    {
+      "name": "The Lost Decades and Modern Japan",
+      "topics": [
+        "What caused the Japanese asset bubble to burst in 1991 — when the Nikkei stock index fell 60% and Tokyo real estate lost 80% of its value — and why did the resulting stagnation last not years but decades?",
+        "How did Japan's 'Lost Decades' (1991-present) challenge the assumption that economic growth is permanent, and what policy failures — zombie banks, inadequate stimulus, political paralysis — prolonged the stagnation?",
+        "Why is Japan's demographic crisis — with a population declining by 800,000 per year, a fertility rate of 1.2, and 30% of the population over 65 — the most severe in the developed world, and what does it preview for other aging societies?",
+        "How has Japan maintained social cohesion, low crime, and high quality of life despite three decades of economic stagnation — and what does this suggest about the relationship between GDP growth and human wellbeing?",
+        "What is Japan's relationship with its wartime history — from textbook controversies to Yasukuni Shrine visits to the 'comfort women' dispute with South Korea — and why has Japan's reckoning with the past been less thorough than Germany's?",
+        "How has Japan navigated the 21st-century security environment — the rise of China, North Korean nuclear threats, and the revision of Article 9 to allow collective self-defense — while maintaining its postwar pacifist identity?"
+      ],
+      "tags": ["economics", "diplomacy", "modern-history", "asia"]
+    },
+    {
+      "name": "Japanese Culture: Tradition, Innovation, and Global Influence",
+      "topics": [
+        "How did Japan become the world's most successful cultural exporter — with anime, manga, video games, sushi, martial arts, and Japanese aesthetic concepts (wabi-sabi, kawaii, ikigai) achieving global penetration?",
+        "What is the concept of 'wa' (harmony), and how does this cultural value — prioritizing group consensus over individual expression — shape everything from business meetings to urban design to conflict avoidance?",
+        "How did the atomic bombings of Hiroshima and Nagasaki shape postwar Japanese culture — from Godzilla (1954) as nuclear metaphor to the anti-nuclear movement to Hayao Miyazaki's pacifist animated films?",
+        "Why has Japan maintained the world's oldest continuous monarchy — with an imperial line claimed to extend over 2,600 years — while reducing the emperor to a purely symbolic role?",
+        "How did Japanese cuisine evolve from court food (kaiseki) and Buddhist vegetarian traditions to become the cuisine with the most Michelin stars of any country, and what does the concept of 'umami' (identified by Japanese chemist Kikunae Ikeda in 1908) reveal about Japanese attention to sensory experience?",
+        "What is 'Cool Japan' as a government-backed cultural export strategy, and how does Japan's soft power — estimated to generate $20 billion annually in cultural exports — compensate for its declining hard power?"
+      ],
+      "tags": ["society", "cultural-heritage", "modern-history", "asia"]
+    }
+  ]
+}

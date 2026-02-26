@@ -1,0 +1,62 @@
+{
+  "name": "Alan Turing: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "innovation", "technology", "human-rights", "modern-history"],
+  "chapters": [
+    {
+      "name": "The Mathematical Mind (1912-1939)",
+      "topics": [
+        "Who was Alan Turing before the war — born in London in 1912, raised largely by strangers while his parents served in India, a socially awkward schoolboy whose genius was recognized early but whose inability to conform to British public school norms made him a permanent outsider?",
+        "How did the death of Turing's first love, Christopher Morcom, at age 18 — from tuberculosis, in 1930 — haunt him for life, shaping his early reflections on whether a mind could exist without a body and driving his later thinking about artificial intelligence?",
+        "What was the Turing machine (1936) — a theoretical device described in his paper 'On Computable Numbers' that defined the fundamental limits of computation, proved that some mathematical problems are undecidable, and established the conceptual foundation for every computer that would ever be built?",
+        "How did Turing's work connect to the deepest questions in logic — Gödel's incompleteness theorems, the Entscheidungsproblem (decision problem), the nature of proof itself — and why was his answer, that computation is the foundation of mathematics, so revolutionary?",
+        "What was Turing's time at Princeton (1936-1938) — studying under Alonzo Church, earning his PhD, building a cipher machine, being offered a position that he declined to return to England on the brink of war?"
+      ],
+      "tags": ["science", "technology", "innovation", "modern-history"]
+    },
+    {
+      "name": "Bletchley Park: Breaking Enigma (1939-1945)",
+      "topics": [
+        "How did Turing arrive at Bletchley Park — recruited before the war began, assigned to Hut 8 to work on naval Enigma, leading a team that included chess champions, crossword puzzlers, and linguists — in what Churchill called 'the goose that laid the golden eggs but never cackled'?",
+        "What was the Enigma machine — a German encryption device with 159 quintillion possible settings, considered unbreakable — and how did Turing's 'bombe' (an electromechanical device exploiting mathematical weaknesses in the system) crack it?",
+        "How did breaking Enigma change the war — enabling the Allies to read German naval communications, locate U-boats, protect Atlantic convoys, and shorten the war by an estimated two years, saving millions of lives — all in absolute secrecy?",
+        "What was Turing like at Bletchley — chaining his mug to a radiator to prevent theft, cycling in a gas mask for hay fever, running marathons competitively, his social awkwardness contrasting with his intellectual dominance — and how did the war give him a community of equals for the first time?",
+        "Why was Bletchley Park kept secret for 30 years after the war — the intelligence value of letting enemies believe their codes were secure, the Official Secrets Act, the deliberate suppression of Turing's wartime contribution — meaning he died without the world knowing what he had done?"
+      ],
+      "tags": ["science", "technology", "conflict", "modern-history"]
+    },
+    {
+      "name": "Building the Computer Age (1945-1952)",
+      "topics": [
+        "How did Turing pioneer computer science after the war — designing the ACE (Automatic Computing Engine) at the National Physical Laboratory, working on the Manchester Mark 1, writing some of the first software, and imagining uses for computers that would take decades to realize?",
+        "What was the Turing Test (1950) — proposed in his paper 'Computing Machinery and Intelligence,' the question 'can machines think?' reframed as 'can a machine fool a human into believing it is human?' — and why does this test remain central to artificial intelligence debates 75 years later?",
+        "How did Turing anticipate modern AI — his prediction that computers would eventually pass his test, his concept of machine learning ('a child machine' that learns rather than being programmed), his challenge to every objection from 'machines can't think' to 'machines don't have souls'?",
+        "What was Turing's work on morphogenesis (1952) — his mathematical model of how biological patterns (spots, stripes, spirals) emerge from chemical reactions — and why was this contribution to mathematical biology, largely ignored during his lifetime, confirmed by experiments 60 years later?",
+        "How did Turing's mathematical work on chess — writing the first chess-playing algorithm (1950), simulating it by hand because no computer was fast enough to run it — anticipate the AI revolution from Deep Blue (1997) to AlphaGo (2016)?"
+      ],
+      "tags": ["science", "technology", "innovation", "modern-history"]
+    },
+    {
+      "name": "Persecution and Death (1952-1954)",
+      "topics": [
+        "How was Turing prosecuted for homosexuality in 1952 — arrested after reporting a burglary that led police to discover his relationship with Arnold Murray, convicted of 'gross indecency' under the same 1885 law used against Oscar Wilde — in the country whose survival he had ensured?",
+        "What was chemical castration — the injection of synthetic estrogen (stilboestrol) that Turing chose over prison, causing breast development, weight gain, impotence, and depression — a punishment designed to 'cure' homosexuality through hormonal destruction?",
+        "How did the prosecution affect Turing's work — his security clearance revoked, his consultancy with GCHQ (the successor to Bletchley) terminated, his status changed from war hero to criminal — and what research was lost because a nation punished its greatest codebreaker for whom he loved?",
+        "How did Turing die on June 7, 1954 — found with a half-eaten apple beside him, cyanide poisoning ruled a suicide, though his mother insisted it was an accidental inhalation during a chemistry experiment — and does the apple reference Snow White (his favorite fairy tale) or a chemistry accident?",
+        "What happened after his death — silence for decades, the gradual disclosure of Bletchley Park's secrets (1970s-2000s), the belated recognition that the man convicted as a criminal was one of the greatest minds of the 20th century?"
+      ],
+      "tags": ["science", "human-rights", "identity", "modern-history"]
+    },
+    {
+      "name": "Legacy: The Father of the Digital Age",
+      "topics": [
+        "How did Turing's reputation recover — Andrew Hodges's biography (1983), the 2013 royal pardon from Queen Elizabeth II, the 'Alan Turing law' (2017) posthumously pardoning 49,000 men convicted of historical homosexual offenses, his face on the £50 note (2021)?",
+        "What is the Turing Award — the 'Nobel Prize of computing,' given annually by the ACM since 1966 — and why is it fitting that the highest honor in computer science bears the name of the man who defined what computation is?",
+        "How has Turing been portrayed in popular culture — the play 'Breaking the Code' (1986), the film 'The Imitation Game' (2014, starring Benedict Cumberbatch), documentaries and novels — and how accurately do these portrayals capture the man versus the myth?",
+        "What would Turing make of modern AI — large language models, neural networks, machines that can pass his test in narrow domains — and would he consider today's AI systems genuinely intelligent or merely very sophisticated symbol manipulators?",
+        "What is Turing's ultimate legacy — the father of computer science and artificial intelligence, the war hero denied recognition, the man whose persecution and death forced Britain to confront the cruelty of its own laws — and why does his story remain one of the most important cautionary tales about what happens when a society destroys what it should treasure?"
+      ],
+      "tags": ["science", "technology", "human-rights", "modern-history"]
+    }
+  ]
+}

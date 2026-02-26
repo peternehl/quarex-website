@@ -1,0 +1,149 @@
+{
+  "name": "The Chip War: Semiconductors and Global Power",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "chapters": [
+    {
+      "name": "Why Chips Rule the World",
+      "topics": [
+        "Why are semiconductors more strategically important than oil in the 21st century?",
+        "How did a single island — Taiwan — end up manufacturing over 90% of the world's most advanced chips?",
+        "What makes cutting-edge chip fabrication so extraordinarily difficult that only three companies can do it?",
+        "How does semiconductor dependency create vulnerabilities for every modern military?",
+        "Why would a disruption in chip supply cause a worldwide economic depression?"
+      ],
+      "tags": ["technology", "globalization", "geopolitics", "engineering"]
+    },
+    {
+      "name": "Taiwan: The World's Most Dangerous Bottleneck",
+      "topics": [
+        "How did TSMC become the indispensable chipmaker that every nation depends on?",
+        "What is Taiwan's 'silicon shield' and does it actually protect the island from invasion?",
+        "Why can't China simply seize TSMC's fabs and operate them?",
+        "What would happen to the global economy in the first 90 days after a Taiwan crisis?",
+        "How vulnerable are the undersea cables and energy infrastructure that keep Taiwan's fabs running?"
+      ],
+      "tags": ["technology", "security", "china-taiwan", "engineering"]
+    },
+    {
+      "name": "China's Semiconductor Ambitions",
+      "topics": [
+        "Why has China spent over $150 billion on domestic chip manufacturing and still can't match TSMC?",
+        "What is Xi Jinping's timeline for reunification with Taiwan, and how do chips factor in?",
+        "How is China using chip smuggling networks to circumvent export controls?",
+        "Could China leapfrog current technology with alternative chip architectures?",
+        "Why does the CCP view semiconductor independence as a matter of national survival?",
+        "What role does Military-Civil Fusion play in China's chip strategy?"
+      ],
+      "tags": ["politics", "nationalism", "china-taiwan", "asia"]
+    },
+    {
+      "name": "The CHIPS Act: America's Response",
+      "topics": [
+        "What does the CHIPS Act actually fund, and is the money enough?",
+        "Why did Trump call the CHIPS Act 'horrible' and then keep using it?",
+        "How has the CHIPS Act triggered over $630 billion in private semiconductor investment?",
+        "Why are tariffs alone insufficient to bring chip manufacturing back to the US?",
+        "What happens to the fab buildout if political winds shift and funding dries up?",
+        "How does the CHIPS Act compare to what China, the EU, Japan, and South Korea are spending?"
+      ],
+      "tags": ["politics", "regulation", "us-politics", "trade"]
+    },
+    {
+      "name": "Building Fabs in America: The Hard Realities",
+      "topics": [
+        "Why does it cost 30-50% more to build and operate a fab in the US than in Asia?",
+        "What is ultrapure water, why do fabs consume millions of gallons per day, and can the US supply it?",
+        "Why are 38% of announced US fab sites in regions with high water stress?",
+        "Where will America find the tens of thousands of specialized workers these fabs need?",
+        "How do environmental regulations, permitting delays, and local opposition slow fab construction?",
+        "What lessons should the US learn from TSMC's troubled Arizona fab timeline?"
+      ],
+      "tags": ["technology", "infrastructure", "water", "engineering"]
+    },
+    {
+      "name": "Export Controls and the Technology Cold War",
+      "topics": [
+        "How do US export controls on advanced chips to China actually work?",
+        "Why did the Trump administration consider loosening AI chip restrictions to China?",
+        "What is the SAFE CHIPS Act and why did bipartisan senators push back on the White House?",
+        "How effective are export controls when chips can be smuggled through third countries?",
+        "Could restricting chip exports to China backfire by accelerating their domestic capabilities?",
+        "What leverage does China have with its rare earth mineral export controls?"
+      ],
+      "tags": ["politics", "diplomacy", "sanctions", "trade"]
+    },
+    {
+      "name": "Scenarios: What Could China Actually Do?",
+      "topics": [
+        "What would a Chinese naval blockade of Taiwan look like, and could it succeed?",
+        "How would gray-zone coercion — short of invasion — pressure Taiwan and the world?",
+        "Why is an amphibious invasion of Taiwan considered the most difficult military operation imaginable?",
+        "What are the 'porcupine strategy' defenses Taiwan could deploy to deter invasion?",
+        "Could China achieve reunification through economic and political pressure alone?",
+        "What are the realistic escalation ladders from tensions to full conflict?"
+      ],
+      "tags": ["conflict", "security", "china-taiwan", "geopolitics"]
+    },
+    {
+      "name": "The Global Semiconductor Arms Race: Allied Strategies",
+      "topics": [
+        "Why is Japan betting $25.7 billion — the largest semiconductor outlay relative to GDP — on Rapidus and cutting-edge 2nm chips?",
+        "Can Rapidus go from zero to mass production by 2027, or is it the world's most expensive science experiment?",
+        "Why does Europe's real semiconductor power lie in ASML's lithography monopoly rather than in its own fabs?",
+        "How is the EU Chips Act trying to double Europe's market share to 20%, and why do auditors say it's falling short?",
+        "What is India's strategy of targeting legacy chips at 28nm and above while leveraging its 20% share of global chip design talent?",
+        "How is South Korea balancing Samsung's fab investments with the geopolitical risk of its proximity to North Korea and dependence on China trade?",
+        "What is the Chip 4 alliance (US, Taiwan, Japan, South Korea) and can it coordinate a unified strategy against China?"
+      ],
+      "tags": ["economics", "diplomacy", "asia", "europe"]
+    },
+    {
+      "name": "The Diversification Math: Can We Actually Reduce Dependency?",
+      "topics": [
+        "How far along are TSMC's Arizona fabs, Samsung's Texas facility, and Intel's Ohio project?",
+        "Why does it take a decade to build a semiconductor ecosystem — not just a building?",
+        "Should the US build a strategic chip reserve similar to the Strategic Petroleum Reserve?",
+        "How long until diversification actually reduces the Taiwan bottleneck — 5 years? 10? 20?",
+        "What happens if diversification succeeds and Taiwan loses its silicon shield?",
+        "Is 'semiconductor nationalism' creating wasteful duplication, or necessary redundancy?"
+      ],
+      "tags": ["economics", "systems-thinking", "geopolitics", "engineering"]
+    },
+    {
+      "name": "The Water Crisis Inside the Chip Crisis",
+      "topics": [
+        "Why does a single fab consume as much water as a city of 120,000 people?",
+        "What makes semiconductor ultrapure water thousands of times cleaner than drinking water?",
+        "How does TSMC recycle 85% of its water while many US fabs lag behind?",
+        "Why is fab wastewater toxic to conventional municipal treatment systems?",
+        "Could desalination and advanced recycling solve the water problem for desert fabs?",
+        "Who pays for the massive water infrastructure upgrades that new fabs require?"
+      ],
+      "tags": ["environment", "infrastructure", "water", "engineering"]
+    },
+    {
+      "name": "Following the Money: Who Wins and Who Loses",
+      "topics": [
+        "Which companies and investors stand to profit most from the semiconductor reshoring boom?",
+        "How are chip companies using CHIPS Act subsidies — and are taxpayers getting a fair deal?",
+        "Why did the Trump administration start taking equity stakes in chip companies instead of giving grants?",
+        "What are the economic ripple effects when a fab opens in a small American community?",
+        "Could semiconductor nationalism fragment the global technology economy?",
+        "Who bears the cost if the chip buildout fails — taxpayers, companies, or national security?"
+      ],
+      "tags": ["economics", "finance", "us-politics", "trade"]
+    },
+    {
+      "name": "What Happens If We Get This Wrong",
+      "topics": [
+        "What does a world look like where China controls the most advanced chip manufacturing?",
+        "How would semiconductor scarcity reshape the AI race between the US and China?",
+        "Could a chip war trigger the kind of economic depression that changes the global order?",
+        "What are the national security consequences of failing to diversify chip supply?",
+        "Why is the semiconductor challenge a test case for whether democracies can do long-term industrial policy?",
+        "What should ordinary citizens understand about why this obscure industry matters to their lives?"
+      ],
+      "tags": ["politics", "prediction", "geopolitics", "ai-ml"]
+    }
+  ]
+}

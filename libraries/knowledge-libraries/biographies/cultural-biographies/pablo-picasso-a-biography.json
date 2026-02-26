@@ -1,0 +1,62 @@
+{
+  "name": "Pablo Picasso: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["arts", "culture", "innovation", "identity", "modern-history"],
+  "chapters": [
+    {
+      "name": "Málaga to Paris: The Prodigy (1881-1906)",
+      "topics": [
+        "Who was Pablo Picasso — born in Málaga, Spain, the son of an art teacher who recognized his son's genius and reportedly surrendered his own brushes, admitted to Barcelona's Royal Academy at 13 by passing the entrance exam in a single day — and how did this precocious mastery set the stage for its own destruction?",
+        "How did Picasso's early trips to Paris (1900-1904) — encountering Toulouse-Lautrec, Cézanne, and the bohemian art world of Montmartre, living in poverty at the Bateau-Lavoir, the suicide of his friend Casagemas — transform a Spanish prodigy into a Parisian revolutionary?",
+        "What was the Blue Period (1901-1904) — melancholy paintings of beggars, blind men, and emaciated prostitutes in cold blue tones — and why did this phase of apparent despair produce some of the most emotionally direct art of the 20th century?",
+        "How did the Rose Period (1904-1906) — warmer colors, circus performers, harlequins, the influence of his lover Fernande Olivier — signal Picasso's move away from suffering and toward the formal experimentation that would define his career?",
+        "What did the encounter with African and Iberian sculpture (1906-1907) contribute — the mask-like faces in 'Les Demoiselles d'Avignon,' the recognition that non-Western art offered a radical alternative to Renaissance perspective — and why did Picasso's debt to African art go unacknowledged for decades?"
+      ],
+      "tags": ["arts", "culture", "identity", "modern-history"]
+    },
+    {
+      "name": "Cubism and the Destruction of Perspective (1907-1920)",
+      "topics": [
+        "What was 'Les Demoiselles d'Avignon' (1907) — five nude prostitutes with fractured bodies and African-mask faces, shown from multiple viewpoints simultaneously — and why did this single painting, which shocked even Picasso's closest friends, shatter 500 years of Western pictorial convention?",
+        "How did Picasso and Georges Braque develop Cubism (1908-1914) — Analytic Cubism breaking objects into geometric facets, Synthetic Cubism introducing collage and mixed media — in a collaboration so intense that Braque compared them to 'two mountaineers roped together'?",
+        "Why was Cubism the most radical break in Western art since the Renaissance — abandoning single-point perspective, showing multiple views simultaneously, asserting that a painting is a flat surface rather than a window onto reality — and how did it influence architecture, design, literature, and film?",
+        "How did World War I affect Picasso — a Spanish citizen exempt from fighting, watching friends like Braque and Apollinaire go to war, collaborating with Diaghilev's Ballets Russes — and why did the war end the Cubist partnership and shift his work toward neoclassicism?",
+        "What was Picasso's relationship with the art market — Kahnweiler as his dealer, the strategic management of his output, his understanding that scarcity creates value — and how did he become the first modern artist whose fame rivaled that of movie stars?"
+      ],
+      "tags": ["arts", "innovation", "culture", "modern-history"]
+    },
+    {
+      "name": "Guernica, War, and Politics (1930-1945)",
+      "topics": [
+        "What is 'Guernica' (1937) — painted in response to the Nazi bombing of the Basque town during the Spanish Civil War, a massive black-and-white canvas of screaming horses, dismembered bodies, and a light bulb shaped like an evil eye — and why is it the most powerful anti-war painting in history?",
+        "How did Picasso's Surrealist period (1925-1937) — biomorphic distortions, violent imagery, the 'Minotaur' series — reflect both his turbulent personal life and his engagement with the irrational depths of the human psyche?",
+        "What was Picasso's role during the Nazi occupation of Paris (1940-1944) — staying in his studio, refusing to collaborate, forbidden to exhibit, reportedly telling a German officer who asked about Guernica 'you did this' — and how did his wartime defiance make him a symbol of cultural resistance?",
+        "How did Picasso join the French Communist Party in 1944 — 'I have become a Communist because our party strives to achieve the knowledge of the world and of men' — and why did his political commitment, genuine but complicated, create tension between his artistic individualism and party discipline?",
+        "What was Picasso's personal life during these decades — his affair with Marie-Thérèse Walter (she was 17, he was 45), his relationship with Dora Maar (the 'Weeping Woman'), the emotional devastation he left behind — and why does the pattern of consuming and discarding women force reassessment of his character?"
+      ],
+      "tags": ["arts", "politics", "culture", "modern-history"]
+    },
+    {
+      "name": "The Late Work and the Women (1945-1973)",
+      "topics": [
+        "How did Picasso's postwar career — settling in the south of France, producing ceramics, sculptures, prints, and paintings at staggering volume — demonstrate that his creative energy at 70 and 80 exceeded that of most artists at 30?",
+        "What were Picasso's late variations on the masters — reworking Velázquez's 'Las Meninas' (1957), Delacroix's 'Women of Algiers' (1954-1955), Manet's 'Le Déjeuner sur l'herbe' (1959-1962) — and were these brilliant dialogues with art history or the repetitive gestures of an artist who had exhausted his innovations?",
+        "How did Picasso treat the women in his life — Fernande Olivier, Olga Khokhlova, Marie-Thérèse Walter, Dora Maar, Françoise Gilot, Jacqueline Roque — and why did Françoise Gilot's memoir 'Life with Picasso' (1964) begin the feminist reappraisal that continues to reshape his reputation?",
+        "What happened to the women after Picasso — Marie-Thérèse hanged herself (1977), Jacqueline shot herself (1986), Dora Maar lived in seclusion — and why did Arianna Huffington's 'Picasso: Creator and Destroyer' (1988) argue that his treatment of women was not incidental but central to his art?",
+        "How did Picasso die on April 8, 1973, at age 91 — still working, still productive, still dominating art world conversation — leaving no will and an estate whose settlement took years?"
+      ],
+      "tags": ["arts", "gender", "culture", "modern-history"]
+    },
+    {
+      "name": "Legacy: Creator and Destroyer",
+      "topics": [
+        "What is Picasso's legacy by the numbers — over 50,000 works across painting, sculpture, ceramics, printmaking, and stage design, co-inventor of Cubism, painter of Guernica, the most prolific major artist in recorded history?",
+        "How has the feminist reassessment changed Picasso's reputation — from unqualified genius to 'creator and destroyer,' from liberator of form to abuser of women — and can great art emerge from terrible behavior without being diminished by it?",
+        "How does Picasso compare to his contemporaries — Matisse (his rival and friend), Braque (his Cubist partner), Duchamp (who challenged whether painting mattered at all) — and why did Picasso's combination of technical mastery and relentless reinvention set him apart?",
+        "What did Picasso mean for the art market — his works consistently among the most expensive ever sold, the Picasso Museum in Paris, the Museo Picasso in Barcelona, an estate valued in the billions — and has the financialization of art betrayed or fulfilled his legacy?",
+        "Why does Picasso remain the artist who defines the 20th century — the man who proved that art could shatter every convention, absorb every influence, and reinvent itself endlessly — and does his personal cruelty ultimately matter more, less, or as much as what he created?"
+      ],
+      "tags": ["arts", "culture", "ethics", "modern-history"]
+    }
+  ]
+}

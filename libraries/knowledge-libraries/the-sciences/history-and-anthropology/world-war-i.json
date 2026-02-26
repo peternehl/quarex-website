@@ -1,0 +1,151 @@
+{
+  "name": "World War I",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "conflict", "world-wars", "diplomacy", "europe", "modern-history", "treaties"],
+  "chapters": [
+    {
+      "name": "The Powder Keg: Alliances, Imperialism, and Nationalism Before 1914",
+      "topics": [
+        "How did Bismarck's alliance system — the Triple Alliance of Germany, Austria-Hungary, and Italy (1882) versus the Triple Entente of France, Russia, and Britain (1907) — turn a regional crisis into a world war?",
+        "Why did the naval arms race between Britain and Germany (1898-1912), centered on the construction of dreadnought battleships, create mutual paranoia that made war seem inevitable?",
+        "How did the Moroccan Crises of 1905 and 1911 bring France and Germany to the brink of war and expose the fragility of European diplomacy?",
+        "What role did Pan-Slavism and Pan-Germanism play in transforming ethnic identity into geopolitical ideology across the Balkans and Central Europe?",
+        "Why did the Balkan Wars of 1912-1913 — which redrew the map of southeastern Europe — convince military planners on all sides that a general European war was coming?",
+        "How did the Schlieffen Plan (drafted 1905) lock Germany into a strategy that required attacking France through neutral Belgium, guaranteeing British entry into any future war?"
+      ],
+      "tags": ["history", "diplomacy", "modern-history", "europe"]
+    },
+    {
+      "name": "The Assassination and the July Crisis",
+      "topics": [
+        "Who was Gavrilo Princip, what was the Black Hand organization, and how did a 19-year-old Bosnian Serb nationalist end up killing Archduke Franz Ferdinand in Sarajevo on June 28, 1914?",
+        "Why did Austria-Hungary's ultimatum to Serbia on July 23, 1914 — with its 48-hour deadline and deliberately unacceptable demands — make war virtually certain?",
+        "How did the 'blank check' that Kaiser Wilhelm II gave Austria-Hungary on July 5, 1914 transform a regional Balkan dispute into a continental catastrophe?",
+        "What specific decisions during the 37 days between the assassination and the outbreak of war could have prevented the conflict, and why did every diplomatic off-ramp fail?",
+        "How did Russia's decision to mobilize its army on July 30, 1914 trigger the cascade of alliance obligations that pulled every major European power into war within a week?",
+        "Why did crowds across Europe greet the declaration of war with cheering and patriotic fervor in August 1914, and what did they believe the war would look like?"
+      ],
+      "tags": ["history", "diplomacy", "modern-history", "europe"]
+    },
+    {
+      "name": "The Western Front: Trenches, Mud, and Stalemate",
+      "topics": [
+        "How did the failure of the Schlieffen Plan at the First Battle of the Marne (September 1914) condemn both sides to four years of trench warfare across a 475-mile front?",
+        "What were daily conditions like in the trenches — the rats, the lice, the trench foot, the constant shelling — and how did soldiers endure years of this existence?",
+        "Why did the Battle of Verdun (February-December 1916) become a deliberate German strategy to 'bleed France white,' resulting in roughly 700,000 combined casualties for virtually no territorial gain?",
+        "How did the Battle of the Somme (July-November 1916) produce 57,470 British casualties on its first day alone — the bloodiest day in British military history — and what tactical failures caused this?",
+        "What was 'no man's land,' and why did commanders continue ordering infantry charges across it against machine guns, barbed wire, and artillery for years?",
+        "How did the experience of trench warfare destroy the pre-war ideals of military glory and produce the anti-war literature of Wilfred Owen, Siegfried Sassoon, and Erich Maria Remarque?"
+      ],
+      "tags": ["conflict", "security", "world-wars", "europe"]
+    },
+    {
+      "name": "New Weapons: Machine Guns, Poison Gas, Tanks, and Aircraft",
+      "topics": [
+        "How did the Maxim gun — capable of firing 600 rounds per minute — render traditional infantry tactics suicidal, and why did generals take years to adapt?",
+        "What happened at Ypres on April 22, 1915, when Germany released 168 tons of chlorine gas against French colonial troops, and how did chemical warfare escalate from chlorine to phosgene to mustard gas?",
+        "Why did the British introduction of tanks at the Battle of the Somme in September 1916 initially fail, and how did the Battle of Cambrai (November 1917) demonstrate their potential?",
+        "How did aerial warfare evolve from reconnaissance balloons to dogfights between aces like Manfred von Richthofen (the Red Baron, with 80 kills) to strategic bombing of cities?",
+        "What was the impact of submarine warfare, specifically Germany's policy of unrestricted U-boat attacks that sank 5,000 Allied ships and directly provoked American entry into the war?",
+        "Why did the massive artillery bombardments — like the 1.5 million shells fired before the Somme — fail to destroy defensive positions and instead create cratered moonscapes that trapped attacking troops?"
+      ],
+      "tags": ["conflict", "innovation", "world-wars", "engineering"]
+    },
+    {
+      "name": "The Eastern Front and the Collapse of Empires",
+      "topics": [
+        "How did Russia's disastrous defeat at Tannenberg (August 1914), where Germany captured 92,000 Russian soldiers, expose the incompetence and corruption of the Tsarist military?",
+        "Why did the Eastern Front remain far more mobile than the Western Front, with front lines shifting hundreds of miles, yet produce even higher casualty rates?",
+        "What was the Brusilov Offensive of June 1916 — the most successful Allied operation of the entire war — and why did its 1.6 million combined casualties ultimately hasten Russia's collapse?",
+        "How did the war expose the fatal weaknesses of the Austro-Hungarian Empire, where soldiers speaking 11 different languages struggled to communicate and ethnic minorities increasingly refused to fight?",
+        "What role did the war play in igniting the Armenian Genocide of 1915, when the Ottoman Empire systematically killed an estimated 1.5 million Armenians?",
+        "How did military failure, food shortages, and 3.3 million Russian dead create the conditions for the February Revolution of 1917 that toppled the Romanov dynasty?"
+      ],
+      "tags": ["conflict", "nationalism", "world-wars", "europe"]
+    },
+    {
+      "name": "The Ottoman Empire: From Gallipoli to Dissolution",
+      "topics": [
+        "Why did the Ottoman Empire enter the war on Germany's side in October 1914, and what did the Young Turk government hope to gain?",
+        "How did the Gallipoli Campaign (1915-1916) — Winston Churchill's plan to knock the Ottomans out of the war — become one of the Allies' worst defeats, killing 44,000 Allied and 86,000 Ottoman soldiers?",
+        "What were the Sykes-Picot Agreement (1916) and the Balfour Declaration (1917), and how did these secret deals divide the Ottoman Empire's Arab territories between Britain and France while promising a Jewish homeland in Palestine?",
+        "How did T.E. Lawrence ('Lawrence of Arabia') help organize the Arab Revolt of 1916-1918, and why did Britain betray the Arab independence it had promised?",
+        "What was the Ottoman Empire's military experience at the Siege of Kut (1915-1916), where 13,000 British and Indian soldiers surrendered in one of Britain's most humiliating defeats?",
+        "How did the Ottoman Empire's collapse create the modern borders of Iraq, Syria, Lebanon, Jordan, and Palestine — borders that remain sources of conflict over a century later?"
+      ],
+      "tags": ["conflict", "colonialism", "world-wars", "middle-east"]
+    },
+    {
+      "name": "The Home Front: Total War and Civilian Life",
+      "topics": [
+        "What did 'total war' mean in practice — how did governments commandeer entire economies, ration food, conscript labor, and suppress dissent on a scale never seen before?",
+        "How did the British naval blockade of Germany cause an estimated 763,000 German civilian deaths from starvation and malnutrition between 1914 and 1918?",
+        "Why did women's mass entry into factories, transportation, and agriculture during the war — replacing 2 million men in Britain alone — fundamentally alter the argument against women's suffrage?",
+        "How did wartime propaganda dehumanize the enemy, from British stories of German soldiers bayoneting Belgian babies to German depictions of Allied soldiers as subhuman?",
+        "What was the Defence of the Realm Act (1914) in Britain, and how did it grant the government extraordinary powers including censorship, pub closing times, and the right to seize private property?",
+        "How did the war accelerate social change — from daylight saving time to income tax expansion to the Spanish flu response — that would have taken decades in peacetime?"
+      ],
+      "tags": ["society", "propaganda", "world-wars", "europe"]
+    },
+    {
+      "name": "The Russian Revolution: From War to Bolshevism",
+      "topics": [
+        "How did the catastrophic Russian military performance — 2 million dead, 5 million wounded, chronic ammunition shortages — create the conditions for revolution by early 1917?",
+        "What happened during the February Revolution of 1917, when bread riots in Petrograd escalated into a full collapse of Tsarist authority within a week?",
+        "Why did the Provisional Government under Alexander Kerensky make the fatal decision to continue fighting the war, despite widespread public demand for 'Peace, Land, and Bread'?",
+        "How did Lenin's return to Russia in April 1917 (in a sealed train provided by Germany, which hoped he would destabilize Russia) change the trajectory of the revolution?",
+        "What was the October Revolution of November 7, 1917, and why did the Bolshevik seizure of power succeed with remarkably little violence in Petrograd itself?",
+        "How did the Treaty of Brest-Litovsk (March 1918) — in which Russia surrendered vast territories including Ukraine, Finland, and the Baltic states — free German troops for a final offensive in the west?"
+      ],
+      "tags": ["politics", "revolution", "world-wars", "europe"]
+    },
+    {
+      "name": "American Entry and the War's Final Year",
+      "topics": [
+        "What specific events — the Zimmermann Telegram proposing a German-Mexican alliance, unrestricted submarine warfare sinking American ships — overcame American isolationism and brought the US into the war in April 1917?",
+        "How long did it take for the American Expeditionary Force to actually arrive in significant numbers, and why was the period between declaration of war and effective deployment nearly a year?",
+        "What was the German Spring Offensive of March 1918 (Operation Michael), and how close did Ludendorff's gamble come to breaking the Allied lines before American troops arrived in force?",
+        "How did the Hundred Days Offensive (August-November 1918) — featuring combined arms tactics with tanks, aircraft, and infantry — finally break the deadlock of trench warfare?",
+        "What was the experience of the 369th Infantry Regiment (the 'Harlem Hellfighters'), African American soldiers who served under French command because the US Army refused to integrate, and who fought for 191 days without losing ground?",
+        "Why did the German military command seek an armistice in October 1918, and how did they later construct the 'stab-in-the-back' myth blaming civilians, Jews, and socialists for Germany's defeat?"
+      ],
+      "tags": ["conflict", "security", "world-wars", "americas"]
+    },
+    {
+      "name": "The Treaty of Versailles: Peace That Guaranteed Future War",
+      "topics": [
+        "What specific clause of the Treaty of Versailles did Hitler cite most often in his rise to power — and why did Article 231 (the 'War Guilt Clause') humiliate Germany without actually disarming it?",
+        "How did the 'Big Four' at Versailles — Wilson, Clemenceau, Lloyd George, and Orlando — each pursue contradictory goals that produced a treaty satisfying no one?",
+        "Why did the reparations demand of 132 billion gold marks (roughly $33 billion in 1921 dollars) cripple the Weimar Republic's economy and fuel the hyperinflation of 1923?",
+        "How did Woodrow Wilson's Fourteen Points — including self-determination for nations — inspire colonized peoples from Ireland to Vietnam, only to be betrayed when the treaty preserved European empires?",
+        "What happened to the Austro-Hungarian, Ottoman, German, and Russian empires, and how did the successor states created at Versailles (Czechoslovakia, Yugoslavia, Iraq) contain the seeds of future conflicts?",
+        "Why did the United States Senate refuse to ratify the Treaty of Versailles or join the League of Nations, and how did American withdrawal doom the postwar international order?"
+      ],
+      "tags": ["politics", "diplomacy", "treaties", "europe"]
+    },
+    {
+      "name": "The League of Nations and the Failure of Collective Security",
+      "topics": [
+        "What was Woodrow Wilson's vision for the League of Nations, and why did he believe it could prevent future wars through collective security and open diplomacy?",
+        "How did the absence of the United States, the exclusion of Soviet Russia, and the initial exclusion of Germany fatally weaken the League from its founding in 1920?",
+        "Why did the League fail to stop Japan's invasion of Manchuria in 1931 and Italy's invasion of Ethiopia in 1935 — and what did these failures reveal about the limits of international law without enforcement?",
+        "What was the mandate system, and how did it disguise the continuation of colonialism (in Iraq, Syria, Palestine, and Africa) as League-supervised 'civilization-building'?",
+        "How did the League's successes — resolving the Aaland Islands dispute, repatriating 400,000 prisoners of war, combating drug trafficking — demonstrate what international cooperation could achieve when great powers cooperated?",
+        "Why did the League's inability to stop the remilitarization of the Rhineland (1936) effectively signal that collective security was dead and another war was coming?"
+      ],
+      "tags": ["politics", "diplomacy", "united-nations", "treaties"]
+    },
+    {
+      "name": "The Legacy: How the Great War Made the Modern World",
+      "topics": [
+        "How did World War I's 20 million dead and 21 million wounded shatter the 19th-century belief in inevitable progress, producing the 'Lost Generation' and modernist despair?",
+        "Why did the war's destruction of four empires (Ottoman, Austro-Hungarian, Russian, German) create a power vacuum that totalitarian movements — fascism, Nazism, Stalinism — rushed to fill?",
+        "How did the war's mass mobilization of colonial troops — 1.3 million Indians, 500,000 Africans — plant the seeds of anti-colonial movements by proving that European powers were neither invincible nor morally superior?",
+        "What was the long-term impact of shell shock (now called PTSD), and why did the military establishment resist acknowledging psychological trauma for decades after the war?",
+        "How did the Spanish Flu pandemic of 1918-1919 — which killed an estimated 50-100 million people worldwide — emerge from wartime conditions and spread through troop movements?",
+        "Why do historians argue that World War I and World War II should be understood as a single 'Thirty Years' War' (1914-1945), with the interwar period as merely an unstable ceasefire?"
+      ],
+      "tags": ["history", "legacy", "world-wars", "modern-history"]
+    }
+  ]
+}

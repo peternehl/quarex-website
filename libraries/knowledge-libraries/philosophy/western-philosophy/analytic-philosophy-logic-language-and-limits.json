@@ -1,0 +1,95 @@
+{
+  "name": "Analytic Philosophy: Logic, Language, and the Limits of Knowledge",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "epistemology", "science", "critical-thinking", "modern-history"],
+  "chapters": [
+    {
+      "name": "Frege, Russell, and the Birth of Modern Logic",
+      "topics": [
+        "How did Gottlob Frege (1848-1925) — a mathematician working in almost complete obscurity in Jena — invent modern predicate logic, replacing the 2,300-year-old Aristotelian syllogistic with a formal language powerful enough to express all mathematical reasoning?",
+        "What was Frege's distinction between sense (Sinn) and reference (Bedeutung) — that 'the morning star' and 'the evening star' refer to the same object (Venus) but have different senses — and why did this 1892 paper become the founding document of the philosophy of language?",
+        "How did Bertrand Russell (1872-1970) and Alfred North Whitehead attempt to reduce all mathematics to logic in 'Principia Mathematica' (1910-1913) — famously taking 362 pages to prove that 1+1=2 — and why did this monumental failure transform philosophy more than any success could have?",
+        "What was Russell's theory of definite descriptions — his analysis of 'the present king of France is bald' showing that the logical form of sentences differs radically from their grammatical form — and why did this 1905 paper convince philosophers that logical analysis could dissolve centuries-old puzzles?",
+        "How did Russell's paradox — the set of all sets that don't contain themselves: does it contain itself? — destroy Frege's life's work in a single letter (1902), and why does this paradox still haunt the foundations of mathematics?"
+      ],
+      "tags": ["philosophy", "epistemology", "science", "modern-history"]
+    },
+    {
+      "name": "The Early Wittgenstein: Language Pictures Reality",
+      "topics": [
+        "Who was Ludwig Wittgenstein (1889-1951) — born into Vienna's wealthiest family, three brothers who committed suicide, gave away his fortune, served in World War I, taught elementary school in rural Austria, and produced two masterpieces that contradicted each other?",
+        "What did Wittgenstein argue in the 'Tractatus Logico-Philosophicus' (1921) — that language is a picture of reality, that logical structure mirrors the structure of the world, and that 'what can be said at all can be said clearly, and what we cannot speak about we must pass over in silence'?",
+        "Why did the Tractatus end philosophy — or try to — by claiming that all genuine philosophical problems are confusions arising from the misuse of language, and that once these confusions are cleared up 'the correct method in philosophy would really be to say nothing except what can be said'?",
+        "How did Wittgenstein's relationship with Russell — arriving at Cambridge in 1911 as a student, quickly becoming the master's intellectual superior, reducing Russell to despair — illustrate the destructive power of philosophical genius?",
+        "Why did Wittgenstein leave philosophy after the Tractatus — believing he had solved all its problems, working as a village schoolteacher, designing a house for his sister, becoming a gardener's assistant at a monastery — before returning to Cambridge in 1929 to demolish everything he'd built?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "modern-history"]
+    },
+    {
+      "name": "Logical Positivism: The Vienna Circle's War on Metaphysics",
+      "topics": [
+        "What was the Vienna Circle (1924-1936) — Moritz Schlick, Rudolf Carnap, Otto Neurath, and others meeting weekly to forge a 'scientific world-conception' — and why did they believe that the progress of humanity depended on eliminating metaphysics, theology, and most of traditional philosophy?",
+        "What was the verification principle — that a statement is meaningful only if it can be verified by empirical observation or is a logical tautology — and why did this single criterion threaten to render ethics ('killing is wrong'), aesthetics ('Bach is great'), and metaphysics ('God exists') literally meaningless?",
+        "How did A.J. Ayer's 'Language, Truth and Logic' (1936) — written at 25, brash, polemical, declaring that ethical statements are merely expressions of emotion ('emotivism') — bring logical positivism to the English-speaking world and scandalize traditional philosophy?",
+        "Why did logical positivism collapse — the verification principle couldn't verify itself (is it empirical or tautological?), Quine destroyed the analytic/synthetic distinction, Kuhn showed science doesn't work the way positivists imagined — and what survived the wreckage?",
+        "How did the rise of Nazism destroy the Vienna Circle literally — Schlick murdered by a student on the university steps (1936), members fleeing to America and Britain, Neurath escaping to England in a boat — and why did this diaspora spread analytic philosophy across the English-speaking world?"
+      ],
+      "tags": ["philosophy", "epistemology", "science", "modern-history"]
+    },
+    {
+      "name": "The Later Wittgenstein: Language Games and Forms of Life",
+      "topics": [
+        "How did the 'Philosophical Investigations' (1953) — published posthumously, written over 20 years — demolish the Tractatus's picture theory, arguing that meaning is not a mirror of reality but a function of use within human practices ('language games')?",
+        "What is a 'language game' — the idea that words get their meaning from the activities and contexts in which they are used (ordering, greeting, joking, praying, cursing), not from their correspondence to objects — and why did Wittgenstein insist that 'the meaning of a word is its use in the language'?",
+        "What is the private language argument — Wittgenstein's claim that a language understood by only one person is impossible, that meaning requires public criteria, that you cannot follow a rule 'privately' — and why did this attack on the Cartesian inner self become the most debated argument in 20th-century philosophy?",
+        "How did Wittgenstein use the concept of 'family resemblance' — showing that categories like 'game' have no single defining feature, only overlapping similarities — to challenge the Platonic assumption that every concept must have an essence?",
+        "Why did Wittgenstein say 'philosophy is a battle against the bewitchment of our intelligence by means of language' — that philosophical problems are not solved but dissolved when we see how language has gone on holiday — and is this therapeutic conception of philosophy liberating or defeatist?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "modern-history"]
+    },
+    {
+      "name": "Quine, Kuhn, and the Collapse of Certainties",
+      "topics": [
+        "How did W.V.O. Quine's 'Two Dogmas of Empiricism' (1951) — rejecting the distinction between analytic truths (true by definition) and synthetic truths (true by experience) — blow up the foundation that defined analytic philosophy, and why did even his critics concede he had changed the landscape permanently?",
+        "What is Quine's web of belief — the argument that our beliefs face experience as a whole rather than individually, that any belief can be maintained in the face of contrary evidence by adjusting others, and that there is no sharp line between science and philosophy?",
+        "How did Thomas Kuhn's 'The Structure of Scientific Revolutions' (1962) — arguing that science progresses through paradigm shifts rather than steady accumulation, that 'normal science' is puzzle-solving within an accepted framework until anomalies force a revolution — change how everyone (not just philosophers) understands science?",
+        "What did Karl Popper contribute with falsificationism — the argument that what makes a theory scientific is not that it can be verified but that it can be falsified, that 'a theory which is not refutable by any conceivable event is nonscientific' — and why did he consider Marxism and psychoanalysis pseudo-sciences?",
+        "How did the Kuhn-Popper debate reveal a fundamental tension — Popper insisting that science is rational hypothesis-testing, Kuhn showing that actual scientists behave more like puzzle-solvers within traditions — and why does this debate matter for how societies should trust (or question) scientific authority?"
+      ],
+      "tags": ["philosophy", "science", "epistemology", "modern-history"]
+    },
+    {
+      "name": "Philosophy of Mind: Consciousness, Machines, and the Hard Problem",
+      "topics": [
+        "What is the mind-body problem in analytic philosophy — the question of how subjective experience (seeing red, feeling pain, tasting coffee) relates to physical brain processes — and why have the best minds in philosophy failed to solve it after 70 years of intense debate?",
+        "How did Gilbert Ryle attack Cartesian dualism in 'The Concept of Mind' (1949) — calling it 'the ghost in the machine,' arguing that mental states are not private inner events but dispositions to behave — and why did this behaviorist assault fail to eliminate the feeling that something is left out?",
+        "What is functionalism — the view that mental states are defined by their functional roles (pain is whatever causes avoidance behavior), not by what they are made of — and why did this allow the possibility that machines could genuinely think?",
+        "How did John Searle's Chinese Room argument (1980) challenge artificial intelligence — imagining a person following instructions to manipulate Chinese symbols without understanding Chinese, arguing that computers manipulate symbols without understanding — and does the argument succeed or confuse simulation with duplication?",
+        "What is the 'hard problem' of consciousness — David Chalmers's 1995 formulation that even a complete physical explanation of the brain would leave unexplained why there is something it is like to be conscious — and why did some philosophers (Daniel Dennett) respond by denying that the problem exists?"
+      ],
+      "tags": ["philosophy", "psychology", "technology", "modern-history"]
+    },
+    {
+      "name": "Ethics Revived: Rawls, Singer, and Applied Philosophy",
+      "topics": [
+        "How did John Rawls's 'A Theory of Justice' (1971) — using the thought experiment of the 'veil of ignorance' (choose principles of justice without knowing your place in society) — revive political philosophy from its mid-century coma and make Kantian liberalism the dominant framework of contemporary ethics?",
+        "How did Robert Nozick's 'Anarchy, State, and Utopia' (1974) challenge Rawls — arguing that any redistribution of wealth violates individual rights, that a minimal 'night-watchman state' is the only just arrangement — and why did this Harvard colleague's libertarian response define the Rawls-Nozick axis that still structures political philosophy?",
+        "How did Peter Singer's 'Animal Liberation' (1975) use utilitarian logic to argue that speciesism — the assumption that human interests automatically outweigh animal interests — is as unjustifiable as racism or sexism, and why did a philosophy book launch a global movement?",
+        "What is the trolley problem — Philippa Foot's 1967 thought experiment about diverting a trolley to kill one person instead of five — and why has this seemingly absurd puzzle generated thousands of papers, revealed deep disagreements about consequentialism versus deontology, and become relevant to programming self-driving cars?",
+        "How did the effective altruism movement — founded on Singer's argument that affluent people are morally obligated to donate to the most effective charities — demonstrate analytic philosophy's practical power, and did the FTX collapse (Sam Bankman-Fried, 2022) discredit the movement or merely one of its adherents?"
+      ],
+      "tags": ["philosophy", "ethics", "governance", "modern-history"]
+    },
+    {
+      "name": "The Analytic-Continental Divide and Philosophy's Future",
+      "topics": [
+        "How did the analytic-continental split — emerging in the early 20th century when Russell attacked Hegel and Husserl attacked psychologism — create two philosophical traditions so estranged that each considers the other barely worth reading?",
+        "Why did Carnap's demolition of Heidegger (1932) — analyzing the sentence 'the Nothing itself nothings' as a grammatical confusion, arguing that Heidegger's metaphysics was literally meaningless — become the founding act of the analytic-continental cold war?",
+        "How have recent philosophers bridged the divide — Hubert Dreyfus bringing Heidegger into AI debates, John McDowell merging Wittgenstein with Hegel, Robert Brandom reading Hegel as an inferentialist — and is 'post-analytic philosophy' a genuine synthesis or a marketing label?",
+        "What are the current frontiers of analytic philosophy — formal epistemology and Bayesian reasoning, philosophy of information and computation, experimental philosophy using empirical methods, social epistemology and the philosophy of trust — and has the tradition remained true to its founding commitment to clarity?",
+        "Why does analytic philosophy face an identity crisis — its founders (Frege, Russell, the early Wittgenstein) believed in definitive solutions, but its history has been a series of failed programs (logicism, positivism, ordinary language philosophy) — and is this record of productive failure philosophy's greatest strength or its fatal weakness?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "modern-history"]
+    }
+  ]
+}

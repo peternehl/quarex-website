@@ -2,19 +2,19 @@
   {
     "slug": "literary-arts",
     "name": "Literary Arts",
-    "description": null,
+    "description": "Poetry, fiction, drama, and the written word — from ancient epic to contemporary novel, the art of storytelling on the page.",
     "bookCount": 10
   },
   {
     "slug": "performing-arts",
     "name": "Performing Arts",
-    "description": null,
+    "description": "Music, theater, dance, and film — the arts that unfold in time, from classical symphony to cinema to hip-hop.",
     "bookCount": 10
   },
   {
     "slug": "visual-arts",
     "name": "Visual Arts",
-    "description": null,
+    "description": "Painting, sculpture, photography, and design — from cave walls to digital screens, the art of making meaning visible.",
     "bookCount": 10
   }
 ]

@@ -1,0 +1,139 @@
+{
+  "name": "Cultural Anthropology",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["anthropology", "society", "identity", "cultural-heritage", "migration", "religion", "methodology"],
+  "chapters": [
+    {
+      "name": "What Is Culture? Definitions and Debates",
+      "topics": [
+        "How did Edward Tylor's 1871 definition of culture — 'that complex whole which includes knowledge, belief, art, morals, law, custom' — launch anthropology as a discipline, and why has every subsequent generation of anthropologists argued about what the word actually means?",
+        "What is the difference between ethnocentrism (judging other cultures by your own standards) and cultural relativism (understanding cultures on their own terms), and why has the tension between them defined anthropological ethics since Franz Boas?",
+        "How do cultures transmit knowledge across generations — through language, ritual, apprenticeship, storytelling, and embodied practice — and what is lost when any of these transmission channels breaks down?",
+        "Why did Clifford Geertz argue that culture is not inside people's heads but in the publicly available symbols they use — and how did his concept of 'thick description' change how anthropologists study meaning?",
+        "What is the relationship between culture and biology — how much of human behavior is culturally learned versus genetically inherited — and why does the nature-nurture debate keep resurging despite decades of evidence that the dichotomy is false?",
+        "How has globalization complicated the concept of culture — when people in rural Kenya watch Korean dramas, eat Indian food, and text in English, does the idea of discrete, bounded cultures still make sense?"
+      ],
+      "tags": ["society", "methodology", "anthropology", "identity"]
+    },
+    {
+      "name": "Kinship, Family, and Social Organization",
+      "topics": [
+        "Why is kinship the foundational topic of anthropology — how did Lewis Henry Morgan's discovery that different societies classify relatives in fundamentally different ways reveal that 'family' is a cultural invention, not a biological fact?",
+        "What are the major kinship systems (Eskimo, Hawaiian, Iroquois, Crow, Omaha, Sudanese), how does each one classify relatives differently, and what does each system reveal about the society that uses it?",
+        "How do marriage rules — exogamy (marry outside your group), endogamy (marry within), cross-cousin marriage, bride price, dowry — create alliances between families and structure entire societies?",
+        "What is matrilineality versus patrilineality, why have patrilineal systems dominated most of recorded history, and how do matrilineal societies like the Minangkabau of Indonesia and the Khasi of India organize power differently?",
+        "How did the nuclear family become the dominant Western ideal — was it industrialization, Protestant theology, suburban planning, or all three — and why do most of the world's cultures still organize around extended family networks?",
+        "Why are anthropologists increasingly studying 'chosen families,' polyamorous networks, co-parenting arrangements, and transnational care chains — and what do these new forms reveal about the limits of traditional kinship theory?"
+      ],
+      "tags": ["society", "identity", "anthropology", "cultural-heritage"]
+    },
+    {
+      "name": "Language, Communication, and the Sapir-Whorf Hypothesis",
+      "topics": [
+        "What is the Sapir-Whorf hypothesis — the idea that the language you speak shapes how you think — and why does the evidence both support it (color perception, spatial reasoning) and complicate it (universal grammar, translation)?",
+        "How do languages die — what happens when the last speaker of a language passes away — and why does the loss of each of the world's 7,000 languages represent the disappearance of an entire way of understanding reality?",
+        "What is code-switching — the practice of shifting between languages or dialects depending on social context — and what does it reveal about the relationship between language, power, and identity?",
+        "How do non-verbal communication systems (gesture, facial expression, proxemics, silence) vary across cultures, and why do cross-cultural misunderstandings so often arise from reading body language through your own cultural lens?",
+        "What did the study of pidgins and creoles — languages born from colonial contact between peoples who shared no common tongue — reveal about the human capacity for linguistic creativity under conditions of extreme inequality?",
+        "How has digital communication — emojis, memes, hashtags, voice messages — created new forms of cultural expression that anthropologists are only beginning to study?"
+      ],
+      "tags": ["society", "identity", "anthropology", "methodology"]
+    },
+    {
+      "name": "Religion, Ritual, and the Sacred",
+      "topics": [
+        "Why did Emile Durkheim argue that religion is fundamentally about social solidarity — that when people worship gods, they are really worshipping society itself — and how has this functionalist view been challenged?",
+        "What are rites of passage (birth, initiation, marriage, death), how did Victor Turner's concept of 'liminality' — the threshold state between social identities — explain their universal presence across cultures?",
+        "How does shamanism function in societies from Siberia to the Amazon — what role do altered states of consciousness, plant medicines, and spirit communication play in healing, social cohesion, and knowledge production?",
+        "What is the anthropological difference between magic, religion, and science — categories that Bronislaw Malinowski, E.E. Evans-Pritchard, and Claude Levi-Strauss each defined differently — and do these distinctions hold up cross-culturally?",
+        "How do millenarian and revitalization movements — the Ghost Dance, cargo cults, Rastafarianism — emerge in response to colonial domination, and what do they reveal about the political functions of religious innovation?",
+        "Why has the anthropology of religion shifted from studying 'exotic' beliefs to examining how secularism, prosperity gospel, and New Age spirituality function as cultural systems in the modern West?"
+      ],
+      "tags": ["religion", "spirituality", "anthropology", "cultural-heritage"]
+    },
+    {
+      "name": "Economic Anthropology: How Cultures Organize Production and Exchange",
+      "topics": [
+        "What did Marcel Mauss's The Gift (1925) reveal about non-market economies — that gift exchange creates social obligations, alliances, and hierarchies — and why is gift-giving still a powerful economic force even in capitalist societies?",
+        "How do hunter-gatherer economies work — what did Marshall Sahlins mean by the 'original affluent society' when he argued that foragers worked fewer hours and had more leisure than modern workers?",
+        "What is the 'moral economy' — E.P. Thompson's concept that pre-capitalist societies embedded economic activity in social and moral obligations — and why did the transition to market economies feel like a violation of the social contract?",
+        "How do informal economies — street vendors, domestic workers, subsistence farmers, barter networks — sustain billions of people who are invisible to GDP statistics and formal economic models?",
+        "What is the anthropology of money — how do different cultures understand what money is, what it should be used for, and what it cannot buy — and why did the introduction of cash economies in colonial societies transform social relationships?",
+        "How has the rise of platform economies (Uber, Airbnb, gig work) created new forms of precarious labor that anthropologists study alongside sweatshops and migrant farmwork?"
+      ],
+      "tags": ["economics", "trade", "anthropology", "globalization"]
+    },
+    {
+      "name": "Race, Ethnicity, and the Anthropology of Difference",
+      "topics": [
+        "How did Franz Boas and his students (Margaret Mead, Ruth Benedict, Zora Neale Hurston) dismantle scientific racism by demonstrating that racial categories are cultural inventions with no biological basis?",
+        "What is the difference between race and ethnicity — why is race a classification imposed from outside while ethnicity is an identity claimed from within — and how do both categories function as tools of power?",
+        "How did European colonialism construct racial hierarchies — from the Spanish casta system to the 'one-drop rule' in the US to apartheid in South Africa — and why do these classifications persist long after the empires that created them?",
+        "What is 'whiteness studies,' why did anthropologists begin studying white identity as a constructed category rather than an invisible norm, and what does this reveal about how racial privilege operates?",
+        "How do indigenous peoples define identity differently from state classifications — why do blood quantum rules, tribal enrollment criteria, and government-imposed categories often conflict with how communities understand belonging?",
+        "Why does genetic research consistently show that there is more genetic variation within so-called racial groups than between them — and why does this scientific finding fail to dislodge race as a social reality?"
+      ],
+      "tags": ["society", "identity", "anthropology", "inequality"]
+    },
+    {
+      "name": "Gender and Sexuality Across Cultures",
+      "topics": [
+        "How did Margaret Mead's Coming of Age in Samoa (1928) challenge the assumption that gender roles are biologically fixed — and why did Derek Freeman's later critique of her work become one of anthropology's most bitter controversies?",
+        "What are 'third gender' categories — hijra in India, fa'afafine in Samoa, Two-Spirit in Native American cultures, sworn virgins in Albania — and what do they reveal about the limits of the Western male/female binary?",
+        "How do different cultures organize the sexual division of labor — who farms, who hunts, who cooks, who trades — and why did the assumption that 'man the hunter' drove human evolution turn out to be wrong?",
+        "What is the anthropology of masculinity — how do different cultures define what it means to be a man, through initiation rituals, warfare, honor codes, or economic provision — and how are these definitions changing?",
+        "How have anthropologists studied sexuality across cultures — from Gilbert Herdt's work on ritualized homosexuality in Melanesia to the global spread of LGBTQ+ identity categories — without imposing Western frameworks?",
+        "Why has the anthropology of gender become politically contentious — with debates over biological sex, transgender identity, and cultural appropriation of non-Western gender categories generating conflict within and beyond the discipline?"
+      ],
+      "tags": ["society", "identity", "anthropology", "feminism"]
+    },
+    {
+      "name": "Medical Anthropology: Culture, Illness, and Healing",
+      "topics": [
+        "What is the anthropological distinction between disease (a biomedical condition) and illness (the cultural experience of being sick), and why does this distinction matter for understanding why the same condition is experienced differently across cultures?",
+        "How do traditional healing systems — Ayurveda, Traditional Chinese Medicine, Yoruba divination, Amazonian plant medicine — operate on different theories of the body, causation, and cure than Western biomedicine?",
+        "What is the 'nocebo effect' — the documented phenomenon where cultural beliefs about illness actually produce physical symptoms — and what does it reveal about the power of culture over biology?",
+        "How did Paul Farmer's concept of 'structural violence' show that diseases like tuberculosis and HIV/AIDS are not simply medical problems but consequences of poverty, inequality, and political choices?",
+        "Why do global health interventions frequently fail when they ignore local cultural beliefs — from vaccine hesitancy rooted in colonial medical abuses to the Ebola response in West Africa undermined by distrust of foreign health workers?",
+        "How has the COVID-19 pandemic become an anthropological case study — revealing how different cultures understand contagion, personal responsibility, government authority, and the social meaning of death?"
+      ],
+      "tags": ["health", "medicine", "anthropology", "inequality"]
+    },
+    {
+      "name": "Colonialism, Power, and the Politics of Anthropology",
+      "topics": [
+        "How was anthropology complicit in colonialism — with early ethnographers mapping indigenous cultures for colonial administrators, classifying peoples as 'primitive' or 'civilized,' and providing intelligence for colonial governance?",
+        "What was the crisis of representation in the 1980s — when anthropologists like James Clifford and George Marcus argued that ethnographic writing inevitably distorts the cultures it describes — and how did it change the discipline?",
+        "How did Edward Said's Orientalism (1978) challenge anthropology to examine its own role in constructing the 'Other' — the exotic, primitive, or mysterious non-Western subject that justified Western dominance?",
+        "What is indigenous anthropology — the growing movement of scholars from formerly colonized communities studying their own cultures — and how does it challenge the discipline's tradition of outsiders studying 'Others'?",
+        "How do debates over cultural property — from the Elgin Marbles to indigenous DNA samples to sacred objects in museum collections — reflect unresolved power dynamics between anthropologists and the people they study?",
+        "Why has 'decolonizing anthropology' become the discipline's central project — and what would it actually mean to practice an anthropology that does not reproduce the intellectual frameworks of empire?"
+      ],
+      "tags": ["history", "colonialism", "anthropology", "methodology"]
+    },
+    {
+      "name": "Fieldwork: How Anthropologists Know What They Know",
+      "topics": [
+        "What is participant observation — Malinowski's method of living among the people you study for an extended period — and why does immersion produce knowledge that surveys, interviews, and statistical analysis cannot?",
+        "How do anthropologists handle the ethical dilemmas of fieldwork — informed consent in cultures without written language, studying illegal activities, protecting informants from governments, and the power imbalance between researcher and researched?",
+        "What was the Yanomami controversy — when Napoleon Chagnon's portrayal of the Yanomami as 'the fierce people' was challenged as both scientifically flawed and politically damaging — and what does it reveal about anthropological responsibility?",
+        "How has digital ethnography expanded the field — with anthropologists now studying online communities, social media cultures, gaming worlds, and AI interactions as legitimate sites of cultural production?",
+        "Why do anthropologists increasingly practice 'studying up' — researching powerful institutions like Wall Street firms, pharmaceutical companies, and military organizations — rather than exclusively studying marginalized communities?",
+        "What is autoethnography — the practice of using your own experience as anthropological data — and when is it a legitimate methodology versus self-indulgent navel-gazing?"
+      ],
+      "tags": ["society", "methodology", "anthropology", "ethics"]
+    },
+    {
+      "name": "Globalization, Migration, and Cultural Change",
+      "topics": [
+        "How did Arjun Appadurai's concept of 'scapes' (ethnoscapes, mediascapes, technoscapes, financescapes, ideoscapes) provide a framework for understanding how globalization produces cultural flows rather than cultural homogenization?",
+        "What is 'glocalization' — the process by which global products and ideas are adapted to local contexts (McDonald's serving McAloo Tikki in India, Japanese anime absorbing Western themes) — and why does it challenge the 'Americanization' thesis?",
+        "How do diaspora communities maintain cultural identity across borders — through food, religion, language, media, and return visits — and what happens when second and third generations develop hybrid identities that fit neither 'here' nor 'there'?",
+        "What is the anthropology of refugees — how do people reconstruct cultural life in camps, cities, and resettlement countries — and why do bureaucratic categories ('refugee,' 'migrant,' 'asylum seeker') fail to capture lived experience?",
+        "How has tourism transformed cultures — from Balinese dance performances staged for visitors to Maasai villages charging admission — and when does cultural display become cultural commodification?",
+        "Why does the persistence of cultural diversity in the face of globalization surprise social scientists — and what does it reveal about the human capacity to absorb, resist, and transform external cultural pressures?"
+      ],
+      "tags": ["society", "globalization", "anthropology", "migration"]
+    }
+  ]
+}

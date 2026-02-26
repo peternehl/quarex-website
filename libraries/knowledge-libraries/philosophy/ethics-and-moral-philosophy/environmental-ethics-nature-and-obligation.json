@@ -1,0 +1,95 @@
+{
+  "name": "Environmental Ethics: Nature and Obligation",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "ethics", "environment", "science", "critical-thinking"],
+  "chapters": [
+    {
+      "name": "Anthropocentrism: Nature as Resource",
+      "topics": [
+        "How did Descartes' declaration that animals are mere 'automata' — machines without consciousness, incapable of suffering — provide the philosophical foundation for treating nature as raw material for human use?",
+        "Why did Francis Bacon argue that science should 'put nature on the rack' — extracting her secrets through experimentation — and how did this language of domination shape the relationship between Western science and the natural world for four centuries?",
+        "How did John Locke's labor theory of property — 'the earth and all that is therein is given to men for the support and comfort of their being' — provide the philosophical justification for clearing forests, draining wetlands, and converting ecosystems into private property?",
+        "What is the 'wise use' version of anthropocentrism — Gifford Pinchot's conservation philosophy that nature should be managed for 'the greatest good for the greatest number for the longest time' — and how does it differ from preservation?",
+        "Why do economists like William Nordhaus assign discount rates to future environmental damage — effectively arguing that a forest destroyed in 2100 is worth less than one destroyed today — and what philosophical assumptions make this calculation seem rational?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "early-modern-history"]
+    },
+    {
+      "name": "Leopold's Land Ethic: Thinking Like a Mountain",
+      "topics": [
+        "How did Aldo Leopold's 'A Sand County Almanac' (1949) propose a 'land ethic' — extending moral consideration from humans to soils, waters, plants, and animals collectively — and why did he argue that 'a thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community'?",
+        "What did Leopold mean by 'thinking like a mountain' — his account of watching a wolf die and realizing that the mountain's health depended on wolves, that humans' war on predators was destroying the ecosystems they claimed to manage — and how did this essay change ecological thinking?",
+        "Why did Leopold's land ethic challenge the entire Western ethical tradition — which had always limited moral consideration to humans (and sometimes God) — by arguing that ecosystems have moral standing independent of their usefulness to people?",
+        "How did the 'environmental fascism' objection — that Leopold's holistic ethic could justify sacrificing individual humans for ecosystem health — force environmental ethicists to clarify the relationship between individual rights and ecological integrity?",
+        "What did Leopold accomplish as a practitioner — developing wildlife management as a discipline, restoring degraded land in Wisconsin, influencing the Wilderness Act (1964) — and why does his integration of science, philosophy, and hands-on land work remain the model for ecological ethics?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "modern-history"]
+    },
+    {
+      "name": "Deep Ecology vs. Shallow Environmentalism",
+      "topics": [
+        "How did Arne Naess distinguish between 'shallow ecology' (fixing environmental problems to serve human interests) and 'deep ecology' (a fundamental shift in worldview that recognizes nature's intrinsic value) — and why did he consider mainstream environmentalism a superficial response to a civilizational crisis?",
+        "What are the eight principles of the deep ecology platform — including the claim that non-human life has value independent of human purposes, that human population must decrease, and that economic and ideological structures must fundamentally change?",
+        "How did deep ecology draw on non-Western traditions — Buddhist interconnection, Gandhian nonviolence, Indigenous relationships with land — and why did critics accuse it of romanticizing these traditions while ignoring the poverty and development needs of the communities practicing them?",
+        "Why did social ecologist Murray Bookchin attack deep ecology as 'eco-la-la' — arguing that environmental destruction is caused by capitalism and hierarchy, not by anthropocentrism, and that blaming 'humanity' lets the actual perpetrators (corporations, governments) off the hook?",
+        "What did the Earth First! movement — inspired by deep ecology, practicing tree-sitting, road blockades, and 'monkeywrenching' (sabotaging logging equipment) — reveal about whether deep ecology's philosophical radicalism leads inevitably to political radicalism?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "modern-history"]
+    },
+    {
+      "name": "Climate Change: The Hardest Ethical Problem",
+      "topics": [
+        "Why did Stephen Gardiner call climate change 'a perfect moral storm' — combining intergenerational injustice (future people bear the costs), international injustice (poor nations bear the costs of rich nations' emissions), and theoretical inadequacy (no ethical theory was designed for this problem)?",
+        "How do discount rates determine climate policy — Nicholas Stern's near-zero discount rate demanding immediate drastic action versus William Nordhaus's higher rate justifying gradual response — and why is the choice between these rates a moral decision disguised as an economic calculation?",
+        "What does intergenerational justice require — do we owe anything to people who don't yet exist, and if so, how much present sacrifice is justified to prevent future suffering — and why did Derek Parfit's 'non-identity problem' show that this question is philosophically harder than it seems?",
+        "How does climate change expose global injustice — Bangladesh and Pacific island nations facing submersion from emissions they barely contributed to, while the US, EU, and China resist binding commitments — and what ethical framework can assign responsibility across such unequal power?",
+        "Why have 30 years of climate negotiations (Rio 1992, Kyoto 1997, Paris 2015) produced inadequate results — is the failure political (lack of will), economic (cost of transition), or philosophical (no agreed ethical framework for allocating burdens) — and what would a just climate agreement actually look like?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "modern-history"]
+    },
+    {
+      "name": "Environmental Justice: Race, Class, and Pollution",
+      "topics": [
+        "How did Robert Bullard's research in Houston (1979) establish that toxic waste facilities, polluting industries, and environmental hazards are disproportionately located in Black and low-income communities — founding the environmental justice movement?",
+        "What did the 1991 First National People of Color Environmental Leadership Summit accomplish — defining environmental justice as the right to live, work, and play in a healthy environment regardless of race or income — and why did mainstream (white, middle-class) environmentalism resist this framing?",
+        "How does the Flint water crisis (2014-present) — a majority-Black city's water supply poisoned with lead after a cost-cutting decision by state-appointed emergency managers — exemplify environmental racism in practice?",
+        "Why do Indigenous communities bear disproportionate environmental burdens — the Standing Rock pipeline, uranium mining on Navajo land, oil extraction in the Amazon, dam projects displacing tribal communities — and how does environmental justice intersect with Indigenous sovereignty?",
+        "How does the 'just transition' framework address the tension between environmental protection and economic survival — coal miners in Appalachia, oil workers in the Gulf, factory workers in developing nations — and who pays the cost of moving to clean energy?"
+      ],
+      "tags": ["philosophy", "ethics", "identity", "modern-history"]
+    },
+    {
+      "name": "Indigenous Environmental Philosophy",
+      "topics": [
+        "How do Indigenous philosophies of land — as relative, as teacher, as sacred — challenge the Western framework of nature as property, resource, or object of moral consideration?",
+        "What did Robin Wall Kimmerer mean by 'the grammar of animacy' — that Indigenous languages treat plants, animals, and rivers as persons rather than objects — and why did she argue that this linguistic difference produces a fundamentally different relationship with the natural world?",
+        "How did the granting of legal personhood to rivers — the Whanganui River in New Zealand (2017), the Ganges in India (2017), the Atrato in Colombia (2016) — incorporate Indigenous concepts of nature's rights into Western legal systems?",
+        "Why did Winona LaDuke argue that Western environmentalism's focus on wilderness preservation ignores the fact that 'wilderness' was always someone's home — and how does the conservation movement's history of displacing Indigenous peoples (Yellowstone, Yosemite) complicate its moral authority?",
+        "What can Western environmental ethics learn from Indigenous traditions — reciprocity with nature, seven-generation thinking, the rejection of the nature/culture binary — and what are the risks of appropriating these traditions without acknowledging the political contexts from which they emerge?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "interdisciplinary"]
+    },
+    {
+      "name": "Sustainability, Degrowth, and the Limits of Green Capitalism",
+      "topics": [
+        "Why did the Brundtland Commission define sustainable development as 'meeting the needs of the present without compromising the ability of future generations to meet their own needs' (1987) — and why have critics called this definition so vague that it can justify almost anything?",
+        "How does the degrowth movement challenge the assumption that economic growth is compatible with environmental sustainability — arguing that green capitalism is an oxymoron, that efficiency gains are always consumed by increased production (Jevons paradox), and that rich nations must deliberately shrink their economies?",
+        "What did the Club of Rome's 'Limits to Growth' (1972) predict — that exponential growth in population and consumption would hit planetary boundaries within a century — and how accurate have these predictions proven after 50 years?",
+        "How do carbon markets and cap-and-trade systems attempt to use market mechanisms to solve environmental problems — and why do critics argue that commodifying the right to pollute is morally equivalent to medieval indulgences, allowing the rich to buy their way out of responsibility?",
+        "Why did Pope Francis's 'Laudato si' (2015) — an encyclical connecting environmental destruction to inequality, consumerism, and the 'throwaway culture' — represent the most significant religious intervention in environmental ethics, and how did it challenge both free-market capitalism and techno-optimism?"
+      ],
+      "tags": ["philosophy", "economics", "environment", "modern-history"]
+    },
+    {
+      "name": "Extinction, Rewilding, and Our Obligations to Other Species",
+      "topics": [
+        "Why should humans care about biodiversity loss — the current extinction rate is 1,000 times the background rate, with one million species at risk — and do species have a right to exist independent of their usefulness to humans?",
+        "How does the de-extinction debate — using CRISPR to resurrect the woolly mammoth, the passenger pigeon, the thylacine — raise philosophical questions about whether we are correcting past wrongs or playing God with ecosystems we barely understand?",
+        "What is the rewilding philosophy — reintroducing wolves to Yellowstone, bison to the Great Plains, lynx to Britain — and why do proponents argue that restoring predators and natural processes is both ecologically necessary and a moral obligation?",
+        "How does conservation triage force impossible choices — with limited resources, which species do you save: the charismatic panda or the ecologically critical pollinator, the endemic island species or the genetically diverse continental population — and what ethical framework guides these decisions?",
+        "What did the Anthropocene concept reveal — that human activity has become a geological force, altering climate, oceans, soils, and biodiversity at a planetary scale — and what moral responsibilities follow from recognizing that we are now, whether we chose it or not, the stewards of an entire planet?"
+      ],
+      "tags": ["philosophy", "ethics", "environment", "modern-history"]
+    }
+  ]
+}

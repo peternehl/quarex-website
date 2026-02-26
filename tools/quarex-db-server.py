@@ -60,6 +60,11 @@ class QuarexHandler(SimpleHTTPRequestHandler):
             self.send_json(self.get_available_tags(selected))
         elif path == '/api/search':
             self.send_json(self.search_books(query))
+        elif path == '/api/search-topics':
+            self.send_json(self.search_topics(query))
+        elif path == '/api/topics':
+            chapter_id = query.get('chapter', [None])[0]
+            self.send_json(self.get_topics(chapter_id))
         elif path == '/api/stats':
             self.send_json(self.get_stats())
         elif path == '/api/book':
@@ -359,7 +364,7 @@ class QuarexHandler(SimpleHTTPRequestHandler):
         """, (book_id,))
         book['chapters'] = [dict_from_row(row) for row in cursor.fetchall()]
 
-        # Get tags for each chapter
+        # Get tags and topics for each chapter
         for chapter in book['chapters']:
             cursor.execute("""
                 SELECT t.slug, t.label, t.tier
@@ -369,8 +374,93 @@ class QuarexHandler(SimpleHTTPRequestHandler):
             """, (chapter['id'],))
             chapter['tags'] = [dict_from_row(row) for row in cursor.fetchall()]
 
+            cursor.execute("""
+                SELECT id, question, sort_order
+                FROM topics
+                WHERE chapter_id = ?
+                ORDER BY sort_order
+            """, (chapter['id'],))
+            chapter['topics'] = [dict_from_row(row) for row in cursor.fetchall()]
+
         conn.close()
         return book
+
+    def get_topics(self, chapter_id=None):
+        """Get topics for a chapter."""
+        if not chapter_id:
+            return []
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT id, question, sort_order
+            FROM topics
+            WHERE chapter_id = ?
+            ORDER BY sort_order
+        """, (chapter_id,))
+        result = [dict_from_row(row) for row in cursor.fetchall()]
+        conn.close()
+        return result
+
+    def search_topics(self, query):
+        """Search topics by full-text query. Returns topics with full lineage."""
+        conn = get_db_connection()
+        cursor = conn.cursor()
+
+        search_text = query.get('q', [''])[0]
+        limit = int(query.get('limit', ['50'])[0])
+        tags = query.get('tags', [''])[0]
+
+        if not search_text:
+            conn.close()
+            return []
+
+        # Build the query
+        sql = """
+            SELECT
+                tp.id as topic_id,
+                tp.question,
+                c.name as chapter_name,
+                c.id as chapter_id,
+                b.name as book_name,
+                b.id as book_id,
+                s.name as shelf,
+                s.slug as shelf_slug,
+                l.name as library,
+                l.slug as library_slug,
+                lt.name as library_type
+            FROM topics_fts
+            JOIN topics tp ON topics_fts.rowid = tp.id
+            JOIN chapters c ON tp.chapter_id = c.id
+            JOIN books b ON c.book_id = b.id
+            JOIN shelves s ON b.shelf_id = s.id
+            JOIN libraries l ON s.library_id = l.id
+            JOIN library_types lt ON l.library_type_id = lt.id
+        """
+        params = [f'"{search_text}"*']
+        conditions = ["topics_fts MATCH ?"]
+
+        # Optional tag filter
+        if tags:
+            tag_list = [t.strip() for t in tags.split(',') if t.strip()]
+            if tag_list:
+                placeholders = ','.join(['?' for _ in tag_list])
+                conditions.append(f"""
+                    c.id IN (
+                        SELECT ct.chapter_id FROM chapter_tags ct
+                        JOIN tags t ON t.id = ct.tag_id
+                        WHERE t.slug IN ({placeholders})
+                    )
+                """)
+                params.extend(tag_list)
+
+        sql += " WHERE " + " AND ".join(conditions)
+        sql += f" ORDER BY rank LIMIT ?"
+        params.append(limit)
+
+        cursor.execute(sql, params)
+        result = [dict_from_row(row) for row in cursor.fetchall()]
+        conn.close()
+        return result
 
     def get_stats(self):
         """Get database statistics."""
@@ -393,6 +483,12 @@ class QuarexHandler(SimpleHTTPRequestHandler):
 
         cursor.execute("SELECT COUNT(*) FROM chapters")
         stats['chapters'] = cursor.fetchone()[0]
+
+        try:
+            cursor.execute("SELECT COUNT(*) FROM topics")
+            stats['topics'] = cursor.fetchone()[0]
+        except:
+            stats['topics'] = 0
 
         cursor.execute("SELECT COUNT(*) FROM tags")
         stats['tags'] = cursor.fetchone()[0]

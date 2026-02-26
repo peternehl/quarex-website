@@ -1,0 +1,127 @@
+{
+  "name": "The History of Medicine",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["health", "medicine", "science", "history", "discovery", "ethics", "modern-history"],
+  "chapters": [
+    {
+      "name": "Ancient Medicine: Priests, Herbs, and the Hippocratic Revolution",
+      "topics": [
+        "How did the Edwin Smith Papyrus (c. 1600 BCE) — with its systematic case-by-case approach to surgical injuries — demonstrate that ancient Egyptian medicine was far more rational than the popular image of magical incantations suggests?",
+        "What was the Hippocratic revolution (5th century BCE) — the radical claim that diseases have natural causes rather than divine origins — and why did Hippocrates' insistence on observation over theory establish the foundation of Western medicine?",
+        "How did Galen of Pergamon (129-216 CE) become the supreme medical authority for 1,500 years — with his anatomical theories (based largely on animal dissection and frequently wrong) going unchallenged until Vesalius in 1543?",
+        "What medical knowledge existed in ancient India — including Sushruta's surgical techniques (rhinoplasty, cataract removal, cesarean section), Ayurvedic pharmacology, and the concept of disease as imbalance — centuries before comparable European developments?",
+        "How did Traditional Chinese Medicine develop its distinctive framework — qi, meridians, acupuncture, herbal formulas, and pulse diagnosis — and why does it remain a living medical system used by millions despite being based on theories incompatible with biomedicine?",
+        "What was the role of Islamic medicine in the medieval period — with Ibn Sina's Canon of Medicine (1025) serving as the standard medical textbook in European universities for 500 years — and why has this contribution been systematically underrecognized?"
+      ],
+      "tags": ["health", "medicine", "history", "ancient-history"]
+    },
+    {
+      "name": "Plague and Pestilence: Disease as History's Engine",
+      "topics": [
+        "How did the Plague of Justinian (541-542 CE) — killing an estimated 25-50 million people — weaken the Byzantine Empire, halt Justinian's reconquest of the Western Roman Empire, and reshape the medieval Mediterranean?",
+        "What was the Black Death (1347-1351), how did it kill an estimated 75-200 million people across Eurasia, and why did its economic, social, and psychological consequences reshape European civilization more profoundly than any war or political revolution?",
+        "How did the Columbian Exchange of diseases — smallpox, measles, influenza, and typhus carried by Europeans — kill an estimated 90% of indigenous American populations, making the European conquest of the Americas a biological catastrophe more than a military one?",
+        "What was the Great Plague of London (1665), how did attempts to contain it (quarantine, isolation, plague pits) represent early public health measures, and why did the Great Fire of 1666 inadvertently end the plague by destroying the rat-infested housing?",
+        "How did cholera epidemics in the 19th century drive the development of public health infrastructure — with John Snow's mapping of the 1854 Broad Street outbreak demonstrating waterborne transmission before germ theory was established?",
+        "Why did the 1918 influenza pandemic — killing an estimated 50-100 million people in two years — receive so little historical attention compared to World War I, and what lessons did its neglected history hold for COVID-19?"
+      ],
+      "tags": ["health", "medicine", "history", "modern-history"]
+    },
+    {
+      "name": "The Anatomical Revolution: From Vesalius to Harvey",
+      "topics": [
+        "How did Andreas Vesalius's De Humani Corporis Fabrica (1543) — based on his own dissections of human cadavers — overturn Galen's 1,400-year dominance by showing that the ancient authority had been systematically wrong about human anatomy?",
+        "Why was human dissection taboo for most of history — forbidden by Roman law, Islamic jurisprudence, and Christian theology — and how did the gradual acceptance of anatomical dissection in European universities create the foundation for modern surgery?",
+        "What was William Harvey's discovery of blood circulation (1628) — demonstrating that the heart pumps blood through a closed circuit of arteries and veins — and why did it take decades for the medical establishment to accept it?",
+        "How did the 'body snatching' scandals of the 18th-19th centuries — with grave robbers supplying cadavers to medical schools and Burke and Hare murdering people to sell their bodies — expose the moral costs of anatomical education?",
+        "What role did the microscope play in medical discovery — from Antonie van Leeuwenhoek's observation of bacteria (1676) to Rudolf Virchow's cellular pathology (1858) establishing that disease originates in cells?",
+        "How did the development of medical illustration — from Vesalius's Renaissance anatomical plates to modern medical imaging (X-ray, CT, MRI) — transform how physicians see, understand, and communicate about the human body?"
+      ],
+      "tags": ["health", "medicine", "science", "discovery"]
+    },
+    {
+      "name": "Germ Theory: The Revolution That Saved Millions",
+      "topics": [
+        "Why was the idea that invisible organisms cause disease — proposed by Girolamo Fracastoro in 1546 and demonstrated by Ignaz Semmelweis with handwashing in 1847 — rejected by the medical establishment for decades?",
+        "How did Louis Pasteur's experiments in the 1860s — disproving spontaneous generation and demonstrating that microorganisms cause fermentation and disease — establish germ theory and launch microbiology as a science?",
+        "What was Robert Koch's contribution — isolating the bacteria that cause anthrax (1876), tuberculosis (1882), and cholera (1884) — and how did his postulates (the criteria for proving that a specific microbe causes a specific disease) become the gold standard of medical proof?",
+        "How did Joseph Lister's antiseptic surgery (1867) — applying Pasteur's germ theory to surgical practice by sterilizing instruments and cleaning wounds with carbolic acid — reduce surgical mortality from 50% to under 15%?",
+        "What was the public health revolution that followed germ theory — water treatment, sewage systems, food safety regulations, quarantine procedures — and why did these infrastructure investments save more lives than all the drugs and surgeries that followed?",
+        "How did the resistance to germ theory — from physicians who refused to wash hands to governments that delayed sanitation reforms — demonstrate that scientific evidence alone is insufficient to change medical practice?"
+      ],
+      "tags": ["health", "medicine", "science", "discovery"]
+    },
+    {
+      "name": "Vaccines: From Cowpox to COVID",
+      "topics": [
+        "How did Edward Jenner's smallpox vaccine (1796) — testing his theory that cowpox exposure protected against smallpox by inoculating an eight-year-old boy — launch the science of immunology and begin the eradication of humanity's deadliest disease?",
+        "What was the global campaign to eradicate smallpox (1967-1980) — the only human disease ever eliminated from nature — and what logistical, political, and cultural challenges did it overcome in every country on Earth?",
+        "How did Pasteur develop the first laboratory-created vaccines — against chicken cholera (1879), anthrax (1881), and rabies (1885) — establishing the principle that weakened or killed pathogens can produce immunity?",
+        "What was the Salk vaccine controversy — the Cutter incident of 1955, when improperly inactivated polio vaccine caused 40,000 infections and 10 deaths — and how did the disaster both threaten public trust and strengthen vaccine regulation?",
+        "How did the development of mRNA vaccines for COVID-19 (Pfizer-BioNTech and Moderna, 2020) represent a technological breakthrough decades in the making — and why did the fastest vaccine development in history rely on 30 years of prior research?",
+        "Why has vaccine hesitancy grown in the 21st century — from Andrew Wakefield's fraudulent autism study (1998, retracted 2010) to social media misinformation — and what does the history of anti-vaccination movements reveal about the persistence of medical distrust?"
+      ],
+      "tags": ["health", "medicine", "science", "modern-history"]
+    },
+    {
+      "name": "Antibiotics: The Miracle That's Running Out",
+      "topics": [
+        "How did Alexander Fleming's accidental discovery of penicillin in 1928 — noticing that mold had killed bacteria on a culture plate — lead to the most important therapeutic breakthrough in medical history?",
+        "What was the wartime effort to mass-produce penicillin (1941-1944) — with the US government mobilizing pharmaceutical companies, agricultural researchers, and engineers — saving thousands of soldiers' lives and establishing the model for Big Pharma?",
+        "How did the 'golden age of antibiotics' (1940s-1960s) produce dozens of new antibiotic classes — streptomycin, tetracycline, erythromycin, vancomycin — creating the illusion that infectious diseases had been permanently conquered?",
+        "Why did Fleming himself warn in his 1945 Nobel Prize lecture that bacteria would develop resistance to penicillin if it were used carelessly — and why has his prediction come true with the emergence of MRSA, XDR tuberculosis, and other superbugs?",
+        "How has the overuse of antibiotics — in human medicine (unnecessary prescriptions for viral infections), animal agriculture (routine use as growth promoters), and environmental contamination — accelerated the evolution of resistant bacteria?",
+        "Why does the WHO describe antimicrobial resistance as 'one of the top 10 global public health threats' — with projections that drug-resistant infections could kill 10 million people annually by 2050 — and why has the pharmaceutical industry largely stopped developing new antibiotics?"
+      ],
+      "tags": ["health", "medicine", "science", "modern-history"]
+    },
+    {
+      "name": "Surgery: From Barbarism to Precision",
+      "topics": [
+        "How was surgery practiced before anesthesia — with patients held down by strong men, given whiskey or opium, and operated on as fast as possible (the best surgeons could amputate a leg in 30 seconds) — and what was the human cost?",
+        "What was the impact of anesthesia — ether (1846), chloroform (1847), and later local anesthetics — on surgical practice, and why did its introduction immediately increase surgical mortality (by enabling longer, more ambitious operations before antiseptic technique was established)?",
+        "How did the development of blood transfusion — from Karl Landsteiner's discovery of blood types (1901, Nobel Prize 1930) to blood banking during World War II — make complex surgery survivable?",
+        "What was the significance of Christiaan Barnard's first human heart transplant (1967) — a technical triumph that opened the field of organ transplantation while raising profound questions about the definition of death and the ethics of allocating scarce organs?",
+        "How has minimally invasive surgery — laparoscopy, robotic surgery (the da Vinci system), and endoscopic procedures — transformed the patient experience from large incisions and weeks of recovery to keyhole operations and same-day discharge?",
+        "Why does the history of surgery include systematic experimentation on vulnerable populations — James Marion Sims operating on enslaved women without anesthesia, Nazi surgical experiments, unauthorized operations on prisoners — and how has this legacy shaped modern surgical ethics?"
+      ],
+      "tags": ["health", "medicine", "science", "ethics"]
+    },
+    {
+      "name": "Mental Health: From Asylums to Neuroscience",
+      "topics": [
+        "How did the treatment of mental illness evolve from demonic possession and exorcism through the asylum movement of the 18th-19th centuries — which promised humane 'moral treatment' but degenerated into warehouse institutions of thousands of neglected patients?",
+        "What was the impact of Freud's psychoanalysis — the theory that unconscious conflicts drive behavior, that childhood experience shapes adult personality, and that talking can cure — and why did it dominate psychiatry for half a century before being challenged?",
+        "How did the 'wonder drugs' of psychiatry — chlorpromazine for psychosis (1952), lithium for bipolar disorder (1949), and Prozac for depression (1987) — transform treatment while raising questions about medicating normal human distress?",
+        "What was deinstitutionalization — the closure of state mental hospitals beginning in the 1960s, justified by new medications and civil rights concerns — and why did the failure to fund community alternatives produce homelessness and mass incarceration instead?",
+        "How has neuroscience transformed understanding of mental illness — showing that conditions like schizophrenia, depression, and PTSD involve measurable brain differences — while the gap between understanding mechanisms and developing effective treatments remains vast?",
+        "Why does the history of psychiatry include some of medicine's greatest abuses — involuntary commitment, lobotomy (50,000 performed in the US alone), forced sterilization of the 'feeble-minded,' and the pathologization of homosexuality until 1973?"
+      ],
+      "tags": ["health", "psychology", "medicine", "modern-history"]
+    },
+    {
+      "name": "Women, Race, and the Politics of Medicine",
+      "topics": [
+        "How were women systematically excluded from the medical profession — barred from medical schools, dismissed as unsuitable for scientific training — and how did pioneers like Elizabeth Blackwell (first US female MD, 1849) and Elizabeth Garrett Anderson (first UK female MD, 1865) break through?",
+        "What was the Tuskegee syphilis study (1932-1972) — where the US Public Health Service deliberately left 399 Black men with syphilis untreated for 40 years to study the disease's progression — and why does it remain the defining example of racial abuse in medical research?",
+        "How has the medical establishment historically treated women's health — from diagnosing independence as 'hysteria' to excluding women from clinical trials to dismissing pain reports — and what concrete harm has medical sexism produced?",
+        "What was Henrietta Lacks's contribution to medicine — her cancer cells (HeLa, 1951) became the most important cell line in medical research, used in developing the polio vaccine and countless other advances — while her family received no compensation or even notification?",
+        "How do racial disparities in health outcomes persist — with Black Americans having higher rates of maternal mortality, infant mortality, heart disease, and COVID-19 death — and what combination of racism, poverty, and medical bias explains these gaps?",
+        "Why has the push for diversity in clinical trials become urgent — with the recognition that drugs tested primarily on white men may work differently in women and people of other ethnicities — and what regulatory changes have been made?"
+      ],
+      "tags": ["health", "inequality", "medicine", "civil-rights"]
+    },
+    {
+      "name": "The Future of Medicine: Genomics, AI, and the Ethics of Enhancement",
+      "topics": [
+        "How has the Human Genome Project (completed 2003) and the subsequent drop in sequencing costs (from $2.7 billion to under $200) created the possibility of personalized medicine — treatments tailored to individual genetic profiles?",
+        "What is CRISPR gene therapy — the use of gene editing to correct disease-causing mutations — and how have early successes treating sickle cell disease and beta-thalassemia demonstrated its therapeutic potential while raising questions about accessibility and equity?",
+        "How is artificial intelligence being applied in medicine — diagnostic imaging analysis, drug discovery, clinical decision support, and epidemic prediction — and what are the risks of algorithmic bias in healthcare AI?",
+        "What are the ethical boundaries of human enhancement — performance-enhancing drugs, cognitive enhancers, genetic selection of embryos, life extension technologies — and who gets to draw the line between treatment and enhancement?",
+        "How has the COVID-19 pandemic exposed both the strengths (rapid vaccine development, global coordination) and weaknesses (health inequality, supply chain fragility, political interference) of modern medicine?",
+        "Why does the fundamental challenge of medicine remain unchanged — the tension between what is technically possible and what is ethically acceptable, between individual treatment and population health, between profit and access?"
+      ],
+      "tags": ["health", "medicine", "science", "ethics"]
+    }
+  ]
+}

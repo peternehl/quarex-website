@@ -1,0 +1,62 @@
+{
+  "name": "Albert Einstein: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "innovation", "physics", "activism", "modern-history"],
+  "chapters": [
+    {
+      "name": "The Outsider: Youth and Education (1879-1905)",
+      "topics": [
+        "Who was Albert Einstein before he changed physics — born in Ulm, Germany, the son of a failed electrical equipment manufacturer, a mediocre student who clashed with authority, a young man who renounced German citizenship at 16 and was stateless for five years?",
+        "Why did Einstein fail to get an academic position after graduating from the Zurich Polytechnic — rejected by every university he applied to, reduced to working as a patent clerk in Bern — and how did this isolation from the academic establishment actually free his thinking?",
+        "What was the 'Annus Mirabilis' of 1905 — four papers published in a single year that explained Brownian motion, proved the photoelectric effect, introduced special relativity, and derived E=mc² — all written by a 26-year-old patent clerk with no laboratory?",
+        "How did Einstein's personal life shape his early career — his relationship with Mileva Marić, their illegitimate daughter Lieserl (whose fate remains unknown), their marriage, and the question of Mileva's uncredited contribution to his early work?",
+        "What was the scientific world Einstein entered — classical physics seemingly complete, Newton's mechanics unchallenged for 200 years, the ether hypothesis, and the cracks (blackbody radiation, the Michelson-Morley experiment) that suggested something fundamental was wrong?"
+      ],
+      "tags": ["science", "innovation", "physics", "modern-history"]
+    },
+    {
+      "name": "General Relativity and Scientific Revolution (1905-1919)",
+      "topics": [
+        "How did Einstein develop the general theory of relativity over ten years (1905-1915) — the insight that gravity is not a force but the curvature of spacetime caused by mass — and why was this the most profound reconception of the universe since Newton?",
+        "What was the 1919 solar eclipse expedition — Arthur Eddington's measurement of starlight bending around the sun, confirming Einstein's prediction — and how did the headline 'Lights All Askew in the Heavens' make Einstein the most famous scientist in history overnight?",
+        "How did Einstein's rise to fame coincide with World War I — his pacifism as a German professor while colleagues signed war manifestos, his Swiss citizenship protecting him, and the irony that a British expedition confirmed a German theory just months after the armistice?",
+        "What did general relativity predict that seemed impossible — black holes, gravitational waves, the expansion of the universe, time dilation near massive objects — and how have these predictions been confirmed over the century since, culminating in LIGO's detection of gravitational waves (2015)?",
+        "Why did Einstein receive the Nobel Prize in 1921 not for relativity but for the photoelectric effect — because the Nobel committee considered relativity too controversial — and what does this reveal about how scientific establishments process revolutionary ideas?"
+      ],
+      "tags": ["science", "physics", "innovation", "modern-history"]
+    },
+    {
+      "name": "Fame, Exile, and the Bomb (1919-1945)",
+      "topics": [
+        "How did Einstein become the world's first celebrity scientist — mobbed by crowds, photographed constantly, asked his opinion on everything from God to marriage — and how did his disheveled appearance and quotable wit create the archetype of 'genius' that persists today?",
+        "Why did Einstein leave Germany in 1933 — the rise of the Nazis, the 'Deutsche Physik' movement that denounced relativity as 'Jewish physics,' his property seized, a bounty on his head — and how did Princeton's Institute for Advanced Study become his refuge?",
+        "What was Einstein's letter to President Roosevelt (August 2, 1939) — warning that Nazi Germany might develop an atomic bomb, urging American research into nuclear weapons — and how did the pacifist who wrote it spend the rest of his life regretting it?",
+        "How did the Manhattan Project develop without Einstein — his security clearance denied because the FBI considered him a security risk, his equation E=mc² underlying the bomb but his pacifism excluding him from building it — and what did he say when he heard about Hiroshima: 'Woe is me'?",
+        "What was Einstein's quantum mechanics debate with Niels Bohr — 'God does not play dice' versus the Copenhagen interpretation, the EPR paradox, Einstein's refusal to accept quantum indeterminacy — and was Einstein wrong, stubborn, or ahead of his time?"
+      ],
+      "tags": ["science", "physics", "conflict", "modern-history"]
+    },
+    {
+      "name": "The Personal Einstein: Marriages, Children, and Character",
+      "topics": [
+        "What was Einstein's first marriage to Mileva Marić — a brilliant physics student who gave up her career, endured his affairs, raised their sons largely alone, and received his Nobel Prize money as part of the divorce settlement (1919) — and how has feminist scholarship reexamined her contributions?",
+        "How did Einstein treat his sons — Hans Albert (who became an engineering professor at Berkeley) and Eduard (who developed schizophrenia and was institutionalized) — and what does his absence as a father, especially his abandonment of the ill Eduard, reveal about the cost of genius to those closest to it?",
+        "What was Einstein's second marriage to his cousin Elsa — who managed his domestic life, shielded him from intrusions, and tolerated his affairs — and why have biographers characterized this relationship as more practical arrangement than love match?",
+        "How did Einstein's personality combine opposites — warmth and coldness, humility and arrogance, deep compassion for humanity and emotional cruelty to individuals — and why did he write that 'I have never belonged wholeheartedly to any country or state, to my circle of friends, or even to my own family'?",
+        "What was Einstein's relationship with music — his lifelong violin and piano playing, his claim that 'if I were not a physicist, I would probably be a musician,' his admiration for Mozart above all — and how did aesthetic intuition guide his scientific thinking?"
+      ],
+      "tags": ["science", "identity", "psychology", "modern-history"]
+    },
+    {
+      "name": "Legacy: The Icon of Genius",
+      "topics": [
+        "How did Einstein become an activist in his final decade — campaigning for nuclear disarmament, world government, civil rights (calling racism 'America's worst disease'), and socialism — applying the same independence of thought to politics that he had to physics?",
+        "What was Einstein's relationship with Israel — offered the presidency in 1952 (he declined), a lifelong Zionist who supported a Jewish homeland but opposed nationalism, and his warning that treating Palestinians unjustly would undermine the moral foundation of the state?",
+        "Why did Einstein spend his last 30 years pursuing a unified field theory — trying to reconcile gravity and electromagnetism into a single framework — and why did the physics community consider this quest a dead end while string theorists now pursue essentially the same goal?",
+        "How did Einstein die on April 18, 1955 — refusing surgery for an abdominal aortic aneurysm, saying 'I want to go when I want, it is tasteless to prolong life artificially' — and what happened when pathologist Thomas Harvey stole his brain without permission?",
+        "What is Einstein's legacy — not just E=mc² and curved spacetime, but the demonstration that a single mind, thinking independently, can overturn centuries of established science — and why does his image remain the universal symbol of genius?"
+      ],
+      "tags": ["science", "activism", "leadership", "modern-history"]
+    }
+  ]
+}

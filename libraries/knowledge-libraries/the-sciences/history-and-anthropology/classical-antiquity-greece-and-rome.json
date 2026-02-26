@@ -1,0 +1,151 @@
+{
+  "name": "Classical Antiquity: Greece and Rome",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "ancient-greece", "ancient-rome", "democracy", "philosophy", "ancient-history", "europe"],
+  "chapters": [
+    {
+      "name": "Athens and the Invention of Democracy",
+      "topics": [
+        "How did Cleisthenes's reforms of 508 BCE create the world's first democracy — and why did it exclude women, slaves, and foreigners, leaving only about 30,000 out of 300,000 residents eligible to vote?",
+        "What was the Athenian Assembly (Ekklesia), how did 6,000 citizens gather on the Pnyx hill to debate and vote on war, taxes, and exile, and why did Socrates call it rule by the ignorant mob?",
+        "How did ostracism work — citizens scratching a name on a potsherd to exile someone for ten years — and why did Athens use it against some of its most capable leaders?",
+        "What role did the Athenian jury system play, with juries of 201 to 501 citizens deciding cases in a single day, and how did Socrates's trial in 399 BCE expose its flaws?",
+        "Why did Pericles's Funeral Oration (431 BCE) — praising Athens as a school for all of Greece — become the founding text of democratic idealism despite being delivered during a war Athens would lose?",
+        "How did Athenian democracy die — was it the Peloponnesian War, internal oligarchic coups, or Macedonian conquest — and what does its 180-year lifespan say about democracy's vulnerability?"
+      ],
+      "tags": ["history", "democracy", "ancient-greece", "europe"]
+    },
+    {
+      "name": "Sparta: The Warrior State",
+      "topics": [
+        "How did Sparta's entire social system — from taking boys from their families at age seven to the communal mess halls (syssitia) — function as a machine for producing soldiers?",
+        "What was the helot system, and how did Sparta's dependence on enslaved Messenians — who outnumbered Spartans roughly seven to one — shape every aspect of Spartan militarism and paranoia?",
+        "Why did the 300 Spartans at Thermopylae (480 BCE) become history's most famous last stand, and how much of the story as we know it is propaganda crafted by Herodotus?",
+        "How did Spartan women enjoy more freedom than women anywhere else in Greece — owning property, exercising publicly, speaking freely — and why did other Greeks find this scandalous?",
+        "What was the Spartan mirage — the tendency of ancient and modern admirers to idealize Sparta as a model of discipline and virtue — and what did this idealization conceal about Spartan brutality?",
+        "Why did Sparta decline so rapidly after its victory over Athens in 404 BCE, going from Greek hegemon to irrelevant backwater within a century?"
+      ],
+      "tags": ["history", "security", "ancient-greece", "europe"]
+    },
+    {
+      "name": "Greek Philosophy: Socrates, Plato, and Aristotle",
+      "topics": [
+        "Why did Athens execute Socrates in 399 BCE — what specific charges of 'corrupting the youth' and 'introducing new gods' really meant in the political context of post-war Athens?",
+        "How did Plato's Republic — with its philosopher-kings, noble lies, and censored art — propose a political system that has been called both the blueprint for utopia and the blueprint for totalitarianism?",
+        "What did Aristotle mean by claiming humans are 'political animals,' and how did his systematic classification of 158 Greek constitutions produce the first comparative political science?",
+        "How did the pre-Socratic philosophers — Thales, Heraclitus, Democritus, Parmenides — attempt to explain the natural world without gods, inventing what we now call scientific thinking?",
+        "Why did the Stoics (Zeno), Epicureans (Epicurus), and Cynics (Diogenes) each offer radically different answers to the question of how to live a good life, and which school's ideas most resemble modern psychology?",
+        "How did Greek philosophy reach the Islamic world through Syriac translations in the 8th-9th centuries, and why did Muslim scholars preserve and advance Aristotle's work while Europe forgot him?"
+      ],
+      "tags": ["philosophy", "epistemology", "ancient-greece", "europe"]
+    },
+    {
+      "name": "Alexander the Great and the Hellenistic World",
+      "topics": [
+        "How did Alexander conquer the Persian Empire — the largest in the world — between 334 and 323 BCE with an army of just 47,000, and what tactical genius did he display at Gaugamela (331 BCE)?",
+        "Why did Alexander's attempt to fuse Greek and Persian cultures — wearing Persian dress, adopting proskynesis (prostration), marrying Roxana and Stateira — enrage his own Macedonian officers?",
+        "What happened when Alexander died at 32 in Babylon (323 BCE), leaving no clear successor, and how did the Wars of the Diadochi carve his empire into three rival kingdoms?",
+        "How did the Hellenistic period (323-31 BCE) spread Greek language, architecture, and ideas from Egypt to Afghanistan, creating cosmopolitan cities like Alexandria with its 700,000-scroll library?",
+        "What scientific advances occurred in the Hellenistic world — Eratosthenes calculating Earth's circumference, Archimedes discovering buoyancy, Aristarchus proposing heliocentrism — and why were some forgotten for 1,800 years?",
+        "How did Hellenistic culture eventually merge with Roman power, and why did the Romans conquer Greece militarily while Greece conquered Rome culturally?"
+      ],
+      "tags": ["conflict", "colonialism", "ancient-greece", "asia"]
+    },
+    {
+      "name": "The Roman Republic: From City-State to Mediterranean Power",
+      "topics": [
+        "How did Rome's republican system — with its consuls, Senate, tribunes, and popular assemblies — create a form of government that the American Founders explicitly modeled their Constitution on?",
+        "What were the Conflict of the Orders (494-287 BCE), and how did plebeian resistance — including mass walkouts from the city (secessio plebis) — force the patrician elite to share power?",
+        "How did Rome defeat Carthage in the three Punic Wars (264-146 BCE), and why did Hannibal's crossing of the Alps with war elephants — despite winning every major battle for 15 years — ultimately fail?",
+        "What was the social cost of Roman expansion, as cheap slave labor from conquered territories destroyed the small-farmer class that had been the backbone of the republican army?",
+        "How did the Gracchi brothers' land reform proposals (133 and 123 BCE) — moderate by any standard — provoke such violent senatorial backlash that both were murdered, setting the precedent for political assassination?",
+        "Why did the Roman Republic's final century (133-27 BCE) descend into civil wars between Marius and Sulla, Caesar and Pompey, Octavian and Antony — and what structural failures made the republic unable to survive its own success?"
+      ],
+      "tags": ["history", "democracy", "ancient-rome", "europe"]
+    },
+    {
+      "name": "Julius Caesar and the Death of the Republic",
+      "topics": [
+        "How did Caesar's conquest of Gaul (58-50 BCE) — killing an estimated one million Gauls and enslaving another million — make him both Rome's greatest general and its most dangerous political threat?",
+        "What specific events forced Caesar to cross the Rubicon with his army on January 10, 49 BCE, triggering civil war, and what did the Senate do that left him no legal alternative?",
+        "How did Caesar's dictatorship (49-44 BCE) — with its land redistribution, calendar reform, citizenship expansion, and public works — simultaneously address real social problems and destroy republican norms?",
+        "Why did 60 senators conspire to assassinate Caesar on the Ides of March (44 BCE), and how did Brutus and Cassius convince themselves that murder would restore the republic rather than destroy it?",
+        "What did Mark Antony's funeral speech actually accomplish — how did displaying Caesar's bloody toga and reading his will (which left money to every Roman citizen) turn the crowd against the assassins?",
+        "Why do historians still debate whether Caesar intended to make himself king, and what does the evidence from his actual reforms suggest about his long-term political plans?"
+      ],
+      "tags": ["politics", "governance", "ancient-rome", "europe"]
+    },
+    {
+      "name": "The Roman Empire: Augustus to Marcus Aurelius",
+      "topics": [
+        "How did Augustus (27 BCE-14 CE) create a monarchy while pretending to restore the republic — keeping all republican institutions while concentrating real power in his own hands through titles like princeps and imperator?",
+        "What was the Pax Romana (27 BCE-180 CE), and how did 200 years of relative peace across an empire of 70 million people enable unprecedented economic growth, urbanization, and cultural exchange?",
+        "How did Roman engineering — aqueducts, concrete (which set underwater), roads totaling 250,000 miles, the Colosseum seating 50,000 — achieve feats that wouldn't be matched for over a millennium?",
+        "Why did emperors like Caligula, Nero, and Commodus descend into tyranny, and what structural feature of the imperial system made it impossible to remove a bad emperor peacefully?",
+        "How did the 'Five Good Emperors' (Nerva through Marcus Aurelius, 96-180 CE) each adopt a capable successor rather than passing power to a biological heir — and why did this system produce Rome's golden age?",
+        "What was daily life like for the 90% of Romans who weren't elites — the shopkeepers, laborers, freedmen, and slaves who lived in cramped insulae (apartment buildings) and survived on the grain dole?"
+      ],
+      "tags": ["history", "governance", "ancient-rome", "europe"]
+    },
+    {
+      "name": "Roman Law, Roads, and the Architecture of Empire",
+      "topics": [
+        "How did Roman law evolve from the Twelve Tables (450 BCE) to Justinian's Corpus Juris Civilis (534 CE), and why do legal scholars consider it the foundation of virtually every Western legal system?",
+        "What principles did Roman law establish — innocent until proven guilty, the right to a defense, the distinction between public and private law — that we take for granted but were revolutionary?",
+        "How did 250,000 miles of Roman roads — engineered with multiple layers of gravel, sand, and stone — enable the movement of legions, trade goods, and ideas across an area spanning Britain to Mesopotamia?",
+        "Why did the Romans master concrete (opus caementicium) — a technology so effective that the Pantheon's unreinforced concrete dome (built 125 CE) remains the world's largest nearly 2,000 years later?",
+        "How did Roman urban planning — the grid system, public baths, sewers (the Cloaca Maxima), amphitheaters, and forums — create a template for city design that influenced every subsequent Western civilization?",
+        "What was the Roman postal system (cursus publicus), and how did it enable an emperor in Rome to communicate with governors in Britain, Egypt, and Syria within weeks?"
+      ],
+      "tags": ["technology", "infrastructure", "ancient-rome", "engineering"]
+    },
+    {
+      "name": "Slavery, Gladiators, and the Underside of Roman Civilization",
+      "topics": [
+        "How many enslaved people lived in the Roman Empire at its height (estimates range from 2 to 10 million), and how did Roman slavery differ from — and resemble — the Atlantic slave trade?",
+        "What was Spartacus's slave revolt (73-71 BCE), how did 70,000 escaped slaves defeat multiple Roman armies for two years, and why did Rome crucify 6,000 survivors along the Appian Way?",
+        "How did gladiatorial combat function as both entertainment and political tool — with emperors spending fortunes on spectacles to maintain popular support — and what were survival rates for actual gladiators?",
+        "Why did the Romans practice infanticide, particularly of girls, and what does the archaeological evidence from infant bones found in sewers and wells reveal about family life in the empire?",
+        "How did freed slaves (liberti) create a new social class in Rome — some becoming enormously wealthy, like Trimalchio in Petronius's Satyricon — while still facing legal restrictions on their political rights?",
+        "What do the graffiti preserved at Pompeii — advertisements, love notes, political slogans, obscenities — reveal about the daily concerns of ordinary Romans that official histories never record?"
+      ],
+      "tags": ["ethics", "human-rights", "ancient-rome", "sociology"]
+    },
+    {
+      "name": "The Rise of Christianity in the Roman World",
+      "topics": [
+        "How did a Jewish apocalyptic preacher executed by Rome around 30 CE attract followers who within three centuries had converted the emperor himself — and what social conditions in the empire made Christianity appealing?",
+        "Why did Rome persecute Christians intermittently for 250 years — from Nero blaming them for the Great Fire of 64 CE to Diocletian's Great Persecution of 303-311 — and what specific Roman values did Christianity threaten?",
+        "How did Constantine's Edict of Milan (313 CE) transform Christianity from a persecuted sect to a state-sponsored religion, and what political calculations drove his conversion?",
+        "What happened at the Council of Nicaea (325 CE), where 300 bishops debated whether Jesus was fully God or a created being, and why did this theological dispute threaten to split the empire?",
+        "How did the Christian takeover of the Roman state lead to the suppression of pagan temples, the destruction of the Library of Alexandria's remaining collections, and the murder of the philosopher Hypatia in 415 CE?",
+        "Why did Augustine's City of God (426 CE) — written as Rome was falling to barbarian invaders — redefine the relationship between Christianity and secular power in ways that shaped Western political thought for the next millennium?"
+      ],
+      "tags": ["religion", "spirituality", "ancient-rome", "europe"]
+    },
+    {
+      "name": "The Fall of Rome: Decline, Division, and Collapse",
+      "topics": [
+        "Why did Edward Gibbon blame Christianity for Rome's fall, why did other historians blame lead pipes, military overstretch, climate change, or barbarian migration — and why is there still no consensus after 250 years of debate?",
+        "How did Diocletian's division of the empire into East and West (285 CE) — intended as an administrative reform — create the permanent split that left the western half vulnerable?",
+        "What happened on August 24, 410 CE when Alaric's Visigoths sacked Rome — the first time the city had fallen to a foreign enemy in 800 years — and why did the event shock the entire Mediterranean world?",
+        "How did the 'barbarian' invasions of the 5th century actually work — were the Goths, Vandals, and Franks violent invaders or desperate refugees seeking entry into a collapsing system?",
+        "Why is 476 CE — when Odoacer deposed the last western emperor, Romulus Augustulus — considered the 'fall of Rome' when the eastern empire (Byzantium) continued for another thousand years?",
+        "What was actually lost when Rome fell — which technologies, institutions, trade networks, and cultural practices disappeared, and how long did it take Europe to recover what had been destroyed?"
+      ],
+      "tags": ["history", "systems-thinking", "ancient-rome", "europe"]
+    },
+    {
+      "name": "The Legacy: Greece and Rome in the Modern World",
+      "topics": [
+        "How did the American Founders explicitly model the US Constitution on the Roman Republic — from the Senate to the system of checks and balances to the fear of tyranny — and where did they deviate?",
+        "Why did the word 'democracy' carry negative connotations for 2,000 years after Athens — with both the Founders and European philosophers associating it with mob rule — and when did it become a positive ideal?",
+        "How do modern legal systems descend from Roman law, from the structure of contracts and property rights to the concept of 'natural law' that influenced the Declaration of Independence?",
+        "Why did every aspiring European empire — from Charlemagne's Holy Roman Empire to Napoleon to Mussolini — explicitly invoke Rome, and what does this persistent nostalgia reveal about Western political imagination?",
+        "How did the Renaissance 'rediscovery' of classical texts — many preserved by Islamic scholars — transform European art, architecture, science, and philosophy from the 14th century onward?",
+        "What do we still get wrong about Greece and Rome — the whitewashed marble (originally painted), the democratic idealism (built on slavery), the military glory (built on slaughter) — and why do these myths persist?"
+      ],
+      "tags": ["history", "legacy", "ancient-history", "europe"]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-02-23",
-  "count": 831,
+  "generated": "2026-02-26",
+  "count": 914,
   "books": [
     {
       "name": "¿Qué es el Feminismo?",
@@ -25,9 +25,9 @@
     },
     {
       "name": "A History of Racism in the Americas",
-      "path": "k/the-sciences/history-and-anthropology/a-history-of-racism-in-the-americas",
-      "library": "The Sciences",
-      "shelf": "History And Anthropology",
+      "path": "pe/historical-narratives/racism/a-history-of-racism-in-the-americas",
+      "library": "Historical Narratives",
+      "shelf": "Racism",
       "chapters": 15
     },
     {
@@ -36,6 +36,13 @@
       "library": "The Arts",
       "shelf": "Performing Arts",
       "chapters": 10
+    },
+    {
+      "name": "Adolf Hitler: A Biography",
+      "path": "k/biographies/world-leaders/adolf-hitler-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 9
     },
     {
       "name": "Afghanistan",
@@ -171,6 +178,13 @@
       "chapters": 1
     },
     {
+      "name": "Alan Turing: A Biography",
+      "path": "k/biographies/scientific-biographies/alan-turing-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
+    },
+    {
       "name": "Åland Islands",
       "path": "g/territories-and-dependencies/autonomous-regions/aland-islands",
       "library": "Territories And Dependencies",
@@ -213,6 +227,20 @@
       "chapters": 4
     },
     {
+      "name": "Albert Einstein: A Biography",
+      "path": "k/biographies/scientific-biographies/albert-einstein-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
+    },
+    {
+      "name": "Alexander the Great: A Biography",
+      "path": "k/biographies/world-leaders/alexander-the-great-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 9
+    },
+    {
       "name": "Algebra and Number Theory",
       "path": "k/the-sciences/mathematical-and-computational-sciences/algebra-and-number-theory",
       "library": "The Sciences",
@@ -241,6 +269,27 @@
       "chapters": 1
     },
     {
+      "name": "Analytic Philosophy: Logic, Language, and the Limits of Knowledge",
+      "path": "k/philosophy/western-philosophy/analytic-philosophy-logic-language-and-limits",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
+    },
+    {
+      "name": "Anarchism: The Politics of No Rulers",
+      "path": "k/philosophy/political-philosophy/anarchism-the-politics-of-no-rulers",
+      "library": "Philosophy",
+      "shelf": "Political Philosophy",
+      "chapters": 8
+    },
+    {
+      "name": "Ancient Civilizations",
+      "path": "k/the-sciences/history-and-anthropology/ancient-civilizations",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 12
+    },
+    {
       "name": "Andorra",
       "path": "g/europe/countries/andorra",
       "library": "Europe",
@@ -253,6 +302,13 @@
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Animal Rights and Moral Status",
+      "path": "k/philosophy/ethics-and-moral-philosophy/animal-rights-and-moral-status",
+      "library": "Philosophy",
+      "shelf": "Ethics And Moral Philosophy",
+      "chapters": 8
     },
     {
       "name": "Antarctic Peninsula",
@@ -274,6 +330,13 @@
       "library": "North America",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Archaeological Methods and Great Discoveries",
+      "path": "k/the-sciences/history-and-anthropology/archaeological-methods-and-great-discoveries",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
     },
     {
       "name": "Argentina",
@@ -521,6 +584,13 @@
       "chapters": 4
     },
     {
+      "name": "Bioethics: Life, Death, and Medicine",
+      "path": "k/philosophy/ethics-and-moral-philosophy/bioethics-life-death-and-medicine",
+      "library": "Philosophy",
+      "shelf": "Ethics And Moral Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Biology: Life and Evolution",
       "path": "k/the-sciences/life-sciences/biology-life-and-evolution",
       "library": "The Sciences",
@@ -582,6 +652,13 @@
       "library": "Cultural And Identity",
       "shelf": "Black Studies",
       "chapters": 10
+    },
+    {
+      "name": "Bob Marley: A Biography",
+      "path": "k/biographies/cultural-biographies/bob-marley-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
+      "chapters": 5
     },
     {
       "name": "Bolivia",
@@ -731,6 +808,13 @@
       "chapters": 4
     },
     {
+      "name": "Catherine the Great: A Biography",
+      "path": "k/biographies/world-leaders/catherine-the-great-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 5
+    },
+    {
       "name": "Central African Republic",
       "path": "g/africa/countries/central-african-republic",
       "library": "Africa",
@@ -759,6 +843,13 @@
       "chapters": 12
     },
     {
+      "name": "Cesar Chavez: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/cesar-chavez-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 5
+    },
+    {
       "name": "Chad",
       "path": "g/africa/countries/chad",
       "library": "Africa",
@@ -771,6 +862,20 @@
       "library": "The Sciences",
       "shelf": "Mathematical And Computational Sciences",
       "chapters": 10
+    },
+    {
+      "name": "Charles Darwin: A Biography",
+      "path": "k/biographies/scientific-biographies/charles-darwin-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
+    },
+    {
+      "name": "Charlie Chaplin: A Biography",
+      "path": "k/biographies/cultural-biographies/charlie-chaplin-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
+      "chapters": 5
     },
     {
       "name": "Checking Political Claims and Statistics",
@@ -822,6 +927,13 @@
       "chapters": 4
     },
     {
+      "name": "Chinese History: Dynasties to the People's Republic",
+      "path": "k/the-sciences/history-and-anthropology/chinese-history-dynasties-to-the-peoples-republic",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
+    },
+    {
       "name": "CIA Director",
       "path": "c/executive-branch/cabinet-and-senior-officials/cia-director",
       "library": "Executive Branch",
@@ -834,6 +946,13 @@
       "library": "Historical Narratives",
       "shelf": "Civil Rights Movements",
       "chapters": 18
+    },
+    {
+      "name": "Classical Antiquity: Greece and Rome",
+      "path": "k/the-sciences/history-and-anthropology/classical-antiquity-greece-and-rome",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 12
     },
     {
       "name": "Climate Change",
@@ -941,6 +1060,13 @@
       "chapters": 1
     },
     {
+      "name": "Conservatism: Tradition, Order, and Change",
+      "path": "k/philosophy/political-philosophy/conservatism-tradition-order-and-change",
+      "library": "Philosophy",
+      "shelf": "Political Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Contemporary Art: Themes and Movements Since 1945",
       "path": "k/the-arts/visual-arts/contemporary-art-themes-and-movements-since-1945",
       "library": "The Arts",
@@ -1046,6 +1172,13 @@
       "chapters": 12
     },
     {
+      "name": "Cultural Anthropology",
+      "path": "k/the-sciences/history-and-anthropology/cultural-anthropology",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 11
+    },
+    {
       "name": "Cyprus",
       "path": "g/asia/countries/cyprus",
       "library": "Asia",
@@ -1081,6 +1214,13 @@
       "chapters": 10
     },
     {
+      "name": "Decolonization and the Post-Colonial World",
+      "path": "k/the-sciences/history-and-anthropology/decolonization-and-the-post-colonial-world",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 12
+    },
+    {
       "name": "Delaware",
       "path": "c/us-house-2026-complete/2026-states/delaware",
       "library": "Us House 2026 Complete",
@@ -1100,6 +1240,13 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
+    },
+    {
+      "name": "Democracy: Theory, Practice, and Crisis",
+      "path": "k/philosophy/political-philosophy/democracy-theory-practice-and-crisis",
+      "library": "Philosophy",
+      "shelf": "Political Philosophy",
+      "chapters": 8
     },
     {
       "name": "Democratic Republic of the Congo",
@@ -1135,6 +1282,20 @@
       "library": "Civil Infrastructures",
       "shelf": "Water",
       "chapters": 13
+    },
+    {
+      "name": "Descartes and the Birth of Modern Philosophy",
+      "path": "k/philosophy/western-philosophy/descartes-and-the-birth-of-modern-philosophy",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
+    },
+    {
+      "name": "Desmond Tutu: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/desmond-tutu-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 5
     },
     {
       "name": "Digital Art and Design: Tools and Concepts",
@@ -1291,6 +1452,13 @@
       "chapters": 12
     },
     {
+      "name": "Economic History: Trade, Capital, and Inequality",
+      "path": "k/the-sciences/history-and-anthropology/economic-history-trade-capital-and-inequality",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
+    },
+    {
       "name": "Economic Systems Compared",
       "path": "pe/ideological/economic-theories/economic-systems-compared",
       "library": "Ideological",
@@ -1340,11 +1508,25 @@
       "chapters": 12
     },
     {
+      "name": "Emmeline Pankhurst: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/emmeline-pankhurst-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 5
+    },
+    {
       "name": "Energy Science and Engineering",
       "path": "k/the-sciences/physical-sciences/energy-science-and-engineering",
       "library": "The Sciences",
       "shelf": "Physical Sciences",
       "chapters": 10
+    },
+    {
+      "name": "Environmental Ethics: Nature and Obligation",
+      "path": "k/philosophy/ethics-and-moral-philosophy/environmental-ethics-nature-and-obligation",
+      "library": "Philosophy",
+      "shelf": "Ethics And Moral Philosophy",
+      "chapters": 8
     },
     {
       "name": "EPA Administrator",
@@ -1410,6 +1592,13 @@
       "chapters": 4
     },
     {
+      "name": "Existentialism: Sartre, Beauvoir, and Camus",
+      "path": "k/philosophy/western-philosophy/existentialism-sartre-beauvoir-and-camus",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Falkland Islands",
       "path": "g/territories-and-dependencies/overseas-territories/falkland-islands",
       "library": "Territories And Dependencies",
@@ -1424,6 +1613,13 @@
       "chapters": 4
     },
     {
+      "name": "Fascism and Authoritarianism: The Anatomy of Tyranny",
+      "path": "k/philosophy/political-philosophy/fascism-and-authoritarianism-the-anatomy-of-tyranny",
+      "library": "Philosophy",
+      "shelf": "Political Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "FBI Director",
       "path": "c/executive-branch/cabinet-and-senior-officials/fbi-director",
       "library": "Executive Branch",
@@ -1436,6 +1632,13 @@
       "library": "Cultural And Identity",
       "shelf": "Estudios De La Mujer",
       "chapters": 14
+    },
+    {
+      "name": "Feminist Philosophy: From Wollstonecraft to Butler",
+      "path": "k/philosophy/western-philosophy/feminist-philosophy-from-wollstonecraft-to-butler",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
     },
     {
       "name": "Fiji",
@@ -1516,10 +1719,17 @@
     },
     {
       "name": "Franklin D. Roosevelt: A Biography",
-      "path": "k/biographies/political-biographies/franklin-d-roosevelt-a-biography",
+      "path": "k/biographies/world-leaders/franklin-d-roosevelt-a-biography",
       "library": "Biographies",
-      "shelf": "Political Biographies",
+      "shelf": "World Leaders",
       "chapters": 15
+    },
+    {
+      "name": "Frederick Douglass: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/frederick-douglass-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 5
     },
     {
       "name": "Free Speech versus Hate Speech",
@@ -1536,6 +1746,13 @@
       "chapters": 4
     },
     {
+      "name": "Frida Kahlo: A Biography",
+      "path": "k/biographies/cultural-biographies/frida-kahlo-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
+      "chapters": 5
+    },
+    {
       "name": "Future Power Systems and Energy Transition",
       "path": "i/civil-infrastructures/electrical-power-systems/future-power-systems-and-energy-transition",
       "library": "Civil Infrastructures",
@@ -1548,6 +1765,13 @@
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Galileo Galilei: A Biography",
+      "path": "k/biographies/scientific-biographies/galileo-galilei-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
     },
     {
       "name": "Gambia",
@@ -1802,6 +2026,13 @@
       "chapters": 11
     },
     {
+      "name": "Harvey Milk: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/harvey-milk-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 5
+    },
+    {
       "name": "Hawaii",
       "path": "c/us-governors-2026/2026-gubernatorial-races/hawaii",
       "library": "Us Governors 2026",
@@ -1842,6 +2073,13 @@
       "library": "Personal And Life",
       "shelf": "Health And Wellbeing",
       "chapters": 4
+    },
+    {
+      "name": "Hegel, Dialectics, and the March of History",
+      "path": "k/philosophy/western-philosophy/hegel-dialectics-and-the-march-of-history",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
     },
     {
       "name": "Hidden History: LGBTQ+ Lives Before Stonewall",
@@ -2180,6 +2418,13 @@
       "chapters": 10
     },
     {
+      "name": "Human Evolution and Migration",
+      "path": "k/the-sciences/history-and-anthropology/human-evolution-and-migration",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
+    },
+    {
       "name": "Hungary",
       "path": "g/europe/countries/hungary",
       "library": "Europe",
@@ -2276,6 +2521,13 @@
       "library": "Asia",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Indian History: Empires, Colonialism, and Independence",
+      "path": "k/the-sciences/history-and-anthropology/indian-history-empires-colonialism-and-independence",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 8
     },
     {
       "name": "Indiana",
@@ -2397,6 +2649,13 @@
       "chapters": 4
     },
     {
+      "name": "Isaac Newton: A Biography",
+      "path": "k/biographies/scientific-biographies/isaac-newton-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
+    },
+    {
       "name": "Israel",
       "path": "g/asia/countries/israel",
       "library": "Asia",
@@ -2432,11 +2691,25 @@
       "chapters": 4
     },
     {
+      "name": "Japanese History: Shoguns to Superpower",
+      "path": "k/the-sciences/history-and-anthropology/japanese-history-shoguns-to-superpower",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 9
+    },
+    {
       "name": "JD Vance: A Biography",
       "path": "c/executive-branch/president-and-vice-president/jd-vance-a-biography",
       "library": "Executive Branch",
       "shelf": "President And Vice President",
       "chapters": 14
+    },
+    {
+      "name": "Jesus of Nazareth: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/jesus-of-nazareth-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 6
     },
     {
       "name": "Jim Crow, Segregation, and Black Resistance",
@@ -2542,6 +2815,13 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
+    },
+    {
+      "name": "Kant and the Architecture of Reason",
+      "path": "k/philosophy/western-philosophy/kant-and-the-architecture-of-reason",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
     },
     {
       "name": "Kazakhstan",
@@ -2789,6 +3069,13 @@
       "chapters": 11
     },
     {
+      "name": "Liberalism: Freedom and Its Discontents",
+      "path": "k/philosophy/political-philosophy/liberalism-freedom-and-its-discontents",
+      "library": "Philosophy",
+      "shelf": "Political Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Liberia",
       "path": "g/africa/countries/liberia",
       "library": "Africa",
@@ -2936,6 +3223,13 @@
       "chapters": 4
     },
     {
+      "name": "Mahatma Gandhi: A Biography",
+      "path": "k/biographies/world-leaders/mahatma-gandhi-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 6
+    },
+    {
       "name": "Maine",
       "path": "c/us-governors-2026/2026-gubernatorial-races/maine",
       "library": "Us Governors 2026",
@@ -2969,6 +3263,13 @@
       "library": "Antarctica",
       "shelf": "Regions",
       "chapters": 4
+    },
+    {
+      "name": "Malala Yousafzai: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/malala-yousafzai-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 5
     },
     {
       "name": "Malawi",
@@ -3006,11 +3307,25 @@
       "chapters": 4
     },
     {
+      "name": "Mao Zedong: A Biography",
+      "path": "k/biographies/world-leaders/mao-zedong-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 6
+    },
+    {
       "name": "Marie Byrd Land",
       "path": "g/antarctica/regions/marie-byrd-land",
       "library": "Antarctica",
       "shelf": "Regions",
       "chapters": 4
+    },
+    {
+      "name": "Marie Curie: A Biography",
+      "path": "k/biographies/scientific-biographies/marie-curie-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
     },
     {
       "name": "Market History: Booms, Crashes, and Lessons",
@@ -3032,6 +3347,20 @@
       "library": "Oceania",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Martin Luther King Jr.: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/martin-luther-king-jr-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 6
+    },
+    {
+      "name": "Marxism: From Theory to Revolution",
+      "path": "k/philosophy/political-philosophy/marxism-from-theory-to-revolution",
+      "library": "Philosophy",
+      "shelf": "Political Philosophy",
+      "chapters": 8
     },
     {
       "name": "Maryland",
@@ -3104,6 +3433,13 @@
       "chapters": 4
     },
     {
+      "name": "Maya Angelou: A Biography",
+      "path": "k/biographies/cultural-biographies/maya-angelou-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
+      "chapters": 5
+    },
+    {
       "name": "Media, Platforms, and Deplatforming",
       "path": "e/the-20162024-maga-era-in-us-politics/after-2020-persistence-fragmentation-and-legacy/media-platforms-and-deplatforming",
       "library": "The 20162024 Maga Era In Us Politics",
@@ -3116,6 +3452,13 @@
       "library": "Cultural And Identity",
       "shelf": "Hispanic Cultures",
       "chapters": 12
+    },
+    {
+      "name": "Meta-Ethics: What Is Morality?",
+      "path": "k/philosophy/ethics-and-moral-philosophy/meta-ethics-what-is-morality",
+      "library": "Philosophy",
+      "shelf": "Ethics And Moral Philosophy",
+      "chapters": 8
     },
     {
       "name": "Mexican Americans: The Largest and Most Diverse Hispanic Community",
@@ -3370,6 +3713,13 @@
       "chapters": 10
     },
     {
+      "name": "Mustafa Kemal Atatürk: A Biography",
+      "path": "k/biographies/world-leaders/mustafa-kemal-ataturk-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 5
+    },
+    {
       "name": "Mutual Funds, ETFs, and Index Investing",
       "path": "pr/practical-knowledge/personal-finance/mutual-funds-etfs-and-index-investing",
       "library": "Practical Knowledge",
@@ -3445,6 +3795,13 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
+    },
+    {
+      "name": "Nelson Mandela: A Biography",
+      "path": "k/biographies/world-leaders/nelson-mandela-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 6
     },
     {
       "name": "Nepal",
@@ -3622,6 +3979,13 @@
       "chapters": 4
     },
     {
+      "name": "Nietzsche and the Crisis of Meaning",
+      "path": "k/philosophy/western-philosophy/nietzsche-and-the-crisis-of-meaning",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Niger",
       "path": "g/africa/countries/niger",
       "library": "Africa",
@@ -3634,6 +3998,13 @@
       "library": "Africa",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Nikola Tesla: A Biography",
+      "path": "k/biographies/scientific-biographies/nikola-tesla-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
     },
     {
       "name": "North American Philosophy-Charles Sanders Peirce",
@@ -3853,6 +4224,13 @@
       "chapters": 1
     },
     {
+      "name": "Otto von Bismarck: A Biography",
+      "path": "k/biographies/world-leaders/otto-von-bismarck-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 5
+    },
+    {
       "name": "Overcoming Loneliness",
       "path": "pr/personal-and-life/health-and-wellbeing/overcoming-loneliness",
       "library": "Personal And Life",
@@ -3871,6 +4249,13 @@
       "path": "i/digital-infrastructures/data-centers/ownership-control-and-sovereignty",
       "library": "Digital Infrastructures",
       "shelf": "Data Centers",
+      "chapters": 5
+    },
+    {
+      "name": "Pablo Picasso: A Biography",
+      "path": "k/biographies/cultural-biographies/pablo-picasso-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
       "chapters": 5
     },
     {
@@ -3986,6 +4371,13 @@
       "chapters": 4
     },
     {
+      "name": "Phenomenology: Husserl, Heidegger, and the Study of Experience",
+      "path": "k/philosophy/western-philosophy/phenomenology-husserl-heidegger-and-experience",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Philippines",
       "path": "g/asia/countries/philippines",
       "library": "Asia",
@@ -4054,6 +4446,13 @@
       "library": "Europe",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Postcolonial Political Thought: Power, Identity, and Liberation",
+      "path": "k/philosophy/political-philosophy/postcolonial-political-thought",
+      "library": "Philosophy",
+      "shelf": "Political Philosophy",
+      "chapters": 8
     },
     {
       "name": "Poverty, Inequality, and the Hispanic Middle Class",
@@ -4210,6 +4609,13 @@
       "chapters": 10
     },
     {
+      "name": "Rachel Carson: A Biography",
+      "path": "k/biographies/scientific-biographies/rachel-carson-a-biography",
+      "library": "Biographies",
+      "shelf": "Scientific Biographies",
+      "chapters": 5
+    },
+    {
       "name": "Racial Bias in U.S. Law and Policing",
       "path": "pe/contested-issues/criminal-justice-debates/racial-bias-in-u-s-law-and-policing",
       "library": "Contested Issues",
@@ -4329,6 +4735,13 @@
       "chapters": 4
     },
     {
+      "name": "Rosa Parks: A Biography",
+      "path": "k/biographies/civil-rights-and-social-change/rosa-parks-a-biography",
+      "library": "Biographies",
+      "shelf": "Civil Rights And Social Change",
+      "chapters": 5
+    },
+    {
       "name": "Ross Sea Region",
       "path": "g/antarctica/regions/ross-sea-region",
       "library": "Antarctica",
@@ -4341,6 +4754,13 @@
       "library": "Current Events",
       "shelf": "International Conflicts",
       "chapters": 4
+    },
+    {
+      "name": "Russian History: Tsars, Revolution, and Empire",
+      "path": "k/the-sciences/history-and-anthropology/russian-history-tsars-revolution-and-empire",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 9
     },
     {
       "name": "Ruth Bader Ginsburg: A Biography",
@@ -4560,6 +4980,13 @@
       "chapters": 4
     },
     {
+      "name": "Simón Bolívar: A Biography",
+      "path": "k/biographies/world-leaders/simon-bolivar-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 5
+    },
+    {
       "name": "Singapore",
       "path": "g/asia/countries/singapore",
       "library": "Asia",
@@ -4586,6 +5013,13 @@
       "library": "Executive Branch",
       "shelf": "Cabinet And Senior Officials",
       "chapters": 2
+    },
+    {
+      "name": "Social Contract Theory: Why We Obey",
+      "path": "k/philosophy/ethics-and-moral-philosophy/social-contract-theory-why-we-obey",
+      "library": "Philosophy",
+      "shelf": "Ethics And Moral Philosophy",
+      "chapters": 8
     },
     {
       "name": "Social Equality & Civil Rights",
@@ -4791,6 +5225,13 @@
       "chapters": 10
     },
     {
+      "name": "Stoicism: Philosophy as a Way of Life",
+      "path": "k/philosophy/western-philosophy/stoicism-philosophy-as-a-way-of-life",
+      "library": "Philosophy",
+      "shelf": "Western Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Stonewall and the Birth of Gay Liberation",
       "path": "pe/cultural-and-identity/lgbtq-studies/stonewall-and-gay-liberation",
       "library": "Cultural And Identity",
@@ -4945,6 +5386,13 @@
       "chapters": 4
     },
     {
+      "name": "The Age of Exploration and Colonialism",
+      "path": "k/the-sciences/history-and-anthropology/the-age-of-exploration-and-colonialism",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 12
+    },
+    {
       "name": "The Agua Caliente Cahuilla",
       "path": "pe/historical-narratives/indigenous-peoples/the-agua-caliente-cahuilla",
       "library": "Historical Narratives",
@@ -4964,6 +5412,13 @@
       "library": "Contested Issues",
       "shelf": "Labor And Work",
       "chapters": 13
+    },
+    {
+      "name": "The American Revolution and the Founding Era",
+      "path": "k/the-sciences/history-and-anthropology/the-american-revolution-and-the-founding-era",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
     },
     {
       "name": "The Arrogance That's Destroying American Power",
@@ -5015,6 +5470,20 @@
       "chapters": 12
     },
     {
+      "name": "The Chip War: Semiconductors and Global Power",
+      "path": "pe/geopolitical/asia-pacific-tensions/the-chip-war-semiconductors-and-global-power",
+      "library": "Geopolitical",
+      "shelf": "Asia Pacific Tensions",
+      "chapters": 12
+    },
+    {
+      "name": "The Cold War",
+      "path": "k/the-sciences/history-and-anthropology/the-cold-war",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 11
+    },
+    {
       "name": "The Cuban Revolution: From Batista to Bay of Pigs",
       "path": "pe/historical-narratives/us-latin-america-relations/the-cuban-revolution-from-batista-to-bay-of-pigs",
       "library": "Historical Narratives",
@@ -5041,6 +5510,13 @@
       "library": "Contested Issues",
       "shelf": "Criminal Justice Debates",
       "chapters": 8
+    },
+    {
+      "name": "The French Revolution and the Napoleonic Wars",
+      "path": "k/the-sciences/history-and-anthropology/the-french-revolution-and-the-napoleonic-wars",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
     },
     {
       "name": "The Future of Hispanic America: Demographics, Power, and Promise",
@@ -5106,10 +5582,52 @@
       "chapters": 12
     },
     {
+      "name": "The History of Law and Justice",
+      "path": "k/the-sciences/history-and-anthropology/the-history-of-law-and-justice",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
+    },
+    {
+      "name": "The History of Medicine",
+      "path": "k/the-sciences/history-and-anthropology/the-history-of-medicine",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
+    },
+    {
+      "name": "The History of Religion",
+      "path": "k/the-sciences/history-and-anthropology/the-history-of-religion",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 9
+    },
+    {
+      "name": "The History of Science: Galileo to CRISPR",
+      "path": "k/the-sciences/history-and-anthropology/the-history-of-science-galileo-to-crispr",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 10
+    },
+    {
+      "name": "The History of the Middle East",
+      "path": "k/the-sciences/history-and-anthropology/the-history-of-the-middle-east",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 8
+    },
+    {
       "name": "The Immigration Wedge: How a Policy Became a Political Weapon",
       "path": "pe/historical-narratives/us-latin-america-relations/the-immigration-wedge-how-a-policy-became-a-political-weapon",
       "library": "Historical Narratives",
       "shelf": "Us Latin America Relations",
+      "chapters": 12
+    },
+    {
+      "name": "The Industrial Revolution",
+      "path": "k/the-sciences/history-and-anthropology/the-industrial-revolution",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
       "chapters": 12
     },
     {
@@ -5132,6 +5650,13 @@
       "library": "Historical Narratives",
       "shelf": "Us Latin America Relations",
       "chapters": 13
+    },
+    {
+      "name": "The Middle Ages and the Islamic Golden Age",
+      "path": "k/the-sciences/history-and-anthropology/the-middle-ages-and-the-islamic-golden-age",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 11
     },
     {
       "name": "The New Hispanic Geography: Growth Beyond Traditional Gateways",
@@ -5251,6 +5776,13 @@
       "library": "Oceania",
       "shelf": "Countries",
       "chapters": 4
+    },
+    {
+      "name": "Toni Morrison: A Biography",
+      "path": "k/biographies/cultural-biographies/toni-morrison-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
+      "chapters": 5
     },
     {
       "name": "Tools and Techniques for Verifying Information",
@@ -5470,6 +6002,13 @@
       "chapters": 1
     },
     {
+      "name": "Utilitarianism: The Greatest Good",
+      "path": "k/philosophy/ethics-and-moral-philosophy/utilitarianism-the-greatest-good",
+      "library": "Philosophy",
+      "shelf": "Ethics And Moral Philosophy",
+      "chapters": 8
+    },
+    {
       "name": "Uzbekistan",
       "path": "g/asia/countries/uzbekistan",
       "library": "Asia",
@@ -5552,6 +6091,13 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
+    },
+    {
+      "name": "Virtue Ethics: Character and the Good Life",
+      "path": "k/philosophy/ethics-and-moral-philosophy/virtue-ethics-character-and-the-good-life",
+      "library": "Philosophy",
+      "shelf": "Ethics And Moral Philosophy",
+      "chapters": 8
     },
     {
       "name": "Wage Theft, Exploitation, and Worker Safety",
@@ -5652,6 +6198,20 @@
       "chapters": 15
     },
     {
+      "name": "William Shakespeare: A Biography",
+      "path": "k/biographies/cultural-biographies/william-shakespeare-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
+      "chapters": 5
+    },
+    {
+      "name": "Winston Churchill: A Biography",
+      "path": "k/biographies/world-leaders/winston-churchill-a-biography",
+      "library": "Biographies",
+      "shelf": "World Leaders",
+      "chapters": 7
+    },
+    {
       "name": "Wisconsin",
       "path": "c/us-governors-2026/2026-gubernatorial-races/wisconsin",
       "library": "Us Governors 2026",
@@ -5671,6 +6231,13 @@
       "library": "Us Geography",
       "shelf": "States And Territories",
       "chapters": 1
+    },
+    {
+      "name": "Wolfgang Amadeus Mozart: A Biography",
+      "path": "k/biographies/cultural-biographies/wolfgang-amadeus-mozart-a-biography",
+      "library": "Biographies",
+      "shelf": "Cultural Biographies",
+      "chapters": 5
     },
     {
       "name": "Women and the Workplace",
@@ -5716,9 +6283,9 @@
     },
     {
       "name": "Women's Rights: Centuries of Struggle",
-      "path": "k/the-sciences/history-and-anthropology/womens-rights-centuries-of-struggle",
-      "library": "The Sciences",
-      "shelf": "History And Anthropology",
+      "path": "pe/cultural-and-identity/feminism-and-equality/womens-rights-centuries-of-struggle",
+      "library": "Cultural And Identity",
+      "shelf": "Feminism And Equality",
       "chapters": 14
     },
     {
@@ -5748,6 +6315,20 @@
       "library": "The Arts",
       "shelf": "Performing Arts",
       "chapters": 10
+    },
+    {
+      "name": "World War I",
+      "path": "k/the-sciences/history-and-anthropology/world-war-i",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 12
+    },
+    {
+      "name": "World War II and the Holocaust",
+      "path": "k/the-sciences/history-and-anthropology/world-war-ii-and-the-holocaust",
+      "library": "The Sciences",
+      "shelf": "History And Anthropology",
+      "chapters": 12
     },
     {
       "name": "Wyoming",

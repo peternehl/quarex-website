@@ -1,0 +1,103 @@
+{
+  "name": "Indian History: Empires, Colonialism, and Independence",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "asia", "colonialism", "democracy", "religion", "modern-history", "ancient-history"],
+  "chapters": [
+    {
+      "name": "Ancient India: Maurya, Gupta, and the Classical Foundations",
+      "topics": [
+        "How did the Maurya Empire under Ashoka (r. 268-232 BCE) — which unified most of the Indian subcontinent for the first time — become history's most famous example of a ruler who renounced conquest after witnessing its human cost at the Battle of Kalinga?",
+        "What was the Gupta Empire (320-550 CE), and why do historians call it India's 'Golden Age' — with breakthroughs including the concept of zero, the decimal system, Aryabhata's calculation of pi, and Sanskrit literature that rivaled classical Greece?",
+        "How did the caste system (varna and jati) evolve from Vedic religious categories into a rigid social hierarchy that determined occupation, marriage, diet, and social contact for over two millennia?",
+        "What was the significance of the Buddha's rejection of the Vedic caste system in the 6th century BCE, and how did Buddhism spread from India across Asia while nearly disappearing from its birthplace?",
+        "How did ancient Indian trade networks — the 'Spice Route' connecting India to Rome, the maritime routes to Southeast Asia — make India the economic center of the ancient world, with Roman gold draining eastward for pepper, silk, and gems?",
+        "Why did the Indian subcontinent produce three of the world's major religions (Hinduism, Buddhism, Jainism) and significant philosophical traditions (Vedanta, Yoga, Nyaya logic) — and what conditions fostered this intellectual fertility?"
+      ],
+      "tags": ["history", "cultural-heritage", "ancient-history", "asia"]
+    },
+    {
+      "name": "The Delhi Sultanate and the Mughal Empire",
+      "topics": [
+        "How did the Delhi Sultanate (1206-1526) establish Muslim rule across much of northern India, and what tensions between Islamic law, Hindu majority populations, and Turkic military traditions shaped governance?",
+        "What was the Mughal Empire at its height under Akbar (r. 1556-1605) — who abolished the jizya tax on non-Muslims, married Hindu princesses, and attempted to create a syncretic 'Divine Faith' (Din-i-Ilahi) that combined elements of all religions?",
+        "How did Shah Jahan's Taj Mahal (1632-1653) — built at a cost equivalent to $827 million today by 20,000 workers — represent both the pinnacle of Mughal architecture and the imperial extravagance that weakened the empire?",
+        "Why did Aurangzeb (r. 1658-1707) reverse Akbar's religious tolerance — reimposing the jizya, destroying Hindu temples, and alienating Rajput allies — and how did these policies trigger the rebellions that fragmented the empire after his death?",
+        "How did the Maratha Confederacy (1674-1818) challenge Mughal dominance and establish Hindu political power across central and western India before being defeated by the British?",
+        "What was the Sikh Empire under Maharaja Ranjit Singh (1801-1839), and how did this kingdom — the last major power to fall to British conquest — demonstrate the military and political sophistication of non-British Indian states?"
+      ],
+      "tags": ["history", "governance", "medieval", "asia"]
+    },
+    {
+      "name": "The British Conquest: From Trading Company to Imperial Rule",
+      "topics": [
+        "How did the British East India Company transform from a trading firm into the ruler of the Indian subcontinent — a process spanning the Battle of Plassey (1757) to the formal assumption of crown rule (1858)?",
+        "What was the 'drain of wealth' theory, and how did Indian economists like Dadabhai Naoroji calculate that Britain extracted an estimated $45 trillion (in modern terms) from India over 200 years of colonial rule?",
+        "How did the Bengal Famine of 1770 (killing an estimated 10 million people) and the Great Famine of 1876-1878 (killing 5.5 million) result from British economic policies that prioritized exports over food security?",
+        "What was the Sepoy Mutiny of 1857 — a massive military rebellion that nearly expelled the British from India — and why do Indian historians call it the 'First War of Independence'?",
+        "How did British colonial education policy — Macaulay's 'Minute on Indian Education' (1835) proposing to create 'a class of persons, Indian in blood and colour, but English in taste' — reshape Indian intellectual life while fueling the independence movement?",
+        "What was the economic impact of British deindustrialization of India — from destroying the Indian textile industry to create a market for Manchester cotton, to building railways that served extraction rather than development?"
+      ],
+      "tags": ["economics", "colonialism", "modern-history", "asia"]
+    },
+    {
+      "name": "The Independence Movement: Gandhi, Nehru, and Mass Mobilization",
+      "topics": [
+        "How did Mohandas Gandhi transform India's independence movement from an elite petition campaign into a mass movement — beginning with the Salt March of 1930, when walking 240 miles to make salt became an act of revolution?",
+        "What was satyagraha ('truth-force'), and how did Gandhi's philosophy of nonviolent resistance — drawing on Tolstoy, the Sermon on the Mount, and Jain concepts of ahimsa — create a political strategy that influenced movements worldwide?",
+        "How did the Jallianwala Bagh Massacre (April 13, 1919) — when British troops fired 1,650 rounds into a trapped crowd killing at least 379 people — radicalize millions of Indians and discredit British claims of benevolent rule?",
+        "What was the Quit India Movement of 1942, and how did the British response — arresting 100,000 people and using aerial strafing against protesters — demonstrate that imperial control depended entirely on force?",
+        "How did Subhas Chandra Bose's Indian National Army — which fought alongside Japan against the British during World War II — represent an armed alternative to Gandhi's nonviolence that complicated the independence narrative?",
+        "What role did B.R. Ambedkar — the Dalit ('untouchable') leader who drafted India's constitution — play in ensuring that independence addressed caste oppression, and why did he convert to Buddhism in protest against Hinduism's caste hierarchy?"
+      ],
+      "tags": ["politics", "activism", "modern-history", "asia"]
+    },
+    {
+      "name": "Partition: Freedom at the Price of Blood",
+      "topics": [
+        "Why did the British decision to partition India into Hindu-majority India and Muslim-majority Pakistan in August 1947 produce the largest mass migration in history — 15 million refugees crossing borders in both directions?",
+        "How did communal violence during partition kill an estimated 1-2 million people — with massacres, forced conversions, abductions of women, and entire trainloads of corpses arriving at stations on both sides?",
+        "What was the role of Muhammad Ali Jinnah and the Muslim League in demanding a separate Muslim state, and could partition have been avoided if Congress had agreed to a federated structure preserving Muslim-majority provinces?",
+        "How did Mountbatten's decision to advance the independence date from June 1948 to August 1947 — giving Cyril Radcliffe just five weeks to draw borders affecting 400 million people — guarantee chaos?",
+        "What happened in Kashmir in October 1947 — tribal invasion, the Maharaja's accession to India, Indian military intervention — and how did this create a territorial dispute that has produced four wars and remains unresolved?",
+        "How did Gandhi's assassination on January 30, 1948 by a Hindu nationalist who blamed him for being too conciliatory toward Muslims reveal the forces of religious extremism that partition both reflected and unleashed?"
+      ],
+      "tags": ["conflict", "migration", "modern-history", "asia"]
+    },
+    {
+      "name": "Independent India: Democracy, Development, and Division",
+      "topics": [
+        "How did India — poor, diverse, multilingual (22 official languages), and traumatized by partition — build and sustain the world's largest democracy when comparable post-colonial states fell to dictatorship?",
+        "What was Nehru's vision of a secular, socialist, non-aligned India, and how did his policies — Five-Year Plans, state-owned heavy industry, the Non-Aligned Movement — shape India's first four decades while producing mixed economic results?",
+        "Why did Indira Gandhi declare a State of Emergency (1975-1977) — suspending civil liberties, jailing opposition leaders, and imposing forced sterilization campaigns — and what did India's subsequent restoration of democracy reveal about the resilience of its institutions?",
+        "How did the 1991 economic liberalization under Manmohan Singh — forced by a balance-of-payments crisis — transform India from a closed, state-controlled economy to one of the world's fastest-growing markets?",
+        "What is the legacy of caste in modern India — from the constitutional abolition of untouchability to affirmative action (reservations) to the persistence of caste-based discrimination and violence?",
+        "How has India's relationship with Pakistan — four wars (1947, 1965, 1971, 1999), nuclear weapons on both sides, and the ongoing Kashmir conflict — defined Indian security policy and national identity?"
+      ],
+      "tags": ["politics", "democracy", "modern-history", "asia"]
+    },
+    {
+      "name": "Hindu Nationalism and India's Identity Crisis",
+      "topics": [
+        "What is Hindutva ('Hindu-ness'), and how did the RSS (Rashtriya Swayamsevak Sangh, founded 1925) and its political wing the BJP transform Hindu identity from a religious tradition into a nationalist ideology?",
+        "How did the destruction of the Babri Masjid mosque in Ayodhya on December 6, 1992 by a Hindu mob — claiming the site was the birthplace of the god Ram — trigger riots that killed 2,000 people and mark the BJP's rise to dominance?",
+        "What has Narendra Modi's government (2014-present) done to reshape India — from economic modernization (GST, digital payments) to Hindu nationalist policies (the Citizenship Amendment Act, abrogation of Kashmir's autonomy)?",
+        "How did the Gujarat riots of 2002 — where an estimated 1,000-2,000 Muslims were killed while Modi served as state chief minister — shape both his political career and the debate over religious tolerance in India?",
+        "Why does the question 'Is India a Hindu nation or a secular republic?' define the central political divide in 21st-century India, and what would each answer mean for India's 200 million Muslims?",
+        "How has India's democratic backsliding under the BJP — press freedom restrictions, use of sedition laws against journalists, and weakening of independent institutions — challenged the narrative of India as the world's largest democracy?"
+      ],
+      "tags": ["politics", "nationalism", "modern-history", "asia"]
+    },
+    {
+      "name": "India as Global Power: Economics, Technology, and Diaspora",
+      "topics": [
+        "How did India's IT revolution — centered on Bangalore, Hyderabad, and Pune — transform the country from an agricultural economy to a global technology hub, with Indian-born CEOs leading Google, Microsoft, Adobe, and IBM?",
+        "What is India's demographic dividend — with a median age of 28 and 600 million people under 25 — and why do economists debate whether this young population will drive growth or overwhelm job markets?",
+        "How has the Indian diaspora (18 million people across 130 countries) become one of the world's most economically and politically influential emigrant communities — from Silicon Valley entrepreneurs to British prime ministers?",
+        "What is India's nuclear status — conducting tests in 1974 and 1998, maintaining an arsenal of approximately 170 warheads — and how did the US-India nuclear deal of 2005 legitimize India's weapons program outside the Non-Proliferation Treaty?",
+        "How is India navigating the US-China rivalry — purchasing Russian weapons while deepening ties with the US through the Quad alliance, maintaining trade with both sides while pursuing 'strategic autonomy'?",
+        "Why do India's persistent challenges — 800 million people on food subsidies, farmer suicides, air pollution killing 1.6 million annually, and gender-based violence — coexist with its claims to great power status?"
+      ],
+      "tags": ["economics", "diplomacy", "modern-history", "asia"]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Otto von Bismarck: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["history", "diplomacy", "governance", "conflict", "modern-history"],
+  "chapters": [
+    {
+      "name": "The Junker and the Making of a Politician (1815-1862)",
+      "topics": [
+        "Who was the young Otto von Bismarck — born into the Prussian Junker (landed nobility) class, a wild and undisciplined student, a failed bureaucrat who retreated to managing family estates — and how did this unpromising background produce the most consequential European statesman of the 19th century?",
+        "How did the Revolutions of 1848 — which swept across Europe demanding liberal constitutions and national unity — shape Bismarck's political convictions, confirming his contempt for parliamentary democracy and his belief that power, not speeches, determined political outcomes?",
+        "What did Bismarck learn as Prussian ambassador to the German Confederation (1851-1859), to Russia (1859-1862), and to France (1862) — studying the great powers from the inside, mastering the art of diplomacy, and concluding that German unification would be achieved 'by blood and iron'?",
+        "How did Bismarck become Minister President of Prussia in 1862 — appointed by King Wilhelm I during a constitutional crisis over army funding — and why did his first speech ('the great questions of the day will not be decided by speeches and majority votes but by blood and iron') terrify liberals and thrill conservatives?",
+        "What was Prussia in the mid-19th century — the most militarized state in Europe, with a powerful army, an efficient bureaucracy, and a king who ruled by divine right — and how did Bismarck turn this formidable instrument into the engine of German unification?"
+      ],
+      "tags": ["history", "governance", "politics", "modern-history"]
+    },
+    {
+      "name": "Unifying Germany by Blood and Iron (1862-1871)",
+      "topics": [
+        "How did Bismarck engineer the Danish War of 1864 — manipulating Austria into a joint invasion over the Schleswig-Holstein question — as the first step in a brilliantly calculated sequence of wars designed to unite Germany under Prussian leadership?",
+        "What was the Austro-Prussian War of 1866 — Bismarck's deliberate provocation of Austria, the decisive Prussian victory at Königgrätz in just seven weeks — and how did Bismarck's restraint in victory (generous peace terms, no territorial humiliation) demonstrate strategic genius?",
+        "How did Bismarck manipulate France into declaring the Franco-Prussian War (1870) — editing the Ems Dispatch to make it seem that King Wilhelm had insulted the French ambassador — engineering a war that would unite all German states against a common enemy?",
+        "What was the proclamation of the German Empire at Versailles (January 18, 1871) — the humiliation of France in its own palace, Wilhelm I crowned Kaiser — and how did this moment create the most powerful state in continental Europe?",
+        "Why is Bismarck's unification of Germany considered a masterwork of Realpolitik — using war, diplomacy, and manipulation to achieve in nine years what liberal nationalists had failed to achieve in decades — and what were the long-term costs of building a nation through force rather than consent?"
+      ],
+      "tags": ["history", "conflict", "diplomacy", "modern-history"]
+    },
+    {
+      "name": "The Iron Chancellor (1871-1890)",
+      "topics": [
+        "How did Bismarck govern the new German Empire — balancing the interests of Prussia and the other German states, managing a parliament he despised, and maintaining his personal dominance over both the Kaiser and the political system?",
+        "What was the Kulturkampf ('culture war,' 1871-1878) — Bismarck's campaign against the Catholic Church, including expelling Jesuits, controlling education, and imprisoning bishops — and why did it fail, teaching Bismarck that cultural wars are harder to win than military ones?",
+        "How did Bismarck create the world's first welfare state — introducing health insurance (1883), accident insurance (1884), and old-age pensions (1889) — not out of compassion but to undercut the appeal of socialism and bind workers to the state?",
+        "What was Bismarck's alliance system — the Three Emperors' League, the Dual Alliance with Austria-Hungary, the Reinsurance Treaty with Russia — designed to keep France isolated and prevent a two-front war, and how did its complexity contain the seeds of its own destruction?",
+        "How did Bismarck suppress the Social Democrats — banning the party, censoring its press, prosecuting its leaders — while simultaneously enacting social legislation that addressed workers' grievances, demonstrating his characteristic combination of repression and co-optation?"
+      ],
+      "tags": ["history", "governance", "diplomacy", "modern-history"]
+    },
+    {
+      "name": "Dismissal and the Road to World War I",
+      "topics": [
+        "Why did Kaiser Wilhelm II dismiss Bismarck in March 1890 — the young emperor wanting to rule personally, disagreeing over Russia policy and the antisocialist laws — and how did the famous Punch cartoon 'Dropping the Pilot' capture the significance of the moment?",
+        "How did Germany's foreign policy change after Bismarck — Wilhelm II's Weltpolitik (world policy), the naval arms race with Britain, the abandonment of the Reinsurance Treaty with Russia — systematically dismantling Bismarck's careful balance of power?",
+        "What did Bismarck predict would happen after his dismissal — reportedly saying 'the crash will come twenty years after my departure' (World War I began in 1914, 24 years later) — and how accurate was his foresight about the fragility of his system?",
+        "How did Bismarck spend his final years (1890-1898) — embittered, writing his memoirs, criticizing his successors, receiving pilgrimages from admirers — and how did his posthumous reputation evolve from controversial politician to national icon?",
+        "To what extent was Bismarck responsible for World War I — did his alliance system create the conditions for the catastrophe, or did the destruction of his system by his successors cause the war he had spent decades preventing?"
+      ],
+      "tags": ["history", "diplomacy", "governance", "modern-history"]
+    },
+    {
+      "name": "The Legacy of Realpolitik",
+      "topics": [
+        "What is Realpolitik — the approach to politics based on practical power rather than ideological or moral principles — and how did Bismarck's practice of it establish a tradition that runs through Kissinger, Cold War strategy, and modern geopolitics?",
+        "How did Bismarck's Germany shape the 20th century — the nation he created fought two world wars, committed the Holocaust under the Nazis, was divided in the Cold War, and reunified in 1990 — and how much of this trajectory was implicit in his choices?",
+        "Why do historians debate whether Bismarck was a genius or a gambler — his three wars could easily have gone wrong, his alliance system required constant management, and his domestic authoritarianism stunted German democracy — and does the verdict depend on where you stop the story?",
+        "How does Bismarck compare to other nation-builders — Cavour in Italy, Lincoln in America, Atatürk in Turkey, Bolívar in South America — and what distinguishes the Bismarckian model of unification through military force and elite manipulation?",
+        "What can modern statecraft learn from Bismarck — about the limits of diplomacy, the dangers of militarized politics, the importance of knowing when to stop, and the reality that even the most brilliant statesman cannot control what happens after they leave power?"
+      ],
+      "tags": ["history", "diplomacy", "leadership", "modern-history"]
+    }
+  ]
+}

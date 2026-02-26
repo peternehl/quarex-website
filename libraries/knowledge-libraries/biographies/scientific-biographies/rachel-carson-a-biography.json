@@ -1,0 +1,62 @@
+{
+  "name": "Rachel Carson: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "activism", "environment", "gender", "modern-history"],
+  "chapters": [
+    {
+      "name": "The Sea Writer (1907-1958)",
+      "topics": [
+        "Who was Rachel Carson before 'Silent Spring' — born in Springdale, Pennsylvania in 1907, raised on a 65-acre farm by a mother who taught her to love nature, a marine biologist at the US Fish and Wildlife Service, a government scientist who wrote on her own time?",
+        "How did Carson become a writer — an English major at the Pennsylvania College for Women who switched to biology, earning a master's from Johns Hopkins (1932), publishing her first article ('Undersea') in the Atlantic Monthly (1937), discovering she could make science beautiful?",
+        "How did Carson's 'The Sea Around Us' (1951) — a bestseller on the New York Times list for 86 weeks, winner of the National Book Award — demonstrate that scientific writing could be literary without sacrificing accuracy, and make a government biologist famous?",
+        "What was Carson's personal life — never married, supporting her mother and raising her nieces and grandnephew Roger after family deaths, her close relationship with Dorothy Freeman (the subject of scholarly debate about its nature), financial struggles despite literary success?",
+        "How did Carson's three sea books — 'Under the Sea-Wind' (1941), 'The Sea Around Us' (1951), 'The Edge of the Sea' (1955) — create a new genre of nature writing that combined scientific rigor with poetic prose, earning her comparisons to Thoreau?"
+      ],
+      "tags": ["science", "environment", "literature", "modern-history"]
+    },
+    {
+      "name": "The Pesticide Crisis (1958-1962)",
+      "topics": [
+        "How did Carson become aware of the pesticide crisis — a 1958 letter from Olga Owens Huckins describing dead birds after DDT spraying near her home, Carson's own growing alarm at government aerial spraying programs, her research revealing a systematic pattern of environmental destruction?",
+        "What was the state of pesticide use in postwar America — DDT hailed as a miracle chemical after World War II, applied indiscriminately to crops, forests, and suburban neighborhoods, the chemical industry's enormous political power, and the USDA actively promoting pesticide use?",
+        "How did Carson research 'Silent Spring' — four years of painstaking work, consulting hundreds of scientists, reviewing thousands of studies, documenting case after case of pesticide damage — while fighting breast cancer that she kept secret from all but her closest friends?",
+        "What did 'Silent Spring' (1962) argue — that DDT and other synthetic pesticides were accumulating in the food chain, killing birds and fish, causing cancer in humans, and that the chemical industry and government agencies were covering up the evidence?",
+        "Why was the book's title so powerful — evoking a spring without birdsong, a world silenced by poison, an absence rather than a presence — and why did this image, rather than any statistic, capture the public imagination?"
+      ],
+      "tags": ["science", "environment", "activism", "modern-history"]
+    },
+    {
+      "name": "The Counterattack: Industry vs. One Woman",
+      "topics": [
+        "How did the chemical industry attack Carson — spending an estimated $250,000 on a disinformation campaign, calling her hysterical, a Communist, an unmarried woman with no qualifications, Monsanto publishing a parody called 'The Desolate Year' imagining a world without pesticides?",
+        "Why were the attacks so gendered — a male scientist publishing the same findings would have been challenged on the science, but Carson was attacked as an emotional woman who didn't understand 'hard science' — and how did this misogyny accidentally help her cause by generating sympathy?",
+        "How did Carson respond — with meticulous science and quiet determination, appearing on CBS Reports (April 1963), calmly presenting evidence while industry spokesmen blustered, winning public opinion through credibility rather than confrontation?",
+        "How did President Kennedy respond — ordering his Science Advisory Committee to investigate Carson's claims, their report (May 1963) largely vindicating her, Kennedy himself citing her work — and why was presidential attention the turning point?",
+        "How did Carson testify before Congress in June 1963 — already visibly ill from cancer, appearing before the Senate Commerce Subcommittee, recommending new regulation of pesticides, arguing that the public had a right to know what was being sprayed on their food and their land?"
+      ],
+      "tags": ["science", "activism", "gender", "modern-history"]
+    },
+    {
+      "name": "Death and the Birth of Environmentalism (1964-1972)",
+      "topics": [
+        "How did Carson die on April 14, 1964 — of breast cancer at age 56, just 18 months after 'Silent Spring' was published — having kept her illness secret to prevent the industry from using it to discredit her work?",
+        "What legislation did 'Silent Spring' inspire — the Clean Air Act (1963), the Wilderness Act (1964), the National Environmental Policy Act (1969), the creation of the Environmental Protection Agency (1970), the ban on DDT in the United States (1972)?",
+        "How did Carson's work launch the modern environmental movement — Earth Day (first held April 22, 1970), the founding of the Environmental Defense Fund (1967) and the Natural Resources Defense Council (1970), the transformation of 'environment' from a scientific term to a political cause?",
+        "What was Carson's broader argument — not that all pesticides should be banned but that humans must recognize they are part of nature rather than masters of it, that the 'control of nature' is a phrase 'conceived in arrogance,' that ecological thinking must replace chemical warfare against the natural world?",
+        "How did the DDT ban affect public health — the complicated legacy that DDT had saved millions of lives from malaria in developing countries, the debate over whether banning it was a net positive or negative for human welfare, and why Carson herself never called for a total ban?"
+      ],
+      "tags": ["science", "environment", "governance", "modern-history"]
+    },
+    {
+      "name": "Legacy: The Woman Who Started a Movement",
+      "topics": [
+        "How has Carson been honored — the Rachel Carson National Wildlife Refuge, a postage stamp (1981), the Presidential Medal of Freedom (posthumous, 1980), Time magazine naming her one of the 100 most important people of the 20th century — and why did recognition come only after death?",
+        "How has the chemical industry continued to use Carson's playbook in reverse — the same strategies of manufactured doubt, industry-funded 'science,' attacks on individual researchers — now deployed against climate scientists, exactly as Carson experienced with pesticide researchers?",
+        "Why do some conservatives attack Carson's legacy — blaming the DDT ban for malaria deaths in Africa, calling her a mass murderer, arguing that environmental regulation kills more people than pollution — and how much of this critique is legitimate science versus industry propaganda?",
+        "What would Carson make of the 21st-century environmental crisis — climate change dwarfing pesticide contamination, PFAS 'forever chemicals' in every human bloodstream, microplastics in the ocean — and why is her central insight (that humans cannot poison the planet without poisoning themselves) more urgent than ever?",
+        "What is Carson's enduring significance — the demonstration that one scientist's courage can take on an entire industry, that writing beautifully about science is not a luxury but a necessity, and that the natural world has no lobbyists and needs human advocates?"
+      ],
+      "tags": ["science", "environment", "activism", "modern-history"]
+    }
+  ]
+}

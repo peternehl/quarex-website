@@ -1,0 +1,95 @@
+{
+  "name": "Kant and the Architecture of Reason",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["philosophy", "epistemology", "ethics", "critical-thinking", "early-modern-history"],
+  "chapters": [
+    {
+      "name": "The Prussian Clockwork: Kant's Life and Context",
+      "topics": [
+        "Who was Immanuel Kant (1724-1804) — born in Königsberg, East Prussia, never traveling more than 50 miles from home, so punctual that neighbors set their clocks by his 3:30 PM walk — and how did this provincial professor produce the most important philosophical work since Aristotle?",
+        "Why did Kant say that David Hume 'awakened him from his dogmatic slumber' — specifically Hume's argument that causation cannot be proven through reason or experience — and why did this crisis demand an entirely new approach to philosophy?",
+        "How did the 'pre-critical' Kant differ from the Kant of the three Critiques — his early work in physics and cosmology (the Kant-Laplace nebular hypothesis), his lectures on geography and anthropology — and what happened around 1770 that transformed his thinking?",
+        "What was the intellectual context Kant inherited — Newton's physics seemed to prove that the universe obeys rational laws, while Hume's skepticism seemed to prove that reason cannot justify even causation — and why was reconciling these two positions the central task of the Enlightenment?",
+        "Why did Kant take 11 years (1770-1781) to write the 'Critique of Pure Reason' — and then publish three Critiques, the 'Groundwork,' and 'Religion within the Limits of Reason Alone' in just 12 years — in one of the most concentrated bursts of philosophical genius in history?"
+      ],
+      "tags": ["philosophy", "epistemology", "history", "early-modern-history"]
+    },
+    {
+      "name": "The Copernican Revolution in Philosophy",
+      "topics": [
+        "What did Kant mean by his 'Copernican Revolution' — that instead of the mind conforming to objects (realism), objects conform to the mind's built-in categories — and why did this reversal claim to solve problems that had paralyzed philosophy for two centuries?",
+        "How do the categories of understanding — causality, substance, unity, plurality, necessity — structure all possible experience, making science possible while also limiting knowledge to the realm of appearances (phenomena)?",
+        "Why did Kant argue that space and time are not features of reality but forms of human intuition — that we cannot experience anything except in space and time, but we cannot know whether reality 'in itself' is spatial or temporal?",
+        "What are synthetic a priori judgments — statements that are both informative about the world (synthetic) and knowable without experience (a priori), like '7+5=12' — and why did Kant consider their existence proof that both rationalism and empiricism were incomplete?",
+        "How did Kant resolve the rationalist-empiricist debate — arguing that 'thoughts without content are empty, intuitions without concepts are blind' — synthesizing two centuries of argument into a framework that transcended both?"
+      ],
+      "tags": ["philosophy", "epistemology", "critical-thinking", "early-modern-history"]
+    },
+    {
+      "name": "The Limits of Knowledge: Things in Themselves",
+      "topics": [
+        "What did Kant mean by the distinction between phenomena (things as they appear to us) and noumena (things in themselves) — and why did he argue that human knowledge is necessarily limited to appearances, that reality 'behind' appearances is forever unknowable?",
+        "Why can we not prove or disprove God's existence through pure reason — Kant's demolition of the ontological, cosmological, and teleological proofs — and why did he consider this limitation liberating rather than devastating?",
+        "How did Kant handle the antinomies of pure reason — pairs of contradictory propositions that reason can prove equally well (the universe has a beginning / has no beginning; free will exists / determinism is true) — and what did these contradictions reveal about the limits of rational inquiry?",
+        "What did Kant mean by 'I had to deny knowledge in order to make room for faith' — not defending religion against science but creating a protected space where morality, freedom, and God cannot be disproved by theoretical reason?",
+        "Why did Kant's successors (Fichte, Schelling, Hegel) immediately violate his limits — claiming to know things in themselves through intellectual intuition, dialectical reason, or absolute idealism — and was this a correction or a regression?"
+      ],
+      "tags": ["philosophy", "epistemology", "spirituality", "early-modern-history"]
+    },
+    {
+      "name": "The Categorical Imperative: Morality from Reason Alone",
+      "topics": [
+        "How did Kant derive morality from pure reason — without appealing to God, happiness, consequences, or human nature — in the 'Groundwork of the Metaphysics of Morals' (1785) and the 'Critique of Practical Reason' (1788)?",
+        "What is the first formulation of the categorical imperative — 'act only according to that maxim by which you can at the same time will that it should become a universal law' — and how does universalizability alone determine whether an action is moral?",
+        "What is the second formulation — 'treat humanity, whether in your own person or in the person of any other, always at the same time as an end and never merely as a means' — and why has this become the philosophical foundation of human dignity and human rights?",
+        "How does Kant distinguish between hypothetical imperatives ('if you want X, do Y') and categorical imperatives ('do Y, period') — and why does he believe that only categorical imperatives are genuinely moral, regardless of consequences?",
+        "Why did Kant insist that moral worth requires acting from duty rather than inclination — that helping someone because you feel sorry for them has no moral value, only helping them because it's your duty — and is this the most admirable or the most inhuman demand in the history of ethics?"
+      ],
+      "tags": ["philosophy", "ethics", "human-rights", "early-modern-history"]
+    },
+    {
+      "name": "Critics of Kant: Too Rigid, Too Abstract, Too Western",
+      "topics": [
+        "Why did Kant's contemporaries immediately attack the categorical imperative — Benjamin Constant's famous objection: must you tell the truth to a murderer asking where your friend is hiding? — and how did Kant's response ('yes, you must') damage his position?",
+        "How did Hegel challenge Kant's formalism — arguing that the categorical imperative is 'empty' (it can generate any rule as long as it's universalizable) and that morality requires understanding concrete historical and social context, not abstract principles?",
+        "Why did Schopenhauer call Kant's ethics 'disguised theology' — arguing that the categorical imperative secretly depends on God (Kant's 'postulates of practical reason': God, freedom, and immortality) — and was this criticism fair?",
+        "How did feminist critics (Carol Gilligan, Virginia Held) challenge Kantian ethics — arguing that its emphasis on abstract duty and impartial rules ignores relationships, care, and the particular obligations we owe to specific people?",
+        "Why did postcolonial critics (Charles Mills, Eze Emmanuel Chukwudi) expose Kant's racism — his explicit racial hierarchy placing white Europeans at the top, his defense of colonialism — and can Kantian universalism survive the revelation that its author denied it to most of humanity?"
+      ],
+      "tags": ["philosophy", "ethics", "critical-thinking", "modern-history"]
+    },
+    {
+      "name": "Aesthetics: The Critique of Judgment",
+      "topics": [
+        "Why did Kant write a third Critique — the 'Critique of Judgment' (1790) — arguing that aesthetic experience and teleological judgment bridge the gap between the theoretical world of nature and the practical world of morality?",
+        "What did Kant mean by 'disinterested pleasure' — that genuine aesthetic experience involves no desire to possess or use the beautiful object, that beauty is appreciated for its own sake — and why did this definition shape art criticism for 200 years?",
+        "How did Kant distinguish between the beautiful and the sublime — the beautiful is bounded and harmonious; the sublime overwhelms us (vast mountains, infinite oceans, terrible storms) and reveals the superiority of reason over nature?",
+        "What is Kant's concept of 'genius' — the natural talent that gives the rule to art, that cannot be taught or learned, that produces original works that become exemplary — and how did the Romantics (Schiller, the Schlegels) radicalize this concept?",
+        "Why do contemporary aestheticians still grapple with Kant — debates about whether beauty is objective or subjective, whether art requires genius or skill, whether aesthetic experience is cognitive or emotional — all trace back to questions Kant formulated in 1790?"
+      ],
+      "tags": ["philosophy", "arts", "critical-thinking", "early-modern-history"]
+    },
+    {
+      "name": "Kant's Political Philosophy: Perpetual Peace",
+      "topics": [
+        "How did Kant's political philosophy extend his moral framework — arguing that the categorical imperative demands republican government, international law, and cosmopolitan right — in 'Perpetual Peace' (1795) and 'The Metaphysics of Morals' (1797)?",
+        "What did Kant's 'Perpetual Peace' propose — a federation of free republics, no standing armies, no interference in other states' internal affairs, universal hospitality for strangers — and how did this 1795 essay anticipate the League of Nations, the United Nations, and the European Union?",
+        "Why did Kant argue that republican (representative) government promotes peace — because citizens who bear the costs of war are less likely to vote for it than monarchs who don't — and has the 'democratic peace theory' been confirmed or refuted by subsequent history?",
+        "How did Kant's concept of cosmopolitan right — the right of every person to present themselves in foreign lands without being treated with hostility — anticipate modern debates about refugees, asylum seekers, and freedom of movement?",
+        "Why did Kant simultaneously defend Enlightenment universalism and hold explicitly racist views — writing that Black Africans could be 'educated, but only as slaves' — and what does this contradiction reveal about the Enlightenment project itself?"
+      ],
+      "tags": ["philosophy", "governance", "democracy", "early-modern-history"]
+    },
+    {
+      "name": "Kant's Legacy: The Philosopher You Cannot Avoid",
+      "topics": [
+        "Why did Kant's successors split into two camps — those who accepted his limits on knowledge (neo-Kantians, analytic philosophers) and those who tried to surpass them (Hegel, Schelling, absolute idealism) — creating a division that shapes philosophy to this day?",
+        "How did neo-Kantianism dominate late 19th-century philosophy — the Marburg School (Cohen, Natorp) and the Southwest School (Windelband, Rickert) — before being displaced by phenomenology and existentialism?",
+        "How did John Rawls revive Kantian ethics in the 20th century — using the 'veil of ignorance' as a Kantian thought experiment, grounding justice in what rational agents would choose under conditions of fairness — making Kant the dominant influence on contemporary political philosophy?",
+        "Why did Jürgen Habermas build 'discourse ethics' on Kantian foundations — arguing that the categorical imperative requires not solitary reasoning but actual dialogue among all affected parties — and how did this update address Hegel's criticism that Kant was too abstract?",
+        "Why is Kant inescapable — every philosophical position since 1781 has been defined in relation to Kant (extending him, rejecting him, trying to surpass him) — and what does it mean that the most important philosopher of the modern era was a man who never left his hometown?"
+      ],
+      "tags": ["philosophy", "ethics", "epistemology", "modern-history"]
+    }
+  ]
+}

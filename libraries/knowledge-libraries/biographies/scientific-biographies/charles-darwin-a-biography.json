@@ -1,0 +1,62 @@
+{
+  "name": "Charles Darwin: A Biography",
+  "created_by": "Peter Nehl and Claude Opus 4.6",
+  "tags": ["science", "innovation", "biology", "society", "modern-history"],
+  "chapters": [
+    {
+      "name": "The Reluctant Naturalist (1809-1831)",
+      "topics": [
+        "Who was Charles Darwin before the Beagle — born into wealth and intellectual privilege in Shrewsbury, the grandson of Erasmus Darwin (physician and poet) and Josiah Wedgwood (pottery magnate), a medical school dropout who disgusted his father, a theology student at Cambridge who spent more time collecting beetles than attending lectures?",
+        "Why did Darwin's father tell him 'you care for nothing but shooting, dogs, and rat-catching, and you will be a disgrace to yourself and all your family' — and how did this unpromising student become the most important biologist in history?",
+        "What did Darwin learn at Cambridge — not from the theology curriculum but from the naturalist John Stevens Henslow, the geologist Adam Sedgwick, and the beetle-collecting that taught him to observe, classify, and think systematically about variation?",
+        "What was the state of natural history when Darwin graduated — the dominant view that species were fixed and separately created by God, Lamarck's discredited theory of inheritance of acquired characteristics, Lyell's revolutionary geology showing the Earth was far older than the Bible suggested?",
+        "How did Darwin secure a place on HMS Beagle (1831) — recommended by Henslow, chosen as the captain's gentleman companion and unpaid naturalist — and why did his father initially forbid him from going before Uncle Josiah Wedgwood intervened?"
+      ],
+      "tags": ["science", "biology", "education", "modern-history"]
+    },
+    {
+      "name": "The Beagle Voyage (1831-1836)",
+      "topics": [
+        "What did Darwin observe during the five-year voyage — the fossils of giant extinct mammals in South America (suggesting species could disappear), the variation of mockingbirds and finches across the Galápagos Islands, the geological evidence of a constantly changing Earth?",
+        "How did Darwin's experience of slavery in Brazil — witnessing the brutality of slave markets and plantations, arguing bitterly with Captain FitzRoy who defended the institution — shape his conviction that all humans share a common origin and his lifelong abolitionism?",
+        "What was the significance of the Galápagos Islands — each island having its own species of tortoise, finch, and mockingbird, slightly different from island to island — and why did Darwin not fully grasp the implications until after he returned to England?",
+        "How did Darwin's geological observations — the raised beaches of Chile, the coral atolls of the Pacific, the earthquake he experienced in Concepción — confirm Lyell's theory of gradual geological change and lay the groundwork for his thinking about gradual biological change?",
+        "What kind of naturalist did the voyage create — meticulous, patient, willing to collect thousands of specimens, to observe before theorizing, to test every idea against evidence — and why was this temperament essential for the theory he would develop?"
+      ],
+      "tags": ["science", "biology", "exploration", "modern-history"]
+    },
+    {
+      "name": "The Long Delay: Secret Theory (1836-1858)",
+      "topics": [
+        "Why did Darwin wait over 20 years to publish his theory of evolution — from his first notebook sketch in 1837 to 'On the Origin of Species' in 1859 — and was the delay caused by scientific caution, fear of controversy, concern for his devout wife Emma, or all three?",
+        "How did Darwin develop natural selection — reading Malthus on population pressure (1838), studying pigeon breeding, corresponding with naturalists worldwide, accumulating evidence across botany, zoology, geology, and embryology — building the most comprehensive scientific argument ever assembled?",
+        "What was Darwin's domestic life during the delay — his marriage to Emma Wedgwood (his first cousin), the birth of ten children, the death of his beloved daughter Annie at age 10 in 1851 (which destroyed his remaining faith in God), and the mysterious illness that made him a semi-invalid?",
+        "How did Alfred Russel Wallace's letter of June 1858 — independently proposing natural selection while collecting specimens in the Malay Archipelago — force Darwin to finally publish, and was the joint presentation at the Linnean Society (July 1, 1858) fair to Wallace?",
+        "What was Darwin's method — not a single eureka moment but decades of patient observation, experiment, and correspondence, testing his theory against every objection he could imagine — and what does this reveal about how the most revolutionary science actually works?"
+      ],
+      "tags": ["science", "biology", "innovation", "modern-history"]
+    },
+    {
+      "name": "On the Origin of Species and the Storm (1859-1871)",
+      "topics": [
+        "What did 'On the Origin of Species' (1859) actually argue — that species are not fixed but change over time through natural selection acting on variation, that all life shares common descent — and why did Darwin deliberately avoid discussing human evolution in this book?",
+        "How did Victorian society react — the famous Oxford debate between Thomas Huxley and Bishop Samuel Wilberforce (June 30, 1860), the caricatures of Darwin as an ape, the theological crisis for believers in special creation, and the scientists who accepted evolution but rejected natural selection?",
+        "Who was Thomas Huxley — 'Darwin's bulldog,' the pugnacious defender who fought the battles Darwin's temperament would not allow, debating bishops and writing popular essays — and why did Darwin need a public champion while he worked quietly at Down House?",
+        "What did 'The Descent of Man' (1871) argue — that humans evolved from ape-like ancestors, that sexual selection drives evolution alongside natural selection, that human races share a common origin — and why was this book even more controversial than the Origin?",
+        "How did Darwin's work on other subjects — barnacles (eight years), orchids, earthworms, emotional expression in animals and humans — demonstrate that his theory of natural selection was not a single insight but a framework that illuminated every aspect of the living world?"
+      ],
+      "tags": ["science", "biology", "society", "modern-history"]
+    },
+    {
+      "name": "Legacy: The Most Important Idea in Biology",
+      "topics": [
+        "How did Darwin die on April 19, 1882 — at Down House, surrounded by family, buried in Westminster Abbey despite his agnosticism — and why did the nation honor a man whose ideas had challenged its deepest beliefs?",
+        "How has Darwin's theory been confirmed and extended — Mendelian genetics providing the mechanism he lacked, the modern evolutionary synthesis uniting genetics and natural selection, DNA revealing the molecular basis of heredity, and the fossil record filling gaps Darwin predicted would be filled?",
+        "How have Darwin's ideas been misused — Social Darwinism justifying inequality, eugenics leading to forced sterilization and Nazi racial policy, the false claim that 'survival of the fittest' means the strong should dominate the weak — and would Darwin have recognized these distortions of his work?",
+        "Why does the evolution-creationism conflict persist — from the Scopes Trial (1925) to Intelligent Design to the 40% of Americans who reject evolution today — and what does this ongoing culture war reveal about the collision between scientific evidence and religious belief?",
+        "What is Darwin's legacy — the most important idea in the history of biology, the framework that unifies all life sciences, the insight that connects every living thing on Earth through common descent — and why did he call the entangled bank of life 'grandeur in this view'?"
+      ],
+      "tags": ["science", "biology", "society", "modern-history"]
+    }
+  ]
+}
