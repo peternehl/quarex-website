@@ -109,185 +109,54 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://quarex.org/blog/posts/the-day-the-chips-stop.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/trump-wedge-issues-zero-sum-politics.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/racism-in-the-us-from-prejudice-to-structure.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/how-ai-can-improve-your-life.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/why-abortion-feminism-discrimination-same-fight.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/how-to-cope-with-aging.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/job-seeking-and-job-interviewing.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/current-status-of-israel-palestine-and-the-gaza-war.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://quarex.org/blog/posts/empires-aftershocks-colonial-borders-modern-conflicts.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://quarex.org/blog/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-
-  <!-- Knowable Online -->
-  <url>
-    <loc>https://quarex.org/knowableonline/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/knowableonline/what-is-quarex.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/knowableonline/libraries-shelves-and-books.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/knowableonline/nonpartisan-design.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/knowableonline/what-is-a-quarex-book.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/knowableonline/what-is-a-syllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/knowableonline/question-driven-architecture.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Public Studies -->
-  <url>
-    <loc>https://quarex.org/publicstudies/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/WomensStudiesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/BlackStudiesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/HispanicCulturesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/HispanicExperienceTodaySyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/HispanicContributionsSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/EstudiosLatinosSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/EstudiosDeLaMujerSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/USLatinAmericaRelationsSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/LGBTQStudiesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/AIStudiesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/MediaStudiesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/VisualArtsSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/PerformingArtsSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/LiteraryStudiesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/InfrastructureEngineeringSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/AmericanPoliticalDebatesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/PoliticalAccountabilitySyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/TheTrumpEraSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/MoneyMarketsPowerSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/InvestingForRegularPeopleSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/SystemDocumentationSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/JobHuntingCareerSkillsSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/ModernLifeSkillsSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/publicstudies/LaborStudiesSyllabus.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Election sites -->
-  <url>
-    <loc>https://quarex.org/election2026/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quarex.org/elecciones2026/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
 
   <!-- Reports -->
@@ -307,6 +176,13 @@
     <loc>https://quarex.org/tools/zip-lookup.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <!-- Compose -->
+  <url>
+    <loc>https://quarex.org/compose/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <!-- Help -->
